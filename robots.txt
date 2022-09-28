@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://hut.ao/Snap.Hutao.Docs/sitemap.xml
