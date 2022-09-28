@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://hut.ao/Snap.Hutao.Docs/sitemap.xml
+Sitemap: https://hut.ao/sitemap.xml
