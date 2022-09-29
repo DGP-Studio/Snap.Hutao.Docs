@@ -26,12 +26,12 @@ features:
   - title: 祈愿记录
     icon: /images/202209/IndexIconWish.png
     details: 支持多UID切换，从游戏日志文件获取或从其它祈愿记录程序导出数据，永久保留玩家的祈愿记录
-    link: /documents/features/wish-export.md
+    link: /features/wish-export.md
 
   - title: 成就记录
     icon: /images/202209/IndexIconAchievements.png
     details: 成就统计功能允许玩家导出成就数据并在游戏外进行统计；基于成就拆分，玩家可以对隐藏成就的阶段性目标进行管理
-    link: /documents/features/achievements.md
+    link: /features/achievements.md
 
 
 copyright: false
