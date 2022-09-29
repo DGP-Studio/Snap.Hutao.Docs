@@ -2,6 +2,8 @@
 
 胡桃工具箱是一个正在开发的程序，其将继承 Snap Genshin 中的全部功能，并添加更多的功能。
 
+## 功能迁移
+
 已经完成迁移的功能将会在本站文档中提供指导说明，功能迁移和开发进度可以参阅下方表格
 
 | 功能          | <img src="https://www.snapgenshin.com/logo/SGLogo.png" width="25" height="25"> Snap Genshin | <img src="https://image.snapgenshin.com/imgs/2022/09/27/fcb0499a6892c46f.png" width="25" height="25"> Snap Hutao |
@@ -21,3 +23,8 @@
 | 玩家查询        |                                                                                        ✔ 正常 |                                                  🚫 功能尚未迁移/ 计划中                                                  |
 | 自定义网页       |                                                                                        ✔ 正常 |                                                  🚫 功能尚未迁移/ 计划中                                                  |
 | 插件管理        |                                                                                        ✔ 正常 |                                                  🚫 功能尚未迁移/ 计划中                                                  |
+
+## 新增功能
+
+相较于 Snap Genshin， 以下功能会被增加到胡桃工具箱中
+- 祈愿记录云端备份
