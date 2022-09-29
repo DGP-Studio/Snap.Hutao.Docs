@@ -15,6 +15,13 @@ export const zhSidebar = sidebar({
           children: "structure"
       },
       {
+          icon: "ask",
+          text: "常见问题",
+          prefix: "documents/FAQ/",
+          children: ["most-frequent-questions.md", "Gacha-system-and-export-principal.md"]
+          //children: "structure"
+      },
+      {
           icon: "article",
           text: "声明和公告",
           prefix: "documents/statements/",
