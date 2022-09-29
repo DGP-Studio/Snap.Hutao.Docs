@@ -5,7 +5,7 @@ headerDepth: 0
 # 原神祈愿记录导出 
 
 ![wish-export-sample](/images/202209/wish-export.png)
-有关原神祈愿记录导出的技术原理，你可以参阅我们的[**祈愿系统与导出原理**](/documents/FAQ/Gacha-system-and-export-principal.md)一文
+有关原神祈愿记录导出的技术原理，你可以参阅我们的[**祈愿系统与导出原理**](/FAQ/Gacha-system-and-export-principal.md)一文
 
 ## 从原神服务器获取最新的祈愿记录
 - 打开原神游戏本体，进入祈愿界面，点击 `历史记录`
