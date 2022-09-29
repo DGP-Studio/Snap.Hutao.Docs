@@ -8,8 +8,6 @@ externalLinkIcon: false
 |-|-|
 |**最低可运行系统版本**|Windows 10 1803 (10.0.17763.0)|
 |**推荐系统版本**|Windows 11 21H2 - 10.0.22000.0|
-|运行时**最低兼容版本**|.NET Desktop Runtime 6.0.2|
-|运行时**推荐版本**|.NET Desktop Runtime 6.0.5|
 |可选组件|WebView2 Runtime|
 
 

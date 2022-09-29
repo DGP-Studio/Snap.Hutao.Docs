@@ -19,15 +19,6 @@ headerDepth: 0
 - 请求增加或更新文档  
   [DGP-Studio/Snap.Hutao.Docs](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new)
 
-- 胡桃数据库网页问题  
-  [DGP-Studio/Snap.Genshin.HutaoWeb](https://github.com/DGP-Studio/Snap.Genshin.HutaoWeb/issues)
-
-- 网页 API 问题  
-  [DGP-Studio/Snap.Genshin.WebAPI](https://github.com/DGP-Studio/Snap.Genshin.WebAPI/issues)
-
-- 胡桃数据库 API 问题  
-  [DGP-Studio/Snap.Genshin.Website](https://github.com/DGP-Studio/Snap.Genshin.Website/issues)
-
 ## 其它途径
 
 你也可以在QQ群中反馈问题，但这不是第一选项。

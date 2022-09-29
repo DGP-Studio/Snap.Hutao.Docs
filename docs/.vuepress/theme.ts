@@ -30,7 +30,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "Be the best Genshin Impact tool",
 
       displayFooter: true,
 
@@ -49,7 +49,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "做最好的原神工具",
 
       displayFooter: true,
 
