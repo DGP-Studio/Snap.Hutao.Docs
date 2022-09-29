@@ -20,6 +20,8 @@ export default hopeTheme({
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
+  docsRepo: "DGP-Studio/Snap.Hutao.Docs",
+
   locales: {
     "/en/": {
       // navbar
