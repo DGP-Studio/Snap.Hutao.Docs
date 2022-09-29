@@ -4,18 +4,28 @@ export const enSidebar = sidebar({
   "/en/": [
     "",
     {
-      icon: "discover",
-      text: "Demo",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
+      icon: "play",
+      text: "快速开始",
+      link: "quick-start.md"
     },
     {
-      text: "Docs",
-      icon: "note",
-      prefix: "guide/",
-      children: "structure",
+      icon: "read",
+      text: "功能指南",
+      prefix: "/features/README.md",
+      children: "structure"
     },
-    "slides",
+    {
+      icon: "ask",
+      text: "常见问题",
+      prefix: "/FAQ/README.md",
+      children: ["most-frequent-questions.md", "Gacha-system-and-export-principal.md"]
+      //children: "structure"
+    },
+    {
+      icon: "article",
+      text: "声明和公告",
+      prefix: "/statements/README.md",
+      children: "structure"
+    }
   ],
 });

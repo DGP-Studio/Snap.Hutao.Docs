@@ -6,7 +6,7 @@ export const enNavbar = navbar([
   {
     text: "文档",
     icon: "documents",
-    link: "/documents/"
+    link: "/features/README.md"
   },
   {
     text: "GitHub",

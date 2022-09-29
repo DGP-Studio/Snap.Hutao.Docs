@@ -13,7 +13,7 @@ actions:
   - text: 快速开始
     link: /quick-start.md
   - text: 文档
-    link: /documents/
+    link: /features/
   - text: 项目进度
     link: project.md
 

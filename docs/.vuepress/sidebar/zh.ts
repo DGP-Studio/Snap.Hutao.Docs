@@ -11,20 +11,20 @@ export const zhSidebar = sidebar({
       {
           icon: "read",
           text: "功能指南",
-          prefix: "documents/features/",
+          prefix: "/features/",
           children: "structure"
       },
       {
           icon: "ask",
           text: "常见问题",
-          prefix: "documents/FAQ/",
+          prefix: "/FAQ/",
           //children: ["most-frequent-questions.md", "Gacha-system-and-export-principal.md"]
           children: "structure"
       },
       {
           icon: "article",
           text: "声明和公告",
-          prefix: "documents/statements/",
+          prefix: "/statements/",
           children: "structure"
       }
   ],

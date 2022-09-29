@@ -7,13 +7,13 @@ heroText: 胡桃工具箱
 tagline: 一个实用的多功能原神工具箱
 actions:
   - text: 下载
-    link: https://go.hut.ao/archive
+    link: https://go.hut.ao/down
     type: primary
 
   - text: 快速开始
     link: /quick-start.md
   - text: 文档
-    link: /documents/
+    link: /features/
   - text: 项目进度
     link: project.md
 
