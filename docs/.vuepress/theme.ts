@@ -16,11 +16,11 @@ export default hopeTheme({
 
   repo: "DGP-Studio/Snap.Hutao",
 
-  docsDir: "demo/theme-docs/src",
-
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   docsRepo: "DGP-Studio/Snap.Hutao.Docs",
+
+  docsDir: "docs",
 
   locales: {
     "/en/": {
