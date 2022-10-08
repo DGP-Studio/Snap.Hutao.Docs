@@ -18,3 +18,7 @@ headerDepth: 2
 2. 参考快速开始文档，使用 PowerShell 运行 `Install.ps1` 安装文件
 
 ![Microsoft.WindowsAppRuntime.1.2-preview2 Installed](/images/202210/1.1.7-Update-Error-Fix.png)
+
+## 1.1.7+ 版本无法拖动窗口
+在胡桃工具箱 1.1.7 或更高版本中，当你使用 Windows 10 系统时，窗口无法拖动或双击最大化。此为已知问题。
+如需移动窗口，可以尝试先缩小胡桃工具箱窗口再移动窗口。
