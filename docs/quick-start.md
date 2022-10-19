@@ -15,7 +15,7 @@ externalLinkIcon: false
 
 胡桃工具箱目前处于测试阶段，不断地将 Snap Genshin 的功能迁移至胡桃工具箱中。你可以在 GitHub 项目发布页面和我们的网盘中下载到最新的测试版程序
 - [从 GitHub 下载 ](https://github.com/DGP-Studio/Snap.Hutao/releases/)
-- [从网盘下载 ](http://a15.travelly.store:8905/DGPStudio/)
+- [从网盘下载 ](https://go.hut.ao/down)
 
 ## 安装胡桃工具箱
 - 在系统设置中打开`开发者设置`界面，勾选 `开发人员模式` 和 `允许 PowerShell 脚本`
