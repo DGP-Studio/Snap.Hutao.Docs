@@ -12,6 +12,7 @@ headerDepth: 2
 在胡桃工具箱 1.1.7 或更高版本中，当你使用 Windows 10 系统时，窗口无法拖动或双击最大化。此为已知问题。
 - 此问题参考https://github.com/microsoft/WindowsAppSDK/issues/2976
 - 此问题已在Snap.Hutao_1.1.21.0版本得到初步解决
+  - Windows 10 系统需要至少更新至`19041版本`
 
 ## 其他问题的通用排查方式
 当您在使用时遇到本文档全部未提及的问题时，可参考以下内容自行排查：
