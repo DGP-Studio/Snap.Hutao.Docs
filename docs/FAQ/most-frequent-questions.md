@@ -14,6 +14,13 @@ headerDepth: 2
 - 此问题已在Snap.Hutao_1.1.21.0版本得到初步解决
   - Windows 10 系统需要至少更新至`19041版本`
 
+## 当用户具有多个祈愿记录存档时，可能出现无法点选切换至其他UID对应存档的情况
+
+- 该问题是微软的UI判定问题，详情请见：
+  - https://github.com/microsoft/microsoft-ui-xaml/issues/7756
+
+- 发生此种情况时，可使用键盘选定其他存档（待验证）
+
 ## 其他问题的通用排查方式
 当您在使用时遇到本文档全部未提及的问题时，可参考以下内容自行排查：
 若下列全部内容未能解决您的问题，请移步[该页面](https://hut.ao/statements/bug-report.html)
