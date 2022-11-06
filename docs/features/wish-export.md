@@ -2,7 +2,7 @@
 headerDepth: 0
 ---
 
-# 原神祈愿记录导出 
+# 获取原神祈愿记录 
 
 ![wish-export-sample](/images/202209/wish-export.png)
 有关原神祈愿记录导出的技术原理，你可以参阅我们的[**祈愿系统与导出原理**](/FAQ/Gacha-system-and-export-principal.md)一文
