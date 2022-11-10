@@ -33,6 +33,11 @@ features:
     details: 成就统计功能允许玩家导出成就数据并在游戏外进行统计；基于成就拆分，玩家可以对隐藏成就的阶段性目标进行管理
     link: /features/achievements.md
 
+  - title: 高级启动器
+    icon: /images/202211/game-launcher-logo.png
+    details: 利用胡桃工具箱中的高级启动器，玩家可以轻松地切换原神帐号，切换服务器，修改游戏窗口设置并进一步探索更多高级功能
+    link: /features/game-launcher.md
+
 
 copyright: false
 footer: MIT Licensed | Copyright © 2019-present Mr.Hope
