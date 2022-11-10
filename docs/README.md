@@ -38,6 +38,20 @@ features:
     details: 利用胡桃工具箱中的高级启动器，玩家可以轻松地切换原神帐号，切换服务器，修改游戏窗口设置并进一步探索更多高级功能
     link: /features/game-launcher.md
 
+  - title: 胡桃数据库
+    icon: /images/202211/hutao-api-logo.png
+    details: 查看玩家社区当期深境螺旋配队、武器搭配、圣遗物搭配的详细信息；分享自己的深境螺旋阵容配置
+    link: /features/hutao-api.md
+
+  - title: 属性统计
+    icon: /images/202211/character-data-logo.png
+    details: 查看玩家所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；自动计算圣遗物评分和双爆评分
+    link: /features/character-data.md
+
+  - title: 角色资料
+    icon: /images/202211/character-wiki-logo.png
+    details: 查询角色的数值信息；天赋、命之座数据；培养材料；角色背景故事等信息
+    link: /features/character-wiki.md
 
 copyright: false
 footer: MIT Licensed | Copyright © 2019-present Mr.Hope
