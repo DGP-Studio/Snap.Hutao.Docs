@@ -17,19 +17,37 @@ export const zhSidebar = sidebar({
           icon: "read",
           text: "功能指南",
           prefix: "features/",
-          children: "structure"
+          children: [
+            "README" ,
+            "game-launcher" ,
+            "wish-export" ,
+            "daily-notes" ,
+            "achievements" ,
+            "character-data" ,
+            "hutao-API" ,
+            "character-wiki" ,
+          ],
       },
       {
           icon: "ask",
           text: "常见问题",
           prefix: "FAQ/",
-          children: "structure"
+          children: [
+            "most-frequent-questions" ,
+            "mihoyo-risk-tip" ,
+            "artifact-rating-rules" ,
+            "Gacha-system-and-export-principal" ,
+            "HttpRequestException" ,
+          ],
       },
       {
           icon: "article",
           text: "声明和公告",
           prefix: "statements/",
-          children: "structure"
+          children: [
+            "bug-report" ,
+            "privacy-statement" ,
+          ],
       }
   ],
 });
