@@ -18,7 +18,7 @@ export const zhSidebar = sidebar({
           text: "功能指南",
           prefix: "features/",
           children: [
-            "README" ,
+            "features" ,
             "game-launcher" ,
             "wish-export" ,
             "daily-notes" ,
