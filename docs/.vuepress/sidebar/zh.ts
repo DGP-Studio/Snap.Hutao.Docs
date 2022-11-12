@@ -18,6 +18,7 @@ export const zhSidebar = sidebar({
           text: "功能指南",
           prefix: "features/",
           children: [
+            "mhy-account-switch" ,
             "game-launcher" ,
             "wish-export" ,
             "daily-notes" ,
