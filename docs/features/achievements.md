@@ -26,7 +26,7 @@ headerDepth: 0
 请知悉：下述的成就识别工具并非我方开发，但均已附带项目链接，请自行查看与使用
 :::
 
-- **[YaeAchievement](https://github.com/HolographicHat/YaeAchievement)<Badge text="推荐用于成就导出" type="tip" />
+- **[YaeAchievement](https://github.com/HolographicHat/YaeAchievement)<Badge text="推荐用于成就导出" type="tip" />**
 
-- **[椰羊cocogoat](https://cocogoat.work/)<Badge text="便于查阅对应攻略" type="tip" />
+- **[椰羊cocogoat](https://cocogoat.work/)<Badge text="便于查阅对应攻略" type="tip" />**
 
