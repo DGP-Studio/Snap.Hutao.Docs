@@ -6,7 +6,8 @@ headerDepth: 0
 
 ::: tip
 - 在设置完毕启动游戏所需的附加选项后，点击右下角的`启动游戏`按钮即可
-- 选择游戏路径时，请注意此处选择的应是游戏本身，形如："$somewhere$\Genshin Impact\Genshin Impact Game\YuanShen.exe"
+- 选择游戏路径时，请注意此处选择的应是游戏本身
+    - 形如："$\Genshin Impact\Genshin Impact Game\YuanShen.exe"
 :::
 
 ## 切换服务器
