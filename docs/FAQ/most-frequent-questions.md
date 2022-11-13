@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 ---
 
 # 快速解答
@@ -47,6 +47,11 @@ headerDepth: 0
   - 可以下载 `Segoe Fluent Icons`字体
   - 安装时选择`为系统所有用户安装`，即可解决问题
 - 您可以从 [微软官方](https://aka.ms/SegoeFluentIcons)下载到该字体文件
+
+## 弹出需要使用新应用的对话框
+- 部分用户在使用期间频繁自动弹出"需要使用新应用以打开此Hutao链接"的对话框
+- 请打开`任务计划程序`（可以在开始菜单直接搜索到）
+- 删掉`SnapHutaoDailyNoteRefreshTask`任务计划
 
 ## **便笺**刷新间隔无法更改
 - 部分用户可能出现**实时便笺**刷新间隔时间的更改**无法实际生效**的情况
