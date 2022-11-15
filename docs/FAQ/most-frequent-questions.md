@@ -72,11 +72,22 @@ headerDepth: 2
 ## 其他问题的通用排查方式
 当您在使用时遇到本文档**全部未提及**的问题时，可参考以下内容自行排查：
 
-- 尝试使用**管理员模式**重新打开胡桃工具箱(此过程可以配合重启系统，反复进行)
+- 尝试使用`管理员模式`重新打开胡桃工具箱(此过程可以配合重启系统进行)   
 
-- 暂时关闭电脑中的杀毒软件（部分杀软会在旁加载、获取Cookie、操作注册表等过程中，视其为威胁，静默干预）（可能包含Windows Defender）
+- 用`管理员模式`打开`胡桃工具箱`后，存在用户出现`胡桃的相关进程`被打开，但只显示于`任务管理器`的情况，此时可检查任务管理器中有无`胡桃`进程残留
 
-- [**可选**]导出祈愿记录保存，在电脑中打开`%userprofile%/documents/hutao`目录，将此目录清空，重新[安装](https://hut.ao/quick-start.html)后，检查功能是否恢复
+- 暂时关闭电脑中的杀毒软件（部分杀软会在旁加载、获取Cookie、操作注册表等过程中，视其为威胁，静默干预）（可能包含Windows Defender）   
 
-若上述方法仍然无法解决你的问题，请[创建工单](https://hut.ao/statements/bug-report.html)
+- [**可选**]导出祈愿记录保存，在电脑中打开`%userprofile%/documents/hutao`目录，将此目录清空，重新[安装](https://hut.ao/quick-start.html)后，检查功能是否恢复       
+     
+      
+::: tip
+- [LTSC 和 LTSB 版本的操作系统](https://hut.ao/quick-start.html#footnote1)不在我们的支持范围内，请自行解决或[使用普通版本的系统](https://hut.ao/quick-start.html#%E6%9C%80%E4%BD%8E%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82)   
+
+- 若上述方法 均无法解决你的问题，请[创建工单](https://hut.ao/statements/bug-report.html)，开发者将尽力协助
+:::
+
+
+
+
 
