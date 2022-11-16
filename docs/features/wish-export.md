@@ -2,7 +2,9 @@
 headerDepth: 0
 ---
 
-# 祈愿记录导出
+# 祈愿记录   
+
+## 祈愿记录的导出
 
 ![祈愿导出](/images/202211/wish-export.png)
 
