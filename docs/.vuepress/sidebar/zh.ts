@@ -45,8 +45,8 @@ export const zhSidebar = sidebar({
           text: "声明和公告",
           prefix: "statements/",
           children: [
-            "bug-report" ,
             "privacy-statement" ,
+            "bug-report" ,
           ],
       }
   ],
