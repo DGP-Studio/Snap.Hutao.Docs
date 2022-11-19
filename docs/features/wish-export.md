@@ -24,6 +24,12 @@ headerDepth: 0
 - 等待祈愿记录获取完成
   - 若上述步骤出现问题，可尝试**重新打开胡桃**
   - 如果你通过`其它工具`获取到了你祈愿历史记录的Url，可以选择`手动输入Url`并根据提示操作，但应注意此类Url**具有时效性**，随时可能过期
+::: tip
+若出现`从缓存刷新`功能异常的情况：
+- 请进入游戏路径的Cache文件夹
+  - 该文件夹路径形如："$\Genshin Impact\Genshin Impact Game\YuanShen_Data\webCaches\Cache"   
+- 删除该目录下的"Cache_Data"文件夹
+:::
 
 ## 利用Stoken从服务器获取最新的祈愿记录
    
