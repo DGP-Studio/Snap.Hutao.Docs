@@ -11,17 +11,23 @@ headerDepth: 0
 ## 添加一个新的米游社帐号
 
 - 在程序主界面的左下角，设置的上方管理你的米游社帐号。在弹出的面板中你可以
-  - 选择通过内置浏览器登录
+  - 点击"登录"按钮
+  - 点击"网页米游社"按钮
+  - 在弹出的内置浏览器中登录米游社账号
+    - 您也可以通过点击"手动输入"按钮，直接输入米游社 Cookie 来添加你的米游社帐号至胡桃工具箱
+  - 在弹出的内置浏览器登陆成功后，点击右上角的"我已登陆"按钮
     - 部分杀毒软件可能会对获取到的Cookie进行静默处理，导致Cookie不完整，如有此类错误提示，请自行关闭并重试
-  - 或直接输入米游社 Cookie 来添加你的米游社帐号至胡桃工具箱
-        - **在登录帐号时，你应该使用浏览器的隐身模式登录米游社，而不是退出你当前的米游社帐号**
-- 完成后，你就可以在帐号管理面板切换已登录的米游社帐号了
+  - 完成后，您就可以在帐号管理面板切换已登录的米游社帐号了
+     
+![登录账号1 2 2](https://user-images.githubusercontent.com/96916320/202895703-8d9c9d75-f466-4882-80cd-724ddd3134d3.png)   
 
-![米游社多帐号切换](/images/202210/hutao-login.png)
-
-## 如何获取 Cookie
+## 如何自行获取 Cookie
 
 ### 浏览器书签
+
+::: warning
+请注意：此方法目前暂时弃用，等待后续更新
+:::
 
 - 将 <a href="javascript:(()=>{_=(n)=>{for(i in(r=document.cookie.split(';'))){var a=r[i].split('=');if(a[0].trim()==n)return a[1]}};c=_('account_id')||alert('无效的 Cookie , 请重新登录!');c&&navigator.clipboard.writeText(document.cookie)&&alert(' Cookie 已经成功获取, 点击确定将 Cookie 复制到剪贴板。')})();" class="badge tip" style="padding: .25rem .5rem;border-radius: .25rem;font-size: .85rem;">米游社·获取Cookie</a> 添加为浏览器书签
   - 你可以直接拖动上方绿色方块中的链接到你的书签栏来执行该步骤
@@ -32,6 +38,10 @@ headerDepth: 0
 - 点击确定， Cookie 就被复制到剪贴板了
 
 ### 控制台执行脚本
+
+::: warning
+请注意：此方法目前暂时弃用，等待后续更新
+:::
 
 ```javascript
 (() => {
@@ -59,3 +69,4 @@ headerDepth: 0
 * 但是当用户在浏览器或其它设备上**注销帐号**后， 维持登录状态的 Cookie 将**失效**。
 * 这会导致胡桃工具箱上的米游社帐号在启动后被自动移除。
 * 此情况也可能因为网络连接问题导致无法检查Cookie有效性，故出现此情况后请优先重启胡桃工具箱。
+* 自2022年10月起，米游社极大地提高了账号被判定为有风险的概率，[账号有风险](https://hut.ao/FAQ/mihoyo-risk-tip.html)时亦会令Cookie无法被识别为有效状态
