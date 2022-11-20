@@ -19,7 +19,8 @@ headerDepth: 0
     - 部分杀毒软件可能会对获取到的Cookie进行静默处理，导致Cookie不完整，如有此类错误提示，请自行关闭并重试
   - 完成后，您就可以在帐号管理面板切换已登录的米游社帐号了
      
-![登录账号1 2 2](https://user-images.githubusercontent.com/96916320/202895703-8d9c9d75-f466-4882-80cd-724ddd3134d3.png)   
+![登录账号1 2 2](https://user-images.githubusercontent.com/96916320/202895849-1a1aea5a-f4b2-4bb1-822a-0ae72544ea6d.png)
+
 
 ## 如何自行获取 Cookie
 
