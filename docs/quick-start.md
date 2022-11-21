@@ -3,6 +3,12 @@ pageClass: link-box
 externalLinkIcon: false
 ---
 # 快速开始
+   
+::: tip
+- 开始前，请仔细阅读[用户使用协议和法律声明](http://law.cn-emsc.com/)
+- 若已下载或使用"胡桃工具箱",即表示你已阅读并完全同意前述用户协议
+:::   
+   
 ## 最低系统要求
 |要求|规格|
 |-|-|
