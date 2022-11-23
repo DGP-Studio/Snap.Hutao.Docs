@@ -22,48 +22,56 @@ headerDepth: 0
 ![登录账号1 2 2](https://user-images.githubusercontent.com/96916320/202895849-1a1aea5a-f4b2-4bb1-822a-0ae72544ea6d.png)
 
 
-## 如何自行获取 Cookie
-
-### 浏览器书签
+## 如何将Cookie升级至Stoken状态 (获取Stoken)
 
 ::: warning
-请注意：此方法目前暂时弃用，等待后续更新
+- 请注意：Stoken、login_ticket等字段，均为敏感数据，使用时请自行斟酌
+- 以下获取步骤中需要用到的软件(Android端和iOS端)资源均来源于互联网，与Snap.Hutao项目无关
+- 本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关
 :::
 
-- 将 <a href="javascript:(()=>{_=(n)=>{for(i in(r=document.cookie.split(';'))){var a=r[i].split('=');if(a[0].trim()==n)return a[1]}};c=_('account_id')||alert('无效的 Cookie , 请重新登录!');c&&navigator.clipboard.writeText(document.cookie)&&alert(' Cookie 已经成功获取, 点击确定将 Cookie 复制到剪贴板。')})();" class="badge tip" style="padding: .25rem .5rem;border-radius: .25rem;font-size: .85rem;">米游社·获取Cookie</a> 添加为浏览器书签
-  - 你可以直接拖动上方绿色方块中的链接到你的书签栏来执行该步骤
+### 安卓(Android)用户使用"GetToken"
 
-- 在无痕窗口中打开 [米游社](https://bbs.mihoyo.com/ys) ，登录帐号
-- 点击添加的书签
-- 此时，你的米游社 Cookie 应该会显示在弹出的窗口中
-- 点击确定， Cookie 就被复制到剪贴板了
-
-### 控制台执行脚本
-
-::: warning
-请注意：此方法目前暂时弃用，等待后续更新
+::: tip
+- 项目名称：[HolographicHat/GetToken](https://github.com/HolographicHat/GetToken)   
+   
+- 下载地址：[网盘](https://cloud.06dn.com/s/97qvuv) / [Github](https://github.com/HolographicHat/GetToken/suites/9459325490/artifacts/447737971)
 :::
 
-```javascript
-(() => {
-    _ = (n) => {
-        for (i in (r = document.cookie.split(';'))) {
-            var a = r[i].split('=');
-            if (a[0].trim() == n)
-                return a[1]
-        }
-    };
-    c = _('account_id') || alert('无效的 Cookie , 请重新登录!');
-    if(c)
-        console.log(document.cookie) 
-    c && navigator.clipboard.writeText(document.cookie) && alert(' Cookie 已经成功获取, 点击确定将 Cookie 复制到剪贴板。如果未复制入剪贴板请手动复制下方的文字。')
-})()
-```
+- 首先先下载安装上述名为"GetToken.apk"的Android安装包
+  - 若在手机中安装，可能需要先卸载手机上原有的米游社App
+  - 您也可在电脑上的任意安卓模拟器或Android子系统中安装
 
-- 启动浏览器，打开米游社并登录
-- 按F12打开浏览器控制台
-- 执行上方的代码，即可获取你的米游社 Cookie
+- 安装后打开，在底栏点击"我的"，然后登录您的通行证
+- 在右上角点击`形如🔑形状的按钮`
+- 点击勾选"Stoken"选项
+- 点击`复制登录信息`
+- 将复制到的"Stoken"发送到已经安装了`胡桃工具箱`的电脑
+- 在`胡桃工具箱`中的账号登录位置，点击`手动输入`
+  - 注意：您需要已经在胡桃内登录完成米游社账号
+- 将之前获取到的"Stoken"输入，此时即可完成登录
+   
+::: tip
+- `胡桃1.2.3版本`用户，请手动删除"ltuid"和"ltoken"字段，以便让胡桃能成功识别
+- 请等待更新，胡桃在下版本将不再需要用户手动删除上述字段
+- 上述的"Stoken"所指代的是含有"Stoken"字段的米游社Cookie，为了让用户更容易理解使用步骤，故对此表述做出了简化
+:::   
+   
+### 苹果(iOS)用户使用"Surge"
 
+- 在应用商店中下载"Surge"应用
+
+- 对域名"api-takumi.mihoyo.com"进行抓包分析
+- 找到并复制带有Stoken的数据
+  - 形如`stuid=****;stoken=v2****;mid=****;`
+
+- 将复制到的"Stoken"发送到已经安装了`胡桃工具箱`的电脑
+- 在`胡桃工具箱`中的账号登录位置，点击`手动输入`
+  - 注意：您需要已经在胡桃内登录完成米游社账号
+- 将之前获取到的"Stoken"输入，此时即可完成登录
+   
+- 若您在此过程中遇到困难，建议使用上一条中的"GetToken"方法获取Stoken
+   
 ## 常见问题：米游社帐号登录状态经常失效，添加的帐号消失
 
 * 我们通过储存帐号的米游社 Cookie 来维持登录状态。
