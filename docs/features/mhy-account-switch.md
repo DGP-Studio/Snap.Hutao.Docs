@@ -26,11 +26,11 @@ headerDepth: 0
 
 ::: warning
 - 请注意：Stoken、login_ticket等字段，均为敏感数据，使用时请自行斟酌
-- 以下获取步骤中需要用到的软件(Android端和iOS端)资源均来源于互联网，与Snap.Hutao项目无关
+- 以下步骤中涉及的软件、开源项目等资源均来源于互联网，与[DGP-Studio开发团队](https://github.com/DGP-Studio)无关
 - 本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关
 :::
 
-### 安卓(Android)用户使用"GetToken"
+### 安卓(Android)用户使用"GetToken"获取Stoken
 
 ::: tip
 - 项目名称：[HolographicHat/GetToken](https://github.com/HolographicHat/GetToken)   
@@ -48,7 +48,7 @@ headerDepth: 0
 - 点击`复制登录信息`
 - 将复制到的"Stoken"发送到已经安装了`胡桃工具箱`的电脑
 - 在`胡桃工具箱`中的账号登录位置，点击`手动输入`
-  - 注意：您需要已经在胡桃内登录完成米游社账号
+  - 注意：您需要**已经**把您需要"升级Stoken状态"的米游社账号，在"胡桃"内登录完毕
 - 将之前获取到的"Stoken"输入，此时即可完成登录
    
 ::: tip
@@ -57,7 +57,7 @@ headerDepth: 0
 - 上述的"Stoken"所指代的是含有"Stoken"字段的米游社Cookie，为了让用户更容易理解使用步骤，故对此表述做出了简化
 :::   
    
-### 苹果(iOS)用户使用"Surge"
+### 苹果(iOS)用户使用"Surge"获取Stoken
 
 - 在应用商店中下载"Surge"应用
 
@@ -67,7 +67,7 @@ headerDepth: 0
 
 - 将复制到的"Stoken"发送到已经安装了`胡桃工具箱`的电脑
 - 在`胡桃工具箱`中的账号登录位置，点击`手动输入`
-  - 注意：您需要已经在胡桃内登录完成米游社账号
+  - 注意：您需要**已经**把您需要"升级Stoken状态"的米游社账号，在"胡桃"内登录完毕
 - 将之前获取到的"Stoken"输入，此时即可完成登录
    
 - 若您在此过程中遇到困难，建议使用上一条中的"GetToken"方法获取Stoken
