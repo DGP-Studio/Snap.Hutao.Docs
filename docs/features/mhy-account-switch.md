@@ -35,7 +35,7 @@ headerDepth: 0
 ::: tip
 - 项目名称：[HolographicHat/GetToken](https://github.com/HolographicHat/GetToken)   
    
-- 下载地址：[网盘](https://cloud.06dn.com/s/97qvuv) / [Github](https://github.com/HolographicHat/GetToken/suites/9459325490/artifacts/447737971)
+- 下载地址：[网盘](https://cloud.06dn.com/api/v3/file/source/177385/GetToken.apk?sign=SvNw2wnAr6-syIbI4xeGWMV2w7rqBfSzNnOUo2ZnPm8%3D%3A0) / [Github](https://github.com/HolographicHat/GetToken/suites/9459325490/artifacts/447737971)
 :::
 
 - 首先先下载安装上述名为"GetToken.apk"的Android安装包
