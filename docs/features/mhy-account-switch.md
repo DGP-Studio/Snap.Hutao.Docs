@@ -57,9 +57,9 @@ headerDepth: 0
 - 上述的"Stoken"所指代的是含有"Stoken"字段的米游社Cookie，为了让用户更容易理解使用步骤，故对此表述做出了简化
 :::   
    
-### 苹果(iOS)用户使用"Surge"获取Stoken
+### 苹果(iOS)用户使用"stream"获取Stoken
 
-- 在应用商店中下载"Surge"应用
+- 在应用商店中下载"stream"应用
 
 - 对域名"api-takumi.mihoyo.com"进行抓包分析
 - 找到并复制带有Stoken的数据
