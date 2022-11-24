@@ -20,8 +20,7 @@ headerDepth: 0
   - 完成后，您就可以在帐号管理面板切换已登录的米游社帐号了
     - 新添加米游社账号后，需在主界面左下角切换账号的功能中，手动点击一次新登录的账号，以将其设置为使用状态
 
-![登录账号1 2 2](https://user-images.githubusercontent.com/96916320/202895849-1a1aea5a-f4b2-4bb1-822a-0ae72544ea6d.png)
-
+![1 2 4登录界面](https://user-images.githubusercontent.com/96916320/203706964-4ba7f526-1bee-4d19-9ef6-3dc5036e8f53.png)
 
 ## 如何自行获取含有Stoken的Cookie
 
