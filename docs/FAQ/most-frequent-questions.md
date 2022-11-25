@@ -68,7 +68,7 @@ headerDepth: 2
 ## 弹出需要使用新应用的对话框
 - 部分用户在**更新**或**卸载**胡桃后，频繁自动弹出`需要使用新应用以打开此Hutao链接`的对话框
 - 请打开`任务计划程序`（可以在开始菜单直接搜索到）
-- 删掉`SnapHutaoDailyNoteRefreshTask`任务计划
+- 找到并删除`SnapHutaoDailyNoteRefreshTask`任务计划
 
 ## 点击复制Cookie的按钮时出现错误
 - 部分用户点击复制按钮时出现**如图所示**的错误
