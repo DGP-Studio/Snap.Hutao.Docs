@@ -68,7 +68,7 @@ headerDepth: 2
 - 请打开`任务计划程序`（可以在开始菜单直接搜索到）
 - 找到并删除`SnapHutaoDailyNoteRefreshTask`任务计划
 
-## 点击复制Cookie的按钮时出现错误
+## 点击复制Cookie按钮时出现错误
 - 部分用户点击复制按钮时出现**如图所示**的错误
 ![image](https://user-images.githubusercontent.com/96916320/203735041-02ff9c3b-6ebc-4018-99ca-0393393e0646.png)
 - 这是由于此时**有其他进程打开了剪贴板**，如果胡桃的权限等级**不高于**该应用，则会出现此种情况
@@ -79,6 +79,10 @@ headerDepth: 2
   - 首先，您应该先按[通用安装方式](https://hut.ao/quick-start.html#%E9%80%9A%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F)中的步骤进行，并确保开启了开发者模式中的Powershell有关选项
   - 您可能需要先卸载当前已安装的`胡桃工具箱`：在`开始菜单`中右键点击`胡桃`，选择`卸载`
   - 与Microsoft.WindowsAppRuntime有关的错误：[参考此issue](https://github.com/DGP-Studio/Snap.Hutao/issues/201)
+
+## 胡桃为什么不能最小化到托盘
+- 胡桃作为[WinUI3框架](https://learn.microsoft.com/zh-cn/windows/apps/winui/winui3/)的Windows应用，截至目前的开发进程，无法做到这一点
+- 若您有解决方案，请在[项目](https://github.com/DGP-Studio/Snap.Hutao/pulls)中发起`pull requests`
 
 ## 其他问题的通用排查方式
 当您在使用时遇到本文档**全部未提及**的问题时，可参考以下内容自行排查：
