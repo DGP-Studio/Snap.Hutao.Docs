@@ -21,7 +21,7 @@ externalLinkIcon: false
 
 胡桃工具箱目前处于测试阶段，不断地将 Snap Genshin 的功能迁移至胡桃工具箱中。你可以在 GitHub 项目发布页面和我们的网盘中下载到最新的测试版程序
 - [从 GitHub 下载 ](https://github.com/DGP-Studio/Snap.Hutao/releases/)
-- [从网盘下载](https://go.hut.ao/down)
+- [从网盘下载](https://cloud.06dn.com/s/pkAJUg)
   - 您下载的`包含安装程序的压缩文件`名如`Snap.Hutao_*_x64.zip`字样
 
 ## 安装胡桃工具箱
