@@ -51,5 +51,9 @@ externalLinkIcon: false
 ## 升级胡桃工具箱
 - 解压你下载的最新版本压缩包
 - 重复`安装胡桃工具箱`的步骤
+   - 若您安装失败或出现异常情况，可参考如下步骤
+      - 先卸载已经安装的`胡桃工具箱`
+      - 可以按[此说明](https://hut.ao/FAQ/most-frequent-questions.html#%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86)清理任务计划程序
+      - 可参考[此条issue](https://github.com/DGP-Studio/Snap.Hutao/issues/201)内容与相关排除故障的方法
 
 [^first]: LTSC 和 LTSB 版本系统不在支持列表中，但它们可以在修改系统模块后使用胡桃工具箱。请联系你的 IT 管理员或微软官方以获取支持。
