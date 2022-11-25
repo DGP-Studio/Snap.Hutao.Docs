@@ -10,7 +10,7 @@ headerDepth: 0
 - 在提交问题时，你应当尽可能地详细描述问题。如果有错误的截图，也应该提供。这有利于问题排查并加速问题修复。
   - 一个可以参考的非常正面的例子是 [DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
 - 如果你有能力在代码层面修复该问题，也欢迎你直接在对应的项目中发起 PR。
-- 若反馈内容包含程序崩溃等不正常运行的情形，请在电脑中打开`%userprofile%/documents/hutao`目录，在GitHub[发布Issue](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)，将`Log.db`文件与发生的问题一并提交
+- 若反馈内容包含程序崩溃等不正常运行的情形，请在电脑中打开`%userprofile%/documents/hutao`目录，在GitHub[发布Issue](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)，将`Log.db`文件、`Userdata.db`文件与发生的问题一并提交
 
 ### 客户端问题
   - 在提交问题前，请务必检查文档内是否已包含了你的问题
