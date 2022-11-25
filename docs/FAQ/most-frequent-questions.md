@@ -25,12 +25,10 @@ headerDepth: 2
 ## 管理员模式选项无法启动胡桃   
    暂未发现此种情况的产生原因，您可以尝试：
 - 请勿直接在"WindowsApps"文件夹中启动`Snap.Hutao.exe`或启动其发送到其他位置的`快捷方式`
-- 重新启动电脑<Badge text="推荐" type="tip" />
+- 重新启动电脑
 - 查看`任务管理器`中是否有`胡桃`进程残留，将其关闭
 - [**可选**]导出祈愿记录保存，在电脑中打开`%userprofile%/documents/hutao`目录，将此目录清空，重新[安装](https://hut.ao/quick-start.html)后，检查功能是否恢复
-- [**可选**]删除相关任务计划：
-  - 打开`任务计划程序`（可以在开始菜单直接搜索到）
-  - 删掉`SnapHutaoDailyNoteRefreshTask`任务计划  
+- [**可选**][卸载胡桃](https://hut.ao/quick-start.html#%E5%8D%B8%E8%BD%BD%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1)，并**按卸载有关文档**删除相关任务计划后，重新安装[最新版本](https://go.hut.ao/down)
 
 ## Windows 10 下无法拖动窗口
 在胡桃工具箱 1.1.7 或更高版本中，当你使用 Windows 10 系统时，窗口无法拖动或双击最大化。此为已知问题。
