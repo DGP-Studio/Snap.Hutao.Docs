@@ -30,6 +30,14 @@ headerDepth: 2
 - [**可选**]导出祈愿记录保存，在电脑中打开`%userprofile%/documents/hutao`目录，将此目录清空，重新[安装](https://hut.ao/quick-start.html)后，检查功能是否恢复
 - [**可选**][卸载胡桃](https://hut.ao/quick-start.html#%E5%8D%B8%E8%BD%BD%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1)，并**按卸载有关文档**删除相关任务计划后，重新安装[最新版本](https://go.hut.ao/down)
 
+## 能否默认以管理员模式启动胡桃
+- 首先请参考：https://github.com/DGP-Studio/Snap.Hutao/issues/184
+- 若无法访问Github，此处进行简要概括
+  - 由于msix包的限制，胡桃作为Windows App，不能默认管理员启动
+  - 但可以通过命令行做到，可执行如下Poweshell脚本，令胡桃以管理员模式启动：
+    - Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdrr!App -verb runas
+- 综上所述，请自行参考[上述issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184)
+
 ## Windows 10 下无法拖动窗口
 在胡桃工具箱 1.1.7 或更高版本中，当你使用 Windows 10 系统时，窗口无法拖动或双击最大化。此为已知问题。
 - 关于此问题的出现原因，请参考：[WindowsAppSDK/issues/2976](https://github.com/microsoft/WindowsAppSDK/issues/2976)
