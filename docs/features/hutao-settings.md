@@ -67,7 +67,8 @@ headerDepth: 0
         - 回到"文件资源管理器"
         - 将此时的`log.db`文件复制到其他位置，并[随issue一同提交](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose) 
              
-    - 该功能的正常使用界面： 
+    - 该功能的正常使用界面：
+             
        ![米游社每日签到 ](https://user-images.githubusercontent.com/96916320/204124996-5a2e33a2-4660-4f99-b7fe-05b5d9b438a3.png)
           
 ## 上传深渊数据
