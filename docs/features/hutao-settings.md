@@ -1,5 +1,5 @@
 ---
-headerDepth: 2
+headerDepth: 0
 ---
 
 # 软件设置
