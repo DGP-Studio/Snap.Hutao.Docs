@@ -64,13 +64,25 @@ externalLinkIcon: false
       - 可参考[此条issue](https://github.com/DGP-Studio/Snap.Hutao/issues/201)内容与相关排除故障的方法
 
 ## 卸载胡桃工具箱
-- 打开`开始菜单`
+- 卸载软件
+   - 打开`开始菜单`
    - 找到或搜索到`胡桃`
-   - 右键点击`胡桃`，并选择`卸载`
-- 打开`任务计划程序`（可以在开始菜单直接搜索到）
-   - 找到并删除`SnapHutaoDailyNoteRefreshTask`任务计划（若存在）
-- 卸载完成
-- **胡桃**一直以尽可能快的速度**逐步完善功能与用户体验**，若您对胡桃工具箱有**任何意见和建议**，都可以在[Github的issue](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)与[兔小巢反馈渠道](https://support.qq.com/product/451231)中向我们告知，开发者及团队将于**第一时间**回复，感谢您一直以来对原神开源工具的支持
-
-   
-[^first]: LTSC 和 LTSB 版本系统不在支持列表中，但它们可以在修改系统模块后使用胡桃工具箱。请联系你的 IT 管理员或微软官方以获取支持。
+   - 右键点击`胡桃`，并选择`卸载`  
+           
+- 清除有关的任务计划
+   - 请**使用管理员模式**[打开"终端"](https://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E4%BB%A5%E7%AE%A1%E7%90%86%E5%91%98%E6%A8%A1%E5%BC%8F%E6%89%93%E5%BC%80%E7%BB%88%E7%AB%AF)
+   - 输入如下代码并运行，以删除残留的计划任务
+```
+ schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
+```  
+           
+- 清除有关的文件夹
+   - 打开并删除该文件夹:"%userprofile%/Documents/Hutao"  
+           
+- 卸载完成  
+           
+- **胡桃**一直以尽可能快的速度**逐步完善功能与用户体验**，若您对胡桃工具箱有**任何意见和建议**，都可以在[Github的issue](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)与[兔小巢反馈渠道](https://support.qq.com/product/451231)中向我们告知，开发者及团队将于**第一时间**回复，感谢您一直以来对原神开源工具的支持  
+           
+           
+[^first]: LTSC 和 LTSB 版本系统不在支持列表中，但它们可以在修改系统模块后使用胡桃工具箱。请联系你的 IT 管理员或微软官方以获取支持。  
+           
