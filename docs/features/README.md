@@ -7,3 +7,5 @@
 - [属性统计](character-data.md)
 - [胡桃数据库](hutao-API.md)
 - [角色资料](character-wiki.md)
+- [武器资料](weapon-wiki.md)
+- [设置选项](hutao-settings.md)

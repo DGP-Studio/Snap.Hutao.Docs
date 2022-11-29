@@ -26,6 +26,7 @@ export const zhSidebar = sidebar({
             "character-data" ,
             "hutao-API" ,
             "character-wiki" ,
+            "weapon-wiki" ,
             "hutao-settings" ,
           ],
       },
