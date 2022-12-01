@@ -19,7 +19,7 @@ headerDepth: 0
     - 目前可选的服务器为`官方服|天空岛`与`渠道服|世界树`
         - 若需切换至世界树服务器，则应将[PCGameSDK.dll 文件](https://cloud.06dn.com/api/v3/file/source/179514/PCGameSDK.dll?sign=dbF4NoPqrSemUlbugtU71iYk1IZaW7JHQK9TbHMBTNg%3D%3A0)放入"Plugins"文件夹中
             - 该目录的路径形如"$:\Genshin Impact\Genshin Impact Game\YuanShen_Data\Plugins"
-        - 若下载到的`PCGameSDK.dll 文件`的文件名中有其他字符，建议将其修改成"PCGameSDK.dll"
+        - 若下载到的`PCGameSDK.dll 文件`的文件名中有其他字符，建议将其重命名为"PCGameSDK.dll"，以防止读取错误
         - 若需要切换不同的服务器，须确保`以管理员模式启动`"胡桃工具箱"
 
 ## 账号保存
