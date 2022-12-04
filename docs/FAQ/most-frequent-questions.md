@@ -37,6 +37,12 @@ headerDepth: 2
   - 但可以通过命令行做到，可执行如下Poweshell脚本，令胡桃以管理员模式启动：
     - Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdrr!App -verb runas
 - 综上所述，请自行参考[上述issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184)
+
+## 能否让胡桃工具箱开机自动启动
+- 请参考如下思路
+          - 可以自行创建一个批处理文件，内容参考[此issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184)中，令胡桃以管理员模式直接运行的命令。
+          - 设置一个**计划任务程序**令上述批处理文件开机自启，或将上述批处理文件加入**启动项**中
+- 或有其他令胡桃工具箱可开机自启的思路，可自行探索
           
 ## Windows 10 下无法拖动窗口
 在胡桃工具箱 1.1.7 或更高版本中，当你使用 Windows 10 系统时，窗口无法拖动或双击最大化。此为已知问题。
