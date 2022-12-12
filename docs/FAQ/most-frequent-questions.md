@@ -82,6 +82,14 @@ headerDepth: 2
   - https://github.com/microsoft/microsoft-ui-xaml/issues/7756
 - 发生此种情况时，可使用`键盘`操作，以选定其他UID对应的祈愿记录存档
 
+## 在设置中点击修改游戏路径无效   
+- 部分用户会在设置中点击`设置路径`按钮时**无反应**
+- 解决方式：
+  - 关闭"胡桃工具箱"
+  - **不使用**管理员模式启动"胡桃工具箱"
+  - 若仍未解决问题，可[卸载](https://hut.ao/quick-start.html#%E5%8D%B8%E8%BD%BD%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1)后重新[安装最新版本](https://cloud.06dn.com/s/Ke6JhO)再试
+  - 若上述步骤均未解决问题，则此情况可能为[微软的UI判定问题](https://github.com/microsoft/microsoft-ui-xaml/issues/7756)  
+         
 ## Win10系统下出现乱码现象
 - 当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
   - 可以下载 `Segoe Fluent Icons`字体
