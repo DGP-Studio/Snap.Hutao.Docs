@@ -24,7 +24,7 @@ export const zhSidebar = sidebar({
             "daily-notes" ,
             "achievements" ,
             "character-data" ,
-            "develop-plan.md" ,
+            "develop-plan" ,
             "hutao-API" ,
             "character-wiki" ,
             "weapon-wiki" ,
