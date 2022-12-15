@@ -2,8 +2,13 @@
 headerDepth: 0
 ---
 
-# 养成计划  
+# 养成计划   
      
+## 图片示例：  
+   
+![yangchengjihua](https://user-images.githubusercontent.com/96916320/207942889-0a4bce2f-1eb0-4ce2-969e-5d519aa09ea0.png)   
+   
+  
 ## 材料清单  
     
 ### 角色培养 材料清单  
