@@ -79,7 +79,7 @@ headerDepth: 2
 - 考虑到部分用户的网络环境特殊(如校园网环境)，现提供了完全下载完成的元数据文件以供直接放入缓存文件夹：
   - 打开"胡桃工具箱"的设置
   - 找到`打开 缓存 文件夹`的选项，点击`打开`按钮
-  - 在[此链接](https://cloud.06dn.com/api/v3/file/source/186145/ImageCache.zip?sign=2EsW8KKLE59ku223zGbP4q-e0YujENsM2csSZrKTS-s%3D%3A0)下载元数据文件，将解压后的文件直接覆盖进上一步打开的`缓存文件夹`  
+  - 在[此链接](https://cloud.06dn.com/api/v3/file/source/186145/ImageCache.zip?sign=2EsW8KKLE59ku223zGbP4q-e0YujENsM2csSZrKTS-s%3D%3A0)下载元数据文件，将解压后的`ImageCache`文件夹，直接覆盖上一步打开的`缓存文件夹`中的`ImageCache`文件夹
   - 将之前打开的"胡桃工具箱"、"缓存文件夹"等全部关闭，重新打开"胡桃工具箱"即可  
   
 ## 胡桃的内存占用量有问题   
