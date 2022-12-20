@@ -46,7 +46,7 @@ headerDepth: 0
 ::: tip
 - 项目名称：[HolographicHat/GetToken](https://github.com/HolographicHat/GetToken)   
    
-- 下载地址：[网盘](https://cloud.06dn.com/api/v3/file/source/186032/GetToken.apk?sign=AD6DWNOgBi_ZVe3stID_jDT76Gue9qI5Nw63n-dgq2s%3D%3A0) / [Github](https://github.com/HolographicHat/GetToken/releases/download/2.42.1/miyoushe-361-lspatched.apk)
+- 下载地址：[网盘](https://cloud.06dn.com/api/v3/file/source/187740/GetToken.apk?sign=KpG5hzFpkjZtts-J2DHMWPewIu_aokl4fKD_U3XIJrQ%3D%3A0) / [Github](https://github.com/HolographicHat/GetToken/releases/download/2.42.1/miyoushe-361-lspatched.apk)
 :::  
   
 - 首先先下载安装上述名为"GetToken.apk"的Android安装包  
