@@ -25,12 +25,15 @@ headerDepth: 0
   - 完成后，您就可以在帐号管理面板切换已登录的米游社帐号了
     - 新添加米游社账号后，需在主界面左下角切换账号的功能中，手动点击一次新登录的账号，以将其设置为使用状态  
     
-
-    
+   
+       
 ## 如何自行获取含有Stoken的Cookie  
     
-- 当您在"胡桃工具箱"中正常添加了账号，则账号的Cookie中已经具有了Stoken字段，无需再进行此方法  
-- 若您有自行获取含有Stoken的Cookie的意愿，可参考以下思路  
+- 若您目前**只需要登入一个**账号，则无需考虑本条目，直接在胡桃工具箱中登入自己的米游社通行证账号即可  
+    
+- 如您在使用最新版本，在"胡桃工具箱"中正常添加了账号，则此时账号的Cookie中已经具有了Stoken字段，无需再进行此方法    
+     
+- 若您有自行获取含有Stoken的Cookie的意愿，可参考以下思路：  
     
 ::: warning
 - 请注意：Stoken、login_ticket等字段，均为敏感数据，使用时请自行斟酌
@@ -39,7 +42,7 @@ headerDepth: 0
 :::   
     
 ### 安卓(Android)用户使用"GetToken"获取Stoken  
-  
+   
 ::: tip
 - 项目名称：[HolographicHat/GetToken](https://github.com/HolographicHat/GetToken)   
    
