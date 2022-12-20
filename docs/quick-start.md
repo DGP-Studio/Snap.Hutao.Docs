@@ -54,23 +54,25 @@ externalLinkIcon: false
       - 可以按[此说明](https://hut.ao/FAQ/most-frequent-questions.html#%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86)清理任务计划程序
       - 可参考[此条issue](https://github.com/DGP-Studio/Snap.Hutao/issues/201)内容与相关排除故障的方法
 
-## 卸载胡桃工具箱
+## 卸载胡桃工具箱  
+    
+- 清除有关的任务计划
+   - 请**使用管理员模式**打开"胡桃工具箱"
+   - 打开"设置"
+   - 滑动至最下方，查看"危险功能"
+   - 在"删除所有计划任务"一栏中，点击右侧的"执行"按钮  
+    
 - 卸载软件
    - 打开`开始菜单`
    - 找到或搜索到`胡桃`
    - 右键点击`胡桃`，并选择`卸载`  
-           
-- 清除有关的任务计划
-   - 请**使用管理员模式**[打开"终端"](https://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E4%BB%A5%E7%AE%A1%E7%90%86%E5%91%98%E6%A8%A1%E5%BC%8F%E6%89%93%E5%BC%80%E7%BB%88%E7%AB%AF)
-   - 输入如下代码并运行，以删除残留的计划任务
-```
- schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
-```  
-           
-- 清除有关的文件夹
+  
+- 若您仅需要[重新安装](https://hut.ao/quick-start.html#%E9%80%9A%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F)"胡桃工具箱"，则到此步骤**已可以发起[重新安装](https://hut.ao/quick-start.html#%E9%80%9A%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F)**  
+  
+- 清除有关的文件夹(若需完全卸载)  
    - 打开并删除该文件夹:"%userprofile%/Documents/Hutao"  
            
-- 卸载完成  
+- 完全卸载完成  
            
 - **胡桃**一直以尽可能快的速度**逐步完善功能与用户体验**，若您对胡桃工具箱有**任何意见和建议**，都可以在[Github的issue](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)与[兔小巢反馈渠道](https://support.qq.com/product/451231)中向我们告知，开发者及团队将于**第一时间**回复，感谢您一直以来对原神开源工具的支持  
            
