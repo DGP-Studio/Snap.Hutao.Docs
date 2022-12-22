@@ -41,7 +41,7 @@ headerDepth: 0
 
 - 上传成功后你会看到如下提示
 
-  ![hutao-api 提交数据](/images/202210/hutao-api-submit.png)
+  ![uploadhutaoapi](https://user-images.githubusercontent.com/96916320/209092490-d567a4aa-3581-4b65-bab0-9097c231eed6.png)
 
 [^first]: 角色持有数据与深境螺旋记录独立
 
