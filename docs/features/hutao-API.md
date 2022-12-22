@@ -39,7 +39,7 @@ headerDepth: 0
 
 - 等待**胡桃**获取你当前的`深境螺旋数据`
 
-- 上传成功后你会看到如下提示
+- 图片示例如下：
 
   ![uploadhutaoapi](https://user-images.githubusercontent.com/96916320/209092490-d567a4aa-3581-4b65-bab0-9097c231eed6.png)
 
