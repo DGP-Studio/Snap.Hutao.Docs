@@ -86,6 +86,25 @@ Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdr
   - 在[此链接](https://cloud.06dn.com/api/v3/file/source/186145/ImageCache.zip?sign=2EsW8KKLE59ku223zGbP4q-e0YujENsM2csSZrKTS-s%3D%3A0)下载元数据文件，将解压后的`ImageCache`文件夹，直接覆盖上一步打开的`缓存文件夹`中的`ImageCache`文件夹
   - 将之前打开的"胡桃工具箱"、"缓存文件夹"等全部关闭，重新打开"胡桃工具箱"即可  
   
+## 养成计划功能添加出现异常  
+    
+- 更新至最新版本后，部分用户出现如下情况：  
+  - 在"我的角色、角色资料、武器资料"功能页面点击添加了养成计划，返回至"养成计划"功能后，无显示
+    - 注意：此种情况的前提是您已在"养成计划"功能内创建了养成计划存档
+  - 使用养成计划有关功能时，"胡桃工具箱"无响应或闪退  
+     
+- 若你出现了上述情况，请参考如下解决方法：  
+  - 检查"养成计划"功能中，是否已经创建了多个养成计划的存档，尝试切换至其他存档，或创建再删除一个存档，再重试本功能
+    - ![U$M9@RGU_2K18UJE1@PMRMG](https://user-images.githubusercontent.com/96916320/209475816-33a89489-8919-4ecd-a7e0-802e4e0b555c.png)
+  - 卸载"胡桃工具箱"后再次安装，查看是否已解决问题
+    - 若卸载"胡桃工具箱"后再次安装，上述问题仍未解决，可参考如下操作：    
+      - 卸载先前安装的"胡桃工具箱"
+      - 通过`get-appxpackage appruntime`命令，找到之前的`WindowsAppRuntime`
+      - 进行`remove-appxpackage -Package`操作
+      - 此操作旨在移除目前已安装的`WindowsAppRuntime`
+      - 再次以`通用安装方式`安装"胡桃工具箱"  
+ 
+    
 ## 胡桃的内存占用量有问题   
            
 - 由于内存回收机制，当用户达到一个较高的内存占用率后，内存才会被开始回收
@@ -121,6 +140,14 @@ Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdr
   - 安装时选择`为系统所有用户安装`，即可解决问题
 - 您可以从 [微软官方](https://aka.ms/SegoeFluentIcons)下载到该字体文件  
           
+## 使用时游戏出现无响应或掉帧
+- 部分用户在游戏期间，多次出现游戏无响应、卡顿、大幅度掉帧等情况
+- 请注意，此种情形是原神游戏的现版本常见问题，与用胡桃工具箱启动游戏、解锁帧率、以及使用更高帧率进行游戏无关
+- 经过大量的反馈参考，此种情形目前同时存在于`锁定60帧的PC及移动端`、`解锁帧率上限的PC端`、`具有120hz刷新率选项的移动端`等全部客户端中，基本确定与本项目以及解锁帧率无关
+- 关于解锁帧率情形的补充说明，请参考[如下文档](https://hut.ao/features/game-launcher.html#%E8%A7%A3%E9%94%81%E5%B8%A7%E7%8E%87%E4%B8%8A%E9%99%90)  
+- 综上所述，若您在本版本的原神游戏过程中出现了此问题，可尝试**规避使用容易出现游戏问题的角色**，以进一步确定此种问题的发生逻辑
+- 若您对类问题有额外的逻辑解释，请将有关信息发布至issue，反馈方式参考[此文档](https://hut.ao/statements/bug-report.html)，感谢您的理解与支持  
+          
 ## 弹出需要使用新应用的对话框  
   
 - 部分用户在**更新**或**卸载**胡桃后，频繁自动弹出`需要使用新应用以打开此Hutao链接`的对话框
@@ -144,13 +171,25 @@ Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdr
 - 若"胡桃工具箱"在完善后上架微软商店，则将对不满足上架规则的功能**进行删减**
 - 综上所述，建议您保持使用**并不繁琐**的自行安装的方式，以获得**完整**的使用体验
           
-## 以全部方法进行安装均出现错误  
+## 以通用方式进行安装出现错误  
   
 - 当您使用了[快速安装方式](https://hut.ao/quick-start.html#%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F)和[通用安装方式](https://hut.ao/quick-start.html#%E9%80%9A%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F)均出现异常错误时，可参考如下几种情况
   - 首先，您应该先按[通用安装方式](https://hut.ao/quick-start.html#%E9%80%9A%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F)中的步骤进行，并确保开启了开发者模式中的Powershell有关选项
   - 您可能需要先[卸载](https://hut.ao/quick-start.html#%E5%8D%B8%E8%BD%BD%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1)当前已安装的`胡桃工具箱`
-  - 与Microsoft.WindowsAppRuntime有关的错误：[参考此issue](https://github.com/DGP-Studio/Snap.Hutao/issues/201)  
-          
+  - 与Microsoft.WindowsAppRuntime有关的错误：[参考此issue](https://github.com/DGP-Studio/Snap.Hutao/issues/201)
+    - 此处为无法访问Github的用户给出基本内容：
+```
+- 此用户卸载了先前安装的"胡桃工具箱"
+- 通过get-appxpackage appruntime找到之前的WindowsAppRuntime
+- 进行remove-appxpackage -Package操作
+- 直接安装msix文件
+- 安装成功
+```   
+
+## 提示无数字签名或其签名已损坏  
+     
+- 部分用户在安装时出现上述提示，请直接查看上一条目，即[参考此issue](https://github.com/DGP-Studio/Snap.Hutao/issues/201)  
+     
 ## 胡桃为什么不能最小化到托盘  
   
 - 胡桃作为[WinUI3框架](https://learn.microsoft.com/zh-cn/windows/apps/winui/winui3/)的Windows应用，截至目前的开发进程，无法做到这一点
@@ -160,19 +199,21 @@ Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdr
   
 当您在使用时遇到本文档**全部未提及**的问题时，可参考以下内容自行排查：  
           
-- 尝试使用`管理员模式`重新（或多次）打开胡桃工具箱(此过程可以配合重启系统进行)   
+- 尝试使用`管理员模式`重新（或多次）打开胡桃工具箱，或重复切换内部的不同功能页面(此过程可以配合重启系统进行)   
           
-- 将已经安装的`胡桃工具箱`卸载，重新发起安装，注意[此问题](https://hut.ao/FAQ/most-frequent-questions.html#%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86)，卸载前注意备份/导出原有的关键数据  
-          
-- [**可选**]按标准步骤安装失败的用户，可参考此[issue](https://github.com/DGP-Studio/Snap.Hutao/issues/201)  
-          
-- 用`管理员模式`打开`胡桃工具箱`后，存在用户出现`胡桃的相关进程`被打开，但只显示于`任务管理器`的情况，此时可检查任务管理器中有无`胡桃`进程残留，若有，将其关闭  
-          
+- 检查任务管理器中有无`胡桃`进程残留，若有，将其关闭   
+     
 - 暂时关闭电脑中的杀毒软件（部分杀软会在旁加载、获取Cookie、操作注册表等过程中，视其为威胁，静默干预）（可能包含Windows Defender）    
-          
-- [**可选**]导出祈愿记录保存，在电脑中打开`%userprofile%/documents/hutao`目录，将此目录清空，重新[安装](https://hut.ao/quick-start.html)后，检查功能是否恢复       
-          
-      
+     
+- 将已经安装的`胡桃工具箱`[按说明文档卸载](https://hut.ao/quick-start.html#%E5%8D%B8%E8%BD%BD%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1)，重新发起[安装](https://hut.ao/quick-start.html#%E9%80%9A%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F)，卸载前注意备份/导出原有的关键数据  
+             
+- 若卸载"胡桃工具箱"后再次安装，上述问题仍未解决，可参考如下操作：    
+  - 卸载先前安装的"胡桃工具箱"
+  - 通过`get-appxpackage appruntime`命令，找到之前的`WindowsAppRuntime`
+  - 进行`remove-appxpackage -Package`操作
+  - 此操作旨在移除目前已安装的`WindowsAppRuntime`
+  - 重新[安装](https://hut.ao/quick-start.html)"胡桃工具箱"
+           
 ::: tip
 - [LTSC 和 LTSB 版本的操作系统](https://hut.ao/quick-start.html#footnote1)不在我们的支持范围内，请自行解决或[使用普通版本的系统](https://hut.ao/quick-start.html#%E6%9C%80%E4%BD%8E%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82)   
 
