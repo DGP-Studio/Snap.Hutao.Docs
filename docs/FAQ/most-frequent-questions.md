@@ -36,11 +36,14 @@ headerDepth: 2
 ## 能否默认以管理员模式启动胡桃  
   
 - 首先请参考：https://github.com/DGP-Studio/Snap.Hutao/issues/184
-- 若无法访问Github，此处进行简要概括
+- 若无法访问Github，此处对该issue的回复进行简要概括：
   - 由于msix包的限制，胡桃作为Windows App，不能默认管理员启动
-  - 但可以通过命令行做到，可执行如下Poweshell脚本，令胡桃以管理员模式启动：
-    - Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdrr!App -verb runas
-- 综上所述，请自行参考[上述issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184)  
+    - 但可以通过命令行做到，可执行如下Poweshell脚本，令胡桃以管理员模式启动：
+````md
+Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdrr!App -verb runas
+````
+- 故用户可自己通过创建包含上述启动脚本的批处理文件来**间接实现**"直接以管理员模式启动胡桃"这一目标
+  - 此处仅提供有限的思路，不代表全部的解决逻辑，由于此行为并不是内部可以直接实现的，建议用户自行额外探索  
   
 ## 能否让胡桃工具箱开机自动启动    
   
