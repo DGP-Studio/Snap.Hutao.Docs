@@ -17,40 +17,19 @@ export const zhSidebar = sidebar({
           icon: "read",
           text: "功能指南",
           prefix: "features/",
-          children: [
-            "mhy-account-switch" ,
-            "game-launcher" ,
-            "wish-export" ,
-            "daily-notes" ,
-            "achievements" ,
-            "character-data" ,
-            "develop-plan" ,
-            "hutao-API" ,
-            "character-wiki" ,
-            "weapon-wiki" ,
-            "hutao-settings" ,
-          ],
+          children: "structure"
       },
       {
           icon: "ask",
           text: "常见问题",
           prefix: "FAQ/",
-          children: [
-            "most-frequent-questions" ,
-            "mihoyo-risk-tip" ,
-            "artifact-rating-rules" ,
-            "Gacha-system-and-export-principal" ,
-            "HttpRequestException" ,
-          ],
+          children: "structure"
       },
       {
           icon: "article",
           text: "声明和公告",
           prefix: "statements/",
-          children: [
-            "privacy-statement" ,
-            "bug-report" ,
-          ],
+          children: "structure"
       }
   ],
 });
