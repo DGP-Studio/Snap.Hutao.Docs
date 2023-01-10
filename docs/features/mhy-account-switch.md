@@ -46,10 +46,10 @@ headerDepth: 0
 ::: tip
 - 项目名称：[HolographicHat/GetToken](https://github.com/HolographicHat/GetToken)   
    
-- 下载地址：[网盘](https://cloud.06dn.com/api/v3/file/source/187740/GetToken.apk?sign=KpG5hzFpkjZtts-J2DHMWPewIu_aokl4fKD_U3XIJrQ%3D%3A0) / [Github](https://github.com/HolographicHat/GetToken/releases/download/2.42.1/miyoushe-361-lspatched.apk)
+- 下载地址：[网盘](https://cloud.06dn.com/s/gbybsj) / [Github](https://github.com/HolographicHat/GetToken/releases/download/2.42.1/miyoushe-361-lspatched.apk)
 :::  
   
-- 首先先下载安装上述名为"GetToken.apk"的Android安装包  
+- 首先先下载安装上述名为"[GetToken.apk](https://cloud.06dn.com/s/gbybsj)"的Android安装包  
   - 若在手机中安装，可能需要先卸载手机上原有的米游社App  
   - 您也可在电脑上的任意安卓模拟器或Android子系统中安装  
     - 经测试，华为手机以及MuMu模拟器暂无法使用  
