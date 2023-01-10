@@ -44,5 +44,13 @@ Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdr
 - 请 **使用管理员模式** 打开任意终端
 - 输入如下代码并运行，以删除残留的计划任务
 ```
- schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
+schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
 ```
+
+## 米游社帐号登录状态经常失效，添加的帐号消失
+
+* 我们通过储存帐号的米游社 Cookie 来维持登录状态。
+* 但是当用户在浏览器或其它设备上**注销帐号**后， 维持登录状态的 Cookie 将**失效**。
+* 这会导致胡桃工具箱上的米游社帐号在启动后被自动移除。
+* 此情况也可能因为网络连接问题导致无法检查Cookie有效性，故出现此情况后请优先重启胡桃工具箱。
+* 自2022年10月起，米游社极大地提高了账号被判定为有风险的概率，[账号有风险](https://hut.ao/FAQ/mihoyo-risk-tip.html)时亦会令Cookie无法被识别为有效状态   
