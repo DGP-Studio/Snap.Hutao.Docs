@@ -130,6 +130,11 @@ export default hopeTheme({
       vpre: true,
       vuePlayground: true,
     },
+    components: {
+      components: [
+          "Catalog"
+      ]
+    },
     pwa: false
     /**
     pwa: {
