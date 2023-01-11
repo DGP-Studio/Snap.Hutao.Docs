@@ -14,3 +14,17 @@ headerDepth: 1
 - Windows 会弹出应用程序目录，找到胡桃工具箱
 - 右键，点击`创建快捷方式`
 - 根据提示操作你就可以获得一个桌面快捷方式了
+
+## 如何实现自动化管理员模式
+
+请使用如下的 PowerShell 脚本启动胡桃
+```PowerShell
+Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdrr!App -verb runas
+```
+
+## 如何让胡桃工具箱开机自动启动
+
+- 请参考如下思路
+    - 可以自行创建一个批处理文件，内容参考[此issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184)中，令胡桃以管理员模式直接运行的命令。
+    - 设置一个**计划任务程序**令上述批处理文件开机自启，或将上述批处理文件加入**启动项**中
+- 或有其他令胡桃工具箱可开机自启的思路，可自行探索
