@@ -11,6 +11,7 @@ headerDepth: 1
 感谢 [CzHUV 提供的解决方案](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)
 :::
 - `Win+R` 呼出运行窗口，在窗口中输入`shell:AppsFolder`
+  ![Run](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png)
 - Windows 会弹出应用程序目录，找到胡桃工具箱
 - 右键，点击`创建快捷方式`
 - 根据提示操作你就可以获得一个桌面快捷方式了

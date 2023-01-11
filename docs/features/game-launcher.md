@@ -9,6 +9,10 @@ headerDepth: 0
 - 选择游戏路径时，请注意此处选择的应是游戏本身
     - 形如：`$\Genshin Impact\Genshin Impact Game\YuanShen.exe`
 
+::: tip 国际服支持
+高级启动器中除`切换服务器`以外的功能均支持国际服客户端
+:::
+
 ## 切换服务器  
       
 ::: warning
@@ -56,16 +60,16 @@ headerDepth: 0
 ## 解锁帧率上限
 
 ::: danger
-- 请注意：此功能已明确标注为`Dangerous Feature`，即**危险功能**，选择启用即代表您选择自行承担任意风险   
+- 请注意：此功能已明确标注为 `Dangerous Feature`，即**危险功能**，选择启用即代表您选择自行承担任意风险   
 - 目前的版本，设置中无论是否超过60帧率的原神(含移动端)均会偶尔出现掉帧、卡顿甚至无响应、闪退等情况，这是原神在本版本中出现的普遍问题，并不是[Unlocker项目](https://github.com/DGP-Studio/Unlocker)的问题   
 - [Unlocker项目](https://github.com/DGP-Studio/Unlocker)仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中`120帧率`等设置无异，但您仍应谨慎使用并自行阅读[用户协议](https://docs.qq.com/doc/p/223a4e1f7241891e1208476a11927397549e9ea8)
 :::  
           
 - 使用`管理员模式`启动胡桃
 - 在主界面点击左侧菜单栏进入`启动游戏`标签
-- 在最下方可见`Unlock frame rate limit`选项
-    - 在右侧点击`开启或关闭`按钮，所显示的`Disable`或`Enable`分别代表`已禁用`或`已启用`该功能
-    - 在下方的`Set frame rate`选项中，可自由拖动拉杆，调整到您需要设置的最高帧率上限  
+- 在最下方可见 `Unlock frame rate limit` 选项
+    - 在右侧点击`开启或关闭`按钮，所显示的 `Disable` 或 `Enable` 分别代表`已禁用`或`已启用`该功能
+    - 在下方的 `Set frame rate` 选项中，可自由拖动拉杆，调整到您需要设置的最高帧率上限  
              
 - 会导致**解锁帧率上限失败**的因素：
     - 解锁帧率上限，需要保持**胡桃工具箱**在开启状态

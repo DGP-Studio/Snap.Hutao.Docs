@@ -40,9 +40,8 @@ headerDepth: 0
 
 ::: tip
 若出现`网页缓存刷新`功能异常的情况：
-- 进入游戏路径的 `Cache` 文件夹
-  - 该文件夹路径形如：`$\Genshin Impact\Genshin Impact Game\YuanShen_Data\webCaches\Cache`
-- 删除该目录下的 `Cache_Data` 文件夹
+- 从胡桃工具箱的`设置`中进入`缓存文件夹`
+- 删除 `ImageCache` 文件夹
 :::
 
 ### 通过输入 Url 获取祈愿记录 <Badge text="支持国际服" type="tip" />
