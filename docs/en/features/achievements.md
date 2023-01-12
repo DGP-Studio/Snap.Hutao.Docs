@@ -4,22 +4,22 @@ headerDepth: 0
 
 # 成就管理 
 
-![](https://image.snapgenshin.com/imgs/2022/05/02/21047ff544f318fa.png)
+![](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01eddfVC1g6du4Xdd9P_!!1797064093.png)
 
-Snap Genshin 提供成就管理功能，用户可以通过它浏览并管理所有的成就状态
+胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态
 
-## 成就阶段拆分
-
-::: tip 友情提示
-成就阶段拆分数据来源于玩家的数据贡献，我们需要有玩家不断地维护这一类数据。如果你是一个热衷于收集原神成就的玩家并且愿意贡献新的数据，可以在 [Masterain98/Genshin-Impact-Decomposed-Achievements](https://github.com/Masterain98/Genshin-Impact-Decomposed-Achievements) 中创建新的 Issue 或 PR 以分享你的数据。
-:::
-
-Snap Genshin 对日常委托中包含的隐藏成就进行了阶段性的划分，用户可以通过勾选已完成的阶段性目标来记录相关成就的完成进度
-
-![](https://image.snapgenshin.com/imgs/2022/05/02/b6a6cf470d79668e.png)
-
-以日常委托`岩游记`中隐藏的`帝君故事`成就为例。为获取该成就，你需要在璃月每日委托任务岩游记中分别提供不同物品以获取到不同的岩王帝君的故事。玩家在获取到`["开拓之神","历史之神","炉灶之神","财神"]`全部四个故事后方可解锁该成就。使用 Snap Genshin 的成就管理功能，你将可以记录已完成的剧情故事。
+- 在第一次使用时，你需要根据提示点击`创建新存档`按钮以创造一个成就存档并为其命名
+-  创建第一个资料页后，你可以点击右上角的`创建新存档`来继续为更多的帐号创建成就记录档案
 
 ## 成就导入
 
-Snap Genshin 使用[统一可交换成就标准](https://www.snapgenshin.com/development/UIAF.html)数据标准来储存用户的成就数据。该标准允许用户从其它成就管理程序或成就导出工具中通过 [Url 协议](https://www.snapgenshin.com/development/ThirdPartyAccess.html#url-%E5%8D%8F%E8%AE%AE)和剪贴板将数据导入到 Snap Genshin 中。
+- 胡桃工具箱使用[统一可交换成就标准](https://www.snapgenshin.com/development/UIAF.html)数据标准来储存用户的成就数据
+  - 该标准允许用户从其它**成就导出工具**中通过 [Url 协议](https://www.snapgenshin.com/development/ThirdPartyAccess.html#url-%E5%8D%8F%E8%AE%AE)和剪贴板将数据导入到胡桃工具箱中 
+- 你可以点击成就页面右上角隐藏菜单中的`导入`按钮，并选择`从 UIAF 文件导入`以加载以 UIAF 数据格式储存的第三方成就数据
+
+## 推荐使用的成就识别工具
+
+- [YaeAchievement](https://github.com/HolographicHat/YaeAchievement) <Badge text="成就识别" type="tip" />
+
+- [椰羊cocogoat](https://cocogoat.work/) <Badge text="成就攻略" type="tip" />
+
