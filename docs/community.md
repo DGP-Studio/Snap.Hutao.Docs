@@ -2,6 +2,7 @@
 
 作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。
 
+@include(star-request.md)
 ## GitHub 讨论
 [Snap.Hutao Discussion](https://github.com/DGP-Studio/Snap.Hutao/discussions)
 
