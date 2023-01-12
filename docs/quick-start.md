@@ -19,6 +19,8 @@ externalLinkIcon: false
 
 ## 下载胡桃工具箱
 
+当前最新版本为：![stable-version](https://img.shields.io/github/v/release/DGP-Studio/Snap.Hutao?label=Snap.Hutao.Stable&style=flat-square)
+
 胡桃工具箱目前处于公开测试阶段。你可以
 - [从 GitHub 下载 ](https://github.com/DGP-Studio/Snap.Hutao/releases/)
 - [从网盘下载](https://d.hut.ao/)
