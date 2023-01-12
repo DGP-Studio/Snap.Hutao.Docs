@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/images/202209/HeroImageLogo.png",
+  logo: "https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png",
 
   repo: "DGP-Studio/Snap.Hutao",
 
