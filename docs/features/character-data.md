@@ -1,5 +1,6 @@
 ---
 headerDepth: 0
+category: [功能,教程]
 ---
 
 # 属性统计  

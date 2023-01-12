@@ -1,5 +1,6 @@
 ---
 headerDepth: 0
+category: [公告]
 ---
 
 # 提交BUG报告

@@ -1,6 +1,7 @@
 ---
 pageClass: link-box
 externalLinkIcon: false
+category: [功能,教程]
 ---
 # 快速开始
    

@@ -1,3 +1,7 @@
+---
+category: [FAQ]
+---
+
 # `HttpRequestException`错误
 > 相关 Issue: [https://github.com/DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
 

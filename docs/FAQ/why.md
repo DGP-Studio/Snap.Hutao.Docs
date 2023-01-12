@@ -1,5 +1,6 @@
 ---
 headerDepth: 1
+category: [FAQ]
 ---
 
 # 为什么...
