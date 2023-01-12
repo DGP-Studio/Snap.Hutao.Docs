@@ -81,6 +81,13 @@ export default hopeTheme({
       reaction: true
     },
 
+    // Operational Plugins
+    feed: {
+      rss: true
+    },
+    seo: true,
+    sitemap: true,
+
     // Disable features you don't want here
     mdEnhance: {
       align: true,
@@ -156,18 +163,5 @@ export default hopeTheme({
         ]
       },
     },
-    feedPlugin:{
-      rss: true,
-      hostname: "hut.ao"
-    },
-    sitePlugin: {
-      hostname: "hut.ao",
-      changefreq: "weekly",
-      sitemapFilename: "sitemap.xml"
-    },
-    seoPlugin:{
-      hostname: "hut.ao",
-      autoDescription: true
-    }
   },
 });
