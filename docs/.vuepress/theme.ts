@@ -66,26 +66,19 @@ export default hopeTheme({
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
     comment: {
-      /**
-       * Using Giscus
-       */
-      // provider: "Giscus",
-      // repo: "vuepress-theme-hope/giscus-discussions",
-      // repoId: "R_kgDOG_Pt2A",
-      // category: "Announcements",
-      // categoryId: "DIC_kwDOG_Pt2M4COD69",
-
-      /**
-       * Using Twikoo
-       */
-      // provider: "Twikoo",
-      // envId: "https://twikoo.ccknbc.vercel.app",
-
-      /**
-       * Using Waline
-       */
-      //provider: "Waline",
-      //serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      provider: "Waline",
+      serverURL: "https://comments.snapgenshin.com",
+      emoji: [
+          '//unpkg.com/@waline/emojis@1.1.0/weibo',
+          '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+          '//unpkg.com/@waline/emojis@1.1.0/bmoji',
+          '//unpkg.com/@waline/emojis@1.1.0/qq',
+          '//unpkg.com/@waline/emojis@1.1.0/tieba'
+      ],
+      dark: "auto",
+      requiredMeta: ['mail'],
+      login: 'enable',
+      reaction: true
     },
 
     // Disable features you don't want here
@@ -135,69 +128,33 @@ export default hopeTheme({
           "Catalog"
       ]
     },
-    pwa: false
-    /**
     pwa: {
       favicon: "/favicon.ico",
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
       apple: {
-        icon: "/assets/icon/apple-icon-152.png",
+        icon: "/favicon.ico",
         statusBarColor: "black",
       },
       msTile: {
-        image: "/assets/icon/ms-icon-144.png",
+        image: "/favicon.ico",
         color: "#ffffff",
       },
       manifest: {
         icons: [
           {
-            src: "/assets/icon/chrome-mask-512.png",
-            sizes: "512x512",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-mask-192.png",
-            sizes: "192x192",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-512.png",
+            src: "/pwa-icon/chrome-512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "/assets/icon/chrome-192.png",
+            src: "/pwa-icon/chrome-192.png",
             sizes: "192x192",
             type: "image/png",
           },
-        ],
-        shortcuts: [
-          {
-            name: "Demo",
-            short_name: "Demo",
-            url: "/demo/",
-            icons: [
-              {
-                src: "/assets/icon/guide-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
-              },
-              {
-                src: "/assets/icon/guide-monochrome.png",
-                sizes: "192x192",
-                purpose: "monochrome",
-                type: "image/png",
-              },
-            ],
-          },
-        ],
+        ]
       },
     },
-     **/
   },
 });
