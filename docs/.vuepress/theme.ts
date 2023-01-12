@@ -156,5 +156,18 @@ export default hopeTheme({
         ]
       },
     },
+    feedPlugin:{
+      rss: true,
+      hostname: "hut.ao"
+    },
+    sitePlugin: {
+      hostname: "hut.ao",
+      changefreq: "weekly",
+      sitemapFilename: "sitemap.xml"
+    },
+    seoPlugin:{
+      hostname: "hut.ao",
+      autoDescription: true
+    }
   },
 });
