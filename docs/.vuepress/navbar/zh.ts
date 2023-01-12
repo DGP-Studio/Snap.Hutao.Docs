@@ -11,6 +11,6 @@ export const zhNavbar = navbar([
   {
     text: "加入社区讨论",
     icon: "community",
-    link: "community.md"
+    link: "/community.md"
   },
 ]);
