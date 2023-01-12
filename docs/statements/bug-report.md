@@ -4,6 +4,9 @@ headerDepth: 0
 
 # 提交BUG报告
 
+![opened-issue](https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge)
+![closed-issue](https://img.shields.io/github/issues-closed/DGP-Studio/Snap.Hutao?style=for-the-badge&color=blue)
+
 ## 推荐方法
 
 - 在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。
