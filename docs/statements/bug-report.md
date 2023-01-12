@@ -16,9 +16,9 @@ headerDepth: 0
 
 ### 客户端问题
   - 在提交问题前，请务必检查文档内是否已包含了你的问题
-    - 首先需要确认您使用的版本是否为[最新版本](https://cloud.06dn.com/s/Ke6JhO)
+    - 首先需要确认您使用的版本是否为[最新版本](https://d.hut.ao/)
     - 您可以通过菜单栏中的“常见问题”分类找到这些文档
-    - [快速解答](/FAQ/most-frequent-questions.md)
+    - [快速解答](/FAQ/how-to.md)
 
   - 通过 GitHub 提交问题 <Badge text="推荐" type="tip" /> 
     - [github.com/DGP-Studio/Snap.Hutao/issues/new/choose](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)

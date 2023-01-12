@@ -5,7 +5,7 @@ externalLinkIcon: false
 # 快速开始
    
 ::: tip
-若您已下载或使用**胡桃工具箱**,即表示你已阅读并完全同意[用户使用协议与法律声明](statements/privacy-statement.md)
+若您已下载或使用**胡桃工具箱**,即表示你已阅读并完全同意[用户使用协议与法律声明](/statements/privacy-notice.md)
 :::   
    
 ## 最低系统要求
@@ -20,7 +20,7 @@ externalLinkIcon: false
 
 胡桃工具箱目前处于公开测试阶段。你可以
 - [从 GitHub 下载 ](https://github.com/DGP-Studio/Snap.Hutao/releases/)
-- [从网盘下载](https://cloud.06dn.com/s/pkAJUg)
+- [从网盘下载](https://d.hut.ao)
 
 您下载的包含安装程序的压缩文件名称将与`Snap.Hutao_*_x64.zip`相似
 

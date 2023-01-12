@@ -34,5 +34,5 @@
   - [ ] 服务器切换
   - [x] 祈愿记录
   
-@include(../docs/development-log/symposium1.md)
-@include(../docs/development-log/symposium2.md)
+@include(development-log/symposium1.md)
+@include(development-log/symposium2.md)
