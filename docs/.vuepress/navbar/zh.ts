@@ -6,6 +6,11 @@ export const zhNavbar = navbar([
   {
     text: "下载",
     icon: "install",
-    link: "https://go.hut.ao/down",
+    link: "https://d.hut.ao",
+  },
+  {
+    text: "加入社区讨论",
+    icon: "community",
+    link: "community.md"
   },
 ]);
