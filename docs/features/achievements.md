@@ -1,5 +1,6 @@
 ---
 headerDepth: 0
+category: [功能,教程]
 ---
 
 # 成就管理 
@@ -18,7 +19,6 @@ headerDepth: 0
 - 你可以点击成就页面右上角隐藏菜单中的`导入`按钮，并选择`从 UIAF 文件导入`以加载以 UIAF 数据格式储存的第三方成就数据
 
 ## 推荐使用的成就识别工具
-
 
 - [YaeAchievement](https://github.com/HolographicHat/YaeAchievement) <Badge text="成就识别" type="tip" />
 

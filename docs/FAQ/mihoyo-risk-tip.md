@@ -1,5 +1,6 @@
 ---
 headerDepth: 0
+category: [FAQ]
 ---
 
 # 账号风险及异常提示

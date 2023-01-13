@@ -1,5 +1,7 @@
 ---
 headerDepth: 0
+category: [FAQ]
+
 ---
 
 # 祈愿系统与导出原理

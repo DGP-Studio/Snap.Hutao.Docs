@@ -1,13 +1,17 @@
 ---
 headerDepth: 0
+category: [功能,教程]
 ---
 
 # 高级启动器
 
-::: tip
+- 胡桃工具箱提供的高级启动器功能中通过多样的设置选项来允许用户以自定义设置启动游戏
 - 在设置完毕启动游戏所需的附加选项后，点击右下角的`启动游戏`按钮即可
 - 选择游戏路径时，请注意此处选择的应是游戏本身
-    - 形如："$\Genshin Impact\Genshin Impact Game\YuanShen.exe"
+    - 形如：`$\Genshin Impact\Genshin Impact Game\YuanShen.exe`
+
+::: tip 国际服支持
+高级启动器中除`切换服务器`以外的功能均支持国际服客户端
 :::
 
 ## 切换服务器  
@@ -17,18 +21,17 @@ headerDepth: 0
 :::   
     
 - 在主界面点击左侧菜单栏进入`启动游戏`页面
-
 - 点击右侧选项中的服务器名称，选择要进入的服务器
-
     - 目前可选的服务器为`官方服|天空岛`与`渠道服|世界树`
-        - 若需切换至世界树服务器，则应将[PCGameSDK.dll 文件](https://cloud.06dn.com/api/v3/file/source/179514/PCGameSDK.dll?sign=dbF4NoPqrSemUlbugtU71iYk1IZaW7JHQK9TbHMBTNg%3D%3A0)放入"Plugins"文件夹中
+        - 若需切换至世界树服务器，则应将 [PCGameSDK.dll 文件](https://cloud.06dn.com/api/v3/file/source/179514/PCGameSDK.dll?sign=dbF4NoPqrSemUlbugtU71iYk1IZaW7JHQK9TbHMBTNg%3D%3A0)放入 Plugins 文件夹中
             - 该目录的路径形如"$:\Genshin Impact\Genshin Impact Game\YuanShen_Data\Plugins"
-        - 若下载到的`PCGameSDK.dll 文件`的文件名中有其他字符，建议将其重命名为"PCGameSDK.dll"，以防止读取错误
-        - 若需要切换不同的服务器，须确保`以管理员模式启动`"胡桃工具箱"
+        - 若下载到的`PCGameSDK.dll 文件`的文件名中有其他字符，建议将其重命名为 `PCGameSDK.dll`，以防止读取错误
+        - 若需要切换不同的服务器，须确保`以管理员模式启动`胡桃工具箱
 
 ## 账号保存
 ::: tip
-本功能所描述的**帐号**，特指当前原神所登录游戏账号的**登录状态**
+1. 本功能所描述的帐号，特指当前原神所登录游戏账号的登录状态
+2. 获取当前原神的登录状态通常需要管理员权限，建议`使用管理员模式启动胡桃`
 :::
 
 - 在主界面点击左侧菜单栏进入`启动游戏`标签
@@ -41,16 +44,12 @@ headerDepth: 0
         - `重命名`，即修改当前选择账号的自定义名称
         - `删除`，即删除当前选择的账号
 
-::: tip
-请注意：获取当前原神的**登录状态**通常需要管理员权限，建议`使用管理员模式启动胡桃`
-:::
-
 ## 外观选项  
      
 ::: warning
-- 在当前的游戏版本中，有案例表明：部分用户使用**胡桃工具箱**，选择**全屏模式**启动原神游戏，出现游戏无响应或卡顿的情况
-- 建议此部分用户使用无边框选项进行启动游戏
-:::  
+- 在当前的游戏版本中，有案例表明部分用户使用胡桃工具箱，选择**全屏模式**启动原神游戏，出现游戏无响应或卡顿的情况
+  - 建议此部分用户使用无边框选项进行启动游戏
+  :::  
    
 - 在主界面点击左侧菜单栏进入`启动游戏`标签
 - 在右侧的`外观`功能中，有四个选项：
@@ -61,19 +60,17 @@ headerDepth: 0
     
 ## 解锁帧率上限
 
-::: warning
-- 请注意：此功能已明确标注为`Dangerous Feature`，即**危险功能**，选择启用即代表您选择自行承担任意风险  
-          
-- 目前的版本，设置中无论是否超过60帧率的"原神"(含移动端)均会偶尔出现掉帧、卡顿甚至无响应、闪退等情况，这是"原神"在本版本中出现的普遍问题，并不是[Unlocker项目](https://github.com/DGP-Studio/Unlocker)的问题  
-             
-- [Unlocker项目](https://github.com/DGP-Studio/Unlocker)仅作用于UnityPlayer本身，即直接作用于Unity3D引擎，与游戏本体不发生直接关系，本质上与移动端中"120帧率"等设置无异，但您仍应谨慎使用并自行阅读[用户协议](https://docs.qq.com/doc/p/223a4e1f7241891e1208476a11927397549e9ea8)
+::: danger
+- 请注意：此功能已明确标注为 `Dangerous Feature`，即**危险功能**，选择启用即代表您选择自行承担任意风险   
+- 目前的版本，设置中无论是否超过60帧率的原神(含移动端)均会偶尔出现掉帧、卡顿甚至无响应、闪退等情况，这是原神在本版本中出现的普遍问题，并不是[Unlocker项目](https://github.com/DGP-Studio/Unlocker)的问题   
+- [Unlocker项目](https://github.com/DGP-Studio/Unlocker)仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中`120帧率`等设置无异，但您仍应谨慎使用并自行阅读[用户协议](https://docs.qq.com/doc/p/223a4e1f7241891e1208476a11927397549e9ea8)
 :::  
           
 - 使用`管理员模式`启动胡桃
 - 在主界面点击左侧菜单栏进入`启动游戏`标签
-- 在最下方可见`Unlock frame rate limit`选项
-    - 在右侧点击`开启或关闭`按钮，所显示的`Disable`或`Enable`分别代表`已禁用`或`已启用`该功能
-    - 在下方的`Set frame rate`选项中，可自由拖动拉杆，调整到您需要设置的最高帧率上限  
+- 在最下方可见 `Unlock frame rate limit` 选项
+    - 在右侧点击`开启或关闭`按钮，所显示的 `Disable` 或 `Enable` 分别代表`已禁用`或`已启用`该功能
+    - 在下方的 `Set frame rate` 选项中，可自由拖动拉杆，调整到您需要设置的最高帧率上限  
              
 - 会导致**解锁帧率上限失败**的因素：
     - 解锁帧率上限，需要保持**胡桃工具箱**在开启状态
