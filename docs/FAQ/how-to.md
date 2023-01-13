@@ -1,5 +1,5 @@
 ---
-headerDepth: 1
+headerDepth: 2
 category: [FAQ]
 ---
 
