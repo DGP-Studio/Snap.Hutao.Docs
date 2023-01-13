@@ -71,5 +71,5 @@ category: [公告]
 
  - 十四、您和本开发团队均是独立的主体，在任何情况下本协议不构成本开发团队对用户的任何形式的明示或暗示担保或条件，双方之间亦不构成代理、合伙、合营或雇佣关系。
 
- - 十五、本"用户使用协议和法律声明"中，"我方"或称"本开发团队"(区别于"用户"或"您")的实际主体为"[DGP-Studio开发团队](https://github.com/DGP-Studio)"的团队整体及每个成员个人，即包含前述网站（https://github.com/DGP-Studio）中，[DGP-Studio开发团队](https://github.com/DGP-Studio)的全部成员。
+ - 十五、本"用户使用协议和法律声明"中，"我方"或称"本开发团队"(区别于"用户"或"您")的实际主体为[DGP-Studio开发团队](https://github.com/DGP-Studio)的团队整体及每个成员个人，即包含前述网站中，[DGP-Studio开发团队](https://github.com/DGP-Studio)的全部成员。
  
