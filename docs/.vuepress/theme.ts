@@ -83,10 +83,14 @@ export default hopeTheme({
 
     // Operational Plugins
     feed: {
-      rss: true
+      hostname: 'https://hut.ao',
+      rss: true,
     },
     seo: true,
-    sitemap: true,
+    sitemap: {
+      sitemapFilename: 'sitemap.xml',
+      changefreq: 'weekly'
+    },
 
     // Disable features you don't want here
     mdEnhance: {
@@ -140,6 +144,7 @@ export default hopeTheme({
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
+      themeColor: '#f26d6d',
       apple: {
         icon: "/favicon.ico",
         statusBarColor: "black",
