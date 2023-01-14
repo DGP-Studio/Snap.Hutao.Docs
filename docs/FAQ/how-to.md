@@ -36,5 +36,6 @@ Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdr
 - 在主程序中正确设置高级启动器功能
 - 将胡桃工具箱在系统中固定在快速启动栏中
 - 在快速启动栏中右键胡桃应用程序
+
   ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png)
 - 选择`启动游戏`即可

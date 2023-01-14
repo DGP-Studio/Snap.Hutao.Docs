@@ -83,7 +83,6 @@ export default hopeTheme({
 
     // Operational Plugins
     feed: {
-      hostname: 'https://hut.ao',
       rss: true,
     },
     seo: true,
@@ -103,10 +102,10 @@ export default hopeTheme({
       echarts: true,
       flowchart: true,
       gfm: true,
-      imageSize: true,
+      imgSize: true,
       include: true,
       katex: true,
-      lazyLoad: true,
+      imgLazyload: true,
       mark: true,
       mermaid: true,
       playground: {
@@ -131,7 +130,7 @@ export default hopeTheme({
       sub: true,
       sup: true,
       tabs: true,
-      vpre: true,
+      vPre: true,
       vuePlayground: true,
     },
     components: {
