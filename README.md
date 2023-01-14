@@ -1,5 +1,5 @@
 # Snap.Hutao.Docs
-Documents for Snap Hutao project
+Documents for [Snap Hutao project](https://github.com/DGP-Studio/Snap.Hutao)
 
 ## 使用方法
 ### 第一次安装
