@@ -86,7 +86,9 @@ export default hopeTheme({
       rss: true,
     },
     seo: true,
-    sitemap: true,
+    sitemap: {
+      changefreq: "weekly"
+    },
 
     // Disable features you don't want here
     mdEnhance: {
