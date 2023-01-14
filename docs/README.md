@@ -13,7 +13,7 @@ actions:
     link: /quick-start.md
   - text: 文档
     link: /features/
-  - text: 项目进度
+  - text: 项目介绍
     link: project.md
 
 features:
