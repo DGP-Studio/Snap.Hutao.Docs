@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 14 Jan 2023 02:46:40 GMT</pubDate>
-    <lastBuildDate>Sat, 14 Jan 2023 02:46:40 GMT</lastBuildDate>
+    <pubDate>Sat, 14 Jan 2023 03:37:37 GMT</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2023 03:37:37 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>公告</category>
@@ -245,6 +245,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>此情况也可能因为网络连接问题导致无法检查Cookie有效性，故出现此情况后请优先重启胡桃工具箱。</li>
 <li>自2022年10月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/FAQ/mihoyo-risk-tip.html" target="blank">账号有风险</a>时亦会令Cookie无法被识别为有效状态</li>
 </ul>
+<h2> 为什么程序会提示注册计划任务失败</h2>
+<p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
+继续使用管理员模式即可解决该问题。</p>
 ]]></content:encoded>
     </item>
     <item>
