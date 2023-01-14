@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 14 Jan 2023 00:10:33 GMT</pubDate>
-    <lastBuildDate>Sat, 14 Jan 2023 00:10:33 GMT</lastBuildDate>
+    <pubDate>Sat, 14 Jan 2023 00:43:51 GMT</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2023 00:43:51 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>公告</category>
@@ -23,22 +23,22 @@
       <description>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，请为我们在 GitHub 上加星点赞 ⭐，并在更多的地方帮助我们宣传 commit_activity hutao-last-commit hutao-last-release 胡桃主项目 !hutao.stars (https://img.shields.io/github/stars/DGP-Stud...</description>
       <pubDate>Thu, 12 Jan 2023 11:46:12 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，请为我们在 GitHub 上加星点赞 ⭐，并在更多的地方帮助我们宣传</strong></p>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit">
-<img src="https://img.shields.io/github/release-date/DGP-Studio/Snap.Hutao?label=Hutao Last Release&amp;style=for-the-badge" alt="hutao-last-release"></p>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
+<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy">
+<img src="https://img.shields.io/github/release-date/DGP-Studio/Snap.Hutao?label=Hutao Last Release&amp;style=for-the-badge" alt="hutao-last-release" loading="lazy"></p>
 <ul>
-<li>胡桃主项目   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars">
+<li>胡桃主项目   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy">
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a></li>
 </ul>
 </li>
-<li>胡桃文档项目  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars">
+<li>胡桃文档项目  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy">
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a></li>
 </ul>
 </li>
 <li>我们的 GitHub 主页
-<img src="https://img.shields.io/github/stars/DGP-Studio?style=plastic&amp;color=red" alt="org-stars">
+<img src="https://img.shields.io/github/stars/DGP-Studio?style=plastic&amp;color=red" alt="org-stars" loading="lazy">
 <ul>
 <li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a></li>
 </ul>
@@ -58,22 +58,22 @@
       <content:encoded><![CDATA[<h1> 加入用户社区</h1>
 <p>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。</p>
 <p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，请为我们在 GitHub 上加星点赞 ⭐，并在更多的地方帮助我们宣传</strong></p>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit">
-<img src="https://img.shields.io/github/release-date/DGP-Studio/Snap.Hutao?label=Hutao Last Release&amp;style=for-the-badge" alt="hutao-last-release"></p>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
+<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy">
+<img src="https://img.shields.io/github/release-date/DGP-Studio/Snap.Hutao?label=Hutao Last Release&amp;style=for-the-badge" alt="hutao-last-release" loading="lazy"></p>
 <ul>
-<li>胡桃主项目   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars">
+<li>胡桃主项目   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy">
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a></li>
 </ul>
 </li>
-<li>胡桃文档项目  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars">
+<li>胡桃文档项目  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy">
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a></li>
 </ul>
 </li>
 <li>我们的 GitHub 主页
-<img src="https://img.shields.io/github/stars/DGP-Studio?style=plastic&amp;color=red" alt="org-stars">
+<img src="https://img.shields.io/github/stars/DGP-Studio?style=plastic&amp;color=red" alt="org-stars" loading="lazy">
 <ul>
 <li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a></li>
 </ul>
@@ -264,7 +264,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </div>
 <ul>
 <li><code>Win+R</code> 呼出运行窗口，在窗口中输入<code>shell:AppsFolder</code>
-<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run"></li>
+<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
 <li>Windows 会弹出应用程序目录，找到胡桃工具箱</li>
 <li>右键，点击<code>创建快捷方式</code></li>
 <li>根据提示操作你就可以获得一个桌面快捷方式了</li>
@@ -284,11 +284,19 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h2> 如何通过胡桃工具箱快速地启动游戏</h2>
 <ul>
-<li>在主程序中正确设置高级启动器功能</li>
-<li>将胡桃工具箱在系统中固定在快速启动栏中</li>
-<li>在快速启动栏中右键胡桃应用程序
-<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png" alt="quick-start"></li>
-<li>选择<code>启动游戏</code>即可</li>
+<li>
+<p>在主程序中正确设置高级启动器功能</p>
+</li>
+<li>
+<p>将胡桃工具箱在系统中固定在快速启动栏中</p>
+</li>
+<li>
+<p>在快速启动栏中右键胡桃应用程序</p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png" alt="quick-start" loading="lazy"></p>
+</li>
+<li>
+<p>选择<code>启动游戏</code>即可</p>
+</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" type="image/png"/>
@@ -517,7 +525,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>教程</category>
       <pubDate>Thu, 15 Dec 2022 18:18:42 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 养成计划</h1>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png" alt="dev-plan"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png" alt="dev-plan" loading="lazy"></p>
 <h2> 添加养成目标进入材料清单</h2>
 <h3> 基于 WIKI 资料添加</h3>
 <ul>
@@ -577,7 +585,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>教程</category>
       <pubDate>Tue, 29 Nov 2022 09:29:08 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 武器资料</h1>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01jbzlTH1g6du6KfSmF_!!1797064093.png" alt="weapon-wiki"></p>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01jbzlTH1g6du6KfSmF_!!1797064093.png" alt="weapon-wiki" loading="lazy"></p>
 <p>武器资料是胡桃工具箱中内置的用于查询各个武器的<strong>外观、参数、精炼效果、推荐搭配</strong>等数据的 Wiki</p>
 <h2> 已包含的数据</h2>
 <ul>
@@ -719,7 +727,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 <li>该功能的正常使用界面：<br>
-<img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png" alt="米游社每日签到"></li>
+<img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png" alt="米游社每日签到" loading="lazy"></li>
 </ul>
 </li>
 </ul>
@@ -750,8 +758,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>FAQ</category>
       <pubDate>Fri, 11 Nov 2022 10:26:36 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 账号风险及异常提示</h1>
-<p><img src="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" alt="image">
-<img src="https://user-images.githubusercontent.com/96916320/204005371-ced5213b-a7af-4cba-baa3-818f9b7ade35.png" alt="image"></p>
+<p><img src="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" alt="image" loading="lazy">
+<img src="https://user-images.githubusercontent.com/96916320/204005371-ced5213b-a7af-4cba-baa3-818f9b7ade35.png" alt="image" loading="lazy"></p>
 <ul>
 <li>
 <p>当胡桃工具箱返回"账号有风险，请前往米游社查看"、"请求异常，请前往米游社对应功能页面查看"、"无感验证失败，请前往「米游社我的角色实时便笺」页面查看
@@ -816,7 +824,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p class="hint-container-title">相关信息</p>
 <p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a>文档</p>
 </div>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png" alt="live-data-tracking"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png" alt="live-data-tracking" loading="lazy"></p>
 <h2> 添加角色</h2>
 <ul>
 <li>点击<code>添加角色</code>按钮</li>
@@ -907,7 +915,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a>文档</p>
 </div>
 <p>属性统计，即主程序侧栏中的<code>我的角色</code>功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分</p>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png" alt="属性统计示例图"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png" alt="属性统计示例图" loading="lazy"></p>
 <h2> 同步角色信息</h2>
 <h3> 从 Enka API 同步</h3>
 <div class="hint-container info">
@@ -976,11 +984,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png" alt="rolescal"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png" alt="rolescal" loading="lazy"></p>
 <ul>
 <li>添加完毕后，您可在"养成计划"功能中查看"已添加的养成目标"</li>
 </ul>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png" alt="image"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png" alt="image" loading="lazy"></p>
 <ul>
 <li>关于养成计划功能的详细说明，请见<a href="/features/develop-plan.html" target="blank">养成计划</a>文档</li>
 </ul>
@@ -990,7 +998,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>导出的图片储存在系统剪贴板中，你可以在合适的地方直接粘贴以获得该图片</li>
 <li>导出图片样式如下图所示</li>
 </ul>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png" alt="sample-output-image"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png" alt="sample-output-image" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png" type="image/png"/>
     </item>
@@ -1004,7 +1012,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>教程</category>
       <pubDate>Thu, 10 Nov 2022 03:38:17 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 角色资料</h1>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png" alt="characters-wiki"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png" alt="characters-wiki" loading="lazy"></p>
 <p>角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki</p>
 <h2> 已包含的数据</h2>
 <ul>
@@ -1249,7 +1257,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>点击右上角的<code>上传数据</code>以上传你的深境螺旋数据
 <ul>
 <li>这可能需要花费数秒，上传成功后你将会看到如下图的成功提示
-<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Zt7yQp1g6duBDALeX_!!1797064093.png" alt="upload-hutaoapi"></li>
+<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Zt7yQp1g6duBDALeX_!!1797064093.png" alt="upload-hutaoapi" loading="lazy"></li>
 </ul>
 </li>
 </ul>
@@ -1280,7 +1288,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p class="hint-container-title">提示</p>
 <p>本文档所描述的帐号切换指的是用于获取游戏数据的米游社帐号，不是原神游戏内的帐号</p>
 </div>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" alt="多帐号管理样图"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" alt="多帐号管理样图" loading="lazy"></p>
 <ul>
 <li>你可以在程序主界面的左下角，设置按钮的上方找到帐号菜单，以管理你在胡桃工具箱中登录的米游社帐号。在弹出的面板中你可以：
 <ul>
@@ -1328,7 +1336,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>相关 Issue: <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/100</a></p>
 </blockquote>
 <p>当胡桃工具箱无法从远程服务器获取到必要资源时（通常是配置文件和图片缓存），会在用户界面抛出如下图所示的 <code>HttpRequestException</code> 错误。</p>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" alt="HttpRequestException"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" alt="HttpRequestException" loading="lazy"></p>
 <p>当你遇到该情况，且已经确定本地网络没有互联网连接问题时，请检查是否启用了系统代理程序。如果是，请关闭。胡桃工具箱的远程服务器在全世界范围内都有类似的体验效果，
 你无需为了胡桃工具箱的网络连接而使用代理网络。</p>
 <p>如果系统代理是你的网络必须选项，请关闭系统代理而使用 TUN 模式代理；或者也可以通过 <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a>
@@ -1412,7 +1420,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>教程</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 成就管理</h1>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01eddfVC1g6du4Xdd9P_!!1797064093.png" alt=""></p>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01eddfVC1g6du4Xdd9P_!!1797064093.png" alt="" loading="lazy"></p>
 <p>胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态</p>
 <ul>
 <li>在第一次使用时，你需要根据提示点击<code>创建新存档</code>按钮以创造一个成就存档并为其命名</li>
@@ -1453,7 +1461,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
 <p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
 <p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/FAQ/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" alt="祈愿导出"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" alt="祈愿导出" loading="lazy"></p>
 <div class="hint-container note">
 <p class="hint-container-title">原神抽卡记录的延迟性</p>
 <p>胡桃工具箱获取抽卡记录的来源也为米哈游服务器，因此短时间内刚刚结束的抽卡无法被获取。
@@ -1538,8 +1546,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>公告</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 提交BUG报告</h1>
-<p><img src="https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="opened-issue">
-<img src="https://img.shields.io/github/issues-closed/DGP-Studio/Snap.Hutao?style=for-the-badge&amp;color=blue" alt="closed-issue"></p>
+<p><img src="https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="opened-issue" loading="lazy">
+<img src="https://img.shields.io/github/issues-closed/DGP-Studio/Snap.Hutao?style=for-the-badge&amp;color=blue" alt="closed-issue" loading="lazy"></p>
 <h2> 推荐方法</h2>
 <ul>
 <li>在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。</li>
@@ -1711,22 +1719,22 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>若您已下载或使用<strong>胡桃工具箱</strong>，即表示你已阅读并完全同意<a href="/statements/tos.html" target="blank">用户使用协议与法律声明</a></p>
 </div>
 <p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，请为我们在 GitHub 上加星点赞 ⭐，并在更多的地方帮助我们宣传</strong></p>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit">
-<img src="https://img.shields.io/github/release-date/DGP-Studio/Snap.Hutao?label=Hutao Last Release&amp;style=for-the-badge" alt="hutao-last-release"></p>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
+<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy">
+<img src="https://img.shields.io/github/release-date/DGP-Studio/Snap.Hutao?label=Hutao Last Release&amp;style=for-the-badge" alt="hutao-last-release" loading="lazy"></p>
 <ul>
-<li>胡桃主项目   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars">
+<li>胡桃主项目   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy">
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a></li>
 </ul>
 </li>
-<li>胡桃文档项目  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars">
+<li>胡桃文档项目  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy">
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a></li>
 </ul>
 </li>
 <li>我们的 GitHub 主页
-<img src="https://img.shields.io/github/stars/DGP-Studio?style=plastic&amp;color=red" alt="org-stars">
+<img src="https://img.shields.io/github/stars/DGP-Studio?style=plastic&amp;color=red" alt="org-stars" loading="lazy">
 <ul>
 <li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a></li>
 </ul>
@@ -1756,7 +1764,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </tbody>
 </table>
 <h2> 下载胡桃工具箱</h2>
-<p>当前最新版本为：<img src="https://img.shields.io/github/v/release/DGP-Studio/Snap.Hutao?label=Snap.Hutao.Stable&amp;style=flat-square" alt="stable-version"></p>
+<p>当前最新版本为：<img src="https://img.shields.io/github/v/release/DGP-Studio/Snap.Hutao?label=Snap.Hutao.Stable&amp;style=flat-square" alt="stable-version" loading="lazy"></p>
 <p>胡桃工具箱目前处于公开测试阶段。你可以</p>
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao/releases/" target="_blank" rel="noopener noreferrer">从 GitHub 下载 </a></li>
