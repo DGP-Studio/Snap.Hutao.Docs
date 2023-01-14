@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 14 Jan 2023 00:43:51 GMT</pubDate>
-    <lastBuildDate>Sat, 14 Jan 2023 00:43:51 GMT</lastBuildDate>
+    <pubDate>Sat, 14 Jan 2023 01:41:01 GMT</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2023 01:41:01 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>公告</category>
@@ -1593,12 +1593,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/project.html</link>
       <guid>https://hut.ao/project.html</guid>
       <source url="https://hut.ao/rss.xml">项目说明</source>
-      <description>胡桃工具箱是一个正在开发的程序，其将继承 Snap Genshin 中的功能，并添加更多的功能。 功能迁移 已经完成迁移的功能将会在本站文档中提供指导说明，功能迁移和开发进度可以参阅下方 [x] 米游社公告首页; [x] 米游社帐号管理; [x] 游戏启动器; [x] 祈愿记录; [ ] WIKI - 日常材料; 将整合进养成计划; [ ] WIKI ...</description>
+      <description>胡桃工具箱是一个 Windows 平台的开源的原神工具箱，旨在帮助玩家获得更好的游戏体验； 它是对官方移动端工具的一种非破坏性功能扩展，为不习惯在移动端进行原神游戏的 PC 玩家提供一个在 Windows 平台下获得接近移动端功能权利的途径。 功能迁移 胡桃正在迁移原 Snap Genshin 客户端中的功能 已经完成迁移的功能将会在本站文档中提供指导...</description>
       <category>公告</category>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 项目说明</h1>
-<p>胡桃工具箱是一个正在开发的程序，其将继承 Snap Genshin 中的功能，并添加更多的功能。</p>
+<p>胡桃工具箱是一个 Windows 平台的开源的原神工具箱，旨在帮助玩家获得更好的游戏体验；
+它是对官方移动端工具的一种非破坏性功能扩展，为不习惯在移动端进行原神游戏的 PC 玩家提供一个在 Windows 平台下获得接近移动端功能权利的途径。</p>
 <h2> 功能迁移</h2>
+<p>胡桃正在迁移原 Snap Genshin 客户端中的功能</p>
 <p>已经完成迁移的功能将会在本站文档中提供指导说明，功能迁移和开发进度可以参阅下方</p>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 米游社公告首页</label></li>
