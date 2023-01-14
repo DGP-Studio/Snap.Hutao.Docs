@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Sat, 14 Jan 2023 03:37:37 GMT</pubDate>
-    <lastBuildDate>Sat, 14 Jan 2023 03:37:37 GMT</lastBuildDate>
+    <pubDate>Sat, 14 Jan 2023 11:53:37 GMT</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2023 11:53:37 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -183,7 +183,7 @@
       <link>https://hut.ao/en/FAQ/mihoyo-risk-tip.html</link>
       <guid>https://hut.ao/en/FAQ/mihoyo-risk-tip.html</guid>
       <source url="https://hut.ao/rss.xml">账号风险及异常提示</source>
-      <description>image image 当胡桃工具箱返回"账号有风险，请前往米游社查看"、"请求异常，请前往米游社对应功能页面查看"、"无感验证失败，请前往「米游社我的角色实时便笺」页面查看; "等错误提示时，代表当前的操作被米游社的验证系统所阻挡 解决方式; 使用手机打开米游社App; 点击我的; 点击个人主页; 点击我的角色下方的角色标签; 点击全部角色; 或可以...</description>
+      <description>image image 当胡桃工具箱返回&amp;quot;账号有风险，请前往米游社查看&amp;quot;、&amp;quot;请求异常，请前往米游社对应功能页面查看&amp;quot;、&amp;quot;无感验证失败，请前往「米游社我的角色实时便笺」页面查看; &amp;quot;等错误提示时，代表当前的操作被米游社的验证系统所阻挡 解决方式; 使用手机打开米游社App; 点击我的; 点击个人主页; 点击我的角色下方的角色标签; 点击全部角色; 或可以...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 账号风险及异常提示</h1>
 <p><img src="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" alt="image" loading="lazy">
@@ -455,7 +455,7 @@
       <link>https://hut.ao/en/features/character-wiki.html</link>
       <guid>https://hut.ao/en/features/character-wiki.html</guid>
       <source url="https://hut.ao/rss.xml">角色资料</source>
-      <description>characters-wiki 角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki 已包含的数据 角色列表; 使用列表左上角的按钮，可切换列表显示的方式：即"缩略图与名称"或"仅缩略图"; 单击列表中的缩略图或名称，即可跳转到相应的介绍页面; 数据内容; 角色基本信息; 介绍; 各等级下的数值; 属性;...</description>
+      <description>characters-wiki 角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki 已包含的数据 角色列表; 使用列表左上角的按钮，可切换列表显示的方式：即&amp;quot;缩略图与名称&amp;quot;或&amp;quot;仅缩略图&amp;quot;; 单击列表中的缩略图或名称，即可跳转到相应的介绍页面; 数据内容; 角色基本信息; 介绍; 各等级下的数值; 属性;...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 角色资料</h1>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png" alt="characters-wiki" loading="lazy"></p>
@@ -586,7 +586,7 @@
       <link>https://hut.ao/en/features/develop-plan.html</link>
       <guid>https://hut.ao/en/features/develop-plan.html</guid>
       <source url="https://hut.ao/rss.xml">养成计划</source>
-      <description>dev-plan 添加养成目标进入材料清单 基于 WIKI 资料添加 在胡桃工具箱的左侧栏目中，点击角色资料或`武器资料功能; 在"胡桃工具箱"的整体界面右上部分，点击养成计算按钮; 在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级; 基于 WIKI 资料添加的养成目标，默认初始值为1级; 基于玩家数据添加 在"...</description>
+      <description>dev-plan 添加养成目标进入材料清单 基于 WIKI 资料添加 在胡桃工具箱的左侧栏目中，点击角色资料或`武器资料功能; 在&amp;quot;胡桃工具箱&amp;quot;的整体界面右上部分，点击养成计算按钮; 在弹出的&amp;quot;添加到当前养成计划&amp;quot;的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级; 基于 WIKI 资料添加的养成目标，默认初始值为1级; 基于玩家数据添加 在&amp;quot;...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 养成计划</h1>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png" alt="dev-plan" loading="lazy"></p>
@@ -1113,7 +1113,7 @@
       <link>https://hut.ao/en/statements/tos.html</link>
       <guid>https://hut.ao/en/statements/tos.html</guid>
       <source url="https://hut.ao/rss.xml">用户使用协议和法律声明</source>
-      <description>总则 本"用户使用协议和法律声明"（以下简称"条款"或"使用协议"）适用于DGP-Studio开发团队 (https://github.com/DGP-Studio)（以下简称"本团队"或"我方"）开发的全部软件作品、各开发项目的官方网站、附属的自媒体账号等。; 请您仔细阅读本用户使用协议的全部内容，在您阅读"使用协议"后，若对此用户使用协议中的任何条...</description>
+      <description>总则 本&amp;quot;用户使用协议和法律声明&amp;quot;（以下简称&amp;quot;条款&amp;quot;或&amp;quot;使用协议&amp;quot;）适用于DGP-Studio开发团队 (https://github.com/DGP-Studio)（以下简称&amp;quot;本团队&amp;quot;或&amp;quot;我方&amp;quot;）开发的全部软件作品、各开发项目的官方网站、附属的自媒体账号等。; 请您仔细阅读本用户使用协议的全部内容，在您阅读&amp;quot;使用协议&amp;quot;后，若对此用户使用协议中的任何条...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 用户使用协议和法律声明</h1>
 <h2> 总则</h2>
