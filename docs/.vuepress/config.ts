@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { viteBundler } from '@vuepress/bundler-vite'
 import theme from "./theme.js";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
   base: "/",
@@ -25,6 +26,21 @@ export default defineUserConfig({
       description: "Super utilitarian Genshin Impact Tool",
     },
   },
+
+  plugins: [
+    searchProPlugin({
+      indexContent: true,
+      customFields:[
+        {
+          getter: (page) => page.frontmatter.category,
+          formatter: {
+            "/": "分类: $content",
+            "/en/": "Category：$content",
+          },
+        },
+      ]
+    })
+  ],
 
   theme,
 
