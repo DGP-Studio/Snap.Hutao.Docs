@@ -1,20 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://hut.ao/en/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://hut.ao/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://hut.ao/en/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Snap Hutao</title>
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Sat, 14 Jan 2023 23:49:55 GMT</pubDate>
-    <lastBuildDate>Sat, 14 Jan 2023 23:49:55 GMT</lastBuildDate>
+    <pubDate>Tue, 17 Jan 2023 08:46:02 GMT</pubDate>
+    <lastBuildDate>Tue, 17 Jan 2023 08:46:02 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <copyright>Copyright by DGP-Studio</copyright>
+    <image>
+      <title>Snap Hutao</title>
+      <url>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</url>
+      <link>https://hut.ao/en/</link>
+    </image>
     <item>
       <title>胡桃工具箱</title>
       <link>https://hut.ao/en/markmap.html</link>
       <guid>https://hut.ao/en/markmap.html</guid>
-      <source url="https://hut.ao/rss.xml">胡桃工具箱</source>
+      <source url="https://hut.ao/en/rss.xml">胡桃工具箱</source>
       <description>米游社功能 活动公告; 帐号登录; 实时便笺; 深境螺旋; 我的深渊记录; 胡桃数据库 - 深渊数据 ; 游戏性增强 高级启动器; 祈愿记录; 成就管理; 养成计划 养成计算器; 属性统计; 角色 Wiki; 武器 Wiki;</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 胡桃工具箱</h1>
@@ -52,7 +58,7 @@
       <title>HttpRequestException错误</title>
       <link>https://hut.ao/en/FAQ/HttpRequestException.html</link>
       <guid>https://hut.ao/en/FAQ/HttpRequestException.html</guid>
-      <source url="https://hut.ao/rss.xml">HttpRequestException错误</source>
+      <source url="https://hut.ao/en/rss.xml">HttpRequestException错误</source>
       <description>相关 Issue: https://github.com/DGP-Studio/Snap.Hutao/issues/100 (https://github.com/DGP-Studio/Snap.Hutao/issues/100) 当胡桃工具箱无法从远程服务器获取到必要资源时（通常是配置文件和图片缓存），会在用户界面抛出如下图所示的 HttpReque...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> <code>HttpRequestException</code>错误</h1>
@@ -72,7 +78,7 @@
       <title>圣遗物评分机制</title>
       <link>https://hut.ao/en/FAQ/artifact-rating-rules.html</link>
       <guid>https://hut.ao/en/FAQ/artifact-rating-rules.html</guid>
-      <source url="https://hut.ao/rss.xml">圣遗物评分机制</source>
+      <source url="https://hut.ao/en/rss.xml">圣遗物评分机制</source>
       <description>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。 如果你有兴趣探索我们的评分机制， 可以审阅胡桃工具箱代码 (https://github.com/DGP-Studio/Snap.Hutao/tree/main/src/Snap.Hutao/Snap.Hutao/Service/AvatarInfo/Factory) 来了解评分计算方法。 如...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 圣遗物评分机制</h1>
@@ -87,7 +93,7 @@
       <title>使用第三方工具获取有 Stoken 的 cookie</title>
       <link>https://hut.ao/en/FAQ/get-stoken-cookie-from-the-third-party.html</link>
       <guid>https://hut.ao/en/FAQ/get-stoken-cookie-from-the-third-party.html</guid>
-      <source url="https://hut.ao/rss.xml">使用第三方工具获取有 Stoken 的 cookie</source>
+      <source url="https://hut.ao/en/rss.xml">使用第三方工具获取有 Stoken 的 cookie</source>
       <description>以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关; 本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关; Android Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie GetToken 开源项目 GitHub：HolographicHa...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 使用第三方工具获取有 Stoken 的 cookie</h1>
@@ -145,7 +151,7 @@
       <title>如何...</title>
       <link>https://hut.ao/en/FAQ/how-to.html</link>
       <guid>https://hut.ao/en/FAQ/how-to.html</guid>
-      <source url="https://hut.ao/rss.xml">如何...</source>
+      <source url="https://hut.ao/en/rss.xml">如何...</source>
       <description>这篇文档将会列出一些最常见的以“如何”开头的问题 如何创建胡桃的桌面快捷方式社区力量 感谢 CzHUV 提供的解决方案 (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12) Win+R 呼出运行窗口，在窗口中输入shell:AppsFolder; Run Windows 会弹出应用程序目录，...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 如何...</h1>
@@ -164,8 +170,7 @@
 </ul>
 <h2> 如何实现自动化管理员模式</h2>
 <p>请使用如下的 PowerShell 脚本启动胡桃</p>
-<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><pre class="language-PowerShell"><code>Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdrr!App -verb runas
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 如何让胡桃工具箱开机自动启动</h2>
+<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 如何让胡桃工具箱开机自动启动</h2>
 <ul>
 <li>请参考如下思路
 <ul>
@@ -182,7 +187,7 @@
       <title>账号风险及异常提示</title>
       <link>https://hut.ao/en/FAQ/mihoyo-risk-tip.html</link>
       <guid>https://hut.ao/en/FAQ/mihoyo-risk-tip.html</guid>
-      <source url="https://hut.ao/rss.xml">账号风险及异常提示</source>
+      <source url="https://hut.ao/en/rss.xml">账号风险及异常提示</source>
       <description>image image 当胡桃工具箱返回&amp;quot;账号有风险，请前往米游社查看&amp;quot;、&amp;quot;请求异常，请前往米游社对应功能页面查看&amp;quot;、&amp;quot;无感验证失败，请前往「米游社我的角色实时便笺」页面查看; &amp;quot;等错误提示时，代表当前的操作被米游社的验证系统所阻挡 解决方式; 使用手机打开米游社App; 点击我的; 点击个人主页; 点击我的角色下方的角色标签; 点击全部角色; 或可以...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 账号风险及异常提示</h1>
@@ -242,7 +247,7 @@
       <title>为什么...</title>
       <link>https://hut.ao/en/FAQ/why.html</link>
       <guid>https://hut.ao/en/FAQ/why.html</guid>
-      <source url="https://hut.ao/rss.xml">为什么...</source>
+      <source url="https://hut.ao/en/rss.xml">为什么...</source>
       <description>这篇文档将会列出一些最常见的以“为什么”开头的问题 为什么在设置中点击修改游戏路径无效 特定系统版本的用户，由于微软对文件选择对话框的COM实现的差异，会存在点击按钮后无响应的问题。 相关的 Github Issue (https://github.com/microsoft/WindowsAppSDK/issues/2931) 为什么程序会出现乱码现...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 为什么...</h1>
@@ -278,7 +283,7 @@
       <title>第一期开发组座谈会</title>
       <link>https://hut.ao/en/development-log/symposium1.html</link>
       <guid>https://hut.ao/en/development-log/symposium1.html</guid>
-      <source url="https://hut.ao/rss.xml">第一期开发组座谈会</source>
+      <source url="https://hut.ao/en/rss.xml">第一期开发组座谈会</source>
       <description>复制自 GitHub 讨论帖 (https://github.com/DGP-Studio/Snap.Hutao/discussions/46)，总结于群讨论 为啥胡桃在电脑上要做成类似uwp格式的应用？ 开发MSIX封装的应用是桌面端的开发趋势，开发体验更佳，用户体验也能提升。 胡桃的作用是啥，和SG有什么区别？ 胡桃是SG的次世代版本，更新/更快/...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 第一期开发组座谈会</h1>
@@ -321,7 +326,7 @@
       <title>第二期开发组座谈会</title>
       <link>https://hut.ao/en/development-log/symposium2.html</link>
       <guid>https://hut.ao/en/development-log/symposium2.html</guid>
-      <source url="https://hut.ao/rss.xml">第二期开发组座谈会</source>
+      <source url="https://hut.ao/en/rss.xml">第二期开发组座谈会</source>
       <description>复制自 GitHub 讨论帖 (https://github.com/DGP-Studio/Snap.Hutao/discussions/280)，总结于群讨论 现在成就导出的json格式也是UIGF的嘛 A: UIAF 能否适配祈愿系统数据UEFI旧版本的导入，和SG一样就可以 A: 首先它叫 UIGF 格式，其次一直是适配的，只是SG的导入导出规则...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 第二期开发组座谈会</h1>
@@ -354,7 +359,7 @@
       <title>属性统计</title>
       <link>https://hut.ao/en/features/character-data.html</link>
       <guid>https://hut.ao/en/features/character-data.html</guid>
-      <source url="https://hut.ao/rss.xml">属性统计</source>
+      <source url="https://hut.ao/en/rss.xml">属性统计</source>
       <description>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多帐号切换 (mhy-account-switch.md)文档 属性统计，即主程序侧栏中的我的角色功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分 !属性统计示例图 (https://img.alicdn.com/imgextra...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 属性统计</h1>
@@ -454,7 +459,7 @@
       <title>角色资料</title>
       <link>https://hut.ao/en/features/character-wiki.html</link>
       <guid>https://hut.ao/en/features/character-wiki.html</guid>
-      <source url="https://hut.ao/rss.xml">角色资料</source>
+      <source url="https://hut.ao/en/rss.xml">角色资料</source>
       <description>characters-wiki 角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki 已包含的数据 角色列表; 使用列表左上角的按钮，可切换列表显示的方式：即&amp;quot;缩略图与名称&amp;quot;或&amp;quot;仅缩略图&amp;quot;; 单击列表中的缩略图或名称，即可跳转到相应的介绍页面; 数据内容; 角色基本信息; 介绍; 各等级下的数值; 属性;...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 角色资料</h1>
@@ -513,7 +518,7 @@
       <title>实时便笺</title>
       <link>https://hut.ao/en/features/daily-notes.html</link>
       <guid>https://hut.ao/en/features/daily-notes.html</guid>
-      <source url="https://hut.ao/rss.xml">实时便笺</source>
+      <source url="https://hut.ao/en/rss.xml">实时便笺</source>
       <description>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多帐号切换 (mhy-account-switch.md)文档 live-data-tracking 添加角色 点击添加角色按钮; 在弹出的添加角色浮窗中，选择您要添加的游戏角色，并单击其右侧的加号按钮; 此时您添加的游戏角色即可显示在实时便笺页面中; 实时便笺是间隔固定时间自动刷新的; 你可...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 实时便笺</h1>
@@ -585,7 +590,7 @@
       <title>养成计划</title>
       <link>https://hut.ao/en/features/develop-plan.html</link>
       <guid>https://hut.ao/en/features/develop-plan.html</guid>
-      <source url="https://hut.ao/rss.xml">养成计划</source>
+      <source url="https://hut.ao/en/rss.xml">养成计划</source>
       <description>dev-plan 添加养成目标进入材料清单 基于 WIKI 资料添加 在胡桃工具箱的左侧栏目中，点击角色资料或`武器资料功能; 在&amp;quot;胡桃工具箱&amp;quot;的整体界面右上部分，点击养成计算按钮; 在弹出的&amp;quot;添加到当前养成计划&amp;quot;的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级; 基于 WIKI 资料添加的养成目标，默认初始值为1级; 基于玩家数据添加 在&amp;quot;...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 养成计划</h1>
@@ -643,7 +648,7 @@
       <title>高级启动器</title>
       <link>https://hut.ao/en/features/game-launcher.html</link>
       <guid>https://hut.ao/en/features/game-launcher.html</guid>
-      <source url="https://hut.ao/rss.xml">高级启动器</source>
+      <source url="https://hut.ao/en/rss.xml">高级启动器</source>
       <description>胡桃工具箱提供的高级启动器功能中通过多样的设置选项来允许用户以自定义设置启动游戏; 在设置完毕启动游戏所需的附加选项后，点击右下角的启动游戏按钮即可; 选择游戏路径时，请注意此处选择的应是游戏本身; 形如：$\Genshin Impact\Genshin Impact Game\YuanShen.exe; 国际服支持 高级启动器中除切换服务器以外的功能...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 高级启动器</h1>
@@ -769,7 +774,7 @@
       <title>胡桃数据库/深渊统计</title>
       <link>https://hut.ao/en/features/hutao-API.html</link>
       <guid>https://hut.ao/en/features/hutao-API.html</guid>
-      <source url="https://hut.ao/rss.xml">胡桃数据库/深渊统计</source>
+      <source url="https://hut.ao/en/rss.xml">胡桃数据库/深渊统计</source>
       <description>胡桃工具箱提供两个主要的深境螺旋挑战统计的功能 侧栏中的深渊统计是一个旨在通过统计并展示广大玩家深境螺旋挑战数据，来帮助对原神对战系统不熟悉玩家组建队伍、通关深渊、获取奖励的功能; 侧栏中的深渊记录是一个通过保存玩家每一期深境螺旋挑战数据来帮助个人玩家回顾游戏经历及个人数据收集的统计功能; 众多的玩家通过上传个人的深渊记录来形成胡桃数据库的深渊统计数据...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 胡桃数据库/深渊统计</h1>
@@ -850,7 +855,7 @@
       <title>软件设置</title>
       <link>https://hut.ao/en/features/hutao-settings.html</link>
       <guid>https://hut.ao/en/features/hutao-settings.html</guid>
-      <source url="https://hut.ao/rss.xml">软件设置</source>
+      <source url="https://hut.ao/en/rss.xml">软件设置</source>
       <description>以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序; 关于 胡桃 胡桃工具箱的图标：您可以在胡桃的首页 (https://hut.ao/)查看它的原图; 该图像作品的作者为LOFTER@夙夜 (https://dieqi32894.lofter.com/post/4b58ce16_2b6b2d365)并由DGP-Studio (https://...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 软件设置</h1>
@@ -980,7 +985,7 @@
       <title>米游社多帐号切换</title>
       <link>https://hut.ao/en/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/en/features/mhy-account-switch.html</guid>
-      <source url="https://hut.ao/rss.xml">米游社多帐号切换</source>
+      <source url="https://hut.ao/en/rss.xml">米游社多帐号切换</source>
       <description>本文档所描述的帐号切换指的是用于获取游戏数据的米游社帐号，不是原神游戏内的帐号 !多帐号管理样图 (https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png) 你可以在程序主界面的左下角，设置按钮的上方找到帐号菜单，以管理你在胡桃工具箱中...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 米游社多帐号切换</h1>
@@ -1027,7 +1032,7 @@
       <title>武器资料</title>
       <link>https://hut.ao/en/features/weapon-wiki.html</link>
       <guid>https://hut.ao/en/features/weapon-wiki.html</guid>
-      <source url="https://hut.ao/rss.xml">武器资料</source>
+      <source url="https://hut.ao/en/rss.xml">武器资料</source>
       <description>!weapon-wiki (https://img.alicdn.com/imgextra/i1/1797064093/O1CN01jbzlTH1g6du6KfSmF_!!1797064093.png) 武器资料是胡桃工具箱中内置的用于查询各个武器的外观、参数、精炼效果、推荐搭配等数据的 Wiki 已包含的数据 武器列表; 使用列表左上角的按钮，可切换...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 武器资料</h1>
@@ -1067,7 +1072,7 @@
       <title>用户数据和隐私权益</title>
       <link>https://hut.ao/en/statements/privacy-notice.html</link>
       <guid>https://hut.ao/en/statements/privacy-notice.html</guid>
-      <source url="https://hut.ao/rss.xml">用户数据和隐私权益</source>
+      <source url="https://hut.ao/en/rss.xml">用户数据和隐私权益</source>
       <description>胡桃工具箱充分尊重用户的隐私，目前我们会按下方的说明使用用户的数据： 使用胡桃后，在 数据目录 中以数据库文件的形式; 储存; 米游社 Cookie; 胡桃的软件设置信息; 全部的用户数据; 使用胡桃主程序时，胡桃会因开发和统计为目的匿名化地收集程序意外停止或出错时抛出的日志，包括：; 用户设备 ID; 错误与崩溃日志; 用户活跃数据统计信息; 使用 ...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 用户数据和隐私权益</h1>
@@ -1112,7 +1117,7 @@
       <title>用户使用协议和法律声明</title>
       <link>https://hut.ao/en/statements/tos.html</link>
       <guid>https://hut.ao/en/statements/tos.html</guid>
-      <source url="https://hut.ao/rss.xml">用户使用协议和法律声明</source>
+      <source url="https://hut.ao/en/rss.xml">用户使用协议和法律声明</source>
       <description>总则 本&amp;quot;用户使用协议和法律声明&amp;quot;（以下简称&amp;quot;条款&amp;quot;或&amp;quot;使用协议&amp;quot;）适用于DGP-Studio开发团队 (https://github.com/DGP-Studio)（以下简称&amp;quot;本团队&amp;quot;或&amp;quot;我方&amp;quot;）开发的全部软件作品、各开发项目的官方网站、附属的自媒体账号等。; 请您仔细阅读本用户使用协议的全部内容，在您阅读&amp;quot;使用协议&amp;quot;后，若对此用户使用协议中的任何条...</description>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 用户使用协议和法律声明</h1>
@@ -1219,7 +1224,7 @@
       <title>祈愿系统与导出原理</title>
       <link>https://hut.ao/en/FAQ/Gacha-system-and-export-principal.html</link>
       <guid>https://hut.ao/en/FAQ/Gacha-system-and-export-principal.html</guid>
-      <source url="https://hut.ao/rss.xml">祈愿系统与导出原理</source>
+      <source url="https://hut.ao/en/rss.xml">祈愿系统与导出原理</source>
       <description>Gacha System and Principal 胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。 本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。 祈愿的获取 获取祈愿记录需要请求米哈游的API 关于此API, 有下列几个注意点 通过米哈游服务器的API，只能查询到过去6个月内的祈愿记录; 这也是原神客...</description>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 祈愿系统与导出原理</h1>
@@ -1275,7 +1280,7 @@
       <title>功能列表</title>
       <link>https://hut.ao/en/features/</link>
       <guid>https://hut.ao/en/features/</guid>
-      <source url="https://hut.ao/rss.xml">功能列表</source>
+      <source url="https://hut.ao/en/rss.xml">功能列表</source>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 功能列表</h1>
 ]]></content:encoded>
@@ -1284,7 +1289,7 @@
       <title>成就管理</title>
       <link>https://hut.ao/en/features/achievements.html</link>
       <guid>https://hut.ao/en/features/achievements.html</guid>
-      <source url="https://hut.ao/rss.xml">成就管理</source>
+      <source url="https://hut.ao/en/rss.xml">成就管理</source>
       <description>胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态 在第一次使用时，你需要根据提示点击创建新存档按钮以创造一个成就存档并为其命名; 创建第一个资料页后，你可以点击右上角的创建新存档来继续为更多的帐号创建成就记录档案; 成就导入 胡桃工具箱使用统一可交换成就标准 (https://www.snapgenshin.com/developme...</description>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 成就管理</h1>
@@ -1319,7 +1324,7 @@
       <title>祈愿记录</title>
       <link>https://hut.ao/en/features/wish-export.html</link>
       <guid>https://hut.ao/en/features/wish-export.html</guid>
-      <source url="https://hut.ao/rss.xml">祈愿记录</source>
+      <source url="https://hut.ao/en/rss.xml">祈愿记录</source>
       <description>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（）。 因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。 有关原神祈愿记录导出的技术原理，你可以参阅我们的祈愿系...</description>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 祈愿记录</h1>
@@ -1407,7 +1412,7 @@
       <title>提交BUG报告</title>
       <link>https://hut.ao/en/statements/bug-report.html</link>
       <guid>https://hut.ao/en/statements/bug-report.html</guid>
-      <source url="https://hut.ao/rss.xml">提交BUG报告</source>
+      <source url="https://hut.ao/en/rss.xml">提交BUG报告</source>
       <description>推荐方法 在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。; 在提交问题时，您应当尽可能地详细描述问题。如果有错误的截图，也应该提供。这有利于问题排查并加速问题修复。; 一个可以参考的非常正面的例子是 DGP-Studio/Snap.Hutao/issues/100 (https://githu...</description>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 提交BUG报告</h1>
@@ -1454,7 +1459,7 @@
       <title>项目说明</title>
       <link>https://hut.ao/en/project.html</link>
       <guid>https://hut.ao/en/project.html</guid>
-      <source url="https://hut.ao/rss.xml">项目说明</source>
+      <source url="https://hut.ao/en/rss.xml">项目说明</source>
       <description>胡桃工具箱是一个正在开发的程序，其将继承 Snap Genshin 中的功能，并添加更多的功能。 功能迁移 已经完成迁移的功能将会在本站文档中提供指导说明，功能迁移和开发进度可以参阅下方 [x] 米游社公告首页; [x] 米游社帐号管理; [x] 游戏启动器; [x] 祈愿记录; [ ] WIKI - 日常材料; 将整合进养成计划; [ ] WIKI ...</description>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 项目说明</h1>
@@ -1510,7 +1515,7 @@
       <title>快速开始</title>
       <link>https://hut.ao/en/quick-start.html</link>
       <guid>https://hut.ao/en/quick-start.html</guid>
-      <source url="https://hut.ao/rss.xml">快速开始</source>
+      <source url="https://hut.ao/en/rss.xml">快速开始</source>
       <description>::: tip 若您已下载或使用胡桃工具箱,即表示你已阅读并完全同意用户使用协议与法律声明 (/statements/privacy-notice.md) ::: 最低系统要求 要求规格 -- *最低可运行系统版本**|Windows 10.0.18362.0 | *推荐系统版本**Windows 10.0.22621.0 可选组件WebView2 R...</description>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 快速开始</h1>
