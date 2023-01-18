@@ -30,7 +30,7 @@ export default defineUserConfig({
   plugins: [
     searchProPlugin({
       indexContent: true,
-      customFields:[
+      customFields: [
         {
           getter: (page) => page.frontmatter.category,
           formatter: {
@@ -38,8 +38,23 @@ export default defineUserConfig({
             "/en/": "Category：$content",
           },
         },
-      ]
-    })
+        {
+          getter: (page) => page.frontmatter.tag,
+          formatter: {
+            "/": "标签: $content",
+            "/en/": "Tag：$content",
+          },
+        },
+      ],
+      locales: {
+        "/": {
+          placeholder: "点击搜索"
+        },
+        "/en/":{
+          placeholder: "search"
+        }
+      }
+    }),
   ],
 
   theme,
