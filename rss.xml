@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 19 Jan 2023 05:49:37 GMT</pubDate>
-    <lastBuildDate>Thu, 19 Jan 2023 05:49:37 GMT</lastBuildDate>
+    <pubDate>Thu, 19 Jan 2023 23:18:04 GMT</pubDate>
+    <lastBuildDate>Thu, 19 Jan 2023 23:18:04 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -242,7 +242,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2> 为什么解锁帧率后使用心海时出现掉帧</h2>
 <p>原神的BUG，和我们没关系</p>
 <h2> 为什么会弹出需要使用新应用以打开的对话框</h2>
-<p>请根据文档在设置中清除定时任务后再卸载胡桃工具箱</p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg" alt="uninstall-error" loading="lazy"></p>
+<p>如在卸载胡桃工具箱后出现如上图所示的<code>需要使用新应用以打开此 hutao 链接</code>，说明没有按文档要求在卸载前清除实时便笺定时任务。
+请根据文档在设置中清除定时任务后再卸载胡桃工具箱。</p>
 <h2> 为什么米游社帐号登录状态经常失效，添加的帐号消失</h2>
 <ul>
 <li>我们通过储存帐号的米游社 Cookie 来维持登录状态。</li>
@@ -255,6 +257,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
 继续使用管理员模式即可解决该问题。</p>
 ]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>如何...</title>
@@ -1521,7 +1524,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>如果你希望从 Snap Genshin 中转移祈愿数据至胡桃工具箱，你可以：</p>
 <ul>
 <li>升级 Snap Genshin 到最新版本</li>
-<li>进入<code>祈愿记录</code>功能</li>
+<li>进入<code>祈愿记录</code>功能
+<ul>
+<li>如果你由于无法登录米游社而无法进入 Snap Genshin，可以在胡桃工具箱中登录米游社帐号并复制 Cookie 到 Snap Genshin</li>
+</ul>
+</li>
 <li>点击右上角的功能菜单</li>
 <li>通过<code>导出 UIGF Json 文件</code>导出 Json 格式的祈愿记录</li>
 <li>在胡桃工具箱中导入该文件</li>
