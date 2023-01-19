@@ -69,6 +69,7 @@ category: [功能,教程]
 如果你希望从 Snap Genshin 中转移祈愿数据至胡桃工具箱，你可以：
 - 升级 Snap Genshin 到最新版本
 - 进入`祈愿记录`功能
+  - 如果你由于无法登录米游社而无法进入 Snap Genshin，可以在胡桃工具箱中登录米游社帐号并复制 Cookie 到 Snap Genshin
 - 点击右上角的功能菜单
 - 通过`导出 UIGF Json 文件`导出 Json 格式的祈愿记录
 - 在胡桃工具箱中导入该文件
