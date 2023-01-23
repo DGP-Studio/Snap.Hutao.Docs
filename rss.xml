@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 19 Jan 2023 23:18:04 GMT</pubDate>
-    <lastBuildDate>Thu, 19 Jan 2023 23:18:04 GMT</lastBuildDate>
+    <pubDate>Mon, 23 Jan 2023 01:23:56 GMT</pubDate>
+    <lastBuildDate>Mon, 23 Jan 2023 01:23:56 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1730,7 +1730,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/quick-start.html</link>
       <guid>https://hut.ao/quick-start.html</guid>
       <source url="https://hut.ao/rss.xml">快速开始</source>
-      <description>若您已下载或使用胡桃工具箱，即表示你已阅读并完全同意用户使用协议与法律声明 (/statements/tos.md) include(star-request.md) 最低系统要求 要求规格 -- *最低可运行系统版本**|Windows 10.0.18362.0 | *推荐系统版本**Windows 10.0.22621.0 可选组件WebView2...</description>
+      <description>若您已下载或使用胡桃工具箱，即表示你已阅读并完全同意用户使用协议与法律声明 (/statements/tos.md) include(star-request.md) 视频指南 遵循本页文档进行操作可以高效地实现开箱即用的胡桃工具箱。但如果你对下方文档中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。 最低系统要求 要求规格 -- *最低可运行系统...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
@@ -1761,93 +1761,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
-<h2> 最低系统要求</h2>
-<table>
-<thead>
-<tr>
-<th>要求</th>
-<th>规格</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>最低可运行系统版本</strong></td>
-<td>Windows 10.0.18362.0 <sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></td>
-</tr>
-<tr>
-<td><strong>推荐系统版本</strong></td>
-<td>Windows 10.0.22621.0</td>
-</tr>
-<tr>
-<td>可选组件</td>
-<td>WebView2 Runtime</td>
-</tr>
-</tbody>
-</table>
-<h2> 下载胡桃工具箱</h2>
-<p>当前最新版本为：<img src="https://img.shields.io/github/v/release/DGP-Studio/Snap.Hutao?label=Snap.Hutao.Stable&amp;style=flat-square" alt="stable-version" loading="lazy"></p>
-<p>胡桃工具箱目前处于公开测试阶段。你可以</p>
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao/releases/" target="_blank" rel="noopener noreferrer">从 GitHub 下载 </a></li>
-<li><a href="https://d.hut.ao/" target="_blank" rel="noopener noreferrer">从网盘下载</a></li>
-</ul>
-<p>您下载的包含安装程序的压缩文件名称将与<code>Snap.Hutao_*_x64.zip</code>相似</p>
-<h2> 安装胡桃工具箱</h2>
-<h3> 通用安装方式</h3>
-<ul>
-<li>在系统设置中打开<code>开发者设置</code>界面，勾选 <code>开发人员模式</code> 和 <code>允许 PowerShell 脚本</code> （自行百度）</li>
-<li>解压已下载的压缩包，找到<code>Install.ps1</code>文件，右键选择<code>使用PowerShell运行</code>，按照提示允许PowerShell执行操作即可</li>
-<li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
-</ul>
-<h3> 小白级安装方式</h3>
-<ul>
-<li>解压已下载的安装包</li>
-<li>运行 <code>Snap.Hutao.Installer.exe</code>
-<ul>
-<li>该程序将执行上述通用安装方式的命令</li>
-</ul>
-</li>
-<li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
-</ul>
-<h2> 升级胡桃工具箱</h2>
-<ul>
-<li>解压你下载的最新版本压缩包</li>
-<li>重复 <code>安装胡桃工具箱</code> 的步骤</li>
-<li>若您安装失败或出现异常情况，可参考如下步骤
-<ul>
-<li>先卸载已经安装的<code>胡桃工具箱</code></li>
-<li>重复 <code>安装胡桃工具箱</code> 的步骤</li>
-</ul>
-</li>
-</ul>
-<h2> 卸载胡桃工具箱</h2>
-<ul>
-<li>清除有关的任务计划
-<ul>
-<li>打开胡桃，选择 <strong>设置</strong> 页签</li>
-<li>找到 <strong>删除所有计划任务</strong> 一栏中，点击右侧的 <strong>执行</strong> 按钮</li>
-</ul>
-</li>
-<li>卸载软件
-<ul>
-<li>打开<code>开始菜单</code></li>
-<li>找到或搜索到<code>胡桃</code></li>
-<li>右键点击<code>胡桃</code>，并选择<code>卸载</code></li>
-</ul>
-</li>
-<li>清除数据文件夹（如需完全卸载）
-<ul>
-<li>打开并删除该文件夹 <code>%userprofile%/Documents/Hutao</code></li>
-</ul>
-</li>
-</ul>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="footnote1" class="footnote-item"><p>LTSC 和 LTSB 版本系统不在支持列表中，但它们可以在修改系统模块后使用胡桃工具箱。请联系你的 IT 管理员以获取支持。 <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
+<h2> 视频指南</h2>
+<p>遵循本页文档进行操作可以高效地实现开箱即用的胡桃工具箱。但如果你对下方文档中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
 ]]></content:encoded>
       <enclosure url="https://img.shields.io/github/v/release/DGP-Studio/Snap.Hutao?label=Snap.Hutao.Stable&amp;style=flat-square" type="image/"/>
     </item>
