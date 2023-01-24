@@ -12,6 +12,7 @@ export default defineUserConfig({
     ['script', {async:"", defer:"", "data-website-id":"f586534f-1741-450e-a0f4-3c0189f993c9",
       src:"https://umami.irain.in/umami.js"}, `
        `],
+      ['div', {id: "docsearch"}],
   ],
 
   locales: {
