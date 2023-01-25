@@ -1,0 +1,28 @@
+name: 请求添加文档
+description: 告诉我们你认为缺少什么文档
+title: "[Doc Request]: 在这里填写一个合适的标题"
+labels: ["Doc Request"]
+assignees:
+  - Masterain98
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请按下方的要求填写完整的问题表单。
+
+  - type: textarea
+    id: req
+    attributes:
+      label: 想要的文档
+      description: 解释你认为当前缺失或解释不完整的文档
+    validations:
+      required: true
+
+  - type: input
+    id: doc-url
+    attributes:
+      label: 需要更新的文档链接
+      description: 如果你请求更新现有文档，请在这里填写对应文档的链接
+      placeholder: https://hut.ao/
+    validations:
+      required: false
