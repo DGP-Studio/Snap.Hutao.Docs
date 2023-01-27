@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 27 Jan 2023 06:09:00 GMT</pubDate>
-    <lastBuildDate>Fri, 27 Jan 2023 06:09:00 GMT</lastBuildDate>
+    <pubDate>Fri, 27 Jan 2023 06:40:45 GMT</pubDate>
+    <lastBuildDate>Fri, 27 Jan 2023 06:40:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1577,7 +1577,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>一个可以参考的非常正面的例子是 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao/issues/100</a></li>
 </ul>
 </li>
-<li>如果你有能力在代码层面修复该问题，也欢迎您直接在对应的项目中发起 PR。</li>
+<li>如果你有能力在代码层面修复该问题，也欢迎您直接在对应的项目中发起 PR。
+<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg" alt="suggestion" loading="lazy">
+<strong>如果你是诚心希望解决问题，则应该在 Issue 中包含尽可能多的信息，比如说：你做了什么；看到了什么结果；程序有什么提示；
+你查阅了哪篇文档；尝试了什么解决方案，结果是什么；你的设备ID是什么…… 当你愿意付出更多的时间在提供信息上，更大的可能获得一个准确的解决方案。
+一两句话就结束的问题报告大多数不是有效的问题，只会被无视。</strong></li>
 </ul>
 <h3> 客户端问题</h3>
 <ul>
