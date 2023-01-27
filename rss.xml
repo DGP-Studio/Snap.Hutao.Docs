@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 24 Jan 2023 05:58:41 GMT</pubDate>
-    <lastBuildDate>Tue, 24 Jan 2023 05:58:41 GMT</lastBuildDate>
+    <pubDate>Fri, 27 Jan 2023 06:09:00 GMT</pubDate>
+    <lastBuildDate>Fri, 27 Jan 2023 06:09:00 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1116,10 +1116,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>获取当前原神的登录状态通常需要管理员权限，建议<code>使用管理员模式启动胡桃</code></li>
 </ol>
 </div>
-<ul>
+<ol>
 <li>在主界面点击左侧菜单栏进入<code>启动游戏</code>标签</li>
-<li>点击<code>账号</code>功能中的<code>检测</code>按钮</li>
+<li>点击<code>账号</code>功能中的<code>检测</code>按钮，胡桃工具箱会保存当前原神游戏的登录状态</li>
 <li>在弹出的<code>为账号命名</code>界面中，输入您要为此账号设置的名称，点击确认</li>
+<li>在游戏中，注销当前登录并登录你另一个帐号。重复执行上述的第2步和第三步直至你将全部的帐号添加进胡桃工具箱中。</li>
 <li>此时即可在<code>账号</code>功能下方自由选择您要切换的账号
 <ul>
 <li>每个已保存的账号均为可点击选择的按钮</li>
@@ -1132,7 +1133,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 </li>
-</ul>
+</ol>
 <h2> 外观选项</h2>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
@@ -1319,11 +1320,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
-<div class="hint-container danger">
+<div class="hint-container info">
 <p class="hint-container-title">安全提示</p>
 <ul>
-<li><code>Stoken</code> 是一个安全敏感的 cookie 字段，你不应该在任何云端或其它无法保证数据安全的设备上储存含有 <code>Stoken</code> 字段的 cookie。</li>
+<li><code>Stoken</code> 是一个安全敏感的 cookie 字段，你<strong>不应该</strong>在任何云端或其它无法保证数据安全的设备上储存含有 <code>Stoken</code> 字段的 cookie。</li>
 <li>从胡桃工具箱中复制获得的 cookie 中包含该字段，请慎重考虑是否为接受 cookie 的一方提供 <code>Stoken</code> 字段。</li>
+<li><strong>在胡桃工具箱中通过密码或 cookie 登录米游社的过程中，你的数据只经米游社服务器和本地胡桃工具箱处理，不经过包括胡桃服务器在内的任何第三方服务。</strong></li>
 </ul>
 </div>
 ]]></content:encoded>
