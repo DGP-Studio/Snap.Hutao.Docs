@@ -49,7 +49,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "做最好的原神工具",
+      footer: "用开源社区力量为原神PC端玩家带来最好的游戏体验",
 
       displayFooter: true,
 
@@ -78,7 +78,7 @@ export default hopeTheme({
       dark: "auto",
       requiredMeta: ['mail'],
       login: 'enable',
-      reaction: true
+      reaction: false,
     },
 
     // Operational Plugins

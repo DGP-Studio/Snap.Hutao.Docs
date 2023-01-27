@@ -1,6 +1,8 @@
 ---
 headerDepth: 0
 category: [公告]
+comment: false
+editLink: false
 ---
 
 # 用户使用协议和法律声明   
