@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 27 Jan 2023 06:40:45 GMT</pubDate>
-    <lastBuildDate>Fri, 27 Jan 2023 06:40:45 GMT</lastBuildDate>
+    <pubDate>Fri, 27 Jan 2023 08:01:33 GMT</pubDate>
+    <lastBuildDate>Fri, 27 Jan 2023 08:01:33 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1296,6 +1296,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </div>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" alt="多帐号管理样图" loading="lazy"></p>
+<details class="hint-container details"><summary>胡桃工具箱视频指南 - 米游社帐号登录</summary>
+<p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
+<p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
+</details>
 <ul>
 <li>你可以在程序主界面的左下角，设置按钮的上方找到帐号菜单，以管理你在胡桃工具箱中登录的米游社帐号。在弹出的面板中你可以：
 <ul>
