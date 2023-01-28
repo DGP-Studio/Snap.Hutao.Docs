@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 27 Jan 2023 08:01:33 GMT</pubDate>
-    <lastBuildDate>Fri, 27 Jan 2023 08:01:33 GMT</lastBuildDate>
+    <pubDate>Sat, 28 Jan 2023 08:02:13 GMT</pubDate>
+    <lastBuildDate>Sat, 28 Jan 2023 08:02:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1067,7 +1067,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/features/game-launcher.html</link>
       <guid>https://hut.ao/features/game-launcher.html</guid>
       <source url="https://hut.ao/rss.xml">高级启动器</source>
-      <description>胡桃工具箱提供的高级启动器功能中通过多样的设置选项来允许用户以自定义设置启动游戏; 在设置完毕启动游戏所需的附加选项后，点击右下角的启动游戏按钮即可; 选择游戏路径时，请注意此处选择的应是游戏本身; 形如：$\Genshin Impact\Genshin Impact Game\YuanShen.exe; 国际服支持 高级启动器中除切换服务器以外的功能...</description>
+      <description>胡桃工具箱提供的高级启动器功能中通过多样的设置选项来允许用户以自定义设置启动游戏; 在设置完毕启动游戏所需的附加选项后，点击右下角的启动游戏按钮即可; 选择游戏路径时，请注意此处选择的应是游戏本身; 形如：$\Genshin Impact\Genshin Impact Game\YuanShen.exe; 而官方启动器的目录一般是$\Genshin I...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Thu, 10 Nov 2022 01:14:39 GMT</pubDate>
@@ -1078,35 +1078,26 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>选择游戏路径时，请注意此处选择的应是游戏本身
 <ul>
 <li>形如：<code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code></li>
+<li>而官方启动器的目录一般是<code>$\Genshin Impact\launcher.exe</code></li>
 </ul>
 </li>
 </ul>
-<div class="hint-container tip">
-<p class="hint-container-title">国际服支持</p>
-<p>高级启动器中除<code>切换服务器</code>以外的功能均支持国际服客户端</p>
-</div>
 <h2> 切换服务器</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>当前版本由于原神的部分更新，导致本功能可能无法成功从官服转换为B服，请等待进一步的更新</p>
+<div class="hint-container tip">
+<p class="hint-container-title">权限提示</p>
+<ol>
+<li>使用该功能时需要以管理员权限启动胡桃工具</li>
+<li>胡桃工具箱会在游戏截图目录下创建一个名为 <code>HutaoCache</code> 的文件夹并储存转换服务器所需要的文件</li>
+</ol>
 </div>
 <ul>
 <li>在主界面点击左侧菜单栏进入<code>启动游戏</code>页面</li>
 <li>点击右侧选项中的服务器名称，选择要进入的服务器
 <ul>
-<li>目前可选的服务器为<code>官方服|天空岛</code>与<code>渠道服|世界树</code>
-<ul>
-<li>若需切换至世界树服务器，则应将 <a href="https://cloud.06dn.com/api/v3/file/source/179514/PCGameSDK.dll?sign=dbF4NoPqrSemUlbugtU71iYk1IZaW7JHQK9TbHMBTNg%3D%3A0" target="_blank" rel="noopener noreferrer">PCGameSDK.dll 文件</a>放入 Plugins 文件夹中
-<ul>
-<li>该目录的路径形如"$:\Genshin Impact\Genshin Impact Game\YuanShen_Data\Plugins"</li>
+<li>目前可选的服务器为<code>官方服|天空岛</code>、<code>渠道服|世界树</code>和<code>国际服</code></li>
 </ul>
 </li>
-<li>若下载到的<code>PCGameSDK.dll 文件</code>的文件名中有其他字符，建议将其重命名为 <code>PCGameSDK.dll</code>，以防止读取错误</li>
-<li>若需要切换不同的服务器，须确保<code>以管理员模式启动</code>胡桃工具箱</li>
-</ul>
-</li>
-</ul>
-</li>
+<li>点击右下角的<code>启动游戏</code>按钮，胡桃会自动下载并应用对应服务器的文件并启动游戏</li>
 </ul>
 <h2> 账号保存</h2>
 <div class="hint-container tip">
@@ -1114,8 +1105,33 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ol>
 <li>本功能所描述的帐号，特指当前原神所登录游戏账号的登录状态</li>
 <li>获取当前原神的登录状态通常需要管理员权限，建议<code>使用管理员模式启动胡桃</code></li>
+<li><strong>目前仅支持切换官方服（不含渠道服）帐号</strong></li>
 </ol>
 </div>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>官方服</th>
+<th>渠道服</th>
+<th>国际服</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保存登录状态</td>
+<td>支持</td>
+<td>支持</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>切换账号</td>
+<td>支持</td>
+<td>不支持</td>
+<td>理论支持<br><a href="https://github.com/DGP-Studio/Snap.Hutao/pulls" target="_blank" rel="noopener noreferrer">我们期待更多的社区开发者帮助</a></td>
+</tr>
+</tbody>
+</table>
 <ol>
 <li>在主界面点击左侧菜单栏进入<code>启动游戏</code>标签</li>
 <li>点击<code>账号</code>功能中的<code>检测</code>按钮，胡桃工具箱会保存当前原神游戏的登录状态</li>
