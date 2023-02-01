@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 29 Jan 2023 11:07:00 GMT</pubDate>
-    <lastBuildDate>Sun, 29 Jan 2023 11:07:00 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Feb 2023 10:40:35 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Feb 2023 10:40:35 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1817,11 +1817,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <tbody>
 <tr>
 <td><strong>最低可运行系统版本</strong></td>
-<td>Windows 10.0.18362.0 <sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></td>
+<td>Windows 10 Build 19041 (20H1) <sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></td>
 </tr>
 <tr>
 <td><strong>推荐系统版本</strong></td>
-<td>Windows 10.0.22621.0</td>
+<td>Windows 11 Build 22621 (22H2)</td>
 </tr>
 <tr>
 <td>可选组件</td>
