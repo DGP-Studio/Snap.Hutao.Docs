@@ -21,8 +21,8 @@ category: [功能,教程]
 ## 最低系统要求
 |要求|规格|
 |-|-|
-|**最低可运行系统版本**|Windows 10.0.18362.0 [^first]|
-|**推荐系统版本**|Windows 10.0.22621.0|
+|**最低可运行系统版本**|Windows 10 Build 19041 (20H1) [^first]|
+|**推荐系统版本**|Windows 11 Build 22621 (22H2)|
 |可选组件|WebView2 Runtime|
 
 
