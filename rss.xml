@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 03 Feb 2023 03:06:17 GMT</pubDate>
-    <lastBuildDate>Fri, 03 Feb 2023 03:06:17 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Feb 2023 09:08:00 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Feb 2023 09:08:00 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1770,27 +1770,31 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </tbody>
 </table>
 <h2> 下载胡桃工具箱</h2>
-<iframe :src="$withBase('/store-badge.html')" frameborder="0" scrolling="No">
+
 <p>微软商店链接：<a href="https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52" target="_blank" rel="noopener noreferrer">Snap Hutao</a></p>
 <p>在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱</p>
-<h2 id="卸载胡桃工具箱" tabindex="-1"><a class="header-anchor" href="#卸载胡桃工具箱" aria-hidden="true">#</a> 卸载胡桃工具箱</h2>
+<h2> 卸载胡桃工具箱</h2>
 <ul>
 <li>清除有关的任务计划
 <ul>
 <li>打开胡桃，选择 <strong>设置</strong> 页签</li>
-<li>找到 <strong>删除所有计划任务</strong> 一栏中，点击右侧的 <strong>执行</strong> 按钮</li>
+<li>找到 <strong>删除所有计划任务</strong> 一栏中，点击右侧的 <strong>执行</strong> 按钮
+<ul>
+<li>若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/FAQ/why.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li>卸载软件
 <ul>
-<li>打开<code v-pre>开始菜单</code></li>
-<li>找到或搜索到<code v-pre>胡桃</code></li>
-<li>右键点击<code v-pre>胡桃</code>，并选择<code v-pre>卸载</code></li>
+<li>打开<code>开始菜单</code></li>
+<li>找到或搜索到<code>胡桃</code></li>
+<li>右键点击<code>胡桃</code>，并选择<code>卸载</code></li>
 </ul>
 </li>
 <li>清除数据文件夹（如需完全卸载）
 <ul>
-<li>打开并删除该文件夹 <code v-pre>%userprofile%/Documents/Hutao</code></li>
+<li>打开并删除该文件夹 <code>%userprofile%/Documents/Hutao</code></li>
 </ul>
 </li>
 </ul>
@@ -1801,7 +1805,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ol>
 </section>
-</iframe>]]></content:encoded>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
