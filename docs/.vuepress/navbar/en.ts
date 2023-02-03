@@ -6,6 +6,6 @@ export const enNavbar = navbar([
   {
     text: "Download",
     icon: "install",
-    link: "https://d.hut.ao",
+    link: "https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52",
   },
 ]);

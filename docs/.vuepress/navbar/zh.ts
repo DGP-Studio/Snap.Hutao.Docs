@@ -6,7 +6,7 @@ export const zhNavbar = navbar([
   {
     text: "下载",
     icon: "install",
-    link: "https://d.hut.ao",
+    link: "https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52",
   },
   {
     text: "加入社区讨论",
