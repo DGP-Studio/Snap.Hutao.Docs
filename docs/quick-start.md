@@ -27,11 +27,12 @@ category: [功能,教程]
 
 
 ## 下载胡桃工具箱
-<iframe
-:src="$withBase('/store-badge.html')"
-frameborder="0"
-scrolling="No"
-/>
+
+<ms-store-badge
+productid="9PH4NXJ2JN52"
+theme="auto">
+</ms-store-badge>
+
 
 微软商店链接：[Snap Hutao](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
 
@@ -42,6 +43,7 @@ scrolling="No"
 - 清除有关的任务计划
    - 打开胡桃，选择 **设置** 页签
    - 找到 **删除所有计划任务** 一栏中，点击右侧的 **执行** 按钮
+     - 若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现[这个问题](/FAQ/why.md#为什么会弹出需要使用新应用以打开的对话框)
 - 卸载软件
    - 打开`开始菜单`
    - 找到或搜索到`胡桃`

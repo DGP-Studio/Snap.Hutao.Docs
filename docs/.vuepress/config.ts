@@ -14,8 +14,8 @@ export default defineUserConfig({
       src:"https://umami.irain.in/umami.js"}, `
        `],
       ['div', {id: "docsearch"}],
+      ['script', {type: "module", src:"https://get.microsoft.com/badge/ms-store-badge.bundled.js"}],
   ],
-
   locales: {
     "/": {
       lang: "zh-CN",
