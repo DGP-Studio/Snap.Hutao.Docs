@@ -134,7 +134,6 @@ export default hopeTheme({
     },
     components: {
       components: [
-          "Catalog",
           "Badge",
           "BiliBili",
       ]
