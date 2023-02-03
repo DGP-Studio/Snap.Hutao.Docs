@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import { viteBundler } from '@vuepress/bundler-vite'
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 
 export default defineUserConfig({
   base: "/",
