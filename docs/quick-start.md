@@ -27,35 +27,15 @@ category: [功能,教程]
 
 
 ## 下载胡桃工具箱
+<iframe
+:src="$withBase('/store-badge.html')"
+frameborder="0"
+scrolling="No"
+/>
 
-当前最新版本为：![stable-version](https://img.shields.io/github/v/release/DGP-Studio/Snap.Hutao?label=Snap.Hutao.Stable&style=flat-square)
+微软商店链接：[Snap Hutao](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
 
-胡桃工具箱目前处于公开测试阶段。你可以
-- [从 GitHub 下载 ](https://github.com/DGP-Studio/Snap.Hutao/releases/)
-- [从网盘下载](https://d.hut.ao/)
-
-您下载的包含安装程序的压缩文件名称将与`Snap.Hutao_*_x64.zip`相似
-
-## 安装胡桃工具箱  
-  
-### 通用安装方式
-- 在系统设置中打开`开发者设置`界面，勾选 `开发人员模式` 和 `允许 PowerShell 脚本` （自行百度）
-- 解压已下载的压缩包，找到`Install.ps1`文件，右键选择`使用PowerShell运行`，按照提示允许PowerShell执行操作即可
-- 安装完毕，`胡桃`将出现在您的`开始菜单`中
-
-### 小白级安装方式
-- 解压已下载的安装包
-- 运行 `Snap.Hutao.Installer.exe`
-  - 该程序将执行上述通用安装方式的命令
-- 安装完毕，`胡桃`将出现在您的`开始菜单`中
-
-## 升级胡桃工具箱  
-   
-- 解压你下载的最新版本压缩包
-- 重复 `安装胡桃工具箱` 的步骤
-- 若您安装失败或出现异常情况，可参考如下步骤
-   - 先卸载已经安装的`胡桃工具箱`
-   - 重复 `安装胡桃工具箱` 的步骤
+在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱
 
 ## 卸载胡桃工具箱
 
@@ -69,4 +49,4 @@ category: [功能,教程]
 - 清除数据文件夹（如需完全卸载）
    - 打开并删除该文件夹 `%userprofile%/Documents/Hutao`
 
-[^first]: LTSC 和 LTSB 版本系统不在支持列表中，但它们可以在修改系统模块后使用胡桃工具箱。请联系你的 IT 管理员以获取支持。
+[^first]: LTSC 和 LTSB 版本系统由于不包含微软商店，不在支持列表中。

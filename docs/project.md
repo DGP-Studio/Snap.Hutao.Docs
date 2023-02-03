@@ -38,8 +38,5 @@ category: [公告]
   - 等待微软修复上游问题
 - [ ] 国际服支持
   - [x] 游戏启动器
-  - [ ] 服务器切换
+  - [x] 服务器切换
   - [x] 祈愿记录
-  
-@include(development-log/symposium1.md)
-@include(development-log/symposium2.md)

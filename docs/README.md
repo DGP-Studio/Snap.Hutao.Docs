@@ -7,7 +7,7 @@ heroText: 胡桃工具箱
 tagline: 一个实用的开源多功能原神工具箱
 actions:
   - text: 下载
-    link: https://d.hut.ao/
+    link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
     type: primary
   - text: 快速开始
     link: /quick-start.md
