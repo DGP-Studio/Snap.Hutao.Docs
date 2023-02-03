@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 01 Feb 2023 10:40:35 GMT</pubDate>
-    <lastBuildDate>Wed, 01 Feb 2023 10:40:35 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Feb 2023 02:36:14 GMT</pubDate>
+    <lastBuildDate>Fri, 03 Feb 2023 02:36:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -23,35 +23,63 @@
     <category>教程</category>
     <item>
       <title></title>
-      <link>https://hut.ao/star-request.html</link>
-      <guid>https://hut.ao/star-request.html</guid>
+      <link>https://hut.ao/side-load.html</link>
+      <guid>https://hut.ao/side-load.html</guid>
       <source url="https://hut.ao/rss.xml"></source>
-      <description>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，请为我们在 GitHub 上加星点赞 ⭐，并在更多的地方帮助我们宣传 commit_activity hutao-last-commit hutao-last-release 胡桃主项目 !hutao.stars (https://img.shields.io/github/stars/DGP-Stud...</description>
-      <pubDate>Thu, 12 Jan 2023 11:46:12 GMT</pubDate>
-      <content:encoded><![CDATA[<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，请为我们在 GitHub 上加星点赞 ⭐，并在更多的地方帮助我们宣传</strong></p>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy">
-<img src="https://img.shields.io/github/release-date/DGP-Studio/Snap.Hutao?label=Hutao Last Release&amp;style=for-the-badge" alt="hutao-last-release" loading="lazy"></p>
+      <description>侧载安装 通用安装方式 在系统设置中打开开发者设置界面，勾选 开发人员模式 和 允许 PowerShell 脚本 （自行百度）; 解压已下载的压缩包，找到Install.ps1文件，右键选择使用PowerShell运行，按照提示允许PowerShell执行操作即可; 安装完毕，胡桃将出现在您的开始菜单中; 小白级安装方式 解压已下载的安装包; 运行 S...</description>
+      <pubDate>Fri, 03 Feb 2023 02:35:02 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> 侧载安装</h2>
+<h3> 通用安装方式</h3>
 <ul>
-<li>胡桃主项目   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy">
+<li>在系统设置中打开<code>开发者设置</code>界面，勾选 <code>开发人员模式</code> 和 <code>允许 PowerShell 脚本</code> （自行百度）</li>
+<li>解压已下载的压缩包，找到<code>Install.ps1</code>文件，右键选择<code>使用PowerShell运行</code>，按照提示允许PowerShell执行操作即可</li>
+<li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
+</ul>
+<h3> 小白级安装方式</h3>
 <ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a></li>
+<li>解压已下载的安装包</li>
+<li>运行 <code>Snap.Hutao.Installer.exe</code>
+<ul>
+<li>该程序将执行上述通用安装方式的命令</li>
 </ul>
 </li>
-<li>胡桃文档项目  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy">
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a></li>
+<li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
 </ul>
-</li>
-<li>我们的 GitHub 主页
-<img src="https://img.shields.io/github/stars/DGP-Studio?style=plastic&amp;color=red" alt="org-stars" loading="lazy">
+<h2> 升级胡桃工具箱</h2>
 <ul>
-<li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a></li>
+<li>解压你下载的最新版本压缩包</li>
+<li>重复 <code>安装胡桃工具箱</code> 的步骤</li>
+<li>若您安装失败或出现异常情况，可参考如下步骤
+<ul>
+<li>先卸载已经安装的<code>胡桃工具箱</code></li>
+<li>重复 <code>安装胡桃工具箱</code> 的步骤</li>
 </ul>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" type="image/"/>
+    </item>
+    <item>
+      <title></title>
+      <link>https://hut.ao/star-request.html</link>
+      <guid>https://hut.ao/star-request.html</guid>
+      <source url="https://hut.ao/rss.xml"></source>
+      <description>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们 为我们在 GitHub 上的项目加星点赞 ⭐; Snap.Hutao (https://github.com/DGP-Studio/Snap.Hutao) !hutao.stars (https://img.shields.io/github/stars/DGP-Studio...</description>
+      <pubDate>Thu, 12 Jan 2023 11:46:12 GMT</pubDate>
+      <content:encoded><![CDATA[<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
+<ul>
+<li>为我们在 GitHub 上的项目加星点赞 ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
+<li>在更多的地方帮助我们宣传</li>
+</ul>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
+<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" type="image/"/>
     </item>
     <item>
       <title>加入用户社区</title>
@@ -63,28 +91,19 @@
       <pubDate>Thu, 12 Jan 2023 11:31:30 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入用户社区</h1>
 <p>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。</p>
-<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，请为我们在 GitHub 上加星点赞 ⭐，并在更多的地方帮助我们宣传</strong></p>
+<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
+<ul>
+<li>为我们在 GitHub 上的项目加星点赞 ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
+<li>在更多的地方帮助我们宣传</li>
+</ul>
 <p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy">
-<img src="https://img.shields.io/github/release-date/DGP-Studio/Snap.Hutao?label=Hutao Last Release&amp;style=for-the-badge" alt="hutao-last-release" loading="lazy"></p>
-<ul>
-<li>胡桃主项目   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy">
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a></li>
-</ul>
-</li>
-<li>胡桃文档项目  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy">
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a></li>
-</ul>
-</li>
-<li>我们的 GitHub 主页
-<img src="https://img.shields.io/github/stars/DGP-Studio?style=plastic&amp;color=red" alt="org-stars" loading="lazy">
-<ul>
-<li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a></li>
-</ul>
-</li>
-</ul>
+<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
 <h2> GitHub 讨论</h2>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
 <h2> QQ 群</h2>
@@ -1444,15 +1463,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>功能列表</title>
-      <link>https://hut.ao/features/</link>
-      <guid>https://hut.ao/features/</guid>
-      <source url="https://hut.ao/rss.xml">功能列表</source>
-      <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 功能列表</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>成就管理</title>
       <link>https://hut.ao/features/achievements.html</link>
       <guid>https://hut.ao/features/achievements.html</guid>
@@ -1697,72 +1707,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 国际服支持</label>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 游戏启动器</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 服务器切换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 服务器切换</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 祈愿记录</label></li>
 </ul>
 </li>
 </ul>
-<h1> 第一期开发组座谈会</h1>
-<p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/46" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
-<h2> 为啥胡桃在电脑上要做成类似uwp格式的应用？</h2>
-<p>开发MSIX封装的应用是桌面端的开发趋势，开发体验更佳，用户体验也能提升。</p>
-<h2> 胡桃的作用是啥，和SG有什么区别？</h2>
-<p>胡桃是SG的次世代版本，更新/更快/更强。</p>
-<h2> 胡桃会全面继承 SG 的功能吗？SG的一些功能会在hutao里被弃用吗？</h2>
-<p>多数功能会完全继承与升级。少数功能会以整合功能的形式出现在胡桃中。</p>
-<h2> 为啥不把胡桃和 SG 集合到一起，而是要分开呢？和sg有什么侧重上的不同？</h2>
-<p>Snap Genshin 采用 WPF 技术开发，该技术基于 DirectX 9，而 胡桃 采用 WinUI 3 开发，该新技术基于DirectX 12与其他较新的显示技术，呈现的效果更好，同时也更易于开发，胡桃 与 Snap Genshin 类似，但侧重于流畅、简单的用户体验，同时也更注重程序架构的可维护性，更关注性能表现。</p>
-<h2> 除了SG的旧功能迁移，还会有新功能开发吗？</h2>
-<p>随着原神的发展，我们也会推出更多的功能。</p>
-<h2> SG永远不会更新了吗？SG是快不能用了吗？</h2>
-<p><s>没有严重的数据异常问题不会再更新。由于缺乏维护，不保证在何时由于某些不确定的原因会导致SG的部分功能失效（如先去的签到功能）。</s>
-Snap.Genshin 已停止更新，项目已归档</p>
-<h2> 胡桃的使用文档秋梨膏？</h2>
-<p><s>使用文档 @Masterain98 正在制作中，很快就会和大家见面。</s> 你现在看到的就是</p>
-<h2> 胡桃图标还会更新嘛？</h2>
-<p>不会，我们持有胡桃图标的版权。</p>
-<h2> 什么时候上微软商店？上微软商店是否不需要自己信任证书了？胡桃以后会在线更新嘛？</h2>
-<p>会在所有功能完善后上架。不需要证书。上架后就可以支持在线更新了。</p>
-<h2> 有考虑增加根据角色展示面板来计算伤害的功能吗？什么时候胡桃能当启动器，解锁帧率？这个无边框全屏的功能以后会不会支持？</h2>
-<p>面板功能会在用户系统重构后进行开发，并且会在完成面板查询功能后实现启动游戏相关功能。启动参数包括在内。</p>
-<h2> 胡桃数据库 和 Hutao 是否有关系？什么时候上胡桃数据库？</h2>
-<p><s>胡桃数据库是 HutaoAPI 的一部分，包含了深渊相关的数据，HutaoAPI是胡桃使用的 RESTful API，同时面向其他应用的开发者开放，接入成本低，接入收益高。胡桃数据库将会在后续版本实装。</s> 已经实装</p>
-<h2> 会把胡桃放到右下角任务栏吗？会考虑在角色里添加立绘吗？</h2>
-<p><s>基本不会考虑</s>。后续可能会考虑。</p>
-<p>你可以通过快速启动栏来快速启动游戏，具体方法可见<a href="/FAQ/how-to#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F">此文档</a></p>
-<h2> 将来会有移动端吗？有考虑根据胡桃做个手机桌面小组件吗？胡桃以后支持插件吗？胡桃会有插件开发文档吗？</h2>
-<p>短时间内不会考虑移动端。手机桌面小组件也基本不会考虑。不会再支持插件。同样也不会有插件文档。</p>
-<h2> 离支持外服账号还有多远？会整合其他插件比如空荧酒馆这种嘛？</h2>
-<p><s>Hoyolab 的相关支持需要其他开发者的帮助。由于技术栈的不同，很难整合。</s></p>
-<p>受益于开源社区力量，目前高级启动器、祈愿记录导出和成就管理功能已支持国际服。</p>
-<h2> 有没有打算添加收费功能，还是说只靠捐助？</h2>
-<p><s>由于服务器需要资费，与服务器存储相关的功能可能会进行收费。</s> Snap.Hutao等有关项目均为公益项目</p>
-<h2> 是用爱发电吗？开发胡桃，是业余时间开发的吗？</h2>
-<p>显然是。</p>
-<h1> 第二期开发组座谈会</h1>
-<p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/280" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
-<h2> 现在成就导出的json格式也是UIGF的嘛</h2>
-<p>A: UIAF</p>
-<h2> 能否适配祈愿系统数据UEFI旧版本的导入，和SG一样就可以</h2>
-<p>A: 首先它叫 UIGF 格式，其次一直是适配的，只是SG的导入导出规则较为宽泛，如果您从始至终仅使用且正确使用了我们的产品，是不会出现导入导出异常的问题的</p>
-<h2> 啥时候会有sg那种自动检查更新下载</h2>
-<p>A: 自动更新不能在MSIX包上实现，检查更新会在后续版本推出。</p>
-<h2> 我同一个设备上同时登陆SG，hutao会算作一个设备还是两个设备</h2>
-<p>A: 两个设备,理论上每次重启胡桃后均相当于切换了设备</p>
-<h2> 我感觉胡桃有些页面的加载需要很久，会影响使用体验，感觉胡桃的界面有点掉帧</h2>
-<p>A: 深渊统计页面在1.2.6版本前确实存在加载慢的问题，已在新版本解决，如果有其他页面的卡顿问题，通常是因为你的显卡不够强劲，或者胡桃通过你的集显进行渲染。</p>
-<h2> 属性统计经常加载不了</h2>
-<p>A: 历史遗留问题，可以通过备份数据后删除 <code>userdata.db</code> 解决</p>
-<h2> 自定义网页功能是否还有规划</h2>
-<p>A: 别急</p>
-<div class="hint-container tip">
-<p class="hint-container-title">微软方面的问题，我们无法解决</p>
-<ul>
-<li>有的时候使用管理员启动并不能获取到管理员权限，需要关掉后二次启动</li>
-<li>胡桃的图标尺寸可不可以改成像其他图标—样的小尺寸呀</li>
-<li>写入的注册表文件，在更新时遇安装问题，尝试所有修复无果，在卸载重装进行修复的过程中会否因卸载残留问题对重装造成影响</li>
-</ul>
-</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1779,28 +1728,19 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p class="hint-container-title">提示</p>
 <p>若您已下载或使用<strong>胡桃工具箱</strong>，即表示你已阅读并完全同意<a href="/statements/tos.html" target="blank">用户使用协议与法律声明</a></p>
 </div>
-<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，请为我们在 GitHub 上加星点赞 ⭐，并在更多的地方帮助我们宣传</strong></p>
+<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
+<ul>
+<li>为我们在 GitHub 上的项目加星点赞 ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
+<li>在更多的地方帮助我们宣传</li>
+</ul>
 <p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy">
-<img src="https://img.shields.io/github/release-date/DGP-Studio/Snap.Hutao?label=Hutao Last Release&amp;style=for-the-badge" alt="hutao-last-release" loading="lazy"></p>
-<ul>
-<li>胡桃主项目   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy">
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a></li>
-</ul>
-</li>
-<li>胡桃文档项目  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy">
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a></li>
-</ul>
-</li>
-<li>我们的 GitHub 主页
-<img src="https://img.shields.io/github/stars/DGP-Studio?style=plastic&amp;color=red" alt="org-stars" loading="lazy">
-<ul>
-<li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a></li>
-</ul>
-</li>
-</ul>
+<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
 <h2> 视频指南</h2>
 <p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
 <p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
@@ -1830,42 +1770,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </tbody>
 </table>
 <h2> 下载胡桃工具箱</h2>
-<p>当前最新版本为：<img src="https://img.shields.io/github/v/release/DGP-Studio/Snap.Hutao?label=Snap.Hutao.Stable&amp;style=flat-square" alt="stable-version" loading="lazy"></p>
-<p>胡桃工具箱目前处于公开测试阶段。你可以</p>
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao/releases/" target="_blank" rel="noopener noreferrer">从 GitHub 下载 </a></li>
-<li><a href="https://d.hut.ao/" target="_blank" rel="noopener noreferrer">从网盘下载</a></li>
-</ul>
-<p>您下载的包含安装程序的压缩文件名称将与<code>Snap.Hutao_*_x64.zip</code>相似</p>
-<h2> 安装胡桃工具箱</h2>
-<h3> 通用安装方式</h3>
-<ul>
-<li>在系统设置中打开<code>开发者设置</code>界面，勾选 <code>开发人员模式</code> 和 <code>允许 PowerShell 脚本</code> （自行百度）</li>
-<li>解压已下载的压缩包，找到<code>Install.ps1</code>文件，右键选择<code>使用PowerShell运行</code>，按照提示允许PowerShell执行操作即可</li>
-<li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
-</ul>
-<h3> 小白级安装方式</h3>
-<ul>
-<li>解压已下载的安装包</li>
-<li>运行 <code>Snap.Hutao.Installer.exe</code>
-<ul>
-<li>该程序将执行上述通用安装方式的命令</li>
-</ul>
-</li>
-<li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
-</ul>
-<h2> 升级胡桃工具箱</h2>
-<ul>
-<li>解压你下载的最新版本压缩包</li>
-<li>重复 <code>安装胡桃工具箱</code> 的步骤</li>
-<li>若您安装失败或出现异常情况，可参考如下步骤
-<ul>
-<li>先卸载已经安装的<code>胡桃工具箱</code></li>
-<li>重复 <code>安装胡桃工具箱</code> 的步骤</li>
-</ul>
-</li>
-</ul>
-<h2> 卸载胡桃工具箱</h2>
+<iframe :src="$withBase('/store-badge.html')" frameborder="0" scrolling="No">
+<p>微软商店链接：<a href="https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52" target="_blank" rel="noopener noreferrer">Snap Hutao</a></p>
+<p>在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱</p>
+<h2 id="卸载胡桃工具箱" tabindex="-1"><a class="header-anchor" href="#卸载胡桃工具箱" aria-hidden="true">#</a> 卸载胡桃工具箱</h2>
 <ul>
 <li>清除有关的任务计划
 <ul>
@@ -1875,26 +1783,25 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 <li>卸载软件
 <ul>
-<li>打开<code>开始菜单</code></li>
-<li>找到或搜索到<code>胡桃</code></li>
-<li>右键点击<code>胡桃</code>，并选择<code>卸载</code></li>
+<li>打开<code v-pre>开始菜单</code></li>
+<li>找到或搜索到<code v-pre>胡桃</code></li>
+<li>右键点击<code v-pre>胡桃</code>，并选择<code v-pre>卸载</code></li>
 </ul>
 </li>
 <li>清除数据文件夹（如需完全卸载）
 <ul>
-<li>打开并删除该文件夹 <code>%userprofile%/Documents/Hutao</code></li>
+<li>打开并删除该文件夹 <code v-pre>%userprofile%/Documents/Hutao</code></li>
 </ul>
 </li>
 </ul>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="footnote1" class="footnote-item"><p>LTSC 和 LTSB 版本系统不在支持列表中，但它们可以在修改系统模块后使用胡桃工具箱。请联系你的 IT 管理员以获取支持。 <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+<li id="footnote1" class="footnote-item"><p>LTSC 和 LTSB 版本系统由于不包含微软商店，不在支持列表中。 <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
-]]></content:encoded>
-      <enclosure url="https://img.shields.io/github/v/release/DGP-Studio/Snap.Hutao?label=Snap.Hutao.Stable&amp;style=flat-square" type="image/"/>
+</iframe>]]></content:encoded>
     </item>
   </channel>
 </rss>

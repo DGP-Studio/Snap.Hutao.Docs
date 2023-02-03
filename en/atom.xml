@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://hut.ao/en/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>https://hut.ao/en/</id>
+  <title>Snap Hutao</title>
+  <subtitle>Super utilitarian Genshin Impact Tool</subtitle>
+  <author>
+    <name>DGP-Studio</name>
+    <uri>https://github.com/DGP-Studio</uri>
+  </author>
+  <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
+  <rights>Copyright by DGP-Studio</rights>
+  <updated>2023-02-03T02:36:14.594Z</updated>
+  <generator>vuepress-plugin-feed2</generator>
+  <link rel="self" href="https://hut.ao/en/atom.xml"/>
+  <link rel="alternate" href="https://hut.ao/en/"/>
+</feed>
