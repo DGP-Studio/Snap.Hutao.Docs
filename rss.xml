@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 03 Feb 2023 22:09:39 GMT</pubDate>
-    <lastBuildDate>Fri, 03 Feb 2023 22:09:39 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Feb 2023 05:42:45 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Feb 2023 05:42:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1632,7 +1632,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>
 <p>在提交问题前，请务必检查文档内是否已包含了你的问题</p>
 <ul>
-<li>首先需要确认您使用的版本是否为<a href="https://d.hut.ao/" target="_blank" rel="noopener noreferrer">最新版本</a></li>
+<li>首先需要确认您使用的版本是否为最新版本</li>
 <li>您可以通过菜单栏中的“常见问题”分类找到这些文档</li>
 <li><a href="/FAQ/how-to.html" target="blank">快速解答</a></li>
 </ul>
@@ -1652,7 +1652,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h3> 请求增加或更新文档</h3>
 <ul>
-<li>通过 GitHub 提交问题：<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao.Docs</a></li>
+<li>通过 GitHub 提交问题：<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao.Docs</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge" type="image/"/>
