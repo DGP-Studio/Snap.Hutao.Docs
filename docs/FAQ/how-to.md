@@ -20,9 +20,14 @@ category: [FAQ]
 ## 如何实现自动化管理员模式
 
 请使用如下的 PowerShell 脚本启动胡桃
-```PowerShell
-Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdrr!App -verb runas
-```
+- 商店版
+  ```PowerShell
+  Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb runas
+  ```
+- 侧载版
+  ```PowerShell
+  Start-Process shell:AppsFolder\7f0db578-026f-4e0b-a75b-d5d06bb0a74d_7jfyf5536hdrr!App -verb runas
+  ```
 
 ## 如何让胡桃工具箱开机自动启动
 
