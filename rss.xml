@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 04 Feb 2023 05:42:45 GMT</pubDate>
-    <lastBuildDate>Sat, 04 Feb 2023 05:42:45 GMT</lastBuildDate>
+    <pubDate>Sun, 05 Feb 2023 08:09:44 GMT</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2023 08:09:44 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -302,7 +302,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h2> 如何实现自动化管理员模式</h2>
 <p>请使用如下的 PowerShell 脚本启动胡桃</p>
-<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 如何让胡桃工具箱开机自动启动</h2>
+<ul>
+<li>商店版<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>侧载版<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+</ul>
+<h2> 如何让胡桃工具箱开机自动启动</h2>
 <ul>
 <li>请参考如下思路
 <ul>
