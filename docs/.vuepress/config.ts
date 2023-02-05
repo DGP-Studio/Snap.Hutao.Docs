@@ -1,8 +1,8 @@
 import { defineUserConfig } from "vuepress";
 import { viteBundler } from '@vuepress/bundler-vite'
 import theme from "./theme.js";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 export default defineUserConfig({
   base: "/",
@@ -13,7 +13,6 @@ export default defineUserConfig({
     ['script', {async:"", defer:"", "data-website-id":"f586534f-1741-450e-a0f4-3c0189f993c9",
       src:"https://umami.irain.in/umami.js"}, `
        `],
-      ['div', {id: "docsearch"}],
       ['script', {type: "module", src:"https://get.microsoft.com/badge/ms-store-badge.bundled.js"}],
   ],
   locales: {
@@ -30,30 +29,26 @@ export default defineUserConfig({
   },
 
   plugins: [
-    searchProPlugin({
-      indexContent: true,
-      customFields: [
-        {
-          getter: (page) => page.frontmatter.category,
-          formatter: {
-            "/": "分类: $content",
-            "/en/": "Category：$content",
-          },
-        },
-        {
-          getter: (page) => page.frontmatter.tag,
-          formatter: {
-            "/": "标签: $content",
-            "/en/": "Tag：$content",
-          },
-        },
-      ],
+    docsearchPlugin({
+      appId: "28CTGDOOQD",
+      apiKey: "72d7a9a0f9f0466218ea19988886dce8",
+      indexName: "hutao",
       locales: {
         "/": {
-          placeholder: "点击搜索"
+          placeholder: "搜索文档",
+          translations:{
+            button:{
+              buttonText: "搜索文档"
+            }
+          }
         },
-        "/en/":{
-          placeholder: "search"
+        "en": {
+          placeholder: "Search documents",
+          translations:{
+            button:{
+              buttonText: "Search documents"
+            }
+          }
         }
       }
     }),
