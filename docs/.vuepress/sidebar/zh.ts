@@ -9,6 +9,11 @@ export const zhSidebar = sidebar({
           link: "project.md"
       },
       {
+          icon: "network",
+          text: "国际化支持",
+          link: "i18n.md"
+      },
+      {
           icon: "play",
           text: "快速开始",
           link: "quick-start.md"
