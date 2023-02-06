@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 06 Feb 2023 06:33:02 GMT</pubDate>
-    <lastBuildDate>Mon, 06 Feb 2023 06:33:02 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Feb 2023 11:31:59 GMT</pubDate>
+    <lastBuildDate>Mon, 06 Feb 2023 11:31:59 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1602,6 +1602,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>胡桃工具箱获取抽卡记录的来源也为米哈游服务器，因此短时间内刚刚结束的抽卡无法被获取。
 当你在游戏内抽卡历史记录中看到了最新的一批抽卡记录，则可以在胡桃中获取统计数据。</p>
 </div>
+<h2> 视频指南</h2>
+<p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
+<p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
+<details class="hint-container details"><summary>胡桃工具箱指南 5 - 祈愿记录导出篇</summary>
+</details>
 <h2> 获取祈愿数据</h2>
 <h3> 利用 Stoken 从服务器获取最新的祈愿记录 </h3>
 <div class="hint-container info">
