@@ -1,0 +1,11 @@
+files:
+  - source: /docs/*.md
+    ignore:
+      - /docs/README.md
+    translation: /docs/%two_letters_code%/%original_file_name%.md
+  - source: /docs/features/*.md
+    translation: /docs/%two_letters_code%/features/%original_file_name%.md
+  - source: /docs/statements/*.md
+    translation: /docs/%two_letters_code%/statements/%original_file_name%.md
+  - source: /docs/FAQ/*.md
+    translation: /docs/%two_letters_code%/FAQ/%original_file_name%.md
