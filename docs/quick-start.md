@@ -15,7 +15,7 @@ category: [功能,教程]
 
 但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。
 ::: details 胡桃工具箱视频指南 - 下载/安装/卸载篇
-<BiliBili bvid="BV1Rs4y1x7ws" />
+<BiliBili bvid="BV13A411k7B4" />
 :::
    
 ## 最低系统要求
