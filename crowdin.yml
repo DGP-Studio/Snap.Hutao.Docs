@@ -1,0 +1,9 @@
+files:
+  - source: /docs/*.md
+    translation: /docs/%two_letters_code%/*.md
+  - source: /docs/features/*.md
+    translation: /docs/%two_letters_code%/features/*.md
+  - source: /docs/statements/*.md
+    translation: /docs/%two_letters_code%/statements/*.md
+  - source: /docs/FAQ/*.md
+    translation: /docs/%two_letters_code%/FAQ/*.md
