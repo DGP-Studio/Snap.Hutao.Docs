@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 06 Feb 2023 11:31:59 GMT</pubDate>
-    <lastBuildDate>Mon, 06 Feb 2023 11:31:59 GMT</lastBuildDate>
+    <pubDate>Tue, 07 Feb 2023 06:21:47 GMT</pubDate>
+    <lastBuildDate>Tue, 07 Feb 2023 06:21:47 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -21,6 +21,22 @@
     <category>第三方工具</category>
     <category>功能</category>
     <category>教程</category>
+    <item>
+      <title>常见的程序异常</title>
+      <link>https://hut.ao/FAQ/exceptions.html</link>
+      <guid>https://hut.ao/FAQ/exceptions.html</guid>
+      <source url="https://hut.ao/rss.xml">常见的程序异常</source>
+      <description>Win32Exception 异常：An error occurred trying to start process &amp;apos;PowerShell&amp;apos; with working directory &amp;apos;C:\WINDOWS\system32&amp;apos;. 文件名或扩展名太长; 问题来源：没有解除 Windows 目录长度限制; 解决方案：下载 EnableLongPat...</description>
+      <pubDate>Tue, 07 Feb 2023 06:20:11 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 常见的程序异常</h1>
+<h2> Win32Exception</h2>
+<ul>
+<li>异常：<code>An error occurred trying to start process 'PowerShell' with working directory 'C:\WINDOWS\system32'. 文件名或扩展名太长</code></li>
+<li>问题来源：没有解除 Windows 目录长度限制</li>
+<li>解决方案：下载 <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a> 后解压，运行解压后的 <code>.reg</code> 文件</li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>国际化支持</title>
       <link>https://hut.ao/i18n.html</link>
