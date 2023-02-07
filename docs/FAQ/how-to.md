@@ -44,3 +44,7 @@ category: [FAQ]
 
   ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png)
 - 选择`启动游戏`即可
+
+## 如何通过网络代理使用胡桃工具箱
+
+参考 [HttpRequestException 错误](HttpRequestException.md) 文档
