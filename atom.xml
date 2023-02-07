@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-07T06:21:47.568Z</updated>
+  <updated>2023-02-07T10:31:48.983Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -524,7 +524,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">为什么...</title>
     <id>https://hut.ao/FAQ/why.html</id>
     <link href="https://hut.ao/FAQ/why.html"/>
-    <updated>2023-01-19T23:16:45.000Z</updated>
+    <updated>2023-02-07T10:30:43.000Z</updated>
     <summary type="html"><![CDATA[<h1> 为什么...</h1>
 <p>这篇文档将会列出一些最常见的以“为什么”开头的问题</p>
 <h2> 为什么在设置中点击修改游戏路径无效</h2>
@@ -572,6 +572,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2> 为什么程序会提示注册计划任务失败</h2>
 <p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
 继续使用管理员模式即可解决该问题。</p>
+<h2> 为什么在开启代理后胡桃工具箱会没有网络连接</h2>
+<p>参考 <a href="/FAQ/HttpRequestException.html" target="blank">HttpRequestException 错误</a> 文档</p>
 ]]></content>
     <author>
       <name>DGP-Studio</name>
@@ -589,7 +591,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">如何...</title>
     <id>https://hut.ao/FAQ/how-to.html</id>
     <link href="https://hut.ao/FAQ/how-to.html"/>
-    <updated>2023-02-05T08:08:14.000Z</updated>
+    <updated>2023-02-07T10:30:43.000Z</updated>
     <summary type="html"><![CDATA[<h1> 如何...</h1>
 <p>这篇文档将会列出一些最常见的以“如何”开头的问题</p>
 <h2> 如何创建胡桃的桌面快捷方式</h2>
@@ -650,6 +652,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>选择<code>启动游戏</code>即可</p>
 </li>
 </ul>
+<h2> 如何通过网络代理使用胡桃工具箱</h2>
+<p>参考 <a href="/FAQ/HttpRequestException.html" target="blank">HttpRequestException 错误</a> 文档</p>
 ]]></content>
     <author>
       <name>DGP-Studio</name>
