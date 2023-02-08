@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 08 Feb 2023 06:27:49 GMT</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2023 06:27:49 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Feb 2023 11:24:12 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2023 11:24:12 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -1897,6 +1897,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/FAQ/why.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
 </ul>
 </li>
+<li>也可以执行以下命令行脚本<div class="language-cmd line-numbers-mode" data-ext="cmd"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
 </ul>
 </li>
 <li>卸载软件
