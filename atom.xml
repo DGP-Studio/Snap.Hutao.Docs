@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-07T10:31:48.983Z</updated>
+  <updated>2023-02-08T06:27:49.075Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -524,7 +524,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">为什么...</title>
     <id>https://hut.ao/FAQ/why.html</id>
     <link href="https://hut.ao/FAQ/why.html"/>
-    <updated>2023-02-07T10:30:43.000Z</updated>
+    <updated>2023-02-08T06:26:44.000Z</updated>
     <summary type="html"><![CDATA[<h1> 为什么...</h1>
 <p>这篇文档将会列出一些最常见的以“为什么”开头的问题</p>
 <h2> 为什么在设置中点击修改游戏路径无效</h2>
@@ -574,6 +574,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 继续使用管理员模式即可解决该问题。</p>
 <h2> 为什么在开启代理后胡桃工具箱会没有网络连接</h2>
 <p>参考 <a href="/FAQ/HttpRequestException.html" target="blank">HttpRequestException 错误</a> 文档</p>
+<h2> 为什么商店版本和侧载版本不会相互覆盖升级</h2>
+<ul>
+<li>商店版本和侧载版本有不同的软件 ID，所以会被系统识别为不同的程序</li>
+<li>商店版的更新只会覆盖商店版应用；侧载版更新包只会更新侧载版应用</li>
+<li>在你的系统中，商店版的胡桃工具箱名称为 <code>Snap Hutao</code>，侧载版的名称为 <code>胡桃</code></li>
+</ul>
 ]]></content>
     <author>
       <name>DGP-Studio</name>
