@@ -16,7 +16,10 @@ category: [公告]
 - [Snap 二群](https://go.hut.ao/qun2)
 - [Snap 三群](https://go.hut.ao/qun3)
 - [Snap 四群](https://go.hut.ao/qun4)
-- [Snap 开发交流群](https://jq.qq.com/?_wv=1027&k=pCOEg7fJ)
+- [Snap 开发交流群]
+  - 广泛的技术交流群，并非胡桃工具箱开发群
+  - 开发群对申请者的技术水平有一定要求
+  - 如果你有兴趣可以从[https://dev-group.hut.ao](https://dev-group.hut.ao)加入开发者交流群
 
 ## Discord
 邀请链接：[https://discord.gg/Yb8bykaUKp](https://discord.gg/Yb8bykaUKp)
