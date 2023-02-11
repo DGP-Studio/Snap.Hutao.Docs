@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-11T04:57:27.871Z</updated>
+  <updated>2023-02-11T08:40:35.842Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -22,6 +22,82 @@
     <name>DGP-Studio</name>
     <uri>https://github.com/DGP-Studio</uri>
   </contributor>
+  <entry>
+    <title type="text">已知问题</title>
+    <id>https://hut.ao/FAQ/known-issue.html</id>
+    <link href="https://hut.ao/FAQ/known-issue.html"/>
+    <updated>2023-02-11T08:39:29.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 已知问题</h1>
+<h2> #1 微软商店下载应用程序</h2>
+<ul>
+<li>2023/02/07</li>
+<li>无法从微软商店下载的原因在于微软的【授权服务】。当你在商店上下载一个新应用时，这实际上是一个【授权/购买】的过程。
+当授权服务出现问题时，自然不会再进入到下一步【下载】环节，这就导致了用户无法安装</li>
+<li>今日的问题目前仅发现于微软商店新加坡授权服务器，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
+<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
+</ul>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 已知问题</h1>
+<h2> #1 微软商店下载应用程序</h2>
+<ul>
+<li>2023/02/07</li>
+<li>无法从微软商店下载的原因在于微软的【授权服务】。当你在商店上下载一个新应用时，这实际上是一个【授权/购买】的过程。
+当授权服务出现问题时，自然不会再进入到下一步【下载】环节，这就导致了用户无法安装</li>
+<li>今日的问题目前仅发现于微软商店新加坡授权服务器，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
+<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
+</ul>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2023-02-11T08:39:29.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
+  <entry>
+    <title type="text">更新日志</title>
+    <id>https://hut.ao/statements/update-log.html</id>
+    <link href="https://hut.ao/statements/update-log.html"/>
+    <updated>2023-02-11T08:39:29.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 更新日志</h1>
+<h2> 1.4.11</h2>
+<ul>
+<li>商店初版</li>
+</ul>
+<h2> 1.4.14</h2>
+<ul>
+<li>修复了养成计划无法添加的问题</li>
+<li>支持英语界面</li>
+<li>其他的问题修复</li>
+</ul>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 更新日志</h1>
+<h2> 1.4.11</h2>
+<ul>
+<li>商店初版</li>
+</ul>
+<h2> 1.4.14</h2>
+<ul>
+<li>修复了养成计划无法添加的问题</li>
+<li>支持英语界面</li>
+<li>其他的问题修复</li>
+</ul>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2023-02-11T08:39:29.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
   <entry>
     <title type="text">常见的程序异常</title>
     <id>https://hut.ao/FAQ/exceptions.html</id>
@@ -2513,7 +2589,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">快速开始</title>
     <id>https://hut.ao/quick-start.html</id>
     <link href="https://hut.ao/quick-start.html"/>
-    <updated>2023-02-08T11:23:03.000Z</updated>
+    <updated>2023-02-11T08:39:29.000Z</updated>
     <summary type="html"><![CDATA[<h1> 快速开始</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -2585,12 +2661,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>清除有关的任务计划
 <ul>
 <li>打开胡桃，选择 <strong>设置</strong> 页签</li>
-<li>找到 <strong>删除所有计划任务</strong> 一栏中，点击右侧的 <strong>执行</strong> 按钮
-<ul>
-<li>若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/FAQ/why.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
-</ul>
-</li>
-<li>也可以执行以下命令行脚本<div class="language-cmd line-numbers-mode" data-ext="cmd"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>找到 <strong>删除所有计划任务</strong> 一栏中，点击右侧的 <strong>执行</strong> 按钮 </li>
 </ul>
 </li>
 <li>卸载软件
