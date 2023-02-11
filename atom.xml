@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-08T11:24:12.576Z</updated>
+  <updated>2023-02-11T04:57:27.871Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -283,7 +283,7 @@
     <title type="text">加入用户社区</title>
     <id>https://hut.ao/community.html</id>
     <link href="https://hut.ao/community.html"/>
-    <updated>2023-01-12T13:18:04.000Z</updated>
+    <updated>2023-02-11T04:56:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 加入用户社区</h1>
 <p>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。</p>
 <p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
@@ -320,7 +320,13 @@
 <li><a href="https://go.hut.ao/qun2" target="_blank" rel="noopener noreferrer">Snap 二群</a></li>
 <li><a href="https://go.hut.ao/qun3" target="_blank" rel="noopener noreferrer">Snap 三群</a></li>
 <li><a href="https://go.hut.ao/qun4" target="_blank" rel="noopener noreferrer">Snap 四群</a></li>
-<li><a href="https://jq.qq.com/?_wv=1027&amp;k=pCOEg7fJ" target="_blank" rel="noopener noreferrer">Snap 开发交流群</a></li>
+<li>[Snap 开发交流群]
+<ul>
+<li>广泛的技术交流群，并非胡桃工具箱开发群</li>
+<li>开发群对申请者的技术水平有一定要求</li>
+<li>如果你有兴趣可以从<a href="https://dev-group.hut.ao" target="_blank" rel="noopener noreferrer">https://dev-group.hut.ao</a>加入开发者交流群</li>
+</ul>
+</li>
 </ul>
 <h2> Discord</h2>
 <p>邀请链接：<a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">https://discord.gg/Yb8bykaUKp</a></p>

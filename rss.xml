@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 08 Feb 2023 11:24:12 GMT</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2023 11:24:12 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Feb 2023 04:57:27 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Feb 2023 04:57:27 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -207,7 +207,13 @@
 <li><a href="https://go.hut.ao/qun2" target="_blank" rel="noopener noreferrer">Snap 二群</a></li>
 <li><a href="https://go.hut.ao/qun3" target="_blank" rel="noopener noreferrer">Snap 三群</a></li>
 <li><a href="https://go.hut.ao/qun4" target="_blank" rel="noopener noreferrer">Snap 四群</a></li>
-<li><a href="https://jq.qq.com/?_wv=1027&amp;k=pCOEg7fJ" target="_blank" rel="noopener noreferrer">Snap 开发交流群</a></li>
+<li>[Snap 开发交流群]
+<ul>
+<li>广泛的技术交流群，并非胡桃工具箱开发群</li>
+<li>开发群对申请者的技术水平有一定要求</li>
+<li>如果你有兴趣可以从<a href="https://dev-group.hut.ao" target="_blank" rel="noopener noreferrer">https://dev-group.hut.ao</a>加入开发者交流群</li>
+</ul>
+</li>
 </ul>
 <h2> Discord</h2>
 <p>邀请链接：<a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">https://discord.gg/Yb8bykaUKp</a></p>
