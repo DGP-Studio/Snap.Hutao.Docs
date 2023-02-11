@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 11 Feb 2023 08:40:35 GMT</pubDate>
-    <lastBuildDate>Sat, 11 Feb 2023 08:40:35 GMT</lastBuildDate>
+    <pubDate>Sat, 11 Feb 2023 08:45:46 GMT</pubDate>
+    <lastBuildDate>Sat, 11 Feb 2023 08:45:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -525,6 +525,18 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>用户的角色信息及其装备的武器和圣遗物信息</li>
 </ul>
 </li>
+</ul>
+</li>
+<li>
+<p>使用<code>实时便笺</code>功能后</p>
+<ul>
+<li>在 Windows 定时任务中<strong>创建</strong>一个用于获取数据的定时任务</li>
+</ul>
+</li>
+<li>
+<p>使用<code>高级启动器</code>中的<code>服务器切换</code>功能后，在原神截图目录中</p>
+<ul>
+<li><strong>储存</strong>服务器转换所需要的文件</li>
 </ul>
 </li>
 </ul>

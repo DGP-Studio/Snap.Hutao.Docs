@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-11T08:40:35.842Z</updated>
+  <updated>2023-02-11T08:45:46.678Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -759,7 +759,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">用户数据和隐私权益</title>
     <id>https://hut.ao/statements/privacy-notice.html</id>
     <link href="https://hut.ao/statements/privacy-notice.html"/>
-    <updated>2023-01-12T13:18:04.000Z</updated>
+    <updated>2023-02-11T08:44:41.000Z</updated>
     <summary type="html"><![CDATA[<h1> 用户数据和隐私权益</h1>
 <p>胡桃工具箱充分尊重用户的隐私，目前我们会按下方的说明使用用户的数据：</p>
 <ul>
@@ -793,6 +793,18 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>用户的角色信息及其装备的武器和圣遗物信息</li>
 </ul>
 </li>
+</ul>
+</li>
+<li>
+<p>使用<code>实时便笺</code>功能后</p>
+<ul>
+<li>在 Windows 定时任务中<strong>创建</strong>一个用于获取数据的定时任务</li>
+</ul>
+</li>
+<li>
+<p>使用<code>高级启动器</code>中的<code>服务器切换</code>功能后，在原神截图目录中</p>
+<ul>
+<li><strong>储存</strong>服务器转换所需要的文件</li>
 </ul>
 </li>
 </ul>]]></summary>
@@ -829,6 +841,18 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>用户的角色信息及其装备的武器和圣遗物信息</li>
 </ul>
 </li>
+</ul>
+</li>
+<li>
+<p>使用<code>实时便笺</code>功能后</p>
+<ul>
+<li>在 Windows 定时任务中<strong>创建</strong>一个用于获取数据的定时任务</li>
+</ul>
+</li>
+<li>
+<p>使用<code>高级启动器</code>中的<code>服务器切换</code>功能后，在原神截图目录中</p>
+<ul>
+<li><strong>储存</strong>服务器转换所需要的文件</li>
 </ul>
 </li>
 </ul>
