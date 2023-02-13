@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-13T06:59:25.726Z</updated>
+  <updated>2023-02-13T07:17:24.548Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -94,29 +94,58 @@
     <title type="text">更新日志</title>
     <id>https://hut.ao/statements/update-log.html</id>
     <link href="https://hut.ao/statements/update-log.html"/>
-    <updated>2023-02-11T08:39:29.000Z</updated>
+    <updated>2023-02-13T07:16:17.000Z</updated>
     <summary type="html"><![CDATA[<h1> 更新日志</h1>
-<h2> 1.4.11</h2>
+<h2> 1.4.15</h2>
 <ul>
-<li>商店初版</li>
-</ul>
-<h2> 1.4.14</h2>
+<li>新增
 <ul>
-<li>修复了养成计划无法添加的问题</li>
-<li>支持英语界面</li>
-<li>其他的问题修复</li>
+<li>重置图片资源的入口</li>
 </ul>
-]]></summary>
+</li>
+<li>修复
+<ul>
+<li>修复了<a href="/FAQ/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
+<li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
+<li>完善英语和繁体中文翻译</li>
+</ul>
+</li>
+</ul>]]></summary>
     <content type="html"><![CDATA[<h1> 更新日志</h1>
-<h2> 1.4.11</h2>
+<h2> 1.4.15</h2>
 <ul>
-<li>商店初版</li>
+<li>新增
+<ul>
+<li>重置图片资源的入口</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了<a href="/FAQ/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
+<li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
+<li>完善英语和繁体中文翻译</li>
+</ul>
+</li>
 </ul>
 <h2> 1.4.14</h2>
 <ul>
 <li>修复了养成计划无法添加的问题</li>
 <li>支持英语界面</li>
 <li>其他的问题修复</li>
+</ul>
+<h2> 1.4.11</h2>
+<ul>
+<li>商店初版</li>
 </ul>
 ]]></content>
     <author>

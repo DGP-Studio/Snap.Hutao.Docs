@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 13 Feb 2023 06:59:25 GMT</pubDate>
-    <lastBuildDate>Mon, 13 Feb 2023 06:59:25 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Feb 2023 07:17:24 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Feb 2023 07:17:24 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -65,18 +65,38 @@
       <link>https://hut.ao/statements/update-log.html</link>
       <guid>https://hut.ao/statements/update-log.html</guid>
       <source url="https://hut.ao/rss.xml">更新日志</source>
-      <description>1.4.11 商店初版; 1.4.14 修复了养成计划无法添加的问题; 支持英语界面; 其他的问题修复;</description>
+      <description>1.4.15 新增; 重置图片资源的入口; 修复; 修复了#2 服务器切换导致31-4302报错 (/FAQ/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99); 修复了部分情况下程序内...</description>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.4.11</h2>
+<h2> 1.4.15</h2>
 <ul>
-<li>商店初版</li>
+<li>新增
+<ul>
+<li>重置图片资源的入口</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了<a href="/FAQ/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
+<li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
+<li>完善英语和繁体中文翻译</li>
+</ul>
+</li>
 </ul>
 <h2> 1.4.14</h2>
 <ul>
 <li>修复了养成计划无法添加的问题</li>
 <li>支持英语界面</li>
 <li>其他的问题修复</li>
+</ul>
+<h2> 1.4.11</h2>
+<ul>
+<li>商店初版</li>
 </ul>
 ]]></content:encoded>
     </item>
