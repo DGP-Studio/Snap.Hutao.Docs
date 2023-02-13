@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 11 Feb 2023 08:45:46 GMT</pubDate>
-    <lastBuildDate>Sat, 11 Feb 2023 08:45:46 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Feb 2023 06:59:25 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Feb 2023 06:59:25 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -36,6 +36,27 @@
 当授权服务出现问题时，自然不会再进入到下一步【下载】环节，这就导致了用户无法安装</li>
 <li>今日的问题目前仅发现于微软商店新加坡授权服务器，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
 <li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
+<li>临时的解决方案：</li>
+<li>方法1：
+<ul>
+<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回来）</li>
+</ul>
+</li>
+<li>方法2：
+<ul>
+<li>使用北美地区的网络代理</li>
+<li>如果使用加速器或网络代理，你需要<a href="/FAQ/HttpRequestException.html" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
+</ul>
+</li>
+</ul>
+<h2> #2 服务器切换导致31-4302报错</h2>
+<ul>
+<li>使用高级启动器中的服务器切换功能时，可能会出现<code>31-4302</code>相关错误，该问题会在下一次稳定版发布中修复</li>
+<li>目前的临时解决方案：
+<ul>
+<li>将原神截图目录中的服务器切换缓存目录删除</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -72,6 +93,26 @@
 <li>异常：<code>An error occurred trying to start process 'PowerShell' with working directory 'C:\WINDOWS\system32'. 文件名或扩展名太长</code></li>
 <li>问题来源：没有解除 Windows 目录长度限制</li>
 <li>解决方案：下载 <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a> 后解压，运行解压后的 <code>.reg</code> 文件</li>
+</ul>
+<h2> Return Code: -10001</h2>
+<ul>
+<li>该异常实际上来源于米游社的返回信息，包括：
+<ul>
+<li><code>Return Code: -10001</code></li>
+<li><code>Return Code: -100</code></li>
+</ul>
+</li>
+<li>问题来源：Cookie 过期或网络异常</li>
+<li>问题排查方案：
+<ul>
+<li>在设置中，使用签到功能，判断 Cookie 是否可用
+<ul>
+<li>若失败，可多尝试几次</li>
+<li>若多次失败，则 Cookie 失效。在胡桃工具箱中重新添加该帐号</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -410,6 +451,22 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>这会导致胡桃工具箱上的米游社帐号在启动后被自动移除。</li>
 <li>此情况也可能因为网络连接问题导致无法检查Cookie有效性，故出现此情况后请优先重启胡桃工具箱。</li>
 <li>自2022年10月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/FAQ/mihoyo-risk-tip.html" target="blank">账号有风险</a>时亦会令Cookie无法被识别为有效状态</li>
+</ul>
+<h2> 为什么游戏登录状态会失效，导致切换帐号功能无效</h2>
+<ul>
+<li>保存游戏登录状态的要素有两个：网络环境和设备 ID</li>
+<li>导致该问题的常见原因是：
+<ul>
+<li>网络环境频繁变换，如公网 IP 更换</li>
+<li>操作失误，导致实际上根本没有保存登录状态（空的登录状态无法避免被胡桃识别）
+<ul>
+<li>确认你的帐号已登录后，进入游戏</li>
+<li>关闭游戏后，确定游戏进程已关闭</li>
+<li>再次进行帐号检测，来添加登录状态</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <h2> 为什么程序会提示注册计划任务失败</h2>
 <p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
