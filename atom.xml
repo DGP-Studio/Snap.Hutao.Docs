@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-14T08:02:57.484Z</updated>
+  <updated>2023-02-14T10:20:36.012Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -884,7 +884,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">如何...</title>
     <id>https://hut.ao/FAQ/how-to.html</id>
     <link href="https://hut.ao/FAQ/how-to.html"/>
-    <updated>2023-02-14T08:01:50.000Z</updated>
+    <updated>2023-02-14T10:18:11.000Z</updated>
     <summary type="html"><![CDATA[<h1> 如何...</h1>
 <p>这篇文档将会列出一些最常见的以“如何”开头的问题</p>
 <h2> 如何创建胡桃的桌面快捷方式</h2>
@@ -913,9 +913,37 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>右键，点击<code>创建快捷方式</code></li>
 <li>根据提示操作你就可以获得一个桌面快捷方式了</li>
 </ul>
-<h2> 如何实现自动化管理员模式</h2>
-<p>请使用如下的 PowerShell 脚本启动胡桃</p>
-<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 如何让胡桃工具箱开机自动启动</h2>
+<h2> 如何添加一个默认以管理员方式运行的快捷方式</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">社区力量</p>
+<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17" target="_blank" rel="noopener noreferrer">Parsifa1 提供的解决方案</a></p>
+</div>
+<p>基本原理：使用下方的 PowerShell 脚本可以以管理员方式运行胡桃</p>
+<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
+<li>保存胡桃工具箱的 Logo 资源
+<ul>
+<li>你可以点击<a href="https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico" target="_blank" rel="noopener noreferrer">这里</a>下载</li>
+</ul>
+</li>
+<li>在桌面点击右键，选择<code>新建</code> -&gt; <code>快捷方式</code></li>
+<li>在<code>请键入对象的位置</code>中直接输入:</li>
+</ul>
+<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
+<li>将快捷方式命名为你需要的名称，比如<code>Snap Hutao</code></li>
+<li>确认创建，此时你会在桌面得到一个有 PowerShell 图标的快捷方式</li>
+<li>右键该快捷方式，点击属性
+<ul>
+<li>将<code>运行方式</code>修改为<code>最小化</code></li>
+<li>点击更改图标，选择<code>浏览</code>，并选中刚刚下载的图标</li>
+</ul>
+</li>
+<li>这样你就获得了胡桃工具箱的桌面快捷方式，并且运行它将直接以管理员模式运行
+<ul>
+<li>你也可以将固定到任务栏或磁贴区</li>
+</ul>
+</li>
+</ul>
+<h2> 如何让胡桃工具箱开机自动启动</h2>
 <ul>
 <li>请参考如下思路
 <ul>
