@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-13T07:17:24.548Z</updated>
+  <updated>2023-02-14T07:12:43.727Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -26,52 +26,115 @@
     <title type="text">已知问题</title>
     <id>https://hut.ao/FAQ/known-issue.html</id>
     <link href="https://hut.ao/FAQ/known-issue.html"/>
-    <updated>2023-02-13T06:58:12.000Z</updated>
+    <updated>2023-02-14T07:11:36.000Z</updated>
     <summary type="html"><![CDATA[<h1> 已知问题</h1>
 <h2> #1 微软商店下载应用程序</h2>
+<blockquote>
+<p>该问题来源并非胡桃工具箱，属于外部问题</p>
+</blockquote>
 <ul>
-<li>2023/02/07</li>
-<li>无法从微软商店下载的原因在于微软的【授权服务】。当你在商店上下载一个新应用时，这实际上是一个【授权/购买】的过程。
-当授权服务出现问题时，自然不会再进入到下一步【下载】环节，这就导致了用户无法安装</li>
-<li>今日的问题目前仅发现于微软商店新加坡授权服务器，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
-<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
-<li>临时的解决方案：</li>
-<li>方法1：
+<li>发现于 2023/02/07</li>
+<li>无法从微软商店下载的原因在于微软在东亚的授权服务器 <code>licensing.mp.microsoft.com</code> 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。
+当授权服务出现问题时，自然不会再进入到下一步下载环节，这就导致了用户无法安装
 <ul>
-<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回来）</li>
+<li>目前仅发现于微软商店新加坡授权服务器 <code>52.137.108.250</code> 出现了问题，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
 </ul>
 </li>
-<li>方法2：
+<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
+<li>临时的解决方案：
+<ul>
+<li><strong>方法1</strong>：
+<ul>
+<li>使用<a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener noreferrer">UsbEAm Hosts Editor</a>
+<ul>
+<li>在该工具箱内选择 <code>Microsoft Store - 微软商店</code> 中的 <code>微软授权验证</code></li>
+<li>点击<code>检测延迟</code></li>
+<li>选择一个对你而言延迟最低的服务器，选中后点击<code>应用选中</code></li>
+<li>此时重启微软商店后，你应当可以下载应用了</li>
+<li>下载完成后，建议点击<code>清除当前</code>以删除对 <code>Hosts</code> 文件的修改</li>
+</ul>
+</li>
+<li>如果你懒得下载，可以尝试将 <code>licensing.mp.microsoft.com</code> 通过修改 <code>Hosts</code>文件解析到以下 IP 地址之一 （收集于 UsbEAm Hosts Editor）
+<ul>
+<li><code>124.108.22.138</code></li>
+<li><code>92.38.149.175</code></li>
+<li><code>141.147.180.87</code></li>
+<li><code>103.151.179.4</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>方法2</strong>：
+<ul>
+<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回原本的设置）</li>
+</ul>
+</li>
+<li><strong>方法3</strong>：
 <ul>
 <li>使用北美地区的网络代理</li>
 <li>如果使用加速器或网络代理，你需要<a href="/FAQ/HttpRequestException.html" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>]]></summary>
     <content type="html"><![CDATA[<h1> 已知问题</h1>
 <h2> #1 微软商店下载应用程序</h2>
+<blockquote>
+<p>该问题来源并非胡桃工具箱，属于外部问题</p>
+</blockquote>
 <ul>
-<li>2023/02/07</li>
-<li>无法从微软商店下载的原因在于微软的【授权服务】。当你在商店上下载一个新应用时，这实际上是一个【授权/购买】的过程。
-当授权服务出现问题时，自然不会再进入到下一步【下载】环节，这就导致了用户无法安装</li>
-<li>今日的问题目前仅发现于微软商店新加坡授权服务器，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
-<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
-<li>临时的解决方案：</li>
-<li>方法1：
+<li>发现于 2023/02/07</li>
+<li>无法从微软商店下载的原因在于微软在东亚的授权服务器 <code>licensing.mp.microsoft.com</code> 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。
+当授权服务出现问题时，自然不会再进入到下一步下载环节，这就导致了用户无法安装
 <ul>
-<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回来）</li>
+<li>目前仅发现于微软商店新加坡授权服务器 <code>52.137.108.250</code> 出现了问题，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
 </ul>
 </li>
-<li>方法2：
+<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
+<li>临时的解决方案：
+<ul>
+<li><strong>方法1</strong>：
+<ul>
+<li>使用<a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener noreferrer">UsbEAm Hosts Editor</a>
+<ul>
+<li>在该工具箱内选择 <code>Microsoft Store - 微软商店</code> 中的 <code>微软授权验证</code></li>
+<li>点击<code>检测延迟</code></li>
+<li>选择一个对你而言延迟最低的服务器，选中后点击<code>应用选中</code></li>
+<li>此时重启微软商店后，你应当可以下载应用了</li>
+<li>下载完成后，建议点击<code>清除当前</code>以删除对 <code>Hosts</code> 文件的修改</li>
+</ul>
+</li>
+<li>如果你懒得下载，可以尝试将 <code>licensing.mp.microsoft.com</code> 通过修改 <code>Hosts</code>文件解析到以下 IP 地址之一 （收集于 UsbEAm Hosts Editor）
+<ul>
+<li><code>124.108.22.138</code></li>
+<li><code>92.38.149.175</code></li>
+<li><code>141.147.180.87</code></li>
+<li><code>103.151.179.4</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>方法2</strong>：
+<ul>
+<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回原本的设置）</li>
+</ul>
+</li>
+<li><strong>方法3</strong>：
 <ul>
 <li>使用北美地区的网络代理</li>
 <li>如果使用加速器或网络代理，你需要<a href="/FAQ/HttpRequestException.html" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
 <h2> #2 服务器切换导致31-4302报错</h2>
+<blockquote>
+<p>该问题已于 <a href="/statements/update-log.html#1-4-15" target="blank">1.4.15</a> 版本修复，请及时更新</p>
+</blockquote>
 <ul>
-<li>使用高级启动器中的服务器切换功能时，可能会出现<code>31-4302</code>相关错误，该问题会在下一次稳定版发布中修复</li>
+<li>使用高级启动器中的服务器切换功能时，可能会出现<code>31-4302</code>相关错误</li>
 <li>目前的临时解决方案：
 <ul>
 <li>将原神截图目录中的服务器切换缓存目录删除</li>
@@ -94,7 +157,7 @@
     <title type="text">更新日志</title>
     <id>https://hut.ao/statements/update-log.html</id>
     <link href="https://hut.ao/statements/update-log.html"/>
-    <updated>2023-02-13T07:16:17.000Z</updated>
+    <updated>2023-02-14T07:11:36.000Z</updated>
     <summary type="html"><![CDATA[<h1> 更新日志</h1>
 <h2> 1.4.15</h2>
 <ul>
@@ -113,6 +176,7 @@
 <ul>
 <li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
 <li>完善英语和繁体中文翻译</li>
+<li>在触发 Windows 长路径限制时增加提示</li>
 </ul>
 </li>
 </ul>]]></summary>
@@ -134,6 +198,7 @@
 <ul>
 <li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
 <li>完善英语和繁体中文翻译</li>
+<li>在触发 Windows 长路径限制时增加提示</li>
 </ul>
 </li>
 </ul>
