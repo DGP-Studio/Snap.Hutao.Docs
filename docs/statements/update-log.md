@@ -8,6 +8,7 @@
 - 优化
   - 优化了养成计划界面 [#486](https://github.com/DGP-Studio/Snap.Hutao/issues/486)
   - 完善英语和繁体中文翻译
+  - 在触发 Windows 长路径限制时增加提示
 
 ## 1.4.14
 - 修复了养成计划无法添加的问题
