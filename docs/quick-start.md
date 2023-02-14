@@ -41,13 +41,18 @@ theme="auto">
 ## 卸载胡桃工具箱
 
 - 清除有关的任务计划
-   - 打开胡桃，选择 **设置** 页签
-   - 找到 **删除所有计划任务** 一栏中，点击右侧的 **执行** 按钮 <Badge text="需要管理员模式" type="tip" />
-       - 若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现[这个问题](/FAQ/why.md#为什么会弹出需要使用新应用以打开的对话框)
-     - 也可以执行以下命令行脚本作为备选方案
-        ``` PowerShell
-        schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
-        ```
+  - 1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现[这个问题](/FAQ/why.md#为什么会弹出需要使用新应用以打开的对话框)
+  - **方法1**：
+     - 打开胡桃，选择 **设置** 页签
+     - 找到 **删除所有计划任务** 一栏中，点击右侧的 **执行** 按钮 <Badge text="需要管理员模式" type="tip" />
+  - **方法2**：
+    - 执行下方的脚本
+       ``` PowerShell
+       schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
+       ```
+  - **方法3**：
+    - 打开 Windows 计划任务程序
+    - 找到 `SnapHutaoDailyNoteRefreshTask` 任务并删除
 - 卸载软件
    - 打开`开始菜单`
    - 找到或搜索到`胡桃`
