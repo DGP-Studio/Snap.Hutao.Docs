@@ -17,12 +17,28 @@ category: [FAQ]
 - 右键，点击`创建快捷方式`
 - 根据提示操作你就可以获得一个桌面快捷方式了
 
-## 如何实现自动化管理员模式
-
-请使用如下的 PowerShell 脚本启动胡桃
-```PowerShell
+## 如何添加一个默认以管理员方式运行的快捷方式
+::: tip 社区力量
+感谢 [Parsifa1 提供的解决方案](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17)
+:::
+基本原理：使用下方的 PowerShell 脚本可以以管理员方式运行胡桃
+```PowerShell ts:no-line-numbers
 Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb runas
 ```
+- 保存胡桃工具箱的 Logo 资源
+  - 你可以点击[这里](https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico)下载
+- 在桌面点击右键，选择`新建` -> `快捷方式`
+- 在`请键入对象的位置`中直接输入:
+```PowerShell ts:no-line-numbers
+  powershell -WindowStyle Hidden -Command "Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb runas
+```
+- 将快捷方式命名为你需要的名称，比如`Snap Hutao`
+- 确认创建，此时你会在桌面得到一个有 PowerShell 图标的快捷方式
+- 右键该快捷方式，点击属性
+  - 将`运行方式`修改为`最小化`
+  - 点击更改图标，选择`浏览`，并选中刚刚下载的图标
+- 这样你就获得了胡桃工具箱的桌面快捷方式，并且运行它将直接以管理员模式运行
+  - 你也可以将固定到任务栏或磁贴区
 
 ## 如何让胡桃工具箱开机自动启动
 
