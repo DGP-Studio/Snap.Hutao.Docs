@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 14 Feb 2023 10:20:36 GMT</pubDate>
-    <lastBuildDate>Tue, 14 Feb 2023 10:20:36 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Feb 2023 06:36:33 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Feb 2023 06:36:33 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -92,6 +92,15 @@
 <li>将原神截图目录中的服务器切换缓存目录删除</li>
 </ul>
 </li>
+</ul>
+<h2> #3 任务栏右键菜单中没有快速启动游戏的入口</h2>
+<ul>
+<li>胡桃使用 Windows 提供的 <code>JumpPath</code> 接口来提供快速启动游戏菜单
+<ul>
+<li>该接口需要用户在<code>系统设置 -&gt; 个性化 -&gt; 开始</code> 中启用<code>在“开始”菜单或任务栏的跳转列表中以及资源管理器的“快速使用”中显示最近打开的项</code> （该设置系统默认开启）</li>
+</ul>
+</li>
+<li>在下一版本，我们会使用 <code>JumpTask</code> 接口来代替 <code>JumpPath</code> 接口，用户将不再需要上述设置选项开启</li>
 </ul>
 ]]></content:encoded>
     </item>
