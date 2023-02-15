@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 15 Feb 2023 06:36:33 GMT</pubDate>
-    <lastBuildDate>Wed, 15 Feb 2023 06:36:33 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Feb 2023 07:16:27 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Feb 2023 07:16:27 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -190,7 +190,10 @@
 </ul>
 </li>
 </ul>
-<h2> HttpRequestException</h2>
+<h2> HttpRequestException 元数据校验文件下载失败</h2>
+<h3> 403 (Forbidden)</h3>
+<p>解决方案：更新胡桃工具箱至<a href="https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52" target="_blank" rel="noopener noreferrer">最新版本</a></p>
+<h3> 502 (Bad Gateway)</h3>
 <blockquote>
 <p>相关 Issue: <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/100</a></p>
 </blockquote>
