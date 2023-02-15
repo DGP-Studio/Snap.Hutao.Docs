@@ -19,7 +19,11 @@ category: [FAQ]
 - 解决方案：
   - 在帐号面板中，点击`刷新 Cookie`
 
-## HttpRequestException
+## HttpRequestException 元数据校验文件下载失败
+### 403 (Forbidden)
+解决方案：更新胡桃工具箱至[最新版本](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
+
+### 502 (Bad Gateway)
 > 相关 Issue: [https://github.com/DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
 
 当胡桃工具箱无法从远程服务器获取到必要资源时（通常是配置文件和图片缓存），会在用户界面抛出如下图所示的 `HttpRequestException` 错误。
