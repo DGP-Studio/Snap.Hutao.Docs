@@ -30,7 +30,7 @@ category: [FAQ]
     - 将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回原本的设置）
   - **方法3**：
     - 使用北美地区的网络代理
-    - 如果使用加速器或网络代理，你需要[解除微软商店的 Windows App Container Loopback 限制](HttpRequestException.md)
+    - 如果使用加速器或网络代理，你需要[解除微软商店的 Windows App Container Loopback 限制](exceptions.html#_502-bad-gateway)
 
 
 ## #2 服务器切换导致31-4302报错
