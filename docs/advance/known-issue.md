@@ -1,5 +1,6 @@
 ---
 headerDepth: 2
+icon: tool
 category: [FAQ]
 ---
 # 已知问题

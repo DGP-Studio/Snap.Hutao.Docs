@@ -38,26 +38,10 @@ theme="auto">
 
 在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱
 
-## 卸载胡桃工具箱
+## 安装 WebView2 运行时
 
-- 清除有关的任务计划
-  - 1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现[这个问题](/FAQ/why.md#为什么会弹出需要使用新应用以打开的对话框)
-  - **方法1** <Badge text="仅限早于 1.4.15 的版本" type="tip" />：
-     - 打开胡桃，选择 **设置** 页签
-     - 找到 **删除所有计划任务** 一栏中，点击右侧的 **执行** 按钮 <Badge text="需要管理员模式" type="tip" />
-  - **方法2**：
-    - 执行下方的脚本
-       ``` PowerShell
-       schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
-       ```
-  - **方法3**：
-    - 打开 Windows 计划任务程序
-    - 找到 `SnapHutaoDailyNoteRefreshTask` 任务并删除
-- 卸载软件
-   - 打开`开始菜单`
-   - 找到或搜索到`胡桃`
-   - 右键点击`胡桃`，并选择`卸载`
-- 清除数据文件夹（如需完全卸载）
-   - 打开并删除该文件夹 `%userprofile%/Documents/Hutao`
+WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。作为可选组件，WebView2 运行时不是强制组件，但安装后你会更容易地使用部分功能。
+
+在[微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/)的底部，你可以找到`常青独立安装程序`，选择`x64`下载并根据提示安装即可
 
 [^first]: LTSC 和 LTSB 版本系统由于不包含微软商店，不在支持列表中。Windows 10 Build 19041 亦可以安装，但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理

@@ -1,5 +1,6 @@
 ---
 headerDepth: 0
+icon: warn
 category: [FAQ]
 ---
 

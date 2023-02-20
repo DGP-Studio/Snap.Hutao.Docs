@@ -25,10 +25,19 @@ export const zhSidebar = sidebar({
           children: "structure"
       },
       {
-          icon: "ask",
-          text: "常见问题",
-          prefix: "FAQ/",
-          children: "structure"
+          icon: "advance",
+          text: "高级",
+          prefix: "advance/",
+          children: [
+              "FAQ.md",
+              "exceptions.md",
+              "known-issue.md",
+              "mihoyo-risk-tip.md",
+              "artifact-rating-rules.md",
+              "get-stoken-cookie-from-the-third-party.md",
+              "Gacha-system-and-export-principal.md",
+              "uninstall.md"
+          ]
       },
       {
           icon: "article",

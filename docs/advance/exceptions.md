@@ -1,5 +1,6 @@
 ---
 headerDepth: 2
+icon: debug
 category: [FAQ]
 ---
 # 常见的程序异常

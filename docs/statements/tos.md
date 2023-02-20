@@ -3,6 +3,7 @@ headerDepth: 0
 category: [公告]
 comment: false
 editLink: false
+icon: license
 ---
 
 # 用户使用协议和法律声明   

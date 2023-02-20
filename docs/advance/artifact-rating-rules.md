@@ -1,6 +1,6 @@
 ---
 category: [FAQ]
-
+icon: read
 ---
 
 # 圣遗物评分机制
