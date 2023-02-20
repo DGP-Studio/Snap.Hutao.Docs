@@ -9,13 +9,13 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-20T04:53:39.464Z</updated>
+  <updated>2023-02-20T08:54:23.995Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
   <category term="FAQ"/>
-  <category term="公告"/>
   <category term="第三方工具"/>
+  <category term="公告"/>
   <category term="功能"/>
   <category term="教程"/>
   <contributor>
@@ -23,134 +23,151 @@
     <uri>https://github.com/DGP-Studio</uri>
   </contributor>
   <entry>
-    <title type="text">已知问题</title>
-    <id>https://hut.ao/FAQ/known-issue.html</id>
-    <link href="https://hut.ao/FAQ/known-issue.html"/>
-    <updated>2023-02-16T10:09:27.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 已知问题</h1>
-<p>该文档包含由<strong>程序错误</strong>造成的问题</p>
-<h2> #1 微软商店下载应用程序</h2>
-<blockquote>
-<p>该问题来源并非胡桃工具箱，属于外部问题</p>
-</blockquote>
+    <title type="text">常见问题</title>
+    <id>https://hut.ao/advance/FAQ.html</id>
+    <link href="https://hut.ao/advance/FAQ.html"/>
+    <updated>2023-02-20T08:53:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 常见问题</h1>
+<h2> 如何创建胡桃的桌面快捷方式</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">社区力量</p>
+<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV 提供的解决方案</a></p>
+</div>
 <ul>
-<li>发现于 2023/02/07</li>
-<li>无法从微软商店下载的原因在于微软在东亚的授权服务器 <code>licensing.mp.microsoft.com</code> 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。
-当授权服务出现问题时，自然不会再进入到下一步下载环节，这就导致了用户无法安装
-<ul>
-<li>目前仅发现于微软商店新加坡授权服务器 <code>52.137.108.250</code> 出现了问题，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
-</ul>
-</li>
-<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
-<li>临时的解决方案：
-<ul>
-<li><strong>方法1</strong>：
-<ul>
-<li>使用<a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener noreferrer">UsbEAm Hosts Editor</a>
-<ul>
-<li>在该工具箱内选择 <code>Microsoft Store - 微软商店</code> 中的 <code>微软授权验证</code></li>
-<li>点击<code>检测延迟</code></li>
-<li>选择一个对你而言延迟最低的服务器，选中后点击<code>应用选中</code></li>
-<li>此时重启微软商店后，你应当可以下载应用了</li>
-<li>下载完成后，建议点击<code>清除当前</code>以删除对 <code>Hosts</code> 文件的修改</li>
-</ul>
-</li>
-<li>如果你懒得下载，可以尝试将 <code>licensing.mp.microsoft.com</code> 通过修改 <code>Hosts</code>文件解析到以下 IP 地址之一 （收集于 UsbEAm Hosts Editor）
-<ul>
-<li><code>124.108.22.138</code></li>
-<li><code>92.38.149.175</code></li>
-<li><code>141.147.180.87</code></li>
-<li><code>103.151.179.4</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>方法2</strong>：
-<ul>
-<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回原本的设置）</li>
-</ul>
-</li>
-<li><strong>方法3</strong>：
-<ul>
-<li>使用北美地区的网络代理</li>
-<li>如果使用加速器或网络代理，你需要<a href="/FAQ/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><code>Win+R</code> 呼出运行窗口，在窗口中输入<code>shell:AppsFolder</code>
+<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
+<li>Windows 会弹出应用程序目录，找到胡桃工具箱</li>
+<li>右键，点击<code>创建快捷方式</code></li>
+<li>根据提示操作你就可以获得一个桌面快捷方式了</li>
 </ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 已知问题</h1>
-<p>该文档包含由<strong>程序错误</strong>造成的问题</p>
-<h2> #1 微软商店下载应用程序</h2>
-<blockquote>
-<p>该问题来源并非胡桃工具箱，属于外部问题</p>
-</blockquote>
+    <content type="html"><![CDATA[<h1> 常见问题</h1>
+<h2> 如何创建胡桃的桌面快捷方式</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">社区力量</p>
+<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV 提供的解决方案</a></p>
+</div>
 <ul>
-<li>发现于 2023/02/07</li>
-<li>无法从微软商店下载的原因在于微软在东亚的授权服务器 <code>licensing.mp.microsoft.com</code> 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。
-当授权服务出现问题时，自然不会再进入到下一步下载环节，这就导致了用户无法安装
+<li><code>Win+R</code> 呼出运行窗口，在窗口中输入<code>shell:AppsFolder</code>
+<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
+<li>Windows 会弹出应用程序目录，找到胡桃工具箱</li>
+<li>右键，点击<code>创建快捷方式</code></li>
+<li>根据提示操作你就可以获得一个桌面快捷方式了</li>
+</ul>
+<h2> 如何添加一个默认以管理员方式运行的快捷方式</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">社区力量</p>
+<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17" target="_blank" rel="noopener noreferrer">Parsifa1 提供的解决方案</a></p>
+</div>
+<p>基本原理：使用下方的 PowerShell 脚本可以以管理员方式运行胡桃</p>
+<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
+<li>保存胡桃工具箱的 Logo 资源
 <ul>
-<li>目前仅发现于微软商店新加坡授权服务器 <code>52.137.108.250</code> 出现了问题，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
+<li>你可以点击<a href="https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico" target="_blank" rel="noopener noreferrer">这里</a>下载</li>
 </ul>
 </li>
-<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
-<li>临时的解决方案：
+<li>在桌面点击右键，选择<code>新建</code> -&gt; <code>快捷方式</code></li>
+<li>在<code>请键入对象的位置</code>中直接输入:</li>
+</ul>
+<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
+<li>将快捷方式命名为你需要的名称，比如<code>Snap Hutao</code></li>
+<li>确认创建，此时你会在桌面得到一个有 PowerShell 图标的快捷方式</li>
+<li>右键该快捷方式，点击属性
 <ul>
-<li><strong>方法1</strong>：
-<ul>
-<li>使用<a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener noreferrer">UsbEAm Hosts Editor</a>
-<ul>
-<li>在该工具箱内选择 <code>Microsoft Store - 微软商店</code> 中的 <code>微软授权验证</code></li>
-<li>点击<code>检测延迟</code></li>
-<li>选择一个对你而言延迟最低的服务器，选中后点击<code>应用选中</code></li>
-<li>此时重启微软商店后，你应当可以下载应用了</li>
-<li>下载完成后，建议点击<code>清除当前</code>以删除对 <code>Hosts</code> 文件的修改</li>
+<li>将<code>运行方式</code>修改为<code>最小化</code></li>
+<li>点击更改图标，选择<code>浏览</code>，并选中刚刚下载的图标</li>
 </ul>
 </li>
-<li>如果你懒得下载，可以尝试将 <code>licensing.mp.microsoft.com</code> 通过修改 <code>Hosts</code>文件解析到以下 IP 地址之一 （收集于 UsbEAm Hosts Editor）
+<li>这样你就获得了胡桃工具箱的桌面快捷方式，并且运行它将直接以管理员模式运行
 <ul>
-<li><code>124.108.22.138</code></li>
-<li><code>92.38.149.175</code></li>
-<li><code>141.147.180.87</code></li>
-<li><code>103.151.179.4</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>方法2</strong>：
-<ul>
-<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回原本的设置）</li>
-</ul>
-</li>
-<li><strong>方法3</strong>：
-<ul>
-<li>使用北美地区的网络代理</li>
-<li>如果使用加速器或网络代理，你需要<a href="/FAQ/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
+<li>你也可以将固定到任务栏或磁贴区</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h2> #2 服务器切换导致31-4302报错</h2>
-<blockquote>
-<p>该问题已于 <a href="/statements/update-log.html#1-4-15" target="blank">1.4.15</a> 版本修复，请及时更新</p>
-</blockquote>
+<h2> 如何让胡桃工具箱开机自动启动</h2>
 <ul>
-<li>使用高级启动器中的服务器切换功能时，可能会出现<code>31-4302</code>相关错误</li>
-<li>目前的临时解决方案：
+<li>请参考如下思路
 <ul>
-<li>将原神截图目录中的服务器切换缓存目录删除</li>
+<li>可以自行创建一个批处理文件，内容参考<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">此issue</a>中，令胡桃以管理员模式直接运行的命令。</li>
+<li>设置一个<strong>计划任务程序</strong>令上述批处理文件开机自启，或将上述批处理文件加入<strong>启动项</strong>中</li>
 </ul>
 </li>
+<li>或有其他令胡桃工具箱可开机自启的思路，可自行探索</li>
 </ul>
-<h2> #3 任务栏右键菜单中没有快速启动游戏的入口</h2>
+<h2> 如何通过胡桃工具箱快速地启动游戏</h2>
 <ul>
-<li>胡桃使用 Windows 提供的 <code>JumpPath</code> 接口来提供快速启动游戏菜单
+<li>
+<p>在主程序中正确设置高级启动器功能</p>
+</li>
+<li>
+<p>将胡桃工具箱在系统中固定在快速启动栏中</p>
+</li>
+<li>
+<p>在快速启动栏中右键胡桃应用程序</p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png" alt="quick-start" loading="lazy"></p>
+</li>
+<li>
+<p>选择<code>启动游戏</code>即可</p>
+</li>
+</ul>
+<h2> 如何通过网络代理使用胡桃工具箱</h2>
+<p>参考 <a href="/advance/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
+<h2> 为什么在设置中点击修改游戏路径无效</h2>
+<p>特定系统版本的用户，由于微软对文件选择对话框的COM实现的差异，会存在点击按钮后无响应的问题。</p>
+<p>相关的 <a href="https://github.com/microsoft/WindowsAppSDK/issues/2931" target="_blank" rel="noopener noreferrer">Github Issue</a></p>
+<h2> 为什么程序会出现乱码现象</h2>
 <ul>
-<li>该接口需要用户在<code>系统设置 -&gt; 个性化 -&gt; 开始</code> 中启用<code>在“开始”菜单或任务栏的跳转列表中以及资源管理器的“快速使用”中显示最近打开的项</code> （该设置系统默认开启）</li>
+<li>当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
+<ul>
+<li>可以下载 <code>Segoe Fluent Icons</code>字体</li>
+<li>安装时选择<code>为系统所有用户安装</code>，即可解决问题</li>
 </ul>
 </li>
-<li>在下一版本，我们会使用 <code>JumpTask</code> 接口来代替 <code>JumpPath</code> 接口，用户将不再需要上述设置选项开启</li>
+<li>您可以从 <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">微软官方</a>下载到该字体文件</li>
+</ul>
+<h2> 为什么解锁帧率后使用心海时出现掉帧</h2>
+<p>原神的BUG，和我们没关系</p>
+<h2> 为什么会弹出需要使用新应用以打开的对话框</h2>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg" alt="uninstall-error" loading="lazy"></p>
+<p>如在卸载胡桃工具箱后出现如上图所示的<code>需要使用新应用以打开此 hutao 链接</code>，说明没有按文档要求在卸载前清除实时便笺定时任务。
+请根据文档在设置中清除定时任务后再卸载胡桃工具箱。</p>
+<ul>
+<li>如果你在系统定时任务中找不到胡桃的定时任务，但问题仍然出现，请参考<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/18" target="_blank" rel="noopener noreferrer">这份文档</a>来解决</li>
+</ul>
+<h2> 为什么米游社帐号登录状态经常失效，添加的帐号消失</h2>
+<ul>
+<li>我们通过储存帐号的米游社 Cookie 来维持登录状态。</li>
+<li>但是当用户在浏览器或其它设备上<strong>注销帐号</strong>后， 维持登录状态的 Cookie 将<strong>失效</strong>。</li>
+<li>这会导致胡桃工具箱上的米游社帐号在启动后被自动移除。</li>
+<li>此情况也可能因为网络连接问题导致无法检查Cookie有效性，故出现此情况后请优先重启胡桃工具箱。</li>
+<li>自2022年10月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/advance/mihoyo-risk-tip.html" target="blank">账号有风险</a>时亦会令Cookie无法被识别为有效状态</li>
+<li>自 1.4.15 版本起，你可以通过在帐号面板中刷新 Cookie 来刷新登录状态</li>
+</ul>
+<h2> 为什么游戏登录状态会失效，导致切换帐号功能无效</h2>
+<ul>
+<li>保存游戏登录状态的要素有两个：网络环境和设备 ID</li>
+<li>导致该问题的常见原因是：
+<ul>
+<li>网络环境频繁变换，如公网 IP 更换</li>
+<li>操作失误，导致实际上根本没有保存登录状态（空的登录状态无法避免被胡桃识别）
+<ul>
+<li>确认你的帐号已登录后，进入游戏</li>
+<li>关闭游戏后，确定游戏进程已关闭</li>
+<li>再次进行帐号检测，来添加登录状态</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2> 为什么程序会提示注册计划任务失败</h2>
+<p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
+继续使用管理员模式即可解决该问题。</p>
+<h2> 为什么在开启代理后胡桃工具箱会没有网络连接</h2>
+<p>参考 <a href="/advance/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
+<h2> 为什么商店版本和侧载版本不会相互覆盖升级</h2>
+<ul>
+<li>商店版本和侧载版本有不同的软件 ID，所以会被系统识别为不同的程序</li>
+<li>商店版的更新只会覆盖商店版应用；侧载版更新包只会更新侧载版应用</li>
+<li>在你的系统中，商店版的胡桃工具箱名称为 <code>Snap Hutao</code>，侧载版的名称为 <code>胡桃</code></li>
 </ul>
 ]]></content>
     <author>
@@ -162,105 +179,127 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-11T08:39:29.000Z</published>
+    <published>2023-02-20T08:53:13.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
-    <title type="text">更新日志</title>
-    <id>https://hut.ao/statements/update-log.html</id>
-    <link href="https://hut.ao/statements/update-log.html"/>
-    <updated>2023-02-14T08:01:39.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 更新日志</h1>
-<h2> 1.4.16 </h2>
+    <title type="text">祈愿系统与导出原理</title>
+    <id>https://hut.ao/advance/Gacha-system-and-export-principal.html</id>
+    <link href="https://hut.ao/advance/Gacha-system-and-export-principal.html"/>
+    <updated>2023-02-20T08:53:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 祈愿系统与导出原理</h1>
+<blockquote>
+<p>Gacha System and Principal</p>
+</blockquote>
+<p>胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。</p>
+<p>本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。</p>
+<h2> 祈愿的获取</h2>
+<p>获取祈愿记录需要请求米哈游的API</p>
+<p>关于此API, 有下列几个注意点</p>
 <ul>
-<li>优化
+<li>通过米哈游服务器的API，只能查询到过去6个月内的祈愿记录
 <ul>
-<li>将<code>JumpList</code>菜单更换为<code>JumpTask</code>，即使用户关闭最近文件功能也可以使用快速启动菜单了</li>
+<li>这也是原神客户端中祈愿记录的来源</li>
 </ul>
 </li>
-</ul>
-<h2> 1.4.15 </h2>
-<ul>
-<li>新增
-<ul>
-<li>重置图片资源的入口</li>
-<li>刷新 Cookie 方法</li>
-</ul>
-</li>
-<li>修复
-<ul>
-<li>修复了<a href="/FAQ/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
-<li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
-</ul>
-</li>
-<li>优化
-<ul>
-<li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
-<li>完善英语和繁体中文翻译</li>
-<li>在触发 Windows 长路径限制时增加提示</li>
-<li>优化了定时任务的唤醒方式</li>
-</ul>
-</li>
+<li>API存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据</li>
 </ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 更新日志</h1>
-<h2> 1.4.16 </h2>
+    <content type="html"><![CDATA[<h1> 祈愿系统与导出原理</h1>
+<blockquote>
+<p>Gacha System and Principal</p>
+</blockquote>
+<p>胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。</p>
+<p>本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。</p>
+<h2> 祈愿的获取</h2>
+<p>获取祈愿记录需要请求米哈游的API</p>
+<p>关于此API, 有下列几个注意点</p>
 <ul>
-<li>优化
+<li>通过米哈游服务器的API，只能查询到过去6个月内的祈愿记录
 <ul>
-<li>将<code>JumpList</code>菜单更换为<code>JumpTask</code>，即使用户关闭最近文件功能也可以使用快速启动菜单了</li>
+<li>这也是原神客户端中祈愿记录的来源</li>
+</ul>
+</li>
+<li>API存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据</li>
+</ul>
+<p>为了请求此API，我们需要四个关键参数</p>
+<ul>
+<li>目前有下列几种方法可以获取这些参数
+<ul>
+<li>遍历 Unity 的日志文件，查找用户打开的祈愿记录URL</li>
+<li>代理本机流量，筛选祈愿记录URL</li>
+<li>查找 CefBrowser 的浏览器缓存，找到祈愿记录URL</li>
+<li>对于包含了Stoken的Cookie，调用genAuthKey API,获取参数</li>
+<li>高级用户手动输入相关URL</li>
 </ul>
 </li>
 </ul>
-<h2> 1.4.15 </h2>
-<ul>
-<li>新增
-<ul>
-<li>重置图片资源的入口</li>
-<li>刷新 Cookie 方法</li>
-</ul>
-</li>
-<li>修复
-<ul>
-<li>修复了<a href="/FAQ/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
-<li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
-</ul>
-</li>
-<li>优化
-<ul>
-<li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
-<li>完善英语和繁体中文翻译</li>
-<li>在触发 Windows 长路径限制时增加提示</li>
-<li>优化了定时任务的唤醒方式</li>
-</ul>
-</li>
-</ul>
-<h2> 1.4.14</h2>
-<ul>
-<li>修复了养成计划无法添加的问题</li>
-<li>支持英语界面</li>
-<li>其他的问题修复</li>
-</ul>
-<h2> 1.4.11</h2>
-<ul>
-<li>商店初版</li>
-</ul>
+<p>在请求API后可以获取到零散的祈愿记录，在对其进行拼接后即可获得一份完整的祈愿记录列表</p>
+<h2> 祈愿的存储</h2>
+<p>获得完整的祈愿记录列表后即可将其简单的序列化入本地数据库内，在需要时可从数据库中反序列化出来呈现给用户。</p>
+<p>后续的对服务器的请求只需要对比数据库中的数据请求新增的部分即可。</p>
+<p>这样，用户即可长期地保存帐号的完整祈愿记录</p>
+<h2> UIGF格式</h2>
+<blockquote>
+<p>统一可交换祈愿记录标准</p>
+<p>Uniformed Interchangeable GachaLog Format standard</p>
+</blockquote>
+<p>UIGF 是由我们联合其他祈愿记录应用倡导、推出并<strong>持久维护</strong>的一个统一的祈愿记录数据交换标准</p>
+<p>标准化的数据格式将允许用户将祈愿记录在不同的转移数据，以使用到不同原神工具中各自的特色功能</p>
+<h3> 祈愿的导入</h3>
+<p>在使用 UIGF 数据格式的前提下，可以导入曾在其他应用中储存的数据</p>
+<p>胡桃在处理导入时，会对比本地储存中存在的最早的索引（ID）并仅导入较老的数据</p>
+<p>（因为始终可以从米哈游的服务器获取较新的数据，这种原始数据有更高的精确度）</p>
+<h3> 祈愿的导出</h3>
+<p><s>尚未实现，正在设计</s>
+已实装</p>
 ]]></content>
     <author>
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </author>
+    <category term="FAQ"/>
     <contributor>
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-11T08:39:29.000Z</published>
+    <published>2023-02-20T08:53:13.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
+  <entry>
+    <title type="text">圣遗物评分机制</title>
+    <id>https://hut.ao/advance/artifact-rating-rules.html</id>
+    <link href="https://hut.ao/advance/artifact-rating-rules.html"/>
+    <updated>2023-02-20T08:53:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 圣遗物评分机制</h1>
+<p>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。</p>
+<p>如果你有兴趣探索我们的评分机制，
+可以审阅<a href="https://github.com/DGP-Studio/Snap.Hutao/tree/main/src/Snap.Hutao/Snap.Hutao/Service/AvatarInfo/Factory" target="_blank" rel="noopener noreferrer">胡桃工具箱代码</a>
+来了解评分计算方法。</p>
+<p>如果你对当前的圣遗物评分机制有新的建议，可以<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose" target="_blank" rel="noopener noreferrer">在 GitHub 上开启 Issue 为圣遗物评分提供新的依据</a></p>]]></summary>
+    <content type="html"><![CDATA[<h1> 圣遗物评分机制</h1>
+<p>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。</p>
+<p>如果你有兴趣探索我们的评分机制，
+可以审阅<a href="https://github.com/DGP-Studio/Snap.Hutao/tree/main/src/Snap.Hutao/Snap.Hutao/Service/AvatarInfo/Factory" target="_blank" rel="noopener noreferrer">胡桃工具箱代码</a>
+来了解评分计算方法。</p>
+<p>如果你对当前的圣遗物评分机制有新的建议，可以<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose" target="_blank" rel="noopener noreferrer">在 GitHub 上开启 Issue 为圣遗物评分提供新的依据</a></p>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <category term="FAQ"/>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2023-02-20T08:53:13.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">常见的程序异常</title>
-    <id>https://hut.ao/FAQ/exceptions.html</id>
-    <link href="https://hut.ao/FAQ/exceptions.html"/>
-    <updated>2023-02-15T07:15:23.000Z</updated>
+    <id>https://hut.ao/advance/exceptions.html</id>
+    <link href="https://hut.ao/advance/exceptions.html"/>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 常见的程序异常</h1>
 <p>该文档包含由<strong>用户端错误</strong>造成的问题</p>
 <h2> RuntimeEnvironmentException</h2>
@@ -323,14 +362,478 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-07T06:20:11.000Z</published>
+    <published>2023-02-20T08:53:13.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
+  <entry>
+    <title type="text">使用第三方工具获取有 Stoken 的 cookie</title>
+    <id>https://hut.ao/advance/get-stoken-cookie-from-the-third-party.html</id>
+    <link href="https://hut.ao/advance/get-stoken-cookie-from-the-third-party.html"/>
+    <updated>2023-02-20T08:53:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 使用第三方工具获取有 Stoken 的 cookie</h1>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<ul>
+<li>以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关</li>
+<li>本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关</li>
+</ul>
+</div>
+<h2> Android</h2>
+<p>Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 使用第三方工具获取有 Stoken 的 cookie</h1>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<ul>
+<li>以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关</li>
+<li>本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关</li>
+</ul>
+</div>
+<h2> Android</h2>
+<p>Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie</p>
+<div class="hint-container tip">
+<p class="hint-container-title">GetToken 开源项目</p>
+<ul>
+<li>GitHub：<a href="https://github.com/HolographicHat/GetToken" target="_blank" rel="noopener noreferrer">HolographicHat/GetToken</a></li>
+</ul>
+</div>
+<ul>
+<li>GetToken 项目的发布会包含两个 apk 文件，两者最终效果相同。根据你的设备情况选择适合你的版本即可
+<ul>
+<li><code>app-release.apk</code> 为一个 LSPosed 插件允许用户在官方米游社中使用 GetToken 功能</li>
+<li>名称以<code>lspatched</code>结尾的 apk 文件是一个已包含 GetToken 功能的修改版米游社程序
+<ul>
+<li>你需要卸载官方版米游社以安装该版本的米游社</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>启用插件或安装修改版米游社后打开米游社，在底栏点击"我的"，然后登录您的通行证</li>
+<li>在右上角点击形如🔑形状的按钮</li>
+<li>点击勾选 <code>Stoken</code> 选项</li>
+<li>点击<code>复制登录信息</code></li>
+<li>将复制到的 Stoken 发送到已经安装了胡桃工具箱的电脑</li>
+<li>在<code>胡桃工具箱</code>中的账号登录位置，点击<code>手动输入</code></li>
+<li>将之前获取到的 cookie 输入，此时即可完成登录</li>
+</ul>
+<h2> iOS</h2>
+<p>iOS 用户可以在 App Store 下载抓包软件 Stream 来获取包含 Stoken 字段的 cookie</p>
+<ul>
+<li>从 App Store 下载 <a href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" rel="noopener noreferrer">Stream</a></li>
+<li>对域名 <code>api-takumi.mihoyo.com</code> 进行抓包分析</li>
+<li>找到并复制带有 <code>Stoken</code> 的数据
+<ul>
+<li>形如<code>stuid=****;stoken=v2****;mid=****;</code></li>
+</ul>
+</li>
+<li>将复制到的 Stoken 发送到已经安装了胡桃工具箱的电脑</li>
+<li>在<code>胡桃工具箱</code>中的账号登录位置，点击<code>手动输入</code></li>
+<li>将之前获取到的 cookie 输入，此时即可完成登录</li>
+</ul>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <category term="FAQ"/>
+    <category term="第三方工具"/>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2023-02-20T08:53:13.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
+  <entry>
+    <title type="text">已知问题</title>
+    <id>https://hut.ao/advance/known-issue.html</id>
+    <link href="https://hut.ao/advance/known-issue.html"/>
+    <updated>2023-02-20T08:53:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 已知问题</h1>
+<p>该文档包含由<strong>程序错误</strong>造成的问题</p>
+<h2> #1 微软商店下载应用程序</h2>
+<blockquote>
+<p>该问题来源并非胡桃工具箱，属于外部问题</p>
+</blockquote>
+<ul>
+<li>发现于 2023/02/07</li>
+<li>无法从微软商店下载的原因在于微软在东亚的授权服务器 <code>licensing.mp.microsoft.com</code> 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。
+当授权服务出现问题时，自然不会再进入到下一步下载环节，这就导致了用户无法安装
+<ul>
+<li>目前仅发现于微软商店新加坡授权服务器 <code>52.137.108.250</code> 出现了问题，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
+</ul>
+</li>
+<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
+<li>临时的解决方案：
+<ul>
+<li><strong>方法1</strong>：
+<ul>
+<li>使用<a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener noreferrer">UsbEAm Hosts Editor</a>
+<ul>
+<li>在该工具箱内选择 <code>Microsoft Store - 微软商店</code> 中的 <code>微软授权验证</code></li>
+<li>点击<code>检测延迟</code></li>
+<li>选择一个对你而言延迟最低的服务器，选中后点击<code>应用选中</code></li>
+<li>此时重启微软商店后，你应当可以下载应用了</li>
+<li>下载完成后，建议点击<code>清除当前</code>以删除对 <code>Hosts</code> 文件的修改</li>
+</ul>
+</li>
+<li>如果你懒得下载，可以尝试将 <code>licensing.mp.microsoft.com</code> 通过修改 <code>Hosts</code>文件解析到以下 IP 地址之一 （收集于 UsbEAm Hosts Editor）
+<ul>
+<li><code>124.108.22.138</code></li>
+<li><code>92.38.149.175</code></li>
+<li><code>141.147.180.87</code></li>
+<li><code>103.151.179.4</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>方法2</strong>：
+<ul>
+<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回原本的设置）</li>
+</ul>
+</li>
+<li><strong>方法3</strong>：
+<ul>
+<li>使用北美地区的网络代理</li>
+<li>如果使用加速器或网络代理，你需要<a href="/advance/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h1> 已知问题</h1>
+<p>该文档包含由<strong>程序错误</strong>造成的问题</p>
+<h2> #1 微软商店下载应用程序</h2>
+<blockquote>
+<p>该问题来源并非胡桃工具箱，属于外部问题</p>
+</blockquote>
+<ul>
+<li>发现于 2023/02/07</li>
+<li>无法从微软商店下载的原因在于微软在东亚的授权服务器 <code>licensing.mp.microsoft.com</code> 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。
+当授权服务出现问题时，自然不会再进入到下一步下载环节，这就导致了用户无法安装
+<ul>
+<li>目前仅发现于微软商店新加坡授权服务器 <code>52.137.108.250</code> 出现了问题，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
+</ul>
+</li>
+<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
+<li>临时的解决方案：
+<ul>
+<li><strong>方法1</strong>：
+<ul>
+<li>使用<a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener noreferrer">UsbEAm Hosts Editor</a>
+<ul>
+<li>在该工具箱内选择 <code>Microsoft Store - 微软商店</code> 中的 <code>微软授权验证</code></li>
+<li>点击<code>检测延迟</code></li>
+<li>选择一个对你而言延迟最低的服务器，选中后点击<code>应用选中</code></li>
+<li>此时重启微软商店后，你应当可以下载应用了</li>
+<li>下载完成后，建议点击<code>清除当前</code>以删除对 <code>Hosts</code> 文件的修改</li>
+</ul>
+</li>
+<li>如果你懒得下载，可以尝试将 <code>licensing.mp.microsoft.com</code> 通过修改 <code>Hosts</code>文件解析到以下 IP 地址之一 （收集于 UsbEAm Hosts Editor）
+<ul>
+<li><code>124.108.22.138</code></li>
+<li><code>92.38.149.175</code></li>
+<li><code>141.147.180.87</code></li>
+<li><code>103.151.179.4</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>方法2</strong>：
+<ul>
+<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回原本的设置）</li>
+</ul>
+</li>
+<li><strong>方法3</strong>：
+<ul>
+<li>使用北美地区的网络代理</li>
+<li>如果使用加速器或网络代理，你需要<a href="/advance/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2> #2 服务器切换导致31-4302报错</h2>
+<blockquote>
+<p>该问题已于 <a href="/statements/update-log.html#1-4-15" target="blank">1.4.15</a> 版本修复，请及时更新</p>
+</blockquote>
+<ul>
+<li>使用高级启动器中的服务器切换功能时，可能会出现<code>31-4302</code>相关错误</li>
+<li>目前的临时解决方案：
+<ul>
+<li>将原神截图目录中的服务器切换缓存目录删除</li>
+</ul>
+</li>
+</ul>
+<h2> #3 任务栏右键菜单中没有快速启动游戏的入口</h2>
+<ul>
+<li>胡桃使用 Windows 提供的 <code>JumpPath</code> 接口来提供快速启动游戏菜单
+<ul>
+<li>该接口需要用户在<code>系统设置 -&gt; 个性化 -&gt; 开始</code> 中启用<code>在“开始”菜单或任务栏的跳转列表中以及资源管理器的“快速使用”中显示最近打开的项</code> （该设置系统默认开启）</li>
+</ul>
+</li>
+<li>在下一版本，我们会使用 <code>JumpTask</code> 接口来代替 <code>JumpPath</code> 接口，用户将不再需要上述设置选项开启</li>
+</ul>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <category term="FAQ"/>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2023-02-20T08:53:13.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
+  <entry>
+    <title type="text">账号风险及异常提示</title>
+    <id>https://hut.ao/advance/mihoyo-risk-tip.html</id>
+    <link href="https://hut.ao/advance/mihoyo-risk-tip.html"/>
+    <updated>2023-02-20T08:53:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 账号风险及异常提示</h1>
+<p><img src="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" alt="image" loading="lazy">
+<img src="https://user-images.githubusercontent.com/96916320/204005371-ced5213b-a7af-4cba-baa3-818f9b7ade35.png" alt="image" loading="lazy"></p>]]></summary>
+    <content type="html"><![CDATA[<h1> 账号风险及异常提示</h1>
+<p><img src="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" alt="image" loading="lazy">
+<img src="https://user-images.githubusercontent.com/96916320/204005371-ced5213b-a7af-4cba-baa3-818f9b7ade35.png" alt="image" loading="lazy"></p>
+<ul>
+<li>
+<p>当胡桃工具箱返回"账号有风险，请前往米游社查看"、"请求异常，请前往米游社对应功能页面查看"、"无感验证失败，请前往「米游社我的角色实时便笺」页面查看
+"等错误提示时，代表当前的操作被米游社的验证系统所阻挡</p>
+</li>
+<li>
+<p>解决方式</p>
+<ul>
+<li>方法1 </li>
+<li>方法2：
+<ul>
+<li>使用手机打开米游社App</li>
+<li>点击<code>我的</code></li>
+<li>点击<code>个人主页</code></li>
+<li>点击<code>我的角色</code>下方的角色标签
+<ul>
+<li>点击<code>全部角色</code></li>
+<li>或可以点击<code>实时便笺</code>窗体</li>
+</ul>
+</li>
+<li>完成<strong>在此期间可能随机触发的验证流程</strong>（例如验证码），即可解决本问题。
+<ul>
+<li>若此操作未触发验证流程，可重复进行多次，直到触发验证为止</li>
+<li>若始终无法触发验证，可修改密码</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<ul>
+<li>若风险提示过于频繁，或始终无法触发验证，代表您的账号风险已过高，请修改密码，使多个设备同时登录的状态被重置</li>
+</ul>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<ul>
+<li>若您<strong>已绑定并使用可提供原神查询的Bot</strong>或<strong>同时有多个设备使用同一个米哈游通行证</strong>，则本条目所示的情况，尤其<strong>无感验证</strong>将基本无法成功，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
+<li>若您本地有多个<strong>米哈游通行证</strong>同时频繁与<strong>米游社</strong>进行数据交互，则可能会被米游社在一定时间内封禁IP地址，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
+</ul>
+</div>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <category term="FAQ"/>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2023-02-20T08:53:13.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
+  <entry>
+    <title type="text">卸载胡桃工具箱</title>
+    <id>https://hut.ao/advance/uninstall.html</id>
+    <link href="https://hut.ao/advance/uninstall.html"/>
+    <updated>2023-02-20T08:53:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 卸载胡桃工具箱</h1>
+<ul>
+<li>清除有关的任务计划
+<ul>
+<li>1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/advance/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
+<li><strong>方法1</strong> </li>
+<li><strong>方法2</strong>：
+<ul>
+<li>执行下方的脚本<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><pre class="language-PowerShell"><code>schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+</ul>
+</li>
+<li><strong>方法3</strong>：
+<ul>
+<li>打开 Windows 计划任务程序</li>
+<li>找到 <code>SnapHutaoDailyNoteRefreshTask</code> 任务并删除</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>卸载软件
+<ul>
+<li>打开<code>开始菜单</code></li>
+<li>找到或搜索到<code>胡桃</code></li>
+<li>右键点击<code>胡桃</code>，并选择<code>卸载</code></li>
+</ul>
+</li>
+<li>清除数据文件夹（如需完全卸载）
+<ul>
+<li>打开并删除该文件夹 <code>%userprofile%/Documents/Hutao</code></li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h1> 卸载胡桃工具箱</h1>
+<ul>
+<li>清除有关的任务计划
+<ul>
+<li>1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/advance/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
+<li><strong>方法1</strong> </li>
+<li><strong>方法2</strong>：
+<ul>
+<li>执行下方的脚本<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+</ul>
+</li>
+<li><strong>方法3</strong>：
+<ul>
+<li>打开 Windows 计划任务程序</li>
+<li>找到 <code>SnapHutaoDailyNoteRefreshTask</code> 任务并删除</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>卸载软件
+<ul>
+<li>打开<code>开始菜单</code></li>
+<li>找到或搜索到<code>胡桃</code></li>
+<li>右键点击<code>胡桃</code>，并选择<code>卸载</code></li>
+</ul>
+</li>
+<li>清除数据文件夹（如需完全卸载）
+<ul>
+<li>打开并删除该文件夹 <code>%userprofile%/Documents/Hutao</code></li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <category term="FAQ"/>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2023-02-20T08:53:13.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
+  <entry>
+    <title type="text">更新日志</title>
+    <id>https://hut.ao/statements/update-log.html</id>
+    <link href="https://hut.ao/statements/update-log.html"/>
+    <updated>2023-02-20T08:53:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 更新日志</h1>
+<h2> 1.4.16 </h2>
+<ul>
+<li>优化
+<ul>
+<li>将<code>JumpList</code>菜单更换为<code>JumpTask</code>，即使用户关闭最近文件功能也可以使用快速启动菜单了</li>
+</ul>
+</li>
+</ul>
+<h2> 1.4.15 </h2>
+<ul>
+<li>新增
+<ul>
+<li>重置图片资源的入口</li>
+<li>刷新 Cookie 方法</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了<a href="/advance/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
+<li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
+<li>完善英语和繁体中文翻译</li>
+<li>在触发 Windows 长路径限制时增加提示</li>
+<li>优化了定时任务的唤醒方式</li>
+</ul>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h1> 更新日志</h1>
+<h2> 1.4.16 </h2>
+<ul>
+<li>优化
+<ul>
+<li>将<code>JumpList</code>菜单更换为<code>JumpTask</code>，即使用户关闭最近文件功能也可以使用快速启动菜单了</li>
+</ul>
+</li>
+</ul>
+<h2> 1.4.15 </h2>
+<ul>
+<li>新增
+<ul>
+<li>重置图片资源的入口</li>
+<li>刷新 Cookie 方法</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了<a href="/advance/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
+<li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
+<li>完善英语和繁体中文翻译</li>
+<li>在触发 Windows 长路径限制时增加提示</li>
+<li>优化了定时任务的唤醒方式</li>
+</ul>
+</li>
+</ul>
+<h2> 1.4.14</h2>
+<ul>
+<li>修复了养成计划无法添加的问题</li>
+<li>支持英语界面</li>
+<li>其他的问题修复</li>
+</ul>
+<h2> 1.4.11</h2>
+<ul>
+<li>商店初版</li>
+</ul>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <category term="公告"/>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2023-02-11T08:39:29.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">国际化支持</title>
     <id>https://hut.ao/i18n.html</id>
     <link href="https://hut.ao/i18n.html"/>
-    <updated>2023-02-06T06:31:43.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 国际化支持</h1>
 <h2> 国际化进度</h2>
 <p>Snap Hutao 虽然基于原神国服提供功能，但项目也有意提升国际化支持，包括语言本土化和功能国际化。目前国际化进度如下：</p>
@@ -341,35 +844,42 @@
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 客户端翻译</label>
 <ul class="task-list-container">
 <li>进度：<img src="https://badges.crowdin.net/snap-hutao/localized.svg" alt="Crowdin" loading="lazy"></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 英语</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 繁体中文</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 日语</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 俄语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 英语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 繁体中文</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 韩语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 日语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 俄语</label></li>
 </ul>
 </li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 国际服/国服客户端转换</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 国际服游戏帐号切换</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 国际服祈愿记录导出</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服角色属性统计</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> HoYoLAB 登录支持</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 国际服/国服客户端转换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 国际服游戏帐号切换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服祈愿记录导出</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 国际服角色属性统计</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> HoYoLAB 登录支持</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 国际服深渊记录获取</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 实时便笺</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 多语言游戏公告</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 国际服深渊记录获取</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 实时便笺</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 多语言游戏公告</label></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Snap Hutao 文档
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 语言本土化技术框架</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 网页翻译</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 语言本土化技术框架</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 网页翻译</label></li>
 <li>进度：<img src="https://badges.crowdin.net/snap-hutao-docs/localized.svg" alt="Crowdin" loading="lazy">
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 英语</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 英语</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 主页</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 用户文档</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 主页</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 用户文档</label></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 韩语</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> 主页</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-22" disabled="disabled"><label class="task-list-item-label" for="task-item-22"> 用户文档</label></li>
 </ul>
 </li>
 </ul>
@@ -387,35 +897,42 @@
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 客户端翻译</label>
 <ul class="task-list-container">
 <li>进度：<img src="https://badges.crowdin.net/snap-hutao/localized.svg" alt="Crowdin" loading="lazy"></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 英语</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 繁体中文</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 日语</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 俄语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 英语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 繁体中文</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 韩语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 日语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 俄语</label></li>
 </ul>
 </li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 国际服/国服客户端转换</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 国际服游戏帐号切换</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 国际服祈愿记录导出</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服角色属性统计</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> HoYoLAB 登录支持</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 国际服/国服客户端转换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 国际服游戏帐号切换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服祈愿记录导出</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 国际服角色属性统计</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> HoYoLAB 登录支持</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 国际服深渊记录获取</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 实时便笺</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 多语言游戏公告</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 国际服深渊记录获取</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 实时便笺</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 多语言游戏公告</label></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Snap Hutao 文档
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 语言本土化技术框架</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 网页翻译</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 语言本土化技术框架</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 网页翻译</label></li>
 <li>进度：<img src="https://badges.crowdin.net/snap-hutao-docs/localized.svg" alt="Crowdin" loading="lazy">
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 英语</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 英语</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 主页</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 用户文档</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 主页</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 用户文档</label></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 韩语</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> 主页</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-22" disabled="disabled"><label class="task-list-item-label" for="task-item-22"> 用户文档</label></li>
 </ul>
 </li>
 </ul>
@@ -695,7 +1212,7 @@
     <title type="text">第一期开发组座谈会</title>
     <id>https://hut.ao/development-log/symposium1.html</id>
     <link href="https://hut.ao/development-log/symposium1.html"/>
-    <updated>2023-01-14T00:09:10.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 第一期开发组座谈会</h1>
 <p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/46" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
 <h2> 为啥胡桃在电脑上要做成类似uwp格式的应用？</h2>
@@ -730,7 +1247,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p><s>胡桃数据库是 HutaoAPI 的一部分，包含了深渊相关的数据，HutaoAPI是胡桃使用的 RESTful API，同时面向其他应用的开发者开放，接入成本低，接入收益高。胡桃数据库将会在后续版本实装。</s> 已经实装</p>
 <h2> 会把胡桃放到右下角任务栏吗？会考虑在角色里添加立绘吗？</h2>
 <p><s>基本不会考虑</s>。后续可能会考虑。</p>
-<p>你可以通过快速启动栏来快速启动游戏，具体方法可见<a href="/FAQ/how-to#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F">此文档</a></p>
+<p>你可以通过快速启动栏来快速启动游戏，具体方法可见<a href="/advance/FAQ#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F">此文档</a></p>
 <h2> 将来会有移动端吗？有考虑根据胡桃做个手机桌面小组件吗？胡桃以后支持插件吗？胡桃会有插件开发文档吗？</h2>
 <p>短时间内不会考虑移动端。手机桌面小组件也基本不会考虑。不会再支持插件。同样也不会有插件文档。</p>
 <h2> 离支持外服账号还有多远？会整合其他插件比如空荧酒馆这种嘛？</h2>
@@ -800,207 +1317,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
-    <title type="text">为什么...</title>
-    <id>https://hut.ao/FAQ/why.html</id>
-    <link href="https://hut.ao/FAQ/why.html"/>
-    <updated>2023-02-14T08:01:36.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 为什么...</h1>
-<p>这篇文档将会列出一些最常见的以“为什么”开头的问题</p>
-<h2> 为什么在设置中点击修改游戏路径无效</h2>
-<p>特定系统版本的用户，由于微软对文件选择对话框的COM实现的差异，会存在点击按钮后无响应的问题。</p>
-<p>相关的 <a href="https://github.com/microsoft/WindowsAppSDK/issues/2931" target="_blank" rel="noopener noreferrer">Github Issue</a></p>
-<h2> 为什么程序会出现乱码现象</h2>
-<ul>
-<li>当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
-<ul>
-<li>可以下载 <code>Segoe Fluent Icons</code>字体</li>
-<li>安装时选择<code>为系统所有用户安装</code>，即可解决问题</li>
-</ul>
-</li>
-<li>您可以从 <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">微软官方</a>下载到该字体文件</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 为什么...</h1>
-<p>这篇文档将会列出一些最常见的以“为什么”开头的问题</p>
-<h2> 为什么在设置中点击修改游戏路径无效</h2>
-<p>特定系统版本的用户，由于微软对文件选择对话框的COM实现的差异，会存在点击按钮后无响应的问题。</p>
-<p>相关的 <a href="https://github.com/microsoft/WindowsAppSDK/issues/2931" target="_blank" rel="noopener noreferrer">Github Issue</a></p>
-<h2> 为什么程序会出现乱码现象</h2>
-<ul>
-<li>当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
-<ul>
-<li>可以下载 <code>Segoe Fluent Icons</code>字体</li>
-<li>安装时选择<code>为系统所有用户安装</code>，即可解决问题</li>
-</ul>
-</li>
-<li>您可以从 <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">微软官方</a>下载到该字体文件</li>
-</ul>
-<h2> 为什么解锁帧率后使用心海时出现掉帧</h2>
-<p>原神的BUG，和我们没关系</p>
-<h2> 为什么会弹出需要使用新应用以打开的对话框</h2>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg" alt="uninstall-error" loading="lazy"></p>
-<p>如在卸载胡桃工具箱后出现如上图所示的<code>需要使用新应用以打开此 hutao 链接</code>，说明没有按文档要求在卸载前清除实时便笺定时任务。
-请根据文档在设置中清除定时任务后再卸载胡桃工具箱。</p>
-<ul>
-<li>如果你在系统定时任务中找不到胡桃的定时任务，但问题仍然出现，请参考<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/18" target="_blank" rel="noopener noreferrer">这份文档</a>来解决</li>
-</ul>
-<h2> 为什么米游社帐号登录状态经常失效，添加的帐号消失</h2>
-<ul>
-<li>我们通过储存帐号的米游社 Cookie 来维持登录状态。</li>
-<li>但是当用户在浏览器或其它设备上<strong>注销帐号</strong>后， 维持登录状态的 Cookie 将<strong>失效</strong>。</li>
-<li>这会导致胡桃工具箱上的米游社帐号在启动后被自动移除。</li>
-<li>此情况也可能因为网络连接问题导致无法检查Cookie有效性，故出现此情况后请优先重启胡桃工具箱。</li>
-<li>自2022年10月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/FAQ/mihoyo-risk-tip.html" target="blank">账号有风险</a>时亦会令Cookie无法被识别为有效状态</li>
-<li>自 1.4.15 版本起，你可以通过在帐号面板中刷新 Cookie 来刷新登录状态</li>
-</ul>
-<h2> 为什么游戏登录状态会失效，导致切换帐号功能无效</h2>
-<ul>
-<li>保存游戏登录状态的要素有两个：网络环境和设备 ID</li>
-<li>导致该问题的常见原因是：
-<ul>
-<li>网络环境频繁变换，如公网 IP 更换</li>
-<li>操作失误，导致实际上根本没有保存登录状态（空的登录状态无法避免被胡桃识别）
-<ul>
-<li>确认你的帐号已登录后，进入游戏</li>
-<li>关闭游戏后，确定游戏进程已关闭</li>
-<li>再次进行帐号检测，来添加登录状态</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2> 为什么程序会提示注册计划任务失败</h2>
-<p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
-继续使用管理员模式即可解决该问题。</p>
-<h2> 为什么在开启代理后胡桃工具箱会没有网络连接</h2>
-<p>参考 <a href="/FAQ/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
-<h2> 为什么商店版本和侧载版本不会相互覆盖升级</h2>
-<ul>
-<li>商店版本和侧载版本有不同的软件 ID，所以会被系统识别为不同的程序</li>
-<li>商店版的更新只会覆盖商店版应用；侧载版更新包只会更新侧载版应用</li>
-<li>在你的系统中，商店版的胡桃工具箱名称为 <code>Snap Hutao</code>，侧载版的名称为 <code>胡桃</code></li>
-</ul>
-]]></content>
-    <author>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </author>
-    <category term="FAQ"/>
-    <contributor>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </contributor>
-    <published>2023-01-11T08:44:12.000Z</published>
-    <rights>Copyright by DGP-Studio</rights>
-  </entry>
-  <entry>
-    <title type="text">如何...</title>
-    <id>https://hut.ao/FAQ/how-to.html</id>
-    <link href="https://hut.ao/FAQ/how-to.html"/>
-    <updated>2023-02-14T10:18:11.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 如何...</h1>
-<p>这篇文档将会列出一些最常见的以“如何”开头的问题</p>
-<h2> 如何创建胡桃的桌面快捷方式</h2>
-<div class="hint-container tip">
-<p class="hint-container-title">社区力量</p>
-<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV 提供的解决方案</a></p>
-</div>
-<ul>
-<li><code>Win+R</code> 呼出运行窗口，在窗口中输入<code>shell:AppsFolder</code>
-<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
-<li>Windows 会弹出应用程序目录，找到胡桃工具箱</li>
-<li>右键，点击<code>创建快捷方式</code></li>
-<li>根据提示操作你就可以获得一个桌面快捷方式了</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 如何...</h1>
-<p>这篇文档将会列出一些最常见的以“如何”开头的问题</p>
-<h2> 如何创建胡桃的桌面快捷方式</h2>
-<div class="hint-container tip">
-<p class="hint-container-title">社区力量</p>
-<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV 提供的解决方案</a></p>
-</div>
-<ul>
-<li><code>Win+R</code> 呼出运行窗口，在窗口中输入<code>shell:AppsFolder</code>
-<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
-<li>Windows 会弹出应用程序目录，找到胡桃工具箱</li>
-<li>右键，点击<code>创建快捷方式</code></li>
-<li>根据提示操作你就可以获得一个桌面快捷方式了</li>
-</ul>
-<h2> 如何添加一个默认以管理员方式运行的快捷方式</h2>
-<div class="hint-container tip">
-<p class="hint-container-title">社区力量</p>
-<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17" target="_blank" rel="noopener noreferrer">Parsifa1 提供的解决方案</a></p>
-</div>
-<p>基本原理：使用下方的 PowerShell 脚本可以以管理员方式运行胡桃</p>
-<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>保存胡桃工具箱的 Logo 资源
-<ul>
-<li>你可以点击<a href="https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico" target="_blank" rel="noopener noreferrer">这里</a>下载</li>
-</ul>
-</li>
-<li>在桌面点击右键，选择<code>新建</code> -&gt; <code>快捷方式</code></li>
-<li>在<code>请键入对象的位置</code>中直接输入:</li>
-</ul>
-<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>将快捷方式命名为你需要的名称，比如<code>Snap Hutao</code></li>
-<li>确认创建，此时你会在桌面得到一个有 PowerShell 图标的快捷方式</li>
-<li>右键该快捷方式，点击属性
-<ul>
-<li>将<code>运行方式</code>修改为<code>最小化</code></li>
-<li>点击更改图标，选择<code>浏览</code>，并选中刚刚下载的图标</li>
-</ul>
-</li>
-<li>这样你就获得了胡桃工具箱的桌面快捷方式，并且运行它将直接以管理员模式运行
-<ul>
-<li>你也可以将固定到任务栏或磁贴区</li>
-</ul>
-</li>
-</ul>
-<h2> 如何让胡桃工具箱开机自动启动</h2>
-<ul>
-<li>请参考如下思路
-<ul>
-<li>可以自行创建一个批处理文件，内容参考<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">此issue</a>中，令胡桃以管理员模式直接运行的命令。</li>
-<li>设置一个<strong>计划任务程序</strong>令上述批处理文件开机自启，或将上述批处理文件加入<strong>启动项</strong>中</li>
-</ul>
-</li>
-<li>或有其他令胡桃工具箱可开机自启的思路，可自行探索</li>
-</ul>
-<h2> 如何通过胡桃工具箱快速地启动游戏</h2>
-<ul>
-<li>
-<p>在主程序中正确设置高级启动器功能</p>
-</li>
-<li>
-<p>将胡桃工具箱在系统中固定在快速启动栏中</p>
-</li>
-<li>
-<p>在快速启动栏中右键胡桃应用程序</p>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png" alt="quick-start" loading="lazy"></p>
-</li>
-<li>
-<p>选择<code>启动游戏</code>即可</p>
-</li>
-</ul>
-<h2> 如何通过网络代理使用胡桃工具箱</h2>
-<p>参考 <a href="/FAQ/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
-]]></content>
-    <author>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </author>
-    <category term="FAQ"/>
-    <contributor>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </contributor>
-    <published>2023-01-11T08:06:20.000Z</published>
-    <rights>Copyright by DGP-Studio</rights>
-  </entry>
-  <entry>
     <title type="text">用户数据和隐私权益</title>
     <id>https://hut.ao/statements/privacy-notice.html</id>
     <link href="https://hut.ao/statements/privacy-notice.html"/>
-    <updated>2023-02-11T08:44:41.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 用户数据和隐私权益</h1>
 <p>胡桃工具箱充分尊重用户的隐私，目前我们会按下方的说明使用用户的数据：</p>
 <ul>
@@ -1114,7 +1434,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">用户使用协议和法律声明</title>
     <id>https://hut.ao/statements/tos.html</id>
     <link href="https://hut.ao/statements/tos.html"/>
-    <updated>2023-01-27T06:07:29.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 用户使用协议和法律声明</h1>
 <h2> 总则</h2>
 <ul>
@@ -1236,84 +1556,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
     <published>2023-01-11T06:50:45.000Z</published>
-    <rights>Copyright by DGP-Studio</rights>
-  </entry>
-  <entry>
-    <title type="text">使用第三方工具获取有 Stoken 的 cookie</title>
-    <id>https://hut.ao/FAQ/get-stoken-cookie-from-the-third-party.html</id>
-    <link href="https://hut.ao/FAQ/get-stoken-cookie-from-the-third-party.html"/>
-    <updated>2023-01-12T13:18:04.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 使用第三方工具获取有 Stoken 的 cookie</h1>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<ul>
-<li>以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关</li>
-<li>本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关</li>
-</ul>
-</div>
-<h2> Android</h2>
-<p>Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie</p>]]></summary>
-    <content type="html"><![CDATA[<h1> 使用第三方工具获取有 Stoken 的 cookie</h1>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<ul>
-<li>以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关</li>
-<li>本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关</li>
-</ul>
-</div>
-<h2> Android</h2>
-<p>Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie</p>
-<div class="hint-container tip">
-<p class="hint-container-title">GetToken 开源项目</p>
-<ul>
-<li>GitHub：<a href="https://github.com/HolographicHat/GetToken" target="_blank" rel="noopener noreferrer">HolographicHat/GetToken</a></li>
-</ul>
-</div>
-<ul>
-<li>GetToken 项目的发布会包含两个 apk 文件，两者最终效果相同。根据你的设备情况选择适合你的版本即可
-<ul>
-<li><code>app-release.apk</code> 为一个 LSPosed 插件允许用户在官方米游社中使用 GetToken 功能</li>
-<li>名称以<code>lspatched</code>结尾的 apk 文件是一个已包含 GetToken 功能的修改版米游社程序
-<ul>
-<li>你需要卸载官方版米游社以安装该版本的米游社</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>启用插件或安装修改版米游社后打开米游社，在底栏点击"我的"，然后登录您的通行证</li>
-<li>在右上角点击形如🔑形状的按钮</li>
-<li>点击勾选 <code>Stoken</code> 选项</li>
-<li>点击<code>复制登录信息</code></li>
-<li>将复制到的 Stoken 发送到已经安装了胡桃工具箱的电脑</li>
-<li>在<code>胡桃工具箱</code>中的账号登录位置，点击<code>手动输入</code></li>
-<li>将之前获取到的 cookie 输入，此时即可完成登录</li>
-</ul>
-<h2> iOS</h2>
-<p>iOS 用户可以在 App Store 下载抓包软件 Stream 来获取包含 Stoken 字段的 cookie</p>
-<ul>
-<li>从 App Store 下载 <a href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" rel="noopener noreferrer">Stream</a></li>
-<li>对域名 <code>api-takumi.mihoyo.com</code> 进行抓包分析</li>
-<li>找到并复制带有 <code>Stoken</code> 的数据
-<ul>
-<li>形如<code>stuid=****;stoken=v2****;mid=****;</code></li>
-</ul>
-</li>
-<li>将复制到的 Stoken 发送到已经安装了胡桃工具箱的电脑</li>
-<li>在<code>胡桃工具箱</code>中的账号登录位置，点击<code>手动输入</code></li>
-<li>将之前获取到的 cookie 输入，此时即可完成登录</li>
-</ul>
-]]></content>
-    <author>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </author>
-    <category term="FAQ"/>
-    <category term="第三方工具"/>
-    <contributor>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </contributor>
-    <published>2023-01-10T11:24:42.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
@@ -1479,7 +1721,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">软件设置</title>
     <id>https://hut.ao/features/hutao-settings.html</id>
     <link href="https://hut.ao/features/hutao-settings.html"/>
-    <updated>2023-01-18T19:58:16.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 软件设置</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -1567,7 +1809,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>打开<code>数据</code>文件夹</p>
 <ul>
 <li>在此选项中点击"打开"按钮，即可打开包含"用户数据/日志/元数据"的文件夹</li>
-<li>尤其在您需要<a href="https://hut.ao/statements/bug-report.html" target="_blank" rel="noopener noreferrer">反馈</a>或需要以<a href="https://hut.ao/FAQ/most-frequent-questions.html#%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98%E7%9A%84%E9%80%9A%E7%94%A8%E6%8E%92%E6%9F%A5%E6%96%B9%E5%BC%8F" target="_blank" rel="noopener noreferrer">通用方式</a>排查问题时，可以在此处快捷打开此文件夹，并进行进一步操作</li>
 </ul>
 </li>
 <li>
@@ -1624,78 +1865,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
-    <title type="text">账号风险及异常提示</title>
-    <id>https://hut.ao/FAQ/mihoyo-risk-tip.html</id>
-    <link href="https://hut.ao/FAQ/mihoyo-risk-tip.html"/>
-    <updated>2023-02-14T08:01:50.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 账号风险及异常提示</h1>
-<p><img src="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" alt="image" loading="lazy">
-<img src="https://user-images.githubusercontent.com/96916320/204005371-ced5213b-a7af-4cba-baa3-818f9b7ade35.png" alt="image" loading="lazy"></p>]]></summary>
-    <content type="html"><![CDATA[<h1> 账号风险及异常提示</h1>
-<p><img src="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" alt="image" loading="lazy">
-<img src="https://user-images.githubusercontent.com/96916320/204005371-ced5213b-a7af-4cba-baa3-818f9b7ade35.png" alt="image" loading="lazy"></p>
-<ul>
-<li>
-<p>当胡桃工具箱返回"账号有风险，请前往米游社查看"、"请求异常，请前往米游社对应功能页面查看"、"无感验证失败，请前往「米游社我的角色实时便笺」页面查看
-"等错误提示时，代表当前的操作被米游社的验证系统所阻挡</p>
-</li>
-<li>
-<p>解决方式</p>
-<ul>
-<li>方法1 </li>
-<li>方法2：
-<ul>
-<li>使用手机打开米游社App</li>
-<li>点击<code>我的</code></li>
-<li>点击<code>个人主页</code></li>
-<li>点击<code>我的角色</code>下方的角色标签
-<ul>
-<li>点击<code>全部角色</code></li>
-<li>或可以点击<code>实时便笺</code>窗体</li>
-</ul>
-</li>
-<li>完成<strong>在此期间可能随机触发的验证流程</strong>（例如验证码），即可解决本问题。
-<ul>
-<li>若此操作未触发验证流程，可重复进行多次，直到触发验证为止</li>
-<li>若始终无法触发验证，可修改密码</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<ul>
-<li>若风险提示过于频繁，或始终无法触发验证，代表您的账号风险已过高，请修改密码，使多个设备同时登录的状态被重置</li>
-</ul>
-</div>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<ul>
-<li>若您<strong>已绑定并使用可提供原神查询的Bot</strong>或<strong>同时有多个设备使用同一个米哈游通行证</strong>，则本条目所示的情况，尤其<strong>无感验证</strong>将基本无法成功，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
-<li>若您本地有多个<strong>米哈游通行证</strong>同时频繁与<strong>米游社</strong>进行数据交互，则可能会被米游社在一定时间内封禁IP地址，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
-</ul>
-</div>
-]]></content>
-    <author>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </author>
-    <category term="FAQ"/>
-    <contributor>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </contributor>
-    <published>2022-11-11T10:26:36.000Z</published>
-    <rights>Copyright by DGP-Studio</rights>
-  </entry>
-  <entry>
     <title type="text">实时便笺</title>
     <id>https://hut.ao/features/daily-notes.html</id>
     <link href="https://hut.ao/features/daily-notes.html"/>
-    <updated>2023-01-12T13:18:04.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 实时便笺</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -1722,7 +1895,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 <li>如出现"账号有风险，请前往米游社查看"字样的提示
 <ul>
-<li>请参考<a href="/FAQ/mihoyo-risk-tip.html" target="blank">账号风险提示</a>文档</li>
+<li>请参考<a href="/advance/mihoyo-risk-tip.html" target="blank">账号风险提示</a>文档</li>
 </ul>
 </li>
 </ul>
@@ -1776,36 +1949,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
     <published>2022-11-11T10:26:36.000Z</published>
-    <rights>Copyright by DGP-Studio</rights>
-  </entry>
-  <entry>
-    <title type="text">圣遗物评分机制</title>
-    <id>https://hut.ao/FAQ/artifact-rating-rules.html</id>
-    <link href="https://hut.ao/FAQ/artifact-rating-rules.html"/>
-    <updated>2023-01-12T13:18:04.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 圣遗物评分机制</h1>
-<p>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。</p>
-<p>如果你有兴趣探索我们的评分机制，
-可以审阅<a href="https://github.com/DGP-Studio/Snap.Hutao/tree/main/src/Snap.Hutao/Snap.Hutao/Service/AvatarInfo/Factory" target="_blank" rel="noopener noreferrer">胡桃工具箱代码</a>
-来了解评分计算方法。</p>
-<p>如果你对当前的圣遗物评分机制有新的建议，可以<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose" target="_blank" rel="noopener noreferrer">在 GitHub 上开启 Issue 为圣遗物评分提供新的依据</a></p>]]></summary>
-    <content type="html"><![CDATA[<h1> 圣遗物评分机制</h1>
-<p>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。</p>
-<p>如果你有兴趣探索我们的评分机制，
-可以审阅<a href="https://github.com/DGP-Studio/Snap.Hutao/tree/main/src/Snap.Hutao/Snap.Hutao/Service/AvatarInfo/Factory" target="_blank" rel="noopener noreferrer">胡桃工具箱代码</a>
-来了解评分计算方法。</p>
-<p>如果你对当前的圣遗物评分机制有新的建议，可以<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose" target="_blank" rel="noopener noreferrer">在 GitHub 上开启 Issue 为圣遗物评分提供新的依据</a></p>
-]]></content>
-    <author>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </author>
-    <category term="FAQ"/>
-    <contributor>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </contributor>
-    <published>2022-11-11T06:55:02.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
@@ -2324,7 +2467,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">米游社多帐号切换</title>
     <id>https://hut.ao/features/mhy-account-switch.html</id>
     <link href="https://hut.ao/features/mhy-account-switch.html"/>
-    <updated>2023-01-27T08:00:30.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 米游社多帐号切换</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -2363,7 +2506,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>您也可以通过点击<code>手动输入</code>按钮，直接输入米游社通行证 cookie 来添加您的帐号</li>
 <li>若您选择<code>手动输入</code>米游社 cookie，则该 cookie <strong>必须包含 <code>Stoken</code> 字段</strong>
 <ul>
-<li>手动获取含 <code>Stoken</code> 字段的 cookie 的方式可参考<a href="/FAQ/get-stoken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 Stoken 的 cookie</a> 文档</li>
+<li>手动获取含 <code>Stoken</code> 字段的 cookie 的方式可参考<a href="/advance/get-stoken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 Stoken 的 cookie</a> 文档</li>
 </ul>
 </li>
 </ul>
@@ -2398,89 +2541,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
     <published>2022-10-18T04:51:59.000Z</published>
-    <rights>Copyright by DGP-Studio</rights>
-  </entry>
-  <entry>
-    <title type="text">祈愿系统与导出原理</title>
-    <id>https://hut.ao/FAQ/Gacha-system-and-export-principal.html</id>
-    <link href="https://hut.ao/FAQ/Gacha-system-and-export-principal.html"/>
-    <updated>2023-02-14T08:01:50.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 祈愿系统与导出原理</h1>
-<blockquote>
-<p>Gacha System and Principal</p>
-</blockquote>
-<p>胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。</p>
-<p>本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。</p>
-<h2> 祈愿的获取</h2>
-<p>获取祈愿记录需要请求米哈游的API</p>
-<p>关于此API, 有下列几个注意点</p>
-<ul>
-<li>通过米哈游服务器的API，只能查询到过去6个月内的祈愿记录
-<ul>
-<li>这也是原神客户端中祈愿记录的来源</li>
-</ul>
-</li>
-<li>API存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 祈愿系统与导出原理</h1>
-<blockquote>
-<p>Gacha System and Principal</p>
-</blockquote>
-<p>胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。</p>
-<p>本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。</p>
-<h2> 祈愿的获取</h2>
-<p>获取祈愿记录需要请求米哈游的API</p>
-<p>关于此API, 有下列几个注意点</p>
-<ul>
-<li>通过米哈游服务器的API，只能查询到过去6个月内的祈愿记录
-<ul>
-<li>这也是原神客户端中祈愿记录的来源</li>
-</ul>
-</li>
-<li>API存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据</li>
-</ul>
-<p>为了请求此API，我们需要四个关键参数</p>
-<ul>
-<li>目前有下列几种方法可以获取这些参数
-<ul>
-<li>遍历 Unity 的日志文件，查找用户打开的祈愿记录URL</li>
-<li>代理本机流量，筛选祈愿记录URL</li>
-<li>查找 CefBrowser 的浏览器缓存，找到祈愿记录URL</li>
-<li>对于包含了Stoken的Cookie，调用genAuthKey API,获取参数</li>
-<li>高级用户手动输入相关URL</li>
-</ul>
-</li>
-</ul>
-<p>在请求API后可以获取到零散的祈愿记录，在对其进行拼接后即可获得一份完整的祈愿记录列表</p>
-<h2> 祈愿的存储</h2>
-<p>获得完整的祈愿记录列表后即可将其简单的序列化入本地数据库内，在需要时可从数据库中反序列化出来呈现给用户。</p>
-<p>后续的对服务器的请求只需要对比数据库中的数据请求新增的部分即可。</p>
-<p>这样，用户即可长期地保存帐号的完整祈愿记录</p>
-<h2> UIGF格式</h2>
-<blockquote>
-<p>统一可交换祈愿记录标准</p>
-<p>Uniformed Interchangeable GachaLog Format standard</p>
-</blockquote>
-<p>UIGF 是由我们联合其他祈愿记录应用倡导、推出并<strong>持久维护</strong>的一个统一的祈愿记录数据交换标准</p>
-<p>标准化的数据格式将允许用户将祈愿记录在不同的转移数据，以使用到不同原神工具中各自的特色功能</p>
-<h3> 祈愿的导入</h3>
-<p>在使用 UIGF 数据格式的前提下，可以导入曾在其他应用中储存的数据</p>
-<p>胡桃在处理导入时，会对比本地储存中存在的最早的索引（ID）并仅导入较老的数据</p>
-<p>（因为始终可以从米哈游的服务器获取较新的数据，这种原始数据有更高的精确度）</p>
-<h3> 祈愿的导出</h3>
-<p><s>尚未实现，正在设计</s>
-已实装</p>
-]]></content>
-    <author>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </author>
-    <category term="FAQ"/>
-    <contributor>
-      <name>DGP-Studio</name>
-      <uri>https://github.com/DGP-Studio</uri>
-    </contributor>
-    <published>2022-09-29T02:37:43.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
@@ -2538,17 +2598,17 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">祈愿记录</title>
     <id>https://hut.ao/features/wish-export.html</id>
     <link href="https://hut.ao/features/wish-export.html"/>
-    <updated>2023-02-06T11:30:48.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 祈愿记录</h1>
 <p>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。
 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
 <p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
-<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/FAQ/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>]]></summary>
+<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/advance/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>]]></summary>
     <content type="html"><![CDATA[<h1> 祈愿记录</h1>
 <p>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。
 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
 <p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
-<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/FAQ/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
+<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/advance/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" alt="祈愿导出" loading="lazy"></p>
 <div class="hint-container note">
 <p class="hint-container-title">原神抽卡记录的延迟性</p>
@@ -2658,7 +2718,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">提交BUG报告</title>
     <id>https://hut.ao/statements/bug-report.html</id>
     <link href="https://hut.ao/statements/bug-report.html"/>
-    <updated>2023-02-04T05:41:27.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 提交BUG报告</h1>
 <p><img src="https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="opened-issue" loading="lazy">
 <img src="https://img.shields.io/github/issues-closed/DGP-Studio/Snap.Hutao?style=for-the-badge&amp;color=blue" alt="closed-issue" loading="lazy"></p>
@@ -2686,8 +2746,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>在提交问题前，请务必检查文档内是否已包含了你的问题</p>
 <ul>
 <li>首先需要确认您使用的版本是否为最新版本</li>
-<li>您可以通过菜单栏中的“常见问题”分类找到这些文档</li>
-<li><a href="/FAQ/how-to.html" target="blank">快速解答</a></li>
+<li>您可以通过菜单栏中的“常见问题”分类找到这些文档
+<ul>
+<li><a href="/advance/FAQ.html" target="blank">快速解答</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li>
@@ -2819,7 +2882,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">快速开始</title>
     <id>https://hut.ao/quick-start.html</id>
     <link href="https://hut.ao/quick-start.html"/>
-    <updated>2023-02-20T04:52:31.000Z</updated>
+    <updated>2023-02-20T08:53:13.000Z</updated>
     <summary type="html"><![CDATA[<h1> 快速开始</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -2886,38 +2949,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 
 <p>微软商店链接：<a href="https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52" target="_blank" rel="noopener noreferrer">Snap Hutao</a></p>
 <p>在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱</p>
-<h2> 卸载胡桃工具箱</h2>
-<ul>
-<li>清除有关的任务计划
-<ul>
-<li>1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/FAQ/why.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
-<li><strong>方法1</strong> </li>
-<li><strong>方法2</strong>：
-<ul>
-<li>执行下方的脚本<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
-</ul>
-</li>
-<li><strong>方法3</strong>：
-<ul>
-<li>打开 Windows 计划任务程序</li>
-<li>找到 <code>SnapHutaoDailyNoteRefreshTask</code> 任务并删除</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>卸载软件
-<ul>
-<li>打开<code>开始菜单</code></li>
-<li>找到或搜索到<code>胡桃</code></li>
-<li>右键点击<code>胡桃</code>，并选择<code>卸载</code></li>
-</ul>
-</li>
-<li>清除数据文件夹（如需完全卸载）
-<ul>
-<li>打开并删除该文件夹 <code>%userprofile%/Documents/Hutao</code></li>
-</ul>
-</li>
-</ul>
+<h2> 安装 WebView2 运行时</h2>
+<p>WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。作为可选组件，WebView2 运行时不是强制组件，但安装后你会更容易地使用部分功能。</p>
+<p>在<a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">微软官网</a>的底部，你可以找到<code>常青独立安装程序</code>，选择<code>x64</code>下载并根据提示安装即可</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
