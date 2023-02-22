@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 20 Feb 2023 08:54:23 GMT</pubDate>
-    <lastBuildDate>Mon, 20 Feb 2023 08:54:23 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Feb 2023 01:47:24 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Feb 2023 01:47:24 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -351,14 +351,15 @@
       <link>https://hut.ao/advance/known-issue.html</link>
       <guid>https://hut.ao/advance/known-issue.html</guid>
       <source url="https://hut.ao/rss.xml">已知问题</source>
-      <description>该文档包含由程序错误造成的问题 #1 微软商店下载应用程序 该问题来源并非胡桃工具箱，属于外部问题 发现于 2023/02/07 ; 无法从微软商店下载的原因在于微软在东亚的授权服务器 licensing.mp.microsoft.com 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。; 当授权服务出现问题时，自然不会再进入到下一...</description>
+      <description>该文档包含由程序错误造成的问题 #1 微软商店下载应用程序 该问题来源并非胡桃工具箱，属于外部问题 该问题通常仅出现在东亚地区的网络环境下 发现于 2023/02/07 ; 无法从微软商店下载的原因在于微软在东亚的授权服务器 licensing.mp.microsoft.com 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。; 当...</description>
       <category>FAQ</category>
       <pubDate>Mon, 20 Feb 2023 08:53:13 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 已知问题</h1>
 <p>该文档包含由<strong>程序错误</strong>造成的问题</p>
 <h2> #1 微软商店下载应用程序</h2>
 <blockquote>
-<p>该问题来源并非胡桃工具箱，属于外部问题</p>
+<p>该问题来源并非胡桃工具箱，属于外部问题
+该问题通常仅出现在东亚地区的网络环境下</p>
 </blockquote>
 <ul>
 <li>发现于 2023/02/07</li>
@@ -426,6 +427,18 @@
 </ul>
 </li>
 <li>在下一版本，我们会使用 <code>JumpTask</code> 接口来代替 <code>JumpPath</code> 接口，用户将不再需要上述设置选项开启</li>
+</ul>
+<h2> #4 无法使用管理员模式启动胡桃工具箱</h2>
+<blockquote>
+<p>该问题来源并非胡桃工具箱，属于外部问题
+该问题仅存在于 Windows 10 低于22H2的版本中</p>
+</blockquote>
+<ul>
+<li>当用户系统版本低于 <code>Windows Build 19045</code>（即 Windows 10 22H2 版本）时，可能无法通过管理员模式启动胡桃工具箱
+<ul>
+<li>该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
