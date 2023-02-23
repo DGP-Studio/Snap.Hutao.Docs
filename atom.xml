@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-22T01:47:24.048Z</updated>
+  <updated>2023-02-23T19:15:48.316Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -24,9 +24,9 @@
   </contributor>
   <entry>
     <title type="text">常见问题</title>
-    <id>https://hut.ao/advance/FAQ.html</id>
-    <link href="https://hut.ao/advance/FAQ.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <id>https://hut.ao/advanced/FAQ.html</id>
+    <link href="https://hut.ao/advanced/FAQ.html"/>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 常见问题</h1>
 <h2> 如何创建胡桃的桌面快捷方式</h2>
 <div class="hint-container tip">
@@ -110,7 +110,7 @@
 </li>
 </ul>
 <h2> 如何通过网络代理使用胡桃工具箱</h2>
-<p>参考 <a href="/advance/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
+<p>参考 <a href="/advanced/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
 <h2> 为什么在设置中点击修改游戏路径无效</h2>
 <p>特定系统版本的用户，由于微软对文件选择对话框的COM实现的差异，会存在点击按钮后无响应的问题。</p>
 <p>相关的 <a href="https://github.com/microsoft/WindowsAppSDK/issues/2931" target="_blank" rel="noopener noreferrer">Github Issue</a></p>
@@ -139,7 +139,7 @@
 <li>但是当用户在浏览器或其它设备上<strong>注销帐号</strong>后， 维持登录状态的 Cookie 将<strong>失效</strong>。</li>
 <li>这会导致胡桃工具箱上的米游社帐号在启动后被自动移除。</li>
 <li>此情况也可能因为网络连接问题导致无法检查Cookie有效性，故出现此情况后请优先重启胡桃工具箱。</li>
-<li>自2022年10月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/advance/mihoyo-risk-tip.html" target="blank">账号有风险</a>时亦会令Cookie无法被识别为有效状态</li>
+<li>自2022年10月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/advanced/mihoyo-risk-tip.html" target="blank">账号有风险</a>时亦会令Cookie无法被识别为有效状态</li>
 <li>自 1.4.15 版本起，你可以通过在帐号面板中刷新 Cookie 来刷新登录状态</li>
 </ul>
 <h2> 为什么游戏登录状态会失效，导致切换帐号功能无效</h2>
@@ -162,7 +162,7 @@
 <p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
 继续使用管理员模式即可解决该问题。</p>
 <h2> 为什么在开启代理后胡桃工具箱会没有网络连接</h2>
-<p>参考 <a href="/advance/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
+<p>参考 <a href="/advanced/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
 <h2> 为什么商店版本和侧载版本不会相互覆盖升级</h2>
 <ul>
 <li>商店版本和侧载版本有不同的软件 ID，所以会被系统识别为不同的程序</li>
@@ -179,14 +179,14 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-20T08:53:13.000Z</published>
+    <published>2023-02-23T19:14:31.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">祈愿系统与导出原理</title>
-    <id>https://hut.ao/advance/Gacha-system-and-export-principal.html</id>
-    <link href="https://hut.ao/advance/Gacha-system-and-export-principal.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <id>https://hut.ao/advanced/Gacha-system-and-export-principal.html</id>
+    <link href="https://hut.ao/advanced/Gacha-system-and-export-principal.html"/>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 祈愿系统与导出原理</h1>
 <blockquote>
 <p>Gacha System and Principal</p>
@@ -262,14 +262,14 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-20T08:53:13.000Z</published>
+    <published>2023-02-23T19:14:31.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">圣遗物评分机制</title>
-    <id>https://hut.ao/advance/artifact-rating-rules.html</id>
-    <link href="https://hut.ao/advance/artifact-rating-rules.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <id>https://hut.ao/advanced/artifact-rating-rules.html</id>
+    <link href="https://hut.ao/advanced/artifact-rating-rules.html"/>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 圣遗物评分机制</h1>
 <p>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。</p>
 <p>如果你有兴趣探索我们的评分机制，
@@ -292,14 +292,14 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-20T08:53:13.000Z</published>
+    <published>2023-02-23T19:14:31.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">常见的程序异常</title>
-    <id>https://hut.ao/advance/exceptions.html</id>
-    <link href="https://hut.ao/advance/exceptions.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <id>https://hut.ao/advanced/exceptions.html</id>
+    <link href="https://hut.ao/advanced/exceptions.html"/>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 常见的程序异常</h1>
 <p>该文档包含由<strong>用户端错误</strong>造成的问题</p>
 <h2> RuntimeEnvironmentException</h2>
@@ -362,14 +362,14 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-20T08:53:13.000Z</published>
+    <published>2023-02-23T19:14:31.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">使用第三方工具获取有 Stoken 的 cookie</title>
-    <id>https://hut.ao/advance/get-stoken-cookie-from-the-third-party.html</id>
-    <link href="https://hut.ao/advance/get-stoken-cookie-from-the-third-party.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <id>https://hut.ao/advanced/get-stoken-cookie-from-the-third-party.html</id>
+    <link href="https://hut.ao/advanced/get-stoken-cookie-from-the-third-party.html"/>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 使用第三方工具获取有 Stoken 的 cookie</h1>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
@@ -440,14 +440,14 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-20T08:53:13.000Z</published>
+    <published>2023-02-23T19:14:31.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">已知问题</title>
-    <id>https://hut.ao/advance/known-issue.html</id>
-    <link href="https://hut.ao/advance/known-issue.html"/>
-    <updated>2023-02-22T01:46:05.000Z</updated>
+    <id>https://hut.ao/advanced/known-issue.html</id>
+    <link href="https://hut.ao/advanced/known-issue.html"/>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 已知问题</h1>
 <p>该文档包含由<strong>程序错误</strong>造成的问题</p>
 <h2> #1 微软商店下载应用程序</h2>
@@ -495,7 +495,7 @@
 <li><strong>方法3</strong>：
 <ul>
 <li>使用北美地区的网络代理</li>
-<li>如果使用加速器或网络代理，你需要<a href="/advance/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
+<li>如果使用加速器或网络代理，你需要<a href="/advanced/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
 </ul>
 </li>
 </ul>
@@ -548,7 +548,7 @@
 <li><strong>方法3</strong>：
 <ul>
 <li>使用北美地区的网络代理</li>
-<li>如果使用加速器或网络代理，你需要<a href="/advance/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
+<li>如果使用加速器或网络代理，你需要<a href="/advanced/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
 </ul>
 </li>
 </ul>
@@ -597,14 +597,14 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-20T08:53:13.000Z</published>
+    <published>2023-02-23T19:14:31.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">账号风险及异常提示</title>
-    <id>https://hut.ao/advance/mihoyo-risk-tip.html</id>
-    <link href="https://hut.ao/advance/mihoyo-risk-tip.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <id>https://hut.ao/advanced/mihoyo-risk-tip.html</id>
+    <link href="https://hut.ao/advanced/mihoyo-risk-tip.html"/>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 账号风险及异常提示</h1>
 <p><img src="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" alt="image" loading="lazy">
 <img src="https://user-images.githubusercontent.com/96916320/204005371-ced5213b-a7af-4cba-baa3-818f9b7ade35.png" alt="image" loading="lazy"></p>]]></summary>
@@ -665,19 +665,19 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-20T08:53:13.000Z</published>
+    <published>2023-02-23T19:14:31.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">卸载胡桃工具箱</title>
-    <id>https://hut.ao/advance/uninstall.html</id>
-    <link href="https://hut.ao/advance/uninstall.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <id>https://hut.ao/advanced/uninstall.html</id>
+    <link href="https://hut.ao/advanced/uninstall.html"/>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 卸载胡桃工具箱</h1>
 <ul>
 <li>清除有关的任务计划
 <ul>
-<li>1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/advance/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
+<li>1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
 <li><strong>方法1</strong> </li>
 <li><strong>方法2</strong>：
 <ul>
@@ -710,7 +710,7 @@
 <ul>
 <li>清除有关的任务计划
 <ul>
-<li>1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/advance/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
+<li>1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
 <li><strong>方法1</strong> </li>
 <li><strong>方法2</strong>：
 <ul>
@@ -748,14 +748,14 @@
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
     </contributor>
-    <published>2023-02-20T08:53:13.000Z</published>
+    <published>2023-02-23T19:14:31.000Z</published>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
     <title type="text">更新日志</title>
     <id>https://hut.ao/statements/update-log.html</id>
     <link href="https://hut.ao/statements/update-log.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 更新日志</h1>
 <h2> 1.4.16 </h2>
 <ul>
@@ -775,7 +775,7 @@
 </li>
 <li>修复
 <ul>
-<li>修复了<a href="/advance/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
+<li>修复了<a href="/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
 <li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
 </ul>
 </li>
@@ -807,7 +807,7 @@
 </li>
 <li>修复
 <ul>
-<li>修复了<a href="/advance/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
+<li>修复了<a href="/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
 <li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
 </ul>
 </li>
@@ -1226,7 +1226,7 @@
     <title type="text">第一期开发组座谈会</title>
     <id>https://hut.ao/development-log/symposium1.html</id>
     <link href="https://hut.ao/development-log/symposium1.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 第一期开发组座谈会</h1>
 <p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/46" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
 <h2> 为啥胡桃在电脑上要做成类似uwp格式的应用？</h2>
@@ -1261,7 +1261,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p><s>胡桃数据库是 HutaoAPI 的一部分，包含了深渊相关的数据，HutaoAPI是胡桃使用的 RESTful API，同时面向其他应用的开发者开放，接入成本低，接入收益高。胡桃数据库将会在后续版本实装。</s> 已经实装</p>
 <h2> 会把胡桃放到右下角任务栏吗？会考虑在角色里添加立绘吗？</h2>
 <p><s>基本不会考虑</s>。后续可能会考虑。</p>
-<p>你可以通过快速启动栏来快速启动游戏，具体方法可见<a href="/advance/FAQ#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F">此文档</a></p>
+<p>你可以通过快速启动栏来快速启动游戏，具体方法可见<a href="/advanced/FAQ#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F">此文档</a></p>
 <h2> 将来会有移动端吗？有考虑根据胡桃做个手机桌面小组件吗？胡桃以后支持插件吗？胡桃会有插件开发文档吗？</h2>
 <p>短时间内不会考虑移动端。手机桌面小组件也基本不会考虑。不会再支持插件。同样也不会有插件文档。</p>
 <h2> 离支持外服账号还有多远？会整合其他插件比如空荧酒馆这种嘛？</h2>
@@ -1882,7 +1882,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">实时便笺</title>
     <id>https://hut.ao/features/daily-notes.html</id>
     <link href="https://hut.ao/features/daily-notes.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 实时便笺</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -1909,7 +1909,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 <li>如出现"账号有风险，请前往米游社查看"字样的提示
 <ul>
-<li>请参考<a href="/advance/mihoyo-risk-tip.html" target="blank">账号风险提示</a>文档</li>
+<li>请参考<a href="/advanced/mihoyo-risk-tip.html" target="blank">账号风险提示</a>文档</li>
 </ul>
 </li>
 </ul>
@@ -2481,7 +2481,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">米游社多帐号切换</title>
     <id>https://hut.ao/features/mhy-account-switch.html</id>
     <link href="https://hut.ao/features/mhy-account-switch.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 米游社多帐号切换</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -2520,7 +2520,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>您也可以通过点击<code>手动输入</code>按钮，直接输入米游社通行证 cookie 来添加您的帐号</li>
 <li>若您选择<code>手动输入</code>米游社 cookie，则该 cookie <strong>必须包含 <code>Stoken</code> 字段</strong>
 <ul>
-<li>手动获取含 <code>Stoken</code> 字段的 cookie 的方式可参考<a href="/advance/get-stoken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 Stoken 的 cookie</a> 文档</li>
+<li>手动获取含 <code>Stoken</code> 字段的 cookie 的方式可参考<a href="/advanced/get-stoken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 Stoken 的 cookie</a> 文档</li>
 </ul>
 </li>
 </ul>
@@ -2612,17 +2612,17 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">祈愿记录</title>
     <id>https://hut.ao/features/wish-export.html</id>
     <link href="https://hut.ao/features/wish-export.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 祈愿记录</h1>
 <p>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。
 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
 <p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
-<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/advance/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>]]></summary>
+<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/advanced/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>]]></summary>
     <content type="html"><![CDATA[<h1> 祈愿记录</h1>
 <p>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。
 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
 <p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
-<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/advance/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
+<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/advanced/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" alt="祈愿导出" loading="lazy"></p>
 <div class="hint-container note">
 <p class="hint-container-title">原神抽卡记录的延迟性</p>
@@ -2732,7 +2732,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">提交BUG报告</title>
     <id>https://hut.ao/statements/bug-report.html</id>
     <link href="https://hut.ao/statements/bug-report.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <updated>2023-02-23T19:14:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 提交BUG报告</h1>
 <p><img src="https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="opened-issue" loading="lazy">
 <img src="https://img.shields.io/github/issues-closed/DGP-Studio/Snap.Hutao?style=for-the-badge&amp;color=blue" alt="closed-issue" loading="lazy"></p>
@@ -2762,7 +2762,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>首先需要确认您使用的版本是否为最新版本</li>
 <li>您可以通过菜单栏中的“常见问题”分类找到这些文档
 <ul>
-<li><a href="/advance/FAQ.html" target="blank">快速解答</a></li>
+<li><a href="/advanced/FAQ.html" target="blank">快速解答</a></li>
 </ul>
 </li>
 </ul>
