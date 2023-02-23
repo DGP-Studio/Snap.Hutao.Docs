@@ -27,7 +27,7 @@ export const zhSidebar = sidebar({
       {
           icon: "advance",
           text: "高级",
-          prefix: "advance/",
+          prefix: "advanced/",
           children: [
               "FAQ.md",
               "exceptions.md",

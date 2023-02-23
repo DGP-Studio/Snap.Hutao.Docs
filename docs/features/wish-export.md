@@ -10,7 +10,7 @@ category: [功能,教程]
 
 因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。
 
-有关原神祈愿记录导出的技术原理，你可以参阅我们的[**祈愿系统与导出原理**](/advance/Gacha-system-and-export-principal.md)一文。
+有关原神祈愿记录导出的技术原理，你可以参阅我们的[**祈愿系统与导出原理**](/advanced/Gacha-system-and-export-principal.md)一文。
 
 ![祈愿导出](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png)
 

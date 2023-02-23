@@ -24,7 +24,7 @@ icon: debug
   - 在提交问题前，请务必检查文档内是否已包含了你的问题
     - 首先需要确认您使用的版本是否为最新版本
     - 您可以通过菜单栏中的“常见问题”分类找到这些文档
-      - [快速解答](/advance/FAQ.md)
+      - [快速解答](/advanced/FAQ.md)
 
   - 通过 GitHub 提交问题 <Badge text="推荐" type="tip" /> 
     - [github.com/DGP-Studio/Snap.Hutao/issues/new/choose](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)
