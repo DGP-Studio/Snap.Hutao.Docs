@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 23 Feb 2023 19:15:48 GMT</pubDate>
-    <lastBuildDate>Thu, 23 Feb 2023 19:15:48 GMT</lastBuildDate>
+    <pubDate>Sat, 25 Feb 2023 05:39:47 GMT</pubDate>
+    <lastBuildDate>Sat, 25 Feb 2023 05:39:47 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -21,6 +21,15 @@
     <category>公告</category>
     <category>功能</category>
     <category>教程</category>
+    <item>
+      <title>高级</title>
+      <link>https://hut.ao/advanced/</link>
+      <guid>https://hut.ao/advanced/</guid>
+      <source url="https://hut.ao/rss.xml">高级</source>
+      <pubDate>Sat, 25 Feb 2023 05:38:38 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 高级</h1>
+]]></content:encoded>
+    </item>
     <item>
       <title>常见问题</title>
       <link>https://hut.ao/advanced/FAQ.html</link>
@@ -1828,6 +1837,15 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" type="image/png"/>
     </item>
     <item>
+      <title>功能指南</title>
+      <link>https://hut.ao/features/</link>
+      <guid>https://hut.ao/features/</guid>
+      <source url="https://hut.ao/rss.xml">功能指南</source>
+      <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 功能指南</h1>
+]]></content:encoded>
+    </item>
+    <item>
       <title>成就管理</title>
       <link>https://hut.ao/features/achievements.html</link>
       <guid>https://hut.ao/features/achievements.html</guid>
@@ -1971,6 +1989,15 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </section>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" type="image/png"/>
+    </item>
+    <item>
+      <title>声明和公告</title>
+      <link>https://hut.ao/statements/</link>
+      <guid>https://hut.ao/statements/</guid>
+      <source url="https://hut.ao/rss.xml">声明和公告</source>
+      <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 声明和公告</h1>
+]]></content:encoded>
     </item>
     <item>
       <title>提交BUG报告</title>

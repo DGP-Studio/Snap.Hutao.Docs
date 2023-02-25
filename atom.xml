@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-23T19:15:48.316Z</updated>
+  <updated>2023-02-25T05:39:47.466Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -22,6 +22,26 @@
     <name>DGP-Studio</name>
     <uri>https://github.com/DGP-Studio</uri>
   </contributor>
+  <entry>
+    <title type="text">高级</title>
+    <id>https://hut.ao/advanced/</id>
+    <link href="https://hut.ao/advanced/"/>
+    <updated>2023-02-25T05:38:38.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 高级</h1>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 高级</h1>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2023-02-25T05:38:38.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
   <entry>
     <title type="text">常见问题</title>
     <id>https://hut.ao/advanced/FAQ.html</id>
@@ -2558,6 +2578,26 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <rights>Copyright by DGP-Studio</rights>
   </entry>
   <entry>
+    <title type="text">功能指南</title>
+    <id>https://hut.ao/features/</id>
+    <link href="https://hut.ao/features/"/>
+    <updated>2023-02-25T05:38:38.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 功能指南</h1>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 功能指南</h1>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2022-09-29T02:37:43.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
+  <entry>
     <title type="text">成就管理</title>
     <id>https://hut.ao/features/achievements.html</id>
     <link href="https://hut.ao/features/achievements.html"/>
@@ -2721,6 +2761,26 @@ Snap.Genshin 已停止更新，项目已归档</p>
     </author>
     <category term="功能"/>
     <category term="教程"/>
+    <contributor>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </contributor>
+    <published>2022-09-29T02:37:43.000Z</published>
+    <rights>Copyright by DGP-Studio</rights>
+  </entry>
+  <entry>
+    <title type="text">声明和公告</title>
+    <id>https://hut.ao/statements/</id>
+    <link href="https://hut.ao/statements/"/>
+    <updated>2023-02-25T05:38:38.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 声明和公告</h1>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 声明和公告</h1>
+]]></content>
+    <author>
+      <name>DGP-Studio</name>
+      <uri>https://github.com/DGP-Studio</uri>
+    </author>
     <contributor>
       <name>DGP-Studio</name>
       <uri>https://github.com/DGP-Studio</uri>
