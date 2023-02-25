@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 25 Feb 2023 05:39:47 GMT</pubDate>
-    <lastBuildDate>Sat, 25 Feb 2023 05:39:47 GMT</lastBuildDate>
+    <pubDate>Sat, 25 Feb 2023 05:44:52 GMT</pubDate>
+    <lastBuildDate>Sat, 25 Feb 2023 05:44:52 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -272,11 +272,18 @@
 <li><code>Return Code: -100</code></li>
 </ul>
 </li>
-<li>问题来源：Cookie 过期或网络异常</li>
+<li>问题来源：
+<ol>
+<li>Cookie 过期或网络异常</li>
+<li>系统时间错误</li>
+</ol>
+</li>
 <li>解决方案：
-<ul>
+<ol>
 <li>在帐号面板中，点击<code>刷新 Cookie</code></li>
-</ul>
+<li>删除帐号后重新添加米游社帐号</li>
+<li>在系统设置中启用自动同步时间并立刻同步时间</li>
+</ol>
 </li>
 </ul>
 <h2> HttpRequestException 元数据校验文件下载失败</h2>

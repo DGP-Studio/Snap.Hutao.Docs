@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-25T05:39:47.466Z</updated>
+  <updated>2023-02-25T05:44:52.408Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -319,7 +319,7 @@
     <title type="text">常见的程序异常</title>
     <id>https://hut.ao/advanced/exceptions.html</id>
     <link href="https://hut.ao/advanced/exceptions.html"/>
-    <updated>2023-02-23T19:14:31.000Z</updated>
+    <updated>2023-02-25T05:43:47.000Z</updated>
     <summary type="html"><![CDATA[<h1> 常见的程序异常</h1>
 <p>该文档包含由<strong>用户端错误</strong>造成的问题</p>
 <h2> RuntimeEnvironmentException</h2>
@@ -352,11 +352,18 @@
 <li><code>Return Code: -100</code></li>
 </ul>
 </li>
-<li>问题来源：Cookie 过期或网络异常</li>
+<li>问题来源：
+<ol>
+<li>Cookie 过期或网络异常</li>
+<li>系统时间错误</li>
+</ol>
+</li>
 <li>解决方案：
-<ul>
+<ol>
 <li>在帐号面板中，点击<code>刷新 Cookie</code></li>
-</ul>
+<li>删除帐号后重新添加米游社帐号</li>
+<li>在系统设置中启用自动同步时间并立刻同步时间</li>
+</ol>
 </li>
 </ul>
 <h2> HttpRequestException 元数据校验文件下载失败</h2>
