@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 26 Feb 2023 10:01:34 GMT</pubDate>
-    <lastBuildDate>Sun, 26 Feb 2023 10:01:34 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Feb 2023 12:41:04 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Feb 2023 12:41:04 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -2363,19 +2363,29 @@
       <link>https://hut.ao/statements/update-log.html</link>
       <guid>https://hut.ao/statements/update-log.html</guid>
       <source url="https://hut.ao/rss.xml">更新日志</source>
-      <description>1.4.16 优化; 将JumpList菜单更换为JumpTask，即使用户关闭最近文件功能也可以使用快速启动菜单了; 1.4.15 新增; 重置图片资源的入口; 刷新 Cookie 方法; 修复; 修复了#2 服务器切换导致31-4302报错 (/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%9...</description>
+      <description>1.5.1 优化; 将JumpList菜单更换为JumpTask，即使用户关闭最近文件功能也可以使用快速启动菜单了; 增加优先度高于系统设置的语言设置选项; 增加贡献翻译入口; 增加重置图片资源的设置选项; 添加; 怪物 WIKI; 韩语翻译; 国际化元数据; 1.4.15 新增; 重置图片资源的入口; 刷新 Cookie 方法; 修复; 修复了#2 ...</description>
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.4.16 </h2>
+<h2> 1.5.1 </h2>
 <ul>
 <li>优化
 <ul>
 <li>将<code>JumpList</code>菜单更换为<code>JumpTask</code>，即使用户关闭最近文件功能也可以使用快速启动菜单了</li>
+<li>增加优先度高于系统设置的语言设置选项</li>
+<li>增加贡献翻译入口</li>
+<li>增加重置图片资源的设置选项</li>
+</ul>
+</li>
+<li>添加
+<ul>
+<li>怪物 WIKI</li>
+<li>韩语翻译</li>
+<li>国际化元数据</li>
 </ul>
 </li>
 </ul>
-<h2> 1.4.15 </h2>
+<h2> 1.4.15</h2>
 <ul>
 <li>新增
 <ul>

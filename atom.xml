@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-26T10:01:34.811Z</updated>
+  <updated>2023-02-27T12:41:04.167Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -3406,49 +3406,47 @@
     <title type="text">更新日志</title>
     <id>https://hut.ao/statements/update-log.html</id>
     <link href="https://hut.ao/statements/update-log.html"/>
-    <updated>2023-02-23T19:14:31.000Z</updated>
+    <updated>2023-02-27T12:39:50.000Z</updated>
     <summary type="html"><![CDATA[<h1> 更新日志</h1>
-<h2> 1.4.16 </h2>
+<h2> 1.5.1 </h2>
 <ul>
 <li>优化
 <ul>
 <li>将<code>JumpList</code>菜单更换为<code>JumpTask</code>，即使用户关闭最近文件功能也可以使用快速启动菜单了</li>
+<li>增加优先度高于系统设置的语言设置选项</li>
+<li>增加贡献翻译入口</li>
+<li>增加重置图片资源的设置选项</li>
+</ul>
+</li>
+<li>添加
+<ul>
+<li>怪物 WIKI</li>
+<li>韩语翻译</li>
+<li>国际化元数据</li>
 </ul>
 </li>
 </ul>
-<h2> 1.4.15 </h2>
-<ul>
-<li>新增
-<ul>
-<li>重置图片资源的入口</li>
-<li>刷新 Cookie 方法</li>
-</ul>
-</li>
-<li>修复
-<ul>
-<li>修复了<a href="/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 服务器切换导致31-4302报错</a></li>
-<li>修复了部分情况下程序内清除定时任务计划失败的情况</li>
-</ul>
-</li>
-<li>优化
-<ul>
-<li>优化了养成计划界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/486" target="_blank" rel="noopener noreferrer">#486</a></li>
-<li>完善英语和繁体中文翻译</li>
-<li>在触发 Windows 长路径限制时增加提示</li>
-<li>优化了定时任务的唤醒方式</li>
-</ul>
-</li>
-</ul>]]></summary>
+<h2> 1.4.15</h2>]]></summary>
     <content type="html"><![CDATA[<h1> 更新日志</h1>
-<h2> 1.4.16 </h2>
+<h2> 1.5.1 </h2>
 <ul>
 <li>优化
 <ul>
 <li>将<code>JumpList</code>菜单更换为<code>JumpTask</code>，即使用户关闭最近文件功能也可以使用快速启动菜单了</li>
+<li>增加优先度高于系统设置的语言设置选项</li>
+<li>增加贡献翻译入口</li>
+<li>增加重置图片资源的设置选项</li>
+</ul>
+</li>
+<li>添加
+<ul>
+<li>怪物 WIKI</li>
+<li>韩语翻译</li>
+<li>国际化元数据</li>
 </ul>
 </li>
 </ul>
-<h2> 1.4.15 </h2>
+<h2> 1.4.15</h2>
 <ul>
 <li>新增
 <ul>
