@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-02-27T12:41:04.167Z</updated>
+  <updated>2023-03-01T08:45:51.481Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -3098,7 +3098,7 @@
     <title type="text">已知问题</title>
     <id>https://hut.ao/advanced/known-issue.html</id>
     <link href="https://hut.ao/advanced/known-issue.html"/>
-    <updated>2023-02-23T19:14:31.000Z</updated>
+    <updated>2023-03-01T08:44:41.000Z</updated>
     <summary type="html"><![CDATA[<h1> 已知问题</h1>
 <p>该文档包含由<strong>程序错误</strong>造成的问题</p>
 <h2> #1 微软商店下载应用程序</h2>
@@ -3218,6 +3218,9 @@
 </li>
 </ul>
 <h2> #3 任务栏右键菜单中没有快速启动游戏的入口</h2>
+<blockquote>
+<p>该问题已于 <a href="/statements/update-log.html#1-5-1" target="blank">1.5.1</a> 版本修复，请及时更新</p>
+</blockquote>
 <ul>
 <li>胡桃使用 Windows 提供的 <code>JumpPath</code> 接口来提供快速启动游戏菜单
 <ul>
@@ -3238,6 +3241,9 @@
 </ul>
 </li>
 </ul>
+<h2> #5 服务器转换卡死并持续写入的问题</h2>
+<p>相关 Issue：<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/566" target="_blank" rel="noopener noreferrer">issues/566</a></p>
+<p>该问题会在后续版本中修复</p>
 ]]></content>
     <author>
       <name>DGP-Studio</name>
@@ -5281,7 +5287,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">祈愿记录</title>
     <id>https://hut.ao/features/wish-export.html</id>
     <link href="https://hut.ao/features/wish-export.html"/>
-    <updated>2023-02-23T19:14:31.000Z</updated>
+    <updated>2023-03-01T08:44:41.000Z</updated>
     <summary type="html"><![CDATA[<h1> 祈愿记录</h1>
 <p>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。
 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
@@ -5293,6 +5299,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
 <p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/advanced/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" alt="祈愿导出" loading="lazy"></p>
+<p><strong>如上图所示，从胡桃工具箱的祈愿导出功能，你可以清晰地获取到包括：抽卡总数、当前已垫抽数、不同稀有度获取的数量和百分比、
+每次五星稀有度获取的抽数以及保底情况。</strong></p>
 <div class="hint-container note">
 <p class="hint-container-title">原神抽卡记录的延迟性</p>
 <p>胡桃工具箱获取抽卡记录的来源也为米哈游服务器，因此短时间内刚刚结束的抽卡无法被获取。
@@ -5585,7 +5593,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
     <title type="text">快速开始</title>
     <id>https://hut.ao/quick-start.html</id>
     <link href="https://hut.ao/quick-start.html"/>
-    <updated>2023-02-20T08:53:13.000Z</updated>
+    <updated>2023-03-01T08:44:41.000Z</updated>
     <summary type="html"><![CDATA[<h1> 快速开始</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -5652,6 +5660,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 
 <p>微软商店链接：<a href="https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52" target="_blank" rel="noopener noreferrer">Snap Hutao</a></p>
 <p>在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱</p>
+<h3> 从侧载版升级至商店版</h3>
+<ul>
+<li>按照文档提供的<a href="/advanced/uninstall.html" target="blank">卸载方法</a>卸载侧载版应用</li>
+<li>在微软商店安装新版应用</li>
+</ul>
 <h2> 安装 WebView2 运行时</h2>
 <p>WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。作为可选组件，WebView2 运行时不是强制组件，但安装后你会更容易地使用部分功能。</p>
 <p>在<a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">微软官网</a>的底部，你可以找到<code>常青独立安装程序</code>，选择<code>x64</code>下载并根据提示安装即可</p>
