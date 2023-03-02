@@ -27,20 +27,57 @@ category: [功能,教程]
 
 
 ## 下载胡桃工具箱
+**无论使用何种安装方式，应用包来源和注册授权都由微软商店管理**
 
+::: tabs
+@tab 使用微软商店下载
 <ms-store-badge
 productid="9PH4NXJ2JN52"
 theme="auto">
 </ms-store-badge>
 
-
 微软商店链接：[Snap Hutao](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
 
 在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱
 
+
+@tab 使用 winget 下载
+- 启动 PowerShell
+- 执行命令 `winget install "Snap Hutao"`
+- 根据提示允许安装
+
+@tab 从 GitHub 下载
+- 访问胡桃工具箱[最新发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/)
+- 下载 MSIX 应用包
+- 直接运行 MSIX 应用包以执行安装
+
+:::
 ### 从侧载版升级至商店版
 - 按照文档提供的[卸载方法](/advanced/uninstall.html)卸载侧载版应用
-- 在微软商店安装新版应用
+  - 只要不手动删除数据目录，你的数据不会受到影响
+- 按照上述方法全新安装商店版应用
+
+## 更新胡桃工具箱
+**无论你使用何种方式安装了应用，你都可以选择任意的方式去更新它，不必选择和安装时一样的方法，因为微软商店是应用包唯一来源**
+::: tabs
+@tab 使用微软商店更新
+- 启动微软商店
+- 点击左下角的库，查看到你目前已安装的全部应用
+- 点击界面右上角的获取更新，你的应用将会被更新
+
+若点击获取更新后胡桃仍然没有获取到更新，则可以进入`Snap Hutao`的[商店详情页面]((https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52))，等待信息加载完成来获取更新
+
+@tab 使用 winget 下载
+- 启动 PowerShell
+- 执行命令 `winget upgrade "Snap Hutao"`
+- 根据提示允许安装
+
+@tab 从 GitHub 下载
+- 访问胡桃工具箱[最新发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/)
+- 下载 MSIX 应用包
+- 直接运行 MSIX 应用包以执行安装
+
+:::
 
 ## 安装 WebView2 运行时
 
