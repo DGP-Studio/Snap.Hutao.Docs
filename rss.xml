@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 01 Mar 2023 08:45:51 GMT</pubDate>
-    <lastBuildDate>Wed, 01 Mar 2023 08:45:51 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Mar 2023 00:30:25 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Mar 2023 00:30:25 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -3995,14 +3995,20 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </tbody>
 </table>
 <h2> 下载胡桃工具箱</h2>
+<p><strong>无论使用何种安装方式，应用包来源和注册授权都由微软商店管理</strong></p>
 
-<p>微软商店链接：<a href="https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52" target="_blank" rel="noopener noreferrer">Snap Hutao</a></p>
-<p>在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱</p>
 <h3> 从侧载版升级至商店版</h3>
 <ul>
-<li>按照文档提供的<a href="/advanced/uninstall.html" target="blank">卸载方法</a>卸载侧载版应用</li>
-<li>在微软商店安装新版应用</li>
+<li>按照文档提供的<a href="/advanced/uninstall.html" target="blank">卸载方法</a>卸载侧载版应用
+<ul>
+<li>只要不手动删除数据目录，你的数据不会受到影响</li>
 </ul>
+</li>
+<li>按照上述方法全新安装商店版应用</li>
+</ul>
+<h2> 更新胡桃工具箱</h2>
+<p><strong>无论你使用何种方式安装了应用，你都可以选择任意的方式去更新它，不必选择和安装时一样的方法，因为微软商店是应用包唯一来源</strong></p>
+
 <h2> 安装 WebView2 运行时</h2>
 <p>WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。作为可选组件，WebView2 运行时不是强制组件，但安装后你会更容易地使用部分功能。</p>
 <p>在<a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">微软官网</a>的底部，你可以找到<code>常青独立安装程序</code>，选择<code>x64</code>下载并根据提示安装即可</p>
