@@ -3,6 +3,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import theme from "./theme.js";
 import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default defineUserConfig({
   base: "/",
@@ -52,6 +53,9 @@ export default defineUserConfig({
         }
       }
     }),
+    googleAnalyticsPlugin({
+      id: "G-F3LFJCE3RM"
+    })
   ],
 
   theme,
