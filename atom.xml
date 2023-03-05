@@ -9,7 +9,7 @@
   </author>
   <logo>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</logo>
   <rights>Copyright by DGP-Studio</rights>
-  <updated>2023-03-03T02:28:11.269Z</updated>
+  <updated>2023-03-05T11:49:27.855Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://hut.ao/atom.xml"/>
   <link rel="alternate" href="https://hut.ao/"/>
@@ -3329,7 +3329,7 @@
     <title type="text">卸载胡桃工具箱</title>
     <id>https://hut.ao/advanced/uninstall.html</id>
     <link href="https://hut.ao/advanced/uninstall.html"/>
-    <updated>2023-02-23T19:14:31.000Z</updated>
+    <updated>2023-03-05T11:48:16.000Z</updated>
     <summary type="html"><![CDATA[<h1> 卸载胡桃工具箱</h1>
 <ul>
 <li>清除有关的任务计划
@@ -3346,6 +3346,12 @@
 <ul>
 <li>打开 Windows 计划任务程序</li>
 <li>找到 <code>SnapHutaoDailyNoteRefreshTask</code> 任务并删除</li>
+</ul>
+</li>
+<li><strong>方法4</strong>：
+<ul>
+<li>升级至<code>1.5.1</code>版本并使用一次实时便笺功能</li>
+<li>直接卸载胡桃工具箱</li>
 </ul>
 </li>
 </ul>
@@ -3378,6 +3384,12 @@
 <ul>
 <li>打开 Windows 计划任务程序</li>
 <li>找到 <code>SnapHutaoDailyNoteRefreshTask</code> 任务并删除</li>
+</ul>
+</li>
+<li><strong>方法4</strong>：
+<ul>
+<li>升级至<code>1.5.1</code>版本并使用一次实时便笺功能</li>
+<li>直接卸载胡桃工具箱</li>
 </ul>
 </li>
 </ul>

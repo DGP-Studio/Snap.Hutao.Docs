@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 03 Mar 2023 02:28:11 GMT</pubDate>
-    <lastBuildDate>Fri, 03 Mar 2023 02:28:11 GMT</lastBuildDate>
+    <pubDate>Sun, 05 Mar 2023 11:49:27 GMT</pubDate>
+    <lastBuildDate>Sun, 05 Mar 2023 11:49:27 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -2345,6 +2345,12 @@
 <ul>
 <li>打开 Windows 计划任务程序</li>
 <li>找到 <code>SnapHutaoDailyNoteRefreshTask</code> 任务并删除</li>
+</ul>
+</li>
+<li><strong>方法4</strong>：
+<ul>
+<li>升级至<code>1.5.1</code>版本并使用一次实时便笺功能</li>
+<li>直接卸载胡桃工具箱</li>
 </ul>
 </li>
 </ul>
