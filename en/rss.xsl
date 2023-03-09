@@ -4,10 +4,10 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:html="http://www.w3.org/TR/REC-html40">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes" />
-  <xsl:template match="/">
+  <xsl:template match="atom:feed">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
-        <title>RSS Feed</title>
+        <title>Atom Feed</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <style type="text/css">
           html,
@@ -178,12 +178,10 @@
           th,
           td {
             padding: 0.6em 1em;
-            border: 1px solid #dfe2e5;
-          } div[class*="language-"] {
+            border: 1px solid #dfe2e5; } div[class*="language-"] {
             position: relative;
             border-radius: 6px;
-            background: #ecf4fa; 
-          } div[class*="language-"]::before {
+            background: #ecf4fa; } div[class*="language-"]::before {
             content: attr(data-ext);
 
             position: absolute;
@@ -196,22 +194,22 @@
             font-size: 0.75rem;
           }
 
-          .rss-info {
+          .atom-info {
             margin-top: 1rem;
             padding: 0 2rem;
             text-align: center;
           }
 
-          .rss-info > h1 {
+          .atom-info > h1 {
             font-weight: bold;
           }
 
-          .rss-info > h2 {
+          .atom-info > h2 {
             border: none;
             font-size: 1.5rem;
           }
 
-          .rss-info table {
+          .atom-info table {
             display: inline-block;
 
             max-width: 960px;
@@ -221,46 +219,41 @@
             text-align: start;
           }
 
-          .rss-info tr {
+          .atom-info tr {
             background: transparent;
             border: none;
           }
 
-          .rss-info th,
-          .rss-info td {
+          .atom-info th,
+          .atom-info td {
             padding: 0.5rem 0.25rem;
             border: none;
           }
 
-          .rss-info td:first-child {
+          .atom-info td:first-child {
             font-weight: bold;
           }
 
-          .rss-logo {
+          .atom-logo {
             height: 8rem;
           }
 
-          .visit-button {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            border-radius: 0.5rem;
-
-            background: #339af0;
-            color: #fff;
-            font-weight: bold;
+          .atom-icon {
+            height: 1em;
+            margin-inline-end: 1rem;
           }
 
-          .rss-item-wrapper {
+          .atom-item-wrapper {
             padding: 16px;
             text-align: center;
           }
 
-          .rss-item {
+          .atom-item {
             overflow: hidden;
 
             max-width: 960px;
             margin: 16px auto;
-            border-radius: 8px;
+            border-radius: 0.5rem;
 
             background: #fff;
             box-shadow: 2px 4px 8px rgba(0 0 0 / 15%);
@@ -268,33 +261,35 @@
             text-align: start;
           }
 
-          .rss-header {
+          .atom-header {
             padding: 8px 12px;
             background-color: #339af0;
             color: #fff;
           }
 
-          .rss-item-title {
+          .atom-item-title {
             border-bottom: 1px solid #fff;
             font-weight: bold;
             font-size: 1.5rem;
             line-height: 1.75;
           }
 
-          .rss-item-info > span {
+          .atom-item-info > span {
             display: inline-block;
             margin: 4px 0;
           }
 
-          .rss-item-info > span + span {
+          .atom-item-info > span + span {
             margin-inline-start: 8px;
           }
-
-          .rss-body {
+          
+          .atom-body {
             padding: 4px 16px;
           }
 
-          .rss-footer {
+          .atom-footer {
+            display: flex;
+            justify-content: space-between;
             padding: 12px 16px;
           }
 
@@ -310,61 +305,67 @@
         </style>
       </head>
       <body>
-        <div class="rss-info">
-          <xsl:if test="/rss/channel/image/url">
-            <img class="rss-logo" src="{/rss/channel/image/url}" alt="rss logo" />
+        <div class="atom-info">
+          <xsl:if test="atom:logo">
+            <img class="atom-logo" src="{atom:logo}" alt="atom logo" />
           </xsl:if>
           <h1>
-            <xsl:value-of select="/rss/channel/title"></xsl:value-of>
+            <xsl:if test="atom:icon and not(atom:logo)">
+              <img class="atom-icon" src="{atom:icon}" alt="atom logo" />
+            </xsl:if>
+            <xsl:value-of select="atom:title"></xsl:value-of>
           </h1>
           <h2>
-            <xsl:value-of select="/rss/channel/description" />
+            <xsl:value-of select="atom:subtitle" />
           </h2>
-          <div>
-            <a class="visit-button" href="{rss/channel/link}" target="_blank">
-              Visit Website
-            </a>
-          </div>
+
           <table>
             <tbody>
               <tr>
-                <td>Language:</td>
+                <td>Last update time:</td>
                 <td>
-                  <xsl:value-of select="/rss/channel/language" />
+                  <xsl:value-of select="concat(substring(atom:updated,0,11),concat(' ', substring(atom:updated,12,5)))" />
                 </td>
               </tr>
-              <xsl:if test="/rss/channel/pubDate and /rss/channel/pubDate != /rss/channel/lastBuildDate">
+              <xsl:if test="atom:author/atom:name">
                 <tr>
-                  <td>Published Date:</td>
+                  <td>Author:</td>
                   <td>
-                    <xsl:value-of select="substring-before(/rss/channel/pubDate,' GMT')" />
-                  </td>
-                </tr>
-              </xsl:if>
-              <tr>
-                <td>Last Build Date:</td>
-                <td>
-                  <xsl:value-of select="substring-before(/rss/channel/lastBuildDate,' GMT')" />
-                </td>
-              </tr>
-              <xsl:if test="/rss/channel/copyright">
-                <tr>
-                  <td>Copyright:</td>
-                  <td>
-                    <xsl:value-of select="/rss/channel/copyright" />
-                  </td>
-                </tr>
-              </xsl:if>
-              <xsl:if test="/rss/channel/category">
-                <tr>
-                  <td>
-                    Catetory:
-                  </td>
-                  <td>
-                    <xsl:for-each select="/rss/channel/category">
+                    <xsl:for-each select="atom:author/atom:name">
                       <xsl:if test="position() != 1">, </xsl:if>
                       <xsl:value-of select="current()" />
                     </xsl:for-each>
+                  </td>
+                </tr>
+              </xsl:if>
+              <xsl:if test="atom:contributor/atom:name">
+                <tr>
+                  <td>Contributor:</td>
+                  <td>
+                    <xsl:for-each select="atom:contributor/atom:name">
+                      <xsl:if test="position() != 1">, </xsl:if>
+                      <xsl:value-of select="current()" />
+                    </xsl:for-each>
+
+                  </td>
+                </tr>
+              </xsl:if>
+              <xsl:if test="atom:category">
+                <tr>
+                  <td>Categories:</td>
+                  <td>
+                    <xsl:for-each select="atom:category">
+                      <xsl:if test="position() != 1">, </xsl:if>
+                      <xsl:value-of select="current()/@term" />
+                    </xsl:for-each>
+                  </td>
+                </tr>
+              </xsl:if>
+              <xsl:if test="atom:rights">
+                <tr>
+                  <td>Copyright:</td>
+                  <td>
+                    <xsl:value-of select="atom:rights" />
                   </td>
                 </tr>
               </xsl:if>
@@ -372,40 +373,59 @@
           </table>
         </div>
 
-        <div class="rss-item-wrapper">
-          <xsl:for-each select="/rss/channel/item">
-            <div class="rss-item">
-              <div class="rss-header">
-                <div class="rss-item-title">
-                  <xsl:value-of select="title" />
+        <div class="atom-item-wrapper">
+          <xsl:for-each select="atom:entry">
+            <div class="atom-item">
+              <div class="atom-header">
+                <div class="atom-item-title">
+                  <xsl:value-of select="atom:title" />
                 </div>
-                <div class="rss-item-info">
-                  <xsl:if test="author">
+                <div class="atom-item-info">
+                  <xsl:if test="atom:author">
                     <span>
                       <b>Author: </b>
-                      <xsl:value-of select="author" />
-                    </span>
-                  </xsl:if>
-                  <xsl:if test="category">
-                    <span>
-                      <b>Catetory: </b>
-                      <xsl:for-each select="category">
+                      <xsl:for-each select="atom:author">
                         <xsl:if test="position() != 1">, </xsl:if>
-                        <xsl:value-of select="current()" />
+                        <xsl:value-of select="current()/atom:name" />
                       </xsl:for-each>
                     </span>
                   </xsl:if>
-                  <span>
-                    <b>Date: </b>
-                    <xsl:value-of select="substring-before(pubDate,' GMT')" />
-                  </span>
+                  <xsl:if test="atom:contributor">
+                    <span>
+                      <b>Contributor: </b>
+                      <xsl:for-each select="atom:contributor">
+                        <xsl:if test="position() != 1">, </xsl:if>
+                        <xsl:value-of select="current()/atom:name" />
+                      </xsl:for-each>
+                    </span>
+                  </xsl:if>
+                  <xsl:if test="atom:published">
+                    <span>
+                      <b>Date: </b>
+                      <xsl:value-of select="concat(substring(atom:updated,0,11),concat(' ', substring(atom:updated,12,5)))" />
+                    </span>
+                  </xsl:if>
+                  <xsl:if test="atom:updated">
+                    <span>
+                      <b>Updated time: </b>
+                      <xsl:value-of select="concat(substring(atom:updated,0,11),concat(' ', substring(atom:updated,12,5)))" />
+                    </span>
+                  </xsl:if>
                 </div>
               </div>
-              <div class="rss-body">
-                <xsl:value-of select="*[name()='content:encoded']" disable-output-escaping="yes" />
+              <div class="atom-body">
+                <xsl:value-of select="atom:summary" disable-output-escaping="yes" />
               </div>
-              <div class="rss-footer">
-                <a href="{link}" target="_blank">See Details</a>
+              <div class="atom-footer">
+                <a href="{atom:link/@href}" target="_blank">
+                  See Details
+                </a>
+                <span>
+                  <xsl:if test="atom:rights">
+                    <b>Copyright: </b>
+                    <xsl:value-of select="atom:rights" />
+                  </xsl:if>
+                </span>
               </div>
             </div>
           </xsl:for-each>
