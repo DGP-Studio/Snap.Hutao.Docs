@@ -67,12 +67,12 @@ theme="auto">
 
 若点击获取更新后胡桃仍然没有获取到更新，则可以进入`Snap Hutao`的[商店详情页面]((https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52))，等待信息加载完成来获取更新
 
-@tab 使用 winget 下载
+@tab 使用 winget 更新
 - 启动 PowerShell
 - 执行命令 `winget upgrade "Snap Hutao"`
 - 根据提示允许安装
 
-@tab 从 GitHub 下载
+@tab 从 GitHub 更新
 - 访问胡桃工具箱[最新发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/)
 - 下载 MSIX 应用包
 - 直接运行 MSIX 应用包以执行安装
