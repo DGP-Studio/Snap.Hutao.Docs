@@ -6,7 +6,6 @@ on:
     branches:
       # make sure this is the branch you are using
       - 'main'
-      - '**-update'
 
 jobs:
   deploy-gh-pages:
