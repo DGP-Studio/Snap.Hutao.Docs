@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png",
+  logo: "https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png",
 
   repo: "DGP-Studio/Snap.Hutao",
 
@@ -162,6 +162,26 @@ export default hopeTheme({
           {
             src: "/pwa-icon/chrome-192.png",
             sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/pwa-icon/chrome-144.png",
+            sizes: "144x144",
+            type: "image/png",
+          },
+          {
+            src: "/pwa-icon/chrome-72.png",
+            sizes: "72x72",
+            type: "image/png",
+          },
+          {
+            src: "/pwa-icon/chrome-96.png",
+            sizes: "96x96",
+            type: "image/png",
+          },
+          {
+            src: "/pwa-icon/chrome-48.png",
+            sizes: "48x48",
             type: "image/png",
           },
         ]
