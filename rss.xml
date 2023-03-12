@@ -6,14 +6,14 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 11 Mar 2023 03:07:20 GMT</pubDate>
-    <lastBuildDate>Sat, 11 Mar 2023 03:07:20 GMT</lastBuildDate>
+    <pubDate>Sun, 12 Mar 2023 00:38:31 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Mar 2023 00:38:31 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
     <image>
       <title>胡桃工具箱</title>
-      <url>https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png</url>
+      <url>https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png</url>
       <link>https://hut.ao/</link>
     </image>
     <category>FAQ</category>
@@ -3039,15 +3039,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h2> 外观</h2>
 <ul>
-<li>
-<p>语言</p>
-<ul>
-<li>默认情况下胡桃会跟随系统设置来显示对应的语言</li>
-<li>使用该功能你可以强制将胡桃的显示语言设置为指定的语言</li>
-</ul>
-</li>
-<li>
-<p>背景材质</p>
+<li>背景材质
 <ul>
 <li>在此选项中，您可以更改背景的材质为：
 <ul>
@@ -3082,7 +3074,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
-<h2> 储存空间</h2>
+<h2> 测试功能</h2>
 <ul>
 <li>
 <p>打开<code>数据</code>文件夹</p>
@@ -3095,18 +3087,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li>在此选项中点击"打开"按钮，即可打开包含"图片缓存"的文件夹</li>
 <li>在此文件夹内，存储了<code>胡桃工具箱</code>在运行期间产生的<code>图片缓存</code></li>
-</ul>
-</li>
-<li>
-<p>更换数据目录</p>
-<ul>
-<li>此选项将允许用户将数据文件夹设置到其它目录</li>
-</ul>
-</li>
-<li>
-<p>重置图片资源</p>
-<ul>
-<li>此选项允许用户在有大量图片下载失败的情况下重置缓存记录，执行该操作后软件会重启并重新下载图片缓存资源</li>
 </ul>
 </li>
 </ul>
@@ -3128,6 +3108,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h2> 危险功能</h2>
 <ul>
+<li>删除所有计划任务
+<ul>
+<li>当你需要卸载胡桃工具箱时，可以使用此功能以删除胡桃工具箱的定时数据拉取任务</li>
+</ul>
+</li>
 <li>删除所有用户
 <ul>
 <li>此功能的作用是删除用户表的所有记录</li>
@@ -3694,7 +3679,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/features/achievements.html</link>
       <guid>https://hut.ao/features/achievements.html</guid>
       <source url="https://hut.ao/rss.xml">成就管理</source>
-      <description>胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态 在第一次使用时，你需要根据提示点击创建新存档按钮以创造一个成就存档并为其命名; 创建第一个资料页后，你可以点击右上角的创建新存档来继续为更多的帐号创建成就记录档案; 成就导入 胡桃工具箱使用统一可交换成就标准 (https://www.snapgenshin.com/developme...</description>
+      <description>胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态 在第一次使用时，你需要根据提示点击创建新存档按钮以创造一个成就存档并为其命名; 创建第一个资料页后，你可以点击右上角的创建新存档来继续为更多的帐号创建成就记录档案; 视频指南 对于大多数人而言，遵循本页文档会有更高的效率。 但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
@@ -3705,6 +3690,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在第一次使用时，你需要根据提示点击<code>创建新存档</code>按钮以创造一个成就存档并为其命名</li>
 <li>创建第一个资料页后，你可以点击右上角的<code>创建新存档</code>来继续为更多的帐号创建成就记录档案</li>
 </ul>
+<h2> 视频指南</h2>
+<p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
+<p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
+<details class="hint-container details"><summary>胡桃工具箱视频指南 6 - 成就管理篇</summary>
+</details>
 <h2> 成就导入</h2>
 <ul>
 <li>胡桃工具箱使用<a href="https://www.snapgenshin.com/development/UIAF.html" target="_blank" rel="noopener noreferrer">统一可交换成就标准</a>数据标准来储存用户的成就数据
