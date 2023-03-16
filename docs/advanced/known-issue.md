@@ -57,4 +57,4 @@ category: [FAQ]
 ## #5 服务器转换卡死并持续写入的问题
 相关 Issue：[issues/566](https://github.com/DGP-Studio/Snap.Hutao/issues/566)
 
-该问题会在后续版本中修复
+该问题已在[1.5.4](/statements/update-log.html#1-5-4) 版本修复，请及时更新
