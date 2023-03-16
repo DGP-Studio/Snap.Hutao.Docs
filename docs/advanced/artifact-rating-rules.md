@@ -1,6 +1,7 @@
 ---
 category: [FAQ]
 icon: read
+order: 5
 ---
 
 # 圣遗物评分机制

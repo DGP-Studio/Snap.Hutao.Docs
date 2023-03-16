@@ -1,6 +1,7 @@
 ---
 category: [FAQ]
 icon: delete
+order: 8
 ---
 # 卸载胡桃工具箱
 

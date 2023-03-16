@@ -2,6 +2,7 @@
 headerDepth: 0
 category: [公告]
 icon: debug
+order: 2
 ---
 
 # 提交BUG报告

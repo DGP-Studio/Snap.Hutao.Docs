@@ -2,6 +2,7 @@
 headerDepth: 2
 icon: debug
 category: [FAQ]
+order: 2
 ---
 # 常见的程序异常
 该文档包含由**用户端错误**造成的问题
