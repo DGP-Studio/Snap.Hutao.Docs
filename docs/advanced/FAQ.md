@@ -29,7 +29,7 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 - 在桌面点击右键，选择`新建` -> `快捷方式`
 - 在`请键入对象的位置`中直接输入:
 ```PowerShell ts:no-line-numbers
-  powershell -WindowStyle Hidden -Command "Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb runas
+  powershell -Command "Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb runas
 ```
 - 将快捷方式命名为你需要的名称，比如`Snap Hutao`
 - 确认创建，此时你会在桌面得到一个有 PowerShell 图标的快捷方式
