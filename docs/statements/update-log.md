@@ -1,6 +1,7 @@
 ---
 category: [公告]
 icon: update
+order: 1
 ---
 # 更新日志
 ## 1.5.4 <Badge text="最新版" type="tip" />

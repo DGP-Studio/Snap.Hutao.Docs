@@ -4,6 +4,7 @@ category: [公告]
 comment: false
 editLink: false
 icon: license
+order: 4
 ---
 
 # 用户使用协议和法律声明   

@@ -1,6 +1,7 @@
 ---
 headerDepth: 0
 category: [功能,教程]
+order: 11
 ---
 
 # 软件设置
