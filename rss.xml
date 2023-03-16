@@ -6,8 +6,8 @@
     <link>https://hut.ao/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 16 Mar 2023 04:11:32 GMT</pubDate>
-    <lastBuildDate>Thu, 16 Mar 2023 04:11:32 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Mar 2023 08:35:57 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Mar 2023 08:35:57 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -2261,7 +2261,7 @@
 </ul>
 <h2> #5 服务器转换卡死并持续写入的问题</h2>
 <p>相关 Issue：<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/566" target="_blank" rel="noopener noreferrer">issues/566</a></p>
-<p>该问题会在后续版本中修复</p>
+<p>该问题已在<a href="/statements/update-log.html#1-5-4" target="blank">1.5.4</a> 版本修复，请及时更新</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2375,11 +2375,38 @@
       <link>https://hut.ao/statements/update-log.html</link>
       <guid>https://hut.ao/statements/update-log.html</guid>
       <source url="https://hut.ao/rss.xml">更新日志</source>
-      <description>1.5.1 优化; 将JumpList菜单更换为JumpTask，即使用户关闭最近文件功能也可以使用快速启动菜单了; 增加优先度高于系统设置的语言设置选项; 增加贡献翻译入口; 增加重置图片资源的设置选项; 添加; 怪物 WIKI; 韩语翻译; 国际化元数据; 1.4.15 新增; 重置图片资源的入口; 刷新 Cookie 方法; 修复; 修复了#2 ...</description>
+      <description>1.5.4 新增; 游戏启动器; 游戏资源下载; 原神游戏进程多开; 允许用户在多显示器情况下选择指定显示器启动游戏; 使用了全新的图标（更可爱的胡桃）; 修复; 游戏客户端转换中卡死并无限写入的问题; 优化; 默认的语言选择方式; 允许直接复制设备 ID; 设置页面美化; 1.5.1 优化; 将JumpList菜单更换为JumpTask，即使用户关闭...</description>
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.5.1 </h2>
+<h2> 1.5.4 </h2>
+<ul>
+<li>新增
+<ul>
+<li>游戏启动器
+<ul>
+<li>游戏资源下载</li>
+<li>原神游戏进程多开</li>
+<li>允许用户在多显示器情况下选择指定显示器启动游戏</li>
+</ul>
+</li>
+<li>使用了全新的图标（更可爱的胡桃）</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>游戏客户端转换中卡死并无限写入的问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>默认的语言选择方式</li>
+<li>允许直接复制设备 ID</li>
+<li>设置页面美化</li>
+</ul>
+</li>
+</ul>
+<h2> 1.5.1</h2>
 <ul>
 <li>优化
 <ul>
@@ -2609,11 +2636,11 @@
 <li><a href="https://go.hut.ao/qun2" target="_blank" rel="noopener noreferrer">Snap 二群</a></li>
 <li><a href="https://go.hut.ao/qun3" target="_blank" rel="noopener noreferrer">Snap 三群</a></li>
 <li><a href="https://go.hut.ao/qun4" target="_blank" rel="noopener noreferrer">Snap 四群</a></li>
-<li>[Snap 开发交流群]
+<li><em>Snap 开发交流群</em>
 <ul>
 <li>广泛的技术交流群，并非胡桃工具箱开发群</li>
 <li>开发群对申请者的技术水平有一定要求</li>
-<li>如果你有兴趣可以从<a href="https://dev-group.hut.ao" target="_blank" rel="noopener noreferrer">https://dev-group.hut.ao</a>加入开发者交流群</li>
+<li>如果你有兴趣可以从<a href="https://dev-group.hut.ao" target="_blank" rel="noopener noreferrer">dev-group.hut.ao</a>加入开发者交流群</li>
 </ul>
 </li>
 </ul>
@@ -3011,7 +3038,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/features/hutao-settings.html</link>
       <guid>https://hut.ao/features/hutao-settings.html</guid>
       <source url="https://hut.ao/rss.xml">软件设置</source>
-      <description>以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序; 关于 胡桃 胡桃工具箱的图标：您可以在胡桃的首页 (https://hut.ao/)查看它的原图; 该图像作品的作者为LOFTER@夙夜 (https://dieqi32894.lofter.com/post/4b58ce16_2b6b2d365)并由DGP-Studio (https://...</description>
+      <description>以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序; 关于 胡桃 胡桃工具箱的图标：您可以在胡桃的首页 (/)查看它的原图; 该图像作品的作者为画画的芦苇 (https://space.bilibili.com/274422134)图标的绘制过程; DGP-Studio (https://github.com/DGP-Studio)已被所有者授...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Sun, 27 Nov 2022 07:34:56 GMT</pubDate>
@@ -3024,9 +3051,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </div>
 <h2> 关于 胡桃</h2>
 <ul>
-<li>胡桃工具箱的图标：您可以在胡桃的<a href="https://hut.ao/" target="_blank" rel="noopener noreferrer">首页</a>查看它的原图
+<li>胡桃工具箱的图标：您可以在胡桃的<a href="/" target="blank">首页</a>查看它的原图
 <ul>
-<li>该图像作品的作者为<a href="https://dieqi32894.lofter.com/post/4b58ce16_2b6b2d365" target="_blank" rel="noopener noreferrer">LOFTER@夙夜</a>并由<a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a>后期处理后，授权使用</li>
+<li>该图像作品的作者为<a href="https://space.bilibili.com/274422134" target="_blank" rel="noopener noreferrer">画画的芦苇</a><details class="hint-container details"><summary>图标的绘制过程</summary>
+</details>
+</li>
+<li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a>已被所有者授权使用</li>
 </ul>
 </li>
 <li>胡桃的版本号</li>
@@ -3400,7 +3430,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 </li>
-<li>在设置完毕启动游戏所需的附加选项后，点击右下角的<code>启动游戏</code>按钮即可
+<li>在设置完毕启动游戏所需的附加选项后，点击右上角的<code>启动游戏</code>按钮即可
 <ul>
 <li>附加选项请看本页下方的功能文档</li>
 </ul>
@@ -3426,7 +3456,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>目前可选的服务器为<code>官方服|天空岛</code>、<code>渠道服|世界树</code>和<code>国际服</code></li>
 </ul>
 </li>
-<li>点击右下角的<code>启动游戏</code>按钮，胡桃会自动下载并应用对应服务器的文件并启动游戏</li>
+<li>点击右上角的<code>启动游戏</code>按钮，胡桃会自动下载并应用对应服务器的文件并启动游戏</li>
 </ul>
 <h2> 账号保存</h2>
 <div class="hint-container tip">
@@ -3492,20 +3522,27 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </div>
 <ul>
 <li>在主界面点击左侧菜单栏进入<code>启动游戏</code>标签</li>
-<li>在右侧的<code>外观</code>功能中，有四个选项：
+<li>在<code>外观</code>功能中，有五个选项：
 <ul>
 <li><strong>全屏</strong>，即选择启动游戏后的游戏界面是否设置为全屏</li>
 <li><strong>无边框</strong>，即选择启动游戏后的游戏界面是否设置为无边框窗口</li>
 <li><strong>宽度</strong>，即选择启动游戏后的游戏界面的宽度，例如<code>1920</code></li>
 <li><strong>高度</strong>，即选择启动游戏后的游戏界面的高度，例如<code>1080</code></li>
+<li><strong>显示器</strong>，允许多显示器用户选择指定的显示器来运行游戏</li>
 </ul>
 </li>
 </ul>
-<h2> 解锁帧率上限</h2>
+<h2> 高级功能</h2>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
 <ul>
-<li>请注意：此功能已明确标注为 <code>Dangerous Feature</code>，即<strong>危险功能</strong>，选择启用即代表您选择自行承担任意风险</li>
+<li>请注意：高级功能已明确标注为 <code>Dangerous Feature</code>，即<strong>危险功能</strong>，选择启用即代表您选择自行承担任意风险</li>
+</ul>
+</div>
+<h3> 解锁帧率上限</h3>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<ul>
 <li>目前的版本，设置中无论是否超过60帧率的原神(含移动端)均会偶尔出现掉帧、卡顿甚至无响应、闪退等情况，这是原神在本版本中出现的普遍问题，并不是<a href="https://github.com/DGP-Studio/Unlocker" target="_blank" rel="noopener noreferrer">Unlocker项目</a>的问题</li>
 <li><a href="https://github.com/DGP-Studio/Unlocker" target="_blank" rel="noopener noreferrer">Unlocker项目</a>仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中<code>120帧率</code>等设置无异，但您仍应谨慎使用并自行阅读<a href="https://docs.qq.com/doc/p/223a4e1f7241891e1208476a11927397549e9ea8" target="_blank" rel="noopener noreferrer">用户协议</a></li>
 </ul>
@@ -3518,10 +3555,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>在主界面点击左侧菜单栏进入<code>启动游戏</code>标签</p>
 </li>
 <li>
-<p>在最下方可见 <code>Unlock frame rate limit</code> 选项</p>
+<p>在最下方可见 <code>解锁帧率限制</code> 选项</p>
 <ul>
-<li>在右侧点击<code>开启或关闭</code>按钮，所显示的 <code>Disable</code> 或 <code>Enable</code> 分别代表<code>已禁用</code>或<code>已启用</code>该功能</li>
-<li>在下方的 <code>Set frame rate</code> 选项中，可自由拖动拉杆，调整到您需要设置的最高帧率上限</li>
+<li>在右侧点击<code>开启或关闭</code>按钮，所显示的 <code>禁用</code> 或 <code>启用</code> 分别代表<code>已禁用</code>或<code>已启用</code>该功能</li>
+<li>在下方的 <code>设置帧率上限</code> 选项中，可自由拖动拉杆，调整到您需要设置的最高帧率上限</li>
 </ul>
 </li>
 <li>
@@ -3534,6 +3571,20 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
+<h3> 游戏客户端多开</h3>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>游戏客户端多开是一个远比解锁帧率上限还危险的功能，你应当在审阅代码后自行判断是否使用该功能。</p>
+<p>使用该功能会导致原神反作弊功能加载失败，并导致原神客户端上报该情况。</p>
+</div>
+<ol>
+<li>使用<code>管理员模式</code>启动胡桃</li>
+<li>在主界面点击左侧菜单栏进入<code>启动游戏</code>标签</li>
+<li>在最下方启用 <code>多客户端</code> 选项</li>
+<li>点击右上角的<code>启动游戏</code></li>
+<li>等待12秒后再进门
+重复步骤4和步骤5以开启下一个客户端</li>
+</ol>
 ]]></content:encoded>
     </item>
     <item>
@@ -3950,12 +4001,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>以下新功能计划被增加到胡桃工具箱中</p>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 祈愿云端同步</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 国际化支持</label>
-<ul>
-<li>等待微软修复上游问题</li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 国际服支持</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> <a href="/i18n.html" target="blank">国际化支持</a></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 国际服支持</label>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 游戏启动器</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 服务器切换</label></li>
