@@ -21,7 +21,7 @@ order: 2
   - Check if the document already answered your issue
     - Make sure you are in latest version
     - You can check FAQ document in the sidebar
-      - [FAQ](/advanced/FAQ.md)
+      - [FAQ](../advanced/FAQ.md)
 
   - Open an Issue <Badge text="推荐" type="tip" />
     - [github.com/DGP-Studio/Snap.Hutao/issues/new/choose](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)
