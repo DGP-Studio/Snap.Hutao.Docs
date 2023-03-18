@@ -6,7 +6,7 @@ icon: license
 order: 3
 ---
 
-# 用户数据和隐私权益
+# User Data and Privacy Equity
 胡桃工具箱充分尊重用户的隐私，目前我们会按下方的说明使用用户的数据：
 
 - 使用胡桃后，在 **数据目录** 中以数据库文件的形式
