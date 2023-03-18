@@ -3,6 +3,7 @@ headerDepth: 2
 icon: tool
 category:
   - FAQ
+order: 3
 ---
 
 # 已知问题
@@ -42,6 +43,7 @@ category:
   - 将原神截图目录中的服务器切换缓存目录删除
 
 ## #3 任务栏右键菜单中没有快速启动游戏的入口
+> 该问题已于 [1.5.1](/statements/update-log.html#1-5-1) 版本修复，请及时更新
 - 胡桃使用 Windows 提供的 `JumpPath` 接口来提供快速启动游戏菜单
   - 该接口需要用户在`系统设置 -> 个性化 -> 开始` 中启用`在“开始”菜单或任务栏的跳转列表中以及资源管理器的“快速使用”中显示最近打开的项` （该设置系统默认开启）
 - 在下一版本，我们会使用 `JumpTask` 接口来代替 `JumpPath` 接口，用户将不再需要上述设置选项开启
@@ -51,3 +53,8 @@ category:
 
 - 当用户系统版本低于 `Windows Build 19045`（即 Windows 10 22H2 版本）时，可能无法通过管理员模式启动胡桃工具箱
   - 该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本
+
+## #5 服务器转换卡死并持续写入的问题
+相关 Issue：[issues/566](https://github.com/DGP-Studio/Snap.Hutao/issues/566)
+
+该问题已在[1.5.4](/statements/update-log.html#1-5-4) 版本修复，请及时更新

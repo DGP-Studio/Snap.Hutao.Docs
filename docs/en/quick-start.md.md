@@ -10,7 +10,7 @@ category:
 
 ::: tip
 If you download and use **Snap Hutao**，you are agree to our[ terms of service](/statements/tos.md)
-:::  
+:::    
 @include(star-request.md)
 
 ## Video Tutorial
@@ -28,8 +28,11 @@ However, if you are not familiar with the operation mentioned below, you can com
 | Optional Components     | WebView2 Runtime                       |
 
 
-## Installation
+## Download Snap Hutao
+**Whatever installation method you used, package source and registration are always handled by Microsoft Store.**
 
+::: tabs
+@tab Microsoft Store
 <ms-store-badge
 productid="9PH4NXJ2JN52"
 theme="auto">
@@ -37,12 +40,50 @@ theme="auto">
 
 Microsoft Store Link：[Snap Hutao](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
 
-On Windows 10 and Windows 11, you can click directly on the button above to download the Snap Hutao
+On Windows 10 and Windows 11 you can click the button above to download Snap Hutao
 
-## 安装 WebView2 运行时
 
-WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。作为可选组件，WebView2 运行时不是强制组件，但安装后你会更容易地使用部分功能。
+@tab winget
+- Launch PowerShell
+- Execute command `winget install "Snap Hutao"`
+- Follow the prompt to allow the installation
 
-在[微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/)的底部，你可以找到`常青独立安装程序`，选择`x64`下载并根据提示安装即可
+@tab GitHub
+- Visit the [latest release page](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/) of Snap Hutao
+- Download MSIX Package
+- Run the MSIX package directly to perform installation
 
-[^first]: The LTSC and LTSB systems are not in the support list because they do not contain Microsoft Store.Windows 10 Build 19041 亦可以安装，但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理
+:::
+### Upgrade to MS Store Version from Sideload Versions
+- Uninstall the sideload version with our [uninstallation instruction document](/advanced/uninstall.html)
+  - You data will not lose as long as you don't delete data directory manually
+- Follow the method above to install the Microsoft Store version application
+
+## Update Snap Hutao
+**You can use any of the update methods, whatever method you used when you installed Snap Hutao. They don't need to be consistent, as Microsoft Store is the only source of packages.** ::: tabs  
+@tab Microsoft
+- Launch Microsoft Store
+- Click on Library in the bottom left to see all apps you have installed
+- Click `Get updates` on the top right and your application will be updated
+
+If you still don't receive the update, you may enter the Snap Hutao [detail page]((https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)) in Microsoft Store, to allow the store to fetch the latest metadata.
+
+@tab winget
+- Launch PowerShell
+- Execute command `winget upgrade "Snap Hutao"`
+- Follow the prompt to allow the upgrade
+
+@tab GitHub
+- Visit the [latest release page](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/) of Snap Hutao
+- Download MSIX Package
+- Run the MSIX package directly to perform upgrade
+
+:::
+
+## Installing WebView2 Runtime
+
+WebView2 Runtime is provided by Microsoft, which enables a built-in browser at a low resource cost inside the program.As an optional component, WebView2 is not a mandatory component, but it will make some Snap Hutao's features easier.
+
+At the bottom of the[Microsoft official page](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/), you can find`Evergreen Standalone Installer`, choose`x64`download and install as prompted
+
+[^first]: As LTSC and LTSB Windows versions do not contain Microsoft Store and some other necessary dependencies, they are not supported.Windows 10 Build 19041 is allowed to install Snap Hutao, but some features have known issues caused by Windows Os Kernal, those issues won't be fixed.

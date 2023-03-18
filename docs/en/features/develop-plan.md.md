@@ -3,6 +3,7 @@ headerDepth: 0
 category:
   - 功能
   - 教程
+order: 7
 ---
 
 # 养成计划

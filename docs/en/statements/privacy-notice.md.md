@@ -1,8 +1,9 @@
 ---
 headerDepth: 0
 category:
-  - 公告
+  - Announcement
 icon: license
+order: 3
 ---
 
 # 用户数据和隐私权益
