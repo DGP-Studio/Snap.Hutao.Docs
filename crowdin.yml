@@ -1,7 +1,5 @@
 files:
   - source: /docs/*.md
-    ignore:
-      - /docs/README.md
     translation: /docs/%two_letters_code%/%original_file_name%
   - source: /docs/features/*.md
     translation: /docs/%two_letters_code%/features/%original_file_name%
