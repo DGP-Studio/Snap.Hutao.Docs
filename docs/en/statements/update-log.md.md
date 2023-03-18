@@ -1,53 +1,53 @@
 ---
 category:
-  - 公告
+  - Announcement
 icon: update
 order: 1
 ---
 
-# 更新日志
+# Update Logs
 ## 1.5.4 <Badge text="最新版" type="tip" />
-- 新增
-  - 游戏启动器
-    - 游戏资源下载
-    - 原神游戏进程多开
-    - 允许用户在多显示器情况下选择指定显示器启动游戏
-  - 使用了全新的图标（更可爱的胡桃）
-- 修复
-  - 游戏客户端转换中卡死并无限写入的问题
-- 优化
-  - 默认的语言选择方式
-  - 允许直接复制设备 ID
-  - 设置页面美化
+- Add
+  - Game Launcher
+    - Game resource package download
+    - Allow multiple Genshin Impact process to run
+    - Allow users to select the specified monitor to start the game
+  - New icons have been used
+- Fix
+  - Issue caused unlimited file writing during server switch
+- Optimization
+  - Optimize default language selection
+  - Allow device ID be copied with button
+  - Setting page UI optimization
 
 ## 1.5.1
-- 优化
-  - 将`JumpList`菜单更换为`JumpTask`，即使用户关闭最近文件功能也可以使用快速启动菜单了
-  - 增加优先度高于系统设置的语言设置选项
-  - 增加贡献翻译入口
-  - 增加重置图片资源的设置选项
-- 添加
-  - 怪物 WIKI
-  - 韩语翻译
-  - 国际化元数据
+- Optimization
+  - Replace `JumpList` menus with `JumpTask`,
+  - Add option to allow user set language over system default setting
+  - Add translation contribution entry
+  - Add options to reset the image resource
+- Add
+  - Monster WIKI
+  - Korean translation
+  - Internationalized Metadata
 
 ## 1.4.15
-- 新增
-  - 重置图片资源的入口
-  - 刷新 Cookie 方法
-- 修复
-  - 修复了[#2 服务器切换导致31-4302报错](/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99)
-  - 修复了部分情况下程序内清除定时任务计划失败的情况
-- 优化
-  - 优化了养成计划界面 [#486](https://github.com/DGP-Studio/Snap.Hutao/issues/486)
-  - 完善英语和繁体中文翻译
-  - 在触发 Windows 长路径限制时增加提示
-  - 优化了定时任务的唤醒方式
+- New
+  - Static image reset method
+  - Cookie refresh
+- Fix
+  - Fix [#2 31-4302 caused by server switch](/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99)
+  - Fix the failure of clearing scheduled task in some specific situations
+- Optimization
+  - Optimize Dev Plan UI [#486](https://github.com/DGP-Studio/Snap.Hutao/issues/486)
+  - Optimize English and Traditional Chinese translations
+  - Add hints when Windows long path limits are triggered
+  - Optimize wake-up for scheduled tasks
 
 ## 1.4.14
-- 修复了养成计划无法添加的问题
-- 支持英语界面
-- 其他的问题修复
+- Fix issue that new dev plan cannot be add
+- Support English UI
+- Other minor bug fix
 
 ## 1.4.11
-- 商店初版
+- First version on Microsoft Store
