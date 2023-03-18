@@ -140,10 +140,11 @@ export default hopeTheme({
     },
     pwa: {
       favicon: "/favicon.ico",
-      cacheHTML: true,
+      cacheHTML: false,
       cachePic: true,
       appendBase: true,
       themeColor: '#f26d6d',
+      update: "hint",
       apple: {
         icon: "/favicon.ico",
         statusBarColor: "black",
