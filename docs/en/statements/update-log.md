@@ -6,7 +6,7 @@ order: 1
 ---
 
 # Update Logs
-## 1.5.4 <Badge text="最新版" type="tip" />
+## 1.5.4 <Badge text="latest" type="tip" />
 - Add
   - Game Launcher
     - Game resource package download

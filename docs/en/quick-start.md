@@ -16,7 +16,8 @@ If you download and use **Snap Hutao**，you are agree to our[ terms of service]
 ## Video Tutorial
 For most people, follow the instruction on this page is more effiency.
 
-However, if you are not familiar with the operation mentioned below, you can come back the follow the video tutorial. ::: details Snap Hutao Tutorial - Microsoft Store Installation
+However, if you are not familiar with the operation mentioned below, you can come back the follow the video tutorial.
+::: details Snap Hutao Tutorial - Microsoft Store Installation (zh-CN)
 <BiliBili bvid="BV13A411k7B4" />
 :::
 

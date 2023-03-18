@@ -10,9 +10,9 @@ actions:
     link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
     type: primary
   - text: 快速开始
-    link: /quick-start.md
+    link: quick-start.md
   - text: 文档
-    link: /features/
+    link: features/
   - text: 项目介绍
     link: project.md
 
@@ -80,12 +80,3 @@ features:
 copyright: false
 footer: MIT Licensed | Copyright © 2019-present Mr.Hope
 ---
-<iframe
-:src="$withBase('/markmap/zh.html')"
-width="100%"
-height="400"
-frameborder="0"
-scrolling="No"
-leftmargin="0"
-topmargin="0"
-/>

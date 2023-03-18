@@ -3,16 +3,16 @@ home: true
 icon: home
 title: Home
 heroImage: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png
-heroText: 胡桃工具箱
+heroText: Snap Hutao
 tagline: Multifunctional open-source Genshin Utility
 actions:
   - text: Download
     link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
     type: primary
   - text: Quick Start
-    link: /quick-start.md
+    link: quick-start.md
   - text: Document
-    link: /features/
+    link: features/
   - text: Project
     link: project.md
 
@@ -22,7 +22,7 @@ features:
     details: Snap.Hutao has more extensive data support and better client performance while inheriting all Snap.Genshin functionality
     link: /project.md
 
-  - title: 实时便笺
+  - title: DailyNote
     icon: /images/202301/live-stat-tracking-logo.png
     details: 不必再被手机 App 所束缚；在你的电脑就能直接获取米游社实时便笺信息并收到 Windows 原生通知提示
     link: /features/daily-notes.md
@@ -57,7 +57,7 @@ features:
     details: Check out the details of community's current Spiral Abyss teaming, weapon matching, and artifact set matching; share your own Spiral Abyss lineup configuration
     link: /features/hutao-api.md
 
-  - title: 属性统计
+  - title: My Characters
     icon: /images/202211/character-data-logo.png
     details: View detailed data about the player's character, including level, constellations, weapons, talents, artifact set, etc.; automatically calculate artifact set score
     link: /features/character-data.md
@@ -81,12 +81,3 @@ copyright: false
 footer: MIT Licensed | Copyright © 2019-present Mr.Hope
 
 ---
-<iframe
-:src="$withBase('/markmap/zh.html')"
-width="100%"
-height="400"
-frameborder="0"
-scrolling="No"
-leftmargin="0"
-topmargin="0"
->
