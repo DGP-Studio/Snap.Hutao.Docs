@@ -3,6 +3,7 @@ headerDepth: 2
 icon: debug
 category:
   - FAQ
+order: 2
 ---
 
 # 常见的程序异常
