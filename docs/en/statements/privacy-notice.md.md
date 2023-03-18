@@ -1,7 +1,7 @@
 ---
 headerDepth: 0
 category:
-  - 公告
+  - Announcement
 icon: license
 order: 3
 ---
