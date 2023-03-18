@@ -23,9 +23,9 @@ order: 8
     - **Method 4**:
         - Update to version later than `1.5.1` and open DailyNote feature
         - Uninstall Snap Hutao directly
-- 卸载软件
-    - 打开`开始菜单`
-    - 找到或搜索到`胡桃`
-    - 右键点击`胡桃`，并选择`卸载`
-- 清除数据文件夹（如需完全卸载）
-    - 打开并删除该文件夹 `%userprofile%/Documents/Hutao`
+- Uninstall Snap Hutao
+    - Open your start menu
+    - Find or search ` Snap Hutao`
+    - Right click on it and select `Uninstall` option
+- Clear data folder (if required to uninstall completely)
+    - Find and delete folder `%userprofile%/Documents/Hutao`
