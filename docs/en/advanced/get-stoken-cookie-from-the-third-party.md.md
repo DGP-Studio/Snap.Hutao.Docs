@@ -3,6 +3,7 @@ category:
   - FAQ
   - 第三方工具
 icon: read
+order: 6
 ---
 
 # 使用第三方工具获取有 Stoken 的 cookie
