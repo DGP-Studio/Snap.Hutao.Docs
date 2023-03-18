@@ -12,10 +12,10 @@ actions:
     type: primary
   - 
     text: Quick Start
-    link: /quick-start.md
+    link: quick-start.md
   - 
     text: Document
-    link: /features/
+    link: features/
   - 
     text: Project
     link: project.md
@@ -84,12 +84,3 @@ copyright: false
 footer: MIT Licensed | Copyright © 2019-present Mr.Hope
 ---
 
-<iframe
-:src="$withBase('/markmap/zh.html')"
-width="100%"
-height="400"
-frameborder="0"
-scrolling="No"
-leftmargin="0"
-topmargin="0"
-></p>
