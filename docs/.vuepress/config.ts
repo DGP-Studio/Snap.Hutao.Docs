@@ -4,6 +4,7 @@ import theme from "./theme.js";
 import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { redirectPlugin } from "vuepress-plugin-redirect";
 
 export default defineUserConfig({
   base: "/",
@@ -43,7 +44,7 @@ export default defineUserConfig({
             }
           }
         },
-        "en": {
+        "/en/": {
           placeholder: "Search documents",
           translations:{
             button:{
@@ -55,7 +56,15 @@ export default defineUserConfig({
     }),
     googleAnalyticsPlugin({
       id: "G-F3LFJCE3RM"
+    }),
+    redirectPlugin({
+      locale: true,
+      localeConfig: {
+        "/en/": ["en-US", "en-UK", "en"],
+        "/": ["zh-CN", "zh-TW", "zh"],
+      },
     })
+
   ],
 
   theme,
