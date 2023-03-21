@@ -4,6 +4,7 @@ import theme from "./theme.js";
 import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { redirectPlugin } from "vuepress-plugin-redirect";
 
 export default defineUserConfig({
   base: "/",
@@ -55,7 +56,14 @@ export default defineUserConfig({
     }),
     googleAnalyticsPlugin({
       id: "G-F3LFJCE3RM"
-    })
+    }),
+    redirectPlugin({
+      autoLocale: true,
+      localeConfig: {
+        "/en/": ["en-US", "en-UK", "en"],
+        "/zh/": ["zh-CN", "zh-TW", "zh"],
+      },
+    }),
   ],
 
   theme,
