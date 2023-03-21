@@ -17,7 +17,7 @@ export default defineUserConfig({
       ['script', {type: "module", src:"https://get.microsoft.com/badge/ms-store-badge.bundled.js"}],
   ],
   locales: {
-    "/": {
+    "/zh/": {
       lang: "zh-CN",
       title: "胡桃工具箱",
       description: "多功能的原神工具箱",
@@ -35,7 +35,7 @@ export default defineUserConfig({
       apiKey: "72d7a9a0f9f0466218ea19988886dce8",
       indexName: "hutao",
       locales: {
-        "/": {
+        "/zh/": {
           placeholder: "搜索文档",
           translations:{
             button:{

@@ -9,7 +9,7 @@ category:
 # Quick Start
 
 ::: tip
-If you download and use **Snap Hutao**，you are agree to our[ terms of service](/statements/tos.md)
+If you download and use **Snap Hutao**，you are agree to our[ terms of service](statements/tos.md)
 :::    
 @include(star-request.md)
 

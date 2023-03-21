@@ -6,7 +6,7 @@ category: [功能,教程]
 # 快速开始
    
 ::: tip
-若您已下载或使用**胡桃工具箱**，即表示你已阅读并完全同意[用户使用协议与法律声明](/statements/tos.md)
+若您已下载或使用**胡桃工具箱**，即表示你已阅读并完全同意[用户使用协议与法律声明](statements/tos.md)
 :::
 @include(star-request.md)
 
@@ -53,7 +53,7 @@ theme="auto">
 
 :::
 ### 从侧载版升级至商店版
-- 按照文档提供的[卸载方法](/advanced/uninstall.html)卸载侧载版应用
+- 按照文档提供的[卸载方法](advanced/uninstall.html)卸载侧载版应用
   - 只要不手动删除数据目录，你的数据不会受到影响
 - 按照上述方法全新安装商店版应用
 
