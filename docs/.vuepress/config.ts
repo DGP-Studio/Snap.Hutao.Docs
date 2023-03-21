@@ -65,7 +65,7 @@ export default defineUserConfig({
   bundler: viteBundler({
     viteOptions: {
       build:{
-        chunkSizeWarningLimit: 3000
+        chunkSizeWarningLimit: 1500
       }
     },
     vuePluginOptions: {},
