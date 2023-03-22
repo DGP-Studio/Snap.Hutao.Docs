@@ -58,11 +58,13 @@ export default defineUserConfig({
       id: "G-F3LFJCE3RM"
     }),
     redirectPlugin({
+      defaultLocale: "/en/",
+      defaultBehavior: "defaultLocale",
       autoLocale: true,
       localeConfig: {
         "/en/": ["en-US", "en-UK", "en"],
         "/zh/": ["zh-CN", "zh-TW", "zh"],
-      },
+      }
     }),
   ],
 
