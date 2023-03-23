@@ -78,6 +78,6 @@ features:
     link: /features/develop-plan.md
 
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: MIT Licensed | Copyright © 2019-present Mr.Hope | Powered By <a href="https://www.netlify.com/">Netlify</a>
 
 ---
