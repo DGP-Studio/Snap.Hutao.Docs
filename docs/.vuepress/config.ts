@@ -44,7 +44,7 @@ export default defineUserConfig({
             }
           }
         },
-        "en": {
+        "/en/": {
           placeholder: "Search documents",
           translations:{
             button:{
