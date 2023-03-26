@@ -4,6 +4,7 @@ category:
   - 功能
   - 教程
 order: 7
+redirectFrom: /features/developer-plan.html
 ---
 
 # 养成计划
