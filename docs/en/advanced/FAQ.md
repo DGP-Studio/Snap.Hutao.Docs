@@ -4,6 +4,7 @@ icon: ask
 category:
   - FAQ
 order: 1
+redirectFrom: /advanced/FAQ.html
 ---
 
 # 常见问题
