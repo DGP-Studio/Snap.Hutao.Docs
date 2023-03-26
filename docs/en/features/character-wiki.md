@@ -4,6 +4,7 @@ category:
   - 功能
   - 教程
 order: 8
+redirectFrom: /features/character-wiki.html
 ---
 
 # 角色资料
