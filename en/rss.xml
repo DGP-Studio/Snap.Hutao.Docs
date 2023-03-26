@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Thu, 23 Mar 2023 00:57:43 GMT</pubDate>
-    <lastBuildDate>Thu, 23 Mar 2023 00:57:43 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Mar 2023 04:41:05 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Mar 2023 04:41:05 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by DGP-Studio</copyright>
@@ -837,44 +837,6 @@
       <enclosure url="https://badges.crowdin.net/snap-hutao/localized.svg" type="image/svg+xml"/>
     </item>
     <item>
-      <title>胡桃工具箱</title>
-      <link>https://hut.ao/en/markmap.html</link>
-      <guid>https://hut.ao/en/markmap.html</guid>
-      <source url="https://hut.ao/en/rss.xml">胡桃工具箱</source>
-      <description>米游社功能 活动公告; 帐号登录; 实时便笺; 深境螺旋; 我的深渊记录; 胡桃数据库 - 深渊数据; 游戏性增强 高级启动器; 祈愿记录; 成就管理; 养成计划 养成计算器; 属性统计; 角色 Wiki; 武器 Wiki;</description>
-      <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 胡桃工具箱</h1>
-<h2> 米游社功能</h2>
-<ul>
-<li>活动公告</li>
-<li>帐号登录</li>
-<li>实时便笺</li>
-<li>深境螺旋
-<ul>
-<li>我的深渊记录</li>
-<li>胡桃数据库 - 深渊数据</li>
-</ul>
-</li>
-</ul>
-<h2> 游戏性增强</h2>
-<ul>
-<li>高级启动器</li>
-<li>祈愿记录</li>
-<li>成就管理</li>
-</ul>
-<h2> 养成计划</h2>
-<ul>
-<li>养成计算器
-<ul>
-<li>属性统计</li>
-<li>角色 Wiki</li>
-<li>武器 Wiki</li>
-</ul>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>属性统计</title>
       <link>https://hut.ao/en/features/character-data.html</link>
       <guid>https://hut.ao/en/features/character-data.html</guid>
@@ -1456,7 +1418,7 @@
 <li>您也可以通过点击<code>手动输入</code>按钮，直接输入米游社通行证 cookie 来添加您的帐号</li>
 <li>若您选择<code>手动输入</code>米游社 cookie，则该 cookie <strong>必须包含 <code>Stoken</code> 字段</strong>
 <ul>
-<li>手动获取含 <code>Stoken</code> 字段的 cookie 的方式可参考<a href="/advanced/get-stoken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 Stoken 的 cookie</a> 文档</li>
+<li>手动获取含 <code>Stoken</code> 字段的 cookie 的方式可参考<a href="/en/advanced/get-stoken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 Stoken 的 cookie</a> 文档</li>
 </ul>
 </li>
 </ul>
@@ -1733,7 +1695,7 @@
       <content:encoded><![CDATA[<h1> 祈愿记录</h1>
 <p>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
 <p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
-<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/advanced/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
+<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/en/advanced/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" alt="祈愿导出" loading="lazy"></p>
 <p><strong>如上图所示，从胡桃工具箱的祈愿导出功能，你可以清晰地获取到包括：抽卡总数、当前已垫抽数、不同稀有度获取的数量和百分比、 每次五星稀有度获取的抽数以及保底情况。</strong></p>
 <div class="hint-container note">
@@ -1865,14 +1827,14 @@
       <link>https://hut.ao/en/quick-start.html</link>
       <guid>https://hut.ao/en/quick-start.html</guid>
       <source url="https://hut.ao/en/rss.xml">Quick Start</source>
-      <description>If you download and use Snap Hutao，you are agree to our terms of service (/statements/tos.md) ::: include(star-request.md) Video Tutorial For most people, follow the instruction...</description>
+      <description>If you download and use Snap Hutao，you are agree to our terms of service (statements/tos.md) ::: include(star-request.md) Video Tutorial For most people, follow the instruction ...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Quick Start</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
-<p>If you download and use <strong>Snap Hutao</strong>，you are agree to our<a href="/statements/tos.html" target="blank"> terms of service</a></p>
+<p>If you download and use <strong>Snap Hutao</strong>，you are agree to our<a href="/en/statements/tos.html" target="blank"> terms of service</a></p>
 </div>
 <p><strong>If you believe Snap Hutao is a good project and helps you, you can support us by the following ways</strong></p>
 <ul>
