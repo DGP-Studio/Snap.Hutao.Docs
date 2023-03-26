@@ -4,6 +4,7 @@ import theme from "./theme.js";
 import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { redirectPlugin } from "vuepress-plugin-redirect";
 
 export default defineUserConfig({
   base: "/",
@@ -17,7 +18,7 @@ export default defineUserConfig({
       ['script', {type: "module", src:"https://get.microsoft.com/badge/ms-store-badge.bundled.js"}],
   ],
   locales: {
-    "/": {
+    "/zh/": {
       lang: "zh-CN",
       title: "胡桃工具箱",
       description: "多功能的原神工具箱",
@@ -35,7 +36,7 @@ export default defineUserConfig({
       apiKey: "72d7a9a0f9f0466218ea19988886dce8",
       indexName: "hutao",
       locales: {
-        "/": {
+        "/zh/": {
           placeholder: "搜索文档",
           translations:{
             button:{
@@ -43,7 +44,7 @@ export default defineUserConfig({
             }
           }
         },
-        "en": {
+        "/en/": {
           placeholder: "Search documents",
           translations:{
             button:{
@@ -55,7 +56,16 @@ export default defineUserConfig({
     }),
     googleAnalyticsPlugin({
       id: "G-F3LFJCE3RM"
-    })
+    }),
+    redirectPlugin({
+      defaultLocale: "/en/",
+      defaultBehavior: "defaultLocale",
+      autoLocale: true,
+      localeConfig: {
+        "/en/": ["en-US", "en-UK", "en"],
+        "/zh/": ["zh-CN", "zh-TW", "zh"],
+      }
+    }),
   ],
 
   theme,

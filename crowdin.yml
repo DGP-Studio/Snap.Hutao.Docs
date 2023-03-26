@@ -1,9 +1,9 @@
 files:
-  - source: /docs/*.md
+  - source: /docs/zh/*.md
     translation: /docs/%two_letters_code%/%original_file_name%
-  - source: /docs/features/*.md
+  - source: /docs/zh/features/*.md
     translation: /docs/%two_letters_code%/features/%original_file_name%
-  - source: /docs/statements/*.md
+  - source: /docs/zh/statements/*.md
     translation: /docs/%two_letters_code%/statements/%original_file_name%
-  - source: /docs/advanced/*.md
+  - source: /docs/zh/advanced/*.md
     translation: /docs/%two_letters_code%/advanced/%original_file_name%
