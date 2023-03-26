@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
-comment: statements and Announcements
+comment: false
 index: false
+redirectFrom: /statements/
 ---
 
 # 声明和公告
