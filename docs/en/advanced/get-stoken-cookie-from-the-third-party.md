@@ -4,6 +4,7 @@ category:
   - 第三方工具
 icon: read
 order: 6
+redirectFrom: /advanced/get-stoken-cookie-from-the-third-party.html
 ---
 
 # 使用第三方工具获取有 Stoken 的 cookie
