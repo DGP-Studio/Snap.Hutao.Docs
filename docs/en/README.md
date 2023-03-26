@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Home
-heroImage: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TOz2Cm1g6du5e8Hml_!!1797064093.png
+heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png
 heroText: Snap Hutao
 tagline: Multifunctional open-source Genshin Utility
 actions:
@@ -19,12 +19,12 @@ actions:
 features:
   - title: Better than Snap.Genshin
     icon: /images/202209/SGLogoUpgrade64.png
-    details: Snap.Hutao has more extensive data support and better client performance while inheriting all Snap.Genshin functionality
+    details: Snap.Hutao has more extensive data support and better client performance while inheriting all Snap Genshin functionality
     link: /project.md
 
   - title: DailyNote
     icon: /images/202301/live-stat-tracking-logo.png
-    details: 不必再被手机 App 所束缚；在你的电脑就能直接获取米游社实时便笺信息并收到 Windows 原生通知提示
+    details: Don't be trapped by Mobile Application. Receive your Genshin DailyNote notification on your desktop with native Windows notification
     link: /features/daily-notes.md
 
   - title: Spiral Abyss Record
@@ -39,7 +39,7 @@ features:
 
   - title: Wish History Record
     icon: /images/202209/IndexIconWish.png
-    details: 支持多UID切换，从游戏日志文件获取或从其它祈愿记录程序导出数据，永久保留玩家的祈愿记录
+    details: Capture your wish history from your game log, export them to your local device, with the support of unlimited account data archives
     link: /features/wish-export.md
 
   - title: Achievement
@@ -81,3 +81,22 @@ copyright: false
 footer: MIT Licensed | Copyright © 2019-present Mr.Hope | Powered By <a href="https://www.netlify.com/">Netlify</a>
 
 ---
+## Contribute
+
+Snap Hutao is a free software maintained by open-source community, and we hope more players with same 
+ambitions can join together to provide more features to the community.
+
+You can make contribution by the following ways:
+1. [Make Pull Requests to our code](https://github.com/DGP-Studio/Snap.Hutao/pulls)
+2. Improve localization by translating the project on Crowdin
+    1. [Snap Hutao](https://translate.hut.ao/)
+    2. [Snap Hutao Document](https://translate-docs.hut.ao/)
+3. [Update document](https://github.com/DGP-Studio/Snap.Hutao.Docs)
+
+@include(star-request.md)
+
+## Service Used
+Snap Hutao is currently using software from the following service providers.
+
+<a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" /> </a>
+<a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" /></a>
