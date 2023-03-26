@@ -4,6 +4,7 @@ icon: debug
 category:
   - FAQ
 order: 2
+redirectFrom: /advanced/exceptions.html
 ---
 
 # 常见的程序异常
