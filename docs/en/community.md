@@ -1,26 +1,27 @@
 ---
 headerDepth: 0
 category:
-  - Announcement
+  - 公告
+redirectFrom: /community.html
 ---
 
-# Join Community
+# 加入用户社区
 
-As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways.
+作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。
 
 @include(star-request.md)
-## GitHub Discussion
+## GitHub 讨论
 [Snap.Hutao Discussion](https://github.com/DGP-Studio/Snap.Hutao/discussions)
 
-## QQ Group (CN)
-- [Snap Group #1](https://go.hut.ao/qun1)
-- [Snap Group #2](https://go.hut.ao/qun2)
-- [Snap Group #3](https://go.hut.ao/qun3)
-- [Snap Group #4](https://go.hut.ao/qun4)
-- *Snap Developer Open Discussion Group*
-  - General tech talk, not Snap Hutao Project development group
-  - The Dev group requires some basic tech knowledge
-  - You can join via [https://dev-group.hut.ao](https://dev-group.hut.ao) if you are interested to join
+## QQ 群
+- [Snap 一群](https://go.hut.ao/qun1)
+- [Snap 二群](https://go.hut.ao/qun2)
+- [Snap 三群](https://go.hut.ao/qun3)
+- [Snap 四群](https://go.hut.ao/qun4)
+- *Snap 开发交流群*
+  - 广泛的技术交流群，并非胡桃工具箱开发群
+  - 开发群对申请者的技术水平有一定要求
+  - 如果你有兴趣可以从[dev-group.hut.ao](https://dev-group.hut.ao)加入开发者交流群
 
 ## Discord
-Invite link：[https://discord.gg/Yb8bykUKp](https://discord.gg/Yb8bykaUKp)
+邀请链接：[https://discord.gg/Yb8bykaUKp](https://discord.gg/Yb8bykaUKp)
