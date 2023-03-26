@@ -4,6 +4,7 @@ category:
   - 功能
   - 教程
 order: 9
+redirectFrom: /features/weapon-wiki.html
 ---
 
 # 武器资料
