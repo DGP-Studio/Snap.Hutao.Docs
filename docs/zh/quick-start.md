@@ -2,6 +2,7 @@
 pageClass: link-box
 externalLinkIcon: false
 category: [功能,教程]
+redirectFrom: /quick-start.html
 ---
 # 快速开始
    

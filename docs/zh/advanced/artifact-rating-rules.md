@@ -2,6 +2,7 @@
 category: [FAQ]
 icon: read
 order: 5
+redirectFrom: /advanced/artifact-rating-rules.html
 ---
 
 # 圣遗物评分机制

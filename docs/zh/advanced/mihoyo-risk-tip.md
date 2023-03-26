@@ -3,6 +3,7 @@ headerDepth: 0
 icon: warn
 category: [FAQ]
 order: 4
+redirectFrom: /advanced/mihoyo-risk-tip.html
 ---
 
 # 账号风险及异常提示

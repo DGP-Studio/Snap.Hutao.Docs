@@ -1,6 +1,7 @@
 ---
 headerDepth: 0
 category: [公告]
+redirectFrom: /project.html
 ---
 
 # 项目说明

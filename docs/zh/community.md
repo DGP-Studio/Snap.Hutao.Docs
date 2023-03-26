@@ -1,6 +1,7 @@
 ---
 headerDepth: 0
 category: [公告]
+redirectFrom: /community.html
 ---
 
 # 加入用户社区

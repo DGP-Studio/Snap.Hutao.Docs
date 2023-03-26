@@ -5,6 +5,7 @@ comment: false
 editLink: false
 icon: license
 order: 4
+redirectFrom: /statements/toshtml
 ---
 
 # 用户使用协议和法律声明   

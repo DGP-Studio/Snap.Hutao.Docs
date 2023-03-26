@@ -2,6 +2,7 @@
 headerDepth: 0
 category: [功能,教程]
 order: 4
+redirectFrom: /features/daily-notes.html
 ---
 
 # 实时便笺

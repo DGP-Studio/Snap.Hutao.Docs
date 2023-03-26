@@ -2,6 +2,7 @@
 headerDepth: 0
 category: [功能,教程]
 order: 3
+redirectFrom: /features/achievements.html
 ---
 
 # 成就管理 

@@ -2,6 +2,7 @@
 headerDepth: 0
 category: [功能,教程]
 order: 10
+redirectFrom: /features/mhy-account-switch.html
 ---
 
 # 米游社多帐号切换

@@ -3,6 +3,7 @@ headerDepth: 2
 icon: tool
 category: [FAQ]
 order: 3
+redirectFrom: /advanced/known-issue.html
 ---
 # 已知问题
 该文档包含由**程序错误**造成的问题

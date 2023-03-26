@@ -2,6 +2,7 @@
 headerDepth: 0
 category: [功能,教程]
 order: 5
+redirectFrom: /features/character-data.html
 ---
 
 # 属性统计  
