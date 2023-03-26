@@ -2,40 +2,41 @@
 headerDepth: 0
 category:
   - 公告
+redirectFrom: /project.html
 ---
 
-# Project
+# 项目说明
 
-Snap Hutao is an MIT-licensed open-source project that provides a Genshin Impact Toolset on Windows, aiming to provide a better experience on PC gaming. It makes undestructive feature expansions on desktops by making features that Genshin Impact provides only on mobile applications.
+胡桃工具箱是一个 Windows 平台的开源的原神工具箱，旨在帮助玩家获得更好的游戏体验； 它是对官方移动端工具的一种非破坏性功能扩展，为不习惯在移动端进行原神游戏的 PC 玩家提供一个在 Windows 平台下获得接近移动端功能权利的途径。
 
-## Feature Migration
-Snap Hutao project was originally from the Snap Genshin project. Currently, we are still migrating features.
+## 功能迁移
+胡桃正在迁移原 Snap Genshin 客户端中的功能
 
-Documents will be provided on this website for all migrated features. The migration process is shown below:
+已经完成迁移的功能将会在本站文档中提供指导说明，功能迁移和开发进度可以参阅下方
 
-- [x] In-game announcements
-- [x] MiHoYo BBS account management
-- [x] Game Launcher
-- [x] Wish history export
-- [ ] WIKI - Daily Materials
-  - Will be integrated to Dev Plan feature
-- [ ] WIKI - Weekly Materials
-  - Will be integrated to Dev Plan feature
-- [x] WIKI - Characters
-- [x] WIKI - Weapons
-- [x] Achievement
-- [x] Hutao Abyss Database
-- [x] Dev Plan
-- [x] My character stat
-- [ ] Players stat
-- [ ] Custom browser
+- [x] 米游社公告首页
+- [x] 米游社帐号管理
+- [x] 游戏启动器
+- [x] 祈愿记录
+- [ ] WIKI - 日常材料
+  - 将整合进养成计划
+- [ ] WIKI - 周常材料
+  - 将整合进养成计划
+- [x] WIKI - 角色资料
+- [x] WIKI - 武器资料
+- [x] 成就统计
+- [x] 胡桃数据库
+- [x] 养成计算器
+- [x] 角色橱窗
+- [ ] 玩家查询
+- [ ] 自定义网页
 
-## New features
+## 新增功能
 
-The following features are planned to add when the project was established.
-- [ ] Wish history cloud sync
-- [ ] 国际化支持
-- [x] International server support
-  - [x] Game Launcher
-  - [x] Server Switch
-  - [x] Wish history export
+以下新功能计划被增加到胡桃工具箱中
+- [ ] 祈愿云端同步
+- [x] [国际化支持](/i18n.html)
+- [x] 国际服支持
+  - [x] 游戏启动器
+  - [x] 服务器切换
+  - [x] 祈愿记录
