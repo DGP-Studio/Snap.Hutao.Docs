@@ -1,8 +1,9 @@
 ---
 comment: false
 index: false
+redirectFrom: /advanced/
 ---
 
-# Advanced
+# 高级
 
 <AutoCatalog />
