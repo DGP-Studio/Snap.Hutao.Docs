@@ -4,6 +4,7 @@ category:
   - 功能
   - 教程
 order: 11
+redirectFrom: /features/hutao-settings.html
 ---
 
 # 软件设置
@@ -13,10 +14,10 @@ order: 11
 :::
 
 ## 关于 胡桃
-- 胡桃工具箱的图标：您可以在胡桃的[首页](https://hut.ao/)查看它的原图
+- 胡桃工具箱的图标：您可以在胡桃的[首页](/)查看它的原图
     - 该图像作品的作者为[画画的芦苇](https://space.bilibili.com/274422134) ::: details 图标的绘制过程 <BiliBili bvid="BV1UL411d7Py" />
 :::
-    - 该图像作品的作者为[LOFTER@夙夜](https://dieqi32894.lofter.com/post/4b58ce16_2b6b2d365)并由[DGP-Studio](https://github.com/DGP-Studio)后期处理后，授权使用
+    - [DGP-Studio](https://github.com/DGP-Studio)已被所有者授权使用
 - 胡桃的版本号
 - 设备ID
 - 反馈
