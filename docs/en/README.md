@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Home
-heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png
+heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png
 heroText: Snap Hutao
 tagline: Multifunctional open-source Genshin Utility
 actions:
