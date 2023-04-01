@@ -10,7 +10,7 @@ redirectFrom: /features/daily-notes.html
 ::: info
 该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见[米游社多帐号切换](mhy-account-switch.md)文档
 :::
-![live-data-tracking](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png)
+![live-data-tracking](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mzYqiM1g6dvE0z3nZ_!!1797064093.png)
 
 ## 添加角色
 - 点击`添加角色`按钮
