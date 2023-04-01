@@ -25,7 +25,7 @@ features:
   - title: DailyNote
     icon: /images/202301/live-stat-tracking-logo.png
     details: Don't be trapped by Mobile Application. Receive your Genshin DailyNote notification on your desktop with native Windows notification
-    link: /features/daily-notes.md
+    link: /features/real-time-notes.md
 
   - title: Spiral Abyss Record
     icon: /images/202301/spiral-abyss-record-logo.png
