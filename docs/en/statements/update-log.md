@@ -6,7 +6,23 @@ order: 1
 ---
 
 # Update Logs
-## 1.5.4 <Badge text="latest" type="tip" />
+## 1.6.0 <Badge text="latest" type="tip" />
+- Add
+  - Hutao account system with registration and login available now
+  - Support of HoYoLab account login, and add its support to the following features:
+    - Web login and Stoken Cookie login
+    - Abyss record
+    - Daily check-in reward
+    - My character
+    - Real-time notes
+- Optimization
+  - Performance of frame rate unlock
+  - Multi-client
+  - Now users must unlock advanced features in the settings page before actually using them
+  - Settings page layout
+  - Tiles image on Windows 10
+
+## 1.5.4
 - Add
   - Game Launcher
     - Game resource package download
@@ -45,7 +61,7 @@ order: 1
   - Optimize wake-up for scheduled tasks
 
 ## 1.4.14
-- Fix issue that new dev plan cannot be add
+- Fix issue that new dev plan cannot be added
 - Support English UI
 - Other minor bug fix
 

@@ -22,9 +22,9 @@ features:
     details: Snap.Hutao has more extensive data support and better client performance while inheriting all Snap Genshin functionality
     link: /project.md
 
-  - title: DailyNote
+  - title: Real-time Notes
     icon: /images/202301/live-stat-tracking-logo.png
-    details: Don't be trapped by Mobile Application. Receive your Genshin DailyNote notification on your desktop with native Windows notification
+    details: Don't be trapped by Mobile Application. Receive your Genshin real-time notes notification on your desktop with native Windows notification
     link: /features/real-time-notes.md
 
   - title: Spiral Abyss Record
