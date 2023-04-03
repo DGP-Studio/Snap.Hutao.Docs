@@ -10,12 +10,12 @@ redirectFrom: /features/mhy-account-switch.html
 # 米游社多帐号切换
 
 ::: tip
-- 本文档所描述的帐号切换指的是用于获取游戏数据的**米游社帐号**，不是原神**游戏内的帐号**
+- 本文档所描述的帐号切换指的是用于获取游戏数据的**米游社/ HoYoLab 帐号**，不是原神**游戏内的帐号**
 - 在使用本功能前，你需要使用官方的米游社 App 登录你的帐号以初始化你的米游社功能
   - 如果在胡桃中登录的帐号名称格式为 `user_123456789` 则其有可能没有被初始化
 :::
 
-![多帐号管理样图](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png)
+![多帐号管理样图](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01E3ojiY1g6dvI9mG8y_!!1797064093.png)
 
 ::: details 胡桃工具箱视频指南 - 米游社帐号登录
 对于大多数人而言，遵循本页文档会有更高的效率。
@@ -25,9 +25,8 @@ redirectFrom: /features/mhy-account-switch.html
 <BiliBili bvid="BV1j84y1L7N9" />
 :::
 
-- 你可以在程序主界面的左下角，设置按钮的上方找到帐号菜单，以管理你在胡桃工具箱中登录的米游社帐号。在弹出的面板中你可以：
-  - 点击`登录米哈游通行证`按钮
-  - 在弹出的内置浏览器中登录"米哈游通行证"账号
+- 你可以在程序主界面的左下角，设置按钮的上方找到帐号菜单，以管理你在胡桃工具箱中登录的米游社帐号。在弹出的面板中你可以添加米游社或 HoYoLab 帐号 ，登录它们的方法是一样的：
+  - 在对应的帐号种类中点击`网页登录`按钮
     - 您也可以通过点击`手动输入`按钮，直接输入米游社通行证 cookie 来添加您的帐号
     - 若您选择`手动输入`米游社 cookie，则该 cookie **必须包含 `Stoken` 字段**
       - 手动获取含 `Stoken` 字段的 cookie 的方式可参考[使用第三方工具获取有 Stoken 的 cookie](../advanced/get-stoken-cookie-from-the-third-party.md) 文档
