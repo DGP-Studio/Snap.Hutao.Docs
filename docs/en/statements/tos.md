@@ -8,73 +8,66 @@ icon: license
 order: 4
 ---
 
-# Term of Service & Legal Statement
+# User Agreement and Legal Disclaime
+::: info
+This page of document was original written in Simplified Chinese. It's translated by AI-driven translate software, and still under review.
+If there is any conflict between the content of the document on this page and the original document, please refer to the [original document](/zh/statements/tos.html).
+:::
+## General Provisions
+- This "User Agreement and Legal Disclaimer" (hereinafter referred to as "Terms" or "User Agreement") applies to all software works developed by the DGP-Studio development team (hereinafter referred to as "the team" or "we"), the official website of each development project, and affiliated self-hosted media accounts.
+  - Please read all the contents of this User Agreement carefully. If you have any objections to any terms of this User Agreement after reading it, please immediately stop using any projects developed by the team.
+  - If you are under 18 years old, please read and fully understand this agreement with the accompaniment of a legal guardian, and obtain the consent of the legal guardian before using any projects developed by the team.
+  - If you have installed, used, or referenced any projects developed by the team during development, it means that you have actively read (read it completely) and fully agree to the terms listed in this User Agreement, that is, you have fully understood this Agreement and promised to accept the constraints of the agreement, legal statements, privacy policies, rules, norms, statements, notices, and other content related to any projects developed by the team.
+  - This "User Agreement" is a user agreement and legal disclaimer entered into by the user (hereinafter referred to as "you") and any projects developed by the team. This agreement has legal effect on both the user and the team.
 
-## General
- - 本"用户使用协议和法律声明"（以下简称"条款"或"使用协议"）适用于[DGP-Studio开发团队](https://github.com/DGP-Studio)（以下简称"本团队"或"我方"）开发的全部软件作品、各开发项目的官方网站、附属的自媒体账号等。
-     - 请您仔细阅读本用户使用协议的**全部内容**，在您阅读"使用协议"后，若对此用户使用协议中的**任何条款**有异议，请立刻停止使用本团队所开发的任意项目。
-     - 如您未满18周岁，请在法定监护人陪同下仔细阅读并充分理解本协议，并征得法定监护人的同意后使用本团队所开发的任意项目。
-     - 若您已安装、使用或在开发时引用本团队所开发的任意项目，表示您已主动阅读(已阅读完毕)并完全同意本使用协议所列明的条款，即已充分理解本协议并承诺作为本协议的一方当事人接受协议、法律声明、隐私政策以及与本团队所开发的任意项目相关的规则、规范、声明、公告、通知等内容的约束。
-     - 此《用户使用协议》是由用户(以下或称"您")与本团队所开发的任意项目所订立的用户使用协议和法律声明，本协议对用户和本团队均具有法律效力。
+## Nature of the Project, Services, and Definition of Responsibilities and Obligations
 
-## Definition of the Nature of the Project, Services and Related Duties and Liability
+ 1. As all projects developed by the team are "open-source" and "non-business" in nature, the team can make full decisions at any time, including but not limited to changing the "User Agreement" and modifying any content within any projects developed by the team. If there are any changes to the "Terms" or the content of the works, we will post notices on the relevant project display website. The revised "Terms" will take effect automatically after they are published on the official website.
 
- - 一、由于本团队所开发的任意项目，均"开源"、"非经营性质"，故本团队可随时执行全权决定：包括但不限于更改"使用协议"，修改本团队所开发的任意项目内的任何内容。如"条款"及"作品的内容"有任何变更，我方将在相关的项目展示网站上刊载公告作为通知。经修订的"条款"一经在官方网站上公布后，即自动生效。如"条款"及"作品的内容"有任何变更，我方将在相关的项目展示网站上刊载公告作为通知。经修订的"条款"一经在官方网站上公布后，即自动生效。
+ 2. The development of this software is aimed at "learning development knowledge" and "accumulating development experience." All functions provided by all projects are "open-source" and "non-business" in nature. If you are dissatisfied with the security of any projects developed by the team, please uninstall/delete/stop using them immediately. If you continue to use them normally, it means that you approve of the security of any projects developed by the team.
 
+ 3. Any "unexpected losses (including but not limited to: software, hardware, property, virtual items, etc.)", "contractual damage", "defamation", "copyright or intellectual property infringement," and the resulting losses and liabilities caused by the use of any content in any projects developed by the team are all "losses and liabilities" caused by the user's own use behavior of open-source software on the Internet. Based on the MIT license declared in all works at their open-source location (i.e., GitHub) and the content stipulated in this declaration, it should be deemed that the aforementioned "losses and liabilities" have no responsibility relationship with all the relevant developers of the projects.
 
- - 二、本软件以"学习开发知识"、"积累开发经验"为目的进行开发，所有项目所提供的功能，均"开源"、"非经营性质"，如用户对本团队所开发的任意项目的安全性表示不满，请立即卸载/删除/停用，如您仍在正常使用，则表示您认可本团队所开发的任意项目的安全性。
+ 4. During the user's use of any projects developed by the team, the team does not make any guarantees that do not occur under the following circumstances:
+    - The user cannot use or update normally due to network conditions, communication lines, and other technical reasons;
+    - Negative results caused by using "plug-ins in this software developed by a third party," "modified versions of this software compiled by a third party," and "software compiled by reusing project code created by this development team."
 
+ 5. Users acknowledge that any project developed by our team requires active user trigger for any information upload, except for necessary upload reports or related information in passive receipt of software or other related projects.
+    - Users acknowledge that any project developed by our team fully respects and protects the "personal privacy rights" of all users. The project code is also fully open, and users do not have subjective reasons to accuse the development team or team members of "violation of privacy rights".
+    - Any personal information of users will not be shared or transferred to third parties by any project developed by our team, unless with the user's prior authorization or the shared and transferred personal information has been de-identified and the third party cannot re-identify the natural person subject of such information.
+    - Any project developed by our team contains links to other sites. When you visit third-party links, please read the user agreement and statement of the third-party site carefully. Our team is not responsible for the content, privacy terms, and usage agreements of third-party sites.
+    - When using any project developed by our team, we cannot guarantee that the information you submit will be saved successfully. You need to properly store and keep the information you submit. Some projects developed by our team provide storage for "authorized data," but there are various force majeure factors in the storage process. Our team cannot promise to keep users' stored information indefinitely. Please back up your important information yourself.
 
- - 三、一切因使用本团队所开发的任意项目的内容而导致的"任何意外损失(包括但不限于：软件、硬件、财产以及虚拟物品等)"、"合约毁坏"、"诽谤"、"版权或知识产权侵犯"及其所造成的损失与责任，均为使用者自身对于网络公开的开源软件的使用过程中自身发生的使用行为所引致的"损失与责任",基于全部作品在其开放源代码的位置(即[Github](https://github.com/DGP-Studio))中所声明的[MIT license](https://github.com/DGP-Studio/Snap.Hutao/blob/main/LICENSE)以及本声明所约定的内容，应当认定前述的"损失与责任"与全部项目的有关开发者无责任关联。
+# Rights and Obligations
 
+6. Our team allows any individual or organization to conduct secondary development, functional modification, and reuse of our code for other projects without our team's authorization, for any project developed by our team. However, we reserve the right to pursue legal action against any infringement of our team's computer software copyright.
+   - Our team shall not be responsible for any consequences resulting from the public release of the contents of any project developed by our team (including but not limited to video production, articles with content of this software, uploading to download sites not designated by our development team, etc.) by any individual or organization using the project developed by our team.
+   - Our team shall not be responsible for any consequences resulting from the use of "third-party subsidiary programs or additional code that can be used for any project developed by our team", "modified versions of any project developed by our team that have been compiled by third parties", or "software compiled using the project code created by our development team".
+   - Based on the legal definitions of "computer software" and "documents" in Article 2 and Article 3 of the "Regulations on the Protection of Computer Software," DGP Studio reserves all computer software copyright for all of our development projects. This includes but is not limited to all information necessary to construct the project and all document data related to the project (i.e. program design specifications, flowcharts, user manuals, etc.), with the actual content subject to the "Computer Software Copyright Registration Certificate" for each project.
 
- - 四、用户使用本团队所开发的任意项目期间，本团队**不做**任何不发生如下情况的保证：
-     - 因网络状况、通讯线路等任何技术原因而导致用户不能正常使用或更新；
-     - 因使用"第三方开发的本软件内插件"、"第三方进行二次编译的本软件的修改版"、"复用本开发团队所创作的项目代码而编译成的软件"造成负面结果。
+7. Any project developed by our team is only intended for lawful and compliant learning and research use and shall not be used for illegal activities.
+   - Our team is only a development team (not a legal entity composed of natural persons), and shall not be held responsible for any joint liability for any use of the software or any project developed by our team that results in any legal consequences.
+   - If a user has already started using any project developed by our team, it means that they have agreed to the "Usage Agreement" and that our team has already fulfilled the notification requirements in Section 10 of this Usage Agreement.
 
-
- - 五、用户认可本团队所开发的任意项目，除被动接收软件或其他相关项目中的必要的上传报告或有关信息外，所有信息的上传均需要用户的主动触发；
-    - 用户认可本团队所开发的任意项目，均完全尊重并保护所有用户的"个人隐私权"，项目代码亦完全公开，用户不具有"因隐私权收到侵犯"而对开发团队或团队成员发起控诉的主观理由。
-    - 本团队所开发的任意项目不会向第三方共享、转让您的个人信息，除非经过您本人事先授权同意，或者共享、转让的个人信息是去标识化处理后的信息，且共享第三方无法重新识别此类信息的自然人主体。
-    - 本团队所开发的任意项目包含到其他站点的链接，当您访问第三方链接时，请认真阅读第三方站点的用户协议和声明，本团队对于第三方站点的内容、隐私条款、使用协议等不负任何责任。
-    - 在使用本团队所开发的任意项目时，提交任意资料的过程中，本团队不保证提交的信息保存成功，您需要对您提交的资料做好存储保管。本团队所开发的部分项目为"被授权数据"提供存储，但在存储过程中存在各种不可抗力的因素，本团队无法承诺对用户的存储信息无限期保留，您的重要信息请自行备份。本团队所开发的部分项目为"被授权数据"提供存储，但在存储过程中存在各种不可抗力的因素，本团队无法承诺对用户的存储信息无限期保留，您的重要信息请自行备份。
-
-## Rights and Liabilities
-
- - 六、我方允许任何单位或个人在没有本开发团队授权的情况下,对本团队所开发的任意项目进行的二次开发、功能修改以及复用我方创作的代码进行其他项目的开发，但对其所侵犯我方计算机软件著作权的行为，我方保留追责的权利。
-     - 我开发团队不对任何单位或个人在使用本团队所开发的任意项目的内容进行的公开发布行为（包括但不限于制作视频、发布带有本软件内容的文章、上传至非我开发团队指定的下载网站提供下载等）的内容所致的任意结果进行负责。
-     - 我开发团队不对使用"第三方开发的可用于本团队所开发的任意项目的附属程序或额外代码"、"第三方进行二次编译的本团队所开发的任意项目的修改版"、"复用本开发团队所创作的项目代码而编译成的软件"造成的任意结果负责。
-     - 在此基础上，根据《计算机软件保护条例》第二条与第三条对于"计算机软件"和"文档"的法律定义，本软件开发团队（DGP Studio）保留全部我方开发项目的计算机软件著作权，其包括但不限于项目构建所需的全部信息、全部项目有关的所有文档资料（即用来描述程序的内容、组成、设计、功能规格、开发情况的程序设计说明书、流程图、用户手册等），具体内容以各项目《计算机软件著作权登记证书》的实际内容为准。
-
-
- - 七、本团队所开发的任意项目仅作用于合法、合规范围内的学习及研究所用，不得利用本软件系统从事违法活动。
-     - 本团队仅作为项目的开发团队（非法人性质，为自然人组成的团体），对任何使用结果不负任何连带责任，软件以及我方开发的任意项目的使用过程中产生的任何法律后果我们概不负责、不承担任何法律责任。
-     - 若用户已开始使用本团队所开发的任意项目，即已同意"使用协议"，表明本团队已履行完毕"本使用协议第十款"的告知情形。
-
-
- - 八、所开发项目的著作权。
-     - 本软件开发团队对所开发的"Snap.Genshin软件"、"Snap.Hutao软件"等作品的软件本身（不包括软件内除功能模块外的显示内容）、上述作品的全部历史版本以及周边网站，以及本团队所开发的任意其他作品，拥有软件内的"各商标的所有权"（引用于网络的图片除外），"著作权"等有关的应有权益。
-     - 本团队所开发的任意项目的统计数据全部来源于软件用户主动提交，经过对数据简单地筛选后进行展示，因此本团队所开发的任意项目不对数据的准确性负责，该数据也与我方无关。
-     - 使用本团队所开发的任意项目的过程中可能会产生拥有原有版权的数据，对于这些数据，本团队所开发的任意项目不拥有它们的所有权，为了避免造成侵权，使用者有义务完全阅读并履行"本使用协议第十条"的内容。本软件内使用的资源（包括但不限于字体、图片、文字等）均来源于互联网的公开信息，如果出现侵权可立即联系[我方](https://github.com/DGP-Studio)移除。本软件内使用的资源（包括但不限于字体、图片、文字等）均来源于互联网的公开信息，如果出现侵权可立即联系[我方](https://github.com/DGP-Studio)移除。
+8. Copyright of the developed projects.
+   - Our software development team holds the ownership of all trademarks in the software itself (excluding display content other than functional modules), all historical versions of the aforementioned works, and the surrounding websites. We also hold any related rights and interests regarding copyright.
+   - All statistical data of any project developed by our team comes from users who submit data voluntarily. After the data is screened, it is displayed. Therefore, our team is not responsible for the accuracy of the data, and the data is not related to us.
+   - During the use of any project developed by our team, there may be data that has original copyright. For these data, our team does not own their ownership. In order to avoid infringement, the user has the obligation to fully read and comply with the content of Section 10 of this Usage Agreement. The resources used in this software (including but not limited to fonts, images, and text) are from public information on the Internet. If infringement occurs, you can contact us at our GitHub to remove it.
 
 ## Other Terms
+9. Determination of "Non-Business Nature" of Projects Developed by the Team.
+   - Any project developed by the team has no business nature.
+   - If individual or certain members of the development team, during their participation in the development of any project developed by the team, have entered into relationships with third-party users, including but not limited to gifts, exchanges, sales, etc., the resulting relationships are unrelated to the development team. This occurrence is not based on the fact that the team developed a related project, but rather on independent events that occurred at the location where the user entered into the aforementioned relationship on the Internet or in reality. The nature of this behavior should be determined based on the user terms of use at the Internet interaction location where the aforementioned relationship occurred, or in combination with specific behaviors that occurred in reality.
 
- - 九、对于团队所开发项目的"非经营性质"的确定。
+10. Any project (including websites) developed by the team is developed for the purpose of "learning development knowledge" and "accumulating development experience," and is only for learning and communication purposes. It is strictly prohibited to use it for commercial purposes. After downloading or viewing the learning materials, please delete all related information within 24 hours. If you ignore this requirement, the software development team is not responsible for "possible copyright disputes, infringement of intellectual property rights, and civil disputes."
 
-     - 本团队所开发的任意项目，均无任何经营性质。
+11. The establishment, effectiveness, performance, interpretation, and dispute resolution of this agreement shall be governed by the laws of the mainland of the People's Republic of China. If any provision of this agreement conflicts with the laws of the People's Republic of China and is invalid, these provisions will be reinterpreted as closely as possible to the original intent of this agreement. The other provisions of this agreement shall remain in full force and effect.
 
-     - 若开发团队的个别或部分成员，在参与开发本团队所开发的任意项目期间，与本团队所开发的任意项目的第三方用户间产生了包括但不限于：赠与、交换、买卖等关系，其所产生的关系与本开发团队无关，此种情形的发生不基于团队开发有关项目这一事实，而是基于其与第三方用户，在发生上述关系的互联网交互位置或现实地点所产生的独立事件，应当以发生上述关系的互联网交互位置的用户使用条款或结合其在现实地点所发生的具体行为来判定此行为的性质。
+12. The place of signing this agreement is Liaohe Oilfield Mining Area, Panjin City, Liaoning Province, China. If a dispute arises in the performance of this agreement, the parties shall resolve it through consultation. If no agreement can be reached through consultation, the Liaohe People's Court shall have jurisdiction, and the appellant shall bear the costs of each stage immediately.
 
+13. The titles (including subtitles) in this agreement are for convenience and reading only and do not affect the meaning or interpretation of any provisions of this agreement.
 
- - 十、本团队所开发的任意项目（含网站），均以"学习开发知识"、"积累开发经验"为目的进行开发，仅供学习交流，严禁用于商业用途，请您在下载或进行查看学习后的24小时内自行删除全部相关信息，若您无视本条要求，本软件开发团队不对"可能产生的版权纠纷、著作权侵权以及民事纠纷等问题"负责。
+14. Both you and the development team are independent entities, and under no circumstances does this agreement constitute any express or implied guarantee or condition of the development team towards users. There is also no agency, partnership, joint venture, or employment relationship between the two parties.
 
- - 十一、本协议的成立、生效、履行、解释及争议的解决均应适用中华人民共和国大陆地区法律。倘本协议之任何规定因与中华人民共和国的法律抵触而无效，则这些条款将尽可能接近本协议原条文意旨重新解析，且本协议其它规定仍应具有完整的效力及效果。倘本协议之任何规定因与中华人民共和国的法律抵触而无效，则这些条款将尽可能接近本协议原条文意旨重新解析，且本协议其它规定仍应具有完整的效力及效果。
-
- - 十二、本协议签订地点为辽宁省盘锦市辽河油田矿区，在履行本协议中发生纠纷，由双方协商解决，如协商不成，由辽河人民法院管辖，所产生的每阶段费用均由上诉人即时承担。
-
- - 十三、本协议中的标题（包括副标题）仅为方便及阅读而设，并不影响本协议中任何规定的含义或解释。
-
- - 十四、您和本开发团队均是独立的主体，在任何情况下本协议不构成本开发团队对用户的任何形式的明示或暗示担保或条件，双方之间亦不构成代理、合伙、合营或雇佣关系。
-
- - 十五、本"用户使用协议和法律声明"中，"我方"或称"本开发团队"(区别于"用户"或"您")的实际主体为[DGP-Studio开发团队](https://github.com/DGP-Studio)的团队整体及每个成员个人，即包含前述网站中，[DGP-Studio开发团队](https://github.com/DGP-Studio)的全部成员。
+15. In this "User Agreement and Legal Statement," the term "our party" or "the development team" (as distinguished from "you" or "the user") refers to the entire team of DGP-Studio Development Team, including each individual member.
  

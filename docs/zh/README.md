@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 首页
-heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png
+heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png
 heroText: 胡桃工具箱
 tagline: 一个实用的开源多功能原神工具箱
 actions:
@@ -25,7 +25,7 @@ features:
   - title: 实时便笺
     icon: /images/202301/live-stat-tracking-logo.png
     details: 不必再被手机 App 所束缚；在你的电脑就能直接获取米游社实时便笺信息并收到 Windows 原生通知提示
-    link: /features/daily-notes.md
+    link: /features/real-time-notes.md
 
   - title: 深渊记录
     icon: /images/202301/spiral-abyss-record-logo.png

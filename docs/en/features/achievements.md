@@ -24,8 +24,8 @@ order: 3
 
 ## 成就导入
 
-- 胡桃工具箱使用[统一可交换成就标准](https://www.snapgenshin.com/development/UIAF.html)数据标准来储存用户的成就数据
-  - 该标准允许用户从其它**成就导出工具**中通过 [Url 协议](https://www.snapgenshin.com/development/ThirdPartyAccess.html#url-%E5%8D%8F%E8%AE%AE)和剪贴板将数据导入到胡桃工具箱中
+- 胡桃工具箱使用[统一可交换成就标准](https://uigf.org/standards/UIAF.html)数据标准来储存用户的成就数据
+  - 该标准允许用户从其它**成就导出工具**中通过 Url 协议和剪贴板将数据导入到胡桃工具箱中
 - 你可以点击成就页面右上角隐藏菜单中的`导入`按钮，并选择`从 UIAF 文件导入`以加载以 UIAF 数据格式储存的第三方成就数据
 
 ## 推荐使用的成就识别工具

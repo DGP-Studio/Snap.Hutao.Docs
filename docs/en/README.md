@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Home
-heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png
+heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png
 heroText: Snap Hutao
 tagline: Multifunctional open-source Genshin Utility
 actions:
@@ -22,10 +22,10 @@ features:
     details: Snap.Hutao has more extensive data support and better client performance while inheriting all Snap Genshin functionality
     link: /project.md
 
-  - title: DailyNote
+  - title: Real-time Notes
     icon: /images/202301/live-stat-tracking-logo.png
-    details: Don't be trapped by Mobile Application. Receive your Genshin DailyNote notification on your desktop with native Windows notification
-    link: /features/daily-notes.md
+    details: Don't be trapped by Mobile Application. Receive your Genshin real-time notes notification on your desktop with native Windows notification
+    link: /features/real-time-notes.md
 
   - title: Spiral Abyss Record
     icon: /images/202301/spiral-abyss-record-logo.png

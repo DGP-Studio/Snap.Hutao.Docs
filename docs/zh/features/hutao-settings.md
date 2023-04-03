@@ -23,6 +23,11 @@ redirectFrom: /features/hutao-settings.html
 - 反馈
     - 点击`前往反馈`的按钮，即可跳转至相关页面
 
+## 胡桃帐号
+![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TUwTiE1g6dvNZZWy9_!!1797064093.png)
+胡桃帐号是由 DGP-Studio 团队创建的为胡桃工具箱服务的帐号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。
+目前胡桃帐号已支持注册和登录，但无实际功能与其绑定。你可以在设置中点击这一选项以注册并登录你的帐号。
+
 ## 外观
 - 语言
   - 默认情况下胡桃会跟随系统设置来显示对应的语言
