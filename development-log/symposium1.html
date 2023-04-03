@@ -7,23 +7,23 @@
   <script>
     const { hash, origin, pathname } = window.location;
     const { languages } = window.navigator;
-    const anchor = hash.substr(1);
+    const anchor = hash.substring(1);
 
-    const localeConfig = {"/en/":["en-US","en-UK","en"],"/zh/":["zh-CN","zh-TW","zh"]};
+    const localeConfig = {"0":["/en/",["en-US","en-UK","en"]],"1":["/zh/",["zh-CN","zh-TW","zh"]],"/zh/":["zh-CN"],"/en/":["en-US"]};
     const availableLocales = ["/zh/"];
     const defaultLocale = availableLocales.pop();
     const defaultBehavior = "defaultLocale"
 
-    let localePath = null;
+    let matchedLocalePath = null;
 
     // get matched locale
     findLanguage:
       for (const lang of languages)
-        for (const [path, langs] of Object.entries(localeConfig))
+        for (const [localePath, langs] of Object.entries(localeConfig))
           if (langs.includes(lang)) {
-            if (!availableLocales.includes(path))
+            if (!availableLocales.includes(localePath))
               continue;
-            localePath = path;
+            matchedLocalePath = localePath;
             break findLanguage;
           }
     
@@ -31,17 +31,17 @@
     const defaultLink = defaultLocale? `${origin}${defaultLocale}${pathname.substring(1)}${anchor?`#${anchor}`:""}`: null;
 
     // a locale matches
-    if (localePath) {
-      const localeLink = `${origin}${localePath}${pathname.substring(1)}${anchor?`#${anchor}`:""}`;
+    if (matchedLocalePath) {
+      const localeLink = `${origin}${matchedLocalePath}${pathname.substring(1)}${anchor?`#${anchor}`:""}`;
 
-      if (availableLocales.includes(localePath)) {
+      if (availableLocales.includes(matchedLocalePath)) {
         location.href = localeLink;
       }
       // the page does not exist
       else {
         // locale homepage
         if (defaultBehavior === "homepage") {
-          location.href = `${origin}${localePath}`;
+          location.href = `${origin}${matchedLocalePath}`;
         }
         // default locale page
         else if (defaultBehavior === "defaultLocale" && defaultLink) {

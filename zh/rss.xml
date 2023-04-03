@@ -6,21 +6,89 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 26 Mar 2023 04:41:05 GMT</pubDate>
-    <lastBuildDate>Sun, 26 Mar 2023 04:41:05 GMT</lastBuildDate>
+    <pubDate>Mon, 03 Apr 2023 01:37:44 GMT</pubDate>
+    <lastBuildDate>Mon, 03 Apr 2023 01:37:44 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <copyright>Copyright by DGP-Studio</copyright>
-    <image>
-      <title>胡桃工具箱</title>
-      <url>https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png</url>
-      <link>https://hut.ao/zh/</link>
-    </image>
-    <category>公告</category>
     <category>功能</category>
     <category>教程</category>
+    <category>公告</category>
     <category>FAQ</category>
     <category>第三方工具</category>
+    <item>
+      <title>实时便笺</title>
+      <link>https://hut.ao/zh/features/real-time-notes.html</link>
+      <guid>https://hut.ao/zh/features/real-time-notes.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">实时便笺</source>
+      <description>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多帐号切换 (mhy-account-switch.md)文档 live-data-tracking 添加角色 点击添加角色按钮; 在弹出的添加角色浮窗中，选择您要添加的游戏角色，并单击其右侧的加号按钮; 此时您添加的游戏角色即可显示在实时便笺页面中; 实时便笺是间隔固定时间自动刷新的; 你可...</description>
+      <category>功能</category>
+      <category>教程</category>
+      <pubDate>Sat, 01 Apr 2023 00:54:18 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 实时便笺</h1>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/zh/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a>文档</p>
+</div>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mzYqiM1g6dvE0z3nZ_!!1797064093.png" alt="live-data-tracking" loading="lazy"></p>
+<h2> 添加角色</h2>
+<ul>
+<li>点击<code>添加角色</code>按钮</li>
+<li>在弹出的<code>添加角色</code>浮窗中，选择您要添加的游戏角色，并单击其右侧的加号按钮</li>
+<li>此时您添加的游戏角色即可显示在实时便笺页面中
+<ul>
+<li>实时便笺是间隔固定时间自动刷新的
+<ul>
+<li>你可以点击窗口右上角的<code>通知设置</code>来设置查询的间隔时间</li>
+<li>如您需要立即刷新以获取实时的最新数值，请单击<code>立即刷新</code>按钮</li>
+</ul>
+</li>
+<li>如出现"账号有风险，请前往米游社查看"字样的提示
+<ul>
+<li>请参考<a href="/zh/advanced/mihoyo-risk-tip.html" target="blank">账号风险提示</a>文档</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2> 全局通知设置</h2>
+<ul>
+<li>在窗口右上角点击<code>通知设置</code>可以修改实时便笺的全局设置，包括：
+<ul>
+<li>数据刷新间隔时间</li>
+<li>通知免打扰</li>
+<li>高优先度通知
+<ul>
+<li>这将避免胡桃工具箱的通知被自动收入操作中心</li>
+<li>请注意，开启此设置可能会让您在日常使用电脑期间受到打扰</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2> 帐号独立设置</h2>
+<ul>
+<li>胡桃工具箱的实时便笺功能允许用户对每一个被监控的帐号给予不同的设置</li>
+<li>将鼠标停留在<strong>需要被设置的</strong>角色实时便笺的窗体上</li>
+<li>点击其窗体右上角出现的设置图案按钮，即可修改如下参数
+<ul>
+<li>原粹树脂提醒阈值</li>
+<li>洞天宝钱提醒阈值</li>
+<li>启用参量质变仪提醒</li>
+<li>启用每日委托上限提醒</li>
+<li>启用探索派遣完成提醒</li>
+<li>启用在主页显示卡片 (未上线的新功能)</li>
+</ul>
+</li>
+<li>点击<code>保存</code>，即可保存您当前所设置的通知选项</li>
+</ul>
+<h2> 删除角色</h2>
+<ul>
+<li>将鼠标停留在需要被设置的角色实时便笺的窗体上</li>
+<li>点击其窗体右上角出现的移除标志按钮，即可移除该角色对应的实时便笺</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mzYqiM1g6dvE0z3nZ_!!1797064093.png" type="image/png"/>
+    </item>
     <item>
       <title>加入用户社区</title>
       <link>https://hut.ao/zh/community.html</link>
@@ -31,19 +99,7 @@
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入用户社区</h1>
 <p>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。</p>
-<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
-<ul>
-<li>为我们在 GitHub 上的项目加星点赞 ⭐
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
-</ul>
-</li>
-<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
-<li>在更多的地方帮助我们宣传</li>
-</ul>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
+<p>@include(<a href="http://star-request.md" target="_blank" rel="noopener noreferrer">star-request.md</a>)</p>
 <h2> GitHub 讨论</h2>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
 <h2> QQ 群</h2>
@@ -93,10 +149,10 @@
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 国际服游戏帐号切换</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服祈愿记录导出</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 国际服角色属性统计</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> HoYoLAB 登录支持</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> HoYoLAB 登录支持</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 国际服深渊记录获取</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 实时便笺</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 国际服深渊记录获取</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 实时便笺</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 多语言游戏公告</label></li>
 </ul>
 </li>
@@ -192,13 +248,17 @@
 <h2> 新增功能</h2>
 <p>以下新功能计划被增加到胡桃工具箱中</p>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 祈愿云端同步</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> <a href="/i18n.html" target="blank">国际化支持</a></label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 国际服支持</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 祈愿云端同步</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 游戏启动器</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 服务器切换</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 祈愿记录</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 胡桃帐号系统</label></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> <a href="/i18n.html" target="blank">国际化支持</a></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 国际服支持</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 游戏启动器</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 服务器切换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 祈愿记录</label></li>
 </ul>
 </li>
 </ul>
@@ -218,19 +278,7 @@
 <p class="hint-container-title">提示</p>
 <p>若您已下载或使用<strong>胡桃工具箱</strong>，即表示你已阅读并完全同意<a href="/zh/statements/tos.html" target="blank">用户使用协议与法律声明</a></p>
 </div>
-<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
-<ul>
-<li>为我们在 GitHub 上的项目加星点赞 ⭐
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
-</ul>
-</li>
-<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
-<li>在更多的地方帮助我们宣传</li>
-</ul>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
+<p>@include(<a href="http://star-request.md" target="_blank" rel="noopener noreferrer">star-request.md</a>)</p>
 <h2> 视频指南</h2>
 <p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
 <p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
@@ -1190,80 +1238,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>实时便笺</title>
-      <link>https://hut.ao/zh/features/daily-notes.html</link>
-      <guid>https://hut.ao/zh/features/daily-notes.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">实时便笺</source>
-      <description>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多帐号切换 (mhy-account-switch.md)文档 live-data-tracking 添加角色 点击添加角色按钮; 在弹出的添加角色浮窗中，选择您要添加的游戏角色，并单击其右侧的加号按钮; 此时您添加的游戏角色即可显示在实时便笺页面中; 实时便笺是间隔固定时间自动刷新的; 你可...</description>
-      <category>功能</category>
-      <category>教程</category>
-      <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 实时便笺</h1>
-<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/zh/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a>文档</p>
-</div>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png" alt="live-data-tracking" loading="lazy"></p>
-<h2> 添加角色</h2>
-<ul>
-<li>点击<code>添加角色</code>按钮</li>
-<li>在弹出的<code>添加角色</code>浮窗中，选择您要添加的游戏角色，并单击其右侧的加号按钮</li>
-<li>此时您添加的游戏角色即可显示在实时便笺页面中
-<ul>
-<li>实时便笺是间隔固定时间自动刷新的
-<ul>
-<li>你可以点击窗口右上角的<code>通知设置</code>来设置查询的间隔时间</li>
-<li>如您需要立即刷新以获取实时的最新数值，请单击<code>立即刷新</code>按钮</li>
-</ul>
-</li>
-<li>如出现"账号有风险，请前往米游社查看"字样的提示
-<ul>
-<li>请参考<a href="/zh/advanced/mihoyo-risk-tip.html" target="blank">账号风险提示</a>文档</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2> 全局通知设置</h2>
-<ul>
-<li>在窗口右上角点击<code>通知设置</code>可以修改实时便笺的全局设置，包括：
-<ul>
-<li>数据刷新间隔时间</li>
-<li>通知免打扰</li>
-<li>高优先度通知
-<ul>
-<li>这将避免胡桃工具箱的通知被自动收入操作中心</li>
-<li>请注意，开启此设置可能会让您在日常使用电脑期间受到打扰</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2> 帐号独立设置</h2>
-<ul>
-<li>胡桃工具箱的实时便笺功能允许用户对每一个被监控的帐号给予不同的设置</li>
-<li>将鼠标停留在<strong>需要被设置的</strong>角色实时便笺的窗体上</li>
-<li>点击其窗体右上角出现的设置图案按钮，即可修改如下参数
-<ul>
-<li>原粹树脂提醒阈值</li>
-<li>洞天宝钱提醒阈值</li>
-<li>启用参量质变仪提醒</li>
-<li>启用每日委托上限提醒</li>
-<li>启用探索派遣完成提醒</li>
-<li>启用在主页显示卡片 (未上线的新功能)</li>
-</ul>
-</li>
-<li>点击<code>保存</code>，即可保存您当前所设置的通知选项</li>
-</ul>
-<h2> 删除角色</h2>
-<ul>
-<li>将鼠标停留在需要被设置的角色实时便笺的窗体上</li>
-<li>点击其窗体右上角出现的移除标志按钮，即可移除该角色对应的实时便笺</li>
-</ul>
-]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png" type="image/png"/>
-    </item>
-    <item>
       <title>养成计划</title>
       <link>https://hut.ao/zh/features/develop-plan.html</link>
       <guid>https://hut.ao/zh/features/develop-plan.html</guid>
@@ -1620,6 +1594,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
+<h2> 胡桃帐号</h2>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TUwTiE1g6dvNZZWy9_!!1797064093.png" alt="Hutao-account" loading="lazy">
+胡桃帐号是由 DGP-Studio 团队创建的为胡桃工具箱服务的帐号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。
+目前胡桃帐号已支持注册和登录，但无实际功能与其绑定。你可以在设置中点击这一选项以注册并登录你的帐号。</p>
 <h2> 外观</h2>
 <ul>
 <li>
@@ -1720,14 +1698,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TUwTiE1g6dvNZZWy9_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>米游社多帐号切换</title>
       <link>https://hut.ao/zh/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/zh/features/mhy-account-switch.html</guid>
       <source url="https://hut.ao/zh/rss.xml">米游社多帐号切换</source>
-      <description>本文档所描述的帐号切换指的是用于获取游戏数据的米游社帐号，不是原神游戏内的帐号; 在使用本功能前，你需要使用官方的米游社 App 登录你的帐号以初始化你的米游社功能; 如果在胡桃中登录的帐号名称格式为 user_123456789 则其有可能没有被初始化; !多帐号管理样图 (https://img.alicdn.com/imgextra/i4/179...</description>
+      <description>本文档所描述的帐号切换指的是用于获取游戏数据的米游社/ HoYoLab 帐号，不是原神游戏内的帐号; 在使用本功能前，你需要使用官方的米游社 App 登录你的帐号以初始化你的米游社功能; 如果在胡桃中登录的帐号名称格式为 user_123456789 则其有可能没有被初始化; !多帐号管理样图 (https://img.alicdn.com/imgex...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1735,7 +1713,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <ul>
-<li>本文档所描述的帐号切换指的是用于获取游戏数据的<strong>米游社帐号</strong>，不是原神<strong>游戏内的帐号</strong></li>
+<li>本文档所描述的帐号切换指的是用于获取游戏数据的<strong>米游社/ HoYoLab 帐号</strong>，不是原神<strong>游戏内的帐号</strong></li>
 <li>在使用本功能前，你需要使用官方的米游社 App 登录你的帐号以初始化你的米游社功能
 <ul>
 <li>如果在胡桃中登录的帐号名称格式为 <code>user_123456789</code> 则其有可能没有被初始化</li>
@@ -1743,16 +1721,16 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 </div>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" alt="多帐号管理样图" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01E3ojiY1g6dvI9mG8y_!!1797064093.png" alt="多帐号管理样图" loading="lazy"></p>
 <details class="hint-container details"><summary>胡桃工具箱视频指南 - 米游社帐号登录</summary>
 <p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
 <p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
 </details>
 <ul>
-<li>你可以在程序主界面的左下角，设置按钮的上方找到帐号菜单，以管理你在胡桃工具箱中登录的米游社帐号。在弹出的面板中你可以：
+<li>你可以在程序主界面的左下角，设置按钮的上方找到帐号菜单，以管理你在胡桃工具箱中登录的米游社帐号。在弹出的面板中你可以添加米游社或 HoYoLab 帐号
+，登录它们的方法是一样的：
 <ul>
-<li>点击<code>登录米哈游通行证</code>按钮</li>
-<li>在弹出的内置浏览器中登录"米哈游通行证"账号
+<li>在对应的帐号种类中点击<code>网页登录</code>按钮
 <ul>
 <li>您也可以通过点击<code>手动输入</code>按钮，直接输入米游社通行证 cookie 来添加您的帐号</li>
 <li>若您选择<code>手动输入</code>米游社 cookie，则该 cookie <strong>必须包含 <code>Stoken</code> 字段</strong>
@@ -1781,7 +1759,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </div>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01E3ojiY1g6dvI9mG8y_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>武器资料</title>
@@ -1961,6 +1939,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在提交问题时，您应当尽可能地详细描述问题。如果有错误的截图，也应该提供。这有利于问题排查并加速问题修复。
 <ul>
 <li>一个可以参考的非常正面的例子是 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao/issues/100</a></li>
+<li>你也可以通过<a href="https://www.bilibili.com/video/BV18T411z7R4" target="_blank" rel="noopener noreferrer">这个视频</a>来学习如何发起并管理你在开源项目中的 issue</li>
 </ul>
 </li>
 <li>如果你有能力在代码层面修复该问题，也欢迎您直接在对应的项目中发起 PR。
@@ -2007,10 +1986,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/privacy-notice.html</link>
       <guid>https://hut.ao/zh/statements/privacy-notice.html</guid>
       <source url="https://hut.ao/zh/rss.xml">用户数据和隐私权益</source>
-      <description>胡桃工具箱充分尊重用户的隐私，目前我们会按下方的说明使用用户的数据： 使用胡桃后，在 数据目录 中以数据库文件的形式; 储存; 米游社 Cookie; 胡桃的软件设置信息; 全部的用户数据; 使用胡桃主程序时，胡桃会因开发和统计为目的匿名化地收集程序意外停止或出错时抛出的日志，包括：; 用户设备 ID; 错误与崩溃日志; 用户活跃数据统计信息; 使用 ...</description>
+      <description>个人信息数据 Snap Hutao 的项目性质决定了其不会收集任何个人信息数据 常规数据使用 胡桃工具箱充分尊重用户的隐私，目前我们会按下方的说明使用用户的数据： 使用胡桃后，在 数据目录 中以数据库文件的形式; 储存; 米游社和 HoYoLab Cookie; 胡桃的软件设置信息; 全部的用户数据; 使用胡桃主程序时，胡桃会因开发和统计为目的匿名化地...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 用户数据和隐私权益</h1>
+<h2> 个人信息数据</h2>
+<p>Snap Hutao 的项目性质决定了其不会收集任何个人信息数据</p>
+<h2> 常规数据使用</h2>
 <p>胡桃工具箱充分尊重用户的隐私，目前我们会按下方的说明使用用户的数据：</p>
 <ul>
 <li>
@@ -2018,7 +2000,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li><strong>储存</strong>
 <ul>
-<li>米游社 Cookie</li>
+<li>米游社和 HoYoLab Cookie</li>
 <li>胡桃的软件设置信息</li>
 <li>全部的用户数据</li>
 </ul>
@@ -2052,9 +2034,20 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 <li>
-<p>使用<code>高级启动器</code>中的<code>服务器切换</code>功能后，在原神截图目录中</p>
+<p>使用<code>高级启动器</code>中的<code>服务器切换</code>功能后，在胡桃数据目录中</p>
 <ul>
 <li><strong>储存</strong>服务器转换所需要的文件</li>
+</ul>
+</li>
+<li>
+<p>使用<code>胡桃帐号</code>功能后，胡桃帐号云端系统会</p>
+<ul>
+<li><strong>储存</strong>
+<ul>
+<li>注册使用的邮箱</li>
+<li>加密后的密码</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -2173,11 +2166,37 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.5.4 新增; 游戏启动器; 游戏资源下载; 原神游戏进程多开; 允许用户在多显示器情况下选择指定显示器启动游戏; 使用了全新的图标（更可爱的胡桃）; 修复; 游戏客户端转换中卡死并无限写入的问题; 优化; 默认的语言选择方式; 允许直接复制设备 ID; 设置页面美化; 1.5.1 优化; 将JumpList菜单更换为JumpTask，即使用户关闭...</description>
+      <description>1.6.0 新增; 胡桃帐号的注册和登录的基本功能; HoYoLab 帐号的登录并增加其在以下功能的支持; 网页登录和 SToken Cookie 登录; 深境螺旋记录; 每日签到; 我的角色; 实时便笺; 优化; 帧数解锁功能性能; 多客户端功能; 帧数解锁和游戏多开功能现在需要用户在设置中手动解锁高级功能; 设置页面布局; Windows 10 磁...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.5.4 </h2>
+<h2> 1.6.0 </h2>
+<ul>
+<li>新增
+<ul>
+<li>胡桃帐号的注册和登录的基本功能</li>
+<li>HoYoLab 帐号的登录并增加其在以下功能的支持
+<ul>
+<li>网页登录和 SToken Cookie 登录</li>
+<li>深境螺旋记录</li>
+<li>每日签到</li>
+<li>我的角色</li>
+<li>实时便笺</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>帧数解锁功能性能</li>
+<li>多客户端功能</li>
+<li>帧数解锁和游戏多开功能现在需要用户在设置中手动解锁高级功能</li>
+<li>设置页面布局</li>
+<li>Windows 10 磁贴图标</li>
+</ul>
+</li>
+</ul>
+<h2> 1.5.4</h2>
 <ul>
 <li>新增
 <ul>
