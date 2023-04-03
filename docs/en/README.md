@@ -93,7 +93,7 @@ You can make contribution by the following ways:
     2. [Snap Hutao Document](https://translate-docs.hut.ao/)
 3. [Update document](https://github.com/DGP-Studio/Snap.Hutao.Docs)
 
-@include(star-request.md)
+<!-- @include: star-request.md -->
 
 ## Service Used
 Snap Hutao is currently using software from the following service providers.

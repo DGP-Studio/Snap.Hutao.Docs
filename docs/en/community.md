@@ -8,7 +8,7 @@ category:
 
 As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways.
 
-@include(star-request.md)
+<!-- @include: star-request.md -->
 ## GitHub Discussion
 [Snap.Hutao Discussion](https://github.com/DGP-Studio/Snap.Hutao/discussions)
 

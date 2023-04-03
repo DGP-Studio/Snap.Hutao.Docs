@@ -11,7 +11,7 @@ category:
 ::: tip
 If you download and use **Snap Hutao**，you are agree to our[ terms of service](statements/tos.md)
 :::    
-@include(star-request.md)
+<!-- @include: star-request.md -->
 
 ## Video Tutorial
 For most people, follow the instruction on this page is more effiency.
