@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Mon, 03 Apr 2023 02:55:34 GMT</pubDate>
-    <lastBuildDate>Mon, 03 Apr 2023 02:55:34 GMT</lastBuildDate>
+    <pubDate>Mon, 03 Apr 2023 03:09:50 GMT</pubDate>
+    <lastBuildDate>Mon, 03 Apr 2023 03:09:50 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -807,12 +807,23 @@
       <link>https://hut.ao/en/community.html</link>
       <guid>https://hut.ao/en/community.html</guid>
       <source url="https://hut.ao/en/rss.xml">Join Community</source>
-      <description>As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways. include(star-request.md) GitHu...</description>
+      <description>As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways. GitHub Discussion Snap.Hutao D...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:17 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Join Community</h1>
 <p>As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways.</p>
-<p>@include(<a href="http://star-request.md" target="_blank" rel="noopener noreferrer">star-request.md</a>)</p>
+<p><strong>If you believe Snap Hutao is a good project and helps you, you can support us by the following ways</strong></p>
+<ul>
+<li>Star our project on GitHub ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>Rate our App on <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
+<li>Promote our project in your network</li>
+</ul>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
 <h2> GitHub Discussion</h2>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
 <h2> QQ Group (CN)</h2>
@@ -1852,7 +1863,7 @@ If there is any conflict between the content of the document on this page and th
       <link>https://hut.ao/en/quick-start.html</link>
       <guid>https://hut.ao/en/quick-start.html</guid>
       <source url="https://hut.ao/en/rss.xml">Quick Start</source>
-      <description>If you download and use Snap Hutao，you are agree to our terms of service (statements/tos.md) ::: include(star-request.md) Video Tutorial For most people, follow the instruction ...</description>
+      <description>If you download and use Snap Hutao，you are agree to our terms of service (statements/tos.md) ::: Video Tutorial For most people, follow the instruction on this page is more effi...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
@@ -1861,7 +1872,18 @@ If there is any conflict between the content of the document on this page and th
 <p class="hint-container-title">Tips</p>
 <p>If you download and use <strong>Snap Hutao</strong>，you are agree to our<a href="/en/statements/tos.html" target="blank"> terms of service</a></p>
 </div>
-<p>@include(<a href="http://star-request.md" target="_blank" rel="noopener noreferrer">star-request.md</a>)</p>
+<p><strong>If you believe Snap Hutao is a good project and helps you, you can support us by the following ways</strong></p>
+<ul>
+<li>Star our project on GitHub ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>Rate our App on <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
+<li>Promote our project in your network</li>
+</ul>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
 <h2> Video Tutorial</h2>
 <p>For most people, follow the instruction on this page is more effiency.</p>
 <p>However, if you are not familiar with the operation mentioned below, you can come back the follow the video tutorial.</p>

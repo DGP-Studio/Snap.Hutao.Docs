@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 03 Apr 2023 02:55:34 GMT</pubDate>
-    <lastBuildDate>Mon, 03 Apr 2023 02:55:34 GMT</lastBuildDate>
+    <pubDate>Mon, 03 Apr 2023 03:09:50 GMT</pubDate>
+    <lastBuildDate>Mon, 03 Apr 2023 03:09:50 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -94,12 +94,24 @@
       <link>https://hut.ao/zh/community.html</link>
       <guid>https://hut.ao/zh/community.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入用户社区</source>
-      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 include(star-request.md) GitHub 讨论 Snap.Hutao Discussion (https://github.com/DGP-Studio/Snap.Hutao/discussions) QQ 群 Snap 一群 (...</description>
+      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 GitHub 讨论 Snap.Hutao Discussion (https://github.com/DGP-Studio/Snap.Hutao/discussions) QQ 群 Snap 一群 (https://go.hut.ao/qun1); ...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入用户社区</h1>
 <p>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。</p>
-<p>@include(<a href="http://star-request.md" target="_blank" rel="noopener noreferrer">star-request.md</a>)</p>
+<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
+<ul>
+<li>为我们在 GitHub 上的项目加星点赞 ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
+<li>在更多的地方帮助我们宣传</li>
+</ul>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
+<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
 <h2> GitHub 讨论</h2>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
 <h2> QQ 群</h2>
@@ -269,7 +281,7 @@
       <link>https://hut.ao/zh/quick-start.html</link>
       <guid>https://hut.ao/zh/quick-start.html</guid>
       <source url="https://hut.ao/zh/rss.xml">快速开始</source>
-      <description>若您已下载或使用胡桃工具箱，即表示你已阅读并完全同意用户使用协议与法律声明 (statements/tos.md) include(star-request.md) 视频指南 对于大多数人而言，遵循本页文档会有更高的效率。 但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。胡桃工具箱视频指南 - 下载/安装/卸载篇 最低系统要求 要求规...</description>
+      <description>若您已下载或使用胡桃工具箱，即表示你已阅读并完全同意用户使用协议与法律声明 (statements/tos.md) 视频指南 对于大多数人而言，遵循本页文档会有更高的效率。 但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。胡桃工具箱视频指南 - 下载/安装/卸载篇 最低系统要求 要求规格 -- *最低可运行系统版本**|Windows...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -278,7 +290,19 @@
 <p class="hint-container-title">提示</p>
 <p>若您已下载或使用<strong>胡桃工具箱</strong>，即表示你已阅读并完全同意<a href="/zh/statements/tos.html" target="blank">用户使用协议与法律声明</a></p>
 </div>
-<p>@include(<a href="http://star-request.md" target="_blank" rel="noopener noreferrer">star-request.md</a>)</p>
+<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
+<ul>
+<li>为我们在 GitHub 上的项目加星点赞 ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
+<li>在更多的地方帮助我们宣传</li>
+</ul>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
+<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
 <h2> 视频指南</h2>
 <p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
 <p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
