@@ -11,8 +11,8 @@ redirectFrom: /quick-start.html
 
 ::: tip
 若您已下载或使用**胡桃工具箱**，即表示你已阅读并完全同意[用户使用协议与法律声明](statements/tos.md)
-:::  
-@include(star-request.md)
+:::
+<!-- @include: star-request.md -->
 
 ## 视频指南
 对于大多数人而言，遵循本页文档会有更高的效率。
