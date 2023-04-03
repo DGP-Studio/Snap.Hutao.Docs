@@ -95,7 +95,7 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多
    2. [文档](https://translate-docs.hut.ao/)
 3. [为我们更新文档](https://github.com/DGP-Studio/Snap.Hutao.Docs)
 
-@include(star-request.md)
+<!-- @include: star-request.md -->
 
 ## 平台
 Snap Hutao 目前使用了以下软件厂商提供的服务
