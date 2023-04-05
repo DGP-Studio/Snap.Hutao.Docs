@@ -42,3 +42,8 @@ redirectFrom: /advanced/exceptions.html
 
 如果系统代理是你的网络必须选项，请关闭系统代理而使用 TUN 模式代理；或者也可以通过 [Windows 8 AppContainer Loopback Utility](https://www.telerik.com/fiddler/add-ons)
 解除 [Windows APP Container Loopback 的限制](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback) 。
+
+## `653366069` 请求异常
+- 网络请求错误，请求异常前程序会说明具体哪一个功能的网络请求失败。
+  - 如果仅是偶尔出现的问题，你可以考虑忽略该错误
+  - 如果持续该错误，请检查本地网络到目标服务器的连接是否正常
