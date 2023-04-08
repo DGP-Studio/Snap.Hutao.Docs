@@ -6,7 +6,18 @@ order: 1
 ---
 
 # Update Logs
-## 1.6.0 <Badge text="latest" type="tip" />
+
+## 1.6.1 <Badge text="latest" type="tip" />
+- New Feature
+  - **Wish history cloud backup** based on Hutao account system
+    - Currently, sponsors on AFDIAN and beta users will receive corresponding cloud membership time; All registered users will receive 5 days membership time after uploading Abyss record.
+- Fix
+  - Issue that BiliBili server account cannot receive data for Real-time Notes
+  - Issue on HoYoLab login
+- Optimize
+  - Static assets download logic 
+
+## 1.6.0 
 - Add
   - Hutao account system with registration and login available now
   - Support of HoYoLab account login, and add its support to the following features:
