@@ -4,6 +4,6 @@ comment: false
 index: false
 ---
 
-# 功能指南
+# Features
 
 <AutoCatalog />

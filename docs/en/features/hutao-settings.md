@@ -1,105 +1,110 @@
 ---
 headerDepth: 0
-category:
-  - 功能
-  - 教程
+category: [Feature, Tutorial]
 order: 11
 ---
 
-# 软件设置
+# Software Settings
 
 ::: info
-- 以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序
-:::
+- The following feature tutorials are introduced in-program order.
+  :::
 
-## 关于 胡桃
-- 胡桃工具箱的图标：您可以在胡桃的[首页](https://hut.ao/)查看它的原图
-    - 该图像作品的作者为[画画的芦苇](https://space.bilibili.com/274422134) ::: details 图标的绘制过程 <BiliBili bvid="BV1UL411d7Py" />
-:::
-    - 该图像作品的作者为[LOFTER@夙夜](https://dieqi32894.lofter.com/post/4b58ce16_2b6b2d365)并由[DGP-Studio](https://github.com/DGP-Studio)后期处理后，授权使用
-- 胡桃的版本号
-- 设备ID
-- 反馈
-    - 点击`前往反馈`的按钮，即可跳转至相关页面
+## About Snap Hutao
+This part has the following information:
+- The icon of Snap Hutao：You can find the original image of the icon at the [home page](/)
+  - The artist is [画画的芦苇 (BiliBili)](https://space.bilibili.com/274422134)
+    ::: details Drawing Process
+    <BiliBili bvid="BV1UL411d7Py" />
+    :::
+  - [DGP-Studio](https://github.com/DGP-Studio) is authorized by owner to use it for Snap Hutao Project
+- Snap Hutao client version
+- Device ID
 
-## 外观
-- 语言
-  - 默认情况下胡桃会跟随系统设置来显示对应的语言
-  - 使用该功能你可以强制将胡桃的显示语言设置为指定的语言
+## Snap Hutao Account <Badge text="Beta" type="info" />
+![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKJFMi1g6dvSk6pVi_!!1797064093.png)
+Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
+Currently, you are already able to register and login to your Snap Hutao account in the settings page.
 
-- 背景材质
-    - 在此选项中，您可以更改背景的材质为：
-        - 亚克力
-        - 云母
-        - 变种云母
-    - 每个背景材质被选中后，您可以即时查看更改后的效果
+## Appearance
+- Language
+  - Snap Hutao will following system language setting by default
+  - You can force to change to another language in the settings page
+
+- Backdrop Material
+  - In this option, you can change the backdrop material of the software to
+    - Acrylic
+    - Mica (Windows 11 only)
+    - MicaAlt (Windows 11 only)
+  - The setting will take effect immediately
 
 @slidestart auto
 
-## Windows 10 亚克力
-![win10-亚克力](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png)
+## Windows 10 Acrylic
+![win10-Acrylic](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png)
 
 ---
 
-## Windows 11 亚克力
-![win11-亚克力](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01MXJZE61g6dtvtITxC_!!1797064093.jpg)
+## Windows 11 Acrylic
+![win11-Acrylic](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01MXJZE61g6dtvtITxC_!!1797064093.jpg)
 
 ---
 
-## Windows 11 云母
-![win11-云母](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01aW0iV71g6du5WAz9w_!!1797064093.jpg)
+## Windows 11 Mica
+![win11-Mica](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01aW0iV71g6du5WAz9w_!!1797064093.jpg)
 
 ---
 
-## Windows 11 变种云母
-![win11-变种云母](https://img.alicdn.com/imgextra/i3/1797064093/O1CN010BwmBI1g6du9bi7C0_!!1797064093.jpg)
+## Windows 11 MicaAlt
+![win11-MicaAlt](https://img.alicdn.com/imgextra/i3/1797064093/O1CN010BwmBI1g6du9bi7C0_!!1797064093.jpg)
 
 @slideend
 
-## 祈愿记录
-- 在此条目中，您可以选择是否隐藏无记录的历史祈愿活动，即"没有祈愿记录的卡池"
+## Wish History
+- In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature
 
-## 游戏
-- 游戏路径
-    - 在此条目中，可以修改或设置您的游戏路径
-    - 选择游戏路径时，请注意此处选择的应是游戏本身
-    - 形如："$\Genshin Impact\Genshin Impact Game\YuanShen.exe"
+## Game
+- Game Path
+  - In this field, you can modify or set your game path for Snap Hutao
+  - When setting the game path, you should select game program instead of launcher program
+    - Such as `$\Genshin Impact\Genshin Impact Game\YuanShen.exe`
 
-- 删除游戏内网页缓存
-    - 若您在使用**祈愿记录功能**时，选择**使用"从缓存刷新"**，但**频繁提示**验证密钥过期，可以尝试此操作
-    - 点击此选项内的`删除`按钮即可
+- Delete Game Embedded Browser Web Cache
+  - When you are using web cache refresh method in the wish history feature and receiving authkey expiration error, you can try this operation to fix the error
+  - Click on this field to execute the operation
 
-## 储存空间
+## Storage
 
-- 打开`数据`文件夹
-    - 在此选项中点击"打开"按钮，即可打开包含"用户数据/日志/元数据"的文件夹
+- Open Data Folder
+  - Click this field to open data folder that contains user data, log, and metadata
 
-- 打开`缓存`文件夹
-    - 在此选项中点击"打开"按钮，即可打开包含"图片缓存"的文件夹
-    - 在此文件夹内，存储了`胡桃工具箱`在运行期间产生的`图片缓存`
+- Change Data Directory
+  - This field allows you to change the data directory to path you want
 
-- 更换数据目录
-  - 此选项将允许用户将数据文件夹设置到其它目录
+- Open Cache Folder
+  - Click this field will open cache folder that saves image assets used by Snap Hutao
 
-- 重置图片资源
-  - 此选项允许用户在有大量图片下载失败的情况下重置缓存记录，执行该操作后软件会重启并重新下载图片缓存资源
+- Reset Image Resource
+  - This option allows user to reset image cache when there are too many image failed to load. The program will
+    re-download images resource at next start-up
 
-### 米游社每日签到
+### MiHoYo BBS/HoYoLab Daily Check-in
 
 ::: tip
-米游社签到功能主要用于米游社帐号登录状态监测
+Daily Check-in feature in Snap Hutao is mainly used to check account login status
 :::
 
-- 如何使用
-    - 首先需要您在`米游社多账号切换`功能中，选中当前需要进行签到的米游社账号
-    - 点击"打开签到对话框"按钮
-    - 胡桃工具箱会打开签到页面，随后你即可手动签到
-- 该功能的正常使用界面：   
-  ![米游社每日签到](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png)
+- How to use
+  - First, login to your MiHoYo BBS/HoYoLab account and select it
+  - Click on the field
+  - Then Snap Hutao will pop up the check-in page and you can check-in manually
+- Interface when this feature is working: 
+  ![Daily check in](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png)
 
-## 危险功能
-- 删除所有用户
-    - 此功能的作用是删除用户表的所有记录
-    - 点击`执行`按钮即可完成删除
-    - 通常情况下，用户不需要使用此功能来删除用户表的信息
-          
+## Dangerous Features
+- Enable Advanced Features
+  - With Snap Hutao running as administrator, you can enable this field to enable advanced features in the game launcher
+- Delete All Users
+  - Execute this operation will delete all user data in Snap Hutao
+  - Click on the field to operate, you will be asked to confirm
+  - In most scenario, you don't need to use this field
