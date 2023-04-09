@@ -61,7 +61,8 @@ On Windows 10 and Windows 11 you can click the button above to download Snap Hut
 - Follow the method above to install the Microsoft Store version application
 
 ## Update Snap Hutao
-**You can use any of the update methods, whatever method you used when you installed Snap Hutao. They don't need to be consistent, as Microsoft Store is the only source of packages.** ::: tabs  
+**You can use any of the update methods, whatever method you used when you installed Snap Hutao. They don't need to be consistent, as Microsoft Store is the only source of packages.**
+::: tabs  
 @tab Microsoft
 - Launch Microsoft Store
 - Click on Library in the bottom left to see all apps you have installed
