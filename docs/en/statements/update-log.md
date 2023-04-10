@@ -7,7 +7,7 @@ order: 1
 
 # Update Logs
 
-## 1.6.1 <Badge text="latest" type="tip" />
+## 1.6.2 <Badge text="latest" type="tip" />
 - New Feature
   - **Wish history cloud backup** based on Hutao account system
     - Currently, sponsors on AFDIAN and beta users will receive corresponding cloud membership time; All registered users will receive 5 days membership time after uploading Abyss record.

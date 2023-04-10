@@ -6,7 +6,7 @@ redirectFrom: /statements/update-log.html
 ---
 # 更新日志
 
-## 1.6.1 <Badge text="最新版" type="tip" />
+## 1.6.2 <Badge text="最新版" type="tip" />
 - 全新功能
   - 基于胡桃帐号系统的**祈愿记录云同步**
     - 当前在爱发电打赏用户和测试用户会获得对应时间的云同步权限，已注册用户在上传深渊记录后会获赠5天云同步有效期
