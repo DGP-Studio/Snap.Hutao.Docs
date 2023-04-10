@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 07 Apr 2023 13:05:05 GMT</pubDate>
-    <lastBuildDate>Fri, 07 Apr 2023 13:05:05 GMT</lastBuildDate>
+    <pubDate>Mon, 10 Apr 2023 08:30:16 GMT</pubDate>
+    <lastBuildDate>Mon, 10 Apr 2023 08:30:16 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -1087,9 +1087,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </details>
 <h2> 成就导入</h2>
 <ul>
-<li>胡桃工具箱使用<a href="https://www.snapgenshin.com/development/UIAF.html" target="_blank" rel="noopener noreferrer">统一可交换成就标准</a>数据标准来储存用户的成就数据
+<li>胡桃工具箱使用<a href="https://uigf.org/zh/standards/UIAF.html" target="_blank" rel="noopener noreferrer">统一可交换成就标准</a>数据标准来储存用户的成就数据
 <ul>
-<li>该标准允许用户从其它<strong>成就导出工具</strong>中通过 <a href="https://www.snapgenshin.com/development/ThirdPartyAccess.html#url-%E5%8D%8F%E8%AE%AE" target="_blank" rel="noopener noreferrer">Url 协议</a>和剪贴板将数据导入到胡桃工具箱中</li>
+<li>该标准允许用户从其它<strong>成就导出工具</strong>中通过 Url 协议和剪贴板将数据导入到胡桃工具箱中</li>
 </ul>
 </li>
 <li>你可以点击成就页面右上角隐藏菜单中的<code>导入</code>按钮，并选择<code>从 UIAF 文件导入</code>以加载以 UIAF 数据格式储存的第三方成就数据</li>
@@ -1598,7 +1598,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/hutao-settings.html</link>
       <guid>https://hut.ao/zh/features/hutao-settings.html</guid>
       <source url="https://hut.ao/zh/rss.xml">软件设置</source>
-      <description>以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序; 关于 胡桃 胡桃工具箱的图标：您可以在胡桃的首页 (/)查看它的原图; 该图像作品的作者为画画的芦苇 (https://space.bilibili.com/274422134)图标的绘制过程; DGP-Studio (https://github.com/DGP-Studio)已被所有者授...</description>
+      <description>以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序; 关于 胡桃 该部分包含以下信息： 胡桃工具箱的图标：您可以在胡桃的首页 (/)查看它的原图; 该图像作品的作者为画画的芦苇 (https://space.bilibili.com/274422134)图标的绘制过程; DGP-Studio (https://github.com/DGP-St...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1610,6 +1610,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </div>
 <h2> 关于 胡桃</h2>
+<p>该部分包含以下信息：</p>
 <ul>
 <li>胡桃工具箱的图标：您可以在胡桃的<a href="/" target="blank">首页</a>查看它的原图
 <ul>
@@ -1621,16 +1622,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 <li>胡桃的版本号</li>
 <li>设备ID</li>
-<li>反馈
-<ul>
-<li>点击<code>前往反馈</code>的按钮，即可跳转至相关页面</li>
 </ul>
-</li>
-</ul>
-<h2> 胡桃帐号</h2>
+<h2> 胡桃帐号 </h2>
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TUwTiE1g6dvNZZWy9_!!1797064093.png" alt="Hutao-account" loading="lazy">
 胡桃帐号是由 DGP-Studio 团队创建的为胡桃工具箱服务的帐号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。
-目前胡桃帐号已支持注册和登录，但无实际功能与其绑定。你可以在设置中点击这一选项以注册并登录你的帐号。</p>
+目前胡桃帐号已支持注册和登录，你可以在设置中点击这一选项以注册并登录你的帐号。</p>
 <h2> 外观</h2>
 <ul>
 <li>
@@ -1646,8 +1642,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在此选项中，您可以更改背景的材质为：
 <ul>
 <li>亚克力</li>
-<li>云母</li>
-<li>变种云母</li>
+<li>云母 （Windows 11 特性）</li>
+<li>变种云母（Windows 11 特性）</li>
 </ul>
 </li>
 <li>每个背景材质被选中后，您可以即时查看更改后的效果</li>
@@ -1664,15 +1660,18 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>游戏路径</p>
 <ul>
 <li>在此条目中，可以修改或设置您的游戏路径</li>
-<li>选择游戏路径时，请注意此处选择的应是游戏本身</li>
-<li>形如："$\Genshin Impact\Genshin Impact Game\YuanShen.exe"</li>
+<li>选择游戏路径时，请注意此处选择的应是游戏本身
+<ul>
+<li>形如：<code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code></li>
+</ul>
+</li>
 </ul>
 </li>
 <li>
 <p>删除游戏内网页缓存</p>
 <ul>
 <li>若您在使用<strong>祈愿记录功能</strong>时，选择<strong>使用"从缓存刷新"</strong>，但<strong>频繁提示</strong>验证密钥过期，可以尝试此操作</li>
-<li>点击此选项内的<code>删除</code>按钮即可</li>
+<li>点击此选项即可执行操作</li>
 </ul>
 </li>
 </ul>
@@ -1681,20 +1680,20 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>
 <p>打开<code>数据</code>文件夹</p>
 <ul>
-<li>在此选项中点击"打开"按钮，即可打开包含"用户数据/日志/元数据"的文件夹</li>
-</ul>
-</li>
-<li>
-<p>打开<code>缓存</code>文件夹</p>
-<ul>
-<li>在此选项中点击"打开"按钮，即可打开包含"图片缓存"的文件夹</li>
-<li>在此文件夹内，存储了<code>胡桃工具箱</code>在运行期间产生的<code>图片缓存</code></li>
+<li>点击此选项，即可打开包含"用户数据/日志/元数据"的文件夹</li>
 </ul>
 </li>
 <li>
 <p>更换数据目录</p>
 <ul>
 <li>此选项将允许用户将数据文件夹设置到其它目录</li>
+</ul>
+</li>
+<li>
+<p>打开<code>缓存</code>文件夹</p>
+<ul>
+<li>点击此选项即可打开包含"图片缓存"的文件夹</li>
+<li>在此文件夹内，存储了<code>胡桃工具箱</code>在运行期间产生的<code>图片缓存</code></li>
 </ul>
 </li>
 <li>
@@ -1722,6 +1721,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h2> 危险功能</h2>
 <ul>
+<li>启用高级功能
+<ul>
+<li>在管理员模式下，你可以通过启用这一栏设置以启用游戏启动器中的高级功能</li>
+</ul>
+</li>
 <li>删除所有用户
 <ul>
 <li>此功能的作用是删除用户表的所有记录</li>
@@ -1935,6 +1939,40 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 <li>导出完成</li>
+</ul>
+<h2> 祈愿记录云同步 </h2>
+<blockquote>
+<p>祈愿记录云同步功能基于胡桃云帐号，你需要<a href="hutao-settings#%E8%83%A1%E6%A1%83%E5%B8%90%E5%8F%B7">在设置中注册并登录胡桃帐号</a>以使用该功能</p>
+</blockquote>
+<p>在胡桃工具箱 1.6.1 版本中，我们推出了祈愿云同步功能。用户可以使用该功能，将本地的祈愿记录上传到胡桃云，避免珍贵的祈愿记录丢失，方便数据在多设备之间转移。</p>
+<h3> 云同步权限</h3>
+<p>由于云同步是一个消耗胡桃服务器资源的功能，故该功能不向全部用户开放。目前，胡桃提供以下几种启用云同步功能的方法：</p>
+<ol>
+<li>在爱发电上打赏胡桃的用户，我们会向与爱发电邮箱帐号相匹配的胡桃帐号自动增加使用时间</li>
+<li>对于所有注册用户，在每一期深渊第一次成功向胡桃数据库上传深境螺旋挑战记录后，会获得5天的同步功能使用时间</li>
+<li>为胡桃工具箱开源社区贡献（包括但不限于代码开发、程序设计、本地化翻译）的用户，可以直接联系开发团队添加时长
+<ul>
+<li>我们目前正在设计一个完善而自动化的开发者许可证颁发流程，它将会随着胡桃帐号系统的完善而推出</li>
+</ul>
+</li>
+</ol>
+<p>当你的胡桃帐号云同步权限过期后，你将无法上传或下载数据，但你的数据不会被删除。你可以在恢复权限后重新操作你的云备份数据。
+在权限过期时，你仍然可以手动删除你的云端数据。</p>
+<h3> 上传</h3>
+<ul>
+<li>在祈愿导出界面，选择你需要同步的祈愿存档</li>
+<li>点击右上角的<code>胡桃云</code>按钮</li>
+<li>点击<code>上传当前的祈愿存档</code>即可备份当前的存档数据至云端</li>
+</ul>
+<h3> 下载</h3>
+<ul>
+<li>在祈愿导出界面，点击右上角的<code>胡桃云</code>按钮</li>
+<li>在对应 UID 的帐号右侧点击下载按钮即可下载目标存档的云端数据</li>
+</ul>
+<h3> 删除</h3>
+<ul>
+<li>在祈愿导出界面，点击右上角的<code>胡桃云</code>按钮</li>
+<li>在对应 UID 的帐号右侧点击删除按钮即可删除目标存档的云端数据</li>
 </ul>
 <hr class="footnotes-sep">
 <section class="footnotes">
@@ -2199,11 +2237,35 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.6.0 新增; 胡桃帐号的注册和登录的基本功能; HoYoLab 帐号的登录并增加其在以下功能的支持; 网页登录和 SToken Cookie 登录; 深境螺旋记录; 每日签到; 我的角色; 实时便笺; 优化; 帧数解锁功能性能; 多客户端功能; 帧数解锁和游戏多开功能现在需要用户在设置中手动解锁高级功能; 设置页面布局; Windows 10 磁...</description>
+      <description>1.6.2 全新功能; 基于胡桃帐号系统的祈愿记录云同步; 当前在爱发电打赏用户和测试用户会获得对应时间的云同步权限，已注册用户在上传深渊记录后会获赠5天云同步有效期; 该功能会在接下来的数个 1.6 版本中持续优化; 修复; 渠道服帐号的实时便笺无法获取数据的问题; HoYoLab 帐号的登录问题; 优化; 重新设计了静态文件获取的流程; 1.6.0...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.6.0 </h2>
+<h2> 1.6.2 </h2>
+<ul>
+<li>全新功能
+<ul>
+<li>基于胡桃帐号系统的<strong>祈愿记录云同步</strong>
+<ul>
+<li>当前在爱发电打赏用户和测试用户会获得对应时间的云同步权限，已注册用户在上传深渊记录后会获赠5天云同步有效期</li>
+<li>该功能会在接下来的数个 1.6 版本中持续优化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>渠道服帐号的实时便笺无法获取数据的问题</li>
+<li>HoYoLab 帐号的登录问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>重新设计了静态文件获取的流程</li>
+</ul>
+</li>
+</ul>
+<h2> 1.6.0</h2>
 <ul>
 <li>新增
 <ul>

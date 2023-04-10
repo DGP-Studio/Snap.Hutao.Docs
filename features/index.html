@@ -3,63 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url=/zh/features/">
+  <link rel="canonical" href="/zh/features/">
   <title>Redirecting...</title>
   <script>
-    const { hash, origin, pathname } = window.location;
-    const { languages } = window.navigator;
-    const anchor = hash.substring(1);
-
-    const localeConfig = {"0":["/en/",["en-US","en-UK","en"]],"1":["/zh/",["zh-CN","zh-TW","zh"]],"/zh/":["zh-CN"],"/en/":["en-US"]};
-    const availableLocales = ["/en/","/zh/"];
-    const defaultLocale = "/en/";
-    const defaultBehavior = "defaultLocale"
-
-    let matchedLocalePath = null;
-
-    // get matched locale
-    findLanguage:
-      for (const lang of languages)
-        for (const [localePath, langs] of Object.entries(localeConfig))
-          if (langs.includes(lang)) {
-            if (!availableLocales.includes(localePath))
-              continue;
-            matchedLocalePath = localePath;
-            break findLanguage;
-          }
-    
-    // default link
-    const defaultLink = defaultLocale? `${origin}${defaultLocale}${pathname.substring(1)}${anchor?`#${anchor}`:""}`: null;
-
-    // a locale matches
-    if (matchedLocalePath) {
-      const localeLink = `${origin}${matchedLocalePath}${pathname.substring(1)}${anchor?`#${anchor}`:""}`;
-
-      if (availableLocales.includes(matchedLocalePath)) {
-        location.href = localeLink;
-      }
-      // the page does not exist
-      else {
-        // locale homepage
-        if (defaultBehavior === "homepage") {
-          location.href = `${origin}${matchedLocalePath}`;
-        }
-        // default locale page
-        else if (defaultBehavior === "defaultLocale" && defaultLink) {
-          location.href = defaultLink;
-        }
-        // as is to get a 404 page of that locale
-        else {
-          location.href = localeLink;
-        }
-      }
-    }
-    // we have a default page
-    else if (defaultLink) {
-      location.href = defaultLink;
-    }
-    else {
-      location.href = `${origin}/404.html`;
-    }
+    const anchor = window.location.hash.substr(1);
+    location.href = `/zh/features/${anchor?`#${anchor}`:""}`;
   </script>
 </head>
 <body>

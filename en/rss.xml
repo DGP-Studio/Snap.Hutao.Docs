@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Fri, 07 Apr 2023 13:05:05 GMT</pubDate>
-    <lastBuildDate>Fri, 07 Apr 2023 13:05:05 GMT</lastBuildDate>
+    <pubDate>Mon, 10 Apr 2023 08:30:16 GMT</pubDate>
+    <lastBuildDate>Mon, 10 Apr 2023 08:30:16 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -15,9 +15,9 @@
     <category>FAQ</category>
     <category>第三方工具</category>
     <category>Announcement</category>
-    <category>公告</category>
     <category>Feature</category>
     <category>Tutorial</category>
+    <category>公告</category>
     <item>
       <title>实时便笺</title>
       <link>https://hut.ao/en/features/real-time-notes.html</link>
@@ -149,48 +149,51 @@
       <enclosure url="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" type="image/png"/>
     </item>
     <item>
-      <title>卸载胡桃工具箱</title>
+      <title>Uninstall Snap Hutao</title>
       <link>https://hut.ao/en/advanced/uninstall.html</link>
       <guid>https://hut.ao/en/advanced/uninstall.html</guid>
-      <source url="https://hut.ao/en/rss.xml">卸载胡桃工具箱</source>
-      <description>清除有关的任务计划; 1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现这个问题 (FAQ.md#为什么会弹出需要使用新应用以打开的对话框); 方法1 ：; 打开胡桃，选择 设置 页签; 找到 删除所有计划任务 一栏中，点击右侧的 执行 按钮 ; 方法2：; 执行下方的脚本 - 方法3：; 打开 Windows...</description>
+      <source url="https://hut.ao/en/rss.xml">Uninstall Snap Hutao</source>
+      <description>Clear Real-time Notes Scheduled Task; Before version 1.4.15, if not execute this step, scheduled task used to refresh real-time notes may not be deleted,and you may face this is...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:41 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 卸载胡桃工具箱</h1>
+      <content:encoded><![CDATA[<h1> Uninstall Snap Hutao</h1>
 <ul>
-<li>清除有关的任务计划
+<li>Clear Real-time Notes Scheduled Task
 <ul>
-<li>1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现<a href="/en/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">这个问题</a></li>
-<li><strong>方法1</strong> </li>
-<li><strong>方法2</strong>：
+<li>Before version 1.4.15, if not execute this step, scheduled task used to refresh real-time notes may not be deleted,and you may face <a href="/en/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">this issue</a>
 <ul>
-<li>执行下方的脚本<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li><strong>Method 1</strong> </li>
 </ul>
 </li>
-<li><strong>方法3</strong>：
+<li><strong>Method 2</strong>：
 <ul>
-<li>打开 Windows 计划任务程序</li>
-<li>找到 <code>SnapHutaoDailyNoteRefreshTask</code> 任务并删除</li>
+<li>Execute the following PowerShell script<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
 </ul>
 </li>
-<li><strong>方法4</strong>：
+<li><strong>Method 3</strong>：
 <ul>
-<li>升级至<code>1.5.1</code>版本并使用一次实时便笺功能</li>
-<li>直接卸载胡桃工具箱</li>
+<li>Open Windows Scheduled Task Manager</li>
+<li>Find <code>SnapHutaoDailyNoteRefreshTask</code> task and delete it</li>
+</ul>
+</li>
+<li><strong>Method 4</strong>：
+<ul>
+<li>Upgrade to<code>1.5.1</code> version and open Real-time Notes</li>
+<li>Close software and remove it</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>卸载软件
+<li>Remove the Software
 <ul>
-<li>打开<code>开始菜单</code></li>
-<li>找到或搜索到<code>胡桃</code></li>
-<li>右键点击<code>胡桃</code>，并选择<code>卸载</code></li>
+<li>Open <code>Start Menu</code></li>
+<li>Find or search <code>Snap Hutao</code></li>
+<li>Right click on it, and select <code>Unstall</code></li>
 </ul>
 </li>
-<li>清除数据文件夹（如需完全卸载）
+<li>Remove data folder (If you want remove it completely)
 <ul>
-<li>打开并删除该文件夹 <code>%userprofile%/Documents/Hutao</code></li>
+<li>Open and delete <code>%userprofile%/Documents/Hutao</code></li>
 </ul>
 </li>
 </ul>
@@ -483,12 +486,12 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>高级</title>
+      <title>Advanced</title>
       <link>https://hut.ao/en/advanced/</link>
       <guid>https://hut.ao/en/advanced/</guid>
-      <source url="https://hut.ao/en/rss.xml">高级</source>
+      <source url="https://hut.ao/en/rss.xml">Advanced</source>
       <pubDate>Sat, 18 Mar 2023 03:05:36 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 高级</h1>
+      <content:encoded><![CDATA[<h1> Advanced</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -633,11 +636,35 @@
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.6.0 Add; Hutao account system with registration and login available now; Support of HoYoLab account login, and add its support to the following features:; Web login and Stoken...</description>
+      <description>1.6.2 New Feature; Wish history cloud backup based on Hutao account system; Currently, sponsors on AFDIAN and beta users will receive corresponding cloud membership time; All re...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.6.0 </h2>
+<h2> 1.6.2 </h2>
+<ul>
+<li>New Feature
+<ul>
+<li><strong>Wish history cloud backup</strong> based on Hutao account system
+<ul>
+<li>Currently, sponsors on AFDIAN and beta users will receive corresponding cloud membership time; All registered users will receive 5 days membership time after uploading Abyss record.</li>
+<li>This feature will be optimized constantly in the following 1.6 versions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Issue that BiliBili server account cannot receive data for Real-time Notes</li>
+<li>Issue on HoYoLab login</li>
+</ul>
+</li>
+<li>Optimize
+<ul>
+<li>Static assets download logic</li>
+</ul>
+</li>
+</ul>
+<h2> 1.6.0</h2>
 <ul>
 <li>Add
 <ul>
@@ -1034,60 +1061,59 @@
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>角色资料</title>
+      <title>Character WIKI</title>
       <link>https://hut.ao/en/features/character-wiki.html</link>
       <guid>https://hut.ao/en/features/character-wiki.html</guid>
-      <source url="https://hut.ao/en/rss.xml">角色资料</source>
-      <description>characters-wiki 角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki 已包含的数据 角色列表; 使用列表左上角的按钮，可切换列表显示的方式：即&amp;quot;缩略图与名称&amp;quot;或&amp;quot;仅缩略图&amp;quot;; 单击列表中的缩略图或名称，即可跳转到相应的介绍页面; 数据内容; 角色基本信息; 介绍; 各等级下的数值; 属性;...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <source url="https://hut.ao/en/rss.xml">Character WIKI</source>
+      <description>characters-wiki Character WIKI is a Snap Hutao build-in WIKI feature used to query each character&amp;apos;s information. Included Data Character list; Use the icon above the list, you c...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 角色资料</h1>
+      <content:encoded><![CDATA[<h1> Character WIKI</h1>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png" alt="characters-wiki" loading="lazy"></p>
-<p>角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki</p>
-<h2> 已包含的数据</h2>
+<p>Character WIKI is a Snap Hutao build-in WIKI feature used to query each character's information.</p>
+<h2> Included Data</h2>
 <ul>
-<li>角色列表
+<li>Character list
 <ul>
-<li>使用列表左上角的按钮，可切换列表显示的方式：即"缩略图与名称"或"仅缩略图"</li>
-<li>单击列表中的缩略图或名称，即可跳转到相应的介绍页面</li>
+<li>Use the icon above the list, you can change the view between <code>list</code> and <code>grid</code></li>
+<li>Click on character's icon, and you will be directed to its WIKI page</li>
 </ul>
 </li>
-<li>数据内容
+<li>Character information
 <ul>
-<li>角色基本信息
+<li>Character information
 <ul>
-<li>介绍</li>
-<li>各等级下的数值</li>
-<li>属性</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>天赋
-<ul>
-<li>基本介绍</li>
-<li>可切换至对应等级天赋的各项数值</li>
-</ul>
-</li>
-<li>命之座</li>
-<li>根据"胡桃数据库"的统计信息而展示的<strong>角色队伍搭配、武器搭配以及圣遗物搭配</strong>的相关推荐</li>
-<li>其他信息
-<ul>
-<li>角色立绘</li>
-<li>特色料理</li>
-<li>衣装信息</li>
-<li>角色资料</li>
-<li>角色故事</li>
+<li>Introduction of the character</li>
+<li>Numerical attributes value at each level</li>
+<li>Attributes</li>
 </ul>
 </li>
 </ul>
-<h2> 添加至养成计划</h2>
+</li>
+<li>Talent
 <ul>
-<li>在角色资料页面，你可以在选定角色后，点击右上角的<code>养成计算</code>按钮来将该角色添加至你的养成计划中
+<li>Introduction</li>
+<li>Numerical talent value at each level</li>
+</ul>
+</li>
+<li>Constellation</li>
+<li>statistical information on <strong>Team, weapon usage, artifact set usage</strong> provided by Hutao Database</li>
+<li>Other information
 <ul>
-<li>该养成计划将默认从角色1级开始培养</li>
-<li>如果你需要基于当前已有的角色创建养成计划，可以使用<a href="/en/features/character-data.html" target="blank">我的角色</a>功能</li>
+<li>Character tachie</li>
+<li>Special food</li>
+<li>Costume</li>
+<li>Character stories</li>
+</ul>
+</li>
+</ul>
+<h2> Add to Dev Plan</h2>
+<ul>
+<li>At character WIKI page, you can select character and click on <code>Dev Plan</code> on the top right to add it to your Dev Plan
+<ul>
+<li>The new plan will set the base level as <code>1</code></li>
+<li>If you want to make new Dev Plan based on character you already have, you can try <a href="/en/features/character-data.html" target="blank">My Character</a> feature</li>
 </ul>
 </li>
 </ul>
@@ -1270,138 +1296,148 @@
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01VNtgaU1g6du5Mh1Oo_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>软件设置</title>
+      <title>Software Settings</title>
       <link>https://hut.ao/en/features/hutao-settings.html</link>
       <guid>https://hut.ao/en/features/hutao-settings.html</guid>
-      <source url="https://hut.ao/en/rss.xml">软件设置</source>
-      <description>以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序; 关于 胡桃 胡桃工具箱的图标：您可以在胡桃的首页 (https://hut.ao/)查看它的原图图标的绘制过程 ; 该图像作品的作者为LOFTER@夙夜 (https://dieqi32894.lofter.com/post/4b58ce16_2b6b2d365)并由DGP-Studio (...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <source url="https://hut.ao/en/rss.xml">Software Settings</source>
+      <description>The following feature tutorials are introduced in-program order.; About Snap Hutao This part has the following information: The icon of Snap Hutao：You can find the original imag...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 软件设置</h1>
+      <content:encoded><![CDATA[<h1> Software Settings</h1>
 <div class="hint-container info">
 <p class="hint-container-title">Info</p>
 <ul>
-<li>以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序</li>
+<li>The following feature tutorials are introduced in-program order.</li>
 </ul>
 </div>
-<h2> 关于 胡桃</h2>
+<h2> About Snap Hutao</h2>
+<p>This part has the following information:</p>
 <ul>
-<li>胡桃工具箱的图标：您可以在胡桃的<a href="https://hut.ao/" target="_blank" rel="noopener noreferrer">首页</a>查看它的原图
+<li>The icon of Snap Hutao：You can find the original image of the icon at the <a href="/" target="blank">home page</a>
 <ul>
-<li>该图像作品的作者为<a href="https://space.bilibili.com/274422134" target="_blank" rel="noopener noreferrer">画画的芦苇</a> ::: details 图标的绘制过程 </li>
-<li>该图像作品的作者为<a href="https://dieqi32894.lofter.com/post/4b58ce16_2b6b2d365" target="_blank" rel="noopener noreferrer">LOFTER@夙夜</a>并由<a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a>后期处理后，授权使用</li>
+<li>The artist is <a href="https://space.bilibili.com/274422134" target="_blank" rel="noopener noreferrer">画画的芦苇 (BiliBili)</a><details class="hint-container details"><summary>Drawing Process</summary>
+</details>
+</li>
+<li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a> is authorized by owner to use it for Snap Hutao Project</li>
 </ul>
 </li>
-<li>胡桃的版本号</li>
-<li>设备ID</li>
-<li>反馈
-<ul>
-<li>点击<code>前往反馈</code>的按钮，即可跳转至相关页面</li>
+<li>Snap Hutao client version</li>
+<li>Device ID</li>
 </ul>
-</li>
-</ul>
-<h2> 外观</h2>
+<h2> Snap Hutao Account </h2>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKJFMi1g6dvSk6pVi_!!1797064093.png" alt="Hutao-account" loading="lazy">
+Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
+Currently, you are already able to register and login to your Snap Hutao account in the settings page.</p>
+<h2> Appearance</h2>
 <ul>
 <li>
-<p>语言</p>
+<p>Language</p>
 <ul>
-<li>默认情况下胡桃会跟随系统设置来显示对应的语言</li>
-<li>使用该功能你可以强制将胡桃的显示语言设置为指定的语言</li>
-</ul>
-</li>
-<li>
-<p>背景材质</p>
-<ul>
-<li>在此选项中，您可以更改背景的材质为：
-<ul>
-<li>亚克力</li>
-<li>云母</li>
-<li>变种云母</li>
-</ul>
-</li>
-<li>每个背景材质被选中后，您可以即时查看更改后的效果</li>
-</ul>
-</li>
-</ul>
-<h2> 祈愿记录</h2>
-<ul>
-<li>在此条目中，您可以选择是否隐藏无记录的历史祈愿活动，即"没有祈愿记录的卡池"</li>
-</ul>
-<h2> 游戏</h2>
-<ul>
-<li>
-<p>游戏路径</p>
-<ul>
-<li>在此条目中，可以修改或设置您的游戏路径</li>
-<li>选择游戏路径时，请注意此处选择的应是游戏本身</li>
-<li>形如："$\Genshin Impact\Genshin Impact Game\YuanShen.exe"</li>
+<li>Snap Hutao will following system language setting by default</li>
+<li>You can force to change to another language in the settings page</li>
 </ul>
 </li>
 <li>
-<p>删除游戏内网页缓存</p>
+<p>Backdrop Material</p>
 <ul>
-<li>若您在使用<strong>祈愿记录功能</strong>时，选择<strong>使用"从缓存刷新"</strong>，但<strong>频繁提示</strong>验证密钥过期，可以尝试此操作</li>
-<li>点击此选项内的<code>删除</code>按钮即可</li>
+<li>In this option, you can change the backdrop material of the software to
+<ul>
+<li>Acrylic</li>
+<li>Mica (Windows 11 only)</li>
+<li>MicaAlt (Windows 11 only)</li>
+</ul>
+</li>
+<li>The setting will take effect immediately</li>
 </ul>
 </li>
 </ul>
-<h2> 储存空间</h2>
+<h2> Wish History</h2>
+<ul>
+<li>In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature</li>
+</ul>
+<h2> Game</h2>
 <ul>
 <li>
-<p>打开<code>数据</code>文件夹</p>
+<p>Game Path</p>
 <ul>
-<li>在此选项中点击"打开"按钮，即可打开包含"用户数据/日志/元数据"的文件夹</li>
+<li>In this field, you can modify or set your game path for Snap Hutao</li>
+<li>When setting the game path, you should select game program instead of launcher program
+<ul>
+<li>Such as <code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code></li>
+</ul>
+</li>
 </ul>
 </li>
 <li>
-<p>打开<code>缓存</code>文件夹</p>
+<p>Delete Game Embedded Browser Web Cache</p>
 <ul>
-<li>在此选项中点击"打开"按钮，即可打开包含"图片缓存"的文件夹</li>
-<li>在此文件夹内，存储了<code>胡桃工具箱</code>在运行期间产生的<code>图片缓存</code></li>
+<li>When you are using web cache refresh method in the wish history feature and receiving authkey expiration error, you can try this operation to fix the error</li>
+<li>Click on this field to execute the operation</li>
+</ul>
+</li>
+</ul>
+<h2> Storage</h2>
+<ul>
+<li>
+<p>Open Data Folder</p>
+<ul>
+<li>Click this field to open data folder that contains user data, log, and metadata</li>
 </ul>
 </li>
 <li>
-<p>更换数据目录</p>
+<p>Change Data Directory</p>
 <ul>
-<li>此选项将允许用户将数据文件夹设置到其它目录</li>
+<li>This field allows you to change the data directory to path you want</li>
 </ul>
 </li>
 <li>
-<p>重置图片资源</p>
+<p>Open Cache Folder</p>
 <ul>
-<li>此选项允许用户在有大量图片下载失败的情况下重置缓存记录，执行该操作后软件会重启并重新下载图片缓存资源</li>
+<li>Click this field will open cache folder that saves image assets used by Snap Hutao</li>
+</ul>
+</li>
+<li>
+<p>Reset Image Resource</p>
+<ul>
+<li>This option allows user to reset image cache when there are too many image failed to load. The program will
+re-download images resource at next start-up</li>
 </ul>
 </li>
 </ul>
-<h3> 米游社每日签到</h3>
+<h3> MiHoYo BBS/HoYoLab Daily Check-in</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
-<p>米游社签到功能主要用于米游社帐号登录状态监测</p>
+<p>Daily Check-in feature in Snap Hutao is mainly used to check account login status</p>
 </div>
 <ul>
-<li>如何使用
+<li>How to use
 <ul>
-<li>首先需要您在<code>米游社多账号切换</code>功能中，选中当前需要进行签到的米游社账号</li>
-<li>点击"打开签到对话框"按钮</li>
-<li>胡桃工具箱会打开签到页面，随后你即可手动签到</li>
+<li>First, login to your MiHoYo BBS/HoYoLab account and select it</li>
+<li>Click on the field</li>
+<li>Then Snap Hutao will pop up the check-in page and you can check-in manually</li>
 </ul>
 </li>
-<li>该功能的正常使用界面：<br>
-<img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png" alt="米游社每日签到" loading="lazy"></li>
+<li>Interface when this feature is working:
+<img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png" alt="Daily check in" loading="lazy"></li>
 </ul>
-<h2> 危险功能</h2>
+<h2> Dangerous Features</h2>
 <ul>
-<li>删除所有用户
+<li>Enable Advanced Features
 <ul>
-<li>此功能的作用是删除用户表的所有记录</li>
-<li>点击<code>执行</code>按钮即可完成删除</li>
-<li>通常情况下，用户不需要使用此功能来删除用户表的信息</li>
+<li>With Snap Hutao running as administrator, you can enable this field to enable advanced features in the game launcher</li>
+</ul>
+</li>
+<li>Delete All Users
+<ul>
+<li>Execute this operation will delete all user data in Snap Hutao</li>
+<li>Click on the field to operate, you will be asked to confirm</li>
+<li>In most scenario, you don't need to use this field</li>
 </ul>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKJFMi1g6dvSk6pVi_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>米游社多帐号切换</title>
@@ -1689,35 +1725,50 @@ If there is any conflict between the content of the document on this page and th
 ]]></content:encoded>
     </item>
     <item>
-      <title>功能指南</title>
+      <title>Features</title>
       <link>https://hut.ao/en/features/</link>
       <guid>https://hut.ao/en/features/</guid>
-      <source url="https://hut.ao/en/rss.xml">功能指南</source>
+      <source url="https://hut.ao/en/rss.xml">Features</source>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 功能指南</h1>
+      <content:encoded><![CDATA[<h1> Features</h1>
 ]]></content:encoded>
     </item>
     <item>
-      <title>成就管理</title>
+      <title>Achievement Management</title>
       <link>https://hut.ao/en/features/achievements.html</link>
       <guid>https://hut.ao/en/features/achievements.html</guid>
-      <source url="https://hut.ao/en/rss.xml">成就管理</source>
-      <description>胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态 在第一次使用时，你需要根据提示点击创建新存档按钮以创造一个成就存档并为其命名; 创建第一个资料页后，你可以点击右上角的创建新存档来继续为更多的帐号创建成就记录档案; 视频指南 对于大多数人而言，遵循本页文档会有更高的效率。 胡桃工具箱视频指南 6 - 成就管理篇 成就导入 胡桃工具箱使...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <source url="https://hut.ao/en/rss.xml">Achievement Management</source>
+      <description>Snap Hutao offers local achievement management feature, users can view and manage status of achievement At first time use, you will follow the instruction to create an archive a...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 成就管理</h1>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01eddfVC1g6du4Xdd9P_!!1797064093.png" alt="" loading="lazy"></p>
-<p>胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态</p>
+      <content:encoded><![CDATA[<h1> Achievement Management</h1>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01oe2JG41g6dvW3vCvO_!!1797064093.png" alt="" loading="lazy"></p>
+<p>Snap Hutao offers local achievement management feature, users can view and manage status of achievement</p>
 <ul>
-<li>在第一次使用时，你需要根据提示点击<code>创建新存档</code>按钮以创造一个成就存档并为其命名</li>
-<li>创建第一个资料页后，你可以点击右上角的<code>创建新存档</code>来继续为更多的帐号创建成就记录档案</li>
+<li>At first time use, you will follow the instruction to create an archive and name it</li>
+<li>After that, you are still able to make new archives by click on <code>Create New Archive</code> for other game accounts</li>
 </ul>
-<h2> 视频指南</h2>
-<p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
-<p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。 ::: details 胡桃工具箱视频指南 6 - 成就管理篇</p>
+<h2> Achievement Import</h2>
+<ul>
+<li>Snap Hutao is using <a href="https://uigf.org/en/standards/UIAF.html" target="_blank" rel="noopener noreferrer">Uniformed Interchangeable Achievement Format Standar</a> to store user's achievement data
+<ul>
+<li>This standard allows user to transmit achievement data between Snap Hutao wiht other achievement tools, such as <strong>Achievement exporter</strong></li>
+</ul>
+</li>
+<li>You can click on <code>Import</code> at top right menu on Achievement Management page, and select file import to load UIAF formatted data</li>
+</ul>
+<h2> Achievement Tools We Recommend</h2>
+<ul>
+<li>
+<p><a href="https://github.com/HolographicHat/YaeAchievement" target="_blank" rel="noopener noreferrer">YaeAchievement</a> </p>
+</li>
+<li>
+<p><a href="https://cocogoat.work/" target="_blank" rel="noopener noreferrer">椰羊 cocogoat</a> </p>
+</li>
+</ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01eddfVC1g6du4Xdd9P_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01oe2JG41g6dvW3vCvO_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>祈愿记录</title>
@@ -1925,27 +1976,8 @@ If there is any conflict between the content of the document on this page and th
 <li>Follow the method above to install the Microsoft Store version application</li>
 </ul>
 <h2> Update Snap Hutao</h2>
-<p><strong>You can use any of the update methods, whatever method you used when you installed Snap Hutao. They don't need to be consistent, as Microsoft Store is the only source of packages.</strong> ::: tabs<br>
-@tab Microsoft</p>
-<ul>
-<li>Launch Microsoft Store</li>
-<li>Click on Library in the bottom left to see all apps you have installed</li>
-<li>Click <code>Get updates</code> on the top right and your application will be updated</li>
-</ul>
-<p>If you still don't receive the update, you may enter the Snap Hutao <a href="(https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)">detail page</a> in Microsoft Store, to allow the store to fetch the latest metadata.</p>
-<p>@tab winget</p>
-<ul>
-<li>Launch PowerShell</li>
-<li>Execute command <code>winget upgrade "Snap Hutao"</code></li>
-<li>Follow the prompt to allow the upgrade</li>
-</ul>
-<p>@tab GitHub</p>
-<ul>
-<li>Visit the <a href="https://github.com/DGP-Studio/Snap.Hutao/releases/latest/" target="_blank" rel="noopener noreferrer">latest release page</a> of Snap Hutao</li>
-<li>Download MSIX Package</li>
-<li>Run the MSIX package directly to perform upgrade</li>
-</ul>
-<p>:::</p>
+<p><strong>You can use any of the update methods, whatever method you used when you installed Snap Hutao. They don't need to be consistent, as Microsoft Store is the only source of packages.</strong></p>
+
 <h2> Installing WebView2 Runtime</h2>
 <p>WebView2 Runtime is provided by Microsoft, which enables a built-in browser at a low resource cost inside the <a href="http://program.As" target="_blank" rel="noopener noreferrer">program.As</a> an optional component, WebView2 is not a mandatory component, but it will make some Snap Hutao's features easier.</p>
 <p>At the bottom of the<a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">Microsoft official page</a>, you can find<code>Evergreen Standalone Installer</code>, choose<code>x64</code>download and install as prompted</p>
