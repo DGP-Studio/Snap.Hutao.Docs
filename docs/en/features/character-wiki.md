@@ -1,39 +1,36 @@
 ---
 headerDepth: 0
-category:
-  - 功能
-  - 教程
+category: [Feature, Tutorial]
 order: 8
 ---
 
-# 角色资料
+# Character WIKI
 
 ![characters-wiki](https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png)
 
-角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki
+Character WIKI is a Snap Hutao build-in WIKI feature used to query each character's information.
 
-## 已包含的数据
-- 角色列表
-    - 使用列表左上角的按钮，可切换列表显示的方式：即"缩略图与名称"或"仅缩略图"
-    - 单击列表中的缩略图或名称，即可跳转到相应的介绍页面
-- 数据内容
-  - 角色基本信息
-    - 介绍
-    - 各等级下的数值
-    - 属性
-- 天赋
-  - 基本介绍
-  - 可切换至对应等级天赋的各项数值
-- 命之座
-- 根据"胡桃数据库"的统计信息而展示的**角色队伍搭配、武器搭配以及圣遗物搭配**的相关推荐
-- 其他信息
-  - 角色立绘
-  - 特色料理
-  - 衣装信息
-  - 角色资料
-  - 角色故事
+## Included Data
+- Character list
+  - Use the icon above the list, you can change the view between `list` and `grid`
+  - Click on character's icon, and you will be directed to its WIKI page
+- Character information
+  - Character information
+    - Introduction of the character
+    - Numerical attributes value at each level
+    - Attributes
+- Talent
+  - Introduction
+  - Numerical talent value at each level
+- Constellation
+- statistical information on **Team, weapon usage, artifact set usage** provided by Hutao Database
+- Other information
+  - Character tachie
+  - Special food
+  - Costume
+  - Character stories
 
-## 添加至养成计划
-- 在角色资料页面，你可以在选定角色后，点击右上角的`养成计算`按钮来将该角色添加至你的养成计划中
-  - 该养成计划将默认从角色1级开始培养
-  - 如果你需要基于当前已有的角色创建养成计划，可以使用[我的角色](character-data.md)功能
+## Add to Dev Plan
+- At character WIKI page, you can select character and click on `Dev Plan` on the top right to add it to your Dev Plan
+  - The new plan will set the base level as `1`
+  - If you want to make new Dev Plan based on character you already have, you can try [My Character](character-data.html) feature

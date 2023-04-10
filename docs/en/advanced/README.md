@@ -3,6 +3,6 @@ comment: false
 index: false
 ---
 
-# 高级
+# Advanced
 
 <AutoCatalog />
