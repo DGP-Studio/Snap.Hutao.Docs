@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 10 Apr 2023 08:30:16 GMT</pubDate>
-    <lastBuildDate>Mon, 10 Apr 2023 08:30:16 GMT</lastBuildDate>
+    <pubDate>Mon, 10 Apr 2023 18:17:05 GMT</pubDate>
+    <lastBuildDate>Mon, 10 Apr 2023 18:17:05 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -626,22 +626,6 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>圣遗物评分机制</title>
-      <link>https://hut.ao/zh/advanced/artifact-rating-rules.html</link>
-      <guid>https://hut.ao/zh/advanced/artifact-rating-rules.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">圣遗物评分机制</source>
-      <description>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。 如果你有兴趣探索我们的评分机制， 可以审阅胡桃工具箱代码 (https://github.com/DGP-Studio/Snap.Hutao/tree/main/src/Snap.Hutao/Snap.Hutao/Service/AvatarInfo/Factory) 来了解评分计算方法。 如...</description>
-      <category>FAQ</category>
-      <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 圣遗物评分机制</h1>
-<p>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。</p>
-<p>如果你有兴趣探索我们的评分机制，
-可以审阅<a href="https://github.com/DGP-Studio/Snap.Hutao/tree/main/src/Snap.Hutao/Snap.Hutao/Service/AvatarInfo/Factory" target="_blank" rel="noopener noreferrer">胡桃工具箱代码</a>
-来了解评分计算方法。</p>
-<p>如果你对当前的圣遗物评分机制有新的建议，可以<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose" target="_blank" rel="noopener noreferrer">在 GitHub 上开启 Issue 为圣遗物评分提供新的依据</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>常见的程序异常</title>
       <link>https://hut.ao/zh/advanced/exceptions.html</link>
       <guid>https://hut.ao/zh/advanced/exceptions.html</guid>
@@ -684,7 +668,7 @@
 </li>
 </ul>
 <h2> HttpRequestException 元数据校验文件下载失败</h2>
-<h3> 403 (Forbidden)</h3>
+<h3> 403 (Forbidden)/ 404 (NOT FOUND)</h3>
 <p>解决方案：更新胡桃工具箱至<a href="https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52" target="_blank" rel="noopener noreferrer">最新版本</a></p>
 <h3> 502 (Bad Gateway)</h3>
 <blockquote>

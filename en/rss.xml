@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Mon, 10 Apr 2023 08:30:16 GMT</pubDate>
-    <lastBuildDate>Mon, 10 Apr 2023 08:30:16 GMT</lastBuildDate>
+    <pubDate>Mon, 10 Apr 2023 18:17:05 GMT</pubDate>
+    <lastBuildDate>Mon, 10 Apr 2023 18:17:05 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -413,20 +413,6 @@
 <p>如果系统代理是你的网络必须选项，请关闭系统代理而使用 TUN 模式代理；或者也可以通过 <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a> 解除 <a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">Windows APP Container Loopback 的限制</a> 。</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>圣遗物评分机制</title>
-      <link>https://hut.ao/en/advanced/artifact-rating-rules.html</link>
-      <guid>https://hut.ao/en/advanced/artifact-rating-rules.html</guid>
-      <source url="https://hut.ao/en/rss.xml">圣遗物评分机制</source>
-      <description>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。 如果你有兴趣探索我们的评分机制， 可以审阅胡桃工具箱代码 (https://github.com/DGP-Studio/Snap.Hutao/tree/main/src/Snap.Hutao/Snap.Hutao/Service/AvatarInfo/Factory) 来了解评分计算方法。 如...</description>
-      <category>FAQ</category>
-      <pubDate>Sat, 18 Mar 2023 03:05:37 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 圣遗物评分机制</h1>
-<p>因角色设定差异，圣遗物评分机制也必须随角色所需属性而确定。</p>
-<p>如果你有兴趣探索我们的评分机制， 可以审阅<a href="https://github.com/DGP-Studio/Snap.Hutao/tree/main/src/Snap.Hutao/Snap.Hutao/Service/AvatarInfo/Factory" target="_blank" rel="noopener noreferrer">胡桃工具箱代码</a> 来了解评分计算方法。</p>
-<p>如果你对当前的圣遗物评分机制有新的建议，可以<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose" target="_blank" rel="noopener noreferrer">在 GitHub 上开启 Issue 为圣遗物评分提供新的依据</a></p>
-]]></content:encoded>
     </item>
     <item>
       <title>祈愿系统与导出原理</title>

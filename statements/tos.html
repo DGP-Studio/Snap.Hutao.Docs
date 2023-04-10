@@ -6,6 +6,7 @@
   <title>Redirecting...</title>
   <script>
     const { hash, origin, pathname } = window.location;
+    const routePath = pathname.substring(1);
     const { languages } = window.navigator;
     const anchor = hash.substring(1);
 
@@ -28,11 +29,11 @@
           }
     
     // default link
-    const defaultLink = defaultLocale? `${origin}${defaultLocale}${pathname.substring(1)}${anchor?`#${anchor}`:""}`: null;
+    const defaultLink = defaultLocale? `${origin}${defaultLocale}${routePath}${anchor? `#${anchor}`: ""}`: null;
 
     // a locale matches
     if (matchedLocalePath) {
-      const localeLink = `${origin}${matchedLocalePath}${pathname.substring(1)}${anchor?`#${anchor}`:""}`;
+      const localeLink = `${origin}${matchedLocalePath}${routePath}${anchor? `#${anchor}`: ""}`;
 
       if (availableLocales.includes(matchedLocalePath)) {
         location.href = localeLink;
