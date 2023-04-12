@@ -1,29 +1,26 @@
 ---
 headerDepth: 0
-category:
-  - 功能
-  - 教程
+category: [Feature, Tutorial]
 order: 9
 ---
 
-# 武器资料
+# Weapon WIKI
 
 ![weapon-wiki](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01jbzlTH1g6du6KfSmF_!!1797064093.png)
 
-武器资料是胡桃工具箱中内置的用于查询各个武器的**外观、参数、精炼效果、推荐搭配**等数据的 Wiki
+Weapon WIKI is a Snap Hutao build-in WIKI feature used to look up each weapon's information
 
+## Included Data
 
-## 已包含的数据
-
-- 武器列表
-    - 使用列表左上角的按钮，可切换列表显示的方式：即"缩略图与名称"或"仅缩略图"
-    - 单击列表中的缩略图或名称，即可跳转到相应的介绍页面
-- 数据内容
-    - 武器基本信息
-        - 突破前后的武器图标对比
-        - 对应武器的立绘展示
-        - 武器的简介内容
-        - **可切换**至对应等级的武器各项数值
-    - 武器精炼信息
-        - 对应精炼阶数的精炼属性
-    - 根据胡桃数据库的统计信息而展示的**武器使用**的相关推荐
+- Weapon list
+    - Use the icon above the list, you can change the view between `list` and `grid`
+    - Click on weapon's icon or title, and you will be directed to its WIKI page
+- Weapon data 
+    - Weapon basic information
+        - Images of weapon before and after ascension
+        - Weapon's main image
+        - Weapon's introduction
+        - Weapon's numerical value at value you **switch to**
+    - Weapon refinement data
+      - Weapon's numerical value at each refinement level
+    - Weapon's **most used by characters** data provided by Hutao Database

@@ -13,7 +13,7 @@ Character WIKI is a Snap Hutao build-in WIKI feature used to query each characte
 ## Included Data
 - Character list
   - Use the icon above the list, you can change the view between `list` and `grid`
-  - Click on character's icon, and you will be directed to its WIKI page
+  - Click on character's icon or title, and you will be directed to its WIKI page
 - Character information
   - Character information
     - Introduction of the character
