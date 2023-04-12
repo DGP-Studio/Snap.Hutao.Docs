@@ -6,88 +6,84 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Mon, 10 Apr 2023 18:17:05 GMT</pubDate>
-    <lastBuildDate>Mon, 10 Apr 2023 18:17:05 GMT</lastBuildDate>
+    <pubDate>Wed, 12 Apr 2023 08:15:35 GMT</pubDate>
+    <lastBuildDate>Wed, 12 Apr 2023 08:15:35 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>功能</category>
-    <category>教程</category>
+    <category>Feature</category>
+    <category>Tutorial</category>
     <category>FAQ</category>
     <category>第三方工具</category>
     <category>Announcement</category>
-    <category>Feature</category>
-    <category>Tutorial</category>
+    <category>功能</category>
+    <category>教程</category>
     <category>公告</category>
     <item>
-      <title>实时便笺</title>
+      <title>Real-time Notes</title>
       <link>https://hut.ao/en/features/real-time-notes.html</link>
       <guid>https://hut.ao/en/features/real-time-notes.html</guid>
-      <source url="https://hut.ao/en/rss.xml">实时便笺</source>
-      <description>::: info 该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多帐号切换 (mhy-account-switch.md)文档 ::: live-data-tracking 添加角色 点击添加角色按钮; 在弹出的添加角色浮窗中，选择您要添加的游戏角色，并单击其右侧的加号按钮; 此时您添加的游戏角色即可显示在实时便笺页面中; 实时便笺是间隔...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <source url="https://hut.ao/en/rss.xml">Real-time Notes</source>
+      <description>::: info This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao, you can check 米游社多帐号切换 (mhy-account-switch.html) for more information. ::: liv...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Sat, 01 Apr 2023 00:54:18 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 实时便笺</h1>
+      <content:encoded><![CDATA[<h1> Real-time Notes</h1>
 <div class="hint-container info">
 <p class="hint-container-title">Info</p>
-<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/en/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a>文档</p>
+<p>This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao,
+you can check <a href="/en/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a> for more information.</p>
 </div>
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png" alt="live-data-tracking" loading="lazy"></p>
-<h2> 添加角色</h2>
+<h2> Add Role</h2>
 <ul>
-<li>点击<code>添加角色</code>按钮</li>
-<li>在弹出的<code>添加角色</code>浮窗中，选择您要添加的游戏角色，并单击其右侧的加号按钮</li>
-<li>此时您添加的游戏角色即可显示在实时便笺页面中
+<li>Click on <code>Add Role</code> button</li>
+<li>In the pop-up menu, find the UID you want to add, and click on the add button to its right</li>
+<li>Now, the game UID character's Real-time Notes should be displayed in the page
 <ul>
-<li>实时便笺是间隔固定时间自动刷新的
+<li>The Real-time Notes is set to refresh timely
 <ul>
-<li>你可以点击窗口右上角的<code>通知设置</code>来设置查询的间隔时间</li>
-<li>如您需要立即刷新以获取实时的最新数值，请单击<code>立即刷新</code>按钮</li>
+<li>You can click on the <code>Notification Settings</code> on the top right to manage it</li>
+<li>If you want to see the data at this moment, you can click <code>Refresh</code> button to refresh data immediately</li>
 </ul>
 </li>
-<li>如出现"账号有风险，请前往米游社查看"字样的提示
-<ul>
-<li>请参考<a href="/en/advanced/mihoyo-risk-tip.html" target="blank">账号风险提示</a>文档</li>
+<li>If you receive any warning similar to <code>Verification failed</code>, it may be caused by too many account added, and you can try to fix it youself by refreshing account cookie</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h2> 全局通知设置</h2>
+<h2> Global Notification Settings</h2>
 <ul>
-<li>在窗口右上角点击<code>通知设置</code>可以修改实时便笺的全局设置，包括：
+<li>In the <code>Notification Settings</code> on the top right, you can change the global settings of Real-time Notes, including:
 <ul>
-<li>数据刷新间隔时间</li>
-<li>通知免打扰</li>
-<li>高优先度通知
+<li>Refresh rate</li>
+<li>Do not disturb setting</li>
+<li>Prioritized notification
 <ul>
-<li>这将避免胡桃工具箱的通知被自动收入操作中心</li>
-<li>请注意，开启此设置可能会让您在日常使用电脑期间受到打扰</li>
+<li>This prevent Snap Hutao's notification being closed automatically</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h2> 帐号独立设置</h2>
+<h2> Independent Settings for Accounts</h2>
 <ul>
-<li>胡桃工具箱的实时便笺功能允许用户对每一个被监控的帐号给予不同的设置</li>
-<li>将鼠标停留在<strong>需要被设置的</strong>角色实时便笺的窗体上</li>
-<li>点击其窗体右上角出现的设置图案按钮，即可修改如下参数
+<li>Snap Hutao allows different settings on each Real-time Notes account</li>
+<li>Hover the cursor over the form of Real-time Notes account that needs to set</li>
+<li>Click on the setting button on it, and you can modify these settings:
 <ul>
-<li>原粹树脂提醒阈值</li>
-<li>洞天宝钱提醒阈值</li>
-<li>启用参量质变仪提醒</li>
-<li>启用每日委托上限提醒</li>
-<li>启用探索派遣完成提醒</li>
-<li>启用在主页显示卡片 (未上线的新功能)</li>
+<li>Original Resin threshold value</li>
+<li>Realm Currency threshold value</li>
+<li>Parametric Transformer notification</li>
+<li>Daily Commission notification</li>
+<li>Expeditions notification</li>
+<li>Display in the main page (feature coming soon)</li>
 </ul>
 </li>
-<li>点击<code>保存</code>，即可保存您当前所设置的通知选项</li>
+<li>Click on <code>Save</code> and you can save the settings</li>
 </ul>
-<h2> 删除角色</h2>
+<h2> Delete Daily-Notes Account</h2>
 <ul>
-<li>将鼠标停留在需要被设置的角色实时便笺的窗体上</li>
-<li>点击其窗体右上角出现的移除标志按钮，即可移除该角色对应的实时便笺</li>
+<li>Hover the cursor over the form of Real-time Notes account that needs to delete</li>
+<li>Clock on the remove button on it, and you can remove the corresponding account</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png" type="image/png"/>
@@ -1063,7 +1059,7 @@
 <li>Character list
 <ul>
 <li>Use the icon above the list, you can change the view between <code>list</code> and <code>grid</code></li>
-<li>Click on character's icon, and you will be directed to its WIKI page</li>
+<li>Click on character's icon or title, and you will be directed to its WIKI page</li>
 </ul>
 </li>
 <li>Character information
@@ -1426,102 +1422,104 @@ re-download images resource at next start-up</li>
       <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKJFMi1g6dvSk6pVi_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>米游社多帐号切换</title>
+      <title>MoHoYo BBS Account Switch</title>
       <link>https://hut.ao/en/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/en/features/mhy-account-switch.html</guid>
-      <source url="https://hut.ao/en/rss.xml">米游社多帐号切换</source>
-      <description>本文档所描述的帐号切换指的是用于获取游戏数据的米游社帐号，不是原神游戏内的帐号; 在使用本功能前，你需要使用官方的米游社 App 登录你的帐号以初始化你的米游社功能; 如果在胡桃中登录的帐号名称格式为 user_123456789 则其有可能没有被初始化; 多帐号管理样图 胡桃工具箱视频指南 - 米游社帐号登录 对于大多数人而言，遵循本页文档会有更高的...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <source url="https://hut.ao/en/rss.xml">MoHoYo BBS Account Switch</source>
+      <description>There are two types of MiHoYo BBS, MiYouShe and HoYoLab. MiYouShe refers to Mainland China version, HoYoLab refers to global version, both of them are accepted by Snap Hutao The...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 米游社多帐号切换</h1>
+      <content:encoded><![CDATA[<h1> MoHoYo BBS Account Switch</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
+<p>There are two types of MiHoYo BBS, MiYouShe and HoYoLab.
+MiYouShe refers to Mainland China version, HoYoLab refers to global version, both of them are accepted by Snap Hutao</p>
 <ul>
-<li>本文档所描述的帐号切换指的是用于获取游戏数据的<strong>米游社帐号</strong>，不是原神<strong>游戏内的帐号</strong></li>
-<li>在使用本功能前，你需要使用官方的米游社 App 登录你的帐号以初始化你的米游社功能
+<li>The document in page is talking about <strong>MiHoYo BBS account</strong>, not Genshin Impact's <strong>in-game account</strong></li>
+<li>Before starting using Snap Hutao, you must initial your MiHoYo BBS account by login to your account in official mobile application
 <ul>
-<li>如果在胡桃中登录的帐号名称格式为 <code>user_123456789</code> 则其有可能没有被初始化</li>
+<li>If your account name shows like <code>user_123456789</code>, then it means the account is not initial yet</li>
 </ul>
 </li>
 </ul>
 </div>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" alt="多帐号管理样图" loading="lazy"></p>
-<details class="hint-container details"><summary>胡桃工具箱视频指南 - 米游社帐号登录</summary>
-<p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
-<p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
-</details>
 <ul>
-<li>你可以在程序主界面的左下角，设置按钮的上方找到帐号菜单，以管理你在胡桃工具箱中登录的米游社帐号。在弹出的面板中你可以：在弹出的面板中你可以：
+<li>
+<p>At the left bottom corner, you can find the account menu above the <code>Settings</code> button. In the pop-up account menu,
+you can find the entry to login in to your MiYouShe and HoYoLab account:</p>
+</li>
+<li>
+<p>Click on <code>Web Login</code></p>
 <ul>
-<li>点击<code>登录米哈游通行证</code>按钮</li>
-<li>在弹出的内置浏览器中登录"米哈游通行证"账号
-<ul>
-<li>您也可以通过点击<code>手动输入</code>按钮，直接输入米游社通行证 cookie 来添加您的帐号</li>
-<li>若您选择<code>手动输入</code>米游社 cookie，则该 cookie <strong>必须包含 <code>Stoken</code> 字段</strong>
-<ul>
-<li>手动获取含 <code>Stoken</code> 字段的 cookie 的方式可参考<a href="/en/advanced/get-stoken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 Stoken 的 cookie</a> 文档</li>
+<li>In the pop-up build-in browser, login with your account</li>
+<li>Click <code>I'm logged in</code> button on the top right, after you have logged into your account</li>
+<li>Then your account will be added to Snap Hutao, the browser will close automatically</li>
 </ul>
 </li>
-</ul>
-</li>
-<li>在弹出的内置浏览器登陆成功后，点击右上角的"我已登陆"按钮</li>
-<li>完成后，您就可以在帐号管理面板切换已登录的米游社帐号了
+<li>
+<p>Alternatively, you can enter your MiHoYo BBS cookie list by click on <code>Input Manually</code> button</p>
 <ul>
-<li>新添加米游社账号后，需在主界面左下角切换账号的功能中，手动点击一次新登录的账号，以将其设置为使用状态</li>
-<li>你可以在帐号管理菜单中复制对应帐号的 cookie 或从胡桃工具箱中删除该帐号</li>
+<li>If you do so, the cookies must contains <code>Stoken</code> field</li>
+<li>You can refer to <a href="/en/advanced/get-stoken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 Stoken 的 cookie</a> document for methods to capture cookie with <code>Stoken</code></li>
 </ul>
 </li>
-</ul>
+<li>
+<p>After added your MiHoYo BBS account, you need to switch to account you want in the account menu, to activate it</p>
+</li>
+<li>
+<p>You can always switch your MiHoYo BBS account in the account menu, and you are also allowed to copy account's cookie or remove account there</p>
 </li>
 </ul>
 <div class="hint-container info">
-<p class="hint-container-title">安全提示</p>
+<p class="hint-container-title">Security Tips</p>
 <ul>
-<li><code>Stoken</code> 是一个安全敏感的 cookie 字段，你<strong>不应该</strong>在任何云端或其它无法保证数据安全的设备上储存含有 <code>Stoken</code> 字段的 cookie。</li>
-<li>从胡桃工具箱中复制获得的 cookie 中包含该字段，请慎重考虑是否为接受 cookie 的一方提供 <code>Stoken</code> 字段。</li>
-<li><strong>在胡桃工具箱中通过密码或 cookie 登录米游社的过程中，你的数据只经米游社服务器和本地胡桃工具箱处理，不经过包括胡桃服务器在内的任何第三方服务。</strong></li>
+<li><code>Stoken</code> is a security sensitive cookie field, you <strong>should NEVER</strong> store it in cloud-based software or device that you cannot guarantee the safety (such as public computers).</li>
+<li>You can copy accounts' cookie with <code>Stoken</code> from Snap Hutao, but you should carefully consider if the receiver is trustworthy to have <code>Stoken</code> cookie</li>
+<li><strong>When you are signing in to your MiHoYo BBS account in Snap Hutao, the data are only been processed by MiHoYo's official server and local Snap Hutao program,
+no third-party server (including any server from Snap Hutao) will involve in this process.</strong></li>
 </ul>
 </div>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>武器资料</title>
+      <title>Weapon WIKI</title>
       <link>https://hut.ao/en/features/weapon-wiki.html</link>
       <guid>https://hut.ao/en/features/weapon-wiki.html</guid>
-      <source url="https://hut.ao/en/rss.xml">武器资料</source>
-      <description>weapon-wiki 武器资料是胡桃工具箱中内置的用于查询各个武器的外观、参数、精炼效果、推荐搭配等数据的 Wiki 已包含的数据 武器列表; 使用列表左上角的按钮，可切换列表显示的方式：即&amp;quot;缩略图与名称&amp;quot;或&amp;quot;仅缩略图&amp;quot;; 单击列表中的缩略图或名称，即可跳转到相应的介绍页面; 数据内容; 武器基本信息; 突破前后的武器图标对比; 对应武器的立绘展示;...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <source url="https://hut.ao/en/rss.xml">Weapon WIKI</source>
+      <description>weapon-wiki Weapon WIKI is a Snap Hutao build-in WIKI feature used to look up each weapon&amp;apos;s information Included Data Weapon list; Use the icon above the list, you can change th...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 武器资料</h1>
+      <content:encoded><![CDATA[<h1> Weapon WIKI</h1>
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01jbzlTH1g6du6KfSmF_!!1797064093.png" alt="weapon-wiki" loading="lazy"></p>
-<p>武器资料是胡桃工具箱中内置的用于查询各个武器的<strong>外观、参数、精炼效果、推荐搭配</strong>等数据的 Wiki</p>
-<h2> 已包含的数据</h2>
+<p>Weapon WIKI is a Snap Hutao build-in WIKI feature used to look up each weapon's information</p>
+<h2> Included Data</h2>
 <ul>
-<li>武器列表
+<li>Weapon list
 <ul>
-<li>使用列表左上角的按钮，可切换列表显示的方式：即"缩略图与名称"或"仅缩略图"</li>
-<li>单击列表中的缩略图或名称，即可跳转到相应的介绍页面</li>
+<li>Use the icon above the list, you can change the view between <code>list</code> and <code>grid</code></li>
+<li>Click on weapon's icon or title, and you will be directed to its WIKI page</li>
 </ul>
 </li>
-<li>数据内容
+<li>Weapon data
 <ul>
-<li>武器基本信息
+<li>Weapon basic information
 <ul>
-<li>突破前后的武器图标对比</li>
-<li>对应武器的立绘展示</li>
-<li>武器的简介内容</li>
-<li><strong>可切换</strong>至对应等级的武器各项数值</li>
+<li>Images of weapon before and after ascension</li>
+<li>Weapon's main image</li>
+<li>Weapon's introduction</li>
+<li>Weapon's numerical value at value you <strong>switch to</strong></li>
 </ul>
 </li>
-<li>武器精炼信息
+<li>Weapon refinement data
 <ul>
-<li>对应精炼阶数的精炼属性</li>
+<li>Weapon's numerical value at each refinement level</li>
 </ul>
 </li>
-<li>根据胡桃数据库的统计信息而展示的<strong>武器使用</strong>的相关推荐</li>
+<li>Weapon's <strong>most used by characters</strong> data provided by Hutao Database</li>
 </ul>
 </li>
 </ul>
