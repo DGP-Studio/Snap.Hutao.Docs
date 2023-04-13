@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Wed, 12 Apr 2023 08:15:35 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Apr 2023 08:15:35 GMT</lastBuildDate>
+    <pubDate>Thu, 13 Apr 2023 10:06:52 GMT</pubDate>
+    <lastBuildDate>Thu, 13 Apr 2023 10:06:52 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -1422,15 +1422,15 @@ re-download images resource at next start-up</li>
       <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKJFMi1g6dvSk6pVi_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>MoHoYo BBS Account Switch</title>
+      <title>MiHoYo BBS Account Switch</title>
       <link>https://hut.ao/en/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/en/features/mhy-account-switch.html</guid>
-      <source url="https://hut.ao/en/rss.xml">MoHoYo BBS Account Switch</source>
+      <source url="https://hut.ao/en/rss.xml">MiHoYo BBS Account Switch</source>
       <description>There are two types of MiHoYo BBS, MiYouShe and HoYoLab. MiYouShe refers to Mainland China version, HoYoLab refers to global version, both of them are accepted by Snap Hutao The...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> MoHoYo BBS Account Switch</h1>
+      <content:encoded><![CDATA[<h1> MiHoYo BBS Account Switch</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
 <p>There are two types of MiHoYo BBS, MiYouShe and HoYoLab.
@@ -1755,27 +1755,103 @@ If there is any conflict between the content of the document on this page and th
       <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01oe2JG41g6dvW3vCvO_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>祈愿记录</title>
+      <title>Wish History</title>
       <link>https://hut.ao/en/features/wish-export.html</link>
       <guid>https://hut.ao/en/features/wish-export.html</guid>
-      <source url="https://hut.ao/en/rss.xml">祈愿记录</source>
-      <description>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（）。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（）。 因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <source url="https://hut.ao/en/rss.xml">Wish History</source>
+      <description>Gacha is one of the core gameplay in Genshin Impact. Whether it&amp;apos;s for commemorative and show-off purposes, or for serious planning for a gacha strategy, it&amp;apos;s very important to p...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 祈愿记录</h1>
-<p>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
-<p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
-<p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/en/advanced/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
+      <content:encoded><![CDATA[<h1> Wish History</h1>
+<p>Gacha is one of the core gameplay in Genshin Impact. Whether it's for commemorative and show-off purposes,
+or for serious planning for a gacha strategy, it's very important to perform statical analysis on historical gacha record.
+However, Genshin Impact only provides players with six months of gacha records, which is not user-friendly <s>(although they
+still keep tracking how many Timmie's pigeons you've killed for the whole year)</s></p>
+<p>Therefore, we need to use the gacha records from these six months to retrieve the data and transfer the record to our
+local device. This is the purpose of wish history export feature in Snap Hutao.</p>
+<p>Regarding the technical principles of exporting Genshin Impact gacha records,
+you can refer to our article on <a href="/en/advanced/Gacha-system-and-export-principal.html" target="blank">Gacha System and Export Principles</a></p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" alt="祈愿导出" loading="lazy"></p>
-<p><strong>如上图所示，从胡桃工具箱的祈愿导出功能，你可以清晰地获取到包括：抽卡总数、当前已垫抽数、不同稀有度获取的数量和百分比、 每次五星稀有度获取的抽数以及保底情况。</strong></p>
+<p>As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
+total number of wishes, current pity count, quantity and percentage of obtained items with different rarity, number of
+times a 5-star rarity item was not obtained and the current pity status.</p>
 <div class="hint-container note">
-<p class="hint-container-title">原神抽卡记录的延迟性</p>
-<p>胡桃工具箱获取抽卡记录的来源也为米哈游服务器，因此短时间内刚刚结束的抽卡无法被获取。 当你在游戏内抽卡历史记录中看到了最新的一批抽卡记录，则可以在胡桃中获取统计数据。 当你在游戏内抽卡历史记录中看到了最新的一批抽卡记录，则可以在胡桃中获取统计数据。</p>
+<p class="hint-container-title">Delay in Gacha Data Export</p>
+<p>Snap Hutao retrieves gacha records from the MiHoYo servers, which means that recently made wishes may not be immediately
+available. When you see the latest batch of gacha records in the game's own history, then you can then obtain the corresponding
+statistics from Snap Hutao.</p>
 </div>
-<h2> 视频指南</h2>
-<p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
-<p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。 ::: details 胡桃工具箱指南 5 - 祈愿记录导出篇</p>
+<h2> Fetch Wish History</h2>
+<h3> Refresh with Stoken Cookie </h3>
+<div class="hint-container info">
+<p class="hint-container-title">Hint</p>
+<ul>
+<li>This method requires user to sign in to MiHoYo BBS account in Snap Hutao, refer to
+<a href="/en/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> to get to know how to login to your MiHoYo BBS account</li>
+<li><strong>Stoken Cookie refresh method does not support global server (HoYoLab)</strong></li>
+</ul>
+</div>
+<ul>
+<li>Make sure the account you want to refresh wish history has been signed in to Snap Hutao</li>
+<li>Switch to <code>Wish History</code> feature page in Snap Hutao</li>
+<li>Click on <code>Refresh</code> button and select <code>SToken Refresh</code></li>
+<li>Wait for refresh task to complete</li>
+</ul>
+<h3> Refresh with Web Cache </h3>
+<ul>
+<li>Switch to <code>Wish History</code> feature page in Snap Hutao</li>
+<li>Start the game, go to in-game wish history page</li>
+<li>Go back to Snap Hutao, clock on <code>Refresh</code> button and select <code>Refresh with Web Cache</code></li>
+<li>Wait for refresh task to complete</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">Tips</p>
+<p>If errors keep occur:</p>
+<ul>
+<li>Go to settings page in Snap Hutao</li>
+<li>Execute operation <code>Delete game embeeded browser web cache</code></li>
+</ul>
+</div>
+<h3> Refresh with Manually Input URL </h3>
+<ul>
+<li>If you get your personal wish history URL, you can select <code>Manual Input</code> and submit your wish history URL</li>
+<li>Be aware that the URL is time-sensitive</li>
+</ul>
+<h3> Explanation on Full Refresh Option</h3>
+<p>By default, Snap Hutao will stop importing gacha records once it matches a Wish ID that already exists locally.
+However, if you wish to obtain all the historical records from the Genshin Impact servers
+(even if they are already present in your local wish history), you can check the "Full Refresh" option.</p>
+<p>Not selecting <code>Full Refresh</code> will <strong>not</strong> cause you to lose your wishing data,
+and selecting <code>Full Refresh</code> will <strong>not</strong> cause your local records to mistakenly record the same wishing data twice.</p>
+<h3> Import Wish History Data from Other Applications </h3>
+<p>Snap Hutao supports importing wish history data file that in <code>UIGF data format</code><sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></p><a class="footnote-anchor" id="footnote-ref1">
+<p>If you need to import such type of data, you can:</p>
+<ul>
+<li>Start Snap Hutao, switch to <code>Wish History</code> feature page</li>
+<li>Select <code>Import</code></li>
+<li>Select your UIGF Json data file</li>
+<li>Check the imported file information and confirm to import</li>
+</ul>
+</a><h2><a class="footnote-anchor" id="footnote-ref1"></a> Export Wish History Data </h2>
+<p>Snap Hutao support exporting wish history data to a Json file written in UIGF data format</p>
+<p>If you need to export the wish history data, you can:</p>
+<ul>
+<li>Start Snap Hutao, switch to <code>Wish History</code> feature page</li>
+<li>Switch to the archive you want to export, and select <code>Export</code>
+<ul>
+<li>In the pop-up window, confirm your export path</li>
+</ul>
+</li>
+<li>Confirm and export data</li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="footnote1" class="footnote-item"><p>Unified Standardized GenshinData Format is provided by <a href="https://uigf.org/" target="_blank" rel="noopener noreferrer">UIGF-Org</a> <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" type="image/png"/>
     </item>
