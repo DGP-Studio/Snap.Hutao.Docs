@@ -4,7 +4,7 @@ category: [Feature, Tutorial]
 order: 10
 ---
 
-# MoHoYo BBS Account Switch
+# MiHoYo BBS Account Switch
 
 ::: tip
 There are two types of MiHoYo BBS, MiYouShe and HoYoLab.

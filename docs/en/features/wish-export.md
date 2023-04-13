@@ -1,100 +1,91 @@
 ---
 headerDepth: 0
-category:
-  - 功能
-  - 教程
+category: [Feature, Tutorial]
 order: 2
 ---
 
-# 祈愿记录
+# Wish History
 
-抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（~~但是他们还是统计了你一整年杀了多少提米的鸽子~~）。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（~~但是他们还是统计了你一整年杀了多少提米的鸽子~~）。
+Gacha is one of the core gameplay in Genshin Impact. Whether it's for commemorative and show-off purposes, 
+or for serious planning for a gacha strategy, it's very important to perform statical analysis on historical gacha record. 
+However, Genshin Impact only provides players with six months of gacha records, which is not user-friendly ~~(although they 
+still keep tracking how many Timmie's pigeons you've killed for the whole year)~~
 
-因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。
+Therefore, we need to use the gacha records from these six months to retrieve the data and transfer the record to our 
+local device. This is the purpose of wish history export feature in Snap Hutao.
 
-有关原神祈愿记录导出的技术原理，你可以参阅我们的[**祈愿系统与导出原理**](../advanced/Gacha-system-and-export-principal.md)一文。
+Regarding the technical principles of exporting Genshin Impact gacha records, 
+you can refer to our article on [Gacha System and Export Principles](../advanced/Gacha-system-and-export-principal.html)
 
 ![祈愿导出](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png)
 
-**如上图所示，从胡桃工具箱的祈愿导出功能，你可以清晰地获取到包括：抽卡总数、当前已垫抽数、不同稀有度获取的数量和百分比、 每次五星稀有度获取的抽数以及保底情况。**
+As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information: 
+total number of wishes, current pity count, quantity and percentage of obtained items with different rarity, number of 
+times a 5-star rarity item was not obtained and the current pity status.
 
-::: note 原神抽卡记录的延迟性
-胡桃工具箱获取抽卡记录的来源也为米哈游服务器，因此短时间内刚刚结束的抽卡无法被获取。 当你在游戏内抽卡历史记录中看到了最新的一批抽卡记录，则可以在胡桃中获取统计数据。 当你在游戏内抽卡历史记录中看到了最新的一批抽卡记录，则可以在胡桃中获取统计数据。
-
+::: note Delay in Gacha Data Export
+Snap Hutao retrieves gacha records from the MiHoYo servers, which means that recently made wishes may not be immediately 
+available. When you see the latest batch of gacha records in the game's own history, then you can then obtain the corresponding 
+statistics from Snap Hutao.
 :::
 
-## 视频指南
-对于大多数人而言，遵循本页文档会有更高的效率。
+## Fetch Wish History
+### Refresh with Stoken Cookie <Badge text="Recommend" type="tip" />
 
-但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。 ::: details 胡桃工具箱指南 5 - 祈愿记录导出篇
-<BiliBili bvid="BV1QR4y1z7bH" />
-:::
-::: details 胡桃工具箱指南 5 - 祈愿记录导出篇
-<BiliBili bvid="BV1QR4y1z7bH" />
-:::
-
-## 获取祈愿数据
-### 利用 Stoken 从服务器获取最新的祈愿记录 <Badge text="推荐" type="tip" />
-
-::: info 提示
-- 已登录的米游社帐号是使用 Stoken 刷新方法的前提，你可以参考[米游社多帐号切换](mhy-account-switch.md)一文在胡桃工具箱中登录你的帐号
-- Stoken 刷新方法暂不支持国际服
+::: info Hint
+- This method requires user to sign in to MiHoYo BBS account in Snap Hutao, refer to 
+[MiHoYo BBS Account Switch](mhy-account-switch.md) to get to know how to login to your MiHoYo BBS account
+- **Stoken Cookie refresh method does not support global server (HoYoLab)**
 :::
 
-- 在胡桃工具箱中确保你需要获取记录的米游社帐号已登录
-- 从左侧菜单栏进入`祈愿记录`
-- 点击右上角的`刷新`，并点击`Stoken刷新`
-- 等待读取完毕，即可查看最新的祈愿记录
+- Make sure the account you want to refresh wish history has been signed in to Snap Hutao
+- Switch to `Wish History` feature page in Snap Hutao
+- Click on `Refresh` button and select `SToken Refresh`
+- Wait for refresh task to complete
 
-### 从网页缓存获取最新的祈愿记录 <Badge text="支持国际服" type="tip" />
+### Refresh with Web Cache <Badge text="Global Server Supported" type="tip" />
 
-- 从左侧菜单栏进入`祈愿记录`
-- 启动游戏并登入游戏，打开游戏内的祈愿历史记录
-- 回到胡桃工具箱，点击`刷新`按钮，在刷新菜单中点击`网页缓存刷新`
+- Switch to `Wish History` feature page in Snap Hutao
+- Start the game, go to in-game wish history page
+- Go back to Snap Hutao, clock on `Refresh` button and select `Refresh with Web Cache`
+- Wait for refresh task to complete
 
 ::: tip
-若出现`网页缓存刷新`功能异常的情况：
-- 从胡桃工具箱的`设置`
-- 在`删除游戏内网页缓存`功能中执行删除操作
+If errors keep occur:
+- Go to settings page in Snap Hutao
+- Execute operation `Delete game embeeded browser web cache`
 :::
 
-### 通过输入 Url 获取祈愿记录 <Badge text="支持国际服" type="tip" />
-- 如果你通过其它工具获取到了你祈愿历史记录的 Url，可以选择`手动输入Url`并根据提示操作
-- 但应注意此类 Url **具有时效性**
+### Refresh with Manually Input URL <Badge text="Global Server Supported" type="tip" />
+- If you get your personal wish history URL, you can select `Manual Input` and submit your wish history URL
+- Be aware that the URL is time-sensitive
 
-### 对于全量刷新选项的补充说明
+### Explanation on Full Refresh Option
 
-在默认情况下，胡桃工具箱会在匹配到本地已有记录的祈愿ID后停止导入。 但如果你希望完整地获取原神服务器中所有的历史记录（即使它已经存在于你的本地祈愿记录中），你可以勾选`全量刷新`。 但如果你希望完整地获取原神服务器中所有的历史记录（即使它已经存在于你的本地祈愿记录中），你可以勾选`全量刷新`。
+By default, Snap Hutao will stop importing gacha records once it matches a Wish ID that already exists locally. 
+However, if you wish to obtain all the historical records from the Genshin Impact servers 
+(even if they are already present in your local wish history), you can check the "Full Refresh" option.
 
-**不勾选`全量刷新`不会使你丢失祈愿数据，勾选`全量刷新`也不会让你的本地记录错误地额外记录一次相同的祈愿数据。**
+Not selecting `Full Refresh` will **not** cause you to lose your wishing data, 
+and selecting `Full Refresh` will **not** cause your local records to mistakenly record the same wishing data twice. 
 
-### 从其它祈愿导出程序导入祈愿数据 <Badge text="UIGF" type="info" />
-胡桃工具箱支持导入 `UIGF 数据格式` 的祈愿记录数据[^UIGF-Org]
+### Import Wish History Data from Other Applications <Badge text="UIGF" type="info" />
+Snap Hutao supports importing wish history data file that in `UIGF data format`[^UIGF-Org]
 
-如果你希望导入这一类数据，可以：
-- 启动胡桃工具箱，从左侧菜单栏进入`祈愿记录`
-- 点击右上角的`导入`
-- 选择你的 UIGF Json 数据文件
-- 根据界面确认导入数据
+If you need to import such type of data, you can:
+- Start Snap Hutao, switch to `Wish History` feature page
+- Select `Import`
+- Select your UIGF Json data file
+- Check the imported file information and confirm to import
 
-### 从 Snap Genshin 转移祈愿记录数据
-如果你希望从 Snap Genshin 中转移祈愿数据至胡桃工具箱，你可以：
-- 升级 Snap Genshin 到最新版本
-- 进入`祈愿记录`功能
-  - 如果你由于无法登录米游社而无法进入 Snap Genshin，可以在胡桃工具箱中登录米游社帐号并复制 Cookie 到 Snap Genshin
-- 点击右上角的功能菜单
-- 通过`导出 UIGF Json 文件`导出 Json 格式的祈愿记录
-- 在胡桃工具箱中导入该文件
+## Export Wish History Data <Badge text="UIGF" type="info" />
 
-## 导出祈愿数据 <Badge text="UIGF" type="info" />
+Snap Hutao support exporting wish history data to a Json file written in UIGF data format
 
-胡桃工具箱支持导出 `UIGF数据格式` 的 Json 文件格式的祈愿记录数据
+If you need to export the wish history data, you can:
+- Start Snap Hutao, switch to `Wish History` feature page
+- Switch to the archive you want to export, and select `Export`
+  - In the pop-up window, confirm your export path
+- Confirm and export data
 
-如果你希望导出祈愿数据，可以：
-- 启动胡桃工具箱，从左侧菜单栏进入`祈愿记录`
-- 选择您要导出的祈愿记录存档
-- 点击`导出`按钮
-  - 在弹出的界面选择您需要将此导出的祈愿记录数据文件存放的位置，并点击`导出`
-- 导出完成
-
-[^UIGF-Org]: 统一标准化的原神数据格式由 [UIGF-Org](https://uigf.org/) 提供 
+[^UIGF-Org]: Unified Standardized GenshinData Format is provided by [UIGF-Org](https://uigf.org/)
