@@ -59,3 +59,7 @@ redirectFrom: /advanced/known-issue.html
 相关 Issue：[issues/566](https://github.com/DGP-Studio/Snap.Hutao/issues/566)
 
 该问题已在[1.5.4](/statements/update-log.html#1-5-4) 版本修复，请及时更新
+
+## #6 上传深渊记录后无法获取胡桃云奖励时常
+
+该问题出现在`1.6.2`版本中，将在下一版本中修复，开发组近期会为所有注册用户增加时常
