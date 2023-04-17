@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 13 Apr 2023 10:06:52 GMT</pubDate>
-    <lastBuildDate>Thu, 13 Apr 2023 10:06:52 GMT</lastBuildDate>
+    <pubDate>Mon, 17 Apr 2023 10:03:58 GMT</pubDate>
+    <lastBuildDate>Mon, 17 Apr 2023 10:03:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -852,6 +852,8 @@
 <h2> #5 服务器转换卡死并持续写入的问题</h2>
 <p>相关 Issue：<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/566" target="_blank" rel="noopener noreferrer">issues/566</a></p>
 <p>该问题已在<a href="/statements/update-log.html#1-5-4" target="blank">1.5.4</a> 版本修复，请及时更新</p>
+<h2> #6 上传深渊记录后无法获取胡桃云奖励时常</h2>
+<p>该问题出现在<code>1.6.2</code>版本中，将在下一版本中修复，开发组近期会为所有注册用户增加时常</p>
 ]]></content:encoded>
     </item>
     <item>
