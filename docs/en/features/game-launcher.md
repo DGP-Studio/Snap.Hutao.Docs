@@ -1,109 +1,119 @@
 ---
 headerDepth: 0
-category:
-  - 功能
-  - 教程
+category: [Feature, Tutorial]
 order: 1
 ---
 
-# 高级启动器
+# Game Launcher
 
-- 胡桃工具箱提供的高级启动器功能中通过多样的设置选项来允许用户以自定义设置启动游戏
-- 你可以通过点击左侧菜单栏中的`启动游戏`进入高级启动器功能
-  - 第一次使用时你会被跳转到设置页面以设置你的游戏路径
-  - 选择游戏路径时，请注意此处选择的应是游戏本身
-      - 形如：`$\Genshin Impact\Genshin Impact Game\YuanShen.exe`
-      - 而官方启动器的目录一般是`$\Genshin Impact\launcher.exe`
-- 在设置完毕启动游戏所需的附加选项后，点击右下角的`启动游戏`按钮即可
-  - 附加选项请看本页下方的功能文档
+- Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings
+- Click on the `Game Launcher` on the sidebar to get into game launcher's page
+  - If you are using it at the first time, you will be redirected to Snap Hutao settings page and asked to set your game path
+    - When choosing the game path, noticed that you should choose game program instead of launcher program
+      - Such as `$\Genshin Impact\Genshin Impact Game\YuanShen.exe` and `$\Genshin Impact\Genshin Impact Game\Genshin Impact.exe`
+      - Official launcher program is usually `$\Genshin Impact\launcher.exe`
+- You can make launcher configuration options in the game launcher's page, and then click `Launcher` button on the top-right to launch the game
+  - Launcher options is explained in the document below
 
-## 视频指南
-对于大多数人而言，遵循本页文档会有更高的效率。
-
-但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。 但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。 ::: details 胡桃工具箱指南 4 - 高级启动器（切换帐号/切换服务器/帧率解锁）
-<BiliBili bvid="BV1Sv4y1k7zi" />
+## Server Switch
+::: tip Privilege Notice
+1. You need to run Snap Hutao as administrator to use this feature
+2. Snap Hutao will create `ServerCache` folder in the data directory to save required sever switch files
 :::
 
-## 切换服务器
-::: tip 权限提示
-1. 使用该功能时需要以管理员权限启动胡桃工具
-2. 胡桃工具箱会在游戏截图目录下创建一个名为 `HutaoCache` 的文件夹并储存转换服务器所需要的文件
-:::
+- Enter Game Launcher page
+- In the `General - Server` field, select the server you want
+    - Current available serves options include:
+  
+    | Option         | Server                                            |
+    |----------------|---------------------------------------------------|
+    | CN             | Mainland China server                             |
+    | BiliBili       | Chinese server with BiliBili account system       |
+    | Global Default | HoYoVerse servers                                 |
+    | Global Epic    | HoYoVerse servers with Epic Store payment gateway |
+    | Global Google  | HoYoVerse servers with Google Pay payment gateway |
 
-- 在主界面点击左侧菜单栏进入`启动游戏`页面
-- 点击右侧选项中的服务器名称，选择要进入的服务器
-    - 目前可选的服务器为`官方服|天空岛`、`渠道服|世界树`和`国际服`
-- 点击右下角的`启动游戏`按钮，胡桃会自动下载并应用对应服务器的文件并启动游戏
+- click `Launcher` button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game
 
 
-## 账号保存
+## Game Account Switch
 ::: tip
-1. 本功能所描述的帐号，特指当前原神所登录游戏账号的登录状态
-2. 获取当前原神的登录状态通常需要管理员权限，建议`使用管理员模式启动胡桃`
-3. **目前仅支持切换官方服（不含渠道服）帐号**
+1. The **account** mentioned in this feature is Genshin game login account instead of HoYoLAB account
+2. Game account switch feature currently only supporting official CN server
 :::
 
-|        | 官方服 | 渠道服 | 国际服                                                                             |
-| ------ | --- | --- | ------------------------------------------------------------------------------- |
-| 保存登录状态 | 支持  | 支持  | 支持                                                                              |
-| 切换账号   | 支持  | 不支持 | 理论支持<br/>[我们期待更多的社区开发者帮助](https://github.com/DGP-Studio/Snap.Hutao/pulls) |
+|                   | CN        | BiliBili      | Global                                                                                                                   |
+|-------------------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------------|
+| Save Login Status | Supported | Supported     | Supported                                                                                                                |
+| Switch Account    | Supported | Not Supported | Theoretically Supported <br/>[We need community's support for this](https://github.com/DGP-Studio/Snap.Hutao/issues/638) |
 
-1. 在主界面点击左侧菜单栏进入`启动游戏`标签
-2. 点击`账号`功能中的`检测`按钮，胡桃工具箱会保存当前原神游戏的登录状态
-3. 在弹出的`为账号命名`界面中，输入您要为此账号设置的名称，点击确认
-4. 在游戏中，注销当前登录并登录你另一个帐号。在游戏中，注销当前登录并登录你另一个帐号。重复执行上述的第2步和第三步直至你将全部的帐号添加进胡桃工具箱中。
-5. 此时即可在`账号`功能下方自由选择您要切换的账号
-    - 每个已保存的账号均为可点击选择的按钮
-    - 在其右侧有三个按钮，分别为：
-        - `绑定当前用户角色`，即将您当前选择的米游社登录状态绑定至该账号中，点击该按钮后，对应的UID将出现在该账号自定义名称的下方
-        - `重命名`，即修改当前选择账号的自定义名称
-        - `删除`，即删除当前选择的账号
+1. Enter Game Launcher page
+2. Click `Detect Account` field in the `General` category, Snap Hutao will detect current Genshin Impact's account login status
+3. In this pop-up window, enter an archive name for this account and click `Confirm`
+4. Go back to the game, sign out and sign in to your another account. Repeat step 2 and 3 to add all your account to Snap Hutao
+   - Each saved account are selectable 
+   - On the right side, there are three buttons, they are:
+     - `Bind current user account`, bind current activated MiHoYo BBS account with this game account, an UID will be display on this archive
+     - `Rename`, rename current account archive name
+     - `Delete`, delete current account archive
 
-## 外观选项
+## Appearance
 
 ::: warning
-- 在当前的游戏版本中，有案例表明部分用户使用胡桃工具箱，选择**全屏模式**启动原神游戏，出现游戏无响应或卡顿的情况
-  - 建议此部分用户使用无边框选项进行启动游戏
+- In some reported cases, using Snap Hutao with `Exclusive Fullscreen` mode will cause the game process no response.
+  - Suggest to use `Borderless` or `Fullscreen` mode if you faced same problem
+  - The problem is caused by failure of game embedded browser cannot run
 :::
 
-- 在主界面点击左侧菜单栏进入`启动游戏`标签
-- 在右侧的`外观`功能中，有四个选项：
-    - **全屏**，即选择启动游戏后的游戏界面是否设置为全屏
-    - **无边框**，即选择启动游戏后的游戏界面是否设置为无边框窗口
-    - **宽度**，即选择启动游戏后的游戏界面的宽度，例如`1920`
-    - **高度**，即选择启动游戏后的游戏界面的高度，例如`1080`
-    - **显示器**，允许多显示器用户选择指定的显示器来运行游戏
+- Enter Game Launcher page
+- In the `Appearance` category, there are 6 available options:
+    - **Exclusive Fullscreen**, the game process will run in exclusive fullscreen mode
+    - **Fullscreen**, the game display mode is set to fullscreen
+    - **Borderless**, the game display mode is set to borderless
+    - **Width**, game window width, such as `1920`
+    - **Height**, game window height, such as `1080`
+    - **Display**, users with multiple displays can use this option to set which display to run the game
 
-## 高级功能
+## Advanced Features
 ::: danger
-- 请注意：此功能已明确标注为 `Dangerous Feature`，即**危险功能**，选择启用即代表您选择自行承担任意风险
-### 解锁帧率上限
+- Be aware: all advanced features are labeled as `Dangeroud Feature`; indicating that enabling them means you choose 
+to assume any risk on your own.
+- You need to enable advanced features in Snap Hutao's settings page
+:::
+### Unlock Frame Rate Limit
 ::: danger
-- 目前的版本，设置中无论是否超过60帧率的原神(含移动端)均会偶尔出现掉帧、卡顿甚至无响应、闪退等情况，这是原神在本版本中出现的普遍问题，并不是[Unlocker项目](https://github.com/DGP-Studio/Unlocker)的问题
-- [Unlocker项目](https://github.com/DGP-Studio/Unlocker)仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中`120帧率`等设置无异，但您仍应谨慎使用并自行阅读[用户协议](https://docs.qq.com/doc/p/223a4e1f7241891e1208476a11927397549e9ea8)
+- The [Unlocker project](https://github.com/DGP-Studio/Unlocker) only affects the UnityPlayer itself, directly affecting
+  the Unity3D engine, and does not have a direct relationship with the game itself. Essentially, it is no different from
+  settings like 120 FPS in mobile devices. However, you should still use it with caution and read the [user agreement](../statements/tos.md)
+  on your own.
 :::
 
-- 使用`管理员模式`启动胡桃
-- 在主界面点击左侧菜单栏进入`启动游戏`标签
-- 在最下方可见 `Unlock frame rate limit` 选项
-    - 在右侧点击`开启或关闭`按钮，所显示的 `Disable` 或 `Enable` 分别代表`已禁用`或`已启用`该功能
-    - 在下方的 `Set frame rate` 选项中，可自由拖动拉杆，调整到您需要设置的最高帧率上限
+- Run Snap Hutao as administrator
+- Enter Game Launcher page
+- At the bottom of the page, you can find `Unlock Frame Rate Limit` option
+  - Trigger the switch to enable or disable this feature
+  - In the `Set Frame Rate Limit` field, you can adjust the limit freely
 
-- 会导致**解锁帧率上限失败**的因素：
-    - 解锁帧率上限，需要保持**胡桃工具箱**在开启状态
-    - 游戏内未关闭**垂直同步**选项
-    - 在显卡驱动中存在`最大帧速率`的设置
-    - 在显卡驱动软件内存在未关闭的类似于`节能模式`的选项
+- Fact that may cause **failure in unlocking frame rate limit**: 
+  - Snap Hutao process is not kept in the background
+  - `V-Sync` is not set to off in the game
+  - `Max Framerate` limit is not changed in your graphic card settings
+  - `Power Saving` mode is not disabled in power settings
+  - Your graphic card is not powerful enough
 
-### 游戏客户端多开
+### Multi-Client
 ::: danger
-游戏客户端多开是一个远比解锁帧率上限还危险的功能，你应当在审阅代码后自行判断是否使用该功能。
+Multiple instances of the game client is a far more dangerous feature compared to unlocking the framerate limit. 
+You should personally or invite a technically knowledgeable professional to review the code and make your own judgment 
+on whether to use this feature.
 
-使用该功能会导致原神反作弊功能加载失败，并导致原神客户端上报该情况。
+**Using this feature may cause the anti-cheat system in Genshin Impact to fail to load, and the game client will report 
+this situation to miHoYo's servers.**
 :::
 
-1. 使用`管理员模式`启动胡桃
-2. 在主界面点击左侧菜单栏进入`启动游戏`标签
-3. 在最下方启用 `多客户端` 选项
-4. 点击右上角的`启动游戏`
-5. 等待12秒后再进门 重复步骤4和步骤5以开启下一个客户端
+1. Run Snap Hutao as administrator
+2. Enter Game Launcher page
+3. At the bottom of the page, enable `Multi-Client` option
+4. Click `Launch` button on the top-right of the window
+5. Wait for 12 seconds before entering the game (open the gate)
+6. Repeat step 4 and 5 to launch next client instance
