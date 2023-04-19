@@ -105,6 +105,13 @@ redirectFrom: /features/hutao-settings.html
 ## 危险功能
 - 启用高级功能
     - 在管理员模式下，你可以通过启用这一栏设置以启用游戏启动器中的高级功能
+    > 参考阅读：
+    > 
+    > [胡桃工具箱用户协议](../statements/tos.html)
+    > 
+    > [原神用户协议（国服）](https://ys.mihoyo.com/main/company/agreement)
+    > 
+    > [原神用户协议（国际服）](https://genshin.hoyoverse.com/en/company/terms)
 - 删除所有用户
     - 此功能的作用是删除用户表的所有记录
     - 点击`执行`按钮即可完成删除

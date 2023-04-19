@@ -104,6 +104,13 @@ Daily Check-in feature in Snap Hutao is mainly used to check account login statu
 ## Dangerous Features
 - Enable Advanced Features
   - With Snap Hutao running as administrator, you can enable this field to enable advanced features in the game launcher
+    > For reference：
+    >
+    > [Snap Hutao Terms of Service](../statements/tos.html)
+    >
+    > [Genshin Impact Terms of Service (CN server/Chinese)](https://ys.mihoyo.com/main/company/agreement)
+    >
+    > [Genshin Impact Terms of Service (Oversea servers/English)](https://genshin.hoyoverse.com/en/company/terms)
 - Delete All Users
   - Execute this operation will delete all user data in Snap Hutao
   - Click on the field to operate, you will be asked to confirm
