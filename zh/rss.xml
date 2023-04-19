@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 18 Apr 2023 08:20:14 GMT</pubDate>
-    <lastBuildDate>Tue, 18 Apr 2023 08:20:14 GMT</lastBuildDate>
+    <pubDate>Wed, 19 Apr 2023 00:57:06 GMT</pubDate>
+    <lastBuildDate>Wed, 19 Apr 2023 00:57:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -1541,21 +1541,22 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </a></li><a class="footnote-anchor" id="footnote-ref1">
 </a><li><a class="footnote-anchor" id="footnote-ref1">点击<code>角色出场</code>以查看角色出场率数据
 </a><ul><a class="footnote-anchor" id="footnote-ref1">
-</a><li><a class="footnote-anchor" id="footnote-ref1">角色出场率 = 角色在当前层数出场次数<sup class="footnote-ref"></sup></a><a href="#footnote1">[1:1]</a><a class="footnote-anchor" id="footnote-ref1:1"> / 当前层数总记录数</a></li><a class="footnote-anchor" id="footnote-ref1:1">
-</a></ul><a class="footnote-anchor" id="footnote-ref1:1">
-</a></li><a class="footnote-anchor" id="footnote-ref1:1">
-</a><li><a class="footnote-anchor" id="footnote-ref1:1">点击<code>角色持有</code>以查看角色持有率数据<sup class="footnote-ref"></sup></a><a href="#footnote2">[2]</a><a class="footnote-anchor" id="footnote-ref2">
-</a><ul><a class="footnote-anchor" id="footnote-ref2">
-</a><li><a class="footnote-anchor" id="footnote-ref2">角色持有率<sup class="footnote-ref"></sup></a><a href="#footnote3">[3]</a><a class="footnote-anchor" id="footnote-ref3"> = 所有拥有该角色的玩家数量 / 全部玩家数量</a></li><a class="footnote-anchor" id="footnote-ref3">
-</a></ul><a class="footnote-anchor" id="footnote-ref3">
-</a></li><a class="footnote-anchor" id="footnote-ref3">
+</a><li><a class="footnote-anchor" id="footnote-ref1">角色出场率 = 角色在当前层数出场次数<sup class="footnote-ref"></sup></a><a href="#footnote2">[2]</a><a class="footnote-anchor" id="footnote-ref2"> / 当前层数总记录数</a></li><a class="footnote-anchor" id="footnote-ref2">
+</a></ul><a class="footnote-anchor" id="footnote-ref2">
+</a></li><a class="footnote-anchor" id="footnote-ref2">
+</a><li><a class="footnote-anchor" id="footnote-ref2">点击<code>角色持有</code>以查看角色持有率数据<sup class="footnote-ref"></sup></a><a href="#footnote3">[3]</a><a class="footnote-anchor" id="footnote-ref3">
+</a><ul><a class="footnote-anchor" id="footnote-ref3">
+</a><li><a class="footnote-anchor" id="footnote-ref3">角色持有率<sup class="footnote-ref"></sup></a><a href="#footnote4">[4]</a><a class="footnote-anchor" id="footnote-ref4"> = 所有拥有该角色的玩家数量 / 全部玩家数量</a></li><a class="footnote-anchor" id="footnote-ref4">
+</a></ul><a class="footnote-anchor" id="footnote-ref4">
+</a></li><a class="footnote-anchor" id="footnote-ref4">
 <li>点击<code>队伍出场</code>以查看队伍组合出场次数数据
 <ul>
 <li>各种角色组队情况下出场次数的排名</li>
 </ul>
 </li>
-</a></ul><a class="footnote-anchor" id="footnote-ref3">
-</a><h2><a class="footnote-anchor" id="footnote-ref3"></a> 上传深境螺旋数据</h2>
+</a></ul><a class="footnote-anchor" id="footnote-ref4">
+</a><h2><a class="footnote-anchor" id="footnote-ref4"></a> 上传深境螺旋数据</h2>
+<h3> 使用胡桃客户端</h3>
 <ul>
 <li>在主界面点击左侧菜单栏进入<code>深渊记录</code>功能页面</li>
 <li>点击右上角的<code>刷新数据</code>以确保胡桃工具箱客户端已经获取到最新的个人深境螺旋数据</li>
@@ -1566,14 +1567,42 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
+<h3> 使用浏览器</h3>
+<ul>
+<li>
+<p>打开我们的 <a href="/upload-abyss-data.js">JavaScript 脚本</a>，复制全部内容</p>
+</li>
+<li>
+<p>在浏览器中创建一个新的书签</p>
+<ul>
+<li>在名称中填写一个合适的名称</li>
+<li>在 URL 中粘贴你刚刚复制的全部代码</li>
+</ul>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01p0KOqU1g6dvfDQO6e_!!1797064093.png" alt="add-bookmark" loading="lazy"></p>
+</li>
+<li>
+<p>访问米游社，在页面加载完成后点击你刚刚创建的书签</p>
+</li>
+<li>
+<p>稍等片刻，你应该能看到请求上传的确认窗口</p>
+</li>
+<li>
+<p>在确认后，浏览器将上传你的深渊数据，请勿关闭米游社页面</p>
+</li>
+<li>
+<p>在上传完成后，浏览器会有确认完成的提示窗口</p>
+</li>
+</ul>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="footnote1" class="footnote-item"><p>在当前层中不同间内多次出现的同一个角色仅记1次出场次数 <a href="#footnote-ref1" class="footnote-backref">↩︎</a> <a href="#footnote-ref1:1" class="footnote-backref">↩︎</a></p>
+<li id="footnote1" class="footnote-item"><p>在当前层中不同间内多次出现的同一个角色仅记1次出场次数 <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="footnote2" class="footnote-item"><p>角色持有数据与深境螺旋记录独立 <a href="#footnote-ref2" class="footnote-backref">↩︎</a></p>
+<li id="footnote2" class="footnote-item"><p>在当前层中不同间内多次出现的同一个角色仅记1次出场次数 <a href="#footnote-ref2" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="footnote3" class="footnote-item"><p>只要拥有该角色，即使没有在深境螺旋中登场，也会被计入拥有的状态；只要上传过深境螺旋记录，即会被计入全部玩家的数据中。 <a href="#footnote-ref3" class="footnote-backref">↩︎</a></p>
+<li id="footnote3" class="footnote-item"><p>角色持有数据与深境螺旋记录独立 <a href="#footnote-ref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="footnote4" class="footnote-item"><p>只要拥有该角色，即使没有在深境螺旋中登场，也会被计入拥有的状态；只要上传过深境螺旋记录，即会被计入全部玩家的数据中。 <a href="#footnote-ref4" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
