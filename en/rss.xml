@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Wed, 19 Apr 2023 08:51:59 GMT</pubDate>
-    <lastBuildDate>Wed, 19 Apr 2023 08:51:59 GMT</lastBuildDate>
+    <pubDate>Wed, 19 Apr 2023 09:16:23 GMT</pubDate>
+    <lastBuildDate>Wed, 19 Apr 2023 09:16:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -894,18 +894,12 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">ç±³æ
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> Localization framework</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> Web translation</label></li>
-<li>Process:<img src="https://badges.crowdin.net/snap-hutao-docs/localized.svg" alt="Crowdin" loading="lazy">
+<li>Process:
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> English</label>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> Home page</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> User documentation</label></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> Korean</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> Home page</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-22" disabled="disabled"><label class="task-list-item-label" for="task-item-22"> User documentation</label></li>
 </ul>
 </li>
 </ul>
@@ -932,7 +926,15 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">ç±³æ
 </li>
 <li>Snap Hutao Docs
 <ul>
-<li><strong>You can provide your translation at <a href="https://translate-docs.hut.ao" target="_blank" rel="noopener noreferrer">translate-docs.hut.ao</a></strong></li>
+<li>The developer team is maintaining Chinese documents and working on English documents</li>
+<li>You can clone the <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">docs repository</a>, translate docs with your
+favourite tools, and make a Pull Request to contribute your work to the main repository</li>
+<li>If you are adding a new language, you can copy the entire <code>en</code> folder and rename it with <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank" rel="noopener noreferrer">ISO 639-1 language code</a>
+<ul>
+<li>For example <code>jp</code> as Japanese</li>
+<li>Do not translate based on Chinese docs (<code>zh</code>) as there are some content only specific useful for Chinese users; they are not useful for international users.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

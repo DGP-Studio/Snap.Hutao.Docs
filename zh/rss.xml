@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 19 Apr 2023 08:51:59 GMT</pubDate>
-    <lastBuildDate>Wed, 19 Apr 2023 08:51:59 GMT</lastBuildDate>
+    <pubDate>Wed, 19 Apr 2023 09:16:23 GMT</pubDate>
+    <lastBuildDate>Wed, 19 Apr 2023 09:16:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -174,18 +174,12 @@
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 语言本土化技术框架</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 网页翻译</label></li>
-<li>进度：<img src="https://badges.crowdin.net/snap-hutao-docs/localized.svg" alt="Crowdin" loading="lazy">
+<li>进度：
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 英语</label>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 主页</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 用户文档</label></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 韩语</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> 主页</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-22" disabled="disabled"><label class="task-list-item-label" for="task-item-22"> 用户文档</label></li>
 </ul>
 </li>
 </ul>
@@ -212,7 +206,14 @@
 </li>
 <li>Snap Hutao 文档
 <ul>
-<li><strong>你可以在 <a href="https://translate-docs.hut.ao" target="_blank" rel="noopener noreferrer">translate-docs.hut.ao</a> 参与文档的翻译工作</strong></li>
+<li>开发团队正在维护中文文档并完善英文文档</li>
+<li>你可以克隆<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">文档库</a>，在你自己的库中使用你喜欢的工具翻译文档，之后创建一个 PR 来将你的作品提交到文档库中</li>
+<li>如果你计划为一个新的语言翻译文档，你可以创建一个英文文档目录（<code>en</code>目录）的副本然后以 [ISO 639-1 语言代码]命名
+<ul>
+<li>比如说日语文档目录应命名为 <code>jp</code></li>
+<li>不要基于中文文档（<code>zh</code>）翻译，因为其中有一些内容是专门有效于中文用户的；对于国际用户而言并不是有用的。</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
