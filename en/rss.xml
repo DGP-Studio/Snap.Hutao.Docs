@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Wed, 19 Apr 2023 00:57:06 GMT</pubDate>
-    <lastBuildDate>Wed, 19 Apr 2023 00:57:06 GMT</lastBuildDate>
+    <pubDate>Wed, 19 Apr 2023 08:51:59 GMT</pubDate>
+    <lastBuildDate>Wed, 19 Apr 2023 08:51:59 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -1163,37 +1163,224 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>高级启动器</title>
+      <title>Game Launcher</title>
       <link>https://hut.ao/en/features/game-launcher.html</link>
       <guid>https://hut.ao/en/features/game-launcher.html</guid>
-      <source url="https://hut.ao/en/rss.xml">高级启动器</source>
-      <description>胡桃工具箱提供的高级启动器功能中通过多样的设置选项来允许用户以自定义设置启动游戏; 你可以通过点击左侧菜单栏中的启动游戏进入高级启动器功能; 第一次使用时你会被跳转到设置页面以设置你的游戏路径; 选择游戏路径时，请注意此处选择的应是游戏本身; 形如：$\Genshin Impact\Genshin Impact Game\YuanShen.exe; 而...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <source url="https://hut.ao/en/rss.xml">Game Launcher</source>
+      <description>Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings; Click on the Game Launcher on the sidebar to get into game launcher&amp;apos;s...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 高级启动器</h1>
+      <content:encoded><![CDATA[<h1> Game Launcher</h1>
 <ul>
-<li>胡桃工具箱提供的高级启动器功能中通过多样的设置选项来允许用户以自定义设置启动游戏</li>
-<li>你可以通过点击左侧菜单栏中的<code>启动游戏</code>进入高级启动器功能
+<li>Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings</li>
+<li>Click on the <code>Game Launcher</code> on the sidebar to get into game launcher's page
 <ul>
-<li>第一次使用时你会被跳转到设置页面以设置你的游戏路径</li>
-<li>选择游戏路径时，请注意此处选择的应是游戏本身
+<li>If you are using it at the first time, you will be redirected to Snap Hutao settings page and asked to set your game path
 <ul>
-<li>形如：<code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code></li>
-<li>而官方启动器的目录一般是<code>$\Genshin Impact\launcher.exe</code></li>
+<li>When choosing the game path, noticed that you should choose game program instead of launcher program
+<ul>
+<li>Such as <code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code> and <code>$\Genshin Impact\Genshin Impact Game\Genshin Impact.exe</code></li>
+<li>Official launcher program is usually <code>$\Genshin Impact\launcher.exe</code></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>在设置完毕启动游戏所需的附加选项后，点击右下角的<code>启动游戏</code>按钮即可
+</ul>
+</li>
+<li>You can make launcher configuration options in the game launcher's page, and then click <code>Launcher</code> button on the top-right to launch the game
 <ul>
-<li>附加选项请看本页下方的功能文档</li>
+<li>Launcher options is explained in the document below</li>
 </ul>
 </li>
 </ul>
-<h2> 视频指南</h2>
-<p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
-<p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。 但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。 ::: details 胡桃工具箱指南 4 - 高级启动器（切换帐号/切换服务器/帧率解锁）</p>
+<h2> Server Switch</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">Privilege Notice</p>
+<ol>
+<li>You need to run Snap Hutao as administrator to use this feature</li>
+<li>Snap Hutao will create <code>ServerCache</code> folder in the data directory to save required sever switch files</li>
+</ol>
+</div>
+<ul>
+<li>
+<p>Enter Game Launcher page</p>
+</li>
+<li>
+<p>In the <code>General - Server</code> field, select the server you want</p>
+<ul>
+<li>Current available serves options include:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Server</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CN</td>
+<td>Mainland China server</td>
+</tr>
+<tr>
+<td>BiliBili</td>
+<td>Chinese server with BiliBili account system</td>
+</tr>
+<tr>
+<td>Global Default</td>
+<td>HoYoVerse servers</td>
+</tr>
+<tr>
+<td>Global Epic</td>
+<td>HoYoVerse servers with Epic Store payment gateway</td>
+</tr>
+<tr>
+<td>Global Google</td>
+<td>HoYoVerse servers with Google Pay payment gateway</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>click <code>Launcher</code> button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game</p>
+</li>
+</ul>
+<h2> Game Account Switch</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">Tips</p>
+<ol>
+<li>The <strong>account</strong> mentioned in this feature is Genshin game login account instead of HoYoLAB account</li>
+<li>Game account switch feature currently only supporting official CN server</li>
+</ol>
+</div>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>CN</th>
+<th>BiliBili</th>
+<th>Global</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Save Login Status</td>
+<td>Supported</td>
+<td>Supported</td>
+<td>Supported</td>
+</tr>
+<tr>
+<td>Switch Account</td>
+<td>Supported</td>
+<td>Not Supported</td>
+<td>Theoretically Supported <br><a href="https://github.com/DGP-Studio/Snap.Hutao/issues/638" target="_blank" rel="noopener noreferrer">We need community's support for this</a></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Enter Game Launcher page</li>
+<li>Click <code>Detect Account</code> field in the <code>General</code> category, Snap Hutao will detect current Genshin Impact's account login status</li>
+<li>In this pop-up window, enter an archive name for this account and click <code>Confirm</code></li>
+<li>Go back to the game, sign out and sign in to your another account. Repeat step 2 and 3 to add all your account to Snap Hutao
+<ul>
+<li>Each saved account are selectable</li>
+<li>On the right side, there are three buttons, they are:
+<ul>
+<li><code>Bind current user account</code>, bind current activated MiHoYo BBS account with this game account, an UID will be display on this archive</li>
+<li><code>Rename</code>, rename current account archive name</li>
+<li><code>Delete</code>, delete current account archive</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2> Appearance</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">Note</p>
+<ul>
+<li>In some reported cases, using Snap Hutao with <code>Exclusive Fullscreen</code> mode will cause the game process no response.
+<ul>
+<li>Suggest to use <code>Borderless</code> or <code>Fullscreen</code> mode if you faced same problem</li>
+<li>The problem is caused by failure of game embedded browser cannot run</li>
+</ul>
+</li>
+</ul>
+</div>
+<ul>
+<li>Enter Game Launcher page</li>
+<li>In the <code>Appearance</code> category, there are 6 available options:
+<ul>
+<li><strong>Exclusive Fullscreen</strong>, the game process will run in exclusive fullscreen mode</li>
+<li><strong>Fullscreen</strong>, the game display mode is set to fullscreen</li>
+<li><strong>Borderless</strong>, the game display mode is set to borderless</li>
+<li><strong>Width</strong>, game window width, such as <code>1920</code></li>
+<li><strong>Height</strong>, game window height, such as <code>1080</code></li>
+<li><strong>Display</strong>, users with multiple displays can use this option to set which display to run the game</li>
+</ul>
+</li>
+</ul>
+<h2> Advanced Features</h2>
+<div class="hint-container danger">
+<p class="hint-container-title">Warning</p>
+<ul>
+<li>Be aware: all advanced features are labeled as <code>Dangeroud Feature</code>; indicating that enabling them means you choose
+to assume any risk on your own.</li>
+<li>You need to enable advanced features in Snap Hutao's settings page</li>
+</ul>
+</div>
+<h3> Unlock Frame Rate Limit</h3>
+<div class="hint-container danger">
+<p class="hint-container-title">Warning</p>
+<ul>
+<li>The <a href="https://github.com/DGP-Studio/Unlocker" target="_blank" rel="noopener noreferrer">Unlocker project</a> only affects the UnityPlayer itself, directly affecting
+the Unity3D engine, and does not have a direct relationship with the game itself. Essentially, it is no different from
+settings like 120 FPS in mobile devices. However, you should still use it with caution and read the <a href="/en/statements/tos.html" target="blank">user agreement</a>
+on your own.</li>
+</ul>
+</div>
+<ul>
+<li>
+<p>Run Snap Hutao as administrator</p>
+</li>
+<li>
+<p>Enter Game Launcher page</p>
+</li>
+<li>
+<p>At the bottom of the page, you can find <code>Unlock Frame Rate Limit</code> option</p>
+<ul>
+<li>Trigger the switch to enable or disable this feature</li>
+<li>In the <code>Set Frame Rate Limit</code> field, you can adjust the limit freely</li>
+</ul>
+</li>
+<li>
+<p>Fact that may cause <strong>failure in unlocking frame rate limit</strong>:</p>
+<ul>
+<li>Snap Hutao process is not kept in the background</li>
+<li><code>V-Sync</code> is not set to off in the game</li>
+<li><code>Max Framerate</code> limit is not changed in your graphic card settings</li>
+<li><code>Power Saving</code> mode is not disabled in power settings</li>
+<li>Your graphic card is not powerful enough</li>
+</ul>
+</li>
+</ul>
+<h3> Multi-Client</h3>
+<div class="hint-container danger">
+<p class="hint-container-title">Warning</p>
+<p>Multiple instances of the game client is a far more dangerous feature compared to unlocking the framerate limit.
+You should personally or invite a technically knowledgeable professional to review the code and make your own judgment
+on whether to use this feature.</p>
+<p><strong>Using this feature may cause the anti-cheat system in Genshin Impact to fail to load, and the game client will report
+this situation to miHoYo's servers.</strong></p>
+</div>
+<ol>
+<li>Run Snap Hutao as administrator</li>
+<li>Enter Game Launcher page</li>
+<li>At the bottom of the page, enable <code>Multi-Client</code> option</li>
+<li>Click <code>Launch</code> button on the top-right of the window</li>
+<li>Wait for 12 seconds before entering the game (open the gate)</li>
+<li>Repeat step 4 and 5 to launch next client instance</li>
+</ol>
 ]]></content:encoded>
     </item>
     <item>
@@ -1407,7 +1594,14 @@ re-download images resource at next start-up</li>
 <ul>
 <li>Enable Advanced Features
 <ul>
-<li>With Snap Hutao running as administrator, you can enable this field to enable advanced features in the game launcher</li>
+<li>With Snap Hutao running as administrator, you can enable this field to enable advanced features in the game launcher
+<blockquote>
+<p>For reference：</p>
+<p><a href="/en/statements/tos.html" target="blank">Snap Hutao Terms of Service</a></p>
+<p><a href="https://ys.mihoyo.com/main/company/agreement" target="_blank" rel="noopener noreferrer">Genshin Impact Terms of Service (CN server/Chinese)</a></p>
+<p><a href="https://genshin.hoyoverse.com/en/company/terms" target="_blank" rel="noopener noreferrer">Genshin Impact Terms of Service (Oversea servers/English)</a></p>
+</blockquote>
+</li>
 </ul>
 </li>
 <li>Delete All Users
