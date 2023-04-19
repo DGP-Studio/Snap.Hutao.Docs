@@ -88,9 +88,7 @@ ambitions can join together to provide more features to the community.
 
 You can make contribution by the following ways:
 1. [Make Pull Requests to our code](https://github.com/DGP-Studio/Snap.Hutao/pulls)
-2. Improve localization by translating the project on Crowdin
-    1. [Snap Hutao](https://translate.hut.ao/)
-    2. [Snap Hutao Document](https://translate-docs.hut.ao/)
+2. Translate the project for a better [localization](i18n.md)
 3. [Update document](https://github.com/DGP-Studio/Snap.Hutao.Docs)
 
 <!-- @include: star-request.md -->

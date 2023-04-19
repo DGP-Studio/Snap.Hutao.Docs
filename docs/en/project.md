@@ -34,7 +34,7 @@ Documents will be provided on this website for all migrated features. The migrat
 
 The following features are planned to add when the project was established.
 - [ ] Wish history cloud sync
-- [ ] 国际化支持
+- [ ] [Localization](i18n.md)
 - [x] International server support
   - [x] Game Launcher
   - [x] Server Switch

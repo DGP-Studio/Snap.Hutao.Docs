@@ -87,9 +87,7 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多
 
 你可以通过以下方法为项目作出贡献：
 1. [向我们提交 PR](https://github.com/DGP-Studio/Snap.Hutao/pulls)
-2. 在 Crowdin 上进行本地化翻译
-   1. [主项目](https://translate.hut.ao/)
-   2. [文档](https://translate-docs.hut.ao/)
+2. 为项目贡献[本地化翻译](i18n.md)
 3. [为我们更新文档](https://github.com/DGP-Studio/Snap.Hutao.Docs)
 
 <!-- @include: star-request.md -->
