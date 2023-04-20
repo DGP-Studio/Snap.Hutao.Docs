@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Wed, 19 Apr 2023 11:14:34 GMT</pubDate>
-    <lastBuildDate>Wed, 19 Apr 2023 11:14:34 GMT</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2023 08:16:25 GMT</pubDate>
+    <lastBuildDate>Thu, 20 Apr 2023 08:16:25 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -942,103 +942,107 @@ favourite tools, and make a Pull Request to contribute your work to the main rep
       <enclosure url="https://badges.crowdin.net/snap-hutao/localized.svg" type="image/svg+xml"/>
     </item>
     <item>
-      <title>属性统计</title>
+      <title>My Characters</title>
       <link>https://hut.ao/en/features/character-data.html</link>
       <guid>https://hut.ao/en/features/character-data.html</guid>
-      <source url="https://hut.ao/en/rss.xml">属性统计</source>
-      <description>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多帐号切换 (mhy-account-switch.md)文档 属性统计，即主程序侧栏中的我的角色功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分 属性统计示例图 同步角色信息 从 Enka API 同步 同步特征 Enka AP...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <source url="https://hut.ao/en/rss.xml">My Characters</source>
+      <description>This features required logged in MiHoYo BBS account, please refer to MiHoYo BBS Account Switch (mhy-account-switch.md) document for sign in tutorial My characters is a character...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 属性统计</h1>
+      <content:encoded><![CDATA[<h1> My Characters</h1>
 <div class="hint-container info">
 <p class="hint-container-title">Info</p>
-<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/en/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a>文档</p>
+<p>This features required logged in MiHoYo BBS account, please refer to <a href="/en/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a>
+document for sign in tutorial</p>
 </div>
-<p>属性统计，即主程序侧栏中的<code>我的角色</code>功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分</p>
+<p>My characters is a character statistics feature that allows Snap Hutao to read character's statistics on the account,
+including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for
+each character.</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png" alt="属性统计示例图" loading="lazy"></p>
-<h2> 同步角色信息</h2>
-<h3> 从 Enka API 同步</h3>
+<h2> Sync Character Data</h2>
+<h3> Sync from Enka API</h3>
 <div class="hint-container info">
-<p class="hint-container-title">同步特征</p>
+<p class="hint-container-title">Synchronous Feature</p>
 <ul>
-<li>Enka API 同步游戏内角色橱窗中公开展示的角色的信息
+<li>Enka API sync data from characters displayed in the in-game character showcase
 <ul>
-<li>该同步方式包括圣遗物具体数据</li>
-<li>该同步方法包括角色着装信息</li>
-<li>该同步方式一次最多包含8个角色</li>
+<li>Data includes Artifacts detail data, weapon detail data, talent data</li>
+<li>Character costume</li>
+<li>This sync method only support 8 characters at a time</li>
 </ul>
 </li>
 </ul>
 </div>
 <ul>
-<li>在游戏中将角色橱窗设置为公开并添加<strong>需要获取详细资料的角色</strong>进入橱窗展示
+<li>In the game, put <strong>characters that you need detailed data</strong> into the showcase
 <ul>
-<li>角色橱窗中最多可同时展示8个角色</li>
+<li>The character showcase allows up to 8 characters at the same time</li>
 </ul>
 </li>
-<li>若您更换了橱窗内的角色或角色内的配置，需等待游戏内的数据同步至服务器
+<li>You need to wait for data sync to complete after editing the showcase configuration
 <ul>
-<li>开启功能和更换角色后需要最多5分钟同步数据</li>
+<li>You may need up to 5 minutes after enable the showcase or re-config the showcase</li>
 </ul>
 </li>
-<li>进入胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></li>
-<li>点击<code>从Enka API 同步</code></li>
+<li>Enter <code>My Characters</code> page in the Snap Hutao, Click <code>Sync Character Data</code> button on the top-right</li>
+<li>Select <code>Sync from Enka API</code></li>
 </ul>
-<h3> 从 米游社我的角色 同步</h3>
+<h3> Sync from MiHoYo BBS - My Characters</h3>
 <div class="hint-container info">
-<p class="hint-container-title">同步特征</p>
+<p class="hint-container-title">Synchronous Feature</p>
 <ul>
-<li>米游社我的角色 同步的数据来源于米游社数据
+<li>Data in this sync method comes from My Characters feature in MiHoYo official BSS
 <ul>
-<li>该同步方式不包含圣遗物信息</li>
-<li>该同步方式一次可同步全部角色信息</li>
+<li>This method does not contain any artifacts data</li>
+<li>This method can sync all characters data at a time</li>
 </ul>
 </li>
 </ul>
 </div>
 <ul>
-<li>在胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></li>
-<li>点击<code>从米游社我的角色同步</code></li>
+<li>Enter <code>My Characters</code> page in the Snap Hutao, Click <code>Sync Character Data</code> button on the top-right</li>
+<li>Select <code>Sync from MiHoYo BBS My Characters</code></li>
 </ul>
-<h3> 从 米游社养成计算 同步</h3>
+<h3> Sync from MiHoYo BBS - Development Plan</h3>
 <div class="hint-container info">
-<p class="hint-container-title">同步特征</p>
+<p class="hint-container-title">Synchronous Feature</p>
 <ul>
-<li>米游社养成计算 同步的数据来源于米游社养成计算数据
+<li>Data in this method comes from <code>Enhancement Progression Calculator</code> feature in MiHoYo official BBS tool set
 <ul>
-<li>该同步方式包含角色天赋等级信息</li>
-<li>该同步方式一次可同步全部角色信息</li>
+<li>This sync method contains talent level data</li>
+<li>This sync method can sync all characters data at a time</li>
 </ul>
 </li>
 </ul>
 </div>
 <ul>
-<li>在胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></li>
-<li>点击<code>从米游社养成计算同步</code></li>
+<li>Enter <code>My Characters</code> page in the Snap Hutao, Click <code>Sync Character Data</code> button on the top-right</li>
+<li>Select <code>Sync from MiHoYo BBS Developement Plan</code></li>
 </ul>
-<h2> 将当前选定角色加入养成计算</h2>
+<h2> Add Selected Character to Development Plan</h2>
 <ul>
-<li>在胡桃工具箱的<code>我的角色</code>功能页面，点击切换至需要加入养成计算的角色的资料页面</li>
-<li>点击界面右上方的"养成计算"按钮，输入目标等级
+<li>Enter <code>My Characters</code> page in the Snap Hutao, click on character you need to add to development plan</li>
+<li>Click on <code>Development Plan</code> and enter target level
 <ul>
-<li><strong>已同步数据的角色</strong>的当前角色等级、天赋等级会预填入其中，目标等级可自由更改</li>
+<li><strong>Synchronized data of the character</strong> will be pre-filled into current level, and you can change the target level</li>
 </ul>
 </li>
 </ul>
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png" alt="rolescal" loading="lazy"></p>
 <ul>
-<li>添加完毕后，您可在"养成计划"功能中查看"已添加的养成目标"</li>
+<li>After adding successfully, you can find added development plan in the <code>Dev Plan</code> page in Snap Hutao</li>
 </ul>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png" alt="image" loading="lazy"></p>
 <ul>
-<li>关于养成计划功能的详细说明，请见<a href="/en/features/develop-plan.html" target="blank">养成计划</a>文档</li>
+<li>For tutorial of Dev Plan feature, please refer to <a href="/en/features/develop-plan.html" target="blank">Dev Plan</a> document</li>
 </ul>
-<h2> 导出图片</h2>
+<h2> Export as Image</h2>
 <ul>
-<li>在我的角色页面中，你可以在选择一个角色的情况下点击右上角的<code>导出图片</code>按钮以将角色数据转化为图片形式，这将有助于你分享你的角色信息</li>
-<li>导出的图片储存在系统剪贴板中，你可以在合适的地方直接粘贴以获得该图片</li>
-<li>导出图片样式如下图所示</li>
+<li>In <code>My Characters</code> page, you can select a character and then click <code>Export as Image</code> button to create image with your
+character's data, this will help you to share your character's data</li>
+<li>The exported image is stored in your clipboard, and you can paste it wherever you need</li>
+<li>A sample exported image is shown below</li>
 </ul>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png" alt="sample-output-image" loading="lazy"></p>
 ]]></content:encoded>
