@@ -1,76 +1,79 @@
 ---
 headerDepth: 0
-category:
-  - 功能
-  - 教程
+category: [Feature, Tutorial]
 order: 5
 ---
 
-# 属性统计
+# My Characters
 
 ::: info
-该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见[米游社多帐号切换](mhy-account-switch.md)文档
+This features required logged in MiHoYo BBS account, please refer to [MiHoYo BBS Account Switch](mhy-account-switch.md) 
+document for sign in tutorial
 :::
 
-属性统计，即主程序侧栏中的`我的角色`功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分
+My characters is a character statistics feature that allows Snap Hutao to read character's statistics on the account, 
+including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for 
+each character.
+
 
 ![属性统计示例图](https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png)
 
-## 同步角色信息
-### 从 Enka API 同步
+## Sync Character Data
+### Sync from Enka API
 
-::: info 同步特征
-- Enka API 同步游戏内角色橱窗中公开展示的角色的信息
-  - 该同步方式包括圣遗物具体数据
-  - 该同步方法包括角色着装信息
-  - 该同步方式一次最多包含8个角色
+::: info Synchronous Feature
+- Enka API sync data from characters displayed in the in-game character showcase
+  - Data includes Artifacts detail data, weapon detail data, talent data
+  - Character costume
+  - This sync method only support 8 characters at a time
 :::
 
-- 在游戏中将角色橱窗设置为公开并添加**需要获取详细资料的角色**进入橱窗展示
-  - 角色橱窗中最多可同时展示8个角色
-- 若您更换了橱窗内的角色或角色内的配置，需等待游戏内的数据同步至服务器
-  - 开启功能和更换角色后需要最多5分钟同步数据
-- 进入胡桃工具箱的`我的角色`功能页面，在界面右上角点击`同步角色信息`
-- 点击`从Enka API 同步`
+- In the game, put **characters that you need detailed data** into the showcase
+  - The character showcase allows up to 8 characters at the same time
+- You need to wait for data sync to complete after editing the showcase configuration
+  - You may need up to 5 minutes after enable the showcase or re-config the showcase
+- Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
+- Select `Sync from Enka API`
 
-### 从 米游社我的角色 同步
-::: info 同步特征
-- 米游社我的角色 同步的数据来源于米游社数据
-  - 该同步方式不包含圣遗物信息
-  - 该同步方式一次可同步全部角色信息
+### Sync from MiHoYo BBS - My Characters
+::: info Synchronous Feature
+- Data in this sync method comes from My Characters feature in MiHoYo official BSS
+  - This method does not contain any artifacts data
+  - This method can sync all characters data at a time
 :::
 
-- 在胡桃工具箱的`我的角色`功能页面，在界面右上角点击`同步角色信息`
-- 点击`从米游社我的角色同步`
+- Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
+- Select `Sync from MiHoYo BBS My Characters`
 
-
- ### 从 米游社养成计算 同步
-::: info 同步特征
-- 米游社养成计算 同步的数据来源于米游社养成计算数据
-  - 该同步方式包含角色天赋等级信息
-  - 该同步方式一次可同步全部角色信息
+ ### Sync from MiHoYo BBS - Development Plan
+::: info Synchronous Feature
+- Data in this method comes from `Enhancement Progression Calculator` feature in MiHoYo official BBS tool set
+  - This sync method contains talent level data
+  - This sync method can sync all characters data at a time
 :::
 
-- 在胡桃工具箱的`我的角色`功能页面，在界面右上角点击`同步角色信息`
-- 点击`从米游社养成计算同步`
+- Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
+- Select `Sync from MiHoYo BBS Developement Plan`
 
-## 将当前选定角色加入养成计算
+## Add Selected Character to Development Plan
 
-- 在胡桃工具箱的`我的角色`功能页面，点击切换至需要加入养成计算的角色的资料页面
-- 点击界面右上方的"养成计算"按钮，输入目标等级
-  - **已同步数据的角色**的当前角色等级、天赋等级会预填入其中，目标等级可自由更改
+- Enter `My Characters` page in the Snap Hutao, click on character you need to add to development plan
+- Click on `Development Plan` and enter target level
+  - **Synchronized data of the character** will be pre-filled into current level, and you can change the target level
 
 ![rolescal](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png)
 
- - 添加完毕后，您可在"养成计划"功能中查看"已添加的养成目标"
+- After adding successfully, you can find added development plan in the `Dev Plan` page in Snap Hutao
 
 ![image](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png)
 
- - 关于养成计划功能的详细说明，请见[养成计划](develop-plan.md)文档
+- For tutorial of Dev Plan feature, please refer to [Dev Plan](develop-plan.md) document
 
-## 导出图片
-- 在我的角色页面中，你可以在选择一个角色的情况下点击右上角的`导出图片`按钮以将角色数据转化为图片形式，这将有助于你分享你的角色信息
-- 导出的图片储存在系统剪贴板中，你可以在合适的地方直接粘贴以获得该图片
-- 导出图片样式如下图所示
+## Export as Image
+
+- In `My Characters` page, you can select a character and then click `Export as Image` button to create image with your 
+character's data, this will help you to share your character's data
+- The exported image is stored in your clipboard, and you can paste it wherever you need
+- A sample exported image is shown below
 
 ![sample-output-image](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png)
