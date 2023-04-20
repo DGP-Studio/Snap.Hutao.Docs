@@ -115,3 +115,9 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 - 商店版本和侧载版本有不同的软件 ID，所以会被系统识别为不同的程序
 - 商店版的更新只会覆盖商店版应用；侧载版更新包只会更新侧载版应用
 - 在你的系统中，商店版的胡桃工具箱名称为 `Snap Hutao`，侧载版的名称为 `胡桃`
+
+## 安装进度卡在“正在安装所需框架”（一个可能的情况为卡在15%）
+
+- 这可能是因为你的系统无法自动安装框架，通常是网络或者windows update组件导致，这类问题请到微软社区提问
+- 也可以选择手动安装 [胡桃的相关依赖](https://d.hut.ao/releases/Dependency)尝试解决
+
