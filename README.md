@@ -1,5 +1,5 @@
 # Snap.Hutao.Docs
-Documents for [Snap Hutao project](https://github.com/DGP-Studio/Snap.Hutao)
+Documents for [Snap Hutao project](https://github.com/DGP-Studio/Snap.Hutao). You can always view its live version at [https://hut.ao](https://hut.ao)
 
 **Please check our [localization document](https://hut.ao/i18n.html) if you want to contribute to the document**
 
