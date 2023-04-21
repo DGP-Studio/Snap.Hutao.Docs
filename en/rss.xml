@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Thu, 20 Apr 2023 12:21:02 GMT</pubDate>
-    <lastBuildDate>Thu, 20 Apr 2023 12:21:02 GMT</lastBuildDate>
+    <pubDate>Fri, 21 Apr 2023 21:03:05 GMT</pubDate>
+    <lastBuildDate>Fri, 21 Apr 2023 21:03:05 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -1109,16 +1109,20 @@ character's data, this will help you to share your character's data</li>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>养成计划</title>
+      <title>Development Plan</title>
       <link>https://hut.ao/en/features/develop-plan.html</link>
       <guid>https://hut.ao/en/features/develop-plan.html</guid>
-      <source url="https://hut.ao/en/rss.xml">养成计划</source>
-      <description>dev-plan 添加养成目标进入材料清单 基于 WIKI 资料添加 在胡桃工具箱的左侧栏目中，点击角色资料或`武器资料功能; 在&amp;quot;胡桃工具箱&amp;quot;的整体界面右上部分，点击养成计算按钮; 在弹出的&amp;quot;添加到当前养成计划&amp;quot;的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级; 基于 WIKI 资料添加的养成目标，默认初始值为1级; 基于玩家数据添加 在&amp;quot;...</description>
+      <source url="https://hut.ao/en/rss.xml">Development Plan</source>
+      <description>dev-plan Dev Plan is under redesigning, the document will be translated after the refinement. 添加养成目标进入材料清单 基于 WIKI 资料添加 在胡桃工具箱的左侧栏目中，点击角色资料或`武器资料功能; 在&amp;quot;胡桃工具箱&amp;quot;的整体界面右上部分，点击养成计算按钮; ...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 养成计划</h1>
+      <content:encoded><![CDATA[<h1> Development Plan</h1>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png" alt="dev-plan" loading="lazy"></p>
+<div class="hint-container info">
+<p class="hint-container-title">Info</p>
+<p>Dev Plan is under redesigning, the document will be translated after the refinement.</p>
+</div>
 <h2> 添加养成目标进入材料清单</h2>
 <h3> 基于 WIKI 资料添加</h3>
 <ul>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 20 Apr 2023 12:21:02 GMT</pubDate>
-    <lastBuildDate>Thu, 20 Apr 2023 12:21:02 GMT</lastBuildDate>
+    <pubDate>Fri, 21 Apr 2023 21:03:05 GMT</pubDate>
+    <lastBuildDate>Fri, 21 Apr 2023 21:03:05 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -1558,13 +1558,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
 
 <h2> 查看深渊数据</h2>
 <div class="hint-container warning">
-<p class="hint-container-title">注意</p>
+<p class="hint-container-title">数据范围局限性</p>
 <p>所有计算数据都基于<strong>已上传至胡桃数据库中的玩家数据</strong>，无法代表全部原神玩家的平均数据，数据仅做参考用途</p>
 </div>
 <div class="hint-container info">
 <p class="hint-container-title">数据刷新周期</p>
 <ol>
-<li>深境螺旋统计数据（角色使用率、角色出场率、队伍出场）在北京时间每月1日和16日的4点自动清理。
+<li>深境螺旋统计数据（角色使用率、角色出场率、队伍出场）在帐号所属游戏服务器时区每月1日和16日的4点自动清理。
 <ul>
 <li>点击界面右上角的信息按钮你可以查看当前实时已上传的总数据</li>
 </ul>
@@ -1608,6 +1608,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 <h3> 使用浏览器</h3>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>该方法不适用于 HoYoLab</p>
+</div>
 <ul>
 <li>
 <p>打开我们的 <a href="/upload-abyss-data.js">JavaScript 脚本</a>，复制全部内容</p>
