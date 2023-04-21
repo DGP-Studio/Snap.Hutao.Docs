@@ -6,9 +6,13 @@ category:
 order: 7
 ---
 
-# 养成计划
+# Development Plan
 
 ![dev-plan](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png)
+
+::: info
+Dev Plan is under redesigning, the document will be translated after the refinement.
+:::
 
 ## 添加养成目标进入材料清单
 
