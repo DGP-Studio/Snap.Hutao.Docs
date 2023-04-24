@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@vuepress/bundler-vite': 2.0.0-beta.61
   '@vuepress/client': 2.0.0-beta.61
   '@vuepress/plugin-docsearch': 2.0.0-beta.61
   '@vuepress/plugin-google-analytics': 2.0.0-beta.61
@@ -10,6 +11,7 @@ specifiers:
   vuepress-theme-hope: 2.0.0-beta.206
 
 devDependencies:
+  '@vuepress/bundler-vite': 2.0.0-beta.61
   '@vuepress/client': 2.0.0-beta.61
   '@vuepress/plugin-docsearch': 2.0.0-beta.61
   '@vuepress/plugin-google-analytics': 2.0.0-beta.61

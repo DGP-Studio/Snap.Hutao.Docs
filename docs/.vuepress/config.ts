@@ -1,8 +1,9 @@
-import { defineUserConfig } from "vuepress";
 import { viteBundler } from "@vuepress/bundler-vite";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
+import { defineUserConfig } from "vuepress";
 import { redirectPlugin } from "vuepress-plugin-redirect";
+
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -28,6 +29,7 @@ export default defineUserConfig({
       },
     ],
   ],
+
   locales: {
     "/zh/": {
       lang: "zh-CN",

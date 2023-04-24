@@ -60,90 +60,46 @@ export default hopeTheme({
     },
   },
 
-
   plugins: {
-    // If you don't need comment feature, you can remove following option
-    // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
-    // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
     comment: {
       provider: "Waline",
       serverURL: "https://comments.snapgenshin.com",
       emoji: [
-          '//unpkg.com/@waline/emojis@1.1.0/weibo',
-          '//unpkg.com/@waline/emojis@1.1.0/bilibili',
-          '//unpkg.com/@waline/emojis@1.1.0/bmoji',
-          '//unpkg.com/@waline/emojis@1.1.0/qq',
-          '//unpkg.com/@waline/emojis@1.1.0/tieba'
+        "//unpkg.com/@waline/emojis@1.1.0/weibo",
+        "//unpkg.com/@waline/emojis@1.1.0/bilibili",
+        "//unpkg.com/@waline/emojis@1.1.0/bmoji",
+        "//unpkg.com/@waline/emojis@1.1.0/qq",
+        "//unpkg.com/@waline/emojis@1.1.0/tieba",
       ],
-      dark: "auto",
-      requiredMeta: ['mail'],
-      login: 'enable',
+      requiredMeta: ["mail"],
       reaction: false,
     },
 
-    // Operational Plugins
+    components: {
+      components: ["Badge", "BiliBili"],
+    },
+
     feed: {
       rss: true,
     },
-    seo: true,
+
     sitemap: {
-      changefreq: "weekly"
+      changefreq: "weekly",
     },
 
-    // Disable features you don't want here
     mdEnhance: {
-      align: true,
-      attrs: true,
-      chart: true,
-      codetabs: true,
-      container: true,
-      demo: true,
-      echarts: true,
-      flowchart: true,
       gfm: true,
-      imgSize: true,
-      include: true,
-      katex: true,
       imgLazyload: true,
-      mark: true,
-      mermaid: true,
-      playground: {
-        presets: ["ts", "vue"],
-      },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
-      stylize: [
-        {
-          matcher: "Recommanded",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommanded",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
+      include: true,
       tabs: true,
-      vPre: true,
-      vuePlayground: true,
     },
-    components: {
-      components: [
-          "Badge",
-          "BiliBili",
-      ]
-    },
+
     pwa: {
       favicon: "/favicon.ico",
       cacheHTML: false,
       cachePic: true,
       appendBase: true,
-      themeColor: '#f26d6d',
+      themeColor: "#f26d6d",
       update: "hint",
       apple: {
         icon: "/favicon.ico",
@@ -185,7 +141,7 @@ export default hopeTheme({
             sizes: "48x48",
             type: "image/png",
           },
-        ]
+        ],
       },
     },
   },
