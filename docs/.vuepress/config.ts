@@ -1,21 +1,32 @@
 import { defineUserConfig } from "vuepress";
-import { viteBundler } from '@vuepress/bundler-vite'
-import theme from "./theme.js";
-import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { viteBundler } from "@vuepress/bundler-vite";
+import { docsearchPlugin } from "@vuepress/plugin-docsearch";
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { redirectPlugin } from "vuepress-plugin-redirect";
+import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
 
   dest: "./dist",
 
-  head:[
-    ['script', {async:"", defer:"", "data-website-id":"f586534f-1741-450e-a0f4-3c0189f993c9",
-      src:"https://umami.irain.in/umami.js"}, `
-       `],
-      ['script', {type: "module", src:"https://get.microsoft.com/badge/ms-store-badge.bundled.js"}],
+  head: [
+    [
+      "script",
+      {
+        src: "https://umami.irain.in/umami.js",
+        "data-website-id": "f586534f-1741-450e-a0f4-3c0189f993c9",
+        async: "",
+        defer: "",
+      },
+    ],
+    [
+      "script",
+      {
+        type: "module",
+        src: "https://get.microsoft.com/badge/ms-store-badge.bundled.js",
+      },
+    ],
   ],
   locales: {
     "/zh/": {
@@ -38,8 +49,8 @@ export default defineUserConfig({
       locales: {
         "/zh/": {
           placeholder: "搜索文档",
-          translations:{
-            button:{
+          translations: {
+            button: {
               buttonText: "搜索文档",
               buttonAriaLabel: "搜索文档",
             },
@@ -75,30 +86,29 @@ export default defineUserConfig({
                 reportMissingResultsLinkText: "点击反馈",
               },
             },
-          }
+          },
         },
         "/en/": {
           placeholder: "Search documents",
-          translations:{
-            button:{
-              buttonText: "Search documents"
-            }
-          }
-        }
-      }
+          translations: {
+            button: {
+              buttonText: "Search documents",
+            },
+          },
+        },
+      },
     }),
     googleAnalyticsPlugin({
-      id: "G-F3LFJCE3RM"
+      id: "G-F3LFJCE3RM",
     }),
     redirectPlugin({
       defaultLocale: "/en/",
-      defaultBehavior: "defaultLocale",
       autoLocale: true,
       switchLocale: "modal",
       localeConfig: {
         "/en/": ["en-US", "en-UK", "en"],
         "/zh/": ["zh-CN", "zh-TW", "zh"],
-      }
+      },
     }),
   ],
 
@@ -108,10 +118,9 @@ export default defineUserConfig({
 
   bundler: viteBundler({
     viteOptions: {
-      build:{
-        chunkSizeWarningLimit: 1500
-      }
+      build: {
+        chunkSizeWarningLimit: 1500,
+      },
     },
-    vuePluginOptions: {},
   }),
 });
