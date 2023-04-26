@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Wed, 26 Apr 2023 05:37:33 GMT</pubDate>
-    <lastBuildDate>Wed, 26 Apr 2023 05:37:33 GMT</lastBuildDate>
+    <pubDate>Wed, 26 Apr 2023 11:48:51 GMT</pubDate>
+    <lastBuildDate>Wed, 26 Apr 2023 11:48:51 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -355,40 +355,43 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
 ]]></content:encoded>
     </item>
     <item>
-      <title>常见的程序异常</title>
+      <title>Common Program Exceptions</title>
       <link>https://hut.ao/en/advanced/exceptions.html</link>
       <guid>https://hut.ao/en/advanced/exceptions.html</guid>
-      <source url="https://hut.ao/en/rss.xml">常见的程序异常</source>
-      <description>该文档包含由用户端错误造成的问题 RuntimeEnvironmentException 异常：RuntimeEnvironmentException; 提示：未开启长路径功能，无法设置注册表键值; 问题来源：没有解除 Windows 目录长度限制; 解决方案：下载 EnableLongPaths.zip (https://d.hut.ao/d/too...</description>
+      <source url="https://hut.ao/en/rss.xml">Common Program Exceptions</source>
+      <description>该文档包含由用户端错误造成的问题 This document covers solutions of foreseeable client error RuntimeEnvironmentException Exception: RuntimeEnvironmentException; Hint: Unable to set registry key ...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:38 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 常见的程序异常</h1>
-<p>该文档包含由<strong>用户端错误</strong>造成的问题</p>
+      <content:encoded><![CDATA[<h1> Common Program Exceptions</h1>
+<p>该文档包含由<strong>用户端错误</strong>造成的问题
+This document covers solutions of <strong>foreseeable client error</strong></p>
 <h2> RuntimeEnvironmentException</h2>
 <ul>
-<li>异常：<code>RuntimeEnvironmentException</code>
+<li>Exception: <code>RuntimeEnvironmentException</code>
 <ul>
-<li>提示：<code>未开启长路径功能，无法设置注册表键值</code></li>
+<li>Hint: <code>Unable to set registry key without enabling long path</code></li>
 </ul>
 </li>
-<li>问题来源：没有解除 Windows 目录长度限制</li>
-<li>解决方案：下载 <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a> 后解压，以管理员身份运行解压后的 <code>.reg</code> 文件</li>
+<li>Issue source: Windows long path limit is set to be limited at 256 characters by default</li>
+<li>Solution: Download <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a>, unzip it and run <code>.reg</code> file
+as administrator</li>
 </ul>
 <h2> Return Code: -10001</h2>
 <ul>
-<li>该异常实际上来源于米游社的返回信息，包括：
+<li>This error comes directly from MiHoYo BBS, hints include
 <ul>
 <li><code>Return Code: -10001</code></li>
 <li><code>Return Code: -100</code></li>
 </ul>
 </li>
-<li>问题来源：
+<li>Issue source
 <ol>
-<li>Cookie 过期或网络异常</li>
-<li>系统时间错误</li>
+<li>Cookie expired</li>
+<li>Network error</li>
+<li>System time is not accurate</li>
 </ol>
 </li>
-<li>解决方案：
+<li>Solution
 <ol>
 <li>在帐号面板中，点击<code>刷新 Cookie</code></li>
 <li>删除帐号后重新添加米游社帐号</li>
