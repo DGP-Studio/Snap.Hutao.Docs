@@ -19,11 +19,14 @@
     "vuepress-plugin-redirect": "2.0.0-beta.206",
     "vuepress-theme-hope": "2.0.0-beta.206"
   },
+  "packageManager": "pnpm@8.3.1",
   "pnpm": {
-    "ignoreMissing": [
-      "@algolia/client-search",
-      "react",
-      "react-dom"
-    ]
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "react",
+        "react-dom"
+      ]
+    }
   }
 }
