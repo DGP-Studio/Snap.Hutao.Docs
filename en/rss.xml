@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Sat, 22 Apr 2023 08:34:26 GMT</pubDate>
-    <lastBuildDate>Sat, 22 Apr 2023 08:34:26 GMT</lastBuildDate>
+    <pubDate>Wed, 26 Apr 2023 05:37:27 GMT</pubDate>
+    <lastBuildDate>Wed, 26 Apr 2023 05:37:27 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -1562,6 +1562,19 @@ Currently, you are already able to register and login to your Snap Hutao account
 </ul>
 </li>
 </ul>
+<p>@slidestart auto</p>
+<h2> Windows 10 Acrylic</h2>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png" alt="win10-Acrylic" loading="lazy"></p>
+<hr>
+<h2> Windows 11 Acrylic</h2>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01MXJZE61g6dtvtITxC_!!1797064093.jpg" alt="win11-Acrylic" loading="lazy"></p>
+<hr>
+<h2> Windows 11 Mica</h2>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01aW0iV71g6du5WAz9w_!!1797064093.jpg" alt="win11-Mica" loading="lazy"></p>
+<hr>
+<h2> Windows 11 MicaAlt</h2>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN010BwmBI1g6du9bi7C0_!!1797064093.jpg" alt="win11-MicaAlt" loading="lazy"></p>
+<p>@slideend</p>
 <h2> Wish History</h2>
 <ul>
 <li>In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature</li>

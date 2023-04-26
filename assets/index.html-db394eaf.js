@@ -1,0 +1,1 @@
+import{_ as t,Y as o,Z as n,a1 as c,$ as e,a0 as r,F as s}from"./framework-8be3ab77.js";const _={},d=e("h1",{id:"声明和公告",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#声明和公告","aria-hidden":"true"},"#"),r(" 声明和公告")],-1);function l(i,h){const a=s("AutoCatalog");return o(),n("div",null,[d,c(a)])}const m=t(_,[["render",l],["__file","index.html.vue"]]);export{m as default};
