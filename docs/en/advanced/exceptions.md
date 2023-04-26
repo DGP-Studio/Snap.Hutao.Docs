@@ -1,28 +1,30 @@
 ---
 headerDepth: 2
 icon: debug
-category:
-  - FAQ
+category: [FAQ]
 order: 2
 ---
 
-# 常见的程序异常
+# Common Program Exceptions
 该文档包含由**用户端错误**造成的问题
+This document covers solutions of **foreseeable client error**
 
 ## RuntimeEnvironmentException
-- 异常：`RuntimeEnvironmentException`
-  - 提示：`未开启长路径功能，无法设置注册表键值`
-- 问题来源：没有解除 Windows 目录长度限制
-- 解决方案：下载 [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip) 后解压，以管理员身份运行解压后的 `.reg` 文件
+- Exception: `RuntimeEnvironmentException`
+  - Hint: `Unable to set registry key without enabling long path`
+- Issue source: Windows long path limit is set to be limited at 256 characters by default
+- Solution: Download [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip), unzip it and run `.reg` file 
+as administrator
 
 ## Return Code: -10001
-- 该异常实际上来源于米游社的返回信息，包括：
+- This error comes directly from MiHoYo BBS, hints include
   - `Return Code: -10001`
   - `Return Code: -100`
-- 问题来源：
-  1. Cookie 过期或网络异常
-  2. 系统时间错误
-- 解决方案：
+- Issue source
+  1. Cookie expired
+  2. Network error
+  3. System time is not accurate
+- Solution
   1. 在帐号面板中，点击`刷新 Cookie`
   2. 删除帐号后重新添加米游社帐号
   3. 在系统设置中启用自动同步时间并立刻同步时间
