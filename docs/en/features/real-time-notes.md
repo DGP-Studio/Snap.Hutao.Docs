@@ -7,12 +7,16 @@ order: 4
 # Real-time Notes
 
 ::: info
-This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao, 
+
+This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao,
 you can check [米游社多帐号切换](mhy-account-switch.html) for more information.
-:::  
+
+:::
+
 ![live-data-tracking](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png)
 
 ## Add Role
+
 - Click on `Add Role` button
 - In the pop-up menu, find the UID you want to add, and click on the add button to its right
 - Now, the game UID character's Real-time Notes should be displayed in the page
@@ -22,6 +26,7 @@ you can check [米游社多帐号切换](mhy-account-switch.html) for more infor
   - If you receive any warning similar to `Verification failed`, it may be caused by too many account added, and you can try to fix it youself by refreshing account cookie
 
 ## Global Notification Settings
+
 - In the `Notification Settings` on the top right, you can change the global settings of Real-time Notes, including:
   - Refresh rate
   - Do not disturb setting
@@ -42,5 +47,6 @@ you can check [米游社多帐号切换](mhy-account-switch.html) for more infor
 - Click on `Save` and you can save the settings
 
 ## Delete Daily-Notes Account
+
 - Hover the cursor over the form of Real-time Notes account that needs to delete
 - Clock on the remove button on it, and you can remove the corresponding account

@@ -80,14 +80,15 @@ features:
 
 copyright: false
 footer: MIT Licensed | Copyright © 2019-present Mr.Hope
-
 ---
+
 ## Contribute
 
-Snap Hutao is a free software maintained by open-source community, and we hope more players with same 
+Snap Hutao is a free software maintained by open-source community, and we hope more players with same
 ambitions can join together to provide more features to the community.
 
 You can make contribution by the following ways:
+
 1. [Make Pull Requests to our code](https://github.com/DGP-Studio/Snap.Hutao/pulls)
 2. Translate the project for a better [localization](i18n.md)
 3. [Update document](https://github.com/DGP-Studio/Snap.Hutao.Docs)
@@ -95,6 +96,7 @@ You can make contribution by the following ways:
 <!-- @include: star-request.md -->
 
 ## Service Used
+
 Snap Hutao is currently using software from the following service providers.
 
 <a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" /> </a>

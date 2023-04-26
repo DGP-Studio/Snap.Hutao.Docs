@@ -21,7 +21,7 @@ Dev Plan is under redesigning, the document will be translated after the refinem
 - 在胡桃工具箱的左侧栏目中，点击`角色资料`或`武器资料`功能
 - 在"胡桃工具箱"的整体界面右上部分，点击`养成计算`按钮
 - 在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级
-  - 基于 WIKI 资料添加的养成目标，默认初始值为1级
+  - 基于 WIKI 资料添加的养成目标，默认初始值为 1 级
 
 ### 基于玩家数据添加
 
@@ -30,7 +30,6 @@ Dev Plan is under redesigning, the document will be translated after the refinem
 - 在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的"起始等级"以及"目标等级"
   - 基于玩家数据添加的养成目标，默认初始等级为玩家当前的角色等级
   - 请参考[属性统计](character-data#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97)文档以获取更多信息
-
 
 ## 背包物品
 
@@ -47,6 +46,4 @@ Dev Plan is under redesigning, the document will be translated after the refinem
 
 ## 功能说明
 
-此功能尚在完善阶段，若您有建设性的建议，或发现了显著的问题，请按[此页面](../statements/bug-report.md)直接向我们反馈，感谢您的贡献！  
-
-     
+此功能尚在完善阶段，若您有建设性的建议，或发现了显著的问题，请按[此页面](../statements/bug-report.md)直接向我们反馈，感谢您的贡献！

@@ -11,6 +11,7 @@ order: 8
 Character WIKI is a Snap Hutao build-in WIKI feature used to query each character's information.
 
 ## Included Data
+
 - Character list
   - Use the icon above the list, you can change the view between `list` and `grid`
   - Click on character's icon or title, and you will be directed to its WIKI page
@@ -31,6 +32,7 @@ Character WIKI is a Snap Hutao build-in WIKI feature used to query each characte
   - Character stories
 
 ## Add to Dev Plan
+
 - At character WIKI page, you can select character and click on `Dev Plan` on the top right to add it to your Dev Plan
   - The new plan will set the base level as `1`
   - If you want to make new Dev Plan based on character you already have, you can try [My Character](character-data.html) feature

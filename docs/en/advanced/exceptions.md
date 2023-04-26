@@ -6,17 +6,20 @@ order: 2
 ---
 
 # Common Program Exceptions
+
 该文档包含由**用户端错误**造成的问题
 This document covers solutions of **foreseeable client error**
 
 ## RuntimeEnvironmentException
+
 - Exception: `RuntimeEnvironmentException`
   - Hint: `Unable to set registry key without enabling long path`
 - Issue source: Windows long path limit is set to be limited at 256 characters by default
-- Solution: Download [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip), unzip it and run `.reg` file 
-as administrator
+- Solution: Download [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip), unzip it and run `.reg` file
+  as administrator
 
 ## Return Code: -10001
+
 - This error comes directly from MiHoYo BBS, hints include
   - `Return Code: -10001`
   - `Return Code: -100`
@@ -30,10 +33,13 @@ as administrator
   3. 在系统设置中启用自动同步时间并立刻同步时间
 
 ## HttpRequestException 元数据校验文件下载失败
+
 ### 403 (Forbidden)
+
 解决方案：更新胡桃工具箱至[最新版本](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
 
 ### 502 (Bad Gateway)
+
 > 相关 Issue: [https://github.com/DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
 
 当胡桃工具箱无法从远程服务器获取到必要资源时（通常是配置文件和图片缓存），会在用户界面抛出如下图所示的 `HttpRequestException` 错误。
