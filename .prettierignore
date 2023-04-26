@@ -1,0 +1,12 @@
+# VuePress Cache
+**/.vuepress/.cache/**
+# VuePress Temp
+**/.vuepress/.temp/**
+# VuePress static files
+**/.vuepress/public/**
+
+# Node modules
+node_modules/
+
+# pnpm lock file
+pnpm-lock.yaml
