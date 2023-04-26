@@ -87,6 +87,7 @@ footer: MIT Licensed | Copyright © 2019-present Mr.Hope
 Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多志同道合的开发者能参与到项目中，为 Snap Hutao 带来更多的功能。
 
 你可以通过以下方法为项目作出贡献：
+
 1. [向我们提交 PR](https://github.com/DGP-Studio/Snap.Hutao/pulls)
 2. 为项目贡献[本地化翻译](i18n.md)
 3. [为我们更新文档](https://github.com/DGP-Studio/Snap.Hutao.Docs)
@@ -94,6 +95,7 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多
 <!-- @include: star-request.md -->
 
 ## 平台
+
 Snap Hutao 目前使用了以下软件厂商提供的服务
 
 <a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" /> </a>
