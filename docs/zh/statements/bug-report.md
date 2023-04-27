@@ -18,7 +18,7 @@ redirectFrom: /statements/bug-report.html
   - 一个可以参考的非常正面的例子是 [DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
   - 你也可以通过[这个视频](https://www.bilibili.com/video/BV18T411z7R4)来学习如何发起并管理你在开源项目中的 issue
 - 如果你有能力在代码层面修复该问题，也欢迎您直接在对应的项目中发起 PR。
-  ![suggestion](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg)
+  ![suggestion](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg_.webp)
 **如果你是诚心希望解决问题，则应该在 Issue 中包含尽可能多的信息，比如说：你做了什么；看到了什么结果；程序有什么提示；
 你查阅了哪篇文档；尝试了什么解决方案，结果是什么；你的设备ID是什么…… 当你愿意付出更多的时间在提供信息上，更大的可能获得一个准确的解决方案。
 一两句话就结束的问题报告大多数不是有效的问题，只会被无视。**

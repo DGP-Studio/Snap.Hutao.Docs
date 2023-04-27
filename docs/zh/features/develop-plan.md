@@ -7,7 +7,7 @@ redirectFrom: /features/developer-plan.html
 
 # 养成计划   
    
-![dev-plan](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png)
+![dev-plan](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png_.webp)
   
 ## 添加养成目标进入材料清单  
     

@@ -2,7 +2,8 @@
 home: true
 icon: home
 title: 首页
-heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png
+heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp
+heroAlt: 胡桃工具箱
 heroText: 胡桃工具箱
 tagline: 一个实用的开源多功能原神工具箱
 actions:
