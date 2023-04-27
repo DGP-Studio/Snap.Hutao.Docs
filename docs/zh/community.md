@@ -14,6 +14,7 @@ redirectFrom: /community.html
 
 ## QQ 群
 - [Snap 一群](https://go.hut.ao/qun1)
+- [Snap 五群](https://go.hut.ao/qun5)
 - [Snap 二群](https://go.hut.ao/qun2)
 - [Snap 三群](https://go.hut.ao/qun3)
 - [Snap 四群](https://go.hut.ao/qun4)
