@@ -20,18 +20,18 @@ redirectFrom: /quick-start.html
 :::
    
 ## 最低系统要求
-|要求|规格|
-|-|-|
-|**最低可运行系统版本**|Windows 10 Build 19045 (22H2) [^first]  |
-|**推荐系统版本**|Windows 11 Build 22621 (22H2)|
-|可选组件|WebView2 Runtime|
+| 要求            | 规格                                     |
+|---------------|----------------------------------------|
+| **最低可运行系统版本** | Windows 10 Build 19045 (22H2) [^first] |
+| **推荐系统版本**    | Windows 11 Build 22621 (22H2)          |
+| 可选组件          | WebView2 Runtime                       |
 
 
 ## 下载胡桃工具箱
 **无论使用何种安装方式，应用包来源和注册授权都由微软商店管理**
 
 ::: tabs
-@tab 使用微软商店下载
+@tab 使用微软商店安装
 <ms-store-badge
 productid="9PH4NXJ2JN52"
 theme="auto">
@@ -42,13 +42,13 @@ theme="auto">
 在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱
 
 
-@tab 使用 winget 下载
+@tab 使用 winget 安装
 - 启动 PowerShell
 - 执行命令 `winget install "Snap Hutao"`
 - 根据提示允许安装
 
-@tab 从 GitHub 下载
-- 访问胡桃工具箱[最新发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/)
+@tab 从 MSIX 文件安装
+- 访问胡桃工具箱[最新发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/)或[胡桃资源站](https://d.hut.ao/releases)
 - 下载 MSIX 应用包
 - 直接运行 MSIX 应用包以执行安装
 

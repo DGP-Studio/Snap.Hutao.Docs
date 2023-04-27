@@ -13,7 +13,7 @@ redirectFrom: /features/character-data.html
 
 属性统计，即主程序侧栏中的`我的角色`功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分  
       
-![属性统计示例图](https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png)  
+![属性统计示例图](https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png_.webp)  
 
 ## 同步角色信息
 ### 从 Enka API 同步  
@@ -58,11 +58,11 @@ redirectFrom: /features/character-data.html
 - 点击界面右上方的"养成计算"按钮，输入目标等级
   - **已同步数据的角色**的当前角色等级、天赋等级会预填入其中，目标等级可自由更改
    
-![rolescal](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png)  
+![rolescal](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png_.webp)  
   
  - 添加完毕后，您可在"养成计划"功能中查看"已添加的养成目标"  
    
-![image](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png)  
+![image](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png_.webp)  
    
  - 关于养成计划功能的详细说明，请见[养成计划](develop-plan.md)文档
   
@@ -71,4 +71,4 @@ redirectFrom: /features/character-data.html
 - 导出的图片储存在系统剪贴板中，你可以在合适的地方直接粘贴以获得该图片
 - 导出图片样式如下图所示
 
-![sample-output-image](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png)
+![sample-output-image](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png_.webp)

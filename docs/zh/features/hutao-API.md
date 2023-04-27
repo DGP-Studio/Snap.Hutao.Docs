@@ -14,17 +14,17 @@ redirectFrom: /features/hutao-API.html
 
 ::: tabs
 @tab 角色使用率
-![character-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01VNtgaU1g6du5Mh1Oo_!!1797064093.png)
+![character-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01VNtgaU1g6du5Mh1Oo_!!1797064093.png_.webp)
 @tab 角色出场率
-![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKGIZn1g6du8k0Rhb_!!1797064093.png)
+![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKGIZn1g6du8k0Rhb_!!1797064093.png_.webp)
 @tab 队伍出场次数
-![hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ZRakBS1g6duBCh0c1_!!1797064093.png)
+![hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ZRakBS1g6duBCh0c1_!!1797064093.png_.webp)
 @tab 角色持有率
-![character-held-rate](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01EUjFsJ1g6du8k0NYy_!!1797064093.png)
+![character-held-rate](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01EUjFsJ1g6du8k0NYy_!!1797064093.png_.webp)
 @tab 个人数据统计
-![personal-record-stat](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xMLXhn1g6du6lPUDD_!!1797064093.png)
+![personal-record-stat](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xMLXhn1g6du6lPUDD_!!1797064093.png_.webp)
 @tab 个人数据详情
-![personal-record-details](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01xtWJfr1g6dtvjZLWZ_!!1797064093.png)
+![personal-record-details](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01xtWJfr1g6dtvjZLWZ_!!1797064093.png_.webp)
 :::
 ## 查看深渊数据  
    
@@ -55,7 +55,7 @@ redirectFrom: /features/hutao-API.html
 - 点击右上角的`刷新数据`以确保胡桃工具箱客户端已经获取到最新的个人深境螺旋数据
 - 点击右上角的`上传数据`以上传你的深境螺旋数据
   - 这可能需要花费数秒，上传成功后你将会看到如下图的成功提示
-  ![upload-hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Zt7yQp1g6duBDALeX_!!1797064093.png)
+  ![upload-hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Zt7yQp1g6duBDALeX_!!1797064093.png_.webp)
 
     
 ### 使用浏览器
@@ -68,7 +68,7 @@ redirectFrom: /features/hutao-API.html
   - 在名称中填写一个合适的名称
   - 在 URL 中粘贴你刚刚复制的全部代码
 
-  ![add-bookmark](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01p0KOqU1g6dvfDQO6e_!!1797064093.png)
+  ![add-bookmark](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01p0KOqU1g6dvfDQO6e_!!1797064093.png_.webp)
 - 访问米游社，在页面加载完成后点击你刚刚创建的书签
 - 稍等片刻，你应该能看到请求上传的确认窗口
 - 在确认后，浏览器将上传你的深渊数据，请勿关闭米游社页面

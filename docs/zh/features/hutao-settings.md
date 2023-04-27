@@ -23,7 +23,7 @@ redirectFrom: /features/hutao-settings.html
 - 设备ID
 
 ## 胡桃帐号 <Badge text="测试功能" type="info" />
-![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TUwTiE1g6dvNZZWy9_!!1797064093.png)
+![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TUwTiE1g6dvNZZWy9_!!1797064093.png_.webp)
 胡桃帐号是由 DGP-Studio 团队创建的为胡桃工具箱服务的帐号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。
 目前胡桃帐号已支持注册和登录，你可以在设置中点击这一选项以注册并登录你的帐号。
 
@@ -42,22 +42,22 @@ redirectFrom: /features/hutao-settings.html
 @slidestart auto
 
 ## Windows 10 亚克力
-![win10-亚克力](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png)
+![win10-亚克力](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png_.webp)
 
 ---
 
 ## Windows 11 亚克力
-![win11-亚克力](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01MXJZE61g6dtvtITxC_!!1797064093.jpg)
+![win11-亚克力](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01MXJZE61g6dtvtITxC_!!1797064093.jpg_.webp)
 
 ---
 
 ## Windows 11 云母
-![win11-云母](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01aW0iV71g6du5WAz9w_!!1797064093.jpg)
+![win11-云母](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01aW0iV71g6du5WAz9w_!!1797064093.jpg_.webp)
 
 ---
 
 ## Windows 11 变种云母
-![win11-变种云母](https://img.alicdn.com/imgextra/i3/1797064093/O1CN010BwmBI1g6du9bi7C0_!!1797064093.jpg)
+![win11-变种云母](https://img.alicdn.com/imgextra/i3/1797064093/O1CN010BwmBI1g6du9bi7C0_!!1797064093.jpg_.webp)
 
 @slideend
 
@@ -100,7 +100,7 @@ redirectFrom: /features/hutao-settings.html
     - 点击"打开签到对话框"按钮
     - 胡桃工具箱会打开签到页面，随后你即可手动签到
 - 该功能的正常使用界面：   
-   ![米游社每日签到](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png)
+   ![米游社每日签到](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png_.webp)
 
 ## 危险功能
 - 启用高级功能

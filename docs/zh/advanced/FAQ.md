@@ -13,7 +13,7 @@ redirectFrom: /advanced/FAQ.html
 感谢 [CzHUV 提供的解决方案](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)
 :::
 - `Win+R` 呼出运行窗口，在窗口中输入`shell:AppsFolder`
-  ![Run](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png)
+  ![Run](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png_.webp)
 - Windows 会弹出应用程序目录，找到胡桃工具箱
 - 右键，点击`创建快捷方式`
 - 根据提示操作你就可以获得一个桌面快捷方式了
@@ -54,7 +54,7 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 - 将胡桃工具箱在系统中固定在快速启动栏中
 - 在快速启动栏中右键胡桃应用程序
 
-  ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png)
+  ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png_.webp)
 - 选择`启动游戏`即可
 
 ## 如何通过网络代理使用胡桃工具箱
@@ -78,7 +78,7 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 原神的BUG，和我们没关系
 
 ## 为什么会弹出需要使用新应用以打开的对话框
-![uninstall-error](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg)
+![uninstall-error](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg_.webp)
 
 如在卸载胡桃工具箱后出现如上图所示的`需要使用新应用以打开此 hutao 链接`，说明没有按文档要求在卸载前清除实时便笺定时任务。
 请根据文档在设置中清除定时任务后再卸载胡桃工具箱。
