@@ -78,16 +78,16 @@ features:
     details: Make implementable character development plans based on your actual situation; support multiple accounts, multiple plan lists, and backpack item records
     link: features/develop-plan.html
 
-copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
-
+footer: Built with <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | Be the best Genshin Impact tool
 ---
+
 ## Contribute
 
-Snap Hutao is a free software maintained by open-source community, and we hope more players with same 
+Snap Hutao is a free software maintained by open-source community, and we hope more players with same
 ambitions can join together to provide more features to the community.
 
 You can make contribution by the following ways:
+
 1. [Make Pull Requests to our code](https://github.com/DGP-Studio/Snap.Hutao/pulls)
 2. Translate the project for a better [localization](i18n.md)
 3. [Update document](https://github.com/DGP-Studio/Snap.Hutao.Docs)
@@ -95,7 +95,12 @@ You can make contribution by the following ways:
 <!-- @include: star-request.md -->
 
 ## Service Used
+
 Snap Hutao is currently using software from the following service providers.
 
-<a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" /> </a>
-<a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" /></a>
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" />
+</a>
+<a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow">
+  <img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" />
+</a>
