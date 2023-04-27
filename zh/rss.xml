@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 27 Apr 2023 07:29:40 GMT</pubDate>
-    <lastBuildDate>Thu, 27 Apr 2023 07:29:40 GMT</lastBuildDate>
+    <pubDate>Thu, 27 Apr 2023 07:59:26 GMT</pubDate>
+    <lastBuildDate>Thu, 27 Apr 2023 07:59:26 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -117,6 +117,7 @@
 <h2> QQ 群</h2>
 <ul>
 <li><a href="https://go.hut.ao/qun1" target="_blank" rel="noopener noreferrer">Snap 一群</a></li>
+<li><a href="https://go.hut.ao/qun5" target="_blank" rel="noopener noreferrer">Snap 五群</a></li>
 <li><a href="https://go.hut.ao/qun2" target="_blank" rel="noopener noreferrer">Snap 二群</a></li>
 <li><a href="https://go.hut.ao/qun3" target="_blank" rel="noopener noreferrer">Snap 三群</a></li>
 <li><a href="https://go.hut.ao/qun4" target="_blank" rel="noopener noreferrer">Snap 四群</a></li>
