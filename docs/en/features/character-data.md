@@ -7,25 +7,30 @@ order: 5
 # My Characters
 
 ::: info
-This features required logged in MiHoYo BBS account, please refer to [MiHoYo BBS Account Switch](mhy-account-switch.md) 
+
+This features required logged in MiHoYo BBS account, please refer to [MiHoYo BBS Account Switch](mhy-account-switch.md)
 document for sign in tutorial
+
 :::
 
-My characters is a character statistics feature that allows Snap Hutao to read character's statistics on the account, 
-including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for 
+My characters is a character statistics feature that allows Snap Hutao to read character's statistics on the account,
+including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for
 each character.
-
 
 ![属性统计示例图](https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png)
 
 ## Sync Character Data
+
 ### Sync from Enka API
 
 ::: info Synchronous Feature
+
 - Enka API sync data from characters displayed in the in-game character showcase
+
   - Data includes Artifacts detail data, weapon detail data, talent data
   - Character costume
   - This sync method only support 8 characters at a time
+
 :::
 
 - In the game, put **characters that you need detailed data** into the showcase
@@ -36,20 +41,28 @@ each character.
 - Select `Sync from Enka API`
 
 ### Sync from MiHoYo BBS - My Characters
+
 ::: info Synchronous Feature
+
 - Data in this sync method comes from My Characters feature in MiHoYo official BSS
+
   - This method does not contain any artifacts data
   - This method can sync all characters data at a time
+
 :::
 
 - Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
 - Select `Sync from MiHoYo BBS My Characters`
 
- ### Sync from MiHoYo BBS - Development Plan
+### Sync from MiHoYo BBS - Development Plan
+
 ::: info Synchronous Feature
+
 - Data in this method comes from `Enhancement Progression Calculator` feature in MiHoYo official BBS tool set
+
   - This sync method contains talent level data
   - This sync method can sync all characters data at a time
+
 :::
 
 - Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
@@ -71,8 +84,8 @@ each character.
 
 ## Export as Image
 
-- In `My Characters` page, you can select a character and then click `Export as Image` button to create image with your 
-character's data, this will help you to share your character's data
+- In `My Characters` page, you can select a character and then click `Export as Image` button to create image with your
+  character's data, this will help you to share your character's data
 - The exported image is stored in your clipboard, and you can paste it wherever you need
 - A sample exported image is shown below
 

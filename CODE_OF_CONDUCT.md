@@ -1,6 +1,6 @@
 # Code of Conduct
 
->  Snap Hutao is adapting the following rules to keep the community safety.
+> Snap Hutao is adapting the following rules to keep the community safety.
 
 When participating in our open source community, we want all members to respect and support each other. To ensure the comfort and safety of our community members, we have established the following code of conduct:
 

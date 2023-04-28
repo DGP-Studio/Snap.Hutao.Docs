@@ -4,12 +4,14 @@ icon: update
 order: 1
 redirectFrom: /statements/update-log.html
 ---
+
 # 更新日志
 
 ## 1.6.2 <Badge text="最新版" type="tip" />
+
 - 全新功能
   - 基于胡桃帐号系统的**祈愿记录云同步**
-    - 当前在爱发电打赏用户和测试用户会获得对应时间的云同步权限，已注册用户在上传深渊记录后会获赠5天云同步有效期
+    - 当前在爱发电打赏用户和测试用户会获得对应时间的云同步权限，已注册用户在上传深渊记录后会获赠 5 天云同步有效期
     - 该功能会在接下来的数个 1.6 版本中持续优化
 - 修复
   - 渠道服帐号的实时便笺无法获取数据的问题
@@ -17,7 +19,8 @@ redirectFrom: /statements/update-log.html
 - 优化
   - 重新设计了静态文件获取的流程
 
-## 1.6.0 
+## 1.6.0
+
 - 新增
   - 胡桃帐号的注册和登录的基本功能
   - HoYoLab 帐号的登录并增加其在以下功能的支持
@@ -34,6 +37,7 @@ redirectFrom: /statements/update-log.html
   - Windows 10 磁贴图标
 
 ## 1.5.4
+
 - 新增
   - 游戏启动器
     - 游戏资源下载
@@ -47,7 +51,8 @@ redirectFrom: /statements/update-log.html
   - 允许直接复制设备 ID
   - 设置页面美化
 
-## 1.5.1 
+## 1.5.1
+
 - 优化
   - 将`JumpList`菜单更换为`JumpTask`，即使用户关闭最近文件功能也可以使用快速启动菜单了
   - 增加优先度高于系统设置的语言设置选项
@@ -58,12 +63,13 @@ redirectFrom: /statements/update-log.html
   - 韩语翻译
   - 国际化元数据
 
-## 1.4.15 
+## 1.4.15
+
 - 新增
   - 重置图片资源的入口
   - 刷新 Cookie 方法
 - 修复
-  - 修复了[#2 服务器切换导致31-4302报错](/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99)
+  - 修复了[#2 服务器切换导致 31-4302 报错](/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99)
   - 修复了部分情况下程序内清除定时任务计划失败的情况
 - 优化
   - 优化了养成计划界面 [#486](https://github.com/DGP-Studio/Snap.Hutao/issues/486)
@@ -72,9 +78,11 @@ redirectFrom: /statements/update-log.html
   - 优化了定时任务的唤醒方式
 
 ## 1.4.14
+
 - 修复了养成计划无法添加的问题
 - 支持英语界面
 - 其他的问题修复
 
 ## 1.4.11
+
 - 商店初版

@@ -8,7 +8,6 @@ order: 3
 
 ![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01oe2JG41g6dvW3vCvO_!!1797064093.png)
 
-
 Snap Hutao offers local achievement management feature, users can view and manage status of achievement
 
 - At first time use, you will follow the instruction to create an archive and name it
@@ -25,4 +24,3 @@ Snap Hutao offers local achievement management feature, users can view and manag
 - [YaeAchievement](https://github.com/HolographicHat/YaeAchievement) <Badge text="Achievement Recognition" type="tip" />
 
 - [椰羊 cocogoat](https://cocogoat.work/) <Badge text="Achievement Guide" type="tip" />
-

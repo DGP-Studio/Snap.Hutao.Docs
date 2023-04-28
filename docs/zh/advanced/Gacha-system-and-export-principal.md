@@ -7,8 +7,8 @@ redirectFrom: /advanced/Gacha-system-and-export-principal.html
 ---
 
 # 祈愿系统与导出原理
-> Gacha System and Principal
 
+> Gacha System and Principal
 
 胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。
 
@@ -16,23 +16,24 @@ redirectFrom: /advanced/Gacha-system-and-export-principal.html
 
 ## 祈愿的获取
 
-获取祈愿记录需要请求米哈游的API  
+获取祈愿记录需要请求米哈游的 API
 
-关于此API, 有下列几个注意点
-* 通过米哈游服务器的API，只能查询到过去6个月内的祈愿记录
-  * 这也是原神客户端中祈愿记录的来源
-* API存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据
+关于此 API, 有下列几个注意点
 
-为了请求此API，我们需要四个关键参数
+- 通过米哈游服务器的 API，只能查询到过去 6 个月内的祈愿记录
+  - 这也是原神客户端中祈愿记录的来源
+- API 存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据
+
+为了请求此 API，我们需要四个关键参数
 
 - 目前有下列几种方法可以获取这些参数
-  * 遍历 Unity 的日志文件，查找用户打开的祈愿记录URL
-  * 代理本机流量，筛选祈愿记录URL
-  * 查找 CefBrowser 的浏览器缓存，找到祈愿记录URL
-  * 对于包含了Stoken的Cookie，调用genAuthKey API,获取参数
-  * 高级用户手动输入相关URL
+  - 遍历 Unity 的日志文件，查找用户打开的祈愿记录 URL
+  - 代理本机流量，筛选祈愿记录 URL
+  - 查找 CefBrowser 的浏览器缓存，找到祈愿记录 URL
+  - 对于包含了 Stoken 的 Cookie，调用 genAuthKey API,获取参数
+  - 高级用户手动输入相关 URL
 
-在请求API后可以获取到零散的祈愿记录，在对其进行拼接后即可获得一份完整的祈愿记录列表
+在请求 API 后可以获取到零散的祈愿记录，在对其进行拼接后即可获得一份完整的祈愿记录列表
 
 ## 祈愿的存储
 
@@ -42,9 +43,10 @@ redirectFrom: /advanced/Gacha-system-and-export-principal.html
 
 这样，用户即可长期地保存帐号的完整祈愿记录
 
-## UIGF格式
+## UIGF 格式
+
 > 统一可交换祈愿记录标准
-> 
+>
 > Uniformed Interchangeable GachaLog Format standard
 
 UIGF 是由我们联合其他祈愿记录应用倡导、推出并**持久维护**的一个统一的祈愿记录数据交换标准
@@ -53,9 +55,9 @@ UIGF 是由我们联合其他祈愿记录应用倡导、推出并**持久维护*
 
 ### 祈愿的导入
 
-在使用 UIGF 数据格式的前提下，可以导入曾在其他应用中储存的数据  
+在使用 UIGF 数据格式的前提下，可以导入曾在其他应用中储存的数据
 
-胡桃在处理导入时，会对比本地储存中存在的最早的索引（ID）并仅导入较老的数据  
+胡桃在处理导入时，会对比本地储存中存在的最早的索引（ID）并仅导入较老的数据
 
 （因为始终可以从米哈游的服务器获取较新的数据，这种原始数据有更高的精确度）
 

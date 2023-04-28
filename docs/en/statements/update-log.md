@@ -8,6 +8,7 @@ order: 1
 # Update Logs
 
 ## 1.6.2 <Badge text="latest" type="tip" />
+
 - New Feature
   - **Wish history cloud backup** based on Hutao account system
     - Currently, sponsors on AFDIAN and beta users will receive corresponding cloud membership time; All registered users will receive 5 days membership time after uploading Abyss record.
@@ -16,9 +17,10 @@ order: 1
   - Issue that BiliBili server account cannot receive data for Real-time Notes
   - Issue on HoYoLab login
 - Optimize
-  - Static assets download logic 
+  - Static assets download logic
 
-## 1.6.0 
+## 1.6.0
+
 - Add
   - Hutao account system with registration and login available now
   - Support of HoYoLab account login, and add its support to the following features:
@@ -35,6 +37,7 @@ order: 1
   - Tiles image on Windows 10
 
 ## 1.5.4
+
 - Add
   - Game Launcher
     - Game resource package download
@@ -49,6 +52,7 @@ order: 1
   - Setting page UI optimization
 
 ## 1.5.1
+
 - Optimization
   - Replace `JumpList` menus with `JumpTask`,
   - Add option to allow user set language over system default setting
@@ -60,6 +64,7 @@ order: 1
   - Internationalized Metadata
 
 ## 1.4.15
+
 - New
   - Static image reset method
   - Cookie refresh
@@ -73,9 +78,11 @@ order: 1
   - Optimize wake-up for scheduled tasks
 
 ## 1.4.14
+
 - Fix issue that new dev plan cannot be added
 - Support English UI
 - Other minor bug fix
 
 ## 1.4.11
+
 - First version on Microsoft Store
