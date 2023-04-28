@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Thu, 27 Apr 2023 22:36:56 GMT</pubDate>
-    <lastBuildDate>Thu, 27 Apr 2023 22:36:56 GMT</lastBuildDate>
+    <pubDate>Fri, 28 Apr 2023 08:04:08 GMT</pubDate>
+    <lastBuildDate>Fri, 28 Apr 2023 08:04:08 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,7 +23,7 @@
       <link>https://hut.ao/en/features/real-time-notes.html</link>
       <guid>https://hut.ao/en/features/real-time-notes.html</guid>
       <source url="https://hut.ao/en/rss.xml">Real-time Notes</source>
-      <description>::: info This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao, you can check 米游社多帐号切换 (mhy-account-switch.html) for more information. ::: liv...</description>
+      <description>This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao, you can check 米游社多帐号切换 (mhy-account-switch.html) for more information. live-data-tracki...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Sat, 01 Apr 2023 00:54:18 GMT</pubDate>
@@ -93,7 +93,7 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
       <link>https://hut.ao/en/advanced/mihoyo-risk-tip.html</link>
       <guid>https://hut.ao/en/advanced/mihoyo-risk-tip.html</guid>
       <source url="https://hut.ao/en/rss.xml">账号风险及异常提示</source>
-      <description>image 当胡桃工具箱返回&amp;quot;账号有风险，请前往米游社查看&amp;quot;、&amp;quot;请求异常，请前往米游社对应功能页面查看&amp;quot;、&amp;quot;无感验证失败，请前往「米游社我的角色实时便笺」页面查看 &amp;quot;等错误提示时，代表当前的操作被米游社的验证系统所阻挡; 解决方式; 方法1 ：; 自 1.4.15 版本起，在帐号面板内点击 刷新 Cookie 即可; 方法2：; 使用手机打开米游社Ap...</description>
+      <description>image 当胡桃工具箱返回&amp;quot;账号有风险，请前往米游社查看&amp;quot;、&amp;quot;请求异常，请前往米游社对应功能页面查看&amp;quot;、&amp;quot;无感验证失败，请前往「米游社我的角色实时便笺」页面查看 &amp;quot;等错误提示时，代表当前的操作被米游社的验证系统所阻挡; 解决方式; 方法 1 ：; 自 1.4.15 版本起，在帐号面板内点击 刷新 Cookie 即可; 方法 2：; 使用手机打开米游社...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:41 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 账号风险及异常提示</h1>
@@ -105,10 +105,10 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
 <li>
 <p>解决方式</p>
 <ul>
-<li>方法1 </li>
-<li>方法2：
+<li>方法 1 </li>
+<li>方法 2：
 <ul>
-<li>使用手机打开米游社App</li>
+<li>使用手机打开米游社 App</li>
 <li>点击<code>我的</code></li>
 <li>点击<code>个人主页</code></li>
 <li>点击<code>我的角色</code>下方的角色标签
@@ -137,8 +137,8 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
 <div class="hint-container warning">
 <p class="hint-container-title">Note</p>
 <ul>
-<li>若您<strong>已绑定并使用可提供原神查询的Bot</strong>或<strong>同时有多个设备使用同一个米哈游通行证</strong>，则本条目所示的情况，尤其<strong>无感验证</strong>将基本无法成功，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
-<li>若您本地有多个<strong>米哈游通行证</strong>同时频繁与<strong>米游社</strong>进行数据交互，则可能会被米游社在一定时间内封禁IP地址，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
+<li>若您<strong>已绑定并使用可提供原神查询的 Bot</strong>或<strong>同时有多个设备使用同一个米哈游通行证</strong>，则本条目所示的情况，尤其<strong>无感验证</strong>将基本无法成功，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
+<li>若您本地有多个<strong>米哈游通行证</strong>同时频繁与<strong>米游社</strong>进行数据交互，则可能会被米游社在一定时间内封禁 IP 地址，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
 </ul>
 </div>
 ]]></content:encoded>
@@ -216,10 +216,10 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
 <li>目前仅发现于微软商店新加坡授权服务器 <code>52.137.108.250</code> 出现了问题，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
 </ul>
 </li>
-<li>授权服务器问题 DGP-Studio已反馈给微软，等待解决。</li>
+<li>授权服务器问题 DGP-Studio 已反馈给微软，等待解决。</li>
 <li>临时的解决方案：
 <ul>
-<li><strong>方法1</strong>：
+<li><strong>方法 1</strong>：
 <ul>
 <li>使用<a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener noreferrer">UsbEAm Hosts Editor</a>
 <ul>
@@ -240,12 +240,12 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
 </li>
 </ul>
 </li>
-<li><strong>方法2</strong>：
+<li><strong>方法 2</strong>：
 <ul>
-<li>将系统的DNS服务器设置为4.2.2.1和4.2.2.2（完事后记得改回原本的设置）</li>
+<li>将系统的 DNS 服务器设置为 4.2.2.1 和 4.2.2.2（完事后记得改回原本的设置）</li>
 </ul>
 </li>
-<li><strong>方法3</strong>：
+<li><strong>方法 3</strong>：
 <ul>
 <li>使用北美地区的网络代理</li>
 <li>如果使用加速器或网络代理，你需要<a href="/en/advanced/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
@@ -254,7 +254,7 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
 </ul>
 </li>
 </ul>
-<h2> #2 服务器切换导致31-4302报错</h2>
+<h2> #2 服务器切换导致 31-4302 报错</h2>
 <blockquote>
 <p>该问题已于 <a href="/statements/update-log.html#1-4-15" target="blank">1.4.15</a> 版本修复，请及时更新</p>
 </blockquote>
@@ -280,7 +280,7 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
 </ul>
 <h2> #4 无法使用管理员模式启动胡桃工具箱</h2>
 <blockquote>
-<p>该问题来源并非胡桃工具箱，属于外部问题 该问题仅存在于 Windows 10 低于22H2的版本中</p>
+<p>该问题来源并非胡桃工具箱，属于外部问题 该问题仅存在于 Windows 10 低于 22H2 的版本中</p>
 </blockquote>
 <ul>
 <li>当用户系统版本低于 <code>Windows Build 19045</code>（即 Windows 10 22H2 版本）时，可能无法通过管理员模式启动胡桃工具箱
@@ -291,7 +291,7 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
 </ul>
 <h2> #5 服务器转换卡死并持续写入的问题</h2>
 <p>相关 Issue：<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/566" target="_blank" rel="noopener noreferrer">issues/566</a></p>
-<p>该问题已在<a href="/statements/update-log.html#1-5-4" target="blank">1.5.4</a> 版本修复，请及时更新</p>
+<p>该问题已在 <a href="/statements/update-log.html#1-5-4" target="blank">1.5.4</a> 版本修复，请及时更新</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -331,7 +331,7 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
 </ul>
 </li>
 <li>启用插件或安装修改版米游社后打开米游社，在底栏点击"我的"，然后登录您的通行证</li>
-<li>在右上角点击形如🔑形状的按钮</li>
+<li>在右上角点击形如 🔑 形状的按钮</li>
 <li>点击勾选 <code>Stoken</code> 选项</li>
 <li>点击<code>复制登录信息</code></li>
 <li>将复制到的 Stoken 发送到已经安装了胡桃工具箱的电脑</li>
@@ -418,7 +418,7 @@ as administrator</li>
       <link>https://hut.ao/en/advanced/Gacha-system-and-export-principal.html</link>
       <guid>https://hut.ao/en/advanced/Gacha-system-and-export-principal.html</guid>
       <source url="https://hut.ao/en/rss.xml">祈愿系统与导出原理</source>
-      <description>Gacha System and Principal 胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。 本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。 祈愿的获取 获取祈愿记录需要请求米哈游的API 关于此API, 有下列几个注意点 通过米哈游服务器的API，只能查询到过去6个月内的祈愿记录; 这也是原神客...</description>
+      <description>Gacha System and Principal 胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。 本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。 祈愿的获取 获取祈愿记录需要请求米哈游的 API 关于此 API, 有下列几个注意点 通过米哈游服务器的 API，只能查询到过去 6 个月内的祈愿记录; 这...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:36 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 祈愿系统与导出原理</h1>
@@ -428,34 +428,34 @@ as administrator</li>
 <p>胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。</p>
 <p>本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。</p>
 <h2> 祈愿的获取</h2>
-<p>获取祈愿记录需要请求米哈游的API</p>
-<p>关于此API, 有下列几个注意点</p>
+<p>获取祈愿记录需要请求米哈游的 API</p>
+<p>关于此 API, 有下列几个注意点</p>
 <ul>
-<li>通过米哈游服务器的API，只能查询到过去6个月内的祈愿记录
+<li>通过米哈游服务器的 API，只能查询到过去 6 个月内的祈愿记录
 <ul>
 <li>这也是原神客户端中祈愿记录的来源</li>
 </ul>
 </li>
-<li>API存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据</li>
+<li>API 存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据</li>
 </ul>
-<p>为了请求此API，我们需要四个关键参数</p>
+<p>为了请求此 API，我们需要四个关键参数</p>
 <ul>
 <li>目前有下列几种方法可以获取这些参数
 <ul>
-<li>遍历 Unity 的日志文件，查找用户打开的祈愿记录URL</li>
-<li>代理本机流量，筛选祈愿记录URL</li>
-<li>查找 CefBrowser 的浏览器缓存，找到祈愿记录URL</li>
-<li>对于包含了Stoken的Cookie，调用genAuthKey API,获取参数</li>
-<li>高级用户手动输入相关URL</li>
+<li>遍历 Unity 的日志文件，查找用户打开的祈愿记录 URL</li>
+<li>代理本机流量，筛选祈愿记录 URL</li>
+<li>查找 CefBrowser 的浏览器缓存，找到祈愿记录 URL</li>
+<li>对于包含了 Stoken 的 Cookie，调用 genAuthKey API,获取参数</li>
+<li>高级用户手动输入相关 URL</li>
 </ul>
 </li>
 </ul>
-<p>在请求API后可以获取到零散的祈愿记录，在对其进行拼接后即可获得一份完整的祈愿记录列表</p>
+<p>在请求 API 后可以获取到零散的祈愿记录，在对其进行拼接后即可获得一份完整的祈愿记录列表</p>
 <h2> 祈愿的存储</h2>
 <p>获得完整的祈愿记录列表后即可将其简单的序列化入本地数据库内，在需要时可从数据库中反序列化出来呈现给用户。</p>
 <p>后续的对服务器的请求只需要对比数据库中的数据请求新增的部分即可。</p>
 <p>这样，用户即可长期地保存帐号的完整祈愿记录</p>
-<h2> UIGF格式</h2>
+<h2> UIGF 格式</h2>
 <blockquote>
 <p>统一可交换祈愿记录标准</p>
 <p>Uniformed Interchangeable GachaLog Format standard</p>
@@ -484,14 +484,14 @@ as administrator</li>
       <link>https://hut.ao/en/advanced/FAQ.html</link>
       <guid>https://hut.ao/en/advanced/FAQ.html</guid>
       <source url="https://hut.ao/en/rss.xml">常见问题</source>
-      <description>如何创建胡桃的桌面快捷方式社区力量 感谢 CzHUV 提供的解决方案 (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12) Win+R 呼出运行窗口，在窗口中输入shell:AppsFolder !Run (https://img.alicdn.com/imgextra/i3/1797064...</description>
+      <description>如何创建胡桃的桌面快捷方式 社区力量 感谢 CzHUV 提供的解决方案 (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)。 Win+R 呼出运行窗口，在窗口中输入shell:AppsFolder !Run (https://img.alicdn.com/imgextra/i3/17970...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:35 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 常见问题</h1>
 <h2> 如何创建胡桃的桌面快捷方式</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">社区力量</p>
-<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV 提供的解决方案</a></p>
+<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV 提供的解决方案</a>。</p>
 </div>
 <ul>
 <li><code>Win+R</code> 呼出运行窗口，在窗口中输入<code>shell:AppsFolder</code> <img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
@@ -502,7 +502,7 @@ as administrator</li>
 <h2> 如何添加一个默认以管理员方式运行的快捷方式</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">社区力量</p>
-<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17" target="_blank" rel="noopener noreferrer">Parsifa1 提供的解决方案</a></p>
+<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17" target="_blank" rel="noopener noreferrer">Parsifa1 提供的解决方案</a>。</p>
 </div>
 <p>基本原理：使用下方的 PowerShell 脚本可以以管理员方式运行胡桃</p>
 <div class="language-PowerShell" data-ext="PowerShell"></div><ul>
@@ -533,7 +533,7 @@ as administrator</li>
 <ul>
 <li>请参考如下思路
 <ul>
-<li>可以自行创建一个批处理文件，内容参考<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">此issue</a>中，令胡桃以管理员模式直接运行的命令。</li>
+<li>可以自行创建一个批处理文件，内容参考 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">此 Issue</a> 中，令胡桃以管理员模式直接运行的命令。</li>
 <li>设置一个<strong>计划任务程序</strong>令上述批处理文件开机自启，或将上述批处理文件加入<strong>启动项</strong>中</li>
 </ul>
 </li>
@@ -558,7 +558,7 @@ as administrator</li>
 <h2> 如何通过网络代理使用胡桃工具箱</h2>
 <p>参考 <a href="/en/advanced/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
 <h2> 为什么在设置中点击修改游戏路径无效</h2>
-<p>特定系统版本的用户，由于微软对文件选择对话框的COM实现的差异，会存在点击按钮后无响应的问题。</p>
+<p>特定系统版本的用户，由于微软对文件选择对话框的 COM 实现的差异，会存在点击按钮后无响应的问题。</p>
 <p>相关的 <a href="https://github.com/microsoft/WindowsAppSDK/issues/2931" target="_blank" rel="noopener noreferrer">Github Issue</a></p>
 <h2> 为什么程序会出现乱码现象</h2>
 <ul>
@@ -571,7 +571,7 @@ as administrator</li>
 <li>您可以从 <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">微软官方</a>下载到该字体文件</li>
 </ul>
 <h2> 为什么解锁帧率后使用心海时出现掉帧</h2>
-<p>原神的BUG，和我们没关系</p>
+<p>原神的 BUG，和我们没关系</p>
 <h2> 为什么会弹出需要使用新应用以打开的对话框</h2>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg" alt="uninstall-error" loading="lazy"></p>
 <p>如在卸载胡桃工具箱后出现如上图所示的<code>需要使用新应用以打开此 hutao 链接</code>，说明没有按文档要求在卸载前清除实时便笺定时任务。 请根据文档在设置中清除定时任务后再卸载胡桃工具箱。</p>
@@ -583,8 +583,8 @@ as administrator</li>
 <li>我们通过储存帐号的米游社 Cookie 来维持登录状态。</li>
 <li>但是当用户在浏览器或其它设备上<strong>注销帐号</strong>后， 维持登录状态的 Cookie 将<strong>失效</strong>。</li>
 <li>这会导致胡桃工具箱上的米游社帐号在启动后被自动移除。</li>
-<li>此情况也可能因为网络连接问题导致无法检查Cookie有效性，故出现此情况后请优先重启胡桃工具箱。</li>
-<li>自2022年10月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/en/advanced/mihoyo-risk-tip.html" target="blank">账号有风险</a>时亦会令Cookie无法被识别为有效状态</li>
+<li>此情况也可能因为网络连接问题导致无法检查 Cookie 有效性，故出现此情况后请优先重启胡桃工具箱。</li>
+<li>自 2022 年 10 月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/en/advanced/mihoyo-risk-tip.html" target="blank">账号有风险</a>时亦会令 Cookie 无法被识别为有效状态</li>
 <li>自 1.4.15 版本起，你可以通过在帐号面板中刷新 Cookie 来刷新登录状态</li>
 </ul>
 <h2> 为什么游戏登录状态会失效，导致切换帐号功能无效</h2>
@@ -766,8 +766,8 @@ as administrator</li>
 <ul>
 <li>Star our project on GitHub ⭐
 <ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
 </ul>
 </li>
 <li>Rate our App on <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
@@ -782,13 +782,13 @@ as administrator</li>
       <link>https://hut.ao/en/side-load.html</link>
       <guid>https://hut.ao/en/side-load.html</guid>
       <source url="https://hut.ao/en/rss.xml"></source>
-      <description>侧载安装 通用安装方式 在系统设置中打开开发者设置界面，勾选 开发人员模式 和 允许 PowerShell 脚本 （自行百度）; 解压已下载的压缩包，找到Install.ps1文件，右键选择使用PowerShell运行，按照提示允许PowerShell执行操作即可; 安装完毕，胡桃将出现在您的开始菜单中; 小白级安装方式 解压已下载的安装包; 运行 S...</description>
+      <description>侧载安装 通用安装方式 在系统设置中打开开发者设置界面，勾选 开发人员模式 和 允许 PowerShell 脚本 （自行百度）; 解压已下载的压缩包，找到Install.ps1文件，右键选择使用PowerShell运行，按照提示允许 PowerShell 执行操作即可; 安装完毕，胡桃将出现在您的开始菜单中; 小白级安装方式 解压已下载的安装包; 运行...</description>
       <pubDate>Sat, 18 Mar 2023 03:05:20 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 侧载安装</h2>
 <h3> 通用安装方式</h3>
 <ul>
 <li>在系统设置中打开<code>开发者设置</code>界面，勾选 <code>开发人员模式</code> 和 <code>允许 PowerShell 脚本</code> （自行百度）</li>
-<li>解压已下载的压缩包，找到<code>Install.ps1</code>文件，右键选择<code>使用PowerShell运行</code>，按照提示允许PowerShell执行操作即可</li>
+<li>解压已下载的压缩包，找到<code>Install.ps1</code>文件，右键选择<code>使用PowerShell运行</code>，按照提示允许 PowerShell 执行操作即可</li>
 <li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
 </ul>
 <h3> 小白级安装方式</h3>
@@ -828,8 +828,8 @@ as administrator</li>
 <ul>
 <li>Star our project on GitHub ⭐
 <ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
 </ul>
 </li>
 <li>Rate our App on <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
@@ -873,7 +873,7 @@ as administrator</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Localization framework</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Client translation</label>
 <ul class="task-list-container">
-<li>Process:<img src="https://badges.crowdin.net/snap-hutao/localized.svg" alt="Crowdin" loading="lazy"></li>
+<li>Process: <img src="https://badges.crowdin.net/snap-hutao/localized.svg" alt="Crowdin" loading="lazy"></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> English</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> Traditional Chinese</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> Korean</label></li>
@@ -932,7 +932,7 @@ as administrator</li>
 <ul>
 <li>The developer team is maintaining Chinese documents and working on English documents</li>
 <li>You can clone the <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">docs repository</a>, translate docs with your
-favourite tools, and make a Pull Request to contribute your work to the main repository</li>
+favorite tools, and make a Pull Request to contribute your work to the main repository</li>
 <li>If you are adding a new language, you can copy the entire <code>en</code> folder and rename it with <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank" rel="noopener noreferrer">ISO 639-1 language code</a>
 <ul>
 <li>For example <code>jp</code> as Japanese</li>
@@ -969,7 +969,8 @@ each character.</p>
 <div class="hint-container info">
 <p class="hint-container-title">Synchronous Feature</p>
 <ul>
-<li>Enka API sync data from characters displayed in the in-game character showcase
+<li>
+<p>Enka API sync data from characters displayed in the in-game character showcase</p>
 <ul>
 <li>Data includes Artifacts detail data, weapon detail data, talent data</li>
 <li>Character costume</li>
@@ -996,7 +997,8 @@ each character.</p>
 <div class="hint-container info">
 <p class="hint-container-title">Synchronous Feature</p>
 <ul>
-<li>Data in this sync method comes from My Characters feature in MiHoYo official BSS
+<li>
+<p>Data in this sync method comes from My Characters feature in MiHoYo official BSS</p>
 <ul>
 <li>This method does not contain any artifacts data</li>
 <li>This method can sync all characters data at a time</li>
@@ -1012,7 +1014,8 @@ each character.</p>
 <div class="hint-container info">
 <p class="hint-container-title">Synchronous Feature</p>
 <ul>
-<li>Data in this method comes from <code>Enhancement Progression Calculator</code> feature in MiHoYo official BBS tool set
+<li>
+<p>Data in this method comes from <code>Enhancement Progression Calculator</code> feature in MiHoYo official BBS tool set</p>
 <ul>
 <li>This sync method contains talent level data</li>
 <li>This sync method can sync all characters data at a time</li>
@@ -1134,7 +1137,7 @@ character's data, this will help you to share your character's data</li>
 <li>在"胡桃工具箱"的整体界面右上部分，点击<code>养成计算</code>按钮</li>
 <li>在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级
 <ul>
-<li>基于 WIKI 资料添加的养成目标，默认初始值为1级</li>
+<li>基于 WIKI 资料添加的养成目标，默认初始值为 1 级</li>
 </ul>
 </li>
 </ul>
@@ -1313,7 +1316,8 @@ character's data, this will help you to share your character's data</li>
 <div class="hint-container warning">
 <p class="hint-container-title">Note</p>
 <ul>
-<li>In some reported cases, using Snap Hutao with <code>Exclusive Fullscreen</code> mode will cause the game process no response.
+<li>
+<p>In some reported cases, using Snap Hutao with <code>Exclusive Fullscreen</code> mode will cause the game process no response.</p>
 <ul>
 <li>Suggest to use <code>Borderless</code> or <code>Fullscreen</code> mode if you faced same problem</li>
 <li>The problem is caused by failure of game embedded browser cannot run</li>
@@ -1806,12 +1810,7 @@ no third-party server (including any server from Snap Hutao) will involve in thi
 </li>
 <li>
 <p>When using Snap Hutao, we collect <strong>anonymously</strong> logs data for development and statistical purposes
-when program stops unexpectedly or throw an error, including</p>
-<ul>
-<li>User device ID</li>
-<li>Error or crash log</li>
-<li>Active user statistical data</li>
-</ul>
+when program stops unexpectedly or throw an error, including - User device ID - Error or crash log - Active user statistical data</p>
 </li>
 <li>
 <p>When using <code>Hutao Database</code> (<code>Abyss Record</code>/<code>Abyss Stats</code>) feature and select <code>Upload Data</code></p>
@@ -2226,7 +2225,7 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
       <link>https://hut.ao/en/quick-start.html</link>
       <guid>https://hut.ao/en/quick-start.html</guid>
       <source url="https://hut.ao/en/rss.xml">Quick Start</source>
-      <description>If you download and use Snap Hutao，you are agree to our terms of service (statements/tos.md) ::: Video Tutorial For most people, follow the instruction on this page is more effi...</description>
+      <description>If you download and use Snap Hutao，you are agree to our terms of service (statements/tos.md) Video Tutorial For most people, follow the instruction on this page is more effiency...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
@@ -2239,8 +2238,8 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
 <ul>
 <li>Star our project on GitHub ⭐
 <ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a>   <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a>  <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
 </ul>
 </li>
 <li>Rate our App on <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
