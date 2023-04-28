@@ -78,8 +78,7 @@ features:
     details: 根据你的实际情况制定可实施的角色养成计划；支持多账号、多计划清单以及背包物品记录
     link: features/develop-plan.html
 
-copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题构建 | 用开源社区力量为原神 PC 端玩家带来最好的游戏体验
 ---
 
 ## 贡献
@@ -98,5 +97,9 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多
 
 Snap Hutao 目前使用了以下软件厂商提供的服务
 
-<a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" /> </a>
-<a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" /></a>
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" />
+</a>
+<a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow">
+  <img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" />
+</a>
