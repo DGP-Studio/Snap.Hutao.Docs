@@ -6,8 +6,6 @@ order: 2
 ---
 
 # Common Program Exceptions
-
-该文档包含由**用户端错误**造成的问题
 This document covers solutions of **foreseeable client error**
 
 ## RuntimeEnvironmentException
@@ -28,24 +26,22 @@ This document covers solutions of **foreseeable client error**
   2. Network error
   3. System time is not accurate
 - Solution
-  1. 在帐号面板中，点击`刷新 Cookie`
-  2. 删除帐号后重新添加米游社帐号
-  3. 在系统设置中启用自动同步时间并立刻同步时间
+  1. In the account panel, execute `Refresh Cookies`
+  2. Remove your account and add it again
+  3. Sync your system time
 
-## HttpRequestException 元数据校验文件下载失败
-
-### 403 (Forbidden)
-
-解决方案：更新胡桃工具箱至[最新版本](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
+## HttpRequestException Metadata Download Failed
+### 403 (Forbidden) / 404 (Not Found)
+Solution: Update your Snap Hutao to latest version
 
 ### 502 (Bad Gateway)
+> Associated Issue: [https://github.com/DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
 
-> 相关 Issue: [https://github.com/DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
-
-当胡桃工具箱无法从远程服务器获取到必要资源时（通常是配置文件和图片缓存），会在用户界面抛出如下图所示的 `HttpRequestException` 错误。
+This HTTP Exception occurs when Snap Hutao failed to fetch remote resource (usually static image and configuration)
 
 ![HttpRequestException](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg)
 
-当你遇到该情况，且已经确定本地网络没有互联网连接问题时，请检查是否启用了系统代理程序。如果是，请关闭。胡桃工具箱的远程服务器在全世界范围内都有类似的体验效果， 你无需为了胡桃工具箱的网络连接而使用代理网络。
 
-如果系统代理是你的网络必须选项，请关闭系统代理而使用 TUN 模式代理；或者也可以通过 [Windows 8 AppContainer Loopback Utility](https://www.telerik.com/fiddler/add-ons) 解除 [Windows APP Container Loopback 的限制](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback) 。
+If you are using proxy software, you may need to turn it off or using TUN mode proxy;
+otherwise you need to use [Windows 8 AppContainer Loopback Utility](https://www.telerik.com/fiddler/add-ons) to remove
+[Windows APP Container Loopback limits](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback).
