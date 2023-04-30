@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Fri, 28 Apr 2023 08:04:08 GMT</pubDate>
-    <lastBuildDate>Fri, 28 Apr 2023 08:04:08 GMT</lastBuildDate>
+    <pubDate>Sun, 30 Apr 2023 01:18:55 GMT</pubDate>
+    <lastBuildDate>Sun, 30 Apr 2023 01:18:55 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -359,12 +359,11 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">米�
       <link>https://hut.ao/en/advanced/exceptions.html</link>
       <guid>https://hut.ao/en/advanced/exceptions.html</guid>
       <source url="https://hut.ao/en/rss.xml">Common Program Exceptions</source>
-      <description>该文档包含由用户端错误造成的问题 This document covers solutions of foreseeable client error RuntimeEnvironmentException Exception: RuntimeEnvironmentException; Hint: Unable to set registry key ...</description>
+      <description>This document covers solutions of foreseeable client error RuntimeEnvironmentException Exception: RuntimeEnvironmentException; Hint: Unable to set registry key without enabling ...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:38 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Common Program Exceptions</h1>
-<p>该文档包含由<strong>用户端错误</strong>造成的问题
-This document covers solutions of <strong>foreseeable client error</strong></p>
+<p>This document covers solutions of <strong>foreseeable client error</strong></p>
 <h2> RuntimeEnvironmentException</h2>
 <ul>
 <li>Exception: <code>RuntimeEnvironmentException</code>
@@ -393,23 +392,24 @@ as administrator</li>
 </li>
 <li>Solution
 <ol>
-<li>在帐号面板中，点击<code>刷新 Cookie</code></li>
-<li>删除帐号后重新添加米游社帐号</li>
-<li>在系统设置中启用自动同步时间并立刻同步时间</li>
+<li>In the account panel, execute <code>Refresh Cookies</code></li>
+<li>Remove your account and add it again</li>
+<li>Sync your system time</li>
 </ol>
 </li>
 </ul>
-<h2> HttpRequestException 元数据校验文件下载失败</h2>
-<h3> 403 (Forbidden)</h3>
-<p>解决方案：更新胡桃工具箱至<a href="https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52" target="_blank" rel="noopener noreferrer">最新版本</a></p>
+<h2> HttpRequestException Metadata Download Failed</h2>
+<h3> 403 (Forbidden) / 404 (Not Found)</h3>
+<p>Solution: Update your Snap Hutao to latest version</p>
 <h3> 502 (Bad Gateway)</h3>
 <blockquote>
-<p>相关 Issue: <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/100</a></p>
+<p>Associated Issue: <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/100</a></p>
 </blockquote>
-<p>当胡桃工具箱无法从远程服务器获取到必要资源时（通常是配置文件和图片缓存），会在用户界面抛出如下图所示的 <code>HttpRequestException</code> 错误。</p>
+<p>This HTTP Exception occurs when Snap Hutao failed to fetch remote resource (usually static image and configuration)</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" alt="HttpRequestException" loading="lazy"></p>
-<p>当你遇到该情况，且已经确定本地网络没有互联网连接问题时，请检查是否启用了系统代理程序。如果是，请关闭。胡桃工具箱的远程服务器在全世界范围内都有类似的体验效果， 你无需为了胡桃工具箱的网络连接而使用代理网络。</p>
-<p>如果系统代理是你的网络必须选项，请关闭系统代理而使用 TUN 模式代理；或者也可以通过 <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a> 解除 <a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">Windows APP Container Loopback 的限制</a> 。</p>
+<p>If you are using proxy software, you may need to turn it off or using TUN mode proxy;
+otherwise you need to use <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a> to remove
+<a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">Windows APP Container Loopback limits</a>.</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" type="image/jpeg"/>
     </item>
