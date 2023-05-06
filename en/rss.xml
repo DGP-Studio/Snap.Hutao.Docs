@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Sun, 30 Apr 2023 01:18:55 GMT</pubDate>
-    <lastBuildDate>Sun, 30 Apr 2023 01:18:55 GMT</lastBuildDate>
+    <pubDate>Sat, 06 May 2023 04:59:06 GMT</pubDate>
+    <lastBuildDate>Sat, 06 May 2023 04:59:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -480,83 +480,80 @@ otherwise you need to use <a href="https://www.telerik.com/fiddler/add-ons" targ
 ]]></content:encoded>
     </item>
     <item>
-      <title>常见问题</title>
+      <title>FAQ</title>
       <link>https://hut.ao/en/advanced/FAQ.html</link>
       <guid>https://hut.ao/en/advanced/FAQ.html</guid>
-      <source url="https://hut.ao/en/rss.xml">常见问题</source>
-      <description>如何创建胡桃的桌面快捷方式 社区力量 感谢 CzHUV 提供的解决方案 (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)。 Win+R 呼出运行窗口，在窗口中输入shell:AppsFolder !Run (https://img.alicdn.com/imgextra/i3/17970...</description>
+      <source url="https://hut.ao/en/rss.xml">FAQ</source>
+      <description>How to create desktop shortcut Community Power Thanks to solution provided by CzHUV (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)。 Use Win+R to start run, in the win...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:35 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 常见问题</h1>
-<h2> 如何创建胡桃的桌面快捷方式</h2>
+      <content:encoded><![CDATA[<h1> FAQ</h1>
+<h2> How to create desktop shortcut</h2>
 <div class="hint-container tip">
-<p class="hint-container-title">社区力量</p>
-<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV 提供的解决方案</a>。</p>
+<p class="hint-container-title">Community Power</p>
+<p>Thanks to <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">solution provided by CzHUV</a>。</p>
 </div>
 <ul>
-<li><code>Win+R</code> 呼出运行窗口，在窗口中输入<code>shell:AppsFolder</code> <img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
-<li>Windows 会弹出应用程序目录，找到胡桃工具箱</li>
-<li>右键，点击<code>创建快捷方式</code></li>
-<li>根据提示操作你就可以获得一个桌面快捷方式了</li>
+<li>Use <code>Win+R</code> to start run, in the window input <code>shell:AppsFolder</code> <img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
+<li>In the new pop-up window, find Snap Hutao</li>
+<li>Right lick on it, and click <code>Create shortcut</code></li>
+<li>Confirm the operation and you will get the desktop shortcut</li>
 </ul>
-<h2> 如何添加一个默认以管理员方式运行的快捷方式</h2>
+<h2> How to create desktop shortcut with Administrator privilege</h2>
 <div class="hint-container tip">
-<p class="hint-container-title">社区力量</p>
-<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17" target="_blank" rel="noopener noreferrer">Parsifa1 提供的解决方案</a>。</p>
+<p class="hint-container-title">Community Power</p>
+<p>Thanks to <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17" target="_blank" rel="noopener noreferrer">solution provided by Parsifa1</a>。</p>
 </div>
-<p>基本原理：使用下方的 PowerShell 脚本可以以管理员方式运行胡桃</p>
+<p>Fundamental principle: Use the following PowerShell scrip can run Snap Hutao with Administrator privilege</p>
 <div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>保存胡桃工具箱的 Logo 资源
+<li>Save Snap Hutao logo to your device
 <ul>
-<li>你可以点击<a href="https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico" target="_blank" rel="noopener noreferrer">这里</a>下载</li>
+<li>You can find it <a href="https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico" target="_blank" rel="noopener noreferrer">here</a></li>
+<li>It is expected to see a blank image in the browser</li>
 </ul>
 </li>
-<li>在桌面点击右键，选择<code>新建</code> -&gt; <code>快捷方式</code></li>
-<li>在<code>请键入对象的位置</code>中直接输入:</li>
+<li>In your desktop, select <code>New</code> -&gt; <code>Shortcut</code></li>
+<li>In the field of <code>Type the location of the item</code>, input:</li>
 </ul>
 <div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>将快捷方式命名为你需要的名称，比如<code>Snap Hutao</code></li>
-<li>确认创建，此时你会在桌面得到一个有 PowerShell 图标的快捷方式</li>
-<li>右键该快捷方式，点击属性
+<li>Name the shortcut as <code>Snap Hutao</code></li>
+<li>Confirm the creation, and you will get this shortcut with PowerShell logo</li>
+<li>Right-click on this shortcut, select <code>Properties</code>
 <ul>
-<li>将<code>运行方式</code>修改为<code>最小化</code></li>
-<li>点击更改图标，选择<code>浏览</code>，并选中刚刚下载的图标</li>
+<li>Change value of <code>Run</code> to <code>Minimized</code></li>
+<li>Select <code>Change Icon</code>, and select the icon you just downloaded</li>
 </ul>
 </li>
-<li>这样你就获得了胡桃工具箱的桌面快捷方式，并且运行它将直接以管理员模式运行
+<li>Now, you get a shortcut of Snap Hutao with Administrator privilege
 <ul>
-<li>你也可以将固定到任务栏或磁贴区</li>
+<li>You can also pin it to task bar or start menu</li>
 </ul>
 </li>
 </ul>
-<h2> 如何让胡桃工具箱开机自动启动</h2>
+<h2> How to run Snap Hutao when Windows starts</h2>
+<p><strong>This is a workaround solution</strong></p>
 <ul>
-<li>请参考如下思路
-<ul>
-<li>可以自行创建一个批处理文件，内容参考 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">此 Issue</a> 中，令胡桃以管理员模式直接运行的命令。</li>
-<li>设置一个<strong>计划任务程序</strong>令上述批处理文件开机自启，或将上述批处理文件加入<strong>启动项</strong>中</li>
+<li>Create a bat file, content refers to <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">this Issue</a>, it allows bat to run Snap Hutao with Administrator privilege</li>
+<li>Create a Scheduled Task, run the bat when Windows startup, or drag it to Windows start folder</li>
 </ul>
-</li>
-<li>或有其他令胡桃工具箱可开机自启的思路，可自行探索</li>
-</ul>
-<h2> 如何通过胡桃工具箱快速地启动游戏</h2>
+<h2> Use Snap Hutao to quick start the game</h2>
 <ul>
 <li>
-<p>在主程序中正确设置高级启动器功能</p>
+<p>Config the game launcher in the settings</p>
 </li>
 <li>
-<p>将胡桃工具箱在系统中固定在快速启动栏中</p>
+<p>Pin Snap Hutao on taskbar</p>
 </li>
 <li>
-<p>在快速启动栏中右键胡桃应用程序</p>
+<p>Right click on Snap Hutao and you will see the quick launcher</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png" alt="quick-start" loading="lazy"></p>
 </li>
 <li>
-<p>选择<code>启动游戏</code>即可</p>
+<p>Select <code>Lauch Game</code>, you will be asked which account to start the game</p>
 </li>
 </ul>
-<h2> 如何通过网络代理使用胡桃工具箱</h2>
-<p>参考 <a href="/en/advanced/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
+<h2> Use Snap Hutao with Network Proxy</h2>
+<p>Refer to <a href="/en/advanced/exceptions.html#_502-bad-gateway" target="blank">HttpRequestException Error (502)</a> document</p>
 <h2> 为什么在设置中点击修改游戏路径无效</h2>
 <p>特定系统版本的用户，由于微软对文件选择对话框的 COM 实现的差异，会存在点击按钮后无响应的问题。</p>
 <p>相关的 <a href="https://github.com/microsoft/WindowsAppSDK/issues/2931" target="_blank" rel="noopener noreferrer">Github Issue</a></p>
