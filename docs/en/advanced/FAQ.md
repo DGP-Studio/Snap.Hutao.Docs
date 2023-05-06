@@ -73,60 +73,39 @@ powershell -Command "Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebf
 
 Refer to [HttpRequestException Error (502)](exceptions.html#_502-bad-gateway) document
 
-## 为什么在设置中点击修改游戏路径无效
+## Mojibake in Snap Hutao
 
-特定系统版本的用户，由于微软对文件选择对话框的 COM 实现的差异，会存在点击按钮后无响应的问题。
+- If you are using Windows 10 and see some button are not display properly
+  - You can download `Segoe Fluent Icons` font
+  - You need to install it for all users
+- You can find this font from [Microsoft](https://aka.ms/SegoeFluentIcons)
 
-相关的 [Github Issue](https://github.com/microsoft/WindowsAppSDK/issues/2931)
+## MiHoYo BBS Account often Lose Login Status
 
-## 为什么程序会出现乱码现象
+Snap Hutao use saved MiHoYo BBS cookies to maintain login status. If you **log out** your account in your browser or 
+other device, cookie will become invalid, and Snap Hutao will also be forced to log out, account will be automatically 
+removed. 
 
-- 当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
-  - 可以下载 `Segoe Fluent Icons`字体
-  - 安装时选择`为系统所有用户安装`，即可解决问题
-- 您可以从 [微软官方](https://aka.ms/SegoeFluentIcons)下载到该字体文件
+This problem may also be caused by network error, you should check this first; If it's not caused by network issue, 
+you can use `Refresh Cookie` in the account panel;  You can also remove your account manually and add it back again.
 
-## 为什么解锁帧率后使用心海时出现掉帧
+Since October 2022, MiYouShe (Chinese BBS) rapidly increased bot detection and may set users' account as under-risk status, 
+this may cause Snap Hutao failed to check validation of the cookie
 
-原神的 BUG，和我们没关系
+## Game Account Lose Login Status in the Launcher
 
-## 为什么会弹出需要使用新应用以打开的对话框
+- There are two factors associated with game account login status: network and device ID
+- This issue usually caused by:
+  - Change of public IP address
+  - Failed saving operation, no real login status been saved (Snap Hutao cannot detect if the status is real valid)
+    - Make sure to enter the game after sign in
+    - Make sure the game process is gone after closing the game
+    - Detect the account again to save your login status
 
-![uninstall-error](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg)
+## Snap Hutao Throws Failed to add Scheduled Task Error
 
-如在卸载胡桃工具箱后出现如上图所示的`需要使用新应用以打开此 hutao 链接`，说明没有按文档要求在卸载前清除实时便笺定时任务。 请根据文档在设置中清除定时任务后再卸载胡桃工具箱。
+If you are using Administrator privilege to start real-time notes feature, Snap Hutao's scheduled task will be created 
+as Administrator role. When next time edit real-time notes settings without Administrator privilege, the program will 
+have a lack of privilege to edit the settings and throw out this error.
 
-- 如果你在系统定时任务中找不到胡桃的定时任务，但问题仍然出现，请参考[这份文档](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/18)来解决
-
-## 为什么米游社帐号登录状态经常失效，添加的帐号消失
-
-- 我们通过储存帐号的米游社 Cookie 来维持登录状态。
-- 但是当用户在浏览器或其它设备上**注销帐号**后， 维持登录状态的 Cookie 将**失效**。
-- 这会导致胡桃工具箱上的米游社帐号在启动后被自动移除。
-- 此情况也可能因为网络连接问题导致无法检查 Cookie 有效性，故出现此情况后请优先重启胡桃工具箱。
-- 自 2022 年 10 月起，米游社极大地提高了账号被判定为有风险的概率，[账号有风险](mihoyo-risk-tip.md)时亦会令 Cookie 无法被识别为有效状态
-- 自 1.4.15 版本起，你可以通过在帐号面板中刷新 Cookie 来刷新登录状态
-
-## 为什么游戏登录状态会失效，导致切换帐号功能无效
-
-- 保存游戏登录状态的要素有两个：网络环境和设备 ID
-- 导致该问题的常见原因是：
-  - 网络环境频繁变换，如公网 IP 更换
-  - 操作失误，导致实际上根本没有保存登录状态（空的登录状态无法避免被胡桃识别）
-    - 确认你的帐号已登录后，进入游戏
-    - 关闭游戏后，确定游戏进程已关闭
-    - 再次进行帐号检测，来添加登录状态
-
-## 为什么程序会提示注册计划任务失败
-
-使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。 继续使用管理员模式即可解决该问题。
-
-## 为什么在开启代理后胡桃工具箱会没有网络连接
-
-参考 [HttpRequestException 错误](exceptions.html#httprequestexception) 文档
-
-## 为什么商店版本和侧载版本不会相互覆盖升级
-
-- 商店版本和侧载版本有不同的软件 ID，所以会被系统识别为不同的程序
-- 商店版的更新只会覆盖商店版应用；侧载版更新包只会更新侧载版应用
-- 在你的系统中，商店版的胡桃工具箱名称为 `Snap Hutao`，侧载版的名称为 `胡桃`
+Run Snap Hutao as Administrator to edit your settings to solve this issue.
