@@ -69,22 +69,12 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 
 参考 [HttpRequestException 错误](exceptions.html#httprequestexception) 文档
 
-## 为什么在设置中点击修改游戏路径无效
-
-特定系统版本的用户，由于微软对文件选择对话框的 COM 实现的差异，会存在点击按钮后无响应的问题。
-
-相关的 [Github Issue](https://github.com/microsoft/WindowsAppSDK/issues/2931)
-
 ## 为什么程序会出现乱码现象
 
 - 当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
   - 可以下载 `Segoe Fluent Icons`字体
   - 安装时选择`为系统所有用户安装`，即可解决问题
 - 您可以从 [微软官方](https://aka.ms/SegoeFluentIcons)下载到该字体文件
-
-## 为什么解锁帧率后使用心海时出现掉帧
-
-原神的 BUG，和我们没关系
 
 ## 为什么会弹出需要使用新应用以打开的对话框
 
@@ -118,16 +108,6 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 
 使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
 继续使用管理员模式即可解决该问题。
-
-## 为什么在开启代理后胡桃工具箱会没有网络连接
-
-参考 [HttpRequestException 错误](exceptions.html#httprequestexception) 文档
-
-## 为什么商店版本和侧载版本不会相互覆盖升级
-
-- 商店版本和侧载版本有不同的软件 ID，所以会被系统识别为不同的程序
-- 商店版的更新只会覆盖商店版应用；侧载版更新包只会更新侧载版应用
-- 在你的系统中，商店版的胡桃工具箱名称为 `Snap Hutao`，侧载版的名称为 `胡桃`
 
 ## 安装进度卡在“正在安装所需框架”（一个可能的情况为卡在 15%）
 
