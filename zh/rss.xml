@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 06 May 2023 04:59:06 GMT</pubDate>
-    <lastBuildDate>Sat, 06 May 2023 04:59:06 GMT</lastBuildDate>
+    <pubDate>Sat, 06 May 2023 10:27:12 GMT</pubDate>
+    <lastBuildDate>Sat, 06 May 2023 10:27:12 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -499,9 +499,6 @@
 </ul>
 <h2> 如何通过网络代理使用胡桃工具箱</h2>
 <p>参考 <a href="/zh/advanced/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
-<h2> 为什么在设置中点击修改游戏路径无效</h2>
-<p>特定系统版本的用户，由于微软对文件选择对话框的 COM 实现的差异，会存在点击按钮后无响应的问题。</p>
-<p>相关的 <a href="https://github.com/microsoft/WindowsAppSDK/issues/2931" target="_blank" rel="noopener noreferrer">Github Issue</a></p>
 <h2> 为什么程序会出现乱码现象</h2>
 <ul>
 <li>当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
@@ -512,8 +509,6 @@
 </li>
 <li>您可以从 <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">微软官方</a>下载到该字体文件</li>
 </ul>
-<h2> 为什么解锁帧率后使用心海时出现掉帧</h2>
-<p>原神的 BUG，和我们没关系</p>
 <h2> 为什么会弹出需要使用新应用以打开的对话框</h2>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg_.webp" alt="uninstall-error" loading="lazy"></p>
 <p>如在卸载胡桃工具箱后出现如上图所示的<code>需要使用新应用以打开此 hutao 链接</code>，说明没有按文档要求在卸载前清除实时便笺定时任务。
@@ -549,14 +544,6 @@
 <h2> 为什么程序会提示注册计划任务失败</h2>
 <p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
 继续使用管理员模式即可解决该问题。</p>
-<h2> 为什么在开启代理后胡桃工具箱会没有网络连接</h2>
-<p>参考 <a href="/zh/advanced/exceptions.html#httprequestexception" target="blank">HttpRequestException 错误</a> 文档</p>
-<h2> 为什么商店版本和侧载版本不会相互覆盖升级</h2>
-<ul>
-<li>商店版本和侧载版本有不同的软件 ID，所以会被系统识别为不同的程序</li>
-<li>商店版的更新只会覆盖商店版应用；侧载版更新包只会更新侧载版应用</li>
-<li>在你的系统中，商店版的胡桃工具箱名称为 <code>Snap Hutao</code>，侧载版的名称为 <code>胡桃</code></li>
-</ul>
 <h2> 安装进度卡在“正在安装所需框架”（一个可能的情况为卡在 15%）</h2>
 <ul>
 <li>这可能是因为你的系统无法自动安装框架，通常是网络或者 windows update 组件导致，这类问题请到微软社区提问</li>
