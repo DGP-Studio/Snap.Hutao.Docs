@@ -3,6 +3,8 @@ headerDepth: 0
 category: [功能, 教程]
 order: 6
 redirectFrom: /features/hutao-API.html
+head:
+  - script: https://cdn.plot.ly/plotly-latest.min.js
 ---
 
 # 胡桃数据库/深渊统计
@@ -82,6 +84,9 @@ redirectFrom: /features/hutao-API.html
 - 稍等片刻，你应该能看到请求上传的确认窗口
 - 在确认后，浏览器将上传你的深渊数据，请勿关闭米游社页面
 - 在上传完成后，浏览器会有确认完成的提示窗口
+
+## 统计数据
+<!-- @include: ../reports/mainland_china_uploader_info.html -->
 
 [^first]: 在当前层中不同间内多次出现的同一个角色仅记 1 次出场次数
 [^first-2]: 在当前层中不同间内多次出现的同一个角色仅记 1 次出场次数
