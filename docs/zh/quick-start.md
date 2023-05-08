@@ -59,6 +59,7 @@ theme="auto">
 - 访问胡桃工具箱[最新发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/)或[胡桃资源站](https://d.hut.ao/releases)
 - 下载 MSIX 应用包
 - 直接运行 MSIX 应用包以执行安装
+  - 如果安装失败或显示缺少依赖包，则意味着你的系统缺少[依赖环境](https://d.hut.ao/releases/Dependency)，需要提前安装
 
 :::
 
