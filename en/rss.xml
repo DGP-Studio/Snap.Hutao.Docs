@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 May 2023 00:50:48 GMT</pubDate>
-    <lastBuildDate>Mon, 08 May 2023 00:50:48 GMT</lastBuildDate>
+    <pubDate>Mon, 08 May 2023 01:13:14 GMT</pubDate>
+    <lastBuildDate>Mon, 08 May 2023 01:13:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -2274,12 +2274,16 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
 <p><strong>You can use any of the update methods, whatever method you used when you installed Snap Hutao. They don't need to be consistent, as Microsoft Store is the only source of packages.</strong></p>
 
 <h2> Installing WebView2 Runtime</h2>
-<p>WebView2 Runtime is provided by Microsoft, which enables a built-in browser at a low resource cost inside the <a href="http://program.As" target="_blank" rel="noopener noreferrer">program.As</a> an optional component, WebView2 is not a mandatory component, but it will make some Snap Hutao's features easier.</p>
-<p>At the bottom of the<a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">Microsoft official page</a>, you can find<code>Evergreen Standalone Installer</code>, choose<code>x64</code>download and install as prompted</p>
+<p>WebView2 Runtime is provided by Microsoft, which enables a built-in browser at a low resource cost inside the program.
+As an optional component, WebView2 is not a mandatory component, but it will make some Snap Hutao's features easier.</p>
+<p>At the bottom of the <a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">Microsoft official page</a>,
+you can find<code>Evergreen Standalone Installer</code>, choose<code>x64</code>download and install as prompted</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="footnote1" class="footnote-item"><p>As LTSC and LTSB Windows versions do not contain Microsoft Store and some other necessary dependencies, they are not supported.Windows 10 Build 19041 is allowed to install Snap Hutao, but some features have known issues caused by Windows Os Kernal, those issues won't be fixed. <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+<li id="footnote1" class="footnote-item"><p>As LTSC and LTSB Windows versions do not contain Microsoft Store and some other necessary dependencies, they
+are not supported.Windows 10 Build 19041 is allowed to install Snap Hutao, but some features have known issues caused by
+Windows Os Kernal, those issues won't be fixed. <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
