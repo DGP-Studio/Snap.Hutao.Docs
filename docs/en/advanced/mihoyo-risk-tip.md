@@ -6,35 +6,40 @@ category:
 order: 4
 ---
 
-# 账号风险及异常提示
+# Account Risk Warning from MiHoYo BBS
+
 
 ![image](https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png) ![image](https://user-images.githubusercontent.com/96916320/204005371-ced5213b-a7af-4cba-baa3-818f9b7ade35.png)
 
-- 当胡桃工具箱返回"账号有风险，请前往米游社查看"、"请求异常，请前往米游社对应功能页面查看"、"无感验证失败，请前往「米游社我的角色实时便笺」页面查看 "等错误提示时，代表当前的操作被米游社的验证系统所阻挡
+- When Snap Hutao shows the following warning, it means the action is blocked by MiHoYo BBS anti-bot verification system
+  - `Verification failed. Please check MiHoYo BBS - My Character - DailyNote manually`
+  - `Imperceptible verification failed`
 
-- 解决方式
-  - 方法 1 <Badge text="推荐" type="tip" /> ：
-    - 自 1.4.15 版本起，在帐号面板内点击 `刷新 Cookie` 即可
-  - 方法 2：
-    - 使用手机打开米游社 App
-    - 点击`我的`
-    - 点击`个人主页`
-    - 点击`我的角色`下方的角色标签
-      - 点击`全部角色`
-      - 或可以点击`实时便笺`窗体
-    - 完成**在此期间可能随机触发的验证流程**（例如验证码），即可解决本问题。
-      - 若此操作未触发验证流程，可重复进行多次，直到触发验证为止
-      - 若始终无法触发验证，可修改密码
+- Solution
+  - Solution 1 <Badge text="Recommended" type="tip" /> ：
+    - Use `Refresh Cookie` function in the account panel
+  - Solution 2：
+    - Open MiHoYo BBS mobile application
+    - Click `Me`, find personal profile page
+    - Click `My Characters`
+      - Click `All Characters` or `Real-time notes` window
+    - You may need to manually finish the verification process 
+      - Process the steps until you are required to verify account
+      - If you cannot trigger the verification process, you can change the password
 
 ::: tip
 
-- 若风险提示过于频繁，或始终无法触发验证，代表您的账号风险已过高，请修改密码，使多个设备同时登录的状态被重置
+If the risk prompt is too frequent, or the verification cannot be triggered at all, it means that the risk of your 
+account is too high, please change the password, so that the simultaneous login status of multiple devices will be reset
 
 :::
 
 ::: warning
 
-- 若您**已绑定并使用可提供原神查询的 Bot**或**同时有多个设备使用同一个米哈游通行证**，则本条目所示的情况，尤其**无感验证**将基本无法成功，这是米游社后端的**安全性**设计，不可避免，无法绕过
-- 若您本地有多个**米哈游通行证**同时频繁与**米游社**进行数据交互，则可能会被米游社在一定时间内封禁 IP 地址，这是米游社后端的**安全性**设计，不可避免，无法绕过
+- You hardly cannot pass imperceptible verification when your account is **login at other remote Genshin tools** or 
+**login at multiple devices**. This is a security designing of MiHoYo BBS, and cannot bypass
+- If you are using **multiple MiHoYo BBS account in your device**, **frequent usage with MiHoYo BBS API** will 
+result in your IP address being banned for a period of time (usually no more than 24 hours). This is a security 
+designing of MiHoYo BBS, and cannot bypass
 
 :::
