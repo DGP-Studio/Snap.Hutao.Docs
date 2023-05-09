@@ -109,3 +109,18 @@ as Administrator role. When next time edit real-time notes settings without Admi
 have a lack of privilege to edit the settings and throw out this error.
 
 Run Snap Hutao as Administrator to edit your settings to solve this issue.
+
+## Stuck at `Installing Required Framework` when Using MSIX Package to Install
+
+- When user's OS missing required dependency framework, Windows will download and install it automatically.
+However, if the user disabled Windows Update or have a bad network, the system is unable to process this installation.
+  - Make sure Windows Update is enabled; Snap Hutao's update also relies on it
+  - You can also download and install the [dependency](ttps://d.hut.ao/releases/Dependency) manually
+
+## Unable to Run Snap Hutao as Administrator
+
+> This issue only occurs in Windows 10 older than 22H2 version
+
+- When user's OS version older than `Windows Build 19045` (aka Windows 10 22H2), Snap Hutao is unable to start when 
+running as Administrator
+  - This issue comes from Windows kernel, and it's hard to locate, so we suggest you to update your OS to the latest version

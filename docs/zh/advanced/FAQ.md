@@ -109,7 +109,15 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
 继续使用管理员模式即可解决该问题。
 
-## 安装进度卡在“正在安装所需框架”（一个可能的情况为卡在 15%）
+## 使用 MSIX 安装包安装时进度卡在`正在安装所需框架`
 
-- 这可能是因为你的系统无法自动安装框架，通常是网络或者 windows update 组件导致，这类问题请到微软社区提问
-- 也可以选择手动安装 [胡桃的相关依赖](https://d.hut.ao/releases/Dependency)尝试解决
+- 当用户系统缺少必要依赖环境时，系统会自动安装所需依赖。若用户禁用了 Windows Update 组件或网络条件差时，系统无法完成该步骤。
+  - 请确保 Windows Update 已启用；胡桃工具箱升级同样依赖于 Windows Update 组件
+  - 你亦可以手动下载并安装[胡桃的相关依赖](https://d.hut.ao/releases/Dependency)
+
+## 无法使用管理员模式启动胡桃工具箱
+
+> 该问题仅存在于 Windows 10 低于 22H2 的版本中
+
+- 当用户系统版本低于 `Windows Build 19045`（即 Windows 10 22H2 版本）时，可能无法通过管理员模式启动胡桃工具箱
+  - 该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本
