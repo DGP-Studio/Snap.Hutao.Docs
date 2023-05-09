@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 May 2023 01:13:14 GMT</pubDate>
-    <lastBuildDate>Mon, 08 May 2023 01:13:14 GMT</lastBuildDate>
+    <pubDate>Tue, 09 May 2023 07:17:08 GMT</pubDate>
+    <lastBuildDate>Tue, 09 May 2023 07:17:08 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -597,6 +597,28 @@ this may cause Snap Hutao failed to check validation of the cookie</p>
 as Administrator role. When next time edit real-time notes settings without Administrator privilege, the program will
 have a lack of privilege to edit the settings and throw out this error.</p>
 <p>Run Snap Hutao as Administrator to edit your settings to solve this issue.</p>
+<h2> Stuck at <code>Installing Required Framework</code> when Using MSIX Package to Install</h2>
+<ul>
+<li>When user's OS missing required dependency framework, Windows will download and install it automatically.
+However, if the user disabled Windows Update or have a bad network, the system is unable to process this installation.
+<ul>
+<li>Make sure Windows Update is enabled; Snap Hutao's update also relies on it</li>
+<li>You can also download and install the <a href="ttps://d.hut.ao/releases/Dependency">dependency</a> manually</li>
+</ul>
+</li>
+</ul>
+<h2> Unable to Run Snap Hutao as Administrator</h2>
+<blockquote>
+<p>This issue only occurs in Windows 10 older than 22H2 version</p>
+</blockquote>
+<ul>
+<li>When user's OS version older than <code>Windows Build 19045</code> (aka Windows 10 22H2), Snap Hutao is unable to start when
+running as Administrator
+<ul>
+<li>This issue comes from Windows kernel, and it's hard to locate, so we suggest you to update your OS to the latest version</li>
+</ul>
+</li>
+</ul>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" type="image/png"/>
     </item>

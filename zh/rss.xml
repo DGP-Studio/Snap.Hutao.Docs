@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 08 May 2023 01:13:14 GMT</pubDate>
-    <lastBuildDate>Mon, 08 May 2023 01:13:14 GMT</lastBuildDate>
+    <pubDate>Tue, 09 May 2023 07:17:08 GMT</pubDate>
+    <lastBuildDate>Tue, 09 May 2023 07:17:08 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -544,10 +544,25 @@
 <h2> 为什么程序会提示注册计划任务失败</h2>
 <p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
 继续使用管理员模式即可解决该问题。</p>
-<h2> 安装进度卡在“正在安装所需框架”（一个可能的情况为卡在 15%）</h2>
+<h2> 使用 MSIX 安装包安装时进度卡在<code>正在安装所需框架</code></h2>
 <ul>
-<li>这可能是因为你的系统无法自动安装框架，通常是网络或者 windows update 组件导致，这类问题请到微软社区提问</li>
-<li>也可以选择手动安装 <a href="https://d.hut.ao/releases/Dependency" target="_blank" rel="noopener noreferrer">胡桃的相关依赖</a>尝试解决</li>
+<li>当用户系统缺少必要依赖环境时，系统会自动安装所需依赖。若用户禁用了 Windows Update 组件或网络条件差时，系统无法完成该步骤。
+<ul>
+<li>请确保 Windows Update 已启用；胡桃工具箱升级同样依赖于 Windows Update 组件</li>
+<li>你亦可以手动下载并安装<a href="https://d.hut.ao/releases/Dependency" target="_blank" rel="noopener noreferrer">胡桃的相关依赖</a></li>
+</ul>
+</li>
+</ul>
+<h2> 无法使用管理员模式启动胡桃工具箱</h2>
+<blockquote>
+<p>该问题仅存在于 Windows 10 低于 22H2 的版本中</p>
+</blockquote>
+<ul>
+<li>当用户系统版本低于 <code>Windows Build 19045</code>（即 Windows 10 22H2 版本）时，可能无法通过管理员模式启动胡桃工具箱
+<ul>
+<li>该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png_.webp" type="image/webp"/>
