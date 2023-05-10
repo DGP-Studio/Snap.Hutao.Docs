@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 09 May 2023 07:17:08 GMT</pubDate>
-    <lastBuildDate>Tue, 09 May 2023 07:17:08 GMT</lastBuildDate>
+    <pubDate>Wed, 10 May 2023 11:02:43 GMT</pubDate>
+    <lastBuildDate>Wed, 10 May 2023 11:02:43 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -766,11 +766,11 @@
       <link>https://hut.ao/zh/advanced/known-issue.html</link>
       <guid>https://hut.ao/zh/advanced/known-issue.html</guid>
       <source url="https://hut.ao/zh/rss.xml">已知问题</source>
-      <description>该文档包含由程序错误造成的问题 #1 微软商店下载应用程序 该问题来源并非胡桃工具箱，属于外部问题 该问题通常仅出现在东亚地区的网络环境下 发现于 2023/02/07; 无法从微软商店下载的原因在于微软在东亚的授权服务器 licensing.mp.microsoft.com 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。; 当授...</description>
+      <description>该文档包含由所有已知问题和修复计划 #1 微软商店下载应用程序 该问题来源并非胡桃工具箱，属于外部问题 该问题通常仅出现在东亚地区的网络环境下 发现于 2023/02/07; 无法从微软商店下载的原因在于微软在东亚的授权服务器 licensing.mp.microsoft.com 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。; ...</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 已知问题</h1>
-<p>该文档包含由<strong>程序错误</strong>造成的问题</p>
+<p>该文档包含由所有已知问题和修复计划</p>
 <h2> #1 微软商店下载应用程序</h2>
 <blockquote>
 <p>该问题来源并非胡桃工具箱，属于外部问题
@@ -822,47 +822,10 @@
 </ul>
 </li>
 </ul>
-<h2> #2 服务器切换导致 31-4302 报错</h2>
-<blockquote>
-<p>该问题已于 <a href="/statements/update-log.html#1-4-15" target="blank">1.4.15</a> 版本修复，请及时更新</p>
-</blockquote>
-<ul>
-<li>使用高级启动器中的服务器切换功能时，可能会出现<code>31-4302</code>相关错误</li>
-<li>目前的临时解决方案：
-<ul>
-<li>将原神截图目录中的服务器切换缓存目录删除</li>
-</ul>
-</li>
-</ul>
-<h2> #3 任务栏右键菜单中没有快速启动游戏的入口</h2>
-<blockquote>
-<p>该问题已于 <a href="/statements/update-log.html#1-5-1" target="blank">1.5.1</a> 版本修复，请及时更新</p>
-</blockquote>
-<ul>
-<li>胡桃使用 Windows 提供的 <code>JumpPath</code> 接口来提供快速启动游戏菜单
-<ul>
-<li>该接口需要用户在<code>系统设置 -&gt; 个性化 -&gt; 开始</code> 中启用<code>在“开始”菜单或任务栏的跳转列表中以及资源管理器的“快速使用”中显示最近打开的项</code> （该设置系统默认开启）</li>
-</ul>
-</li>
-<li>在下一版本，我们会使用 <code>JumpTask</code> 接口来代替 <code>JumpPath</code> 接口，用户将不再需要上述设置选项开启</li>
-</ul>
-<h2> #4 无法使用管理员模式启动胡桃工具箱</h2>
-<blockquote>
-<p>该问题来源并非胡桃工具箱，属于外部问题
-该问题仅存在于 Windows 10 低于 22H2 的版本中</p>
-</blockquote>
-<ul>
-<li>当用户系统版本低于 <code>Windows Build 19045</code>（即 Windows 10 22H2 版本）时，可能无法通过管理员模式启动胡桃工具箱
-<ul>
-<li>该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本</li>
-</ul>
-</li>
-</ul>
-<h2> #5 服务器转换卡死并持续写入的问题</h2>
-<p>相关 Issue：<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/566" target="_blank" rel="noopener noreferrer">issues/566</a></p>
-<p>该问题已在<a href="/statements/update-log.html#1-5-4" target="blank">1.5.4</a> 版本修复，请及时更新</p>
-<h2> #6 上传深渊记录后无法获取胡桃云奖励时常</h2>
+<h2> 上传深渊记录后无法获取胡桃云奖励时常</h2>
 <p>该问题出现在<code>1.6.2</code>版本中，将在下一版本中修复，开发组近期会为所有注册用户增加时常</p>
+<h2> 启用多客户端时会导致游戏抛出<code>数据异常</code>错误</h2>
+<p>该问题出现于2023年5月初，来源是米哈游反作弊模块更新。关闭多客户端后正常启动游戏即可解决问题。</p>
 ]]></content:encoded>
     </item>
     <item>

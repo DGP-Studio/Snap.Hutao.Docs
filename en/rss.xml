@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Tue, 09 May 2023 07:17:08 GMT</pubDate>
-    <lastBuildDate>Tue, 09 May 2023 07:17:08 GMT</lastBuildDate>
+    <pubDate>Wed, 10 May 2023 11:02:43 GMT</pubDate>
+    <lastBuildDate>Wed, 10 May 2023 11:02:43 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -200,102 +200,21 @@ designing of MiHoYo BBS, and cannot bypass</li>
 ]]></content:encoded>
     </item>
     <item>
-      <title>已知问题</title>
+      <title>Known Issue</title>
       <link>https://hut.ao/en/advanced/known-issue.html</link>
       <guid>https://hut.ao/en/advanced/known-issue.html</guid>
-      <source url="https://hut.ao/en/rss.xml">已知问题</source>
-      <description>该文档包含由程序错误造成的问题 #1 微软商店下载应用程序 该问题来源并非胡桃工具箱，属于外部问题 该问题通常仅出现在东亚地区的网络环境下 发现于 2023/02/07; 无法从微软商店下载的原因在于微软在东亚的授权服务器 licensing.mp.microsoft.com 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。 当授权...</description>
+      <source url="https://hut.ao/en/rss.xml">Known Issue</source>
+      <description>This document records known issues that need to be fixed. Don&amp;apos;t Get Bonus Hutao Cloud Benefit after Uploading Abyss Record This issue occurs in version 1.6.2 and will be fixed i...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:40 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 已知问题</h1>
-<p>该文档包含由<strong>程序错误</strong>造成的问题</p>
-<h2> #1 微软商店下载应用程序</h2>
-<blockquote>
-<p>该问题来源并非胡桃工具箱，属于外部问题 该问题通常仅出现在东亚地区的网络环境下</p>
-</blockquote>
-<ul>
-<li>发现于 2023/02/07</li>
-<li>无法从微软商店下载的原因在于微软在东亚的授权服务器 <code>licensing.mp.microsoft.com</code> 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。 当授权服务出现问题时，自然不会再进入到下一步下载环节，这就导致了用户无法安装
-<ul>
-<li>目前仅发现于微软商店新加坡授权服务器 <code>52.137.108.250</code> 出现了问题，所以你可以使用代理，切换到其它授权服务器，来实现下载。</li>
-</ul>
-</li>
-<li>授权服务器问题 DGP-Studio 已反馈给微软，等待解决。</li>
-<li>临时的解决方案：
-<ul>
-<li><strong>方法 1</strong>：
-<ul>
-<li>使用<a href="https://www.dogfight360.com/blog/475/" target="_blank" rel="noopener noreferrer">UsbEAm Hosts Editor</a>
-<ul>
-<li>在该工具箱内选择 <code>Microsoft Store - 微软商店</code> 中的 <code>微软授权验证</code></li>
-<li>点击<code>检测延迟</code></li>
-<li>选择一个对你而言延迟最低的服务器，选中后点击<code>应用选中</code></li>
-<li>此时重启微软商店后，你应当可以下载应用了</li>
-<li>下载完成后，建议点击<code>清除当前</code>以删除对 <code>Hosts</code> 文件的修改</li>
-</ul>
-</li>
-<li>如果你懒得下载，可以尝试将 <code>licensing.mp.microsoft.com</code> 通过修改 <code>Hosts</code>文件解析到以下 IP 地址之一 （收集于 UsbEAm Hosts Editor）
-<ul>
-<li><code>124.108.22.138</code></li>
-<li><code>92.38.149.175</code></li>
-<li><code>141.147.180.87</code></li>
-<li><code>103.151.179.4</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>方法 2</strong>：
-<ul>
-<li>将系统的 DNS 服务器设置为 4.2.2.1 和 4.2.2.2（完事后记得改回原本的设置）</li>
-</ul>
-</li>
-<li><strong>方法 3</strong>：
-<ul>
-<li>使用北美地区的网络代理</li>
-<li>如果使用加速器或网络代理，你需要<a href="/en/advanced/exceptions.html#_502-bad-gateway" target="blank">解除微软商店的 Windows App Container Loopback 限制</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2> #2 服务器切换导致 31-4302 报错</h2>
-<blockquote>
-<p>该问题已于 <a href="/statements/update-log.html#1-4-15" target="blank">1.4.15</a> 版本修复，请及时更新</p>
-</blockquote>
-<ul>
-<li>使用高级启动器中的服务器切换功能时，可能会出现<code>31-4302</code>相关错误</li>
-<li>目前的临时解决方案：
-<ul>
-<li>将原神截图目录中的服务器切换缓存目录删除</li>
-</ul>
-</li>
-</ul>
-<h2> #3 任务栏右键菜单中没有快速启动游戏的入口</h2>
-<blockquote>
-<p>该问题已于 <a href="/statements/update-log.html#1-5-1" target="blank">1.5.1</a> 版本修复，请及时更新</p>
-</blockquote>
-<ul>
-<li>胡桃使用 Windows 提供的 <code>JumpPath</code> 接口来提供快速启动游戏菜单
-<ul>
-<li>该接口需要用户在<code>系统设置 -&gt; 个性化 -&gt; 开始</code> 中启用<code>在“开始”菜单或任务栏的跳转列表中以及资源管理器的“快速使用”中显示最近打开的项</code> （该设置系统默认开启）</li>
-</ul>
-</li>
-<li>在下一版本，我们会使用 <code>JumpTask</code> 接口来代替 <code>JumpPath</code> 接口，用户将不再需要上述设置选项开启</li>
-</ul>
-<h2> #4 无法使用管理员模式启动胡桃工具箱</h2>
-<blockquote>
-<p>该问题来源并非胡桃工具箱，属于外部问题 该问题仅存在于 Windows 10 低于 22H2 的版本中</p>
-</blockquote>
-<ul>
-<li>当用户系统版本低于 <code>Windows Build 19045</code>（即 Windows 10 22H2 版本）时，可能无法通过管理员模式启动胡桃工具箱
-<ul>
-<li>该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本</li>
-</ul>
-</li>
-</ul>
-<h2> #5 服务器转换卡死并持续写入的问题</h2>
-<p>相关 Issue：<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/566" target="_blank" rel="noopener noreferrer">issues/566</a></p>
-<p>该问题已在 <a href="/statements/update-log.html#1-5-4" target="blank">1.5.4</a> 版本修复，请及时更新</p>
+      <content:encoded><![CDATA[<h1> Known Issue</h1>
+<p>This document records known issues that <strong>need to be fixed</strong>.</p>
+<h2> Don't Get Bonus Hutao Cloud Benefit after Uploading Abyss Record</h2>
+<p>This issue occurs in version <code>1.6.2</code> and will be fixed in the next version. The dev group will manually assign benefit
+for all registered users before next version.</p>
+<h2> Game Throw <code>Data Exception</code> Error when Enabling Multi-Client Feature</h2>
+<p>The issue occurs at early May 2023, and caused by MiHoYo's anti-cheat module update. Disable the multi-client and
+restart the game to fix it.</p>
 ]]></content:encoded>
     </item>
     <item>
