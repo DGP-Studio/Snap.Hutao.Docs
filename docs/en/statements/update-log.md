@@ -7,6 +7,23 @@ order: 1
 
 # Update Logs
 
+## 1.6.3 <Badge text="latest" type="tip" />
+- New
+  - Home dashboard, including Hutao Cloud account, game launcher, wish history, achievement stat and real-time notes
+  - Enable notification box will now automatically hide in-app notification
+  - CN server option without TapTap account
+- Fix
+  - Issue that user cannot get Hutao Cloud bonus after uploading Abyss record
+  - Issue that cannot sign in to HoYoLab with Facebook
+  - HoYoLab check-in issue
+  - Issue when facing empty value during wish history fetch progress
+- Optimize
+  - **Project refactoring, brings a 20% performance improvement**
+  - Add localization support for WIKI features
+  - Add support for all international channel (which affect payment gateway)
+    - Supporting HoYoverse official, Google Pay, Epic
+  - When Unlock framerate limit is enabled, limit value can be modified during the game, and will take effect immediately
+
 ## 1.6.2 <Badge text="latest" type="tip" />
 
 - New Feature

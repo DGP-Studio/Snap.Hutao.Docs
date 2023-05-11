@@ -39,10 +39,11 @@ redirectFrom: /advanced/known-issue.html
     - 使用北美地区的网络代理
     - 如果使用加速器或网络代理，你需要[解除微软商店的 Windows App Container Loopback 限制](exceptions.html#_502-bad-gateway)
 
-## 上传深渊记录后无法获取胡桃云奖励时常
-
-该问题出现在`1.6.2`版本中，将在下一版本中修复，开发组近期会为所有注册用户增加时常
-
 ## 启用多客户端时会导致游戏抛出`数据异常`错误
 
 该问题出现于2023年5月初，来源是米哈游反作弊模块更新。关闭多客户端后正常启动游戏即可解决问题。
+
+## 使用实时便笺时程序卡死或闪退
+
+当前一个本地数据库问题会造成胡桃工具箱卡顿，甚至闪退。这个问题计划在接下来的版本中修复，你也可以关注这个 
+[GitHub Issue](https://github.com/DGP-Studio/Snap.Hutao/issues/706) 来追踪进度。
