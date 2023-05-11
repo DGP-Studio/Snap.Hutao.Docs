@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 10 May 2023 11:02:43 GMT</pubDate>
-    <lastBuildDate>Wed, 10 May 2023 11:02:43 GMT</lastBuildDate>
+    <pubDate>Thu, 11 May 2023 10:49:14 GMT</pubDate>
+    <lastBuildDate>Thu, 11 May 2023 10:49:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -822,10 +822,11 @@
 </ul>
 </li>
 </ul>
-<h2> 上传深渊记录后无法获取胡桃云奖励时常</h2>
-<p>该问题出现在<code>1.6.2</code>版本中，将在下一版本中修复，开发组近期会为所有注册用户增加时常</p>
 <h2> 启用多客户端时会导致游戏抛出<code>数据异常</code>错误</h2>
 <p>该问题出现于2023年5月初，来源是米哈游反作弊模块更新。关闭多客户端后正常启动游戏即可解决问题。</p>
+<h2> 使用实时便笺时程序卡死或闪退</h2>
+<p>当前一个本地数据库问题会造成胡桃工具箱卡顿，甚至闪退。这个问题计划在接下来的版本中修复，你也可以关注这个
+<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/706" target="_blank" rel="noopener noreferrer">GitHub Issue</a> 来追踪进度。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2293,11 +2294,41 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.6.2 全新功能; 基于胡桃帐号系统的祈愿记录云同步; 当前在爱发电打赏用户和测试用户会获得对应时间的云同步权限，已注册用户在上传深渊记录后会获赠 5 天云同步有效期; 该功能会在接下来的数个 1.6 版本中持续优化; 修复; 渠道服帐号的实时便笺无法获取数据的问题; HoYoLab 帐号的登录问题; 优化; 重新设计了静态文件获取的流程; 1.6...</description>
+      <description>1.6.3 新增; 首页仪表盘，包含胡桃云帐号、游戏启动器、祈愿记录、成就统计和实时便笺; 启用新的信息栏功能将自动隐藏应用内通知; 隐藏国服 TapTap 帐号登录的服务器版本; 修复; 上传深境螺旋数据后无法获得胡桃云奖励的问题; HoYoLab 不支持 Facebook 登录的问题; HoYoLab 签到问题; 获取抽卡记录过程中值为空时会产生的...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.6.2 </h2>
+<h2> 1.6.3 </h2>
+<ul>
+<li>新增
+<ul>
+<li>首页仪表盘，包含胡桃云帐号、游戏启动器、祈愿记录、成就统计和实时便笺</li>
+<li>启用新的信息栏功能将自动隐藏应用内通知</li>
+<li>隐藏国服 TapTap 帐号登录的服务器版本</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>上传深境螺旋数据后无法获得胡桃云奖励的问题</li>
+<li>HoYoLab 不支持 Facebook 登录的问题</li>
+<li>HoYoLab 签到问题</li>
+<li>获取抽卡记录过程中值为空时会产生的问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li><strong>项目重构，软件性能提高20%</strong></li>
+<li>增加支持 WIKI 功能中的本地化翻译</li>
+<li>增加支持国际服支付渠道切换
+<ul>
+<li>包括 HoYoverse 默认，Epic 和 Google Pay</li>
+</ul>
+</li>
+<li>开启帧率解锁后，可以在游戏启动时修改帧率上限并立即生效</li>
+</ul>
+</li>
+</ul>
+<h2> 1.6.2</h2>
 <ul>
 <li>全新功能
 <ul>

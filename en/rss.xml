@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Wed, 10 May 2023 11:02:43 GMT</pubDate>
-    <lastBuildDate>Wed, 10 May 2023 11:02:43 GMT</lastBuildDate>
+    <pubDate>Thu, 11 May 2023 10:49:14 GMT</pubDate>
+    <lastBuildDate>Thu, 11 May 2023 10:49:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -204,17 +204,18 @@ designing of MiHoYo BBS, and cannot bypass</li>
       <link>https://hut.ao/en/advanced/known-issue.html</link>
       <guid>https://hut.ao/en/advanced/known-issue.html</guid>
       <source url="https://hut.ao/en/rss.xml">Known Issue</source>
-      <description>This document records known issues that need to be fixed. Don&amp;apos;t Get Bonus Hutao Cloud Benefit after Uploading Abyss Record This issue occurs in version 1.6.2 and will be fixed i...</description>
+      <description>This document records known issues that need to be fixed. Game Throw Data Exception Error when Enabling Multi-Client Feature The issue occurs at early May 2023, and caused by Mi...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:40 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Known Issue</h1>
 <p>This document records known issues that <strong>need to be fixed</strong>.</p>
-<h2> Don't Get Bonus Hutao Cloud Benefit after Uploading Abyss Record</h2>
-<p>This issue occurs in version <code>1.6.2</code> and will be fixed in the next version. The dev group will manually assign benefit
-for all registered users before next version.</p>
 <h2> Game Throw <code>Data Exception</code> Error when Enabling Multi-Client Feature</h2>
 <p>The issue occurs at early May 2023, and caused by MiHoYo's anti-cheat module update. Disable the multi-client and
 restart the game to fix it.</p>
+<h2> Snap Hutao No Response or Cash when Using Real-time Notes</h2>
+<p>A current local database issue will cause Snap Hutao to no response or even crash.
+This issue is planned to be fixed in the next version, you may also track this issue in
+<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/706" target="_blank" rel="noopener noreferrer">GitHub</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -546,10 +547,40 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.6.2 New Feature; Wish history cloud backup based on Hutao account system; Currently, sponsors on AFDIAN and beta users will receive corresponding cloud membership time; All re...</description>
+      <description>1.6.3 New; Home dashboard, including Hutao Cloud account, game launcher, wish history, achievement stat and real-time notes; Enable notification box will now automatically hide ...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
+<h2> 1.6.3 </h2>
+<ul>
+<li>New
+<ul>
+<li>Home dashboard, including Hutao Cloud account, game launcher, wish history, achievement stat and real-time notes</li>
+<li>Enable notification box will now automatically hide in-app notification</li>
+<li>CN server option without TapTap account</li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Issue that user cannot get Hutao Cloud bonus after uploading Abyss record</li>
+<li>Issue that cannot sign in to HoYoLab with Facebook</li>
+<li>HoYoLab check-in issue</li>
+<li>Issue when facing empty value during wish history fetch progress</li>
+</ul>
+</li>
+<li>Optimize
+<ul>
+<li><strong>Project refactoring, brings a 20% performance improvement</strong></li>
+<li>Add localization support for WIKI features</li>
+<li>Add support for all international channel (which affect payment gateway)
+<ul>
+<li>Supporting HoYoverse official, Google Pay, Epic</li>
+</ul>
+</li>
+<li>When Unlock framerate limit is enabled, limit value can be modified during the game, and will take effect immediately</li>
+</ul>
+</li>
+</ul>
 <h2> 1.6.2 </h2>
 <ul>
 <li>New Feature
