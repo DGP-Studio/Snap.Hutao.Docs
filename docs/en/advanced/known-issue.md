@@ -20,3 +20,8 @@ restart the game to fix it.
 A current local database issue will cause Snap Hutao to no response or even crash. 
 This issue is planned to be fixed in the next version, you may also track this issue in 
 [GitHub](https://github.com/DGP-Studio/Snap.Hutao/issues/706)
+
+## Game Quick Launch Failure
+
+In the current version, a known issue will cause `JumpList` game quick start launcher fail to 
+open the window. This issue will be fixed in the next patch.
