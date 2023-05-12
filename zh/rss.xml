@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 11 May 2023 10:49:14 GMT</pubDate>
-    <lastBuildDate>Thu, 11 May 2023 10:49:14 GMT</lastBuildDate>
+    <pubDate>Fri, 12 May 2023 12:15:15 GMT</pubDate>
+    <lastBuildDate>Fri, 12 May 2023 12:15:15 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -15,6 +15,17 @@
     <category>公告</category>
     <category>FAQ</category>
     <category>第三方工具</category>
+    <item>
+      <title>首页仪表盘</title>
+      <link>https://hut.ao/zh/features/dashboard.html</link>
+      <guid>https://hut.ao/zh/features/dashboard.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">首页仪表盘</source>
+      <category>功能</category>
+      <category>教程</category>
+      <pubDate>Fri, 12 May 2023 12:14:08 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 首页仪表盘</h1>
+]]></content:encoded>
+    </item>
     <item>
       <title>实时便笺</title>
       <link>https://hut.ao/zh/features/real-time-notes.html</link>
@@ -827,6 +838,9 @@
 <h2> 使用实时便笺时程序卡死或闪退</h2>
 <p>当前一个本地数据库问题会造成胡桃工具箱卡顿，甚至闪退。这个问题计划在接下来的版本中修复，你也可以关注这个
 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/706" target="_blank" rel="noopener noreferrer">GitHub Issue</a> 来追踪进度。</p>
+<h2> 游戏快速启动窗口失效</h2>
+<p>在当前版本中，一个已知问题会导致任务栏<code>JumpList</code>快速启动游戏功能失效，窗口无法打开。
+该问题会在下一版本修复。</p>
 ]]></content:encoded>
     </item>
     <item>

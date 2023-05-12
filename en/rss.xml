@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Thu, 11 May 2023 10:49:14 GMT</pubDate>
-    <lastBuildDate>Thu, 11 May 2023 10:49:14 GMT</lastBuildDate>
+    <pubDate>Fri, 12 May 2023 12:15:15 GMT</pubDate>
+    <lastBuildDate>Fri, 12 May 2023 12:15:15 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -572,7 +572,7 @@ running as Administrator
 <ul>
 <li><strong>Project refactoring, brings a 20% performance improvement</strong></li>
 <li>Add localization support for WIKI features</li>
-<li>Add support for all international channel (which affect payment gateway)
+<li>Add support for all international channels (which affect payment gateway)
 <ul>
 <li>Supporting HoYoverse official, Google Pay, Epic</li>
 </ul>
