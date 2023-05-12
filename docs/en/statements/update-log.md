@@ -20,7 +20,7 @@ order: 1
 - Optimize
   - **Project refactoring, brings a 20% performance improvement**
   - Add localization support for WIKI features
-  - Add support for all international channel (which affect payment gateway)
+  - Add support for all international channels (which affect payment gateway)
     - Supporting HoYoverse official, Google Pay, Epic
   - When Unlock framerate limit is enabled, limit value can be modified during the game, and will take effect immediately
 

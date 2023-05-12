@@ -47,3 +47,8 @@ redirectFrom: /advanced/known-issue.html
 
 当前一个本地数据库问题会造成胡桃工具箱卡顿，甚至闪退。这个问题计划在接下来的版本中修复，你也可以关注这个 
 [GitHub Issue](https://github.com/DGP-Studio/Snap.Hutao/issues/706) 来追踪进度。
+
+## 游戏快速启动窗口失效
+
+在当前版本中，一个已知问题会导致任务栏`JumpList`快速启动游戏功能失效，窗口无法打开。
+该问题会在下一版本修复。
