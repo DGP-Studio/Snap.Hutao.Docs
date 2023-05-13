@@ -1,1 +1,0 @@
-import{_ as a,Y as t,Z as r,$ as e,a0 as s}from"./framework-8be3ab77.js";const o={},c=e("h1",{id:"首页仪表盘",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#首页仪表盘","aria-hidden":"true"},"#"),s(" 首页仪表盘")],-1),d=[c];function n(_,h){return t(),r("div",null,d)}const l=a(o,[["render",n],["__file","dashboard.html.vue"]]);export{l as default};

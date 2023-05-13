@@ -6,13 +6,14 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 12 May 2023 12:15:49 GMT</pubDate>
-    <lastBuildDate>Fri, 12 May 2023 12:15:49 GMT</lastBuildDate>
+    <pubDate>Sat, 13 May 2023 07:12:59 GMT</pubDate>
+    <lastBuildDate>Sat, 13 May 2023 07:12:59 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
     <category>教程</category>
     <category>公告</category>
+    <category>i18n</category>
     <category>FAQ</category>
     <category>第三方工具</category>
     <item>
@@ -20,11 +21,41 @@
       <link>https://hut.ao/zh/features/dashboard.html</link>
       <guid>https://hut.ao/zh/features/dashboard.html</guid>
       <source url="https://hut.ao/zh/rss.xml">首页仪表盘</source>
+      <description>胡桃工具箱启动后会默认进入首页仪表盘，上半部分为你的个人游戏数据，下半部分为近期游戏公告及游戏活动倒计时。 个人游戏数据仪表盘包含以下内容： 游戏启动器; 你可以直接在仪表盘中选择帐号并启动游戏; 祈愿记录; 仪表盘中将显示祈愿档案 UID 并以进度条的形式显示保底计数; 如在胡桃工具箱中有多个祈愿档案，你可以使用祈愿记录图表两侧的箭头按钮来切换档案;...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Fri, 12 May 2023 12:14:08 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 首页仪表盘</h1>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01XkqHJA1g6dw1HVD0t_!!1797064093.png" alt="" loading="lazy"></p>
+<p>胡桃工具箱启动后会默认进入首页仪表盘，上半部分为你的个人游戏数据，下半部分为近期游戏公告及游戏活动倒计时。</p>
+<p>个人游戏数据仪表盘包含以下内容：</p>
+<ul>
+<li>游戏启动器
+<ul>
+<li>你可以直接在仪表盘中选择帐号并启动游戏</li>
+</ul>
+</li>
+<li>祈愿记录
+<ul>
+<li>仪表盘中将显示祈愿档案 UID 并以进度条的形式显示保底计数</li>
+<li>如在胡桃工具箱中有多个祈愿档案，你可以使用祈愿记录图表两侧的箭头按钮来切换档案</li>
+</ul>
+</li>
+<li>成就统计
+<ul>
+<li>仪表盘中将显示成就档案中已完成成就总数、百分比和最新获得的成就</li>
+<li>如在胡桃工具箱中有多个成就档案，你可以使用成就统计图表两侧的箭头按钮来切换档案</li>
+</ul>
+</li>
+<li>实时便笺
+<ul>
+<li>仪表盘中将显示实时便笺数据</li>
+<li>如在胡桃工具箱中有多个激活的实时便笺，你可以使用实时便笺两侧的箭头按钮来切换档案</li>
+</ul>
+</li>
+</ul>
 ]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01XkqHJA1g6dw1HVD0t_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>实时便笺</title>
@@ -151,6 +182,7 @@
       <source url="https://hut.ao/zh/rss.xml">国际化支持</source>
       <description>国际化进度 Snap Hutao 虽然基于原神国服提供功能，但项目也有意提升国际化支持，包括语言本土化和功能国际化。目前国际化进度如下： Snap Hutao 主项目; [x] 语言本土化技术框架; [ ] 客户端翻译; 进度：!Crowdin (https://badges.crowdin.net/snap-hutao/localized.svg);...</description>
       <category>公告</category>
+      <category>i18n</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 国际化支持</h1>
 <h2> 国际化进度</h2>

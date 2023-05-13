@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Fri, 12 May 2023 12:15:49 GMT</pubDate>
-    <lastBuildDate>Fri, 12 May 2023 12:15:49 GMT</lastBuildDate>
+    <pubDate>Sat, 13 May 2023 07:12:59 GMT</pubDate>
+    <lastBuildDate>Sat, 13 May 2023 07:12:59 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -15,9 +15,54 @@
     <category>FAQ</category>
     <category>第三方工具</category>
     <category>Announcement</category>
+    <category>i18n</category>
     <category>功能</category>
     <category>教程</category>
     <category>公告</category>
+    <item>
+      <title>Home Dashboard</title>
+      <link>https://hut.ao/en/features/dashboard.html</link>
+      <guid>https://hut.ao/en/features/dashboard.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Home Dashboard</source>
+      <description>Snap Hutao will enter home dashboard by default when it&amp;apos;s opened. The top part is your personal gaming data; the button part is recent game notice and event countdown in days an...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
+      <pubDate>Sat, 13 May 2023 01:37:45 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Home Dashboard</h1>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01XkqHJA1g6dw1HVD0t_!!1797064093.png" alt="" loading="lazy"></p>
+<p>Snap Hutao will enter home dashboard by default when it's opened. The top part is your personal gaming data; the button
+part is recent game notice and event countdown in days and hours.</p>
+<p>Personal gaming data dashboard includes:</p>
+<ul>
+<li>Game launcher
+<ul>
+<li>You can select your account and start the game from dashboard</li>
+</ul>
+</li>
+<li>Wish history
+<ul>
+<li>Game UID and progress bar styled pity count will be display in the dashboard</li>
+<li>If you have multiple wish history archives, you can use arrow button on left and right side of chart to switch archive</li>
+</ul>
+</li>
+<li>Achievement statistics
+<ul>
+<li>Achievement statistics charts includes gained achievements count, percentage, and the latest gained achievements</li>
+<li>If you have multiple achievement archives, you can use arrow button on left and right side of chart to switch archive</li>
+</ul>
+</li>
+<li>实时便笺</li>
+<li>Real-time Notes
+<ul>
+<li>Real-time notes data will be displayed on home dashboard</li>
+<li>If you have multiple activated real-time notes account, you can use arrow button on left and right side of
+chart to switch account</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01XkqHJA1g6dw1HVD0t_!!1797064093.png" type="image/png"/>
+    </item>
     <item>
       <title>Real-time Notes</title>
       <link>https://hut.ao/en/features/real-time-notes.html</link>
@@ -822,6 +867,8 @@ running as Administrator
       <guid>https://hut.ao/en/i18n.html</guid>
       <source url="https://hut.ao/en/rss.xml">Localization</source>
       <description>Localization Process Snap Hutao Project features were originally based on the China server, but we are also trying to expand the coverage globally through the support of the MiH...</description>
+      <category>Announcement</category>
+      <category>i18n</category>
       <pubDate>Sat, 18 Mar 2023 03:05:17 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Localization</h1>
 <h2> Localization Process</h2>
