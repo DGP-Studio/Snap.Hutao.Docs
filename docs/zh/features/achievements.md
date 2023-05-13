@@ -1,8 +1,9 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 3
+order: 4
 redirectFrom: /features/achievements.html
+comment: false
 ---
 
 # 成就管理

@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 10
+order: 11
+comment: false
 ---
 
 # MiHoYo BBS Account Switch

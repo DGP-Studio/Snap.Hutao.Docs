@@ -1,6 +1,7 @@
 ---
 headerDepth: 0
 category: [Announcement]
+comment: false
 ---
 
 # Join Community

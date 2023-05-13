@@ -1,8 +1,9 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 7
+order: 8
 redirectFrom: /features/developer-plan.html
+comment: false
 ---
 
 # 养成计划

@@ -3,6 +3,7 @@ pageClass: link-box
 externalLinkIcon: false
 category: [功能, 教程]
 redirectFrom: /quick-start.html
+comment: false
 ---
 
 # 快速开始

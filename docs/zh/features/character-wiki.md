@@ -1,8 +1,9 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 8
+order: 9
 redirectFrom: /features/character-wiki.html
+comment: false
 ---
 
 # 角色资料

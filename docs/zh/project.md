@@ -2,6 +2,7 @@
 headerDepth: 0
 category: [公告]
 redirectFrom: /project.html
+comment: false
 ---
 
 # 项目说明

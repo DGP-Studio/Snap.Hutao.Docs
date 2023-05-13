@@ -3,8 +3,9 @@ headerDepth: 0
 category:
   - 功能
   - 教程
-order: 9
+order: 10
 redirectFrom: /features/weapon-wiki.html
+comment: false
 ---
 
 # 武器资料

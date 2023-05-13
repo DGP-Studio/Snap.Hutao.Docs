@@ -1,8 +1,9 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 2
+order: 3
 redirectFrom: /features/wish-export.html
+comment: false
 ---
 
 # 祈愿记录

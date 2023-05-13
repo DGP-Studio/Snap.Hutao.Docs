@@ -1,8 +1,9 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 1
+order: 2
 redirectFrom: /features/game-launcher.html
+comment: false
 ---
 
 # 高级启动器

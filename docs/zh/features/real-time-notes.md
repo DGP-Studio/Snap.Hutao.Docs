@@ -1,8 +1,9 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 4
+order: 5
 redirectFrom: /features/daily-notes.html
+comment: false
 ---
 
 # 实时便笺

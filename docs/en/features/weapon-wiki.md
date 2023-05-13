@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 9
+order: 10
+comment: false
 ---
 
 # Weapon WIKI

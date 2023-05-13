@@ -1,8 +1,9 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 11
+order: 12
 redirectFrom: /features/hutao-settings.html
+comment: false
 ---
 
 # 软件设置
