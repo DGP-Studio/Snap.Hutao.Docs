@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 13 May 2023 07:12:59 GMT</pubDate>
-    <lastBuildDate>Sat, 13 May 2023 07:12:59 GMT</lastBuildDate>
+    <pubDate>Sun, 14 May 2023 07:04:31 GMT</pubDate>
+    <lastBuildDate>Sun, 14 May 2023 07:04:31 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -86,7 +86,7 @@
 </li>
 <li>如出现"账号有风险，请前往米游社查看"字样的提示
 <ul>
-<li>请参考<a href="/zh/advanced/mihoyo-risk-tip.html" target="blank">账号风险提示</a>文档</li>
+<li>请参考<a href="/zh/advanced/exceptions.html#%E7%8A%B6%E6%80%811034-%E9%AA%8C%E8%AF%81%E5%A4%B1%E8%B4%A5" target="blank">账号风险提示</a>文档</li>
 </ul>
 </li>
 </ul>
@@ -565,7 +565,7 @@
 <li>但是当用户在浏览器或其它设备上<strong>注销帐号</strong>后， 维持登录状态的 Cookie 将<strong>失效</strong>。</li>
 <li>这会导致胡桃工具箱上的米游社帐号在启动后被自动移除。</li>
 <li>此情况也可能因为网络连接问题导致无法检查 Cookie 有效性，故出现此情况后请优先重启胡桃工具箱。</li>
-<li>自 2022 年 10 月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/zh/advanced/mihoyo-risk-tip.html" target="blank">账号有风险</a>时亦会令 Cookie 无法被识别为有效状态</li>
+<li>自 2022 年 10 月起，米游社极大地提高了账号被判定为有风险的概率，<a href="/zh/advanced/exceptions.html#%E7%8A%B6%E6%80%811034-%E9%AA%8C%E8%AF%81%E5%A4%B1%E8%B4%A5" target="blank">账号有风险</a>时亦会令 Cookie 无法被识别为有效状态</li>
 <li>自 1.4.15 版本起，你可以通过在帐号面板中刷新 Cookie 来刷新登录状态</li>
 </ul>
 <h2> 为什么游戏登录状态会失效，导致切换帐号功能无效</h2>
@@ -719,6 +719,32 @@
 </ol>
 </li>
 </ul>
+<h2> 状态：1034 验证失败</h2>
+<ul>
+<li>当胡桃工具箱返回 <code>1034</code> 状态码并提示验证失败时（通常是实时便笺功能），代表当前的操作被米游社的验证系统所阻挡</li>
+<li>解决方式：
+<ul>
+<li>进入 <code>实时便笺</code> 功能</li>
+<li>点击右上角的 <code>验证当前用户与角色</code>按钮</li>
+<li>根据米游社提示进行验证</li>
+<li>完成验证后点击<code>完成</code></li>
+<li>此时，风控应当已被解除；若没有，可继续执行上述操作</li>
+</ul>
+</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<ul>
+<li>若风险提示过于频繁，或始终无法触发验证，代表您的账号风险已过高，请修改密码，使多个设备同时登录的状态被重置</li>
+</ul>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<ul>
+<li>若您<strong>已绑定并使用可提供原神查询的 Bot</strong>或<strong>同时有多个设备使用同一个米哈游通行证</strong>，则本条目所示的情况，尤其<strong>无感验证</strong>将基本无法成功，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
+<li>若您本地有多个<strong>米哈游通行证</strong>同时频繁与<strong>米游社</strong>进行数据交互，则可能会被米游社在一定时间内封禁 IP 地址，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
+</ul>
+</div>
 <h2> HttpRequestException 元数据校验文件下载失败</h2>
 <h3> 403 (Forbidden)/ 404 (NOT FOUND)</h3>
 <p>解决方案：更新胡桃工具箱至<a href="https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52" target="_blank" rel="noopener noreferrer">最新版本</a></p>
@@ -867,6 +893,7 @@
 </ul>
 <h2> 启用多客户端时会导致游戏抛出<code>数据异常</code>错误</h2>
 <p>该问题出现于2023年5月初，来源是米哈游反作弊模块更新。关闭多客户端后正常启动游戏即可解决问题。</p>
+<p>该问题计划在接下来的版本中修复。</p>
 <h2> 使用实时便笺时程序卡死或闪退</h2>
 <p>当前一个本地数据库问题会造成胡桃工具箱卡顿，甚至闪退。这个问题计划在接下来的版本中修复，你也可以关注这个
 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/706" target="_blank" rel="noopener noreferrer">GitHub Issue</a> 来追踪进度。</p>
@@ -874,64 +901,6 @@
 <p>在当前版本中，一个已知问题会导致任务栏<code>JumpList</code>快速启动游戏功能失效，窗口无法打开。
 该问题会在下一版本修复。</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>账号风险及异常提示</title>
-      <link>https://hut.ao/zh/advanced/mihoyo-risk-tip.html</link>
-      <guid>https://hut.ao/zh/advanced/mihoyo-risk-tip.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">账号风险及异常提示</source>
-      <description>image image 当胡桃工具箱返回&amp;quot;账号有风险，请前往米游社查看&amp;quot;、&amp;quot;请求异常，请前往米游社对应功能页面查看&amp;quot;、&amp;quot;无感验证失败，请前往「米游社我的角色实时便笺」页面查看; &amp;quot;等错误提示时，代表当前的操作被米游社的验证系统所阻挡 解决方式; 方法 1 ：; 自 1.4.15 版本起，在帐号面板内点击 刷新 Cookie 即可; 方法 2：; 使用手...</description>
-      <category>FAQ</category>
-      <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 账号风险及异常提示</h1>
-<p><img src="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" alt="image" loading="lazy">
-<img src="https://user-images.githubusercontent.com/96916320/204005371-ced5213b-a7af-4cba-baa3-818f9b7ade35.png" alt="image" loading="lazy"></p>
-<ul>
-<li>
-<p>当胡桃工具箱返回"账号有风险，请前往米游社查看"、"请求异常，请前往米游社对应功能页面查看"、"无感验证失败，请前往「米游社我的角色实时便笺」页面查看
-"等错误提示时，代表当前的操作被米游社的验证系统所阻挡</p>
-</li>
-<li>
-<p>解决方式</p>
-<ul>
-<li>方法 1 </li>
-<li>方法 2：
-<ul>
-<li>使用手机打开米游社 App</li>
-<li>点击<code>我的</code></li>
-<li>点击<code>个人主页</code></li>
-<li>点击<code>我的角色</code>下方的角色标签
-<ul>
-<li>点击<code>全部角色</code></li>
-<li>或可以点击<code>实时便笺</code>窗体</li>
-</ul>
-</li>
-<li>完成<strong>在此期间可能随机触发的验证流程</strong>（例如验证码），即可解决本问题。
-<ul>
-<li>若此操作未触发验证流程，可重复进行多次，直到触发验证为止</li>
-<li>若始终无法触发验证，可修改密码</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<ul>
-<li>若风险提示过于频繁，或始终无法触发验证，代表您的账号风险已过高，请修改密码，使多个设备同时登录的状态被重置</li>
-</ul>
-</div>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<ul>
-<li>若您<strong>已绑定并使用可提供原神查询的 Bot</strong>或<strong>同时有多个设备使用同一个米哈游通行证</strong>，则本条目所示的情况，尤其<strong>无感验证</strong>将基本无法成功，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
-<li>若您本地有多个<strong>米哈游通行证</strong>同时频繁与<strong>米游社</strong>进行数据交互，则可能会被米游社在一定时间内封禁 IP 地址，这是米游社后端的<strong>安全性</strong>设计，不可避免，无法绕过</li>
-</ul>
-</div>
-]]></content:encoded>
-      <enclosure url="https://user-images.githubusercontent.com/96916320/201329765-531d6eb6-2ec4-4022-9049-bcba3b4bf9cf.png" type="image/png"/>
     </item>
     <item>
       <title>卸载胡桃工具箱</title>
