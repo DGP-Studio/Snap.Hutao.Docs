@@ -10,7 +10,7 @@ comment: false
 ::: info
 
 This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao,
-you can check [米游社多帐号切换](mhy-account-switch.html) for more information.
+you can check [MiHoYo BBS Account Switch](mhy-account-switch.html) for more information.
 
 :::
 

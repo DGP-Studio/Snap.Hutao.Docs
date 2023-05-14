@@ -10,7 +10,7 @@ comment: false
 
 ![](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01XkqHJA1g6dw1HVD0t_!!1797064093.png)
 
-Snap Hutao will enter home dashboard by default when it's opened. The top part is your personal gaming data; the button 
+Snap Hutao will enter home dashboard by default when it's opened. The top part is your personal gaming data; the bottom 
 part is recent game notice and event countdown in days and hours.
 
 Personal gaming data dashboard includes:
@@ -23,7 +23,6 @@ Personal gaming data dashboard includes:
 - Achievement statistics
   - Achievement statistics charts includes gained achievements count, percentage, and the latest gained achievements
   - If you have multiple achievement archives, you can use arrow button on left and right side of chart to switch archive
-- 实时便笺
 - Real-time Notes
   - Real-time notes data will be displayed on home dashboard
   - If you have multiple activated real-time notes account, you can use arrow button on left and right side of

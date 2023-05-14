@@ -9,7 +9,7 @@ comment: false
 
 ::: info
 
-This features required logged in MiHoYo BBS account, please refer to [MiHoYo BBS Account Switch](mhy-account-switch.md)
+This features required sign in to MiHoYo BBS account, please refer to [MiHoYo BBS Account Switch](mhy-account-switch.md)
 document for sign in tutorial
 
 :::

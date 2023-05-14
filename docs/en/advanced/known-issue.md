@@ -15,6 +15,8 @@ This document records known issues that **need to be fixed**.
 The issue occurs at early May 2023, and caused by MiHoYo's anti-cheat module update. Disable the multi-client and 
 restart the game to fix it.
 
+This issue is planned to be fixed in the following versions.
+
 ## Snap Hutao No Response or Cash when Using Real-time Notes
 
 A current local database issue will cause Snap Hutao to no response or even crash. 

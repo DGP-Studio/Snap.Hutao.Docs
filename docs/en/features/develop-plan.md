@@ -30,7 +30,7 @@ Dev Plan is under redesigning, the document will be translated after the refinem
 - 在选中角色后，点击右上角的`养成计算`按钮
 - 在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的"起始等级"以及"目标等级"
   - 基于玩家数据添加的养成目标，默认初始等级为玩家当前的角色等级
-  - 请参考[属性统计](character-data#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97)文档以获取更多信息
+  - 请参考[My Characters](character-data#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97)文档以获取更多信息
 
 ## 背包物品
 
