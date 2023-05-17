@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 14 May 2023 07:04:31 GMT</pubDate>
-    <lastBuildDate>Sun, 14 May 2023 07:04:31 GMT</lastBuildDate>
+    <pubDate>Wed, 17 May 2023 11:05:11 GMT</pubDate>
+    <lastBuildDate>Wed, 17 May 2023 11:05:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -16,6 +16,85 @@
     <category>i18n</category>
     <category>FAQ</category>
     <category>第三方工具</category>
+    <item>
+      <title>第一期开发组座谈会</title>
+      <link>https://hut.ao/zh/development/symposium1.html</link>
+      <guid>https://hut.ao/zh/development/symposium1.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">第一期开发组座谈会</source>
+      <description>复制自 GitHub 讨论帖 (https://github.com/DGP-Studio/Snap.Hutao/discussions/46)，总结于群讨论 为啥胡桃在电脑上要做成类似 uwp 格式的应用？ 开发 MSIX 封装的应用是桌面端的开发趋势，开发体验更佳，用户体验也能提升。 胡桃的作用是啥，和 SG 有什么区别？ 胡桃是 SG 的次世代版...</description>
+      <pubDate>Wed, 17 May 2023 11:04:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 第一期开发组座谈会</h1>
+<p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/46" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
+<h2> 为啥胡桃在电脑上要做成类似 uwp 格式的应用？</h2>
+<p>开发 MSIX 封装的应用是桌面端的开发趋势，开发体验更佳，用户体验也能提升。</p>
+<h2> 胡桃的作用是啥，和 SG 有什么区别？</h2>
+<p>胡桃是 SG 的次世代版本，更新/更快/更强。</p>
+<h2> 胡桃会全面继承 SG 的功能吗？SG 的一些功能会在 hutao 里被弃用吗？</h2>
+<p>多数功能会完全继承与升级。少数功能会以整合功能的形式出现在胡桃中。</p>
+<h2> 为啥不把胡桃和 SG 集合到一起，而是要分开呢？和 sg 有什么侧重上的不同？</h2>
+<p>Snap Genshin 采用 WPF 技术开发，该技术基于 DirectX 9，而 胡桃 采用 WinUI 3 开发，该新技术基于 DirectX 12 与其他较新的显示技术，呈现的效果更好，同时也更易于开发，胡桃 与 Snap Genshin 类似，但侧重于流畅、简单的用户体验，同时也更注重程序架构的可维护性，更关注性能表现。</p>
+<h2> 除了 SG 的旧功能迁移，还会有新功能开发吗？</h2>
+<p>随着原神的发展，我们也会推出更多的功能。</p>
+<h2> SG 永远不会更新了吗？SG 是快不能用了吗？</h2>
+<p><s>没有严重的数据异常问题不会再更新。由于缺乏维护，不保证在何时由于某些不确定的原因会导致 SG 的部分功能失效（如先去的签到功能）。</s>
+Snap.Genshin 已停止更新，项目已归档</p>
+<h2> 胡桃的使用文档秋梨膏？</h2>
+<p><s>使用文档 @Masterain98 正在制作中，很快就会和大家见面。</s> 你现在看到的就是</p>
+<h2> 胡桃图标还会更新嘛？</h2>
+<p>不会，我们持有胡桃图标的版权。</p>
+<h2> 什么时候上微软商店？上微软商店是否不需要自己信任证书了？胡桃以后会在线更新嘛？</h2>
+<p>会在所有功能完善后上架。不需要证书。上架后就可以支持在线更新了。</p>
+<h2> 有考虑增加根据角色展示面板来计算伤害的功能吗？什么时候胡桃能当启动器，解锁帧率？这个无边框全屏的功能以后会不会支持？</h2>
+<p>面板功能会在用户系统重构后进行开发，并且会在完成面板查询功能后实现启动游戏相关功能。启动参数包括在内。</p>
+<h2> 胡桃数据库 和 Hutao 是否有关系？什么时候上胡桃数据库？</h2>
+<p><s>胡桃数据库是 HutaoAPI 的一部分，包含了深渊相关的数据，HutaoAPI 是胡桃使用的 RESTful API，同时面向其他应用的开发者开放，接入成本低，接入收益高。胡桃数据库将会在后续版本实装。</s> 已经实装</p>
+<h2> 会把胡桃放到右下角任务栏吗？会考虑在角色里添加立绘吗？</h2>
+<p><s>基本不会考虑</s>。后续可能会考虑。</p>
+<p>你可以通过快速启动栏来快速启动游戏，具体方法可见<a href="/advanced/FAQ#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F">此文档</a></p>
+<h2> 将来会有移动端吗？有考虑根据胡桃做个手机桌面小组件吗？胡桃以后支持插件吗？胡桃会有插件开发文档吗？</h2>
+<p>短时间内不会考虑移动端。手机桌面小组件也基本不会考虑。不会再支持插件。同样也不会有插件文档。</p>
+<h2> 离支持外服账号还有多远？会整合其他插件比如空荧酒馆这种嘛？</h2>
+<p><s>Hoyolab 的相关支持需要其他开发者的帮助。由于技术栈的不同，很难整合。</s></p>
+<p>受益于开源社区力量，目前高级启动器、祈愿记录导出和成就管理功能已支持国际服。</p>
+<h2> 有没有打算添加收费功能，还是说只靠捐助？</h2>
+<p><s>由于服务器需要资费，与服务器存储相关的功能可能会进行收费。</s> Snap.Hutao 等有关项目均为公益项目</p>
+<h2> 是用爱发电吗？开发胡桃，是业余时间开发的吗？</h2>
+<p>显然是。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>第二期开发组座谈会</title>
+      <link>https://hut.ao/zh/development/symposium2.html</link>
+      <guid>https://hut.ao/zh/development/symposium2.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">第二期开发组座谈会</source>
+      <description>复制自 GitHub 讨论帖 (https://github.com/DGP-Studio/Snap.Hutao/discussions/280)，总结于群讨论 现在成就导出的 json 格式也是 UIGF 的嘛 A: UIAF 能否适配祈愿系统数据 UEFI 旧版本的导入，和 SG 一样就可以 A: 首先它叫 UIGF 格式，其次一直是适配的，只是 ...</description>
+      <pubDate>Wed, 17 May 2023 11:04:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 第二期开发组座谈会</h1>
+<p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/280" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
+<h2> 现在成就导出的 json 格式也是 UIGF 的嘛</h2>
+<p>A: UIAF</p>
+<h2> 能否适配祈愿系统数据 UEFI 旧版本的导入，和 SG 一样就可以</h2>
+<p>A: 首先它叫 UIGF 格式，其次一直是适配的，只是 SG 的导入导出规则较为宽泛，如果您从始至终仅使用且正确使用了我们的产品，是不会出现导入导出异常的问题的</p>
+<h2> 啥时候会有 sg 那种自动检查更新下载</h2>
+<p>A: 自动更新不能在 MSIX 包上实现，检查更新会在后续版本推出。</p>
+<h2> 我同一个设备上同时登陆 SG，hutao 会算作一个设备还是两个设备</h2>
+<p>A: 两个设备,理论上每次重启胡桃后均相当于切换了设备</p>
+<h2> 我感觉胡桃有些页面的加载需要很久，会影响使用体验，感觉胡桃的界面有点掉帧</h2>
+<p>A: 深渊统计页面在 1.2.6 版本前确实存在加载慢的问题，已在新版本解决，如果有其他页面的卡顿问题，通常是因为你的显卡不够强劲，或者胡桃通过你的集显进行渲染。</p>
+<h2> 属性统计经常加载不了</h2>
+<p>A: 历史遗留问题，可以通过备份数据后删除 <code>userdata.db</code> 解决</p>
+<h2> 自定义网页功能是否还有规划</h2>
+<p>A: 别急</p>
+<div class="hint-container tip">
+<p class="hint-container-title">微软方面的问题，我们无法解决</p>
+<ul>
+<li>有的时候使用管理员启动并不能获取到管理员权限，需要关掉后二次启动</li>
+<li>胡桃的图标尺寸可不可以改成像其他图标—样的小尺寸呀</li>
+<li>写入的注册表文件，在更新时遇安装问题，尝试所有修复无果，在卸载重装进行修复的过程中会否因卸载残留问题对重装造成影响</li>
+</ul>
+</div>
+]]></content:encoded>
+    </item>
     <item>
       <title>首页仪表盘</title>
       <link>https://hut.ao/zh/features/dashboard.html</link>
@@ -948,85 +1027,6 @@
 </ul>
 </li>
 </ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>第一期开发组座谈会</title>
-      <link>https://hut.ao/zh/development-log/symposium1.html</link>
-      <guid>https://hut.ao/zh/development-log/symposium1.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">第一期开发组座谈会</source>
-      <description>复制自 GitHub 讨论帖 (https://github.com/DGP-Studio/Snap.Hutao/discussions/46)，总结于群讨论 为啥胡桃在电脑上要做成类似 uwp 格式的应用？ 开发 MSIX 封装的应用是桌面端的开发趋势，开发体验更佳，用户体验也能提升。 胡桃的作用是啥，和 SG 有什么区别？ 胡桃是 SG 的次世代版...</description>
-      <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 第一期开发组座谈会</h1>
-<p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/46" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
-<h2> 为啥胡桃在电脑上要做成类似 uwp 格式的应用？</h2>
-<p>开发 MSIX 封装的应用是桌面端的开发趋势，开发体验更佳，用户体验也能提升。</p>
-<h2> 胡桃的作用是啥，和 SG 有什么区别？</h2>
-<p>胡桃是 SG 的次世代版本，更新/更快/更强。</p>
-<h2> 胡桃会全面继承 SG 的功能吗？SG 的一些功能会在 hutao 里被弃用吗？</h2>
-<p>多数功能会完全继承与升级。少数功能会以整合功能的形式出现在胡桃中。</p>
-<h2> 为啥不把胡桃和 SG 集合到一起，而是要分开呢？和 sg 有什么侧重上的不同？</h2>
-<p>Snap Genshin 采用 WPF 技术开发，该技术基于 DirectX 9，而 胡桃 采用 WinUI 3 开发，该新技术基于 DirectX 12 与其他较新的显示技术，呈现的效果更好，同时也更易于开发，胡桃 与 Snap Genshin 类似，但侧重于流畅、简单的用户体验，同时也更注重程序架构的可维护性，更关注性能表现。</p>
-<h2> 除了 SG 的旧功能迁移，还会有新功能开发吗？</h2>
-<p>随着原神的发展，我们也会推出更多的功能。</p>
-<h2> SG 永远不会更新了吗？SG 是快不能用了吗？</h2>
-<p><s>没有严重的数据异常问题不会再更新。由于缺乏维护，不保证在何时由于某些不确定的原因会导致 SG 的部分功能失效（如先去的签到功能）。</s>
-Snap.Genshin 已停止更新，项目已归档</p>
-<h2> 胡桃的使用文档秋梨膏？</h2>
-<p><s>使用文档 @Masterain98 正在制作中，很快就会和大家见面。</s> 你现在看到的就是</p>
-<h2> 胡桃图标还会更新嘛？</h2>
-<p>不会，我们持有胡桃图标的版权。</p>
-<h2> 什么时候上微软商店？上微软商店是否不需要自己信任证书了？胡桃以后会在线更新嘛？</h2>
-<p>会在所有功能完善后上架。不需要证书。上架后就可以支持在线更新了。</p>
-<h2> 有考虑增加根据角色展示面板来计算伤害的功能吗？什么时候胡桃能当启动器，解锁帧率？这个无边框全屏的功能以后会不会支持？</h2>
-<p>面板功能会在用户系统重构后进行开发，并且会在完成面板查询功能后实现启动游戏相关功能。启动参数包括在内。</p>
-<h2> 胡桃数据库 和 Hutao 是否有关系？什么时候上胡桃数据库？</h2>
-<p><s>胡桃数据库是 HutaoAPI 的一部分，包含了深渊相关的数据，HutaoAPI 是胡桃使用的 RESTful API，同时面向其他应用的开发者开放，接入成本低，接入收益高。胡桃数据库将会在后续版本实装。</s> 已经实装</p>
-<h2> 会把胡桃放到右下角任务栏吗？会考虑在角色里添加立绘吗？</h2>
-<p><s>基本不会考虑</s>。后续可能会考虑。</p>
-<p>你可以通过快速启动栏来快速启动游戏，具体方法可见<a href="/advanced/FAQ#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F">此文档</a></p>
-<h2> 将来会有移动端吗？有考虑根据胡桃做个手机桌面小组件吗？胡桃以后支持插件吗？胡桃会有插件开发文档吗？</h2>
-<p>短时间内不会考虑移动端。手机桌面小组件也基本不会考虑。不会再支持插件。同样也不会有插件文档。</p>
-<h2> 离支持外服账号还有多远？会整合其他插件比如空荧酒馆这种嘛？</h2>
-<p><s>Hoyolab 的相关支持需要其他开发者的帮助。由于技术栈的不同，很难整合。</s></p>
-<p>受益于开源社区力量，目前高级启动器、祈愿记录导出和成就管理功能已支持国际服。</p>
-<h2> 有没有打算添加收费功能，还是说只靠捐助？</h2>
-<p><s>由于服务器需要资费，与服务器存储相关的功能可能会进行收费。</s> Snap.Hutao 等有关项目均为公益项目</p>
-<h2> 是用爱发电吗？开发胡桃，是业余时间开发的吗？</h2>
-<p>显然是。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>第二期开发组座谈会</title>
-      <link>https://hut.ao/zh/development-log/symposium2.html</link>
-      <guid>https://hut.ao/zh/development-log/symposium2.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">第二期开发组座谈会</source>
-      <description>复制自 GitHub 讨论帖 (https://github.com/DGP-Studio/Snap.Hutao/discussions/280)，总结于群讨论 现在成就导出的 json 格式也是 UIGF 的嘛 A: UIAF 能否适配祈愿系统数据 UEFI 旧版本的导入，和 SG 一样就可以 A: 首先它叫 UIGF 格式，其次一直是适配的，只是 ...</description>
-      <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 第二期开发组座谈会</h1>
-<p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/280" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
-<h2> 现在成就导出的 json 格式也是 UIGF 的嘛</h2>
-<p>A: UIAF</p>
-<h2> 能否适配祈愿系统数据 UEFI 旧版本的导入，和 SG 一样就可以</h2>
-<p>A: 首先它叫 UIGF 格式，其次一直是适配的，只是 SG 的导入导出规则较为宽泛，如果您从始至终仅使用且正确使用了我们的产品，是不会出现导入导出异常的问题的</p>
-<h2> 啥时候会有 sg 那种自动检查更新下载</h2>
-<p>A: 自动更新不能在 MSIX 包上实现，检查更新会在后续版本推出。</p>
-<h2> 我同一个设备上同时登陆 SG，hutao 会算作一个设备还是两个设备</h2>
-<p>A: 两个设备,理论上每次重启胡桃后均相当于切换了设备</p>
-<h2> 我感觉胡桃有些页面的加载需要很久，会影响使用体验，感觉胡桃的界面有点掉帧</h2>
-<p>A: 深渊统计页面在 1.2.6 版本前确实存在加载慢的问题，已在新版本解决，如果有其他页面的卡顿问题，通常是因为你的显卡不够强劲，或者胡桃通过你的集显进行渲染。</p>
-<h2> 属性统计经常加载不了</h2>
-<p>A: 历史遗留问题，可以通过备份数据后删除 <code>userdata.db</code> 解决</p>
-<h2> 自定义网页功能是否还有规划</h2>
-<p>A: 别急</p>
-<div class="hint-container tip">
-<p class="hint-container-title">微软方面的问题，我们无法解决</p>
-<ul>
-<li>有的时候使用管理员启动并不能获取到管理员权限，需要关掉后二次启动</li>
-<li>胡桃的图标尺寸可不可以改成像其他图标—样的小尺寸呀</li>
-<li>写入的注册表文件，在更新时遇安装问题，尝试所有修复无果，在卸载重装进行修复的过程中会否因卸载残留问题对重装造成影响</li>
-</ul>
-</div>
 ]]></content:encoded>
     </item>
     <item>
