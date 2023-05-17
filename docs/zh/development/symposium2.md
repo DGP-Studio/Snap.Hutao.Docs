@@ -1,3 +1,9 @@
+---
+headerDepth: 0
+comment: false
+index: false
+---
+
 # 第二期开发组座谈会
 
 复制自 [GitHub 讨论帖](https://github.com/DGP-Studio/Snap.Hutao/discussions/280)，总结于群讨论

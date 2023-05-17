@@ -1,3 +1,9 @@
+---
+headerDepth: 0
+comment: false
+index: false
+---
+
 # 第一期开发组座谈会
 
 复制自 [GitHub 讨论帖](https://github.com/DGP-Studio/Snap.Hutao/discussions/46)，总结于群讨论
