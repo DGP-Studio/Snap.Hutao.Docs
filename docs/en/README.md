@@ -13,7 +13,7 @@ actions:
   - text: Quick Start
     link: quick-start.html
   - text: Document
-    link: features/
+    link: menu.html
   - text: Project
     link: project.html
 
@@ -97,7 +97,6 @@ You can make contribution by the following ways:
 ## Service Used
 
 Snap Hutao is currently using software from the following service providers.
-
 
 <a href="https://www.netlify.com">
   <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" />
