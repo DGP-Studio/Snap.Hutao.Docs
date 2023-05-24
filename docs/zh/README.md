@@ -13,7 +13,7 @@ actions:
   - text: 快速开始
     link: quick-start.html
   - text: 文档
-    link: features/
+    link: menu.html
   - text: 项目介绍
     link: project.html
 
