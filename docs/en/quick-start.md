@@ -5,6 +5,7 @@ category:
   - Feature
   - Tutorial
 comment: false
+order: 5
 ---
 
 # Quick Start
@@ -60,8 +61,8 @@ On Windows 10 and Windows 11 you can click the button above to download Snap Hut
 - Visit the [latest release page](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/) of Snap Hutao
 - Download MSIX Package
 - Run the MSIX package directly to perform installation
-  - If failed install or receive error of missing dependency, you need to install 
-[dependency package](https://d.hut.ao/releases/Dependency) first
+  - If failed install or receive error of missing dependency, you need to install
+    [dependency package](https://d.hut.ao/releases/Dependency) first
 
 :::
 
@@ -99,12 +100,13 @@ If you still don't receive the update, you may enter the Snap Hutao [detail page
 
 ## Installing WebView2 Runtime
 
-WebView2 Runtime is provided by Microsoft, which enables a built-in browser at a low resource cost inside the program. 
+WebView2 Runtime is provided by Microsoft, which enables a built-in browser at a low resource cost inside the program.
 As an optional component, WebView2 is not a mandatory component, but it will make some Snap Hutao's features easier.
 
-At the bottom of the [Microsoft official page](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/), 
+At the bottom of the [Microsoft official page](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/),
 you can find`Evergreen Standalone Installer`, choose`x64`download and install as prompted
 
-[^first]: As LTSC and LTSB Windows versions do not contain Microsoft Store and some other necessary dependencies, they 
-are not supported.Windows 10 Build 19041 is allowed to install Snap Hutao, but some features have known issues caused by 
-Windows Os Kernal, those issues won't be fixed.
+[^first]:
+    As LTSC and LTSB Windows versions do not contain Microsoft Store and some other necessary dependencies, they
+    are not supported.Windows 10 Build 19041 is allowed to install Snap Hutao, but some features have known issues caused by
+    Windows Os Kernal, those issues won't be fixed.

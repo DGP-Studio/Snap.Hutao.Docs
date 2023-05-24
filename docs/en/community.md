@@ -2,6 +2,7 @@
 headerDepth: 0
 category: [Announcement]
 comment: false
+order: 8
 ---
 
 # Join Community

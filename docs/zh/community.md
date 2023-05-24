@@ -3,6 +3,7 @@ headerDepth: 0
 category: [公告]
 redirectFrom: /community.html
 comment: false
+order: 8
 ---
 
 # 加入用户社区
