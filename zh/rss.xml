@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 24 May 2023 04:48:35 GMT</pubDate>
-    <lastBuildDate>Wed, 24 May 2023 04:48:35 GMT</lastBuildDate>
+    <pubDate>Wed, 24 May 2023 07:35:54 GMT</pubDate>
+    <lastBuildDate>Wed, 24 May 2023 07:35:54 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -16,6 +16,15 @@
     <category>i18n</category>
     <category>FAQ</category>
     <category>第三方工具</category>
+    <item>
+      <title>全站目录</title>
+      <link>https://hut.ao/zh/menu.html</link>
+      <guid>https://hut.ao/zh/menu.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">全站目录</source>
+      <pubDate>Mon, 22 May 2023 05:41:54 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 全站目录</h1>
+]]></content:encoded>
+    </item>
     <item>
       <title>第一期开发组座谈会</title>
       <link>https://hut.ao/zh/development/symposium1.html</link>
@@ -914,12 +923,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/advanced/known-issue.html</link>
       <guid>https://hut.ao/zh/advanced/known-issue.html</guid>
       <source url="https://hut.ao/zh/rss.xml">已知问题</source>
-      <description>该文档包含由所有已知问题和修复计划 #1 微软商店下载应用程序 该问题来源并非胡桃工具箱，属于外部问题 该问题通常仅出现在东亚地区的网络环境下 发现于 2023/02/07; 无法从微软商店下载的原因在于微软在东亚的授权服务器 licensing.mp.microsoft.com 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。; ...</description>
+      <description>该文档包含由所有已知问题和修复计划 微软商店下载应用程序 该问题来源并非胡桃工具箱，属于外部问题 该问题通常仅出现在东亚地区的网络环境下 发现于 2023/02/07; 无法从微软商店下载的原因在于微软在东亚的授权服务器 licensing.mp.microsoft.com 掉线。当你在商店上下载一个新应用时，这实际上是一个授权/购买的过程。; 当授权...</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 已知问题</h1>
 <p>该文档包含由所有已知问题和修复计划</p>
-<h2> #1 微软商店下载应用程序</h2>
+<h2> 微软商店下载应用程序</h2>
 <blockquote>
 <p>该问题来源并非胡桃工具箱，属于外部问题
 该问题通常仅出现在东亚地区的网络环境下</p>

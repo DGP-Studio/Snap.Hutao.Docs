@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Wed, 24 May 2023 04:48:35 GMT</pubDate>
-    <lastBuildDate>Wed, 24 May 2023 04:48:35 GMT</lastBuildDate>
+    <pubDate>Wed, 24 May 2023 07:35:54 GMT</pubDate>
+    <lastBuildDate>Wed, 24 May 2023 07:35:54 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -19,6 +19,15 @@
     <category>功能</category>
     <category>教程</category>
     <category>公告</category>
+    <item>
+      <title>Site Menu</title>
+      <link>https://hut.ao/en/menu.html</link>
+      <guid>https://hut.ao/en/menu.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Site Menu</source>
+      <pubDate>Mon, 22 May 2023 05:41:54 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Site Menu</h1>
+]]></content:encoded>
+    </item>
     <item>
       <title>Home Dashboard</title>
       <link>https://hut.ao/en/features/dashboard.html</link>
