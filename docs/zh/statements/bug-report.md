@@ -25,16 +25,15 @@ redirectFrom: /statements/bug-report.html
 
 ### 客户端问题
 
-- 在提交问题前，请务必检查文档内是否已包含了你的问题
+- **在提交问题前，请务必检查文档内是否已包含了你的问题**
 
   - 首先需要确认您使用的版本是否为最新版本
   - 您可以通过菜单栏中的“常见问题”分类找到这些文档
-    - [快速解答](../advanced/FAQ.md)
+    - [常见问题](../advanced/FAQ.md)
+    - [当前版本已知问题](../advanced/known-issue.md)
 
 - 通过 GitHub 提交问题 <Badge text="推荐" type="tip" />
   - [github.com/DGP-Studio/Snap.Hutao/issues/new/choose](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)
-- 通过 兔小巢 提交问题
-  - [support.qq.com/products/451231](https://support.qq.com/products/451231)
 
 ### 请求增加或更新文档
 
