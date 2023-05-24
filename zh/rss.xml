@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 24 May 2023 03:31:20 GMT</pubDate>
-    <lastBuildDate>Wed, 24 May 2023 03:31:20 GMT</lastBuildDate>
+    <pubDate>Wed, 24 May 2023 03:38:49 GMT</pubDate>
+    <lastBuildDate>Wed, 24 May 2023 03:38:49 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -2097,12 +2097,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h3> 客户端问题</h3>
 <ul>
 <li>
-<p>在提交问题前，请务必检查文档内是否已包含了你的问题</p>
+<p><strong>在提交问题前，请务必检查文档内是否已包含了你的问题</strong></p>
 <ul>
 <li>首先需要确认您使用的版本是否为最新版本</li>
 <li>您可以通过菜单栏中的“常见问题”分类找到这些文档
 <ul>
-<li><a href="/zh/advanced/FAQ.html" target="blank">快速解答</a></li>
+<li><a href="/zh/advanced/FAQ.html" target="blank">常见问题</a></li>
+<li><a href="/zh/advanced/known-issue.html" target="blank">当前版本已知问题</a></li>
 </ul>
 </li>
 </ul>
@@ -2111,12 +2112,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>通过 GitHub 提交问题 </p>
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose" target="_blank" rel="noopener noreferrer">github.com/DGP-Studio/Snap.Hutao/issues/new/choose</a></li>
-</ul>
-</li>
-<li>
-<p>通过 兔小巢 提交问题</p>
-<ul>
-<li><a href="https://support.qq.com/products/451231" target="_blank" rel="noopener noreferrer">support.qq.com/products/451231</a></li>
 </ul>
 </li>
 </ul>
