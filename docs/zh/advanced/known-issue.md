@@ -59,3 +59,5 @@ redirectFrom: /advanced/known-issue.html
 
 在当前版本中，由于原神的更新导致游戏解锁帧率功能失效。
 该问题会在下一版本修复。
+
+关注 [Issue #733](https://github.com/DGP-Studio/Snap.Hutao/issues/733) 以追踪问题
