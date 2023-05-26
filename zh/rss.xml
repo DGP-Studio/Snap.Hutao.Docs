@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 24 May 2023 07:35:54 GMT</pubDate>
-    <lastBuildDate>Wed, 24 May 2023 07:35:54 GMT</lastBuildDate>
+    <pubDate>Fri, 26 May 2023 00:49:41 GMT</pubDate>
+    <lastBuildDate>Fri, 26 May 2023 00:49:41 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -991,6 +991,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2> 游戏解锁帧率功能失效</h2>
 <p>在当前版本中，由于原神的更新导致游戏解锁帧率功能失效。
 该问题会在下一版本修复。</p>
+<p>关注 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/733" target="_blank" rel="noopener noreferrer">Issue #733</a> 以追踪问题</p>
 ]]></content:encoded>
     </item>
     <item>
