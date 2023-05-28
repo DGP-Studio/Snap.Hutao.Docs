@@ -7,7 +7,19 @@ order: 1
 
 # Update Logs
 
-## 1.6.3 <Badge text="latest" type="tip" />
+## 1.6.4 <Badge text="latest" type="tip" />
+
+- New
+  - Export wish history data with [UIGF v2.3](https://uigf.org/zh/standards/UIGF.html) data format
+- Fix
+  - FPS unlocker [Issue #733](https://github.com/DGP-Studio/Snap.Hutao/issues/733)
+- Optimize
+  - When running program without administrator privilege, features require administrator privilege will have text hints
+  - Support of HoYoLAB
+  - Localization updates
+
+## 1.6.3
+
 - New
   - Home dashboard, including Hutao Cloud account, game launcher, wish history, achievement stat and real-time notes
   - Enable notification box will now automatically hide in-app notification
