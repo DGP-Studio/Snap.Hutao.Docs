@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 29 May 2023 08:52:13 GMT</pubDate>
-    <lastBuildDate>Mon, 29 May 2023 08:52:13 GMT</lastBuildDate>
+    <pubDate>Mon, 29 May 2023 09:47:55 GMT</pubDate>
+    <lastBuildDate>Mon, 29 May 2023 09:47:55 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -988,10 +988,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2> 游戏快速启动窗口失效</h2>
 <p>在当前版本中，一个已知问题会导致任务栏<code>JumpList</code>快速启动游戏功能失效，窗口无法打开。
 该问题会在下一版本修复。</p>
-<h2> 游戏解锁帧率功能失效</h2>
-<p>在当前版本中，由于原神的更新导致游戏解锁帧率功能失效。
-该问题会在下一版本修复。</p>
-<p>关注 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/733" target="_blank" rel="noopener noreferrer">Issue #733</a> 以追踪问题</p>
+<h2> 实时便笺功能频繁地抛出 1034 验证错误</h2>
+<p>该问题由米游社风控机制更改产生，并导致实时便笺数据更新失败，用户在根据本文档说明手动验证后可短暂地通过人机验证。</p>
+<p>该问题会在后续版本中修复。</p>
 ]]></content:encoded>
     </item>
     <item>

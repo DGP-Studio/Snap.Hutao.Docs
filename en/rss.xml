@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Mon, 29 May 2023 08:52:13 GMT</pubDate>
-    <lastBuildDate>Mon, 29 May 2023 08:52:13 GMT</lastBuildDate>
+    <pubDate>Mon, 29 May 2023 09:47:55 GMT</pubDate>
+    <lastBuildDate>Mon, 29 May 2023 09:47:55 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -213,6 +213,10 @@ This issue is planned to be fixed in the next version, you may also track this i
 <h2> Game Quick Launch Failure</h2>
 <p>In the current version, a known issue will cause <code>JumpList</code> game quick start launcher fail to
 open the window. This issue will be fixed in the next patch.</p>
+<h2> Frequent 1034 Verification Error from Real-time Notes</h2>
+<p>This issue is caused by change of anti-bot program in Miyoushe, and will cause Real-time Notes data refresh failure.
+User can fix this issue temporarily by manual verification.</p>
+<p>This issue will be fixed in the future.</p>
 ]]></content:encoded>
     </item>
     <item>
