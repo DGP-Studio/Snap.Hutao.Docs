@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 May 2023 00:49:41 GMT</pubDate>
-    <lastBuildDate>Fri, 26 May 2023 00:49:41 GMT</lastBuildDate>
+    <pubDate>Mon, 29 May 2023 08:52:13 GMT</pubDate>
+    <lastBuildDate>Mon, 29 May 2023 08:52:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -573,11 +573,31 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.6.3 New; Home dashboard, including Hutao Cloud account, game launcher, wish history, achievement stat and real-time notes; Enable notification box will now automatically hide ...</description>
+      <description>1.6.4 New; Export wish history data with UIGF v2.3 (https://uigf.org/zh/standards/UIGF.html) data format; Fix; FPS unlocker Issue #733 (https://github.com/DGP-Studio/Snap.Hutao/...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.6.3 </h2>
+<h2> 1.6.4 </h2>
+<ul>
+<li>New
+<ul>
+<li>Export wish history data with <a href="https://uigf.org/zh/standards/UIGF.html" target="_blank" rel="noopener noreferrer">UIGF v2.3</a> data format</li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>FPS unlocker <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/733" target="_blank" rel="noopener noreferrer">Issue #733</a></li>
+</ul>
+</li>
+<li>Optimize
+<ul>
+<li>When running program without administrator privilege, features require administrator privilege will have text hints</li>
+<li>Support of HoYoLAB</li>
+<li>Localization updates</li>
+</ul>
+</li>
+</ul>
+<h2> 1.6.3</h2>
 <ul>
 <li>New
 <ul>
