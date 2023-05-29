@@ -7,7 +7,19 @@ redirectFrom: /statements/update-log.html
 
 # 更新日志
 
-## 1.6.3 <Badge text="最新版" type="tip" />
+## 1.6.4 <Badge text="最新版" type="tip" />
+
+- 新增
+  - 以 [UIGF v2.3](https://uigf.org/zh/standards/UIGF.html) 数据格式导出祈愿记录
+- 修复
+  - 解锁帧数上限失效的问题 [Issue #733](https://github.com/DGP-Studio/Snap.Hutao/issues/733)
+- 优化
+  - 在非管理员模式下运行程序时，对管理员模式有要求的功能会有文字提示
+  - HoYoLAB 的支持
+  - 国际化支持
+
+## 1.6.3
+
 - 新增
   - 首页仪表盘，包含胡桃云帐号、游戏启动器、祈愿记录、成就统计和实时便笺
   - 启用新的信息栏功能将自动隐藏应用内通知
@@ -18,13 +30,13 @@ redirectFrom: /statements/update-log.html
   - HoYoLab 签到问题
   - 获取抽卡记录过程中值为空时会产生的问题
 - 优化
-  - **项目重构，软件性能提高20%**
+  - **项目重构，软件性能提高 20%**
   - 增加支持 WIKI 功能中的本地化翻译
   - 增加支持国际服支付渠道切换
     - 包括 HoYoverse 默认，Epic 和 Google Pay
   - 开启帧率解锁后，可以在游戏启动时修改帧率上限并立即生效
 
-## 1.6.2 
+## 1.6.2
 
 - 全新功能
   - 基于胡桃帐号系统的**祈愿记录云同步**
