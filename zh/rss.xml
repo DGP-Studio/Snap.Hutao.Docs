@@ -6,16 +6,58 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 29 May 2023 09:47:55 GMT</pubDate>
-    <lastBuildDate>Mon, 29 May 2023 09:47:55 GMT</lastBuildDate>
+    <pubDate>Fri, 02 Jun 2023 03:36:49 GMT</pubDate>
+    <lastBuildDate>Fri, 02 Jun 2023 03:36:49 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>开源</category>
+    <category>开发</category>
     <category>功能</category>
     <category>教程</category>
     <category>公告</category>
     <category>i18n</category>
     <category>FAQ</category>
     <category>第三方工具</category>
+    <item>
+      <title>开发</title>
+      <link>https://hut.ao/zh/development/</link>
+      <guid>https://hut.ao/zh/development/</guid>
+      <source url="https://hut.ao/zh/rss.xml">开发</source>
+      <pubDate>Fri, 02 Jun 2023 03:35:43 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 开发</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>胡桃开放平台</title>
+      <link>https://hut.ao/zh/development/platform.html</link>
+      <guid>https://hut.ao/zh/development/platform.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">胡桃开放平台</source>
+      <description>Snap Hutao 项目自 2022 年 4 月 18 日在 GitHub 上创立项目以来获得了开源社区和用户的广泛支持。随着项目的发展，我们创建了一系列的支持服务作为 Snap Hutao 的中间组件。 现在，开发组将其中一些实用的服务以开放接口的形式公开给开源社区，供与我们有共同愿景的开发者使用。我们将为这些接口编写使用文档，维护这些服务并提供 ...</description>
+      <category>开源</category>
+      <category>开发</category>
+      <pubDate>Fri, 02 Jun 2023 03:35:43 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 胡桃开放平台</h1>
+<p>Snap Hutao 项目自 2022 年 4 月 18 日在 GitHub 上创立项目以来获得了开源社区和用户的广泛支持。随着项目的发展，我们创建了一系列的支持服务作为
+Snap Hutao 的中间组件。</p>
+<p>现在，开发组将其中一些实用的服务以开放接口的形式公开给开源社区，供与我们有共同愿景的开发者使用。我们将为这些接口编写使用文档，维护这些服务并提供
+常见问题的解答。无论你是一个有经验的开发者还是初学者，我们都希望这些接口能为你创造应用提供帮助。</p>
+<h2> 胡桃 API &amp; 胡桃云开发者许可证</h2>
+<p>胡桃 API 是一个将胡桃深渊数据库公开的接口服务。开源软件作者可以通过胡桃 API 从胡桃数据库获取数据获上传数据。</p>
+<p>获得胡桃 API 权限的开发者同时也获得胡桃工具箱内胡桃云功能的完整权限作为福利。</p>
+<p>开发者可以通过 <a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">胡桃 API 开放平台</a>，提交信息申请权限。</p>
+<h2> Enka API 中国加速服务</h2>
+<p><a href="https://enka.network/" target="_blank" rel="noopener noreferrer">Enka Network</a> 是一个优秀的原神工具，它可以为用户获取当前角色展柜内角色的详细数据。
+由于 Enka Network 使用了中国网络访问受阻的网络服务，其功能在中国地区难以获得稳定性保证。</p>
+<p>胡桃工具箱在开发<a href="/zh/features/character-data.html" target="blank">我的角色</a>功能时使用了 Enka Network 的数据，
+并搭建了中转服务器以保证胡桃工具箱中国用户的使用体验。</p>
+<p>如果你是原神开源工具的开发者并且有该功能的需要可以填写<a href="https://docs.google.com/forms/d/e/1FAIpQLSefnrYz41NZ2hSG0xC6OoBsIiM_mDdVLS7lsUg9thHmA1h8qw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">该表格</a>以申请使用我们维护的中转服务。</p>
+<h2> UIGF 可交换数据记录</h2>
+<p>胡桃工具箱希望用户的数据能在具有不同特色的开源工具自由流动，并因此设定了最初版本的<a href="https://uigf.org/zh/standards/UIGF.html" target="_blank" rel="noopener noreferrer">统一可交换抽卡记录标准</a>。
+现在这一标准获得了更多开发者的相应，更多的标准被推行。</p>
+<p>众多的开发者现在聚集于 <a href="https://github.com/UIGF-org" target="_blank" rel="noopener noreferrer">UIGF-Org</a>，我们希望通过维护这一组织让更多的开发者通过接触更多的用户，
+获得更多的反馈并获得技术上的进步，创造更多优秀的原神开源工具。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>全站目录</title>
       <link>https://hut.ao/zh/menu.html</link>
