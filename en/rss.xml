@@ -6,10 +6,12 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Fri, 02 Jun 2023 03:36:49 GMT</pubDate>
-    <lastBuildDate>Fri, 02 Jun 2023 03:36:49 GMT</lastBuildDate>
+    <pubDate>Sat, 03 Jun 2023 00:07:34 GMT</pubDate>
+    <lastBuildDate>Sat, 03 Jun 2023 00:07:34 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>open source</category>
+    <category>development</category>
     <category>Feature</category>
     <category>Tutorial</category>
     <category>FAQ</category>
@@ -19,6 +21,58 @@
     <category>功能</category>
     <category>教程</category>
     <category>公告</category>
+    <item>
+      <title>Development</title>
+      <link>https://hut.ao/en/development/</link>
+      <guid>https://hut.ao/en/development/</guid>
+      <source url="https://hut.ao/en/rss.xml">Development</source>
+      <pubDate>Sat, 03 Jun 2023 00:06:23 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Development</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hutao Open Platform</title>
+      <link>https://hut.ao/en/development/platform.html</link>
+      <guid>https://hut.ao/en/development/platform.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Hutao Open Platform</source>
+      <description>The Snap Hutao project has received wide supports from the open-source community and users since its inception on GitHub on April 18, 2022. As the project has evolved, we have c...</description>
+      <category>open source</category>
+      <category>development</category>
+      <pubDate>Sat, 03 Jun 2023 00:06:23 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Hutao Open Platform</h1>
+<p>The Snap Hutao project has received wide supports from the open-source community and users since its
+inception on GitHub on April 18, 2022. As the project has evolved, we have created a series of supporting services
+as middleware for Snap Hutao.</p>
+<p>Now, the development team is making some of these practical services available to the open-source community in the
+form of open interfaces, for use by developers who share our vision. We will be writing usage documentation for these
+interfaces, maintaining the services, and providing answers to frequently asked questions. Whether you are an
+experienced developer or a beginner, we hope that these interfaces will assist you in creating applications.</p>
+<h2> Hutao API &amp; Hutao Cloud Open-source Developer's License</h2>
+<p>Hutao API is an interface service that exposes the Hutao Abyssal Database.
+Open-source software authors can use the Hutao API to retrieve data from the Hutao database or upload data.</p>
+<p>Developers who gain access to the Hutao API also receive full privileges to the Hutao Cloud feature
+within the Snap Hutao as a benefit.</p>
+<p>Developers can apply for access by submitting their information through the Hutao API Open Platform at
+<a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">https://homa.snapgenshin.com/</a></p>
+<h2> Enka API with China Acceleration</h2>
+<p><a href="https://enka.network/" target="_blank" rel="noopener noreferrer">Enka Network</a> is an excellent Genshin Impact tool that provides detailed data on characters in
+the user's current character showcase. However, due to restricted access to certain network services in China,
+the stability of Enka Network's functionality in the region is compromised.</p>
+<p>To ensure a smooth user experience for Snap Hutao users in China, the development team has utilized Enka Network's data
+for the development of the <a href="/en/features/character-data.html" target="blank">My Characters</a> feature and established a proxy server.</p>
+<p>If you are a developer of open-source Genshin Impact tools and require this functionality, you can fill out the
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSefnrYz41NZ2hSG0xC6OoBsIiM_mDdVLS7lsUg9thHmA1h8qw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">form</a>
+to apply for the usage of our maintained proxy service.</p>
+<h2> UIGF Interchangeable Game Data Format</h2>
+<p>Snap Hutao aims to enable the free flow of user data among various open-source tools with different features.
+To facilitate this, Snap Hutao has established the initial version of the <a href="https://uigf.org/en/standards/UIGF.html" target="_blank" rel="noopener noreferrer">Uniformed Interchangeable GachaLog Format
+Standard (UIGF)</a>.</p>
+<p>Since then, this standard has gained more recognition among developers, leading to the promotion of additional
+standards. Many developers have now gathered under the <a href="https://github.com/UIGF-org" target="_blank" rel="noopener noreferrer">UIGF organization</a>. Our goal is to
+maintain this organization, allowing developers to connect with more users, receive feedback, make technical advancements,
+and create outstanding open-source Genshin Impact tools.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Site Menu</title>
       <link>https://hut.ao/en/menu.html</link>
