@@ -60,3 +60,10 @@ redirectFrom: /advanced/known-issue.html
 该问题由米游社风控机制更改产生，并导致实时便笺数据更新失败，用户在根据本文档说明手动验证后可短暂地通过人机验证。
 
 该问题会在后续版本中修复。
+
+## 解锁帧率失败
+
+在某些情况下，以解锁帧率要求启动游戏时会收到一个 `ArgumentException` 错误，并提示`读取游戏内存失败`。
+
+该问题开发者无法复现。如果你有类似的问题，请在 [GitHub Issue #747](https://github.com/DGP-Studio/Snap.Hutao/issues/747) 中创建
+回复，并包含以下信息：`系统版本，Snap Hutao 版本，设备ID`
