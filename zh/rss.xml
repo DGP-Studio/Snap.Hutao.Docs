@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 09 Jun 2023 13:07:14 GMT</pubDate>
-    <lastBuildDate>Fri, 09 Jun 2023 13:07:14 GMT</lastBuildDate>
+    <pubDate>Sat, 10 Jun 2023 21:04:12 GMT</pubDate>
+    <lastBuildDate>Sat, 10 Jun 2023 21:04:12 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -1035,8 +1035,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>该问题会在后续版本中修复。</p>
 <h2> 解锁帧率失败</h2>
 <p>在某些情况下，以解锁帧率要求启动游戏时会收到一个 <code>ArgumentException</code> 错误，并提示<code>读取游戏内存失败</code>。</p>
-<p>该问题开发者无法复现。如果你有类似的问题，加入<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=IVey-FAg0WEBUF2epqQowb7p4NRJFkQC&amp;authKey=1DGPml%2BrSVHRJvcA08c0Ag9OZ2aa9GnKvi8Nve8bsqUWDk%2BxPyWjBa6m%2B2f4hlRD&amp;noverify=0&amp;group_code=812818449" target="_blank" rel="noopener noreferrer">QQ 群 812818449</a>
-并根据群公告，使用开发者提供的测试工具来帮助排查问题。</p>
+<p>该问题将在 1.6.5 版本中修复</p>
 ]]></content:encoded>
     </item>
     <item>
