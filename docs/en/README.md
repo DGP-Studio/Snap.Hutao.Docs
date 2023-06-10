@@ -104,3 +104,6 @@ Snap Hutao is currently using software from the following service providers.
 <a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow">
   <img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" />
 </a>
+<a href="https://gitlab.cn/">
+  <img src="https://gitlab.cn/images/icons/logos/logo-121-75.svg" alt="GitLab CN" height="8%" />
+</a>
