@@ -65,5 +65,4 @@ redirectFrom: /advanced/known-issue.html
 
 在某些情况下，以解锁帧率要求启动游戏时会收到一个 `ArgumentException` 错误，并提示`读取游戏内存失败`。
 
-该问题开发者无法复现。如果你有类似的问题，加入[QQ 群 812818449](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IVey-FAg0WEBUF2epqQowb7p4NRJFkQC&authKey=1DGPml%2BrSVHRJvcA08c0Ag9OZ2aa9GnKvi8Nve8bsqUWDk%2BxPyWjBa6m%2B2f4hlRD&noverify=0&group_code=812818449)
-并根据群公告，使用开发者提供的测试工具来帮助排查问题。
+该问题将在 1.6.5 版本中修复
