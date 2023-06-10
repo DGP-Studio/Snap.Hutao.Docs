@@ -7,7 +7,21 @@ order: 1
 
 # Update Logs
 
-## 1.6.4 <Badge text="latest" type="tip" />
+## 1.6.5 <Badge text="latest" type="tip" />
+
+- New
+  - Japanese is now a new language option;
+    community members can contribute Japanese language on [translate.hut.ao](https://translate.hut.ao/)
+- Fix
+  - Issue that cannot add weapons to dev plan [Issue #745](https://github.com/DGP-Studio/Snap.Hutao/issues/747)
+  - Issue on some users failed to unlock frame rate limit under certain environment
+    [Issue #747](https://github.com/DGP-Studio/Snap.Hutao/issues/747)
+- Optimize
+  - Refine dashboard UI
+  - Introducing Metadata v2
+  - Sorting order of materials in dev plan [Issue #749](https://github.com/DGP-Studio/Snap.Hutao/issues/749)
+
+## 1.6.4
 
 - New
   - Export wish history data with [UIGF v2.3](https://uigf.org/zh/standards/UIGF.html) data format

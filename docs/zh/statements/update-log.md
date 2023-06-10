@@ -7,7 +7,19 @@ redirectFrom: /statements/update-log.html
 
 # 更新日志
 
-## 1.6.4 <Badge text="最新版" type="tip" />
+## 1.6.5 <Badge text="最新版" type="tip" />
+
+- 新增
+  - 日语选项；社区用户可以现在可以在 [translate.hut.ao](https://translate.hut.ao/) 中贡献日语翻译
+- 修复
+  - 修复无法添加武器养成计划的问题 [Issue #745](https://github.com/DGP-Studio/Snap.Hutao/issues/747)
+  - 部分用户在特定情况下解锁帧数上限失效的问题 [Issue #747](https://github.com/DGP-Studio/Snap.Hutao/issues/747)
+- 优化
+  - 完善仪表盘
+  - 使用 Metadata v2
+  - 优化养成计划中材料统计的排序 [Issue #749](https://github.com/DGP-Studio/Snap.Hutao/issues/749)
+
+## 1.6.4
 
 - 新增
   - 以 [UIGF v2.3](https://uigf.org/zh/standards/UIGF.html) 数据格式导出祈愿记录
