@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 10 Jun 2023 21:04:12 GMT</pubDate>
-    <lastBuildDate>Sat, 10 Jun 2023 21:04:12 GMT</lastBuildDate>
+    <pubDate>Mon, 12 Jun 2023 10:57:06 GMT</pubDate>
+    <lastBuildDate>Mon, 12 Jun 2023 10:57:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -327,7 +327,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 英语</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 繁体中文</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 韩语</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 日语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 日语 （进行中）</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 俄语</label></li>
 </ul>
 </li>
@@ -1035,7 +1035,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>该问题会在后续版本中修复。</p>
 <h2> 解锁帧率失败</h2>
 <p>在某些情况下，以解锁帧率要求启动游戏时会收到一个 <code>ArgumentException</code> 错误，并提示<code>读取游戏内存失败</code>。</p>
-<p>该问题将在 1.6.5 版本中修复</p>
+<p>该问题已在 1.6.5 版本中修复</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2365,11 +2365,32 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.6.4 新增; 以 UIGF v2.3 (https://uigf.org/zh/standards/UIGF.html) 数据格式导出祈愿记录; 修复; 解锁帧数上限失效的问题 Issue #733 (https://github.com/DGP-Studio/Snap.Hutao/issues/733); 优化; 在非管理员模式下运行程序时，对...</description>
+      <description>1.6.5 新增; 日语选项；社区用户可以现在可以在 translate.hut.ao (https://translate.hut.ao/) 中贡献日语翻译; 修复; 修复无法添加武器养成计划的问题 Issue #745 (https://github.com/DGP-Studio/Snap.Hutao/issues/747); 部分用户在特定情况下...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.6.4 </h2>
+<h2> 1.6.5 </h2>
+<ul>
+<li>新增
+<ul>
+<li>日语选项；社区用户可以现在可以在 <a href="https://translate.hut.ao/" target="_blank" rel="noopener noreferrer">translate.hut.ao</a> 中贡献日语翻译</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复无法添加武器养成计划的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/747" target="_blank" rel="noopener noreferrer">Issue #745</a></li>
+<li>部分用户在特定情况下解锁帧数上限失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/747" target="_blank" rel="noopener noreferrer">Issue #747</a></li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>完善仪表盘</li>
+<li>使用 Metadata v2</li>
+<li>优化养成计划中材料统计的排序 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/749" target="_blank" rel="noopener noreferrer">Issue #749</a></li>
+</ul>
+</li>
+</ul>
+<h2> 1.6.4</h2>
 <ul>
 <li>新增
 <ul>

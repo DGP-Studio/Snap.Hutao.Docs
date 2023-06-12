@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Sat, 10 Jun 2023 21:04:12 GMT</pubDate>
-    <lastBuildDate>Sat, 10 Jun 2023 21:04:12 GMT</lastBuildDate>
+    <pubDate>Mon, 12 Jun 2023 10:57:06 GMT</pubDate>
+    <lastBuildDate>Mon, 12 Jun 2023 10:57:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -631,11 +631,34 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.6.4 New; Export wish history data with UIGF v2.3 (https://uigf.org/zh/standards/UIGF.html) data format; Fix; FPS unlocker Issue #733 (https://github.com/DGP-Studio/Snap.Hutao/...</description>
+      <description>1.6.5 New; Japanese is now a new language option;; community members can contribute Japanese language on translate.hut.ao (https://translate.hut.ao/) Fix; Issue that cannot add ...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.6.4 </h2>
+<h2> 1.6.5 </h2>
+<ul>
+<li>New
+<ul>
+<li>Japanese is now a new language option;
+community members can contribute Japanese language on <a href="https://translate.hut.ao/" target="_blank" rel="noopener noreferrer">translate.hut.ao</a></li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Issue that cannot add weapons to dev plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/747" target="_blank" rel="noopener noreferrer">Issue #745</a></li>
+<li>Issue on some users failed to unlock frame rate limit under certain environment
+<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/747" target="_blank" rel="noopener noreferrer">Issue #747</a></li>
+</ul>
+</li>
+<li>Optimize
+<ul>
+<li>Refine dashboard UI</li>
+<li>Introducing Metadata v2</li>
+<li>Sorting order of materials in dev plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/749" target="_blank" rel="noopener noreferrer">Issue #749</a></li>
+</ul>
+</li>
+</ul>
+<h2> 1.6.4</h2>
 <ul>
 <li>New
 <ul>
@@ -939,7 +962,7 @@ running as Administrator
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> English</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> Traditional Chinese</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> Korean</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> Japanese</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> Japanese (in progress)</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> Russian</label></li>
 </ul>
 </li>
