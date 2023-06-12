@@ -103,3 +103,6 @@ Snap Hutao 目前使用了以下软件厂商提供的服务
 <a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow">
   <img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" />
 </a>
+<a href="https://gitlab.cn/">
+  <img src="https://gitlab.cn/images/icons/logos/logo-121-75.svg" alt="极狐LAB" height="8%" />
+</a>
