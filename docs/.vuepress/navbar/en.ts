@@ -13,4 +13,9 @@ export const enNavbar = navbar([
     icon: "community",
     link: "/en/community",
   },
+  {
+    text: "Service Availability",
+    icon: "define",
+    link: "https://status.hut.ao/"
+  }
 ]);
