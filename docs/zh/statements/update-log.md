@@ -7,7 +7,16 @@ redirectFrom: /statements/update-log.html
 
 # 更新日志
 
-## 1.6.5 <Badge text="最新版" type="tip" />
+## 1.6.6 <Badge text="最新版" type="tip" />
+
+- 新增
+  - 祈愿记录页面胡桃云服务新增服务到期时间与开发者提示
+  - 祈愿记录页面新增统计页签，可以查看来自胡桃云的祈愿数据统计
+- 修复
+  - 修复了祈愿记录页面缓存刷新失效的问题
+  - 修复了中文繁体无法正确加载元数据的问题
+
+## 1.6.5
 
 - 新增
   - 日语选项；社区用户可以现在可以在 [translate.hut.ao](https://translate.hut.ao/) 中贡献日语翻译
