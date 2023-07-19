@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 27 Jun 2023 00:53:47 GMT</pubDate>
-    <lastBuildDate>Tue, 27 Jun 2023 00:53:47 GMT</lastBuildDate>
+    <pubDate>Wed, 19 Jul 2023 05:30:46 GMT</pubDate>
+    <lastBuildDate>Wed, 19 Jul 2023 05:30:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -621,11 +621,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </div>
 <p>基本原理：使用下方的 PowerShell 脚本可以以管理员方式运行胡桃</p>
 <div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>保存胡桃工具箱的 Logo 资源
-<ul>
-<li>你可以点击<a href="https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico" target="_blank" rel="noopener noreferrer">这里</a>下载</li>
-</ul>
-</li>
 <li>在桌面点击右键，选择<code>新建</code> -&gt; <code>快捷方式</code></li>
 <li>在<code>请键入对象的位置</code>中直接输入:</li>
 </ul>
@@ -635,7 +630,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>右键该快捷方式，点击属性
 <ul>
 <li>将<code>运行方式</code>修改为<code>最小化</code></li>
-<li>点击更改图标，选择<code>浏览</code>，并选中刚刚下载的图标</li>
+<li>点击更改图标，选择<code>浏览</code>，并填写：<code>%ProgramFiles%\WindowsApps\60568DGPStudio.SnapHutao_1.6.6.0_x64__ebfp3nyc27j86\Snap.Hutao.exe</code>，回车确认保存</li>
 </ul>
 </li>
 <li>这样你就获得了胡桃工具箱的桌面快捷方式，并且运行它将直接以管理员模式运行

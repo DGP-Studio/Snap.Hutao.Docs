@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Tue, 27 Jun 2023 00:53:47 GMT</pubDate>
-    <lastBuildDate>Tue, 27 Jun 2023 00:53:47 GMT</lastBuildDate>
+    <pubDate>Wed, 19 Jul 2023 05:30:46 GMT</pubDate>
+    <lastBuildDate>Wed, 19 Jul 2023 05:30:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -507,12 +507,6 @@ otherwise you need to use <a href="https://www.telerik.com/fiddler/add-ons" targ
 </div>
 <p>Fundamental principle: Use the following PowerShell scrip can run Snap Hutao with Administrator privilege</p>
 <div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>Save Snap Hutao logo to your device
-<ul>
-<li>You can find it <a href="https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico" target="_blank" rel="noopener noreferrer">here</a></li>
-<li>It is expected to see a blank image in the browser</li>
-</ul>
-</li>
 <li>In your desktop, select <code>New</code> -&gt; <code>Shortcut</code></li>
 <li>In the field of <code>Type the location of the item</code>, input:</li>
 </ul>
@@ -522,7 +516,7 @@ otherwise you need to use <a href="https://www.telerik.com/fiddler/add-ons" targ
 <li>Right-click on this shortcut, select <code>Properties</code>
 <ul>
 <li>Change value of <code>Run</code> to <code>Minimized</code></li>
-<li>Select <code>Change Icon</code>, and select the icon you just downloaded</li>
+<li>Select <code>Change Icon</code>, fill the blank with <code>%ProgramFiles%\WindowsApps\60568DGPStudio.SnapHutao_1.6.6.0_x64__ebfp 3nyc27j86\Snap.Hutao.exe</code> and save the configuration</li>
 </ul>
 </li>
 <li>Now, you get a shortcut of Snap Hutao with Administrator privilege
@@ -570,7 +564,7 @@ otherwise you need to use <a href="https://www.telerik.com/fiddler/add-ons" targ
 other device, cookie will become invalid, and Snap Hutao will also be forced to log out, account will be automatically
 removed.</p>
 <p>This problem may also be caused by network error, you should check this first; If it's not caused by network issue,
-you can use <code>Refresh Cookie</code> in the account panel;  You can also remove your account manually and add it back again.</p>
+you can use <code>Refresh Cookie</code> in the account panel; You can also remove your account manually and add it back again.</p>
 <p>Since October 2022, MiYouShe (Chinese BBS) rapidly increased bot detection and may set users' account as under-risk status,
 this may cause Snap Hutao failed to check validation of the cookie</p>
 <h2> Game Account Lose Login Status in the Launcher</h2>
