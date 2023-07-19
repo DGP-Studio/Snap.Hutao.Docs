@@ -32,8 +32,6 @@ comment: false
 Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb runas
 ```
 
-- 保存胡桃工具箱的 Logo 资源
-  - 你可以点击[这里](https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico)下载
 - 在桌面点击右键，选择`新建` -> `快捷方式`
 - 在`请键入对象的位置`中直接输入:
 
@@ -45,7 +43,7 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 - 确认创建，此时你会在桌面得到一个有 PowerShell 图标的快捷方式
 - 右键该快捷方式，点击属性
   - 将`运行方式`修改为`最小化`
-  - 点击更改图标，选择`浏览`，并选中刚刚下载的图标
+  - 点击更改图标，选择`浏览`，并填写：`%ProgramFiles%\WindowsApps\60568DGPStudio.SnapHutao_1.6.6.0_x64__ebfp3nyc27j86\Snap.Hutao.exe`，回车确认保存
 - 这样你就获得了胡桃工具箱的桌面快捷方式，并且运行它将直接以管理员模式运行
   - 你也可以将固定到任务栏或磁贴区
 
