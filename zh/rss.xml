@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 19 Jul 2023 05:30:46 GMT</pubDate>
-    <lastBuildDate>Wed, 19 Jul 2023 05:30:46 GMT</lastBuildDate>
+    <pubDate>Sun, 23 Jul 2023 11:58:51 GMT</pubDate>
+    <lastBuildDate>Sun, 23 Jul 2023 11:58:51 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -266,7 +266,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/community.html</link>
       <guid>https://hut.ao/zh/community.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入用户社区</source>
-      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 GitHub 讨论 Snap.Hutao Discussion (https://github.com/DGP-Studio/Snap.Hutao/discussions) QQ 群 Snap 一群 (https://go.hut.ao/qun1); ...</description>
+      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 GitHub 讨论 Snap.Hutao Discussion (https://github.com/DGP-Studio/Snap.Hutao/discussions) QQ 群 若入群问题为最新版本号则请输入三位版本号（如 1.2.3）而不是四位...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入用户社区</h1>
@@ -287,6 +287,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2> GitHub 讨论</h2>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
 <h2> QQ 群</h2>
+<blockquote>
+<p>若入群问题为最新版本号则请输入三位版本号（如 <code>1.2.3</code>）而不是四位版本号（如 <code>1.2.3.0</code>）</p>
+</blockquote>
 <ul>
 <li><a href="https://go.hut.ao/qun1" target="_blank" rel="noopener noreferrer">Snap 一群</a></li>
 <li><a href="https://go.hut.ao/qun5" target="_blank" rel="noopener noreferrer">Snap 五群</a></li>
@@ -732,6 +735,41 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
+<h2> 转换服务器失败后如何恢复游戏程序</h2>
+<div class="hint-container info">
+<p class="hint-container-title">功能原理说明</p>
+<p>胡桃客户端始终只从原神官方服务器下载转换服务器需要的文件，这保证了用户不会下载到被第三方篡改的危险程序。
+如果你在转换到某一种目标服务器时频繁因网络问题而转换失败，则意味你的网络到目标的原神官方服务器连接质量差。
+你应检查你的互联网连接、联系你的运营商或向专业人士咨询以保证你的正常使用体验。</p>
+</div>
+<p>在转换原神服务器时，如果胡桃客户端意外退出或由于用户侧网络问题会导致转换流程中断并进而导致原神客户端损坏。
+此时胡桃工具箱会提示 <code>游戏路径不正确，前往设置更改游戏路径</code>，而游戏路径下此时可能不存在任何游戏主程序文件，导致用户无法正确设置。</p>
+<p>在这种情况下，用户可以执行下面的步骤<strong>手动将胡桃客户端备份的游戏主程序恢复至原本的游戏目录中</strong>或<strong>直接使用官方启动器修复游戏</strong>。</p>
+<p>在开始手动恢复游戏程序之前，你需要知道以下基本知识：</p>
+<ol>
+<li>关于游戏客户端
+<ol>
+<li>国服原神客户端目录下有名为 <code>YuanShen.exe</code> 的游戏主程序和名为 <code>YuanShen_Data</code> 的游戏程序目录</li>
+<li>国际服原神客户端目录下有名为 <code>GenshinImpact.exe</code> 的游戏主程序和名为 <code>GenshinImpact_Data</code> 的游戏程序目录</li>
+</ol>
+</li>
+<li>关于胡桃客户端转换服务器功能下的备份步骤
+<ol>
+<li>在转换服务器前，胡桃客户端会备份当前游戏客户端的主程序以及国服/国际服客户端专有的一些组件程序，即 <code>exe</code> 主程序和 <code>_Data</code> 目录</li>
+<li>备份文件储存于当前 Windows 用户下的文档库中的 <code>Hutao/ServerCache</code> 目录下，即 <code>%userprofile%/Documents/Hutao/ServerCache</code></li>
+</ol>
+</li>
+</ol>
+<p>手动恢复游戏主程序步骤（此处以国际服转国服为例）：</p>
+<ol>
+<li>进入胡桃用于备份游戏主程序的 <code>ServerCache</code> 目录，此时该目录下存放着转换前的游戏程序备份文件，即 <code>GenshinImpact.exe</code> 和 <code>GenshinImpact_Data</code></li>
+<li>进入游戏主程序目录，此时既没有 <code>YuanShen.exe</code> 也没有 <code>GenshinImpact.exe</code>，并且有一个国服目录 <code>YuanShen_Data</code></li>
+<li>手动将游戏主程序目录下的 <code>YuanShen_Data</code> 文件夹更名为 <code>GenshinImpact_Data</code></li>
+<li>手动将 <code>Hutao/ServerCache</code> 下的 <code>GenshinImpact.exe</code> 和 <code>GenshinImpact_Data</code> 复制回游戏主程序目录中并覆盖当前已有文件</li>
+<li>此时你的游戏客户端应已恢复正常</li>
+<li>重新进入胡桃客户端的 <code>游戏启动器</code> 界面，<code>游戏路径不正确</code> 错误应不再出现，且<code>服务器</code>设置一栏为空。此时，你可以选择原本的服务器版本（国际服）
+并立刻启动游戏，或选择新的服务器目标（国服）并转换客户端版本。</li>
+</ol>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png_.webp" type="image/webp"/>
     </item>
