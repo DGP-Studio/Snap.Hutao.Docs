@@ -18,6 +18,8 @@ order: 8
 
 ## QQ 群
 
+> 若入群问题为最新版本号则请输入三位版本号（如 `1.2.3`）而不是四位版本号（如 `1.2.3.0`）
+
 - [Snap 一群](https://go.hut.ao/qun1)
 - [Snap 五群](https://go.hut.ao/qun5)
 - [Snap 二群](https://go.hut.ao/qun2)
