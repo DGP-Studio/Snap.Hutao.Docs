@@ -7,7 +7,16 @@ order: 1
 
 # Update Logs
 
-## 1.6.5 <Badge text="latest" type="tip" />
+## 1.6.6 <Badge text="latest" type="tip" />
+
+- New
+  - Snap Hutao Cloud tab will show expiration time and developer's license on the wish history page now
+  - Wish statistics are now available on the wish history page, with data supported by Snap Hutao Cloud
+- Fix
+  - Fix failure of web cache refresh method for wish history export
+  - Fix Traditional Chinese metadata loading error
+
+## 1.6.5
 
 - New
   - Japanese is now a new language option;

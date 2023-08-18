@@ -20,11 +20,7 @@ order: 8
 
 > 若入群问题为最新版本号则请输入三位版本号（如 `1.2.3`）而不是四位版本号（如 `1.2.3.0`）
 
-- [Snap 一群](https://go.hut.ao/qun1)
-- [Snap 五群](https://go.hut.ao/qun5)
-- [Snap 二群](https://go.hut.ao/qun2)
-- [Snap 三群](https://go.hut.ao/qun3)
-- [Snap 四群](https://go.hut.ao/qun4)
+- [Snap Hutao](https://go.hut.ao/qun1)
 - _Snap 开发交流群_
   - 广泛的技术交流群，并非胡桃工具箱开发群
   - 开发群对申请者的技术水平有一定要求
