@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Tool</description>
     <language>en-US</language>
-    <pubDate>Sun, 23 Jul 2023 11:58:51 GMT</pubDate>
-    <lastBuildDate>Sun, 23 Jul 2023 11:58:51 GMT</lastBuildDate>
+    <pubDate>Fri, 18 Aug 2023 08:12:29 GMT</pubDate>
+    <lastBuildDate>Fri, 18 Aug 2023 08:12:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -618,11 +618,26 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.6.5 New; Japanese is now a new language option;; community members can contribute Japanese language on translate.hut.ao (https://translate.hut.ao/) Fix; Issue that cannot add ...</description>
+      <description>1.6.6 New; Snap Hutao Cloud tab will show expiration time and developer&amp;apos;s license on the wish history page now; Wish statistics are now available on the wish history page, with ...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.6.5 </h2>
+<h2> 1.6.6 </h2>
+<ul>
+<li>New
+<ul>
+<li>Snap Hutao Cloud tab will show expiration time and developer's license on the wish history page now</li>
+<li>Wish statistics are now available on the wish history page, with data supported by Snap Hutao Cloud</li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Fix failure of web cache refresh method for wish history export</li>
+<li>Fix Traditional Chinese metadata loading error</li>
+</ul>
+</li>
+</ul>
+<h2> 1.6.5</h2>
 <ul>
 <li>New
 <ul>
@@ -910,11 +925,7 @@ community members can contribute Japanese language on <a href="https://translate
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
 <h2> QQ Group (CN)</h2>
 <ul>
-<li><a href="https://go.hut.ao/qun1" target="_blank" rel="noopener noreferrer">Snap Group #1</a></li>
-<li><a href="https://go.hut.ao/qun5" target="_blank" rel="noopener noreferrer">Snap Group #5</a></li>
-<li><a href="https://go.hut.ao/qun2" target="_blank" rel="noopener noreferrer">Snap Group #2</a></li>
-<li><a href="https://go.hut.ao/qun3" target="_blank" rel="noopener noreferrer">Snap Group #3</a></li>
-<li><a href="https://go.hut.ao/qun4" target="_blank" rel="noopener noreferrer">Snap Group #4</a></li>
+<li><a href="https://go.hut.ao/qun1" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
 <li><em>Snap Developer Open Discussion Group</em>
 <ul>
 <li>General tech talk, not Snap Hutao Project development group</li>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 23 Jul 2023 11:58:51 GMT</pubDate>
-    <lastBuildDate>Sun, 23 Jul 2023 11:58:51 GMT</lastBuildDate>
+    <pubDate>Fri, 18 Aug 2023 08:12:29 GMT</pubDate>
+    <lastBuildDate>Fri, 18 Aug 2023 08:12:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -291,11 +291,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>若入群问题为最新版本号则请输入三位版本号（如 <code>1.2.3</code>）而不是四位版本号（如 <code>1.2.3.0</code>）</p>
 </blockquote>
 <ul>
-<li><a href="https://go.hut.ao/qun1" target="_blank" rel="noopener noreferrer">Snap 一群</a></li>
-<li><a href="https://go.hut.ao/qun5" target="_blank" rel="noopener noreferrer">Snap 五群</a></li>
-<li><a href="https://go.hut.ao/qun2" target="_blank" rel="noopener noreferrer">Snap 二群</a></li>
-<li><a href="https://go.hut.ao/qun3" target="_blank" rel="noopener noreferrer">Snap 三群</a></li>
-<li><a href="https://go.hut.ao/qun4" target="_blank" rel="noopener noreferrer">Snap 四群</a></li>
+<li><a href="https://go.hut.ao/qun1" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
 <li><em>Snap 开发交流群</em>
 <ul>
 <li>广泛的技术交流群，并非胡桃工具箱开发群</li>
@@ -2392,11 +2388,26 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.6.5 新增; 日语选项；社区用户可以现在可以在 translate.hut.ao (https://translate.hut.ao/) 中贡献日语翻译; 修复; 修复无法添加武器养成计划的问题 Issue #745 (https://github.com/DGP-Studio/Snap.Hutao/issues/747); 部分用户在特定情况下...</description>
+      <description>1.6.6 新增; 祈愿记录页面胡桃云服务新增服务到期时间与开发者提示; 祈愿记录页面新增统计页签，可以查看来自胡桃云的祈愿数据统计; 修复; 修复了祈愿记录页面缓存刷新失效的问题; 修复了中文繁体无法正确加载元数据的问题; 1.6.5 新增; 日语选项；社区用户可以现在可以在 translate.hut.ao (https://translate.h...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.6.5 </h2>
+<h2> 1.6.6 </h2>
+<ul>
+<li>新增
+<ul>
+<li>祈愿记录页面胡桃云服务新增服务到期时间与开发者提示</li>
+<li>祈愿记录页面新增统计页签，可以查看来自胡桃云的祈愿数据统计</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了祈愿记录页面缓存刷新失效的问题</li>
+<li>修复了中文繁体无法正确加载元数据的问题</li>
+</ul>
+</li>
+</ul>
+<h2> 1.6.5</h2>
 <ul>
 <li>新增
 <ul>
