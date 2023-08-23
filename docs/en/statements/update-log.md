@@ -10,8 +10,8 @@ order: 1
 ## 1.6.6 <Badge text="latest" type="tip" />
 
 - New
-  - Snap Hutao Cloud tab will show expiration time and developer's license on wish history page now
-  - Wish statistics is now available on wish history page, with data supported by Snap Hutao Cloud
+  - Snap Hutao Cloud tab will show expiration time and developer's license on the wish history page now
+  - Wish statistics are now available on the wish history page, with data supported by Snap Hutao Cloud
 - Fix
   - Fix failure of web cache refresh method for wish history export
   - Fix Traditional Chinese metadata loading error

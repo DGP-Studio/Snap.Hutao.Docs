@@ -32,8 +32,6 @@ comment: false
 Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb runas
 ```
 
-- 保存胡桃工具箱的 Logo 资源
-  - 你可以点击[这里](https://github.com/DGP-Studio/Snap.Hutao/raw/main/src/Snap.Hutao/Snap.Hutao/Assets/Logo.ico)下载
 - 在桌面点击右键，选择`新建` -> `快捷方式`
 - 在`请键入对象的位置`中直接输入:
 
@@ -45,7 +43,7 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 - 确认创建，此时你会在桌面得到一个有 PowerShell 图标的快捷方式
 - 右键该快捷方式，点击属性
   - 将`运行方式`修改为`最小化`
-  - 点击更改图标，选择`浏览`，并选中刚刚下载的图标
+  - 点击更改图标，选择`浏览`，并填写：`%ProgramFiles%\WindowsApps\60568DGPStudio.SnapHutao_1.6.6.0_x64__ebfp3nyc27j86\Snap.Hutao.exe`，回车确认保存
 - 这样你就获得了胡桃工具箱的桌面快捷方式，并且运行它将直接以管理员模式运行
   - 你也可以将固定到任务栏或磁贴区
 
@@ -122,3 +120,35 @@ Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb 
 
 - 当用户系统版本低于 `Windows Build 19045`（即 Windows 10 22H2 版本）时，可能无法通过管理员模式启动胡桃工具箱
   - 该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本
+
+## 转换服务器失败后如何恢复游戏程序
+
+::: info 功能原理说明
+胡桃客户端始终只从原神官方服务器下载转换服务器需要的文件，这保证了用户不会下载到被第三方篡改的危险程序。
+如果你在转换到某一种目标服务器时频繁因网络问题而转换失败，则意味你的网络到目标的原神官方服务器连接质量差。
+你应检查你的互联网连接、联系你的运营商或向专业人士咨询以保证你的正常使用体验。
+:::
+
+在转换原神服务器时，如果胡桃客户端意外退出或由于用户侧网络问题会导致转换流程中断并进而导致原神客户端损坏。
+此时胡桃工具箱会提示 `游戏路径不正确，前往设置更改游戏路径`，而游戏路径下此时可能不存在任何游戏主程序文件，导致用户无法正确设置。
+
+在这种情况下，用户可以执行下面的步骤**手动将胡桃客户端备份的游戏主程序恢复至原本的游戏目录中**或**直接使用官方启动器修复游戏**。
+
+在开始手动恢复游戏程序之前，你需要知道以下基本知识：
+
+1. 关于游戏客户端
+   1. 国服原神客户端目录下有名为 `YuanShen.exe` 的游戏主程序和名为 `YuanShen_Data` 的游戏程序目录
+   2. 国际服原神客户端目录下有名为 `GenshinImpact.exe` 的游戏主程序和名为 `GenshinImpact_Data` 的游戏程序目录
+2. 关于胡桃客户端转换服务器功能下的备份步骤
+   1. 在转换服务器前，胡桃客户端会备份当前游戏客户端的主程序以及国服/国际服客户端专有的一些组件程序，即 `exe` 主程序和 `_Data` 目录
+   2. 备份文件储存于当前 Windows 用户下的文档库中的 `Hutao/ServerCache` 目录下，即 `%userprofile%/Documents/Hutao/ServerCache`
+
+手动恢复游戏主程序步骤（此处以国际服转国服为例）：
+
+1. 进入胡桃用于备份游戏主程序的 `ServerCache` 目录，此时该目录下存放着转换前的游戏程序备份文件，即 `GenshinImpact.exe` 和 `GenshinImpact_Data`
+2. 进入游戏主程序目录，此时既没有 `YuanShen.exe` 也没有 `GenshinImpact.exe`，并且有一个国服目录 `YuanShen_Data`
+3. 手动将游戏主程序目录下的 `YuanShen_Data` 文件夹更名为 `GenshinImpact_Data`
+4. 手动将 `Hutao/ServerCache` 下的 `GenshinImpact.exe` 和 `GenshinImpact_Data` 复制回游戏主程序目录中并覆盖当前已有文件
+5. 此时你的游戏客户端应已恢复正常
+6. 重新进入胡桃客户端的 `游戏启动器` 界面，`游戏路径不正确` 错误应不再出现，且`服务器`设置一栏为空。此时，你可以选择原本的服务器版本（国际服）
+   并立刻启动游戏，或选择新的服务器目标（国服）并转换客户端版本。

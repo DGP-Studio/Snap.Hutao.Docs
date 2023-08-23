@@ -17,11 +17,7 @@ As open-source software, community power is an important part of the ecology of 
 
 ## QQ Group (CN)
 
-- [Snap Group #1](https://go.hut.ao/qun1)
-- [Snap Group #5](https://go.hut.ao/qun5)
-- [Snap Group #2](https://go.hut.ao/qun2)
-- [Snap Group #3](https://go.hut.ao/qun3)
-- [Snap Group #4](https://go.hut.ao/qun4)
+- [Snap Hutao](https://go.hut.ao/qun1)
 - _Snap Developer Open Discussion Group_
   - General tech talk, not Snap Hutao Project development group
   - The Dev group requires some basic tech knowledge
