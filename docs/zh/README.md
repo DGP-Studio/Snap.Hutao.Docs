@@ -6,6 +6,8 @@ heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS
 heroAlt: 胡桃工具箱
 heroText: 胡桃工具箱
 tagline: 实用的开源多功能原神工具箱🧰
+bgImage: /images/202308/head-back.png
+bgImageDark: /images/202308/head-back.png
 actions:
   - text: 下载
     link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52

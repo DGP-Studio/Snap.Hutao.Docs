@@ -1,5 +1,5 @@
 // place your custom styles here
-header.navbar {
+header.vp-navbar {
   // 隐藏导航栏和导航栏菜单外链图标
   svg.external-link-icon {
     position: relative;
@@ -53,8 +53,6 @@ header.navbar {
   }
 }
 
-.home {
-  .vp-hero-info-wrapper {
-    min-height: 600px;
-  }
+.vp-hero-info-wrapper {
+  min-height: 600px;
 }
