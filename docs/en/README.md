@@ -40,12 +40,12 @@ highlights:
         link: features/hutao-API.html
 
       - title: Multi-Account Switch
-        icon: /images/202209/IndexIconMihoyoBBS.png
+        icon: /images/202308/hoyolab-miyoushe-Icon.png
         details: Snap.Hutao supports multiple MiHoYo BBS accounts to stay logged in and create separate profiles for each account in each function, so players can easily manage their multiple accounts
         link: features/mhy-account-switch.html
 
       - title: Wish History Record
-        icon: /images/202209/IndexIconWish.png
+        icon: /images/202308/UI_BtnIcon_Gacha.png
         details: Capture your wish history from your game log, export them to your local device, with the support of unlimited account data archives
         link: features/wish-export.html
 
@@ -55,32 +55,32 @@ highlights:
         link: features/achievements.html
 
       - title: Advanced Game Launcher
-        icon: /images/202211/game-launcher-logo.png
+        icon: /images/202308/Game_Launcher_Icon.png
         details: With the advanced launcher in Snap.Hutao, players can easily switch their Genshin accounts, switch servers, modify game window settings and further explore more advanced features
         link: features/game-launcher.html
 
       - title: Hutao Database
-        icon: /images/202211/hutao-api-logo.png
+        icon: /images/202308/UI_ChapterIcon_Hutao.png
         details: Check out the details of community's current Spiral Abyss teaming, weapon matching, and artifact set matching; share your own Spiral Abyss lineup configuration
         link: features/hutao-api.html
 
       - title: My Characters
-        icon: /images/202211/character-data-logo.png
+        icon: /images/202308/My_Character_Icon.png
         details: View detailed data about the player's character, including level, constellations, weapons, talents, artifact set, etc.; automatically calculate artifact set score
         link: features/character-data.html
 
       - title: Character Wiki
-        icon: /images/202211/character-wiki-logo.png
+        icon: /images/202308/Character_WIKI_Icon.png
         details: Check the character's numerical information; talent and constellations; training materials; character's background story and other information; get the most weapons and artifact set matching scheme among players through the Hutao database
         link: features/character-wiki.html
 
       - title: Weapon Wiki
-        icon: /images/202301/weapon-wiki-logo.png
+        icon: /images/202308/Weapon_WIKI_Icon.png
         details: Check weapon values and stories; get the most character matching data among players through the Hutao database
         link: features/weapon-wiki.html
 
       - title: Development Calculator
-        icon: /images/202301/dev-plan-logo.png
+        icon: /images/202308/Calculator_Icon.png
         details: Make implementable character development plans based on your actual situation; support multiple accounts, multiple plan lists, and backpack item records
         link: features/develop-plan.html
 

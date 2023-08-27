@@ -40,12 +40,12 @@ highlights:
         link: features/hutao-API.html
 
       - title: 多帐号切换
-        icon: /images/202209/IndexIconMihoyoBBS.png
+        icon: /images/202308/hoyolab-miyoushe-Icon.png
         details: 胡桃工具箱支持多个米游社帐号保持登录状态并为每个帐号在各个功能中分别创建档案，玩家可以轻松管理他们的多个帐号
         link: features/mhy-account-switch.html
 
       - title: 祈愿记录
-        icon: /images/202209/IndexIconWish.png
+        icon: /images/202308/UI_BtnIcon_Gacha.png
         details: 支持多UID切换，从游戏日志文件获取或从其它祈愿记录程序导出数据，永久保留玩家的祈愿记录
         link: features/wish-export.html
 
@@ -55,32 +55,32 @@ highlights:
         link: features/achievements.html
 
       - title: 高级启动器
-        icon: /images/202211/game-launcher-logo.png
+        icon: /images/202308/Game_Launcher_Icon.png
         details: 利用胡桃工具箱中的高级启动器，玩家可以轻松地切换原神帐号，切换服务器，修改游戏窗口设置并进一步探索更多高级功能
         link: features/game-launcher.html
 
       - title: 胡桃数据库
-        icon: /images/202211/hutao-api-logo.png
+        icon: /images/202308/UI_ChapterIcon_Hutao.png
         details: 查看玩家社区当期深境螺旋配队、武器搭配、圣遗物搭配的详细信息；分享自己的深境螺旋阵容配置
         link: features/hutao-api.html
 
       - title: 属性统计
-        icon: /images/202211/character-data-logo.png
+        icon: /images/202308/My_Character_Icon.png
         details: 查看玩家所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；自动计算圣遗物评分和双爆评分
         link: features/character-data.html
 
       - title: 角色资料
-        icon: /images/202211/character-wiki-logo.png
+        icon: /images/202308/Character_WIKI_Icon.png
         details: 查询角色的数值信息；天赋、命之座数据；培养材料；角色背景故事等信息；通过胡桃数据库获取玩家中最多的武器和圣遗物搭配方案
         link: features/character-wiki.html
 
       - title: 武器资料
-        icon: /images/202301/weapon-wiki-logo.png
+        icon: /images/202308/Weapon_WIKI_Icon.png
         details: 查询武器的数值和背景故事；通过胡桃数据库获取玩家中最多的的角色搭配数据
         link: features/weapon-wiki.html
 
       - title: 养成计算器
-        icon: /images/202301/dev-plan-logo.png
+        icon: /images/202308/Calculator_Icon.png
         details: 根据你的实际情况制定可实施的角色养成计划；支持多账号、多计划清单以及背包物品记录
         link: features/develop-plan.html
 
