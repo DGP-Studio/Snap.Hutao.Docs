@@ -6,6 +6,8 @@ heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS
 heroAlt: Snap Hutao
 heroText: Snap Hutao
 tagline: Multifunctional Open-source Genshin Toolkit 🧰
+bgImage: /images/202308/head-back.png
+bgImageDark: /images/202308/head-back.png
 actions:
   - text: Download
     link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
@@ -18,8 +20,9 @@ actions:
     link: project.html
 
 highlights:
-  - header: 多合一的工具箱
-    description: 快速上手你期待的功能，探索你尚未尝试过的新工具
+  - header: All-in-one Toolbox
+    description: Quick start tools your need and explore more possibility
+    image: /images/202308/highlights-head.png
     features:
       - title: Better than Snap.Genshin
         icon: /images/202209/SGLogoUpgrade64.png
