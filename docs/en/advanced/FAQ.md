@@ -95,6 +95,7 @@ this may cause Snap Hutao failed to check validation of the cookie
 - There are two factors associated with game account login status: network and device ID
 - This issue usually caused by:
   - Change of public IP address
+  - Change of network adapter or network adapter MAC address
   - Failed saving operation, no real login status been saved (Snap Hutao cannot detect if the status is real valid)
     - Make sure to enter the game after sign in
     - Make sure the game process is gone after closing the game
