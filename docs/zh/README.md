@@ -10,7 +10,7 @@ bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
 actions:
   - text: 下载
-    link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
+    link: ms-windows-store://pdp/?ProductId=9PH4NXJ2JN52
     type: primary
   - text: 快速开始
     link: quick-start.html
