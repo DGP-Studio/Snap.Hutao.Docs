@@ -8,7 +8,7 @@ heroText: 胡桃工具箱
 tagline: 一个实用的开源多功能原神工具箱
 actions:
   - text: 下载
-    link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
+    link: ms-windows-store://pdp/?ProductId=9PH4NXJ2JN52
     type: primary
   - text: 快速开始
     link: quick-start.html
@@ -106,3 +106,17 @@ Snap Hutao 目前使用了以下软件厂商提供的服务
 <a href="https://gitlab.cn/">
   <img src="https://gitlab.cn/images/icons/logos/logo-121-75.svg" alt="极狐LAB" height="8%" />
 </a>
+
+<!-- Navigate to Microsoft Store -->
+<script>
+  function navigareToMicrosoftStore() {
+    const downloadButton = document.querySelector("a.primary")
+    const currentHref = window.location.href
+    const link = downloadButton.href.replace(currentHref, "")
+    downloadButton.addEventListener("click", () => {
+      window.open(link, "_blcnk")
+      window.location.href = currentHref
+    })
+  }
+  setTimeout(navigareToMicrosoftStore, 500)
+</script>

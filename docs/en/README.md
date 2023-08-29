@@ -8,7 +8,7 @@ heroText: Snap Hutao
 tagline: Multifunctional open-source Genshin Utility
 actions:
   - text: Download
-    link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
+    link: ms-windows-store://pdp/?ProductId=9PH4NXJ2JN52
     type: primary
   - text: Quick Start
     link: quick-start.html
@@ -107,3 +107,17 @@ Snap Hutao is currently using software from the following service providers.
 <a href="https://gitlab.cn/">
   <img src="https://gitlab.cn/images/icons/logos/logo-121-75.svg" alt="GitLab CN" height="8%" />
 </a>
+
+<!-- Navigate to Microsoft Store -->
+<script>
+  function navigareToMicrosoftStore() {
+    const downloadButton = document.querySelector("a.primary")
+    const currentHref = window.location.href
+    const link = downloadButton.href.replace(currentHref, "")
+    downloadButton.addEventListener("click", () => {
+      window.open(link, "_blcnk")
+      window.location.href = currentHref
+    })
+  }
+  setTimeout(navigareToMicrosoftStore, 1000)
+</script>
