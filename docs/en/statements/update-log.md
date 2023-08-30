@@ -70,6 +70,9 @@ order: 1
   - Added a button to toggle display of refresh time in command bar
   - Added previous refresh time for each refresh function
   - Added display of times artifacts were enhanced in character details
+- Dev Plan
+
+  - Fixed issue failure of saving active archive when switching page from dev plan to others
 
 - Character WIKI
 
