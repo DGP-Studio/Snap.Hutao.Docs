@@ -70,6 +70,7 @@ order: 1
   - Added a button to toggle display of refresh time in command bar
   - Added previous refresh time for each refresh function
   - Added display of times artifacts were enhanced in character details
+
 - Character WIKI
 
   - Fixed a display issue that occurs after selecting character in list/grid view and switching to the other view type
@@ -77,7 +78,7 @@ order: 1
 - Weapon WIKI
 
   - Fixed a display issue that occurs after selecting weapon in list/grid view and switching to the other view type
-  - Added ascension material chapter for each weapon
+  - Added ascension material section for each weapon
 
 - Monster WIKI
 
