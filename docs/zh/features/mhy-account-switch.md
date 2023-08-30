@@ -17,7 +17,7 @@ comment: false
 
 :::
 
-![多帐号管理样图](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01E3ojiY1g6dvI9mG8y_!!1797064093.png_.webp)
+![多帐号管理样图](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01RCk3PM1g6dy8aXWxW_!!1797064093.png_.webp)
 
 ::: details 胡桃工具箱视频指南 - 米游社帐号登录
 对于大多数人而言，遵循本页文档会有更高的效率。

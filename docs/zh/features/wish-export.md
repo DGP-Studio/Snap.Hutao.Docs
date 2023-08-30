@@ -15,7 +15,7 @@ comment: false
 
 有关原神祈愿记录导出的技术原理，你可以参阅我们的[**祈愿系统与导出原理**](../advanced/Gacha-system-and-export-principal.html)一文。
 
-![祈愿导出](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png_.webp)
+![祈愿导出](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01kxgPxR1g6dyCSMPYb_!!1797064093.png_.webp)
 
 **如上图所示，从胡桃工具箱的祈愿导出功能，你可以清晰地获取到包括：抽卡总数、当前已垫抽数、不同稀有度获取的数量和百分比、
 每次五星稀有度获取的抽数以及保底情况。**

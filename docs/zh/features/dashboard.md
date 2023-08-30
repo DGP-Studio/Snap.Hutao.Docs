@@ -8,7 +8,7 @@ comment: false
 
 # 首页仪表盘
 
-![](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01XkqHJA1g6dw1HVD0t_!!1797064093.png)
+![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SYGGdw1g6dyH1OHmD_!!1797064093.png_.webp)
 
 胡桃工具箱启动后会默认进入首页仪表盘，上半部分为你的个人游戏数据，下半部分为近期游戏公告及游戏活动倒计时。
 

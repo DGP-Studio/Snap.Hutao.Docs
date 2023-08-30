@@ -8,7 +8,7 @@ comment: false
 
 # 成就管理
 
-![](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01eddfVC1g6du4Xdd9P_!!1797064093.png_.webp)
+![](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01gdzS4e1g6dyH1G5wh_!!1797064093.png_.webp)
 
 胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态
 

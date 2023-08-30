@@ -28,7 +28,7 @@ comment: false
 
 ## 胡桃帐号 <Badge text="测试功能" type="info" />
 
-![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01TUwTiE1g6dvNZZWy9_!!1797064093.png_.webp)
+![Hutao-account](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01demKfQ1g6dyH6VpYh_!!1797064093.png_.webp)
 胡桃帐号是由 DGP-Studio 团队创建的为胡桃工具箱服务的帐号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。
 目前胡桃帐号已支持注册和登录，你可以在设置中点击这一选项以注册并登录你的帐号。
 
@@ -45,32 +45,6 @@ comment: false
     - 云母 （Windows 11 特性）
     - 变种云母（Windows 11 特性）
   - 每个背景材质被选中后，您可以即时查看更改后的效果
-
-@slidestart auto
-
-## Windows 10 亚克力
-
-![win10-亚克力](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png_.webp)
-
----
-
-## Windows 11 亚克力
-
-![win11-亚克力](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01MXJZE61g6dtvtITxC_!!1797064093.jpg_.webp)
-
----
-
-## Windows 11 云母
-
-![win11-云母](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01aW0iV71g6du5WAz9w_!!1797064093.jpg_.webp)
-
----
-
-## Windows 11 变种云母
-
-![win11-变种云母](https://img.alicdn.com/imgextra/i3/1797064093/O1CN010BwmBI1g6du9bi7C0_!!1797064093.jpg_.webp)
-
-@slideend
 
 ## 祈愿记录
 

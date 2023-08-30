@@ -14,7 +14,7 @@ comment: false
 
 属性统计，即主程序侧栏中的`我的角色`功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分
 
-![属性统计示例图](https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png_.webp)
+![属性统计示例图](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01iEL8ua1g6dyBBLKTd_!!1797064093.png_.webp)
 
 ## 同步角色信息
 

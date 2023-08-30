@@ -17,17 +17,17 @@ comment: false
 ::: tabs
 
 @tab 角色使用率
-![character-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01VNtgaU1g6du5Mh1Oo_!!1797064093.png_.webp)
+![character-usage-rate](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01QnrxoH1g6dyBQazad_!!1797064093.png_.webp)
 @tab 角色出场率
-![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKGIZn1g6du8k0Rhb_!!1797064093.png_.webp)
+![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01SZxOoc1g6dyBJC3g3_!!1797064093.png_.webp)
 @tab 队伍出场次数
-![hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ZRakBS1g6duBCh0c1_!!1797064093.png_.webp)
+![hutaoapi](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01oERCCj1g6dyHvhPXj_!!1797064093.png_.webp)
 @tab 角色持有率
-![character-held-rate](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01EUjFsJ1g6du8k0NYy_!!1797064093.png_.webp)
+![character-held-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN0112Fro61g6dyGCiFxq_!!1797064093.png_.webp)
 @tab 个人数据统计
-![personal-record-stat](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xMLXhn1g6du6lPUDD_!!1797064093.png_.webp)
+![personal-record-stat](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01wrgGYm1g6dyH6BpIL_!!1797064093.png_.webp)
 @tab 个人数据详情
-![personal-record-details](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01xtWJfr1g6dtvjZLWZ_!!1797064093.png_.webp)
+![personal-record-details](https://img.alicdn.com/imgextra/i1/1797064093/O1CN012Rt60l1g6dyGCgiHv_!!1797064093.png_.webp)
 
 :::
 
