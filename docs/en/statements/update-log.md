@@ -51,10 +51,12 @@ order: 1
   - Fixed incorrect text for Snap Hutao Cloud's upload reward
   - Fixed the issue that UIGF formatted data file with incorrect item ID can be imported
   - Fixed the issue that failed to locate game cache directory
+  - Optimized page load speed when there is a large amount of items
 
 - Achievement
 
   - Fixed a display issue that occurs after selecting achievement categories in list/grid view and switching to the other view type
+  - Optimized page load speed
 
 - Real-Time Notes
 
@@ -66,10 +68,12 @@ order: 1
   - Added previous refresh time for each Real-time note cards
 
 - My Characters
+
   - Adjusted width of character list when using list view
   - Added a button to toggle display of refresh time in command bar
   - Added previous refresh time for each refresh function
   - Added display of times artifacts were enhanced in character details
+
 - Dev Plan
 
   - Fixed issue failure of saving active archive when switching page from dev plan to others
