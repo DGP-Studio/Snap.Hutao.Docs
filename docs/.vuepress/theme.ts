@@ -88,7 +88,7 @@ export default hopeTheme({
     },
 
     mdEnhance: {
-      gfm: true,
+      gfm: false,
       imgLazyload: true,
       include: true,
       tabs: true,
