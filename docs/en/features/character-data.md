@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 6
+tag: [Character showcase, Character statistics]
+order: 7
 comment: false
 ---
 

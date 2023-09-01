@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 6
+tag: [数据统计, 角色橱窗]
+order: 7
 redirectFrom: /features/character-data.html
 comment: false
 ---
