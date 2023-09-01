@@ -20,6 +20,21 @@ actions:
     link: project.html
 
 highlights:
+  - header: Secure Program Designing
+    image: /images/202309/security.png
+    bgImage: /images/202309/head-back2.png
+    bgImageDark: /images/202309/head-back2.png
+    highlights:
+      - title: You Control Your Data
+        icon: computer
+        details: Your data is stored in your local device, does not rely on any cloud service or third-party platform, you have freedom control your data
+      - title: We Protect Your Data
+        icon: lock
+        details: Your data can be backed up to Snap Hutao Cloud, you never lose data when you are on a new device
+      - title: Community Guards your Program
+        icon: anonymous
+        details: Snap Hutao is open-sourced on GitHub with MIT license, we welcome community members to review and contribute to our code. The software is listed in Microsoft Store, which passes Microsoft's security review
+
   - header: All-in-one Toolbox
     description: Quick start tools your need and explore more possibility
     image: /images/202308/highlights-head.png
