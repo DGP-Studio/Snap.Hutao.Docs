@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 5
+tag: [Real-time Notes, Expeditions, Resin]
+order: 6
 comment: false
 ---
 
@@ -26,9 +27,18 @@ you can check [MiHoYo BBS Account Switch](mhy-account-switch.html) for more info
     - If you want to see the data at this moment, you can click `Refresh` button to refresh data immediately
   - If you receive any warning similar to `Verification failed`, it may be caused by too many account added, and you can try to fix it youself by refreshing account cookie
 
+## Verify Current User and Role
+
+If you are using a MiYouShe account, then you account is very likely to be marked as robot-usage and leads to an anti-bot
+verification. In this status, Real-time Notes data cannot be updated.
+
+You can click on `Verify Current User and Role` button, Snap Hutao will pop up verification window. After finishing the
+verification, then your account can be used to refresh data.
+
 ## Global Notification Settings
 
 - In the `Notification Settings` on the top right, you can change the global settings of Real-time Notes, including:
+  - Enable/Disable auto refresh
   - Refresh rate
   - Do not disturb setting
   - Prioritized notification
