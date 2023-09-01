@@ -114,16 +114,13 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多
 
 <!-- @include: star-request.md -->
 
-## 平台
+::: center
 
-Snap Hutao 目前使用了以下软件厂商提供的服务
+## 赞助商
 
-<a href="https://www.netlify.com">
-  <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" />
-</a>
-<a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow">
-  <img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" />
-</a>
-<a href="https://gitlab.cn/">
-  <img src="https://gitlab.cn/images/icons/logos/logo-121-75.svg" alt="极狐LAB" height="8%" />
-</a>
+Snap Hutao 目前使用了以下软件厂商赞助的服务
+
+| [![](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com/) | [![](https://badges.crowdin.net/badge/light/crowdin-on-dark.png)](https://crowdin.com/) | [![](https://gitlab.cn/images/icons/logos/logo-121-75.svg)](https://gitlab.cn/) |
+| :------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+
+:::

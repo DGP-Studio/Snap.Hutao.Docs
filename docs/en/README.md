@@ -100,16 +100,13 @@ You can make contribution by the following ways:
 
 <!-- @include: star-request.md -->
 
-## Service Used
+::: center
 
-Snap Hutao is currently using software from the following service providers.
+## Sponsorship
 
-<a href="https://www.netlify.com">
-  <img src="https://www.netlify.com/v3/img/components/netlify-light.svg" alt="Deploys by Netlify" />
-</a>
-<a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow">
-  <img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" />
-</a>
-<a href="https://gitlab.cn/">
-  <img src="https://gitlab.cn/images/icons/logos/logo-121-75.svg" alt="GitLab CN" height="8%" />
-</a>
+Snap Hutao is currently using sponsored software from the following service providers.
+
+| [![](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com/) | [![](https://badges.crowdin.net/badge/light/crowdin-on-dark.png)](https://crowdin.com/) | [![](https://gitlab.cn/images/icons/logos/logo-121-75.svg)](https://gitlab.cn/) |
+| -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+
+:::

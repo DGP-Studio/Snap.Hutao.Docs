@@ -93,6 +93,7 @@ export default hopeTheme({
       include: true,
       tabs: true,
       footnote: true,
+      align: true
     },
 
     pwa: {
