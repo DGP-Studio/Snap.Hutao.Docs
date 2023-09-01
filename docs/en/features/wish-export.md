@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 3
+tag: [wish export, gacha, wish]
+order: 4
 comment: false
 ---
 
@@ -20,9 +21,11 @@ you can refer to our article on [Gacha System and Export Principles](../advanced
 
 ![wish export](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp)
 
-As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
+**As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
 total number of wishes, current pity count, quantity and percentage of obtained items with different rarity, number of
-times a 5-star rarity item was not obtained and the current pity status.
+times a 5-star rarity item was not obtained and the current pity status.**
+
+**Additionally, user with Hutao Cloud can view prediction data calculated by Hutao Cloud server**
 
 ::: note Delay in Gacha Data Export
 
@@ -34,13 +37,13 @@ statistics from Snap Hutao.
 
 ## Fetch Wish History
 
-### Refresh with Stoken Cookie <Badge text="Recommend" type="tip" />
+### Refresh with SToken Cookie <Badge text="Recommend" type="tip" />
 
 ::: info Hint
 
 - This method requires user to sign in to MiHoYo BBS account in Snap Hutao, refer to
   [MiHoYo BBS Account Switch](mhy-account-switch.md) to get to know how to login to your MiHoYo BBS account
-- **Stoken Cookie refresh method does not support global server (HoYoLab)**
+- **SToken Cookie refresh method does not support global server (HoYoLAB)**
 
 :::
 
@@ -99,5 +102,45 @@ If you need to export the wish history data, you can:
 - Switch to the archive you want to export, and select `Export`
   - In the pop-up window, confirm your export path
 - Confirm and export data
+
+## Wish History Cloud Sync <Badge text="Beta" type="info" />
+
+> Wish history cloud sync is designed on Snap Hutao Account.
+> You need to [register an account in the settings](hutao-settings#snap-hutao-account) to use this feature
+
+With this feature, you can upload your wish history to Hutao Cloud, to avoid risk of losing data, and make it easier to
+transfer data between devices.
+
+### Cloud Sync Privilege
+
+Cloud synchronization is a service uses Snap Hutao's server resource, so it is a time-limited feature.
+Currently, you have the following ways to enable Cloud Sync:
+
+1. Donate us on AiFaDian. The privilege will automatically assigned to Snap Hutao Account with same email address on AiFaDian
+2. For all registered user, after upload Abyss record in each schedule, 3-day privilege will be automatically assigned
+   - This is a method you can constantly use benefit of Hutao Cloud
+3. Users who make contributions to our open-source community, including code development, program designing,
+   localization translations, can contact the dev team to get your benefit for free
+   - We are designing an automation system to auto assign license to our contributors, it will be live with more
+     development of Hutao Cloud
+
+After your Hutao Cloud privilege expired, you will not be able to upload, download or delete your data, but your data
+will not be removed. You can continue to operate it once you get your privilege again.
+
+### Upload
+
+- In wish export page, select the archive you need to sync data
+- Click `Snap Hutao Cloud` button on the top right
+- Click `Upload Current Wish Archive`, and then your data will be backup to the cloud
+
+### Download
+
+- In wish export page, Click `Snap Hutao Cloud` button on the top right
+- Click download button on the right side of UID which data needs to be downloaded
+
+### Delete
+
+- In wish export page, Click `Snap Hutao Cloud` button on the top right
+- Click delete button on the right side of UID which data needs to be deleted
 
 [^UIGF-Org]: Unified Standardized GenshinData Format is provided by [UIGF-Org](https://uigf.org/)
