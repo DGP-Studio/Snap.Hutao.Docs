@@ -92,6 +92,7 @@ export default hopeTheme({
       imgLazyload: true,
       include: true,
       tabs: true,
+      footnote: true,
     },
 
     pwa: {
