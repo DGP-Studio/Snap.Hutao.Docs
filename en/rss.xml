@@ -4,23 +4,95 @@
     <atom:link href="https://hut.ao/en/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Snap Hutao</title>
     <link>https://hut.ao/en/</link>
-    <description>Super utilitarian Genshin Impact Tool</description>
+    <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 23 Aug 2023 06:24:06 GMT</pubDate>
-    <lastBuildDate>Wed, 23 Aug 2023 06:24:06 GMT</lastBuildDate>
+    <pubDate>Fri, 01 Sep 2023 20:53:36 GMT</pubDate>
+    <lastBuildDate>Fri, 01 Sep 2023 20:53:36 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>open source</category>
-    <category>development</category>
     <category>Feature</category>
     <category>Tutorial</category>
+    <category>open source</category>
+    <category>development</category>
     <category>FAQ</category>
     <category>第三方工具</category>
     <category>Announcement</category>
     <category>i18n</category>
-    <category>功能</category>
-    <category>教程</category>
     <category>公告</category>
+    <item>
+      <title>Monster WIKI</title>
+      <link>https://hut.ao/en/features/monster-wiki.html</link>
+      <guid>https://hut.ao/en/features/monster-wiki.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Monster WIKI</source>
+      <description>monster-wiki Monster WIKI is an embedded WIKI database used to look up each monster&amp;apos;s Base ability, ability in each level, RES, drop items Included Data Monster list; Use the ic...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
+      <pubDate>Fri, 01 Sep 2023 09:35:59 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Monster WIKI</h1>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01mEozOR1g6dyFXXWcO_!!1797064093.png_.webp" alt="monster-wiki" loading="lazy"></p>
+<p>Monster WIKI is an embedded WIKI database used to look up each monster's
+<strong>Base ability, ability in each level, RES, drop items</strong></p>
+<h2> Included Data</h2>
+<ul>
+<li>Monster list
+<ul>
+<li>Use the icon above the list, you can change the view between <code>list</code> and <code>grid</code></li>
+<li>Click on monster's icon or title, and you will be directed to its WIKI page</li>
+</ul>
+</li>
+<li>WIKI data
+<ul>
+<li>Monster's ability
+<ul>
+<li>Monster base HP, base ATK, base DEF</li>
+<li>Monster's HP, ATK and DEF in each level <strong>switched to</strong></li>
+</ul>
+</li>
+<li>Drop items</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01mEozOR1g6dyFXXWcO_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Initial Setup Guide</title>
+      <link>https://hut.ao/en/features/setup.html</link>
+      <guid>https://hut.ao/en/features/setup.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Initial Setup Guide</source>
+      <description>When launching the Snap Hutao for the first time, the client will automatically enter an initialization setup guide to assist users in configuring the client correctly. Currentl...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
+      <pubDate>Tue, 29 Aug 2023 19:09:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Initial Setup Guide</h1>
+<p>When launching the Snap Hutao for the first time, the client will automatically enter an initialization setup guide to assist users in configuring the client correctly.</p>
+<p>Currently, Snap Hutao will guide users through the process of setting the language, confirming user agreements, checking necessary environmental configurations, and downloading static resources.</p>
+<details class="hint-container details"><summary>Language Setting</summary>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01wBgRV01g6dyC2bc62_!!1797064093.png_.webp" alt="" loading="lazy"></p>
+<p>In the language settings section, you can choose from the interface languages currently supported by Snap Hutao. If you change the language, the Snap Hutao will automatically restart.</p>
+<p>Snap Hutao uses Simplified Chinese as the base language and actively maintains English text.
+Traditional Chinese, Korean, and Japanese texts are translated by community contributors.
+If you're interested in contributing translations, you can lend your support at <a href="https://translate.hut.ao" target="_blank" rel="noopener noreferrer">https://translate.hut.ao</a>.</p>
+</details>
+<details class="hint-container details"><summary>User Agreement Confirmation</summary>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Zv1EGr1g6dy8E1fpj_!!1797064093.png_.webp" alt="" loading="lazy"></p>
+<p>In the user agreement documents confirmation section, you will need to confirm several documents provided by Snap Hutao.
+These documents can help you understand the nature of the Snap Hutao project and will be beneficial for your future usage.</p>
+</details>
+<details class="hint-container details"><summary>Environment Checking</summary>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01LYYIB41g6dyDFB6I9_!!1797064093.png_.webp" alt="" loading="lazy"></p>
+<p>In the environment checking section, Snap Hutao will utilize two small tests to assist users in determining whether the system environment, which will enhance user experience, has been installed: the Segoe Fluent Icons font and the WebView2 Runtime.</p>
+<p>You can assess whether these two environment packages are installed based on the prompts. If they are not installed, you can click the corresponding link buttons to download and install the required content.</p>
+<p>The image above is the expected outcome in this step.</p>
+</details>
+<details class="hint-container details"><summary>Assets Download</summary>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01XlICiR1g6dyC7Qpy6_!!1797064093.png_.webp" alt="" loading="lazy"></p>
+<p>In this step, Snap Hutao will automatically download the required static image resources.
+Once the download is complete, Snap Hutao will close the initialization setup interface and automatically load the main program.</p>
+</details>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01wBgRV01g6dyC2bc62_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
     <item>
       <title>Development</title>
       <link>https://hut.ao/en/development/</link>
@@ -87,16 +159,27 @@ and create outstanding open-source Genshin Impact tools.</p>
       <link>https://hut.ao/en/features/dashboard.html</link>
       <guid>https://hut.ao/en/features/dashboard.html</guid>
       <source url="https://hut.ao/en/rss.xml">Home Dashboard</source>
-      <description>Snap Hutao will enter home dashboard by default when it&amp;apos;s opened. The top part is your personal gaming data; the bottom part is recent game notice and event countdown in days an...</description>
+      <description>dashbord screenshot Snap Hutao will enter home dashboard by default when it&amp;apos;s opened. The top part is your personal gaming data; the bottom part is recent game notice and event ...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Sat, 13 May 2023 01:37:45 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Home Dashboard</h1>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01XkqHJA1g6dw1HVD0t_!!1797064093.png" alt="" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01BV3VBz1g6dy4fyYJw_!!1797064093.png_.webp" alt="dashbord screenshot" loading="lazy"></p>
 <p>Snap Hutao will enter home dashboard by default when it's opened. The top part is your personal gaming data; the bottom
 part is recent game notice and event countdown in days and hours.</p>
-<p>Personal gaming data dashboard includes:</p>
+<p>Gaming data dashboard includes:</p>
 <ul>
+<li>Snap Hutao Announcement
+<ul>
+<li>If Snap Hutao dev team publish a new announcement, it will be shown on the dashboard, it can be manually closed</li>
+</ul>
+</li>
+<li>Snap Hutao Account
+<ul>
+<li>If you have a signed in Snap Hutao account, the email address will be shown on the top; If not signed in, there will
+be a register/login hint</li>
+</ul>
+</li>
 <li>Game launcher
 <ul>
 <li>You can select your account and start the game from dashboard</li>
@@ -123,7 +206,7 @@ chart to switch account</li>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01XkqHJA1g6dw1HVD0t_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01BV3VBz1g6dy4fyYJw_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Real-time Notes</title>
@@ -140,7 +223,7 @@ chart to switch account</li>
 <p>This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao,
 you can check <a href="/en/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> for more information.</p>
 </div>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png" alt="live-data-tracking" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp" alt="live-data-tracking" loading="lazy"></p>
 <h2> Add Role</h2>
 <ul>
 <li>Click on <code>Add Role</code> button</li>
@@ -157,10 +240,16 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">MiHo
 </ul>
 </li>
 </ul>
+<h2> Verify Current User and Role</h2>
+<p>If you are using a MiYouShe account, then you account is very likely to be marked as robot-usage and leads to an anti-bot
+verification. In this status, Real-time Notes data cannot be updated.</p>
+<p>You can click on <code>Verify Current User and Role</code> button, Snap Hutao will pop up verification window. After finishing the
+verification, then your account can be used to refresh data.</p>
 <h2> Global Notification Settings</h2>
 <ul>
 <li>In the <code>Notification Settings</code> on the top right, you can change the global settings of Real-time Notes, including:
 <ul>
+<li>Enable/Disable auto refresh</li>
 <li>Refresh rate</li>
 <li>Do not disturb setting</li>
 <li>Prioritized notification
@@ -193,7 +282,7 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">MiHo
 <li>Clock on the remove button on it, and you can remove the corresponding account</li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Uninstall Snap Hutao</title>
@@ -251,19 +340,12 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">MiHo
       <link>https://hut.ao/en/advanced/known-issue.html</link>
       <guid>https://hut.ao/en/advanced/known-issue.html</guid>
       <source url="https://hut.ao/en/rss.xml">Known Issue</source>
-      <description>This document records known issues that need to be fixed. Snap Hutao No Response or Cash when Using Real-time Notes A current local database issue will cause Snap Hutao to no re...</description>
+      <description>This document records known issues that need to be fixed. All known issues before 1.7 version have been fixed</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:40 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Known Issue</h1>
 <p>This document records known issues that <strong>need to be fixed</strong>.</p>
-<h2> Snap Hutao No Response or Cash when Using Real-time Notes</h2>
-<p>A current local database issue will cause Snap Hutao to no response or even crash.
-This issue is planned to be fixed in the next version, you may also track this issue in
-<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/706" target="_blank" rel="noopener noreferrer">GitHub</a></p>
-<h2> Frequent 1034 Verification Error from Real-time Notes</h2>
-<p>This issue is caused by change of anti-bot program in Miyoushe, and will cause Real-time Notes data refresh failure.
-User can fix this issue temporarily by manual verification.</p>
-<p>This issue will be fixed in the future.</p>
+<p>All known issues before 1.7 version have been fixed</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -573,6 +655,7 @@ this may cause Snap Hutao failed to check validation of the cookie</p>
 <li>This issue usually caused by:
 <ul>
 <li>Change of public IP address</li>
+<li>Change of network adapter or network adapter MAC address</li>
 <li>Failed saving operation, no real login status been saved (Snap Hutao cannot detect if the status is real valid)
 <ul>
 <li>Make sure to enter the game after sign in</li>
@@ -618,11 +701,122 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.6.6 New; Snap Hutao Cloud tab will show expiration time and developer&amp;apos;s license on the wish history page now; Wish statistics are now available on the wish history page, with ...</description>
+      <description>1.7.0 Add a startup guide to help user familiarize Snap Hutao on start launch; Guiding users to select a language; Guiding users to confirm terms of service; Guiding users to in...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.6.6 </h2>
+<h2> 1.7.0 </h2>
+<ul>
+<li>Add a startup guide to help user familiarize Snap Hutao on start launch
+<ul>
+<li>Guiding users to select a language</li>
+<li>Guiding users to confirm terms of service</li>
+<li>Guiding users to install Segoe Fluent Icons font and WebView2 Runtime</li>
+<li>Guiding users to download static assets</li>
+</ul>
+</li>
+<li>Main Interface
+<ul>
+<li>Adjusted icon styles in the navigation bar</li>
+<li>Fixed a bug where adjusting window size could lead to unexpected crashes</li>
+</ul>
+</li>
+<li>User Panel
+<ul>
+<li>Adjusted styles of the user panel</li>
+<li>Added a button to allow the current user to claim sign-in rewards</li>
+<li>Fixed an issue where in some cases, the current user and character could not be selected correctly on startup</li>
+</ul>
+</li>
+<li>Home Dashboard
+<ul>
+<li>Added Snap Hutao announcement</li>
+<li>Real-Time Note now display refresh time for each card</li>
+<li>Fixed an issue where Real-Time Note card fail to load correctly, leading program to freezing or crashing</li>
+<li>Corrected start/end times for certain event announcements</li>
+<li>Fixed an issue where some paragraphs were not displaying correctly when viewing details of certain announcements</li>
+</ul>
+</li>
+<li>Game Launch (Advanced Launcher)
+<ul>
+<li>Added game status indicator text to the command bar</li>
+<li>Fixed an issue where server switch function was not working</li>
+<li>Adjusted server switch function logic to allow retries after resource download failure</li>
+<li>Adjusted unlocked frame rate logic; game process will automatically end if unlocking fails</li>
+<li>Removed multi-client</li>
+<li>Fixed an issue in resource download page where game client had no names and couldn't be downloaded</li>
+</ul>
+</li>
+<li>Wish History
+<ul>
+<li>Adjusted card style on the overview page, making items larger and collapsing multiple text items</li>
+<li>Fixed an issue where entering the wish history page without logging in or without Snap Hutao Cloud service caused errors</li>
+<li>Fixed progress bar and color display issues in the card list view on the overview page</li>
+<li>Fixed incorrect text for Snap Hutao Cloud's upload reward</li>
+<li>Fixed the issue that UIGF formatted data file with incorrect item ID can be imported</li>
+<li>Fixed the issue that failed to locate game cache directory</li>
+<li>Optimized page load speed when there is a large amount of items</li>
+</ul>
+</li>
+<li>Achievement
+<ul>
+<li>Fixed a display issue that occurs after selecting achievement categories in list/grid view and switching to the other view type</li>
+<li>Optimized page load speed</li>
+</ul>
+</li>
+<li>Real-Time Notes
+<ul>
+<li>Adjusted the style of the <code>Verify Current User and Role</code> button</li>
+<li>Adjusted the style of the notification settings view</li>
+<li>Added an option to disable auto-refresh for real-time notes (toggle available only in non-administrator mode; users who have previously accessed the real-time notes page in administrator mode might not be able to toggle this option)</li>
+<li>Adjusted the style of real-time notes</li>
+<li>Adjusted text prompts for locked Serenitea Pot and unowned Parametric Transformations</li>
+<li>Added previous refresh time for each Real-time note cards</li>
+</ul>
+</li>
+<li>My Characters
+<ul>
+<li>Adjusted width of character list when using list view</li>
+<li>Added a button to toggle display of refresh time in command bar</li>
+<li>Added previous refresh time for each refresh function</li>
+<li>Added display of times artifacts were enhanced in character details</li>
+</ul>
+</li>
+<li>Dev Plan
+<ul>
+<li>Fixed issue failure of saving active archive when switching page from dev plan to others</li>
+</ul>
+</li>
+<li>Character WIKI
+<ul>
+<li>Fixed a display issue that occurs after selecting character in list/grid view and switching to the other view type</li>
+</ul>
+</li>
+<li>Weapon WIKI
+<ul>
+<li>Fixed a display issue that occurs after selecting weapon in list/grid view and switching to the other view type</li>
+<li>Added ascension material section for each weapon</li>
+</ul>
+</li>
+<li>Monster WIKI
+<ul>
+<li>Fixed a display issue that occurs after selecting monster in list/grid view and switching to the other view type</li>
+</ul>
+</li>
+<li>Settings
+<ul>
+<li>Fixed issue that unable to clear game cache directory</li>
+<li>Added configuration field for Geetest CAPTCHA verification API, correct configuration on this field can handle anti-bot verification from MiYouShe</li>
+</ul>
+</li>
+<li>Improved program frame rate performance</li>
+<li>Optimized memory usage for multi-thread scheduling</li>
+<li>Optimized loading speed of item image assets</li>
+<li>Adjusted database read/write methods to optimize memory usage and responsiveness</li>
+<li>Adjusted text prompts for return codes <code>-100</code> and <code>-10001</code> to help users better understand their meanings</li>
+<li>Other minor changes</li>
+</ul>
+<h2> 1.6.6</h2>
 <ul>
 <li>New
 <ul>
@@ -952,41 +1146,41 @@ community members can contribute Japanese language on <a href="https://translate
 <p>Snap Hutao Project features were originally based on the China server, but we are also trying to expand the coverage globally through the support of the MiHoYo global gaming server &amp; software localization.Currently, our localization process includes:</p>
 <ul>
 <li>Snap Hutao
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Localization framework</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Client translation</label>
-<ul class="task-list-container">
+<ul>
+<li>[x] Localization framework</li>
+<li>[ ] Client translation
+<ul>
 <li>Process: <img src="https://badges.crowdin.net/snap-hutao/localized.svg" alt="Crowdin" loading="lazy"></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> English</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> Traditional Chinese</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> Korean</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> Japanese (in progress)</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> Russian</label></li>
+<li>[x] English</li>
+<li>[x] Traditional Chinese</li>
+<li>[x] Korean</li>
+<li>[x] Japanese (in progress)</li>
+<li>[ ] Russian</li>
 </ul>
 </li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> Internation/China server conversion</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> International server account switch</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> International server wish history export</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> International server character stat</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> HoYoLab login</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> International server Abyss recrod</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> Daily Notes</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> Multilingual in-game announcements</label></li>
+<li>[x] Internation/China server conversion</li>
+<li>[ ] International server account switch</li>
+<li>[x] International server wish history export</li>
+<li>[x] International server character stat</li>
+<li>[ ] HoYoLab login
+<ul>
+<li>[ ] International server Abyss recrod</li>
+<li>[ ] Daily Notes</li>
+<li>[ ] Multilingual in-game announcements</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Snao Hutao Docs
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> Localization framework</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> Web translation</label></li>
+<ul>
+<li>[x] Localization framework</li>
+<li>[ ] Web translation</li>
 <li>Process:
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> English</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> Home page</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> User documentation</label></li>
+<ul>
+<li>[ ] English
+<ul>
+<li>[x] Home page</li>
+<li>[ ] User documentation</li>
 </ul>
 </li>
 </ul>
@@ -1046,7 +1240,7 @@ document for sign in tutorial</p>
 <p>My characters is a character statistics feature that allows Snap Hutao to read character's statistics on the account,
 including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for
 each character.</p>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png" alt="属性统计示例图" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01JOlGqw1g6dyB7NkLu_!!1797064093.png_.webp" alt="My Character Screenshot" loading="lazy"></p>
 <h2> Sync Character Data</h2>
 <h3> Sync from Enka API</h3>
 <div class="hint-container info">
@@ -1136,7 +1330,7 @@ character's data, this will help you to share your character's data</li>
 </ul>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png" alt="sample-output-image" loading="lazy"></p>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01JOlGqw1g6dyB7NkLu_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Character WIKI</title>
@@ -1148,7 +1342,7 @@ character's data, this will help you to share your character's data</li>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Character WIKI</h1>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png" alt="characters-wiki" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01BTeWoh1g6dyHbVwkf_!!1797064093.png_.webp" alt="characters-wiki" loading="lazy"></p>
 <p>Character WIKI is a Snap Hutao build-in WIKI feature used to query each character's information.</p>
 <h2> Included Data</h2>
 <ul>
@@ -1196,82 +1390,61 @@ character's data, this will help you to share your character's data</li>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01BTeWoh1g6dyHbVwkf_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Development Plan</title>
       <link>https://hut.ao/en/features/develop-plan.html</link>
       <guid>https://hut.ao/en/features/develop-plan.html</guid>
       <source url="https://hut.ao/en/rss.xml">Development Plan</source>
-      <description>dev-plan Dev Plan is under redesigning, the document will be translated after the refinement. 添加养成目标进入材料清单 基于 WIKI 资料添加 在胡桃工具箱的左侧栏目中，点击角色资料或`武器资料功能; 在&amp;quot;胡桃工具箱&amp;quot;的整体界面右上部分，点击养成计算按钮; ...</description>
-      <category>功能</category>
-      <category>教程</category>
+      <description>dev-plan Add Develop Goals into Material Checklist Add Goals from WIKIs Click Character WIKI or Weapon WIKI from the left menu bar; Select on character or weapon to want to add;...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Development Plan</h1>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png" alt="dev-plan" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01CDsjcb1g6dyB7M0EW_!!1797064093.png_.webp" alt="dev-plan" loading="lazy"></p>
+<h2> Add Develop Goals into Material Checklist</h2>
+<h3> Add Goals from WIKIs</h3>
+<ul>
+<li>Click <code>Character WIKI</code> or <code>Weapon WIKI</code> from the left menu bar</li>
+<li>Select on character or weapon to want to add</li>
+<li>Click <code>Add to Dev Plan</code> on the top right</li>
+<li>In the pop-up window, input the base level and target level
+<ul>
+<li>By default, add goals from WIKIs will set base level as <code>1</code></li>
+</ul>
+</li>
+</ul>
+<h3> Add Goals from My Characters Data</h3>
+<ul>
+<li>Click <code>My Characters</code> from the left menu bar</li>
+<li>Select the character you want to add</li>
+<li>In the pop-up window, input the base level and target level
+<ul>
+<li>By default, add goals from WIKIs will set base level as player's live data'</li>
+<li>Refer to <a href="character-data#sync-character-data">My Characters</a> document to get more guides</li>
+</ul>
+</li>
+</ul>
+<h2> Inventory Items</h2>
 <div class="hint-container info">
 <p class="hint-container-title">Info</p>
-<p>Dev Plan is under redesigning, the document will be translated after the refinement.</p>
+<p>This feature is under construction for non-Chinese languages</p>
 </div>
-<h2> 添加养成目标进入材料清单</h2>
-<h3> 基于 WIKI 资料添加</h3>
-<ul>
-<li>在胡桃工具箱的左侧栏目中，点击<code>角色资料</code>或<code>武器资料</code>功能</li>
-<li>在"胡桃工具箱"的整体界面右上部分，点击<code>养成计算</code>按钮</li>
-<li>在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级
-<ul>
-<li>基于 WIKI 资料添加的养成目标，默认初始值为 1 级</li>
-</ul>
-</li>
-</ul>
-<h3> 基于玩家数据添加</h3>
-<ul>
-<li>在"胡桃工具箱"的左侧栏目中，点击<code>我的角色</code>功能</li>
-<li>在选中角色后，点击右上角的<code>养成计算</code>按钮</li>
-<li>在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的"起始等级"以及"目标等级"
-<ul>
-<li>基于玩家数据添加的养成目标，默认初始等级为玩家当前的角色等级</li>
-<li>请参考<a href="character-data#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97">My Characters</a>文档以获取更多信息</li>
-</ul>
-</li>
-</ul>
-<h2> 背包物品</h2>
-<ul>
-<li>在"胡桃工具箱"的左侧栏目中，点击"养成计划"功能</li>
-<li>点击"背包物品"功能栏</li>
-<li>在"胡桃工具箱"的整体界面右上部分，点击"新建计划"按钮</li>
-<li>在弹出的"创建新的养成计划"的窗口中，填写需要创建的养成计划名称
-<ul>
-<li>此处可勾选"绑定当前选中的账号角色"</li>
-<li>"新建计划"按钮左侧的下拉选项框，可<strong>自行切换不同的养成计划</strong></li>
-</ul>
-</li>
-<li>点击下方的任意物品图标或数字区域，即可手动编辑该种材料的数目
-<ul>
-<li>背包物品的具体材料信息，<strong>对应于</strong>其修改时，所切换至的养成计划</li>
-</ul>
-</li>
-<li>在"胡桃工具箱"的整体界面右上部分，可点击"删除计划"按钮，将当前的养成计划删除
-<ul>
-<li>在删除当前养成计划后，处于切换至该养成计划时，输入的背包物品信息将一同删除</li>
-</ul>
-</li>
-</ul>
-<h2> 功能说明</h2>
-<p>此功能尚在完善阶段，若您有建设性的建议，或发现了显著的问题，请按<a href="/en/statements/bug-report.html" target="blank">此页面</a>直接向我们反馈，感谢您的贡献！</p>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01CDsjcb1g6dyB7M0EW_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Game Launcher</title>
       <link>https://hut.ao/en/features/game-launcher.html</link>
       <guid>https://hut.ao/en/features/game-launcher.html</guid>
       <source url="https://hut.ao/en/rss.xml">Game Launcher</source>
-      <description>Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings; Click on the Game Launcher on the sidebar to get into game launcher&amp;apos;s...</description>
+      <description>Game Launcher Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings; Click on the Game Launcher on the sidebar to get into g...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Game Launcher</h1>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp" alt="Game Launcher" loading="lazy"></p>
 <ul>
 <li>Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings</li>
 <li>Click on the <code>Game Launcher</code> on the sidebar to get into game launcher's page
@@ -1304,10 +1477,8 @@ character's data, this will help you to share your character's data</li>
 </div>
 <ul>
 <li>
-<p>Enter Game Launcher page</p>
-</li>
-<li>
-<p>In the <code>General - Server</code> field, select the server you want</p>
+<p>Enter Game Launcher page
+In the <code>General - Server</code> field, select the server you want</p>
 <ul>
 <li>Current available serves options include:</li>
 </ul>
@@ -1320,8 +1491,12 @@ character's data, this will help you to share your character's data</li>
 </thead>
 <tbody>
 <tr>
-<td>CN</td>
+<td>CN Default</td>
 <td>Mainland China server</td>
+</tr>
+<tr>
+<td>CN NoTapTap</td>
+<td>Mainland China server without TapTap account login method</td>
 </tr>
 <tr>
 <td>BiliBili</td>
@@ -1421,6 +1596,17 @@ character's data, this will help you to share your character's data</li>
 </ul>
 </li>
 </ul>
+<h2> Resource Download</h2>
+<p>Game launcher in Snap Hutao also offers resource download feature, which lists real time Genshin Impact (CN server)
+client package and OTA package. User can click the hyperlink icon on each package's right side to redirect to browser to
+download them by user favored download tools.</p>
+<p>When you are updating the game client, you can do the following steps:</p>
+<ol>
+<li>Update official launcher to the latest</li>
+<li>In <code>Snap Hutao - Game Launcher - Resource Download</code>, find needed client OTA package and installed language OTA package</li>
+<li>Move all package to folder where game client located</li>
+<li>Start official launcher, click on update button. The launcher should skip the download and directly starts to unzip the OTA packages to update client</li>
+</ol>
 <h2> Advanced Features</h2>
 <div class="hint-container danger">
 <p class="hint-container-title">Warning</p>
@@ -1465,24 +1651,8 @@ on your own.</li>
 </ul>
 </li>
 </ul>
-<h3> Multi-Client</h3>
-<div class="hint-container danger">
-<p class="hint-container-title">Warning</p>
-<p>Multiple instances of the game client is a far more dangerous feature compared to unlocking the framerate limit.
-You should personally or invite a technically knowledgeable professional to review the code and make your own judgment
-on whether to use this feature.</p>
-<p><strong>Using this feature may cause the anti-cheat system in Genshin Impact to fail to load, and the game client will report
-this situation to miHoYo's servers.</strong></p>
-</div>
-<ol>
-<li>Run Snap Hutao as administrator</li>
-<li>Enter Game Launcher page</li>
-<li>At the bottom of the page, enable <code>Multi-Client</code> option</li>
-<li>Click <code>Launch</code> button on the top-right of the window</li>
-<li>Wait for 12 seconds before entering the game (open the gate)</li>
-<li>Repeat step 4 and 5 to launch next client instance</li>
-</ol>
 ]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Hutao Database / Abyss Record</title>
@@ -1563,7 +1733,7 @@ of each month on the gaming server timezone of your account
 <h3> Use Browser</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Info</p>
-<p>This method does not support HoYoLab</p>
+<p>This method does not support HoYoLAB</p>
 </div>
 <ul>
 <li>Open our <a href="/upload-abyss-data.js">JavaScript file</a>, copy the entire content</li>
@@ -1579,6 +1749,15 @@ of each month on the gaming server timezone of your account
 <li>After confirm it, the browser will upload your abyss record, do not turn off your browser</li>
 <li>You will receive a notification when your data is submitted</li>
 </ul>
+<h2> Data Sharing</h2>
+<p>Snap Hutao is contributing data to Hutao Database with other developers. You can view our Abyss Stats, and upload your
+Abyss data in multiple applications other than Snap Hutao.
+Currently, Snap Hutao is sharing Abyss data with following applications:</p>
+<ol>
+<li><a href="https://github.com/yoimiya-kokomi/miao-plugin/tree/master" target="_blank" rel="noopener noreferrer">Miao-Plugin for Yunzai-Bot</a></li>
+<li><a href="https://apps.apple.com/us/app/pizza-helper-for-genshin/id1635319193" target="_blank" rel="noopener noreferrer">Pizza Helper for Genshin</a></li>
+<li>WeChat Mini Program: Ysin</li>
+</ol>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
@@ -1594,7 +1773,7 @@ Abyss stats, all collected characters will be included <a href="#footnote-ref4" 
 </ol>
 </section>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01VNtgaU1g6du5Mh1Oo_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01cAHDDi1g6dyEPgDBp_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Software Settings</title>
@@ -1627,7 +1806,7 @@ Abyss stats, all collected characters will be included <a href="#footnote-ref4" 
 <li>Device ID</li>
 </ul>
 <h2> Snap Hutao Account </h2>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKJFMi1g6dvSk6pVi_!!1797064093.png" alt="Hutao-account" loading="lazy">
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp" alt="Hutao-account" loading="lazy">
 Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
 Currently, you are already able to register and login to your Snap Hutao account in the settings page.</p>
 <h2> Appearance</h2>
@@ -1653,23 +1832,6 @@ Currently, you are already able to register and login to your Snap Hutao account
 </ul>
 </li>
 </ul>
-<p>@slidestart auto</p>
-<h2> Windows 10 Acrylic</h2>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png" alt="win10-Acrylic" loading="lazy"></p>
-<hr>
-<h2> Windows 11 Acrylic</h2>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01MXJZE61g6dtvtITxC_!!1797064093.jpg" alt="win11-Acrylic" loading="lazy"></p>
-<hr>
-<h2> Windows 11 Mica</h2>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01aW0iV71g6du5WAz9w_!!1797064093.jpg" alt="win11-Mica" loading="lazy"></p>
-<hr>
-<h2> Windows 11 MicaAlt</h2>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN010BwmBI1g6du9bi7C0_!!1797064093.jpg" alt="win11-MicaAlt" loading="lazy"></p>
-<p>@slideend</p>
-<h2> Wish History</h2>
-<ul>
-<li>In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature</li>
-</ul>
 <h2> Game</h2>
 <ul>
 <li>
@@ -1691,49 +1853,40 @@ Currently, you are already able to register and login to your Snap Hutao account
 </ul>
 </li>
 </ul>
+<h2> Wish History</h2>
+<ul>
+<li>In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature</li>
+</ul>
+<h2> Geetest Verification</h2>
+<p>MiYouShe uses Geetest verification to block requests not from real human operations, so some requests from Snap Hutao,
+such as claim check-in reward and fetch Real-time Notes data may be failed due to marked as robot operation.
+If you have a third party service to bypass Geetest verification, you can config this setting to pass verification
+parameters to service provider you used.</p>
+<p>Successfully config this setting will help Snap Hutao pass verification when fetching data from Real-time Notes and
+claiming check-in rewards, and avoid <code>-1034</code> error from MiYouShe.</p>
 <h2> Storage</h2>
 <ul>
-<li>
-<p>Open Data Folder</p>
+<li>Open Data Folder
 <ul>
 <li>Click this field to open data folder that contains user data, log, and metadata</li>
 </ul>
 </li>
-<li>
-<p>Change Data Directory</p>
+<li>Change Data Directory
 <ul>
 <li>This field allows you to change the data directory to path you want</li>
 </ul>
 </li>
-<li>
-<p>Open Cache Folder</p>
+<li>Open Cache Folder
 <ul>
 <li>Click this field will open cache folder that saves image assets used by Snap Hutao</li>
 </ul>
 </li>
-<li>
-<p>Reset Image Resource</p>
+<li>Reset Image Resource
 <ul>
 <li>This option allows user to reset image cache when there are too many image failed to load. The program will
 re-download images resource at next start-up</li>
 </ul>
 </li>
-</ul>
-<h3> MiHoYo BBS/HoYoLab Daily Check-in</h3>
-<div class="hint-container tip">
-<p class="hint-container-title">Tips</p>
-<p>Daily Check-in feature in Snap Hutao is mainly used to check account login status</p>
-</div>
-<ul>
-<li>How to use
-<ul>
-<li>First, login to your MiHoYo BBS/HoYoLab account and select it</li>
-<li>Click on the field</li>
-<li>Then Snap Hutao will pop up the check-in page and you can check-in manually</li>
-</ul>
-</li>
-<li>Interface when this feature is working:
-<img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png" alt="Daily check in" loading="lazy"></li>
 </ul>
 <h2> Dangerous Features</h2>
 <ul>
@@ -1758,22 +1911,22 @@ re-download images resource at next start-up</li>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKJFMi1g6dvSk6pVi_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>MiHoYo BBS Account Switch</title>
       <link>https://hut.ao/en/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/en/features/mhy-account-switch.html</guid>
       <source url="https://hut.ao/en/rss.xml">MiHoYo BBS Account Switch</source>
-      <description>There are two types of MiHoYo BBS, MiYouShe and HoYoLab. MiYouShe refers to Mainland China version, HoYoLab refers to global version, both of them are accepted by Snap Hutao The...</description>
+      <description>There are two types of MiHoYo BBS, MiYouShe and HoYoLAB. MiYouShe refers to Mainland China version, HoYoLAB refers to global version, both of them are accepted by Snap Hutao The...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> MiHoYo BBS Account Switch</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
-<p>There are two types of MiHoYo BBS, MiYouShe and HoYoLab.
-MiYouShe refers to Mainland China version, HoYoLab refers to global version, both of them are accepted by Snap Hutao</p>
+<p>There are two types of MiHoYo BBS, MiYouShe and HoYoLAB.
+MiYouShe refers to Mainland China version, HoYoLAB refers to global version, both of them are accepted by Snap Hutao</p>
 <ul>
 <li>The document in page is talking about <strong>MiHoYo BBS account</strong>, not Genshin Impact's <strong>in-game account</strong></li>
 <li>Before starting using Snap Hutao, you must initial your MiHoYo BBS account by login to your account in official mobile application
@@ -1783,45 +1936,46 @@ MiYouShe refers to Mainland China version, HoYoLab refers to global version, bot
 </li>
 </ul>
 </div>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" alt="多帐号管理样图" loading="lazy"></p>
-<ul>
-<li>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01OqYy931g6dyGYLC2E_!!1797064093.png_.webp" alt="MiHoYo BBS Accounts" loading="lazy"></p>
 <p>At the left bottom corner, you can find the account menu above the <code>Settings</code> button. In the pop-up account menu,
-you can find the entry to login in to your MiYouShe and HoYoLab account:</p>
-</li>
-<li>
-<p>Click on <code>Web Login</code></p>
+you can find the entry to login in to your MiYouShe and HoYoLAB account:</p>
+<ul>
+<li>Click on <code>Web Login</code>
 <ul>
 <li>In the pop-up build-in browser, login with your account</li>
 <li>Click <code>I'm logged in</code> button on the top right, after you have logged into your account</li>
 <li>Then your account will be added to Snap Hutao, the browser will close automatically</li>
 </ul>
 </li>
-<li>
-<p>Alternatively, you can enter your MiHoYo BBS cookie list by click on <code>Input Manually</code> button</p>
+<li>Alternatively, you can enter your MiHoYo BBS cookie list by click on <code>Input Manually</code> button
 <ul>
-<li>If you do so, the cookies must contains <code>Stoken</code> field</li>
-<li>You can refer to <a href="/en/advanced/get-stoken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 Stoken 的 cookie</a> document for methods to capture cookie with <code>Stoken</code></li>
+<li>If you do so, the cookies must contains <code>SToken</code> field</li>
+<li>You can refer to <a href="/en/advanced/get-SToken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 SToken 的 cookie</a> document for methods to capture cookie with <code>SToken</code></li>
 </ul>
 </li>
-<li>
-<p>After added your MiHoYo BBS account, you need to switch to account you want in the account menu, to activate it</p>
+<li>After added your MiHoYo BBS account, you need to switch to account you want in the account menu, to activate it
+<ul>
+<li>You can always switch your MiHoYo BBS account in the account menu, and you are also allowed to copy account's cookie or remove account there</li>
+<li>After select an account in the panel, you can also
+<ul>
+<li>Click <code>Refresh Cookie</code> to update local cookie</li>
+<li>Click <code>Claim Check-In Reward</code> to get daily check-in reward. For MiYouShe account, you need to bypass Geetest verification first.</li>
+</ul>
 </li>
-<li>
-<p>You can always switch your MiHoYo BBS account in the account menu, and you are also allowed to copy account's cookie or remove account there</p>
+</ul>
 </li>
 </ul>
 <div class="hint-container info">
 <p class="hint-container-title">Security Tips</p>
 <ul>
-<li><code>Stoken</code> is a security sensitive cookie field, you <strong>should NEVER</strong> store it in cloud-based software or device that you cannot guarantee the safety (such as public computers).</li>
-<li>You can copy accounts' cookie with <code>Stoken</code> from Snap Hutao, but you should carefully consider if the receiver is trustworthy to have <code>Stoken</code> cookie</li>
+<li><code>SToken</code> is a security sensitive cookie field, you <strong>should NEVER</strong> store it in cloud-based software or device that you cannot guarantee the safety (such as public computers).</li>
+<li>You can copy accounts' cookie with <code>SToken</code> from Snap Hutao, but you should carefully consider if the receiver is trustworthy to have <code>SToken</code> cookie</li>
 <li><strong>When you are signing in to your MiHoYo BBS account in Snap Hutao, the data are only been processed by MiHoYo's official server and local Snap Hutao program,
 no third-party server (including any server from Snap Hutao) will involve in this process.</strong></li>
 </ul>
 </div>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01OqYy931g6dyGYLC2E_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Weapon WIKI</title>
@@ -1833,7 +1987,7 @@ no third-party server (including any server from Snap Hutao) will involve in thi
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Weapon WIKI</h1>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01jbzlTH1g6du6KfSmF_!!1797064093.png" alt="weapon-wiki" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01dj5xBC1g6dyEKqaPQ_!!1797064093.png_.webp" alt="weapon-wiki" loading="lazy"></p>
 <p>Weapon WIKI is a Snap Hutao build-in WIKI feature used to look up each weapon's information</p>
 <h2> Included Data</h2>
 <ul>
@@ -1858,12 +2012,13 @@ no third-party server (including any server from Snap Hutao) will involve in thi
 <li>Weapon's numerical value at each refinement level</li>
 </ul>
 </li>
+<li>Weapon's ascension materials</li>
 <li>Weapon's <strong>most used by characters</strong> data provided by Hutao Database</li>
 </ul>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01jbzlTH1g6du6KfSmF_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01dj5xBC1g6dyEKqaPQ_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>User Data and Privacy Notice</title>
@@ -1934,19 +2089,14 @@ when program stops unexpectedly or throw an error, including - User device ID - 
 ]]></content:encoded>
     </item>
     <item>
-      <title>User Agreement and Legal Disclaime</title>
+      <title>User Agreement and Legal Notices</title>
       <link>https://hut.ao/en/statements/tos.html</link>
       <guid>https://hut.ao/en/statements/tos.html</guid>
-      <source url="https://hut.ao/en/rss.xml">User Agreement and Legal Disclaime</source>
-      <description>This page of document was original written in Simplified Chinese. It&amp;apos;s translated by AI-driven translate software, and still under review. If there is any conflict between the c...</description>
+      <source url="https://hut.ao/en/rss.xml">User Agreement and Legal Notices</source>
+      <description>General Provisions This &amp;quot;User Agreement and Legal Disclaimer&amp;quot; (hereinafter referred to as &amp;quot;Terms&amp;quot; or &amp;quot;User Agreement&amp;quot;) applies to all software works developed by the DGP-Studio ...</description>
       <category>Announcement</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> User Agreement and Legal Disclaime</h1>
-<div class="hint-container info">
-<p class="hint-container-title">Info</p>
-<p>This page of document was original written in Simplified Chinese. It's translated by AI-driven translate software, and still under review.
-If there is any conflict between the content of the document on this page and the original document, please refer to the <a href="/zh/statements/tos.html" target="blank">original document</a>.</p>
-</div>
+      <content:encoded><![CDATA[<h1> User Agreement and Legal Notices</h1>
 <h2> General Provisions</h2>
 <ul>
 <li>This "User Agreement and Legal Disclaimer" (hereinafter referred to as "Terms" or "User Agreement") applies to all software works developed by the DGP-Studio development team (hereinafter referred to as "the team" or "we"), the official website of each development project, and affiliated self-hosted media accounts.
@@ -2056,12 +2206,12 @@ If there is any conflict between the content of the document on this page and th
       <link>https://hut.ao/en/features/achievements.html</link>
       <guid>https://hut.ao/en/features/achievements.html</guid>
       <source url="https://hut.ao/en/rss.xml">Achievement Management</source>
-      <description>Snap Hutao offers local achievement management feature, users can view and manage status of achievement At first time use, you will follow the instruction to create an archive a...</description>
+      <description>Achievement Screenshot Snap Hutao offers local achievement management feature, users can view and manage status of achievement At first time use, you will follow the instruction...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Achievement Management</h1>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01oe2JG41g6dvW3vCvO_!!1797064093.png" alt="" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xJaPGy1g6dyAWV0vm_!!1797064093.png_.webp" alt="Achievement Screenshot" loading="lazy"></p>
 <p>Snap Hutao offers local achievement management feature, users can view and manage status of achievement</p>
 <ul>
 <li>At first time use, you will follow the instruction to create an archive and name it</li>
@@ -2086,7 +2236,7 @@ If there is any conflict between the content of the document on this page and th
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01oe2JG41g6dvW3vCvO_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xJaPGy1g6dyAWV0vm_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Wish History</title>
@@ -2106,10 +2256,11 @@ still keep tracking how many Timmie's pigeons you've killed for the whole year)<
 local device. This is the purpose of wish history export feature in Snap Hutao.</p>
 <p>Regarding the technical principles of exporting Genshin Impact gacha records,
 you can refer to our article on <a href="/en/advanced/Gacha-system-and-export-principal.html" target="blank">Gacha System and Export Principles</a></p>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" alt="祈愿导出" loading="lazy"></p>
-<p>As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp" alt="wish export" loading="lazy"></p>
+<p><strong>As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
 total number of wishes, current pity count, quantity and percentage of obtained items with different rarity, number of
-times a 5-star rarity item was not obtained and the current pity status.</p>
+times a 5-star rarity item was not obtained and the current pity status.</strong></p>
+<p><strong>Additionally, user with Hutao Cloud can view prediction data calculated by Hutao Cloud server</strong></p>
 <div class="hint-container note">
 <p class="hint-container-title">Delay in Gacha Data Export</p>
 <p>Snap Hutao retrieves gacha records from the MiHoYo servers, which means that recently made wishes may not be immediately
@@ -2117,13 +2268,13 @@ available. When you see the latest batch of gacha records in the game's own hist
 statistics from Snap Hutao.</p>
 </div>
 <h2> Fetch Wish History</h2>
-<h3> Refresh with Stoken Cookie </h3>
+<h3> Refresh with SToken Cookie </h3>
 <div class="hint-container info">
 <p class="hint-container-title">Hint</p>
 <ul>
 <li>This method requires user to sign in to MiHoYo BBS account in Snap Hutao, refer to
 <a href="/en/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> to get to know how to login to your MiHoYo BBS account</li>
-<li><strong>Stoken Cookie refresh method does not support global server (HoYoLab)</strong></li>
+<li><strong>SToken Cookie refresh method does not support global server (HoYoLAB)</strong></li>
 </ul>
 </div>
 <ul>
@@ -2179,6 +2330,49 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
 </li>
 <li>Confirm and export data</li>
 </ul>
+<h2> Wish History Cloud Sync </h2>
+<blockquote>
+<p>Wish history cloud sync is designed on Snap Hutao Account.
+You need to <a href="hutao-settings#snap-hutao-account">register an account in the settings</a> to use this feature</p>
+</blockquote>
+<p>With this feature, you can upload your wish history to Hutao Cloud, to avoid risk of losing data, and make it easier to
+transfer data between devices.</p>
+<h3> Cloud Sync Privilege</h3>
+<p>Cloud synchronization is a service uses Snap Hutao's server resource, so it is a time-limited feature.
+Currently, you have the following ways to enable Cloud Sync:</p>
+<ol>
+<li>Donate us on AiFaDian. The privilege will automatically assigned to Snap Hutao Account with same email address on AiFaDian</li>
+<li>For all registered user, after upload Abyss record in each schedule, 3-day privilege will be automatically assigned
+<ul>
+<li>This is a method you can constantly use benefit of Hutao Cloud</li>
+</ul>
+</li>
+<li>Users who make contributions to our open-source community, including code development, program designing,
+localization translations, can contact the dev team to get your benefit for free
+<ul>
+<li>We are designing an automation system to auto assign license to our contributors, it will be live with more
+development of Hutao Cloud</li>
+</ul>
+</li>
+</ol>
+<p>After your Hutao Cloud privilege expired, you will not be able to upload, download or delete your data, but your data
+will not be removed. You can continue to operate it once you get your privilege again.</p>
+<h3> Upload</h3>
+<ul>
+<li>In wish export page, select the archive you need to sync data</li>
+<li>Click <code>Snap Hutao Cloud</code> button on the top right</li>
+<li>Click <code>Upload Current Wish Archive</code>, and then your data will be backup to the cloud</li>
+</ul>
+<h3> Download</h3>
+<ul>
+<li>In wish export page, Click <code>Snap Hutao Cloud</code> button on the top right</li>
+<li>Click download button on the right side of UID which data needs to be downloaded</li>
+</ul>
+<h3> Delete</h3>
+<ul>
+<li>In wish export page, Click <code>Snap Hutao Cloud</code> button on the top right</li>
+<li>Click delete button on the right side of UID which data needs to be deleted</li>
+</ul>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
@@ -2187,7 +2381,7 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
 </ol>
 </section>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Statements</title>
@@ -2264,40 +2458,40 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
 <h2> Feature Migration</h2>
 <p>Snap Hutao project was originally from the Snap Genshin project. Currently, we are still migrating features.</p>
 <p>Documents will be provided on this website for all migrated features. The migration process is shown below:</p>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> In-game announcements</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> MiHoYo BBS account management</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> Game Launcher</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> Wish history export</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> WIKI - Daily Materials</label>
+<ul>
+<li>[x] In-game announcements</li>
+<li>[x] MiHoYo BBS account management</li>
+<li>[x] Game Launcher</li>
+<li>[x] Wish history export</li>
+<li>[ ] WIKI - Daily Materials
 <ul>
 <li>Will be integrated to Dev Plan feature</li>
 </ul>
 </li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> WIKI - Weekly Materials</label>
+<li>[ ] WIKI - Weekly Materials
 <ul>
 <li>Will be integrated to Dev Plan feature</li>
 </ul>
 </li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> WIKI - Characters</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> WIKI - Weapons</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> Achievement</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> Hutao Abyss Database</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> Dev Plan</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> My character stat</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> Players stat</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> Custom browser</label></li>
+<li>[x] WIKI - Characters</li>
+<li>[x] WIKI - Weapons</li>
+<li>[x] Achievement</li>
+<li>[x] Hutao Abyss Database</li>
+<li>[x] Dev Plan</li>
+<li>[x] My character stat</li>
+<li>[ ] Players stat</li>
+<li>[ ] Custom browser</li>
 </ul>
 <h2> New features</h2>
 <p>The following features are planned to add when the project was established.</p>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> Wish history cloud sync</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> <a href="/en/i18n.html" target="blank">Localization</a></label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> International server support</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> Game Launcher</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> Server Switch</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> Wish history export</label></li>
+<ul>
+<li>[ ] Wish history cloud sync</li>
+<li>[ ] <a href="/en/i18n.html" target="blank">Localization</a></li>
+<li>[x] International server support
+<ul>
+<li>[x] Game Launcher</li>
+<li>[x] Server Switch</li>
+<li>[x] Wish history export</li>
 </ul>
 </li>
 </ul>
