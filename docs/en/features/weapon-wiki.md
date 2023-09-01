@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 10
+tag: [Weapon, WIKI, Data]
+order: 11
 comment: false
 ---
 
@@ -24,4 +25,5 @@ Weapon WIKI is a Snap Hutao build-in WIKI feature used to look up each weapon's 
     - Weapon's numerical value at value you **switch to**
   - Weapon refinement data
     - Weapon's numerical value at each refinement level
+  - Weapon's ascension materials
   - Weapon's **most used by characters** data provided by Hutao Database

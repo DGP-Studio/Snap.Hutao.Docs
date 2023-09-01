@@ -3,7 +3,8 @@ headerDepth: 0
 category:
   - 功能
   - 教程
-order: 10
+tag: [武器, WIKI, 数据]
+order: 11
 redirectFrom: /features/weapon-wiki.html
 comment: false
 ---
@@ -27,4 +28,5 @@ comment: false
     - **可切换**至对应等级的武器各项数值
   - 武器精炼信息
     - 对应精炼阶数的精炼属性
+  - 武器养成材料
   - 根据胡桃数据库的统计信息而展示的**武器使用**的相关推荐
