@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 7
+tag: [深境螺旋, 深渊, 深渊数据库]
+order: 8
 redirectFrom: /features/hutao-API.html
 comment: false
 ---
@@ -17,17 +18,17 @@ comment: false
 ::: tabs
 
 @tab 角色使用率
-![character-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01VNtgaU1g6du5Mh1Oo_!!1797064093.png_.webp)
+![character-usage-rate](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01QnrxoH1g6dyBQazad_!!1797064093.png_.webp)
 @tab 角色出场率
-![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKGIZn1g6du8k0Rhb_!!1797064093.png_.webp)
+![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01SZxOoc1g6dyBJC3g3_!!1797064093.png_.webp)
 @tab 队伍出场次数
-![hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ZRakBS1g6duBCh0c1_!!1797064093.png_.webp)
+![hutaoapi](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01oERCCj1g6dyHvhPXj_!!1797064093.png_.webp)
 @tab 角色持有率
-![character-held-rate](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01EUjFsJ1g6du8k0NYy_!!1797064093.png_.webp)
+![character-held-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN0112Fro61g6dyGCiFxq_!!1797064093.png_.webp)
 @tab 个人数据统计
-![personal-record-stat](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xMLXhn1g6du6lPUDD_!!1797064093.png_.webp)
+![personal-record-stat](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01wrgGYm1g6dyH6BpIL_!!1797064093.png_.webp)
 @tab 个人数据详情
-![personal-record-details](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01xtWJfr1g6dtvjZLWZ_!!1797064093.png_.webp)
+![personal-record-details](https://img.alicdn.com/imgextra/i1/1797064093/O1CN012Rt60l1g6dyGCgiHv_!!1797064093.png_.webp)
 
 :::
 
@@ -63,12 +64,12 @@ comment: false
 - 点击右上角的`刷新数据`以确保胡桃工具箱客户端已经获取到最新的个人深境螺旋数据
 - 点击右上角的`上传数据`以上传你的深境螺旋数据
   - 这可能需要花费数秒，上传成功后你将会看到如下图的成功提示
-    ![upload-hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Zt7yQp1g6duBDALeX_!!1797064093.png_.webp)
+    ![upload-hutaoapi](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01yniArT1g6dyJIJHqK_!!1797064093.png_.webp)
 
 ### 使用浏览器
 
 ::: info
-该方法不适用于 HoYoLab
+该方法不适用于 HoYoLAB
 :::
 
 - 打开我们的 [JavaScript 脚本](/upload-abyss-data.js)，复制全部内容
@@ -83,6 +84,14 @@ comment: false
 - 稍等片刻，你应该能看到请求上传的确认窗口
 - 在确认后，浏览器将上传你的深渊数据，请勿关闭米游社页面
 - 在上传完成后，浏览器会有确认完成的提示窗口
+
+## 数据共享
+
+Snap Hutao 与其它开发者共同维护着胡桃数据库，你可以在多个应用中查看深渊统计数据并上传你的深渊数据。目前，Snap Hutao 正在与以下应用共享深渊数据：
+
+1. [Miao-Plugin for Yunzai-Bot](https://github.com/yoimiya-kokomi/miao-plugin/tree/master)
+2. [原神披萨助手](https://apps.apple.com/cn/app/%E6%8A%AB%E8%90%A8%E5%B0%8F%E5%8A%A9%E6%89%8B/id1635319193)
+3. 微信小程序 Ysin
 
 [^first]: 在当前层中不同间内多次出现的同一个角色仅记 1 次出场次数
 [^first-2]: 在当前层中不同间内多次出现的同一个角色仅记 1 次出场次数

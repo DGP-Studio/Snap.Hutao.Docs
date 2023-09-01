@@ -1,7 +1,9 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 12
+tag:
+  [Snap Hutao Cloud, Geetest verification, Language settings, Advanced settings]
+order: 14
 comment: false
 ---
 
@@ -28,7 +30,7 @@ This part has the following information:
 
 ## Snap Hutao Account <Badge text="Beta" type="info" />
 
-![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKJFMi1g6dvSk6pVi_!!1797064093.png)
+![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp)
 Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
 Currently, you are already able to register and login to your Snap Hutao account in the settings page.
 
@@ -46,36 +48,6 @@ Currently, you are already able to register and login to your Snap Hutao account
     - MicaAlt (Windows 11 only)
   - The setting will take effect immediately
 
-@slidestart auto
-
-## Windows 10 Acrylic
-
-![win10-Acrylic](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png)
-
----
-
-## Windows 11 Acrylic
-
-![win11-Acrylic](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01MXJZE61g6dtvtITxC_!!1797064093.jpg)
-
----
-
-## Windows 11 Mica
-
-![win11-Mica](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01aW0iV71g6du5WAz9w_!!1797064093.jpg)
-
----
-
-## Windows 11 MicaAlt
-
-![win11-MicaAlt](https://img.alicdn.com/imgextra/i3/1797064093/O1CN010BwmBI1g6du9bi7C0_!!1797064093.jpg)
-
-@slideend
-
-## Wish History
-
-- In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature
-
 ## Game
 
 - Game Path
@@ -88,36 +60,31 @@ Currently, you are already able to register and login to your Snap Hutao account
   - When you are using web cache refresh method in the wish history feature and receiving authkey expiration error, you can try this operation to fix the error
   - Click on this field to execute the operation
 
+## Wish History
+
+- In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature
+
+## Geetest Verification
+
+MiYouShe uses Geetest verification to block requests not from real human operations, so some requests from Snap Hutao,
+such as claim check-in reward and fetch Real-time Notes data may be failed due to marked as robot operation.
+If you have a third party service to bypass Geetest verification, you can config this setting to pass verification
+parameters to service provider you used.
+
+Successfully config this setting will help Snap Hutao pass verification when fetching data from Real-time Notes and
+claiming check-in rewards, and avoid `-1034` error from MiYouShe.
+
 ## Storage
 
 - Open Data Folder
-
   - Click this field to open data folder that contains user data, log, and metadata
-
 - Change Data Directory
-
   - This field allows you to change the data directory to path you want
-
 - Open Cache Folder
-
   - Click this field will open cache folder that saves image assets used by Snap Hutao
-
 - Reset Image Resource
   - This option allows user to reset image cache when there are too many image failed to load. The program will
     re-download images resource at next start-up
-
-### MiHoYo BBS/HoYoLab Daily Check-in
-
-::: tip
-Daily Check-in feature in Snap Hutao is mainly used to check account login status
-:::
-
-- How to use
-  - First, login to your MiHoYo BBS/HoYoLab account and select it
-  - Click on the field
-  - Then Snap Hutao will pop up the check-in page and you can check-in manually
-- Interface when this feature is working:
-  ![Daily check in](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01WCLbxe1g6duCXB6tc_!!1797064093.png)
 
 ## Dangerous Features
 

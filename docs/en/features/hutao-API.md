@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 7
+tag: [Spiral Abyss, Spiral Abyss Database, Spiral Abyss Analytics]
+order: 8
 comment: false
 ---
 
@@ -19,17 +20,17 @@ Snap Hutao offers two major statistic features associated with Spiral Abyss chal
 ::: tabs
 
 @tab Character Usage
-![character-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01VNtgaU1g6du5Mh1Oo_!!1797064093.png)
+![character-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01cAHDDi1g6dyEPgDBp_!!1797064093.png_.webp)
 @tab Character Appearance
-![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKGIZn1g6du8k0Rhb_!!1797064093.png)
+![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oGusSy1g6dyD7kKoP_!!1797064093.png_.webp)
 @tab Teams Appearance
-![hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ZRakBS1g6duBCh0c1_!!1797064093.png)
+![Teams Appearance](https://img.alicdn.com/imgextra/i2/1797064093/O1CN010K1SE91g6dyGYLnWB_!!1797064093.png_.webp)
 @tab Character Constellation
-![character-held-rate](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01EUjFsJ1g6du8k0NYy_!!1797064093.png)
+![character-held-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01O2jCWZ1g6dy4fzxlw_!!1797064093.png_.webp)
 @tab Personal Statistics
-![personal-record-stat](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xMLXhn1g6du6lPUDD_!!1797064093.png)
+![personal-record-stat](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YDXi8r1g6dyGBmAt2_!!1797064093.png_.webp)
 @tab Personal Stats Details
-![personal-record-details](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01xtWJfr1g6dtvjZLWZ_!!1797064093.png)
+![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YwoXln1g6dyEKoJ2r_!!1797064093.png_.webp)
 
 :::
 
@@ -72,7 +73,7 @@ data of **all** Genshin Impact players. The data is for reference only.
 ### Use Browser
 
 ::: info
-This method does not support HoYoLab
+This method does not support HoYoLAB
 :::
 
 - Open our [JavaScript file](/upload-abyss-data.js), copy the entire content
@@ -84,6 +85,16 @@ This method does not support HoYoLab
 - Wait for a moment, and you will see data upload request window
 - After confirm it, the browser will upload your abyss record, do not turn off your browser
 - You will receive a notification when your data is submitted
+
+## Data Sharing
+
+Snap Hutao is contributing data to Hutao Database with other developers. You can view our Abyss Stats, and upload your
+Abyss data in multiple applications other than Snap Hutao.
+Currently, Snap Hutao is sharing Abyss data with following applications:
+
+1. [Miao-Plugin for Yunzai-Bot](https://github.com/yoimiya-kokomi/miao-plugin/tree/master)
+2. [Pizza Helper for Genshin](https://apps.apple.com/us/app/pizza-helper-for-genshin/id1635319193)
+3. WeChat Mini Program: Ysin
 
 [^first]: When same character appearances in the same floor but different level, appearance time only count for 1
 [^first-2]: When same character appearances in the same floor but different level, appearance time only count for 1

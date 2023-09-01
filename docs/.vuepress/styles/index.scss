@@ -1,5 +1,5 @@
 // place your custom styles here
-header.navbar {
+header.vp-navbar {
   // 隐藏导航栏和导航栏菜单外链图标
   svg.external-link-icon {
     position: relative;
@@ -50,5 +50,22 @@ header.navbar {
         box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
       }
     }
+  }
+}
+
+.vp-hero-info-wrapper {
+  min-height: 600px;
+}
+
+// 去除首页赞助商表格边框及超链接图标
+main.vp-project-home{
+  table{
+    display: inline-block;
+    th{
+      border-color: transparent;
+    }
+  }
+  svg.external-link-icon{
+    display: none;
   }
 }

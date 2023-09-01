@@ -1,14 +1,15 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 8
+tag: [养成计划, 养成计算器]
+order: 9
 redirectFrom: /features/developer-plan.html
 comment: false
 ---
 
 # 养成计划
 
-![dev-plan](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png_.webp)
+![dev-plan](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01O0N4DT1g6dyEhgjZn_!!1797064093.png_.webp)
 
 ## 添加养成目标进入材料清单
 
@@ -39,7 +40,3 @@ comment: false
   - 背包物品的具体材料信息，**对应于**其修改时，所切换至的养成计划
 - 在"胡桃工具箱"的整体界面右上部分，可点击"删除计划"按钮，将当前的养成计划删除
   - 在删除当前养成计划后，处于切换至该养成计划时，输入的背包物品信息将一同删除
-
-## 功能说明
-
-此功能尚在完善阶段，若您有建设性的建议，或发现了显著的问题，请按[此页面](../statements/bug-report.md)直接向我们反馈，感谢您的贡献！

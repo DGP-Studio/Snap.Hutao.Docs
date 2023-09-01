@@ -3,21 +3,9 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/zh/": [
     "",
-    {
-      icon: "workingDirectory",
-      text: "项目介绍",
-      link: "project",
-    },
-    {
-      icon: "network",
-      text: "国际化支持",
-      link: "i18n",
-    },
-    {
-      icon: "play",
-      text: "快速开始",
-      link: "quick-start",
-    },
+    "project",
+    "i18n",
+    "quick-start",
     {
       icon: "read",
       text: "功能指南",

@@ -39,7 +39,7 @@ export default defineUserConfig({
     "/en/": {
       lang: "en-US",
       title: "Snap Hutao",
-      description: "Super utilitarian Genshin Impact Tool",
+      description: "Super utilitarian Genshin Impact Toolkit",
     },
   },
 

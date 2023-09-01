@@ -3,6 +3,7 @@ headerDepth: 0
 category: [公告]
 redirectFrom: /project.html
 comment: false
+icon: workingDirectory
 order: 6
 ---
 

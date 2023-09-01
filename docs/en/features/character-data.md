@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 6
+tag: [Character showcase, Character statistics]
+order: 7
 comment: false
 ---
 
@@ -18,7 +19,7 @@ My characters is a character statistics feature that allows Snap Hutao to read c
 including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for
 each character.
 
-![属性统计示例图](https://img.alicdn.com/imgextra/i3/1797064093/O1CN016ZFB021g6du6Xvrbv_!!1797064093.png)
+![My Character Screenshot](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01JOlGqw1g6dyB7NkLu_!!1797064093.png_.webp)
 
 ## Sync Character Data
 

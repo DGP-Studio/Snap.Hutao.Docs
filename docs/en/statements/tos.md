@@ -8,12 +8,7 @@ icon: license
 order: 4
 ---
 
-# User Agreement and Legal Disclaime
-
-::: info
-This page of document was original written in Simplified Chinese. It's translated by AI-driven translate software, and still under review.
-If there is any conflict between the content of the document on this page and the original document, please refer to the [original document](/zh/statements/tos.html).
-:::
+# User Agreement and Legal Notices
 
 ## General Provisions
 

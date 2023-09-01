@@ -1,28 +1,20 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 4
+tag: [成就]
+order: 5
 redirectFrom: /features/achievements.html
 comment: false
 ---
 
 # 成就管理
 
-![](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01eddfVC1g6du4Xdd9P_!!1797064093.png_.webp)
+![成就管理界面](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01gdzS4e1g6dyH1G5wh_!!1797064093.png_.webp)
 
 胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态
 
 - 在第一次使用时，你需要根据提示点击`创建新存档`按钮以创造一个成就存档并为其命名
 - 创建第一个资料页后，你可以点击右上角的`创建新存档`来继续为更多的帐号创建成就记录档案
-
-## 视频指南
-
-对于大多数人而言，遵循本页文档会有更高的效率。
-
-但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。
-::: details 胡桃工具箱视频指南 6 - 成就管理篇
-<BiliBili bvid="BV1WL411y7q1" />
-:::
 
 ## 成就导入
 

@@ -1,14 +1,15 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 9
+tag: [角色, WIKI, 数据]
+order: 10
 redirectFrom: /features/character-wiki.html
 comment: false
 ---
 
 # 角色资料
 
-![characters-wiki](https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png_.webp)
+![characters-wiki](https://img.alicdn.com/imgextra/i4/1797064093/O1CN011A6QZM1g6dyEd2Bzu_!!1797064093.png_.webp)
 
 角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki
 
