@@ -1,19 +1,24 @@
 ---
 headerDepth: 0
 category: [功能, 教程]
-order: 1
+order: 2
+tag: [仪表盘, 公告, 胡桃云]
 redirectFrom: /features/character-wiki.html
 comment: false
 ---
 
 # 首页仪表盘
 
-![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SYGGdw1g6dyH1OHmD_!!1797064093.png_.webp)
+![仪表盘](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SYGGdw1g6dyH1OHmD_!!1797064093.png_.webp)
 
 胡桃工具箱启动后会默认进入首页仪表盘，上半部分为你的个人游戏数据，下半部分为近期游戏公告及游戏活动倒计时。
 
 个人游戏数据仪表盘包含以下内容：
 
+- Snap Hutao 公告
+  - 若 Snap Hutao 开发组发布了新的公告则会在仪表盘上方显示，你可以手动关闭这些公告
+- 胡桃帐号
+  - 若你已登录胡桃帐号，将会在顶部显示胡桃邮箱帐号；若未登录将会有注册和登录提示
 - 游戏启动器
   - 你可以直接在仪表盘中选择帐号并启动游戏
 - 祈愿记录

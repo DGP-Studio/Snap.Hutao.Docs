@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 1
+order: 2
+tag: [Dashboard, Announcement, Snap Hutao Cloud]
 redirectFrom: /features/character-wiki.html
 comment: false
 ---
@@ -13,8 +14,13 @@ comment: false
 Snap Hutao will enter home dashboard by default when it's opened. The top part is your personal gaming data; the bottom
 part is recent game notice and event countdown in days and hours.
 
-Personal gaming data dashboard includes:
+Gaming data dashboard includes:
 
+- Snap Hutao Announcement
+  - If Snap Hutao dev team publish a new announcement, it will be shown on the dashboard, it can be manually closed
+- Snap Hutao Account
+  - If you have a signed in Snap Hutao account, the email address will be shown on the top; If not signed in, there will
+    be a register/login hint
 - Game launcher
   - You can select your account and start the game from dashboard
 - Wish history
