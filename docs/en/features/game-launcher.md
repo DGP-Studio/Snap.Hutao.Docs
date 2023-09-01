@@ -1,11 +1,14 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 2
+tag: [unlock framerate, convert server, switch account]
+order: 3
 comment: false
 ---
 
 # Game Launcher
+
+![Game Launcher](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp)
 
 - Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings
 - Click on the `Game Launcher` on the sidebar to get into game launcher's page
@@ -26,17 +29,18 @@ comment: false
 :::
 
 - Enter Game Launcher page
-- In the `General - Server` field, select the server you want
+  In the `General - Server` field, select the server you want
 
   - Current available serves options include:
 
-  | Option         | Server                                            |
-  | -------------- | ------------------------------------------------- |
-  | CN             | Mainland China server                             |
-  | BiliBili       | Chinese server with BiliBili account system       |
-  | Global Default | HoYoVerse servers                                 |
-  | Global Epic    | HoYoVerse servers with Epic Store payment gateway |
-  | Global Google  | HoYoVerse servers with Google Pay payment gateway |
+  | Option         | Server                                                    |
+  | -------------- | --------------------------------------------------------- |
+  | CN Default     | Mainland China server                                     |
+  | CN NoTapTap    | Mainland China server without TapTap account login method |
+  | BiliBili       | Chinese server with BiliBili account system               |
+  | Global Default | HoYoVerse servers                                         |
+  | Global Epic    | HoYoVerse servers with Epic Store payment gateway         |
+  | Global Google  | HoYoVerse servers with Google Pay payment gateway         |
 
 - click `Launcher` button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game
 
@@ -84,6 +88,19 @@ comment: false
   - **Height**, game window height, such as `1080`
   - **Display**, users with multiple displays can use this option to set which display to run the game
 
+## Resource Download
+
+Game launcher in Snap Hutao also offers resource download feature, which lists real time Genshin Impact (CN server)
+client package and OTA package. User can click the hyperlink icon on each package's right side to redirect to browser to
+download them by user favored download tools.
+
+When you are updating the game client, you can do the following steps:
+
+1. Update official launcher to the latest
+2. In `Snap Hutao - Game Launcher - Resource Download`, find needed client OTA package and installed language OTA package
+3. Move all package to folder where game client located
+4. Start official launcher, click on update button. The launcher should skip the download and directly starts to unzip the OTA packages to update client
+
 ## Advanced Features
 
 ::: danger
@@ -118,23 +135,3 @@ comment: false
   - `Max Framerate` limit is not changed in your graphic card settings
   - `Power Saving` mode is not disabled in power settings
   - Your graphic card is not powerful enough
-
-### Multi-Client
-
-::: danger
-
-Multiple instances of the game client is a far more dangerous feature compared to unlocking the framerate limit.
-You should personally or invite a technically knowledgeable professional to review the code and make your own judgment
-on whether to use this feature.
-
-**Using this feature may cause the anti-cheat system in Genshin Impact to fail to load, and the game client will report
-this situation to miHoYo's servers.**
-
-:::
-
-1. Run Snap Hutao as administrator
-2. Enter Game Launcher page
-3. At the bottom of the page, enable `Multi-Client` option
-4. Click `Launch` button on the top-right of the window
-5. Wait for 12 seconds before entering the game (open the gate)
-6. Repeat step 4 and 5 to launch next client instance
