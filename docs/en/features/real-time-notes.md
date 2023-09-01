@@ -14,7 +14,7 @@ you can check [MiHoYo BBS Account Switch](mhy-account-switch.html) for more info
 
 :::
 
-![live-data-tracking](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01tiu6aD1g6duB3mtYQ_!!1797064093.png)
+![live-data-tracking](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp)
 
 ## Add Role
 

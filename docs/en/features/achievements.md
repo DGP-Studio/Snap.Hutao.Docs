@@ -7,7 +7,7 @@ comment: false
 
 # Achievement Management
 
-![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01oe2JG41g6dvW3vCvO_!!1797064093.png)
+![Achievement Screenshot](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xJaPGy1g6dyAWV0vm_!!1797064093.png_.webp)
 
 Snap Hutao offers local achievement management feature, users can view and manage status of achievement
 

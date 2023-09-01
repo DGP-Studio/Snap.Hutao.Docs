@@ -8,9 +8,9 @@ comment: false
 
 # Home Dashboard
 
-![](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01XkqHJA1g6dw1HVD0t_!!1797064093.png)
+![dashbord screenshot](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01BV3VBz1g6dy4fyYJw_!!1797064093.png_.webp)
 
-Snap Hutao will enter home dashboard by default when it's opened. The top part is your personal gaming data; the bottom 
+Snap Hutao will enter home dashboard by default when it's opened. The top part is your personal gaming data; the bottom
 part is recent game notice and event countdown in days and hours.
 
 Personal gaming data dashboard includes:
@@ -26,4 +26,4 @@ Personal gaming data dashboard includes:
 - Real-time Notes
   - Real-time notes data will be displayed on home dashboard
   - If you have multiple activated real-time notes account, you can use arrow button on left and right side of
-chart to switch account
+    chart to switch account

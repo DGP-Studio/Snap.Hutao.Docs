@@ -7,7 +7,7 @@ comment: false
 
 # Weapon WIKI
 
-![weapon-wiki](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01jbzlTH1g6du6KfSmF_!!1797064093.png)
+![weapon-wiki](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01dj5xBC1g6dyEKqaPQ_!!1797064093.png_.webp)
 
 Weapon WIKI is a Snap Hutao build-in WIKI feature used to look up each weapon's information
 

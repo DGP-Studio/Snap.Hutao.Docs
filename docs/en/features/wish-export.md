@@ -18,7 +18,7 @@ local device. This is the purpose of wish history export feature in Snap Hutao.
 Regarding the technical principles of exporting Genshin Impact gacha records,
 you can refer to our article on [Gacha System and Export Principles](../advanced/Gacha-system-and-export-principal.html)
 
-![祈愿导出](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01B2DDii1g6du87XIIG_!!1797064093.png)
+![wish export](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp)
 
 As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
 total number of wishes, current pity count, quantity and percentage of obtained items with different rarity, number of

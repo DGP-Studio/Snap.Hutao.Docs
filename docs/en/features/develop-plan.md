@@ -9,7 +9,7 @@ comment: false
 
 # Development Plan
 
-![dev-plan](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01huh2t51g6du5DUiGt_!!1797064093.png)
+![dev-plan](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01CDsjcb1g6dyB7M0EW_!!1797064093.png_.webp)
 
 ::: info
 Dev Plan is under redesigning, the document will be translated after the refinement.

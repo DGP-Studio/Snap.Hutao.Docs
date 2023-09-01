@@ -18,7 +18,7 @@ MiYouShe refers to Mainland China version, HoYoLab refers to global version, bot
 
 :::
 
-![多帐号管理样图](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01tRs9NH1g6du1XgyDZ_!!1797064093.png)
+![MiHoYo BBS Accounts](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01OqYy931g6dyGYLC2E_!!1797064093.png_.webp)
 
 - At the left bottom corner, you can find the account menu above the `Settings` button. In the pop-up account menu,
   you can find the entry to login in to your MiYouShe and HoYoLab account:

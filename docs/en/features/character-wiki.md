@@ -7,7 +7,7 @@ comment: false
 
 # Character WIKI
 
-![characters-wiki](https://img.alicdn.com/imgextra/i3/1797064093/O1CN017m1hd11g6dtvZP5UA_!!1797064093.png)
+![characters-wiki](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01BTeWoh1g6dyHbVwkf_!!1797064093.png_.webp)
 
 Character WIKI is a Snap Hutao build-in WIKI feature used to query each character's information.
 

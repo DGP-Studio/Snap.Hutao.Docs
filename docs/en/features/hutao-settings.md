@@ -28,7 +28,7 @@ This part has the following information:
 
 ## Snap Hutao Account <Badge text="Beta" type="info" />
 
-![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AKJFMi1g6dvSk6pVi_!!1797064093.png)
+![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp)
 Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
 Currently, you are already able to register and login to your Snap Hutao account in the settings page.
 
@@ -45,32 +45,6 @@ Currently, you are already able to register and login to your Snap Hutao account
     - Mica (Windows 11 only)
     - MicaAlt (Windows 11 only)
   - The setting will take effect immediately
-
-@slidestart auto
-
-## Windows 10 Acrylic
-
-![win10-Acrylic](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01B7nKOj1g6du9bj3Nw_!!1797064093.png)
-
----
-
-## Windows 11 Acrylic
-
-![win11-Acrylic](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01MXJZE61g6dtvtITxC_!!1797064093.jpg)
-
----
-
-## Windows 11 Mica
-
-![win11-Mica](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01aW0iV71g6du5WAz9w_!!1797064093.jpg)
-
----
-
-## Windows 11 MicaAlt
-
-![win11-MicaAlt](https://img.alicdn.com/imgextra/i3/1797064093/O1CN010BwmBI1g6du9bi7C0_!!1797064093.jpg)
-
-@slideend
 
 ## Wish History
 
