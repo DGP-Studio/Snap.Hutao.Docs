@@ -1,7 +1,8 @@
 ---
 headerDepth: 0
 category: [Feature, Tutorial]
-order: 7
+tag: [Spiral Abyss, Spiral Abyss Database, Spiral Abyss Analytics]
+order: 8
 comment: false
 ---
 
@@ -72,7 +73,7 @@ data of **all** Genshin Impact players. The data is for reference only.
 ### Use Browser
 
 ::: info
-This method does not support HoYoLab
+This method does not support HoYoLAB
 :::
 
 - Open our [JavaScript file](/upload-abyss-data.js), copy the entire content
@@ -84,6 +85,16 @@ This method does not support HoYoLab
 - Wait for a moment, and you will see data upload request window
 - After confirm it, the browser will upload your abyss record, do not turn off your browser
 - You will receive a notification when your data is submitted
+
+## Data Sharing
+
+Snap Hutao is contributing data to Hutao Database with other developers. You can view our Abyss Stats, and upload your
+Abyss data in multiple applications other than Snap Hutao.
+Currently, Snap Hutao is sharing Abyss data with following applications:
+
+1. [Miao-Plugin for Yunzai-Bot](https://github.com/yoimiya-kokomi/miao-plugin/tree/master)
+2. [Pizza Helper for Genshin](https://apps.apple.com/us/app/pizza-helper-for-genshin/id1635319193)
+3. WeChat Mini Program: Ysin
 
 [^first]: When same character appearances in the same floor but different level, appearance time only count for 1
 [^first-2]: When same character appearances in the same floor but different level, appearance time only count for 1
