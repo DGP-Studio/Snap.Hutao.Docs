@@ -22,6 +22,7 @@ order: 1
   - Added a button to allow the current user to claim sign-in rewards
   - Fixed an issue where in some cases, the current user and character could not be selected correctly on startup
 - Home Dashboard
+  - Added Snap Hutao announcement
   - Real-Time Note now display refresh time for each card
   - Fixed an issue where Real-Time Note card fail to load correctly, leading program to freezing or crashing
   - Corrected start/end times for certain event announcements
