@@ -19,7 +19,7 @@ In the language settings section, you can choose from the interface languages cu
 
 Snap Hutao uses Simplified Chinese as the base language and actively maintains English text.
 Traditional Chinese, Korean, and Japanese texts are translated by community contributors.
-If you're interested in contributing translations, you can lend your support at https://translate.hut.ao.
+If you're interested in contributing translations, you can lend your support at [https://translate.hut.ao](https://translate.hut.ao).
 :::
 
 ::: details User Agreement Confirmation
