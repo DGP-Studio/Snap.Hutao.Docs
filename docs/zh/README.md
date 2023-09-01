@@ -20,6 +20,21 @@ actions:
     link: project.html
 
 highlights:
+  - header: 安全的程序设计
+    image: /images/202309/security.png
+    bgImage: /images/202309/head-back2.png
+    bgImageDark: /images/202309/head-back2.png
+    highlights:
+      - title: 你的数据你掌握
+        icon: computer
+        details: 数据储存于你的本地设备中，不依赖任何云端服务或第三方平台，自由地访问你的数据
+      - title: 你的数据我保护
+        icon: lock
+        details: 数据可通过胡桃云备份至胡桃服务器，丢失设备也绝不会丢失数据
+      - title: 你的程序社区守望
+        icon: anonymous
+        details: 程序以 MIT 协议开源于 GitHub 并欢迎社区成员的代码审查和贡献；上架微软商店由微软进行安全审查
+
   - header: 多合一的工具箱
     description: 快速上手你期待的功能，探索你尚未尝试过的新工具
     image: /images/202308/highlights-head.png
