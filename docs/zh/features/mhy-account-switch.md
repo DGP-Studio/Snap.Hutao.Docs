@@ -26,7 +26,7 @@ comment: false
 - 在对应的帐号种类中点击`网页登录`按钮
   - 您也可以通过点击`手动输入`按钮，直接输入米游社通行证 cookie 来添加您的帐号
   - 若您选择`手动输入`米游社 cookie，则该 cookie **必须包含 `SToken` 字段**
-    - 手动获取含 `SToken` 字段的 cookie 的方式可参考[使用第三方工具获取有 SToken 的 cookie](../advanced/get-SToken-cookie-from-the-third-party.md) 文档
+    - 手动获取含 `SToken` 字段的 cookie 的方式可参考[使用第三方工具获取有 SToken 的 cookie](../advanced/get-SToken-cookie-from-the-third-party.html) 文档
 - 在弹出的内置浏览器登陆成功后，点击右上角的"我已登陆"按钮
 - 完成后，您就可以在帐号管理面板切换已登录的米游社帐号了
   - 新添加米游社账号后，需在主界面左下角切换账号的功能中，手动点击一次新登录的账号，以将其设置为使用状态

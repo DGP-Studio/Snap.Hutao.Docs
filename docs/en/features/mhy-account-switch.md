@@ -30,7 +30,7 @@ you can find the entry to login in to your MiYouShe and HoYoLAB account:
   - Then your account will be added to Snap Hutao, the browser will close automatically
 - Alternatively, you can enter your MiHoYo BBS cookie list by click on `Input Manually` button
   - If you do so, the cookies must contains `SToken` field
-  - You can refer to [使用第三方工具获取有 SToken 的 cookie](../advanced/get-SToken-cookie-from-the-third-party.md) document for methods to capture cookie with `SToken`
+  - You can refer to [使用第三方工具获取有 SToken 的 cookie](../advanced/get-SToken-cookie-from-the-third-party.html) document for methods to capture cookie with `SToken`
 - After added your MiHoYo BBS account, you need to switch to account you want in the account menu, to activate it
   - You can always switch your MiHoYo BBS account in the account menu, and you are also allowed to copy account's cookie or remove account there
   - After select an account in the panel, you can also
