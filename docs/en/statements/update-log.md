@@ -7,7 +7,26 @@ order: 1
 
 # Update Logs
 
-## 1.7.0 <Badge text="latest" type="tip" />
+## 1.7.3 <Badge text="Upcoming" type="tip" />
+
+- Fixed the issue of HoYoverse web login not working
+- Upgraded the Windows App SDK version to fix the issue where the top of the title bar could not resize the window
+- Adjusted the prompt for UIGF v2.2 file import failures, now allowing for faster issue identification based on IDs
+- Fixed the issue where the user panel would display a successful claim of login rewards even if it failed
+- Fixed the problem where launching the game from the taskbar would open both the game window and the main program window simultaneously
+
+## 1.7.2 <Badge text="latest" type="tip" />
+
+- Wish Export
+  - Fixed an issue where full refresh was not working correctly.
+  - Fixed an issue where no-error UIGF files were not being imported correctly
+  - Fixed an issue where Hutao Cloud records were not being retrieved correctly
+  - Adjusted the UI of the Hutao Cloud window to display the number of wishes corresponding to the UID archive
+- My Characters
+  - Adjusted the UI to make it more compact
+- Adjusted the UI of the homepage notifications to align them with the right edge
+
+## 1.7.0
 
 - Add a startup guide to help user familiarize Snap Hutao on start launch
   - Guiding users to select a language
