@@ -7,7 +7,7 @@ order: 1
 
 # Update Logs
 
-## 1.7.3 <Badge text="Upcoming" type="tip" />
+## 1.7.3 <Badge text="latest" type="tip" />
 
 - Fixed the issue of HoYoverse web login not working
 - Upgraded the Windows App SDK version to fix the issue where the top of the title bar could not resize the window
@@ -15,7 +15,7 @@ order: 1
 - Fixed the issue where the user panel would display a successful claim of login rewards even if it failed
 - Fixed the problem where launching the game from the taskbar would open both the game window and the main program window simultaneously
 
-## 1.7.2 <Badge text="latest" type="tip" />
+## 1.7.2
 
 - Wish Export
   - Fixed an issue where full refresh was not working correctly.

@@ -7,7 +7,7 @@ redirectFrom: /statements/update-log.html
 
 # 更新日志
 
-## 1.7.3 <Badge text="即将上线" type="tip" />
+## 1.7.3 <Badge text="最新版" type="tip" />
 
 - 修复了 HoYoverse 网页登录失效的问题
 - 升级了 Windows App SDK 版本，修复了标题栏顶部无法缩放窗口的问题
@@ -15,7 +15,7 @@ redirectFrom: /statements/update-log.html
 - 修复了用户面板领取签到奖励失败但仍然显示成功的问题
 - 修复了任务栏中的启动游戏项会同时启动游戏窗口和主窗口的问题
 
-## 1.7.2 <Badge text="最新版" type="tip" />
+## 1.7.2
 
 - 祈愿记录
   - 修复了全量刷新无法正确生效的问题
