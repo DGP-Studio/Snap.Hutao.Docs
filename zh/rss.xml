@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 01 Sep 2023 20:53:36 GMT</pubDate>
-    <lastBuildDate>Fri, 01 Sep 2023 20:53:36 GMT</lastBuildDate>
+    <pubDate>Tue, 05 Sep 2023 05:13:11 GMT</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2023 05:13:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -2376,11 +2376,36 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.0 增加了引导页面，在首次启动胡桃时将引导用户使用胡桃; 引导用户选择语言; 引导用户确认条款; 引导用户安装 Segoe Fluent Icons 字体和 WebView2 运行时; 引导用户下载静态资源; 胡桃主界面; 调整了导航栏的图标样式; 修复了调整窗口大小时，可能导致意外崩溃的问题; 用户面板; 调整了用户面板的样式; 增加了为当前...</description>
+      <description>1.7.3 修复了 HoYoverse 网页登录失效的问题; 升级了 Windows App SDK 版本，修复了标题栏顶部无法缩放窗口的问题; 调整了 UIGF v2.2 导入失败的提示，现在能根据 Id 更快地定位问题; 修复了用户面板领取签到奖励失败但仍然显示成功的问题; 修复了任务栏中的启动游戏项会同时启动游戏窗口和主窗口的问题; 1.7.2 ...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.0 </h2>
+<h2> 1.7.3 </h2>
+<ul>
+<li>修复了 HoYoverse 网页登录失效的问题</li>
+<li>升级了 Windows App SDK 版本，修复了标题栏顶部无法缩放窗口的问题</li>
+<li>调整了 UIGF v2.2 导入失败的提示，现在能根据 Id 更快地定位问题</li>
+<li>修复了用户面板领取签到奖励失败但仍然显示成功的问题</li>
+<li>修复了任务栏中的启动游戏项会同时启动游戏窗口和主窗口的问题</li>
+</ul>
+<h2> 1.7.2 </h2>
+<ul>
+<li>祈愿记录
+<ul>
+<li>修复了全量刷新无法正确生效的问题</li>
+<li>修复了无错误的 UIGF 文件无法正确导入的问题</li>
+<li>修复了胡桃云记录无法正确获取的问题</li>
+<li>调整了胡桃云窗口的 UI，使其显示对应 UID 存档中的抽数</li>
+</ul>
+</li>
+<li>我的角色
+<ul>
+<li>调整了界面 UI 使其变得更加紧凑</li>
+</ul>
+</li>
+<li>调整了主页通知的 UI， 使其向右侧边缘对齐</li>
+</ul>
+<h2> 1.7.0</h2>
 <ul>
 <li>增加了引导页面，在首次启动胡桃时将引导用户使用胡桃
 <ul>

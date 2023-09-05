@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 01 Sep 2023 20:53:36 GMT</pubDate>
-    <lastBuildDate>Fri, 01 Sep 2023 20:53:36 GMT</lastBuildDate>
+    <pubDate>Tue, 05 Sep 2023 05:13:11 GMT</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2023 05:13:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -701,11 +701,36 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.0 Add a startup guide to help user familiarize Snap Hutao on start launch; Guiding users to select a language; Guiding users to confirm terms of service; Guiding users to in...</description>
+      <description>1.7.3 Fixed the issue of HoYoverse web login not working; Upgraded the Windows App SDK version to fix the issue where the top of the title bar could not resize the window; Adjus...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.0 </h2>
+<h2> 1.7.3 </h2>
+<ul>
+<li>Fixed the issue of HoYoverse web login not working</li>
+<li>Upgraded the Windows App SDK version to fix the issue where the top of the title bar could not resize the window</li>
+<li>Adjusted the prompt for UIGF v2.2 file import failures, now allowing for faster issue identification based on IDs</li>
+<li>Fixed the issue where the user panel would display a successful claim of login rewards even if it failed</li>
+<li>Fixed the problem where launching the game from the taskbar would open both the game window and the main program window simultaneously</li>
+</ul>
+<h2> 1.7.2 </h2>
+<ul>
+<li>Wish Export
+<ul>
+<li>Fixed an issue where full refresh was not working correctly.</li>
+<li>Fixed an issue where no-error UIGF files were not being imported correctly</li>
+<li>Fixed an issue where Hutao Cloud records were not being retrieved correctly</li>
+<li>Adjusted the UI of the Hutao Cloud window to display the number of wishes corresponding to the UID archive</li>
+</ul>
+</li>
+<li>My Characters
+<ul>
+<li>Adjusted the UI to make it more compact</li>
+</ul>
+</li>
+<li>Adjusted the UI of the homepage notifications to align them with the right edge</li>
+</ul>
+<h2> 1.7.0</h2>
 <ul>
 <li>Add a startup guide to help user familiarize Snap Hutao on start launch
 <ul>
