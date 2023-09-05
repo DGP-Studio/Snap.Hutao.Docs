@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 05 Sep 2023 05:13:11 GMT</pubDate>
-    <lastBuildDate>Tue, 05 Sep 2023 05:13:11 GMT</lastBuildDate>
+    <pubDate>Tue, 05 Sep 2023 08:54:19 GMT</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2023 08:54:19 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -713,7 +713,7 @@ running as Administrator
 <li>Fixed the issue where the user panel would display a successful claim of login rewards even if it failed</li>
 <li>Fixed the problem where launching the game from the taskbar would open both the game window and the main program window simultaneously</li>
 </ul>
-<h2> 1.7.2 </h2>
+<h2> 1.7.2</h2>
 <ul>
 <li>Wish Export
 <ul>

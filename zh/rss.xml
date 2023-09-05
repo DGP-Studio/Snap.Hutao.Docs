@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 05 Sep 2023 05:13:11 GMT</pubDate>
-    <lastBuildDate>Tue, 05 Sep 2023 05:13:11 GMT</lastBuildDate>
+    <pubDate>Tue, 05 Sep 2023 08:54:19 GMT</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2023 08:54:19 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -2388,7 +2388,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>修复了用户面板领取签到奖励失败但仍然显示成功的问题</li>
 <li>修复了任务栏中的启动游戏项会同时启动游戏窗口和主窗口的问题</li>
 </ul>
-<h2> 1.7.2 </h2>
+<h2> 1.7.2</h2>
 <ul>
 <li>祈愿记录
 <ul>
