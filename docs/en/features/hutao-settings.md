@@ -34,6 +34,11 @@ This part has the following information:
 Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
 Currently, you are already able to register and login to your Snap Hutao account in the settings page.
 
+## Shell Experience
+
+- Create Desktop Shortcut
+  - Snap Hutao will create a shortcut with Administrator privilege on user's desktop
+
 ## Appearance
 
 - Language
@@ -48,6 +53,15 @@ Currently, you are already able to register and login to your Snap Hutao account
     - MicaAlt (Windows 11 only)
   - The setting will take effect immediately
 
+## Home
+
+- Dashboard Card
+  - You can click on this option to switch display of card on Home Dashboard
+    - Game Launcher
+    - Wish History
+    - Achievement
+    - Realtime Notes
+
 ## Game
 
 - Game Path
@@ -55,6 +69,11 @@ Currently, you are already able to register and login to your Snap Hutao account
   - In this field, you can modify or set your game path for Snap Hutao
   - When setting the game path, you should select game program instead of launcher program
     - Such as `$\Genshin Impact\Genshin Impact Game\YuanShen.exe`
+
+- PowerShell Path
+
+  - Snap Hutao uses PowerShell to modify Genshin Impact registry field to switch game account. This option allows user to
+    select PowerShell path to fix issue when PowerShell path is unable to located automatically
 
 - Delete Game Embedded Browser Web Cache
   - When you are using web cache refresh method in the wish history feature and receiving authkey expiration error, you can try this operation to fix the error

@@ -7,7 +7,28 @@ redirectFrom: /statements/update-log.html
 
 # 更新日志
 
-## 1.7.3 <Badge text="最新版" type="tip" />
+## 1.7.4 <Badge text="最新版" type="tip" />
+
+- 新增
+  - 设置页面新增了切换 PowerShell 实例的选项
+  - 设置页面新增了创建桌面快捷方式的选项 [#912](https://github.com/DGP-Studio/Snap.Hutao/issues/912)
+  - 设置页面新增了调整主页卡片是否呈现的选项
+  - 我的角色页面新增批量添加到养成计划的功能
+- 修复
+  - 修复了主页中部分公告的活动开始时间不正确的问题 [#887](https://github.com/DGP-Studio/Snap.Hutao/issues/887)
+  - 修复了我的角色页面中点击未使用角色橱窗同步数据的武器时会导致崩溃的问题 [#904](https://github.com/DGP-Studio/Snap.Hutao/issues/904)
+  - 修复了我的角色页面中武器数值显示不正确的问题 [#907](https://github.com/DGP-Studio/Snap.Hutao/issues/907)
+  - 修复了无法从 Bilibili 服务器转换到部分服务器的问题 [#893](https://github.com/DGP-Studio/Snap.Hutao/issues/893)
+  - 修复了祈愿记录页面中当记录存在新手祈愿时会导致崩溃的问题 [#917](https://github.com/DGP-Studio/Snap.Hutao/issues/917)
+  - 修复了养成计划在未进入养成计划页面前没有提前选中的问题，该问题曾导致至少需要进入一次养成计划页面才能添加养成计划
+  - 修复了领取签到奖励触发验证时有即使接口报告成功也无法验证成功的问题
+- 优化
+  - 调整了怪物资料中怪物的展示顺序
+  - 优化了祈愿统计的加载速度
+  - 优化了数据库访问的 UI 线程占用
+  - 优化了养成计划页面中部分视图的滚动体验，现在可能需要更长的时间才能加载视图
+
+## 1.7.3
 
 - 修复了 HoYoverse 网页登录失效的问题
 - 升级了 Windows App SDK 版本，修复了标题栏顶部无法缩放窗口的问题
