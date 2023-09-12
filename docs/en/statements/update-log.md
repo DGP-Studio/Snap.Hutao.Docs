@@ -7,7 +7,29 @@ order: 1
 
 # Update Logs
 
-## 1.7.3 <Badge text="latest" type="tip" />
+## 1.7.4 <Badge text="latest" type="tip" />
+
+- Add
+  - Added option to change PowerShell entry in settings page
+  - Added option to create desktop shortcut in settings page [#912](https://github.com/DGP-Studio/Snap.Hutao/issues/912)
+  - Added option to switch display of cards on home dashboard
+  - Added batch-add to Dev Plan option on My Character page
+- Fix
+  - Fixed an issue which event start time is not accurate on Home Dashboard [#887](https://github.com/DGP-Studio/Snap.Hutao/issues/887)
+  - Fixed an issue on My Character page that caused crashes when clicking on weapon that is not synchronized by Enka API [#904](https://github.com/DGP-Studio/Snap.Hutao/issues/904)
+  - Fixed an issue of weapon value display error on My Character page [#907](https://github.com/DGP-Studio/Snap.Hutao/issues/907)
+  - Fixed an issue where Bilibili server cannot be converted to some other servers [#893](https://github.com/DGP-Studio/Snap.Hutao/issues/893)
+  - Fixed an issue where fetching Novice Wish history will cause the program to crash [#917](https://github.com/DGP-Studio/Snap.Hutao/issues/917)
+  - Fixed an issue where a Dev Plan was not pre-selected before entering the Dev Plan page, which had caused the
+    Dev Plan page to need to be entered at least once to add a Dev Plan archive
+  - Fixed the issue that failed to claim checkin reward when triggered anti-bot verification, even when anti-bot API returns success result
+- Optimize
+  - Optimized monsters' display order on Monster WIKI page
+  - Optimized launch speed of Wish History page
+  - Optimized local database thread on UI display functions
+  - Optimized the scrolling experience for some views of Dev Plan, it may now take longer for views to be loaded
+
+## 1.7.3
 
 - Fixed the issue of HoYoverse web login not working
 - Upgraded the Windows App SDK version to fix the issue where the top of the title bar could not resize the window
