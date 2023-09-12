@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 05 Sep 2023 08:54:19 GMT</pubDate>
-    <lastBuildDate>Tue, 05 Sep 2023 08:54:19 GMT</lastBuildDate>
+    <pubDate>Tue, 12 Sep 2023 18:25:38 GMT</pubDate>
+    <lastBuildDate>Tue, 12 Sep 2023 18:25:38 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -1779,6 +1779,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01demKfQ1g6dyH6VpYh_!!1797064093.png_.webp" alt="Hutao-account" loading="lazy">
 胡桃帐号是由 DGP-Studio 团队创建的为胡桃工具箱服务的帐号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。
 目前胡桃帐号已支持注册和登录，你可以在设置中点击这一选项以注册并登录你的帐号。</p>
+<h2> Shell 体验</h2>
+<ul>
+<li>创建快捷方式
+<ul>
+<li>点击该按钮后胡桃将会在桌面上创建一个以管理员模式启动的快捷方式</li>
+</ul>
+</li>
+</ul>
 <h2> 外观</h2>
 <ul>
 <li>
@@ -1802,6 +1810,21 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
+<h2> 主页</h2>
+<ul>
+<li>主页卡片
+<ul>
+<li>点击该选项后，可以设置是否在主页仪表盘中显示以下卡片
+<ul>
+<li>启动游戏</li>
+<li>祈愿记录</li>
+<li>成就管理</li>
+<li>实时便笺</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h2> 游戏</h2>
 <ul>
 <li>游戏路径
@@ -1812,6 +1835,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>形如：<code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code></li>
 </ul>
 </li>
+</ul>
+</li>
+<li>PowerShell 路径
+<ul>
+<li>胡桃使用 PowerShell 来修改原神相关的注册表项以实现游戏帐号切换功能。该选项允许用户手动选择 PowerShell 路径以解决部分用户使用自定义 PowerShell 版本而造成的无法定位 PowerShell 的问题</li>
 </ul>
 </li>
 <li>删除游戏内网页缓存
@@ -2376,11 +2404,41 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.3 修复了 HoYoverse 网页登录失效的问题; 升级了 Windows App SDK 版本，修复了标题栏顶部无法缩放窗口的问题; 调整了 UIGF v2.2 导入失败的提示，现在能根据 Id 更快地定位问题; 修复了用户面板领取签到奖励失败但仍然显示成功的问题; 修复了任务栏中的启动游戏项会同时启动游戏窗口和主窗口的问题; 1.7.2 ...</description>
+      <description>1.7.4 新增; 设置页面新增了切换 PowerShell 实例的选项; 设置页面新增了创建桌面快捷方式的选项 #912 (https://github.com/DGP-Studio/Snap.Hutao/issues/912); 设置页面新增了调整主页卡片是否呈现的选项; 我的角色页面新增批量添加到养成计划的功能; 修复; 修复了主页中部分公告的活...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.3 </h2>
+<h2> 1.7.4 </h2>
+<ul>
+<li>新增
+<ul>
+<li>设置页面新增了切换 PowerShell 实例的选项</li>
+<li>设置页面新增了创建桌面快捷方式的选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/912" target="_blank" rel="noopener noreferrer">#912</a></li>
+<li>设置页面新增了调整主页卡片是否呈现的选项</li>
+<li>我的角色页面新增批量添加到养成计划的功能</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了主页中部分公告的活动开始时间不正确的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/887" target="_blank" rel="noopener noreferrer">#887</a></li>
+<li>修复了我的角色页面中点击未使用角色橱窗同步数据的武器时会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/904" target="_blank" rel="noopener noreferrer">#904</a></li>
+<li>修复了我的角色页面中武器数值显示不正确的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/907" target="_blank" rel="noopener noreferrer">#907</a></li>
+<li>修复了无法从 Bilibili 服务器转换到部分服务器的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/893" target="_blank" rel="noopener noreferrer">#893</a></li>
+<li>修复了祈愿记录页面中当记录存在新手祈愿时会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/917" target="_blank" rel="noopener noreferrer">#917</a></li>
+<li>修复了养成计划在未进入养成计划页面前没有提前选中的问题，该问题曾导致至少需要进入一次养成计划页面才能添加养成计划</li>
+<li>修复了领取签到奖励触发验证时有即使接口报告成功也无法验证成功的问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>调整了怪物资料中怪物的展示顺序</li>
+<li>优化了祈愿统计的加载速度</li>
+<li>优化了数据库访问的 UI 线程占用</li>
+<li>优化了养成计划页面中部分视图的滚动体验，现在可能需要更长的时间才能加载视图</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.3</h2>
 <ul>
 <li>修复了 HoYoverse 网页登录失效的问题</li>
 <li>升级了 Windows App SDK 版本，修复了标题栏顶部无法缩放窗口的问题</li>

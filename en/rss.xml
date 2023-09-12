@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 05 Sep 2023 08:54:19 GMT</pubDate>
-    <lastBuildDate>Tue, 05 Sep 2023 08:54:19 GMT</lastBuildDate>
+    <pubDate>Tue, 12 Sep 2023 18:25:38 GMT</pubDate>
+    <lastBuildDate>Tue, 12 Sep 2023 18:25:38 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -701,11 +701,42 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.3 Fixed the issue of HoYoverse web login not working; Upgraded the Windows App SDK version to fix the issue where the top of the title bar could not resize the window; Adjus...</description>
+      <description>1.7.4 Add; Added option to change PowerShell entry in settings page; Added option to create desktop shortcut in settings page #912 (https://github.com/DGP-Studio/Snap.Hutao/issu...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.3 </h2>
+<h2> 1.7.4 </h2>
+<ul>
+<li>Add
+<ul>
+<li>Added option to change PowerShell entry in settings page</li>
+<li>Added option to create desktop shortcut in settings page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/912" target="_blank" rel="noopener noreferrer">#912</a></li>
+<li>Added option to switch display of cards on home dashboard</li>
+<li>Added batch-add to Dev Plan option on My Character page</li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Fixed an issue which event start time is not accurate on Home Dashboard <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/887" target="_blank" rel="noopener noreferrer">#887</a></li>
+<li>Fixed an issue on My Character page that caused crashes when clicking on weapon that is not synchronized by Enka API <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/904" target="_blank" rel="noopener noreferrer">#904</a></li>
+<li>Fixed an issue of weapon value display error on My Character page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/907" target="_blank" rel="noopener noreferrer">#907</a></li>
+<li>Fixed an issue where Bilibili server cannot be converted to some other servers <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/893" target="_blank" rel="noopener noreferrer">#893</a></li>
+<li>Fixed an issue where fetching Novice Wish history will cause the program to crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/917" target="_blank" rel="noopener noreferrer">#917</a></li>
+<li>Fixed an issue where a Dev Plan was not pre-selected before entering the Dev Plan page, which had caused the
+Dev Plan page to need to be entered at least once to add a Dev Plan archive</li>
+<li>Fixed the issue that failed to claim checkin reward when triggered anti-bot verification, even when anti-bot API returns success result</li>
+</ul>
+</li>
+<li>Optimize
+<ul>
+<li>Optimized monsters' display order on Monster WIKI page</li>
+<li>Optimized launch speed of Wish History page</li>
+<li>Optimized local database thread on UI display functions</li>
+<li>Optimized the scrolling experience for some views of Dev Plan, it may now take longer for views to be loaded</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.3</h2>
 <ul>
 <li>Fixed the issue of HoYoverse web login not working</li>
 <li>Upgraded the Windows App SDK version to fix the issue where the top of the title bar could not resize the window</li>
@@ -1834,6 +1865,14 @@ Abyss stats, all collected characters will be included <a href="#footnote-ref4" 
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp" alt="Hutao-account" loading="lazy">
 Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
 Currently, you are already able to register and login to your Snap Hutao account in the settings page.</p>
+<h2> Shell Experience</h2>
+<ul>
+<li>Create Desktop Shortcut
+<ul>
+<li>Snap Hutao will create a shortcut with Administrator privilege on user's desktop</li>
+</ul>
+</li>
+</ul>
 <h2> Appearance</h2>
 <ul>
 <li>
@@ -1857,6 +1896,21 @@ Currently, you are already able to register and login to your Snap Hutao account
 </ul>
 </li>
 </ul>
+<h2> Home</h2>
+<ul>
+<li>Dashboard Card
+<ul>
+<li>You can click on this option to switch display of card on Home Dashboard
+<ul>
+<li>Game Launcher</li>
+<li>Wish History</li>
+<li>Achievement</li>
+<li>Realtime Notes</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h2> Game</h2>
 <ul>
 <li>
@@ -1868,6 +1922,13 @@ Currently, you are already able to register and login to your Snap Hutao account
 <li>Such as <code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code></li>
 </ul>
 </li>
+</ul>
+</li>
+<li>
+<p>PowerShell Path</p>
+<ul>
+<li>Snap Hutao uses PowerShell to modify Genshin Impact registry field to switch game account. This option allows user to
+select PowerShell path to fix issue when PowerShell path is unable to located automatically</li>
 </ul>
 </li>
 <li>
