@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 12 Sep 2023 18:25:38 GMT</pubDate>
-    <lastBuildDate>Tue, 12 Sep 2023 18:25:38 GMT</lastBuildDate>
+    <pubDate>Sat, 16 Sep 2023 04:24:06 GMT</pubDate>
+    <lastBuildDate>Sat, 16 Sep 2023 04:24:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -340,12 +340,12 @@ verification, then your account can be used to refresh data.</p>
       <link>https://hut.ao/en/advanced/known-issue.html</link>
       <guid>https://hut.ao/en/advanced/known-issue.html</guid>
       <source url="https://hut.ao/en/rss.xml">Known Issue</source>
-      <description>This document records known issues that need to be fixed. All known issues before 1.7 version have been fixed</description>
+      <description>This document records known issues that need to be fixed. You can view latest version of opened BUG report on https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Ao...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:40 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Known Issue</h1>
 <p>This document records known issues that <strong>need to be fixed</strong>.</p>
-<p>All known issues before 1.7 version have been fixed</p>
+<p>You can view latest version of opened BUG report on <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -462,15 +462,16 @@ it means the operation is blocked by MiHoYo BBS anti-bot system</li>
 <li>Click on <code>Verify Current User and Role</code> button</li>
 <li>Follow the instruction in MiHoYo BBS to verify</li>
 <li>After finishing the verification process, click <code>Complete</code> to close the verification window</li>
-<li>Now, the account should back to normal; If not, process the step above again</li>
+<li>Now, the account should back to normal; If not, process the step above again<div class="hint-container tip">
+<p class="hint-container-title">Tips</p>
+</div>
+</li>
 </ul>
 </li>
 </ul>
-<div class="hint-container tip">
-<p class="hint-container-title">Tips</p>
 <p>If the risk prompt is too frequent, or the verification cannot be triggered at all, it means that the risk of your
 account is too high, please change the password, so that the simultaneous login status of multiple devices will be reset</p>
-</div>
+<p>:::</p>
 <div class="hint-container warning">
 <p class="hint-container-title">Note</p>
 <ul>
@@ -493,6 +494,14 @@ designing of MiHoYo BBS, and cannot bypass</li>
 <p>If you are using proxy software, you may need to turn it off or using TUN mode proxy;
 otherwise you need to use <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a> to remove
 <a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">Windows APP Container Loopback limits</a>.</p>
+<h2> Error Finding Required Modules</h2>
+<p>When user launching game with unlock frame-rate feature on, the game may be failed to be launched with the following error shows up:</p>
+<ol>
+<li>Error finding required modules: could not read any module, the protection driver may have been loaded</li>
+<li>Error finding required modules: timeout</li>
+</ol>
+<p>This issue only occurs when Genshin Impact's anti-cheat module starts earlier than frame-rate-unlocker module.
+When these errors happen, Snap Hutao will exit game process, and you can re-launch the game.</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" type="image/jpeg"/>
     </item>
@@ -1175,7 +1184,7 @@ community members can contribute Japanese language on <a href="https://translate
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
 <h2> QQ Group (CN)</h2>
 <ul>
-<li><a href="https://go.hut.ao/qun1" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
+<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&amp;authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&amp;noverify=0&amp;group_code=910780153" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
 <li><em>Snap Developer Open Discussion Group</em>
 <ul>
 <li>General tech talk, not Snap Hutao Project development group</li>
@@ -1531,8 +1540,6 @@ character's data, this will help you to share your character's data</li>
 <li>Snap Hutao will create <code>ServerCache</code> folder in the data directory to save required sever switch files</li>
 </ol>
 </div>
-<ul>
-<li>
 <p>Enter Game Launcher page
 In the <code>General - Server</code> field, select the server you want</p>
 <ul>
@@ -1549,6 +1556,10 @@ In the <code>General - Server</code> field, select the server you want</p>
 <tr>
 <td>CN Default</td>
 <td>Mainland China server</td>
+</tr>
+<tr>
+<td>CN Official</td>
+<td>Mainland China server, no difference with previous row</td>
 </tr>
 <tr>
 <td>CN NoTapTap</td>
@@ -1572,10 +1583,8 @@ In the <code>General - Server</code> field, select the server you want</p>
 </tr>
 </tbody>
 </table>
-</li>
-<li>
-<p>click <code>Launcher</code> button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game</p>
-</li>
+<ul>
+<li>click <code>Launcher</code> button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game</li>
 </ul>
 <h2> Game Account Switch</h2>
 <div class="hint-container tip">
@@ -1643,7 +1652,11 @@ In the <code>General - Server</code> field, select the server you want</p>
 <li>Enter Game Launcher page</li>
 <li>In the <code>Appearance</code> category, there are 6 available options:
 <ul>
-<li><strong>Exclusive Fullscreen</strong>, the game process will run in exclusive fullscreen mode</li>
+<li><strong>Exclusive Fullscreen</strong>, the game process will run in exclusive fullscreen mode
+<ul>
+<li><strong>You should only use this option when you are able to independently describe technical principles and effects of exclusive fullscreen</strong></li>
+</ul>
+</li>
 <li><strong>Fullscreen</strong>, the game display mode is set to fullscreen</li>
 <li><strong>Borderless</strong>, the game display mode is set to borderless</li>
 <li><strong>Width</strong>, game window width, such as <code>1920</code></li>

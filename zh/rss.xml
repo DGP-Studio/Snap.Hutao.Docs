@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 12 Sep 2023 18:25:38 GMT</pubDate>
-    <lastBuildDate>Tue, 12 Sep 2023 18:25:38 GMT</lastBuildDate>
+    <pubDate>Sat, 16 Sep 2023 04:24:06 GMT</pubDate>
+    <lastBuildDate>Sat, 16 Sep 2023 04:24:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -374,7 +374,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>若入群问题为最新版本号则请输入三位版本号（如 <code>1.2.3</code>）而不是四位版本号（如 <code>1.2.3.0</code>）</p>
 </blockquote>
 <ul>
-<li><a href="https://go.hut.ao/qun1" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
+<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&amp;authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&amp;noverify=0&amp;group_code=910780153" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
 <li><em>Snap 开发交流群</em>
 <ul>
 <li>广泛的技术交流群，并非胡桃工具箱开发群</li>
@@ -1010,6 +1010,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
+<h2> 在查找必要的模块时出现问题</h2>
+<p>当用户在解锁游戏帧数限制的情况下启动游戏时，可能会遇上以下错误提示并启动游戏失败</p>
+<ol>
+<li>在查找必要的模块时遇到问题：无法读取任何模块，可能是保护驱动已经加载完成</li>
+<li>在查找必要的模块时遇到问题：查找模块超时
+该问题仅当原神反作弊模块早于解锁帧率模块启动时出现。在出现该错误后，胡桃会主动关闭游戏进程，用户再次尝试启动游戏即可。</li>
+</ol>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg_.webp" type="image/webp"/>
     </item>
@@ -1078,12 +1085,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/advanced/known-issue.html</link>
       <guid>https://hut.ao/zh/advanced/known-issue.html</guid>
       <source url="https://hut.ao/zh/rss.xml">已知问题</source>
-      <description>该文档包含由所有已知问题和修复计划 1.7 版本前已知问题已全部修复</description>
+      <description>该文档包含由所有已知问题和修复计划 你可以在 https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG (https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen...</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 已知问题</h1>
 <p>该文档包含由所有已知问题和修复计划</p>
-<p>1.7 版本前已知问题已全部修复</p>
+<p>你可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG%5D" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG</a> 查看最新的来自社区的 BUG 报告</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1469,6 +1476,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <td>中国大陆服务器</td>
 </tr>
 <tr>
+<td>官方服 Official</td>
+<td>中国大陆服务器，与上一栏无实质区别</td>
+</tr>
+<tr>
 <td>官方服 NoTapTap</td>
 <td>禁用 TapTap 帐号登录的中国大陆服务器</td>
 </tr>
@@ -1559,7 +1570,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在主界面点击左侧菜单栏进入<code>启动游戏</code>标签</li>
 <li>在<code>外观</code>功能中，有六个选项：
 <ul>
-<li><strong>独占全屏</strong>，即选择游戏进程以独占全屏模式运行</li>
+<li><strong>独占全屏</strong>，即选择游戏进程以独占全屏模式运行
+<ul>
+<li><strong>你应仅在能独立描述独占全屏的技术原理和效果的情况下开启本项</strong></li>
+</ul>
+</li>
 <li><strong>全屏</strong>，即选择启动游戏后的游戏界面是否设置为全屏</li>
 <li><strong>无边框</strong>，即选择启动游戏后的游戏界面是否设置为无边框窗口</li>
 <li><strong>宽度</strong>，即选择启动游戏后的游戏界面的宽度，例如<code>1920</code></li>
