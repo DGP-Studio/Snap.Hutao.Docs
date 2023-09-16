@@ -3,7 +3,12 @@ headerDepth: 2
 icon: debug
 category: [FAQ]
 order: 2
-redirectFrom: [/advanced/exceptions.html,/advanced/mihoyo-risk-tip.html,/zh/advanced/mihoyo-risk-tip.html]
+redirectFrom:
+  [
+    /advanced/exceptions.html,
+    /advanced/mihoyo-risk-tip.html,
+    /zh/advanced/mihoyo-risk-tip.html,
+  ]
 ---
 
 # 常见的程序异常
@@ -78,3 +83,11 @@ redirectFrom: [/advanced/exceptions.html,/advanced/mihoyo-risk-tip.html,/zh/adva
 - 网络请求错误，请求异常前程序会说明具体哪一个功能的网络请求失败。
   - 如果仅是偶尔出现的问题，你可以考虑忽略该错误
   - 如果持续该错误，请检查本地网络到目标服务器的连接是否正常
+
+## 在查找必要的模块时出现问题
+
+当用户在解锁游戏帧数限制的情况下启动游戏时，可能会遇上以下错误提示并启动游戏失败
+
+1. 在查找必要的模块时遇到问题：无法读取任何模块，可能是保护驱动已经加载完成
+2. 在查找必要的模块时遇到问题：查找模块超时
+   该问题仅当原神反作弊模块早于解锁帧率模块启动时出现。在出现该错误后，胡桃会主动关闭游戏进程，用户再次尝试启动游戏即可。

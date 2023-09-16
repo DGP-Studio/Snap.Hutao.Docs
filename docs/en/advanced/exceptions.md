@@ -7,6 +7,7 @@ redirectFrom: /en/advanced/mihoyo-risk-tip.html
 ---
 
 # Common Program Exceptions
+
 This document covers solutions of **foreseeable client error**
 
 ## RuntimeEnvironmentException
@@ -33,15 +34,15 @@ This document covers solutions of **foreseeable client error**
 
 ## Return Code: 1034 Verification Failed
 
-- If Snap Hutao returns `1034` status code and hints verification failed (usually during the operation of Realtime Notes), 
-it means the operation is blocked by MiHoYo BBS anti-bot system
+- If Snap Hutao returns `1034` status code and hints verification failed (usually during the operation of Realtime Notes),
+  it means the operation is blocked by MiHoYo BBS anti-bot system
 - Solution:
   - Enter `Realtime Notes`
   - Click on `Verify Current User and Role` button
   - Follow the instruction in MiHoYo BBS to verify
   - After finishing the verification process, click `Complete` to close the verification window
   - Now, the account should back to normal; If not, process the step above again
-::: tip
+    ::: tip
 
 If the risk prompt is too frequent, or the verification cannot be triggered at all, it means that the risk of your
 account is too high, please change the password, so that the simultaneous login status of multiple devices will be reset
@@ -59,17 +60,29 @@ account is too high, please change the password, so that the simultaneous login 
 :::
 
 ## HttpRequestException Metadata Download Failed
+
 ### 403 (Forbidden) / 404 (Not Found)
+
 Solution: Update your Snap Hutao to latest version
 
 ### 502 (Bad Gateway)
+
 > Associated Issue: [https://github.com/DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
 
 This HTTP Exception occurs when Snap Hutao failed to fetch remote resource (usually static image and configuration)
 
 ![HttpRequestException](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg)
 
-
 If you are using proxy software, you may need to turn it off or using TUN mode proxy;
 otherwise you need to use [Windows 8 AppContainer Loopback Utility](https://www.telerik.com/fiddler/add-ons) to remove
 [Windows APP Container Loopback limits](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback).
+
+## Error Finding Required Modules
+
+When user launching game with unlock frame-rate feature on, the game may be failed to be launched with the following error shows up:
+
+1. Error finding required modules: could not read any module, the protection driver may have been loaded
+2. Error finding required modules: timeout
+
+This issue only occurs when Genshin Impact's anti-cheat module starts earlier than frame-rate-unlocker module.
+When these errors happen, Snap Hutao will exit game process, and you can re-launch the game.

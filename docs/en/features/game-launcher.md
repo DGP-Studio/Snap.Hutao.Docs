@@ -28,19 +28,20 @@ comment: false
 
 :::
 
-- Enter Game Launcher page
-  In the `General - Server` field, select the server you want
+Enter Game Launcher page
+In the `General - Server` field, select the server you want
 
-  - Current available serves options include:
+- Current available serves options include:
 
-  | Option         | Server                                                    |
-  | -------------- | --------------------------------------------------------- |
-  | CN Default     | Mainland China server                                     |
-  | CN NoTapTap    | Mainland China server without TapTap account login method |
-  | BiliBili       | Chinese server with BiliBili account system               |
-  | Global Default | HoYoVerse servers                                         |
-  | Global Epic    | HoYoVerse servers with Epic Store payment gateway         |
-  | Global Google  | HoYoVerse servers with Google Pay payment gateway         |
+| Option         | Server                                                    |
+| -------------- | --------------------------------------------------------- |
+| CN Default     | Mainland China server                                     |
+| CN Official    | Mainland China server, no difference with previous row    |
+| CN NoTapTap    | Mainland China server without TapTap account login method |
+| BiliBili       | Chinese server with BiliBili account system               |
+| Global Default | HoYoVerse servers                                         |
+| Global Epic    | HoYoVerse servers with Epic Store payment gateway         |
+| Global Google  | HoYoVerse servers with Google Pay payment gateway         |
 
 - click `Launcher` button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game
 
@@ -82,6 +83,7 @@ comment: false
 - Enter Game Launcher page
 - In the `Appearance` category, there are 6 available options:
   - **Exclusive Fullscreen**, the game process will run in exclusive fullscreen mode
+    - **You should only use this option when you are able to independently describe technical principles and effects of exclusive fullscreen**
   - **Fullscreen**, the game display mode is set to fullscreen
   - **Borderless**, the game display mode is set to borderless
   - **Width**, game window width, such as `1920`

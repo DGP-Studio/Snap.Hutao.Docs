@@ -10,4 +10,4 @@ order: 3
 
 This document records known issues that **need to be fixed**.
 
-All known issues before 1.7 version have been fixed
+You can view latest version of opened BUG report on [https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG)
