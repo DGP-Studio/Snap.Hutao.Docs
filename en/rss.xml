@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 16 Sep 2023 04:24:06 GMT</pubDate>
-    <lastBuildDate>Sat, 16 Sep 2023 04:24:06 GMT</lastBuildDate>
+    <pubDate>Sun, 17 Sep 2023 05:50:06 GMT</pubDate>
+    <lastBuildDate>Sun, 17 Sep 2023 05:50:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -592,30 +592,9 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
 <li>Confirm the operation and you will get the desktop shortcut</li>
 </ul>
 <h2> How to create desktop shortcut with Administrator privilege</h2>
-<div class="hint-container tip">
-<p class="hint-container-title">Community Power</p>
-<p>Thanks to <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17" target="_blank" rel="noopener noreferrer">solution provided by Parsifa1</a>。</p>
-</div>
-<p>Fundamental principle: Use the following PowerShell scrip can run Snap Hutao with Administrator privilege</p>
-<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>In your desktop, select <code>New</code> -&gt; <code>Shortcut</code></li>
-<li>In the field of <code>Type the location of the item</code>, input:</li>
-</ul>
-<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>Name the shortcut as <code>Snap Hutao</code></li>
-<li>Confirm the creation, and you will get this shortcut with PowerShell logo</li>
-<li>Right-click on this shortcut, select <code>Properties</code>
-<ul>
-<li>Change value of <code>Run</code> to <code>Minimized</code></li>
-<li>Select <code>Change Icon</code>, fill the blank with <code>%ProgramFiles%\WindowsApps\60568DGPStudio.SnapHutao_1.6.6.0_x64__ebfp 3nyc27j86\Snap.Hutao.exe</code> and save the configuration</li>
-</ul>
-</li>
-<li>Now, you get a shortcut of Snap Hutao with Administrator privilege
-<ul>
-<li>You can also pin it to task bar or start menu</li>
-</ul>
-</li>
-</ul>
+<p>Starting from Snap Hutao 1.7.4, you can create a desktop shortcut with Administrator privilege by click <code>Create Desktop Shortcut</code>
+in the settings page.</p>
+<p>You can move this shortcut to any place you need.</p>
 <h2> How to run Snap Hutao when Windows starts</h2>
 <p><strong>This is a workaround solution</strong></p>
 <ul>
@@ -1211,41 +1190,41 @@ community members can contribute Japanese language on <a href="https://translate
 <p>Snap Hutao Project features were originally based on the China server, but we are also trying to expand the coverage globally through the support of the MiHoYo global gaming server &amp; software localization.Currently, our localization process includes:</p>
 <ul>
 <li>Snap Hutao
-<ul>
-<li>[x] Localization framework</li>
-<li>[ ] Client translation
-<ul>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Localization framework</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Client translation</label>
+<ul class="task-list-container">
 <li>Process: <img src="https://badges.crowdin.net/snap-hutao/localized.svg" alt="Crowdin" loading="lazy"></li>
-<li>[x] English</li>
-<li>[x] Traditional Chinese</li>
-<li>[x] Korean</li>
-<li>[x] Japanese (in progress)</li>
-<li>[ ] Russian</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> English</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> Traditional Chinese</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> Korean</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> Japanese (in progress)</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> Russian</label></li>
 </ul>
 </li>
-<li>[x] Internation/China server conversion</li>
-<li>[ ] International server account switch</li>
-<li>[x] International server wish history export</li>
-<li>[x] International server character stat</li>
-<li>[ ] HoYoLab login
-<ul>
-<li>[ ] International server Abyss recrod</li>
-<li>[ ] Daily Notes</li>
-<li>[ ] Multilingual in-game announcements</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> Internation/China server conversion</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> International server account switch</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> International server wish history export</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> International server character stat</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> HoYoLab login</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> International server Abyss recrod</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> Daily Notes</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> Multilingual in-game announcements</label></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Snao Hutao Docs
-<ul>
-<li>[x] Localization framework</li>
-<li>[ ] Web translation</li>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> Localization framework</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> Web translation</label></li>
 <li>Process:
-<ul>
-<li>[ ] English
-<ul>
-<li>[x] Home page</li>
-<li>[ ] User documentation</li>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> English</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> Home page</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> User documentation</label></li>
 </ul>
 </li>
 </ul>
@@ -2496,53 +2475,47 @@ will not be removed. You can continue to operate it once you get your privilege 
       <link>https://hut.ao/en/statements/bug-report.html</link>
       <guid>https://hut.ao/en/statements/bug-report.html</guid>
       <source url="https://hut.ao/en/rss.xml">Submit Bug Report</source>
-      <description>opened-issue Recommended Method You can submit bug reports when you find reproducible issue that cannbot be fixed by youself; When submitting the issue, you should describe the ...</description>
+      <description>You can submit bug reports when you find reproducible issue that cannot be fixed by yourself Before submitting your issue, please do the following checklist: [ ] Make sure you a...</description>
       <category>Announcement</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Submit Bug Report</h1>
-<p><img src="https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="opened-issue" loading="lazy"> <img src="https://img.shields.io/github/issues-closed/DGP-Studio/Snap.Hutao?style=for-the-badge&amp;color=blue" alt="closed-issue" loading="lazy"></p>
-<h2> Recommended Method</h2>
-<ul>
-<li>You can submit bug reports when you find reproducible issue that cannbot be fixed by youself</li>
-<li>When submitting the issue, you should describe the problem in as much detail as you can.Screenshots of error should be attached if you have.This is help us to identify the issue faster.
-<ul>
-<li>A good example is <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao/issues/100</a></li>
+<p>You can submit bug reports when you find reproducible issue that cannot be fixed by yourself</p>
+<p>Before submitting your issue, please do the following checklist:</p>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Make sure you are in the latest version of Snap Hutao</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Check <a href="/en/advanced/FAQ.html" target="blank">FAQ</a> document and <a href="/en/advanced/known-issue.html" target="blank">known issues</a> document</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> Search current issues in the project to see if there is same or similar issues</label></li>
 </ul>
-</li>
-<li>If you are able to fix the issue from code, you are also welcome to make PRs directly.</li>
-</ul>
-<h3> Client Issue</h3>
+<p>If you don't get a solution from the above checklist, you can start a new issue on GitHub</p>
+<p>If you need some examples of good issues, you can check them <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98+is%3Aclosed" target="_blank" rel="noopener noreferrer">here</a></p>
 <ul>
-<li>
-<p>Check if the document already answered your issue</p>
-<ul>
-<li>Make sure you are in the latest version</li>
-<li>You can check FAQ document in the sidebar
-<ul>
-<li><a href="/en/advanced/FAQ.html" target="blank">FAQ</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Open an Issue </p>
+<li>Submit your issue on GitHub
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose" target="_blank" rel="noopener noreferrer">github.com/DGP-Studio/Snap.Hutao/issues/new/choose</a></li>
 </ul>
 </li>
-<li>
-<p>Open Issue on QQ Support (zh-CN only)</p>
-<ul>
-<li><a href="https://support.qq.com/products/451231" target="_blank" rel="noopener noreferrer">support.qq.com/products/451231</a></li>
+<li>You should include these information in your issue:
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> Your device ID</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> Your operating system version</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> Describe your issue in details, so the developer can replicate your problem</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> How the issue being triggered?</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> Is there any error or warning message from the program or your OS?</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> Have you done any debug process by yourself? What's the outcome?</label></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> If your issue is about program crash, you need to find <code>.NET error</code> on Snap Hutao in your Windows Event Viewer,
+and include it in your issue</label></li>
 </ul>
 </li>
 </ul>
-<h3> Request New or Update Document</h3>
+<h2> Request Document Update</h2>
+<p>If you think Snap Hutao document is missing some information or contains errors, you can start an issue on Snap.Hutao.Docs project</p>
 <ul>
-<li>Open issue on GitHub: <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao.Docs</a></li>
+<li>Submit your issue on GitHub：<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao.Docs</a></li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge" type="image/"/>
     </item>
     <item>
       <title>Project</title>
@@ -2557,40 +2530,40 @@ will not be removed. You can continue to operate it once you get your privilege 
 <h2> Feature Migration</h2>
 <p>Snap Hutao project was originally from the Snap Genshin project. Currently, we are still migrating features.</p>
 <p>Documents will be provided on this website for all migrated features. The migration process is shown below:</p>
-<ul>
-<li>[x] In-game announcements</li>
-<li>[x] MiHoYo BBS account management</li>
-<li>[x] Game Launcher</li>
-<li>[x] Wish history export</li>
-<li>[ ] WIKI - Daily Materials
-<ul>
-<li>Will be integrated to Dev Plan feature</li>
-</ul>
-</li>
-<li>[ ] WIKI - Weekly Materials
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> In-game announcements</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> MiHoYo BBS account management</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> Game Launcher</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> Wish history export</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> WIKI - Daily Materials</label>
 <ul>
 <li>Will be integrated to Dev Plan feature</li>
 </ul>
 </li>
-<li>[x] WIKI - Characters</li>
-<li>[x] WIKI - Weapons</li>
-<li>[x] Achievement</li>
-<li>[x] Hutao Abyss Database</li>
-<li>[x] Dev Plan</li>
-<li>[x] My character stat</li>
-<li>[ ] Players stat</li>
-<li>[ ] Custom browser</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> WIKI - Weekly Materials</label>
+<ul>
+<li>Will be integrated to Dev Plan feature</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> WIKI - Characters</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> WIKI - Weapons</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> Achievement</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> Hutao Abyss Database</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> Dev Plan</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> My character stat</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> Players stat</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> Custom browser</label></li>
 </ul>
 <h2> New features</h2>
 <p>The following features are planned to add when the project was established.</p>
-<ul>
-<li>[ ] Wish history cloud sync</li>
-<li>[ ] <a href="/en/i18n.html" target="blank">Localization</a></li>
-<li>[x] International server support
-<ul>
-<li>[x] Game Launcher</li>
-<li>[x] Server Switch</li>
-<li>[x] Wish history export</li>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> Wish history cloud sync</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> <a href="/en/i18n.html" target="blank">Localization</a></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> International server support</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> Game Launcher</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> Server Switch</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> Wish history export</label></li>
 </ul>
 </li>
 </ul>

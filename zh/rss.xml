@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 16 Sep 2023 04:24:06 GMT</pubDate>
-    <lastBuildDate>Sat, 16 Sep 2023 04:24:06 GMT</lastBuildDate>
+    <pubDate>Sun, 17 Sep 2023 05:50:06 GMT</pubDate>
+    <lastBuildDate>Sun, 17 Sep 2023 05:50:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -401,41 +401,41 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>Snap Hutao 虽然基于原神国服提供功能，但项目也有意提升国际化支持，包括语言本土化和功能国际化。目前国际化进度如下：</p>
 <ul>
 <li>Snap Hutao 主项目
-<ul>
-<li>[x] 语言本土化技术框架</li>
-<li>[ ] 客户端翻译
-<ul>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 语言本土化技术框架</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 客户端翻译</label>
+<ul class="task-list-container">
 <li>进度：<img src="https://badges.crowdin.net/snap-hutao/localized.svg" alt="Crowdin" loading="lazy"></li>
-<li>[x] 英语</li>
-<li>[x] 繁体中文</li>
-<li>[x] 韩语</li>
-<li>[x] 日语 （进行中）</li>
-<li>[ ] 俄语</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 英语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 繁体中文</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 韩语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 日语 （进行中）</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 俄语</label></li>
 </ul>
 </li>
-<li>[x] 国际服/国服客户端转换</li>
-<li>[ ] 国际服游戏帐号切换</li>
-<li>[x] 国际服祈愿记录导出</li>
-<li>[x] 国际服角色属性统计</li>
-<li>[x] HoYoLAB 登录支持
-<ul>
-<li>[x] 国际服深渊记录获取</li>
-<li>[x] 实时便笺</li>
-<li>[ ] 多语言游戏公告</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 国际服/国服客户端转换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 国际服游戏帐号切换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服祈愿记录导出</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 国际服角色属性统计</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> HoYoLAB 登录支持</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 国际服深渊记录获取</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 实时便笺</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 多语言游戏公告</label></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Snap Hutao 文档
-<ul>
-<li>[x] 语言本土化技术框架</li>
-<li>[ ] 网页翻译</li>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 语言本土化技术框架</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 网页翻译</label></li>
 <li>进度：
-<ul>
-<li>[ ] 英语
-<ul>
-<li>[x] 主页</li>
-<li>[ ] 用户文档</li>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 英语</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 主页</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 用户文档</label></li>
 </ul>
 </li>
 </ul>
@@ -490,44 +490,44 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2> 功能迁移</h2>
 <p>胡桃正在迁移原 Snap Genshin 客户端中的功能</p>
 <p>已经完成迁移的功能将会在本站文档中提供指导说明，功能迁移和开发进度可以参阅下方</p>
-<ul>
-<li>[x] 米游社公告首页</li>
-<li>[x] 米游社帐号管理</li>
-<li>[x] 游戏启动器</li>
-<li>[x] 祈愿记录</li>
-<li>[ ] WIKI - 日常材料
-<ul>
-<li>将整合进养成计划</li>
-</ul>
-</li>
-<li>[ ] WIKI - 周常材料
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 米游社公告首页</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 米游社帐号管理</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 游戏启动器</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 祈愿记录</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> WIKI - 日常材料</label>
 <ul>
 <li>将整合进养成计划</li>
 </ul>
 </li>
-<li>[x] WIKI - 角色资料</li>
-<li>[x] WIKI - 武器资料</li>
-<li>[x] 成就统计</li>
-<li>[x] 胡桃数据库</li>
-<li>[x] 养成计算器</li>
-<li>[x] 角色橱窗</li>
-<li>[ ] 玩家查询</li>
-<li>[ ] 自定义网页</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> WIKI - 周常材料</label>
+<ul>
+<li>将整合进养成计划</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> WIKI - 角色资料</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> WIKI - 武器资料</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 成就统计</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 胡桃数据库</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 养成计算器</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 角色橱窗</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> 玩家查询</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 自定义网页</label></li>
 </ul>
 <h2> 新增功能</h2>
 <p>以下新功能计划被增加到胡桃工具箱中</p>
-<ul>
-<li>[ ] 祈愿云端同步
-<ul>
-<li>[x] 胡桃帐号系统</li>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 祈愿云端同步</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 胡桃帐号系统</label></li>
 </ul>
 </li>
-<li>[x] <a href="/zh/i18n.html" target="blank">国际化支持</a></li>
-<li>[x] 国际服支持
-<ul>
-<li>[x] 游戏启动器</li>
-<li>[x] 服务器切换</li>
-<li>[x] 祈愿记录</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> <a href="/zh/i18n.html" target="blank">国际化支持</a></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 国际服支持</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 游戏启动器</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 服务器切换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 祈愿记录</label></li>
 </ul>
 </li>
 </ul>
@@ -697,30 +697,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>根据提示操作你就可以获得一个桌面快捷方式了</li>
 </ul>
 <h2> 如何添加一个默认以管理员方式运行的快捷方式</h2>
-<div class="hint-container tip">
-<p class="hint-container-title">社区力量</p>
-<p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17" target="_blank" rel="noopener noreferrer">Parsifa1 提供的解决方案</a></p>
-</div>
-<p>基本原理：使用下方的 PowerShell 脚本可以以管理员方式运行胡桃</p>
-<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>在桌面点击右键，选择<code>新建</code> -&gt; <code>快捷方式</code></li>
-<li>在<code>请键入对象的位置</code>中直接输入:</li>
-</ul>
-<div class="language-PowerShell" data-ext="PowerShell"></div><ul>
-<li>将快捷方式命名为你需要的名称，比如<code>Snap Hutao</code></li>
-<li>确认创建，此时你会在桌面得到一个有 PowerShell 图标的快捷方式</li>
-<li>右键该快捷方式，点击属性
-<ul>
-<li>将<code>运行方式</code>修改为<code>最小化</code></li>
-<li>点击更改图标，选择<code>浏览</code>，并填写：<code>%ProgramFiles%\WindowsApps\60568DGPStudio.SnapHutao_1.6.6.0_x64__ebfp3nyc27j86\Snap.Hutao.exe</code>，回车确认保存</li>
-</ul>
-</li>
-<li>这样你就获得了胡桃工具箱的桌面快捷方式，并且运行它将直接以管理员模式运行
-<ul>
-<li>你也可以将固定到任务栏或磁贴区</li>
-</ul>
-</li>
-</ul>
+<p>自 Snap Hutao 1.7.4 版本起，你可以在程序设置页面中点击<code>创建快捷方式</code>来在桌面上添加一个具有管理员权限的快捷方式</p>
+<p>你可以移动这个快捷方式到你想要的地方</p>
 <h2> 如何让胡桃工具箱开机自动启动</h2>
 <ul>
 <li>请参考如下思路
@@ -2185,54 +2163,48 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/bug-report.html</link>
       <guid>https://hut.ao/zh/statements/bug-report.html</guid>
       <source url="https://hut.ao/zh/rss.xml">提交 BUG 报告</source>
-      <description>opened-issue closed-issue 推荐方法 在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。; 在提交问题时，您应当尽可能地详细描述问题。如果有错误的截图，也应该提供。这有利于问题排查并加速问题修复。; 一个可以参考的非常正面的例子是 DGP-Studio/Snap.Hutao...</description>
+      <description>在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。 suggestion 在发起新的 Issue 之前，请先执行以下清单： [ ] 当前使用的是最新版本客户端; ] 阅读[常见问题 (../advanced/FAQ.md)文档和已知问题 (../advanced/known-issue.md)文档...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 提交 BUG 报告</h1>
-<p><img src="https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="opened-issue" loading="lazy">
-<img src="https://img.shields.io/github/issues-closed/DGP-Studio/Snap.Hutao?style=for-the-badge&amp;color=blue" alt="closed-issue" loading="lazy"></p>
-<h2> 推荐方法</h2>
-<ul>
-<li>在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。</li>
-<li>在提交问题时，您应当尽可能地详细描述问题。如果有错误的截图，也应该提供。这有利于问题排查并加速问题修复。
-<ul>
-<li>一个可以参考的非常正面的例子是 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao/issues/100</a></li>
-<li>你也可以通过<a href="https://www.bilibili.com/video/BV18T411z7R4" target="_blank" rel="noopener noreferrer">这个视频</a>来学习如何发起并管理你在开源项目中的 issue</li>
+<p>在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。</p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg_.webp" alt="suggestion" loading="lazy"></p>
+<p>在发起新的 Issue 之前，请先执行以下清单：</p>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 当前使用的是最新版本客户端</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 阅读<a href="/zh/advanced/FAQ.html" target="blank">常见问题</a>文档和<a href="/zh/advanced/known-issue.html" target="blank">已知问题</a>文档</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 搜索项目 Issue，检查是否已有相同或类似的问题</label></li>
+<li>若执行上述步骤后没有得到问题解决方案，你可以在 GitHub 上发起一个新的 Issue</li>
 </ul>
-</li>
-<li>如果你有能力在代码层面修复该问题，也欢迎您直接在对应的项目中发起 PR。
-<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg_.webp" alt="suggestion" loading="lazy">
-<strong>如果你是诚心希望解决问题，则应该在 Issue 中包含尽可能多的信息，比如说：你做了什么；看到了什么结果；程序有什么提示；
-你查阅了哪篇文档；尝试了什么解决方案，结果是什么；你的设备 ID 是什么…… 当你愿意付出更多的时间在提供信息上，更大的可能获得一个准确的解决方案。
-一两句话就结束的问题报告大多数不是有效的问题，只会被无视。</strong></li>
-</ul>
-<h3> 客户端问题</h3>
+<p>如果你不清楚怎样是一个好的 Issue 可以阅读 Snap Hutao 过去的一些<a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98+is%3Aclosed" target="_blank" rel="noopener noreferrer">优质问题</a></p>
 <ul>
-<li>
-<p><strong>在提交问题前，请务必检查文档内是否已包含了你的问题</strong></p>
-<ul>
-<li>首先需要确认您使用的版本是否为最新版本</li>
-<li>您可以通过菜单栏中的“常见问题”分类找到这些文档
-<ul>
-<li><a href="/zh/advanced/FAQ.html" target="blank">常见问题</a></li>
-<li><a href="/zh/advanced/known-issue.html" target="blank">当前版本已知问题</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>通过 GitHub 提交问题 </p>
+<li>通过 GitHub 提交问题
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose" target="_blank" rel="noopener noreferrer">github.com/DGP-Studio/Snap.Hutao/issues/new/choose</a></li>
 </ul>
 </li>
+<li>在 Issue 中，你应包含以下内容：
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 你的设备 ID</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 你的操作系统版本</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 详细描述你的问题，开发人员应能根据你的描述复现问题</label>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 问题是如何触发的</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 程序或操作系统有怎样的错误提示</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 你执行了怎样的操作排查问题，有什么结果</label></li>
 </ul>
-<h3> 请求增加或更新文档</h3>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 如果你的问题涉及到程序崩溃，你需要在 Windows 事件查看器中寻找和 Snap Hutao 相关的 <code>.NET 错误</code> 并将其中的内容附加在 Issue 中</label></li>
+</ul>
+</li>
+</ul>
+<h2> 请求增加或更新文档</h2>
+<p>如果你认为 Snap Hutao 的文档缺少重要内容或有错误的信息，可以从 Snap.Hutao.Docs 项目中发起 Issue</p>
 <ul>
 <li>通过 GitHub 提交问题：<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao.Docs</a></li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge" type="image/"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg_.webp" type="image/webp"/>
     </item>
     <item>
       <title>用户数据和隐私权益</title>
