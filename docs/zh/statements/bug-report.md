@@ -9,33 +9,32 @@ redirectFrom: /statements/bug-report.html
 
 # 提交 BUG 报告
 
-![opened-issue](https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge)
-![closed-issue](https://img.shields.io/github/issues-closed/DGP-Studio/Snap.Hutao?style=for-the-badge&color=blue)
+在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。
 
-## 推荐方法
+![suggestion](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg_.webp)
 
-- 在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。
-- 在提交问题时，您应当尽可能地详细描述问题。如果有错误的截图，也应该提供。这有利于问题排查并加速问题修复。
-  - 一个可以参考的非常正面的例子是 [DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
-  - 你也可以通过[这个视频](https://www.bilibili.com/video/BV18T411z7R4)来学习如何发起并管理你在开源项目中的 issue
-- 如果你有能力在代码层面修复该问题，也欢迎您直接在对应的项目中发起 PR。
-  ![suggestion](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg_.webp)
-  **如果你是诚心希望解决问题，则应该在 Issue 中包含尽可能多的信息，比如说：你做了什么；看到了什么结果；程序有什么提示；
-  你查阅了哪篇文档；尝试了什么解决方案，结果是什么；你的设备 ID 是什么…… 当你愿意付出更多的时间在提供信息上，更大的可能获得一个准确的解决方案。
-  一两句话就结束的问题报告大多数不是有效的问题，只会被无视。**
+在发起新的 Issue 之前，请先执行以下清单：
 
-### 客户端问题
+- [ ] 当前使用的是最新版本客户端
+- [ ] 阅读[常见问题](../advanced/FAQ.md)文档和[已知问题](../advanced/known-issue.md)文档
+- [ ] 搜索项目 Issue，检查是否已有相同或类似的问题
+- 若执行上述步骤后没有得到问题解决方案，你可以在 GitHub 上发起一个新的 Issue
 
-- **在提交问题前，请务必检查文档内是否已包含了你的问题**
+如果你不清楚怎样是一个好的 Issue 可以阅读 Snap Hutao 过去的一些[优质问题](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98+is%3Aclosed)
 
-  - 首先需要确认您使用的版本是否为最新版本
-  - 您可以通过菜单栏中的“常见问题”分类找到这些文档
-    - [常见问题](../advanced/FAQ.md)
-    - [当前版本已知问题](../advanced/known-issue.md)
-
-- 通过 GitHub 提交问题 <Badge text="推荐" type="tip" />
+- 通过 GitHub 提交问题
   - [github.com/DGP-Studio/Snap.Hutao/issues/new/choose](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)
+- 在 Issue 中，你应包含以下内容：
+  - [ ] 你的设备 ID
+  - [ ] 你的操作系统版本
+  - [ ] 详细描述你的问题，开发人员应能根据你的描述复现问题
+    - [ ] 问题是如何触发的
+    - [ ] 程序或操作系统有怎样的错误提示
+    - [ ] 你执行了怎样的操作排查问题，有什么结果
+  - [ ] 如果你的问题涉及到程序崩溃，你需要在 Windows 事件查看器中寻找和 Snap Hutao 相关的 `.NET 错误` 并将其中的内容附加在 Issue 中
 
-### 请求增加或更新文档
+## 请求增加或更新文档
+
+如果你认为 Snap Hutao 的文档缺少重要内容或有错误的信息，可以从 Snap.Hutao.Docs 项目中发起 Issue
 
 - 通过 GitHub 提交问题：[DGP-Studio/Snap.Hutao.Docs](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose)

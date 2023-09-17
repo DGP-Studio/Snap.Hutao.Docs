@@ -23,32 +23,10 @@ Thanks to [solution provided by CzHUV](https://github.com/DGP-Studio/Snap.Hutao.
 
 ## How to create desktop shortcut with Administrator privilege
 
-::: tip Community Power
+Starting from Snap Hutao 1.7.4, you can create a desktop shortcut with Administrator privilege by click `Create Desktop Shortcut`
+in the settings page.
 
-Thanks to [solution provided by Parsifa1](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/17)。
-
-:::  
-Fundamental principle: Use the following PowerShell scrip can run Snap Hutao with Administrator privilege
-
-```PowerShell ts:no-line-numbers
-Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb runas
-```
-
-- In your desktop, select `New` -> `Shortcut`
-- In the field of `Type the location of the item`, input:
-
-```PowerShell ts:no-line-numbers
-powershell -Command "Start-Process shell:AppsFolder\60568DGPStudio.SnapHutao_ebfp3nyc27j86!App -verb runas
-```
-
-- Name the shortcut as `Snap Hutao`
-- Confirm the creation, and you will get this shortcut with PowerShell logo
-- Right-click on this shortcut, select `Properties`
-  - Change value of `Run` to `Minimized`
-  - Select `Change Icon`, fill the blank with `%ProgramFiles%\WindowsApps\60568DGPStudio.SnapHutao_1.6.6.0_x64__ebfp
-3nyc27j86\Snap.Hutao.exe` and save the configuration
-- Now, you get a shortcut of Snap Hutao with Administrator privilege
-  - You can also pin it to task bar or start menu
+You can move this shortcut to any place you need.
 
 ## How to run Snap Hutao when Windows starts
 

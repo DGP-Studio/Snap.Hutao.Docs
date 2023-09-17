@@ -9,28 +9,32 @@ order: 2
 
 # Submit Bug Report
 
-![opened-issue](https://img.shields.io/github/issues/DGP-Studio/Snap.Hutao?style=for-the-badge) ![closed-issue](https://img.shields.io/github/issues-closed/DGP-Studio/Snap.Hutao?style=for-the-badge&color=blue)
+You can submit bug reports when you find reproducible issue that cannot be fixed by yourself
 
-## Recommended Method
+Before submitting your issue, please do the following checklist:
 
-- You can submit bug reports when you find reproducible issue that cannbot be fixed by youself
-- When submitting the issue, you should describe the problem in as much detail as you can.Screenshots of error should be attached if you have.This is help us to identify the issue faster.
-  - A good example is [DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
-- If you are able to fix the issue from code, you are also welcome to make PRs directly.
+- [ ] Make sure you are in the latest version of Snap Hutao
+- [ ] Check [FAQ](../advanced/FAQ.md) document and [known issues](../advanced/known-issue.md) document
+- [ ] Search current issues in the project to see if there is same or similar issues
 
-### Client Issue
+If you don't get a solution from the above checklist, you can start a new issue on GitHub
 
-- Check if the document already answered your issue
+If you need some examples of good issues, you can check them [here](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98+is%3Aclosed)
 
-  - Make sure you are in the latest version
-  - You can check FAQ document in the sidebar
-    - [FAQ](../advanced/FAQ.md)
-
-- Open an Issue <Badge text="Recommended" type="tip" />
+- Submit your issue on GitHub
   - [github.com/DGP-Studio/Snap.Hutao/issues/new/choose](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)
-- Open Issue on QQ Support (zh-CN only)
-  - [support.qq.com/products/451231](https://support.qq.com/products/451231)
+- You should include these information in your issue:
+  - [ ] Your device ID
+  - [ ] Your operating system version
+  - [ ] Describe your issue in details, so the developer can replicate your problem
+    - [ ] How the issue being triggered?
+    - [ ] Is there any error or warning message from the program or your OS?
+    - [ ] Have you done any debug process by yourself? What's the outcome?
+  - [ ] If your issue is about program crash, you need to find `.NET error` on Snap Hutao in your Windows Event Viewer,
+        and include it in your issue
 
-### Request New or Update Document
+## Request Document Update
 
-- Open issue on GitHub: [DGP-Studio/Snap.Hutao.Docs](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose)
+If you think Snap Hutao document is missing some information or contains errors, you can start an issue on Snap.Hutao.Docs project
+
+- Submit your issue on GitHub：[DGP-Studio/Snap.Hutao.Docs](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose)
