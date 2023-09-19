@@ -6,19 +6,45 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 17 Sep 2023 05:50:06 GMT</pubDate>
-    <lastBuildDate>Sun, 17 Sep 2023 05:50:06 GMT</lastBuildDate>
+    <pubDate>Tue, 19 Sep 2023 02:48:22 GMT</pubDate>
+    <lastBuildDate>Tue, 19 Sep 2023 02:48:22 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>FAQ</category>
+    <category>dependency</category>
+    <category>installation</category>
     <category>Feature</category>
     <category>Tutorial</category>
     <category>open source</category>
     <category>development</category>
-    <category>FAQ</category>
     <category>第三方工具</category>
     <category>Announcement</category>
     <category>i18n</category>
     <category>公告</category>
+    <item>
+      <title>Install Dependency Manually</title>
+      <link>https://hut.ao/en/advanced/dependency.html</link>
+      <guid>https://hut.ao/en/advanced/dependency.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Install Dependency Manually</source>
+      <description>Snap Hutao relies on Windows App Runtime as a dependency, when user&amp;apos;s system is missing this environment, Windows will install this framework before Snap Hutao&amp;apos;s installation. I...</description>
+      <category>FAQ</category>
+      <category>dependency</category>
+      <category>installation</category>
+      <pubDate>Tue, 19 Sep 2023 02:47:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Install Dependency Manually</h1>
+<p>Snap Hutao relies on Windows App Runtime as a dependency, when user's system is missing this environment, Windows will
+install this framework before Snap Hutao's installation.</p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01RJFPnY1g6dye2b8Uy_!!1797064093.png_.webp" alt="" loading="lazy"></p>
+<p>If you are in a poor network, you may slow or even stuck at framework installation stage. In such a scenario, you can
+download the framework from Microsoft website and install it manually.</p>
+<ol>
+<li>Visit Microsoft document page：<a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads" target="_blank" rel="noopener noreferrer">Latest downloads for the Windows App SDK</a></li>
+<li>Click on <code>Dwonload the latest x64 stable installer</code> to download the offline installer</li>
+<li>Run Windows App Runtime installer you just downloaded, and then install Snap Hutao</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01RJFPnY1g6dye2b8Uy_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
     <item>
       <title>Monster WIKI</title>
       <link>https://hut.ao/en/features/monster-wiki.html</link>
@@ -576,11 +602,11 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
       <link>https://hut.ao/en/advanced/FAQ.html</link>
       <guid>https://hut.ao/en/advanced/FAQ.html</guid>
       <source url="https://hut.ao/en/rss.xml">FAQ</source>
-      <description>How to create desktop shortcut Community Power Thanks to solution provided by CzHUV (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)。 Use Win+R to start run, in the win...</description>
+      <description>How to create desktop shortcut (with no admin privilege) Community Power Thanks to solution provided by CzHUV (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)。 Use Win+...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:35 GMT</pubDate>
       <content:encoded><![CDATA[<h1> FAQ</h1>
-<h2> How to create desktop shortcut</h2>
+<h2> How to create desktop shortcut (with no admin privilege)</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">Community Power</p>
 <p>Thanks to <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">solution provided by CzHUV</a>。</p>
@@ -2574,14 +2600,14 @@ and include it in your issue</label></li>
       <link>https://hut.ao/en/quick-start.html</link>
       <guid>https://hut.ao/en/quick-start.html</guid>
       <source url="https://hut.ao/en/rss.xml">Quick Start</source>
-      <description>If you download and use Snap Hutao，you are agree to our terms of service (statements/tos.md) Video Tutorial For most people, follow the instruction on this page is more effiency...</description>
+      <description>If you download and use Snap Hutao，you are agree to our terms of service (statements/tos.md) Minimum System Requirements Requirement Attribute ----------------------- ----------...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Quick Start</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
-<p>If you download and use <strong>Snap Hutao</strong>，you are agree to our<a href="/en/statements/tos.html" target="blank"> terms of service</a></p>
+<p>If you download and use <strong>Snap Hutao</strong>，you are agree to our <a href="/en/statements/tos.html" target="blank">terms of service</a></p>
 </div>
 <p><strong>If you believe Snap Hutao is a good project and helps you, you can support us by the following ways</strong></p>
 <ul>
@@ -2595,11 +2621,6 @@ and include it in your issue</label></li>
 <li>Promote our project in your network</li>
 </ul>
 <p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
-<h2> Video Tutorial</h2>
-<p>For most people, follow the instruction on this page is more effiency.</p>
-<p>However, if you are not familiar with the operation mentioned below, you can come back the follow the video tutorial.</p>
-<details class="hint-container details"><summary>Snap Hutao Tutorial - Microsoft Store Installation (zh-CN)</summary>
-</details>
 <h2> Minimum System Requirements</h2>
 <table>
 <thead>
@@ -2615,7 +2636,11 @@ and include it in your issue</label></li>
 </tr>
 <tr>
 <td><strong>Recommended OS</strong></td>
-<td>Windows 11 Build 22621 (22H2)</td>
+<td>Windows 11 Build 22621 (22H2) or later versions</td>
+</tr>
+<tr>
+<td>Required Components</td>
+<td>Windows Update, App Installer</td>
 </tr>
 <tr>
 <td>Optional Components</td>

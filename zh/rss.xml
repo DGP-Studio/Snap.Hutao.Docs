@@ -6,18 +6,42 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 17 Sep 2023 05:50:06 GMT</pubDate>
-    <lastBuildDate>Sun, 17 Sep 2023 05:50:06 GMT</lastBuildDate>
+    <pubDate>Tue, 19 Sep 2023 02:48:22 GMT</pubDate>
+    <lastBuildDate>Tue, 19 Sep 2023 02:48:22 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>FAQ</category>
+    <category>依赖项</category>
+    <category>安装</category>
     <category>功能</category>
     <category>教程</category>
     <category>开源</category>
     <category>开发</category>
     <category>公告</category>
     <category>i18n</category>
-    <category>FAQ</category>
     <category>第三方工具</category>
+    <item>
+      <title>手动安装依赖项</title>
+      <link>https://hut.ao/zh/advanced/dependency.html</link>
+      <guid>https://hut.ao/zh/advanced/dependency.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">手动安装依赖项</source>
+      <description>Snap Hutao 依赖于 Windows App Runtime 作为环境，当用户系统缺少该环境时，Windows 系统会在安装胡桃前安装该框架。 若你处在网络较差的环境中，可能会卡在环境安装过程中。在这种情况下，你可以从微软官网下载 Windows App Runtime 安装包并手动安装： 1. 访问微软官方文档：Windows 应用 SDK ...</description>
+      <category>FAQ</category>
+      <category>依赖项</category>
+      <category>安装</category>
+      <pubDate>Tue, 19 Sep 2023 02:47:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 手动安装依赖项</h1>
+<p>Snap Hutao 依赖于 Windows App Runtime 作为环境，当用户系统缺少该环境时，Windows 系统会在安装胡桃前安装该框架。</p>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01xH5WtE1g6dyZoGnu3_!!1797064093.png_.webp" alt="" loading="lazy"></p>
+<p>若你处在网络较差的环境中，可能会卡在环境安装过程中。在这种情况下，你可以从微软官网下载 Windows App Runtime 安装包并手动安装：</p>
+<ol>
+<li>访问微软官方文档：<a href="https://learn.microsoft.com/zh-cn/windows/apps/windows-app-sdk/downloads" target="_blank" rel="noopener noreferrer">Windows 应用 SDK 最新的下载项</a></li>
+<li>点击<code>下载最新的 x64 稳定安装程序</code>以下载离线安装包</li>
+<li>运行下载的 Windows App Runtime 安装包，完成后再安装 Snap Hutao</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01xH5WtE1g6dyZoGnu3_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
     <item>
       <title>怪物资料</title>
       <link>https://hut.ao/zh/features/monster-wiki.html</link>
@@ -580,7 +604,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </tr>
 <tr>
 <td><strong>推荐系统版本</strong></td>
-<td>Windows 11 Build 22621 (22H2)</td>
+<td>Windows 11 Build 22621 (22H2) 或更高版本</td>
+</tr>
+<tr>
+<td><strong>必要组件</strong></td>
+<td>Windows Update, App Installer</td>
 </tr>
 <tr>
 <td>可选组件</td>
@@ -680,11 +708,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/advanced/FAQ.html</link>
       <guid>https://hut.ao/zh/advanced/FAQ.html</guid>
       <source url="https://hut.ao/zh/rss.xml">常见问题</source>
-      <description>如何创建胡桃的桌面快捷方式 社区力量 感谢 CzHUV 提供的解决方案 (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12) Win+R 呼出运行窗口，在窗口中输入shell:AppsFolder; Run Windows 会弹出应用程序目录，找到胡桃工具箱; 右键，点击创建快捷方式; 根据...</description>
+      <description>如何创建胡桃的桌面快捷方式（非管理员模式） 社区力量 感谢 CzHUV 提供的解决方案 (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12) Win+R 呼出运行窗口，在窗口中输入shell:AppsFolder; Run Windows 会弹出应用程序目录，找到胡桃工具箱; 右键，点击创建...</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 常见问题</h1>
-<h2> 如何创建胡桃的桌面快捷方式</h2>
+<h2> 如何创建胡桃的桌面快捷方式（非管理员模式）</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">社区力量</p>
 <p>感谢 <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV 提供的解决方案</a></p>
