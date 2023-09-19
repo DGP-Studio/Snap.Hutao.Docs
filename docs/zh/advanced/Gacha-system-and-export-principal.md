@@ -2,7 +2,7 @@
 headerDepth: 0
 category: [FAQ]
 icon: read
-order: 7
+order: 8
 redirectFrom: /advanced/Gacha-system-and-export-principal.html
 ---
 

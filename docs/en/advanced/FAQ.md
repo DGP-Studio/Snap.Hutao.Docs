@@ -8,7 +8,7 @@ order: 1
 
 # FAQ
 
-## How to create desktop shortcut
+## How to create desktop shortcut (with no admin privilege)
 
 ::: tip Community Power
 

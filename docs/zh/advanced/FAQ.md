@@ -9,7 +9,7 @@ comment: false
 
 # 常见问题
 
-## 如何创建胡桃的桌面快捷方式
+## 如何创建胡桃的桌面快捷方式（非管理员模式）
 
 ::: tip 社区力量
 感谢 [CzHUV 提供的解决方案](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)

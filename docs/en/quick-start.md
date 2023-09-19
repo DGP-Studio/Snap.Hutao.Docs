@@ -13,28 +13,20 @@ order: 5
 
 ::: tip
 
-If you download and use **Snap Hutao**，you are agree to our[ terms of service](statements/tos.md)
+If you download and use **Snap Hutao**，you are agree to our [terms of service](statements/tos.md)
 
 :::
 
 <!-- @include: star-request.md -->
 
-## Video Tutorial
-
-For most people, follow the instruction on this page is more effiency.
-
-However, if you are not familiar with the operation mentioned below, you can come back the follow the video tutorial.
-::: details Snap Hutao Tutorial - Microsoft Store Installation (zh-CN)
-<BiliBili bvid="BV13A411k7B4" />
-:::
-
 ## Minimum System Requirements
 
-| Requirement             | Attribute                              |
-| ----------------------- | -------------------------------------- |
-| **Minimum Required OS** | Windows 10 Build 19045 (22H2) [^first] |
-| **Recommended OS**      | Windows 11 Build 22621 (22H2)          |
-| Optional Components     | WebView2 Runtime                       |
+| Requirement             | Attribute                                       |
+| ----------------------- | ----------------------------------------------- |
+| **Minimum Required OS** | Windows 10 Build 19045 (22H2) [^first]          |
+| **Recommended OS**      | Windows 11 Build 22621 (22H2) or later versions |
+| Required Components     | Windows Update, App Installer                   |
+| Optional Components     | WebView2 Runtime                                |
 
 ## Download Snap Hutao
 
@@ -56,14 +48,16 @@ On Windows 10 and Windows 11 you can click the button above to download Snap Hut
 - Launch PowerShell
 - Execute command `winget install "Snap Hutao"`
 - Follow the prompt to allow the installation
+  - If failed install, receive error of missing dependency or stuck at framework installation stage, please refer to
+    [Install Dependency Manually](advanced/dependency.md) document
 
 @tab GitHub
 
 - Visit the [latest release page](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/) of Snap Hutao
 - Download MSIX Package
 - Run the MSIX package directly to perform installation
-  - If failed install or receive error of missing dependency, you need to install
-    [dependency package](https://d.hut.ao/releases/Dependency) first
+  - If failed install, receive error of missing dependency or stuck at framework installation stage, please refer to
+    [Install Dependency Manually](advanced/dependency.md) document
 
 :::
 

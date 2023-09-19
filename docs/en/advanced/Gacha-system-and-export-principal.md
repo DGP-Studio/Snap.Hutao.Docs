@@ -3,7 +3,7 @@ headerDepth: 0
 category:
   - FAQ
 icon: read
-order: 7
+order: 8
 ---
 
 # 祈愿系统与导出原理

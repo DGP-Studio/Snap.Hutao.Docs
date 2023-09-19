@@ -30,11 +30,12 @@ order: 5
 
 ## 最低系统要求
 
-| 要求                   | 规格                                   |
-| ---------------------- | -------------------------------------- |
-| **最低可运行系统版本** | Windows 10 Build 19045 (22H2) [^first] |
-| **推荐系统版本**       | Windows 11 Build 22621 (22H2)          |
-| 可选组件               | WebView2 Runtime                       |
+| 要求                   | 规格                                     |
+| ---------------------- | ---------------------------------------- |
+| **最低可运行系统版本** | Windows 10 Build 19045 (22H2) [^first]   |
+| **推荐系统版本**       | Windows 11 Build 22621 (22H2) 或更高版本 |
+| **必要组件**           | Windows Update, App Installer            |
+| 可选组件               | WebView2 Runtime                         |
 
 ## 下载胡桃工具箱
 
@@ -56,13 +57,14 @@ theme="auto">
 - 启动 PowerShell
 - 执行命令 `winget install "Snap Hutao"`
 - 根据提示允许安装
+  - 如果安装失败或显示缺少依赖包，或卡在安装框架阶段，请参考[手动安装依赖项](advanced/dependency.md)一文
 
 @tab 从 MSIX 文件安装
 
 - 访问胡桃工具箱[最新发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/)或[胡桃资源站](https://d.hut.ao/releases)
 - 下载 MSIX 应用包
 - 直接运行 MSIX 应用包以执行安装
-  - 如果安装失败或显示缺少依赖包，则意味着你的系统缺少[依赖环境](https://d.hut.ao/releases/Dependency)，需要提前安装
+  - 如果安装失败或显示缺少依赖包，或卡在安装框架阶段，请参考[手动安装依赖项](advanced/dependency.md)一文
 
 :::
 

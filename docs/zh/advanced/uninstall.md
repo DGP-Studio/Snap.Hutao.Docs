@@ -1,7 +1,7 @@
 ---
 category: [FAQ]
 icon: delete
-order: 8
+order: 9
 redirectFrom: /advanced/uninstall.html
 ---
 

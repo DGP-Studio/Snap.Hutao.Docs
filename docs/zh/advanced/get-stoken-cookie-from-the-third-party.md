@@ -1,7 +1,7 @@
 ---
 category: [FAQ, 第三方工具]
 icon: read
-order: 6
+order: 7
 redirectFrom: /advanced/get-stoken-cookie-from-the-third-party.html
 ---
 
