@@ -1,6 +1,6 @@
 ---
 category: [FAQ, 依赖项, 安装]
-icon: read
+icon: structure
 order: 6
 ---
 
