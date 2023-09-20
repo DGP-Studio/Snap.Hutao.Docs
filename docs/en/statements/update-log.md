@@ -7,6 +7,24 @@ order: 1
 
 # Update Logs
 
+## 1.7.5 <Badge text="latest" type="tip" />
+
+- Add
+  - Added version number for each achievement
+  - Added monster waves data in Abyss Data page (data provided by [@妮可少女](https://space.bilibili.com/3537104994831140))
+  - Added Microsoft Store rating button on settings page [#876](https://github.com/DGP-Studio/Snap.Hutao/issues/876)
+  - Added a document button above user panel, user will be redirected to current page's document when click on it [#875](https://github.com/DGP-Studio/Snap.Hutao/issues/875)
+- Fix
+  - Fixed game launcher card on dashboard showing empty account issue [#924](https://github.com/DGP-Studio/Snap.Hutao/issues/924)
+  - Fixed achievement status cannot be saved when be manually unchecked [#880](https://github.com/DGP-Studio/Snap.Hutao/issues/880)
+  - Fixed issue that Realtime Note verification on wrong MiHoYo BBS account
+  - Fixed issue that sometime spiral abyss statistics data are missing
+- Optimizations
+  - Optimized some error messages, added solution hints [#930](https://github.com/DGP-Studio/Snap.Hutao/issues/930)
+  - Snap Hutao Announcements content on dashboard now is copyable [#929](https://github.com/DGP-Studio/Snap.Hutao/issues/929)
+  - **Abyss Stats page is now merged into Abyss Records page**
+  - Optimized time format in multiple places
+
 ## 1.7.4 <Badge text="latest" type="tip" />
 
 - Add
