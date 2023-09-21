@@ -7,7 +7,25 @@ redirectFrom: /statements/update-log.html
 
 # 更新日志
 
-## 1.7.4 <Badge text="最新版" type="tip" />
+## 1.7.5 <Badge text="最新版" type="tip" />
+
+- 新增
+  - 成就记录页面新增成就对应版本号数据
+  - 深渊记录界面新增怪物波次数据 （数据来源 [@妮可少女](https://space.bilibili.com/3537104994831140)）
+  - 在设置页面新增微软商店评价的按钮 [#876](https://github.com/DGP-Studio/Snap.Hutao/issues/876)
+  - 在用户按钮上方增加了新的文档按钮，用户点击将跳转到当前界面对应的功能文档 [#875](https://github.com/DGP-Studio/Snap.Hutao/issues/875)
+- 修复
+  - 修复了主页启动游戏卡片帐号空白的情况 [#924](https://github.com/DGP-Studio/Snap.Hutao/issues/924)
+  - 修复了成就记录无法保存手动取消勾选记录的问题 [#880](https://github.com/DGP-Studio/Snap.Hutao/issues/880)
+  - 修复了实时便笺界面切换帐号后无法切换待验证帐号的问题
+  - 修复了深渊记录有时无法正确刷新详细数据的问题
+- 优化
+  - 优化部分错误语句，增加了解决提示 [#930](https://github.com/DGP-Studio/Snap.Hutao/issues/930)
+  - 首页的胡桃推送通知现在允许用户复制 [#929](https://github.com/DGP-Studio/Snap.Hutao/issues/929)
+  - **深渊统计页面迁移合并至深渊记录页面下**
+  - 调整了多处时间显示的格式
+
+## 1.7.4
 
 - 新增
   - 设置页面新增了切换 PowerShell 实例的选项
