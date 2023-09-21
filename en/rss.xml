@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 19 Sep 2023 02:51:26 GMT</pubDate>
-    <lastBuildDate>Tue, 19 Sep 2023 02:51:26 GMT</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2023 00:05:49 GMT</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2023 00:05:49 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -715,10 +715,37 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.4 Add; Added option to change PowerShell entry in settings page; Added option to create desktop shortcut in settings page #912 (https://github.com/DGP-Studio/Snap.Hutao/issu...</description>
+      <description>1.7.5 Add; Added version number for each achievement; Added monster waves data in Abyss Data page (data provided by @妮可少女 (https://space.bilibili.com/3537104994831140)); Added M...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
+<h2> 1.7.5 </h2>
+<ul>
+<li>Add
+<ul>
+<li>Added version number for each achievement</li>
+<li>Added monster waves data in Abyss Data page (data provided by <a href="https://space.bilibili.com/3537104994831140" target="_blank" rel="noopener noreferrer">@妮可少女</a>)</li>
+<li>Added Microsoft Store rating button on settings page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/876" target="_blank" rel="noopener noreferrer">#876</a></li>
+<li>Added a document button above user panel, user will be redirected to current page's document when click on it <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/875" target="_blank" rel="noopener noreferrer">#875</a></li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Fixed game launcher card on dashboard showing empty account issue <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/924" target="_blank" rel="noopener noreferrer">#924</a></li>
+<li>Fixed achievement status cannot be saved when be manually unchecked <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/880" target="_blank" rel="noopener noreferrer">#880</a></li>
+<li>Fixed issue that Realtime Note verification on wrong MiHoYo BBS account</li>
+<li>Fixed issue that sometime spiral abyss statistics data are missing</li>
+</ul>
+</li>
+<li>Optimizations
+<ul>
+<li>Optimized some error messages, added solution hints <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/930" target="_blank" rel="noopener noreferrer">#930</a></li>
+<li>Snap Hutao Announcements content on dashboard now is copyable <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/929" target="_blank" rel="noopener noreferrer">#929</a></li>
+<li><strong>Abyss Stats page is now merged into Abyss Records page</strong></li>
+<li>Optimized time format in multiple places</li>
+</ul>
+</li>
+</ul>
 <h2> 1.7.4 </h2>
 <ul>
 <li>Add

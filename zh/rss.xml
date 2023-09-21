@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 19 Sep 2023 02:51:26 GMT</pubDate>
-    <lastBuildDate>Tue, 19 Sep 2023 02:51:26 GMT</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2023 00:05:49 GMT</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2023 00:05:49 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -2419,11 +2419,38 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.4 新增; 设置页面新增了切换 PowerShell 实例的选项; 设置页面新增了创建桌面快捷方式的选项 #912 (https://github.com/DGP-Studio/Snap.Hutao/issues/912); 设置页面新增了调整主页卡片是否呈现的选项; 我的角色页面新增批量添加到养成计划的功能; 修复; 修复了主页中部分公告的活...</description>
+      <description>1.7.5 新增; 成就记录页面新增成就对应版本号数据; 深渊记录界面新增怪物波次数据 （数据来源 @妮可少女 (https://space.bilibili.com/3537104994831140)）; 在设置页面新增微软商店评价的按钮 #876 (https://github.com/DGP-Studio/Snap.Hutao/issues/87...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.4 </h2>
+<h2> 1.7.5 </h2>
+<ul>
+<li>新增
+<ul>
+<li>成就记录页面新增成就对应版本号数据</li>
+<li>深渊记录界面新增怪物波次数据 （数据来源 <a href="https://space.bilibili.com/3537104994831140" target="_blank" rel="noopener noreferrer">@妮可少女</a>）</li>
+<li>在设置页面新增微软商店评价的按钮 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/876" target="_blank" rel="noopener noreferrer">#876</a></li>
+<li>在用户按钮上方增加了新的文档按钮，用户点击将跳转到当前界面对应的功能文档 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/875" target="_blank" rel="noopener noreferrer">#875</a></li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了主页启动游戏卡片帐号空白的情况 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/924" target="_blank" rel="noopener noreferrer">#924</a></li>
+<li>修复了成就记录无法保存手动取消勾选记录的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/880" target="_blank" rel="noopener noreferrer">#880</a></li>
+<li>修复了实时便笺界面切换帐号后无法切换待验证帐号的问题</li>
+<li>修复了深渊记录有时无法正确刷新详细数据的问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>优化部分错误语句，增加了解决提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/930" target="_blank" rel="noopener noreferrer">#930</a></li>
+<li>首页的胡桃推送通知现在允许用户复制 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/929" target="_blank" rel="noopener noreferrer">#929</a></li>
+<li><strong>深渊统计页面迁移合并至深渊记录页面下</strong></li>
+<li>调整了多处时间显示的格式</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.4</h2>
 <ul>
 <li>新增
 <ul>
