@@ -7,7 +7,22 @@ redirectFrom: /statements/update-log.html
 
 # 更新日志
 
-## 1.7.5 <Badge text="最新版" type="tip" />
+## 1.7.6 <Badge text="最新版" type="tip" />
+
+- 新增
+  - 新增了管理员模式下的 F8 鼠标连点功能
+    - 在即将到来的原神 4.1 和 4.2 版本，该功能可以帮助跳过你不喜欢的剧情部分
+- 修复
+  - 修复了在使用实时便笺验证功能后从实时便笺页面切换到其他页面后切换账号有概率导致崩溃的问题 [#947](https://github.com/DGP-Studio/Snap.Hutao/issues/947)
+  - 修复了在启动游戏后重新打开程序无法正确匹配当前游戏内账号的问题 [#865](https://github.com/DGP-Studio/Snap.Hutao/issues/865)
+  - 修复了成就页面成就统计文本过长时会被裁切的问题 [#956](https://github.com/DGP-Studio/Snap.Hutao/issues/956)
+  - 修复了 4.1 版本元数据导致深境螺旋页面崩溃的问题
+- 优化
+  - 调整了部分用户界面的细节呈现
+  - 调整了特定情况下的游戏公告文本的颜色
+  - 调整了下载离散资源图片文件失败时的逻辑
+
+## 1.7.5
 
 - 新增
   - 成就记录页面新增成就对应版本号数据

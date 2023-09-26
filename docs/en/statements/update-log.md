@@ -7,6 +7,21 @@ order: 1
 
 # Update Logs
 
+## ## 1.7.6 <Badge text="latest" type="tip" />
+
+- Add
+  - Added mouse auto click feature triggered by F8, under Administrator privilege mode
+    - In the upcoming Genshin Impact 4.1 and 4.2 version, this feature may help you skip some task conversation you dislike
+- Fix
+  - Fixed crash issue when switching account after validating cookie on Realtime Notes page [#947](https://github.com/DGP-Studio/Snap.Hutao/issues/947)
+  - Fixed failure of matching current in-game account after rebooting Snap Hutao and game client [#865](https://github.com/DGP-Studio/Snap.Hutao/issues/865)
+  - Fixed display issue on Achievement page [#956](https://github.com/DGP-Studio/Snap.Hutao/issues/956)
+  - Fixed an issue that Genshin Impact 4.1 version metadata will cause program to crash on Spiral Abyss page
+- Optimize
+  - Optimized some user interface details on some pages
+  - Optimized announcement text color in some particular situation
+  - Optimized download logic of downloading static images
+
 ## 1.7.5 <Badge text="latest" type="tip" />
 
 - Add
