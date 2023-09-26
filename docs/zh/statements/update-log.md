@@ -7,7 +7,7 @@ redirectFrom: /statements/update-log.html
 
 # 更新日志
 
-## ## 1.7.6 <Badge text="最新版" type="tip" />
+## 1.7.6 <Badge text="最新版" type="tip" />
 
 - 新增
   - 新增了管理员模式下的 F8 鼠标连点功能
