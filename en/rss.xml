@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 21 Sep 2023 00:05:49 GMT</pubDate>
-    <lastBuildDate>Thu, 21 Sep 2023 00:05:49 GMT</lastBuildDate>
+    <pubDate>Tue, 26 Sep 2023 09:23:12 GMT</pubDate>
+    <lastBuildDate>Tue, 26 Sep 2023 09:23:12 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -715,10 +715,37 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.5 Add; Added version number for each achievement; Added monster waves data in Abyss Data page (data provided by @妮可少女 (https://space.bilibili.com/3537104994831140)); Added M...</description>
+      <description>## 1.7.6 Add; Added mouse auto click feature triggered by F8, under Administrator privilege mode; In the upcoming Genshin Impact 4.1 and 4.2 version, this feature may help you s...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
+<h2> ## 1.7.6 </h2>
+<ul>
+<li>Add
+<ul>
+<li>Added mouse auto click feature triggered by F8, under Administrator privilege mode
+<ul>
+<li>In the upcoming Genshin Impact 4.1 and 4.2 version, this feature may help you skip some task conversation you dislike</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Fixed crash issue when switching account after validating cookie on Realtime Notes page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/947" target="_blank" rel="noopener noreferrer">#947</a></li>
+<li>Fixed failure of matching current in-game account after rebooting Snap Hutao and game client <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/865" target="_blank" rel="noopener noreferrer">#865</a></li>
+<li>Fixed display issue on Achievement page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/956" target="_blank" rel="noopener noreferrer">#956</a></li>
+<li>Fixed an issue that Genshin Impact 4.1 version metadata will cause program to crash on Spiral Abyss page</li>
+</ul>
+</li>
+<li>Optimize
+<ul>
+<li>Optimized some user interface details on some pages</li>
+<li>Optimized announcement text color in some particular situation</li>
+<li>Optimized download logic of downloading static images</li>
+</ul>
+</li>
+</ul>
 <h2> 1.7.5 </h2>
 <ul>
 <li>Add
