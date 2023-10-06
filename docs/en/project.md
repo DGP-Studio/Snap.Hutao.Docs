@@ -9,13 +9,12 @@ order: 6
 
 # Project
 
-Snap Hutao is an MIT-licensed open-source project that provides a Genshin Impact Toolset on Windows, aiming to provide a better experience on PC gaming. It makes undestructive feature expansions on desktops by making features that Genshin Impact provides only on mobile applications.
+Snap Hutao is an open-source Genshin Impact toolkit under MIT license, designed for modern Windows platform to improve
+the gaming experience for desktop players. By combing existing official resources with new features designed by the
+development team, it provides a complete and useful set of tools without the need to rely on mobile devices. Snap Hutao
+does not take any destructive modification to the game client to ensure the security of the toolkit.
 
-## Feature Migration
-
-Snap Hutao project was originally from the Snap Genshin project. Currently, we are still migrating features.
-
-Documents will be provided on this website for all migrated features. The migration process is shown below:
+## Feature Overview
 
 - [x] In-game announcements
 - [x] MiHoYo BBS account management
