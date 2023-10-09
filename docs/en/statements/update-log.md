@@ -7,7 +7,28 @@ order: 1
 
 # Update Logs
 
-## ## 1.7.6 <Badge text="latest" type="tip" />
+## 1.7.7 <Badge text="latest" type="tip" />
+
+- Added card shadow in the following elements to optimize visual effect
+  - Dashboard and in-game announcements
+  - Download resource card in advanced game launcher page
+  - Overview card in wish export page
+  - Statistics card in wish export page
+  - Real-time note card
+  - List view in my character page
+  - Image card in character WIKI
+  - Image card in weapon WIKI
+- Fix
+  - Fixed top margin error under grid view
+  - Fixed grid view crash issues from multiple causes
+  - Fixed server conversion issue from CN server to Bilibili server
+- Optimize
+  - Optimize button position for manual account validation
+    - You can now find it directly from account panel
+  - Added retry logic for fetching abyss record and record upload
+    - User who does not set up CAPTURE verification API can retry after manually validating account from account panel
+
+## ## 1.7.6
 
 - Add
   - Added mouse auto click feature triggered by F8, under Administrator privilege mode
