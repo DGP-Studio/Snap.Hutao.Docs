@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 07 Oct 2023 02:43:09 GMT</pubDate>
-    <lastBuildDate>Sat, 07 Oct 2023 02:43:09 GMT</lastBuildDate>
+    <pubDate>Mon, 09 Oct 2023 02:03:31 GMT</pubDate>
+    <lastBuildDate>Mon, 09 Oct 2023 02:03:31 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -717,11 +717,47 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>## 1.7.6 Add; Added mouse auto click feature triggered by F8, under Administrator privilege mode; In the upcoming Genshin Impact 4.1 and 4.2 version, this feature may help you s...</description>
+      <description>1.7.7 Added card shadow in the following elements to optimize visual effect; Dashboard and in-game announcements; Download resource card in advanced game launcher page; Overview...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> ## 1.7.6 </h2>
+<h2> 1.7.7 </h2>
+<ul>
+<li>Added card shadow in the following elements to optimize visual effect
+<ul>
+<li>Dashboard and in-game announcements</li>
+<li>Download resource card in advanced game launcher page</li>
+<li>Overview card in wish export page</li>
+<li>Statistics card in wish export page</li>
+<li>Real-time note card</li>
+<li>List view in my character page</li>
+<li>Image card in character WIKI</li>
+<li>Image card in weapon WIKI</li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Fixed top margin error under grid view</li>
+<li>Fixed grid view crash issues from multiple causes</li>
+<li>Fixed server conversion issue from CN server to Bilibili server</li>
+</ul>
+</li>
+<li>Optimize
+<ul>
+<li>Optimize button position for manual account validation
+<ul>
+<li>You can now find it directly from account panel</li>
+</ul>
+</li>
+<li>Added retry logic for fetching abyss record and record upload
+<ul>
+<li>User who does not set up CAPTURE verification API can retry after manually validating account from account panel</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2> ## 1.7.6</h2>
 <ul>
 <li>Add
 <ul>

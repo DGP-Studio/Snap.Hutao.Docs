@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 07 Oct 2023 02:43:09 GMT</pubDate>
-    <lastBuildDate>Sat, 07 Oct 2023 02:43:09 GMT</lastBuildDate>
+    <pubDate>Mon, 09 Oct 2023 02:03:31 GMT</pubDate>
+    <lastBuildDate>Mon, 09 Oct 2023 02:03:31 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -2461,11 +2461,48 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.6 新增; 新增了管理员模式下的 F8 鼠标连点功能; 在即将到来的原神 4.1 和 4.2 版本，该功能可以帮助跳过你不喜欢的剧情部分; 修复; 修复了在使用实时便笺验证功能后从实时便笺页面切换到其他页面后切换账号有概率导致崩溃的问题 #947 (https://github.com/DGP-Studio/Snap.Hutao/issues/...</description>
+      <description>1.7.7 在以下位置增加了卡片阴影以优化视觉效果; 仪表板与活动公告; 高级启动器资源下载页签; 祈愿记录总览页签; 祈愿记录历史页签详情; 祈愿记录统计页签; 实时便笺卡片; 我的角色列表视图详情; 角色 WIKI 立绘框; 武器 WIKI 立绘框; 修复; 修复了网格视图下顶部边距不正确的问题; 修复了多个导致崩溃的问题; 修复了无法正常转换官服...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.6 </h2>
+<h2> 1.7.7 </h2>
+<ul>
+<li>在以下位置增加了卡片阴影以优化视觉效果
+<ul>
+<li>仪表板与活动公告</li>
+<li>高级启动器资源下载页签</li>
+<li>祈愿记录总览页签</li>
+<li>祈愿记录历史页签详情</li>
+<li>祈愿记录统计页签</li>
+<li>实时便笺卡片</li>
+<li>我的角色列表视图详情</li>
+<li>角色 WIKI 立绘框</li>
+<li>武器 WIKI 立绘框</li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了网格视图下顶部边距不正确的问题</li>
+<li>修复了多个导致崩溃的问题</li>
+<li>修复了无法正常转换官服/Bilibili 服务器的问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>调整了验证当前用户与角色按钮的位置
+<ul>
+<li>现在你可以在账号面板中直接找到它</li>
+</ul>
+</li>
+<li>获取深渊记录/上传数据引入验证重试机制
+<ul>
+<li>未使用无感验证的用户可以在角色面板中打开我的角色网页视图手动验证后重试</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.6</h2>
 <ul>
 <li>新增
 <ul>
