@@ -3,7 +3,7 @@ headerDepth: 0
 category: [公告]
 comment: false
 editLink: false
-icon: license
+icon: iconfont icon-license
 order: 4
 redirectFrom: /statements/toshtml
 ---

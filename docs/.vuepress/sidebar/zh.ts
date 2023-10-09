@@ -7,19 +7,19 @@ export const zhSidebar = sidebar({
     "i18n",
     "quick-start",
     {
-      icon: "read",
+      icon: "iconfont icon-read",
       text: "功能指南",
       prefix: "features/",
       children: "structure",
     },
     {
-      icon: "advance",
+      icon: "iconfont icon-advance",
       text: "高级",
       prefix: "advanced/",
       children: "structure",
     },
     {
-      icon: "article",
+      icon: "iconfont icon-article",
       text: "声明和公告",
       prefix: "statements/",
       children: "structure",

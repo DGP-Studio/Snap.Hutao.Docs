@@ -1,6 +1,6 @@
 ---
 category: [开源, 开发]
-icon: vscode
+icon: iconfont icon-vscode
 order: 1
 ---
 

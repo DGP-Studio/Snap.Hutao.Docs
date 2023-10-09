@@ -1,6 +1,6 @@
 ---
 headerDepth: 2
-icon: tool
+icon: iconfont icon-tool
 category: [FAQ]
 order: 3
 redirectFrom: /advanced/known-issue.html

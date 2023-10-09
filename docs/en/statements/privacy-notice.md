@@ -2,7 +2,7 @@
 headerDepth: 0
 category:
   - Announcement
-icon: license
+icon: iconfont icon-license
 order: 3
 ---
 

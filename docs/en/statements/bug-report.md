@@ -2,7 +2,7 @@
 headerDepth: 0
 category:
   - Announcement
-icon: debug
+icon: iconfont icon-debug
 comment: false
 order: 2
 ---

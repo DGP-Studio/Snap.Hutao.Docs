@@ -1,6 +1,6 @@
 ---
 category: [open source, development]
-icon: vscode
+icon: iconfont icon-vscode
 order: 1
 ---
 

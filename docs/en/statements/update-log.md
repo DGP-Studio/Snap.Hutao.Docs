@@ -1,7 +1,7 @@
 ---
 category:
   - Announcement
-icon: update
+icon: iconfont icon-update
 order: 1
 ---
 

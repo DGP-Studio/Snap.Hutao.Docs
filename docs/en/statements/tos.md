@@ -4,7 +4,7 @@ category:
   - Announcement
 comment: false
 editLink: false
-icon: license
+icon: iconfont icon-license
 order: 4
 ---
 

@@ -7,19 +7,19 @@ export const enSidebar = sidebar({
     "i18n",
     "quick-start",
     {
-      icon: "read",
+      icon: "iconfont icon-read",
       text: "Features",
       prefix: "features/",
       children: "structure",
     },
     {
-      icon: "advance",
+      icon: "iconfont icon-advance",
       text: "Advanced",
       prefix: "advanced/",
       children: "structure",
     },
     {
-      icon: "article",
+      icon: "iconfont icon-article",
       text: "Statements",
       prefix: "statements/",
       children: "structure",

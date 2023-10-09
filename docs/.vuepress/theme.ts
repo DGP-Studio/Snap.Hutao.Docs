@@ -10,7 +10,10 @@ export default hopeTheme({
     url: "https://github.com/DGP-Studio",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: [
+      "iconfont",
+      "https://at.alicdn.com/t/c/font_3861247_26iz2fk3jhq.css?spm=a313x.manage_type_myprojects.i1.9.752f3a816uOW1y&file=font_3861247_26iz2fk3jhq.css"
+  ],
 
   logo: "https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png",
 

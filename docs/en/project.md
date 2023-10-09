@@ -2,7 +2,7 @@
 headerDepth: 0
 category: [announcement, project, features]
 comment: false
-icon: workingDirectory
+icon: iconfont icon-workingDirectory
 order: 6
 ---
 

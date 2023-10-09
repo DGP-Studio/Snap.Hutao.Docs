@@ -2,7 +2,7 @@
 category:
   - FAQ
   - 第三方工具
-icon: read
+icon: iconfont icon-read
 order: 7
 ---
 

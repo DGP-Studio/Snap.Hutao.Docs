@@ -1,6 +1,6 @@
 ---
 headerDepth: 2
-icon: debug
+icon: iconfont icon-warn
 category: [FAQ]
 order: 2
 redirectFrom: /en/advanced/mihoyo-risk-tip.html

@@ -1,6 +1,6 @@
 ---
 home: true
-icon: home
+icon: iconfont icon-home
 title: Home
 heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp
 heroAlt: Snap Hutao
@@ -26,13 +26,13 @@ highlights:
     bgImageDark: /images/202309/head-back2.png
     highlights:
       - title: You Control Your Data
-        icon: computer
+        icon: iconfont icon-computer
         details: Your data is stored in your local device, does not rely on any cloud service or third-party platform, you have freedom control your data
       - title: We Protect Your Data
-        icon: lock
+        icon: iconfont icon-lock
         details: Your data can be backed up to Snap Hutao Cloud, you never lose data when you are on a new device
       - title: Community Guards your Program
-        icon: anonymous
+        icon: iconfont icon-anonymous
         details: Snap Hutao is open-sourced on GitHub with MIT license, we welcome community members to review and contribute to our code. The software is listed in Microsoft Store, which passes Microsoft's security review
 
   - header: All-in-one Toolbox
