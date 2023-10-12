@@ -19,6 +19,12 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
+      icon: "iconfont icon-github",
+      text: "开源开发",
+      prefix: "development/",
+      children: "structure"
+    },
+    {
       icon: "iconfont icon-article",
       text: "声明和公告",
       prefix: "statements/",

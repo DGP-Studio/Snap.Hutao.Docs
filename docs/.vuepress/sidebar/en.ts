@@ -19,6 +19,12 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     {
+      icon: "iconfont icon-github",
+      text: "Open Source Development",
+      prefix: "development/",
+      children: "structure"
+    },
+    {
       icon: "iconfont icon-article",
       text: "Statements",
       prefix: "statements/",
