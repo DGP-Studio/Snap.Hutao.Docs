@@ -9,6 +9,7 @@ redirectFrom:
     /advanced/mihoyo-risk-tip.html,
     /zh/advanced/mihoyo-risk-tip.html,
   ]
+comment: false
 ---
 
 # 常见的程序异常
@@ -20,7 +21,7 @@ redirectFrom:
 - 异常：`RuntimeEnvironmentException`
   - 提示：`未开启长路径功能，无法设置注册表键值`
 - 问题来源：没有解除 Windows 目录长度限制
-- 解决方案：下载 [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip) 后解压，以管理员身份运行解压后的 `.reg` 文件
+- 解决方案：下载 [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip) 后解压，运行解压后的 `.reg` 文件
 
 ## Return Code: -10001
 

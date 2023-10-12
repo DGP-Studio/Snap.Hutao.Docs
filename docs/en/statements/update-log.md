@@ -3,6 +3,7 @@ category:
   - Announcement
 icon: iconfont icon-update
 order: 1
+comment: false
 ---
 
 # Update Logs

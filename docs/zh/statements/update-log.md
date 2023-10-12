@@ -3,6 +3,7 @@ category: [公告]
 icon: iconfont icon-update
 order: 1
 redirectFrom: /statements/update-log.html
+comment: false
 ---
 
 # 更新日志

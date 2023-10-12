@@ -4,6 +4,7 @@ category:
   - FAQ
 icon: iconfont icon-read
 order: 8
+comment: false
 ---
 
 # 祈愿系统与导出原理

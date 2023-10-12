@@ -4,6 +4,7 @@ icon: iconfont icon-warn
 category: [FAQ]
 order: 2
 redirectFrom: /en/advanced/mihoyo-risk-tip.html
+comment: false
 ---
 
 # Common Program Exceptions
@@ -16,7 +17,6 @@ This document covers solutions of **foreseeable client error**
   - Hint: `Unable to set registry key without enabling long path`
 - Issue source: Windows long path limit is set to be limited at 256 characters by default
 - Solution: Download [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip), unzip it and run `.reg` file
-  as administrator
 
 ## Return Code: -10001
 

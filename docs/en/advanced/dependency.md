@@ -2,6 +2,7 @@
 category: [FAQ, dependency, installation]
 icon: iconfont icon-structure
 order: 6
+comment: false
 ---
 
 # Install Dependency Manually
