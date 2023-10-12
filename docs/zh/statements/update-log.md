@@ -7,7 +7,16 @@ redirectFrom: /statements/update-log.html
 
 # 更新日志
 
-## 1.7.7 <Badge text="最新版" type="tip" />
+## 1.7.9 <Badge text="最新版" type="tip" />
+
+- 修复
+  - 修复了退出程序后显示器分辨率更改后无法以正确窗口尺寸启动的问题
+  - 修复了米哈游通行证页面无法正确登录的问题 [#1005](https://github.com/DGP-Studio/Snap.Hutao/issues/1005)
+  - 修复了 HoYoverse 登录页面不正确的问题 [#1007](https://github.com/DGP-Studio/Snap.Hutao/issues/1007)
+  - 修复了 1.7.7 版本无法正确上传崩溃日志的问题
+  - 修复了深境螺旋页面本期页签上场队伍页签列表中的上场次数过长可能无法正常显示的问题 [#1008](https://github.com/DGP-Studio/Snap.Hutao/issues/1008)
+
+## 1.7.7
 
 - 在以下位置增加了卡片阴影以优化视觉效果
   - 仪表板与活动公告
