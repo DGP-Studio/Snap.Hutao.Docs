@@ -6,23 +6,60 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 09 Oct 2023 02:03:31 GMT</pubDate>
-    <lastBuildDate>Mon, 09 Oct 2023 02:03:31 GMT</lastBuildDate>
+    <pubDate>Fri, 13 Oct 2023 05:38:27 GMT</pubDate>
+    <lastBuildDate>Fri, 13 Oct 2023 05:38:27 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>open source</category>
+    <category>development</category>
     <category>FAQ</category>
     <category>dependency</category>
     <category>installation</category>
     <category>Feature</category>
     <category>Tutorial</category>
-    <category>open source</category>
-    <category>development</category>
     <category>第三方工具</category>
     <category>Announcement</category>
     <category>i18n</category>
     <category>announcement</category>
     <category>project</category>
     <category>features</category>
+    <item>
+      <title>Contribute Your Code</title>
+      <link>https://hut.ao/en/development/contribute.html</link>
+      <guid>https://hut.ao/en/development/contribute.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Contribute Your Code</source>
+      <description>Snap Hutao is using C# and .NET Framework to develop both client and server. If you are willing to contribute your code to the project, please read the following guidelines. You...</description>
+      <category>open source</category>
+      <category>development</category>
+      <pubDate>Thu, 12 Oct 2023 07:23:38 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Contribute Your Code</h1>
+<p>Snap Hutao is using C# and .NET Framework to develop both client and server. If you are willing to contribute your code
+to the project, please read the following guidelines.</p>
+<p>You can find all <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D+" target="_blank" rel="noopener noreferrer">unsolved opened issues</a> on GitHub</p>
+<h2> </h2>
+<ol>
+<li>Download and install <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer">Visual Studio 2022 Community</a></li>
+<li>Open Visual Studio Installer to complete Visual Studio installation
+<ul>
+<li>You need to install <code>.NET desktop development</code>, <code>Desktop development with C++</code> and <code>Universal Windows Platform development</code> components</li>
+</ul>
+</li>
+<li>Install <code>Single-project MSIX Packaging Tools for VS 2022</code> provided by Microsoft in Visual Studio marketplace</li>
+<li>Use git to clone the project <code>https://github.com/DGP-Studio/Snap.Hutao.git</code> to your local device</li>
+<li>Switch git branch to <code>develop</code></li>
+<li>Open project solution with your Visual Studio and then you are ready to go</li>
+</ol>
+<h2> </h2>
+<ul>
+<li>All code-related changes from authors' own branches are only allowed be merged to <code>develop</code> branch</li>
+<li>Please use <a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests" target="_blank" rel="noopener noreferrer">keywords</a> to link your PR or commits with issues, so issues can be automatically closed once commits are merged into <code>main</code> branch.</li>
+</ul>
+<h2> </h2>
+<p>Once the code in updated in <code>develop</code> and <code>main</code> branches, an Azure Pipeline CI script will build the latest code to <code>Snap Hutao Alpha</code> package. Once the package is built, it will be released on <a href="https://github.com/DGP-Studio/Snap.Hutao/releases" target="_blank" rel="noopener noreferrer">GitHub Release page</a> as a pre-released package.</p>
+<p>You need to install <a href="https://github.com/DGP-Studio/Snap.Hutao/releases/download/2023.10.3.1/Snap.Hutao.CI.cer" target="_blank" rel="noopener noreferrer">Snap.Hutao.CI.cer</a> certificate to your local machine, and then install the msix package in the release.</p>
+<p>*If the latest release does not contain attached file, that means package is still in uploading process.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Install Dependency Manually</title>
       <link>https://hut.ao/en/advanced/dependency.html</link>
@@ -122,12 +159,12 @@ Once the download is complete, Snap Hutao will close the initialization setup in
       <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01wBgRV01g6dyC2bc62_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>Development</title>
+      <title>Open Source Development</title>
       <link>https://hut.ao/en/development/</link>
       <guid>https://hut.ao/en/development/</guid>
-      <source url="https://hut.ao/en/rss.xml">Development</source>
+      <source url="https://hut.ao/en/rss.xml">Open Source Development</source>
       <pubDate>Sat, 03 Jun 2023 00:06:23 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Development</h1>
+      <content:encoded><![CDATA[<h1> Open Source Development</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -152,17 +189,15 @@ experienced developer or a beginner, we hope that these interfaces will assist y
 Open-source software authors can use the Hutao API to retrieve data from the Hutao database or upload data.</p>
 <p>Developers who gain access to the Hutao API also receive full privileges to the Hutao Cloud feature
 within the Snap Hutao as a benefit.</p>
-<p>Developers can apply for access by submitting their information through the Hutao API Open Platform at
-<a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">https://homa.snapgenshin.com/</a></p>
+<p>Developers can apply for access by submitting their information through the Hutao API Open Platform
+at <a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">homa.snapgenshin.com</a></p>
 <h2> Enka API with China Acceleration</h2>
 <p><a href="https://enka.network/" target="_blank" rel="noopener noreferrer">Enka Network</a> is an excellent Genshin Impact tool that provides detailed data on characters in
 the user's current character showcase. However, due to restricted access to certain network services in China,
 the stability of Enka Network's functionality in the region is compromised.</p>
 <p>To ensure a smooth user experience for Snap Hutao users in China, the development team has utilized Enka Network's data
 for the development of the <a href="/en/features/character-data.html" target="blank">My Characters</a> feature and established a proxy server.</p>
-<p>If you are a developer of open-source Genshin Impact tools and require this functionality, you can fill out the
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSefnrYz41NZ2hSG0xC6OoBsIiM_mDdVLS7lsUg9thHmA1h8qw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">form</a>
-to apply for the usage of our maintained proxy service.</p>
+<p>Developers can ask for access in Snap Hutao development group chat or discord group from administrator.</p>
 <h2> UIGF Interchangeable Game Data Format</h2>
 <p>Snap Hutao aims to enable the free flow of user data among various open-source tools with different features.
 To facilitate this, Snap Hutao has established the initial version of the <a href="https://uigf.org/en/standards/UIGF.html" target="_blank" rel="noopener noreferrer">Uniformed Interchangeable GachaLog Format
@@ -368,12 +403,12 @@ verification, then your account can be used to refresh data.</p>
       <link>https://hut.ao/en/advanced/known-issue.html</link>
       <guid>https://hut.ao/en/advanced/known-issue.html</guid>
       <source url="https://hut.ao/en/rss.xml">Known Issue</source>
-      <description>This document records known issues that need to be fixed. You can view latest version of opened BUG report on https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Ao...</description>
+      <description>This document records known issues that need to be fixed. You can view latest version of opened BUG report on https://github.com/DGP-Studio/Snap.Hutao/issues (https://github.com...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:40 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Known Issue</h1>
 <p>This document records known issues that <strong>need to be fixed</strong>.</p>
-<p>You can view latest version of opened BUG report on <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+label%3ABUG</a></p>
+<p>You can view latest version of opened BUG report on <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3ABUG+" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -454,8 +489,7 @@ verification, then your account can be used to refresh data.</p>
 </ul>
 </li>
 <li>Issue source: Windows long path limit is set to be limited at 256 characters by default</li>
-<li>Solution: Download <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a>, unzip it and run <code>.reg</code> file
-as administrator</li>
+<li>Solution: Download <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a>, unzip it and run <code>.reg</code> file</li>
 </ul>
 <h2> Return Code: -10001</h2>
 <ul>
@@ -717,11 +751,24 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.7 Added card shadow in the following elements to optimize visual effect; Dashboard and in-game announcements; Download resource card in advanced game launcher page; Overview...</description>
+      <description>1.7.9 Fix; Fixed an issue that prevented the program from launching with the correct window size after the monitor; resolution was changed after exiting the program Fixed login ...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.7 </h2>
+<h2> 1.7.9 </h2>
+<ul>
+<li>Fix
+<ul>
+<li>Fixed an issue that prevented the program from launching with the correct window size after the monitor
+resolution was changed after exiting the program</li>
+<li>Fixed login issue of MiHoYo BBS <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1005" target="_blank" rel="noopener noreferrer">#1005</a></li>
+<li>Fixed HoYoverse login issue <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1007" target="_blank" rel="noopener noreferrer">#1007</a></li>
+<li>Fixed crash log upload issue in version 1.7.7</li>
+<li>Fixed UI display issue on Team Lineup page in Spiral Abyss feature <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1008" target="_blank" rel="noopener noreferrer">#1008</a></li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.7</h2>
 <ul>
 <li>Added card shadow in the following elements to optimize visual effect
 <ul>
@@ -1277,20 +1324,19 @@ community members can contribute Japanese language on <a href="https://translate
 <li>Promote our project in your network</li>
 </ul>
 <p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
-<h2> GitHub Discussion</h2>
+<h2> </h2>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
-<h2> QQ Group (CN)</h2>
+<h2> </h2>
 <ul>
 <li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&amp;authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&amp;noverify=0&amp;group_code=910780153" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
-<li><em>Snap Developer Open Discussion Group</em>
+<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap Developer Open Discussion Group</em></a>
 <ul>
 <li>General tech talk, not Snap Hutao Project development group</li>
 <li>The Dev group requires some basic tech knowledge</li>
-<li>You can join via <a href="https://dev-group.hut.ao" target="_blank" rel="noopener noreferrer">https://dev-group.hut.ao</a> if you are interested to join</li>
 </ul>
 </li>
 </ul>
-<h2> Discord</h2>
+<h2> </h2>
 <p>Invite link：<a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">https://discord.gg/Yb8bykUKp</a></p>
 ]]></content:encoded>
     </item>
