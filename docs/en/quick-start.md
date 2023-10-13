@@ -5,7 +5,7 @@ category:
   - Feature
   - Tutorial
 comment: false
-icon: play
+icon: iconfont icon-play
 order: 5
 ---
 

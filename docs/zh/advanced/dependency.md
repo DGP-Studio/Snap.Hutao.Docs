@@ -1,7 +1,8 @@
 ---
 category: [FAQ, 依赖项, 安装]
-icon: structure
+icon: iconfont icon-structure
 order: 6
+comment: false
 ---
 
 # 手动安装依赖项

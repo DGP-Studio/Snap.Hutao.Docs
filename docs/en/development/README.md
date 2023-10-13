@@ -3,8 +3,10 @@ headerDepth: 0
 comment: false
 index: false
 dir:
-  text: Development
+  text: Open Source Development
   order: 3
 ---
 
-# Development
+# Open Source Development
+
+<AutoCatalog />

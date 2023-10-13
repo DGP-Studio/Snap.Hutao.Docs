@@ -1,6 +1,6 @@
 ---
 headerDepth: 2
-icon: ask
+icon: iconfont icon-ask
 category:
   - FAQ
 order: 1

@@ -1,6 +1,7 @@
 ---
 category: [开源, 开发]
-icon: vscode
+tag: [开源, 胡桃数据库, 深渊数据库, Enka, UIGF, 数据开放]
+icon: iconfont icon-vscode
 order: 1
 ---
 
@@ -18,7 +19,7 @@ Snap Hutao 的中间组件。
 
 获得胡桃 API 权限的开发者同时也获得胡桃工具箱内胡桃云功能的完整权限作为福利。
 
-开发者可以通过 [胡桃 API 开放平台](https://homa.snapgenshin.com/)，提交信息申请权限。
+开发者可以通过[胡桃 API 开放平台](https://homa.snapgenshin.com/)，提交信息申请权限。
 
 ## Enka API 中国加速服务
 
@@ -28,7 +29,7 @@ Snap Hutao 的中间组件。
 胡桃工具箱在开发[我的角色](../features/character-data.md)功能时使用了 Enka Network 的数据，
 并搭建了中转服务器以保证胡桃工具箱中国用户的使用体验。
 
-如果你是原神开源工具的开发者并且有该功能的需要可以填写[该表格](https://docs.google.com/forms/d/e/1FAIpQLSefnrYz41NZ2hSG0xC6OoBsIiM_mDdVLS7lsUg9thHmA1h8qw/viewform?usp=sf_link)以申请使用我们维护的中转服务。
+开发者可以在 Snap Hutao 开发者交流群或者 Discord 频道中向管理员提出申请
 
 ## UIGF 可交换数据记录
 

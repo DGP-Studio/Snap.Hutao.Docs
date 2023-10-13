@@ -1,7 +1,7 @@
 ---
 headerDepth: 0
 category: [公告]
-icon: debug
+icon: iconfont icon-debug
 order: 2
 comment: false
 redirectFrom: /statements/bug-report.html

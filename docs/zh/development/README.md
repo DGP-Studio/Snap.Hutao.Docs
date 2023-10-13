@@ -4,8 +4,10 @@ comment: false
 index: false
 redirectFrom: /development/
 dir:
-  text: 开发
+  text: 开源开发
   order: 3
 ---
 
-# 开发
+# 开源开发
+
+<AutoCatalog />

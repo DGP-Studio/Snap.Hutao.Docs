@@ -1,8 +1,9 @@
 ---
 category: [FAQ]
-icon: delete
+icon: iconfont icon-delete
 order: 9
 redirectFrom: /advanced/uninstall.html
+comment: false
 ---
 
 # 卸载胡桃工具箱

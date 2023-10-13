@@ -1,13 +1,24 @@
 ---
 category:
   - Announcement
-icon: update
+icon: iconfont icon-update
 order: 1
+comment: false
 ---
 
 # Update Logs
 
-## 1.7.7 <Badge text="latest" type="tip" />
+## 1.7.9 <Badge text="latest" type="tip" />
+
+- Fix
+  - Fixed an issue that prevented the program from launching with the correct window size after the monitor
+    resolution was changed after exiting the program
+  - Fixed login issue of MiHoYo BBS [#1005](https://github.com/DGP-Studio/Snap.Hutao/issues/1005)
+  - Fixed HoYoverse login issue [#1007](https://github.com/DGP-Studio/Snap.Hutao/issues/1007)
+  - Fixed crash log upload issue in version 1.7.7
+  - Fixed UI display issue on Team Lineup page in Spiral Abyss feature [#1008](https://github.com/DGP-Studio/Snap.Hutao/issues/1008)
+
+## 1.7.7
 
 - Added card shadow in the following elements to optimize visual effect
   - Dashboard and in-game announcements

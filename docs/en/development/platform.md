@@ -1,6 +1,7 @@
 ---
 category: [open source, development]
-icon: vscode
+tag: [open source, Hutao Database, Spiral Abyss Database, Enka, UIGF, Open data]
+icon: iconfont icon-vscode
 order: 1
 ---
 
@@ -23,8 +24,8 @@ Open-source software authors can use the Hutao API to retrieve data from the Hut
 Developers who gain access to the Hutao API also receive full privileges to the Hutao Cloud feature
 within the Snap Hutao as a benefit.
 
-Developers can apply for access by submitting their information through the Hutao API Open Platform at
-[https://homa.snapgenshin.com/](https://homa.snapgenshin.com/)
+Developers can apply for access by submitting their information through the Hutao API Open Platform
+at [homa.snapgenshin.com](https://homa.snapgenshin.com/)
 
 ## Enka API with China Acceleration
 
@@ -35,9 +36,7 @@ the stability of Enka Network's functionality in the region is compromised.
 To ensure a smooth user experience for Snap Hutao users in China, the development team has utilized Enka Network's data
 for the development of the [My Characters](../features/character-data.md) feature and established a proxy server.
 
-If you are a developer of open-source Genshin Impact tools and require this functionality, you can fill out the
-[form](https://docs.google.com/forms/d/e/1FAIpQLSefnrYz41NZ2hSG0xC6OoBsIiM_mDdVLS7lsUg9thHmA1h8qw/viewform?usp=sf_link)
-to apply for the usage of our maintained proxy service.
+Developers can ask for access in Snap Hutao development group chat or discord group from administrator.
 
 ## UIGF Interchangeable Game Data Format
 

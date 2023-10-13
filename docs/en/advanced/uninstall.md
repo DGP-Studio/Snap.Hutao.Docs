@@ -1,8 +1,9 @@
 ---
 category:
   - FAQ
-icon: delete
+icon: iconfont icon-delete
 order: 9
+comment: false
 ---
 
 # Uninstall Snap Hutao

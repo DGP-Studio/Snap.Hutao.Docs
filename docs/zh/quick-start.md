@@ -4,7 +4,7 @@ externalLinkIcon: false
 category: [功能, 教程]
 redirectFrom: /quick-start.html
 comment: false
-icon: play
+icon: iconfont icon-play
 order: 5
 ---
 

@@ -1,9 +1,10 @@
 ---
 headerDepth: 0
 category: [FAQ]
-icon: read
+icon: iconfont icon-read
 order: 8
 redirectFrom: /advanced/Gacha-system-and-export-principal.html
+comment: false
 ---
 
 # 祈愿系统与导出原理
