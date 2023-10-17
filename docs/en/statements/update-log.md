@@ -8,7 +8,21 @@ comment: false
 
 # Update Logs
 
-## 1.7.9 <Badge text="latest" type="tip" />
+## 1.7.10 <Badge text="最新版" type="tip" />
+
+- Fix
+  - Fixed login issue with HoYoverse account [#1011](https://github.com/DGP-Studio/Snap.Hutao/issues/101) [#1012](https://github.com/DGP-Studio/Snap.Hutao/issues/1012)
+  - Fixed daily check-in issue on HoYoLAB account [#1013](https://github.com/DGP-Studio/Snap.Hutao/issues/1013)
+  - Fixed issue that `Invalid item` error show up when language does not match in UIGFv2.2 data file [#1001](https://github.com/DGP-Studio/Snap.Hutao/issues/1001)
+  - Fixed crash issue when an invalid CAPTCHA Url is input in the setting
+  - Fixed crash issue when an invalid channel setting is given when launching the game
+  - Fixed crash when switching account while WebView2 Runtime version is too low to have necessary feature
+  - Fixed crash issue when an invalid record is displayed in Spiral Abyss page
+  - Fixed a memory overflow issue in embedded pages
+- Optimization
+  - Current game account now can be automatically identified when reaching the game launcher page
+
+## 1.7.9
 
 - Fix
   - Fixed an issue that prevented the program from launching with the correct window size after the monitor

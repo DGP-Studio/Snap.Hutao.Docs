@@ -21,6 +21,13 @@ order: 2
 5. 将分支切换为 `develop`
 6. 使用你的 Visual Studio 打开项目 solution，接下来你就可以开始编辑代码了
 
+## 开启 Debug
+
+1. 从[微软商店](https://www.microsoft.com/store/productid/9P7KNL5RWT25)或[微软官网](https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite)下载并安装 `Sysinternals Suite`
+2. 从开始菜单或解压后的文件中找到 `DebugView` 并启动
+3. 启动 Snap Hutao 主程序
+4. 观察 DebugView 的输出
+
 ## <HopeIcon icon="iconfont icon-pull-request" size="1.5rem" /> 发起 Pull Request
 
 - 所有不是从项目其它分支发起的 Pull Request 都只被允许合并进 `develop` 分支

@@ -8,7 +8,21 @@ comment: false
 
 # 更新日志
 
-## 1.7.9 <Badge text="最新版" type="tip" />
+## 1.7.10 <Badge text="最新版" type="tip" />
+
+- 修复
+  - 修复了 HoYoverse 无法正常登录的问题 [#1011](https://github.com/DGP-Studio/Snap.Hutao/issues/101) [#1012](https://github.com/DGP-Studio/Snap.Hutao/issues/1012)
+  - 修复了 HoYoLAB 账号无法正常签到的问题 [#1013](https://github.com/DGP-Studio/Snap.Hutao/issues/1013)
+  - 修复了导入 UIGF v2.2 文件时语言不正确会导致提示`无效的物品`的问题 [#1001](https://github.com/DGP-Studio/Snap.Hutao/issues/1001)
+  - 修复了提供无效的无感验证 Url 后在请求相应接口时会导致程序崩溃的问题
+  - 修复了部分无效的通道状态下进入启动游戏页面会导致程序崩溃的问题
+  - 修复了 WebView2 Runtime 版本过低时查看内嵌网页并切换账号会导致程序崩溃的问题
+  - 修复了深境螺旋页面当部分记录无有效值时会导致程序崩溃的问题
+  - 修复了内嵌网页可能导致内存溢出的一个问题
+- 优化
+  - 现在启动游戏页面中检测账号后若已经存在对应账号会自动选择
+
+## 1.7.9
 
 - 修复
   - 修复了退出程序后显示器分辨率更改后无法以正确窗口尺寸启动的问题
