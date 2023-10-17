@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 13 Oct 2023 05:38:27 GMT</pubDate>
-    <lastBuildDate>Fri, 13 Oct 2023 05:38:27 GMT</lastBuildDate>
+    <pubDate>Tue, 17 Oct 2023 23:32:45 GMT</pubDate>
+    <lastBuildDate>Tue, 17 Oct 2023 23:32:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -48,6 +48,13 @@ to the project, please read the following guidelines.</p>
 <li>Use git to clone the project <code>https://github.com/DGP-Studio/Snap.Hutao.git</code> to your local device</li>
 <li>Switch git branch to <code>develop</code></li>
 <li>Open project solution with your Visual Studio and then you are ready to go</li>
+</ol>
+<h2> Enable Debug</h2>
+<ol>
+<li>Download and install <code>Sysinternals Suite</code> from <a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">Microsoft Store</a> or <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">Microsoft website</a></li>
+<li>Locate and run <code>DebugView</code> program in the installed app list or unzipped folder</li>
+<li>Run Snap Hutao client</li>
+<li>Check DebugView output</li>
 </ol>
 <h2> </h2>
 <ul>
@@ -751,11 +758,31 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.9 Fix; Fixed an issue that prevented the program from launching with the correct window size after the monitor; resolution was changed after exiting the program Fixed login ...</description>
+      <description>1.7.10 Fix; Fixed login issue with HoYoverse account #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/101) #1012 (https://github.com/DGP-Studio/Snap.Hutao/issues/1012); Fi...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.9 </h2>
+<h2> 1.7.10 </h2>
+<ul>
+<li>Fix
+<ul>
+<li>Fixed login issue with HoYoverse account <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/101" target="_blank" rel="noopener noreferrer">#1011</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1012" target="_blank" rel="noopener noreferrer">#1012</a></li>
+<li>Fixed daily check-in issue on HoYoLAB account <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1013" target="_blank" rel="noopener noreferrer">#1013</a></li>
+<li>Fixed issue that <code>Invalid item</code> error show up when language does not match in UIGFv2.2 data file <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1001" target="_blank" rel="noopener noreferrer">#1001</a></li>
+<li>Fixed crash issue when an invalid CAPTCHA Url is input in the setting</li>
+<li>Fixed crash issue when an invalid channel setting is given when launching the game</li>
+<li>Fixed crash when switching account while WebView2 Runtime version is too low to have necessary feature</li>
+<li>Fixed crash issue when an invalid record is displayed in Spiral Abyss page</li>
+<li>Fixed a memory overflow issue in embedded pages</li>
+</ul>
+</li>
+<li>Optimization
+<ul>
+<li>Current game account now can be automatically identified when reaching the game launcher page</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.9</h2>
 <ul>
 <li>Fix
 <ul>

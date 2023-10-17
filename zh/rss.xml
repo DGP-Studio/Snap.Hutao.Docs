@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 13 Oct 2023 05:38:27 GMT</pubDate>
-    <lastBuildDate>Fri, 13 Oct 2023 05:38:27 GMT</lastBuildDate>
+    <pubDate>Tue, 17 Oct 2023 23:32:45 GMT</pubDate>
+    <lastBuildDate>Tue, 17 Oct 2023 23:32:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -47,6 +47,13 @@
 <li>使用 Git clone <code>https://github.com/DGP-Studio/Snap.Hutao.git</code> 到你的本地设备</li>
 <li>将分支切换为 <code>develop</code></li>
 <li>使用你的 Visual Studio 打开项目 solution，接下来你就可以开始编辑代码了</li>
+</ol>
+<h2> 开启 Debug</h2>
+<ol>
+<li>从<a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">微软商店</a>或<a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">微软官网</a>下载并安装 <code>Sysinternals Suite</code></li>
+<li>从开始菜单或解压后的文件中找到 <code>DebugView</code> 并启动</li>
+<li>启动 Snap Hutao 主程序</li>
+<li>观察 DebugView 的输出</li>
 </ol>
 <h2> </h2>
 <ul>
@@ -2501,11 +2508,31 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.9 修复; 修复了退出程序后显示器分辨率更改后无法以正确窗口尺寸启动的问题; 修复了米哈游通行证页面无法正确登录的问题 #1005 (https://github.com/DGP-Studio/Snap.Hutao/issues/1005); 修复了 HoYoverse 登录页面不正确的问题 #1007 (https://github.com/...</description>
+      <description>1.7.10 修复; 修复了 HoYoverse 无法正常登录的问题 #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/101) #1012 (https://github.com/DGP-Studio/Snap.Hutao/issues/1012); 修复了 HoYoLAB 账号无法正常签到...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.9 </h2>
+<h2> 1.7.10 </h2>
+<ul>
+<li>修复
+<ul>
+<li>修复了 HoYoverse 无法正常登录的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/101" target="_blank" rel="noopener noreferrer">#1011</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1012" target="_blank" rel="noopener noreferrer">#1012</a></li>
+<li>修复了 HoYoLAB 账号无法正常签到的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1013" target="_blank" rel="noopener noreferrer">#1013</a></li>
+<li>修复了导入 UIGF v2.2 文件时语言不正确会导致提示<code>无效的物品</code>的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1001" target="_blank" rel="noopener noreferrer">#1001</a></li>
+<li>修复了提供无效的无感验证 Url 后在请求相应接口时会导致程序崩溃的问题</li>
+<li>修复了部分无效的通道状态下进入启动游戏页面会导致程序崩溃的问题</li>
+<li>修复了 WebView2 Runtime 版本过低时查看内嵌网页并切换账号会导致程序崩溃的问题</li>
+<li>修复了深境螺旋页面当部分记录无有效值时会导致程序崩溃的问题</li>
+<li>修复了内嵌网页可能导致内存溢出的一个问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>现在启动游戏页面中检测账号后若已经存在对应账号会自动选择</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.9</h2>
 <ul>
 <li>修复
 <ul>
