@@ -22,6 +22,13 @@ You can find all [unsolved opened issues](https://github.com/DGP-Studio/Snap.Hut
 5. Switch git branch to `develop`
 6. Open project solution with your Visual Studio and then you are ready to go
 
+## Enable Debug
+
+1. Download and install `Sysinternals Suite` from [Microsoft Store](https://www.microsoft.com/store/productid/9P7KNL5RWT25) or [Microsoft website](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
+2. Locate and run `DebugView` program in the installed app list or unzipped folder
+3. Run Snap Hutao client
+4. Check DebugView output
+
 ## <HopeIcon icon="iconfont icon-pull-request" size="1.5rem" /> Start Pull Request
 
 - All code-related changes from authors' own branches are only allowed be merged to `develop` branch
