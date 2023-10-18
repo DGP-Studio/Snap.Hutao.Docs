@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 18 Oct 2023 22:11:10 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 22:11:10 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 23:33:11 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 23:33:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -2414,6 +2414,24 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 </li>
+</ul>
+<h2> 可信任的域名</h2>
+<p>Snap Hutao 项目目前持有以下域名，它们在本项目范围内是可信任的域名，请警惕此列表以外域名所提供的信息（包括网站、邮件等）</p>
+<ul>
+<li>hut.ao</li>
+<li>snapgenshin.com
+<ul>
+<li>我们仅使用此域名发送系统邮件</li>
+</ul>
+</li>
+<li>dgp-studio.cn
+<ul>
+<li>我们仅使用此域名用于公开的邮件联系方式</li>
+</ul>
+</li>
+<li>snapgenshin.cn</li>
+<li>snaphutao.com</li>
+<li>hutao.ao</li>
 </ul>
 ]]></content:encoded>
     </item>

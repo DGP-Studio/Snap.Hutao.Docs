@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 18 Oct 2023 22:11:10 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 22:11:10 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 23:33:11 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 23:33:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -2367,6 +2367,25 @@ when program stops unexpectedly or throw an error, including - User device ID - 
 </li>
 </ul>
 </li>
+</ul>
+<h2> Trustable Domains</h2>
+<p>Snap Hutao project is holding the following domains, they are trustable in this project scope, please be wary of
+information provided by domains outside this list (including websites, emails, etc.)</p>
+<ul>
+<li>hut.ao</li>
+<li>snapgenshin.com
+<ul>
+<li>We only use this domain for system emails</li>
+</ul>
+</li>
+<li>dgp-studio.cn
+<ul>
+<li>We only use this domain for public email contact</li>
+</ul>
+</li>
+<li>snapgenshin.cn</li>
+<li>hutao.ao</li>
+<li>snaphutao.com</li>
 </ul>
 ]]></content:encoded>
     </item>
