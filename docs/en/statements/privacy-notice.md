@@ -45,3 +45,17 @@ Snap Hutao respects the privacy of users, and we're currently using data as desc
   - **Store**
     - User registered email address
     - Encrypted password
+
+## Trustable Domains
+
+Snap Hutao project is holding the following domains, they are trustable in this project scope, please be wary of
+information provided by domains outside this list (including websites, emails, etc.)
+
+- hut.ao
+- snapgenshin.com
+  - We only use this domain for system emails
+- dgp-studio.cn
+  - We only use this domain for public email contact
+- snapgenshin.cn
+- hutao.ao
+- snaphutao.com

@@ -49,3 +49,16 @@ Snap Hutao 的项目性质决定了其不会收集任何个人信息数据
   - **储存**
     - 注册使用的邮箱
     - 加密后的密码
+
+## 可信任的域名
+
+Snap Hutao 项目目前持有以下域名，它们在本项目范围内是可信任的域名，请警惕此列表以外域名所提供的信息（包括网站、邮件等）
+
+- hut.ao
+- snapgenshin.com
+  - 我们仅使用此域名发送系统邮件
+- dgp-studio.cn
+  - 我们仅使用此域名用于公开的邮件联系方式
+- snapgenshin.cn
+- snaphutao.com
+- hutao.ao
