@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 18 Oct 2023 20:50:46 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 20:50:46 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 22:11:10 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 22:11:10 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -452,6 +452,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li>广泛的技术交流群，并非胡桃工具箱开发群</li>
 <li>开发群对申请者的技术水平有一定要求</li>
+<li>如果你想要<a href="/zh/project.html" target="blank">加入开发团队</a>，请在入群验证时提及</li>
 </ul>
 </li>
 </ul>
@@ -553,7 +554,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/project.html</link>
       <guid>https://hut.ao/zh/project.html</guid>
       <source url="https://hut.ao/zh/rss.xml">项目说明</source>
-      <description>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。 项目资源 GitHub 代码库 (https://github.co...</description>
+      <description>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。 加入我们 如果你有以下经验之一且有兴趣加入 Snap Hutao 开...</description>
       <category>公告</category>
       <category>项目</category>
       <category>功能</category>
@@ -561,10 +562,23 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <content:encoded><![CDATA[<h1> 项目说明</h1>
 <p>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新
 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。</p>
+<h2> 加入我们</h2>
+<p>如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队，并接触到更多的原神开源项目，你可以通过加入 QQ 群<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap 开发交流群</em></a>来联系我们。</p>
+<ul>
+<li><a href="/zh/development/contribute.html" target="blank"><strong>C# .NET 开发</strong></a>
+<ul>
+<li>包括服务端开发和桌面端开发</li>
+</ul>
+</li>
+<li><strong>网页前端</strong></li>
+<li>文档编写</li>
+<li>视频制作和编辑</li>
+</ul>
 <h2> 项目资源</h2>
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub 代码库</a></li>
 <li><a href="https://translate.hut.ao/" target="_blank" rel="noopener noreferrer">Crowdin 本地化翻译</a></li>
+<li><a href="/zh/community.html" target="blank">Snap Hutao 用户社区</a></li>
 </ul>
 <h2> 功能一览</h2>
 <ul>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 18 Oct 2023 20:50:46 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 20:50:46 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 22:11:10 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 22:11:10 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -2742,6 +2742,7 @@ does not take any destructive modification to the game client to ensure the secu
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub code repository</a></li>
 <li><a href="https://translate.hut.ao/" target="_blank" rel="noopener noreferrer">Crowdin localization translation</a></li>
+<li><a href="/en/community.html" target="blank">Snap Hutao Community</a></li>
 </ul>
 <h2> Feature Overview</h2>
 <ul>
