@@ -101,3 +101,13 @@ Run Snap Hutao as Administrator to edit your settings to solve this issue.
 - When user's OS version older than `Windows Build 19045` (aka Windows 10 22H2), Snap Hutao is unable to start when
   running as Administrator
   - This issue comes from Windows kernel, and it's hard to locate, so we suggest you to update your OS to the latest version
+
+## How to Fully Backup/Recover Client Data
+
+::: warning Data Security Warning
+`Userdata.db` contains all client data, including MiHoYO BBS Cookie, please save the data file properly and do NOT share it
+with anyone.
+:::
+
+Copy `Userdata.db` from Snap Hutao data folder (`%userprofile%/Documents/Hutao` by default) to your backup location, this
+file contains entire data of the client.

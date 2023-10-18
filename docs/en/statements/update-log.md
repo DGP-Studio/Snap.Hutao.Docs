@@ -8,7 +8,11 @@ comment: false
 
 # Update Logs
 
-## 1.7.10 <Badge text="latest" type="tip" />
+## 1.7.11 <Badge text="latest" type="tip" /><Badge text="hotfix" type="tip" />
+
+- Fixed the game launching arguments error (hotfix)
+
+## 1.7.10
 
 - Fix
   - Fixed login issue with HoYoverse account [#1011](https://github.com/DGP-Studio/Snap.Hutao/issues/1011) [#1012](https://github.com/DGP-Studio/Snap.Hutao/issues/1012)

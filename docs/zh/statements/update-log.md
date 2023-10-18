@@ -8,7 +8,11 @@ comment: false
 
 # 更新日志
 
-## 1.7.10 <Badge text="最新版" type="tip" />
+## 1.7.11 <Badge text="最新版" type="tip" /><Badge text="hotfix" type="tip" />
+
+- 修复了游戏启动器中窗口设置的错误 (hotfix)
+
+## 1.7.10
 
 - 修复
   - 修复了 HoYoverse 无法正常登录的问题 [#1011](https://github.com/DGP-Studio/Snap.Hutao/issues/1011) [#1012](https://github.com/DGP-Studio/Snap.Hutao/issues/1012)
