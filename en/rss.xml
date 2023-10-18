@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 18 Oct 2023 20:29:03 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 20:29:03 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 20:50:46 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 20:50:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -563,7 +563,8 @@ designing of MiHoYo BBS, and cannot bypass</li>
 <p>If you are using proxy software, you may need to turn it off or using TUN mode proxy;
 otherwise you need to use <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a> to remove
 <a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">Windows APP Container Loopback limits</a>.</p>
-<h2> Error Finding Required Modules</h2>
+<p>You can also execute the following PowerShell script to remove all container loopback limits</p>
+<div class="language-powershell line-numbers-mode" data-ext="powershell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> Error Finding Required Modules</h2>
 <p>When user launching game with unlock frame-rate feature on, the game may be failed to be launched with the following error shows up:</p>
 <ol>
 <li>Error finding required modules: could not read any module, the protection driver may have been loaded</li>

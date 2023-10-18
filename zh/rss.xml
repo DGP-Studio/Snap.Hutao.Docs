@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 18 Oct 2023 20:29:03 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 20:29:03 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 20:50:46 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 20:50:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -1103,7 +1103,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 你无需为了胡桃工具箱的网络连接而使用代理网络。</p>
 <p>如果系统代理是你的网络必须选项，请关闭系统代理而使用 TUN 模式代理；或者也可以通过 <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a>
 解除 <a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">Windows APP Container Loopback 的限制</a> 。</p>
-<h2> <code>653366069</code> 请求异常</h2>
+<p>你亦可以执行下面的 PowerShell 脚本以解除本机所有容器化应用的 Loopback 限制</p>
+<div class="language-powershell line-numbers-mode" data-ext="powershell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> <code>653366069</code> 请求异常</h2>
 <ul>
 <li>网络请求错误，请求异常前程序会说明具体哪一个功能的网络请求失败。
 <ul>
