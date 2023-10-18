@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 18 Oct 2023 00:16:27 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 00:16:27 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 01:28:58 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 01:28:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -758,7 +758,7 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.10 Fix; Fixed login issue with HoYoverse account #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/101) #1012 (https://github.com/DGP-Studio/Snap.Hutao/issues/1012); Fi...</description>
+      <description>1.7.10 Fix; Fixed login issue with HoYoverse account #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/1011) #1012 (https://github.com/DGP-Studio/Snap.Hutao/issues/1012); F...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
@@ -766,7 +766,7 @@ running as Administrator
 <ul>
 <li>Fix
 <ul>
-<li>Fixed login issue with HoYoverse account <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/101" target="_blank" rel="noopener noreferrer">#1011</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1012" target="_blank" rel="noopener noreferrer">#1012</a></li>
+<li>Fixed login issue with HoYoverse account <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1011" target="_blank" rel="noopener noreferrer">#1011</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1012" target="_blank" rel="noopener noreferrer">#1012</a></li>
 <li>Fixed daily check-in issue on HoYoLAB account <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1013" target="_blank" rel="noopener noreferrer">#1013</a></li>
 <li>Fixed issue that <code>Invalid item</code> error show up when language does not match in UIGFv2.2 data file <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1001" target="_blank" rel="noopener noreferrer">#1001</a></li>
 <li>Fixed crash issue when an invalid CAPTCHA Url is input in the setting</li>

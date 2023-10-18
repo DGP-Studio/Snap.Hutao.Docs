@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 18 Oct 2023 00:16:27 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 00:16:27 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 01:28:58 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 01:28:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -2508,7 +2508,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.10 修复; 修复了 HoYoverse 无法正常登录的问题 #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/101) #1012 (https://github.com/DGP-Studio/Snap.Hutao/issues/1012); 修复了 HoYoLAB 账号无法正常签到...</description>
+      <description>1.7.10 修复; 修复了 HoYoverse 无法正常登录的问题 #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/1011) #1012 (https://github.com/DGP-Studio/Snap.Hutao/issues/1012); 修复了 HoYoLAB 账号无法正常签...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
@@ -2516,7 +2516,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li>修复
 <ul>
-<li>修复了 HoYoverse 无法正常登录的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/101" target="_blank" rel="noopener noreferrer">#1011</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1012" target="_blank" rel="noopener noreferrer">#1012</a></li>
+<li>修复了 HoYoverse 无法正常登录的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1011" target="_blank" rel="noopener noreferrer">#1011</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1012" target="_blank" rel="noopener noreferrer">#1012</a></li>
 <li>修复了 HoYoLAB 账号无法正常签到的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1013" target="_blank" rel="noopener noreferrer">#1013</a></li>
 <li>修复了导入 UIGF v2.2 文件时语言不正确会导致提示<code>无效的物品</code>的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1001" target="_blank" rel="noopener noreferrer">#1001</a></li>
 <li>修复了提供无效的无感验证 Url 后在请求相应接口时会导致程序崩溃的问题</li>
