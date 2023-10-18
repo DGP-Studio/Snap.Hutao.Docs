@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 18 Oct 2023 04:34:10 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 04:34:10 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 20:29:03 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 20:29:03 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -750,6 +750,14 @@ running as Administrator
 </ul>
 </li>
 </ul>
+<h2> How to Fully Backup/Recover Client Data</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">Data Security Warning</p>
+<p><code>Userdata.db</code> contains all client data, including MiHoYO BBS Cookie, please save the data file properly and do NOT share it
+with anyone.</p>
+</div>
+<p>Copy <code>Userdata.db</code> from Snap Hutao data folder (<code>%userprofile%/Documents/Hutao</code> by default) to your backup location, this
+file contains entire data of the client.</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" type="image/png"/>
     </item>
@@ -758,11 +766,15 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.10 Fix; Fixed login issue with HoYoverse account #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/1011) #1012 (https://github.com/DGP-Studio/Snap.Hutao/issues/1012); F...</description>
+      <description>1.7.11 Fixed the game launching arguments error (hotfix); 1.7.10 Fix; Fixed login issue with HoYoverse account #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/1011) #1012...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.10 </h2>
+<h2> 1.7.11 </h2>
+<ul>
+<li>Fixed the game launching arguments error (hotfix)</li>
+</ul>
+<h2> 1.7.10</h2>
 <ul>
 <li>Fix
 <ul>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 18 Oct 2023 04:34:10 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 04:34:10 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 20:29:03 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 20:29:03 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -945,6 +945,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>重新进入胡桃客户端的 <code>游戏启动器</code> 界面，<code>游戏路径不正确</code> 错误应不再出现，且<code>服务器</code>设置一栏为空。此时，你可以选择原本的服务器版本（国际服）
 并立刻启动游戏，或选择新的服务器目标（国服）并转换客户端版本。</li>
 </ol>
+<h2> 如何完整地备份/恢复客户端数据</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">数据安全提示</p>
+<p><code>Userdata.db</code> 包含你的全部客户端数据，包括安全敏感的米哈游论坛 Cookie，请妥善储存该文件，不要将其分享给任何人。</p>
+</div>
+<p>从在胡桃数据目录（默认路径为 <code>%userprofile%/Documents/Hutao</code>）中以复制的方式将 <code>Userdata.db</code> 拷贝至你的备份目录即可，该文件包含了全部的
+胡桃客户端数据。</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png_.webp" type="image/webp"/>
     </item>
@@ -2510,11 +2517,15 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.10 修复; 修复了 HoYoverse 无法正常登录的问题 #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/1011) #1012 (https://github.com/DGP-Studio/Snap.Hutao/issues/1012); 修复了 HoYoLAB 账号无法正常签...</description>
+      <description>1.7.11 修复了游戏启动器中窗口设置的错误 (hotfix); 1.7.10 修复; 修复了 HoYoverse 无法正常登录的问题 #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/1011) #1012 (https://github.com/DGP-Studio/Snap.Hutao...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.10 </h2>
+<h2> 1.7.11 </h2>
+<ul>
+<li>修复了游戏启动器中窗口设置的错误 (hotfix)</li>
+</ul>
+<h2> 1.7.10</h2>
 <ul>
 <li>修复
 <ul>
