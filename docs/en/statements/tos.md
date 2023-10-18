@@ -54,6 +54,8 @@ order: 4
    - Our software development team holds the ownership of all trademarks in the software itself (excluding display content other than functional modules), all historical versions of the aforementioned works, and the surrounding websites. We also hold any related rights and interests regarding copyright.
    - All statistical data of any project developed by our team comes from users who submit data voluntarily. After the data is screened, it is displayed. Therefore, our team is not responsible for the accuracy of the data, and the data is not related to us.
    - During the use of any project developed by our team, there may be data that has original copyright. For these data, our team does not own their ownership. In order to avoid infringement, the user has the obligation to fully read and comply with the content of Section 10 of this Usage Agreement. The resources used in this software (including but not limited to fonts, images, and text) are from public information on the Internet. If infringement occurs, you can contact us at our GitHub to remove it.
+   - Snap Hutao program and hut.ao website are not affiliated with miHoYo.
+   - The copyright of Genshin Impact's game content and various materials and trademarks belongs to miHoYo.
 
 ## Other Terms
 
