@@ -77,6 +77,12 @@ If you are using proxy software, you may need to turn it off or using TUN mode p
 otherwise you need to use [Windows 8 AppContainer Loopback Utility](https://www.telerik.com/fiddler/add-ons) to remove
 [Windows APP Container Loopback limits](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback).
 
+You can also execute the following PowerShell script to remove all container loopback limits
+
+```powershell
+FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"') DO CheckNetIsolation.exe LoopbackExempt -a -p=%p
+```
+
 ## Error Finding Required Modules
 
 When user launching game with unlock frame-rate feature on, the game may be failed to be launched with the following error shows up:

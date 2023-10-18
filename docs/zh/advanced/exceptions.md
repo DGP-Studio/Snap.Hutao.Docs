@@ -79,6 +79,12 @@ comment: false
 如果系统代理是你的网络必须选项，请关闭系统代理而使用 TUN 模式代理；或者也可以通过 [Windows 8 AppContainer Loopback Utility](https://www.telerik.com/fiddler/add-ons)
 解除 [Windows APP Container Loopback 的限制](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback) 。
 
+你亦可以执行下面的 PowerShell 脚本以解除本机所有容器化应用的 Loopback 限制
+
+```powershell
+FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"') DO CheckNetIsolation.exe LoopbackExempt -a -p=%p
+```
+
 ## `653366069` 请求异常
 
 - 网络请求错误，请求异常前程序会说明具体哪一个功能的网络请求失败。
