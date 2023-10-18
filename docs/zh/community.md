@@ -25,6 +25,7 @@ order: 8
 - [_Snap 开发交流群_](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236)
   - 广泛的技术交流群，并非胡桃工具箱开发群
   - 开发群对申请者的技术水平有一定要求
+  - 如果你想要[加入开发团队](project.md)，请在入群验证时提及
 
 ## <HopeIcon icon="iconfont icon-discord1" size="1.5rem" color="rgb(115,139,216)" /> Discord
 

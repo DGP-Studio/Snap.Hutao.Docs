@@ -12,10 +12,21 @@ order: 6
 胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新
 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。
 
+## 加入我们
+
+如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队，并接触到更多的原神开源项目，你可以通过加入 QQ 群[_Snap 开发交流群_](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236)来联系我们。
+
+- [**C# .NET 开发**](./development/contribute.md)
+  - 包括服务端开发和桌面端开发
+- **网页前端**
+- 文档编写
+- 视频制作和编辑
+
 ## 项目资源
 
 - [GitHub 代码库](https://github.com/DGP-Studio/Snap.Hutao)
 - [Crowdin 本地化翻译](https://translate.hut.ao/)
+- [Snap Hutao 用户社区](community.md)
 
 ## 功能一览
 

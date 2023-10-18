@@ -9,7 +9,7 @@ export const zhNavbar = navbar([
     link: "https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52",
   },
   {
-    text: "加入社区讨论",
+    text: "加入用户社区",
     icon: "iconfont icon-community",
     link: "/zh/community",
   },

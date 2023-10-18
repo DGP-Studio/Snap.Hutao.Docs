@@ -17,6 +17,7 @@ does not take any destructive modification to the game client to ensure the secu
 
 - [GitHub code repository](https://github.com/DGP-Studio/Snap.Hutao)
 - [Crowdin localization translation](https://translate.hut.ao/)
+- [Snap Hutao Community](community.md)
 
 ## Feature Overview
 
