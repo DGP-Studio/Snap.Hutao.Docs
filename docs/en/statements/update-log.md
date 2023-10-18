@@ -8,10 +8,10 @@ comment: false
 
 # Update Logs
 
-## 1.7.10 <Badge text="最新版" type="tip" />
+## 1.7.10 <Badge text="latest" type="tip" />
 
 - Fix
-  - Fixed login issue with HoYoverse account [#1011](https://github.com/DGP-Studio/Snap.Hutao/issues/101) [#1012](https://github.com/DGP-Studio/Snap.Hutao/issues/1012)
+  - Fixed login issue with HoYoverse account [#1011](https://github.com/DGP-Studio/Snap.Hutao/issues/1011) [#1012](https://github.com/DGP-Studio/Snap.Hutao/issues/1012)
   - Fixed daily check-in issue on HoYoLAB account [#1013](https://github.com/DGP-Studio/Snap.Hutao/issues/1013)
   - Fixed issue that `Invalid item` error show up when language does not match in UIGFv2.2 data file [#1001](https://github.com/DGP-Studio/Snap.Hutao/issues/1001)
   - Fixed crash issue when an invalid CAPTCHA Url is input in the setting

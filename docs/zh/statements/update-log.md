@@ -11,7 +11,7 @@ comment: false
 ## 1.7.10 <Badge text="最新版" type="tip" />
 
 - 修复
-  - 修复了 HoYoverse 无法正常登录的问题 [#1011](https://github.com/DGP-Studio/Snap.Hutao/issues/101) [#1012](https://github.com/DGP-Studio/Snap.Hutao/issues/1012)
+  - 修复了 HoYoverse 无法正常登录的问题 [#1011](https://github.com/DGP-Studio/Snap.Hutao/issues/1011) [#1012](https://github.com/DGP-Studio/Snap.Hutao/issues/1012)
   - 修复了 HoYoLAB 账号无法正常签到的问题 [#1013](https://github.com/DGP-Studio/Snap.Hutao/issues/1013)
   - 修复了导入 UIGF v2.2 文件时语言不正确会导致提示`无效的物品`的问题 [#1001](https://github.com/DGP-Studio/Snap.Hutao/issues/1001)
   - 修复了提供无效的无感验证 Url 后在请求相应接口时会导致程序崩溃的问题
