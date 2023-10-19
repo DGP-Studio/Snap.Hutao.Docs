@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 19 Oct 2023 10:50:15 GMT</pubDate>
-    <lastBuildDate>Thu, 19 Oct 2023 10:50:15 GMT</lastBuildDate>
+    <pubDate>Thu, 19 Oct 2023 12:21:21 GMT</pubDate>
+    <lastBuildDate>Thu, 19 Oct 2023 12:21:21 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -49,7 +49,7 @@ to the project, please read the following guidelines.</p>
 <li>Switch git branch to <code>develop</code></li>
 <li>Open project solution with your Visual Studio and then you are ready to go</li>
 </ol>
-<h2> Enable Debug</h2>
+<h2> </h2>
 <ol>
 <li>Download and install <code>Sysinternals Suite</code> from <a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">Microsoft Store</a> or <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">Microsoft website</a></li>
 <li>Locate and run <code>DebugView</code> program in the installed app list or unzipped folder</li>

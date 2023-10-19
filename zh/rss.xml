@@ -6,19 +6,17 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 19 Oct 2023 10:50:15 GMT</pubDate>
-    <lastBuildDate>Thu, 19 Oct 2023 10:50:15 GMT</lastBuildDate>
+    <pubDate>Thu, 19 Oct 2023 12:21:21 GMT</pubDate>
+    <lastBuildDate>Thu, 19 Oct 2023 12:21:21 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>open source</category>
-    <category>development</category>
+    <category>开源</category>
+    <category>开发</category>
     <category>FAQ</category>
     <category>依赖项</category>
     <category>安装</category>
     <category>功能</category>
     <category>教程</category>
-    <category>开源</category>
-    <category>开发</category>
     <category>公告</category>
     <category>i18n</category>
     <category>项目</category>
@@ -29,8 +27,8 @@
       <guid>https://hut.ao/zh/development/contribute.html</guid>
       <source url="https://hut.ao/zh/rss.xml">贡献你的代码</source>
       <description>胡桃工具箱使用 C# 和 .NET 框架开发桌面客户端和服务端。如果你愿意贡献你的代码，请阅读以下指导文档。 你可以在 GitHub 上查看所有当前仍然未解决的问题 (https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E4%...</description>
-      <category>open source</category>
-      <category>development</category>
+      <category>开源</category>
+      <category>开发</category>
       <pubDate>Thu, 12 Oct 2023 07:23:38 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 贡献你的代码</h1>
 <p>胡桃工具箱使用 C# 和 .NET 框架开发桌面客户端和服务端。如果你愿意贡献你的代码，请阅读以下指导文档。</p>
@@ -48,7 +46,7 @@
 <li>将分支切换为 <code>develop</code></li>
 <li>使用你的 Visual Studio 打开项目 solution，接下来你就可以开始编辑代码了</li>
 </ol>
-<h2> 开启 Debug</h2>
+<h2> </h2>
 <ol>
 <li>从<a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">微软商店</a>或<a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">微软官网</a>下载并安装 <code>Sysinternals Suite</code></li>
 <li>从开始菜单或解压后的文件中找到 <code>DebugView</code> 并启动</li>
