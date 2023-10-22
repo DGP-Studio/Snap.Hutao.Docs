@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 19 Oct 2023 12:21:21 GMT</pubDate>
-    <lastBuildDate>Thu, 19 Oct 2023 12:21:21 GMT</lastBuildDate>
+    <pubDate>Sun, 22 Oct 2023 05:38:46 GMT</pubDate>
+    <lastBuildDate>Sun, 22 Oct 2023 05:38:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -1200,12 +1200,37 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/advanced/known-issue.html</link>
       <guid>https://hut.ao/zh/advanced/known-issue.html</guid>
       <source url="https://hut.ao/zh/rss.xml">已知问题</source>
-      <description>该文档包含由所有已知问题和修复计划 你可以在 https://github.com/DGP-Studio/Snap.Hutao/issues (https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3ABUG+) 查看最新的来自社区的 BUG 报告</description>
+      <description>你可以在 GitHub Issue 页面 (https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue) 查看全部的议题 类别 特征 -------------------------------------------------------------------------------...</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 已知问题</h1>
-<p>该文档包含由所有已知问题和修复计划</p>
-<p>你可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3ABUG+" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues</a> 查看最新的来自社区的 BUG 报告</p>
+<p>你可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue" target="_blank" rel="noopener noreferrer">GitHub Issue 页面</a> 查看全部的议题</p>
+<table>
+<thead>
+<tr>
+<th>类别</th>
+<th>特征</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3ABUG+is%3Aopen" target="_blank" rel="noopener noreferrer">全部未关闭的 BUG 议题</a></td>
+<td>包含标签 <code>BUG</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aopen+is%3Aissue+label%3A%E5%8A%9F%E8%83%BD" target="_blank" rel="noopener noreferrer">全部未关闭的功能提案</a></td>
+<td>包含标签 <code>功能</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D" target="_blank" rel="noopener noreferrer">已修复或已实现的功能</a></td>
+<td>包含标签 <code>已修复</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E7%AD%89%E5%BE%85%E5%8F%91%E5%B8%83" target="_blank" rel="noopener noreferrer">将在下一版本修复的问题</a></td>
+<td>包含标签 <code>等待发布</code></td>
+</tr>
+</tbody>
+</table>
 ]]></content:encoded>
     </item>
     <item>

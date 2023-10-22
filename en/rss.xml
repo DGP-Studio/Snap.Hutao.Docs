@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 19 Oct 2023 12:21:21 GMT</pubDate>
-    <lastBuildDate>Thu, 19 Oct 2023 12:21:21 GMT</lastBuildDate>
+    <pubDate>Sun, 22 Oct 2023 05:38:46 GMT</pubDate>
+    <lastBuildDate>Sun, 22 Oct 2023 05:38:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -410,12 +410,37 @@ verification, then your account can be used to refresh data.</p>
       <link>https://hut.ao/en/advanced/known-issue.html</link>
       <guid>https://hut.ao/en/advanced/known-issue.html</guid>
       <source url="https://hut.ao/en/rss.xml">Known Issue</source>
-      <description>This document records known issues that need to be fixed. You can view latest version of opened BUG report on https://github.com/DGP-Studio/Snap.Hutao/issues (https://github.com...</description>
+      <description>You can view all issues on GitHub Issue page (https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue) Category Flag -------------------------------------------------------...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:40 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Known Issue</h1>
-<p>This document records known issues that <strong>need to be fixed</strong>.</p>
-<p>You can view latest version of opened BUG report on <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3ABUG+" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues</a></p>
+<p>You can view all issues on <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue" target="_blank" rel="noopener noreferrer">GitHub Issue page</a></p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Flag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3ABUG+is%3Aopen" target="_blank" rel="noopener noreferrer">All Opened BUG Issues</a></td>
+<td>Labeled with <code>BUG</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aopen+is%3Aissue+label%3A%E5%8A%9F%E8%83%BD" target="_blank" rel="noopener noreferrer">All Opened Feature Request Issues</a></td>
+<td>Labeled with <code>功能</code> (Feature)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D" target="_blank" rel="noopener noreferrer">Fixed and Resolved Issues</a></td>
+<td>Labeled with <code>已修复</code> (Fixed)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E7%AD%89%E5%BE%85%E5%8F%91%E5%B8%83" target="_blank" rel="noopener noreferrer">Issues will be Fixed in Next Version</a></td>
+<td>Labeled with <code>等待发布</code> (Ready for Publish)</td>
+</tr>
+</tbody>
+</table>
 ]]></content:encoded>
     </item>
     <item>
