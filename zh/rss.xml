@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 22 Oct 2023 05:38:46 GMT</pubDate>
-    <lastBuildDate>Sun, 22 Oct 2023 05:38:46 GMT</lastBuildDate>
+    <pubDate>Mon, 23 Oct 2023 10:48:22 GMT</pubDate>
+    <lastBuildDate>Mon, 23 Oct 2023 10:48:22 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -957,6 +957,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>重新进入胡桃客户端的 <code>游戏启动器</code> 界面，<code>游戏路径不正确</code> 错误应不再出现，且<code>服务器</code>设置一栏为空。此时，你可以选择原本的服务器版本（国际服）
 并立刻启动游戏，或选择新的服务器目标（国服）并转换客户端版本。</li>
 </ol>
+<h2> 如何恢复 <code>config.ini</code> 配置文件</h2>
+<p>在某些特定条件下（如游戏目录权限错误），<code>config.ini</code> 文件会在转服后丢失。这会造成无法进入胡桃工具箱高级启动器界面和游戏无法正常启动。</p>
+<p>在判断你当前的游戏版本后，你可以在游戏目录下手动创建并填入对应的配置文件，下面是常见的配置文件内容。</p>
+
 <h2> 如何完整地备份/恢复客户端数据</h2>
 <div class="hint-container warning">
 <p class="hint-container-title">数据安全提示</p>
