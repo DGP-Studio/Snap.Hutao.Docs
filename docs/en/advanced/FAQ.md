@@ -102,6 +102,40 @@ Run Snap Hutao as Administrator to edit your settings to solve this issue.
   running as Administrator
   - This issue comes from Windows kernel, and it's hard to locate, so we suggest you to update your OS to the latest version
 
+## How to Recover `config.ini` Configuration File
+
+In some particular conditions (such as wrong game folder permission), `config.ini` may lose after server conversion.
+This will cause user not able to get into advanced launcher page and launch the game.
+
+After identify the server version on your device, you can manually create and fill the configuration file with the right
+content. The following are common configurations.
+
+::: tabs#game_config_samples
+
+@tab CN Server Official
+
+```
+[General]
+channel=1
+cps=mihoyo
+game_version=4.1.0
+sub_channel=1
+plugin_7_version=1.0.0
+```
+
+@tab Global Server Official
+
+```
+[General]
+channel=1
+cps=mihoyo
+game_version=4.1.0
+sub_channel=0
+plugin_7_version=1.0.0
+```
+
+:::
+
 ## How to Fully Backup/Recover Client Data
 
 ::: warning Data Security Warning
