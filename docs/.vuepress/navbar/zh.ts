@@ -16,6 +16,6 @@ export const zhNavbar = navbar([
   {
     text: "服务可用性",
     icon: "iconfont icon-define",
-    link: "https://status.hut.ao/"
-  }
+    link: "https://status.hut.ao/",
+  },
 ]);

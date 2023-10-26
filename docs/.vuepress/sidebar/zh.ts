@@ -22,7 +22,7 @@ export const zhSidebar = sidebar({
       icon: "iconfont icon-github",
       text: "开源开发",
       prefix: "development/",
-      children: "structure"
+      children: "structure",
     },
     {
       icon: "iconfont icon-article",

@@ -16,6 +16,6 @@ export const enNavbar = navbar([
   {
     text: "Service Availability",
     icon: "iconfont icon-define",
-    link: "https://status.hut.ao/"
-  }
+    link: "https://status.hut.ao/",
+  },
 ]);
