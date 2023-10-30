@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 30 Oct 2023 10:55:47 GMT</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2023 10:55:47 GMT</lastBuildDate>
+    <pubDate>Mon, 30 Oct 2023 11:04:56 GMT</pubDate>
+    <lastBuildDate>Mon, 30 Oct 2023 11:04:56 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -836,7 +836,7 @@ file contains entire data of the client.</p>
 </ul>
 </li>
 </ul>
-<h2> 1.7.11</h2>
+<h2> 1.7.11 </h2>
 <ul>
 <li>Fixed the game launching arguments error (hotfix)</li>
 </ul>

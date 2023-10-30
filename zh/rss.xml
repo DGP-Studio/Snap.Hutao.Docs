@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 30 Oct 2023 10:55:47 GMT</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2023 10:55:47 GMT</lastBuildDate>
+    <pubDate>Mon, 30 Oct 2023 11:04:56 GMT</pubDate>
+    <lastBuildDate>Mon, 30 Oct 2023 11:04:56 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2617,7 +2617,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
-<h2> 1.7.11</h2>
+<h2> 1.7.11 </h2>
 <ul>
 <li>修复了游戏启动器中窗口设置的错误 (hotfix)</li>
 </ul>
