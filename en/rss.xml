@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 26 Oct 2023 17:32:59 GMT</pubDate>
-    <lastBuildDate>Thu, 26 Oct 2023 17:32:59 GMT</lastBuildDate>
+    <pubDate>Mon, 30 Oct 2023 10:55:47 GMT</pubDate>
+    <lastBuildDate>Mon, 30 Oct 2023 10:55:47 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -325,6 +325,12 @@ verification, then your account can be used to refresh data.</p>
 <li>Prioritized notification
 <ul>
 <li>This prevent Snap Hutao's notification being closed automatically</li>
+</ul>
+</li>
+<li>Customized data forwarding Webhook
+<ul>
+<li>Snap Hutao allows user to forward Realtime Notes data to other applications to reduce account's request to MiHoYo API</li>
+<li>Input your third party HTTP API endpoint in <code>Realtime Notes Webhook Url</code> setting field, and Snap Hutao will forward the raw data through <code>POST</code> requests</li>
 </ul>
 </li>
 </ul>
@@ -798,11 +804,39 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.11 Fixed the game launching arguments error (hotfix); 1.7.10 Fix; Fixed login issue with HoYoverse account #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/1011) #1012...</description>
+      <description>1.7.13 Add; Added option to forward Realtime Note data to specified webhook #431 (https://github.com/DGP-Studio/Snap.Hutao/issues/431); Added date range of wish history records ...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.11 </h2>
+<h2> 1.7.13 </h2>
+<ul>
+<li>Add
+<ul>
+<li>Added option to forward Realtime Note data to specified webhook <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/431" target="_blank" rel="noopener noreferrer">#431</a></li>
+<li>Added date range of wish history records <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/899" target="_blank" rel="noopener noreferrer">#899</a></li>
+<li>Added detail view of Adventure Encounter Points in Realtime Note, support view of current Adventure Encounter Points status <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1021" target="_blank" rel="noopener noreferrer">#1021</a></li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Fixed <code>Argument error</code> when using quick launcher from task bar in some conditions <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/925" target="_blank" rel="noopener noreferrer">#925</a></li>
+<li>Fixed crash issue when using advanced launcher in some conditions <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1035" target="_blank" rel="noopener noreferrer">#1035</a></li>
+<li>Fixed issue that cannot go back on embedded MiHoYo BBS browser <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1023" target="_blank" rel="noopener noreferrer">#1023</a></li>
+<li>Fixed issue on converting server from bilibili server to global server <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1041" target="_blank" rel="noopener noreferrer">#1041</a></li>
+<li>Fixed issue that Snap Hutao cannot identify game client status</li>
+<li>Fixed issue on Snap Hutao Cloud status on wish export page, after switching Snap Hutao account <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/903" target="_blank" rel="noopener noreferrer">#903</a></li>
+</ul>
+</li>
+<li>Optimization
+<ul>
+<li>Added localization support on prompts that returned by Snap Hutao Cloud server</li>
+<li>Redesigned Snap Hutao Passport UI, and now it is embedded in settings page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1021" target="_blank" rel="noopener noreferrer">#911</a></li>
+<li>Redesigned advanced game launcher page UI</li>
+<li>User now can view and select launcher parameters in advanced game launcher</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.11</h2>
 <ul>
 <li>Fixed the game launching arguments error (hotfix)</li>
 </ul>

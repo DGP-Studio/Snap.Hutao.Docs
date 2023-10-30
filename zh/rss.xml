@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 26 Oct 2023 17:32:59 GMT</pubDate>
-    <lastBuildDate>Thu, 26 Oct 2023 17:32:59 GMT</lastBuildDate>
+    <pubDate>Mon, 30 Oct 2023 10:55:47 GMT</pubDate>
+    <lastBuildDate>Mon, 30 Oct 2023 10:55:47 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -389,6 +389,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>请注意，开启此设置可能会让您在日常使用电脑期间受到打扰</li>
 </ul>
 </li>
+<li>自定义数据转发 Webhook
+<ul>
+<li>胡桃客户端允许用户将获取到的实时便笺数据转发给其它程序以减少账号对米哈游 API 的请求</li>
+<li>将第三方程序的 HTTP API 接口填写在 <code>实时便笺 Webhook Url</code> 设置中，胡桃将以 <code>POST</code> 的方式将原始数据转发至该接口</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -420,7 +426,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/community.html</link>
       <guid>https://hut.ao/zh/community.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入用户社区</source>
-      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 GitHub 讨论 Snap.Hutao Discussion (https://github.com/DGP-Studio/Snap.Hutao/discussions) QQ 群 若入群问题为最新版本号则请输入三位版本号（如 1.2.3）而不是四位...</description>
+      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 GitHub 讨论 Snap.Hutao Discussion (https://github.com/DGP-Studio/Snap.Hutao/discussions) QQ 群 Snap Hutao 用户群 (http://qm.qq.com/c...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入用户社区</h1>
@@ -441,11 +447,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2> </h2>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
 <h2> </h2>
-<blockquote>
-<p>若入群问题为最新版本号则请输入三位版本号（如 <code>1.2.3</code>）而不是四位版本号（如 <code>1.2.3.0</code>）</p>
-</blockquote>
 <ul>
-<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&amp;authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&amp;noverify=0&amp;group_code=910780153" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
+<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&amp;authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&amp;noverify=0&amp;group_code=910780153" target="_blank" rel="noopener noreferrer">Snap Hutao 用户群</a>
+<ul>
+<li>胡桃一般用户群</li>
+<li>若入群问题为最新版本号则请输入三位版本号（如 <code>1.2.3</code>）而不是四位版本号（如 <code>1.2.3.0</code>）</li>
+</ul>
+</li>
 <li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap 开发交流群</em></a>
 <ul>
 <li>广泛的技术交流群，并非胡桃工具箱开发群</li>
@@ -2577,11 +2585,39 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.11 修复了游戏启动器中窗口设置的错误 (hotfix); 1.7.10 修复; 修复了 HoYoverse 无法正常登录的问题 #1011 (https://github.com/DGP-Studio/Snap.Hutao/issues/1011) #1012 (https://github.com/DGP-Studio/Snap.Hutao...</description>
+      <description>1.7.13 新增; 增加实时便笺数据转发 Webhook 选项 #431 (https://github.com/DGP-Studio/Snap.Hutao/issues/431); 在祈愿记录页面显示祈愿记录范围时间 #899 (https://github.com/DGP-Studio/Snap.Hutao/issues/899); 为实时便笺页...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.11 </h2>
+<h2> 1.7.13 </h2>
+<ul>
+<li>新增
+<ul>
+<li>增加实时便笺数据转发 Webhook 选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/431" target="_blank" rel="noopener noreferrer">#431</a></li>
+<li>在祈愿记录页面显示祈愿记录范围时间 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/899" target="_blank" rel="noopener noreferrer">#899</a></li>
+<li>为实时便笺页面引入了历练点详情视图，可以查看当前历练点获取情况 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1021" target="_blank" rel="noopener noreferrer">#1021</a></li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了通过快速启动窗口启动游戏会抛出<code>参数错误</code>的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/925" target="_blank" rel="noopener noreferrer">#925</a></li>
+<li>修复了高级启动器界面闪退的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1035" target="_blank" rel="noopener noreferrer">#1035</a></li>
+<li>修复了内嵌网页在米游社页面中无法返回的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1023" target="_blank" rel="noopener noreferrer">#1023</a></li>
+<li>修复了从 B 服转换服务器中出现的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1041" target="_blank" rel="noopener noreferrer">#1041</a></li>
+<li>修复了无法正确检测游戏是否正在运行的问题</li>
+<li>修复了切换胡桃通行证后祈愿记录中的胡桃云集成无法正确反应的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/903" target="_blank" rel="noopener noreferrer">#903</a></li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>为胡桃云服务的提示文本增加了国际化支持</li>
+<li>重新设计了胡桃通行证页面的 UI，现在集成在设置页面中 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1021" target="_blank" rel="noopener noreferrer">#911</a></li>
+<li>重新设计了启动游戏页面的 UI</li>
+<li>用户现在可以在高级启动器中选择游戏启动参数</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.11</h2>
 <ul>
 <li>修复了游戏启动器中窗口设置的错误 (hotfix)</li>
 </ul>
