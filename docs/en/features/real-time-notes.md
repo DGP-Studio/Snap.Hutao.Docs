@@ -43,6 +43,9 @@ verification, then your account can be used to refresh data.
   - Do not disturb setting
   - Prioritized notification
     - This prevent Snap Hutao's notification being closed automatically
+  - Customized data forwarding Webhook
+    - Snap Hutao allows user to forward Realtime Notes data to other applications to reduce account's request to MiHoYo API
+    - Input your third party HTTP API endpoint in `Realtime Notes Webhook Url` setting field, and Snap Hutao will forward the raw data through `POST` requests
 
 ## Independent Settings for Accounts
 
