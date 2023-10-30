@@ -8,7 +8,26 @@ comment: false
 
 # 更新日志
 
-## 1.7.11 <Badge text="最新版" type="tip" /><Badge text="hotfix" type="tip" />
+## 1.7.13 <Badge text="最新版" type="tip" /><Badge text="hotfix" type="tip" />
+
+- 新增
+  - 增加实时便笺数据转发 Webhook 选项 [#431](https://github.com/DGP-Studio/Snap.Hutao/issues/431)
+  - 在祈愿记录页面显示祈愿记录范围时间 [#899](https://github.com/DGP-Studio/Snap.Hutao/issues/899)
+  - 为实时便笺页面引入了历练点详情视图，可以查看当前历练点获取情况 [#1021](https://github.com/DGP-Studio/Snap.Hutao/issues/1021)
+- 修复
+  - 修复了通过快速启动窗口启动游戏会抛出`参数错误`的问题 [#925](<(https://github.com/DGP-Studio/Snap.Hutao/issues/925)>)
+  - 修复了高级启动器界面闪退的问题 [#1035](<(https://github.com/DGP-Studio/Snap.Hutao/issues/1035)>)
+  - 修复了内嵌网页在米游社页面中无法返回的问题 [#1023](https://github.com/DGP-Studio/Snap.Hutao/issues/1023)
+  - 修复了从 B 服转换服务器中出现的问题 [#1041](https://github.com/DGP-Studio/Snap.Hutao/issues/1041)
+  - 修复了无法正确检测游戏是否正在运行的问题
+  - 修复了切换胡桃通行证后祈愿记录中的胡桃云集成无法正确反应的问题 [#903](https://github.com/DGP-Studio/Snap.Hutao/issues/903)
+- 优化
+  - 为胡桃云服务的提示文本增加了国际化支持
+  - 重新设计了胡桃通行证页面的 UI，现在集成在设置页面中 [#911](https://github.com/DGP-Studio/Snap.Hutao/issues/1021)
+  - 重新设计了启动游戏页面的 UI
+  - 用户现在可以在高级启动器中选择游戏启动参数
+
+## 1.7.11
 
 - 修复了游戏启动器中窗口设置的错误 (hotfix)
 

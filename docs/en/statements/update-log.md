@@ -8,7 +8,26 @@ comment: false
 
 # Update Logs
 
-## 1.7.11 <Badge text="latest" type="tip" /><Badge text="hotfix" type="tip" />
+## 1.7.13 <Badge text="latest" type="tip" /><Badge text="hotfix" type="tip" />
+
+- Add
+  - Added option to forward Realtime Note data to specified webhook [#431](https://github.com/DGP-Studio/Snap.Hutao/issues/431)
+  - Added date range of wish history records [#899](https://github.com/DGP-Studio/Snap.Hutao/issues/899)
+  - Added detail view of Adventure Encounter Points in Realtime Note, support view of current Adventure Encounter Points status [#1021](https://github.com/DGP-Studio/Snap.Hutao/issues/1021)
+- Fix
+  - Fixed `Argument error` when using quick launcher from task bar in some conditions [#925](https://github.com/DGP-Studio/Snap.Hutao/issues/925)
+  - Fixed crash issue when using advanced launcher in some conditions [#1035](https://github.com/DGP-Studio/Snap.Hutao/issues/1035)
+  - Fixed issue that cannot go back on embedded MiHoYo BBS browser [#1023](https://github.com/DGP-Studio/Snap.Hutao/issues/1023)
+  - Fixed issue on converting server from bilibili server to global server [#1041](https://github.com/DGP-Studio/Snap.Hutao/issues/1041)
+  - Fixed issue that Snap Hutao cannot identify game client status
+  - Fixed issue on Snap Hutao Cloud status on wish export page, after switching Snap Hutao account [#903](https://github.com/DGP-Studio/Snap.Hutao/issues/903)
+- Optimization
+  - Added localization support on prompts that returned by Snap Hutao Cloud server
+  - Redesigned Snap Hutao Passport UI, and now it is embedded in settings page [#911](https://github.com/DGP-Studio/Snap.Hutao/issues/1021)
+  - Redesigned advanced game launcher page UI
+  - User now can view and select launcher parameters in advanced game launcher
+
+## 1.7.11
 
 - Fixed the game launching arguments error (hotfix)
 
