@@ -8,7 +8,7 @@ comment: false
 
 # Update Logs
 
-## 1.7.13 <Badge text="latest" type="tip" /><Badge text="hotfix" type="tip" />
+## 1.7.13 <Badge text="latest" type="tip" />
 
 - Add
   - Added option to forward Realtime Note data to specified webhook [#431](https://github.com/DGP-Studio/Snap.Hutao/issues/431)
@@ -27,7 +27,7 @@ comment: false
   - Redesigned advanced game launcher page UI
   - User now can view and select launcher parameters in advanced game launcher
 
-## 1.7.11
+## 1.7.11 <Badge text="hotfix" type="tip" />
 
 - Fixed the game launching arguments error (hotfix)
 

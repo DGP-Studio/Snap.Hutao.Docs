@@ -8,7 +8,7 @@ comment: false
 
 # 更新日志
 
-## 1.7.13 <Badge text="最新版" type="tip" /><Badge text="hotfix" type="tip" />
+## 1.7.13 <Badge text="最新版" type="tip" />
 
 - 新增
   - 增加实时便笺数据转发 Webhook 选项 [#431](https://github.com/DGP-Studio/Snap.Hutao/issues/431)
@@ -27,7 +27,7 @@ comment: false
   - 重新设计了启动游戏页面的 UI
   - 用户现在可以在高级启动器中选择游戏启动参数
 
-## 1.7.11
+## 1.7.11 <Badge text="hotfix" type="tip" />
 
 - 修复了游戏启动器中窗口设置的错误 (hotfix)
 
