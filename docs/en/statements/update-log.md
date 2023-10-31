@@ -8,7 +8,11 @@ comment: false
 
 # Update Logs
 
-## 1.7.13 <Badge text="latest" type="tip" /><Badge text="hotfix" type="tip" />
+## 1.7.14 <Badge text="latest" type="tip" /> <Badge text="hotfix" type="tip" />
+
+- Fixed an issue causes the program to crash when opening some specific dialog boxes [#1052](https://github.com/DGP-Studio/Snap.Hutao/issues/1052) [#1054](https://github.com/DGP-Studio/Snap.Hutao/issues/1054)
+
+## 1.7.13
 
 - Add
   - Added option to forward Realtime Note data to specified webhook [#431](https://github.com/DGP-Studio/Snap.Hutao/issues/431)

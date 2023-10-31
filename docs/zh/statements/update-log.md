@@ -8,7 +8,11 @@ comment: false
 
 # 更新日志
 
-## 1.7.13 <Badge text="最新版" type="tip" /><Badge text="hotfix" type="tip" />
+## 1.7.14 <Badge text="最新版" type="tip" /> <Badge text="hotfix" type="tip" />
+
+- 修复了部分功能在打开对话框时会崩溃的问题 [#1052](https://github.com/DGP-Studio/Snap.Hutao/issues/1052) [#1054](https://github.com/DGP-Studio/Snap.Hutao/issues/1054)
+
+## 1.7.13
 
 - 新增
   - 增加实时便笺数据转发 Webhook 选项 [#431](https://github.com/DGP-Studio/Snap.Hutao/issues/431)
