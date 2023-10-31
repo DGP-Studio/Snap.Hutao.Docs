@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 30 Oct 2023 11:04:56 GMT</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2023 11:04:56 GMT</lastBuildDate>
+    <pubDate>Tue, 31 Oct 2023 05:56:13 GMT</pubDate>
+    <lastBuildDate>Tue, 31 Oct 2023 05:56:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -804,11 +804,15 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.13 Add; Added option to forward Realtime Note data to specified webhook #431 (https://github.com/DGP-Studio/Snap.Hutao/issues/431); Added date range of wish history records ...</description>
+      <description>1.7.14 Fixed an issue causes the program to crash when opening some specific dialog boxes #1052 (https://github.com/DGP-Studio/Snap.Hutao/issues/1052) #1054 (https://github.com/...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.13 </h2>
+<h2> 1.7.14 </h2>
+<ul>
+<li>Fixed an issue causes the program to crash when opening some specific dialog boxes <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1052" target="_blank" rel="noopener noreferrer">#1052</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1054" target="_blank" rel="noopener noreferrer">#1054</a></li>
+</ul>
+<h2> 1.7.13</h2>
 <ul>
 <li>Add
 <ul>
