@@ -134,6 +134,38 @@ comment: false
 6. 重新进入胡桃客户端的 `游戏启动器` 界面，`游戏路径不正确` 错误应不再出现，且`服务器`设置一栏为空。此时，你可以选择原本的服务器版本（国际服）
    并立刻启动游戏，或选择新的服务器目标（国服）并转换客户端版本。
 
+## 如何恢复 `config.ini` 配置文件
+
+在某些特定条件下（如游戏目录权限错误），`config.ini` 文件会在转服后丢失。这会造成无法进入胡桃工具箱高级启动器界面和游戏无法正常启动。
+
+在判断你当前的游戏版本后，你可以在游戏目录下手动创建并填入对应的配置文件，下面是常见的配置文件内容。
+
+::: tabs#game_config_samples
+
+@tab 国服 Official
+
+```
+[General]
+channel=1
+cps=mihoyo
+game_version=4.1.0
+sub_channel=1
+plugin_7_version=1.0.0
+```
+
+@tab 国际服 Official
+
+```
+[General]
+channel=1
+cps=mihoyo
+game_version=4.1.0
+sub_channel=0
+plugin_7_version=1.0.0
+```
+
+:::
+
 ## 如何完整地备份/恢复客户端数据
 
 ::: warning 数据安全提示

@@ -11,8 +11,8 @@ export default hopeTheme({
   },
 
   iconAssets: [
-      "iconfont",
-      "https://at.alicdn.com/t/c/font_3861247_nm7gjy97qqd.css"
+    "iconfont",
+    "https://at.alicdn.com/t/c/font_3861247_nm7gjy97qqd.css",
   ],
 
   logo: "https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png",
@@ -80,6 +80,18 @@ export default hopeTheme({
 
     components: {
       components: ["Badge", "BiliBili"],
+      rootComponents: {
+        notice: [
+          {
+            path: "/zh/",
+            title: "加入我们",
+            content:
+              "如果你有<b>软件开发</b>，<b>网页前端</b>，<b>文档管理</b>或<b>视频创作</b>的经验，并希望将其施展于胡桃工具箱项目中，欢迎<a href='http://hut.ao/zh/project.html#%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC'>加入开发团队</a>",
+            fullscreen: false,
+            showOnce: false,
+          },
+        ],
+      },
     },
 
     feed: {
@@ -91,13 +103,12 @@ export default hopeTheme({
     },
 
     mdEnhance: {
-      gfm: false,
+      align: true,
+      footnote: true,
       imgLazyload: true,
       include: true,
       tabs: true,
-      footnote: true,
-      align: true,
-      tasklist: true
+      tasklist: true,
     },
 
     pwa: {

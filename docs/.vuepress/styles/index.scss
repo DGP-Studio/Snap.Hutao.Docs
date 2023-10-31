@@ -58,14 +58,14 @@ header.vp-navbar {
 }
 
 // 去除首页赞助商表格边框及超链接图标
-main.vp-project-home{
-  table{
+main.vp-project-home {
+  table {
     display: inline-block;
-    th{
+    th {
       border-color: transparent;
     }
   }
-  svg.external-link-icon{
+  svg.external-link-icon {
     display: none;
   }
 }

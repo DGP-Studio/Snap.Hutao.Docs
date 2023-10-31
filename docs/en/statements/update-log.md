@@ -31,7 +31,7 @@ comment: false
   - Redesigned advanced game launcher page UI
   - User now can view and select launcher parameters in advanced game launcher
 
-## 1.7.11
+## 1.7.11 <Badge text="hotfix" type="tip" />
 
 - Fixed the game launching arguments error (hotfix)
 

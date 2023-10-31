@@ -1,5 +1,5 @@
 ---
-category: [open source, development]
+category: [开源, 开发]
 tag: ["开发", "GitHub"]
 icon: iconfont icon-code
 order: 2
@@ -21,20 +21,20 @@ order: 2
 5. 将分支切换为 `develop`
 6. 使用你的 Visual Studio 打开项目 solution，接下来你就可以开始编辑代码了
 
-## 开启 Debug
+## <HopeIcon icon="iconfont icon-debug" size="1.5rem" color="rgb(73,156,84)" /> 开启 Debug
 
 1. 从[微软商店](https://www.microsoft.com/store/productid/9P7KNL5RWT25)或[微软官网](https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite)下载并安装 `Sysinternals Suite`
 2. 从开始菜单或解压后的文件中找到 `DebugView` 并启动
 3. 启动 Snap Hutao 主程序
 4. 观察 DebugView 的输出
 
-## <HopeIcon icon="iconfont icon-pull-request" size="1.5rem" /> 发起 Pull Request
+## <HopeIcon icon="iconfont icon-pull-request" size="1.5rem" color="rgb(130,80,223)"/> 发起 Pull Request
 
 - 所有不是从项目其它分支发起的 Pull Request 都只被允许合并进 `develop` 分支
 - 如果你提交的代码与已有的 issue 相关，请使用请使用[关键词](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests)
   将你的 PR 与相关的 issue 关联起来。这样当你的 PR 最终被合并进 `main` 主分支时，这些 issue 将被自动关闭。
 
-## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" /> 测试打包程序
+## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> 测试打包程序
 
 一旦你的代码被合并进 `develop` 和 `main` 分支，一个 Azure Pipeline CI 流水线脚本将运行起来以构建所在分支的最新代码，并以 `Snap Hutao Alpha` 命名。
 当该测试包打包完成后，它将被以 `pre-release` 的形式发布在 [GitHub 发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases)上。
