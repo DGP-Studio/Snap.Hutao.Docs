@@ -8,7 +8,18 @@ comment: false
 
 # 更新日志
 
-## 1.7.15 <Badge text="最新版" type="tip" />
+## 1.7.16 <Badge text="最新版" type="tip" />
+
+- 新增
+  - 新增从胡桃云恢复抽卡记录至本地新存档的选项 [#886](https://github.com/DGP-Studio/Snap.Hutao/issues/886)
+- 修复
+  - 修复了游戏启动项能填入非法数值的问题，为部分启动参数增加了开关 [#1061](https://github.com/DGP-Studio/Snap.Hutao/issues/1052)
+  - 修复了无法在客户端中注册胡桃云账号的问题 [#1059](https://github.com/DGP-Studio/Snap.Hutao/issues/1059)
+  - 修复了设置实时便笺 Webhook Url 后可能导致通知功能不正常的问题
+- 优化
+  - 优化了客户端中胡桃云账号修改密码和注销账号的操作逻辑
+
+## 1.7.15
 
 - 新增
   - 新增从胡桃云恢复抽卡记录至本地新存档的选项 [#886](https://github.com/DGP-Studio/Snap.Hutao/issues/886)
