@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 31 Oct 2023 05:56:13 GMT</pubDate>
-    <lastBuildDate>Tue, 31 Oct 2023 05:56:13 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Nov 2023 08:49:02 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Nov 2023 08:49:02 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2585,10 +2585,30 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.14 修复了部分功能在打开对话框时会崩溃的问题 #1052 (https://github.com/DGP-Studio/Snap.Hutao/issues/1052) #1054 (https://github.com/DGP-Studio/Snap.Hutao/issues/1054); 1.7.13 新增; 增加实时便笺数据转发 Webh...</description>
+      <description>1.7.15 新增; 新增从胡桃云恢复抽卡记录至本地新存档的选项 #886 (https://github.com/DGP-Studio/Snap.Hutao/issues/886); 修复; 修复了游戏启动项能填入非法数值的问题，为部分启动参数增加了开关 #1061 (https://github.com/DGP-Studio/Snap.Hutao/...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
+<h2> 1.7.15 </h2>
+<ul>
+<li>新增
+<ul>
+<li>新增从胡桃云恢复抽卡记录至本地新存档的选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/886" target="_blank" rel="noopener noreferrer">#886</a></li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了游戏启动项能填入非法数值的问题，为部分启动参数增加了开关 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1052" target="_blank" rel="noopener noreferrer">#1061</a></li>
+<li>修复了无法在客户端中注册胡桃云账号的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1059" target="_blank" rel="noopener noreferrer">#1059</a></li>
+<li>修复了设置实时便笺 Webhook Url 后可能导致通知功能不正常的问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>优化了客户端中胡桃云账号修改密码和注销账号的操作逻辑</li>
+</ul>
+</li>
+</ul>
 <h2> 1.7.14 </h2>
 <ul>
 <li>修复了部分功能在打开对话框时会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1052" target="_blank" rel="noopener noreferrer">#1052</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1054" target="_blank" rel="noopener noreferrer">#1054</a></li>

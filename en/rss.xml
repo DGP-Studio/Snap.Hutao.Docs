@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 31 Oct 2023 05:56:13 GMT</pubDate>
-    <lastBuildDate>Tue, 31 Oct 2023 05:56:13 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Nov 2023 08:49:02 GMT</pubDate>
+    <lastBuildDate>Thu, 02 Nov 2023 08:49:02 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -804,10 +804,30 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.14 Fixed an issue causes the program to crash when opening some specific dialog boxes #1052 (https://github.com/DGP-Studio/Snap.Hutao/issues/1052) #1054 (https://github.com/...</description>
+      <description>1.7.15 Add; Added option to recover full wish history record backup from Snap Hutao Cloud service into new archive #886 (https://github.com/DGP-Studio/Snap.Hutao/issues/886); Fi...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
+<h2> 1.7.15 </h2>
+<ul>
+<li>Add
+<ul>
+<li>Added option to recover full wish history record backup from Snap Hutao Cloud service into new archive <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/886" target="_blank" rel="noopener noreferrer">#886</a></li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Fixed issue that invalid game launching parameter can be parsed; added switch for some launch parameters <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1052" target="_blank" rel="noopener noreferrer">#1061</a></li>
+<li>Fixed issue that user cannot register Snap Hutao account in the client <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1059" target="_blank" rel="noopener noreferrer">#1059</a></li>
+<li>Fixed notification issue after Realtime Note Webhook Url is set</li>
+</ul>
+</li>
+<li>Optimization
+<ul>
+<li>Optimized Snap Hutao account's change password and delete account logic in the client</li>
+</ul>
+</li>
+</ul>
 <h2> 1.7.14 </h2>
 <ul>
 <li>Fixed an issue causes the program to crash when opening some specific dialog boxes <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1052" target="_blank" rel="noopener noreferrer">#1052</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1054" target="_blank" rel="noopener noreferrer">#1054</a></li>
