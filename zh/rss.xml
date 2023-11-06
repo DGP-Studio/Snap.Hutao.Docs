@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 02 Nov 2023 08:49:02 GMT</pubDate>
-    <lastBuildDate>Thu, 02 Nov 2023 08:49:02 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Nov 2023 14:44:23 GMT</pubDate>
+    <lastBuildDate>Mon, 06 Nov 2023 14:44:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -967,7 +967,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ol>
 <h2> 如何恢复 <code>config.ini</code> 配置文件</h2>
 <p>在某些特定条件下（如游戏目录权限错误），<code>config.ini</code> 文件会在转服后丢失。这会造成无法进入胡桃工具箱高级启动器界面和游戏无法正常启动。</p>
-<p>在判断你当前的游戏版本后，你可以在游戏目录下手动创建并填入对应的配置文件，下面是常见的配置文件内容。</p>
+<p>在判断你当前的游戏版本后，你可以在游戏目录 <code>%your_launcher_folder%/Genshin Impact Game/</code> 下手动创建并填入对应的配置文件，下面是常见的配置文件内容。</p>
 
 <h2> 如何完整地备份/恢复客户端数据</h2>
 <div class="hint-container warning">
