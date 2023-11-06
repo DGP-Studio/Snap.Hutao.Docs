@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 06 Nov 2023 14:44:23 GMT</pubDate>
-    <lastBuildDate>Mon, 06 Nov 2023 14:44:23 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Nov 2023 14:45:45 GMT</pubDate>
+    <lastBuildDate>Mon, 06 Nov 2023 14:45:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -804,11 +804,35 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.15 Add; Added option to recover full wish history record backup from Snap Hutao Cloud service into new archive #886 (https://github.com/DGP-Studio/Snap.Hutao/issues/886); Fi...</description>
+      <description>1.7.16 Add; Add screen resolution quick switch dropdown in Game Launcher #1062 (https://github.com/DGP-Studio/Snap.Hutao/issues/1062); Add support to allow user to cooperate Sta...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.15 </h2>
+<h2> 1.7.16 </h2>
+<ul>
+<li>Add
+<ul>
+<li>Add screen resolution quick switch dropdown in Game Launcher <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1062" target="_blank" rel="noopener noreferrer">#1062</a></li>
+<li>Add support to allow user to cooperate <a href="https://github.com/Scighost/Starward" target="_blank" rel="noopener noreferrer">Starward</a> with Snap Hutao to collect game play time stats [#1071(https://github.com/DGP-Studio/Snap.Hutao/issues/1071)</li>
+<li>Add resource download link copy option in Game Launcher <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1074" target="_blank" rel="noopener noreferrer">#1074</a></li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Fixed issue that MiHoYo BBS returns <code>5003</code> error when fetching data <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1060" target="_blank" rel="noopener noreferrer">#1060</a></li>
+<li>Fixed issue that page cannot be scrolled in some particular situations <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1068" target="_blank" rel="noopener noreferrer">#1068</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1072" target="_blank" rel="noopener noreferrer">#1072</a></li>
+<li>Fixed issue that characters' skill levels are not shown in My Character <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1069" target="_blank" rel="noopener noreferrer">#1069</a></li>
+</ul>
+</li>
+<li>Optimization
+<ul>
+<li>Optimized update log display logic <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1015" target="_blank" rel="noopener noreferrer">#1015</a></li>
+<li>User's setting selection on each button will be memorized in global scope <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/778" target="_blank" rel="noopener noreferrer">#778</a></li>
+<li>Improved client stability</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.15</h2>
 <ul>
 <li>Add
 <ul>

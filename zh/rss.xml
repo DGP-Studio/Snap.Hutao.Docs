@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 06 Nov 2023 14:44:23 GMT</pubDate>
-    <lastBuildDate>Mon, 06 Nov 2023 14:44:23 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Nov 2023 14:45:45 GMT</pubDate>
+    <lastBuildDate>Mon, 06 Nov 2023 14:45:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2585,11 +2585,43 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.15 新增; 新增从胡桃云恢复抽卡记录至本地新存档的选项 #886 (https://github.com/DGP-Studio/Snap.Hutao/issues/886); 修复; 修复了游戏启动项能填入非法数值的问题，为部分启动参数增加了开关 #1061 (https://github.com/DGP-Studio/Snap.Hutao/...</description>
+      <description>1.7.16 新增; 启动游戏页面为启动参数增加了总开关 #1065 (https://github.com/DGP-Studio/Snap.Hutao/issues/1065); 启动游戏页面新增快速选择分辨率的下拉框 #1062 (https://github.com/DGP-Studio/Snap.Hutao/issues/1062); 增加对 ...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.15 </h2>
+<h2> 1.7.16 </h2>
+<ul>
+<li>
+<p>新增</p>
+<ul>
+<li>启动游戏页面为启动参数增加了总开关 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1065" target="_blank" rel="noopener noreferrer">#1065</a></li>
+<li>启动游戏页面新增快速选择分辨率的下拉框 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1062" target="_blank" rel="noopener noreferrer">#1062</a></li>
+<li>增加对 <a href="https://github.com/Scighost/Starward" target="_blank" rel="noopener noreferrer">Starward</a> 客户端的支持，以允许用户实现游戏时长统计 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1071" target="_blank" rel="noopener noreferrer">#1071</a></li>
+<li>游戏启动器资源下载中增加资源链接复制按钮 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1074" target="_blank" rel="noopener noreferrer">#1074</a></li>
+<li>列表/网格视图切换状态全局记忆 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/778" target="_blank" rel="noopener noreferrer">#778</a></li>
+</ul>
+</li>
+<li>
+<p>修复</p>
+<ul>
+<li>修复了米游社小工具页面无法正常跳转的问题</li>
+<li>修复了我的角色功能中无法正常显示角色等级技能的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1069" target="_blank" rel="noopener noreferrer">#1069</a></li>
+<li>修复了获取用户米游社数据时返回<code>5003</code>错误的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1060" target="_blank" rel="noopener noreferrer">#1060</a></li>
+<li>修复了养成计划物品内物品列表无法滚动的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1068" target="_blank" rel="noopener noreferrer">#1068</a></li>
+<li>修复了特定条件下设置页面无法滚动的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1072" target="_blank" rel="noopener noreferrer">#1072</a></li>
+</ul>
+</li>
+<li>
+<p>优化</p>
+<ul>
+<li>启动游戏页面资源下载中导航按钮更改为链接复制按钮 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1074" target="_blank" rel="noopener noreferrer">#1074</a></li>
+<li>优化了胡桃软件更新公告的显示逻辑，不再显示低版本的更新通知 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1015" target="_blank" rel="noopener noreferrer">#1015</a></li>
+<li>用户的按钮选项在全客户端范围内将会被自动记忆 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/778" target="_blank" rel="noopener noreferrer">#778</a></li>
+<li>增强了客户端稳定性</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.15</h2>
 <ul>
 <li>新增
 <ul>
