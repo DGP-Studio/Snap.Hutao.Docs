@@ -12,7 +12,7 @@ comment: false
 
 - Add
   - Add screen resolution quick switch dropdown in Game Launcher [#1062](https://github.com/DGP-Studio/Snap.Hutao/issues/1062)
-  - Add support to allow user to cooperate [Starward](https://github.com/Scighost/Starward) with Snap Hutao to collect game play time stats [#1071(https://github.com/DGP-Studio/Snap.Hutao/issues/1071)
+  - Add support to allow user to cooperate [Starward](https://github.com/Scighost/Starward) with Snap Hutao to collect game play time stats [#1071](https://github.com/DGP-Studio/Snap.Hutao/issues/1071)
   - Add resource download link copy option in Game Launcher [#1074](https://github.com/DGP-Studio/Snap.Hutao/issues/1074)
 - Fix
   - Fixed issue that MiHoYo BBS returns `5003` error when fetching data [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
