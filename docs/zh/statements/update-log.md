@@ -11,15 +11,22 @@ comment: false
 ## 1.7.16 <Badge text="最新版" type="tip" />
 
 - 新增
-  - 游戏启动器选项中新增快速选择分辨率的列表 [#1062](https://github.com/DGP-Studio/Snap.Hutao/issues/1062)
-  - 增加对 [Starward](https://github.com/Scighost/Starward) 客户端的支持，以允许用户实现游戏时长统计 [#1071(https://github.com/DGP-Studio/Snap.Hutao/issues/1071)
+  - 启动游戏页面为启动参数增加了总开关 [#1065](https://github.com/DGP-Studio/Snap.Hutao/issues/1065)
+  - 启动游戏页面新增快速选择分辨率的下拉框 [#1062](https://github.com/DGP-Studio/Snap.Hutao/issues/1062)
+  - 增加对 [Starward](https://github.com/Scighost/Starward) 客户端的支持，以允许用户实现游戏时长统计 [#1071](https://github.com/DGP-Studio/Snap.Hutao/issues/1071)
   - 游戏启动器资源下载中增加资源链接复制按钮 [#1074](https://github.com/DGP-Studio/Snap.Hutao/issues/1074)
+  - 列表/网格视图切换状态全局记忆 [#778](https://github.com/DGP-Studio/Snap.Hutao/issues/778)
+
 - 修复
-  - 修复了获取用户米游社数据时返回`5003`错误的问题 [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
-  - 修复了在特定情况下程序界面无法滚动的问题 [#1068](https://github.com/DGP-Studio/Snap.Hutao/issues/1068) [#1072](https://github.com/DGP-Studio/Snap.Hutao/issues/1072)
+  - 修复了米游社小工具页面无法正常跳转的问题
   - 修复了我的角色功能中无法正常显示角色等级技能的问题 [#1069](https://github.com/DGP-Studio/Snap.Hutao/issues/1069)
+  - 修复了获取用户米游社数据时返回`5003`错误的问题 [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+  - 修复了养成计划物品内物品列表无法滚动的问题 [#1068](https://github.com/DGP-Studio/Snap.Hutao/issues/1068) 
+  - 修复了特定条件下设置页面无法滚动的问题 [#1072](https://github.com/DGP-Studio/Snap.Hutao/issues/1072)
+  
 - 优化
-  - 优化了胡桃软件更新公告的显示逻辑 [#1015](https://github.com/DGP-Studio/Snap.Hutao/issues/1015)
+  - 启动游戏页面资源下载中导航按钮更改为链接复制按钮 [#1074](https://github.com/DGP-Studio/Snap.Hutao/issues/1074)
+  - 优化了胡桃软件更新公告的显示逻辑，不再显示低版本的更新通知 [#1015](https://github.com/DGP-Studio/Snap.Hutao/issues/1015)
   - 用户的按钮选项在全客户端范围内将会被自动记忆 [#778](https://github.com/DGP-Studio/Snap.Hutao/issues/778)
   - 增强了客户端稳定性
 
