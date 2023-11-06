@@ -8,7 +8,22 @@ comment: false
 
 # Update Logs
 
-## 1.7.15 <Badge text="latest" type="tip" />
+## 1.7.16 <Badge text="latest" type="tip" />
+
+- Add
+  - Add screen resolution quick switch dropdown in Game Launcher [#1062](https://github.com/DGP-Studio/Snap.Hutao/issues/1062)
+  - Add support to allow user to cooperate [Starward](https://github.com/Scighost/Starward) with Snap Hutao to collect game play time stats [#1071(https://github.com/DGP-Studio/Snap.Hutao/issues/1071)
+  - Add resource download link copy option in Game Launcher [#1074](https://github.com/DGP-Studio/Snap.Hutao/issues/1074)
+- Fix
+  - Fixed issue that MiHoYo BBS returns `5003` error when fetching data [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+  - Fixed issue that page cannot be scrolled in some particular situations [#1068](https://github.com/DGP-Studio/Snap.Hutao/issues/1068) [#1072](https://github.com/DGP-Studio/Snap.Hutao/issues/1072)
+  - Fixed issue that characters' skill levels are not shown in My Character [#1069](https://github.com/DGP-Studio/Snap.Hutao/issues/1069)
+- Optimization
+  - Optimized update log display logic [#1015](https://github.com/DGP-Studio/Snap.Hutao/issues/1015)
+  - User's setting selection on each button will be memorized in global scope [#778](https://github.com/DGP-Studio/Snap.Hutao/issues/778)
+  - Improved client stability
+
+## 1.7.15
 
 - Add
   - Added option to recover full wish history record backup from Snap Hutao Cloud service into new archive [#886](https://github.com/DGP-Studio/Snap.Hutao/issues/886)

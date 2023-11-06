@@ -8,7 +8,22 @@ comment: false
 
 # 更新日志
 
-## 1.7.15 <Badge text="最新版" type="tip" />
+## 1.7.16 <Badge text="最新版" type="tip" />
+
+- 新增
+  - 游戏启动器选项中新增快速选择分辨率的列表 [#1062](https://github.com/DGP-Studio/Snap.Hutao/issues/1062)
+  - 增加对 [Starward](https://github.com/Scighost/Starward) 客户端的支持，以允许用户实现游戏时长统计 [#1071(https://github.com/DGP-Studio/Snap.Hutao/issues/1071)
+  - 游戏启动器资源下载中增加资源链接复制按钮 [#1074](https://github.com/DGP-Studio/Snap.Hutao/issues/1074)
+- 修复
+  - 修复了获取用户米游社数据时返回`5003`错误的问题 [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+  - 修复了在特定情况下程序界面无法滚动的问题 [#1068](https://github.com/DGP-Studio/Snap.Hutao/issues/1068) [#1072](https://github.com/DGP-Studio/Snap.Hutao/issues/1072)
+  - 修复了我的角色功能中无法正常显示角色等级技能的问题 [#1069](https://github.com/DGP-Studio/Snap.Hutao/issues/1069)
+- 优化
+  - 优化了胡桃软件更新公告的显示逻辑 [#1015](https://github.com/DGP-Studio/Snap.Hutao/issues/1015)
+  - 用户的按钮选项在全客户端范围内将会被自动记忆 [#778](https://github.com/DGP-Studio/Snap.Hutao/issues/778)
+  - 增强了客户端稳定性
+
+## 1.7.15
 
 - 新增
   - 新增从胡桃云恢复抽卡记录至本地新存档的选项 [#886](https://github.com/DGP-Studio/Snap.Hutao/issues/886)
