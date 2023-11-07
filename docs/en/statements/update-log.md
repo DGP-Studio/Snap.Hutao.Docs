@@ -8,20 +8,25 @@ comment: false
 
 # Update Logs
 
-## 1.7.16 <Badge text="latest" type="tip" />
+## 1.7.17 <Badge text="latest" type="tip" />
 
 - Add
-  - Add screen resolution quick switch dropdown in Game Launcher [#1062](https://github.com/DGP-Studio/Snap.Hutao/issues/1062)
-  - Add support to allow user to cooperate [Starward](https://github.com/Scighost/Starward) with Snap Hutao to collect game play time stats [#1071](https://github.com/DGP-Studio/Snap.Hutao/issues/1071)
-  - Add resource download link copy option in Game Launcher [#1074](https://github.com/DGP-Studio/Snap.Hutao/issues/1074)
+  - something added here
 - Fix
-  - Fixed issue that MiHoYo BBS returns `5003` error when fetching data [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
-  - Fixed issue that page cannot be scrolled in some particular situations [#1068](https://github.com/DGP-Studio/Snap.Hutao/issues/1068) [#1072](https://github.com/DGP-Studio/Snap.Hutao/issues/1072)
-  - Fixed issue that characters' skill levels are not shown in My Character [#1069](https://github.com/DGP-Studio/Snap.Hutao/issues/1069)
+  - something fixed here
 - Optimization
-  - Optimized update log display logic [#1015](https://github.com/DGP-Studio/Snap.Hutao/issues/1015)
-  - User's setting selection on each button will be memorized in global scope [#778](https://github.com/DGP-Studio/Snap.Hutao/issues/778)
-  - Improved client stability
+  - something here
+
+## 1.7.16
+
+- Add
+  - Added option to recover full wish history record backup from Snap Hutao Cloud service into new archive [#886](https://github.com/DGP-Studio/Snap.Hutao/issues/886)
+- Fix
+  - Fixed issue that invalid game launching parameter can be parsed; added switch for some launch parameters [#1061](https://github.com/DGP-Studio/Snap.Hutao/issues/1052)
+  - Fixed issue that user cannot register Snap Hutao account in the client [#1059](https://github.com/DGP-Studio/Snap.Hutao/issues/1059)
+  - Fixed notification issue after Realtime Note Webhook Url is set
+- Optimization
+  - Optimized Snap Hutao account's change password and delete account logic in the client
 
 ## 1.7.15
 
