@@ -22,7 +22,7 @@ comment: false
   - Optimized the UI of MiHoYo BBS web pop-ups, supports backward and refresh feature, supports showing the web title
   - Auto click feature now can be switched off and hot key can be changed [#961](https://github.com/DGP-Studio/Snap.Hutao/issues/961)
   - Added support of UIGF v2.4 format import and export
-    - Added time zone judgement based on account's server [#830](https://github.com/DGP-Studio/Snap.Hutao/issues/830)
+    - Added time zone inference based on account's server [#830](https://github.com/DGP-Studio/Snap.Hutao/issues/830)
 
 ## 1.7.16
 
