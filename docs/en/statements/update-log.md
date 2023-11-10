@@ -8,7 +8,17 @@ comment: false
 
 # Update Logs
 
-## 1.7.16 <Badge text="latest" type="tip" />
+## 1.7.17 <Badge text="latest" type="tip" />
+
+- Fix
+  - Fixed the issue that update in Dev Plan would affect same item across the plans [#1079](https://github.com/DGP-Studio/Snap.Hutao/issues/1079)
+  - Fixed the issue that wish record URL for global server cannot be found [#1081](https://github.com/DGP-Studio/Snap.Hutao/issues/1081)
+  - Fixed error log capture issue
+- Optimization
+  - Auto click feature now can be switched off and hot key can be changed [#961](https://github.com/DGP-Studio/Snap.Hutao/issues/961)
+  - Optimized time display for wish records in global servers [#830](https://github.com/DGP-Studio/Snap.Hutao/issues/830)
+
+## 1.7.16
 
 - Add
   - Add screen resolution quick switch dropdown in Game Launcher [#1062](https://github.com/DGP-Studio/Snap.Hutao/issues/1062)
