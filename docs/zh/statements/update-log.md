@@ -8,9 +8,26 @@ comment: false
 
 # 更新日志
 
-## 1.7.16 <Badge text="最新版" type="tip" />
+## 1.7.17 <Badge text="最新版" type="tip" />
+
+- 修复
+  - 修复了养成计划养成物品列表首个物品在切换计划后不会刷新的问题 [#1079](https://github.com/DGP-Studio/Snap.Hutao/issues/1079)
+  - 修复了无法获取国际服祈愿记录 URL 的问题 [#1081](https://github.com/DGP-Studio/Snap.Hutao/issues/1081)
+  - 修复了特定条件下错误日志无法正常获取并上传的问题
+  - 修复了导出祈愿记录中时间不正确的问题
+  - 修复了米游社网页弹窗数据异常的问题
+  - 修复了祈愿记录页面历史/角色/武器页签中物品数量遮罩的圆角半径不正确的问题
+  - 修复了非 UTC+08 时区下首页中公告的时间可能不正确的问题
+- 优化
+  - 更改了米游社网页弹窗的 UI, 支持后退与刷新并能查看网页标题
+  - 自动连点功能支持禁用功能和自定义按键 [#961](https://github.com/DGP-Studio/Snap.Hutao/issues/961)
+  - 祈愿记录 UIGF 导入/导出支持 UIGF v2.4 格式
+    - 增加了对祈愿记录服务器时区的时间判断 [#830](https://github.com/DGP-Studio/Snap.Hutao/issues/830)
+
+## 1.7.16
 
 - 新增
+
   - 启动游戏页面为启动参数增加了总开关 [#1065](https://github.com/DGP-Studio/Snap.Hutao/issues/1065)
   - 启动游戏页面新增快速选择分辨率的下拉框 [#1062](https://github.com/DGP-Studio/Snap.Hutao/issues/1062)
   - 增加对 [Starward](https://github.com/Scighost/Starward) 客户端的支持，以允许用户实现游戏时长统计 [#1071](https://github.com/DGP-Studio/Snap.Hutao/issues/1071)
@@ -21,9 +38,8 @@ comment: false
   - 修复了米游社小工具页面无法正常跳转的问题
   - 修复了我的角色功能中无法正常显示角色等级技能的问题 [#1069](https://github.com/DGP-Studio/Snap.Hutao/issues/1069)
   - 修复了获取用户米游社数据时返回`5003`错误的问题 [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
-  - 修复了养成计划物品内物品列表无法滚动的问题 [#1068](https://github.com/DGP-Studio/Snap.Hutao/issues/1068) 
+  - 修复了养成计划物品内物品列表无法滚动的问题 [#1068](https://github.com/DGP-Studio/Snap.Hutao/issues/1068)
   - 修复了特定条件下设置页面无法滚动的问题 [#1072](https://github.com/DGP-Studio/Snap.Hutao/issues/1072)
-  
 - 优化
   - 启动游戏页面资源下载中导航按钮更改为链接复制按钮 [#1074](https://github.com/DGP-Studio/Snap.Hutao/issues/1074)
   - 优化了胡桃软件更新公告的显示逻辑，不再显示低版本的更新通知 [#1015](https://github.com/DGP-Studio/Snap.Hutao/issues/1015)

@@ -8,7 +8,23 @@ comment: false
 
 # Update Logs
 
-## 1.7.16 <Badge text="latest" type="tip" />
+## 1.7.17 <Badge text="latest" type="tip" />
+
+- Fix
+  - Fixed the issue that the first item in Dev Plan won't be refresh after switching the plan [#1079](https://github.com/DGP-Studio/Snap.Hutao/issues/1079)
+  - Fixed the issue that wish record URL for global server cannot be found [#1081](https://github.com/DGP-Studio/Snap.Hutao/issues/1081)
+  - Fixed the issue that error log cannot be captured correctly in some specific situations
+  - Fixed wrong wish record time issue
+  - Fixed the data exception in MiHoYo BBS web pop-ups
+  - Fixed the issue of wrong corner radius settings of mask of history/character/weapon page in Wish History
+  - Fixed the wrong announcement time in time zone other than UTC+8
+- Optimization
+  - Optimized the UI of MiHoYo BBS web pop-ups, supports backward and refresh feature, supports showing the web title
+  - Auto click feature now can be switched off and hot key can be changed [#961](https://github.com/DGP-Studio/Snap.Hutao/issues/961)
+  - Added support of UIGF v2.4 format import and export
+    - Added time zone inference based on account's server [#830](https://github.com/DGP-Studio/Snap.Hutao/issues/830)
+
+## 1.7.16
 
 - Add
   - Add screen resolution quick switch dropdown in Game Launcher [#1062](https://github.com/DGP-Studio/Snap.Hutao/issues/1062)
