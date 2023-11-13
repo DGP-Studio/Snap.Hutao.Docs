@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 06 Nov 2023 14:53:52 GMT</pubDate>
-    <lastBuildDate>Mon, 06 Nov 2023 14:53:52 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Nov 2023 23:24:27 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Nov 2023 23:24:27 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -804,11 +804,36 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.16 Add; Add screen resolution quick switch dropdown in Game Launcher #1062 (https://github.com/DGP-Studio/Snap.Hutao/issues/1062); Add support to allow user to cooperate Sta...</description>
+      <description>1.7.17 Fix; Fixed the issue that the first item in Dev Plan won&amp;apos;t be refresh after switching the plan #1079 (https://github.com/DGP-Studio/Snap.Hutao/issues/1079); Fixed the iss...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.16 </h2>
+<h2> 1.7.17 </h2>
+<ul>
+<li>Fix
+<ul>
+<li>Fixed the issue that the first item in Dev Plan won't be refresh after switching the plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1079" target="_blank" rel="noopener noreferrer">#1079</a></li>
+<li>Fixed the issue that wish record URL for global server cannot be found <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1081" target="_blank" rel="noopener noreferrer">#1081</a></li>
+<li>Fixed the issue that error log cannot be captured correctly in some specific situations</li>
+<li>Fixed wrong wish record time issue</li>
+<li>Fixed the data exception in MiHoYo BBS web pop-ups</li>
+<li>Fixed the issue of wrong corner radius settings of mask of history/character/weapon page in Wish History</li>
+<li>Fixed the wrong announcement time in time zone other than UTC+8</li>
+</ul>
+</li>
+<li>Optimization
+<ul>
+<li>Optimized the UI of MiHoYo BBS web pop-ups, supports backward and refresh feature, supports showing the web title</li>
+<li>Auto click feature now can be switched off and hot key can be changed <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/961" target="_blank" rel="noopener noreferrer">#961</a></li>
+<li>Added support of UIGF v2.4 format import and export
+<ul>
+<li>Added time zone inference based on account's server <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/830" target="_blank" rel="noopener noreferrer">#830</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.16</h2>
 <ul>
 <li>Add
 <ul>

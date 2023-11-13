@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 06 Nov 2023 14:53:52 GMT</pubDate>
-    <lastBuildDate>Mon, 06 Nov 2023 14:53:52 GMT</lastBuildDate>
+    <pubDate>Mon, 13 Nov 2023 23:24:27 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Nov 2023 23:24:27 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2585,11 +2585,36 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.16 新增; 启动游戏页面为启动参数增加了总开关 #1065 (https://github.com/DGP-Studio/Snap.Hutao/issues/1065); 启动游戏页面新增快速选择分辨率的下拉框 #1062 (https://github.com/DGP-Studio/Snap.Hutao/issues/1062); 增加对 ...</description>
+      <description>1.7.17 修复; 修复了养成计划养成物品列表首个物品在切换计划后不会刷新的问题 #1079 (https://github.com/DGP-Studio/Snap.Hutao/issues/1079); 修复了无法获取国际服祈愿记录 URL 的问题 #1081 (https://github.com/DGP-Studio/Snap.Hutao/is...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.16 </h2>
+<h2> 1.7.17 </h2>
+<ul>
+<li>修复
+<ul>
+<li>修复了养成计划养成物品列表首个物品在切换计划后不会刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1079" target="_blank" rel="noopener noreferrer">#1079</a></li>
+<li>修复了无法获取国际服祈愿记录 URL 的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1081" target="_blank" rel="noopener noreferrer">#1081</a></li>
+<li>修复了特定条件下错误日志无法正常获取并上传的问题</li>
+<li>修复了导出祈愿记录中时间不正确的问题</li>
+<li>修复了米游社网页弹窗数据异常的问题</li>
+<li>修复了祈愿记录页面历史/角色/武器页签中物品数量遮罩的圆角半径不正确的问题</li>
+<li>修复了非 UTC+08 时区下首页中公告的时间可能不正确的问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>更改了米游社网页弹窗的 UI, 支持后退与刷新并能查看网页标题</li>
+<li>自动连点功能支持禁用功能和自定义按键 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/961" target="_blank" rel="noopener noreferrer">#961</a></li>
+<li>祈愿记录 UIGF 导入/导出支持 UIGF v2.4 格式
+<ul>
+<li>增加了对祈愿记录服务器时区的时间判断 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/830" target="_blank" rel="noopener noreferrer">#830</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.16</h2>
 <ul>
 <li>
 <p>新增</p>
