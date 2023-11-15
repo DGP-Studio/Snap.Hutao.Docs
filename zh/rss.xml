@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 13 Nov 2023 23:24:27 GMT</pubDate>
-    <lastBuildDate>Mon, 13 Nov 2023 23:24:27 GMT</lastBuildDate>
+    <pubDate>Wed, 15 Nov 2023 08:50:17 GMT</pubDate>
+    <lastBuildDate>Wed, 15 Nov 2023 08:50:17 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -576,7 +576,16 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>包括服务端开发和桌面端开发</li>
 </ul>
 </li>
-<li><strong>网页前端</strong></li>
+<li><strong>网页前端</strong>
+<ul>
+<li>Snap Hutao 项目有意开发一个基于胡桃 API 的深渊数据库网页，并包含基础的胡桃账号管理功能</li>
+</ul>
+</li>
+<li>Python 开发
+<ul>
+<li>服务端和自动化脚本</li>
+</ul>
+</li>
 <li>文档编写</li>
 <li>视频制作和编辑</li>
 </ul>
