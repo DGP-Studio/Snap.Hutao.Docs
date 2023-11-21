@@ -15,9 +15,9 @@ comment: false
   - Fixed translation issues with _Hutao Passport_ registration/logoff/reset password prompts [#1087](https://github.com/DGP-Studio/Snap.Hutao/issues/1087) by @Tangweirui2021
   - Fixed an issue with the first-row items on the _Dev Plan_ page not refreshing correctly after switching plans [#1099](https://github.com/DGP-Studio/Snap.Hutao/issues/1099)
   - Fixed an issue on the _Game Launcher_ page where borderless and exclusive fullscreen could not be set simultaneously [#1106](https://github.com/DGP-Studio/Snap.Hutao/issues/1106)
-  - Replaced the file selector implementation, resolving the problem of being unable to use the file selector in administrator mode [#1096](https://github.com/DGP-Studio/Snap.Hutao/issues/1096)
+  - Replaced the file selector implementation, resolving the problem of being unable to use the file selector under administrator privilege [#1096](https://github.com/DGP-Studio/Snap.Hutao/issues/1096)
   - Fixed an issue where initializing user information at startup could lead to program freezing
-  - Fixed unnecessary exceptions occurring on certain pages after switching
+  - Fixed unnecessary exceptions occurring on certain pages after being switched from
   - Fixed issues with some exceptions not being captured properly
 - Optimization
   - Added more detailed failure information for metadata initialization
