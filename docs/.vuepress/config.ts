@@ -16,7 +16,7 @@ export default defineUserConfig({
       "script",
       {
         src: "https://umami.irain.in/script.js",
-        "data-website-id": "f586534f-1741-450e-a0f4-3c0189f993c9",
+        "data-website-id": "1a7be6c3-a024-47e2-9a42-29e66b997a36",
         async: "",
         defer: "",
       },
