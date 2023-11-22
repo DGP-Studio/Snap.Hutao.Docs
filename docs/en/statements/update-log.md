@@ -8,7 +8,21 @@ comment: false
 
 # Update Logs
 
-## 1.7.17 <Badge text="latest" type="tip" />
+## 1.8.0 <Badge text="latest" type="tip" />
+
+- **Upgraded .NET version to 8** [#1103](https://github.com/DGP-Studio/Snap.Hutao/issues/1103)
+- Fixes
+  - Fixed translation issues with _Hutao Passport_ registration/logoff/reset password prompts [#1087](https://github.com/DGP-Studio/Snap.Hutao/issues/1087) by @Tangweirui2021
+  - Fixed an issue with the first-row items on the _Dev Plan_ page not refreshing correctly after switching plans [#1099](https://github.com/DGP-Studio/Snap.Hutao/issues/1099)
+  - Fixed an issue on the _Game Launcher_ page where borderless and exclusive fullscreen could not be set simultaneously [#1106](https://github.com/DGP-Studio/Snap.Hutao/issues/1106)
+  - Replaced the file pickers implementation, resolving the problem of being unable to use the file pickers under administrator privilege [#1096](https://github.com/DGP-Studio/Snap.Hutao/issues/1096)
+  - Fixed an issue where initializing user information at startup could lead to program freezing
+  - Fixed unnecessary exceptions occurring on certain pages after being switched from
+  - Fixed issues with some exceptions not being captured properly
+- Optimization
+  - Added more detailed failure information for metadata initialization
+
+## 1.7.17
 
 - Fix
   - Fixed the issue that the first item in Dev Plan won't be refresh after switching the plan [#1079](https://github.com/DGP-Studio/Snap.Hutao/issues/1079)

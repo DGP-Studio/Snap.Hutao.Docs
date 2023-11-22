@@ -8,7 +8,21 @@ comment: false
 
 # 更新日志
 
-## 1.7.17 <Badge text="最新版" type="tip" />
+## 1.8.0 <Badge text="最新版" type="tip" />
+
+- **升级了 .NET 版本到 8** [#1103](https://github.com/DGP-Studio/Snap.Hutao/issues/1103)
+- 修复
+  - 修复了*胡桃通行证*注册/注销/重置密码提示未翻译的问题 [#1087](https://github.com/DGP-Studio/Snap.Hutao/issues/1087) by @Tangweirui2021
+  - 修复了*养成计划*页面首排物品在切换计划后无法正确刷新的问题 [#1099](https://github.com/DGP-Studio/Snap.Hutao/issues/1099)
+  - 修复了*启动游戏*页面 无边框与独占全屏无法同时设置的问题 [#1106](https://github.com/DGP-Studio/Snap.Hutao/issues/1106)
+  - 替换了文件选择器的实现，解决了无法在管理员模式下使用文件选择器的问题 [#1096](https://github.com/DGP-Studio/Snap.Hutao/issues/1096)
+  - 修复了启动时初始化用户信息可能导致程序假死的问题
+  - 修复了部分页面在切换后会产生不必要的异常的问题
+  - 修复了部分异常无法正常捕获的问题
+- 优化
+  - 为元数据初始化添加了更详细的失败信息
+
+## 1.7.17
 
 - 修复
   - 修复了养成计划养成物品列表首个物品在切换计划后不会刷新的问题 [#1079](https://github.com/DGP-Studio/Snap.Hutao/issues/1079)
