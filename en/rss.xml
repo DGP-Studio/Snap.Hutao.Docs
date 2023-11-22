@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 21 Nov 2023 03:53:40 GMT</pubDate>
-    <lastBuildDate>Tue, 21 Nov 2023 03:53:40 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Nov 2023 01:20:41 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Nov 2023 01:20:41 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -804,11 +804,31 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.7.17 Fix; Fixed the issue that the first item in Dev Plan won&amp;apos;t be refresh after switching the plan #1079 (https://github.com/DGP-Studio/Snap.Hutao/issues/1079); Fixed the iss...</description>
+      <description>1.8.0 Upgraded .NET version to 8 #1103 (https://github.com/DGP-Studio/Snap.Hutao/issues/1103); Fixes; Fixed translation issues with Hutao Passport registration/logoff/reset pass...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.7.17 </h2>
+<h2> 1.8.0 </h2>
+<ul>
+<li><strong>Upgraded .NET version to 8</strong> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1103" target="_blank" rel="noopener noreferrer">#1103</a></li>
+<li>Fixes
+<ul>
+<li>Fixed translation issues with <em>Hutao Passport</em> registration/logoff/reset password prompts <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1087" target="_blank" rel="noopener noreferrer">#1087</a> by @Tangweirui2021</li>
+<li>Fixed an issue with the first-row items on the <em>Dev Plan</em> page not refreshing correctly after switching plans <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1099" target="_blank" rel="noopener noreferrer">#1099</a></li>
+<li>Fixed an issue on the <em>Game Launcher</em> page where borderless and exclusive fullscreen could not be set simultaneously <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1106" target="_blank" rel="noopener noreferrer">#1106</a></li>
+<li>Replaced the file pickers implementation, resolving the problem of being unable to use the file pickers under administrator privilege <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1096" target="_blank" rel="noopener noreferrer">#1096</a></li>
+<li>Fixed an issue where initializing user information at startup could lead to program freezing</li>
+<li>Fixed unnecessary exceptions occurring on certain pages after being switched from</li>
+<li>Fixed issues with some exceptions not being captured properly</li>
+</ul>
+</li>
+<li>Optimization
+<ul>
+<li>Added more detailed failure information for metadata initialization</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.17</h2>
 <ul>
 <li>Fix
 <ul>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 21 Nov 2023 03:53:40 GMT</pubDate>
-    <lastBuildDate>Tue, 21 Nov 2023 03:53:40 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Nov 2023 01:20:41 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Nov 2023 01:20:41 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2594,11 +2594,31 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.7.17 修复; 修复了养成计划养成物品列表首个物品在切换计划后不会刷新的问题 #1079 (https://github.com/DGP-Studio/Snap.Hutao/issues/1079); 修复了无法获取国际服祈愿记录 URL 的问题 #1081 (https://github.com/DGP-Studio/Snap.Hutao/is...</description>
+      <description>1.8.0 升级了 .NET 版本到 8 #1103 (https://github.com/DGP-Studio/Snap.Hutao/issues/1103); 修复; 修复了胡桃通行证注册/注销/重置密码提示未翻译的问题 #1087 (https://github.com/DGP-Studio/Snap.Hutao/issues/1087) by...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.7.17 </h2>
+<h2> 1.8.0 </h2>
+<ul>
+<li><strong>升级了 .NET 版本到 8</strong> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1103" target="_blank" rel="noopener noreferrer">#1103</a></li>
+<li>修复
+<ul>
+<li>修复了<em>胡桃通行证</em>注册/注销/重置密码提示未翻译的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1087" target="_blank" rel="noopener noreferrer">#1087</a> by @Tangweirui2021</li>
+<li>修复了<em>养成计划</em>页面首排物品在切换计划后无法正确刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1099" target="_blank" rel="noopener noreferrer">#1099</a></li>
+<li>修复了<em>启动游戏</em>页面 无边框与独占全屏无法同时设置的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1106" target="_blank" rel="noopener noreferrer">#1106</a></li>
+<li>替换了文件选择器的实现，解决了无法在管理员模式下使用文件选择器的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1096" target="_blank" rel="noopener noreferrer">#1096</a></li>
+<li>修复了启动时初始化用户信息可能导致程序假死的问题</li>
+<li>修复了部分页面在切换后会产生不必要的异常的问题</li>
+<li>修复了部分异常无法正常捕获的问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>为元数据初始化添加了更详细的失败信息</li>
+</ul>
+</li>
+</ul>
+<h2> 1.7.17</h2>
 <ul>
 <li>修复
 <ul>
