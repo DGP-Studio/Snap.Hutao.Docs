@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 26 Nov 2023 06:39:50 GMT</pubDate>
-    <lastBuildDate>Sun, 26 Nov 2023 06:39:50 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Nov 2023 08:07:06 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Nov 2023 08:07:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -680,33 +680,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/quick-start.html</link>
       <guid>https://hut.ao/zh/quick-start.html</guid>
       <source url="https://hut.ao/zh/rss.xml">快速开始</source>
-      <description>若您已下载或使用胡桃工具箱，即表示你已阅读并完全同意用户使用协议与法律声明 (statements/tos.md) 视频指南 对于大多数人而言，遵循本页文档会有更高的效率。 但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。 胡桃工具箱视频指南 - 下载/安装/卸载篇 最低系统要求 要求 规格 ---------------------...</description>
+      <description>遵循这篇快速开始文档，你将可以快速地将胡桃工具箱设置为可用状态。 最低系统要求 要求 规格 ---------------------- ---------------------------------------------------------------- **最低可运行系统版本** Windows 10 Build 19045 (22H2)...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 快速开始</h1>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>若您已下载或使用<strong>胡桃工具箱</strong>，即表示你已阅读并完全同意<a href="/zh/statements/tos.html" target="blank">用户使用协议与法律声明</a></p>
-</div>
-<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
-<ul>
-<li>为我们在 GitHub 上的项目加星点赞 ⭐
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
-</ul>
-</li>
-<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
-<li>在更多的地方帮助我们宣传</li>
-</ul>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
-<h2> 视频指南</h2>
-<p>对于大多数人而言，遵循本页文档会有更高的效率。</p>
-<p>但如果你对其中包含的操作不熟悉，也可以回到这里来跟着视频指南操作。</p>
-<details class="hint-container details"><summary>胡桃工具箱视频指南 - 下载/安装/卸载篇</summary>
-</details>
+<p>遵循这篇快速开始文档，你将可以快速地将胡桃工具箱设置为可用状态。</p>
 <h2> 最低系统要求</h2>
 <table>
 <thead>
@@ -718,7 +697,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <tbody>
 <tr>
 <td><strong>最低可运行系统版本</strong></td>
-<td>Windows 10 Build 19045 (22H2) <sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></td>
+<td>Windows 10 Build 19045 (22H2)<br> Windows 11 Build 22621 (22H2)</td>
 </tr>
 <tr>
 <td><strong>推荐系统版本</strong></td>
@@ -734,10 +713,18 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </tr>
 </tbody>
 </table>
+<p><strong>不支持的系统版本</strong>：</p>
+<ol>
+<li>LTSC 和 LTSB 版本系统由于不包含微软商店，不在支持列表中</li>
+<li>Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理</li>
+<li>Windows Insider 预览版本的问题不会被处理</li>
+</ol>
 <h2> 下载胡桃工具箱</h2>
+<h3> 全新安装</h3>
 <p><strong>无论使用何种安装方式，应用包来源和注册授权都由微软商店管理</strong></p>
 
 <h3> 从侧载版升级至商店版</h3>
+<p>如果你之前安装了 Snap Hutao 侧载版则需要先卸载旧版本再进行全新安装</p>
 <ul>
 <li>按照文档提供的<a href="/zh/advanced/uninstall.html" target="blank">卸载方法</a>卸载侧载版应用
 <ul>
@@ -746,19 +733,21 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 <li>按照上述方法全新安装商店版应用</li>
 </ul>
-<h2> 更新胡桃工具箱</h2>
+<h3> 更新胡桃工具箱</h3>
 <p><strong>无论你使用何种方式安装了应用，你都可以选择任意的方式去更新它，不必选择和安装时一样的方法，因为微软商店是应用包唯一来源</strong></p>
 
-<h2> 安装 WebView2 运行时</h2>
-<p>WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。作为可选组件，WebView2 运行时不是强制组件，但安装后你会更容易地使用部分功能。</p>
+<h2> 安装可选组件</h2>
+<p>通过可选组件，胡桃工具箱可以通过系统级的环境来更方便地实现一些功能，它们不是强制要求的组件，但可以带来更好的体验</p>
+<h3> WebView2 运行时</h3>
+<p>WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。通过该组件，胡桃允许用户通过 WebView2 内置浏览器登录米游社账号。</p>
 <p>在<a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">微软官网</a>的底部，你可以找到<code>常青独立安装程序</code>，选择<code>x64</code>下载并根据提示安装即可</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="footnote1" class="footnote-item"><p>LTSC 和 LTSB 版本系统由于不包含微软商店，不在支持列表中。Windows 10 Build 19041 亦可以安装，但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理 <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
+<h2> 添加第一个米游社账号</h2>
+<p>在进入胡桃工具箱主界面后，点击左下角文档按钮和设置按钮中间的账号面板。在弹出的米游社账号面板中，根据你的账号类型选择对应的登录按钮。</p>
+<p>如果你的原神账号是米哈游的国服账号，需要在<code>米游社</code>类别内登录；如果你的原神账号是 HoYoverse 的国际服账号，需要在 <code>HoYoLAB</code> 类别内登录。</p>
+<p>无论是国服账号还是国际服账号，你都有<code>网页登录</code>和<code>Cookie登录</code>两种登录方式</p>
+
+<hr>
+<p><em><strong>至此，你已经初步设置好了你的胡桃工具箱。你现在可以自由探索这个应用，你也可以在这个这个网站中找到胡桃的全部帮助文档。</strong></em></p>
 ]]></content:encoded>
     </item>
     <item>
