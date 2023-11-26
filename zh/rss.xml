@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 22 Nov 2023 01:20:41 GMT</pubDate>
-    <lastBuildDate>Wed, 22 Nov 2023 01:20:41 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Nov 2023 06:39:50 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Nov 2023 06:39:50 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -1153,6 +1153,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在查找必要的模块时遇到问题：查找模块超时
 该问题仅当原神反作弊模块早于解锁帧率模块启动时出现。在出现该错误后，胡桃会主动关闭游戏进程，用户再次尝试启动游戏即可。</li>
 </ol>
+<h2> 应用安装失败，错误消息：出现内部错误 0x80073D05</h2>
+<p>安装时出现 <code>0x80073D05</code> 错误码的主要原因是先前卸载时没有删除部分本地文件导致的。</p>
+<ul>
+<li>需要打开 <code>%appdata%/../Local/Packages</code></li>
+<li>并在文件夹中找到 <code>60568DGPStudio.SnapHutao_ebfp3nyc27j86</code> 文件夹并删除</li>
+</ul>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg_.webp" type="image/webp"/>
     </item>
