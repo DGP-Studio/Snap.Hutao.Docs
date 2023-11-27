@@ -8,7 +8,23 @@ comment: false
 
 # Update Logs
 
-## 1.8.0 <Badge text="latest" type="tip" />
+## 1.8.1 <Badge text="latest" type="tip" />
+
+- Add
+  - Added Discord Activity synchronization functions in _Game Launcher_, it syncs game status when playing Genshin Impact [#1082](https://github.com/DGP-Studio/Snap.Hutao/issues/1082)
+- Fix
+  - Fixed the issue where navigating from _Wish Export_ page _Hutao Cloud_ panel to _Spiral Abyss_ page would not synchronize the navigation bar options [#1116](https://github.com/DGP-Studio/Snap.Hutao/issues/1116)
+  - Fixed the issue that _Auto Click_ feature cannot bind with `Alt` key [#1119](https://github.com/DGP-Studio/Snap.Hutao/issues/1119)
+  - Fixed item refresh issue after switching plans in _Dev Plan_ [#1099](https://github.com/DGP-Studio/Snap.Hutao/issues/1099)
+  - Fixed issue that only blank name json file can be imported in `Achievement` page [#1124](https://github.com/DGP-Studio/Snap.Hutao/issues/1124)
+  - Fixed full package download link under _Resource Download_ page in _Game Launcher_, it is replaced with split files link [#1126](https://github.com/DGP-Studio/Snap.Hutao/issues/1126)
+  - Fixed the notification issues from _Realtime Note_, includes wrong content, repeated notifications and unexpectedly bypass client mode [#1123](https://github.com/DGP-Studio/Snap.Hutao/issues/1123)
+- Optimization
+  - Added overtime refresh rules for Fingerprint/CookieToken, users don't need to click `Refresh Cookie` in _User Panel_ so often [#1121](https://github.com/DGP-Studio/Snap.Hutao/issues/1121)
+  - Remake _Character WIKI_ page UI
+  - Added hint text when there is no signed in MiHoYo BBS account [#1127](https://github.com/DGP-Studio/Snap.Hutao/issues/1127)
+
+## 1.8.0
 
 - **Upgraded .NET version to 8** [#1103](https://github.com/DGP-Studio/Snap.Hutao/issues/1103)
 - Fixes
