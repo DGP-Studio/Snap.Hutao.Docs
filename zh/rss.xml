@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 26 Nov 2023 08:07:06 GMT</pubDate>
-    <lastBuildDate>Sun, 26 Nov 2023 08:07:06 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Nov 2023 03:30:05 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2023 03:30:05 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2589,11 +2589,36 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.8.0 升级了 .NET 版本到 8 #1103 (https://github.com/DGP-Studio/Snap.Hutao/issues/1103); 修复; 修复了胡桃通行证注册/注销/重置密码提示未翻译的问题 #1087 (https://github.com/DGP-Studio/Snap.Hutao/issues/1087) by...</description>
+      <description>1.8.1 新增; 启动游戏新增 Discord Activity 同步功能，开启后在游玩时会自动同步状态 #1082 (https://github.com/DGP-Studio/Snap.Hutao/issues/1082); 修复; 修复了从祈愿记录页面胡桃云面板导航至深渊记录页面不会同步导航栏选项的问题 #1116 (https://githu...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.8.0 </h2>
+<h2> 1.8.1 </h2>
+<ul>
+<li>新增
+<ul>
+<li><em>启动游戏</em>新增 Discord Activity 同步功能，开启后在游玩时会自动同步状态 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1082" target="_blank" rel="noopener noreferrer">#1082</a></li>
+</ul>
+</li>
+<li>修复
+<ul>
+<li>修复了从<em>祈愿记录</em>页面<em>胡桃云面板</em>导航至<em>深渊记录</em>页面不会同步导航栏选项的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1116" target="_blank" rel="noopener noreferrer">#1116</a></li>
+<li>修复了<em>自动连点</em>功能无法绑定 Alt 键的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1119" target="_blank" rel="noopener noreferrer">#1119</a></li>
+<li>修复了<em>养成计划</em>切换计划后部分物品无法刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1099" target="_blank" rel="noopener noreferrer">#1099</a></li>
+<li>修复了<em>成就管理</em>只能导入名称为空的 json 文件的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1124" target="_blank" rel="noopener noreferrer">#1124</a></li>
+<li>修复了<em>启动游戏</em>页面<em>资源下载</em>页签 中完整包链接无效的问题，现在替换为了分段文件的链接 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1126" target="_blank" rel="noopener noreferrer">#1126</a></li>
+<li>修复了<em>实时便笺</em>通知提示的内容不正确，通知会反复弹出，以及通知会忽略用户设置的静默提示的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1123" target="_blank" rel="noopener noreferrer">#1123</a></li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>为 设备指纹/CookieToken 引入了超时刷新机制，现在不需要经常在<em>用户面板</em>中点击刷新了 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1121" target="_blank" rel="noopener noreferrer">#1121</a></li>
+<li>重做了<em>角色资料</em>页面的 UI</li>
+<li>在未登录米游社/HoYoLAB的情况下左下角会显示相应文本 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1127" target="_blank" rel="noopener noreferrer">#1127</a></li>
+</ul>
+</li>
+</ul>
+<h2> 1.8.0</h2>
 <ul>
 <li><strong>升级了 .NET 版本到 8</strong> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1103" target="_blank" rel="noopener noreferrer">#1103</a></li>
 <li>修复

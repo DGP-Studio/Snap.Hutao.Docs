@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 26 Nov 2023 08:07:06 GMT</pubDate>
-    <lastBuildDate>Sun, 26 Nov 2023 08:07:06 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Nov 2023 03:30:05 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2023 03:30:05 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -804,11 +804,36 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.8.0 Upgraded .NET version to 8 #1103 (https://github.com/DGP-Studio/Snap.Hutao/issues/1103); Fixes; Fixed translation issues with Hutao Passport registration/logoff/reset pass...</description>
+      <description>1.8.1 Add; Added Discord Activity synchronization functions in Game Launcher, it syncs game status when playing Genshin Impact #1082 (https://github.com/DGP-Studio/Snap.Hutao/is...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.8.0 </h2>
+<h2> 1.8.1 </h2>
+<ul>
+<li>Add
+<ul>
+<li>Added Discord Activity synchronization functions in <em>Game Launcher</em>, it syncs game status when playing Genshin Impact <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1082" target="_blank" rel="noopener noreferrer">#1082</a></li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>Fixed the issue where navigating from <em>Wish Export</em> page <em>Hutao Cloud</em> panel to <em>Spiral Abyss</em> page would not synchronize the navigation bar options <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1116" target="_blank" rel="noopener noreferrer">#1116</a></li>
+<li>Fixed the issue that <em>Auto Click</em> feature cannot bind with <code>Alt</code> key <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1119" target="_blank" rel="noopener noreferrer">#1119</a></li>
+<li>Fixed item refresh issue after switching plans in <em>Dev Plan</em> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1099" target="_blank" rel="noopener noreferrer">#1099</a></li>
+<li>Fixed issue that only blank name json file can be imported in <code>Achievement</code> page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1124" target="_blank" rel="noopener noreferrer">#1124</a></li>
+<li>Fixed full package download link under <em>Resource Download</em> page in <em>Game Launcher</em>, it is replaced with split files link <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1126" target="_blank" rel="noopener noreferrer">#1126</a></li>
+<li>Fixed the notification issues from <em>Realtime Note</em>, includes wrong content, repeated notifications and unexpectedly bypass client mode <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1123" target="_blank" rel="noopener noreferrer">#1123</a></li>
+</ul>
+</li>
+<li>Optimization
+<ul>
+<li>Added overtime refresh rules for Fingerprint/CookieToken, users don't need to click <code>Refresh Cookie</code> in <em>User Panel</em> so often <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1121" target="_blank" rel="noopener noreferrer">#1121</a></li>
+<li>Remake <em>Character WIKI</em> page UI</li>
+<li>Added hint text when there is no signed in MiHoYo BBS account <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1127" target="_blank" rel="noopener noreferrer">#1127</a></li>
+</ul>
+</li>
+</ul>
+<h2> 1.8.0</h2>
 <ul>
 <li><strong>Upgraded .NET version to 8</strong> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1103" target="_blank" rel="noopener noreferrer">#1103</a></li>
 <li>Fixes
