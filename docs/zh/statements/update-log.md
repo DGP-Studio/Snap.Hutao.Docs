@@ -8,7 +8,23 @@ comment: false
 
 # 更新日志
 
-## 1.8.0 <Badge text="最新版" type="tip" />
+## 1.8.1 <Badge text="最新版" type="tip" />
+
+- 新增
+  - *启动游戏*新增 Discord Activity 同步功能，开启后在游玩时会自动同步状态 [#1082](https://github.com/DGP-Studio/Snap.Hutao/issues/1082)
+- 修复
+  - 修复了从*祈愿记录*页面*胡桃云面板*导航至*深渊记录*页面不会同步导航栏选项的问题 [#1116](https://github.com/DGP-Studio/Snap.Hutao/issues/1116)
+  - 修复了*自动连点*功能无法绑定 Alt 键的问题 [#1119](https://github.com/DGP-Studio/Snap.Hutao/issues/1119)
+  - 修复了*养成计划*切换计划后部分物品无法刷新的问题 [#1099](https://github.com/DGP-Studio/Snap.Hutao/issues/1099)
+  - 修复了*成就管理*只能导入名称为空的 json 文件的问题 [#1124](https://github.com/DGP-Studio/Snap.Hutao/issues/1124)
+  - 修复了*启动游戏*页面*资源下载*页签 中完整包链接无效的问题，现在替换为了分段文件的链接 [#1126](https://github.com/DGP-Studio/Snap.Hutao/issues/1126)
+  - 修复了*实时便笺*通知提示的内容不正确，通知会反复弹出，以及通知会忽略用户设置的静默提示的问题 [#1123](https://github.com/DGP-Studio/Snap.Hutao/issues/1123)
+- 优化
+  - 为 设备指纹/CookieToken 引入了超时刷新机制，现在不需要经常在*用户面板*中点击刷新了 [#1121](https://github.com/DGP-Studio/Snap.Hutao/issues/1121)
+  - 重做了*角色资料*页面的 UI
+  - 在未登录米游社/HoYoLAB的情况下左下角会显示相应文本 [#1127](https://github.com/DGP-Studio/Snap.Hutao/issues/1127)
+
+## 1.8.0
 
 - **升级了 .NET 版本到 8** [#1103](https://github.com/DGP-Studio/Snap.Hutao/issues/1103)
 - 修复
