@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 28 Nov 2023 03:30:05 GMT</pubDate>
-    <lastBuildDate>Tue, 28 Nov 2023 03:30:05 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Nov 2023 07:04:52 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2023 07:04:52 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -426,7 +426,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/community.html</link>
       <guid>https://hut.ao/zh/community.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入用户社区</source>
-      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 GitHub 讨论 Snap.Hutao Discussion (https://github.com/DGP-Studio/Snap.Hutao/discussions) QQ 群 Snap Hutao 用户群 (http://qm.qq.com/c...</description>
+      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 GitHub 讨论 Snap.Hutao Discussion (https://github.com/DGP-Studio/Snap.Hutao/discussions) QQ 群 Snap Hutao 用户群 910780153 (http://q...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入用户社区</h1>
@@ -448,10 +448,15 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
 <h2> </h2>
 <ul>
-<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&amp;authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&amp;noverify=0&amp;group_code=910780153" target="_blank" rel="noopener noreferrer">Snap Hutao 用户群</a>
+<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&amp;authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&amp;noverify=0&amp;group_code=910780153" target="_blank" rel="noopener noreferrer">Snap Hutao 用户群 910780153</a>
 <ul>
 <li>胡桃一般用户群</li>
 <li>若入群问题为最新版本号则请输入三位版本号（如 <code>1.2.3</code>）而不是四位版本号（如 <code>1.2.3.0</code>）</li>
+</ul>
+</li>
+<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=uxqsxPJPB_jOVbMFOzZv5LcDyIF2HAiu&amp;authKey=Deo2c2ZhmqSAQ%2BGUL0ItD7bYtYG5blYxQor25BXoCcaCGllZYtZ4eDNwZ3yZz8gH&amp;noverify=0&amp;group_code=531960040" target="_blank" rel="noopener noreferrer">Snap Hutao 公告群 531960040</a>
+<ul>
+<li>全体禁言，仅发送公告</li>
 </ul>
 </li>
 <li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap 开发交流群</em></a>
