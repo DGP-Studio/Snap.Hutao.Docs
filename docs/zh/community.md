@@ -19,9 +19,11 @@ order: 8
 
 ## <HopeIcon icon="iconfont icon-qq" size="1.5rem" color="rgb(0,126,198)" /> QQ 群
 
-- [Snap Hutao 用户群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&noverify=0&group_code=910780153)
+- [Snap Hutao 用户群 910780153](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&noverify=0&group_code=910780153)
   - 胡桃一般用户群
   - 若入群问题为最新版本号则请输入三位版本号（如 `1.2.3`）而不是四位版本号（如 `1.2.3.0`）
+- [Snap Hutao 公告群 531960040](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uxqsxPJPB_jOVbMFOzZv5LcDyIF2HAiu&authKey=Deo2c2ZhmqSAQ%2BGUL0ItD7bYtYG5blYxQor25BXoCcaCGllZYtZ4eDNwZ3yZz8gH&noverify=0&group_code=531960040)
+  - 全体禁言，仅发送公告
 - [_Snap 开发交流群_](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236)
   - 广泛的技术交流群，并非胡桃工具箱开发群
   - 开发群对申请者的技术水平有一定要求
