@@ -8,7 +8,15 @@ comment: false
 
 # 更新日志
 
-## 1.8.1 <Badge text="最新版" type="tip" />
+## 1.8.3 <Badge text="最新版" type="tip" /><Badge text="hotfix" type="tip" />
+
+- 修复
+  - 修复了当 Discord 客户端未启动时，胡桃会闪退的问题 [#1134](https://github.com/DGP-Studio/Snap.Hutao/issues/1134)
+  - 修复了祈愿记录时间不正确的问题 [#1138](https://github.com/DGP-Studio/Snap.Hutao/issues/1138)
+- 优化
+  - 在安装包中包含了 .NET 环境
+
+## 1.8.1
 
 - 新增
   - *启动游戏*新增 Discord Activity 同步功能，开启后在游玩时会自动同步状态 [#1082](https://github.com/DGP-Studio/Snap.Hutao/issues/1082)
