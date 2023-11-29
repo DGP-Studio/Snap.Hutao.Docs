@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 28 Nov 2023 07:04:52 GMT</pubDate>
-    <lastBuildDate>Tue, 28 Nov 2023 07:04:52 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Nov 2023 03:13:22 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Nov 2023 03:13:22 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -804,11 +804,25 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.8.1 Add; Added Discord Activity synchronization functions in Game Launcher, it syncs game status when playing Genshin Impact #1082 (https://github.com/DGP-Studio/Snap.Hutao/is...</description>
+      <description>1.8.3 Fix; Fixed the crash issue when Discord client is not running #1134 (https://github.com/DGP-Studio/Snap.Hutao/issues/1134); Fixed wrong wish record time #1138 (https://git...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.8.1 </h2>
+<h2> 1.8.3 </h2>
+<ul>
+<li>Fix
+<ul>
+<li>Fixed the crash issue when Discord client is not running <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1134" target="_blank" rel="noopener noreferrer">#1134</a></li>
+<li>Fixed wrong wish record time <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1138" target="_blank" rel="noopener noreferrer">#1138</a></li>
+</ul>
+</li>
+<li>Optimization
+<ul>
+<li>Includes .NET environment with the package</li>
+</ul>
+</li>
+</ul>
+<h2> 1.8.1</h2>
 <ul>
 <li>Add
 <ul>

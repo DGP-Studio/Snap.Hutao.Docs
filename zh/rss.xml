@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 28 Nov 2023 07:04:52 GMT</pubDate>
-    <lastBuildDate>Tue, 28 Nov 2023 07:04:52 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Nov 2023 03:13:22 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Nov 2023 03:13:22 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2594,11 +2594,25 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.8.1 新增; 启动游戏新增 Discord Activity 同步功能，开启后在游玩时会自动同步状态 #1082 (https://github.com/DGP-Studio/Snap.Hutao/issues/1082); 修复; 修复了从祈愿记录页面胡桃云面板导航至深渊记录页面不会同步导航栏选项的问题 #1116 (https://githu...</description>
+      <description>1.8.3 修复; 修复了当 Discord 客户端未启动时，胡桃会闪退的问题 #1134 (https://github.com/DGP-Studio/Snap.Hutao/issues/1134); 修复了祈愿记录时间不正确的问题 #1138 (https://github.com/DGP-Studio/Snap.Hutao/issues/1138...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.8.1 </h2>
+<h2> 1.8.3 </h2>
+<ul>
+<li>修复
+<ul>
+<li>修复了当 Discord 客户端未启动时，胡桃会闪退的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1134" target="_blank" rel="noopener noreferrer">#1134</a></li>
+<li>修复了祈愿记录时间不正确的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1138" target="_blank" rel="noopener noreferrer">#1138</a></li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>在安装包中包含了 .NET 环境</li>
+</ul>
+</li>
+</ul>
+<h2> 1.8.1</h2>
 <ul>
 <li>新增
 <ul>
