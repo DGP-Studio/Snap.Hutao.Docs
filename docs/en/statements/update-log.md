@@ -8,7 +8,15 @@ comment: false
 
 # Update Logs
 
-## 1.8.1 <Badge text="latest" type="tip" />
+## 1.8.3 <Badge text="latest" type="tip" /><Badge text="hotfix" type="tip" />
+
+- Fix
+  - Fixed the crash issue when Discord client is not running [#1134](https://github.com/DGP-Studio/Snap.Hutao/issues/1134)
+  - Fixed wrong wish record time [#1138](https://github.com/DGP-Studio/Snap.Hutao/issues/1138)
+- Optimization
+  - Includes .NET environment with the package
+
+## 1.8.1
 
 - Add
   - Added Discord Activity synchronization functions in _Game Launcher_, it syncs game status when playing Genshin Impact [#1082](https://github.com/DGP-Studio/Snap.Hutao/issues/1082)
