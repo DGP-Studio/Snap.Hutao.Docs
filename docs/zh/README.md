@@ -8,6 +8,10 @@ heroText: 胡桃工具箱
 tagline: 实用的开源多功能原神工具箱 🧰
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
+head:
+  - - meta
+    - name: twitter:"image:src
+      content: https://repository-images.githubusercontent.com/482734649/eb0f81d6-29a8-4d3c-8012-d85475cd89ee
 actions:
   - text: 下载
     link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
