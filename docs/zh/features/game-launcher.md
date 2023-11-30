@@ -104,7 +104,7 @@ comment: false
 
 ## 高级功能
 
-::: danger
+::: caution
 
 - 请注意：高级功能已明确标注为 `Dangerous Feature`，即**危险功能**，选择启用即代表您选择自行承担任意风险
 - 你需要首先在胡桃设置页面中启用高级功能
@@ -113,7 +113,7 @@ comment: false
 
 ### 解锁帧率上限
 
-::: danger
+::: caution
 
 - [Unlocker 项目](https://github.com/DGP-Studio/Unlocker)仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中`120帧率`等设置无异，但您仍应谨慎使用并自行阅读[用户协议](../statements/tos.md)
 

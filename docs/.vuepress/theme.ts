@@ -65,17 +65,13 @@ export default hopeTheme({
 
   plugins: {
     comment: {
-      provider: "Waline",
-      serverURL: "https://comments.snapgenshin.com",
-      emoji: [
-        "//unpkg.com/@waline/emojis@1.1.0/weibo",
-        "//unpkg.com/@waline/emojis@1.1.0/bilibili",
-        "//unpkg.com/@waline/emojis@1.1.0/bmoji",
-        "//unpkg.com/@waline/emojis@1.1.0/qq",
-        "//unpkg.com/@waline/emojis@1.1.0/tieba",
-      ],
-      requiredMeta: ["mail"],
-      reaction: false,
+      provider: "Giscus",
+      repo: "DGP-Studio/Snap.Hutao.Docs.Comments",
+      repoId: "R_kgDOKySqhg",
+      category: "Announcements",
+      categoryId: "DIC_kwDOKySqhs4CbRrr",
+      mapping: "pathname",
+      inputPosition: "bottom"
     },
 
     components: {
