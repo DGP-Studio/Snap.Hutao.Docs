@@ -8,7 +8,21 @@ comment: false
 
 # 更新日志
 
-## 1.8.3 <Badge text="最新版" type="tip" /><Badge text="hotfix" type="tip" />
+## 1.8.4 <Badge text="最新版" type="tip" />
+
+- 修复
+  - 修复了每日签到提示活动已到期的问题
+  - 修复了无法选择 `pwsh.exe` 作为 PowerShell 主机的问题 [#1145](https://github.com/DGP-Studio/Snap.Hutao/issues/1145) [#1153](https://github.com/DGP-Studio/Snap.Hutao/issues/1153)
+  - 修复了特定情况下由第三方程序拉起的胡桃会出现文本语言不正确的问题 [#1147](https://github.com/DGP-Studio/Snap.Hutao/issues/1147)
+  - 修复了创建的桌面快捷方式无法找到 PowerShell 的问题 [#1151](https://github.com/DGP-Studio/Snap.Hutao/issues/1151) [#1154](https://github.com/DGP-Studio/Snap.Hutao/issues/1154)
+- 优化
+  - 更新了胡桃云服务的相关文本
+  - 优化了游戏启动与结束时的 Discord Activity 追踪表现
+  - 调整了角色/武器资料/我的角色页面，现在缩放窗口时内容将不再高频闪烁
+  - 优化了启动游戏页面切换服务器时的性能，现在会使用多线程分片下载资源文件
+  - 优化了启动游戏页面切换服务器时的逻辑，现在会提前检查对应目录是否拥有需要的文件权限
+
+## 1.8.3 <Badge text="hotfix" type="tip" />
 
 - 修复
   - 修复了当 Discord 客户端未启动时，胡桃会闪退的问题 [#1134](https://github.com/DGP-Studio/Snap.Hutao/issues/1134)

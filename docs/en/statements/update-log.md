@@ -8,7 +8,21 @@ comment: false
 
 # Update Logs
 
-## 1.8.3 <Badge text="latest" type="tip" /><Badge text="hotfix" type="tip" />
+## 1.8.4 <Badge text="latest" type="tip" />
+
+- Fix
+  - Fixed the issue that daily-checkin shows activity end
+  - Fixed the issue that `pwsh.exe` cannot be selected as PowerShell host [#1145](https://github.com/DGP-Studio/Snap.Hutao/issues/1145) [#1153](https://github.com/DGP-Studio/Snap.Hutao/issues/1153)
+  - Fixed display language error when Snap Hutao being pulled up by third-party software [#1147](https://github.com/DGP-Studio/Snap.Hutao/issues/1147)
+  - Fixed PowerShell not found error on desktop shortcut [#1151](https://github.com/DGP-Studio/Snap.Hutao/issues/1151) [#1154](https://github.com/DGP-Studio/Snap.Hutao/issues/1154)
+- Optimization
+  - Updated Snap Hutao Cloud prompts text
+  - Optimized Discord Activity tracking performance at the beginning and the end of game
+  - Optimized resize performance on Character WIKI/Weapon WIKI/My Character pages
+  - Optimized performance of server conversion, multi-thread downloading on multipart content is now enabled
+  - Optimized server conversion logic, Snap Hutao will not check folder writing permission before the task
+
+## 1.8.3 <Badge text="hotfix" type="tip" />
 
 - Fix
   - Fixed the crash issue when Discord client is not running [#1134](https://github.com/DGP-Studio/Snap.Hutao/issues/1134)
