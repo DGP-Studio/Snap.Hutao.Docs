@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 29 Nov 2023 03:13:22 GMT</pubDate>
-    <lastBuildDate>Wed, 29 Nov 2023 03:13:22 GMT</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2023 08:26:52 GMT</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2023 08:26:52 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -804,10 +804,30 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.8.3 Fix; Fixed the crash issue when Discord client is not running #1134 (https://github.com/DGP-Studio/Snap.Hutao/issues/1134); Fixed wrong wish record time #1138 (https://git...</description>
+      <description>1.8.4 Fix; Fixed the issue that daily-checkin shows activity end; Fixed the issue that pwsh.exe cannot be selected as PowerShell host #1145 (https://github.com/DGP-Studio/Snap.H...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
+<h2> 1.8.4 </h2>
+<ul>
+<li>Fix
+<ul>
+<li>Fixed the issue that daily-checkin shows activity end</li>
+<li>Fixed the issue that <code>pwsh.exe</code> cannot be selected as PowerShell host <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1145" target="_blank" rel="noopener noreferrer">#1145</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1153" target="_blank" rel="noopener noreferrer">#1153</a></li>
+<li>Fixed display language error when Snap Hutao being pulled up by third-party software <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1147" target="_blank" rel="noopener noreferrer">#1147</a></li>
+<li>Fixed PowerShell not found error on desktop shortcut <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1151" target="_blank" rel="noopener noreferrer">#1151</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1154" target="_blank" rel="noopener noreferrer">#1154</a></li>
+</ul>
+</li>
+<li>Optimization
+<ul>
+<li>Updated Snap Hutao Cloud prompts text</li>
+<li>Optimized Discord Activity tracking performance at the beginning and the end of game</li>
+<li>Optimized resize performance on Character WIKI/Weapon WIKI/My Character pages</li>
+<li>Optimized performance of server conversion, multi-thread downloading on multipart content is now enabled</li>
+<li>Optimized server conversion logic, Snap Hutao will not check folder writing permission before the task</li>
+</ul>
+</li>
+</ul>
 <h2> 1.8.3 </h2>
 <ul>
 <li>Fix

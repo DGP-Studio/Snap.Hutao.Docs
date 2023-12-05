@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 29 Nov 2023 03:13:22 GMT</pubDate>
-    <lastBuildDate>Wed, 29 Nov 2023 03:13:22 GMT</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2023 08:26:52 GMT</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2023 08:26:52 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2594,10 +2594,30 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.8.3 修复; 修复了当 Discord 客户端未启动时，胡桃会闪退的问题 #1134 (https://github.com/DGP-Studio/Snap.Hutao/issues/1134); 修复了祈愿记录时间不正确的问题 #1138 (https://github.com/DGP-Studio/Snap.Hutao/issues/1138...</description>
+      <description>1.8.4 修复; 修复了每日签到提示活动已到期的问题; 修复了无法选择 pwsh.exe 作为 PowerShell 主机的问题 #1145 (https://github.com/DGP-Studio/Snap.Hutao/issues/1145) #1153 (https://github.com/DGP-Studio/Snap.Hutao/is...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
+<h2> 1.8.4 </h2>
+<ul>
+<li>修复
+<ul>
+<li>修复了每日签到提示活动已到期的问题</li>
+<li>修复了无法选择 <code>pwsh.exe</code> 作为 PowerShell 主机的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1145" target="_blank" rel="noopener noreferrer">#1145</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1153" target="_blank" rel="noopener noreferrer">#1153</a></li>
+<li>修复了特定情况下由第三方程序拉起的胡桃会出现文本语言不正确的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1147" target="_blank" rel="noopener noreferrer">#1147</a></li>
+<li>修复了创建的桌面快捷方式无法找到 PowerShell 的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1151" target="_blank" rel="noopener noreferrer">#1151</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1154" target="_blank" rel="noopener noreferrer">#1154</a></li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>更新了胡桃云服务的相关文本</li>
+<li>优化了游戏启动与结束时的 Discord Activity 追踪表现</li>
+<li>调整了角色/武器资料/我的角色页面，现在缩放窗口时内容将不再高频闪烁</li>
+<li>优化了启动游戏页面切换服务器时的性能，现在会使用多线程分片下载资源文件</li>
+<li>优化了启动游戏页面切换服务器时的逻辑，现在会提前检查对应目录是否拥有需要的文件权限</li>
+</ul>
+</li>
+</ul>
 <h2> 1.8.3 </h2>
 <ul>
 <li>修复
