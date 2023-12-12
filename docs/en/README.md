@@ -121,7 +121,14 @@ You can make contribution by the following ways:
 
 Snap Hutao is currently using sponsored software from the following service providers.
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com/) | [![](https://badges.crowdin.net/badge/light/crowdin-on-dark.png)](https://crowdin.com/) | [![](https://gitlab.cn/images/icons/logos/logo-121-75.svg)](https://gitlab.cn/) |
-| -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [![](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com/) | [![](https://badges.crowdin.net/badge/light/crowdin-on-dark.png)](https://crowdin.com/) | [![](https://gitlab.cn/images/icons/logos/logo-121-75.svg)](https://gitlab.cn/) | [![](/images/202312/signpath-logo.png)](https://about.signpath.io) |
+| :------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :----------------------------------------------------------------: |
 
+Netlify provides document and home page hosting service for Snap Hutao
+
+Crowdin provides its SaaS platform to help Snap Hutao's localization
+
+Jihu GitLab provides Git repository and CI/CD SaaS service for Snap Hutao in China
+
+Free code signing provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/)
 :::
