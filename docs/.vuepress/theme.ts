@@ -75,7 +75,7 @@ export default hopeTheme({
     },
 
     components: {
-      components: ["Badge", "BiliBili"],
+      components: ["Badge", "BiliBili", "VPCard"],
       rootComponents: {
         notice: [
           {
@@ -105,6 +105,8 @@ export default hopeTheme({
       include: true,
       tabs: true,
       tasklist: true,
+      component: true,
+      imgSize: true,
     },
 
     pwa: {

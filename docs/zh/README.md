@@ -124,8 +124,9 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多
 
 Snap Hutao 目前使用了以下软件厂商赞助的服务
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com/) | [![](https://badges.crowdin.net/badge/light/crowdin-on-dark.png)](https://crowdin.com/) | [![](https://gitlab.cn/images/icons/logos/logo-121-75.svg)](https://gitlab.cn/) | [![](/images/202312/signpath-logo.png)](https://about.signpath.io) |
-| :------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :----------------------------------------------------------------: |
+| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) | [![](https://gitlab.cn/images/icons/logos/logo-121-75.svg =180x60)](https://gitlab.cn/) |
+| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                        [![](/images/202312/1Password-logo.svg =180x40)](https://1password.com/)                         |  [![](/images/202312/digitalocean-horizontal.svg =180x40)](https://about.signpath.io)   |
 
 Netlify 为 Snap Hutao 提供了文档和主页的托管服务
 
@@ -134,5 +135,9 @@ Crowdin 为 Snap Hutao 的本地化翻译提供了平台
 极狐 GitLab 为 Snap Hutao 提供了在中国的代码托管和 CI/CD 流水线服务
 
 [SignPath 基金会](https://signpath.org/)为 Snap Hutao 客户端提供了免费的代码签名服务
+
+1Password 为 Snap Hutao 开发团队提供了优秀的密码管理工具
+
+DigitalOcean 为 Snap Hutao 提供了可靠的数据备份储存空间
 
 :::
