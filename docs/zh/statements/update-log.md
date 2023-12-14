@@ -8,7 +8,45 @@ comment: false
 
 # 更新日志
 
-## 1.8.0 <Badge text="最新版" type="tip" />
+## 1.8.4 <Badge text="最新版" type="tip" />
+
+- 修复
+  - 修复了每日签到提示活动已到期的问题
+  - 修复了无法选择 `pwsh.exe` 作为 PowerShell 主机的问题 [#1145](https://github.com/DGP-Studio/Snap.Hutao/issues/1145) [#1153](https://github.com/DGP-Studio/Snap.Hutao/issues/1153)
+  - 修复了特定情况下由第三方程序拉起的胡桃会出现文本语言不正确的问题 [#1147](https://github.com/DGP-Studio/Snap.Hutao/issues/1147)
+  - 修复了创建的桌面快捷方式无法找到 PowerShell 的问题 [#1151](https://github.com/DGP-Studio/Snap.Hutao/issues/1151) [#1154](https://github.com/DGP-Studio/Snap.Hutao/issues/1154)
+- 优化
+  - 更新了胡桃云服务的相关文本
+  - 优化了游戏启动与结束时的 Discord Activity 追踪表现
+  - 调整了角色/武器资料/我的角色页面，现在缩放窗口时内容将不再高频闪烁
+  - 优化了启动游戏页面切换服务器时的性能，现在会使用多线程分片下载资源文件
+  - 优化了启动游戏页面切换服务器时的逻辑，现在会提前检查对应目录是否拥有需要的文件权限
+
+## 1.8.3 <Badge text="hotfix" type="tip" />
+
+- 修复
+  - 修复了当 Discord 客户端未启动时，胡桃会闪退的问题 [#1134](https://github.com/DGP-Studio/Snap.Hutao/issues/1134)
+  - 修复了祈愿记录时间不正确的问题 [#1138](https://github.com/DGP-Studio/Snap.Hutao/issues/1138)
+- 优化
+  - 在安装包中包含了 .NET 环境
+
+## 1.8.1
+
+- 新增
+  - *启动游戏*新增 Discord Activity 同步功能，开启后在游玩时会自动同步状态 [#1082](https://github.com/DGP-Studio/Snap.Hutao/issues/1082)
+- 修复
+  - 修复了从*祈愿记录*页面*胡桃云面板*导航至*深渊记录*页面不会同步导航栏选项的问题 [#1116](https://github.com/DGP-Studio/Snap.Hutao/issues/1116)
+  - 修复了*自动连点*功能无法绑定 Alt 键的问题 [#1119](https://github.com/DGP-Studio/Snap.Hutao/issues/1119)
+  - 修复了*养成计划*切换计划后部分物品无法刷新的问题 [#1099](https://github.com/DGP-Studio/Snap.Hutao/issues/1099)
+  - 修复了*成就管理*只能导入名称为空的 json 文件的问题 [#1124](https://github.com/DGP-Studio/Snap.Hutao/issues/1124)
+  - 修复了*启动游戏*页面*资源下载*页签 中完整包链接无效的问题，现在替换为了分段文件的链接 [#1126](https://github.com/DGP-Studio/Snap.Hutao/issues/1126)
+  - 修复了*实时便笺*通知提示的内容不正确，通知会反复弹出，以及通知会忽略用户设置的静默提示的问题 [#1123](https://github.com/DGP-Studio/Snap.Hutao/issues/1123)
+- 优化
+  - 为 设备指纹/CookieToken 引入了超时刷新机制，现在不需要经常在*用户面板*中点击刷新了 [#1121](https://github.com/DGP-Studio/Snap.Hutao/issues/1121)
+  - 重做了*角色资料*页面的 UI
+  - 在未登录米游社/HoYoLAB的情况下左下角会显示相应文本 [#1127](https://github.com/DGP-Studio/Snap.Hutao/issues/1127)
+
+## 1.8.0
 
 - **升级了 .NET 版本到 8** [#1103](https://github.com/DGP-Studio/Snap.Hutao/issues/1103)
 - 修复
