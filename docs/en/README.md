@@ -125,9 +125,9 @@ You can make contribution by the following ways:
 
 Snap Hutao is currently using sponsored software from the following service providers.
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) | [![](https://gitlab.cn/images/icons/logos/logo-121-75.svg =180x60)](https://gitlab.cn/) |
-| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
-|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                        [![](/images/202312/1Password-logo.svg =180x40)](https://1password.com/)                         |  [![](/images/202312/digitalocean-horizontal.svg =180x40)](https://about.signpath.io)   |
+| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |          [![](/images/202312/gitlab-logo.svg =180x60)](https://gitlab.cn/)           |
+| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                        [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/)                         | [![](/images/202312/digitalocean-horizontal.svg =180x40)](https://about.signpath.io) |
 
 Netlify provides document and home page hosting service for Snap Hutao
 

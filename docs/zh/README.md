@@ -124,9 +124,9 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多
 
 Snap Hutao 目前使用了以下软件厂商赞助的服务
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) | [![](https://gitlab.cn/images/icons/logos/logo-121-75.svg =180x60)](https://gitlab.cn/) |
-| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
-|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                        [![](/images/202312/1Password-logo.svg =180x40)](https://1password.com/)                         |  [![](/images/202312/digitalocean-horizontal.svg =180x40)](https://about.signpath.io)   |
+| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |          [![](/images/202312/gitlab-logo.svg =180x60)](https://gitlab.cn/)           |
+| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                        [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/)                         | [![](/images/202312/digitalocean-horizontal.svg =180x40)](https://about.signpath.io) |
 
 Netlify 为 Snap Hutao 提供了文档和主页的托管服务
 
