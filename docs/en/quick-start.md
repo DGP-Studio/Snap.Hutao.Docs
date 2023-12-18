@@ -5,7 +5,7 @@ category:
   - Feature
   - Tutorial
 comment: false
-icon: iconfont icon-play
+icon: iconfont icon-light
 order: 5
 ---
 
@@ -64,9 +64,11 @@ On Windows 10 and Windows 11 you can click the button above to download Snap Hut
 
 :::
 
-### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> Upgrade to MS Store Version from Sideload Versions
+### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> Upgrade to MS Store Version from Side-load Versions
 
-- Uninstall the sideload version with our [uninstallation instruction document](/advanced/uninstall.html)
+If you installed a side-load version of Snap Hutao (version 1.4.10 and older), you need to uninstall it before the new installation
+
+- Uninstall the side-load version with our [uninstallation instruction document](advanced/uninstall.html)
   - Your data will not lose as long as you don't delete data directory manually
 - Follow the method above to install the Microsoft Store version application
 

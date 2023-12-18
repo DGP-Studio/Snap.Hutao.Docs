@@ -4,7 +4,7 @@ externalLinkIcon: false
 category: [功能, 教程]
 redirectFrom: /quick-start.html
 comment: false
-icon: iconfont icon-play
+icon: iconfont icon-light
 order: 5
 ---
 
@@ -62,7 +62,7 @@ theme="auto">
 
 ### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> 从侧载版升级至商店版
 
-如果你之前安装了 Snap Hutao 侧载版则需要先卸载旧版本再进行全新安装
+如果你之前安装了 Snap Hutao 侧载版（1.4.10及更旧的版本）则需要先卸载旧版本再进行全新安装
 
 - 按照文档提供的[卸载方法](advanced/uninstall.html)卸载侧载版应用
   - 只要不手动删除数据目录，你的数据不会受到影响
