@@ -12,7 +12,7 @@ order: 5
 
 遵循这篇快速开始文档，你将可以快速地将胡桃工具箱设置为可用状态。
 
-## 最低系统要求
+## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> 最低系统要求
 
 | 要求                   | 规格                                                             |
 | ---------------------- | ---------------------------------------------------------------- |
@@ -27,7 +27,7 @@ order: 5
 2. Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理
 3. Windows Insider 预览版本的问题不会被处理
 
-## 下载胡桃工具箱
+## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> 下载胡桃工具箱
 
 ### 全新安装
 
@@ -60,7 +60,7 @@ theme="auto">
 
 :::
 
-### 从侧载版升级至商店版
+### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> 从侧载版升级至商店版
 
 如果你之前安装了 Snap Hutao 侧载版则需要先卸载旧版本再进行全新安装
 
@@ -68,7 +68,7 @@ theme="auto">
   - 只要不手动删除数据目录，你的数据不会受到影响
 - 按照上述方法全新安装商店版应用
 
-### 更新胡桃工具箱
+### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 
 **无论你使用何种方式安装了应用，你都可以选择任意的方式去更新它，不必选择和安装时一样的方法，因为微软商店是应用包唯一来源**
 ::: tabs
@@ -94,17 +94,17 @@ theme="auto">
 
 :::
 
-## 安装可选组件
+## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> 安装可选组件
 
 通过可选组件，胡桃工具箱可以通过系统级的环境来更方便地实现一些功能，它们不是强制要求的组件，但可以带来更好的体验
 
-### WebView2 运行时
+### <img src="/images/202312/MSEdge.webp" width="20" height="20"> WebView2 运行时
 
 WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。通过该组件，胡桃允许用户通过 WebView2 内置浏览器登录米游社账号。
 
 在[微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/)的底部，你可以找到`常青独立安装程序`，选择`x64`下载并根据提示安装即可
 
-## 添加第一个米游社账号
+## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> 添加第一个米游社账号
 
 在进入胡桃工具箱主界面后，点击左下角文档按钮和设置按钮中间的账号面板。在弹出的米游社账号面板中，根据你的账号类型选择对应的登录按钮。
 
