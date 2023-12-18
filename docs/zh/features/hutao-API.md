@@ -94,21 +94,21 @@ Snap Hutao 与其它开发者共同维护着胡桃数据库，你可以在多个
 ```component VPCard
 title: Miao-Plugin for Yunzai-Bot
 desc: QQ机器人 Miao-Plugin 插件
-logo: https://avatars.githubusercontent.com/u/102026640?v=4
+logo: /images/202312/miao-plugin-logo.webp
 link: https://github.com/yoimiya-kokomi/miao-plugin/tree/master
 ```
 
 ```component VPCard
 title: 原神披萨助手
 desc: MacOS/iOS下的原神工具
-logo: https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/84/de/32/84de320c-85cc-4504-ba52-aac4ef807304/AppIcon-0-1x_U007emarketing-0-0-0-5-0-0-85-220-0.png/246x0w.webp
+logo: /images/202312/genshin-pizza-helper-logo.webp
 link: https://apps.apple.com/cn/app/%E6%8A%AB%E8%90%A8%E5%B0%8F%E5%8A%A9%E6%89%8B/id1635319193
 ```
 
 ```component VPCard
 title: Ysin
 desc: 微信小程序 Ysin
-logo: https://yuanshen.xin/static/favicon.png
+logo: /images/202312/ysin-logo.png
 link: https://yuanshen.xin/
 ```
 
