@@ -5,7 +5,7 @@ category:
   - Feature
   - Tutorial
 comment: false
-icon: iconfont icon-light
+icon: iconfont icon-launch
 order: 5
 ---
 
