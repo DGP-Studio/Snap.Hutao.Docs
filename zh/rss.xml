@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 12 Dec 2023 07:45:53 GMT</pubDate>
-    <lastBuildDate>Tue, 12 Dec 2023 07:45:53 GMT</lastBuildDate>
+    <pubDate>Mon, 18 Dec 2023 16:34:13 GMT</pubDate>
+    <lastBuildDate>Mon, 18 Dec 2023 16:34:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -691,7 +691,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 快速开始</h1>
 <p>遵循这篇快速开始文档，你将可以快速地将胡桃工具箱设置为可用状态。</p>
-<h2> 最低系统要求</h2>
+<h2> </h2>
 <table>
 <thead>
 <tr>
@@ -724,12 +724,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理</li>
 <li>Windows Insider 预览版本的问题不会被处理</li>
 </ol>
-<h2> 下载胡桃工具箱</h2>
+<h2> </h2>
 <h3> 全新安装</h3>
 <p><strong>无论使用何种安装方式，应用包来源和注册授权都由微软商店管理</strong></p>
 
-<h3> 从侧载版升级至商店版</h3>
-<p>如果你之前安装了 Snap Hutao 侧载版则需要先卸载旧版本再进行全新安装</p>
+<h3> </h3>
+<p>如果你之前安装了 Snap Hutao 侧载版（1.4.10及更旧的版本）则需要先卸载旧版本再进行全新安装</p>
 <ul>
 <li>按照文档提供的<a href="/zh/advanced/uninstall.html" target="blank">卸载方法</a>卸载侧载版应用
 <ul>
@@ -738,15 +738,15 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 <li>按照上述方法全新安装商店版应用</li>
 </ul>
-<h3> 更新胡桃工具箱</h3>
+<h3> </h3>
 <p><strong>无论你使用何种方式安装了应用，你都可以选择任意的方式去更新它，不必选择和安装时一样的方法，因为微软商店是应用包唯一来源</strong></p>
 
-<h2> 安装可选组件</h2>
+<h2> </h2>
 <p>通过可选组件，胡桃工具箱可以通过系统级的环境来更方便地实现一些功能，它们不是强制要求的组件，但可以带来更好的体验</p>
-<h3> WebView2 运行时</h3>
+<h3> <img src="/images/202312/MSEdge.webp" width="20" height="20"> WebView2 运行时</h3>
 <p>WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。通过该组件，胡桃允许用户通过 WebView2 内置浏览器登录米游社账号。</p>
 <p>在<a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">微软官网</a>的底部，你可以找到<code>常青独立安装程序</code>，选择<code>x64</code>下载并根据提示安装即可</p>
-<h2> 添加第一个米游社账号</h2>
+<h2> </h2>
 <p>在进入胡桃工具箱主界面后，点击左下角文档按钮和设置按钮中间的账号面板。在弹出的米游社账号面板中，根据你的账号类型选择对应的登录按钮。</p>
 <p>如果你的原神账号是米哈游的国服账号，需要在<code>米游社</code>类别内登录；如果你的原神账号是 HoYoverse 的国际服账号，需要在 <code>HoYoLAB</code> 类别内登录。</p>
 <p>无论是国服账号还是国际服账号，你都有<code>网页登录</code>和<code>Cookie登录</code>两种登录方式</p>
@@ -1755,7 +1755,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>启动官方启动器，点击更新按钮。此时官方启动器将跳过下载步骤，直接解压升级包并完成升级</li>
 </ol>
 <h2> 高级功能</h2>
-<div class="hint-container danger">
+<div class="hint-container caution">
 <p class="hint-container-title">警告</p>
 <ul>
 <li>请注意：高级功能已明确标注为 <code>Dangerous Feature</code>，即<strong>危险功能</strong>，选择启用即代表您选择自行承担任意风险</li>
@@ -1763,7 +1763,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </div>
 <h3> 解锁帧率上限</h3>
-<div class="hint-container danger">
+<div class="hint-container caution">
 <p class="hint-container-title">警告</p>
 <ul>
 <li><a href="https://github.com/DGP-Studio/Unlocker" target="_blank" rel="noopener noreferrer">Unlocker 项目</a>仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中<code>120帧率</code>等设置无异，但您仍应谨慎使用并自行阅读<a href="/zh/statements/tos.html" target="blank">用户协议</a></li>
@@ -1900,11 +1900,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h2> 数据共享</h2>
 <p>Snap Hutao 与其它开发者共同维护着胡桃数据库，你可以在多个应用中查看深渊统计数据并上传你的深渊数据。目前，Snap Hutao 正在与以下应用共享深渊数据：</p>
-<ol>
-<li><a href="https://github.com/yoimiya-kokomi/miao-plugin/tree/master" target="_blank" rel="noopener noreferrer">Miao-Plugin for Yunzai-Bot</a></li>
-<li><a href="https://apps.apple.com/cn/app/%E6%8A%AB%E8%90%A8%E5%B0%8F%E5%8A%A9%E6%89%8B/id1635319193" target="_blank" rel="noopener noreferrer">原神披萨助手</a></li>
-<li>微信小程序 Ysin</li>
-</ol>
+<div class="vp-card-container">
+</div>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
