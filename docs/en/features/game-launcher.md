@@ -105,7 +105,7 @@ When you are updating the game client, you can do the following steps:
 
 ## Advanced Features
 
-::: danger
+::: caution
 
 - Be aware: all advanced features are labeled as `Dangeroud Feature`; indicating that enabling them means you choose
   to assume any risk on your own.
@@ -115,7 +115,7 @@ When you are updating the game client, you can do the following steps:
 
 ### Unlock Frame Rate Limit
 
-::: danger
+::: caution
 
 - The [Unlocker project](https://github.com/DGP-Studio/Unlocker) only affects the UnityPlayer itself, directly affecting
   the Unity3D engine, and does not have a direct relationship with the game itself. Essentially, it is no different from

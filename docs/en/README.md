@@ -8,6 +8,10 @@ heroText: Snap Hutao
 tagline: Multifunctional Open-source Genshin Toolkit 🧰
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
+head:
+  - - meta
+    - name: twitter:image:src
+      content: https://repository-images.githubusercontent.com/482734649/eb0f81d6-29a8-4d3c-8012-d85475cd89ee
 actions:
   - text: Download
     link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
@@ -121,8 +125,9 @@ You can make contribution by the following ways:
 
 Snap Hutao is currently using sponsored software from the following service providers.
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg)](https://www.netlify.com/) | [![](https://badges.crowdin.net/badge/light/crowdin-on-dark.png)](https://crowdin.com/) | [![](https://gitlab.cn/images/icons/logos/logo-121-75.svg)](https://gitlab.cn/) | [![](/images/202312/signpath-logo.png)](https://about.signpath.io) |
-| :------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :----------------------------------------------------------------: |
+| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |          [![](/images/202312/gitlab-logo.svg =180x60)](https://gitlab.cn/)           |
+| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                        [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/)                         | [![](/images/202312/digitalocean-horizontal.svg =180x40)](https://about.signpath.io) |
 
 Netlify provides document and home page hosting service for Snap Hutao
 
@@ -131,4 +136,8 @@ Crowdin provides its SaaS platform to help Snap Hutao's localization
 Jihu GitLab provides Git repository and CI/CD SaaS service for Snap Hutao in China
 
 Free code signing provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/)
+
+1Password provides Snap Hutao development team with their amazing password management software plan
+
+DigitalOcean provides reliable cloud storage for Snap Hutao database backup
 :::

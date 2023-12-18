@@ -2,6 +2,7 @@
 headerDepth: 0
 comment: false
 index: false
+icon: iconfont icon-blog
 redirectFrom: /statements/
 dir:
   text: 声明和公告

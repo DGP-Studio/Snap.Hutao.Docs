@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: [
     "iconfont",
-    "https://at.alicdn.com/t/c/font_3861247_nm7gjy97qqd.css",
+    "https://at.alicdn.com/t/c/font_3861247_yn9taeyq2sc.css",
   ],
 
   logo: "https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png",
@@ -65,21 +65,17 @@ export default hopeTheme({
 
   plugins: {
     comment: {
-      provider: "Waline",
-      serverURL: "https://comments.snapgenshin.com",
-      emoji: [
-        "//unpkg.com/@waline/emojis@1.1.0/weibo",
-        "//unpkg.com/@waline/emojis@1.1.0/bilibili",
-        "//unpkg.com/@waline/emojis@1.1.0/bmoji",
-        "//unpkg.com/@waline/emojis@1.1.0/qq",
-        "//unpkg.com/@waline/emojis@1.1.0/tieba",
-      ],
-      requiredMeta: ["mail"],
-      reaction: false,
+      provider: "Giscus",
+      repo: "DGP-Studio/Snap.Hutao.Docs.Comments",
+      repoId: "R_kgDOKySqhg",
+      category: "Announcements",
+      categoryId: "DIC_kwDOKySqhs4CbRrr",
+      mapping: "pathname",
+      inputPosition: "bottom"
     },
 
     components: {
-      components: ["Badge", "BiliBili"],
+      components: ["Badge", "BiliBili", "VPCard"],
       rootComponents: {
         notice: [
           {
@@ -109,6 +105,8 @@ export default hopeTheme({
       include: true,
       tabs: true,
       tasklist: true,
+      component: true,
+      imgSize: true,
     },
 
     pwa: {

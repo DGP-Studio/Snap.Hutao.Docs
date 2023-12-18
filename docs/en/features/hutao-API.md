@@ -92,9 +92,30 @@ Snap Hutao is contributing data to Hutao Database with other developers. You can
 Abyss data in multiple applications other than Snap Hutao.
 Currently, Snap Hutao is sharing Abyss data with following applications:
 
-1. [Miao-Plugin for Yunzai-Bot](https://github.com/yoimiya-kokomi/miao-plugin/tree/master)
-2. [Pizza Helper for Genshin](https://apps.apple.com/us/app/pizza-helper-for-genshin/id1635319193)
-3. WeChat Mini Program: Ysin
+<div class="vp-card-container">
+
+```component VPCard
+title: Miao-Plugin for Yunzai-Bot
+desc: QQ robot Miao-Plugin
+logo: /images/202312/miao-plugin-logo.webp
+link: https://github.com/yoimiya-kokomi/miao-plugin/tree/master
+```
+
+```component VPCard
+title: Pizza Helper for Genshin
+desc: Genshin Impact tool on MacOS/iOS platforms
+logo: /images/202312/genshin-pizza-helper-logo.webp
+link: https://apps.apple.com/cn/app/%E6%8A%AB%E8%90%A8%E5%B0%8F%E5%8A%A9%E6%89%8B/id1635319193
+```
+
+```component VPCard
+title: Ysin
+desc: WeChat mini program Ysin
+logo: /images/202312/ysin-logo.png
+link: https://yuanshen.xin/
+```
+
+</div>
 
 [^first]: When same character appearances in the same floor but different level, appearance time only count for 1
 [^first-2]: When same character appearances in the same floor but different level, appearance time only count for 1
