@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 18 Dec 2023 16:34:13 GMT</pubDate>
-    <lastBuildDate>Mon, 18 Dec 2023 16:34:13 GMT</lastBuildDate>
+    <pubDate>Tue, 19 Dec 2023 08:33:55 GMT</pubDate>
+    <lastBuildDate>Tue, 19 Dec 2023 08:33:55 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -804,11 +804,24 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.8.4 Fix; Fixed the issue that daily-checkin shows activity end; Fixed the issue that pwsh.exe cannot be selected as PowerShell host #1145 (https://github.com/DGP-Studio/Snap.H...</description>
+      <description>1.9.0 Add; a; Fix; b; 1.8.4 Fix; Fixed the issue that daily-checkin shows activity end; Fixed the issue that pwsh.exe cannot be selected as PowerShell host #1145 (https://github...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.8.4 </h2>
+<h2> 1.9.0 </h2>
+<ul>
+<li>Add
+<ul>
+<li>a</li>
+</ul>
+</li>
+<li>Fix
+<ul>
+<li>b</li>
+</ul>
+</li>
+</ul>
+<h2> 1.8.4</h2>
 <ul>
 <li>Fix
 <ul>
