@@ -8,6 +8,43 @@ comment: false
 
 # 更新日志
 
+## 1.9.0 <Badge text="即将发布" type="tip" />
+
+::: important 重大改变
+
+Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书。自1.9.0版本起，我们将使用全新的证书为 Snap Hutao 安装包签名。
+
+拥有新签名的程序将与旧版本不兼容，用户在从1.8.4及更旧版本更新至1.9.0及更新版本时，需要首先卸载旧版本再全新安装新版本客户端。由于胡桃数据目录的设计，用户不会丢失任何重要数据。
+
+你可以阅读[1.9.0 版本重大改变详解](../blog/version-1-9-0-breaking-changes.md)一文来更深入地了解这次版本更新中签名变化对 Snap Hutao 项目的改变。
+
+:::
+
+- 新增 ➕
+  - 游戏启动器现在支持了多个游戏路径 [#525](https://github.com/DGP-Studio/Snap.Hutao/issues/526)
+  - 在用户面板中增加了米游社的扫码登录方法 [#870](https://github.com/DGP-Studio/Snap.Hutao/issues/870)
+  - 客户端新增了自动检测网络状态，并将结果显示在设置页面中 [#1116](https://github.com/DGP-Studio/Snap.Hutao/pull/1161)
+  - 在游戏启动器中新增了以触屏模式启动原神的选项 [#1173](https://github.com/DGP-Studio/Snap.Hutao/issues/1173)
+  - 在设置中新增了启用控制台的选项，用户现在可以通过启用该选项在排查问题时获得更多的错误提示
+  - 添加了全新的软件更新处理逻辑
+- 修复 🔨
+  - 修复了米游社接口获取角色信息产生`5003`错误的问题 [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+  - 修复了特定情况下米游社公告倒计时数据错误的问题
+  - 修复了错误的 PowerShell 语句
+- 优化 ✨
+  - 优化了养成计算中的错误提示语句，使得错误提示更加明确 [#1163](https://github.com/DGP-Studio/Snap.Hutao/issues/1163)
+  - 优化了养成计算的界面，现在将会显示每项具体目标 [#1016](https://github.com/DGP-Studio/Snap.Hutao/issues/1016)
+  - 优化了主界面中胡桃账号信息的显示，不再显示用户邮箱 [#1160](https://github.com/DGP-Studio/Snap.Hutao/issues/1160)
+  - 更新了胡桃 API 的错误提示
+  - 优化了设置页界面，用户现在可以在设置中查看 Snap Hutao 产生的数据和缓存目录大小
+- 本地化 🌏
+  - 客户端增加了印尼语选项，感谢 [@NatsumeAoii](https://github.com/NatsumeAoii)提供的翻译 [#1188](https://github.com/DGP-Studio/Snap.Hutao/issues/1188)
+  - 更新了现有语言的翻译
+
+## 1.8.5 <Badge text="测试版" type="info" />
+
+- 测试了签名替换带来的变化
+
 ## 1.8.4 <Badge text="最新版" type="tip" />
 
 - 修复
@@ -22,7 +59,7 @@ comment: false
   - 优化了启动游戏页面切换服务器时的性能，现在会使用多线程分片下载资源文件
   - 优化了启动游戏页面切换服务器时的逻辑，现在会提前检查对应目录是否拥有需要的文件权限
 
-## 1.8.3 <Badge text="hotfix" type="tip" />
+## 1.8.3 <Badge text="hotfix" type="warning" />
 
 - 修复
   - 修复了当 Discord 客户端未启动时，胡桃会闪退的问题 [#1134](https://github.com/DGP-Studio/Snap.Hutao/issues/1134)
@@ -59,6 +96,10 @@ comment: false
   - 修复了部分异常无法正常捕获的问题
 - 优化
   - 为元数据初始化添加了更详细的失败信息
+
+## 1.7.18 <Badge text="测试版" type="info" />
+
+- 测试了 .NET 8 在 WindowsApp 应用中的安装流程
 
 ## 1.7.17
 
@@ -109,7 +150,7 @@ comment: false
 - 优化
   - 优化了客户端中胡桃云账号修改密码和注销账号的操作逻辑
 
-## 1.7.14 <Badge text="hotfix" type="tip" />
+## 1.7.14 <Badge text="hotfix" type="warning" />
 
 - 修复了部分功能在打开对话框时会崩溃的问题 [#1052](https://github.com/DGP-Studio/Snap.Hutao/issues/1052) [#1054](https://github.com/DGP-Studio/Snap.Hutao/issues/1054)
 
@@ -132,7 +173,7 @@ comment: false
   - 重新设计了启动游戏页面的 UI
   - 用户现在可以在高级启动器中选择游戏启动参数
 
-## 1.7.11 <Badge text="hotfix" type="tip" />
+## 1.7.11 <Badge text="hotfix" type="warning" />
 
 - 修复了游戏启动器中窗口设置的错误 (hotfix)
 

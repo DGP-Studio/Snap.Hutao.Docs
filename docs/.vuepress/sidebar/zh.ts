@@ -30,5 +30,11 @@ export const zhSidebar = sidebar({
       prefix: "statements/",
       children: "structure",
     },
+    {
+      icon: "iconfont icon-article",
+      text: "开发日志",
+      prefix: "blog/",
+      children: "structure",
+    }
   ],
 });
