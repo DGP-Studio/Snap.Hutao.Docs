@@ -8,7 +8,14 @@ comment: false
 
 # Update Logs
 
-## 1.8.4 <Badge text="latest" type="tip" />
+## 1.9.0 <Badge text="最新版" type="tip" />
+
+- Add
+  - a
+- Fix
+  - b
+
+## 1.8.4
 
 - Fix
   - Fixed the issue that daily-checkin shows activity end
