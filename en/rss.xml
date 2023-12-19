@@ -6,10 +6,11 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 19 Dec 2023 08:37:14 GMT</pubDate>
-    <lastBuildDate>Tue, 19 Dec 2023 08:37:14 GMT</lastBuildDate>
+    <pubDate>Tue, 19 Dec 2023 20:13:42 GMT</pubDate>
+    <lastBuildDate>Tue, 19 Dec 2023 20:13:42 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Dev Logs</category>
     <category>open source</category>
     <category>development</category>
     <category>FAQ</category>
@@ -23,6 +24,80 @@
     <category>announcement</category>
     <category>project</category>
     <category>features</category>
+    <item>
+      <title>Dev Logs</title>
+      <link>https://hut.ao/en/blog/</link>
+      <guid>https://hut.ao/en/blog/</guid>
+      <source url="https://hut.ao/en/rss.xml">Dev Logs</source>
+      <pubDate>Tue, 19 Dec 2023 08:26:24 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Dev Logs</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Explanation of Breaking Changes in Version 1.9.0</title>
+      <link>https://hut.ao/en/blog/version-1-9-0-breaking-changes.html</link>
+      <guid>https://hut.ao/en/blog/version-1-9-0-breaking-changes.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Explanation of Breaking Changes in Version 1.9.0</source>
+      <description>This document is applicable to users upgrading from Snap Hutao versions 1.4.11 to 1.8.4 to version 1.9.0 and higher. Introduction Snap Hutao is a Windows sandbox application in ...</description>
+      <category>Dev Logs</category>
+      <pubDate>Tue, 19 Dec 2023 08:26:24 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Explanation of Breaking Changes in Version 1.9.0</h1>
+<p>This document is applicable to users upgrading from Snap Hutao versions <strong>1.4.11 to 1.8.4</strong> to version 1.9.0 and higher.</p>
+<h2> Introduction</h2>
+<p>Snap Hutao is a Windows sandbox application in MSIX format, providing the convenience of installation and the security of AppX applications. Mandatory code signing in installation packages is a crucial factor in ensuring security. If the installation package is modified, Windows App Installer will raise an error due to the signature being compromised, preventing user installation. We can see this practice everywhere in today's mobile operating systems. On the Windows platform, due to strict identity verification procedure, the prices of code signing certificates have remained high.</p>
+<p>Before version 1.4.11, Snap Hutao used a self-signed certificate. In this mode, users had to manually install DGP-Studio's certificate to allow the installation of applications signed by DGP-Studio's certificate on their computers. Starting from version 1.4.11, Snap Hutao was listed on the Microsoft Store, and Microsoft provided a GUID <code>35C8E923-85DF-49A7-9172-B39DC6312C52</code> for Hutao's developer account. This GUID was used as the publisher name of Snap Hutao, providing a special free signature (only used for Microsoft Store apps). If you are accustomed to updating the Snap Hutao with MSIX packages, you should always see this GUID in the publisher column.</p>
+<p>Listing on the Microsoft Store eliminated the need for Snap Hutao users to manually install the signing certificate and supported the distribution of Snap Hutao installation packages, reducing a significant amount of costs for the development team. However, the cumbersome approval process often disrupted the development plans of the Snap Hutao. Therefore, over the past six months, the development team has been seeking a solution. SignPath is a company based in Vienna, Austria, that provides code signing integration software. In early December 2023, the Snap Hutao development team successfully obtained sponsorship from the SignPath Foundation, allowing us to use their code signing certificates for Snap Hutao free of charge. This greatly assisted the Snap Hutao project by not only allowing the Snap Hutao to get rid of constraints of the Microsoft Store but also avoiding the high annual certificate fees.</p>
+<p><strong>Due to the migration to a new certificate causing package name conflicts, Snap Hutao provides the following detailed explanation to assist all users in updating to version 1.9.0 and future versions.</strong></p>
+<h2> Upgrade to Version 1.9.0</h2>
+<h3> Version Release</h3>
+<p>Snap Hutao version 1.9.0 is scheduled to be released on the weekend before Christmas 2023. We will publish the download links for the installation package through GitHub, Jihu GitLab, this official website, and the community.</p>
+<h3> Uninstall Old Versions</h3>
+<p>Directly installing this package will cause problems depending on your system version due to package name and signature conflicts.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">System Version</th>
+<th style="text-align:center">Expected Issues</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Windows 10</td>
+<td style="text-align:center">Unable to install; signature and package name conflicts</td>
+</tr>
+<tr>
+<td style="text-align:center">Windows 11</td>
+<td style="text-align:center">Installation successful;<br>Coexistence with old versions of Snap Hutao with the same name causes program runtime errors</td>
+</tr>
+</tbody>
+</table>
+<p>Due to the above issue, you need to uninstall the old version of Snap Hutao first and then install the 1.9.0 version package.</p>
+<blockquote>
+<p><strong>How to uninstall Snap Hutao</strong>: Find Snap Hutao in the Start menu, right-click, and select uninstall; another quick method is to find it in Windows App Settings and choose uninstall.</p>
+</blockquote>
+<p><strong>Your important data (including logged-in miHoYo accounts, wish records, achievement data, Spiral Abyss records, My Character cache data, and development plans) will not be lost, they are still stored in your local Hutao data directory on your computer.</strong> However, the following data will be reset:</p>
+<ol>
+<li>Snap Hutao runtime count</li>
+<li>Data folder path <strong>(if you previously modified the data directory, remember your data directory path)</strong></li>
+<li>Hutao account (Hutao Passport) login status</li>
+<li>Closed Hutao announcement flags</li>
+<li>Development plan preset level information</li>
+<li>Dashboard card status on the homepage</li>
+<li>Auto-click function status</li>
+</ol>
+<h3> Install the New Version</h3>
+<p><img src="/images/202312/1-8-5-installer.png" alt="1.8.5 Version Installer" loading="lazy"></p>
+<p>Run the 1.9.0 version installer you have already downloaded. In the installation interface, you should see the publisher as <code>SignPath Foundation</code>. Click install to install the all-new version of Snap Hutao!</p>
+<p><strong>If you modified the data directory location in the old version, you need to select the data directory path again in the settings after starting to restore the data. If you have never set a data directory, your data will be loaded directly without additional setup.</strong></p>
+<h2> Future Plans</h2>
+<blockquote>
+<p>Microsoft Store, future releases, software security...</p>
+</blockquote>
+<p>In the Microsoft Store, the application publisher name must be a GUID assigned by Microsoft, not a "custom" name like <code>SignPath Foundation</code>. We anticipate that we will not continue to release updates in the Microsoft Store in the future unless we have a better way to handle coexistence issues between different signature packages. Although Snap Hutao will no longer go through Microsoft's certification, under SignPath's restrictions, Snap Hutao will only be able to compile and build release packages directly from the GitHub code repository. This means that the code in the user's installation package is 100% sourced from our GitHub code repository, and anyone has the authority to review and participate in development.</p>
+<p>Starting from version 1.9.0 of the client, we will integrate a software update module to adapt to the new release method. We will minimize the operations required for user updates as much as possible. As this feature is brand new, we are still in the deployment process. Please continue to pay attention to our in-app announcements and community for information!</p>
+]]></content:encoded>
+      <enclosure url="https://hut.ao/images/202312/1-8-5-installer.png" type="image/png"/>
+    </item>
     <item>
       <title>Contribute Your Code</title>
       <link>https://hut.ao/en/development/contribute.html</link>
@@ -804,10 +879,59 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.8.4 Fix; Fixed the issue that daily-checkin shows activity end; Fixed the issue that pwsh.exe cannot be selected as PowerShell host #1145 (https://github.com/DGP-Studio/Snap.H...</description>
+      <description>1.9.0 Break Changes Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new cer...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
+<h2> 1.9.0 </h2>
+<div class="hint-container important">
+<p class="hint-container-title">Break Changes</p>
+<p>Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new certificate to sign Snap Hutao installation packages.</p>
+<p>Programs with the new signature will be incompatible with old versions. Users updating from versions 1.8.4 and older to 1.9.0 and newer versions need to uninstall the old version first and then perform a fresh installation of the new version of the client. Due to the design of Snap Hutao's data directory, users will not lose any important data.</p>
+<p>You can read the article <a href="/en/blog/version-1-9-0-breaking-changes.html" target="blank">Explanation of Breaking Changes in Version 1.9.0</a> for a deeper understanding of how the signature changes in this version update affect the Snap Hutao project.</p>
+</div>
+<ul>
+<li>
+<p><strong>New Features ➕</strong></p>
+<ul>
+<li>The game launcher now supports multiple game paths <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/526" target="_blank" rel="noopener noreferrer">#525</a></li>
+<li>Added QR code login method for miHoYo in the user panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/870" target="_blank" rel="noopener noreferrer">#870</a></li>
+<li>The client now automatically detects network status and displays the results in the settings page <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1161" target="_blank" rel="noopener noreferrer">#1116</a></li>
+<li>Added an option in the game launcher to start Genshin Impact in touch mode <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1173" target="_blank" rel="noopener noreferrer">#1173</a></li>
+<li>Added an option in the settings to enable the console. Users can now get more error prompts when troubleshooting by enabling this option.</li>
+<li>Introduced a completely new logic for software updates.</li>
+</ul>
+</li>
+<li>
+<p><strong>Bug Fixes 🔨</strong></p>
+<ul>
+<li>Fixed an issue with miHoYo API returning a <code>5003</code> error when fetching character information <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1060" target="_blank" rel="noopener noreferrer">#1060</a></li>
+<li>Fixed an issue with incorrect countdown data for miHoYo announcements in specific situations.</li>
+<li>Fixed incorrect PowerShell statements.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optimizations ✨</strong></p>
+<ul>
+<li>Improved error prompt statements in development calculations, making error messages more explicit <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1163" target="_blank" rel="noopener noreferrer">#1163</a></li>
+<li>Optimized the interface of development calculations, now showing specific goals for each item <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1016" target="_blank" rel="noopener noreferrer">#1016</a></li>
+<li>Optimized the display of Hutao account information on the main interface, no longer displaying user email addresses <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1160" target="_blank" rel="noopener noreferrer">#1160</a></li>
+<li>Updated error prompts for Hutao API.</li>
+<li>Optimized the settings page interface; users can now view the size of data and cache directories generated by Snap Hutao in the settings.</li>
+</ul>
+</li>
+<li>
+<p><strong>Localization 🌏</strong></p>
+<ul>
+<li>Added Indonesian language option in the client, thanks to <a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">@NatsumeAoii</a> for providing the translation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1188" target="_blank" rel="noopener noreferrer">#1188</a></li>
+<li>Updated translations for existing languages.</li>
+</ul>
+</li>
+</ul>
+<h2> 1.8.5 </h2>
+<ul>
+<li>Tested changes caused by certificate change</li>
+</ul>
 <h2> 1.8.4 </h2>
 <ul>
 <li>Fix
