@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { enNavbar, zhNavbar, ruNavbar } from "./navbar/index.js";
+import { enSidebar, zhSidebar, ruSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://hut.ao",
@@ -39,6 +39,24 @@ export default hopeTheme({
 
       metaLocales: {
         editLink: "Edit this page on GitHub",
+      },
+    },
+    "/ru/": {
+      // Панель навигации (navbar)
+      navbar: ruNavbar,
+    
+      // Боковая панель (sidebar)
+      sidebar: ruSidebar,
+    
+      // Нижний колонтитул (footer)
+      footer: "Лучший инструмент для Genshin Impact",
+    
+      // Отображение нижнего колонтитула
+      displayFooter: true,
+    
+      // Локализованные мета-данные
+      metaLocales: {
+        editLink: "Редактировать страницу на GitHub",
       },
     },
 

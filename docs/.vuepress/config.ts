@@ -41,6 +41,11 @@ export default defineUserConfig({
       title: "Snap Hutao",
       description: "Super utilitarian Genshin Impact Toolkit",
     },
+    "/ru/": {
+      lang: "ru-RU",
+      title: "Snap Hutao",
+      description: "Суперполезный набор инструментов для Genshin Impact",
+    },
   },
 
   plugins: [
@@ -90,6 +95,47 @@ export default defineUserConfig({
             },
           },
         },
+        "/ru/": {
+          placeholder: "Поиск",
+          translations: {
+            button: {
+              buttonText: "Поиск",
+              buttonAriaLabel: "Поиск",
+            },
+            modal: {
+              searchBox: {
+                resetButtonTitle: "Четкие критерии запроса",
+                resetButtonAriaLabel: "Четкие критерии запроса",
+                cancelButtonText: "Назад",
+                cancelButtonAriaLabel: "Назад",
+              },
+              startScreen: {
+                recentSearchesTitle: "История поиска",
+                noRecentSearchesText: "Нету истории поиска",
+                saveRecentSearchButtonTitle: "Сохранить в историю поиска",
+                removeRecentSearchButtonTitle: "Удалить из истории поиска",
+                favoriteSearchesTitle: "Закладки",
+                removeFavoriteSearchButtonTitle: "Удалить из закладок",
+              },
+              errorScreen: {
+                titleText: "Не удалось получить результат",
+                helpText: "Проверте свое подключение к Интернету, а так-же запрашиваемый ресурс",
+              },
+              footer: {
+                selectText: "Выбрать",
+                navigateText: "Переключить",
+                closeText: "Закрыть",
+                searchByText: "Поиск",
+              },
+              noResultsScreen: {
+                noResultsText: "Не удалось ничего найти по вашему запросу :",
+                suggestedQueryText: "Вы можете попробовать запрос",
+                reportMissingResultsText: "Как вы думаете, должен ли этот запрос давать какой-то результат :> ?",
+                reportMissingResultsLinkText: "Связаться с нами",
+              },
+            },
+          },
+        },
         "/en/": {
           placeholder: "Search documents",
           translations: {
@@ -110,6 +156,7 @@ export default defineUserConfig({
       localeConfig: {
         "/en/": ["en-US", "en-UK", "en"],
         "/zh/": ["zh-CN", "zh-TW", "zh"],
+        "/ru/": ["ru-RU", "ru-KZ", "ru-BY", "ru-UA", "ru-MD", "ru-LV", "tt-RU", "ru"],
       },
     }),
   ],
