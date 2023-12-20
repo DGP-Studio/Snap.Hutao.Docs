@@ -30,5 +30,11 @@ export const ruSidebar = sidebar({
       prefix: "statements/",
       children: "structure",
     },
+    {
+      icon: "iconfont icon-article",
+      text: "Dev Logs",
+      prefix: "blog/",
+      children: "structure",
+    }
   ],
 });
