@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 19 Dec 2023 20:13:42 GMT</pubDate>
-    <lastBuildDate>Tue, 19 Dec 2023 20:13:42 GMT</lastBuildDate>
+    <pubDate>Wed, 20 Dec 2023 02:07:05 GMT</pubDate>
+    <lastBuildDate>Wed, 20 Dec 2023 02:07:05 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Dev Logs</category>
@@ -879,13 +879,13 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.9.0 Break Changes Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new cer...</description>
+      <description>1.9.0 Breaking Changes Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new ...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
 <h2> 1.9.0 </h2>
 <div class="hint-container important">
-<p class="hint-container-title">Break Changes</p>
+<p class="hint-container-title">Breaking Changes</p>
 <p>Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new certificate to sign Snap Hutao installation packages.</p>
 <p>Programs with the new signature will be incompatible with old versions. Users updating from versions 1.8.4 and older to 1.9.0 and newer versions need to uninstall the old version first and then perform a fresh installation of the new version of the client. Due to the design of Snap Hutao's data directory, users will not lose any important data.</p>
 <p>You can read the article <a href="/en/blog/version-1-9-0-breaking-changes.html" target="blank">Explanation of Breaking Changes in Version 1.9.0</a> for a deeper understanding of how the signature changes in this version update affect the Snap Hutao project.</p>
