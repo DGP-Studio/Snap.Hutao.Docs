@@ -10,7 +10,7 @@ comment: false
 
 ## 1.9.0 <Badge text="Upcoming" type="tip" />
 
-::: important Break Changes
+::: important Breaking Changes
 
 Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new certificate to sign Snap Hutao installation packages.
 
