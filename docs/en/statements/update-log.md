@@ -35,6 +35,7 @@ You can read the article [Explanation of Breaking Changes in Version 1.9.0](../b
 - **Bug Fixes 🔨**
 
   - Fixed an issue with miHoYo API returning a `5003` error when fetching character information [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+  - Fixed the issue that Game Launcher cannot unlock framerate limit in Genshin Impact 4.3 version [#1190](https://github.com/DGP-Studio/Snap.Hutao/issues/1190)
   - Fixed an issue with incorrect countdown data for miHoYo announcements in specific situations.
   - Fixed incorrect PowerShell statements.
 
