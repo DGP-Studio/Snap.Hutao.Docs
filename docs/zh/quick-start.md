@@ -23,7 +23,7 @@ order: 5
 
 **不支持的系统版本**：
 
-1. LTSC 和 LTSB 版本系统由于不包含微软商店，不在支持列表中
+1. LTSB 和 LTSB 版本系统由于不包含足够新版本的 MSIX Core，故不支持安装
 2. Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理
 3. Windows Insider 预览版本的问题不会被处理
 
@@ -31,38 +31,46 @@ order: 5
 
 ### 全新安装
 
-**无论使用何种安装方式，应用包来源和注册授权都由微软商店管理**
+使用 MSIX 安装包即可安装 Snap Hutao，你可以从以下源获取到安装包
 
-::: tabs
-@tab 使用微软商店安装
-<ms-store-badge
-productid="9PH4NXJ2JN52"
-theme="auto">
-</ms-store-badge>
+<div class="vp-card-container">
+  <VPCard
+    title="加入用户社区"
+    desc="我们会在用户社区手动分发安装包"
+    logo="/images/202312/community.svg"
+    link="community.html"
+    background="rgba(253, 233, 233, 0.45)"
+  />
+  <VPCard
+    title="胡桃自动判断"
+    desc="自动判断最佳线路下载"
+    logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
+    link="https://api.snapgenshin.com/patch/hutao/download"
+    background="rgba(253, 233, 233, 0.45)"
+  />
+  <VPCard
+    title="GitHub"
+    desc="Snap Hutao 所有版本均会发布于主代码库中"
+    logo="/images/202312/github-mark.svg"
+    link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
+    background="rgba(155, 233, 168, 0.15)"
+  />
+  <VPCard
+    title="极狐 GitLab"
+    desc="Snap Hutao 主代码库的官方中国镜像"
+    logo="/images/202312/jihulab.svg"
+    link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
+    background="rgba(244, 125, 63, 0.15)"
+  />
+</div>
 
-微软商店链接：[Snap Hutao](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
+---
 
-在 Windows 10 和 Windows 11 下你可以直接点击上面的按钮来下载胡桃工具箱
+如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎[加入我们](development/join.md)！
 
-@tab 使用 winget 安装
+### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> 从微软商店版升级至最新版
 
-- 启动 PowerShell
-- 执行命令 `winget install "Snap Hutao"`
-- 根据提示允许安装
-  - 如果安装失败或显示缺少依赖包，或卡在安装框架阶段，请参考[手动安装依赖项](advanced/dependency.md)一文
-
-@tab 使用 MSIX 安装包安装
-
-- 访问胡桃工具箱[最新发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/)
-- 下载 MSIX 应用包
-- 直接运行 MSIX 应用包以执行安装
-  - 如果安装失败或显示缺少依赖包，或卡在安装框架阶段，请参考[手动安装依赖项](advanced/dependency.md)一文
-
-:::
-
-### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> 从侧载版升级至商店版
-
-如果你之前安装了 Snap Hutao 侧载版（1.4.10及更旧的版本）则需要先卸载旧版本再进行全新安装
+如果你已经安装了 Snap Hutao 微软商店版（版本号介于1.4.11和1.8.5之间）则需要先卸载旧版本再进行全新安装
 
 - 按照文档提供的[卸载方法](advanced/uninstall.html)卸载侧载版应用
   - 只要不手动删除数据目录，你的数据不会受到影响
@@ -70,29 +78,9 @@ theme="auto">
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 
-**无论你使用何种方式安装了应用，你都可以选择任意的方式去更新它，不必选择和安装时一样的方法，因为微软商店是应用包唯一来源**
-::: tabs
-@tab 使用微软商店更新
+如没有特殊声明，则你可以通过安装最新版 MSIX 安装包来升级程序。
 
-- 启动微软商店
-- 点击左下角的库，查看到你目前已安装的全部应用
-- 点击界面右上角的获取更新，你的应用将会被更新
-
-若点击获取更新后胡桃仍然没有获取到更新，则可以进入`Snap Hutao`的[商店详情页面](<(https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)>)，等待信息加载完成来获取更新
-
-@tab 使用 winget 更新
-
-- 启动 PowerShell
-- 执行命令 `winget upgrade "Snap Hutao"`
-- 根据提示允许安装
-
-@tab 使用 MSIX 安装包更新
-
-- 访问胡桃工具箱[最新发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/)
-- 下载 MSIX 应用包
-- 直接运行 MSIX 应用包以执行安装
-
-:::
+1.9.0版本起，Snap Hutao 将内置升级提示功能以提醒你获取更新包。
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> 安装可选组件
 

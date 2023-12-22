@@ -8,7 +8,7 @@ comment: false
 
 # 更新日志
 
-## 1.9.0 <Badge text="即将发布" type="tip" />
+## 1.9.0 <Badge text="最新版" type="tip" />
 
 ::: important 重大改变
 
@@ -29,6 +29,7 @@ Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书�
   - 添加了全新的软件更新处理逻辑
 - 修复 🔨
   - 修复了米游社接口获取角色信息产生`5003`错误的问题 [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+  - 修复了游戏启动器中帧率解锁功能在游戏4.3版本下失效的问题 [#1090](https://github.com/DGP-Studio/Snap.Hutao/issues/1090)
   - 修复了特定情况下米游社公告倒计时数据错误的问题
   - 修复了错误的 PowerShell 语句
 - 优化 ✨

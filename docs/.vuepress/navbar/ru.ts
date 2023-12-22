@@ -6,7 +6,7 @@ export const ruNavbar = navbar([
   {
     text: "Скачать",
     icon: "iconfont icon-install",
-    link: "https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52",
+    link: "https://api.snapgenshin.com/patch/hutao/download",
   },
   {
     text: "Сообщество",
