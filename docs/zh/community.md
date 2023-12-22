@@ -35,7 +35,7 @@ order: 8
   />
   <VPCard
     title="GitHub Discussion"
-    desc="Snap Hutao 所有版本均会发布于主代码库中"
+    desc="Snap Hutao 代码库讨论版块始终开放"
     logo="/images/202312/github-mark.svg"
     link="https://github.com/DGP-Studio/Snap.Hutao/discussions"
     background="rgba(155, 233, 168, 0.15)"

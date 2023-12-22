@@ -24,7 +24,7 @@ Follow this document's instruction, you can set up your Snap Hutao quickly.
 
 **Unsupported OS Versions**：
 
-1. LTSC and LTSB versions does not include Microsoft Store, so they are not supported
+1. LTSC and LTSB versions are using legacy version of MSIX Core, so they are not supported
 2. Windows 10 Build 19041 supports installation, but some feature may have unexpected errors due to Windows kernel issues,
    so Snap Hutao cannot solve them
 3. Issues happens in Windows Insider preview versions will not be solved
@@ -33,70 +33,58 @@ Follow this document's instruction, you can set up your Snap Hutao quickly.
 
 ### New Installation
 
-**Whatever installation method you used, package source and registration are always handled by Microsoft Store.**
+You can use MSIX package to install Snap Hutao, you can find pakcage from the following source.
 
-::: tabs
-@tab Microsoft Store
-<ms-store-badge
-productid="9PH4NXJ2JN52"
-theme="auto">
-</ms-store-badge>
+<div class="vp-card-container">
+  <VPCard
+    title="Join the Community"
+    desc="We will manually upload package in the community after each update"
+    logo="/images/202312/community.svg"
+    link="community.html"
+    background="rgba(253, 233, 233, 0.45)"
+  />
+  <VPCard
+    title="Hutao Auto Download"
+    desc="Automatically determine the best source for downloading"
+    logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
+    link="https://api.snapgenshin.com/patch/hutao/download"
+    background="rgba(253, 233, 233, 0.45)"
+  />
+  <VPCard
+    title="GitHub"
+    desc="We always release package first in Snap Hutao repository"
+    logo="/images/202312/github-mark.svg"
+    link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
+    background="rgba(155, 233, 168, 0.15)"
+  />
+  <VPCard
+    title="Jihu GitLab"
+    desc="Official China mirror of Snap Hutao repository"
+    logo="/images/202312/jihulab.svg"
+    link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
+    background="rgba(244, 125, 63, 0.15)"
+  />
+</div>
 
-Microsoft Store Link：[Snap Hutao](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
+---
 
-On Windows 10 and Windows 11 you can click the button above to download Snap Hutao.
+If you are interested in making the Snap Hutao project better through your own efforts, consider [join us](development/join.md)!
 
-@tab winget
+### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> Upgrade to the Latest Version from MS Store Versions
 
-- Launch PowerShell
-- Execute command `winget install "Snap Hutao"`
-- Follow the prompt to allow the installation
-  - If failed install, receive error of missing dependency or stuck at framework installation stage, please refer to
-    [Install Dependency Manually](advanced/dependency.md) document
+If you installed a Microsoft Store version of Snap Hutao (version 1.4.11 to 1.8.4), you need to uninstall it before the new installation
 
-@tab GitHub
+> For details of this change, please refer to [Explanation of Breaking Changes in Version 1.9.0](blog/version-1-9-0-breaking-changes.md)
 
-- Visit the [latest release page](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/) of Snap Hutao
-- Download MSIX Package
-- Run the MSIX package directly to perform installation
-  - If failed install, receive error of missing dependency or stuck at framework installation stage, please refer to
-    [Install Dependency Manually](advanced/dependency.md) document
-
-:::
-
-### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> Upgrade to MS Store Version from Side-load Versions
-
-If you installed a side-load version of Snap Hutao (version 1.4.10 and older), you need to uninstall it before the new installation
-
-- Uninstall the side-load version with our [uninstallation instruction document](advanced/uninstall.html)
+- Uninstall the Microsoft Store version with our [uninstallation instruction document](advanced/uninstall.html)
   - Your data will not lose as long as you don't delete data directory manually
 - Follow the method above to install the Microsoft Store version application
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao
 
-**You can use any of the update methods, whatever method you used when you installed Snap Hutao. They don't need to be consistent, as Microsoft Store is the only source of packages.**
-::: tabs  
-@tab Microsoft
+If no special instruction is given, you can download and install latest MSIX package to update your Snap Hutao.
 
-- Launch Microsoft Store
-- Click on Library in the bottom left to see all apps you have installed
-- Click `Get updates` on the top right and your application will be updated
-
-If you still don't receive the update, you may enter the Snap Hutao [detail page](<(https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)>) in Microsoft Store, to allow the store to fetch the latest metadata.
-
-@tab winget
-
-- Launch PowerShell
-- Execute command `winget upgrade "Snap Hutao"`
-- Follow the prompt to allow the upgrade
-
-@tab GitHub
-
-- Visit the [latest release page](https://github.com/DGP-Studio/Snap.Hutao/releases/latest/) of Snap Hutao
-- Download MSIX Package
-- Run the MSIX package directly to perform upgrade
-
-:::
+Starting from 1.9.0 version, Snap Hutao has embedded update module to notify the updates.
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Install Optional Components
 

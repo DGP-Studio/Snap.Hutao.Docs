@@ -13,13 +13,26 @@ the gaming experience for desktop players. By combining existing official resour
 development team, it provides a complete and useful set of tools without the need to rely on mobile devices. Snap Hutao
 does not take any destructive modification to the game client to ensure the security of the toolkit.
 
+## Genshin Impact's Desktop Issues Snap Hutao Solved
+
+|           Feature            | Mobile                                 | Desktop                                         | Snap Hutao Solution                                                      |
+| :--------------------------: | -------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------ |
+|   **High Framerate Limit**   | iOS/iPadOS supports 120FPS by official | Only up to 60FPS                                | [Advanced Game Launcher - Framerate unlocker](features/game-launcher.md) |
+|   **Game Account Switch**    | All signed in account will be kept     | Will not be recorded after sign out             | [Advanced Game Launcher - Account switch](features/game-launcher.md)     |
+|      **Daily Checkin**       | MiHoYo BBS client                      | Web check-in only available for oversea servers | [Account Panel - check-in](features/mhy-account-switch.md)               |
+|      **Realtime Notes**      | MiHoYo BBS client                      | N/A                                             | [Realtime Notes](features/real-time-notes.md)                            |
+| **Expedition Notifications** | Pushed by game client                  | N/A                                             | [Realtime Notes Notification](features/real-time-notes.md)               |
+| **Spiral Abyss data lookup** | MiHoYo BBS client                      | Web lookup only available for oversea servers   | [Spiral Abyuss](features/hutao-API.md)                                   |
+|       **Develop Plan**       | MiHoYo BBS client                      | Only available for oversea servers              | [Develop Plan](features/develop-plan.md)                                 |
+|     **Discord Activity**     | N/A                                    | Only available for oversea servers              | [Advanced Game Launcher - Discord Activity](features/game-launcher.md)   |
+
 ## Project Resource
 
 - [GitHub code repository](https://github.com/DGP-Studio/Snap.Hutao)
 - [Crowdin localization translation](https://translate.hut.ao/)
 - [Snap Hutao Community](community.md)
 
-## Feature Overview
+## Full Feature Overview
 
 - [In-game announcement & event countdown](features/dashboard.md)
 - [MiHoYo BBS multi account login](features/mhy-account-switch.md)

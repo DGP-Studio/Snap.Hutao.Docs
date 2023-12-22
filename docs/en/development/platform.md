@@ -2,7 +2,7 @@
 category: [open source, development]
 tag: [open source, Hutao Database, Spiral Abyss Database, Enka, UIGF, Open data]
 icon: iconfont icon-vscode
-order: 1
+order: 2
 ---
 
 # Hutao Open Platform

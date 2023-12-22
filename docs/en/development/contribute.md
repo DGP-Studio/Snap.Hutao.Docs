@@ -2,7 +2,7 @@
 category: [open source, development]
 tag: ["development", "GitHub"]
 icon: iconfont icon-code
-order: 2
+order: 3
 ---
 
 # Contribute Your Code
@@ -36,8 +36,6 @@ You can find all [unsolved opened issues](https://github.com/DGP-Studio/Snap.Hut
 
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> Test Binary Package
 
-Once the code in updated in `develop` and `main` branches, an Azure Pipeline CI script will build the latest code to `Snap Hutao Alpha` package. Once the package is built, it will be released on [GitHub Release page](https://github.com/DGP-Studio/Snap.Hutao/releases) as a pre-released package.
+Once the code in updated in `develop` and `main` branches, a GitHub actions script will build the latest code to `Snap Hutao Alpha` package. You can find all build records in alpha actions pipeline.
 
-You need to install [Snap.Hutao.CI.cer](https://github.com/DGP-Studio/Snap.Hutao/releases/download/2023.10.3.1/Snap.Hutao.CI.cer) certificate to your local machine, and then install the msix package in the release.
-
-\*If the latest release does not contain attached file, that means package is still in uploading process.
+You need to install [Snap Hutao CA certificate](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt) as `Trusted Root Certification Authorities` to allow Alpha versions be installed.

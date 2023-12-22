@@ -6,7 +6,7 @@ export const enNavbar = navbar([
   {
     text: "Download",
     icon: "iconfont icon-install",
-    link: "https://api.snapgenshin.com/patch/hutao/download",
+    link: "/en/quick-start.html",
   },
   {
     text: "Community",
@@ -14,18 +14,44 @@ export const enNavbar = navbar([
     link: "/en/community",
   },
   {
-    text: "Service Availability",
+    text: "Help & Support",
     icon: "iconfont icon-define",
     children: [
       {
-        text: "UptimeRobot",
-        icon: "/images/202312/uptimerobot-logo.svg",
-        link: "https://status.hut.ao/",
+        text: "Update Log",
+        icon: "iconfont icon-update",
+        link: "/en/statements/update-log.html"
       },
       {
-        text: "Uptime Kuma",
-        icon: "/images/202312/uptime-kuma.svg",
-        link: "https://status.snapgenshin.cn/status",
+        text: "Service Availability",
+        children: [
+          {
+            text: "UptimeRobot",
+            icon: "/images/202312/uptimerobot-logo.svg",
+            link: "https://status.hut.ao/",
+          },
+          {
+            text: "Uptime Kuma",
+            icon: "/images/202312/uptime-kuma.svg",
+            link: "https://status.snapgenshin.cn/status",
+          }
+        ]
+      },
+      {
+        text: "Question & Feedback",
+        children:[
+          {
+            text: "FAQ",
+            icon: "iconfont icon-ask",
+            link: "/en/advanced/FAQ.html"
+          },
+          {
+            text: "Report Bug",
+            icon: "iconfont icon-debug",
+            link: "/en/statements/bug-report.html"
+          },
+
+        ]
       }
     ]
   },
