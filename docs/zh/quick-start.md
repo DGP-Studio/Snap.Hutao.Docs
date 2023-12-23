@@ -23,9 +23,10 @@ order: 5
 
 **不支持的系统版本**：
 
-1. LTSC 和 LTSB 版本系统由于不包含足够新版本的 MSIX Core，故不支持安装
-2. Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理
-3. Windows Insider 预览版本的问题不会被处理
+1. **LTSC 和 LTSB 版本系统由于不包含足够新版本的 MSIX Core，故不支持安装**
+2. **不支持企业版和精简版系统，所有来自非微软官方完整版系统的问题均不会积极处理**
+3. Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理
+4. Windows Insider 预览版本的问题不会被处理
 
 ## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> 下载胡桃工具箱
 
