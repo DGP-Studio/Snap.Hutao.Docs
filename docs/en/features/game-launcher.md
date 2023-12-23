@@ -127,9 +127,9 @@ When you are updating the game client, you can do the following steps:
 - Run Snap Hutao as administrator
 - Enter Game Launcher page
 - At the bottom of the page, you can find `Unlock Frame Rate Limit` option
-
   - Trigger the switch to enable or disable this feature
   - In the `Set Frame Rate Limit` field, you can adjust the limit freely
+- Click `Start Game` button on the top right
 
 - Fact that may cause **failure in unlocking frame rate limit**:
   - Snap Hutao process is not kept in the background

@@ -66,6 +66,10 @@ You can use MSIX package to install Snap Hutao, you can find pakcage from the fo
   />
 </div>
 
+- If you face any of the following errro during the installation, please refer to [Install Dependency Manually](advanced/dependency.md) to solve it，this happens when your Windows cannot download necessary framework
+  1. `App Installer failed to iunstall package dependencies. Ask the developer for package`
+  2. Stuck at `Installing framework`
+
 ---
 
 If you are interested in making the Snap Hutao project better through your own efforts, consider [join us](development/join.md)!
