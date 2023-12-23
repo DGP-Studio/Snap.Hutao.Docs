@@ -16,6 +16,7 @@ order: 3
 1. 下载并安装 [Visual Studio 2022 Community](https://visualstudio.microsoft.com/downloads/)
 2. 启动 Visual Studio Installer 以完成 Visual Studio 的安装流程
    - 你需要安装 `.NET desktop development`、 `Desktop development with C++` 和 `Universal Windows Platform development` 组件
+   - 它们的中文名分别是 `.NET 桌面开发`、`使用 C++ 的桌面开发`和`通用 Windows 平台开发`
 3. 安装 Visual Studio 商店中由 Microsoft 提供的 `Single-project MSIX Packaging Tools for VS 2022` 插件
 4. 使用 Git clone `https://github.com/DGP-Studio/Snap.Hutao.git` 到你的本地设备
 5. 将分支切换为 `develop`

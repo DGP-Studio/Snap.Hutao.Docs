@@ -33,6 +33,14 @@ redirectFrom: /statements/bug-report.html
     - [ ] 你执行了怎样的操作排查问题，有什么结果
   - [ ] 如果你的问题涉及到程序崩溃，你需要在 Windows 事件查看器中寻找和 Snap Hutao 相关的 `.NET 错误` 并将其中的内容附加在 Issue 中
 
+## 远程调试
+
+在一些问题无法被定位时（即开发者无法在自己的设备中复现问题时），开发者可能会向社区成员询问发起远程调试，在有问题的设备上debug寻找问题解决方案。在这种情况下，若你同意，一个指定的管理员将通过 QQ 加你为好友并拉你进入远程协助群以方便交流。
+
+**参与远程调试的计算机需要至少 15GB 的可用硬盘空间。**
+
+在开始调试之前，你需要执行[贡献代码](../development/contribute.md)中`设置 Snap.Hutao项目`一段中的第`1~3`步骤，并下载安装 [ToDesk](https://www.todesk.com/download.html) 远程工具。
+
 ## 请求增加或更新文档
 
 如果你认为 Snap Hutao 的文档缺少重要内容或有错误的信息，可以从 Snap.Hutao.Docs 项目中发起 Issue
