@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 23 Dec 2023 11:26:21 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 11:26:21 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 15:01:49 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 15:01:49 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -815,7 +815,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </table>
 <p><strong>不支持的系统版本</strong>：</p>
 <ol>
-<li>LTSC 和 LTSB 版本系统由于不包含足够新版本的 MSIX Core，故不支持安装</li>
+<li><strong>LTSC 和 LTSB 版本系统由于不包含足够新版本的 MSIX Core，故不支持安装</strong></li>
+<li><strong>不支持企业版和精简版系统，所有来自非微软官方完整版系统的问题均不会积极处理</strong></li>
 <li>Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理</li>
 <li>Windows Insider 预览版本的问题不会被处理</li>
 </ol>
