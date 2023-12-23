@@ -6,13 +6,13 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 20 Dec 2023 04:35:30 GMT</pubDate>
-    <lastBuildDate>Wed, 20 Dec 2023 04:35:30 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 04:26:19 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 04:26:19 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>Dev Logs</category>
     <category>open source</category>
     <category>development</category>
+    <category>Dev Logs</category>
     <category>FAQ</category>
     <category>dependency</category>
     <category>installation</category>
@@ -24,6 +24,19 @@
     <category>announcement</category>
     <category>project</category>
     <category>features</category>
+    <item>
+      <title>Join the Develop Team</title>
+      <link>https://hut.ao/en/development/join.html</link>
+      <guid>https://hut.ao/en/development/join.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Join the Develop Team</source>
+      <description>If you have one of the following experiences and are interested in joining the Snap Hutao development team to improve this project and get in touch with more Genshin Impact open...</description>
+      <category>open source</category>
+      <category>development</category>
+      <pubDate>Fri, 22 Dec 2023 05:58:32 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Join the Develop Team</h1>
+<p>If you have one of the following experiences and are interested in joining the Snap Hutao development team to improve this project and get in touch with more Genshin Impact open source projects, welcome to join us!</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Dev Logs</title>
       <link>https://hut.ao/en/blog/</link>
@@ -137,9 +150,8 @@ to the project, please read the following guidelines.</p>
 <li>Please use <a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests" target="_blank" rel="noopener noreferrer">keywords</a> to link your PR or commits with issues, so issues can be automatically closed once commits are merged into <code>main</code> branch.</li>
 </ul>
 <h2> </h2>
-<p>Once the code in updated in <code>develop</code> and <code>main</code> branches, an Azure Pipeline CI script will build the latest code to <code>Snap Hutao Alpha</code> package. Once the package is built, it will be released on <a href="https://github.com/DGP-Studio/Snap.Hutao/releases" target="_blank" rel="noopener noreferrer">GitHub Release page</a> as a pre-released package.</p>
-<p>You need to install <a href="https://github.com/DGP-Studio/Snap.Hutao/releases/download/2023.10.3.1/Snap.Hutao.CI.cer" target="_blank" rel="noopener noreferrer">Snap.Hutao.CI.cer</a> certificate to your local machine, and then install the msix package in the release.</p>
-<p>*If the latest release does not contain attached file, that means package is still in uploading process.</p>
+<p>Once the code in updated in <code>develop</code> and <code>main</code> branches, a GitHub actions script will build the latest code to <code>Snap Hutao Alpha</code> package. You can find all build records in alpha actions pipeline.</p>
+<p>You need to install <a href="https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt" target="_blank" rel="noopener noreferrer">Snap Hutao CA certificate</a> as <code>Trusted Root Certification Authorities</code> to allow Alpha versions be installed.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -513,8 +525,8 @@ verification, then your account can be used to refresh data.</p>
 <td>Labeled with <code>功能</code> (Feature)</td>
 </tr>
 <tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D" target="_blank" rel="noopener noreferrer">Fixed and Resolved Issues</a></td>
-<td>Labeled with <code>已修复</code> (Fixed)</td>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E5%B7%B2%E5%AE%8C%E6%88%90" target="_blank" rel="noopener noreferrer">Fixed and Resolved Issues</a></td>
+<td>Labeled with <code>已完成</code> (Fixed)</td>
 </tr>
 <tr>
 <td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E7%AD%89%E5%BE%85%E5%8F%91%E5%B8%83" target="_blank" rel="noopener noreferrer">Issues will be Fixed in Next Version</a></td>
@@ -898,6 +910,11 @@ file contains entire data of the client.</p>
 <li>Added QR code login method for miHoYo in the user panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/870" target="_blank" rel="noopener noreferrer">#870</a></li>
 <li>The client now automatically detects network status and displays the results in the settings page <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1161" target="_blank" rel="noopener noreferrer">#1116</a></li>
 <li>Added an option in the game launcher to start Genshin Impact in touch mode <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1173" target="_blank" rel="noopener noreferrer">#1173</a></li>
+<li>Add option to change in-game announcement source in the settings page, now you may select oversea severs as the source and display announcements with same lanague of your Snap Hutao <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1112" target="_blank" rel="noopener noreferrer">#1112</a>
+<ul>
+<li>Only available when there is valid regular expression in Crowdin translation (Simplified Chinese, Traditional Chinese and English are supported now)</li>
+</ul>
+</li>
 <li>Added an option in the settings to enable the console. Users can now get more error prompts when troubleshooting by enabling this option.</li>
 <li>Introduced a completely new logic for software updates.</li>
 </ul>
@@ -906,6 +923,7 @@ file contains entire data of the client.</p>
 <p><strong>Bug Fixes 🔨</strong></p>
 <ul>
 <li>Fixed an issue with miHoYo API returning a <code>5003</code> error when fetching character information <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1060" target="_blank" rel="noopener noreferrer">#1060</a></li>
+<li>Fixed the issue that Game Launcher cannot unlock framerate limit in Genshin Impact 4.3 version <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1190" target="_blank" rel="noopener noreferrer">#1190</a></li>
 <li>Fixed an issue with incorrect countdown data for miHoYo announcements in specific situations.</li>
 <li>Fixed incorrect PowerShell statements.</li>
 </ul>
@@ -923,7 +941,9 @@ file contains entire data of the client.</p>
 <li>
 <p><strong>Localization 🌏</strong></p>
 <ul>
-<li>Added Indonesian language option in the client, thanks to <a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">@NatsumeAoii</a> for providing the translation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1188" target="_blank" rel="noopener noreferrer">#1188</a></li>
+<li>Added Indonesian language option in the client, thanks to contribution by <a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">@NatsumeAoii</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1188" target="_blank" rel="noopener noreferrer">#1188</a></li>
+<li>Added Russian language option in the client, thanks to contribution by <a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">@QweRezOn</a></li>
+<li>Improved client localization string character coverage <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1198" target="_blank" rel="noopener noreferrer">#1198</a></li>
 <li>Updated translations for existing languages.</li>
 </ul>
 </li>
@@ -1639,7 +1659,6 @@ community members can contribute Japanese language on <a href="https://translate
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
 </ul>
 </li>
-<li>Rate our App on <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
 <li>Promote our project in your network</li>
 </ul>
 <p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
@@ -1688,37 +1707,13 @@ community members can contribute Japanese language on <a href="https://translate
       <link>https://hut.ao/en/community.html</link>
       <guid>https://hut.ao/en/community.html</guid>
       <source url="https://hut.ao/en/rss.xml">Join Community</source>
-      <description>As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways. GitHub Discussion Snap.Hutao D...</description>
+      <description>As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways.</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:17 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Join Community</h1>
 <p>As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways.</p>
-<p><strong>If you believe Snap Hutao is a good project and helps you, you can support us by the following ways</strong></p>
-<ul>
-<li>Star our project on GitHub ⭐
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
-</ul>
-</li>
-<li>Rate our App on <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
-<li>Promote our project in your network</li>
-</ul>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
-<h2> </h2>
-<p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
-<h2> </h2>
-<ul>
-<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&amp;authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&amp;noverify=0&amp;group_code=910780153" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
-<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap Developer Open Discussion Group</em></a>
-<ul>
-<li>General tech talk, not Snap Hutao Project development group</li>
-<li>The Dev group requires some basic tech knowledge</li>
-</ul>
-</li>
-</ul>
-<h2> </h2>
-<p>Invite link：<a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">https://discord.gg/Yb8bykUKp</a></p>
+<div class="vp-card-container">
+  </div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1737,26 +1732,26 @@ community members can contribute Japanese language on <a href="https://translate
 <li>Snap Hutao
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Localization framework</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Client translation</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Client translation</label>
 <ul class="task-list-container">
 <li>Process: <img src="https://badges.crowdin.net/snap-hutao/localized.svg" alt="Crowdin" loading="lazy"></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> English</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> Traditional Chinese</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> Korean</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> Korean (in progress)</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> Japanese (in progress)</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> Indonesian (in progress by <a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">NatsumeAoii</a>)</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> Russian</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> Indonesian (in progress; contributed by <a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">NatsumeAoii</a>)</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> Russian (in progress; contributed by <a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">QweRezOn</a>)</label></li>
 </ul>
 </li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> Internation/China server conversion</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> International server account switch</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> International server wish history export</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> International server character stat</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> HoYoLab login</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> Oversea/China server conversion</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> Oversea server account switch</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> Oversea server wish history export</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> Oversea server character stat</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> HoYoLab login</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> International server Abyss recrod</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> Daily Notes</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> Multilingual in-game announcements</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> International server Abyss recrod</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> Daily Notes</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> Multilingual in-game announcements</label></li>
 </ul>
 </li>
 </ul>
@@ -1764,15 +1759,11 @@ community members can contribute Japanese language on <a href="https://translate
 <li>Snao Hutao Docs
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> Localization framework</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> Web translation</label></li>
-<li>Process:
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> Web translation process:</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> English</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> Home page</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> User documentation</label></li>
-</ul>
-</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> English</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> Indonesian (in progress; contributed by <a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">NatsumeAoii</a>)</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> Russian (in progress; contributed by <a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">QweRezOn</a>)</label></li>
 </ul>
 </li>
 </ul>
@@ -3100,13 +3091,74 @@ and include it in your issue</label></li>
 the gaming experience for desktop players. By combining existing official resources with new features designed by the
 development team, it provides a complete and useful set of tools without the need to rely on mobile devices. Snap Hutao
 does not take any destructive modification to the game client to ensure the security of the toolkit.</p>
+<h2> Genshin Impact's Desktop Issues Snap Hutao Solved</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Feature</th>
+<th>Mobile</th>
+<th>Desktop</th>
+<th>Snap Hutao Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>High Framerate Limit</strong></td>
+<td>iOS/iPadOS supports 120FPS by official</td>
+<td>Only up to 60FPS</td>
+<td><a href="/en/features/game-launcher.html" target="blank">Advanced Game Launcher - Framerate unlocker</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Game Account Switch</strong></td>
+<td>All signed in account will be kept</td>
+<td>Will not be recorded after sign out</td>
+<td><a href="/en/features/game-launcher.html" target="blank">Advanced Game Launcher - Account switch</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Daily Checkin</strong></td>
+<td>MiHoYo BBS client</td>
+<td>Web check-in only available for oversea servers</td>
+<td><a href="/en/features/mhy-account-switch.html" target="blank">Account Panel - check-in</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Realtime Notes</strong></td>
+<td>MiHoYo BBS client</td>
+<td>N/A</td>
+<td><a href="/en/features/real-time-notes.html" target="blank">Realtime Notes</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Expedition Notifications</strong></td>
+<td>Pushed by game client</td>
+<td>N/A</td>
+<td><a href="/en/features/real-time-notes.html" target="blank">Realtime Notes Notification</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Spiral Abyss data lookup</strong></td>
+<td>MiHoYo BBS client</td>
+<td>Web lookup only available for oversea servers</td>
+<td><a href="/en/features/hutao-API.html" target="blank">Spiral Abyuss</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Develop Plan</strong></td>
+<td>MiHoYo BBS client</td>
+<td>Only available for oversea servers</td>
+<td><a href="/en/features/develop-plan.html" target="blank">Develop Plan</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Discord Activity</strong></td>
+<td>N/A</td>
+<td>Only available for oversea servers</td>
+<td><a href="/en/features/game-launcher.html" target="blank">Advanced Game Launcher - Discord Activity</a></td>
+</tr>
+</tbody>
+</table>
 <h2> Project Resource</h2>
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub code repository</a></li>
 <li><a href="https://translate.hut.ao/" target="_blank" rel="noopener noreferrer">Crowdin localization translation</a></li>
 <li><a href="/en/community.html" target="blank">Snap Hutao Community</a></li>
 </ul>
-<h2> Feature Overview</h2>
+<h2> Full Feature Overview</h2>
 <ul>
 <li><a href="/en/features/dashboard.html" target="blank">In-game announcement &amp; event countdown</a></li>
 <li><a href="/en/features/mhy-account-switch.html" target="blank">MiHoYo BBS multi account login</a>
@@ -3226,19 +3278,25 @@ does not take any destructive modification to the game client to ensure the secu
 </table>
 <p><strong>Unsupported OS Versions</strong>：</p>
 <ol>
-<li>LTSC and LTSB versions does not include Microsoft Store, so they are not supported</li>
+<li>LTSC and LTSB versions are using legacy version of MSIX Core, so they are not supported</li>
 <li>Windows 10 Build 19041 supports installation, but some feature may have unexpected errors due to Windows kernel issues,
 so Snap Hutao cannot solve them</li>
 <li>Issues happens in Windows Insider preview versions will not be solved</li>
 </ol>
 <h2> </h2>
 <h3> New Installation</h3>
-<p><strong>Whatever installation method you used, package source and registration are always handled by Microsoft Store.</strong></p>
-
+<p>You can use MSIX package to install Snap Hutao, you can find pakcage from the following source.</p>
+<div class="vp-card-container">
+  </div>
+<hr>
+<p>If you are interested in making the Snap Hutao project better through your own efforts, consider <a href="/en/development/join.html" target="blank">join us</a>!</p>
 <h3> </h3>
-<p>If you installed a side-load version of Snap Hutao (version 1.4.10 and older), you need to uninstall it before the new installation</p>
+<p>If you installed a Microsoft Store version of Snap Hutao (version 1.4.11 to 1.8.4), you need to uninstall it before the new installation</p>
+<blockquote>
+<p>For details of this change, please refer to <a href="/en/blog/version-1-9-0-breaking-changes.html" target="blank">Explanation of Breaking Changes in Version 1.9.0</a></p>
+</blockquote>
 <ul>
-<li>Uninstall the side-load version with our <a href="/en/advanced/uninstall.html" target="blank">uninstallation instruction document</a>
+<li>Uninstall the Microsoft Store version with our <a href="/en/advanced/uninstall.html" target="blank">uninstallation instruction document</a>
 <ul>
 <li>Your data will not lose as long as you don't delete data directory manually</li>
 </ul>
@@ -3246,8 +3304,8 @@ so Snap Hutao cannot solve them</li>
 <li>Follow the method above to install the Microsoft Store version application</li>
 </ul>
 <h3> </h3>
-<p><strong>You can use any of the update methods, whatever method you used when you installed Snap Hutao. They don't need to be consistent, as Microsoft Store is the only source of packages.</strong></p>
-
+<p>If no special instruction is given, you can download and install latest MSIX package to update your Snap Hutao.</p>
+<p>Starting from 1.9.0 version, Snap Hutao has embedded update module to notify the updates.</p>
 <h2> </h2>
 <p>With optional components, Snap Hutao can implement some functions more conveniently through the system-level environment.
 They are not mandatory components, but they can bring a better experience.</p>

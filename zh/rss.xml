@@ -6,13 +6,13 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 20 Dec 2023 04:35:30 GMT</pubDate>
-    <lastBuildDate>Wed, 20 Dec 2023 04:35:30 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 04:26:19 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 04:26:19 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>开发日志</category>
     <category>开源</category>
     <category>开发</category>
+    <category>开发日志</category>
     <category>FAQ</category>
     <category>依赖项</category>
     <category>安装</category>
@@ -22,6 +22,19 @@
     <category>i18n</category>
     <category>项目</category>
     <category>第三方工具</category>
+    <item>
+      <title>加入我们</title>
+      <link>https://hut.ao/zh/development/join.html</link>
+      <guid>https://hut.ao/zh/development/join.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">加入我们</source>
+      <description>如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！</description>
+      <category>开源</category>
+      <category>开发</category>
+      <pubDate>Fri, 22 Dec 2023 04:12:52 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 加入我们</h1>
+<p>如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>开发日志</title>
       <link>https://hut.ao/zh/blog/</link>
@@ -135,11 +148,9 @@
 将你的 PR 与相关的 issue 关联起来。这样当你的 PR 最终被合并进 <code>main</code> 主分支时，这些 issue 将被自动关闭。</li>
 </ul>
 <h2> </h2>
-<p>一旦你的代码被合并进 <code>develop</code> 和 <code>main</code> 分支，一个 Azure Pipeline CI 流水线脚本将运行起来以构建所在分支的最新代码，并以 <code>Snap Hutao Alpha</code> 命名。
-当该测试包打包完成后，它将被以 <code>pre-release</code> 的形式发布在 <a href="https://github.com/DGP-Studio/Snap.Hutao/releases" target="_blank" rel="noopener noreferrer">GitHub 发布页面</a>上。</p>
-<p>你需要安装 <a href="https://github.com/DGP-Studio/Snap.Hutao/releases/download/2023.10.3.1/Snap.Hutao.CI.cer" target="_blank" rel="noopener noreferrer">Snap.Hutao.CI.cer</a>
-证书到你的本地设备上以允许你安装测试版安装包。</p>
-<p>*如果在最新的发布中没有包含程序安装包附件，则意味着它仍然处于上传过程中。</p>
+<p>一旦你的代码被合并进 <code>develop</code> 和 <code>main</code> 分支，一个 GitHub Actions 脚本将运行起来以构建所在分支的最新代码，并以 <code>Snap Hutao Alpha</code> 命名。
+你可以在 alpha 流水线中找到全部的编译记录。</p>
+<p>你需要以<code>受信任的根证书颁发机构</code>添加<a href="https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt" target="_blank" rel="noopener noreferrer">DGP Studio CA 证书</a>到你的本地设备上以允许操作系统安装测试版安装包。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -501,49 +512,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/community.html</link>
       <guid>https://hut.ao/zh/community.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入用户社区</source>
-      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 GitHub 讨论 Snap.Hutao Discussion (https://github.com/DGP-Studio/Snap.Hutao/discussions) QQ 群 Snap Hutao 用户群 910780153 (http://q...</description>
+      <description>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入用户社区</h1>
 <p>作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。</p>
-<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
-<ul>
-<li>为我们在 GitHub 上的项目加星点赞 ⭐
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
-</ul>
-</li>
-<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
-<li>在更多的地方帮助我们宣传</li>
-</ul>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
-<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
-<h2> </h2>
-<p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Snap.Hutao Discussion</a></p>
-<h2> </h2>
-<ul>
-<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&amp;authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&amp;noverify=0&amp;group_code=910780153" target="_blank" rel="noopener noreferrer">Snap Hutao 用户群 910780153</a>
-<ul>
-<li>胡桃一般用户群</li>
-<li>若入群问题为最新版本号则请输入三位版本号（如 <code>1.2.3</code>）而不是四位版本号（如 <code>1.2.3.0</code>）</li>
-</ul>
-</li>
-<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=uxqsxPJPB_jOVbMFOzZv5LcDyIF2HAiu&amp;authKey=Deo2c2ZhmqSAQ%2BGUL0ItD7bYtYG5blYxQor25BXoCcaCGllZYtZ4eDNwZ3yZz8gH&amp;noverify=0&amp;group_code=531960040" target="_blank" rel="noopener noreferrer">Snap Hutao 公告群 531960040</a>
-<ul>
-<li>全体禁言，仅发送公告</li>
-</ul>
-</li>
-<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap 开发交流群</em></a>
-<ul>
-<li>广泛的技术交流群，并非胡桃工具箱开发群</li>
-<li>开发群对申请者的技术水平有一定要求</li>
-<li>如果你想要<a href="/zh/project.html" target="blank">加入开发团队</a>，请在入群验证时提及</li>
-</ul>
-</li>
-</ul>
-<h2> </h2>
-<p>邀请链接：<a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">https://discord.gg/Yb8bykaUKp</a></p>
+<div class="vp-card-container">
+  </div>
 ]]></content:encoded>
     </item>
     <item>
@@ -551,7 +526,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/i18n.html</link>
       <guid>https://hut.ao/zh/i18n.html</guid>
       <source url="https://hut.ao/zh/rss.xml">国际化支持</source>
-      <description>国际化进度 Snap Hutao 虽然基于原神国服提供功能，但项目也有意提升国际化支持，包括语言本土化和功能国际化。目前国际化进度如下： Snap Hutao 主项目; [x] 语言本土化技术框架; [ ] 客户端翻译; 进度：!Crowdin (https://badges.crowdin.net/snap-hutao/localized.svg);...</description>
+      <description>国际化进度 Snap Hutao 虽然基于原神国服提供功能，但项目也有意提升国际化支持，包括语言本土化和功能国际化。目前国际化进度如下： Snap Hutao 主项目; [x] 语言本土化技术框架; [x] 客户端翻译; 进度：!Crowdin (https://badges.crowdin.net/snap-hutao/localized.svg);...</description>
       <category>公告</category>
       <category>i18n</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -562,7 +537,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>Snap Hutao 主项目
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 语言本土化技术框架</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 客户端翻译</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 客户端翻译</label>
 <ul class="task-list-container">
 <li>进度：<img src="https://badges.crowdin.net/snap-hutao/localized.svg" alt="Crowdin" loading="lazy"></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 英语</label></li>
@@ -570,18 +545,18 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 韩语</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 日语 （进行中）</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 印尼语 (进行中 作者：<a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">NatsumeAoii</a>)</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 俄语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 俄语 （进行中 作者：<a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">QweRezOn</a>）</label></li>
 </ul>
 </li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 国际服/国服客户端转换</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服游戏帐号切换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服游戏账号切换</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 国际服祈愿记录导出</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 国际服角色属性统计</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> HoYoLAB 登录支持</label>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> 国际服深渊记录获取</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> 实时便笺</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 多语言游戏公告</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> 多语言游戏公告</label></li>
 </ul>
 </li>
 </ul>
@@ -589,15 +564,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>Snap Hutao 文档
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> 语言本土化技术框架</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 网页翻译</label></li>
-<li>进度：
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 网页翻译进度：</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 英语</label>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 主页</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 用户文档</label></li>
-</ul>
-</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 英语</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 印尼语 (进行中 作者：<a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">NatsumeAoii</a>)</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 俄语 （进行中 作者：<a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">QweRezOn</a>）</label></li>
 </ul>
 </li>
 </ul>
@@ -645,7 +616,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/project.html</link>
       <guid>https://hut.ao/zh/project.html</guid>
       <source url="https://hut.ao/zh/rss.xml">项目说明</source>
-      <description>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。 加入我们 如果你有以下经验之一且有兴趣加入 Snap Hutao 开...</description>
+      <description>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。 胡桃能解决的原神桌面端缺陷 功能 移动端 桌面端 胡桃的方案 :--...</description>
       <category>公告</category>
       <category>项目</category>
       <category>功能</category>
@@ -653,34 +624,74 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <content:encoded><![CDATA[<h1> 项目说明</h1>
 <p>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新
 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。</p>
-<h2> 加入我们</h2>
-<p>如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队，并接触到更多的原神开源项目，你可以通过加入 QQ 群<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap 开发交流群</em></a>来联系我们。</p>
-<ul>
-<li><a href="/zh/development/contribute.html" target="blank"><strong>C# .NET 开发</strong></a>
-<ul>
-<li>包括服务端开发和桌面端开发</li>
-</ul>
-</li>
-<li><strong>网页前端</strong>
-<ul>
-<li>Snap Hutao 项目有意开发一个基于胡桃 API 的深渊数据库网页，并包含基础的胡桃账号管理功能</li>
-</ul>
-</li>
-<li>Python 开发
-<ul>
-<li>服务端和自动化脚本</li>
-</ul>
-</li>
-<li>文档编写</li>
-<li>视频制作和编辑</li>
-</ul>
+<h2> 胡桃能解决的原神桌面端缺陷</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">功能</th>
+<th>移动端</th>
+<th>桌面端</th>
+<th>胡桃的方案</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>游戏高帧率</strong></td>
+<td>iOS/iPadOS官方支持120FPS</td>
+<td>最高仅60FPS</td>
+<td><a href="/zh/features/game-launcher.html" target="blank">高级启动器 - 帧率解锁</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>游戏账号切换</strong></td>
+<td>已登录的账号会被记录</td>
+<td>注销后账号不会被记录</td>
+<td><a href="/zh/features/game-launcher.html" target="blank">高级启动器 - 账号切换</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>每日签到</strong></td>
+<td>米游社客户端</td>
+<td>仅国际服用户可在网页签到</td>
+<td><a href="/zh/features/mhy-account-switch.html" target="blank">账号面板 - 签到</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>实时便笺</strong></td>
+<td>米游社客户端</td>
+<td>无</td>
+<td><a href="/zh/features/real-time-notes.html" target="blank">实时便笺</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>派遣完成通知推送</strong></td>
+<td>通过移动端游戏推送通知</td>
+<td>无</td>
+<td><a href="/zh/features/real-time-notes.html" target="blank">实时便笺推送消息</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>深渊数据查询</strong></td>
+<td>米游社客户端</td>
+<td>仅国际服用户可在网页查询</td>
+<td><a href="/zh/features/hutao-API.html" target="blank">深境螺旋</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>养成计划</strong></td>
+<td>米游社客户端</td>
+<td>仅国际服用户可在网页使用</td>
+<td><a href="/zh/features/develop-plan.html" target="blank">养成计划</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Discord 状态</strong></td>
+<td>无</td>
+<td>国际服客户端可用</td>
+<td><a href="/zh/features/game-launcher.html" target="blank">高级启动器 - Discord Activity</a></td>
+</tr>
+</tbody>
+</table>
 <h2> 项目资源</h2>
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub 代码库</a></li>
 <li><a href="https://translate.hut.ao/" target="_blank" rel="noopener noreferrer">Crowdin 本地化翻译</a></li>
 <li><a href="/zh/community.html" target="blank">Snap Hutao 用户社区</a></li>
 </ul>
-<h2> 功能一览</h2>
+<h2> 完整功能一览</h2>
 <ul>
 <li><a href="/zh/features/dashboard.html" target="blank">游戏内公告及倒计时</a></li>
 <li><a href="/zh/features/mhy-account-switch.html" target="blank">米哈游论坛多账号登录支持</a>
@@ -800,16 +811,22 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </table>
 <p><strong>不支持的系统版本</strong>：</p>
 <ol>
-<li>LTSC 和 LTSB 版本系统由于不包含微软商店，不在支持列表中</li>
+<li>LTSC 和 LTSB 版本系统由于不包含足够新版本的 MSIX Core，故不支持安装</li>
 <li>Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理</li>
 <li>Windows Insider 预览版本的问题不会被处理</li>
 </ol>
 <h2> </h2>
 <h3> 全新安装</h3>
-<p><strong>无论使用何种安装方式，应用包来源和注册授权都由微软商店管理</strong></p>
-
+<p>使用 MSIX 安装包即可安装 Snap Hutao，你可以从以下源获取到安装包</p>
+<div class="vp-card-container">
+  </div>
+<hr>
+<p>如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎<a href="/zh/development/join.html" target="blank">加入我们</a>！</p>
 <h3> </h3>
-<p>如果你之前安装了 Snap Hutao 侧载版（1.4.10及更旧的版本）则需要先卸载旧版本再进行全新安装</p>
+<blockquote>
+<p>对于这项改变，你可以阅读 <a href="/zh/blog/version-1-9-0-breaking-changes.html" target="blank">1.9.0 版本重大改变详解</a> 来获得详细信息</p>
+</blockquote>
+<p>如果你已经安装了 Snap Hutao 微软商店版（版本号介于1.4.11和1.8.5之间）则需要先卸载旧版本再进行全新安装</p>
 <ul>
 <li>按照文档提供的<a href="/zh/advanced/uninstall.html" target="blank">卸载方法</a>卸载侧载版应用
 <ul>
@@ -819,8 +836,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>按照上述方法全新安装商店版应用</li>
 </ul>
 <h3> </h3>
-<p><strong>无论你使用何种方式安装了应用，你都可以选择任意的方式去更新它，不必选择和安装时一样的方法，因为微软商店是应用包唯一来源</strong></p>
-
+<p>如没有特殊声明，则你可以通过安装最新版 MSIX 安装包来升级程序。</p>
+<p>1.9.0版本起，Snap Hutao 将内置升级提示功能以提醒你获取更新包。</p>
 <h2> </h2>
 <p>通过可选组件，胡桃工具箱可以通过系统级的环境来更方便地实现一些功能，它们不是强制要求的组件，但可以带来更好的体验</p>
 <h3> <img src="/images/202312/MSEdge.webp" width="20" height="20"> WebView2 运行时</h3>
@@ -887,7 +904,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
 </ul>
 </li>
-<li>在<a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">微软商店</a>上给出好评</li>
 <li>在更多的地方帮助我们宣传</li>
 </ul>
 <p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
@@ -1323,8 +1339,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <td>包含标签 <code>功能</code></td>
 </tr>
 <tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D" target="_blank" rel="noopener noreferrer">已修复或已实现的功能</a></td>
-<td>包含标签 <code>已修复</code></td>
+<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E5%B7%B2%E5%AE%8C%E6%88%90" target="_blank" rel="noopener noreferrer">已修复或已实现的功能</a></td>
+<td>包含标签 <code>已完成</code></td>
 </tr>
 <tr>
 <td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E7%AD%89%E5%BE%85%E5%8F%91%E5%B8%83" target="_blank" rel="noopener noreferrer">将在下一版本修复的问题</a></td>
@@ -2689,6 +2705,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在用户面板中增加了米游社的扫码登录方法 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/870" target="_blank" rel="noopener noreferrer">#870</a></li>
 <li>客户端新增了自动检测网络状态，并将结果显示在设置页面中 <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1161" target="_blank" rel="noopener noreferrer">#1116</a></li>
 <li>在游戏启动器中新增了以触屏模式启动原神的选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1173" target="_blank" rel="noopener noreferrer">#1173</a></li>
+<li>在设置中增加了修改游戏公告源的选项，现在用户可以选择国际服公告并根据客户端语言显示对应语言的公告 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1112" target="_blank" rel="noopener noreferrer">#1112</a>
+<ul>
+<li>仅当 Crowdin 翻译库中有对应语言的正则表达式时才可以正确显示公告（目前已确认支持简体中文、繁体中文和英语）</li>
+</ul>
+</li>
 <li>在设置中新增了启用控制台的选项，用户现在可以通过启用该选项在排查问题时获得更多的错误提示</li>
 <li>添加了全新的软件更新处理逻辑</li>
 </ul>
@@ -2696,6 +2717,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>修复 🔨
 <ul>
 <li>修复了米游社接口获取角色信息产生<code>5003</code>错误的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1060" target="_blank" rel="noopener noreferrer">#1060</a></li>
+<li>修复了游戏启动器中帧率解锁功能在游戏4.3版本下失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1190" target="_blank" rel="noopener noreferrer">#1190</a></li>
 <li>修复了特定情况下米游社公告倒计时数据错误的问题</li>
 <li>修复了错误的 PowerShell 语句</li>
 </ul>
@@ -2712,6 +2734,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>本地化 🌏
 <ul>
 <li>客户端增加了印尼语选项，感谢 <a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">@NatsumeAoii</a>提供的翻译 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1188" target="_blank" rel="noopener noreferrer">#1188</a></li>
+<li>客户端增加了俄语翻译，感谢 <a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">@QweRezOn</a> 提供的翻译</li>
+<li>完善了客户端本地化字串符覆盖 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1198" target="_blank" rel="noopener noreferrer">#1198</a></li>
 <li>更新了现有语言的翻译</li>
 </ul>
 </li>
