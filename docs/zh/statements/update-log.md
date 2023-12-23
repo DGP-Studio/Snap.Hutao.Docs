@@ -41,6 +41,7 @@ Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书�
   - 优化了主界面中胡桃账号信息的显示，不再显示用户邮箱 [#1160](https://github.com/DGP-Studio/Snap.Hutao/issues/1160)
   - 更新了胡桃 API 的错误提示
   - 优化了设置页界面，用户现在可以在设置中查看 Snap Hutao 产生的数据和缓存目录大小
+  - 移除了微软商店相关按钮
 - 本地化 🌏
   - 客户端增加了印尼语选项，感谢 [@NatsumeAoii](https://github.com/NatsumeAoii)提供的翻译 [#1188](https://github.com/DGP-Studio/Snap.Hutao/issues/1188)
   - 客户端增加了俄语翻译，感谢 [@QweRezOn](https://github.com/QweRezOn) 提供的翻译
