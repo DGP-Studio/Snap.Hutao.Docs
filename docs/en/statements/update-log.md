@@ -9,7 +9,16 @@ externalLinkIcon: false
 
 # Update Logs
 
-## 1.9.0 <Badge text="Upcoming" type="tip" />
+## 1.9.1 <Badge text="hotfix" type="warning" /><Badge text="latest" type="tip" />
+
+- **Fix 🔨**
+  - Fixed crash on Game Launcher page when user text zoom is not set as 100%
+  - Fixed crash caused by Realtime Notes during the program startup
+  - Fixed the issue where Realtime Notes may be loaded simultaneously with user account information, result in reentrancy
+- **Optimizations ✨**
+  - Enhanced prompt to add or select game path in Game Launcher
+
+## 1.9.0
 
 ::: important Breaking Changes
 
