@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 23 Dec 2023 07:03:04 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 07:03:04 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 08:41:58 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 08:41:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -62,6 +62,9 @@
 <h2> 升级至 1.9.0 版本</h2>
 <h3> 版本发布</h3>
 <p>Snap Hutao 1.9.0 版本将会于2023年圣诞节前的周末发布，我们会通过 GitHub，极狐GitLab，官方网站和社区发布安装包的下载地址。</p>
+<blockquote>
+<p>1.9.0 版本已发布，请在<a href="/zh/quick-start.html" target="blank">快速开始</a>页面获取</p>
+</blockquote>
 <h3> 卸载旧版本</h3>
 <p>由于包名和签名冲突，直接安装该安装包会根据你的系统版本出现问题。</p>
 <table>

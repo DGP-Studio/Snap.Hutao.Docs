@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 23 Dec 2023 07:03:04 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 07:03:04 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 08:41:58 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 08:41:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -64,6 +64,9 @@
 <h2> Upgrade to Version 1.9.0</h2>
 <h3> Version Release</h3>
 <p>Snap Hutao version 1.9.0 is scheduled to be released on the weekend before Christmas 2023. We will publish the download links for the installation package through GitHub, Jihu GitLab, this official website, and the community.</p>
+<blockquote>
+<p>1.9.0 version has been released, please download from <a href="/en/quick-start.html" target="blank">Quick Start</a> page.</p>
+</blockquote>
 <h3> Uninstall Old Versions</h3>
 <p>Directly installing this package will cause problems depending on your system version due to package name and signature conflicts.</p>
 <table>
