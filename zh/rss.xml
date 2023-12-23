@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 23 Dec 2023 04:26:19 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 04:26:19 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 04:46:20 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 04:46:20 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2729,6 +2729,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>优化了主界面中胡桃账号信息的显示，不再显示用户邮箱 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1160" target="_blank" rel="noopener noreferrer">#1160</a></li>
 <li>更新了胡桃 API 的错误提示</li>
 <li>优化了设置页界面，用户现在可以在设置中查看 Snap Hutao 产生的数据和缓存目录大小</li>
+<li>移除了微软商店相关按钮</li>
 </ul>
 </li>
 <li>本地化 🌏
