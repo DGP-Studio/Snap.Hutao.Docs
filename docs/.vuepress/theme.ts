@@ -93,17 +93,9 @@ export default hopeTheme({
     },
 
     components: {
-      components: ["Badge", "BiliBili", "VPCard"],
+      components: ["Badge", "BiliBili", "VPCard", "VPBanner"],
       rootComponents: {
         notice: [
-          {
-            path: "/zh/",
-            title: "加入我们",
-            content:
-              "如果你有<b>软件开发</b>，<b>网页前端</b>，<b>文档管理</b>或<b>视频创作</b>的经验，并希望将其施展于胡桃工具箱项目中，欢迎<a href='http://hut.ao/zh/project.html#%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC'>加入开发团队</a>",
-            fullscreen: false,
-            showOnce: false,
-          },
         ],
       },
     },

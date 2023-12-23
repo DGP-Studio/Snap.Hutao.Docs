@@ -4,11 +4,12 @@ icon: iconfont icon-update
 order: 1
 redirectFrom: /statements/update-log.html
 comment: false
+externalLinkIcon: false
 ---
 
 # 更新日志
 
-## 1.9.0 <Badge text="即将发布" type="tip" />
+## 1.9.0 <Badge text="最新版" type="tip" />
 
 ::: important 重大改变
 
@@ -25,10 +26,13 @@ Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书�
   - 在用户面板中增加了米游社的扫码登录方法 [#870](https://github.com/DGP-Studio/Snap.Hutao/issues/870)
   - 客户端新增了自动检测网络状态，并将结果显示在设置页面中 [#1116](https://github.com/DGP-Studio/Snap.Hutao/pull/1161)
   - 在游戏启动器中新增了以触屏模式启动原神的选项 [#1173](https://github.com/DGP-Studio/Snap.Hutao/issues/1173)
+  - 在设置中增加了修改游戏公告源的选项，现在用户可以选择国际服公告并根据客户端语言显示对应语言的公告 [#1112](https://github.com/DGP-Studio/Snap.Hutao/issues/1112)
+    - 仅当 Crowdin 翻译库中有对应语言的正则表达式时才可以正确显示公告（目前已确认支持简体中文、繁体中文和英语）
   - 在设置中新增了启用控制台的选项，用户现在可以通过启用该选项在排查问题时获得更多的错误提示
   - 添加了全新的软件更新处理逻辑
 - 修复 🔨
   - 修复了米游社接口获取角色信息产生`5003`错误的问题 [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+  - 修复了游戏启动器中帧率解锁功能在游戏4.3版本下失效的问题 [#1190](https://github.com/DGP-Studio/Snap.Hutao/issues/1190)
   - 修复了特定情况下米游社公告倒计时数据错误的问题
   - 修复了错误的 PowerShell 语句
 - 优化 ✨
@@ -39,6 +43,8 @@ Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书�
   - 优化了设置页界面，用户现在可以在设置中查看 Snap Hutao 产生的数据和缓存目录大小
 - 本地化 🌏
   - 客户端增加了印尼语选项，感谢 [@NatsumeAoii](https://github.com/NatsumeAoii)提供的翻译 [#1188](https://github.com/DGP-Studio/Snap.Hutao/issues/1188)
+  - 客户端增加了俄语翻译，感谢 [@QweRezOn](https://github.com/QweRezOn) 提供的翻译
+  - 完善了客户端本地化字串符覆盖 [#1198](https://github.com/DGP-Studio/Snap.Hutao/issues/1198)
   - 更新了现有语言的翻译
 
 ## 1.8.5 <Badge text="测试版" type="info" />

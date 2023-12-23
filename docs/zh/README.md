@@ -13,11 +13,9 @@ head:
     - name: twitter:image:src
       content: https://repository-images.githubusercontent.com/482734649/eb0f81d6-29a8-4d3c-8012-d85475cd89ee
 actions:
-  - text: 下载
-    link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
-    type: primary
-  - text: 快速开始
+  - text: 开始使用
     link: quick-start.html
+    type: primary
   - text: 文档
     link: menu.html
   - text: 项目介绍

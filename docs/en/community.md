@@ -10,19 +10,33 @@ order: 8
 
 As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways.
 
-<!-- @include: star-request.md -->
-
-## <HopeIcon icon="iconfont icon-github" size="1.5rem" /> GitHub Discussion
-
-[Snap.Hutao Discussion](https://github.com/DGP-Studio/Snap.Hutao/discussions)
-
-## <HopeIcon icon="iconfont icon-qq" size="1.5rem" color="rgb(0,126,198)" /> QQ Group (CN)
-
-- [Snap Hutao](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&noverify=0&group_code=910780153)
-- [_Snap Developer Open Discussion Group_](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236)
-  - General tech talk, not Snap Hutao Project development group
-  - The Dev group requires some basic tech knowledge
-
-## <HopeIcon icon="iconfont icon-discord1" size="1.5rem" color="rgb(115,139,216)" /> Discord
-
-Invite link：[https://discord.gg/Yb8bykUKp](https://discord.gg/Yb8bykaUKp)
+<div class="vp-card-container">
+  <VPCard
+    title="Discord"
+    desc="Yb8bykaUKp"
+    logo="/images/202312/discord.svg"
+    link="https://discord.gg/Yb8bykaUKp"
+    background="rgba(88, 101, 242, 0.15)"
+  />
+  <VPCard
+    title="Snap Hutao QQ Group Chat"
+    desc="910780153"
+    logo="/images/202312/tencent.svg"
+    link="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&noverify=0&group_code=910780153"
+    background="rgba(228, 0, 54, 0.15)"
+  />
+  <VPCard
+    title="Snap Hutao QQ Announcement"
+    desc="531960040; announcement only"
+    logo="/images/202312/tencent.svg"
+    link="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uxqsxPJPB_jOVbMFOzZv5LcDyIF2HAiu&authKey=Deo2c2ZhmqSAQ%2BGUL0ItD7bYtYG5blYxQor25BXoCcaCGllZYtZ4eDNwZ3yZz8gH&noverify=0&group_code=531960040"
+    background="rgba(228, 0, 54, 0.15)"
+  />
+  <VPCard
+    title="GitHub Discussion"
+    desc="Snap Hutao repository discussion is opened for all GitHub users"
+    logo="/images/202312/github-mark.svg"
+    link="https://github.com/DGP-Studio/Snap.Hutao/discussions"
+    background="rgba(155, 233, 168, 0.15)"
+  />
+</div>

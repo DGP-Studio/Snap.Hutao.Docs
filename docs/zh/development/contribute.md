@@ -2,7 +2,7 @@
 category: [开源, 开发]
 tag: ["开发", "GitHub"]
 icon: iconfont icon-code
-order: 2
+order: 3
 ---
 
 # 贡献你的代码
@@ -36,10 +36,7 @@ order: 2
 
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> 测试打包程序
 
-一旦你的代码被合并进 `develop` 和 `main` 分支，一个 Azure Pipeline CI 流水线脚本将运行起来以构建所在分支的最新代码，并以 `Snap Hutao Alpha` 命名。
-当该测试包打包完成后，它将被以 `pre-release` 的形式发布在 [GitHub 发布页面](https://github.com/DGP-Studio/Snap.Hutao/releases)上。
+一旦你的代码被合并进 `develop` 和 `main` 分支，一个 GitHub Actions 脚本将运行起来以构建所在分支的最新代码，并以 `Snap Hutao Alpha` 命名。
+你可以在 alpha 流水线中找到全部的编译记录。
 
-你需要安装 [Snap.Hutao.CI.cer](https://github.com/DGP-Studio/Snap.Hutao/releases/download/2023.10.3.1/Snap.Hutao.CI.cer)
-证书到你的本地设备上以允许你安装测试版安装包。
-
-\*如果在最新的发布中没有包含程序安装包附件，则意味着它仍然处于上传过程中。
+你需要以`受信任的根证书颁发机构`添加[DGP Studio CA 证书](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt)到你的本地设备上以允许操作系统安装测试版安装包。
