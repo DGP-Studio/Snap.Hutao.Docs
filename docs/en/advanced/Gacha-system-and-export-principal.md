@@ -7,61 +7,57 @@ order: 8
 comment: false
 ---
 
-# 祈愿系统与导出原理
+# Gacha System and Export Principle
 
-> Gacha System and Principal
+Snap Hutao's Gacha system underwent an overhaul compared to Snap Genshin, experiencing a complete architectural redesign.
 
-胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。
+This article will explain the Genshin's wish logging mechanism and the technical principles behind the Gacha export feature in the Hutao Toolbox.
 
-本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。
+## Obtaining Wishes
 
-## 祈愿的获取
+Acquiring wish records requires querying miHoYo's API.
 
-获取祈愿记录需要请求米哈游的 API
+Regarding this API, there are a few key points to note:
 
-关于此 API, 有下列几个注意点
+- Through miHoYo's server API, you can only access wish records from the past 6 months.
+  - This is also the source of wish records in the original Genshin client.
+- The API has rate limits; too many requests too quickly can lead to subsequent failures, making it impossible to retrieve data.
 
-- 通过米哈游服务器的 API，只能查询到过去 6 个月内的祈愿记录
-  - 这也是原神客户端中祈愿记录的来源
-- API 存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据
+To request this API, we need four crucial parameters.
 
-为了请求此 API，我们需要四个关键参数
+- Currently, several methods can obtain these parameters:
+  - Traversing Unity's log files to find URLs for wish records opened by the user
+  - Proxying local traffic to filter wish record URLs
+  - Looking through the CefBrowser's browser cache to find wish record URLs
+  - For Cookies containing Stoken, calling the genAuthKey API to obtain parameters
+  - Advanced users manually inputting relevant URLs
 
-- 目前有下列几种方法可以获取这些参数
-  - 遍历 Unity 的日志文件，查找用户打开的祈愿记录 URL
-  - 代理本机流量，筛选祈愿记录 URL
-  - 查找 CefBrowser 的浏览器缓存，找到祈愿记录 URL
-  - 对于包含了 Stoken 的 Cookie，调用 genAuthKey API,获取参数
-  - 高级用户手动输入相关 URL
+Upon requesting the API, you receive fragmented wish records. Concatenating them provides a complete wish record list.
 
-在请求 API 后可以获取到零散的祈愿记录，在对其进行拼接后即可获得一份完整的祈愿记录列表
+## Wish Storage
 
-## 祈愿的存储
+After obtaining the complete wish record list, you can easily serialize it into a local database. When necessary, deserialization from the database presents it to the user.
 
-获得完整的祈愿记录列表后即可将其简单的序列化入本地数据库内，在需要时可从数据库中反序列化出来呈现给用户。
+Subsequent requests to the server only need to compare new data requests against the database's existing data.
 
-后续的对服务器的请求只需要对比数据库中的数据请求新增的部分即可。
+This way, users can permanently store their account's complete wish records.
 
-这样，用户即可长期地保存帐号的完整祈愿记录
+## UIGF Format
 
-## UIGF 格式
+> Unified Interchangeable GachaLog Format
 
-> 统一可交换祈愿记录标准
->
-> Uniformed Interchangeable GachaLog Format standard
+UIGF is a unified wish record data exchange standard, advocated, launched, and **persistently maintained** by us in collaboration with other wish record applications.
 
-UIGF 是由我们联合其他祈愿记录应用倡导、推出并**持久维护**的一个统一的祈愿记录数据交换标准
+Standardized data formats enable users to transfer wish records between different tools for Genshin, each leveraging its distinctive functionalities.
 
-标准化的数据格式将允许用户将祈愿记录在不同的转移数据，以使用到不同原神工具中各自的特色功能
+### Importing Wishes
 
-### 祈愿的导入
+When utilizing the UIGF data format, you can import data previously stored in other applications.
 
-在使用 UIGF 数据格式的前提下，可以导入曾在其他应用中储存的数据
+Hutao, during import handling, compares the earliest index (ID) existing in local storage and only imports older data.
 
-胡桃在处理导入时，会对比本地储存中存在的最早的索引（ID）并仅导入较老的数据
+(This is because newer data of higher precision is always available from miHoYo's servers.)
 
-（因为始终可以从米哈游的服务器获取较新的数据，这种原始数据有更高的精确度）
+### Exporting Wishes
 
-### 祈愿的导出
-
-~~尚未实现，正在设计~~ 已实装
+~~Not yet implemented; under design~~ Already implemented

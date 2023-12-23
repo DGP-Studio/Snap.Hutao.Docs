@@ -41,6 +41,11 @@ export default defineUserConfig({
       title: "Snap Hutao",
       description: "Super utilitarian Genshin Impact Toolkit",
     },
+    "/id/": {
+      lang: "id-ID",
+      title: "Snap Hutao",
+      description: "Alat Bantu Genshin Impact yang Sangat Utilitarian",
+    },
     "/ru/": {
       lang: "ru-RU",
       title: "Snap Hutao",
@@ -137,13 +142,87 @@ export default defineUserConfig({
           },
         },
         "/en/": {
-          placeholder: "Search documents",
+          placeholder: "Search documentation",
           translations: {
             button: {
-              buttonText: "Search documents",
+              buttonText: "Search documentation",
+              buttonAriaLabel: "Search documentation",
+            },
+            modal: {
+              searchBox: {
+                resetButtonTitle: "Clear search query",
+                resetButtonAriaLabel: "Clear search query",
+                cancelButtonText: "Cancel",
+                cancelButtonAriaLabel: "Cancel",
+              },
+              startScreen: {
+                recentSearchesTitle: "Search History",
+                noRecentSearchesText: "No recent searches",
+                saveRecentSearchButtonTitle: "Save to search history",
+                removeRecentSearchButtonTitle: "Remove from search history",
+                favoriteSearchesTitle: "Favorites",
+                removeFavoriteSearchButtonTitle: "Remove from favorites",
+              },
+              errorScreen: {
+                titleText: "Unable to retrieve results",
+                helpText: "You may need to check your network connection",
+              },
+              footer: {
+                selectText: "Select",
+                navigateText: "Switch",
+                closeText: "Close",
+                searchByText: "Search provider",
+              },
+              noResultsScreen: {
+                noResultsText: "No relevant results found",
+                suggestedQueryText: "You can try searching for",
+                reportMissingResultsText: "Do you think there should be results for this query?",
+                reportMissingResultsLinkText: "Click here to provide feedback",
+              },
             },
           },
         },
+        "/id/": {
+          placeholder: "Cari dokumentasi",
+          translations: {
+            button: {
+              buttonText: "Cari dokumentasi",
+              buttonAriaLabel: "Cari dokumentasi",
+            },
+            modal: {
+              searchBox: {
+                resetButtonTitle: "Hapus kueri pencarian",
+                resetButtonAriaLabel: "Hapus kueri pencarian",
+                cancelButtonText: "Batal",
+                cancelButtonAriaLabel: "Batal",
+              },
+              startScreen: {
+                recentSearchesTitle: "Riwayat Pencarian",
+                noRecentSearchesText: "Tidak ada pencarian terbaru",
+                saveRecentSearchButtonTitle: "Simpan ke riwayat pencarian",
+                removeRecentSearchButtonTitle: "Hapus dari riwayat pencarian",
+                favoriteSearchesTitle: "Favorit",
+                removeFavoriteSearchButtonTitle: "Hapus dari favorit",
+              },
+              errorScreen: {
+                titleText: "Tidak dapat mengambil hasil",
+                helpText: "Anda mungkin perlu memeriksa koneksi internet Anda",
+              },
+              footer: {
+                selectText: "Pilih",
+                navigateText: "Alih",
+                closeText: "Tutup",
+                searchByText: "Penyedia pencarian",
+              },
+              noResultsScreen: {
+                noResultsText: "Tidak ditemukan hasil yang relevan",
+                suggestedQueryText: "Anda bisa mencoba mencari",
+                reportMissingResultsText: "Apakah Anda pikir harus ada hasil untuk kueri ini?",
+                reportMissingResultsLinkText: "Klik di sini untuk memberikan masukan",
+              },
+            },
+          },
+        },              
       },
     }),
     googleAnalyticsPlugin({
@@ -157,6 +236,7 @@ export default defineUserConfig({
         "/en/": ["en-US", "en-UK", "en"],
         "/zh/": ["zh-CN", "zh-TW", "zh"],
         "/ru/": ["ru-RU", "ru-KZ", "ru-BY", "ru-UA", "ru-MD", "ru-LV", "tt-RU", "ru"],
+        "/id/": ["id-ID", "id"],
       },
     }),
   ],

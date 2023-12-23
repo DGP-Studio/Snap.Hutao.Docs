@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar, ruNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar, ruSidebar } from "./sidebar/index.js";
+import { enNavbar, zhNavbar, ruNavbar, idNavbar } from "./navbar/index.js";
+import { enSidebar, zhSidebar, ruSidebar, idSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://hut.ao",
@@ -60,6 +60,22 @@ export default hopeTheme({
       },
     },
 
+    "/id/": {
+      // navbar
+      navbar: idNavbar,
+    
+      // sidebar
+      sidebar: idSidebar,
+    
+      footer: "Menjadi alat terbaik untuk Genshin Impact",
+    
+      displayFooter: true,
+    
+      metaLocales: {
+        editLink: "Edit halaman ini di GitHub",
+      },
+    },
+    
     /**
      * Chinese locale config
      */
