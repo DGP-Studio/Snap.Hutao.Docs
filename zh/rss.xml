@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 23 Dec 2023 04:58:19 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 04:58:19 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 05:52:13 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 05:52:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -820,6 +820,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>使用 MSIX 安装包即可安装 Snap Hutao，你可以从以下源获取到安装包</p>
 <div class="vp-card-container">
   </div>
+<ul>
+<li>在安装过程中，如果出现任意以下错误之一，请参考文章<a href="/zh/advanced/dependency.html" target="blank">手动安装依赖项</a>解决，该问题来源是Windows无法自动安装所需要的框架环境
+<ol>
+<li><code>应用程序无法安装应用包相关项，请向开发人员索要包</code></li>
+<li>在安装过程中长时间卡在<code>正在安装框架</code></li>
+</ol>
+</li>
+</ul>
 <hr>
 <p>如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎<a href="/zh/development/join.html" target="blank">加入我们</a>！</p>
 <h3> </h3>
@@ -1878,6 +1886,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在右侧点击<code>开启或关闭</code>按钮，所显示的 <code>禁用</code> 或 <code>启用</code> 分别代表<code>已禁用</code>或<code>已启用</code>该功能</li>
 <li>在下方的 <code>设置帧率上限</code> 选项中，可自由拖动拉杆，调整到您需要设置的最高帧率上限</li>
 </ul>
+</li>
+<li>
+<p>点击右上角的<code>启动游戏</code>按钮</p>
 </li>
 <li>
 <p>会导致<strong>解锁帧率上限失败</strong>的因素：</p>

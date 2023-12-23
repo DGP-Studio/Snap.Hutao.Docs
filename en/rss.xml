@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 23 Dec 2023 04:58:19 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 04:58:19 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 05:52:13 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 05:52:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -2231,6 +2231,9 @@ on your own.</li>
 </ul>
 </li>
 <li>
+<p>Click <code>Start Game</code> button on the top right</p>
+</li>
+<li>
 <p>Fact that may cause <strong>failure in unlocking frame rate limit</strong>:</p>
 <ul>
 <li>Snap Hutao process is not kept in the background</li>
@@ -3289,6 +3292,14 @@ so Snap Hutao cannot solve them</li>
 <p>You can use MSIX package to install Snap Hutao, you can find pakcage from the following source.</p>
 <div class="vp-card-container">
   </div>
+<ul>
+<li>If you face any of the following errro during the installation, please refer to <a href="/en/advanced/dependency.html" target="blank">Install Dependency Manually</a> to solve it，this happens when your Windows cannot download necessary framework
+<ol>
+<li><code>App Installer failed to iunstall package dependencies. Ask the developer for package</code></li>
+<li>Stuck at <code>Installing framework</code></li>
+</ol>
+</li>
+</ul>
 <hr>
 <p>If you are interested in making the Snap Hutao project better through your own efforts, consider <a href="/en/development/join.html" target="blank">join us</a>!</p>
 <h3> </h3>
