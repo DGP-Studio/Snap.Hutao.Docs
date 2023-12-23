@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 23 Dec 2023 04:46:20 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 04:46:20 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 04:58:19 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 04:58:19 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -828,12 +828,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </blockquote>
 <p>如果你已经安装了 Snap Hutao 微软商店版（版本号介于1.4.11和1.8.5之间）则需要先卸载旧版本再进行全新安装</p>
 <ul>
-<li>按照文档提供的<a href="/zh/advanced/uninstall.html" target="blank">卸载方法</a>卸载侧载版应用
+<li>按照文档提供的<a href="/zh/advanced/uninstall.html" target="blank">卸载方法</a>卸载旧版应用
 <ul>
 <li>只要不手动删除数据目录，你的数据不会受到影响</li>
 </ul>
 </li>
-<li>按照上述方法全新安装商店版应用</li>
+<li>按照上述方法全新安装新版应用</li>
 </ul>
 <h3> </h3>
 <p>如没有特殊声明，则你可以通过安装最新版 MSIX 安装包来升级程序。</p>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 23 Dec 2023 04:46:20 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 04:46:20 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 04:58:19 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 04:58:19 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -3297,12 +3297,12 @@ so Snap Hutao cannot solve them</li>
 <p>For details of this change, please refer to <a href="/en/blog/version-1-9-0-breaking-changes.html" target="blank">Explanation of Breaking Changes in Version 1.9.0</a></p>
 </blockquote>
 <ul>
-<li>Uninstall the Microsoft Store version with our <a href="/en/advanced/uninstall.html" target="blank">uninstallation instruction document</a>
+<li>Uninstall the old version with our <a href="/en/advanced/uninstall.html" target="blank">uninstallation instruction document</a>
 <ul>
 <li>Your data will not lose as long as you don't delete data directory manually</li>
 </ul>
 </li>
-<li>Follow the method above to install the Microsoft Store version application</li>
+<li>Follow the method above to install the new version application</li>
 </ul>
 <h3> </h3>
 <p>If no special instruction is given, you can download and install latest MSIX package to update your Snap Hutao.</p>
