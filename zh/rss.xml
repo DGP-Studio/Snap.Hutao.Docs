@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 23 Dec 2023 10:26:08 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 10:26:08 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 11:26:21 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 11:26:21 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2706,11 +2706,26 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.9.0 重大改变 Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书。自1.9.0版本起，我们将使用全新的证书为 Snap Hutao 安装包签名。 拥有新签名的程序将与旧版本不兼容，用户在从1.8.4及更旧版本更新至1.9.0及更新版本时，需要首先卸载旧版本再全新安装新版本客户端。由于胡桃数据目录的设计，用户不会丢失...</description>
+      <description>1.9.1 修复; 修复了在用户系统文字缩放比例不为100%时，进入游戏启动器页面时会导致程序崩溃的问题; 修复了一个由实时便笺功能导致程序在启动时崩溃的问题; 修复了实时便笺有概率与用户信息同时加载导致死锁的问题; 优化; 在游戏启动器添加/选择游戏路径页面增强了用户提示; 1.9.0 重大改变 Snap Hutao 在近期获得了 SignPath ...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.9.0 </h2>
+<h2> 1.9.1 </h2>
+<ul>
+<li>修复
+<ul>
+<li>修复了在用户系统文字缩放比例不为100%时，进入游戏启动器页面时会导致程序崩溃的问题</li>
+<li>修复了一个由实时便笺功能导致程序在启动时崩溃的问题</li>
+<li>修复了实时便笺有概率与用户信息同时加载导致死锁的问题</li>
+</ul>
+</li>
+<li>优化
+<ul>
+<li>在游戏启动器添加/选择游戏路径页面增强了用户提示</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.0</h2>
 <div class="hint-container important">
 <p class="hint-container-title">重大改变</p>
 <p>Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书。自1.9.0版本起，我们将使用全新的证书为 Snap Hutao 安装包签名。</p>

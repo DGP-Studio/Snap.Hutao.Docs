@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 23 Dec 2023 10:26:08 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 10:26:08 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 11:26:21 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 11:26:21 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -890,11 +890,26 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.9.0 Breaking Changes Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new ...</description>
+      <description>1.9.1 Fix 🔨; Fixed crash on Game Launcher page when user text zoom is not set as 100%; Fixed crash caused by Realtime Notes during the program startup; Fixed the issue where Re...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.9.0 </h2>
+<h2> 1.9.1 </h2>
+<ul>
+<li><strong>Fix 🔨</strong>
+<ul>
+<li>Fixed crash on Game Launcher page when user text zoom is not set as 100%</li>
+<li>Fixed crash caused by Realtime Notes during the program startup</li>
+<li>Fixed the issue where Realtime Notes may be loaded simultaneously with user account information, result in reentrancy</li>
+</ul>
+</li>
+<li><strong>Optimizations ✨</strong>
+<ul>
+<li>Enhanced prompt to add or select game path in Game Launcher</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.0</h2>
 <div class="hint-container important">
 <p class="hint-container-title">Breaking Changes</p>
 <p>Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new certificate to sign Snap Hutao installation packages.</p>
