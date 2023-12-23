@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 23 Dec 2023 08:41:58 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 08:41:58 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 10:26:08 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 10:26:08 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -130,6 +130,7 @@
 <li>启动 Visual Studio Installer 以完成 Visual Studio 的安装流程
 <ul>
 <li>你需要安装 <code>.NET desktop development</code>、 <code>Desktop development with C++</code> 和 <code>Universal Windows Platform development</code> 组件</li>
+<li>它们的中文名分别是 <code>.NET 桌面开发</code>、<code>使用 C++ 的桌面开发</code>和<code>通用 Windows 平台开发</code></li>
 </ul>
 </li>
 <li>安装 Visual Studio 商店中由 Microsoft 提供的 <code>Single-project MSIX Packaging Tools for VS 2022</code> 插件</li>
@@ -2488,6 +2489,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
+<h2> 远程调试</h2>
+<p>在一些问题无法被定位时（即开发者无法在自己的设备中复现问题时），开发者可能会向社区成员询问发起远程调试，在有问题的设备上debug寻找问题解决方案。在这种情况下，若你同意，一个指定的管理员将通过 QQ 加你为好友并拉你进入远程协助群以方便交流。</p>
+<p><strong>参与远程调试的计算机需要至少 15GB 的可用硬盘空间。</strong></p>
+<p>在开始调试之前，你需要执行<a href="/zh/development/contribute.html" target="blank">贡献代码</a>中<code>设置 Snap.Hutao项目</code>一段中的第<code>1~3</code>步骤，并下载安装 <a href="https://www.todesk.com/download.html" target="_blank" rel="noopener noreferrer">ToDesk</a> 远程工具。</p>
 <h2> 请求增加或更新文档</h2>
 <p>如果你认为 Snap Hutao 的文档缺少重要内容或有错误的信息，可以从 Snap.Hutao.Docs 项目中发起 Issue</p>
 <ul>
