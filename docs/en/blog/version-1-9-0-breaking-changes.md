@@ -24,6 +24,8 @@ Listing on the Microsoft Store eliminated the need for Snap Hutao users to manua
 
 Snap Hutao version 1.9.0 is scheduled to be released on the weekend before Christmas 2023. We will publish the download links for the installation package through GitHub, Jihu GitLab, this official website, and the community.
 
+> 1.9.0 version has been released, please download from [Quick Start](../quick-start.md) page.
+
 ### Uninstall Old Versions
 
 Directly installing this package will cause problems depending on your system version due to package name and signature conflicts.
