@@ -100,9 +100,7 @@ highlights:
 
       - title: Kalkulator Pengembangan
         icon: /images/202308/Calculator_Icon.png
-        details: Buat rencana pengembangan karakter
-
- yang dapat diimplementasikan berdasarkan situasi Anda; mendukung beberapa akun, beberapa daftar rencana, dan catatan item backpack.
+        details: Buat rencana pengembangan karakter yang dapat diimplementasikan berdasarkan situasi Anda; mendukung beberapa akun, beberapa daftar rencana, dan catatan item backpack.
         link: features/develop-plan.html
 
 footer: Dibangun dengan <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | Menjadi alat Genshin Impact terbaik
