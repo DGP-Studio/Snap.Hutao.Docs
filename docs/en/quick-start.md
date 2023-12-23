@@ -76,9 +76,9 @@ If you installed a Microsoft Store version of Snap Hutao (version 1.4.11 to 1.8.
 
 > For details of this change, please refer to [Explanation of Breaking Changes in Version 1.9.0](blog/version-1-9-0-breaking-changes.md)
 
-- Uninstall the Microsoft Store version with our [uninstallation instruction document](advanced/uninstall.html)
+- Uninstall the old version with our [uninstallation instruction document](advanced/uninstall.html)
   - Your data will not lose as long as you don't delete data directory manually
-- Follow the method above to install the Microsoft Store version application
+- Follow the method above to install the new version application
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao
 
