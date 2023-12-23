@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 23 Dec 2023 05:52:13 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Dec 2023 05:52:13 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Dec 2023 07:03:04 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Dec 2023 07:03:04 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -18,7 +18,7 @@
     <category>installation</category>
     <category>Feature</category>
     <category>Tutorial</category>
-    <category>第三方工具</category>
+    <category>Third-Party Tools</category>
     <category>Announcement</category>
     <category>i18n</category>
     <category>announcement</category>
@@ -537,62 +537,62 @@ verification, then your account can be used to refresh data.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>使用第三方工具获取有 Stoken 的 cookie</title>
+      <title>Obtaining Stoken-containing Cookies Using Third-Party Tools</title>
       <link>https://hut.ao/en/advanced/get-stoken-cookie-from-the-third-party.html</link>
       <guid>https://hut.ao/en/advanced/get-stoken-cookie-from-the-third-party.html</guid>
-      <source url="https://hut.ao/en/rss.xml">使用第三方工具获取有 Stoken 的 cookie</source>
-      <description>以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关; 本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关; Android Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie GetToken 开源项目 GitHub：HolographicHa...</description>
+      <source url="https://hut.ao/en/rss.xml">Obtaining Stoken-containing Cookies Using Third-Party Tools</source>
+      <description>The software, open-source projects, and resources mentioned in the following steps are sourced from the internet and are not affiliated with DGP-Studio.; This documentation prov...</description>
       <category>FAQ</category>
-      <category>第三方工具</category>
+      <category>Third-Party Tools</category>
       <pubDate>Sat, 18 Mar 2023 03:05:39 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 使用第三方工具获取有 Stoken 的 cookie</h1>
+      <content:encoded><![CDATA[<h1> Obtaining Stoken-containing Cookies Using Third-Party Tools</h1>
 <div class="hint-container warning">
 <p class="hint-container-title">Warning</p>
 <ul>
-<li>以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关</li>
-<li>本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关</li>
+<li>The software, open-source projects, and resources mentioned in the following steps are sourced from the internet and are not affiliated with DGP-Studio.</li>
+<li>This documentation provides solutions for educational purposes only. Specific operations and their consequences are not associated with this project.</li>
 </ul>
 </div>
 <h2> Android</h2>
-<p>Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie</p>
+<p>Android users can utilize the open-source project GetToken to acquire cookies containing the Stoken field.</p>
 <div class="hint-container tip">
-<p class="hint-container-title">GetToken 开源项目</p>
+<p class="hint-container-title">GetToken Open-Source Project</p>
 <ul>
-<li>GitHub：<a href="https://github.com/HolographicHat/GetToken" target="_blank" rel="noopener noreferrer">HolographicHat/GetToken</a></li>
+<li>GitHub: <a href="https://github.com/HolographicHat/GetToken" target="_blank" rel="noopener noreferrer">HolographicHat/GetToken</a></li>
 </ul>
 </div>
 <ul>
-<li>GetToken 项目的发布会包含两个 apk 文件，两者最终效果相同。根据你的设备情况选择适合你的版本即可
+<li>The GetToken project's release includes two APK files, both ultimately achieving the same outcome. Choose the version suitable for your device:
 <ul>
-<li><code>app-release.apk</code> 为一个 LSPosed 插件允许用户在官方米游社中使用 GetToken 功能</li>
-<li>名称以<code>lspatched</code>结尾的 apk 文件是一个已包含 GetToken 功能的修改版米游社程序
+<li><code>app-release.apk</code> is an LSPosed plugin that enables users to use GetToken functionality within the official miHoYo community app.</li>
+<li>APK files ending with <code>lspatched</code> are modified versions of the miHoYo community app with GetToken functionality included.
 <ul>
-<li>你需要卸载官方版米游社以安装该版本的米游社</li>
+<li>You'll need to uninstall the official miHoYo app to install this version.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>启用插件或安装修改版米游社后打开米游社，在底栏点击"我的"，然后登录您的通行证</li>
-<li>在右上角点击形如 🔑 形状的按钮</li>
-<li>点击勾选 <code>Stoken</code> 选项</li>
-<li>点击<code>复制登录信息</code></li>
-<li>将复制到的 Stoken 发送到已经安装了胡桃工具箱的电脑</li>
-<li>在<code>胡桃工具箱</code>中的账号登录位置，点击<code>手动输入</code></li>
-<li>将之前获取到的 cookie 输入，此时即可完成登录</li>
+<li>After enabling the plugin or installing the modified miHoYo app, open the miHoYo app, click "Me" at the bottom, and log in to your account.</li>
+<li>Click the key-shaped icon in the top right corner.</li>
+<li>Check the <code>Stoken</code> option.</li>
+<li>Click <code>Copy Login Information</code>.</li>
+<li>Send the copied Stoken to the computer where the Hutao Toolbox is installed.</li>
+<li>In the Hutao Toolbox's account login section, click <code>Manual Input</code>.</li>
+<li>Enter the previously obtained cookie. You should now complete the login process.</li>
 </ul>
 <h2> iOS</h2>
-<p>iOS 用户可以在 App Store 下载抓包软件 Stream 来获取包含 Stoken 字段的 cookie</p>
+<p>iOS users can download the packet capture software Stream from the App Store to obtain cookies containing the Stoken field.</p>
 <ul>
-<li>从 App Store 下载 <a href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" rel="noopener noreferrer">Stream</a></li>
-<li>对域名 <code>api-takumi.mihoyo.com</code> 进行抓包分析</li>
-<li>找到并复制带有 <code>Stoken</code> 的数据
+<li>Download <a href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" rel="noopener noreferrer">Stream</a> from the App Store.</li>
+<li>Perform packet capture analysis on the domain <code>api-takumi.mihoyo.com</code>.</li>
+<li>Locate and copy the data containing <code>Stoken</code>.
 <ul>
-<li>形如<code>stuid=****;stoken=v2****;mid=****;</code></li>
+<li>It will be in the form of <code>stuid=****;stoken=v2****;mid=****;</code>.</li>
 </ul>
 </li>
-<li>将复制到的 Stoken 发送到已经安装了胡桃工具箱的电脑</li>
-<li>在<code>胡桃工具箱</code>中的账号登录位置，点击<code>手动输入</code></li>
-<li>将之前获取到的 cookie 输入，此时即可完成登录</li>
+<li>Send the copied Stoken to the computer where the Hutao Toolbox is installed.</li>
+<li>In the Hutao Toolbox's account login section, click <code>Manual Input</code>.</li>
+<li>Enter the previously obtained cookie. You should now complete the login process.</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -694,60 +694,56 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" type="image/jpeg"/>
     </item>
     <item>
-      <title>祈愿系统与导出原理</title>
+      <title>Gacha System and Export Principle</title>
       <link>https://hut.ao/en/advanced/Gacha-system-and-export-principal.html</link>
       <guid>https://hut.ao/en/advanced/Gacha-system-and-export-principal.html</guid>
-      <source url="https://hut.ao/en/rss.xml">祈愿系统与导出原理</source>
-      <description>Gacha System and Principal 胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。 本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。 祈愿的获取 获取祈愿记录需要请求米哈游的 API 关于此 API, 有下列几个注意点 通过米哈游服务器的 API，只能查询到过去 6 个月内的祈愿记录; 这...</description>
+      <source url="https://hut.ao/en/rss.xml">Gacha System and Export Principle</source>
+      <description>Snap Hutao&amp;apos;s Gacha system underwent an overhaul compared to Snap Genshin, experiencing a complete architectural redesign. This article will explain the Genshin&amp;apos;s wish logging me...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:36 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 祈愿系统与导出原理</h1>
-<blockquote>
-<p>Gacha System and Principal</p>
-</blockquote>
-<p>胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。</p>
-<p>本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。</p>
-<h2> 祈愿的获取</h2>
-<p>获取祈愿记录需要请求米哈游的 API</p>
-<p>关于此 API, 有下列几个注意点</p>
+      <content:encoded><![CDATA[<h1> Gacha System and Export Principle</h1>
+<p>Snap Hutao's Gacha system underwent an overhaul compared to Snap Genshin, experiencing a complete architectural redesign.</p>
+<p>This article will explain the Genshin's wish logging mechanism and the technical principles behind the Gacha export feature in the Hutao Toolbox.</p>
+<h2> Obtaining Wishes</h2>
+<p>Acquiring wish records requires querying miHoYo's API.</p>
+<p>Regarding this API, there are a few key points to note:</p>
 <ul>
-<li>通过米哈游服务器的 API，只能查询到过去 6 个月内的祈愿记录
+<li>Through miHoYo's server API, you can only access wish records from the past 6 months.
 <ul>
-<li>这也是原神客户端中祈愿记录的来源</li>
+<li>This is also the source of wish records in the original Genshin client.</li>
 </ul>
 </li>
-<li>API 存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据</li>
+<li>The API has rate limits; too many requests too quickly can lead to subsequent failures, making it impossible to retrieve data.</li>
 </ul>
-<p>为了请求此 API，我们需要四个关键参数</p>
+<p>To request this API, we need four crucial parameters.</p>
 <ul>
-<li>目前有下列几种方法可以获取这些参数
+<li>Currently, several methods can obtain these parameters:
 <ul>
-<li>遍历 Unity 的日志文件，查找用户打开的祈愿记录 URL</li>
-<li>代理本机流量，筛选祈愿记录 URL</li>
-<li>查找 CefBrowser 的浏览器缓存，找到祈愿记录 URL</li>
-<li>对于包含了 Stoken 的 Cookie，调用 genAuthKey API,获取参数</li>
-<li>高级用户手动输入相关 URL</li>
+<li>Traversing Unity's log files to find URLs for wish records opened by the user</li>
+<li>Proxying local traffic to filter wish record URLs</li>
+<li>Looking through the CefBrowser's browser cache to find wish record URLs</li>
+<li>For Cookies containing Stoken, calling the genAuthKey API to obtain parameters</li>
+<li>Advanced users manually inputting relevant URLs</li>
 </ul>
 </li>
 </ul>
-<p>在请求 API 后可以获取到零散的祈愿记录，在对其进行拼接后即可获得一份完整的祈愿记录列表</p>
-<h2> 祈愿的存储</h2>
-<p>获得完整的祈愿记录列表后即可将其简单的序列化入本地数据库内，在需要时可从数据库中反序列化出来呈现给用户。</p>
-<p>后续的对服务器的请求只需要对比数据库中的数据请求新增的部分即可。</p>
-<p>这样，用户即可长期地保存帐号的完整祈愿记录</p>
-<h2> UIGF 格式</h2>
+<p>Upon requesting the API, you receive fragmented wish records. Concatenating them provides a complete wish record list.</p>
+<h2> Wish Storage</h2>
+<p>After obtaining the complete wish record list, you can easily serialize it into a local database. When necessary, deserialization from the database presents it to the user.</p>
+<p>Subsequent requests to the server only need to compare new data requests against the database's existing data.</p>
+<p>This way, users can permanently store their account's complete wish records.</p>
+<h2> UIGF Format</h2>
 <blockquote>
-<p>统一可交换祈愿记录标准</p>
-<p>Uniformed Interchangeable GachaLog Format standard</p>
+<p>Unified Interchangeable GachaLog Format</p>
 </blockquote>
-<p>UIGF 是由我们联合其他祈愿记录应用倡导、推出并<strong>持久维护</strong>的一个统一的祈愿记录数据交换标准</p>
-<p>标准化的数据格式将允许用户将祈愿记录在不同的转移数据，以使用到不同原神工具中各自的特色功能</p>
-<h3> 祈愿的导入</h3>
-<p>在使用 UIGF 数据格式的前提下，可以导入曾在其他应用中储存的数据</p>
-<p>胡桃在处理导入时，会对比本地储存中存在的最早的索引（ID）并仅导入较老的数据</p>
-<p>（因为始终可以从米哈游的服务器获取较新的数据，这种原始数据有更高的精确度）</p>
-<h3> 祈愿的导出</h3>
-<p><s>尚未实现，正在设计</s> 已实装</p>
+<p>UIGF is a unified wish record data exchange standard, advocated, launched, and <strong>persistently maintained</strong> by us in collaboration with other wish record applications.</p>
+<p>Standardized data formats enable users to transfer wish records between different tools for Genshin, each leveraging its distinctive functionalities.</p>
+<h3> Importing Wishes</h3>
+<p>When utilizing the UIGF data format, you can import data previously stored in other applications.</p>
+<p>Hutao, during import handling, compares the earliest index (ID) existing in local storage and only imports older data.</p>
+<p>(This is because newer data of higher precision is always available from miHoYo's servers.)</p>
+<h3> Exporting Wishes</h3>
+<p><s>Not yet implemented; under design</s> Already implemented</p>
 ]]></content:encoded>
     </item>
     <item>
