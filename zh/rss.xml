@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 24 Dec 2023 09:01:23 GMT</pubDate>
-    <lastBuildDate>Sun, 24 Dec 2023 09:01:23 GMT</lastBuildDate>
+    <pubDate>Sun, 24 Dec 2023 09:53:46 GMT</pubDate>
+    <lastBuildDate>Sun, 24 Dec 2023 09:53:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -967,6 +967,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>Snap Hutao 的软件证书来源于 <a href="https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates" target="_blank" rel="noopener noreferrer">GlobalSign Code Signing Root R45</a>，你可以手动从 GlobalSign 官网下载<a href="https://secure.globalsign.com/cacert/codesigningrootr45.crt" target="_blank" rel="noopener noreferrer">该证书</a>并添加到你的系统中的可信任的根证书授权机构模块中。</p>
 <h3> MSIX 安装包提示组策略错误或需要 Windows 开发者许可证错误并无法安装</h3>
 <p>如果你使用的 Windows 家庭版操作系统，请尝试打开系统设置中的开发者模式以解决该问题</p>
+<h3> 安装 MSIX 安装包时提示 0x80040154 错误</h3>
+<p>该问题包含两种不同的错误提示</p>
+<ol>
+<li><code>使用程序包 60568DGPStudio.SnapHutao_1.9.1.0_x64__ebfp3nyc27j86 中的目标卷 C: 执行的部署 Add 操作失败，错误为 0x80040154</code></li>
+<li><code>应用安装失败，错误消息：没有注册类 0x80040154</code></li>
+</ol>
+<p>该问题来源于被恶意禁用或修改的系统组件、服务、注册表项目或组策略。微软建议重新安装完整系统以修复该问题。</p>
 <h3> 能不能通过添加缺少的系统组件来实现胡桃的安装</h3>
 <blockquote>
 <p>这就是使用精简版/破解版/优化版/LTSC/LTSB版本的代价，不是不报，时候未到。没有足够的水平就不要用高级的东西。</p>
