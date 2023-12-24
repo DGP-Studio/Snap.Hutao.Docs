@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 24 Dec 2023 09:53:46 GMT</pubDate>
-    <lastBuildDate>Sun, 24 Dec 2023 09:53:46 GMT</lastBuildDate>
+    <pubDate>Sun, 24 Dec 2023 14:11:42 GMT</pubDate>
+    <lastBuildDate>Sun, 24 Dec 2023 14:11:42 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -974,6 +974,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li><code>应用安装失败，错误消息：没有注册类 0x80040154</code></li>
 </ol>
 <p>该问题来源于被恶意禁用或修改的系统组件、服务、注册表项目或组策略。微软建议重新安装完整系统以修复该问题。</p>
+<p>如果你有更多的线索可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1223" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/1223</a> 议题中回复。</p>
+<h3> 双击打开 MSIX 文件时跳出错误显示应用未启动</h3>
+<p>该问题有缓解的方法，但我们需要更多的用户帮助我们排查造成该问题的原因。</p>
+<p>如果你有线索，可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1222" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/1222</a> 议题中回复。</p>
+<h2> 安装 MSIX 安装包时提示 0x80073CF0 错误</h2>
+<p>该问题造成的原因未知，我们需要更多的用户提交错误信息以帮助我们排查问题。</p>
+<p>如果你有线索，可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1221" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/1221</a> 议题中回复。</p>
 <h3> 能不能通过添加缺少的系统组件来实现胡桃的安装</h3>
 <blockquote>
 <p>这就是使用精简版/破解版/优化版/LTSC/LTSB版本的代价，不是不报，时候未到。没有足够的水平就不要用高级的东西。</p>
