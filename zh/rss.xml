@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 24 Dec 2023 04:37:14 GMT</pubDate>
-    <lastBuildDate>Sun, 24 Dec 2023 04:37:14 GMT</lastBuildDate>
+    <pubDate>Sun, 24 Dec 2023 09:01:23 GMT</pubDate>
+    <lastBuildDate>Sun, 24 Dec 2023 09:01:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -832,6 +832,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在安装过程中长时间卡在<code>正在安装框架</code></li>
 </ol>
 </li>
+<li>更多在安装时遇上的问题，请阅读 <a href="/zh/advanced/FAQ.html" target="blank">常见问题-安装篇</a> 文档</li>
 </ul>
 <hr>
 <p>如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎<a href="/zh/development/join.html" target="blank">加入我们</a>！</p>
