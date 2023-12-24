@@ -57,6 +57,20 @@ Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://s
 
 该问题来源于被恶意禁用或修改的系统组件、服务、注册表项目或组策略。微软建议重新安装完整系统以修复该问题。
 
+如果你有更多的线索可以在 [https://github.com/DGP-Studio/Snap.Hutao/issues/1223](https://github.com/DGP-Studio/Snap.Hutao/issues/1223) 议题中回复。
+
+### 双击打开 MSIX 文件时跳出错误显示应用未启动
+
+该问题有缓解的方法，但我们需要更多的用户帮助我们排查造成该问题的原因。
+
+如果你有线索，可以在 [https://github.com/DGP-Studio/Snap.Hutao/issues/1222](https://github.com/DGP-Studio/Snap.Hutao/issues/1222) 议题中回复。
+
+## 安装 MSIX 安装包时提示 0x80073CF0 错误
+
+该问题造成的原因未知，我们需要更多的用户提交错误信息以帮助我们排查问题。
+
+如果你有线索，可以在 [https://github.com/DGP-Studio/Snap.Hutao/issues/1221](https://github.com/DGP-Studio/Snap.Hutao/issues/1221) 议题中回复。
+
 ### 能不能通过添加缺少的系统组件来实现胡桃的安装
 
 > 这就是使用精简版/破解版/优化版/LTSC/LTSB版本的代价，不是不报，时候未到。没有足够的水平就不要用高级的东西。
