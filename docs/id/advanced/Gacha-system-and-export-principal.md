@@ -7,9 +7,7 @@ order: 8
 comment: false
 ---
 
-# Sistem Gacha dan Prinsip Dasar
-
-> Gacha System and Principal
+#  Sistem Gacha dan Prinsip Expor
 
 Sistem Gacha di Hutao mengalami redesain total dalam hal arsitektur dibandingkan dengan Snap Genshin.
 
@@ -46,9 +44,7 @@ Dengan cara ini, pengguna dapat menyimpan catatan gacha akun mereka dalam jangka
 
 ## Format UIGF
 
-> Standar Format Catatan Gacha yang Dapat Dipertukarkan
->
-> Uniformed Interchangeable GachaLog Format standard
+> Uniformed Interchangeable GachaLog Format
 
 UIGF adalah standar data pertukaran catatan gacha yang telah kami advokasi, luncurkan, dan **selalu kami pertahankan** bersama aplikasi catatan gacha lainnya.
 

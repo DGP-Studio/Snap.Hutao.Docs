@@ -25,7 +25,7 @@ Anda dapat menemukan semua [issue terbuka yang belum terpecahkan](https://github
 ## <HopeIcon icon="iconfont icon-debug" size="1.5rem" color="rgb(73,156,84)" /> Aktifkan Debug
 
 1. Unduh dan instal `Sysinternals Suite` dari [Microsoft Store](https://www.microsoft.com/store/productid/9P7KNL5RWT25) atau [situs web Microsoft](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
-2. Temukan dan jalankan program `DebugView` dalam daftar aplikasi yang diinstal atau folder yang di-zip
+2. Temukan dan jalankan program `DebugView` dalam daftar aplikasi yang diinstal atau folder yang di-unzip
 3. Jalankan klien Snap Hutao
 4. Periksa keluaran DebugView
 

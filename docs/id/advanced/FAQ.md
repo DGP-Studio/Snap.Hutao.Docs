@@ -12,11 +12,11 @@ order: 1
 
 ::: tip Kekuatan Komunitas
 
-Terima kasih kepada [solusi yang diberikan oleh CzHUV](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12).
+Terima kasih kepada [solusi diberikan oleh CzHUV](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12).
 
 :::
 
-- Gunakan `Win+R` untuk membuka jalan, di dalam jendela masukkan `shell:AppsFolder` ![Run](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png)
+- Gunakan `Win+R` untuk membuka `run`, di dalam jendela masukkan `shell:AppsFolder` ![Run](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png)
 - Pada jendela pop-up baru, temukan Snap Hutao
 - Klik kanan, lalu klik `Buat pintasan`
 - Konfirmasikan operasi dan Anda akan mendapatkan pintasan desktop
@@ -32,14 +32,14 @@ Anda dapat memindahkan pintasan ini ke tempat yang Anda butuhkan.
 
 **Ini adalah solusi sementara**
 
-- Buat file bat, kontennya mengacu pada [Issue ini](https://github.com/DGP-Studio/Snap.Hutao/issues/184), ini memungkinkan bat untuk menjalankan Snap Hutao dengan hak Admin
-- Buat Tugas Terjadwal, jalankan bat saat Windows startup, atau seret ke folder start Windows
+- Buat file `.bat`, kontennya mengacu pada [Issue ini](https://github.com/DGP-Studio/Snap.Hutao/issues/184), ini memungkinkan `.bat` untuk menjalankan Snap Hutao dengan hak Admin
+- Buat `Scheduled Tasj`, jalankan `.bat` saat Windows startup, atau seret ke folder start Windows
 
 ## Menggunakan Snap Hutao untuk memulai game dengan cepat
 
 - Konfigurasi peluncur game di pengaturan
-- Tempelkan Snap Hutao di taskbar
-- Klik kanan pada Snap Hutao dan Anda akan melihat peluncur cepat
+- Pin Snap Hutao di taskbar
+- Klik kanan pada Snap Hutao dan Anda akan melihat `quick launcher`
 
   ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png)
 
@@ -79,7 +79,7 @@ ini dapat menyebabkan Snap Hutao gagal memeriksa validasi cookie
     - Pastikan proses game sudah berhenti setelah menutup game
     - Deteksi akun lagi untuk menyimpan status login Anda
 
-## Snap Hutao Melempar Galat Gagal menambahkan Tugas Terjadwal
+## Snap Hutao Melempar Pesan Gagal menambahkan Scheduled Task
 
 Jika Anda menggunakan hak Admin untuk memulai fitur catatan real-time, tugas terjadwal Snap Hutao akan dibuat
 sebagai peran Administrator. Saat Anda mengedit pengaturan catatan real-time tanpa hak Admin, program akan
@@ -89,7 +89,7 @@ Jalankan Snap Hutao sebagai Administrator untuk mengedit pengaturan Anda untuk m
 
 ## Terjebak di `Menginstal Kerangka yang Diperlukan` saat Menggunakan Paket MSIX untuk Menginstal
 
-- Ketika sistem pengguna kekurangan kerangka dependensi yang diperlukan, Windows akan mengunduh dan menginstalnya secara otomatis.
+- Ketika sistem pengguna kekurangan `framework dependency` yang diperlukan, Windows akan mengunduh dan menginstalnya secara otomatis.
   Namun, jika pengguna menonaktifkan Windows Update atau memiliki jaringan buruk, sistem tidak dapat memproses instalasi ini.
   - Pastikan Windows Update diaktifkan; pembaruan Snap Hutao juga mengandalkannya
   - Anda juga dapat mengunduh dan menginstal [dependensi](ttps://d.hut.ao/releases/Dependency) secara manual
@@ -141,8 +141,8 @@ plugin_7_version=1.0.0
 ## Cara Cadangan/Pemulihan Data Klien Secara Penuh
 
 ::: warning Peringatan Keamanan Data
-`Userdata.db` berisi semua data klien, termasuk Cookie MiHoYO BBS, harap simpan file data dengan baik dan JANGAN dibagikan
-ke siapa pun.
+`Userdata.db` berisi semua data klien, termasuk Cookie MiHoYO BBS, harap simpan file data dengan baik dan JANGAN DIBAGIKAN
+KEPADA SIAPAPUN.
 :::
 
 Salin `Userdata.db` dari folder data Snap Hutao (`%userprofile%/Documents/Hutao` secara default) ke lokasi cadangan Anda, file ini

@@ -33,9 +33,9 @@ Pengguna Android dapat menggunakan proyek open-source GetToken untuk mendapatkan
 - Aktifkan plugin atau instal versi aplikasi miHoYo yang telah dimodifikasi, lalu buka aplikasi miHoYo tersebut. Pada bilah bawah, ketuk "Saya," lalu masuk dengan akun Anda.
 - Di pojok kanan atas, ketuk ikon berbentuk seperti 🔑
 - Pilih opsi `Stoken`
-- Ketuk `Salin Informasi Masuk`
+- Ketuk `Copy Login Information`
 - Kirim Stoken yang telah disalin ke komputer yang telah terpasang Toolbox Hutao.
-- Di tempat masuk akun Toolbox Hutao, ketuk `Masukan Manual`
+- Di tempat masuk akun Toolbox Hutao, ketuk `Manual Input`
 - Masukkan cookie yang Anda peroleh sebelumnya, sekarang Anda bisa masuk.
 
 ## iOS
@@ -43,9 +43,9 @@ Pengguna Android dapat menggunakan proyek open-source GetToken untuk mendapatkan
 Pengguna iOS dapat mengunduh aplikasi perekam lalu lintas Stream dari App Store untuk mendapatkan cookie yang memiliki bidang Stoken.
 
 - Unduh [Stream](https://apps.apple.com/cn/app/stream/id1312141691) dari App Store.
-- Analisis lalu lintas untuk domain `api-takumi.mihoyo.com`
+- Lakukan analisa `packet capture` untuk domain `api-takumi.mihoyo.com`
 - Temukan dan salin data yang memiliki `Stoken`
   - Contoh formatnya: `stuid=****;stoken=v2****;mid=****;`
 - Kirim Stoken yang telah Anda salin ke komputer yang telah terpasang Toolbox Hutao.
-- Di tempat masuk akun Toolbox Hutao, ketuk `Masukan Manual`
+- Di tempat masuk akun Toolbox Hutao, ketuk `Manual Input`
 - Masukkan cookie yang Anda peroleh sebelumnya, sekarang Anda bisa masuk.

@@ -14,9 +14,9 @@ Dokumen ini mencakup solusi untuk **kesalahan klien yang dapat diprediksi**
 ## RuntimeEnvironmentException
 
 - Exception: `RuntimeEnvironmentException`
-  - Hint: `Tidak dapat menyetel kunci registri tanpa mengaktifkan jalur panjang`
+  - Hint: `Tidak dapat menyetel kunci registri tanpa mengaktifkan Path panjang`
 - Sumber masalah: Batas jalur panjang Windows diatur secara default menjadi terbatas pada 256 karakter
-- Solusi: Unduh [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip), ekstrak, lalu jalankan file `.reg`
+- Solusi: Unduh [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip), ekstrak, lalu jalankan berkas `.reg`
 
 ## Kode Return: -10001
 
@@ -37,7 +37,7 @@ Dokumen ini mencakup solusi untuk **kesalahan klien yang dapat diprediksi**
 - Jika Snap Hutao mengembalikan kode status `1034` dan mengindikasikan kegagalan verifikasi (biasanya selama operasi Catatan Langsung),
   itu berarti operasi diblokir oleh sistem anti-bot MiHoYo BBS
 - Solusi:
-  - Masuk ke `Catatan Langsung`
+  - Masuk ke `Catatan Realtime`
   - Klik tombol `Verify Current User and Role`
   - Ikuti instruksi di MiHoYo BBS untuk melakukan verifikasi
   - Setelah menyelesaikan proses verifikasi, klik `Selesai` untuk menutup jendela verifikasi
@@ -72,7 +72,7 @@ Exception HTTP ini terjadi ketika Snap Hutao gagal mengambil sumber daya remote 
 
 ![HttpRequestException](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg)
 
-Jika Anda menggunakan perangkat lunak proxy, Anda mungkin perlu mematikannya atau menggunakan mode proxy TUN;
+Jika Anda menggunakan perangkat lunak proxy, Anda mungkin perlu mematikannya atau menggunakan proxy mode TUN;
 jika tidak, Anda perlu menggunakan [Utilitas Batasan Loopback Kontainer APP Windows 8](https://www.telerik.com/fiddler/add-ons) untuk menghapus [batasan loopback aplikasi Windows APP](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback).
 
 Anda juga dapat menjalankan skrip PowerShell berikut untuk menghapus semua batasan loopback kontainer
@@ -83,10 +83,10 @@ FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Setti
 
 ## Kesalahan Menemukan Modul yang Diperlukan
 
-Ketika pengguna meluncurkan game dengan fitur membuka pembatasan frame-rate, game mungkin gagal diluncurkan dengan munculnya kesalahan berikut:
+Ketika pengguna meluncurkan game dengan fitur `unlock frame-rate limit`, game mungkin akan gagal diluncurkan dengan munculnya kesalahan berikut:
 
 1. Kesalahan menemukan modul yang diperlukan: tidak dapat membaca modul apa pun, driver perlindungan mungkin telah dimuat
-2. Kesalahan menemukan modul yang diperlukan: time-out
+2. Kesalahan menemukan modul yang diperlukan: timeout
 
-Masalah ini hanya terjadi ketika modul anti-cheat Genshin Impact mulai lebih awal daripada modul pembuka pembatasan frame-rate.
-Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda dapat meluncurkan ulang game.
+Masalah ini hanya terjadi ketika modul anti-cheat Genshin Impact mulai lebih awal daripada modul `frame-rate-unlocker`.
+Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda dapat luncurkan ulang gamenya.

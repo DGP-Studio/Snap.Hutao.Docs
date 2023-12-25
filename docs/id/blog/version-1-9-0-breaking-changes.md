@@ -22,7 +22,9 @@ Pendaftaran di Microsoft Store menghilangkan kebutuhan pengguna Snap Hutao untuk
 
 ### Rilis Versi
 
-Snap Hutao versi 1.9.0 dijadwalkan rilis pada akhir pekan sebelum Natal 2023. Kami akan mempublikasikan tautan unduh untuk paket instalasi melalui GitHub, Jihu GitLab, situs web resmi ini, dan komunitas.
+Snap Hutao versi 1.9.0 dijadwalkan akan rilis pada akhir pekan sebelum Natal 2023. Kami akan mempublikasikan tautan unduh untuk paket instalasi melalui GitHub, Jihu GitLab, situs web resmi ini, dan komunitas.
+
+> Versi 1.9.0 sudah di rilis, mohon unduh dari [Quick Start](../quick-start.md) page.
 
 ### Hapus Versi Lama
 
@@ -37,11 +39,11 @@ Karena masalah di atas, Anda perlu menghapus versi Snap Hutao lama terlebih dahu
 
 > **Cara menghapus Snap Hutao**: Temukan Snap Hutao di menu Start, klik kanan, dan pilih uninstall; metode lainnya adalah menemukannya di Pengaturan Aplikasi Windows dan pilih uninstall.
 
-**Data penting Anda (termasuk akun miHoYo yang sudah masuk, catatan harapan, data pencapaian, catatan Spiral Abyss, data cache Karakter Saya, dan rencana pengembangan) tidak akan hilang, mereka masih disimpan dalam direktori data Hutao lokal di komputer Anda.** Namun, data berikut akan direset:
+**Data penting Anda (termasuk akun miHoYo yang sudah masuk, catatan wish, data achievement, catatan Spiral Abyss, data cache My Character, dan rencana pengembangan) tidak akan hilang, mereka masih disimpan dalam direktori data Hutao lokal di komputer Anda.** Namun, data berikut akan direset:
 
 1. Jumlah runtime Snap Hutao
 2. Jalur folder data **(jika Anda sebelumnya mengubah jalur direktori data, ingat jalur direktori data Anda)**
-3. Status login akun Hutao (Passport Hutao)
+3. Status login akun Hutao (Hutao Passport)
 4. Flag pengumuman Hutao tertutup
 5. Informasi level preset rencana pengembangan
 6. Status kartu dashboard di halaman utama
@@ -57,7 +59,7 @@ Jalankan pemasang versi 1.9.0 yang sudah Anda unduh. Di antarmuka instalasi, And
 
 ## Rencana Masa Depan
 
-> Microsoft Store, rilis mendatang, keamanan perangkat lunak...
+> Microsoft Store, perilisan mendatang, keamanan perangkat lunak...
 
 Di Microsoft Store, nama penerbit aplikasi harus menjadi GUID yang diberikan oleh Microsoft, bukan nama "kustom" seperti `SignPath Foundation`. Kami mengantisipasi bahwa kami tidak akan melanjutkan untuk merilis pembaruan di Microsoft Store di masa depan kecuali kami memiliki cara yang lebih baik untuk menangani masalah koeksistensi antara paket tanda tangan yang berbeda. Meskipun Snap Hutao tidak akan lagi melalui sertifikasi Microsoft, di bawah pembatasan SignPath, Snap Hutao hanya akan dapat mengompilasi dan membangun paket rilis langsung dari repositori kode GitHub. Ini berarti kode dalam paket instalasi pengguna 100% bersumber dari repositori kode GitHub kami, dan siapa pun memiliki otoritas untuk meninjau dan berpartisipasi dalam pengembangan.
 
