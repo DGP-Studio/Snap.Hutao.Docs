@@ -6,10 +6,12 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Sun, 24 Dec 2023 14:11:42 GMT</pubDate>
-    <lastBuildDate>Sun, 24 Dec 2023 14:11:42 GMT</lastBuildDate>
+    <pubDate>Mon, 25 Dec 2023 05:06:28 GMT</pubDate>
+    <lastBuildDate>Mon, 25 Dec 2023 05:06:28 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>open source</category>
+    <category>development</category>
     <category>Pengumuman</category>
     <category>i18n</category>
     <category>pengumuman</category>
@@ -22,8 +24,19 @@
     <category>installation</category>
     <category>Alat Pihak Ketiga</category>
     <category>Dev Logs</category>
-    <category>open source</category>
-    <category>development</category>
+    <item>
+      <title>Bergabung dengan Tim Pengembang</title>
+      <link>https://hut.ao/id/development/join.html</link>
+      <guid>https://hut.ao/id/development/join.html</guid>
+      <source url="https://hut.ao/id/rss.xml">Bergabung dengan Tim Pengembang</source>
+      <description>Jika Anda memiliki salah satu dari pengalaman berikut dan tertarik untuk bergabung dengan tim pengembangan Snap Hutao untuk meningkatkan proyek ini dan terlibat dengan lebih ban...</description>
+      <category>open source</category>
+      <category>development</category>
+      <pubDate>Mon, 25 Dec 2023 04:58:14 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Bergabung dengan Tim Pengembang</h1>
+<p>Jika Anda memiliki salah satu dari pengalaman berikut dan tertarik untuk bergabung dengan tim pengembangan Snap Hutao untuk meningkatkan proyek ini dan terlibat dengan lebih banyak proyek open source Genshin Impact, selamat datang untuk bergabung dengan kami!</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Bergabung dalam Komunitas</title>
       <link>https://hut.ao/id/community.html</link>
@@ -268,31 +281,31 @@
       <link>https://hut.ao/id/quick-start.html</link>
       <guid>https://hut.ao/id/quick-start.html</guid>
       <source url="https://hut.ao/id/rss.xml">Panduan Cepat</source>
-      <description>Dengan mengikuti petunjuk dalam dokumen ini, Anda dapat mengatur Snap Hutao dengan cepat. Persyaratan Sistem Minimum Persyaratan Atribut ------------------------------ ---------...</description>
+      <description>Dengan mengikuti petunjuk dokumen ini, Anda dapat dengan cepat menyiapkan Snap Hutao. Persyaratan Sistem Minimum Persyaratan Attribut ----------------------- -------------------...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Panduan Cepat</h1>
-<p>Dengan mengikuti petunjuk dalam dokumen ini, Anda dapat mengatur Snap Hutao dengan cepat.</p>
+<p>Dengan mengikuti petunjuk dokumen ini, Anda dapat dengan cepat menyiapkan Snap Hutao.</p>
 <h2> </h2>
 <table>
 <thead>
 <tr>
 <th>Persyaratan</th>
-<th>Atribut</th>
+<th>Attribut</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Minimum OS yang Diperlukan</strong></td>
+<td><strong>Sistem Operasi Min.</strong></td>
 <td>Windows 10 Build 19045 (22H2)<br> Windows 11 Build 22621 (22H2)</td>
 </tr>
 <tr>
-<td><strong>OS yang Direkomendasikan</strong></td>
+<td><strong>Rekomendasi OS</strong></td>
 <td>Windows 11 Build 22621 (22H2) atau versi lebih baru</td>
 </tr>
 <tr>
-<td>Komponen yang Diperlukan</td>
+<td>Komponen Wajib</td>
 <td>Windows Update, App Installer</td>
 </tr>
 <tr>
@@ -303,45 +316,59 @@
 </table>
 <p><strong>Versi OS yang Tidak Didukung</strong>：</p>
 <ol>
-<li>Versi LTSC dan LTSB tidak termasuk Microsoft Store, sehingga tidak didukung</li>
-<li>Windows 10 Build 19041 mendukung instalasi, tetapi beberapa fitur mungkin memiliki kesalahan yang tidak terduga karena masalah kernel Windows, sehingga Snap Hutao tidak dapat menyelesaikannya</li>
-<li>Masalah yang terjadi pada versi pratinjau Windows Insider tidak akan diselesaikan</li>
+<li>Versi LTSC dan LTSB menggunakan versi lama dari MSIX Core, sehingga tidak didukung.</li>
+<li>Windows 10 Build 19041 mendukung instalasi, tetapi beberapa fitur mungkin mengalami kesalahan yang tidak diinginkan karena masalah kernel Windows,
+sehingga Snap Hutao tidak dapat menyelesaikannya.</li>
+<li>Masalah pada versi pratinjau Windows Insider tidak akan diselesaikan.</li>
 </ol>
 <h2> </h2>
 <h3> Instalasi Baru</h3>
-<p><strong>Tidak peduli metode instalasi apa yang Anda gunakan, sumber paket dan registrasi selalu diatur oleh Microsoft Store.</strong></p>
-
-<h3> </h3>
-<p>Jika Anda menginstal versi side-load dari Snap Hutao (versi 1.4.10 dan lebih lama), Anda perlu menghapusnya sebelum instalasi baru</p>
+<p>Anda dapat menggunakan paket MSIX untuk menginstal Snap Hutao, Anda dapat menemukan paket dari sumber berikut.</p>
+<div class="vp-card-container">
+  </div>
 <ul>
-<li>Hapus versi side-load dengan <a href="/id/advanced/uninstall.html" target="blank">dokumen instruksi penghapusan kami</a>
+<li>Jika Anda menghadapi salah satu dari kesalahan berikut selama instalasi, silakan lihat <a href="/id/advanced/dependency.html" target="blank">Instalasi Dependency secara Manual</a> untuk memecahkannya, ini terjadi ketika Windows Anda tidak dapat mengunduh kerangka kerja yang diperlukan.
+<ol>
+<li><code>App Installer gagal menginstal Dependency paket. Mintalah pengembang untuk paketnya</code></li>
+<li>Terhenti pada <code>Menginstal kerangka kerja</code></li>
+</ol>
+</li>
+</ul>
+<hr>
+<p>Jika Anda tertarik untuk meningkatkan proyek Snap Hutao melalui upaya Anda sendiri, pertimbangkan <a href="/id/development/join.html" target="blank">bergabung bersama kami</a>!</p>
+<h3> </h3>
+<p>Jika Anda telah menginstal versi Microsoft Store dari Snap Hutao (versi 1.4.11 hingga 1.8.4), Anda perlu menghapusnya sebelum instalasi baru</p>
+<blockquote>
+<p>Untuk detail perubahan ini, lihat <a href="/id/blog/version-1-9-0-breaking-changes.html" target="blank">Penjelasan Perubahan Drastis di Versi 1.9.0</a></p>
+</blockquote>
+<ul>
+<li>Hapus versi lama dengan <a href="/id/advanced/uninstall.html" target="blank">petunjuk penghapusan</a>
 <ul>
 <li>Data Anda tidak akan hilang selama Anda tidak menghapus direktori data secara manual</li>
 </ul>
 </li>
-<li>Ikuti metode di atas untuk menginstal aplikasi versi Microsoft Store</li>
+<li>Ikuti metode di atas untuk menginstal aplikasi versi baru</li>
 </ul>
 <h3> </h3>
-<p><strong>Anda dapat menggunakan salah satu metode pembaruan, tidak masalah metode apa yang Anda gunakan saat menginstal Snap Hutao. Mereka tidak perlu konsisten, karena Microsoft Store adalah satu-satunya sumber paket.</strong></p>
-
+<p>Jika tidak ada instruksi khusus, Anda dapat mengunduh dan menginstal paket MSIX terbaru untuk memperbarui Snap Hutao Anda.</p>
+<p>Mulai dari versi 1.9.0, Snap Hutao telah menyematkan modul pembaruan untuk memberi tahu pembaruan.</p>
 <h2> </h2>
 <p>Dengan komponen opsional, Snap Hutao dapat menerapkan beberapa fungsi lebih nyaman melalui lingkungan tingkat sistem.
-Mereka bukan komponen wajib, tetapi mereka dapat membawa pengalaman yang lebih baik.</p>
+Mereka bukan komponen wajib, tetapi mereka dapat memberikan pengalaman yang lebih baik.</p>
 <h3> <img src="/images/202312/MSEdge.webp" width="20" height="20"> WebView2 Runtime</h3>
-<p>WebView2 Runtime disedi</p>
-<p>akan oleh Microsoft, yang memungkinkan browser bawaan dengan biaya sumber daya rendah di dalam program.
-Sebagai komponen opsional, WebView2 bukan komponen wajib, tetapi akan membuat beberapa fitur Snap Hutao menjadi lebih mudah.</p>
+<p>WebView2 Runtime disediakan oleh Microsoft, yang memungkinkan adanya browser bawaan dengan biaya sumber daya rendah di dalam program.
+Sebagai komponen opsional, WebView2 bukanlah komponen wajib, tetapi akan membuat beberapa fitur Snap Hutao menjadi lebih mudah.</p>
 <p>Di bagian bawah <a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">halaman resmi Microsoft</a>,
-Anda dapat menemukan <code>Evergreen Standalone Installer</code>, pilih unduh <code>x64</code> dan instal sesuai petunjuk yang diberikan.</p>
+Anda dapat menemukan <code>Evergreen Standalone Installer</code>, pilih <code>x64</code> unduh dan instal sesuai dengan petunjuk.</p>
 <h2> </h2>
-<p>Setelah masuk ke Snap Hutao, klik <code>Panel Akun</code> di sudut kiri bawah antara <code>Pengaturan</code> dan <code>Dokumen</code>. Di
-panel pop-up, klik tombol masuk yang sesuai dengan akun Anda.</p>
-<p>Jika Anda menggunakan akun server China, Anda perlu masuk dalam kategori <code>MiYouShe</code>; Jika Anda menggunakan akun luar negeri
-(atau disebut juga akun HoYoLAB/HoYoverse), Anda perlu masuk dalam kategori <code>HoYoLAB</code>.</p>
-<p>Tidak peduli jenis akun yang Anda miliki, Anda memiliki metode <code>Login Web</code> dan <code>Login Cookie</code>.</p>
+<p>Setelah masuk ke Snap Hutao, klik <code>Account Panel</code> di sudut kiri bawah antara <code>Settings</code> dan <code>Document</code>. Di panel pop-up, klik tombol masuk yang sesuai dengan akun Anda.</p>
+<p>Jika Anda menggunakan akun server China, Anda perlu masuk di dalam kategori <code>MiYouShe</code>; Jika Anda menggunakan akun luar negeri
+(atau. akun HoYoLAB/HoYoverse), Anda perlu masuk di dalam kategori <code>HoYoLAB</code>.</p>
+<p>Apa pun jenis akun yang Anda miliki, Anda memiliki metode <code>Web Login</code> dan <code>Cookie Login</code>.</p>
 
 <hr>
-<p><em><strong>Sekarang, Anda telah menyelesaikan pengaturan awal Snap Hutao Anda. Anda bebas untuk menjelajahi aplikasi ini, Anda juga dapat menemukan semua dokumen di situs web ini.</strong></em></p>
+<p><em><strong>Sekarang, Anda telah menyelesaikan pengaturan awal Snap Hutao. Anda sekarang bebas untuk menjelajahi aplikasi ini, Anda juga dapat
+menemukan semua dokumen di situs web ini.</strong></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -408,17 +435,17 @@ panel pop-up, klik tombol masuk yang sesuai dengan akun Anda.</p>
       <link>https://hut.ao/id/advanced/FAQ.html</link>
       <guid>https://hut.ao/id/advanced/FAQ.html</guid>
       <source url="https://hut.ao/id/rss.xml">Pertanyaan Umum</source>
-      <description>Cara membuat pintasan desktop (tanpa hak admin) Kekuatan Komunitas Terima kasih kepada solusi yang diberikan oleh CzHUV (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)...</description>
+      <description>Cara membuat pintasan desktop (tanpa hak admin) Kekuatan Komunitas Terima kasih kepada solusi diberikan oleh CzHUV (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12). Gun...</description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Pertanyaan Umum</h1>
 <h2> Cara membuat pintasan desktop (tanpa hak admin)</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">Kekuatan Komunitas</p>
-<p>Terima kasih kepada <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">solusi yang diberikan oleh CzHUV</a>.</p>
+<p>Terima kasih kepada <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">solusi diberikan oleh CzHUV</a>.</p>
 </div>
 <ul>
-<li>Gunakan <code>Win+R</code> untuk membuka jalan, di dalam jendela masukkan <code>shell:AppsFolder</code> <img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
+<li>Gunakan <code>Win+R</code> untuk membuka <code>run</code>, di dalam jendela masukkan <code>shell:AppsFolder</code> <img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
 <li>Pada jendela pop-up baru, temukan Snap Hutao</li>
 <li>Klik kanan, lalu klik <code>Buat pintasan</code></li>
 <li>Konfirmasikan operasi dan Anda akan mendapatkan pintasan desktop</li>
@@ -430,8 +457,8 @@ di halaman pengaturan.</p>
 <h2> Cara menjalankan Snap Hutao saat Windows dijalankan</h2>
 <p><strong>Ini adalah solusi sementara</strong></p>
 <ul>
-<li>Buat file bat, kontennya mengacu pada <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">Issue ini</a>, ini memungkinkan bat untuk menjalankan Snap Hutao dengan hak Admin</li>
-<li>Buat Tugas Terjadwal, jalankan bat saat Windows startup, atau seret ke folder start Windows</li>
+<li>Buat file <code>.bat</code>, kontennya mengacu pada <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">Issue ini</a>, ini memungkinkan <code>.bat</code> untuk menjalankan Snap Hutao dengan hak Admin</li>
+<li>Buat <code>Scheduled Tasj</code>, jalankan <code>.bat</code> saat Windows startup, atau seret ke folder start Windows</li>
 </ul>
 <h2> Menggunakan Snap Hutao untuk memulai game dengan cepat</h2>
 <ul>
@@ -439,10 +466,10 @@ di halaman pengaturan.</p>
 <p>Konfigurasi peluncur game di pengaturan</p>
 </li>
 <li>
-<p>Tempelkan Snap Hutao di taskbar</p>
+<p>Pin Snap Hutao di taskbar</p>
 </li>
 <li>
-<p>Klik kanan pada Snap Hutao dan Anda akan melihat peluncur cepat</p>
+<p>Klik kanan pada Snap Hutao dan Anda akan melihat <code>quick launcher</code></p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png" alt="quick-start" loading="lazy"></p>
 </li>
 <li>
@@ -486,14 +513,14 @@ ini dapat menyebabkan Snap Hutao gagal memeriksa validasi cookie</p>
 </ul>
 </li>
 </ul>
-<h2> Snap Hutao Melempar Galat Gagal menambahkan Tugas Terjadwal</h2>
+<h2> Snap Hutao Melempar Pesan Gagal menambahkan Scheduled Task</h2>
 <p>Jika Anda menggunakan hak Admin untuk memulai fitur catatan real-time, tugas terjadwal Snap Hutao akan dibuat
 sebagai peran Administrator. Saat Anda mengedit pengaturan catatan real-time tanpa hak Admin, program akan
 kekurangan hak untuk mengedit pengaturan dan akan melemparkan galat ini.</p>
 <p>Jalankan Snap Hutao sebagai Administrator untuk mengedit pengaturan Anda untuk memecahkan masalah ini.</p>
 <h2> Terjebak di <code>Menginstal Kerangka yang Diperlukan</code> saat Menggunakan Paket MSIX untuk Menginstal</h2>
 <ul>
-<li>Ketika sistem pengguna kekurangan kerangka dependensi yang diperlukan, Windows akan mengunduh dan menginstalnya secara otomatis.
+<li>Ketika sistem pengguna kekurangan <code>framework dependency</code> yang diperlukan, Windows akan mengunduh dan menginstalnya secara otomatis.
 Namun, jika pengguna menonaktifkan Windows Update atau memiliki jaringan buruk, sistem tidak dapat memproses instalasi ini.
 <ul>
 <li>Pastikan Windows Update diaktifkan; pembaruan Snap Hutao juga mengandalkannya</li>
@@ -523,8 +550,8 @@ Berikut adalah konfigurasi umum</p>
 <h2> Cara Cadangan/Pemulihan Data Klien Secara Penuh</h2>
 <div class="hint-container warning">
 <p class="hint-container-title">Peringatan Keamanan Data</p>
-<p><code>Userdata.db</code> berisi semua data klien, termasuk Cookie MiHoYO BBS, harap simpan file data dengan baik dan JANGAN dibagikan
-ke siapa pun.</p>
+<p><code>Userdata.db</code> berisi semua data klien, termasuk Cookie MiHoYO BBS, harap simpan file data dengan baik dan JANGAN DIBAGIKAN
+KEPADA SIAPAPUN.</p>
 </div>
 <p>Salin <code>Userdata.db</code> dari folder data Snap Hutao (<code>%userprofile%/Documents/Hutao</code> secara default) ke lokasi cadangan Anda, file ini
 berisi seluruh data klien.</p>
@@ -532,17 +559,14 @@ berisi seluruh data klien.</p>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" type="image/png"/>
     </item>
     <item>
-      <title>Sistem Gacha dan Prinsip Dasar</title>
+      <title>Sistem Gacha dan Prinsip Expor</title>
       <link>https://hut.ao/id/advanced/Gacha-system-and-export-principal.html</link>
       <guid>https://hut.ao/id/advanced/Gacha-system-and-export-principal.html</guid>
-      <source url="https://hut.ao/id/rss.xml">Sistem Gacha dan Prinsip Dasar</source>
-      <description>Gacha System and Principal Sistem Gacha di Hutao mengalami redesain total dalam hal arsitektur dibandingkan dengan Snap Genshin. Dokumen ini akan menjelaskan mekanisme catatan g...</description>
+      <source url="https://hut.ao/id/rss.xml">Sistem Gacha dan Prinsip Expor</source>
+      <description>Sistem Gacha di Hutao mengalami redesain total dalam hal arsitektur dibandingkan dengan Snap Genshin. Dokumen ini akan menjelaskan mekanisme catatan gacha dalam Genshin Impact d...</description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Sistem Gacha dan Prinsip Dasar</h1>
-<blockquote>
-<p>Gacha System and Principal</p>
-</blockquote>
+      <content:encoded><![CDATA[<h1> Sistem Gacha dan Prinsip Expor</h1>
 <p>Sistem Gacha di Hutao mengalami redesain total dalam hal arsitektur dibandingkan dengan Snap Genshin.</p>
 <p>Dokumen ini akan menjelaskan mekanisme catatan gacha dalam Genshin Impact dan prinsip teknis fungsi ekspor catatan gacha dalam Toolbox Hutao.</p>
 <h2> Perolehan Catatan Gacha</h2>
@@ -575,8 +599,7 @@ berisi seluruh data klien.</p>
 <p>Dengan cara ini, pengguna dapat menyimpan catatan gacha akun mereka dalam jangka panjang.</p>
 <h2> Format UIGF</h2>
 <blockquote>
-<p>Standar Format Catatan Gacha yang Dapat Dipertukarkan</p>
-<p>Uniformed Interchangeable GachaLog Format standard</p>
+<p>Uniformed Interchangeable GachaLog Format</p>
 </blockquote>
 <p>UIGF adalah standar data pertukaran catatan gacha yang telah kami advokasi, luncurkan, dan <strong>selalu kami pertahankan</strong> bersama aplikasi catatan gacha lainnya.</p>
 <p>Dengan format data yang terstandarisasi, pengguna dapat memindahkan catatan gacha mereka antar berbagai alat Genshin Impact untuk menggunakan fitur khusus masing-masing.</p>
@@ -602,15 +625,15 @@ berisi seluruh data klien.</p>
       <link>https://hut.ao/id/advanced/dependency.html</link>
       <guid>https://hut.ao/id/advanced/dependency.html</guid>
       <source url="https://hut.ao/id/rss.xml">Menginstal Dependency Secara Manual</source>
-      <description>Snap Hutao bergantung pada Windows App Runtime sebagai Dependency, ketika sistem pengguna tidak memiliki lingkungan ini, Windows akan menginstal framework ini sebelum instalasi ...</description>
+      <description>Snap Hutao bergantung pada Windows App Runtime sebagai Dependency, ketika sistem pengguna tidak memiliki environment ini, Windows akan menginstal framework ini sebelum instalasi...</description>
       <category>FAQ</category>
       <category>dependency</category>
       <category>installation</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Menginstal Dependency Secara Manual</h1>
-<p>Snap Hutao bergantung pada Windows App Runtime sebagai Dependency, ketika sistem pengguna tidak memiliki lingkungan ini, Windows akan menginstal framework ini sebelum instalasi Snap Hutao.</p>
+<p>Snap Hutao bergantung pada Windows App Runtime sebagai Dependency, ketika sistem pengguna tidak memiliki environment ini, Windows akan menginstal framework ini sebelum instalasi Snap Hutao.</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01RJFPnY1g6dye2b8Uy_!!1797064093.png_.webp" alt="" loading="lazy"></p>
-<p>Jika Anda berada dalam jaringan yang buruk, Anda mungkin mengalami kecepatan lambat atau bahkan terhenti pada tahap instalasi framework. Dalam skenario seperti itu, Anda dapat mengunduh framework dari situs web Microsoft dan menginstalnya secara manual.</p>
+<p>Jika Anda berada dalam jaringan yang buruk, Anda mungkin mengalami kelambatan atau bahkan terhenti pada tahap instalasi framework. Dalam skenario seperti itu, Anda dapat mengunduh framework dari situs web Microsoft dan menginstalnya secara manual.</p>
 <ol>
 <li>Kunjungi halaman dokumen Microsoft: <a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads" target="_blank" rel="noopener noreferrer">Unduhan terbaru untuk Windows App SDK</a></li>
 <li>Klik <code>Dwonload the latest x64 stable installer</code> untuk mengunduh instalator offline</li>
@@ -633,11 +656,11 @@ berisi seluruh data klien.</p>
 <ul>
 <li>Exception: <code>RuntimeEnvironmentException</code>
 <ul>
-<li>Hint: <code>Tidak dapat menyetel kunci registri tanpa mengaktifkan jalur panjang</code></li>
+<li>Hint: <code>Tidak dapat menyetel kunci registri tanpa mengaktifkan Path panjang</code></li>
 </ul>
 </li>
 <li>Sumber masalah: Batas jalur panjang Windows diatur secara default menjadi terbatas pada 256 karakter</li>
-<li>Solusi: Unduh <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a>, ekstrak, lalu jalankan file <code>.reg</code></li>
+<li>Solusi: Unduh <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a>, ekstrak, lalu jalankan berkas <code>.reg</code></li>
 </ul>
 <h2> Kode Return: -10001</h2>
 <ul>
@@ -668,7 +691,7 @@ berisi seluruh data klien.</p>
 itu berarti operasi diblokir oleh sistem anti-bot MiHoYo BBS</li>
 <li>Solusi:
 <ul>
-<li>Masuk ke <code>Catatan Langsung</code></li>
+<li>Masuk ke <code>Catatan Realtime</code></li>
 <li>Klik tombol <code>Verify Current User and Role</code></li>
 <li>Ikuti instruksi di MiHoYo BBS untuk melakukan verifikasi</li>
 <li>Setelah menyelesaikan proses verifikasi, klik <code>Selesai</code> untuk menutup jendela verifikasi</li>
@@ -700,17 +723,17 @@ keamanan dari MiHoYo BBS, dan tidak dapat dilewati</li>
 </blockquote>
 <p>Exception HTTP ini terjadi ketika Snap Hutao gagal mengambil sumber daya remote (biasanya gambar statis dan konfigurasi)</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" alt="HttpRequestException" loading="lazy"></p>
-<p>Jika Anda menggunakan perangkat lunak proxy, Anda mungkin perlu mematikannya atau menggunakan mode proxy TUN;
+<p>Jika Anda menggunakan perangkat lunak proxy, Anda mungkin perlu mematikannya atau menggunakan proxy mode TUN;
 jika tidak, Anda perlu menggunakan <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Utilitas Batasan Loopback Kontainer APP Windows 8</a> untuk menghapus <a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">batasan loopback aplikasi Windows APP</a>.</p>
 <p>Anda juga dapat menjalankan skrip PowerShell berikut untuk menghapus semua batasan loopback kontainer</p>
 <div class="language-powershell line-numbers-mode" data-ext="powershell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> Kesalahan Menemukan Modul yang Diperlukan</h2>
-<p>Ketika pengguna meluncurkan game dengan fitur membuka pembatasan frame-rate, game mungkin gagal diluncurkan dengan munculnya kesalahan berikut:</p>
+<p>Ketika pengguna meluncurkan game dengan fitur <code>unlock frame-rate limit</code>, game mungkin akan gagal diluncurkan dengan munculnya kesalahan berikut:</p>
 <ol>
 <li>Kesalahan menemukan modul yang diperlukan: tidak dapat membaca modul apa pun, driver perlindungan mungkin telah dimuat</li>
-<li>Kesalahan menemukan modul yang diperlukan: time-out</li>
+<li>Kesalahan menemukan modul yang diperlukan: timeout</li>
 </ol>
-<p>Masalah ini hanya terjadi ketika modul anti-cheat Genshin Impact mulai lebih awal daripada modul pembuka pembatasan frame-rate.
-Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda dapat meluncurkan ulang game.</p>
+<p>Masalah ini hanya terjadi ketika modul anti-cheat Genshin Impact mulai lebih awal daripada modul <code>frame-rate-unlocker</code>.
+Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda dapat luncurkan ulang gamenya.</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" type="image/jpeg"/>
     </item>
@@ -753,23 +776,23 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
 <li>Aktifkan plugin atau instal versi aplikasi miHoYo yang telah dimodifikasi, lalu buka aplikasi miHoYo tersebut. Pada bilah bawah, ketuk "Saya," lalu masuk dengan akun Anda.</li>
 <li>Di pojok kanan atas, ketuk ikon berbentuk seperti 🔑</li>
 <li>Pilih opsi <code>Stoken</code></li>
-<li>Ketuk <code>Salin Informasi Masuk</code></li>
+<li>Ketuk <code>Copy Login Information</code></li>
 <li>Kirim Stoken yang telah disalin ke komputer yang telah terpasang Toolbox Hutao.</li>
-<li>Di tempat masuk akun Toolbox Hutao, ketuk <code>Masukan Manual</code></li>
+<li>Di tempat masuk akun Toolbox Hutao, ketuk <code>Manual Input</code></li>
 <li>Masukkan cookie yang Anda peroleh sebelumnya, sekarang Anda bisa masuk.</li>
 </ul>
 <h2> iOS</h2>
 <p>Pengguna iOS dapat mengunduh aplikasi perekam lalu lintas Stream dari App Store untuk mendapatkan cookie yang memiliki bidang Stoken.</p>
 <ul>
 <li>Unduh <a href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" rel="noopener noreferrer">Stream</a> dari App Store.</li>
-<li>Analisis lalu lintas untuk domain <code>api-takumi.mihoyo.com</code></li>
+<li>Lakukan analisa <code>packet capture</code> untuk domain <code>api-takumi.mihoyo.com</code></li>
 <li>Temukan dan salin data yang memiliki <code>Stoken</code>
 <ul>
 <li>Contoh formatnya: <code>stuid=****;stoken=v2****;mid=****;</code></li>
 </ul>
 </li>
 <li>Kirim Stoken yang telah Anda salin ke komputer yang telah terpasang Toolbox Hutao.</li>
-<li>Di tempat masuk akun Toolbox Hutao, ketuk <code>Masukan Manual</code></li>
+<li>Di tempat masuk akun Toolbox Hutao, ketuk <code>Manual Input</code></li>
 <li>Masukkan cookie yang Anda peroleh sebelumnya, sekarang Anda bisa masuk.</li>
 </ul>
 ]]></content:encoded>
@@ -817,18 +840,15 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/advanced/uninstall.html</link>
       <guid>https://hut.ao/id/advanced/uninstall.html</guid>
       <source url="https://hut.ao/id/rss.xml">Menghapus Snap Hutao</source>
-      <description>Hapus Tugas Terjadwal Catatan Real-time; Sebelum versi 1.4.15, jika langkah ini tidak dijalankan, tugas terjadwal yang digunakan untuk menyegarkan catatan real-time mungkin tida...</description>
+      <description>Hapus Scheduled Task Catatan Real-time; Sebelum versi 1.4.15, jika langkah ini tidak dijalankan, Scheduled Task yang digunakan untuk menyegarkan catatan real-time mungkin tidak ...</description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Menghapus Snap Hutao</h1>
 <ul>
-<li>Hapus Tugas Terjadwal Catatan Real-time
+<li>Hapus <code>Scheduled Task</code> Catatan Real-time
 <ul>
-<li>Sebelum versi 1.4.15, jika langkah ini tidak dijalankan, tugas terjadwal yang digunakan untuk menyegarkan catatan real-time mungkin tidak terhapus, dan Anda mungkin menghadapi <a href="/id/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">masalah ini</a>
-<ul>
+<li>Sebelum versi 1.4.15, jika langkah ini tidak dijalankan, <code>Scheduled Task</code> yang digunakan untuk menyegarkan catatan real-time mungkin tidak terhapus, dan Anda mungkin menghadapi <a href="/id/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">masalah ini</a></li>
 <li><strong>Metode 1</strong> </li>
-</ul>
-</li>
 <li><strong>Metode 2</strong>：
 <ul>
 <li>Jalankan skrip PowerShell berikut<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
@@ -836,7 +856,7 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
 </li>
 <li><strong>Metode 3</strong>：
 <ul>
-<li>Buka Pengelola Tugas Terjadwal Windows</li>
+<li>Buka Pengelola <code>Scheduled Task</code> Windows</li>
 <li>Cari tugas <code>SnapHutaoDailyNoteRefreshTask</code> dan hapus</li>
 </ul>
 </li>
@@ -889,7 +909,10 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
 <p><strong>Karena migrasi ke sertifikat baru menyebabkan konflik nama paket, Snap Hutao memberikan penjelasan terperinci berikut untuk membantu semua pengguna dalam memperbarui ke versi 1.9.0 dan versi mendatang.</strong></p>
 <h2> Upgrade ke Versi 1.9.0</h2>
 <h3> Rilis Versi</h3>
-<p>Snap Hutao versi 1.9.0 dijadwalkan rilis pada akhir pekan sebelum Natal 2023. Kami akan mempublikasikan tautan unduh untuk paket instalasi melalui GitHub, Jihu GitLab, situs web resmi ini, dan komunitas.</p>
+<p>Snap Hutao versi 1.9.0 dijadwalkan akan rilis pada akhir pekan sebelum Natal 2023. Kami akan mempublikasikan tautan unduh untuk paket instalasi melalui GitHub, Jihu GitLab, situs web resmi ini, dan komunitas.</p>
+<blockquote>
+<p>Versi 1.9.0 sudah di rilis, mohon unduh dari <a href="/id/quick-start.html" target="blank">Quick Start</a> page.</p>
+</blockquote>
 <h3> Hapus Versi Lama</h3>
 <p>Langsung menginstal paket ini akan menyebabkan masalah tergantung pada versi sistem Anda karena konflik nama paket dan tanda tangan.</p>
 <table>
@@ -914,11 +937,11 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
 <blockquote>
 <p><strong>Cara menghapus Snap Hutao</strong>: Temukan Snap Hutao di menu Start, klik kanan, dan pilih uninstall; metode lainnya adalah menemukannya di Pengaturan Aplikasi Windows dan pilih uninstall.</p>
 </blockquote>
-<p><strong>Data penting Anda (termasuk akun miHoYo yang sudah masuk, catatan harapan, data pencapaian, catatan Spiral Abyss, data cache Karakter Saya, dan rencana pengembangan) tidak akan hilang, mereka masih disimpan dalam direktori data Hutao lokal di komputer Anda.</strong> Namun, data berikut akan direset:</p>
+<p><strong>Data penting Anda (termasuk akun miHoYo yang sudah masuk, catatan wish, data achievement, catatan Spiral Abyss, data cache My Character, dan rencana pengembangan) tidak akan hilang, mereka masih disimpan dalam direktori data Hutao lokal di komputer Anda.</strong> Namun, data berikut akan direset:</p>
 <ol>
 <li>Jumlah runtime Snap Hutao</li>
 <li>Jalur folder data <strong>(jika Anda sebelumnya mengubah jalur direktori data, ingat jalur direktori data Anda)</strong></li>
-<li>Status login akun Hutao (Passport Hutao)</li>
+<li>Status login akun Hutao (Hutao Passport)</li>
 <li>Flag pengumuman Hutao tertutup</li>
 <li>Informasi level preset rencana pengembangan</li>
 <li>Status kartu dashboard di halaman utama</li>
@@ -930,7 +953,7 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
 <p><strong>Jika Anda mengubah lokasi direktori data dalam versi lama, Anda perlu memilih kembali jalur direktori data dalam pengaturan setelah mulai untuk memulihkan data. Jika Anda belum pernah menetapkan direktori data, data Anda akan dimuat langsung tanpa setup tambahan.</strong></p>
 <h2> Rencana Masa Depan</h2>
 <blockquote>
-<p>Microsoft Store, rilis mendatang, keamanan perangkat lunak...</p>
+<p>Microsoft Store, perilisan mendatang, keamanan perangkat lunak...</p>
 </blockquote>
 <p>Di Microsoft Store, nama penerbit aplikasi harus menjadi GUID yang diberikan oleh Microsoft, bukan nama "kustom" seperti <code>SignPath Foundation</code>. Kami mengantisipasi bahwa kami tidak akan melanjutkan untuk merilis pembaruan di Microsoft Store di masa depan kecuali kami memiliki cara yang lebih baik untuk menangani masalah koeksistensi antara paket tanda tangan yang berbeda. Meskipun Snap Hutao tidak akan lagi melalui sertifikasi Microsoft, di bawah pembatasan SignPath, Snap Hutao hanya akan dapat mengompilasi dan membangun paket rilis langsung dari repositori kode GitHub. Ini berarti kode dalam paket instalasi pengguna 100% bersumber dari repositori kode GitHub kami, dan siapa pun memiliki otoritas untuk meninjau dan berpartisipasi dalam pengembangan.</p>
 <p>Mulai dari versi 1.9.0 dari klien, kami akan mengintegrasikan modul pembaruan perangkat lunak untuk beradaptasi dengan metode rilis baru. Kami akan meminimalkan operasi yang diperlukan untuk pembaruan pengguna sebanyak mungkin. Karena fitur ini benar-benar baru, kami masih dalam proses implementasi. Silakan terus perhatikan pengumuman dalam aplikasi kami dan komunitas untuk informasi lebih lanjut!</p>
@@ -975,7 +998,7 @@ silakan baca panduan berikut.</p>
 <h2> </h2>
 <ol>
 <li>Unduh dan instal <code>Sysinternals Suite</code> dari <a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">Microsoft Store</a> atau <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">situs web Microsoft</a></li>
-<li>Temukan dan jalankan program <code>DebugView</code> dalam daftar aplikasi yang diinstal atau folder yang di-zip</li>
+<li>Temukan dan jalankan program <code>DebugView</code> dalam daftar aplikasi yang diinstal atau folder yang di-unzip</li>
 <li>Jalankan klien Snap Hutao</li>
 <li>Periksa keluaran DebugView</li>
 </ol>
@@ -995,25 +1018,42 @@ silakan baca panduan berikut.</p>
       <link>https://hut.ao/id/development/platform.html</link>
       <guid>https://hut.ao/id/development/platform.html</guid>
       <source url="https://hut.ao/id/rss.xml">Platform Terbuka Hutao</source>
-      <description>Proyek Snap Hutao telah mendapatkan dukungan luas dari komunitas open-source dan pengguna sejak dimulai di GitHub pada tanggal 18 April 2022. Seiring dengan evolusi proyek, kami...</description>
+      <description>Proyek Snap Hutao telah mendapatkan dukungan luas dari komunitas open source dan pengguna sejak diluncurkan di GitHub pada 18 April 2022. Seiring dengan perkembangannya, kami te...</description>
       <category>open source</category>
       <category>development</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Platform Terbuka Hutao</h1>
-<p>Proyek Snap Hutao telah mendapatkan dukungan luas dari komunitas open-source dan pengguna sejak dimulai di GitHub pada tanggal 18 April 2022. Seiring dengan evolusi proyek, kami telah membuat serangkaian layanan pendukung sebagai middleware untuk Snap Hutao.</p>
-<p>Saat ini, tim pengembang membuat beberapa layanan praktis ini tersedia bagi komunitas open-source dalam bentuk antarmuka terbuka, digunakan oleh pengembang yang memiliki visi yang sama dengan kami. Kami akan menulis dokumentasi penggunaan untuk antarmuka ini, menjaga layanan, dan memberikan jawaban untuk pertanyaan yang sering diajukan. Baik Anda pengembang berpengalaman maupun pemula, kami harap antarmuka ini akan membantu Anda dalam membuat aplikasi.</p>
-<h2> API Hutao &amp; Lisensi Pengembang Open-source Hutao Cloud</h2>
-<p>Hutao API adalah layanan antarmuka yang mengekspos Basis Data Abyssal Hutao.
-Penulis perangkat lunak open-source dapat menggunakan Hutao API untuk mengambil data dari database Hutao atau mengunggah data.</p>
-<p>Pengembang yang mendapatkan akses ke Hutao API juga menerima hak istimewa penuh ke fitur Hutao Cloud dalam Snap Hutao sebagai manfaat.</p>
-<p>Pengembang dapat mengajukan akses dengan mengirimkan informasi mereka melalui Platform Terbuka Hutao API di <a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">homa.snapgenshin.com</a></p>
+<p>Proyek Snap Hutao telah mendapatkan dukungan luas dari komunitas open source dan pengguna sejak diluncurkan
+di GitHub pada 18 April 2022. Seiring dengan perkembangannya, kami telah membuat serangkaian layanan pendukung
+sebagai middleware untuk Snap Hutao.</p>
+<p>Sekarang, tim pengembangan membuat beberapa layanan praktis ini tersedia bagi komunitas open source dalam
+bentuk antarmuka terbuka, digunakan oleh pengembang yang memiliki visi yang sama dengan kami. Kami akan menulis
+dokumentasi penggunaan untuk antarmuka ini, menjaga layanan-layanan tersebut, dan memberikan jawaban atas
+pertanyaan yang sering diajukan. Baik Anda adalah pengembang berpengalaman atau pemula, kami harap antarmuka ini
+akan membantu Anda dalam membuat aplikasi.</p>
+<h2> Hutao API &amp; Hutao Cloud Open-source Developer's License</h2>
+<p>Hutao API adalah layanan antarmuka yang mengekspos Database Abyssal Hutao.
+Pembuat perangkat lunak open source dapat menggunakan Hutao API untuk mengambil data dari basis data Hutao atau mengunggah data.</p>
+<p>Pengembang yang mendapatkan akses ke Hutao API juga menerima hak penuh ke fitur Hutao Cloud dalam Snap Hutao sebagai
+keuntungan.</p>
+<p>Pengembang dapat mengajukan akses dengan mengirimkan informasi mereka melalui Platform Terbuka Hutao API
+di <a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">homa.snapgenshin.com</a></p>
 <h2> Enka API dengan Akselerasi China</h2>
-<p><a href="https://enka.network/" target="_blank" rel="noopener noreferrer">Enka Network</a> adalah alat Genshin Impact yang sangat baik yang menyediakan data terperinci tentang karakter dalam showcase karakter saat ini pengguna. Namun, karena akses terbatas ke beberapa layanan jaringan di China, stabilitas fungsionalitas Enka Network di wilayah ini terganggu.</p>
-<p>Untuk memastikan pengalaman pengguna yang lancar bagi pengguna Snap Hutao di China, tim pengembang telah memanfaatkan data Enka Network untuk pengembangan fitur <a href="/id/features/character-data.html" target="blank">Karakter Saya</a> dan mendirikan server proxy.</p>
-<p>Pengembang dapat meminta akses dalam obrolan grup pengembangan Snap Hutao atau grup discord dari administrator.</p>
-<h2> Format Data Game UIGF yang Interoperabel</h2>
-<p>Snap Hutao bertujuan untuk memungkinkan aliran bebas data pengguna di antara berbagai alat open-source dengan fitur yang berbeda. Untuk memfasilitasi ini, Snap Hutao telah menetapkan versi awal dari <a href="https://uigf.org/en/standards/UIGF.html" target="_blank" rel="noopener noreferrer">Standar Format Log Gacha yang Interoperabel Seragam (UIGF)</a>.</p>
-<p>Sejak itu, standar ini telah mendapatkan lebih banyak pengakuan di antara para pengembang, menyebabkan promosi standar tambahan. Banyak pengembang sekarang berkumpul di bawah <a href="https://github.com/UIGF-org" target="_blank" rel="noopener noreferrer">organisasi UIGF</a>. Tujuan kami adalah untuk menjaga organisasi ini, memungkinkan pengembang untuk terhubung dengan lebih banyak pengguna, menerima umpan balik, membuat kemajuan teknis, dan membuat alat Genshin Impact open-source yang luar biasa.</p>
+<p><a href="https://enka.network/" target="_blank" rel="noopener noreferrer">Enka Network</a> adalah alat Genshin Impact yang sangat baik yang menyediakan data detail tentang
+karakter dalam showcase karakter pengguna saat ini. Namun, karena akses terbatas ke beberapa layanan jaringan tertentu
+di China, stabilitas fungsionalitas Enka Network di wilayah tersebut terganggu.</p>
+<p>Untuk memastikan pengalaman pengguna yang lancar bagi pengguna Snap Hutao di China, tim pengembangan telah
+menggunakan data Enka Network untuk pengembangan fitur <a href="/id/features/character-data.html" target="blank">Karakter Saya</a> dan
+mendirikan server proxy.</p>
+<p>Pengembang dapat meminta akses di grup obrolan pengembangan Snap Hutao atau grup discord dari administrator.</p>
+<h2> Format Data Permainan Interchangeable UIGF</h2>
+<p>Snap Hutao bertujuan untuk memungkinkan aliran bebas data pengguna di antara berbagai alat open source
+dengan fitur yang berbeda-beda. Untuk memfasilitasi hal ini, Snap Hutao telah menetapkan versi awal dari
+<a href="https://uigf.org/en/standards/UIGF.html" target="_blank" rel="noopener noreferrer">Standar Uniformed Interchangeable GachaLog Format (UIGF)</a>.</p>
+<p>Sejak itu, standar ini telah mendapatkan pengakuan lebih dari pengembang, mengarah pada promosi standar tambahan.
+Banyak pengembang sekarang berkumpul di bawah <a href="https://github.com/UIGF-org" target="_blank" rel="noopener noreferrer">organisasi UIGF</a>. Tujuan kami adalah
+untuk menjaga organisasi ini, memungkinkan pengembang untuk terhubung dengan lebih banyak pengguna, menerima umpan
+balik, membuat kemajuan teknis, dan menciptakan alat Genshin Impact open source yang luar biasa.</p>
 ]]></content:encoded>
     </item>
     <item>
