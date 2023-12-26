@@ -108,6 +108,8 @@ export default hopeTheme({
       inputPosition: "bottom"
     },
 
+    copyCode: {},
+
     components: {
       components: ["Badge", "BiliBili", "VPCard", "VPBanner"],
       rootComponents: {

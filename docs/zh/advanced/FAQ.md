@@ -9,13 +9,15 @@ comment: false
 
 # 常见问题
 
+> 请使用**网页右上角的搜索框**或 **浏览器内置的搜索功能（快捷键 `ctrl+F`）** 搜索诸如错误代码之类的关键词来提高你的查询效率
+
 ## 安装篇
 
 ### 使用 MSIX 安装包安装时进度卡在`正在安装所需框架`
 
 - 当用户系统缺少必要依赖环境时，系统会自动安装所需依赖。若用户禁用了 Windows Update 组件或网络条件差时，系统无法完成该步骤。
-  - 请确保 Windows Update 已启用；胡桃工具箱升级同样依赖于 Windows Update 组件
-  - 你亦可以手动下载并安装[胡桃的相关依赖](https://d.hut.ao/releases/Dependency)
+  - 请确保 Windows Update 已启用；胡桃工具箱的安装过程依赖于 Windows Update 组件
+  - 你亦可以手动下载并安装[胡桃的相关依赖](dependency.md)
 
 ### 为什么程序会出现乱码现象
 
@@ -31,16 +33,15 @@ comment: false
 
 ### 我的计算机无法打开 MSIX 格式的安装包
 
-你的计算机缺少了 Windows 系统重要组件，你可能是盗版软件的受害者。
+你的计算机缺少了 Windows 系统重要组件 App Installer，你可能是盗版软件的受害者。
 
-请使用微软官方的最新完整版消费者 [Windows 10](https://www.microsoft.com/zh-cn/software-download/windows10) 或 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11) 镜像。
-使用微软官方的提供的 Windows 10 升级助手和 Windows 11 安装助手可以帮助你简单地在保留数据的情况下升级至最新完整版 Windows。
+如果你的系统中装有 Microsoft Store，可以从 [App Installer 商店页](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US)重新安装来恢复该组件。
 
-请勿使用来源不明的破解版、精简版系统镜像。
+如果你没有Windows Store，请使用微软官方的最新完整版消费者 [Windows 10](https://www.microsoft.com/zh-cn/software-download/windows10) 或 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11) 镜像。 使用微软官方的提供的 Windows 10 升级助手和 Windows 11 安装助手可以帮助你简单地在保留数据的情况下升级至最新完整版 Windows。**请勿使用来源不明的破解版、精简版系统镜像。**
 
 ### MSIX 安装包提示 `无法验证此应用包的发布者证书` 错误并无法安装
 
-你的 Windows Update 模块被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。这是一个严重的系统安全风险，请及时更新你的系统或使用微软官方的升级助手修复你的操作系统。
+你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。
 
 Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载[该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt)并添加到你的系统中的可信任的根证书授权机构模块中。
 
@@ -48,28 +49,26 @@ Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://s
 
 如果你使用的 Windows 家庭版操作系统，请尝试打开系统设置中的开发者模式以解决该问题
 
-### 安装 MSIX 安装包时提示 0x80040154 错误
+### 安装 MSIX 安装包时失败并有错误提示
 
-该问题包含两种不同的错误提示
+| 错误信息              | 原因                             |
+| --------------------- | -------------------------------- |
+| `0x80040154` 错误代码 | 错误的Windows用户账户权限        |
+| `应用未启动` 错误提示 | App Installer 权限错误或已被破坏 |
+| `0x80073CF0` 错误代码 | 错误的目录权                     |
+| `0x80070005` 错误代码 | 错误的Windows用户账户权限        |
+| `0x80070570` 错误代码 | 错误的Windows用户账户权限        |
+| `0x8007065E` 错误代码 | 错误的Windows用户账户权限        |
 
-1. `使用程序包 60568DGPStudio.SnapHutao_1.9.1.0_x64__ebfp3nyc27j86 中的目标卷 C: 执行的部署 Add 操作失败，错误为 0x80040154`
-2. `应用安装失败，错误消息：没有注册类 0x80040154`
+如果你在安装失败时收到了上面的错误提示，请尝试下面的步骤来解决问题：
 
-该问题来源于被恶意禁用或修改的系统组件、服务、注册表项目或组策略。微软建议重新安装完整系统以修复该问题。
-
-如果你有更多的线索可以在 [https://github.com/DGP-Studio/Snap.Hutao/issues/1223](https://github.com/DGP-Studio/Snap.Hutao/issues/1223) 议题中回复。
-
-### 双击打开 MSIX 文件时跳出错误显示应用未启动
-
-该问题有缓解的方法，但我们需要更多的用户帮助我们排查造成该问题的原因。
-
-如果你有线索，可以在 [https://github.com/DGP-Studio/Snap.Hutao/issues/1222](https://github.com/DGP-Studio/Snap.Hutao/issues/1222) 议题中回复。
-
-## 安装 MSIX 安装包时提示 0x80073CF0 错误
-
-该问题造成的原因未知，我们需要更多的用户提交错误信息以帮助我们排查问题。
-
-如果你有线索，可以在 [https://github.com/DGP-Studio/Snap.Hutao/issues/1221](https://github.com/DGP-Studio/Snap.Hutao/issues/1221) 议题中回复。
+1. 手动下载并安装[胡桃的相关依赖](dependency.md)
+2. 在 Windows 开始菜单按钮上右键，选择 `PowerShell (管理员)`
+3. 在打开的窗口中复制下面的代码并回车执行（在PowerShell中鼠标右键就是粘贴）
+   ```PowerShell :no-line-numbers
+   cd $env:USERPROFILE\Downloads; $url="https://api.snapgenshin.com/patch/hutao/download"; $targetFileName="Snap.Hutao.latest.msix"; $targetFilePath=Join-Path -Path $PWD -ChildPath $targetFileName; Invoke-WebRequest -Uri $url -OutFile $targetFilePath; Add-AppxPackage -Path $targetFilePath; Remove-Item -Path $targetFilePath
+   ```
+4. 如果 PowerShell 没有任何错误输出，意味着安装成功。请在开始菜单中的全部应用列表中寻找 `Snap Hutao`并启动
 
 ### 能不能通过添加缺少的系统组件来实现胡桃的安装
 
