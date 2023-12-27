@@ -41,7 +41,7 @@ comment: false
 
 ### MSIX 安装包提示 `无法验证此应用包的发布者证书` 错误并无法安装
 
-你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。
+该问题常见于 Windows 家庭版系统。如果你使用的不是家庭版系统，则你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。
 
 Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载[该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt)并添加到你的系统中的可信任的根证书授权机构模块中。
 
