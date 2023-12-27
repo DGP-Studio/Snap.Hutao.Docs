@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 26 Dec 2023 03:26:17 GMT</pubDate>
-    <lastBuildDate>Tue, 26 Dec 2023 03:26:17 GMT</lastBuildDate>
+    <pubDate>Wed, 27 Dec 2023 21:19:05 GMT</pubDate>
+    <lastBuildDate>Wed, 27 Dec 2023 21:19:05 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -965,7 +965,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>如果你的系统中装有 Microsoft Store，可以从 <a href="https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&amp;gl=US" target="_blank" rel="noopener noreferrer">App Installer 商店页</a>重新安装来恢复该组件。</p>
 <p>如果你没有Windows Store，请使用微软官方的最新完整版消费者 <a href="https://www.microsoft.com/zh-cn/software-download/windows10" target="_blank" rel="noopener noreferrer">Windows 10</a> 或 <a href="https://www.microsoft.com/zh-cn/software-download/windows11" target="_blank" rel="noopener noreferrer">Windows 11</a> 镜像。 使用微软官方的提供的 Windows 10 升级助手和 Windows 11 安装助手可以帮助你简单地在保留数据的情况下升级至最新完整版 Windows。<strong>请勿使用来源不明的破解版、精简版系统镜像。</strong></p>
 <h3> MSIX 安装包提示 <code>无法验证此应用包的发布者证书</code> 错误并无法安装</h3>
-<p>你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。</p>
+<p>该问题常见于 Windows 家庭版系统。如果你使用的不是家庭版系统，则你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。</p>
 <p>Snap Hutao 的软件证书来源于 <a href="https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates" target="_blank" rel="noopener noreferrer">GlobalSign Code Signing Root R45</a>，你可以手动从 GlobalSign 官网下载<a href="https://secure.globalsign.com/cacert/codesigningrootr45.crt" target="_blank" rel="noopener noreferrer">该证书</a>并添加到你的系统中的可信任的根证书授权机构模块中。</p>
 <h3> MSIX 安装包提示组策略错误或需要 Windows 开发者许可证错误并无法安装</h3>
 <p>如果你使用的 Windows 家庭版操作系统，请尝试打开系统设置中的开发者模式以解决该问题</p>
