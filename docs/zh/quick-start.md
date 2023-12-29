@@ -40,7 +40,7 @@ order: 5
     desc="我们会在用户社区手动分发安装包"
     logo="/images/202312/community.svg"
     link="community.html"
-    background="rgba(253, 233, 233, 0.45)"
+    background="rgba(242, 255, 28, 0.25)"
   />
   <VPCard
     title="胡桃自动判断"
@@ -62,6 +62,13 @@ order: 5
     logo="/images/202312/jihulab.svg"
     link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
     background="rgba(244, 125, 63, 0.15)"
+  />
+  <VPCard
+    title="Snap.Hutao.Deployment"
+    desc="开发组自制的一键安装包，将同时安装所有需要的组件。适合使用MSIX安装失败的用户。"
+    logo="/images/202312/DGP-v3.webp"
+    link="https://api.snapgenshin.com/patch/hutao-deployment/download"
+    background="rgba(88, 164, 255, 0.15)"
   />
 </div>
 

@@ -41,7 +41,7 @@ You can use MSIX package to install Snap Hutao, you can find pakcage from the fo
     desc="We will manually upload package in the community after each update"
     logo="/images/202312/community.svg"
     link="community.html"
-    background="rgba(253, 233, 233, 0.45)"
+    background="rgba(242, 255, 28, 0.25)"
   />
   <VPCard
     title="Hutao Auto Download"
@@ -63,6 +63,13 @@ You can use MSIX package to install Snap Hutao, you can find pakcage from the fo
     logo="/images/202312/jihulab.svg"
     link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
     background="rgba(244, 125, 63, 0.15)"
+  />
+  <VPCard
+    title="Snap.Hutao.Deployment"
+    desc="Installer designed by DGP-Studio, will install missing required framework. Good for users failed MSIX installation"
+    logo="/images/202312/DGP-v3.webp"
+    link="https://api.snapgenshin.com/patch/hutao-deployment/download"
+    background="rgba(88, 164, 255, 0.15)"
   />
 </div>
 

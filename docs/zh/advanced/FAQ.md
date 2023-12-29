@@ -19,7 +19,7 @@ comment: false
   - 请确保 Windows Update 已启用；胡桃工具箱的安装过程依赖于 Windows Update 组件
   - 你亦可以手动下载并安装[胡桃的相关依赖](dependency.md)
 
-### 为什么程序会出现乱码现象
+### 为什么程序中的图标会出现乱码现象
 
 - 当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
   - 可以下载 `Segoe Fluent Icons`字体
@@ -28,8 +28,7 @@ comment: false
 
 ### 为什么程序会提示注册计划任务失败
 
-使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
-继续使用管理员模式即可解决该问题。
+打开 Windows 计划任务程序，找到 `SnapHutaoDailyNoteRefreshTask` 任务并删除
 
 ### 我的计算机无法打开 MSIX 格式的安装包
 
@@ -92,7 +91,7 @@ Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://s
 - 右键，点击`创建快捷方式`
 - 根据提示操作你就可以获得一个桌面快捷方式了
 
-### 如何添加一个默认以管理员方式运行的快捷方式
+### 如何创建胡桃的桌面快捷方式 （管理员模式）
 
 你可以在程序设置页面中点击`创建快捷方式`来在桌面上添加一个具有管理员权限的快捷方式
 
@@ -212,7 +211,18 @@ plugin_7_version=1.0.0
 
 ### 如何通过网络代理使用胡桃工具箱
 
-参考 [HttpRequestException 错误](exceptions.html#_502-bad-gateway) 文档
+> Snap Hutao 有着良好的云端网络结构，在全球各地你都能获得良好的网络服务
+
+所有的 Windows Appx 容器应用（包括 Snap Hutao）都被禁用了 Loopback 网络，因此使用一些现代化的网络代理软件时会导致容器化应用无法访问互联网，进而导致程序错误。
+
+如果你需要通过网络代理使用 Snap Hutao，你有两种方法：
+
+1. 在网络代理软件中启用 TUN 模式
+2. 使用 [Windows 8 AppContainer Loopback Utility](https://www.telerik.com/fiddler/add-ons) 解除 Windows App Container Loopback 限制
+   - 如果你不介意网络安全问题，可以使用下面的 PowerShell 命令解除计算机中所有容器化应用的 Loopback 限制
+   ```PowerShell :no-line-numbers
+   FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"') DO CheckNetIsolation.exe LoopbackExempt -a -p=%p
+   ```
 
 ## 卸载篇
 
