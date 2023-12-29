@@ -1,13 +1,15 @@
 # Code of Conduct
 
-> Snap Hutao is adapting the following rules to keep the community safety.
+> At Snap Hutao, we are committed to maintaining a safe, welcoming, and inclusive community. To ensure a positive experience for all members, we have established the following Code of Conduct:
 
-When participating in our open source community, we want all members to respect and support each other. To ensure the comfort and safety of our community members, we have established the following code of conduct:
+1. **Respect for Diversity and Inclusion:** We value and embrace diversity in all its forms, including but not limited to nationality, gender identity, sexual orientation, ethnicity, religion, age, ability, and socio-economic background. We encourage mutual respect and understanding among all community participants.
 
-1. Respect diversity and inclusivity. We welcome people from different countries, regions, genders, sexual orientations, abilities, religions, and cultural backgrounds to participate in our community, and we encourage respect for all differences.
-2. Prohibit discrimination and harassment. We do not tolerate any form of discrimination, harassment, personal attacks, or insults. This includes but is not limited to race, gender, sexual orientation, age, religion, nationality, cultural background, physical and mental health status.
-3. Respect privacy and personal information. We protect the privacy and personal information of community members and prohibit the public disclosure of any private information. If you need to disclose certain information, please make sure you have obtained the relevant person's permission.
-4. Keep honesty and transparency. We expect community members to maintain honesty and transparency and not intentionally mislead or deceive others.
-5. Respect community rules and other members. We encourage community members to follow community rules and guidelines and maintain a polite and respectful attitude towards other members. If you find that other members are violating community rules, please report it to community administrators or organizers in a timely manner.
+2. **Zero Tolerance for Discrimination and Harassment:** Discrimination, harassment, personal attacks, or any form of derogatory behavior will not be tolerated. This includes actions or comments targeting individuals based on race, gender, sexual orientation, age, religion, nationality, cultural background, physical or mental health status.
 
-The above is our community's code of conduct, and we expect all community members to abide by these rules. We will actively address behaviors that violate these rules. We believe that through mutual respect and support, we can build a friendly, inclusive, and beneficial open source community.
+3. **Protection of Privacy and Confidentiality:** We prioritize the protection of personal information and privacy. Community members are prohibited from disclosing others' private information without explicit consent. Any information shared within the community should be done so respectfully and with the individual's permission.
+
+4. **Commitment to Honesty and Transparency:** We expect all community members to communicate truthfully and transparently. Intentional misinformation or deceitful actions are not acceptable within our community.
+
+5. **Adherence to Community Guidelines:** We encourage members to familiarize themselves with and adhere to the community guidelines. Respecting these guidelines fosters a harmonious environment. If any member notices a violation of these guidelines, we urge them to report it promptly to the community administrators or organizers.
+
+All community members must adhere to these principles. Any behavior contrary to this Code of Conduct will be addressed promptly and appropriately. We firmly believe that by respecting each other and upholding these standards, we can build a community that is not only friendly and inclusive but also beneficial for all.
