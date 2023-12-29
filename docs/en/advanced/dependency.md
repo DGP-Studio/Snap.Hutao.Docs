@@ -1,5 +1,8 @@
 ---
-category: [FAQ, dependency, installation]
+category:
+  - FAQ
+  - dependency
+  - installation
 icon: iconfont icon-structure
 order: 6
 comment: false
@@ -16,5 +19,5 @@ If you are in a poor network, you may slow or even stuck at framework installati
 download the framework from Microsoft website and install it manually.
 
 1. Visit Microsoft document page：[Latest downloads for the Windows App SDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads)
-2. Click on `Dwonload the latest x64 stable installer` to download the offline installer
+2. Click on `Download the latest x64 stable installer` to download the offline installer
 3. Run Windows App Runtime installer you just downloaded, and then install Snap Hutao

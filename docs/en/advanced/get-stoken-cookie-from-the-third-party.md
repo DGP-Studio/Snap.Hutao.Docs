@@ -40,7 +40,7 @@ Android users can utilize the open-source project GetToken to acquire cookies co
 
 ## iOS
 
-iOS users can download the packet capture software Stream from the App Store to obtain cookies containing the Stoken field.
+iOS Users can download the packet capture software Stream from the App Store to obtain cookies containing the Stoken field.
 
 - Download [Stream](https://apps.apple.com/cn/app/stream/id1312141691) from the App Store.
 - Perform packet capture analysis on the domain `api-takumi.mihoyo.com`.

@@ -14,5 +14,5 @@ Snap Hutao bergantung pada Windows App Runtime sebagai Dependency, ketika sistem
 Jika Anda berada dalam jaringan yang buruk, Anda mungkin mengalami kelambatan atau bahkan terhenti pada tahap instalasi framework. Dalam skenario seperti itu, Anda dapat mengunduh framework dari situs web Microsoft dan menginstalnya secara manual.
 
 1. Kunjungi halaman dokumen Microsoft: [Unduhan terbaru untuk Windows App SDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads)
-2. Klik `Dwonload the latest x64 stable installer` untuk mengunduh instalator offline
+2. Klik `Download the latest x64 stable installer` untuk mengunduh instalator offline
 3. Jalankan instalator Windows App Runtime yang baru saja Anda unduh, lalu instal Snap Hutao
