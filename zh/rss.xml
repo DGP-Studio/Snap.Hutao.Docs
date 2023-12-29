@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 27 Dec 2023 21:19:05 GMT</pubDate>
-    <lastBuildDate>Wed, 27 Dec 2023 21:19:05 GMT</lastBuildDate>
+    <pubDate>Fri, 29 Dec 2023 07:11:33 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Dec 2023 07:11:33 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -947,7 +947,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
-<h3> 为什么程序会出现乱码现象</h3>
+<h3> 为什么程序中的图标会出现乱码现象</h3>
 <ul>
 <li>当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
 <ul>
@@ -958,8 +958,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>您可以从 <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">微软官方</a>下载到该字体文件</li>
 </ul>
 <h3> 为什么程序会提示注册计划任务失败</h3>
-<p>使用管理员模式使用一次实时便笺后，胡桃的任务计划会被以管理员权限创建。当再次以非管理员模式启动胡桃时，程序在修改计划任务时会缺少权限。
-继续使用管理员模式即可解决该问题。</p>
+<p>打开 Windows 计划任务程序，找到 <code>SnapHutaoDailyNoteRefreshTask</code> 任务并删除</p>
 <h3> 我的计算机无法打开 MSIX 格式的安装包</h3>
 <p>你的计算机缺少了 Windows 系统重要组件 App Installer，你可能是盗版软件的受害者。</p>
 <p>如果你的系统中装有 Microsoft Store，可以从 <a href="https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&amp;gl=US" target="_blank" rel="noopener noreferrer">App Installer 商店页</a>重新安装来恢复该组件。</p>
@@ -1030,7 +1029,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>右键，点击<code>创建快捷方式</code></li>
 <li>根据提示操作你就可以获得一个桌面快捷方式了</li>
 </ul>
-<h3> 如何添加一个默认以管理员方式运行的快捷方式</h3>
+<h3> 如何创建胡桃的桌面快捷方式 （管理员模式）</h3>
 <p>你可以在程序设置页面中点击<code>创建快捷方式</code>来在桌面上添加一个具有管理员权限的快捷方式</p>
 <p>你可以移动这个快捷方式到你想要的地方，包括但不限于任务栏和开始菜单</p>
 <h3> 如何让胡桃工具箱开机自动启动</h3>
@@ -1138,7 +1137,19 @@ Snap.Genshin 已停止更新，项目已归档</p>
 
 <h2> 网络篇</h2>
 <h3> 如何通过网络代理使用胡桃工具箱</h3>
-<p>参考 <a href="/zh/advanced/exceptions.html#_502-bad-gateway" target="blank">HttpRequestException 错误</a> 文档</p>
+<blockquote>
+<p>Snap Hutao 有着良好的云端网络结构，在全球各地你都能获得良好的网络服务</p>
+</blockquote>
+<p>所有的 Windows Appx 容器应用（包括 Snap Hutao）都被禁用了 Loopback 网络，因此使用一些现代化的网络代理软件时会导致容器化应用无法访问互联网，进而导致程序错误。</p>
+<p>如果你需要通过网络代理使用 Snap Hutao，你有两种方法：</p>
+<ol>
+<li>在网络代理软件中启用 TUN 模式</li>
+<li>使用 <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a> 解除 Windows App Container Loopback 限制
+<ul>
+<li>如果你不介意网络安全问题，可以使用下面的 PowerShell 命令解除计算机中所有容器化应用的 Loopback 限制</li>
+</ul>
+<div class="language-PowerShell" data-ext="PowerShell"></div></li>
+</ol>
 <h2> 卸载篇</h2>
 <h3> 为什么会弹出需要使用新应用以打开的对话框</h3>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg_.webp" alt="uninstall-error" loading="lazy"></p>

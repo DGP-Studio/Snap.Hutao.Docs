@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 27 Dec 2023 21:19:05 GMT</pubDate>
-    <lastBuildDate>Wed, 27 Dec 2023 21:19:05 GMT</lastBuildDate>
+    <pubDate>Fri, 29 Dec 2023 07:11:33 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Dec 2023 07:11:33 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -175,7 +175,7 @@ install this framework before Snap Hutao's installation.</p>
 download the framework from Microsoft website and install it manually.</p>
 <ol>
 <li>Visit Microsoft document page：<a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads" target="_blank" rel="noopener noreferrer">Latest downloads for the Windows App SDK</a></li>
-<li>Click on <code>Dwonload the latest x64 stable installer</code> to download the offline installer</li>
+<li>Click on <code>Download the latest x64 stable installer</code> to download the offline installer</li>
 <li>Run Windows App Runtime installer you just downloaded, and then install Snap Hutao</li>
 </ol>
 ]]></content:encoded>
@@ -584,7 +584,7 @@ verification, then your account can be used to refresh data.</p>
 <li>Enter the previously obtained cookie. You should now complete the login process.</li>
 </ul>
 <h2> iOS</h2>
-<p>iOS users can download the packet capture software Stream from the App Store to obtain cookies containing the Stoken field.</p>
+<p>iOS Users can download the packet capture software Stream from the App Store to obtain cookies containing the Stoken field.</p>
 <ul>
 <li>Download <a href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" rel="noopener noreferrer">Stream</a> from the App Store.</li>
 <li>Perform packet capture analysis on the domain <code>api-takumi.mihoyo.com</code>.</li>
@@ -763,14 +763,95 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
       <link>https://hut.ao/en/advanced/FAQ.html</link>
       <guid>https://hut.ao/en/advanced/FAQ.html</guid>
       <source url="https://hut.ao/en/rss.xml">FAQ</source>
-      <description>How to create desktop shortcut (with no admin privilege) Community Power Thanks to solution provided by CzHUV (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)。 Use Win+...</description>
+      <description>Please use search bar on the top right or browser built-in search (ctrl+F) to search keyword such as error code to improve your searching efficiency Installation FAQ Stuck at In...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:35 GMT</pubDate>
       <content:encoded><![CDATA[<h1> FAQ</h1>
-<h2> How to create desktop shortcut (with no admin privilege)</h2>
+<blockquote>
+<p>Please use <strong>search bar on the top right</strong> or <strong>browser built-in search <code>(ctrl+F)</code></strong> to search keyword such as error code to improve your searching efficiency</p>
+</blockquote>
+<h2> Installation FAQ</h2>
+<h3> Stuck at <code>Installing Required Framework</code> when Using MSIX Package to Install</h3>
+<ul>
+<li>When user's OS missing required dependency framework, Windows will download and install it automatically.
+However, if the user disabled Windows Update or have a bad network, the system is unable to process this installation.
+<ul>
+<li>Make sure Windows Update is enabled</li>
+<li>You can also download and install the <a href="/en/advanced/dependency.html" target="blank">dependency</a> manually</li>
+</ul>
+</li>
+</ul>
+<h3> Mojibake in Snap Hutao Icons</h3>
+<ul>
+<li>If you are using Windows 10 and see some button are not display properly
+<ul>
+<li>You can download <code>Segoe Fluent Icons</code> font</li>
+<li>You need to install it for all users</li>
+</ul>
+</li>
+<li>You can find this font from <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">Microsoft</a></li>
+</ul>
+<h3> Snap Hutao Throws Failed to add Scheduled Task Error</h3>
+<p>Open Windows Task Scheduler, find and delete <code>SnapHutaoDailyNoteRefreshTask</code> task</p>
+<h3> My Computer Cannot Open MSIX Format Installer</h3>
+<p>Your computer is missing the App Installer, an important component of the Windows system.</p>
+<p>If Microsoft Store is installed on your system, you can restore this component by reinstalling it from the <a href="https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&amp;gl=US" target="_blank" rel="noopener noreferrer">App Installer Store Page</a>.</p>
+<p>If you don’t have Windows Store, please use the latest full version of Microsoft’s official consumer version <a href="https://www.microsoft.com/zh-cn/software-download/windows10" target="_blank" rel="noopener noreferrer">Windows 10</a> or <a href="https://www.microsoft.com/zh-cn/software-download/windows11" target="_blank" rel="noopener noreferrer">Windows 11</a> mirror. Using the Windows 10 Upgrade Assistant and Windows 11 Installation Assistant provided by Microsoft can help you simply upgrade to the latest full version of Windows while retaining your data.</p>
+<h3> Got <code>This app package’s publisher certificate could not be verified</code> Error when Install with MSIX Package</h3>
+<p>This issue is commonly seen in Home Edition of Windows. If you are not using a Home Edition, your Windows Update module may be disabled or cracked, this cause worldwide CA certificates cannot be updated from Microsoft servers.</p>
+<p>Snap Hutao's code signing certificate comes from <a href="https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates" target="_blank" rel="noopener noreferrer">GlobalSign Code Signing Root R45</a>, you can manually download <a href="https://secure.globalsign.com/cacert/codesigningrootr45.crt" target="_blank" rel="noopener noreferrer">this CA certificate</a> from GlobalSign official website.</p>
+<h3> Got <code>Policy check failed</code> Error when Install with MSIX Package</h3>
+<p>If you are using Windows Home Edition, please try to enable developer mode in your system settings and try the installation again.</p>
+<h3> Got Error Prompt or Error Code when Install with MSIX Package</h3>
+<table>
+<thead>
+<tr>
+<th>Error</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0x80040154</code> Error Code</td>
+<td>Broken Windows account permission</td>
+</tr>
+<tr>
+<td><code>The app did not start</code> Error Prompt</td>
+<td>Cracked App Installer or broken App Installer permission</td>
+</tr>
+<tr>
+<td><code>0x80073CF0</code> Error Code</td>
+<td>Broken folder permission</td>
+</tr>
+<tr>
+<td><code>0x80070005</code> Error Code</td>
+<td>Broken Windows account permission</td>
+</tr>
+<tr>
+<td><code>0x80070570</code> Error Code</td>
+<td>Broken Windows account permission</td>
+</tr>
+<tr>
+<td><code>0x8007065E</code> Error Code</td>
+<td>Broken Windows account permission</td>
+</tr>
+</tbody>
+</table>
+<p>If you got any of error showing above, please use the following steps to solve the issue:</p>
+<ol>
+<li>Manually download and install <a href="/en/advanced/dependency.html" target="blank">Snap Hutao Dependency</a></li>
+<li>Right click on Windows Start button, and select <code>PowerShell (Admin)</code></li>
+<li>In the PowerShell windows, copy and paste the following command and run it (Right-click is paste feature in PowerShell)<div class="language-PowerShell" data-ext="PowerShell"></div></li>
+<li>If PowerShell does not outcome any error message, then it means installation is successful. Please find <code>Snap Hutao</code> in your Start Menu and enjoy it.</li>
+</ol>
+<h3> Can I Add Missing System Components to Install Snap Hutao</h3>
+<p>Probably not if you are asking this, because you are not familiar with your system.</p>
+<p>You don't know how many components are missing. When you install the one that tell you in the error message, you will see next missing component in the next error message, endless.</p>
+<h3> Starting FAQ</h3>
+<h3> How to Create Desktop Shortcut (with No Admin Privilege)</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">Community Power</p>
-<p>Thanks to <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">solution provided by CzHUV</a>。</p>
+<p>Thanks to <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV</a> for the solution.</p>
 </div>
 <ul>
 <li>Use <code>Win+R</code> to start run, in the window input <code>shell:AppsFolder</code> <img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" alt="Run" loading="lazy"></li>
@@ -778,17 +859,29 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
 <li>Right lick on it, and click <code>Create shortcut</code></li>
 <li>Confirm the operation and you will get the desktop shortcut</li>
 </ul>
-<h2> How to create desktop shortcut with Administrator privilege</h2>
-<p>Starting from Snap Hutao 1.7.4, you can create a desktop shortcut with Administrator privilege by click <code>Create Desktop Shortcut</code>
-in the settings page.</p>
+<h3> How to Create Desktop Shortcut (With Admin Privilege)</h3>
+<p>Click <code>Create Desktop Shortcut</code> in the settings page.</p>
 <p>You can move this shortcut to any place you need.</p>
-<h2> How to run Snap Hutao when Windows starts</h2>
+<h3> How to run Snap Hutao when Windows starts</h3>
 <p><strong>This is a workaround solution</strong></p>
 <ul>
 <li>Create a bat file, content refers to <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">this Issue</a>, it allows bat to run Snap Hutao with Administrator privilege</li>
 <li>Create a Scheduled Task, run the bat when Windows startup, or drag it to Windows start folder</li>
 </ul>
-<h2> Use Snap Hutao to quick start the game</h2>
+<h3> Unable to Run Snap Hutao as Administrator</h3>
+<blockquote>
+<p>This issue only occurs in Windows 10 older than 22H2 version</p>
+</blockquote>
+<ul>
+<li>When user's OS version older than <code>Windows Build 19045</code> (aka Windows 10 22H2), Snap Hutao is unable to start when
+running as Administrator
+<ul>
+<li>This issue comes from Windows kernel, and it's hard to locate, so we suggest you to update your OS to the latest version</li>
+</ul>
+</li>
+</ul>
+<h2> Feature FAQ</h2>
+<h3> Use Snap Hutao to quick start the game</h3>
 <ul>
 <li>
 <p>Config the game launcher in the settings</p>
@@ -804,19 +897,7 @@ in the settings page.</p>
 <p>Select <code>Lauch Game</code>, you will be asked which account to start the game</p>
 </li>
 </ul>
-<h2> Use Snap Hutao with Network Proxy</h2>
-<p>Refer to <a href="/en/advanced/exceptions.html#_502-bad-gateway" target="blank">HttpRequestException Error (502)</a> document</p>
-<h2> Mojibake in Snap Hutao</h2>
-<ul>
-<li>If you are using Windows 10 and see some button are not display properly
-<ul>
-<li>You can download <code>Segoe Fluent Icons</code> font</li>
-<li>You need to install it for all users</li>
-</ul>
-</li>
-<li>You can find this font from <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">Microsoft</a></li>
-</ul>
-<h2> MiHoYo BBS Account often Lose Login Status</h2>
+<h3> MiHoYo BBS Account often Lose Login Status</h3>
 <p>Snap Hutao use saved MiHoYo BBS cookies to maintain login status. If you <strong>log out</strong> your account in your browser or
 other device, cookie will become invalid, and Snap Hutao will also be forced to log out, account will be automatically
 removed.</p>
@@ -824,7 +905,7 @@ removed.</p>
 you can use <code>Refresh Cookie</code> in the account panel; You can also remove your account manually and add it back again.</p>
 <p>Since October 2022, MiYouShe (Chinese BBS) rapidly increased bot detection and may set users' account as under-risk status,
 this may cause Snap Hutao failed to check validation of the cookie</p>
-<h2> Game Account Lose Login Status in the Launcher</h2>
+<h3> Game Account Lose Login Status in the Launcher</h3>
 <ul>
 <li>There are two factors associated with game account login status: network and device ID</li>
 <li>This issue usually caused by:
@@ -841,40 +922,29 @@ this may cause Snap Hutao failed to check validation of the cookie</p>
 </ul>
 </li>
 </ul>
-<h2> Snap Hutao Throws Failed to add Scheduled Task Error</h2>
-<p>If you are using Administrator privilege to start real-time notes feature, Snap Hutao's scheduled task will be created
-as Administrator role. When next time edit real-time notes settings without Administrator privilege, the program will
-have a lack of privilege to edit the settings and throw out this error.</p>
-<p>Run Snap Hutao as Administrator to edit your settings to solve this issue.</p>
-<h2> Stuck at <code>Installing Required Framework</code> when Using MSIX Package to Install</h2>
-<ul>
-<li>When user's OS missing required dependency framework, Windows will download and install it automatically.
-However, if the user disabled Windows Update or have a bad network, the system is unable to process this installation.
-<ul>
-<li>Make sure Windows Update is enabled; Snap Hutao's update also relies on it</li>
-<li>You can also download and install the <a href="ttps://d.hut.ao/releases/Dependency">dependency</a> manually</li>
-</ul>
-</li>
-</ul>
-<h2> Unable to Run Snap Hutao as Administrator</h2>
-<blockquote>
-<p>This issue only occurs in Windows 10 older than 22H2 version</p>
-</blockquote>
-<ul>
-<li>When user's OS version older than <code>Windows Build 19045</code> (aka Windows 10 22H2), Snap Hutao is unable to start when
-running as Administrator
-<ul>
-<li>This issue comes from Windows kernel, and it's hard to locate, so we suggest you to update your OS to the latest version</li>
-</ul>
-</li>
-</ul>
-<h2> How to Recover <code>config.ini</code> Configuration File</h2>
+<h3> How to Recover <code>config.ini</code> Configuration File</h3>
 <p>In some particular conditions (such as wrong game folder permission), <code>config.ini</code> may lose after server conversion.
 This will cause user not able to get into advanced launcher page and launch the game.</p>
 <p>After identify the server version on your device, you can manually create and fill the configuration file with the right
 content. The following are common configurations.</p>
 
-<h2> How to Fully Backup/Recover Client Data</h2>
+<h2> Network FAQ</h2>
+<h3> Use Snap Hutao with Network Proxy</h3>
+<blockquote>
+<p>Snap Hutao has a well-designed cloud network structure, you should be able to get good network service wherever you are located</p>
+</blockquote>
+<p>Loopback network are disabled for all Windows Appx container application (including Snap Hutao), so some modern network proxy software will cause container applications to lose Internet access, and lead to application errors.</p>
+<p>If you need network proxy to use Snap Hutao, you have two ways to fix it:</p>
+<ol>
+<li>Enable <code>TUN Mode</code> in your network proxy software</li>
+<li>Use <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a> to unlock Windows App Container Loopback limit
+<ul>
+<li>If network security is not a concern for you, you can use the following PowerShell command to unlock all container loopback limit in your computer</li>
+</ul>
+<div class="language-PowerShell" data-ext="PowerShell"></div></li>
+</ol>
+<h2> Uninstallation FAQ</h2>
+<h3> How to Fully Backup/Recover Client Data</h3>
 <div class="hint-container warning">
 <p class="hint-container-title">Data Security Warning</p>
 <p><code>Userdata.db</code> contains all client data, including MiHoYO BBS Cookie, please save the data file properly and do NOT share it

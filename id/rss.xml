@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Wed, 27 Dec 2023 21:19:05 GMT</pubDate>
-    <lastBuildDate>Wed, 27 Dec 2023 21:19:05 GMT</lastBuildDate>
+    <pubDate>Fri, 29 Dec 2023 07:11:33 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Dec 2023 07:11:33 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -636,7 +636,7 @@ berisi seluruh data klien.</p>
 <p>Jika Anda berada dalam jaringan yang buruk, Anda mungkin mengalami kelambatan atau bahkan terhenti pada tahap instalasi framework. Dalam skenario seperti itu, Anda dapat mengunduh framework dari situs web Microsoft dan menginstalnya secara manual.</p>
 <ol>
 <li>Kunjungi halaman dokumen Microsoft: <a href="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads" target="_blank" rel="noopener noreferrer">Unduhan terbaru untuk Windows App SDK</a></li>
-<li>Klik <code>Dwonload the latest x64 stable installer</code> untuk mengunduh instalator offline</li>
+<li>Klik <code>Download the latest x64 stable installer</code> untuk mengunduh instalator offline</li>
 <li>Jalankan instalator Windows App Runtime yang baru saja Anda unduh, lalu instal Snap Hutao</li>
 </ol>
 ]]></content:encoded>
