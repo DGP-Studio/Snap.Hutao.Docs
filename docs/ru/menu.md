@@ -8,4 +8,4 @@ icon: iconfont icon-workingDirectory
 
 # Меню сайта
 
-<AutoCatalog base="/ru/" level="3" />
+<AutoCatalog base="/ru/" :level="3" />
