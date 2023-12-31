@@ -8,4 +8,4 @@ icon: iconfont icon-workingDirectory
 
 # Site Menu
 
-<AutoCatalog base="/en/" level="3" />
+<AutoCatalog base="/en/" :level="3" />

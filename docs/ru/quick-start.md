@@ -35,7 +35,9 @@ order: 5
 **Независимо от того, каким методом установки вы пользуетесь, исходный источник пакетов и регистрация всегда обрабатываются через Microsoft Store.**
 
 ::: tabs
+
 @tab Microsoft Store
+
 <ms-store-badge
 productid="9PH4NXJ2JN52"
 theme="auto">
