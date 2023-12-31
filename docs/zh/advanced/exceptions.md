@@ -61,35 +61,27 @@ comment: false
 
 ## HttpRequestException 元数据校验文件下载失败
 
+### ConnectionError
+
+连接到胡桃服务器时失败，请检查胡桃客户端的网络连接
+
+如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md)
+
 ### 403 (Forbidden)/ 404 (NOT FOUND)
 
-解决方案：更新胡桃工具箱至[最新版本](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
+解决方案：更新胡桃工具箱至[最新版本](../quick-start.md)
 
 ### 502 (Bad Gateway)
 
-> 相关 Issue: [https://github.com/DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
-
-当胡桃工具箱无法从远程服务器获取到必要资源时（通常是配置文件和图片缓存），会在用户界面抛出如下图所示的 `HttpRequestException` 错误。
-
-![HttpRequestException](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg_.webp)
-
-当你遇到该情况，且已经确定本地网络没有互联网连接问题时，请检查是否启用了系统代理程序。如果是，请关闭。胡桃工具箱的远程服务器在全世界范围内都有类似的体验效果，
-你无需为了胡桃工具箱的网络连接而使用代理网络。
-
-如果系统代理是你的网络必须选项，请关闭系统代理而使用 TUN 模式代理；或者也可以通过 [Windows 8 AppContainer Loopback Utility](https://www.telerik.com/fiddler/add-ons)
-解除 [Windows APP Container Loopback 的限制](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback) 。
-
-你亦可以执行下面的 PowerShell 脚本以解除本机所有容器化应用的 Loopback 限制
-
-```powershell
-FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"') DO CheckNetIsolation.exe LoopbackExempt -a -p=%p
-```
+连接到胡桃服务器时失败，请检查胡桃客户端的网络连接
 
 ## `653366069` 请求异常
 
-- 网络请求错误，请求异常前程序会说明具体哪一个功能的网络请求失败。
+- 连接到米游社/HoYoLAB服务器时失败
   - 如果仅是偶尔出现的问题，你可以考虑忽略该错误
   - 如果持续该错误，请检查本地网络到目标服务器的连接是否正常
+
+如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md)
 
 ## 在查找必要的模块时出现问题
 
@@ -102,6 +94,6 @@ FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Setti
 ## 应用安装失败，错误消息：出现内部错误 0x80073D05
 
 安装时出现 `0x80073D05` 错误码的主要原因是先前卸载时没有删除部分本地文件导致的。
+
 - 需要打开 `%appdata%/../Local/Packages`
 - 并在文件夹中找到 `60568DGPStudio.SnapHutao_ebfp3nyc27j86` 文件夹并删除
-

@@ -61,27 +61,27 @@ account is too high, please change the password, so that the simultaneous login 
 
 ## HttpRequestException Metadata Download Failed
 
+### ConnectionError
+
+Failed to connect to Snap Hutao server, please check your connection
+
+If you are using a network proxy, please check if you have [unlocked Windows container Loopback limit](FAQ.md)
+
 ### 403 (Forbidden) / 404 (Not Found)
 
-Solution: Update your Snap Hutao to latest version
+Solution: Update your Snap Hutao to [the latest version](../quick-start.md)
 
 ### 502 (Bad Gateway)
 
-> Associated Issue: [https://github.com/DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
+Failed to connect to Snap Hutao server, please check your connection
 
-This HTTP Exception occurs when Snap Hutao failed to fetch remote resource (usually static image and configuration)
+## `653366069` Request Exception
 
-![HttpRequestException](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg)
+- Failed to connect to MiYouShe/HoYoLAB server
+  - if the error occurs not frequently, you may ignore it
+  - if the error constantly occurs, please check your local network
 
-If you are using proxy software, you may need to turn it off or using TUN mode proxy;
-otherwise you need to use [Windows 8 AppContainer Loopback Utility](https://www.telerik.com/fiddler/add-ons) to remove
-[Windows APP Container Loopback limits](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback).
-
-You can also execute the following PowerShell script to remove all container loopback limits
-
-```powershell
-FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"') DO CheckNetIsolation.exe LoopbackExempt -a -p=%p
-```
+If you are using a network proxy, please check if you have [unlocked Windows container Loopback limit](FAQ.md)
 
 ## Error Finding Required Modules
 
