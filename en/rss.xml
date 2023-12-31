@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 31 Dec 2023 02:50:58 GMT</pubDate>
-    <lastBuildDate>Sun, 31 Dec 2023 02:50:58 GMT</lastBuildDate>
+    <pubDate>Sun, 31 Dec 2023 08:56:51 GMT</pubDate>
+    <lastBuildDate>Sun, 31 Dec 2023 08:56:51 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -673,19 +673,24 @@ designing of MiHoYo BBS, and cannot bypass</li>
 </ul>
 </div>
 <h2> HttpRequestException Metadata Download Failed</h2>
+<h3> ConnectionError</h3>
+<p>Failed to connect to Snap Hutao server, please check your connection</p>
+<p>If you are using a network proxy, please check if you have <a href="/en/advanced/FAQ.html" target="blank">unlocked Windows container Loopback limit</a></p>
 <h3> 403 (Forbidden) / 404 (Not Found)</h3>
-<p>Solution: Update your Snap Hutao to latest version</p>
+<p>Solution: Update your Snap Hutao to <a href="/en/quick-start.html" target="blank">the latest version</a></p>
 <h3> 502 (Bad Gateway)</h3>
-<blockquote>
-<p>Associated Issue: <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/100</a></p>
-</blockquote>
-<p>This HTTP Exception occurs when Snap Hutao failed to fetch remote resource (usually static image and configuration)</p>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" alt="HttpRequestException" loading="lazy"></p>
-<p>If you are using proxy software, you may need to turn it off or using TUN mode proxy;
-otherwise you need to use <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a> to remove
-<a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">Windows APP Container Loopback limits</a>.</p>
-<p>You can also execute the following PowerShell script to remove all container loopback limits</p>
-<div class="language-powershell line-numbers-mode" data-ext="powershell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> Error Finding Required Modules</h2>
+<p>Failed to connect to Snap Hutao server, please check your connection</p>
+<h2> <code>653366069</code> Request Exception</h2>
+<ul>
+<li>Failed to connect to MiYouShe/HoYoLAB server
+<ul>
+<li>if the error occurs not frequently, you may ignore it</li>
+<li>if the error constantly occurs, please check your local network</li>
+</ul>
+</li>
+</ul>
+<p>If you are using a network proxy, please check if you have <a href="/en/advanced/FAQ.html" target="blank">unlocked Windows container Loopback limit</a></p>
+<h2> Error Finding Required Modules</h2>
 <p>When user launching game with unlock frame-rate feature on, the game may be failed to be launched with the following error shows up:</p>
 <ol>
 <li>Error finding required modules: could not read any module, the protection driver may have been loaded</li>
@@ -694,7 +699,6 @@ otherwise you need to use <a href="https://www.telerik.com/fiddler/add-ons" targ
 <p>This issue only occurs when Genshin Impact's anti-cheat module starts earlier than frame-rate-unlocker module.
 When these errors happen, Snap Hutao will exit game process, and you can re-launch the game.</p>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>Gacha System and Export Principle</title>
