@@ -3,7 +3,6 @@ headerDepth: 0
 category: [Fitur, Tutorial]
 order: 2
 tag: [Dashboard, Pengumuman, Snap Hutao Cloud]
-redirectFrom: /fitur/wiki-karakter.html
 comment: false
 ---
 

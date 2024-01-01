@@ -3,7 +3,6 @@ headerDepth: 0
 category: [Feature, Tutorial]
 order: 2
 tag: [Dashboard, Announcement, Snap Hutao Cloud]
-redirectFrom: /features/character-wiki.html
 comment: false
 ---
 
