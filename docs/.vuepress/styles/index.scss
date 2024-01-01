@@ -13,6 +13,7 @@ header.vp-navbar {
 .link-box {
   ol {
     display: inherit;
+
     li {
       cursor: pointer;
       display: inline-block;
@@ -61,14 +62,32 @@ header.vp-navbar {
 main.vp-project-home {
   table {
     display: inline-block;
+
     th {
       border-color: transparent;
     }
+
     td {
       border-color: transparent;
     }
   }
+
   svg.external-link-icon {
     display: none;
+  }
+}
+
+// 解决深色模式字体样式模糊问题
+html[data-theme="dark"] {
+  .vp-card-content hr {
+    border-color: #dddddd;
+  }
+
+  .vp-card-title {
+    color: #eeeeee;
+  }
+
+  .vp-card-desc {
+    color: #bbbbbb;
   }
 }
