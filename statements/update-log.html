@@ -3,12 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="robots" content="noindex">
-  <meta http-equiv="refresh" content="0; url=/zh/statements/update-log.html">
-  <link rel="canonical" href="/zh/statements/update-log.html">
   <title>Redirecting...</title>
   <script>
-    const anchor = window.location.hash.substring(1);
-    location.href = `/zh/statements/update-log.html${anchor? `#${anchor}`: ""}`;
+    const { hash, origin, pathname } = window.location;
+    const routePath = pathname.substring(1);
+    const { languages } = window.navigator;
+    const anchor = hash.substring(1);
+
+    const localeConfig = {"0":["/en/",["en-US","en-UK","en"]],"1":["/zh/",["zh-CN","zh-TW","zh"]],"2":["/ru/",["ru-RU","ru-KZ","ru-BY","ru-UA","ru-MD","ru-LV","tt-RU","ru"]],"3":["/id/",["id-ID","id"]],"/zh/":["zh-CN"],"/en/":["en-US"],"/id/":["id-ID"],"/ru/":["ru-RU"]};
+    const availableLocales = ["/en/","/id/","/ru/","/zh/"];
+    const defaultLocale = "/en/";
+    const defaultBehavior = "defaultLocale"
+
+    let matchedLocalePath = null;
+
+    // get matched locale
+    findLanguage:
+      for (const lang of languages)
+        for (const [localePath, langs] of Object.entries(localeConfig))
+          if (langs.includes(lang)) {
+            if (!availableLocales.includes(localePath))
+              continue;
+            matchedLocalePath = localePath;
+            break findLanguage;
+          }
+    
+    // default link
+    const defaultLink = defaultLocale? `${origin}${defaultLocale}${routePath}${anchor? `#${anchor}`: ""}`: null;
+
+    // a locale matches
+    if (matchedLocalePath) {
+      const localeLink = `${origin}${matchedLocalePath}${routePath}${anchor? `#${anchor}`: ""}`;
+
+      if (availableLocales.includes(matchedLocalePath)) {
+        location.href = localeLink;
+      }
+      // the page does not exist
+      else {
+        // locale homepage
+        if (defaultBehavior === "homepage") {
+          location.href = `${origin}${matchedLocalePath}`;
+        }
+        // default locale page
+        else if (defaultBehavior === "defaultLocale" && defaultLink) {
+          location.href = defaultLink;
+        }
+        // as is to get a 404 page of that locale
+        else {
+          location.href = localeLink;
+        }
+      }
+    }
+    // we have a default page
+    else if (defaultLink) {
+      location.href = defaultLink;
+    }
+    else {
+      location.href = `${origin}/404.html`;
+    }
   </script>
 </head>
 <body>
