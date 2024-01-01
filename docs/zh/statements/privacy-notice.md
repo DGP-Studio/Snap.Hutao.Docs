@@ -3,7 +3,6 @@ headerDepth: 0
 category: [公告]
 icon: iconfont icon-license
 order: 3
-redirectFrom: /statements/privacy-notice.html
 comment: false
 ---
 

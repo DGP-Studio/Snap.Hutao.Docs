@@ -1,7 +1,6 @@
 ---
 headerDepth: 0
 category: [公告, 项目, 功能]
-redirectFrom: /project.html
 comment: false
 icon: iconfont icon-workingDirectory
 order: 6

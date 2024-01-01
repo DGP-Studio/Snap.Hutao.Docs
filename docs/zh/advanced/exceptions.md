@@ -3,12 +3,6 @@ headerDepth: 2
 icon: iconfont icon-warn
 category: [FAQ]
 order: 2
-redirectFrom:
-  [
-    /advanced/exceptions.html,
-    /advanced/mihoyo-risk-tip.html,
-    /zh/advanced/mihoyo-risk-tip.html,
-  ]
 comment: false
 ---
 

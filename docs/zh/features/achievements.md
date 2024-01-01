@@ -3,7 +3,6 @@ headerDepth: 0
 category: [功能, 教程]
 tag: [成就]
 order: 5
-redirectFrom: /features/achievements.html
 comment: false
 ---
 

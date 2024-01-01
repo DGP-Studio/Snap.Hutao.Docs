@@ -3,7 +3,6 @@ headerDepth: 0
 category: [功能, 教程]
 tag: [深境螺旋, 深渊, 深渊数据库]
 order: 8
-redirectFrom: /features/hutao-API.html
 comment: false
 ---
 

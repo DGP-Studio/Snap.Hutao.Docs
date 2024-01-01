@@ -4,7 +4,6 @@ category: [公告]
 icon: iconfont icon-debug
 order: 2
 comment: false
-redirectFrom: /statements/bug-report.html
 ---
 
 # 提交 BUG 报告

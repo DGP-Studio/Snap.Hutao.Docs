@@ -2,7 +2,6 @@
 pageClass: link-box
 externalLinkIcon: false
 category: [功能, 教程]
-redirectFrom: /quick-start.html
 comment: false
 icon: iconfont icon-launch
 order: 5

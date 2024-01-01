@@ -3,7 +3,6 @@ headerDepth: 0
 category: [功能, 教程]
 tag: [帧率解锁, 服务器转换, 切换帐号]
 order: 3
-redirectFrom: /features/game-launcher.html
 comment: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 comment: false
 index: false
-redirectFrom: /advanced/
 icon: iconfont icon-advance
 dir:
   text: 高级

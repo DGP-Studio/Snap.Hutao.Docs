@@ -2,7 +2,6 @@
 category: [FAQ, 第三方工具]
 icon: iconfont icon-read
 order: 7
-redirectFrom: /advanced/get-stoken-cookie-from-the-third-party.html
 comment: false
 ---
 

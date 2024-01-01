@@ -3,7 +3,6 @@ headerDepth: 3
 icon: iconfont icon-ask
 category: [FAQ]
 order: 1
-redirectFrom: /advanced/FAQ.html
 comment: false
 ---
 

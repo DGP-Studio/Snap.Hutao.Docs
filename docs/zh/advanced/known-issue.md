@@ -3,7 +3,6 @@ headerDepth: 2
 icon: iconfont icon-tool
 category: [FAQ]
 order: 3
-redirectFrom: /advanced/known-issue.html
 ---
 
 # 已知问题

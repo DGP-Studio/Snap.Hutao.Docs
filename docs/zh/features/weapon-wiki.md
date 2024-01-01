@@ -5,7 +5,6 @@ category:
   - 教程
 tag: [武器, WIKI, 数据]
 order: 11
-redirectFrom: /features/weapon-wiki.html
 comment: false
 ---
 

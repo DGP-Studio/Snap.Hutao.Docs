@@ -3,7 +3,6 @@ headerDepth: 2
 icon: iconfont icon-warn
 category: [FAQ]
 order: 2
-redirectFrom: /ru/advanced/mihoyo-risk-tip.html
 comment: false
 ---
 

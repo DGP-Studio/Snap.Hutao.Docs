@@ -5,7 +5,6 @@ comment: false
 editLink: false
 icon: iconfont icon-license
 order: 4
-redirectFrom: /statements/tos.html
 ---
 
 # 用户使用协议和法律声明

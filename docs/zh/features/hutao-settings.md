@@ -3,7 +3,6 @@ headerDepth: 0
 category: [功能, 教程]
 tag: [胡桃云, 极验验证, 语言设置, 高级功能]
 order: 14
-redirectFrom: /features/hutao-settings.html
 comment: false
 ---
 
