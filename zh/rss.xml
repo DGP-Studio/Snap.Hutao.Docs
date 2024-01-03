@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 01 Jan 2024 11:53:06 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Jan 2024 11:53:06 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 03:55:21 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 03:55:21 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -27,12 +27,13 @@
       <link>https://hut.ao/zh/development/join.html</link>
       <guid>https://hut.ao/zh/development/join.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入我们</source>
-      <description>如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！</description>
+      <description>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！ 对于 Snap Hutao 桌面端项目，你只需要发起你的 Pull Request，解决当前已有的 issue 或增加你想要实现的功能，我们会邀请多次 PR 的合作者加入 Snap Hutao 开发团队。当你准备修复某一个 issue 中的问题时，请务必留言告知他人你...</description>
       <category>开源</category>
       <category>开发</category>
       <pubDate>Fri, 22 Dec 2023 04:12:52 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入我们</h1>
-<p>如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
+<p>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
+<p>对于 Snap Hutao 桌面端项目，你只需要发起你的 Pull Request，解决当前已有的 issue 或增加你想要实现的功能，我们会邀请多次 PR 的合作者加入 Snap Hutao 开发团队。当你准备修复某一个 issue 中的问题时，请务必留言告知他人你已认领当前问题，防止重复工作。</p>
 ]]></content:encoded>
     </item>
     <item>
