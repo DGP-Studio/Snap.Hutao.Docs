@@ -95,7 +95,7 @@ If you installed a Microsoft Store version of Snap Hutao (version 1.4.11 to 1.8.
 
 If no special instruction is given, you can download and install latest MSIX package to update your Snap Hutao.
 
-Starting from 1.9.0 version, Snap Hutao has embedded update module to notify the updates.
+Starting from 1.9.0 version, Snap Hutao has embedded update module to notify the updates. You may try [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) if you failed the update.
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Install Optional Components
 
