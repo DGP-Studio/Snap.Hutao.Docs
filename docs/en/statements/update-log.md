@@ -9,18 +9,7 @@ externalLinkIcon: false
 
 # Update Logs
 
-## 1.9.2 <Badge text="latest" type="tip" />
-
-- New ➕
-  - Added Windows native HDR option in Game Launcher
-  - Added support of HoYoverse accounts in Game Launcher account switch feature
-- Fix 🔨
-  - Fixed the issue that some MiHoYo BBS pages operations cannot be done in Webview
-- Optimization ✨
-  - Added account identification field in Real-time Note data forwarding webhook
-  - All options in Danger Zone on Settings page now have double confirmations
-
-## 1.9.1 <Badge text="hotfix" type="warning" />
+## 1.9.1 <Badge text="hotfix" type="warning" /><Badge text="latest" type="tip" />
 
 - **Fix 🔨**
   - Fixed crash on Game Launcher page when user text zoom is not set as 100%
