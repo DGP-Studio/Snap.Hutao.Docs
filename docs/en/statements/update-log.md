@@ -9,7 +9,12 @@ externalLinkIcon: false
 
 # Update Logs
 
-## 1.9.2 <Badge text="latest" type="tip" />
+## 1.9.3 <Badge text="hotfix" type="warning" /><Badge text="latest" type="tip" />
+
+- Fix 🔨
+  - Fixed the crash issue for new users when entering the main window
+
+## 1.9.2
 
 - New ➕
   - Added Windows native HDR option in Game Launcher
