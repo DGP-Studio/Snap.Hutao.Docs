@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Jan 2024 11:40:29 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 11:40:29 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 12:09:39 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 12:09:39 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -964,11 +964,19 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.9.2 New ➕; Added Windows native HDR option in Game Launcher; Added support of HoYoverse accounts in Game Launcher account switch feature; Added option of deleting server conve...</description>
+      <description>1.9.3 Fix 🔨; Fixed the crash issue for new users when entering the main window; 1.9.2 New ➕; Added Windows native HDR option in Game Launcher; Added support of HoYoverse accoun...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.9.2 </h2>
+<h2> 1.9.3 </h2>
+<ul>
+<li>Fix 🔨
+<ul>
+<li>Fixed the crash issue for new users when entering the main window</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.2</h2>
 <ul>
 <li>New ➕
 <ul>
@@ -3436,7 +3444,7 @@ so Snap Hutao cannot solve them</li>
 </ul>
 <h3> </h3>
 <p>If no special instruction is given, you can download and install latest MSIX package to update your Snap Hutao.</p>
-<p>Starting from 1.9.0 version, Snap Hutao has embedded update module to notify the updates.</p>
+<p>Starting from 1.9.0 version, Snap Hutao has embedded update module to notify the updates. You may try <a href="https://api.snapgenshin.com/patch/hutao-deployment/download" target="_blank" rel="noopener noreferrer">Snap.Hutao.Deployment</a> if you failed the update.</p>
 <h2> </h2>
 <p>With optional components, Snap Hutao can implement some functions more conveniently through the system-level environment.
 They are not mandatory components, but they can bring a better experience.</p>

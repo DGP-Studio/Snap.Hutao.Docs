@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 03 Jan 2024 11:40:29 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 11:40:29 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 12:09:39 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 12:09:39 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -852,7 +852,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h3> </h3>
 <p>如没有特殊声明，则你可以通过安装最新版 MSIX 安装包来升级程序。</p>
-<p>1.9.0版本起，Snap Hutao 将内置升级提示功能以提醒你获取更新包。</p>
+<p>1.9.0版本起，Snap Hutao 将内置升级提示功能以提醒你获取更新包。如果你更新失败，可尝试使用 <a href="https://api.snapgenshin.com/patch/hutao-deployment/download" target="_blank" rel="noopener noreferrer">Snap.Hutao.Deployment</a> 覆盖安装来解决问题。</p>
 <h2> </h2>
 <p>通过可选组件，胡桃工具箱可以通过系统级的环境来更方便地实现一些功能，它们不是强制要求的组件，但可以带来更好的体验</p>
 <h3> <img src="/images/202312/MSEdge.webp" width="20" height="20"> WebView2 运行时</h3>
@@ -2780,11 +2780,19 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.9.2 新增 ➕; 游戏启动器中新增开启 Windows 原生 HDR 选项; 游戏启动器中新增切换功能对国际服账号的支持; 设置页中新增删除转服功能缓存的选项; 设置页中新增以管理员模式重启程序的选项; 新增 WebView 分享图片到剪贴板的功能; 修复 🔨; 修复了特定的米游社页面在 Webview 中无法被正常操作的问题; 在应用标题栏中...</description>
+      <description>1.9.3 修复 🔨; 修复了新安装用户初次进入主界面会崩溃的问题; 1.9.2 新增 ➕; 游戏启动器中新增开启 Windows 原生 HDR 选项; 游戏启动器中新增切换功能对国际服账号的支持; 设置页中新增删除转服功能缓存的选项; 设置页中新增以管理员模式重启程序的选项; 新增 WebView 分享图片到剪贴板的功能; 修复 🔨; 修复了特定...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.9.2 </h2>
+<h2> 1.9.3 </h2>
+<ul>
+<li>修复 🔨
+<ul>
+<li>修复了新安装用户初次进入主界面会崩溃的问题</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.2</h2>
 <ul>
 <li>新增 ➕
 <ul>
