@@ -8,7 +8,7 @@ externalLinkIcon: false
 
 # 更新日志
 
-## 1.9.3 <Badge text="hotfix" type="warning" /><Badge text="最新版" type="tip" />
+## 1.9.4 <Badge text="hotfix" type="warning" /><Badge text="最新版" type="tip" />
 
 - 修复 🔨
   - 修复了 Bilibili 服务器用户进入主界面会崩溃的问题
