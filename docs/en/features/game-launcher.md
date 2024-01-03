@@ -54,10 +54,10 @@ In the `General - Server` field, select the server you want
 
 :::
 
-|                   | CN        | BiliBili      | Global                                                                                                                   |
-| ----------------- | --------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Save Login Status | Supported | Supported     | Supported                                                                                                                |
-| Switch Account    | Supported | Not Supported | Theoretically Supported <br/>[We need community's support for this](https://github.com/DGP-Studio/Snap.Hutao/issues/638) |
+|                   | CN        | BiliBili      | Global    |
+| ----------------- | --------- | ------------- | --------- |
+| Save Login Status | Supported | Supported     | Supported |
+| Switch Account    | Supported | Not Supported | Supported |
 
 1. Enter Game Launcher page
 2. Click `Detect Account` field in the `General` category, Snap Hutao will detect current Genshin Impact's account login status
