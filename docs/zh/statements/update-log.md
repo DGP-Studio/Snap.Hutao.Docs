@@ -28,7 +28,7 @@ externalLinkIcon: false
   - 从使用 Powershell 设置游戏账号更改为直接设置注册表以避免`未开启长路径功能`错误
   - 优化了自动连点快捷键设置的 UI
   - 转换服务器优化了对 Program Files 等特殊路径的检查
-  - 优化了WebView在部分页面下的滚动表现
+  - 优化了 WebView 在部分页面下的滚动表现
   - 优化了设置 Discord Activity 的性能
 
 ## 1.9.1 <Badge text="hotfix" type="warning" />
