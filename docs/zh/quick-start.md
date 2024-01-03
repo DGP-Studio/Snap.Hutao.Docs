@@ -94,7 +94,7 @@ order: 5
 
 如没有特殊声明，则你可以通过安装最新版 MSIX 安装包来升级程序。
 
-1.9.0版本起，Snap Hutao 将内置升级提示功能以提醒你获取更新包。
+1.9.0版本起，Snap Hutao 将内置升级提示功能以提醒你获取更新包。如果你更新失败，可尝试使用 [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) 覆盖安装来解决问题。
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> 安装可选组件
 

@@ -8,7 +8,12 @@ externalLinkIcon: false
 
 # 更新日志
 
-## 1.9.2 <Badge text="最新版" type="tip" />
+## 1.9.3 <Badge text="hotfix" type="warning" /><Badge text="最新版" type="tip" />
+
+- 修复 🔨
+  - 修复了新安装用户初次进入主界面会崩溃的问题
+
+## 1.9.2
 
 - 新增 ➕
   - 游戏启动器中新增开启 Windows 原生 HDR 选项
