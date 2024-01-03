@@ -7,7 +7,9 @@ order: 1
 
 # 加入我们
 
-如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！
+如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！
+
+对于 Snap Hutao 桌面端项目，你只需要发起你的 Pull Request，解决当前已有的 issue 或增加你想要实现的功能，我们会邀请多次 PR 的合作者加入 Snap Hutao 开发团队。当你准备修复某一个 issue 中的问题时，请务必留言告知他人你已认领当前问题，防止重复工作。
 
 <VPBanner
 title="C# .NET 开发"
@@ -15,7 +17,7 @@ content="负责内容：服务端开发和桌面端开发"
 logo="/images/202312/C_sharp.svg"
 :actions='[
 {
-text: "申请加入",
+text: "加入开发者交流群",
 link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236",
 },
 {
@@ -37,7 +39,7 @@ content="负责内容：基于胡桃 API 的深渊数据库网页<br>技术栈�
 logo="/images/202312/Vue.js.svg"
 :actions='[
 {
-text: "申请加入",
+text: "加入开发者交流群",
 link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236",
 },
 {
@@ -54,7 +56,7 @@ content="负责内容：网页文档的内容更新<br>要求：熟悉markdown�
 logo="/images/202312/documents.svg"
 :actions='[
 {
-text: "申请加入",
+text: "加入开发者交流群",
 link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236",
 },
 {
@@ -71,7 +73,7 @@ content="负责内容：软件宣传和教程视频的创作"
 logo="/images/202312/video-editing.svg"
 :actions='[
 {
-text: "申请加入",
+text: "加入开发者交流群",
 link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236",
 },
 {
