@@ -9,7 +9,12 @@ externalLinkIcon: false
 
 # Update Logs
 
-## 1.9.3 <Badge text="hotfix" type="warning" /><Badge text="latest" type="tip" />
+## 1.9.4 <Badge text="hotfix" type="warning" /><Badge text="latest" type="tip" />
+
+- Fix 🔨
+  - Fixed the crash issue for Bilibili server users when entering the main window
+
+## 1.9.3
 
 - Fix 🔨
   - Fixed the crash issue for new users when entering the main window
