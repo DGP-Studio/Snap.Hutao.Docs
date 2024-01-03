@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 03 Jan 2024 03:55:21 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 03:55:21 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 09:43:30 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 09:43:30 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -861,7 +861,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2> </h2>
 <p>在进入胡桃工具箱主界面后，点击左下角文档按钮和设置按钮中间的账号面板。在弹出的米游社账号面板中，根据你的账号类型选择对应的登录按钮。</p>
 <p>如果你的原神账号是米哈游的国服账号，需要在<code>米游社</code>类别内登录；如果你的原神账号是 HoYoverse 的国际服账号，需要在 <code>HoYoLAB</code> 类别内登录。</p>
-<p>无论是国服账号还是国际服账号，你都有<code>网页登录</code>和<code>Cookie登录</code>两种登录方式</p>
+<p>无论是国服账号还是国际服账号，你都有<code>网页登录</code>和<code>Cookie登录</code>两种登录方式。</p>
+<p>对于使用米游社APP并绑定国服游戏账号的用户，可以选择<code>扫码登录</code>。</p>
 
 <hr>
 <p><em><strong>至此，你已经初步设置好了你的胡桃工具箱。你现在可以自由探索这个应用，你也可以在这个这个网站中找到胡桃的全部帮助文档。</strong></em></p>
