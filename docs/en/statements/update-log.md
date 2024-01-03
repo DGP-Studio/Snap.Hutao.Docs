@@ -9,7 +9,29 @@ externalLinkIcon: false
 
 # Update Logs
 
-## 1.9.1 <Badge text="hotfix" type="warning" /><Badge text="latest" type="tip" />
+## 1.9.2 <Badge text="latest" type="tip" />
+
+- New ➕
+  - Added Windows native HDR option in Game Launcher
+  - Added support of HoYoverse accounts in Game Launcher account switch feature
+  - Added option of deleting server conversion cache file in Settings page
+  - Added restart as admin option in Settings page
+  - Added the function of sharing pictures to the clipboard in WebView
+- Fix 🔨
+  - Fixed the issue that some MiHoYo BBS pages operations cannot be done in Webview
+  - Added conspicuous mark of Admin Mode on windows title to indicate whether if Snap Hutao is running as administrator
+  - Fixed game path error after server conversion
+  - Fixed the document link on Spiral Abyss page
+- Optimization ✨
+  - Added account identification field in Real-time Note data forwarding webhook
+  - All options in Danger Zone on Settings page now have double confirmations
+  - Change to way of game account switch from PowerShell of directly modify regedit to avoid error when Windows Long Path is not enabled
+  - Optimized UI of auto-click feature shortcut settings card
+  - Added checks for special paths such as Program Files during server conversion
+  - Optimized the scrolling performance of WebView on some pages
+  - Optimized the performance of Discord Activity
+
+## 1.9.1 <Badge text="hotfix" type="warning" />
 
 - **Fix 🔨**
   - Fixed crash on Game Launcher page when user text zoom is not set as 100%
