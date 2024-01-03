@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Wed, 03 Jan 2024 11:11:00 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 11:11:00 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 11:40:29 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 11:40:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Dev Logs</category>
@@ -1443,7 +1443,7 @@ In the <code>General - Server</code> field, select the server you want</p>
 <td>Switch Account</td>
 <td>Supported</td>
 <td>Not Supported</td>
-<td>Theoretically Supported <br><a href="https://github.com/DGP-Studio/Snap.Hutao/issues/638" target="_blank" rel="noopener noreferrer">We need community's support for this</a></td>
+<td>Supported</td>
 </tr>
 </tbody>
 </table>

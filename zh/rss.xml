@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 03 Jan 2024 11:11:00 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 11:11:00 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 11:40:29 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 11:40:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -1875,7 +1875,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <td>切换账号</td>
 <td>支持</td>
 <td>不支持</td>
-<td>理论支持<br><a href="https://github.com/DGP-Studio/Snap.Hutao/issues/638" target="_blank" rel="noopener noreferrer">我们期待更多的社区开发者帮助</a></td>
+<td>支持</td>
 </tr>
 </tbody>
 </table>
@@ -2780,20 +2780,51 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.9.1 修复; 修复了在用户系统文字缩放比例不为100%时，进入游戏启动器页面时会导致程序崩溃的问题; 修复了一个由实时便笺功能导致程序在启动时崩溃的问题; 修复了实时便笺有概率与用户信息同时加载导致死锁的问题; 优化; 在游戏启动器添加/选择游戏路径页面增强了用户提示; 1.9.0 重大改变 Snap Hutao 在近期获得了 SignPath ...</description>
+      <description>1.9.2 新增 ➕; 游戏启动器中新增开启 Windows 原生 HDR 选项; 游戏启动器中新增切换功能对国际服账号的支持; 设置页中新增删除转服功能缓存的选项; 设置页中新增以管理员模式重启程序的选项; 新增 WebView 分享图片到剪贴板的功能; 修复 🔨; 修复了特定的米游社页面在 Webview 中无法被正常操作的问题; 在应用标题栏中...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
+<h2> 1.9.2 </h2>
+<ul>
+<li>新增 ➕
+<ul>
+<li>游戏启动器中新增开启 Windows 原生 HDR 选项</li>
+<li>游戏启动器中新增切换功能对国际服账号的支持</li>
+<li>设置页中新增删除转服功能缓存的选项</li>
+<li>设置页中新增以管理员模式重启程序的选项</li>
+<li>新增 WebView 分享图片到剪贴板的功能</li>
+</ul>
+</li>
+<li>修复 🔨
+<ul>
+<li>修复了特定的米游社页面在 Webview 中无法被正常操作的问题</li>
+<li>在应用标题栏中增加显眼的管理员模式标识以展示 Snap Hutao 当前是否以管理员模式运行</li>
+<li>修复了转换服务器造成游戏路径异常的问题</li>
+<li>更正了深境螺旋页面的文档链接</li>
+</ul>
+</li>
+<li>优化 ✨
+<ul>
+<li>实时便笺数据转发 Webhook 中增加了账号识别字段</li>
+<li>设置中所有的危险选项现在都有二次确认</li>
+<li>从使用 Powershell 设置游戏账号更改为直接设置注册表以避免<code>未开启长路径功能</code>错误</li>
+<li>优化了自动连点快捷键设置的 UI</li>
+<li>转换服务器优化了对 Program Files 等特殊路径的检查</li>
+<li>优化了 WebView 在部分页面下的滚动表现</li>
+<li>优化了设置 Discord Activity 的性能</li>
+</ul>
+</li>
+</ul>
 <h2> 1.9.1 </h2>
 <ul>
-<li>修复
+<li>修复 🔨
 <ul>
 <li>修复了在用户系统文字缩放比例不为100%时，进入游戏启动器页面时会导致程序崩溃的问题</li>
 <li>修复了一个由实时便笺功能导致程序在启动时崩溃的问题</li>
 <li>修复了实时便笺有概率与用户信息同时加载导致死锁的问题</li>
 </ul>
 </li>
-<li>优化
+<li>优化 ✨
 <ul>
 <li>在游戏启动器添加/选择游戏路径页面增强了用户提示</li>
 </ul>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Wed, 03 Jan 2024 11:11:00 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 11:11:00 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 11:40:29 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 11:40:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -1481,7 +1481,7 @@ Di bidang <code>General - Sever</code>, pilih server yang Anda inginkan</p>
 <td>Ganti Akun</td>
 <td>Didukung</td>
 <td>Tidak Didukung</td>
-<td>Teoretis Didukung <br><a href="https://github.com/DGP-Studio/Snap.Hutao/issues/638" target="_blank" rel="noopener noreferrer">Kami membutuhkan dukungan komunitas untuk ini</a></td>
+<td>Didukung</td>
 </tr>
 </tbody>
 </table>
