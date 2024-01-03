@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 03 Jan 2024 12:09:39 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 12:09:39 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 14:46:13 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 14:46:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2780,11 +2780,19 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.9.3 修复 🔨; 修复了新安装用户初次进入主界面会崩溃的问题; 1.9.2 新增 ➕; 游戏启动器中新增开启 Windows 原生 HDR 选项; 游戏启动器中新增切换功能对国际服账号的支持; 设置页中新增删除转服功能缓存的选项; 设置页中新增以管理员模式重启程序的选项; 新增 WebView 分享图片到剪贴板的功能; 修复 🔨; 修复了特定...</description>
+      <description>1.9.4 修复 🔨; 修复了 Bilibili 服务器用户进入主界面会崩溃的问题; 1.9.3 修复 🔨; 修复了新安装用户初次进入主界面会崩溃的问题; 1.9.2 新增 ➕; 游戏启动器中新增开启 Windows 原生 HDR 选项; 游戏启动器中新增切换功能对国际服账号的支持; 设置页中新增删除转服功能缓存的选项; 设置页中新增以管理员模式重...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.9.3 </h2>
+<h2> 1.9.4 </h2>
+<ul>
+<li>修复 🔨
+<ul>
+<li>修复了 Bilibili 服务器用户进入主界面会崩溃的问题</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.3</h2>
 <ul>
 <li>修复 🔨
 <ul>

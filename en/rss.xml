@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Jan 2024 12:09:39 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 12:09:39 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 14:46:13 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 14:46:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -964,11 +964,19 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.9.3 Fix 🔨; Fixed the crash issue for new users when entering the main window; 1.9.2 New ➕; Added Windows native HDR option in Game Launcher; Added support of HoYoverse accoun...</description>
+      <description>1.9.4 Fix 🔨; Fixed the crash issue for Bilibili server users when entering the main window; 1.9.3 Fix 🔨; Fixed the crash issue for new users when entering the main window; 1.9...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.9.3 </h2>
+<h2> 1.9.4 </h2>
+<ul>
+<li>Fix 🔨
+<ul>
+<li>Fixed the crash issue for Bilibili server users when entering the main window</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.3</h2>
 <ul>
 <li>Fix 🔨
 <ul>
