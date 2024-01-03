@@ -33,15 +33,15 @@ Di bidang `General - Sever`, pilih server yang Anda inginkan
 
 - Opsi server yang tersedia saat ini termasuk:
 
-| Opsi           | Server                                                     |
-| -------------- | ---------------------------------------------------------- |
-| CN Default     | Server Tiongkok Daratan                                     |
+| Opsi           | Server                                                           |
+| -------------- | ---------------------------------------------------------------- |
+| CN Default     | Server Tiongkok Daratan                                          |
 | CN Official    | Server Tiongkok Daratan, tanpa perbedaan dengan baris sebelumnya |
-| CN NoTapTap    | Server Tiongkok Daratan tanpa metode login akun TapTap |
-| BiliBili       | Server Tiongkok dengan sistem akun BiliBili               |
-| Global Default | Server HoYoVerse                                           |
-| Global Epic    | Server HoYoVerse dengan gerbang pembayaran Epic Store      |
-| Global Google  | Server HoYoVerse dengan gerbang pembayaran Google Pay      |
+| CN NoTapTap    | Server Tiongkok Daratan tanpa metode login akun TapTap           |
+| BiliBili       | Server Tiongkok dengan sistem akun BiliBili                      |
+| Global Default | Server HoYoVerse                                                 |
+| Global Epic    | Server HoYoVerse dengan gerbang pembayaran Epic Store            |
+| Global Google  | Server HoYoVerse dengan gerbang pembayaran Google Pay            |
 
 - klik tombol `Launcher` di pojok kanan atas untuk meluncurkan game, Snap Hutao akan mengunduh file yang diperlukan untuk server dan kemudian meluncurkan game
 
@@ -54,10 +54,10 @@ Di bidang `General - Sever`, pilih server yang Anda inginkan
 
 :::
 
-|                   | CN        | BiliBili      | Global                                                                                                                   |
-| ----------------- | --------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Simpan Status Login | Didukung | Didukung     | Didukung                                                                                                                |
-| Ganti Akun    | Didukung | Tidak Didukung | Teoretis Didukung <br/>[Kami membutuhkan dukungan komunitas untuk ini](https://github.com/DGP-Studio/Snap.Hutao/issues/638) |
+|                     | CN       | BiliBili       | Global   |
+| ------------------- | -------- | -------------- | -------- |
+| Simpan Status Login | Didukung | Didukung       | Didukung |
+| Ganti Akun          | Didukung | Tidak Didukung | Didukung |
 
 1. Masuk ke halaman Peluncur Game
 2. Klik bidang `Detect Account` di kategori `General`, Snap Hutao akan mendeteksi status login akun Genshin Impact saat ini
