@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Jan 2024 14:46:13 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 14:46:13 GMT</lastBuildDate>
+    <pubDate>Fri, 05 Jan 2024 03:26:18 GMT</pubDate>
+    <lastBuildDate>Fri, 05 Jan 2024 03:26:18 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -3164,8 +3164,10 @@ will not be removed. You can continue to operate it once you get your privilege 
       <link>https://hut.ao/en/statements/</link>
       <guid>https://hut.ao/en/statements/</guid>
       <source url="https://hut.ao/en/rss.xml">Statements</source>
+      <description>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program.</description>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Statements</h1>
+<p><strong>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.</strong></p>
 ]]></content:encoded>
     </item>
     <item>

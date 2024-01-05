@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 03 Jan 2024 14:46:13 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 14:46:13 GMT</lastBuildDate>
+    <pubDate>Fri, 05 Jan 2024 03:26:18 GMT</pubDate>
+    <lastBuildDate>Fri, 05 Jan 2024 03:26:18 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -2519,8 +2519,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/</link>
       <guid>https://hut.ao/zh/statements/</guid>
       <source url="https://hut.ao/zh/rss.xml">声明和公告</source>
+      <description>Snap Hutao 项目不支持、不参与、不合作任何与原神相关的私服和外挂项目</description>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 声明和公告</h1>
+<p><strong>Snap Hutao 项目不支持、不参与、不合作任何与原神相关的私服和外挂项目</strong></p>
 ]]></content:encoded>
     </item>
     <item>
