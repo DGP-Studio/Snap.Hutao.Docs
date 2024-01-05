@@ -10,4 +10,6 @@ dir:
 
 # Statements
 
+**Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.**
+
 <AutoCatalog />
