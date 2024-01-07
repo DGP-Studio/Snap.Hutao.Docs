@@ -106,7 +106,7 @@ If you need to export the wish history data, you can:
 ## Wish History Cloud Sync <Badge text="Beta" type="info" />
 
 > Wish history cloud sync is designed on Snap Hutao Account.
-> You need to [register an account in the settings](hutao-settings#snap-hutao-account) to use this feature
+> You need to [register an account in the settings](hutao-settings.md#snap-hutao-account) to use this feature
 
 With this feature, you can upload your wish history to Hutao Cloud, to avoid risk of losing data, and make it easier to
 transfer data between devices.

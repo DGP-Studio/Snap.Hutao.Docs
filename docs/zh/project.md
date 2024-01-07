@@ -71,6 +71,6 @@ order: 6
   - [角色资料](features/character-wiki.md)
   - [武器资料](features/weapon-wiki.md)
   - [怪物资料](features/monster-wiki.md)
-- [胡桃云账号系统](features/hutao-settings#胡桃帐号)
+- [胡桃云账号系统](features/hutao-settings.md#胡桃帐号)
   - 祈愿数据备份
   - 祈愿统计预测

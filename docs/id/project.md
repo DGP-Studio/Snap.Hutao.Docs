@@ -57,6 +57,6 @@ Snap Hutao adalah toolkit Genshin Impact sumber terbuka di bawah lisensi MIT, di
   - [WIKI Karakter](features/character-wiki.md)
   - [WIKI Senjata](features/weapon-wiki.md)
   - [WIKI Monster](features/monster-wiki.md)
-- [Akun Snap Hutao](features/hutao-settings#snap-hutao-account)
+- [Akun Snap Hutao](features/hutao-settings.md#snap-hutao-account)
   - Cadangan data harapan
   - Prediksi berdasarkan statistik harapan

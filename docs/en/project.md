@@ -73,6 +73,6 @@ does not take any destructive modification to the game client to ensure the secu
   - [Character WIKI](features/character-wiki.md)
   - [Weapon WIKI](features/weapon-wiki.md)
   - [Monster WIKI](features/monster-wiki.md)
-- [Snap Hutao Account](features/hutao-settings#snap-hutao-account)
+- [Snap Hutao Account](features/hutao-settings.md#snap-hutao-account)
   - Wish data backup
   - Wish stat-based prediction

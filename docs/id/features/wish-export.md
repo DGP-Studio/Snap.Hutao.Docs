@@ -100,7 +100,7 @@ Jika Anda perlu mengekspor data riwayat harapan, Anda bisa:
 ## Sinkronisasi Awan Riwayat Harapan <Badge text="Beta" type="info" />
 
 > Sinkronisasi awan riwayat harapan dirancang di atas Akun Snap Hutao.
-> Anda perlu [mendaftar akun dalam pengaturan](hutao-settings#snap-hutao-account) untuk menggunakan fitur ini
+> Anda perlu [mendaftar akun dalam pengaturan](hutao-settings.md#snap-hutao-account) untuk menggunakan fitur ini
 
 Dengan fitur ini, Anda dapat mengunggah riwayat harapan Anda ke Hutao Cloud, untuk menghindari risiko kehilangan data, dan membuatnya lebih mudah untuk mentransfer data antar perangkat.
 

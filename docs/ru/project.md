@@ -57,6 +57,6 @@ Snap Hutao — это открытый набор инструментов дл�
   - [WIKI персонажей](features/character-wiki.md)
   - [WIKI оружия](features/weapon-wiki.md)
   - [WIKI монстров](features/monster-wiki.md)
-- [Аккаунт Snap Hutao](features/hutao-settings#snap-hutao-account)
+- [Аккаунт Snap Hutao](features/hutao-settings.md#snap-hutao-account)
   - Резервное копирование данных желаний
   - Предсказание на основе статистики желаний
