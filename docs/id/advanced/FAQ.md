@@ -8,6 +8,8 @@ order: 1
 
 # Pertanyaan Umum
 
+If the following answers can not solve your issue, feel free to [report bug to us](../statements/bug-report.md)!
+
 ## Cara membuat pintasan desktop (tanpa hak admin)
 
 ::: tip Kekuatan Komunitas

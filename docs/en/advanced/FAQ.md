@@ -10,6 +10,8 @@ order: 1
 
 > Please use **search bar on the top right** or **browser built-in search `(ctrl+F)`** to search keyword such as error code to improve your searching efficiency
 
+If the following answers can not solve your issue, feel free to [report bug to us](../statements/bug-report.md)!
+
 ## Installation FAQ
 
 ### Stuck at `Installing Required Framework` when Using MSIX Package to Install

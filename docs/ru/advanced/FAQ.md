@@ -8,6 +8,8 @@ order: 1
 
 # FAQ
 
+If the following answers can not solve your issue, feel free to [report bug to us](../statements/bug-report.md)!
+
 ## How to create desktop shortcut (with no admin privilege)
 
 ::: tip Community Power
