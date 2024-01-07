@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Fri, 05 Jan 2024 03:26:18 GMT</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2024 03:26:18 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 06:53:45 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 06:53:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Dev Logs</category>
@@ -482,10 +482,11 @@
       <link>https://hut.ao/ru/advanced/FAQ.html</link>
       <guid>https://hut.ao/ru/advanced/FAQ.html</guid>
       <source url="https://hut.ao/ru/rss.xml">FAQ</source>
-      <description>How to create desktop shortcut (with no admin privilege) Community Power Thanks to solution provided by CzHUV (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)。 Use Win+...</description>
+      <description>If the following answers can not solve your issue, feel free to report bug to us (../statements/bug-report.md)! How to create desktop shortcut (with no admin privilege) Communit...</description>
       <category>FAQ</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
       <content:encoded><![CDATA[<h1> FAQ</h1>
+<p>If the following answers can not solve your issue, feel free to <a href="/ru/statements/bug-report.html" target="blank">report bug to us</a>!</p>
 <h2> How to create desktop shortcut (with no admin privilege)</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">Community Power</p>

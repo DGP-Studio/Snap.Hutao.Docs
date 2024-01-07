@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 05 Jan 2024 03:26:18 GMT</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2024 03:26:18 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 06:53:45 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 06:53:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -767,13 +767,14 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
       <link>https://hut.ao/en/advanced/FAQ.html</link>
       <guid>https://hut.ao/en/advanced/FAQ.html</guid>
       <source url="https://hut.ao/en/rss.xml">FAQ</source>
-      <description>Please use search bar on the top right or browser built-in search (ctrl+F) to search keyword such as error code to improve your searching efficiency Installation FAQ Stuck at In...</description>
+      <description>Please use search bar on the top right or browser built-in search (ctrl+F) to search keyword such as error code to improve your searching efficiency If the following answers can...</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:35 GMT</pubDate>
       <content:encoded><![CDATA[<h1> FAQ</h1>
 <blockquote>
 <p>Please use <strong>search bar on the top right</strong> or <strong>browser built-in search <code>(ctrl+F)</code></strong> to search keyword such as error code to improve your searching efficiency</p>
 </blockquote>
+<p>If the following answers can not solve your issue, feel free to <a href="/en/statements/bug-report.html" target="blank">report bug to us</a>!</p>
 <h2> Installation FAQ</h2>
 <h3> Stuck at <code>Installing Required Framework</code> when Using MSIX Package to Install</h3>
 <ul>

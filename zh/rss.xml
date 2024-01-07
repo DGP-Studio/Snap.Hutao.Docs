@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 05 Jan 2024 03:26:18 GMT</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2024 03:26:18 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 06:53:45 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 06:53:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -932,13 +932,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/advanced/FAQ.html</link>
       <guid>https://hut.ao/zh/advanced/FAQ.html</guid>
       <source url="https://hut.ao/zh/rss.xml">常见问题</source>
-      <description>请使用网页右上角的搜索框或 浏览器内置的搜索功能（快捷键 ctrl+F） 搜索诸如错误代码之类的关键词来提高你的查询效率 安装篇 使用 MSIX 安装包安装时进度卡在正在安装所需框架 当用户系统缺少必要依赖环境时，系统会自动安装所需依赖。若用户禁用了 Windows Update 组件或网络条件差时，系统无法完成该步骤。; 请确保 Windows Up...</description>
+      <description>请使用网页右上角的搜索框或 浏览器内置的搜索功能（快捷键 ctrl+F） 搜索诸如错误代码之类的关键词来提高你的查询效率 如果下面的解答不能帮你解决问题，欢迎你向我们提交问题报告 (../statements/bug-report.md) 安装篇 使用 MSIX 安装包安装时进度卡在正在安装所需框架 当用户系统缺少必要依赖环境时，系统会自动安装所需依赖...</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 常见问题</h1>
 <blockquote>
 <p>请使用<strong>网页右上角的搜索框</strong>或 <strong>浏览器内置的搜索功能（快捷键 <code>ctrl+F</code>）</strong> 搜索诸如错误代码之类的关键词来提高你的查询效率</p>
 </blockquote>
+<p>如果下面的解答不能帮你解决问题，欢迎你向我们<a href="/zh/statements/bug-report.html" target="blank">提交问题报告</a></p>
 <h2> 安装篇</h2>
 <h3> 使用 MSIX 安装包安装时进度卡在<code>正在安装所需框架</code></h3>
 <ul>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Fri, 05 Jan 2024 03:26:18 GMT</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2024 03:26:18 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 06:53:45 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 06:53:45 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -435,10 +435,11 @@ menemukan semua dokumen di situs web ini.</strong></em></p>
       <link>https://hut.ao/id/advanced/FAQ.html</link>
       <guid>https://hut.ao/id/advanced/FAQ.html</guid>
       <source url="https://hut.ao/id/rss.xml">Pertanyaan Umum</source>
-      <description>Cara membuat pintasan desktop (tanpa hak admin) Kekuatan Komunitas Terima kasih kepada solusi diberikan oleh CzHUV (https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12). Gun...</description>
+      <description>If the following answers can not solve your issue, feel free to report bug to us (../statements/bug-report.md)! Cara membuat pintasan desktop (tanpa hak admin) Kekuatan Komunita...</description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Pertanyaan Umum</h1>
+<p>If the following answers can not solve your issue, feel free to <a href="/id/statements/bug-report.html" target="blank">report bug to us</a>!</p>
 <h2> Cara membuat pintasan desktop (tanpa hak admin)</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">Kekuatan Komunitas</p>
