@@ -26,7 +26,7 @@ comment: false
 - Pilih karakter yang ingin ditambahkan
 - Pada jendela pop-up, masukkan level dasar dan level target
   - Secara default, menambahkan tujuan dari WIKI akan menetapkan level dasar sesuai data karakter pemain'
-  - Lihat [Karakter Saya](character-data#sync-character-data) untuk panduan lebih lanjut
+  - Lihat [Karakter Saya](character-data.md#sync-character-data) untuk panduan lebih lanjut
 
 ## Item Inventaris
 

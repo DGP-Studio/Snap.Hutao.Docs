@@ -26,7 +26,7 @@ comment: false
 - Select the character you want to add
 - In the pop-up window, input the base level and target level
   - By default, add goals from WIKIs will set base level as player's live data'
-  - Refer to [My Characters](character-data#sync-character-data) document to get more guides
+  - Refer to [My Characters](character-data.md#sync-character-data) document to get more guides
 
 ## Inventory Items
 
