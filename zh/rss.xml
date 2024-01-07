@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 07 Jan 2024 13:53:40 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 13:53:40 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 14:11:14 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 14:11:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -1727,7 +1727,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的"起始等级"以及"目标等级"
 <ul>
 <li>基于玩家数据添加的养成目标，默认初始等级为玩家当前的角色等级</li>
-<li>请参考<a href="character-data#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97">属性统计</a>文档以获取更多信息</li>
+<li>请参考<a href="/zh/features/character-data.html#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97" target="blank">属性统计</a>文档以获取更多信息</li>
 </ul>
 </li>
 </ul>
