@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 07 Jan 2024 13:49:03 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 13:49:03 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 13:52:24 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 13:52:24 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -1557,28 +1557,24 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li>该同步方式包括圣遗物具体数据</li>
 <li>该同步方法包括角色着装信息</li>
-<li>该同步方式一次最多包含 8 个角色
-:::</li>
+<li>该同步方式一次最多包含 8 个角色</li>
 </ul>
 </li>
-<li>
-<p>在游戏中将角色橱窗设置为公开并添加<strong>需要获取详细资料的角色</strong>进入橱窗展示</p>
+</ul>
+</div>
+<ul>
+<li>在游戏中将角色橱窗设置为公开并添加<strong>需要获取详细资料的角色</strong>进入橱窗展示
 <ul>
 <li>角色橱窗中最多可同时展示 8 个角色</li>
 </ul>
 </li>
-<li>
-<p>若您更换了橱窗内的角色或角色内的配置，需等待游戏内的数据同步至服务器</p>
+<li>若您更换了橱窗内的角色或角色内的配置，需等待游戏内的数据同步至服务器
 <ul>
 <li>开启功能和更换角色后需要最多 5 分钟同步数据</li>
 </ul>
 </li>
-<li>
-<p>进入胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></p>
-</li>
-<li>
-<p>点击<code>从Enka API 同步</code></p>
-</li>
+<li>进入胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></li>
+<li>点击<code>从Enka API 同步</code></li>
 </ul>
 <h3> 从 米游社我的角色 同步</h3>
 <div class="hint-container info">
@@ -1588,16 +1584,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>米游社我的角色 同步的数据来源于米游社数据</p>
 <ul>
 <li>该同步方式不包含圣遗物信息</li>
-<li>该同步方式一次可同步全部角色信息
-:::</li>
+<li>该同步方式一次可同步全部角色信息</li>
 </ul>
 </li>
-<li>
-<p>在胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></p>
-</li>
-<li>
-<p>点击<code>从米游社我的角色同步</code></p>
-</li>
+</ul>
+</div>
+<ul>
+<li>在胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></li>
+<li>点击<code>从米游社我的角色同步</code></li>
 </ul>
 <h3> 从 米游社养成计算 同步</h3>
 <div class="hint-container info">
@@ -1611,8 +1605,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
-</div>
-</div>
 </div>
 <ul>
 <li>在胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></li>
