@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Sun, 07 Jan 2024 14:21:15 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 14:21:15 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 14:36:29 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 14:36:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Dev Logs</category>
@@ -328,7 +328,7 @@
 <li><a href="/ru/features/monster-wiki.html" target="blank">WIKI монстров</a></li>
 </ul>
 </li>
-<li><a href="features/hutao-settings#snap-hutao-account">Аккаунт Snap Hutao</a>
+<li><a href="/ru/features/hutao-settings.html#snap-hutao-account" target="blank">Аккаунт Snap Hutao</a>
 <ul>
 <li>Резервное копирование данных желаний</li>
 <li>Предсказание на основе статистики желаний</li>
@@ -2186,7 +2186,7 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
 <h2> Wish History Cloud Sync </h2>
 <blockquote>
 <p>Wish history cloud sync is designed on Snap Hutao Account.
-You need to <a href="hutao-settings#snap-hutao-account">register an account in the settings</a> to use this feature</p>
+You need to <a href="/ru/features/hutao-settings.html#snap-hutao-account" target="blank">register an account in the settings</a> to use this feature</p>
 </blockquote>
 <p>With this feature, you can upload your wish history to Hutao Cloud, to avoid risk of losing data, and make it easier to
 transfer data between devices.</p>

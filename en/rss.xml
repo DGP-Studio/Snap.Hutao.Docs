@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 07 Jan 2024 14:21:15 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 14:21:15 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 14:36:29 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 14:36:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -3110,7 +3110,7 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
 <h2> Wish History Cloud Sync </h2>
 <blockquote>
 <p>Wish history cloud sync is designed on Snap Hutao Account.
-You need to <a href="hutao-settings#snap-hutao-account">register an account in the settings</a> to use this feature</p>
+You need to <a href="/en/features/hutao-settings.html#snap-hutao-account" target="blank">register an account in the settings</a> to use this feature</p>
 </blockquote>
 <p>With this feature, you can upload your wish history to Hutao Cloud, to avoid risk of losing data, and make it easier to
 transfer data between devices.</p>
@@ -3371,7 +3371,7 @@ does not take any destructive modification to the game client to ensure the secu
 <li><a href="/en/features/monster-wiki.html" target="blank">Monster WIKI</a></li>
 </ul>
 </li>
-<li><a href="features/hutao-settings#snap-hutao-account">Snap Hutao Account</a>
+<li><a href="/en/features/hutao-settings.html#snap-hutao-account" target="blank">Snap Hutao Account</a>
 <ul>
 <li>Wish data backup</li>
 <li>Wish stat-based prediction</li>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 07 Jan 2024 14:21:15 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 14:21:15 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 14:36:29 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 14:36:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>开源</category>
@@ -333,7 +333,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p><s>胡桃数据库是 HutaoAPI 的一部分，包含了深渊相关的数据，HutaoAPI 是胡桃使用的 RESTful API，同时面向其他应用的开发者开放，接入成本低，接入收益高。胡桃数据库将会在后续版本实装。</s> 已经实装</p>
 <h2> 会把胡桃放到右下角任务栏吗？会考虑在角色里添加立绘吗？</h2>
 <p><s>基本不会考虑</s>。后续可能会考虑。</p>
-<p>你可以通过快速启动栏来快速启动游戏，具体方法可见<a href="/advanced/FAQ#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F">此文档</a></p>
+<p>你可以通过快速启动栏来快速启动游戏，具体方法可见<a href="/advanced/FAQ.html" target="blank">此文档</a></p>
 <h2> 将来会有移动端吗？有考虑根据胡桃做个手机桌面小组件吗？胡桃以后支持插件吗？胡桃会有插件开发文档吗？</h2>
 <p>短时间内不会考虑移动端。手机桌面小组件也基本不会考虑。不会再支持插件。同样也不会有插件文档。</p>
 <h2> 离支持外服账号还有多远？会整合其他插件比如空荧酒馆这种嘛？</h2>
@@ -767,7 +767,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li><a href="/zh/features/monster-wiki.html" target="blank">怪物资料</a></li>
 </ul>
 </li>
-<li><a href="features/hutao-settings#%E8%83%A1%E6%A1%83%E5%B8%90%E5%8F%B7">胡桃云账号系统</a>
+<li><a href="/zh/features/hutao-settings.html#%E8%83%A1%E6%A1%83%E5%B8%90%E5%8F%B7" target="blank">胡桃云账号系统</a>
 <ul>
 <li>祈愿数据备份</li>
 <li>祈愿统计预测</li>
@@ -2462,7 +2462,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h2> 祈愿记录云同步 </h2>
 <blockquote>
-<p>祈愿记录云同步功能基于胡桃云帐号，你需要<a href="hutao-settings#%E8%83%A1%E6%A1%83%E5%B8%90%E5%8F%B7">在设置中注册并登录胡桃帐号</a>以使用该功能</p>
+<p>祈愿记录云同步功能基于胡桃云帐号，你需要<a href="/zh/features/hutao-settings.html#%E8%83%A1%E6%A1%83%E5%B8%90%E5%8F%B7" target="blank">在设置中注册并登录胡桃帐号</a>以使用该功能</p>
 </blockquote>
 <p>用户可以使用该功能，将本地的祈愿记录上传到胡桃云，避免珍贵的祈愿记录丢失，方便数据在多设备之间转移。</p>
 <h3> 云同步权限</h3>

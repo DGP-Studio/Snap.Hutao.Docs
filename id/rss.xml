@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Sun, 07 Jan 2024 14:21:15 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 14:21:15 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 14:36:29 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 14:36:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -267,7 +267,7 @@
 <li><a href="/id/features/monster-wiki.html" target="blank">WIKI Monster</a></li>
 </ul>
 </li>
-<li><a href="features/hutao-settings#snap-hutao-account">Akun Snap Hutao</a>
+<li><a href="/id/features/hutao-settings.html#snap-hutao-account" target="blank">Akun Snap Hutao</a>
 <ul>
 <li>Cadangan data harapan</li>
 <li>Prediksi berdasarkan statistik harapan</li>
@@ -2046,7 +2046,7 @@ dan memilih <code>Full Refresh</code> <strong>tidak</strong> akan membuat catata
 <h2> Sinkronisasi Awan Riwayat Harapan </h2>
 <blockquote>
 <p>Sinkronisasi awan riwayat harapan dirancang di atas Akun Snap Hutao.
-Anda perlu <a href="hutao-settings#snap-hutao-account">mendaftar akun dalam pengaturan</a> untuk menggunakan fitur ini</p>
+Anda perlu <a href="/id/features/hutao-settings.html#snap-hutao-account" target="blank">mendaftar akun dalam pengaturan</a> untuk menggunakan fitur ini</p>
 </blockquote>
 <p>Dengan fitur ini, Anda dapat mengunggah riwayat harapan Anda ke Hutao Cloud, untuk menghindari risiko kehilangan data, dan membuatnya lebih mudah untuk mentransfer data antar perangkat.</p>
 <h3> Hak Sinkronisasi Awan</h3>
