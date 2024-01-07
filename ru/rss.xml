@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Sun, 07 Jan 2024 14:11:14 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 14:11:14 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 14:21:15 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 14:21:15 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Dev Logs</category>
@@ -1306,7 +1306,7 @@ file contains entire data of the client.</p>
 <li>Во всплывающем окне введите базовый уровень и целевой уровень
 <ul>
 <li>По умолчанию добавление целей из моих данных устанавливает базовый уровень как текущий уровень игрока</li>
-<li>См. документ <a href="character-data#sync-character-data">Мои персонажи</a> для получения дополнительных инструкций</li>
+<li>См. документ <a href="/ru/features/character-data.html#sync-character-data" target="blank">Мои персонажи</a> для получения дополнительных инструкций</li>
 </ul>
 </li>
 </ul>

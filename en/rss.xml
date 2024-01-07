@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 07 Jan 2024 14:11:14 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 14:11:14 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 14:21:15 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 14:21:15 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -2144,7 +2144,7 @@ character's data, this will help you to share your character's data</li>
 <li>In the pop-up window, input the base level and target level
 <ul>
 <li>By default, add goals from WIKIs will set base level as player's live data'</li>
-<li>Refer to <a href="character-data#sync-character-data">My Characters</a> document to get more guides</li>
+<li>Refer to <a href="/en/features/character-data.html#sync-character-data" target="blank">My Characters</a> document to get more guides</li>
 </ul>
 </li>
 </ul>

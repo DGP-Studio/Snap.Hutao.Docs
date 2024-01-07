@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Sun, 07 Jan 2024 14:11:14 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 14:11:14 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2024 14:21:15 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2024 14:21:15 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -1355,7 +1355,7 @@ bawah adalah pengumuman permainan terbaru dan hitungan mundur acara dalam hari d
 <li>Pada jendela pop-up, masukkan level dasar dan level target
 <ul>
 <li>Secara default, menambahkan tujuan dari WIKI akan menetapkan level dasar sesuai data karakter pemain'</li>
-<li>Lihat <a href="character-data#sync-character-data">Karakter Saya</a> untuk panduan lebih lanjut</li>
+<li>Lihat <a href="/id/features/character-data.html#sync-character-data" target="blank">Karakter Saya</a> untuk panduan lebih lanjut</li>
 </ul>
 </li>
 </ul>
