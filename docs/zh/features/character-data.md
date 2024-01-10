@@ -9,14 +9,20 @@ comment: false
 # 属性统计
 
 ::: info
-该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见[米游社多帐号切换](mhy-account-switch.md)文档
+该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见[米游社多账号切换](mhy-account-switch.md)文档
 :::
 
 属性统计，即主程序侧栏中的`我的角色`功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分
 
-![属性统计示例图](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01iEL8ua1g6dyBBLKTd_!!1797064093.png_.webp)
+![属性统计示例图](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hK2R3O1g6e0qblXd2_!!1797064093.png_.webp)
 
 ## 同步角色信息
+
+推荐的使用步骤：
+
+1. 从米游社养成计算同步
+2. 从米游社原神战绩同步
+3. 设置游戏内橱窗中的6个角色后使用 Enka API 同步详细数据
 
 ### 从 Enka API 同步
 
@@ -27,7 +33,7 @@ comment: false
   - 该同步方式包括圣遗物具体数据
   - 该同步方法包括角色着装信息
   - 该同步方式一次最多包含 8 个角色
-:::
+    :::
 
 - 在游戏中将角色橱窗设置为公开并添加**需要获取详细资料的角色**进入橱窗展示
   - 角色橱窗中最多可同时展示 8 个角色
@@ -36,7 +42,7 @@ comment: false
 - 进入胡桃工具箱的`我的角色`功能页面，在界面右上角点击`同步角色信息`
 - 点击`从Enka API 同步`
 
-### 从 米游社我的角色 同步
+### 从米游社原神战绩同步
 
 ::: info 同步特征
 
@@ -44,12 +50,12 @@ comment: false
 
   - 该同步方式不包含圣遗物信息
   - 该同步方式一次可同步全部角色信息
-:::
+    :::
 
 - 在胡桃工具箱的`我的角色`功能页面，在界面右上角点击`同步角色信息`
 - 点击`从米游社我的角色同步`
 
-### 从 米游社养成计算 同步
+### 从米游社养成计算同步
 
 ::: info 同步特征
 
@@ -69,13 +75,10 @@ comment: false
 - 点击界面右上方的"养成计算"按钮，输入目标等级
   - **已同步数据的角色**的当前角色等级、天赋等级会预填入其中，目标等级可自由更改
 
-![rolescal](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png_.webp)
+![rolescal](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01n3GYLI1g6e0zAVRM7_!!1797064093.png_.webp)
 
 - 添加完毕后，您可在"养成计划"功能中查看"已添加的养成目标"
-
-![image](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png_.webp)
-
-- 关于养成计划功能的详细说明，请见[养成计划](develop-plan.md)文档
+  - 关于养成计划功能的详细说明，请见[养成计划](develop-plan.md)文档
 
 ## 导出图片
 
@@ -83,4 +86,4 @@ comment: false
 - 导出的图片储存在系统剪贴板中，你可以在合适的地方直接粘贴以获得该图片
 - 导出图片样式如下图所示
 
-![sample-output-image](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png_.webp)
+![sample-output-image](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FDkZtN1g6e0vJuDZV_!!1797064093.png_.webp)

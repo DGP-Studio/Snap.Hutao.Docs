@@ -10,24 +10,22 @@ comment: false
 
 胡桃工具箱提供两个主要的深境螺旋挑战统计的功能
 
-- 侧栏中的`深渊统计`是一个旨在通过统计并展示广大玩家深境螺旋挑战数据，来帮助对原神对战系统不熟悉玩家组建队伍、通关深渊、获取奖励的功能
-- 侧栏中的`深渊记录`是一个通过保存玩家每一期深境螺旋挑战数据来帮助个人玩家回顾游戏经历及个人数据收集的统计功能
-  - 众多的玩家通过上传个人的`深渊记录`来形成胡桃数据库的`深渊统计`数据集
+- 顶栏中`分期详情`是一个通过保存玩家每一期深境螺旋挑战数据来帮助个人玩家回顾游戏经历及个人数据收集的统计功能
+- 顶栏中的`本期统计`是一个旨在通过统计并展示广大玩家深境螺旋挑战数据，来帮助对原神对战系统不熟悉玩家组建队伍、通关深渊、获取奖励的功能
+  - 众多的玩家通过上传个人的`分期详情`数据来形成胡桃数据库的`本期统计`数据集
 
 ::: tabs
 
+@tab 分期详情
+![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
 @tab 角色使用率
-![character-usage-rate](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01QnrxoH1g6dyBQazad_!!1797064093.png_.webp)
+![character-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
 @tab 角色出场率
-![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01SZxOoc1g6dyBJC3g3_!!1797064093.png_.webp)
+![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Pdv5w01g6e0u1ewov_!!1797064093.png_.webp)
 @tab 队伍出场次数
-![hutaoapi](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01oERCCj1g6dyHvhPXj_!!1797064093.png_.webp)
+![hutaoapi](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01k1W4tw1g6e0wOyjdf_!!1797064093.png_.webp)
 @tab 角色持有率
-![character-held-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN0112Fro61g6dyGCiFxq_!!1797064093.png_.webp)
-@tab 个人数据统计
-![personal-record-stat](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01wrgGYm1g6dyH6BpIL_!!1797064093.png_.webp)
-@tab 个人数据详情
-![personal-record-details](https://img.alicdn.com/imgextra/i1/1797064093/O1CN012Rt60l1g6dyGCgiHv_!!1797064093.png_.webp)
+![character-held-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01bQvukt1g6e0uuU2Fh_!!1797064093.png_.webp)
 
 :::
 
@@ -45,7 +43,7 @@ comment: false
 
 :::
 
-- 在主界面点击左侧菜单栏进入`深渊统计`页面
+- 在主界面点击左侧菜单栏进入`深境螺旋`页面，点击顶栏的`本期统计`标签
 - 点击`角色使用`以查看角色使用率数据
   - 角色使用率 = 角色在当前层数出场次数[^first] / 持有该角色的玩家在该层数的总记录数
 - 点击`角色出场`以查看角色出场率数据
@@ -59,11 +57,15 @@ comment: false
 
 ### 使用胡桃客户端
 
-- 在主界面点击左侧菜单栏进入`深渊记录`功能页面
+::: important 胡桃云权限奖励
+如果你的胡桃客户端中已登录你的胡桃账号，在当期首次成功提交数据后，你将获得胡桃云权限作为我们的感谢（即使该数据没有通关第12层）
+:::
+
+- 在主界面点击左侧菜单栏进入`深境螺旋`功能页面
 - 点击右上角的`刷新数据`以确保胡桃工具箱客户端已经获取到最新的个人深境螺旋数据
 - 点击右上角的`上传数据`以上传你的深境螺旋数据
   - 这可能需要花费数秒，上传成功后你将会看到如下图的成功提示
-    ![upload-hutaoapi](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01yniArT1g6dyJIJHqK_!!1797064093.png_.webp)
+    ![upload-hutao-api](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01yniArT1g6dyJIJHqK_!!1797064093.png_.webp)
 
 ### 使用浏览器
 
