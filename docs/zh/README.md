@@ -35,15 +35,15 @@ highlights:
         details: 数据可通过胡桃云备份至胡桃服务器，丢失设备也绝不会丢失数据
       - title: 你的程序社区守望
         icon: iconfont icon-anonymous
-        details: 程序以 MIT 协议开源于 GitHub 并欢迎社区成员的代码审查和贡献；打包和发布流程由全自动流水线完成
+        details: 程序以 MIT 协议开源于 GitHub 并欢迎社区成员的代码审查和贡献；打包和发布流程由全自动流水线完成，无人工干预
 
   - header: 多合一的工具箱
     description: 快速上手你期待的功能，探索你尚未尝试过的新工具
     image: /images/202308/highlights-head.png
     features:
-      - title: 比 Snap Genshin 更好
-        icon: /images/202209/SGLogoUpgrade64.png
-        details: 胡桃工具箱在继承 Snap Genshin 功能的前提下有更广泛的数据支持和更好的客户端性能表现
+      - title: Windows 原生 MSIX 应用
+        icon: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01gOw0Nk1g6e0yjfAlD_!!1797064093.png_.webp
+        details: 以 Windows 原生应用形式打包并支持应用沙盒隔离技术，保证系统稳定性和整洁性
         link: project.html
 
       - title: 实时便笺
