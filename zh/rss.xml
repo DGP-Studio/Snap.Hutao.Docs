@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 11 Jan 2024 11:26:30 GMT</pubDate>
-    <lastBuildDate>Thu, 11 Jan 2024 11:26:30 GMT</lastBuildDate>
+    <pubDate>Thu, 11 Jan 2024 16:07:52 GMT</pubDate>
+    <lastBuildDate>Thu, 11 Jan 2024 16:07:52 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -1183,6 +1183,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>在某些特定条件下（如游戏目录权限错误），<code>config.ini</code> 文件会在转服后丢失。这会造成无法进入胡桃工具箱高级启动器界面和游戏无法正常启动。</p>
 <p>在判断你当前的游戏版本后，你可以在游戏目录 <code>%your_launcher_folder%/Genshin Impact Game/</code> 下手动创建并填入对应的配置文件，下面是常见的配置文件内容。</p>
 
+<h3> 为什么设置实时便笺的自动刷新会提示“修改计划任务失败”</h3>
+<p>实时便笺的自动刷新依赖于任务计划。为了避免可能的权限问题，胡桃工具箱会强制在非管理员模式设置计划任务。</p>
+<p>如果你在旧版本开启了自动刷新，那你可以通过手动在任务计划程序中删除旧的任务计划来解决问题。</p>
+<p>如果你没有在旧版本开启自动刷新，那么此问题是由于你目前使用的 Windows 用户账户权限不足导致的。如果你当前的用户账户是管理员账户，那你只能通过重装系统来解决此问题。</p>
 <h2> 网络篇</h2>
 <h3> 如何通过网络代理使用胡桃工具箱</h3>
 <blockquote>

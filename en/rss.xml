@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 11 Jan 2024 11:26:30 GMT</pubDate>
-    <lastBuildDate>Thu, 11 Jan 2024 11:26:30 GMT</lastBuildDate>
+    <pubDate>Thu, 11 Jan 2024 16:07:52 GMT</pubDate>
+    <lastBuildDate>Thu, 11 Jan 2024 16:07:52 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -988,6 +988,10 @@ This will cause user not able to get into advanced launcher page and launch the 
 <p>After identify the server version on your device, you can manually create and fill the configuration file with the right
 content. The following are common configurations.</p>
 
+<h3> Why does setting up automatic refresh of real-time notes prompt "Failed to modify Scheduled Task"</h3>
+<p>The automatic refresh of real-time notes relies on task scheduling. In order to avoid possible permission issues, Snap Hutao will force scheduled tasks to be set in non-administrator mode.</p>
+<p>If you turned on automatic refresh in the old version, you can solve the problem by manually deleting the old task schedule in Task Scheduler.</p>
+<p>If you did not turn on automatic refresh in the old version, then this problem is caused by the Windows user account you are currently using having insufficient permissions. If your current user account is an administrator account, you can only solve this problem by reinstalling the system.</p>
 <h2> Network FAQ</h2>
 <h3> Use Snap Hutao with Network Proxy</h3>
 <blockquote>
