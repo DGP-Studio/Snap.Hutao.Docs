@@ -6,22 +6,79 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 07 Jan 2024 14:36:29 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 14:36:29 GMT</lastBuildDate>
+    <pubDate>Thu, 11 Jan 2024 11:26:30 GMT</pubDate>
+    <lastBuildDate>Thu, 11 Jan 2024 11:26:30 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>功能</category>
+    <category>教程</category>
     <category>开源</category>
     <category>开发</category>
     <category>开发日志</category>
     <category>FAQ</category>
     <category>依赖项</category>
     <category>安装</category>
-    <category>功能</category>
-    <category>教程</category>
     <category>公告</category>
     <category>i18n</category>
     <category>项目</category>
     <category>第三方工具</category>
+    <item>
+      <title>反馈中心</title>
+      <link>https://hut.ao/zh/features/feedback-center.html</link>
+      <guid>https://hut.ao/zh/features/feedback-center.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">反馈中心</source>
+      <description>仪表盘 反馈中心是 Snap Hutao 开发团队为帮助用户解决常见问题所提供的一个功能页面，该页面是左右结构布局的。 在页面左侧，我们提供了一个搜索 Snap Hutao 文档的便捷入口，你可以在搜索框中通过输入关键词来获得相关的页面搜索结果。 在页面右侧，我们提供了多个实用功能。 第一部分显示了胡桃工具箱的关键信息，包括 Snap Hutao 版本...</description>
+      <category>功能</category>
+      <category>教程</category>
+      <pubDate>Wed, 10 Jan 2024 10:44:30 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 反馈中心</h1>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01yGGrhz1g6e0u3q5L6_!!1797064093.png_.webp" alt="仪表盘" loading="lazy"></p>
+<p>反馈中心是 Snap Hutao 开发团队为帮助用户解决常见问题所提供的一个功能页面，该页面是左右结构布局的。</p>
+<p>在页面左侧，我们提供了一个搜索 Snap Hutao 文档的便捷入口，你可以在搜索框中通过输入关键词来获得相关的页面搜索结果。</p>
+<p>在页面右侧，我们提供了多个实用功能。</p>
+<ul>
+<li>第一部分显示了胡桃工具箱的关键信息，包括 Snap Hutao 版本，设备 ID，设备网络信息和 Webview 2 运行时版本信息。</li>
+<li>第二部分包括了 Snap Hutao 项目议题、路线图和服务可用性监控的链接</li>
+<li>第三部分包括了 Snap Hutao 主要功能的文档，你可以点击对应的功能以跳转到相对应的文档页面</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01yGGrhz1g6e0u3q5L6_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>胡桃账号</title>
+      <link>https://hut.ao/zh/features/hutao-passport.html</link>
+      <guid>https://hut.ao/zh/features/hutao-passport.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">胡桃账号</source>
+      <description>胡桃账号是由 DGP-Studio 团队创建的为胡桃工具箱服务的账号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。 如果你有胡桃云权限，你将获得如下权限： 1. 祈愿记录页面中的 预测 功能 2. 祈愿记录的云端同步功能 当你的胡桃账号云同步权限过期后，你将无法上传、下载和删除数据，但你的数据不会被删除。你可以在恢复权限后重新操作...</description>
+      <category>功能</category>
+      <category>教程</category>
+      <pubDate>Wed, 10 Jan 2024 10:44:30 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 胡桃账号</h1>
+<p>胡桃账号是由 DGP-Studio 团队创建的为胡桃工具箱服务的账号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。</p>
+<p>如果你有胡桃云权限，你将获得如下权限：</p>
+<ol>
+<li>祈愿记录页面中的 <code>预测</code> 功能</li>
+<li>祈愿记录的云端同步功能</li>
+</ol>
+<ul>
+<li>当你的胡桃账号云同步权限过期后，你将无法上传、下载和删除数据，但你的数据不会被删除。你可以在恢复权限后重新操作你的云备份数据。</li>
+</ul>
+<p>由于云同步是一个消耗胡桃服务器资源的功能，故该功能有时间限制。目前，胡桃提供以下几种启用云同步功能的方法：</p>
+<ol>
+<li>在爱发电上打赏胡桃的用户，我们会向与爱发电邮箱账号相匹配的胡桃账号自动增加使用时间作为胡桃工具箱开发团队对打赏用户的感谢</li>
+<li>对于所有注册用户，在每一期深渊第一次成功向胡桃数据库上传深境螺旋挑战记录后，会获得 3 天的同步功能使用时间
+<ul>
+<li>你可以通过该方法长期地免费使用胡桃云</li>
+</ul>
+</li>
+<li><strong>为胡桃工具箱开源社区贡献（包括但不限于代码开发、程序设计、本地化翻译）的用户，可以直接联系开发团队获取开发者许可证</strong>
+<ul>
+<li>我们目前正在设计一个完善而自动化的开发者许可证颁发流程，它将会随着胡桃账号系统的完善而推出</li>
+</ul>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
     <item>
       <title>加入我们</title>
       <link>https://hut.ao/zh/development/join.html</link>
@@ -190,7 +247,7 @@
       <category>教程</category>
       <pubDate>Fri, 01 Sep 2023 09:35:59 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 怪物资料</h1>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vwQbXb1g6dyCTQbcl_!!1797064093.png_.webp" alt="monster-wiki" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01WdFqdC1g6e0sAREwO_!!1797064093.png_.webp" alt="monster-wiki" loading="lazy"></p>
 <p>怪物资料是胡桃工具箱中内置的用于查询各个怪物的<strong>基础数值、各等级数值、元素抗性、掉落物品</strong>数据的 WIKI</p>
 <h2> 已包含的数据</h2>
 <ul>
@@ -213,7 +270,7 @@
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vwQbXb1g6dyCTQbcl_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01WdFqdC1g6e0sAREwO_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>初始化引导</title>
@@ -383,28 +440,22 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/dashboard.html</link>
       <guid>https://hut.ao/zh/features/dashboard.html</guid>
       <source url="https://hut.ao/zh/rss.xml">首页仪表盘</source>
-      <description>仪表盘 胡桃工具箱启动后会默认进入首页仪表盘，上半部分为你的个人游戏数据，下半部分为近期游戏公告及游戏活动倒计时。 个人游戏数据仪表盘包含以下内容： Snap Hutao 公告; 若 Snap Hutao 开发组发布了新的公告则会在仪表盘上方显示，你可以手动关闭这些公告; 胡桃帐号; 若你已登录胡桃帐号，将会在顶部显示胡桃邮箱帐号；若未登录将会有注册和...</description>
+      <description>仪表盘 胡桃工具箱启动后会默认进入首页仪表盘，上半部分为你的个人游戏数据，下半部分为近期游戏公告及游戏活动倒计时。 Snap Hutao 公告; 若 Snap Hutao 开发组发布了新的公告则会在仪表盘上方显示，你可以手动关闭这些公告; 游戏启动器; 你可以直接在仪表盘中选择账号并启动游戏; 祈愿记录; 仪表盘中将显示祈愿档案 UID 并以进度条的形...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Fri, 12 May 2023 12:14:08 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 首页仪表盘</h1>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SYGGdw1g6dyH1OHmD_!!1797064093.png_.webp" alt="仪表盘" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Nlz8ca1g6e0tyxrBa_!!1797064093.png_.webp" alt="仪表盘" loading="lazy"></p>
 <p>胡桃工具箱启动后会默认进入首页仪表盘，上半部分为你的个人游戏数据，下半部分为近期游戏公告及游戏活动倒计时。</p>
-<p>个人游戏数据仪表盘包含以下内容：</p>
 <ul>
 <li>Snap Hutao 公告
 <ul>
 <li>若 Snap Hutao 开发组发布了新的公告则会在仪表盘上方显示，你可以手动关闭这些公告</li>
 </ul>
 </li>
-<li>胡桃帐号
-<ul>
-<li>若你已登录胡桃帐号，将会在顶部显示胡桃邮箱帐号；若未登录将会有注册和登录提示</li>
-</ul>
-</li>
 <li>游戏启动器
 <ul>
-<li>你可以直接在仪表盘中选择帐号并启动游戏</li>
+<li>你可以直接在仪表盘中选择账号并启动游戏</li>
 </ul>
 </li>
 <li>祈愿记录
@@ -425,44 +476,42 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>如在胡桃工具箱中有多个激活的实时便笺，你可以使用实时便笺两侧的箭头按钮来切换档案</li>
 </ul>
 </li>
+<li>游戏公告
+<ul>
+<li>你可以在仪表盘下半部分找到实时游戏公告</li>
+<li>默认的数据源为国服官服数据，你可以在胡桃工具箱的设置中更改数据源</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SYGGdw1g6dyH1OHmD_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Nlz8ca1g6e0tyxrBa_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>实时便笺</title>
       <link>https://hut.ao/zh/features/real-time-notes.html</link>
       <guid>https://hut.ao/zh/features/real-time-notes.html</guid>
       <source url="https://hut.ao/zh/rss.xml">实时便笺</source>
-      <description>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多帐号切换 (mhy-account-switch.md)文档 live-data-tracking 添加角色 点击添加角色按钮; 在弹出的添加角色浮窗中，找到你要添加的游戏角色 UID，并单击其右侧的加号按钮; 此时您添加的游戏角色即可显示在实时便笺页面中; 实时便笺是间隔固定时间自动刷新的...</description>
+      <description>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多账号切换 (mhy-account-switch.md)文档 live-data-tracking 添加角色 点击添加角色按钮; 在弹出的添加角色浮窗中，找到你要添加的游戏角色 UID，并单击其右侧的加号按钮; 此时您添加的游戏角色即可显示在实时便笺页面中; 实时便笺是间隔固定时间自动刷新的...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Sat, 01 Apr 2023 00:54:18 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 实时便笺</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
-<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/zh/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a>文档</p>
+<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/zh/features/mhy-account-switch.html" target="blank">米游社多账号切换</a>文档</p>
 </div>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01yhh71O1g6dyG80pQP_!!1797064093.png_.webp" alt="live-data-tracking" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp" alt="live-data-tracking" loading="lazy"></p>
 <h2> 添加角色</h2>
 <ul>
 <li>点击<code>添加角色</code>按钮</li>
 <li>在弹出的<code>添加角色</code>浮窗中，找到你要添加的游戏角色 UID，并单击其右侧的加号按钮</li>
 <li>此时您添加的游戏角色即可显示在实时便笺页面中
 <ul>
-<li>实时便笺是间隔固定时间自动刷新的
-<ul>
-<li>你可以点击窗口右上角的<code>通知设置</code>来设置查询的间隔时间</li>
+<li>实时便笺是间隔固定时间自动刷新的，你可以点击窗口右上角的<code>通知设置</code>来设置查询的间隔时间</li>
+</ul>
+</li>
 <li>如您需要立即刷新以获取实时的最新数值，请单击<code>立即刷新</code>按钮</li>
-</ul>
-</li>
-<li>如出现"账号有风险，请前往米游社查看"字样的提示
-<ul>
-<li>请参考<a href="/zh/advanced/exceptions.html#%E7%8A%B6%E6%80%811034-%E9%AA%8C%E8%AF%81%E5%A4%B1%E8%B4%A5" target="blank">账号风险提示</a>文档</li>
-</ul>
-</li>
-</ul>
-</li>
+<li>如果在数据刷新时出现 <code>1034</code> 错误则意味着触发了米游社反机器人风控，你可以通过在胡桃设置中配置无感验证来解决该问题</li>
 </ul>
 <h2> 验证用户与角色</h2>
 <p>若你使用的是米游社帐号，则你的帐号非常容易受到风控机制的影响而触发验证码。在触发风控的情况下，实时便笺数据将无法刷新。
@@ -489,9 +538,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
-<h2> 帐号独立设置</h2>
+<h2> 账号独立设置</h2>
 <ul>
-<li>胡桃工具箱的实时便笺功能允许用户对每一个被监控的帐号给予不同的设置</li>
+<li>胡桃工具箱的实时便笺功能允许用户对每一个被监控的账号给予不同的设置</li>
 <li>将鼠标停留在<strong>需要被设置的</strong>角色实时便笺的窗体上</li>
 <li>点击其窗体右上角出现的设置图案按钮，即可修改如下参数
 <ul>
@@ -510,7 +559,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>点击其窗体右上角出现的移除标志按钮，即可移除该角色对应的实时便笺</li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01yhh71O1g6dyG80pQP_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>加入用户社区</title>
@@ -621,14 +670,19 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/project.html</link>
       <guid>https://hut.ao/zh/project.html</guid>
       <source url="https://hut.ao/zh/rss.xml">项目说明</source>
-      <description>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。 胡桃能解决的原神桌面端缺陷 功能 移动端 桌面端 胡桃的方案 :--...</description>
+      <description>banner 胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。 Snap Hutao 项目使用 MSIX 格式的安装包...</description>
       <category>公告</category>
       <category>项目</category>
       <category>功能</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 项目说明</h1>
+<div style="text-align:center">
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01sh4tKQ1g6e0nrMGai_!!1797064093.png_.webp" alt="banner" loading="lazy">
+<a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"></a></p>
+</div>
 <p>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新
 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。</p>
+<p>Snap Hutao 项目使用 MSIX 格式的安装包打包。MSIX 是一种 Windows 原生的应用程序包格式，它使得软件的安装、更新和卸载过程更加简洁。其中，它的一个突出特性就是利用沙盒技术。这意味着以 MSIX 打包的应用程序在隔离的环境中运行，防止它们进行系统范围的更改。这种隔离增强了安全性，因为它限制了应用程序对系统资源和用户数据的访问。此外，当卸载 MSIX 打包的应用程序时，它不会留下任何残余文件或注册表条目，保持了系统的整洁和稳定。这是对传统安装方法的重大改进，因为传统方法在卸载应用程序时常常会留下“数字垃圾”。这些特性的结合使 MSIX 成为开发者和终端用户的强大工具，提供了无缝、安全、清洁的软件管理体验。</p>
 <h2> 胡桃能解决的原神桌面端缺陷</h2>
 <table>
 <thead>
@@ -775,6 +829,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01sh4tKQ1g6e0nrMGai_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>快速开始</title>
@@ -823,18 +878,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ol>
 <h2> </h2>
 <h3> 全新安装</h3>
-<p>使用 MSIX 安装包即可安装 Snap Hutao，你可以从以下源获取到安装包</p>
-<div class="vp-card-container">
-  </div>
-<ul>
-<li>在安装过程中，如果出现任意以下错误之一，请参考文章<a href="/zh/advanced/dependency.html" target="blank">手动安装依赖项</a>解决，该问题来源是Windows无法自动安装所需要的框架环境
-<ol>
-<li><code>应用程序无法安装应用包相关项，请向开发人员索要包</code></li>
-<li>在安装过程中长时间卡在<code>正在安装框架</code></li>
-</ol>
-</li>
-<li>更多在安装时遇上的问题，请阅读 <a href="/zh/advanced/FAQ.html" target="blank">常见问题-安装篇</a> 文档</li>
-</ul>
+<p>使用 <strong>MSIX 安装包</strong>或 <strong>Snap.Hutao.Deployment 安装器</strong>即可安装 Snap Hutao，你可以从以下源获取到安装包</p>
+
 <hr>
 <p>如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎<a href="/zh/development/join.html" target="blank">加入我们</a>！</p>
 <h3> </h3>
@@ -1499,26 +1544,27 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/achievements.html</link>
       <guid>https://hut.ao/zh/features/achievements.html</guid>
       <source url="https://hut.ao/zh/rss.xml">成就管理</source>
-      <description>成就管理界面 胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态 在第一次使用时，你需要根据提示点击创建新存档按钮以创造一个成就存档并为其命名; 创建第一个资料页后，你可以点击右上角的创建新存档来继续为更多的帐号创建成就记录档案; 成就导入 胡桃工具箱使用统一可交换成就标准 (https://uigf.org/zh/standards/...</description>
+      <description>成就管理界面 胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态 在第一次使用时，你需要根据提示点击创建新存档按钮以创造一个成就存档并为其命名。创建第一个资料页后，你可以点击右上角的创建新存档来继续为更多的账号创建成就记录档案 成就导入 胡桃工具箱使用 UIAF 统一可交换成就标准 (https://uigf.org/zh/standa...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 成就管理</h1>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01gdzS4e1g6dyH1G5wh_!!1797064093.png_.webp" alt="成就管理界面" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01fApvim1g6e0xyGQvS_!!1797064093.png_.webp" alt="成就管理界面" loading="lazy"></p>
 <p>胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态</p>
+<p>在第一次使用时，你需要根据提示点击<code>创建新存档</code>按钮以创造一个成就存档并为其命名。创建第一个资料页后，你可以点击右上角的<code>创建新存档</code>来继续为更多的账号创建成就记录档案</p>
+<h2> 成就导入 </h2>
 <ul>
-<li>在第一次使用时，你需要根据提示点击<code>创建新存档</code>按钮以创造一个成就存档并为其命名</li>
-<li>创建第一个资料页后，你可以点击右上角的<code>创建新存档</code>来继续为更多的帐号创建成就记录档案</li>
-</ul>
-<h2> 成就导入</h2>
-<ul>
-<li>胡桃工具箱使用<a href="https://uigf.org/zh/standards/UIAF.html" target="_blank" rel="noopener noreferrer">统一可交换成就标准</a>数据标准来储存用户的成就数据
+<li>胡桃工具箱使用 <a href="https://uigf.org/zh/standards/UIAF.html" target="_blank" rel="noopener noreferrer">UIAF 统一可交换成就标准</a>数据标准来储存用户的成就数据
 <ul>
 <li>该标准允许用户从其它<strong>成就导出工具</strong>中通过 Url 协议和剪贴板将数据导入到胡桃工具箱中</li>
 </ul>
 </li>
-<li>你可以点击成就页面右上角隐藏菜单中的<code>导入</code>按钮，并选择<code>从 UIAF 文件导入</code>以加载以 UIAF 数据格式储存的第三方成就数据</li>
+<li>你可以点击成就页面右上角的<code>导入</code>按钮，并选择<code>从 UIAF 文件导入</code>以加载以 UIAF 数据格式储存的第三方成就数据</li>
 </ul>
+<h2> 成就导出 </h2>
+<p>你可以点击成就页面右上角隐藏菜单中的<code>导出</code>按钮，在弹出的窗口中选择目录并设置文件名，随后你的数据就将被导出</p>
+<h2> 删除存档</h2>
+<p>你可以通过在右上角的隐藏菜单中找到并点击 <code>删除当前存档</code>以删除当前的成就存档</p>
 <h2> 推荐使用的成就识别工具</h2>
 <ul>
 <li>
@@ -1529,31 +1575,36 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01gdzS4e1g6dyH1G5wh_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01fApvim1g6e0xyGQvS_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>属性统计</title>
       <link>https://hut.ao/zh/features/character-data.html</link>
       <guid>https://hut.ao/zh/features/character-data.html</guid>
       <source url="https://hut.ao/zh/rss.xml">属性统计</source>
-      <description>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多帐号切换 (mhy-account-switch.md)文档 属性统计，即主程序侧栏中的我的角色功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分 属性统计示例图 同步角色信息 从 Enka API 同步 同步特征 Enka AP...</description>
+      <description>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见米游社多账号切换 (mhy-account-switch.md)文档 属性统计，即主程序侧栏中的我的角色功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分 属性统计示例图 同步角色信息 推荐的使用步骤： 1. 从米游社养成计算同步 2. ...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 属性统计</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
-<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/zh/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a>文档</p>
+<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/zh/features/mhy-account-switch.html" target="blank">米游社多账号切换</a>文档</p>
 </div>
 <p>属性统计，即主程序侧栏中的<code>我的角色</code>功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分</p>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01iEL8ua1g6dyBBLKTd_!!1797064093.png_.webp" alt="属性统计示例图" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hK2R3O1g6e0qblXd2_!!1797064093.png_.webp" alt="属性统计示例图" loading="lazy"></p>
 <h2> 同步角色信息</h2>
+<p>推荐的使用步骤：</p>
+<ol>
+<li>从米游社养成计算同步</li>
+<li>从米游社原神战绩同步</li>
+<li>设置游戏内橱窗中的6个角色后使用 Enka API 同步详细数据</li>
+</ol>
 <h3> 从 Enka API 同步</h3>
 <div class="hint-container info">
 <p class="hint-container-title">同步特征</p>
 <ul>
-<li>
-<p>Enka API 同步游戏内角色橱窗中公开展示的角色的信息</p>
+<li>Enka API 同步游戏内角色橱窗中公开展示的角色的信息
 <ul>
 <li>该同步方式包括圣遗物具体数据</li>
 <li>该同步方法包括角色着装信息</li>
@@ -1576,12 +1627,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>进入胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></li>
 <li>点击<code>从Enka API 同步</code></li>
 </ul>
-<h3> 从 米游社我的角色 同步</h3>
+<h3> 从米游社原神战绩同步</h3>
 <div class="hint-container info">
 <p class="hint-container-title">同步特征</p>
 <ul>
-<li>
-<p>米游社我的角色 同步的数据来源于米游社数据</p>
+<li>米游社我的角色 同步的数据来源于米游社数据
 <ul>
 <li>该同步方式不包含圣遗物信息</li>
 <li>该同步方式一次可同步全部角色信息</li>
@@ -1593,12 +1643,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在胡桃工具箱的<code>我的角色</code>功能页面，在界面右上角点击<code>同步角色信息</code></li>
 <li>点击<code>从米游社我的角色同步</code></li>
 </ul>
-<h3> 从 米游社养成计算 同步</h3>
+<h3> 从米游社养成计算同步</h3>
 <div class="hint-container info">
 <p class="hint-container-title">同步特征</p>
 <ul>
-<li>
-<p>米游社养成计算 同步的数据来源于米游社养成计算数据</p>
+<li>米游社养成计算 同步的数据来源于米游社养成计算数据
 <ul>
 <li>该同步方式包含角色天赋等级信息</li>
 <li>该同步方式一次可同步全部角色信息</li>
@@ -1619,13 +1668,13 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png_.webp" alt="rolescal" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01n3GYLI1g6e0zAVRM7_!!1797064093.png_.webp" alt="rolescal" loading="lazy"></p>
 <ul>
-<li>添加完毕后，您可在"养成计划"功能中查看"已添加的养成目标"</li>
-</ul>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png_.webp" alt="image" loading="lazy"></p>
+<li>添加完毕后，您可在"养成计划"功能中查看"已添加的养成目标"
 <ul>
 <li>关于养成计划功能的详细说明，请见<a href="/zh/features/develop-plan.html" target="blank">养成计划</a>文档</li>
+</ul>
+</li>
 </ul>
 <h2> 导出图片</h2>
 <ul>
@@ -1633,9 +1682,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>导出的图片储存在系统剪贴板中，你可以在合适的地方直接粘贴以获得该图片</li>
 <li>导出图片样式如下图所示</li>
 </ul>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png_.webp" alt="sample-output-image" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FDkZtN1g6e0vJuDZV_!!1797064093.png_.webp" alt="sample-output-image" loading="lazy"></p>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01iEL8ua1g6dyBBLKTd_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hK2R3O1g6e0qblXd2_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>角色资料</title>
@@ -1647,7 +1696,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 角色资料</h1>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN011A6QZM1g6dyEd2Bzu_!!1797064093.png_.webp" alt="characters-wiki" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01OKw2Tc1g6e0qbmLe0_!!1797064093.png_.webp" alt="characters-wiki" loading="lazy"></p>
 <p>角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki</p>
 <h2> 已包含的数据</h2>
 <ul>
@@ -1696,25 +1745,25 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN011A6QZM1g6dyEd2Bzu_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01OKw2Tc1g6e0qbmLe0_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>养成计划</title>
       <link>https://hut.ao/zh/features/develop-plan.html</link>
       <guid>https://hut.ao/zh/features/develop-plan.html</guid>
       <source url="https://hut.ao/zh/rss.xml">养成计划</source>
-      <description>dev-plan 添加养成目标进入材料清单 基于 WIKI 资料添加 在胡桃工具箱的左侧栏目中，点击角色资料或`武器资料功能; 在&amp;quot;胡桃工具箱&amp;quot;的整体界面右上部分，点击养成计算按钮; 在弹出的&amp;quot;添加到当前养成计划&amp;quot;的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级; 基于 WIKI 资料添加的养成目标，默认初始值为 1 级; 基于玩家数据添加 ...</description>
+      <description>dev-plan 添加养成目标进入材料清单 基于 WIKI 资料添加 在胡桃工具箱的左侧栏目中，点击角色资料或`武器资料功能; 在胡桃工具箱的整体界面右上部分，点击养成计算按钮; 在弹出的添加到当前养成计划的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级; 基于 WIKI 资料添加的养成目标，默认初始值为 1 级; 基于玩家数据添加 在胡桃工...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 养成计划</h1>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01O0N4DT1g6dyEhgjZn_!!1797064093.png_.webp" alt="dev-plan" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hTUFrK1g6e0qblsZV_!!1797064093.png_.webp" alt="dev-plan" loading="lazy"></p>
 <h2> 添加养成目标进入材料清单</h2>
 <h3> 基于 WIKI 资料添加</h3>
 <ul>
 <li>在胡桃工具箱的左侧栏目中，点击<code>角色资料</code>或<code>武器资料</code>功能</li>
-<li>在"胡桃工具箱"的整体界面右上部分，点击<code>养成计算</code>按钮</li>
-<li>在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级
+<li>在胡桃工具箱的整体界面右上部分，点击<code>养成计算</code>按钮</li>
+<li>在弹出的<code>添加到当前养成计划</code>的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级
 <ul>
 <li>基于 WIKI 资料添加的养成目标，默认初始值为 1 级</li>
 </ul>
@@ -1722,7 +1771,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h3> 基于玩家数据添加</h3>
 <ul>
-<li>在"胡桃工具箱"的左侧栏目中，点击<code>我的角色</code>功能</li>
+<li>在胡桃工具箱的左侧栏目中，点击<code>我的角色</code>功能</li>
 <li>在选中角色后，点击右上角的<code>养成计算</code>按钮</li>
 <li>在弹出的"添加到当前养成计划"的窗口中，填写角色需要计算的各项属性的"起始等级"以及"目标等级"
 <ul>
@@ -1733,9 +1782,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h2> 背包物品</h2>
 <ul>
-<li>在"胡桃工具箱"的左侧栏目中，点击"养成计划"功能</li>
-<li>点击"背包物品"功能栏</li>
-<li>在"胡桃工具箱"的整体界面右上部分，点击"新建计划"按钮</li>
+<li>在胡桃工具箱的左侧栏目中，点击"养成计划"功能</li>
+<li>点击背包物品功能栏</li>
+<li>在胡桃工具箱的整体界面右上部分，点击"新建计划"按钮</li>
 <li>在弹出的"创建新的养成计划"的窗口中，填写需要创建的养成计划名称
 <ul>
 <li>此处可勾选"绑定当前选中的账号角色"</li>
@@ -1754,7 +1803,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01O0N4DT1g6dyEhgjZn_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hTUFrK1g6e0qblsZV_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>高级启动器</title>
@@ -1766,7 +1815,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 高级启动器</h1>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Y1sp6V1g6dyDTojwM_!!1797064093.png_.webp" alt="游戏启动器" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp" alt="游戏启动器" loading="lazy"></p>
 <ul>
 <li>胡桃工具箱提供的高级启动器功能中通过多样的设置选项来允许用户以自定义设置启动游戏</li>
 <li>你可以通过点击左侧菜单栏中的<code>启动游戏</code>进入高级启动器功能
@@ -1775,16 +1824,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>选择游戏路径时，请注意此处选择的应是游戏本身
 <ul>
 <li>形如：<code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code></li>
-<li>而官方启动器的目录一般是<code>$\Genshin Impact\launcher.exe</code></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>在设置完毕启动游戏所需的附加选项后，点击右上角的<code>启动游戏</code>按钮即可
-<ul>
-<li>附加选项请看本页下方的功能文档</li>
-</ul>
-</li>
+<li>在设置完毕启动游戏所需的附加选项后，点击右上角的<code>启动游戏</code>按钮即可，附加选项请看本页下方的功能文档</li>
 </ul>
 <h2> 切换服务器</h2>
 <div class="hint-container tip">
@@ -1795,8 +1839,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ol>
 </div>
 <ul>
-<li>在主界面点击左侧菜单栏进入<code>启动游戏</code>页面</li>
-<li>找到<code>常规</code>分类中的<code>服务器</code>一栏</li>
+<li>进入<code>启动游戏</code>页面</li>
+<li>找到<code>文件</code>分类中的<code>服务器</code>一栏</li>
 <li>点击右侧选项中的服务器名称，选择要进入的服务器。目前可选的服务器包括：</li>
 </ul>
 <table>
@@ -1838,23 +1882,20 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </tbody>
 </table>
 <ul>
-<li>点击右上角的<code>启动游戏</code>按钮，胡桃会自动下载并应用对应服务器的文件并启动游戏</li>
+<li>点击右上角的<code>启动游戏</code>按钮，胡桃会从对应的米哈游官方服务器自动下载并应用对应服务器的文件替换并启动游戏</li>
 </ul>
 <h2> 账号保存</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<ol>
-<li>本功能所描述的帐号，特指当前原神所登录游戏账号的登录状态</li>
-<li><strong>目前仅支持切换官方服（不含渠道服）帐号</strong></li>
-</ol>
+<p>本功能所描述的账号，特指当前原神所登录游戏账号的登录状态</p>
 </div>
 <table>
 <thead>
 <tr>
 <th></th>
 <th>官方服</th>
-<th>渠道服</th>
 <th>国际服</th>
+<th>渠道服</th>
 </tr>
 </thead>
 <tbody>
@@ -1867,22 +1908,22 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <tr>
 <td>切换账号</td>
 <td>支持</td>
-<td>不支持</td>
 <td>支持</td>
+<td>不支持</td>
 </tr>
 </tbody>
 </table>
 <ol>
-<li>在主界面点击左侧菜单栏进入<code>启动游戏</code>标签</li>
-<li>点击<code>常规</code>分类中的<code>检测账号</code>一栏，胡桃工具箱会保存当前原神游戏的登录状态</li>
+<li>进入<code>启动游戏</code>功能页面</li>
+<li>点击<code>注册表</code>分类中的<code>检测账号</code>一栏，胡桃工具箱会保存当前原神游戏的登录状态</li>
 <li>在弹出的<code>为账号命名</code>界面中，输入您要为此账号设置的名称，点击确认</li>
-<li>在游戏中，注销当前登录并登录你另一个帐号。重复执行上述的第 2 步和第三步直至你将全部的帐号添加进胡桃工具箱中。</li>
-<li>此时即可在<code>账号</code>功能下方自由选择您要切换的账号
+<li>在游戏中，注销当前登录并登录你另一个账号，随后关闭游戏。重复执行上述的第二步和第三步直至你将全部的账号添加进胡桃工具箱中。</li>
+<li>此时即可在账号切换功能下方自由选择您要切换的账号
 <ul>
-<li>每个已保存的账号均为可点击选择的按钮</li>
+<li>每个已保存的账号均是可点击选择的按钮</li>
 <li>在其右侧有三个按钮，分别为：
 <ul>
-<li><code>绑定当前用户角色</code>，即将您当前选择的米游社登录状态绑定至该账号中，点击该按钮后，对应的 UID 将出现在该账号自定义名称的下方</li>
+<li><code>绑定当前用户角色</code>，即将您当前选择的米游社登录状态绑定至该账号中，点击该按钮后，对应的 UID 将出现在该账号自定义名称的下方，可帮你你分辨账号</li>
 <li><code>重命名</code>，即修改当前选择账号的自定义名称</li>
 <li><code>删除</code>，即删除当前选择的账号</li>
 </ul>
@@ -1890,32 +1931,56 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ol>
-<h2> 外观选项</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
+<h2> Windows 平台上的原神 HDR</h2>
+<p>原神目前内置了仅能通过设置注册表键值开启的 HDR 功能，虽然此举可能意味着该功能属于游戏的测试功能，但是你已经能够抢先体验！
+可以在支持 HDR 的显示器上启用 Windows 平台上的原神 HDR 功能以提升视觉体验。在游戏启动器中，你可以启用 Windows HDR 选项，胡桃工具箱会在游戏启动时激活游戏的此内置功能。</p>
+<h2> 启动参数</h2>
 <ul>
-<li>在当前的游戏版本中，有案例表明部分用户使用胡桃工具箱，选择<strong>独占全屏</strong>模式启动原神游戏，出现游戏无响应或卡顿的情况
+<li>进入<code>启动游戏</code>功能页面</li>
+<li>在<code>进程</code>一栏中，启用 <code>启动参数</code> 功能，点击展开后你可以设置更多细节：
 <ul>
-<li>建议此部分用户使用无边框选项进行启动游戏</li>
-<li>问题的来源是游戏内置浏览器无法运行</li>
+<li><code>-window-mode exclusive</code> 参数
+<ul>
+<li><strong>独占全屏</strong>，即选择游戏进程以独占全屏模式运行</li>
+<li><strong>该功能与游戏内浏览器功能不兼容，你应仅在能独立描述独占全屏的技术原理和效果的情况下开启本项</strong></li>
 </ul>
 </li>
-</ul>
-</div>
+<li><code>-screen-fullscreen</code> 参数
 <ul>
-<li>在主界面点击左侧菜单栏进入<code>启动游戏</code>标签</li>
-<li>在<code>外观</code>功能中，有六个选项：
-<ul>
-<li><strong>独占全屏</strong>，即选择游戏进程以独占全屏模式运行
-<ul>
-<li><strong>你应仅在能独立描述独占全屏的技术原理和效果的情况下开启本项</strong></li>
-</ul>
-</li>
 <li><strong>全屏</strong>，即选择启动游戏后的游戏界面是否设置为全屏</li>
+</ul>
+</li>
+<li><code>-popupwindow</code> 参数
+<ul>
 <li><strong>无边框</strong>，即选择启动游戏后的游戏界面是否设置为无边框窗口</li>
+</ul>
+</li>
+<li><code>-platform_type CLOUD_THIRD_PARTY_MOBILE</code> 参数
+<ul>
+<li><strong>触摸屏模式</strong>，即启用原神内置的触摸屏操作模式</li>
+</ul>
+</li>
+<li>分辨率
+<ul>
+<li>该功能可以快速设置下方的覆盖屏幕宽度和高度选项</li>
+</ul>
+</li>
+<li><code>-screen-width</code> 参数
+<ul>
 <li><strong>宽度</strong>，即选择启动游戏后的游戏界面的宽度，例如<code>1920</code></li>
+</ul>
+</li>
+<li><code>-screen-height</code> 参数
+<ul>
 <li><strong>高度</strong>，即选择启动游戏后的游戏界面的高度，例如<code>1080</code></li>
+</ul>
+</li>
+<li><code>-monitor</code> 参数
+<ul>
 <li><strong>显示器</strong>，允许多显示器用户选择指定的显示器来运行游戏</li>
+<li>如果你无法判断各选项代表的显示器，可以点击<code>识别显示器</code>来获得提示</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -1934,7 +1999,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p class="hint-container-title">警告</p>
 <ul>
 <li>请注意：高级功能已明确标注为 <code>Dangerous Feature</code>，即<strong>危险功能</strong>，选择启用即代表您选择自行承担任意风险</li>
-<li>你需要首先在胡桃设置页面中启用高级功能</li>
+<li><strong>你需要首先在胡桃设置页面中启用高级功能</strong></li>
 </ul>
 </div>
 <h3> 解锁帧率上限</h3>
@@ -1945,52 +2010,44 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </div>
 <ul>
-<li>
-<p>使用<code>管理员模式</code>启动胡桃</p>
-</li>
-<li>
-<p>在主界面点击左侧菜单栏进入<code>启动游戏</code>标签</p>
-</li>
-<li>
-<p>在最下方可见 <code>解锁帧率限制</code> 选项</p>
+<li>使用<code>管理员模式</code>启动胡桃工具箱</li>
+<li>确认已在设置中启用 <code>高级功能</code></li>
+<li>进入<code>启动游戏</code>功能页面</li>
+<li>在最下方可见 <code>解锁帧率限制</code> 选项
 <ul>
 <li>在右侧点击<code>开启或关闭</code>按钮，所显示的 <code>禁用</code> 或 <code>启用</code> 分别代表<code>已禁用</code>或<code>已启用</code>该功能</li>
 <li>在下方的 <code>设置帧率上限</code> 选项中，可自由拖动拉杆，调整到您需要设置的最高帧率上限</li>
 </ul>
 </li>
-<li>
-<p>点击右上角的<code>启动游戏</code>按钮</p>
-</li>
-<li>
+<li>点击右上角的<code>启动游戏</code>按钮</li>
+</ul>
 <p>会导致<strong>解锁帧率上限失败</strong>的因素：</p>
-<ul>
+<ol>
 <li>胡桃工具箱没有保持在后台运行</li>
 <li>游戏内未关闭<strong>垂直同步</strong>选项</li>
 <li>在显卡驱动中存在<code>最大帧速率</code>的设置</li>
 <li>在显卡驱动软件内存在未关闭的类似于<code>节能模式</code>的选项</li>
 <li>显卡性能不足</li>
-</ul>
-</li>
-</ul>
+</ol>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Y1sp6V1g6dyDTojwM_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>胡桃数据库/深渊统计</title>
       <link>https://hut.ao/zh/features/hutao-API.html</link>
       <guid>https://hut.ao/zh/features/hutao-API.html</guid>
       <source url="https://hut.ao/zh/rss.xml">胡桃数据库/深渊统计</source>
-      <description>胡桃工具箱提供两个主要的深境螺旋挑战统计的功能 侧栏中的深渊统计是一个旨在通过统计并展示广大玩家深境螺旋挑战数据，来帮助对原神对战系统不熟悉玩家组建队伍、通关深渊、获取奖励的功能; 侧栏中的深渊记录是一个通过保存玩家每一期深境螺旋挑战数据来帮助个人玩家回顾游戏经历及个人数据收集的统计功能; 众多的玩家通过上传个人的深渊记录来形成胡桃数据库的深渊统计数据...</description>
+      <description>胡桃工具箱提供两个主要的深境螺旋挑战统计的功能 顶栏中分期详情是一个通过保存玩家每一期深境螺旋挑战数据来帮助个人玩家回顾游戏经历及个人数据收集的统计功能; 顶栏中的本期统计是一个旨在通过统计并展示广大玩家深境螺旋挑战数据，来帮助对原神对战系统不熟悉玩家组建队伍、通关深渊、获取奖励的功能; 众多的玩家通过上传个人的分期详情数据来形成胡桃数据库的本期统计数...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 胡桃数据库/深渊统计</h1>
 <p>胡桃工具箱提供两个主要的深境螺旋挑战统计的功能</p>
 <ul>
-<li>侧栏中的<code>深渊统计</code>是一个旨在通过统计并展示广大玩家深境螺旋挑战数据，来帮助对原神对战系统不熟悉玩家组建队伍、通关深渊、获取奖励的功能</li>
-<li>侧栏中的<code>深渊记录</code>是一个通过保存玩家每一期深境螺旋挑战数据来帮助个人玩家回顾游戏经历及个人数据收集的统计功能
+<li>顶栏中<code>分期详情</code>是一个通过保存玩家每一期深境螺旋挑战数据来帮助个人玩家回顾游戏经历及个人数据收集的统计功能</li>
+<li>顶栏中的<code>本期统计</code>是一个旨在通过统计并展示广大玩家深境螺旋挑战数据，来帮助对原神对战系统不熟悉玩家组建队伍、通关深渊、获取奖励的功能
 <ul>
-<li>众多的玩家通过上传个人的<code>深渊记录</code>来形成胡桃数据库的<code>深渊统计</code>数据集</li>
+<li>众多的玩家通过上传个人的<code>分期详情</code>数据来形成胡桃数据库的<code>本期统计</code>数据集</li>
 </ul>
 </li>
 </ul>
@@ -2012,7 +2069,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ol>
 </div>
 <ul>
-<li>在主界面点击左侧菜单栏进入<code>深渊统计</code>页面</li>
+<li>在主界面点击左侧菜单栏进入<code>深境螺旋</code>页面，点击顶栏的<code>本期统计</code>标签</li>
 <li>点击<code>角色使用</code>以查看角色使用率数据
 <ul>
 <li>角色使用率 = 角色在当前层数出场次数<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup><a class="footnote-anchor" id="footnote-ref1"> / 持有该角色的玩家在该层数的总记录数</a></li><a class="footnote-anchor" id="footnote-ref1">
@@ -2036,13 +2093,16 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </a></ul><a class="footnote-anchor" id="footnote-ref4">
 </a><h2><a class="footnote-anchor" id="footnote-ref4"></a> 上传深境螺旋数据</h2>
 <h3> 使用胡桃客户端</h3>
+<div class="hint-container important">
+<p class="hint-container-title">胡桃云权限奖励</p>
+<p>如果你的胡桃客户端中已登录你的胡桃账号，在当期首次成功提交数据后，你将获得胡桃云权限作为我们的感谢（即使该数据没有通关第12层）</p>
+</div>
 <ul>
-<li>在主界面点击左侧菜单栏进入<code>深渊记录</code>功能页面</li>
+<li>在主界面点击左侧菜单栏进入<code>深境螺旋</code>功能页面</li>
 <li>点击右上角的<code>刷新数据</code>以确保胡桃工具箱客户端已经获取到最新的个人深境螺旋数据</li>
 <li>点击右上角的<code>上传数据</code>以上传你的深境螺旋数据
 <ul>
-<li>这可能需要花费数秒，上传成功后你将会看到如下图的成功提示
-<img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01yniArT1g6dyJIJHqK_!!1797064093.png_.webp" alt="upload-hutaoapi" loading="lazy"></li>
+<li>这可能需要花费数秒，上传成功后你将会收到成功提示</li>
 </ul>
 </li>
 </ul>
@@ -2094,24 +2154,22 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ol>
 </section>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01QnrxoH1g6dyBQazad_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>软件设置</title>
       <link>https://hut.ao/zh/features/hutao-settings.html</link>
       <guid>https://hut.ao/zh/features/hutao-settings.html</guid>
       <source url="https://hut.ao/zh/rss.xml">软件设置</source>
-      <description>以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序; 关于 胡桃 该部分包含以下信息： 胡桃工具箱的图标：您可以在胡桃的首页 (/)查看它的原图; 该图像作品的作者为画画的芦苇 (https://space.bilibili.com/274422134)图标的绘制过程; DGP-Studio (https://github.com/DGP-St...</description>
+      <description>settings 以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序; 关于 胡桃 该部分包含以下信息： 胡桃工具箱的图标：您可以在胡桃的首页 (/)查看它的原图; 该图像作品的作者为画画的芦苇 (https://space.bilibili.com/274422134)图标的绘制过程; DGP-Studio (https://github.c...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 软件设置</h1>
-<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01wDQfRa1g6e0ylR4ov_!!1797064093.png_.webp" alt="settings" loading="lazy"></p>
 <ul>
 <li>以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序</li>
 </ul>
-</div>
 <h2> 关于 胡桃</h2>
 <p>该部分包含以下信息：</p>
 <ul>
@@ -2123,32 +2181,28 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a>已被所有者授权使用</li>
 </ul>
 </li>
-<li>胡桃的版本号</li>
-<li>设备 ID</li>
 </ul>
-<h2> 胡桃帐号 </h2>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01demKfQ1g6dyH6VpYh_!!1797064093.png_.webp" alt="Hutao-account" loading="lazy">
-胡桃帐号是由 DGP-Studio 团队创建的为胡桃工具箱服务的帐号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。
-目前胡桃帐号已支持注册和登录，你可以在设置中点击这一选项以注册并登录你的帐号。</p>
-<h2> Shell 体验</h2>
-<ul>
-<li>创建快捷方式
-<ul>
-<li>点击该按钮后胡桃将会在桌面上创建一个以管理员模式启动的快捷方式</li>
-</ul>
-</li>
-</ul>
+<h2> 胡桃账号</h2>
+<p>你可以在设置页面中注册并登录你的胡桃账号</p>
+<p>请阅读<a href="/zh/features/hutao-passport.html" target="blank">胡桃账号</a>功能文档以获取更详细的信息。</p>
+<h2> 管理员模式工具</h2>
+<p>在设置页的右侧，开发组设置了管理员模式工具以供有需要的用户使用。在该模块下，我们提供了两个功能：</p>
+<ol>
+<li>以管理员身份立即重启程序</li>
+<li>在桌面上创建一个以管理员身份启动胡桃的 PowerShell 快捷方式</li>
+</ol>
+<h2> 无感验证</h2>
+<p>如果每日签到和实时便笺功能对你而言是必备的功能，那么米哈游反人机验证的<code>-1034</code>错误一定会是一个重大干扰。这是由于米游社使用了极验用于拦截非人类直接执行的请求，Snap Hutao 部分的请求会被极验判定为机器人行为并造成请求失败。如果你使用了第三方验证极验验证码的服务，则可以通过该项设置将极验生成的随机数据传递给验证服务商。</p>
+<p>成功配置该项设置后，Snap Hutao 在执行实时便笺自动刷新和米游社签到时会直接调用该验证服务以通过极验验证，避免米游社生成 <code>-1034</code> 错误。</p>
 <h2> 外观</h2>
 <ul>
-<li>
-<p>语言</p>
+<li>语言
 <ul>
 <li>默认情况下胡桃会跟随系统设置来显示对应的语言</li>
 <li>使用该功能你可以强制将胡桃的显示语言设置为指定的语言</li>
 </ul>
 </li>
-<li>
-<p>背景材质</p>
+<li>背景材质
 <ul>
 <li>在此选项中，您可以更改背景的材质为：
 <ul>
@@ -2161,6 +2215,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 </ul>
+<h2> 快捷键</h2>
+<p>在该模块下，你可以设置启用自动连点功能，并设置启用的快捷键</p>
 <h2> 主页</h2>
 <ul>
 <li>主页卡片
@@ -2175,24 +2231,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 </li>
+<li>公告所属服务器
+<ul>
+<li>你可以通过该选项，修改获取的游戏公告数据源</li>
+</ul>
+</li>
 </ul>
 <h2> 游戏</h2>
 <ul>
-<li>游戏路径
-<ul>
-<li>在此条目中，可以修改或设置您的游戏路径</li>
-<li>选择游戏路径时，请注意此处选择的应是游戏本身
-<ul>
-<li>形如：<code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>PowerShell 路径
-<ul>
-<li>胡桃使用 PowerShell 来修改原神相关的注册表项以实现游戏帐号切换功能。该选项允许用户手动选择 PowerShell 路径以解决部分用户使用自定义 PowerShell 版本而造成的无法定位 PowerShell 的问题</li>
-</ul>
-</li>
 <li>删除游戏内网页缓存
 <ul>
 <li>若您在使用<strong>祈愿记录功能</strong>时，选择<strong>使用"从缓存刷新"</strong>，但<strong>频繁提示</strong>验证密钥过期，可以尝试此操作</li>
@@ -2204,41 +2250,34 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li>在此条目中，您可以选择是否隐藏无记录的历史祈愿活动，即"没有祈愿记录的卡池"</li>
 </ul>
-<h2> 无感验证</h2>
-<p>由于米游社使用了极验用于拦截非人类直接执行的请求，Snap Hutao 部分的请求（如签到和实时便笺数据更新）会被极验判定为机器人行为并造成请求失败。
-如果你使用了第三方验证极验验证码的服务，则可以通过该项设置将极验生成的随机数据传递给验证服务商。</p>
-<p>成功配置该项设置后，Snap Hutao 在执行实时便笺自动刷新和米游社签到时会直接调用该验证服务以通过极验验证，避免米游社生成 <code>-1034</code> 错误。</p>
 <h2> 储存空间</h2>
 <ul>
-<li>
-<p>打开<code>数据</code>文件夹</p>
+<li><code>数据</code>文件夹
 <ul>
-<li>点击此选项，即可打开包含"用户数据/日志/元数据"的文件夹</li>
+<li><code>打开文件夹</code>：点击此选项，即可打开包含"用户数据/元数据/游戏转服缓存"的文件夹</li>
+<li><code>更换数据目录</code>：此选项将允许用户将数据文件夹设置到其它目录</li>
+<li><code>删除转换服务器缓存</code>：该功能将删除数据文件内的游戏转服功能产生的缓存</li>
 </ul>
 </li>
-<li>
-<p>更换数据目录</p>
+<li><code>缓存</code>文件夹
 <ul>
-<li>此选项将允许用户将数据文件夹设置到其它目录</li>
-</ul>
-</li>
-<li>
-<p>打开<code>缓存</code>文件夹</p>
-<ul>
-<li>点击此选项即可打开包含"图片缓存"的文件夹</li>
-<li>在此文件夹内，存储了<code>胡桃工具箱</code>在运行期间产生的<code>图片缓存</code></li>
-</ul>
-</li>
-<li>
-<p>重置图片资源</p>
-<ul>
-<li>此选项允许用户在有大量图片下载失败的情况下重置缓存记录，执行该操作后软件会重启并重新下载图片缓存资源</li>
+<li><code>打开文件夹</code>：点击此选项即可打开包含"图片缓存"的文件夹</li>
+<li><code>重置图片资源</code>：删除并重新下载图片资源；此选项允许用户在有大量图片下载失败的情况下重置缓存记录，执行该操作后软件会重启并重新下载图片缓存资源</li>
 </ul>
 </li>
 </ul>
 <h2> 危险功能</h2>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>使用危险功能内的任意功能都会触发二次确认提示，你可能会被要求输入当前正在请求启用功能的<strong>标题名称</strong></p>
+</div>
 <ul>
-<li>启用高级功能
+<li>调试控制台
+<ul>
+<li>启用该功能后，在下一次启动胡桃工具箱时，一个包含实时日志的命令行窗口将被启用，你可以通过该窗口获得可能对你有帮助的错误信息</li>
+</ul>
+</li>
+<li>高级功能
 <ul>
 <li>在管理员模式下，你可以通过启用这一栏设置以启用游戏启动器中的高级功能
 <blockquote>
@@ -2259,37 +2298,37 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01demKfQ1g6dyH6VpYh_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01wDQfRa1g6e0ylR4ov_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>米游社多帐号切换</title>
+      <title>米游社多账号切换</title>
       <link>https://hut.ao/zh/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/zh/features/mhy-account-switch.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">米游社多帐号切换</source>
-      <description>胡桃工具箱支持中国大陆版米哈游论坛米游社和国际版论坛 HoYoLAB的帐号。HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制。 本文档所描述的帐号切换指的是用于获取游戏数据的米游社/ HoYoLAB 帐号，不是原神游戏内的帐号; 在使用本功能前，你需要使用官方的米游社 App 登录你的帐号以初始化你的米游社功...</description>
+      <source url="https://hut.ao/zh/rss.xml">米游社多账号切换</source>
+      <description>胡桃工具箱支持中国大陆版米哈游论坛米游社和国际版论坛 HoYoLAB的账号。HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制。 本文档所描述的账号切换指的是用于获取游戏数据的米游社/ HoYoLAB 账号，不是原神游戏内的账号; 在使用本功能前，你需要使用官方的米游社 App 登录你的账号以初始化你的米游社功...</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 米游社多帐号切换</h1>
+      <content:encoded><![CDATA[<h1> 米游社多账号切换</h1>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>胡桃工具箱支持中国大陆版米哈游论坛<strong>米游社</strong>和国际版论坛 <strong>HoYoLAB</strong>的帐号。HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制。</p>
+<p>胡桃工具箱支持中国大陆版米哈游论坛<strong>米游社</strong>和国际版论坛 <strong>HoYoLAB</strong>的账号。HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制。</p>
 <ul>
-<li>本文档所描述的帐号切换指的是用于获取游戏数据的<strong>米游社/ HoYoLAB 帐号</strong>，不是原神<strong>游戏内的帐号</strong></li>
-<li>在使用本功能前，你需要使用官方的米游社 App 登录你的帐号以初始化你的米游社功能
+<li>本文档所描述的账号切换指的是用于获取游戏数据的<strong>米游社/ HoYoLAB 账号</strong>，不是原神<strong>游戏内的账号</strong></li>
+<li>在使用本功能前，你需要使用官方的米游社 App 登录你的账号以初始化你的米游社功能
 <ul>
-<li>如果在胡桃中登录的帐号名称格式为 <code>user_123456789</code> 则其有可能没有被初始化</li>
+<li>如果在胡桃中登录的账号名称格式为 <code>user_123456789</code> 则其有可能没有被初始化</li>
 </ul>
 </li>
 </ul>
 </div>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01RCk3PM1g6dy8aXWxW_!!1797064093.png_.webp" alt="多帐号管理样图" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ZhnkRl1g6e0tz18y9_!!1797064093.png.png_.webp" alt="多帐号管理样图" loading="lazy"></p>
 <p>你可以在程序主界面的左下角，设置按钮的上方找到帐号菜单，以管理你在胡桃工具箱中登录的米游社帐号。在弹出的面板中你可以添加米游社或 HoYoLAB 帐号
 ，登录它们的方法是一样的：</p>
 <ul>
-<li>在对应的帐号种类中点击<code>网页登录</code>按钮
+<li>在对应的账号种类中点击<code>网页登录</code>按钮
 <ul>
-<li>您也可以通过点击<code>手动输入</code>按钮，直接输入米游社通行证 cookie 来添加您的帐号</li>
+<li>您也可以通过点击<code>手动输入</code>按钮，直接输入米游社通行证 cookie 来添加您的账号</li>
 <li>若您选择<code>手动输入</code>米游社 cookie，则该 cookie <strong>必须包含 <code>SToken</code> 字段</strong>
 <ul>
 <li>手动获取含 <code>SToken</code> 字段的 cookie 的方式可参考<a href="/zh/advanced/get-SToken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 SToken 的 cookie</a> 文档</li>
@@ -2298,14 +2337,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 <li>在弹出的内置浏览器登陆成功后，点击右上角的"我已登陆"按钮</li>
-<li>完成后，您就可以在帐号管理面板切换已登录的米游社帐号了
+<li>完成后，您就可以在账号管理面板切换已登录的米游社帐号了
 <ul>
 <li>新添加米游社账号后，需在主界面左下角切换账号的功能中，手动点击一次新登录的账号，以将其设置为使用状态</li>
-<li>你可以在帐号管理菜单中复制对应帐号的 cookie 或从胡桃工具箱中删除该帐号</li>
-<li>在选中登录帐号后，你可以
+<li>你可以在账号管理菜单中复制对应账号的 cookie 或从胡桃工具箱中删除该帐号</li>
+<li>在选中登录账号后，你可以
 <ul>
 <li>点击刷新 Cookie 按钮来更新当前储存的 Cookie</li>
-<li>点击签到按钮来执行米哈游论坛签到。对于米游社帐号，需要先接触风控状态才可成功执行签到。</li>
+<li>点击签到按钮来执行米哈游论坛签到。对于米游社账号，需要先接触风控状态才可成功执行签到。</li>
 </ul>
 </li>
 </ul>
@@ -2320,7 +2359,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </div>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01RCk3PM1g6dy8aXWxW_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ZhnkRl1g6e0tz18y9_!!1797064093.png.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>武器资料</title>
@@ -2332,7 +2371,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 武器资料</h1>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ha9zqe1g6dyBLfjO3_!!1797064093.png_.webp" alt="weapon-wiki" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN018rs0K91g6e0ylQ4XT_!!1797064093.png_.webp" alt="weapon-wiki" loading="lazy"></p>
 <p>武器资料是胡桃工具箱中内置的用于查询各个武器的<strong>外观、参数、精炼效果、推荐搭配</strong>等数据的 Wiki</p>
 <h2> 已包含的数据</h2>
 <ul>
@@ -2363,7 +2402,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ha9zqe1g6dyBLfjO3_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN018rs0K91g6e0ylQ4XT_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>祈愿记录</title>
@@ -2379,7 +2418,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
 <p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
 <p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/zh/advanced/Gacha-system-and-export-principal.html" target="blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01kxgPxR1g6dyCSMPYb_!!1797064093.png_.webp" alt="祈愿导出" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01otuXYg1g6e0wnNwX2_!!1797064093.png_.webp" alt="祈愿导出" loading="lazy"></p>
 <p><strong>如上图所示，从胡桃工具箱的祈愿导出功能，你可以清晰地获取到包括：抽卡总数、当前已垫抽数、不同稀有度获取的数量和百分比、
 每次五星稀有度获取的抽数以及保底情况。胡桃云用户可以额外地获取由云端服务器计算的抽卡预测数据。</strong></p>
 <div class="hint-container note">
@@ -2388,21 +2427,21 @@ Snap.Genshin 已停止更新，项目已归档</p>
 当你在游戏内抽卡历史记录中看到了最新的一批抽卡记录，则可以在胡桃中获取统计数据。</p>
 </div>
 <h2> 获取祈愿数据</h2>
-<h3> 利用 SToken 从服务器获取最新的祈愿记录 </h3>
+<h3> SToken 刷新 </h3>
 <div class="hint-container info">
 <p class="hint-container-title">提示</p>
 <ul>
-<li>已登录的米游社帐号是使用 SToken 刷新方法的前提，你可以参考<a href="/zh/features/mhy-account-switch.html" target="blank">米游社多帐号切换</a>一文在胡桃工具箱中登录你的帐号</li>
+<li>已登录的米游社账号是使用 SToken 刷新方法的前提，你可以参考<a href="/zh/features/mhy-account-switch.html" target="blank">米游社多账号切换</a>一文在胡桃工具箱中登录你的账号</li>
 <li>SToken 刷新方法暂不支持国际服</li>
 </ul>
 </div>
 <ul>
 <li>在胡桃工具箱中确保你需要获取记录的米游社帐号已登录</li>
-<li>从左侧菜单栏进入<code>祈愿记录</code></li>
+<li>从左侧菜单栏进入<code>祈愿记录</code>页面</li>
 <li>点击右上角的<code>刷新</code>，并点击<code>SToken刷新</code></li>
 <li>等待读取完毕，即可查看最新的祈愿记录</li>
 </ul>
-<h3> 从网页缓存获取最新的祈愿记录 </h3>
+<h3> 网页缓存刷新 </h3>
 <ul>
 <li>从左侧菜单栏进入<code>祈愿记录</code></li>
 <li>启动游戏并登入游戏，打开游戏内的祈愿历史记录</li>
@@ -2416,38 +2455,23 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在<code>删除游戏内网页缓存</code>功能中执行删除操作</li>
 </ul>
 </div>
-<h3> 通过输入 Url 获取祈愿记录 </h3>
+<h3> 手动输入 URL </h3>
 <ul>
-<li>如果你通过其它工具获取到了你祈愿历史记录的 Url，可以选择<code>手动输入Url</code>并根据提示操作</li>
-<li>但应注意此类 Url <strong>具有时效性</strong></li>
+<li>如果你通过其它工具获取到了你祈愿历史记录的 Url，可以选择<code>手动输入Url</code>并根据提示操作，但你应注意此类 Url <strong>具有时效性</strong></li>
 </ul>
-<h3> 对于全量刷新选项的补充说明</h3>
+<h3> 全量刷新模式</h3>
 <p>在默认情况下，胡桃工具箱会在匹配到本地已有记录的祈愿 ID 后停止导入。
 但如果你希望完整地获取原神服务器中所有的历史记录（即使它已经存在于你的本地祈愿记录中），你可以勾选<code>全量刷新</code>。</p>
 <p><strong>不勾选<code>全量刷新</code>不会使你丢失祈愿数据，勾选<code>全量刷新</code>也不会让你的本地记录错误地额外记录一次相同的祈愿数据。</strong></p>
-<h3> 从其它祈愿导出程序导入祈愿数据 </h3>
-<p>胡桃工具箱支持导入 <code>UIGF 数据格式</code> 的祈愿记录数据<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></p><a class="footnote-anchor" id="footnote-ref1">
-<p>如果你希望导入这一类数据，可以：</p>
+<h2> 导入 UIGF 祈愿数据 </h2>
+<p>胡桃工具箱支持导入 <code>UIGF 数据格式</code> 的祈愿记录数据<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup><a class="footnote-anchor" id="footnote-ref1">。如果你希望导入这一类数据，可以：</a></p><a class="footnote-anchor" id="footnote-ref1">
 <ul>
-<li>启动胡桃工具箱，从左侧菜单栏进入<code>祈愿记录</code></li>
-<li>点击右上角的<code>导入</code></li>
-<li>选择你的 UIGF Json 数据文件</li>
-<li>根据界面确认导入数据</li>
+<li>从原本的原神工具中导出 UIGF 数据文件</li>
+<li>进入<code>祈愿记录</code>功能</li>
+<li>点击右上角的 <code>导入</code> 按钮，在弹出的文件选择器中选择你的UIGF Json 数据文件</li>
+<li>在弹出的窗口中确认你的导入数据</li>
 </ul>
-</a><h3><a class="footnote-anchor" id="footnote-ref1"></a> 从 Snap Genshin 转移祈愿记录数据</h3>
-<p>如果你希望从 Snap Genshin 中转移祈愿数据至胡桃工具箱，你可以：</p>
-<ul>
-<li>升级 Snap Genshin 到最新版本</li>
-<li>进入<code>祈愿记录</code>功能
-<ul>
-<li>如果你由于无法登录米游社而无法进入 Snap Genshin，可以在胡桃工具箱中登录米游社帐号并复制 Cookie 到 Snap Genshin</li>
-</ul>
-</li>
-<li>点击右上角的功能菜单</li>
-<li>通过<code>导出 UIGF Json 文件</code>导出 Json 格式的祈愿记录</li>
-<li>在胡桃工具箱中导入该文件</li>
-</ul>
-<h2> 导出祈愿数据 </h2>
+</a><h2><a class="footnote-anchor" id="footnote-ref1"></a> 导出 UIGF 祈愿数据 </h2>
 <p>胡桃工具箱支持导出 <code>UIGF数据格式</code> 的 Json 文件格式的祈愿记录数据</p>
 <p>如果你希望导出祈愿数据，可以：</p>
 <ul>
@@ -2460,27 +2484,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 <li>导出完成</li>
 </ul>
-<h2> 祈愿记录云同步 </h2>
+<h2> 祈愿记录云同步</h2>
 <blockquote>
-<p>祈愿记录云同步功能基于胡桃云帐号，你需要<a href="/zh/features/hutao-settings.html#%E8%83%A1%E6%A1%83%E5%B8%90%E5%8F%B7" target="blank">在设置中注册并登录胡桃帐号</a>以使用该功能</p>
+<p>祈愿记录云同步功能基于胡桃云账号，你需要<a href="/zh/features/hutao-settings.html#%E8%83%A1%E6%A1%83%E8%B4%A6%E5%8F%B7" target="blank">在设置中注册并登录胡桃账号</a>以使用该功能</p>
 </blockquote>
 <p>用户可以使用该功能，将本地的祈愿记录上传到胡桃云，避免珍贵的祈愿记录丢失，方便数据在多设备之间转移。</p>
 <h3> 云同步权限</h3>
-<p>由于云同步是一个消耗胡桃服务器资源的功能，故该功能有时间限制。目前，胡桃提供以下几种启用云同步功能的方法：</p>
-<ol>
-<li>在爱发电上打赏胡桃的用户，我们会向与爱发电邮箱帐号相匹配的胡桃帐号自动增加使用时间作为胡桃工具箱开发团队对打赏用户的感谢</li>
-<li>对于所有注册用户，在每一期深渊第一次成功向胡桃数据库上传深境螺旋挑战记录后，会获得 3 天的同步功能使用时间
-<ul>
-<li>你可以通过该方法长期地免费使用胡桃云</li>
-</ul>
-</li>
-<li>为胡桃工具箱开源社区贡献（包括但不限于代码开发、程序设计、本地化翻译）的用户，可以直接联系开发团队添加时长
-<ul>
-<li>我们目前正在设计一个完善而自动化的开发者许可证颁发流程，它将会随着胡桃帐号系统的完善而推出</li>
-</ul>
-</li>
-</ol>
-<p>当你的胡桃帐号云同步权限过期后，你将无法上传、下载和删除数据，但你的数据不会被删除。你可以在恢复权限后重新操作你的云备份数据。</p>
 <h3> 上传</h3>
 <ul>
 <li>在祈愿导出界面，选择你需要同步的祈愿存档</li>
@@ -2490,12 +2499,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h3> 下载</h3>
 <ul>
 <li>在祈愿导出界面，点击右上角的<code>胡桃云</code>按钮</li>
-<li>在对应 UID 的帐号右侧点击下载按钮即可下载目标存档的云端数据</li>
+<li>在对应 UID 的账号右侧点击下载按钮即可下载目标存档的云端数据</li>
 </ul>
 <h3> 删除</h3>
 <ul>
 <li>在祈愿导出界面，点击右上角的<code>胡桃云</code>按钮</li>
-<li>在对应 UID 的帐号右侧点击删除按钮即可删除目标存档的云端数据</li>
+<li>在对应 UID 的账号右侧点击删除按钮即可删除目标存档的云端数据</li>
 </ul>
 <hr class="footnotes-sep">
 <section class="footnotes">
@@ -2505,7 +2514,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ol>
 </section>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01kxgPxR1g6dyCSMPYb_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01otuXYg1g6e0wnNwX2_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>声明和公告</title>
@@ -2775,10 +2784,34 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.9.4 修复 🔨; 修复了 Bilibili 服务器用户进入主界面会崩溃的问题; 1.9.3 修复 🔨; 修复了新安装用户初次进入主界面会崩溃的问题; 1.9.2 新增 ➕; 游戏启动器中新增开启 Windows 原生 HDR 选项; 游戏启动器中新增切换功能对国际服账号的支持; 设置页中新增删除转服功能缓存的选项; 设置页中新增以管理员模式重...</description>
+      <description>1.9.5 新增 ➕; 启动游戏页面新增标识显示器功能 #1261 (https://github.com/DGP-Studio/Snap.Hutao/issues/1261); 全新的反馈中心已上线 #1039 (https://github.com/DGP-Studio/Snap.Hutao/issues/1039); 修复 🔨; 修复了游戏路径...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
+<h2> 1.9.5 </h2>
+<ul>
+<li>新增 ➕
+<ul>
+<li>启动游戏页面新增标识显示器功能 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1261" target="_blank" rel="noopener noreferrer">#1261</a></li>
+<li>全新的反馈中心已上线 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1039" target="_blank" rel="noopener noreferrer">#1039</a></li>
+</ul>
+</li>
+<li>修复 🔨
+<ul>
+<li>修复了游戏路径在 <code>Program Files</code> 路径下时会导致游戏启动器弹出切换服务器失败的错误 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1262" target="_blank" rel="noopener noreferrer">#1262</a></li>
+<li>修复了静态资源下载页面下载的静态资源包无法正常全部完成的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1242" target="_blank" rel="noopener noreferrer">#1242</a></li>
+</ul>
+</li>
+<li>优化 ✨
+<ul>
+<li>支持在程序运行时更改代理设置</li>
+<li>主页启动游戏卡片增加启动状态提示</li>
+<li>设置页面删除转换游戏客户端缓存后重新计算文件夹大小</li>
+<li>优化了是否需要进行游戏客户端转换的逻辑</li>
+<li>完善了英语翻译</li>
+</ul>
+</li>
+</ul>
 <h2> 1.9.4 </h2>
 <ul>
 <li>修复 🔨

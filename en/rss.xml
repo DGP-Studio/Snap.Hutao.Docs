@@ -6,24 +6,84 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 07 Jan 2024 14:36:29 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2024 14:36:29 GMT</lastBuildDate>
+    <pubDate>Thu, 11 Jan 2024 11:26:30 GMT</pubDate>
+    <lastBuildDate>Thu, 11 Jan 2024 11:26:30 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Feature</category>
+    <category>Tutorial</category>
     <category>open source</category>
     <category>development</category>
     <category>Dev Logs</category>
     <category>FAQ</category>
     <category>dependency</category>
     <category>installation</category>
-    <category>Feature</category>
-    <category>Tutorial</category>
     <category>Third-Party Tools</category>
     <category>Announcement</category>
     <category>i18n</category>
     <category>announcement</category>
     <category>project</category>
     <category>features</category>
+    <item>
+      <title>Feedback Center</title>
+      <link>https://hut.ao/en/features/feedback-center.html</link>
+      <guid>https://hut.ao/en/features/feedback-center.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Feedback Center</source>
+      <description>dashboard The Feedback Center is a feature page provided by the Snap Hutao development team to help users solve common problems. This page is laid out in a left-right structure....</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
+      <pubDate>Thu, 11 Jan 2024 09:46:53 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Feedback Center</h1>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oOYqZC1g6e0rgyJ3G_!!1797064093.png_.webp" alt="dashboard" loading="lazy"></p>
+<p>The Feedback Center is a feature page provided by the Snap Hutao development team to help users solve common problems. This page is laid out in a left-right structure.</p>
+<p>On the left side of the page, we provide a convenient entry point for searching Snap Hutao documents. You can get relevant page search results by entering keywords in the search box.</p>
+<p>On the right side of the page, we provide several useful features.</p>
+<ul>
+<li>The first part displays key information about Snap Hutao, including the version of Snap Hutao, device ID, device network information, and Webview 2 runtime version information.</li>
+<li>The second part includes links to Snap Hutao project issues, roadmap, and service availability monitoring.</li>
+<li>The third part includes documents of the main functions of Snap Hutao. You can click on the corresponding function to jump to the corresponding document page.</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oOYqZC1g6e0rgyJ3G_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Snap Hutao Account</title>
+      <link>https://hut.ao/en/features/hutao-passport.html</link>
+      <guid>https://hut.ao/en/features/hutao-passport.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Snap Hutao Account</source>
+      <description>Hutao Passport is the internal name of Snap Hutao Account, they are the same thing Snap Hutao account is an account system created by the DGP-Studio team to serve Snap Hutao, wh...</description>
+      <category>Feature</category>
+      <category>Tutorial</category>
+      <pubDate>Thu, 11 Jan 2024 09:46:53 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Snap Hutao Account</h1>
+<blockquote>
+<p>Hutao Passport is the internal name of Snap Hutao Account, they are the same thing</p>
+</blockquote>
+<p>Snap Hutao account is an account system created by the DGP-Studio team to serve Snap Hutao, which will be used to provide cloud-based services in the future, including wish records synchronization.</p>
+<p>If you have Hutao Cloud privileges, you will have the following permissions:</p>
+<ol>
+<li>The <code>Prediction</code> function in the Wish Record page</li>
+<li>Cloud synchronization function of wish records</li>
+</ol>
+<ul>
+<li>After your Snap Hutao account cloud synchronization permission expires, you will not be able to upload, download, and delete data, but your data will not be deleted. You can re-operate your cloud backup data after restoring privilege.</li>
+</ul>
+<p>Since cloud synchronization is a function that consumes Hutao server resources, this function has a time limit. Currently, Snap Hutao provides the following methods to enable the cloud synchronization function:</p>
+<ol>
+<li>For users who reward Hutao on Aifadian, we will automatically add usage time to the Hutao account that matches the Aifadian email account as a thank you from the Hutao Toolbox development team to the reward users.</li>
+<li>For all registered users, after successfully uploading the Spiral Abyss challenge record to the Hutao database for the first time in each schedule, they will get 3 days of privilege time.
+<ul>
+<li>You can use Hutao Cloud for free for a long time through this method.</li>
+</ul>
+</li>
+<li>Users who contribute to the Snap Hutao open source community (including but not limited to code development, program UI design, localization translation) can directly contact the development team to obtain a developer license.
+<ul>
+<li>We are currently designing a complete and automated developer license issuance process, which will be launched with the improvement of the Hutao account system.</li>
+</ul>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
     <item>
       <title>Join the Develop Team</title>
       <link>https://hut.ao/en/development/join.html</link>
@@ -191,7 +251,7 @@ download the framework from Microsoft website and install it manually.</p>
       <category>Tutorial</category>
       <pubDate>Fri, 01 Sep 2023 09:35:59 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Monster WIKI</h1>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01mEozOR1g6dyFXXWcO_!!1797064093.png_.webp" alt="monster-wiki" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01bvAkZo1g6e0xyNooh_!!1797064093.png_.webp" alt="monster-wiki" loading="lazy"></p>
 <p>Monster WIKI is an embedded WIKI database used to look up each monster's
 <strong>Base ability, ability in each level, RES, drop items</strong></p>
 <h2> Included Data</h2>
@@ -215,7 +275,7 @@ download the framework from Microsoft website and install it manually.</p>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01mEozOR1g6dyFXXWcO_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01bvAkZo1g6e0xyNooh_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Initial Setup Guide</title>
@@ -324,20 +384,13 @@ and create outstanding open-source Genshin Impact tools.</p>
       <category>Tutorial</category>
       <pubDate>Sat, 13 May 2023 01:37:45 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Home Dashboard</h1>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01BV3VBz1g6dy4fyYJw_!!1797064093.png_.webp" alt="dashbord screenshot" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01KtqmTn1g6e0ylZXLp_!!1797064093.png_.webp" alt="dashbord screenshot" loading="lazy"></p>
 <p>Snap Hutao will enter home dashboard by default when it's opened. The top part is your personal gaming data; the bottom
 part is recent game notice and event countdown in days and hours.</p>
-<p>Gaming data dashboard includes:</p>
 <ul>
 <li>Snap Hutao Announcement
 <ul>
 <li>If Snap Hutao dev team publish a new announcement, it will be shown on the dashboard, it can be manually closed</li>
-</ul>
-</li>
-<li>Snap Hutao Account
-<ul>
-<li>If you have a signed in Snap Hutao account, the email address will be shown on the top; If not signed in, there will
-be a register/login hint</li>
 </ul>
 </li>
 <li>Game launcher
@@ -364,9 +417,15 @@ be a register/login hint</li>
 chart to switch account</li>
 </ul>
 </li>
+<li>In-game Announcement
+<ul>
+<li>You can find realtime in-game announcement at the button part of the dashboard</li>
+<li><strong>By default, the source of in-game announcement are CN server, you can modify the source in Snap Hutao settings page</strong></li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01BV3VBz1g6dy4fyYJw_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01KtqmTn1g6e0ylZXLp_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Real-time Notes</title>
@@ -390,15 +449,11 @@ you can check <a href="/en/features/mhy-account-switch.html" target="blank">MiHo
 <li>In the pop-up menu, find the UID you want to add, and click on the add button to its right</li>
 <li>Now, the game UID character's Real-time Notes should be displayed in the page
 <ul>
-<li>The Real-time Notes is set to refresh timely
-<ul>
-<li>You can click on the <code>Notification Settings</code> on the top right to manage it</li>
+<li>The Real-time Notes is set to refresh timely. You can click on the <code>Notification Settings</code> on the top right to manage it</li>
+</ul>
+</li>
 <li>If you want to see the data at this moment, you can click <code>Refresh</code> button to refresh data immediately</li>
-</ul>
-</li>
-<li>If you receive any warning similar to <code>Verification failed</code>, it may be caused by too many account added, and you can try to fix it youself by refreshing account cookie</li>
-</ul>
-</li>
+<li>If a <code>-1034</code> error occurs during data refresh, it means that miHoYo's anti-bot risk control has been triggered. You can solve this problem by configuring the invisible verification in the Hutao settings.</li>
 </ul>
 <h2> Verify Current User and Role</h2>
 <p>If you are using a MiYouShe account, then you account is very likely to be marked as robot-usage and leads to an anti-bot
@@ -426,7 +481,7 @@ verification, then your account can be used to refresh data.</p>
 </ul>
 </li>
 </ul>
-<h2> Independent Settings for Accounts</h2>
+<h2> Independent Settings for Each Accounts</h2>
 <ul>
 <li>Snap Hutao allows different settings on each Real-time Notes account</li>
 <li>Hover the cursor over the form of Real-time Notes account that needs to set</li>
@@ -965,10 +1020,34 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.9.4 Fix 🔨; Fixed the crash issue for Bilibili server users when entering the main window; 1.9.3 Fix 🔨; Fixed the crash issue for new users when entering the main window; 1.9...</description>
+      <description>1.9.5 New ➕; Added monitor identification button in game launcher #1261 (https://github.com/DGP-Studio/Snap.Hutao/issues/1261); Brand new Feedback Center is introduced #1039 (ht...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
+<h2> 1.9.5 </h2>
+<ul>
+<li>New ➕
+<ul>
+<li>Added monitor identification button in game launcher <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1261" target="_blank" rel="noopener noreferrer">#1261</a></li>
+<li>Brand new Feedback Center is introduced <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1039" target="_blank" rel="noopener noreferrer">#1039</a></li>
+</ul>
+</li>
+<li>Fix 🔨
+<ul>
+<li>Fixed the issue that when the game in under <code>Program Files</code> path, <code>server conversion failed</code> error would be raised <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1262" target="_blank" rel="noopener noreferrer">#1262</a></li>
+<li>Fixed the issue that static packages download cannot be completed in the setup wizard <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1242" target="_blank" rel="noopener noreferrer">#1242</a></li>
+</ul>
+</li>
+<li>Optimization ✨
+<ul>
+<li>Added support of changing proxy settings during Snap Hutao is running</li>
+<li>Added game status in Game Launcher Card in the dashboard</li>
+<li>Added data folder size auto refresh after server conversion cache is deleted</li>
+<li>Optimized the logic to identify whether server conversion is needed when game launch process is requested</li>
+<li>Optimized the English translation</li>
+</ul>
+</li>
+</ul>
 <h2> 1.9.4 </h2>
 <ul>
 <li>Fix 🔨
@@ -1956,20 +2035,24 @@ favorite tools, and make a Pull Request to contribute your work to the main repo
       <content:encoded><![CDATA[<h1> My Characters</h1>
 <div class="hint-container info">
 <p class="hint-container-title">Info</p>
-<p>This features required sign in to MiHoYo BBS account, please refer to <a href="/en/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a>
-document for sign in tutorial</p>
+<p>This features required sign in to MiHoYo BBS account, please refer to <a href="/en/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> document for sign in tutorial</p>
 </div>
 <p>My characters is a character statistics feature that allows Snap Hutao to read character's statistics on the account,
 including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for
 each character.</p>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01JOlGqw1g6dyB7NkLu_!!1797064093.png_.webp" alt="My Character Screenshot" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SpkZag1g6e0sAYQKO_!!1797064093.png_.webp" alt="My Character Screenshot" loading="lazy"></p>
 <h2> Sync Character Data</h2>
+<p>Recommended usage:</p>
+<ol>
+<li>Use <code>Sync from MiHoYo BBS - Battle Chronicle</code></li>
+<li>Use <code>Sync from MiHoYo BBS - Development Plan</code></li>
+<li>Edit the showcase in the game and then <code>Sync from Enka API</code></li>
+</ol>
 <h3> Sync from Enka API</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Synchronous Feature</p>
 <ul>
-<li>
-<p>Enka API sync data from characters displayed in the in-game character showcase</p>
+<li>Enka API sync data from characters displayed in the in-game character showcase
 <ul>
 <li>Data includes Artifacts detail data, weapon detail data, talent data</li>
 <li>Character costume</li>
@@ -1992,12 +2075,11 @@ each character.</p>
 <li>Enter <code>My Characters</code> page in the Snap Hutao, Click <code>Sync Character Data</code> button on the top-right</li>
 <li>Select <code>Sync from Enka API</code></li>
 </ul>
-<h3> Sync from MiHoYo BBS - My Characters</h3>
+<h3> Sync from MiHoYo BBS - Battle Chronicle</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Synchronous Feature</p>
 <ul>
-<li>
-<p>Data in this sync method comes from My Characters feature in MiHoYo official BSS</p>
+<li>Data in this sync method comes from My Characters feature in MiHoYo official BSS
 <ul>
 <li>This method does not contain any artifacts data</li>
 <li>This method can sync all characters data at a time</li>
@@ -2013,8 +2095,7 @@ each character.</p>
 <div class="hint-container info">
 <p class="hint-container-title">Synchronous Feature</p>
 <ul>
-<li>
-<p>Data in this method comes from <code>Enhancement Progression Calculator</code> feature in MiHoYo official BBS tool set</p>
+<li>Data in this method comes from <code>Enhancement Progression Calculator</code> feature in MiHoYo official BBS tool set
 <ul>
 <li>This sync method contains talent level data</li>
 <li>This sync method can sync all characters data at a time</li>
@@ -2035,14 +2116,11 @@ each character.</p>
 </ul>
 </li>
 </ul>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png" alt="rolescal" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Ynvyso1g6e0tMntA3_!!1797064093.png_.webp" alt="rolescal" loading="lazy"></p>
 <ul>
 <li>After adding successfully, you can find added development plan in the <code>Dev Plan</code> page in Snap Hutao</li>
 </ul>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png" alt="image" loading="lazy"></p>
-<ul>
-<li>For tutorial of Dev Plan feature, please refer to <a href="/en/features/develop-plan.html" target="blank">Dev Plan</a> document</li>
-</ul>
+<p>For tutorial of Dev Plan feature, please refer to <a href="/en/features/develop-plan.html" target="blank">Dev Plan</a> document</p>
 <h2> Export as Image</h2>
 <ul>
 <li>In <code>My Characters</code> page, you can select a character and then click <code>Export as Image</code> button to create image with your
@@ -2050,9 +2128,9 @@ character's data, this will help you to share your character's data</li>
 <li>The exported image is stored in your clipboard, and you can paste it wherever you need</li>
 <li>A sample exported image is shown below</li>
 </ul>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png" alt="sample-output-image" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01qdWCvd1g6e0zFwB91_!!1797064093.png_.webp" alt="sample-output-image" loading="lazy"></p>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01JOlGqw1g6dyB7NkLu_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SpkZag1g6e0sAYQKO_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Character WIKI</title>
@@ -2064,7 +2142,7 @@ character's data, this will help you to share your character's data</li>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Character WIKI</h1>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01BTeWoh1g6dyHbVwkf_!!1797064093.png_.webp" alt="characters-wiki" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01NbT4Kn1g6e0wf51ft_!!1797064093.png_.webp" alt="characters-wiki" loading="lazy"></p>
 <p>Character WIKI is a Snap Hutao build-in WIKI feature used to query each character's information.</p>
 <h2> Included Data</h2>
 <ul>
@@ -2112,7 +2190,7 @@ character's data, this will help you to share your character's data</li>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01BTeWoh1g6dyHbVwkf_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01NbT4Kn1g6e0wf51ft_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Development Plan</title>
@@ -2124,7 +2202,7 @@ character's data, this will help you to share your character's data</li>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Development Plan</h1>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01CDsjcb1g6dyB7M0EW_!!1797064093.png_.webp" alt="dev-plan" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01zzcpWb1g6e0m2xFYJ_!!1797064093.png_.webp" alt="dev-plan" loading="lazy"></p>
 <h2> Add Develop Goals into Material Checklist</h2>
 <h3> Add Goals from WIKIs</h3>
 <ul>
@@ -2143,18 +2221,25 @@ character's data, this will help you to share your character's data</li>
 <li>Select the character you want to add</li>
 <li>In the pop-up window, input the base level and target level
 <ul>
-<li>By default, add goals from WIKIs will set base level as player's live data'</li>
+<li>By default, add goals from WIKIs will set base level as player's live data</li>
 <li>Refer to <a href="/en/features/character-data.html#sync-character-data" target="blank">My Characters</a> document to get more guides</li>
 </ul>
 </li>
 </ul>
 <h2> Inventory Items</h2>
-<div class="hint-container info">
-<p class="hint-container-title">Info</p>
-<p>This feature is under construction for non-Chinese languages</p>
-</div>
+<ul>
+<li>In the left column of the Snap Hutao, click the <code>Dev Plan</code> feature.</li>
+<li>Click the <code>Inventory Item</code> in the function bar</li>
+<li>In the upper right part of the overall interface of the Snap Hutao, click the <code>Create New Plan</code> button.</li>
+<li>In the pop-up window of <code>Create a New Dev Plan</code>, fill in the name of the cultivation plan to be created.
+<ul>
+<li>Here you can check "Bind the currently selected account character".</li>
+<li>The drop-down option box to the left of the "Create New Plan" button allows you to <strong>switch between different Dev Plans</strong> at will.</li>
+</ul>
+</li>
+</ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01CDsjcb1g6dyB7M0EW_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01zzcpWb1g6e0m2xFYJ_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Game Launcher</title>
@@ -2166,7 +2251,7 @@ character's data, this will help you to share your character's data</li>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Game Launcher</h1>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp" alt="Game Launcher" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01RuSYDm1g6e0u3wfIy_!!1797064093.png_.webp" alt="Game Launcher" loading="lazy"></p>
 <ul>
 <li>Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings</li>
 <li>Click on the <code>Game Launcher</code> on the sidebar to get into game launcher's page
@@ -2176,18 +2261,13 @@ character's data, this will help you to share your character's data</li>
 <li>When choosing the game path, noticed that you should choose game program instead of launcher program
 <ul>
 <li>Such as <code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code> and <code>$\Genshin Impact\Genshin Impact Game\Genshin Impact.exe</code></li>
-<li>Official launcher program is usually <code>$\Genshin Impact\launcher.exe</code></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>You can make launcher configuration options in the game launcher's page, and then click <code>Launcher</code> button on the top-right to launch the game
-<ul>
-<li>Launcher options is explained in the document below</li>
-</ul>
-</li>
+<li>You can make launcher configuration options in the game launcher's page, and then click <code>Launcher</code> button on the top-right to launch the game. Launcher options is explained in the document below</li>
 </ul>
 <h2> Server Switch</h2>
 <div class="hint-container tip">
@@ -2198,10 +2278,8 @@ character's data, this will help you to share your character's data</li>
 </ol>
 </div>
 <p>Enter Game Launcher page
-In the <code>General - Server</code> field, select the server you want</p>
-<ul>
-<li>Current available serves options include:</li>
-</ul>
+In the <code>Server</code> field, select the server you want</p>
+<p>Current available serves options include:</p>
 <table>
 <thead>
 <tr>
@@ -2240,24 +2318,19 @@ In the <code>General - Server</code> field, select the server you want</p>
 </tr>
 </tbody>
 </table>
-<ul>
-<li>click <code>Launcher</code> button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game</li>
-</ul>
+<p>click <code>Launch</code> button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game</p>
 <h2> Game Account Switch</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
-<ol>
-<li>The <strong>account</strong> mentioned in this feature is Genshin game login account instead of HoYoLAB account</li>
-<li>Game account switch feature currently only supporting official CN server</li>
-</ol>
+<p>The <strong>account</strong> mentioned in this feature is Genshin game login account instead of HoYoLAB account</p>
 </div>
 <table>
 <thead>
 <tr>
 <th></th>
 <th>CN</th>
-<th>BiliBili</th>
 <th>Global</th>
+<th>bilibili</th>
 </tr>
 </thead>
 <tbody>
@@ -2270,18 +2343,19 @@ In the <code>General - Server</code> field, select the server you want</p>
 <tr>
 <td>Switch Account</td>
 <td>Supported</td>
-<td>Not Supported</td>
 <td>Supported</td>
+<td>Not Supported</td>
 </tr>
 </tbody>
 </table>
 <ol>
 <li>Enter Game Launcher page</li>
-<li>Click <code>Detect Account</code> field in the <code>General</code> category, Snap Hutao will detect current Genshin Impact's account login status</li>
+<li>Click <code>Detect Account</code> field in the <code>Registry</code> category, Snap Hutao will detect current Genshin Impact's account login status</li>
 <li>In this pop-up window, enter an archive name for this account and click <code>Confirm</code></li>
-<li>Go back to the game, sign out and sign in to your another account. Repeat step 2 and 3 to add all your account to Snap Hutao
+<li>Go back to the game, sign out and sign in to your another account, then end the game process. Repeat step 2 and 3 to add all your account to Snap Hutao</li>
+</ol>
+<p>Each account is saved in a field under the <code>Detect Account</code> field, they are selectable</p>
 <ul>
-<li>Each saved account are selectable</li>
 <li>On the right side, there are three buttons, they are:
 <ul>
 <li><code>Bind current user account</code>, bind current activated MiHoYo BBS account with this game account, an UID will be display on this archive</li>
@@ -2290,9 +2364,10 @@ In the <code>General - Server</code> field, select the server you want</p>
 </ul>
 </li>
 </ul>
-</li>
-</ol>
-<h2> Appearance</h2>
+<h2> Genshin Impact HDR in Windows Platform</h2>
+<p>Genshin Impact currently has an HDR feature built in that can only be enabled by setting registry key values. Although this may mean that the feature is a test feature of the game, you can already experience it in advance!
+You can enable the Genshin Impact HDR feature on the Windows platform to enhance the visual experience on monitors that support HDR. In the game launcher, you can enable the Windows HDR option, and Snap Hutao will activate this built-in feature of the game when the game starts.</p>
+<h2> Launch Parameters</h2>
 <div class="hint-container warning">
 <p class="hint-container-title">Warning</p>
 <ul>
@@ -2307,18 +2382,50 @@ In the <code>General - Server</code> field, select the server you want</p>
 </div>
 <ul>
 <li>Enter Game Launcher page</li>
-<li>In the <code>Appearance</code> category, there are 6 available options:
+<li>In the <code>Progress</code> category, enable <code>Launch Parameters</code> and expand it to see more detailed options:
 <ul>
-<li><strong>Exclusive Fullscreen</strong>, the game process will run in exclusive fullscreen mode
+<li><code>-window-mode exclusive</code> parameter
 <ul>
-<li><strong>You should only use this option when you are able to independently describe technical principles and effects of exclusive fullscreen</strong></li>
+<li><strong>Exclusive Full Screen</strong>, i.e., select the game process to run in exclusive full-screen mode</li>
+<li><strong>This feature is incompatible with the in-game browser feature, you should only enable this option if you can independently describe the technical principles and effects of exclusive full screen</strong></li>
 </ul>
 </li>
-<li><strong>Fullscreen</strong>, the game display mode is set to fullscreen</li>
-<li><strong>Borderless</strong>, the game display mode is set to borderless</li>
-<li><strong>Width</strong>, game window width, such as <code>1920</code></li>
-<li><strong>Height</strong>, game window height, such as <code>1080</code></li>
-<li><strong>Display</strong>, users with multiple displays can use this option to set which display to run the game</li>
+<li><code>-screen-fullscreen</code> parameter
+<ul>
+<li><strong>Full Screen</strong>, i.e., choose whether to set the game interface as full screen after launching the game</li>
+</ul>
+</li>
+<li><code>-popupwindow</code> parameter
+<ul>
+<li><strong>Borderless</strong>, i.e., choose whether to set the game interface as a borderless window after launching the game</li>
+</ul>
+</li>
+<li><code>-platform_type CLOUD_THIRD_PARTY_MOBILE</code> parameter
+<ul>
+<li><strong>Touch Screen Mode</strong>, i.e., enable the touch screen operation mode built into Genshin Impact</li>
+</ul>
+</li>
+<li>Resolution
+<ul>
+<li>This feature can quickly set the options to override screen width and height</li>
+</ul>
+</li>
+<li><code>-screen-width</code> parameter
+<ul>
+<li><strong>Width</strong>, i.e., choose the width of the game interface after launching the game, for example, <code>1920</code></li>
+</ul>
+</li>
+<li><code>-screen-height</code> parameter
+<ul>
+<li><strong>Height</strong>, i.e., choose the height of the game interface after launching the game, for example, <code>1080</code></li>
+</ul>
+</li>
+<li><code>-monitor</code> parameter
+<ul>
+<li><strong>Monitor</strong>, allows users with multiple monitors to choose a specific monitor to run the game</li>
+<li>If you can't determine which monitor each option represents, you can click <code>Identify Monitor</code> to get a hint.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -2339,7 +2446,7 @@ download them by user favored download tools.</p>
 <ul>
 <li>Be aware: all advanced features are labeled as <code>Dangeroud Feature</code>; indicating that enabling them means you choose
 to assume any risk on your own.</li>
-<li>You need to enable advanced features in Snap Hutao's settings page</li>
+<li><strong>You need to enable advanced features in Snap Hutao's settings page</strong></li>
 </ul>
 </div>
 <h3> Unlock Frame Rate Limit</h3>
@@ -2353,55 +2460,44 @@ on your own.</li>
 </ul>
 </div>
 <ul>
-<li>
-<p>Run Snap Hutao as administrator</p>
-</li>
-<li>
-<p>Enter Game Launcher page</p>
-</li>
-<li>
-<p>At the bottom of the page, you can find <code>Unlock Frame Rate Limit</code> option</p>
+<li>Run Snap Hutao as administrator</li>
+<li>Make sure <code>Advanced Feature</code> is enabled in Snap Hutao settings</li>
+<li>Enter Game Launcher page</li>
+<li>At the bottom of the page, you can find <code>Unlock Frame Rate Limit</code> option
 <ul>
 <li>Trigger the switch to enable or disable this feature</li>
 <li>In the <code>Set Frame Rate Limit</code> field, you can adjust the limit freely</li>
 </ul>
 </li>
-<li>
-<p>Click <code>Start Game</code> button on the top right</p>
-</li>
-<li>
+<li>Click <code>Start Game</code> button on the top right</li>
+</ul>
 <p>Fact that may cause <strong>failure in unlocking frame rate limit</strong>:</p>
-<ul>
+<ol>
 <li>Snap Hutao process is not kept in the background</li>
 <li><code>V-Sync</code> is not set to off in the game</li>
 <li><code>Max Framerate</code> limit is not changed in your graphic card settings</li>
 <li><code>Power Saving</code> mode is not disabled in power settings</li>
 <li>Your graphic card is not powerful enough</li>
-</ul>
-</li>
-</ul>
+</ol>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01RuSYDm1g6e0u3wfIy_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Hutao Database / Abyss Record</title>
       <link>https://hut.ao/en/features/hutao-API.html</link>
       <guid>https://hut.ao/en/features/hutao-API.html</guid>
       <source url="https://hut.ao/en/rss.xml">Hutao Database / Abyss Record</source>
-      <description>Snap Hutao offers two major statistic features associated with Spiral Abyss challenge Abyss Stats on the sidebar is a feature designed to help players who are not familiar with ...</description>
+      <description>Snap Hutao offers two major statistic features associated with Spiral Abyss challenge Statistics on the top function bar is a feature designed to help players who are not famili...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Hutao Database / Abyss Record</h1>
 <p>Snap Hutao offers two major statistic features associated with Spiral Abyss challenge</p>
 <ul>
-<li><code>Abyss Stats</code> on the sidebar is a feature designed to help players who are not familiar with Genshin Impact's
-battle system to build teams, pass the Abyss and obtain rewards by collecting and displaying challenge stats data from
-the Spiral Abyss from a large number of players.</li>
-<li><code>Abyss Record</code> on the sidebar is a statistical feature that helps individuals review their gaming experience and
-personal data collection by saving their challenge data from each period of the Spiral Abyss.
+<li><code>Statistics</code> on the top function bar is a feature designed to help players who are not familiar with Genshin Impact's battle system to build teams, pass the Abyss and obtain rewards by collecting and displaying challenge stats data from the Spiral Abyss from a large number of players.</li>
+<li><code>Schedules Details</code> on the sidebar is a statistical feature that helps individuals review their gaming experience and personal data collection by saving their challenge data from each period of the Spiral Abyss.
 <ul>
-<li>Many players contribute to the Hutao Database's <code>Abyss Stats</code> dataset by uploading their personal <code>Abyss Records</code></li>
+<li>Many players contribute to the Hutao Database's <code>Statistics</code> dataset by uploading their personal <code>Schedules Details</code></li>
 </ul>
 </li>
 </ul>
@@ -2425,7 +2521,7 @@ of each month on the gaming server timezone of your account
 </ol>
 </div>
 <ul>
-<li>Enter Abyss Records page by clicking <code>Abyss Stats</code> on the sidebar menu</li>
+<li>Enter Abyss Records page, and then click <code>Stastics</code> on the top function bar</li>
 <li>Click <code>Character Usage</code> tab to view character usage rate statistics
 <ul>
 <li>Character Usage Rate = Character Appearance in this Floor <sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup><a class="footnote-anchor" id="footnote-ref1"> / Number of Player who Own this Character</a></li><a class="footnote-anchor" id="footnote-ref1">
@@ -2449,13 +2545,16 @@ of each month on the gaming server timezone of your account
 </a></ul><a class="footnote-anchor" id="footnote-ref4">
 </a><h2><a class="footnote-anchor" id="footnote-ref4"></a> Upload Abyss Data</h2>
 <h3> Use Snap Hutao Client</h3>
+<div class="hint-container important">
+<p class="hint-container-title">Snap Hutao Cloud Bonus</p>
+<p>If you have already logged into your Snap Hutao Account in your client, after successfully submitting data for the first time in the current schedule, you will receive Snap Hutao Cloud privileges as our thanks (even if the data has not cleared the 12th floor).</p>
+</div>
 <ul>
 <li>Enter Abyss Records page by clicking <code>Abyss Records</code> on the sidebar menu</li>
 <li>Click <code>Refresh Data</code> button to make suer Snap Hutao is storing your latest Spiral Abyss record</li>
 <li>Click <code>Upload Data</code> to upload your Spiral Abyss records
 <ul>
-<li>This may take a few seconds, you will see the following success message after your data is submitted
-<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Zt7yQp1g6duBDALeX_!!1797064093.png" alt="upload-hutaoapi" loading="lazy"></li>
+<li>This may take a few seconds, you will receive a submission success notification</li>
 </ul>
 </li>
 </ul>
@@ -2499,24 +2598,20 @@ Abyss stats, all collected characters will be included <a href="#footnote-ref4" 
 </ol>
 </section>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01cAHDDi1g6dyEPgDBp_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN018nOrg11g6e0wP73lR_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Software Settings</title>
       <link>https://hut.ao/en/features/hutao-settings.html</link>
       <guid>https://hut.ao/en/features/hutao-settings.html</guid>
       <source url="https://hut.ao/en/rss.xml">Software Settings</source>
-      <description>The following feature tutorials are introduced in-program order.; About Snap Hutao This part has the following information: The icon of Snap Hutao：You can find the original imag...</description>
+      <description>settings The following feature tutorials are introduced in-program order. About Snap Hutao This part has the following information: The icon of Snap Hutao：You can find the origi...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Software Settings</h1>
-<div class="hint-container info">
-<p class="hint-container-title">Info</p>
-<ul>
-<li>The following feature tutorials are introduced in-program order.</li>
-</ul>
-</div>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01m1CSiq1g6e0utDIKD_!!1797064093.png" alt="settings" loading="lazy">
+The following feature tutorials are introduced in-program order.</p>
 <h2> About Snap Hutao</h2>
 <p>This part has the following information:</p>
 <ul>
@@ -2528,21 +2623,22 @@ Abyss stats, all collected characters will be included <a href="#footnote-ref4" 
 <li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a> is authorized by owner to use it for Snap Hutao Project</li>
 </ul>
 </li>
-<li>Snap Hutao client version</li>
-<li>Device ID</li>
 </ul>
-<h2> Snap Hutao Account </h2>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp" alt="Hutao-account" loading="lazy">
-Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
-Currently, you are already able to register and login to your Snap Hutao account in the settings page.</p>
-<h2> Shell Experience</h2>
-<ul>
-<li>Create Desktop Shortcut
-<ul>
-<li>Snap Hutao will create a shortcut with Administrator privilege on user's desktop</li>
-</ul>
-</li>
-</ul>
+<h2> Snap Hutao Account</h2>
+<p>You can sign up and sign in your Snap Hutao Account in settings page.</p>
+<p>For more detail about this feature, please refer to <a href="/en/features/hutao-passport.html" target="blank">Snap Hutao Account</a> document.</p>
+<h2> Administrator Mode Tools</h2>
+<p>On the right side of the settings page, the development team has set up an administrator mode tool for users who need it. Under this module, we provide two functions:</p>
+<ol>
+<li>Restart the program immediately as an administrator</li>
+<li>Create a PowerShell shortcut on the desktop to start Hutao as administrator</li>
+</ol>
+<h2> CAPTCHA</h2>
+<blockquote>
+<p>This feature is most likely to be useful for CN server (MiYouShe) users</p>
+</blockquote>
+<p>If daily check-in and realtime notes functions are essential for you, then the <code>-1034</code> error from miHoYo's anti-bot verification will definitely be a major interference. This is because miHoYo uses Geetest to intercept requests directly executed by non-humans, and some requests from Snap Hutao will be judged by Geetest as robot behavior and cause request failure. If you use a third-party service to verify the Geetest captcha, you can pass the random data generated by Geetest to the verification service provider through this setting.</p>
+<p>After successfully configuring this setting, Snap Hutao will directly call this verification service to pass the Geetest verification when performing real-time note automatic refresh and miHoYo community check-in, avoiding the generation of -1034 error by miHoYo.</p>
 <h2> Appearance</h2>
 <ul>
 <li>
@@ -2566,6 +2662,8 @@ Currently, you are already able to register and login to your Snap Hutao account
 </ul>
 </li>
 </ul>
+<h2> Shortcut Keys</h2>
+<p>In this module, you can enable and change the setting of auto-click shortcut key</p>
 <h2> Home</h2>
 <ul>
 <li>Dashboard Card
@@ -2580,29 +2678,15 @@ Currently, you are already able to register and login to your Snap Hutao account
 </li>
 </ul>
 </li>
+<li>Announcement Server
+<ul>
+<li>You can change source of in-game announcement in this field</li>
+</ul>
+</li>
 </ul>
 <h2> Game</h2>
 <ul>
-<li>
-<p>Game Path</p>
-<ul>
-<li>In this field, you can modify or set your game path for Snap Hutao</li>
-<li>When setting the game path, you should select game program instead of launcher program
-<ul>
-<li>Such as <code>$\Genshin Impact\Genshin Impact Game\YuanShen.exe</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>PowerShell Path</p>
-<ul>
-<li>Snap Hutao uses PowerShell to modify Genshin Impact registry field to switch game account. This option allows user to
-select PowerShell path to fix issue when PowerShell path is unable to located automatically</li>
-</ul>
-</li>
-<li>
-<p>Delete Game Embedded Browser Web Cache</p>
+<li>Delete Game Embedded Browser Web Cache
 <ul>
 <li>When you are using web cache refresh method in the wish history feature and receiving authkey expiration error, you can try this operation to fix the error</li>
 <li>Click on this field to execute the operation</li>
@@ -2613,40 +2697,34 @@ select PowerShell path to fix issue when PowerShell path is unable to located au
 <ul>
 <li>In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature</li>
 </ul>
-<h2> Geetest Verification</h2>
-<p>MiYouShe uses Geetest verification to block requests not from real human operations, so some requests from Snap Hutao,
-such as claim check-in reward and fetch Real-time Notes data may be failed due to marked as robot operation.
-If you have a third party service to bypass Geetest verification, you can config this setting to pass verification
-parameters to service provider you used.</p>
-<p>Successfully config this setting will help Snap Hutao pass verification when fetching data from Real-time Notes and
-claiming check-in rewards, and avoid <code>-1034</code> error from MiYouShe.</p>
 <h2> Storage</h2>
 <ul>
-<li>Open Data Folder
+<li>Data Folder
 <ul>
-<li>Click this field to open data folder that contains user data, log, and metadata</li>
+<li><code>Open Folder</code>: Click this field to open data folder that contains user data, log, and metadata</li>
+<li><code>Change Data Directory</code>: This field allows you to change the data directory to path you want</li>
+<li><code>Delete Server Conversion Cache</code>: This option allows user to delete server conversion cache file inside of data folder</li>
 </ul>
 </li>
-<li>Change Data Directory
+<li>Cache Folder
 <ul>
-<li>This field allows you to change the data directory to path you want</li>
-</ul>
-</li>
-<li>Open Cache Folder
-<ul>
-<li>Click this field will open cache folder that saves image assets used by Snap Hutao</li>
-</ul>
-</li>
-<li>Reset Image Resource
-<ul>
-<li>This option allows user to reset image cache when there are too many image failed to load. The program will
-re-download images resource at next start-up</li>
+<li><code>Open Folder</code>: Click this field will open cache folder that saves image assets used by Snap Hutao</li>
+<li><code>Reset Image Resource</code>: This option allows user to reset image cache when there are too many image failed to load. The program will re-download images resource at next start-up</li>
 </ul>
 </li>
 </ul>
 <h2> Dangerous Features</h2>
+<div class="hint-container important">
+<p class="hint-container-title">Important</p>
+<p>Using any feature within the "Dangerous Features" will trigger a secondary confirmation prompt. You may be asked to enter the <strong>title name</strong> of the feature that is currently being requested to be enabled.</p>
+</div>
 <ul>
-<li>Enable Advanced Features
+<li>Debug Console
+<ul>
+<li>After enabling this feature, a command line window containing real-time logs will be enabled the next time you start the Hutao Toolbox. You can obtain error information that may be helpful to you through this window.</li>
+</ul>
+</li>
+<li>Advanced Features
 <ul>
 <li>With Snap Hutao running as administrator, you can enable this field to enable advanced features in the game launcher
 <blockquote>
@@ -2667,7 +2745,7 @@ re-download images resource at next start-up</li>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01m1CSiq1g6e0utDIKD_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>MiHoYo BBS Account Switch</title>
@@ -2692,7 +2770,7 @@ MiYouShe refers to Mainland China version, HoYoLAB refers to global version, bot
 </li>
 </ul>
 </div>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01OqYy931g6dyGYLC2E_!!1797064093.png_.webp" alt="MiHoYo BBS Accounts" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01QN2Nvm1g6e0utHzYa_!!1797064093.png_.webp" alt="MiHoYo BBS Accounts" loading="lazy"></p>
 <p>At the left bottom corner, you can find the account menu above the <code>Settings</code> button. In the pop-up account menu,
 you can find the entry to login in to your MiYouShe and HoYoLAB account:</p>
 <ul>
@@ -2706,7 +2784,6 @@ you can find the entry to login in to your MiYouShe and HoYoLAB account:</p>
 <li>Alternatively, you can enter your MiHoYo BBS cookie list by click on <code>Input Manually</code> button
 <ul>
 <li>If you do so, the cookies must contains <code>SToken</code> field</li>
-<li>You can refer to <a href="/en/advanced/get-SToken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 SToken 的 cookie</a> document for methods to capture cookie with <code>SToken</code></li>
 </ul>
 </li>
 <li>After added your MiHoYo BBS account, you need to switch to account you want in the account menu, to activate it
@@ -2731,7 +2808,7 @@ no third-party server (including any server from Snap Hutao) will involve in thi
 </ul>
 </div>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01OqYy931g6dyGYLC2E_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01QN2Nvm1g6e0utHzYa_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Weapon WIKI</title>
@@ -2743,7 +2820,7 @@ no third-party server (including any server from Snap Hutao) will involve in thi
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Weapon WIKI</h1>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01dj5xBC1g6dyEKqaPQ_!!1797064093.png_.webp" alt="weapon-wiki" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN016BJBYd1g6e0qbvH2x_!!1797064093.png_.webp" alt="weapon-wiki" loading="lazy"></p>
 <p>Weapon WIKI is a Snap Hutao build-in WIKI feature used to look up each weapon's information</p>
 <h2> Included Data</h2>
 <ul>
@@ -2774,7 +2851,7 @@ no third-party server (including any server from Snap Hutao) will involve in thi
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01dj5xBC1g6dyEKqaPQ_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN016BJBYd1g6e0qbvH2x_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>User Data and Privacy Notice</title>
@@ -2988,13 +3065,10 @@ information provided by domains outside this list (including websites, emails, e
       <category>Tutorial</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Achievement Management</h1>
-<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xJaPGy1g6dyAWV0vm_!!1797064093.png_.webp" alt="Achievement Screenshot" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Jxk0x31g6e0wP6SNL_!!1797064093.png_.webp" alt="Achievement Screenshot" loading="lazy"></p>
 <p>Snap Hutao offers local achievement management feature, users can view and manage status of achievement</p>
-<ul>
-<li>At first time use, you will follow the instruction to create an archive and name it</li>
-<li>After that, you are still able to make new archives by click on <code>Create New Archive</code> for other game accounts</li>
-</ul>
-<h2> Achievement Import</h2>
+<p>At first time use, you will follow the instruction to create an archive and name it. After that, you are still able to make new archives by click on <code>Create New Archive</code> for other game accounts</p>
+<h2> Achievement Import </h2>
 <ul>
 <li>Snap Hutao is using <a href="https://uigf.org/en/standards/UIAF.html" target="_blank" rel="noopener noreferrer">Uniformed Interchangeable Achievement Format Standar</a> to store user's achievement data
 <ul>
@@ -3003,6 +3077,10 @@ information provided by domains outside this list (including websites, emails, e
 </li>
 <li>You can click on <code>Import</code> at top right menu on Achievement Management page, and select file import to load UIAF formatted data</li>
 </ul>
+<h2> Achievement Export </h2>
+<p>You can click on the <code>Export</code> button in the hidden menu at the top right corner of the achievement page. In the pop-up window, select the directory and set the file name, then your data will be exported.</p>
+<h2> Delete Archive</h2>
+<p>You can delete the current achievement archive by finding and clicking on <code>Delete Current Archive</code> in the hidden menu in the top right corner.</p>
 <h2> Achievement Tools We Recommend</h2>
 <ul>
 <li>
@@ -3013,7 +3091,7 @@ information provided by domains outside this list (including websites, emails, e
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xJaPGy1g6dyAWV0vm_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Jxk0x31g6e0wP6SNL_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Wish History</title>
@@ -3033,7 +3111,7 @@ still keep tracking how many Timmie's pigeons you've killed for the whole year)<
 local device. This is the purpose of wish history export feature in Snap Hutao.</p>
 <p>Regarding the technical principles of exporting Genshin Impact gacha records,
 you can refer to our article on <a href="/en/advanced/Gacha-system-and-export-principal.html" target="blank">Gacha System and Export Principles</a></p>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp" alt="wish export" loading="lazy"></p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01X360be1g6e0wf4UNv_!!1797064093.png_.webp" alt="wish export" loading="lazy"></p>
 <p><strong>As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
 total number of wishes, current pity count, quantity and percentage of obtained items with different rarity, number of
 times a 5-star rarity item was not obtained and the current pity status.</strong></p>
@@ -3045,13 +3123,13 @@ available. When you see the latest batch of gacha records in the game's own hist
 statistics from Snap Hutao.</p>
 </div>
 <h2> Fetch Wish History</h2>
-<h3> Refresh with SToken Cookie </h3>
+<h3> SToken Refresh </h3>
 <div class="hint-container info">
 <p class="hint-container-title">Hint</p>
 <ul>
 <li>This method requires user to sign in to MiHoYo BBS account in Snap Hutao, refer to
-<a href="/en/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> to get to know how to login to your MiHoYo BBS account</li>
-<li><strong>SToken Cookie refresh method does not support global server (HoYoLAB)</strong></li>
+<a href="/en/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> to get to know how to sign in to your MiHoYo BBS account</li>
+<li><strong>SToken Cookie refresh method does not support oversea server (HoYoLAB)</strong></li>
 </ul>
 </div>
 <ul>
@@ -3075,18 +3153,18 @@ statistics from Snap Hutao.</p>
 <li>Execute operation <code>Delete game embeeded browser web cache</code></li>
 </ul>
 </div>
-<h3> Refresh with Manually Input URL </h3>
+<h3> Input URL Manually </h3>
 <ul>
 <li>If you get your personal wish history URL, you can select <code>Manual Input</code> and submit your wish history URL</li>
 <li>Be aware that the URL is time-sensitive</li>
 </ul>
-<h3> Explanation on Full Refresh Option</h3>
+<h3> Full Refresh</h3>
 <p>By default, Snap Hutao will stop importing gacha records once it matches a Wish ID that already exists locally.
 However, if you wish to obtain all the historical records from the Genshin Impact servers
 (even if they are already present in your local wish history), you can check the "Full Refresh" option.</p>
 <p>Not selecting <code>Full Refresh</code> will <strong>not</strong> cause you to lose your wishing data,
 and selecting <code>Full Refresh</code> will <strong>not</strong> cause your local records to mistakenly record the same wishing data twice.</p>
-<h3> Import Wish History Data from Other Applications </h3>
+<h3> Import UIGF Wish History Data from Other Applications </h3>
 <p>Snap Hutao supports importing wish history data file that in <code>UIGF data format</code><sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></p><a class="footnote-anchor" id="footnote-ref1">
 <p>If you need to import such type of data, you can:</p>
 <ul>
@@ -3114,26 +3192,6 @@ You need to <a href="/en/features/hutao-settings.html#snap-hutao-account" target
 </blockquote>
 <p>With this feature, you can upload your wish history to Hutao Cloud, to avoid risk of losing data, and make it easier to
 transfer data between devices.</p>
-<h3> Cloud Sync Privilege</h3>
-<p>Cloud synchronization is a service uses Snap Hutao's server resource, so it is a time-limited feature.
-Currently, you have the following ways to enable Cloud Sync:</p>
-<ol>
-<li>Donate us on AiFaDian. The privilege will automatically assigned to Snap Hutao Account with same email address on AiFaDian</li>
-<li>For all registered user, after upload Abyss record in each schedule, 3-day privilege will be automatically assigned
-<ul>
-<li>This is a method you can constantly use benefit of Hutao Cloud</li>
-</ul>
-</li>
-<li>Users who make contributions to our open-source community, including code development, program designing,
-localization translations, can contact the dev team to get your benefit for free
-<ul>
-<li>We are designing an automation system to auto assign license to our contributors, it will be live with more
-development of Hutao Cloud</li>
-</ul>
-</li>
-</ol>
-<p>After your Hutao Cloud privilege expired, you will not be able to upload, download or delete your data, but your data
-will not be removed. You can continue to operate it once you get your privilege again.</p>
 <h3> Upload</h3>
 <ul>
 <li>In wish export page, select the archive you need to sync data</li>
@@ -3158,7 +3216,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ol>
 </section>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01X360be1g6e0wf4UNv_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Statements</title>
@@ -3223,16 +3281,21 @@ and include it in your issue</label></li>
       <link>https://hut.ao/en/project.html</link>
       <guid>https://hut.ao/en/project.html</guid>
       <source url="https://hut.ao/en/rss.xml">Project</source>
-      <description>Snap Hutao is an open-source Genshin Impact toolkit under MIT license, designed for modern Windows platform to improve the gaming experience for desktop players. By combining ex...</description>
+      <description>banner Snap Hutao is an open-source Genshin Impact toolkit under MIT license, designed for modern Windows platform to improve the gaming experience for desktop players. By combi...</description>
       <category>announcement</category>
       <category>project</category>
       <category>features</category>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Project</h1>
+<div style="text-align:center">
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ogJFxz1g6e0yCZjs0_!!1797064093.png_.webp" alt="banner" loading="lazy">
+<a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"></a></p>
+</div>
 <p>Snap Hutao is an open-source Genshin Impact toolkit under MIT license, designed for modern Windows platform to improve
 the gaming experience for desktop players. By combining existing official resources with new features designed by the
 development team, it provides a complete and useful set of tools without the need to rely on mobile devices. Snap Hutao
 does not take any destructive modification to the game client to ensure the security of the toolkit.</p>
+<p>Snap Hutao is using MSIX format package. MSIX is a native Windows application package format that streamlines the installation, update, and removal process of software. One of its standout features is its use of sandbox technology. This means that applications packaged in MSIX run in isolated environments, preventing them from making system-wide changes. This isolation enhances security as it limits the application's access to system resources and user data. Furthermore, when an MSIX-packaged application is uninstalled, it leaves no residual files or registry entries, maintaining the cleanliness and stability of the system. This is a significant improvement over traditional installation methods that often leave behind "digital debris" when applications are removed. The combination of these features makes MSIX a powerful tool for both developers and end-users, providing a seamless, secure, and clean software management experience.</p>
 <h2> Genshin Impact's Desktop Issues Snap Hutao Solved</h2>
 <table>
 <thead>
@@ -3379,6 +3442,7 @@ does not take any destructive modification to the game client to ensure the secu
 </li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ogJFxz1g6e0yCZjs0_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
       <title>Quick Start</title>
@@ -3427,17 +3491,8 @@ so Snap Hutao cannot solve them</li>
 </ol>
 <h2> </h2>
 <h3> New Installation</h3>
-<p>You can use MSIX package to install Snap Hutao, you can find pakcage from the following source.</p>
-<div class="vp-card-container">
-  </div>
-<ul>
-<li>If you face any of the following errro during the installation, please refer to <a href="/en/advanced/dependency.html" target="blank">Install Dependency Manually</a> to solve it，this happens when your Windows cannot download necessary framework
-<ol>
-<li><code>App Installer failed to iunstall package dependencies. Ask the developer for package</code></li>
-<li>Stuck at <code>Installing framework</code></li>
-</ol>
-</li>
-</ul>
+<p>You can use <strong>MSIX package</strong> or <strong>Snap.Hutao.Deployment installer</strong> to install Snap Hutao, you can find pakcage from the following source.</p>
+
 <hr>
 <p>If you are interested in making the Snap Hutao project better through your own efforts, consider <a href="/en/development/join.html" target="blank">join us</a>!</p>
 <h3> </h3>
