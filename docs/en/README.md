@@ -5,7 +5,7 @@ title: Home
 heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp
 heroAlt: Snap Hutao
 heroText: Snap Hutao
-tagline: Multifunctional Open-source Genshin Toolkit 🧰
+tagline: <img src="https://trendshift.io/api/badge/repositories/2009"/><br>Multifunctional Open-source Genshin Toolkit 🧰
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
 head:
@@ -35,15 +35,15 @@ highlights:
         details: Your data can be backed up to Snap Hutao Cloud, you never lose data when you are on a new device
       - title: Community Guards your Program
         icon: iconfont icon-anonymous
-        details: Snap Hutao is open-sourced on GitHub with MIT license, we welcome community members to review and contribute to our code. The software is listed in Microsoft Store, which passes Microsoft's security review
+        details: Snap Hutao is open-sourced on GitHub with MIT license, we welcome community members to review and contribute to our code. The software is packaged and published through fully automated pipeline without any manual change
 
   - header: All-in-one Toolbox
     description: Quick start tools your need and explore more possibility
     image: /images/202308/highlights-head.png
     features:
-      - title: Better than Snap.Genshin
-        icon: /images/202209/SGLogoUpgrade64.png
-        details: Snap.Hutao has more extensive data support and better client performance while inheriting all Snap Genshin functionality
+      - title: Windows Native MSIX Application
+        icon: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01gOw0Nk1g6e0yjfAlD_!!1797064093.png_.webp
+        details: MSIX packages applications in a native Windows format and supports sandbox technology, ensuring system stability and cleanliness
         link: project.html
 
       - title: Real-time Notes

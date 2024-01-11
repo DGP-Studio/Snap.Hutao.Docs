@@ -2,13 +2,13 @@
 headerDepth: 0
 category: [功能, 教程]
 tag: [怪物, WIKI, 数据]
-order: 12
+order: 13
 comment: false
 ---
 
 # 怪物资料
 
-![monster-wiki](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vwQbXb1g6dyCTQbcl_!!1797064093.png_.webp)
+![monster-wiki](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01WdFqdC1g6e0sAREwO_!!1797064093.png_.webp)
 
 怪物资料是胡桃工具箱中内置的用于查询各个怪物的**基础数值、各等级数值、元素抗性、掉落物品**数据的 WIKI
 

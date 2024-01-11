@@ -37,15 +37,15 @@ highlights:
         details: Data Anda dapat disimpan di Snap Hutao Cloud, Anda tidak akan kehilangan data saat menggunakan perangkat baru.
       - title: Komunitas Melindungi Program Anda
         icon: iconfont icon-anonymous
-        details: Snap Hutao bersifat open-source di GitHub dengan lisensi MIT, kami menyambut anggota komunitas untuk meninjau dan berkontribusi pada kode kami. Perangkat lunak ini terdaftar di Microsoft Store, yang lolos dari tinjauan keamanan Microsoft.
+        details: Snap Hutao bersifat open-source di GitHub dengan lisensi MIT, kami menyambut anggota komunitas untuk meninjau dan berkontribusi pada kode kami.
 
   - header: Toolbox All-in-one
     description: Alat panduan cepat yang Anda butuhkan dan jelajahi lebih banyak kemungkinan
     image: /images/202308/highlights-head.png
     features:
-      - title: Lebih Baik dari Snap.Genshin
-        icon: /images/202209/SGLogoUpgrade64.png
-        details: Snap.Hutao memiliki dukungan data yang lebih luas dan kinerja klien yang lebih baik sambil mewarisi semua fungsionalitas Snap Genshin.
+      - title: Windows Native MSIX Application
+        icon: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01gOw0Nk1g6e0yjfAlD_!!1797064093.png_.webp
+        details: MSIX packages applications in a native Windows format and supports sandbox technology, ensuring system stability and cleanliness
         link: project.html
 
       - title: Catatan Real-time

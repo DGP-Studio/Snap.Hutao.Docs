@@ -33,7 +33,57 @@ Follow this document's instruction, you can set up your Snap Hutao quickly.
 
 ### New Installation
 
-You can use MSIX package to install Snap Hutao, you can find pakcage from the following source.
+You can use **MSIX package** or **Snap.Hutao.Deployment installer** to install Snap Hutao, you can find pakcage from the following source.
+
+::: tabs
+
+@tab Use Snap.Hutao.Deployment Installer
+
+<div class="vp-card-container">
+
+<VPCard
+title="Join the Community"
+desc="We will manually upload the installer in the community"
+logo="/images/202312/community.svg"
+link="community.html"
+background="rgba(242, 255, 28, 0.25)"
+/>
+
+<VPCard
+title="Hutao Auto Download"
+desc="Automatically determine the best source for downloading"
+logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
+link="https://api.snapgenshin.com/patch/hutao-deployment/download"
+background="rgba(253, 233, 233, 0.45)"
+/>
+
+<VPCard
+title="GitHub"
+desc="Snap Hutao Deployment is also a open-source project on GitHub"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+<VPCard
+title="Onedrive Mirror"
+desc="Download mirror maintained by the dev team"
+logo="/images/202401/Microsoft_Office_OneDrive.svg"
+link="https://d.hut.ao/d/tools/Snap.Hutao.Deployment.exe"
+background="rgba(88, 164, 255, 0.15)"
+/>
+
+<VPCard
+title="Jihu GitLab"
+desc="Official China mirror of Snap Hutao Deployment repository"
+logo="/images/202312/jihulab.svg"
+link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
+background="rgba(244, 125, 63, 0.15)"
+/>
+
+</div>
+
+@tab Use MSIX Package
 
 <div class="vp-card-container">
   <VPCard
@@ -64,18 +114,11 @@ You can use MSIX package to install Snap Hutao, you can find pakcage from the fo
     link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
     background="rgba(244, 125, 63, 0.15)"
   />
-  <VPCard
-    title="Snap.Hutao.Deployment"
-    desc="Installer designed by DGP-Studio, will install missing required framework. Good for users failed MSIX installation"
-    logo="/images/202312/DGP-v3.webp"
-    link="https://api.snapgenshin.com/patch/hutao-deployment/download"
-    background="rgba(88, 164, 255, 0.15)"
-  />
+
+- If you face any of the following errro during the installation, please refer to [Install Dependency Manually](advanced/dependency.md) to solve it，this happens when your Windows cannot download necessary framework 1. `App Installer failed to iunstall package dependencies. Ask the developer for package` 2. Stuck at `Installing framework`
 </div>
 
-- If you face any of the following errro during the installation, please refer to [Install Dependency Manually](advanced/dependency.md) to solve it，this happens when your Windows cannot download necessary framework
-  1. `App Installer failed to iunstall package dependencies. Ask the developer for package`
-  2. Stuck at `Installing framework`
+:::
 
 ---
 

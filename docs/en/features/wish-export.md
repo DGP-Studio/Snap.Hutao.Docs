@@ -2,7 +2,7 @@
 headerDepth: 0
 category: [Feature, Tutorial]
 tag: [wish export, gacha, wish]
-order: 4
+order: 5
 comment: false
 ---
 
@@ -19,7 +19,7 @@ local device. This is the purpose of wish history export feature in Snap Hutao.
 Regarding the technical principles of exporting Genshin Impact gacha records,
 you can refer to our article on [Gacha System and Export Principles](../advanced/Gacha-system-and-export-principal.html)
 
-![wish export](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp)
+![wish export](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01X360be1g6e0wf4UNv_!!1797064093.png_.webp)
 
 **As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
 total number of wishes, current pity count, quantity and percentage of obtained items with different rarity, number of
@@ -37,13 +37,13 @@ statistics from Snap Hutao.
 
 ## Fetch Wish History
 
-### Refresh with SToken Cookie <Badge text="Recommend" type="tip" />
+### SToken Refresh <Badge text="Recommend" type="tip" />
 
 ::: info Hint
 
 - This method requires user to sign in to MiHoYo BBS account in Snap Hutao, refer to
-  [MiHoYo BBS Account Switch](mhy-account-switch.md) to get to know how to login to your MiHoYo BBS account
-- **SToken Cookie refresh method does not support global server (HoYoLAB)**
+  [MiHoYo BBS Account Switch](mhy-account-switch.md) to get to know how to sign in to your MiHoYo BBS account
+- **SToken Cookie refresh method does not support oversea server (HoYoLAB)**
 
 :::
 
@@ -52,7 +52,7 @@ statistics from Snap Hutao.
 - Click on `Refresh` button and select `SToken Refresh`
 - Wait for refresh task to complete
 
-### Refresh with Web Cache <Badge text="Global Server Supported" type="tip" />
+### Refresh with Web Cache <Badge text="Oversea Server Supported" type="tip" />
 
 - Switch to `Wish History` feature page in Snap Hutao
 - Start the game, go to in-game wish history page
@@ -67,12 +67,12 @@ If errors keep occur:
 
 :::
 
-### Refresh with Manually Input URL <Badge text="Global Server Supported" type="tip" />
+### Input URL Manually <Badge text="Oversea Server Supported" type="tip" />
 
 - If you get your personal wish history URL, you can select `Manual Input` and submit your wish history URL
 - Be aware that the URL is time-sensitive
 
-### Explanation on Full Refresh Option
+### Full Refresh
 
 By default, Snap Hutao will stop importing gacha records once it matches a Wish ID that already exists locally.
 However, if you wish to obtain all the historical records from the Genshin Impact servers
@@ -81,7 +81,7 @@ However, if you wish to obtain all the historical records from the Genshin Impac
 Not selecting `Full Refresh` will **not** cause you to lose your wishing data,
 and selecting `Full Refresh` will **not** cause your local records to mistakenly record the same wishing data twice.
 
-### Import Wish History Data from Other Applications <Badge text="UIGF" type="info" />
+### Import UIGF Wish History Data from Other Applications <Badge text="UIGF" type="info" />
 
 Snap Hutao supports importing wish history data file that in `UIGF data format`[^UIGF-Org]
 
@@ -110,22 +110,6 @@ If you need to export the wish history data, you can:
 
 With this feature, you can upload your wish history to Hutao Cloud, to avoid risk of losing data, and make it easier to
 transfer data between devices.
-
-### Cloud Sync Privilege
-
-Cloud synchronization is a service uses Snap Hutao's server resource, so it is a time-limited feature.
-Currently, you have the following ways to enable Cloud Sync:
-
-1. Donate us on AiFaDian. The privilege will automatically assigned to Snap Hutao Account with same email address on AiFaDian
-2. For all registered user, after upload Abyss record in each schedule, 3-day privilege will be automatically assigned
-   - This is a method you can constantly use benefit of Hutao Cloud
-3. Users who make contributions to our open-source community, including code development, program designing,
-   localization translations, can contact the dev team to get your benefit for free
-   - We are designing an automation system to auto assign license to our contributors, it will be live with more
-     development of Hutao Cloud
-
-After your Hutao Cloud privilege expired, you will not be able to upload, download or delete your data, but your data
-will not be removed. You can continue to operate it once you get your privilege again.
 
 ### Upload
 

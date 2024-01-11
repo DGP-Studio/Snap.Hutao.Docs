@@ -4,13 +4,13 @@ category:
   - 功能
   - 教程
 tag: [武器, WIKI, 数据]
-order: 11
+order: 12
 comment: false
 ---
 
 # 武器资料
 
-![weapon-wiki](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ha9zqe1g6dyBLfjO3_!!1797064093.png_.webp)
+![weapon-wiki](https://img.alicdn.com/imgextra/i2/1797064093/O1CN018rs0K91g6e0ylQ4XT_!!1797064093.png_.webp)
 
 武器资料是胡桃工具箱中内置的用于查询各个武器的**外观、参数、精炼效果、推荐搭配**等数据的 Wiki
 

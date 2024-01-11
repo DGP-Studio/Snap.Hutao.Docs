@@ -2,7 +2,7 @@
 headerDepth: 0
 category: [Feature, Tutorial]
 tag: [MiYouShe, HoYoLAB, Multi account, check-in]
-order: 13
+order: 14
 comment: false
 ---
 
@@ -19,7 +19,7 @@ MiYouShe refers to Mainland China version, HoYoLAB refers to global version, bot
 
 :::
 
-![MiHoYo BBS Accounts](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01OqYy931g6dyGYLC2E_!!1797064093.png_.webp)
+![MiHoYo BBS Accounts](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01QN2Nvm1g6e0utHzYa_!!1797064093.png_.webp)
 
 At the left bottom corner, you can find the account menu above the `Settings` button. In the pop-up account menu,
 you can find the entry to login in to your MiYouShe and HoYoLAB account:
@@ -30,7 +30,6 @@ you can find the entry to login in to your MiYouShe and HoYoLAB account:
   - Then your account will be added to Snap Hutao, the browser will close automatically
 - Alternatively, you can enter your MiHoYo BBS cookie list by click on `Input Manually` button
   - If you do so, the cookies must contains `SToken` field
-  - You can refer to [使用第三方工具获取有 SToken 的 cookie](../advanced/get-SToken-cookie-from-the-third-party.html) document for methods to capture cookie with `SToken`
 - After added your MiHoYo BBS account, you need to switch to account you want in the account menu, to activate it
   - You can always switch your MiHoYo BBS account in the account menu, and you are also allowed to copy account's cookie or remove account there
   - After select an account in the panel, you can also

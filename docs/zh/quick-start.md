@@ -31,7 +31,59 @@ order: 5
 
 ### 全新安装
 
-使用 MSIX 安装包即可安装 Snap Hutao，你可以从以下源获取到安装包
+使用 **MSIX 安装包**或 **Snap.Hutao.Deployment 安装器**即可安装 Snap Hutao，你可以从以下源获取到安装包
+
+::: tabs
+
+@tab 使用 Snap.Hutao.Deployment 安装
+
+Snap.Hutao.Deployment 是开发组自制的一键安装器，将同时安装所有需要的组件。适合广泛的普通用户和使用MSIX安装失败的用户。
+
+<div class="vp-card-container">
+
+<VPCard
+title="加入用户社区"
+desc="我们会在用户社区手动分发安装器"
+logo="/images/202312/community.svg"
+link="community.html"
+background="rgba(242, 255, 28, 0.25)"
+/>
+
+<VPCard
+title="胡桃自动判断"
+desc="自动判断最佳线路下载"
+logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
+link="https://api.snapgenshin.com/patch/hutao-deployment/download"
+background="rgba(253, 233, 233, 0.45)"
+/>
+
+<VPCard
+title="GitHub"
+desc="Snap Hutao Deployment 亦是一个开源的项目"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/DGP-Studio/Snap.Hutao.Deployment/releases/latest"
+background="rgba(155, 233, 168, 0.15)"
+/>
+
+<VPCard
+title="Onedrive 镜像"
+desc="由开发团队维护的镜像下载源"
+logo="/images/202401/Microsoft_Office_OneDrive.svg"
+link="https://d.hut.ao/d/tools/Snap.Hutao.Deployment.exe"
+background="rgba(88, 164, 255, 0.15)"
+/>
+
+<VPCard
+title="极狐 GitLab"
+desc="Snap Hutao Deployment 代码库官方中国镜像"
+logo="/images/202312/jihulab.svg"
+link="https://jihulab.com/DGP-Studio/Snap.Hutao.Deployment/-/releases"
+background="rgba(244, 125, 63, 0.15)"
+/>
+
+</div>
+
+@tab 使用 MSIX 安装包安装
 
 <div class="vp-card-container">
   <VPCard
@@ -62,19 +114,14 @@ order: 5
     link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
     background="rgba(244, 125, 63, 0.15)"
   />
-  <VPCard
-    title="Snap.Hutao.Deployment"
-    desc="开发组自制的一键安装包，将同时安装所有需要的组件。适合使用MSIX安装失败的用户。"
-    logo="/images/202312/DGP-v3.webp"
-    link="https://api.snapgenshin.com/patch/hutao-deployment/download"
-    background="rgba(88, 164, 255, 0.15)"
-  />
 </div>
 
 - 在安装过程中，如果出现任意以下错误之一，请参考文章[手动安装依赖项](advanced/dependency.md)解决，该问题来源是Windows无法自动安装所需要的框架环境
   1. `应用程序无法安装应用包相关项，请向开发人员索要包`
   2. 在安装过程中长时间卡在`正在安装框架`
 - 更多在安装时遇上的问题，请阅读 [常见问题-安装篇](advanced/FAQ.md) 文档
+
+:::
 
 ---
 

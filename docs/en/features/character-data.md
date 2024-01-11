@@ -2,7 +2,7 @@
 headerDepth: 0
 category: [Feature, Tutorial]
 tag: [Character showcase, Character statistics]
-order: 7
+order: 8
 comment: false
 ---
 
@@ -10,8 +10,7 @@ comment: false
 
 ::: info
 
-This features required sign in to MiHoYo BBS account, please refer to [MiHoYo BBS Account Switch](mhy-account-switch.md)
-document for sign in tutorial
+This features required sign in to MiHoYo BBS account, please refer to [MiHoYo BBS Account Switch](mhy-account-switch.md) document for sign in tutorial
 
 :::
 
@@ -19,16 +18,21 @@ My characters is a character statistics feature that allows Snap Hutao to read c
 including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for
 each character.
 
-![My Character Screenshot](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01JOlGqw1g6dyB7NkLu_!!1797064093.png_.webp)
+![My Character Screenshot](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SpkZag1g6e0sAYQKO_!!1797064093.png_.webp)
 
 ## Sync Character Data
+
+Recommended usage:
+
+1. Use `Sync from MiHoYo BBS - Battle Chronicle`
+2. Use `Sync from MiHoYo BBS - Development Plan`
+3. Edit the showcase in the game and then `Sync from Enka API`
 
 ### Sync from Enka API
 
 ::: info Synchronous Feature
 
 - Enka API sync data from characters displayed in the in-game character showcase
-
   - Data includes Artifacts detail data, weapon detail data, talent data
   - Character costume
   - This sync method only support 8 characters at a time
@@ -42,12 +46,11 @@ each character.
 - Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
 - Select `Sync from Enka API`
 
-### Sync from MiHoYo BBS - My Characters
+### Sync from MiHoYo BBS - Battle Chronicle
 
 ::: info Synchronous Feature
 
 - Data in this sync method comes from My Characters feature in MiHoYo official BSS
-
   - This method does not contain any artifacts data
   - This method can sync all characters data at a time
 
@@ -61,7 +64,6 @@ each character.
 ::: info Synchronous Feature
 
 - Data in this method comes from `Enhancement Progression Calculator` feature in MiHoYo official BBS tool set
-
   - This sync method contains talent level data
   - This sync method can sync all characters data at a time
 
@@ -76,13 +78,11 @@ each character.
 - Click on `Development Plan` and enter target level
   - **Synchronized data of the character** will be pre-filled into current level, and you can change the target level
 
-![rolescal](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png)
+![rolescal](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Ynvyso1g6e0tMntA3_!!1797064093.png_.webp)
 
 - After adding successfully, you can find added development plan in the `Dev Plan` page in Snap Hutao
 
-![image](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png)
-
-- For tutorial of Dev Plan feature, please refer to [Dev Plan](develop-plan.md) document
+For tutorial of Dev Plan feature, please refer to [Dev Plan](develop-plan.md) document
 
 ## Export as Image
 
@@ -91,4 +91,4 @@ each character.
 - The exported image is stored in your clipboard, and you can paste it wherever you need
 - A sample exported image is shown below
 
-![sample-output-image](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png)
+![sample-output-image](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01qdWCvd1g6e0zFwB91_!!1797064093.png_.webp)
