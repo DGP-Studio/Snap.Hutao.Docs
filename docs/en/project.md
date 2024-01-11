@@ -8,10 +8,17 @@ order: 6
 
 # Project
 
+::: center
+![banner](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ogJFxz1g6e0yCZjs0_!!1797064093.png_.webp)
+<a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+:::
+
 Snap Hutao is an open-source Genshin Impact toolkit under MIT license, designed for modern Windows platform to improve
 the gaming experience for desktop players. By combining existing official resources with new features designed by the
 development team, it provides a complete and useful set of tools without the need to rely on mobile devices. Snap Hutao
 does not take any destructive modification to the game client to ensure the security of the toolkit.
+
+Snap Hutao is using MSIX format package. MSIX is a native Windows application package format that streamlines the installation, update, and removal process of software. One of its standout features is its use of sandbox technology. This means that applications packaged in MSIX run in isolated environments, preventing them from making system-wide changes. This isolation enhances security as it limits the application's access to system resources and user data. Furthermore, when an MSIX-packaged application is uninstalled, it leaves no residual files or registry entries, maintaining the cleanliness and stability of the system. This is a significant improvement over traditional installation methods that often leave behind "digital debris" when applications are removed. The combination of these features makes MSIX a powerful tool for both developers and end-users, providing a seamless, secure, and clean software management experience.
 
 ## Genshin Impact's Desktop Issues Snap Hutao Solved
 

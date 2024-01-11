@@ -5,7 +5,7 @@ title: Home
 heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp
 heroAlt: Snap Hutao
 heroText: Snap Hutao
-tagline: Multifunctional Open-source Genshin Toolkit 🧰
+tagline: <img src="https://trendshift.io/api/badge/repositories/2009"/><br>Multifunctional Open-source Genshin Toolkit 🧰
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
 head:
