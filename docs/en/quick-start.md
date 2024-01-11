@@ -42,11 +42,27 @@ You can use **MSIX package** or **Snap.Hutao.Deployment installer** to install S
 <div class="vp-card-container">
 
 <VPCard
+title="Join the Community"
+desc="We will manually upload the installer in the community"
+logo="/images/202312/community.svg"
+link="community.html"
+background="rgba(242, 255, 28, 0.25)"
+/>
+
+<VPCard
 title="Hutao Auto Download"
 desc="Automatically determine the best source for downloading"
-logo="/images/202312/DGP-v3.webp"
+logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
 link="https://api.snapgenshin.com/patch/hutao-deployment/download"
 background="rgba(253, 233, 233, 0.45)"
+/>
+
+<VPCard
+title="GitHub"
+desc="Snap Hutao Deployment is also a open-source project on GitHub"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
+background="rgba(155, 233, 168, 0.15)"
 />
 
 <VPCard
@@ -55,6 +71,14 @@ desc="Download mirror maintained by the dev team"
 logo="/images/202401/Microsoft_Office_OneDrive.svg"
 link="https://d.hut.ao/d/tools/Snap.Hutao.Deployment.exe"
 background="rgba(88, 164, 255, 0.15)"
+/>
+
+<VPCard
+title="Jihu GitLab"
+desc="Official China mirror of Snap Hutao Deployment repository"
+logo="/images/202312/jihulab.svg"
+link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
+background="rgba(244, 125, 63, 0.15)"
 />
 
 </div>
