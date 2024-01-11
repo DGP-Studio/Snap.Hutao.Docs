@@ -182,6 +182,14 @@ plugin_7_version=1.0.0
 
 :::
 
+### Why does setting up automatic refresh of real-time notes prompt "Failed to modify Scheduled Task"
+
+The automatic refresh of real-time notes relies on task scheduling. In order to avoid possible permission issues, Snap Hutao will force scheduled tasks to be set in non-administrator mode.
+
+If you turned on automatic refresh in the old version, you can solve the problem by manually deleting the old task schedule in Task Scheduler.
+
+If you did not turn on automatic refresh in the old version, then this problem is caused by the Windows user account you are currently using having insufficient permissions. If your current user account is an administrator account, you can only solve this problem by reinstalling the system.
+
 ## Network FAQ
 
 ### Use Snap Hutao with Network Proxy
