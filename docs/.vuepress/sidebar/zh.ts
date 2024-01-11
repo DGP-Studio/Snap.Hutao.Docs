@@ -13,7 +13,7 @@ export const zhSidebar = sidebar({
       children: [
         {
           icon: "iconfont icon-module",
-          text: "工具箱功能",
+          text: "游戏工具",
           children: [
             "dashboard.md",
             "game-launcher.md",
@@ -27,7 +27,7 @@ export const zhSidebar = sidebar({
         },
         {
           icon: "iconfont icon-study",
-          text: "数据 WIKI",
+          text: "游戏 WIKI",
           children: [
             "character-wiki.md",
             "weapon-wiki.md",

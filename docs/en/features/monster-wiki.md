@@ -2,13 +2,13 @@
 headerDepth: 0
 category: [Feature, Tutorial]
 tag: [monster, WIKI, data]
-order: 12
+order: 13
 comment: false
 ---
 
 # Monster WIKI
 
-![monster-wiki](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01mEozOR1g6dyFXXWcO_!!1797064093.png_.webp)
+![monster-wiki](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01bvAkZo1g6e0xyNooh_!!1797064093.png_.webp)
 
 Monster WIKI is an embedded WIKI database used to look up each monster's
 **Base ability, ability in each level, RES, drop items**

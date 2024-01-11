@@ -2,7 +2,7 @@
 headerDepth: 0
 category: [Feature, Tutorial]
 tag: [Real-time Notes, Expeditions, Resin]
-order: 6
+order: 7
 comment: false
 ---
 
@@ -22,10 +22,9 @@ you can check [MiHoYo BBS Account Switch](mhy-account-switch.html) for more info
 - Click on `Add Role` button
 - In the pop-up menu, find the UID you want to add, and click on the add button to its right
 - Now, the game UID character's Real-time Notes should be displayed in the page
-  - The Real-time Notes is set to refresh timely
-    - You can click on the `Notification Settings` on the top right to manage it
-    - If you want to see the data at this moment, you can click `Refresh` button to refresh data immediately
-  - If you receive any warning similar to `Verification failed`, it may be caused by too many account added, and you can try to fix it youself by refreshing account cookie
+  - The Real-time Notes is set to refresh timely. You can click on the `Notification Settings` on the top right to manage it
+- If you want to see the data at this moment, you can click `Refresh` button to refresh data immediately
+- If a `-1034` error occurs during data refresh, it means that miHoYo's anti-bot risk control has been triggered. You can solve this problem by configuring the invisible verification in the Hutao settings.
 
 ## Verify Current User and Role
 
@@ -47,7 +46,7 @@ verification, then your account can be used to refresh data.
     - Snap Hutao allows user to forward Realtime Notes data to other applications to reduce account's request to MiHoYo API
     - Input your third party HTTP API endpoint in `Realtime Notes Webhook Url` setting field, and Snap Hutao will forward the raw data through `POST` requests
 
-## Independent Settings for Accounts
+## Independent Settings for Each Accounts
 
 - Snap Hutao allows different settings on each Real-time Notes account
 - Hover the cursor over the form of Real-time Notes account that needs to set

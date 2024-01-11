@@ -10,7 +10,40 @@ export const enSidebar = sidebar({
       icon: "iconfont icon-read",
       text: "Features",
       prefix: "features/",
-      children: "structure",
+      children: [
+        {
+          icon: "iconfont icon-module",
+          text: "Game Tools",
+          children: [
+            "dashboard.md",
+            "game-launcher.md",
+            "wish-export.md",
+            "achievements.md",
+            "real-time-notes.md",
+            "character-data.md",
+            "hutao-API.md",
+            "develop-plan.md"
+          ]
+        },
+        {
+          icon: "iconfont icon-study",
+          text: "Game WIKI",
+          children: [
+            "character-wiki.md",
+            "weapon-wiki.md",
+            "monster-wiki.md"
+          ]
+        },
+        {
+          icon: "iconfont icon-setting",
+          text: "Snap Hutao Features",
+          children: [
+            "feedback-center.md",
+            "hutao-passport.md",
+            "hutao-settings.md"
+          ]
+        },
+      ],
     },
     {
       icon: "iconfont icon-advance",

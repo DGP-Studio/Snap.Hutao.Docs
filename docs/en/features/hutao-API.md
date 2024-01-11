@@ -2,7 +2,7 @@
 headerDepth: 0
 category: [Feature, Tutorial]
 tag: [Spiral Abyss, Spiral Abyss Database, Spiral Abyss Analytics]
-order: 8
+order: 9
 comment: false
 ---
 
@@ -10,27 +10,22 @@ comment: false
 
 Snap Hutao offers two major statistic features associated with Spiral Abyss challenge
 
-- `Abyss Stats` on the sidebar is a feature designed to help players who are not familiar with Genshin Impact's
-  battle system to build teams, pass the Abyss and obtain rewards by collecting and displaying challenge stats data from
-  the Spiral Abyss from a large number of players.
-- `Abyss Record` on the sidebar is a statistical feature that helps individuals review their gaming experience and
-  personal data collection by saving their challenge data from each period of the Spiral Abyss.
-  - Many players contribute to the Hutao Database's `Abyss Stats` dataset by uploading their personal `Abyss Records`
+- `Statistics` on the top function bar is a feature designed to help players who are not familiar with Genshin Impact's battle system to build teams, pass the Abyss and obtain rewards by collecting and displaying challenge stats data from the Spiral Abyss from a large number of players.
+- `Schedules Details` on the sidebar is a statistical feature that helps individuals review their gaming experience and personal data collection by saving their challenge data from each period of the Spiral Abyss.
+  - Many players contribute to the Hutao Database's `Statistics` dataset by uploading their personal `Schedules Details`
 
 ::: tabs
 
+@tab Schedules Detail
+![personal-record-details](https://img.alicdn.com/imgextra/i1/1797064093/O1CN018nOrg11g6e0wP73lR_!!1797064093.png_.webp)
 @tab Character Usage
-![character-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01cAHDDi1g6dyEPgDBp_!!1797064093.png_.webp)
+![character-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01X9Bgds1g6e0qbt3n2_!!1797064093.png_.webp)
 @tab Character Appearance
-![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oGusSy1g6dyD7kKoP_!!1797064093.png_.webp)
+![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01gQ3S4L1g6e0u1n0Eb_!!1797064093.png_.webp)
 @tab Teams Appearance
-![Teams Appearance](https://img.alicdn.com/imgextra/i2/1797064093/O1CN010K1SE91g6dyGYLnWB_!!1797064093.png_.webp)
+![Teams Appearance](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01zHdniY1g6e0tz4yKK_!!1797064093.png_.webp)
 @tab Character Constellation
-![character-held-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01O2jCWZ1g6dy4fzxlw_!!1797064093.png_.webp)
-@tab Personal Statistics
-![personal-record-stat](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YDXi8r1g6dyGBmAt2_!!1797064093.png_.webp)
-@tab Personal Stats Details
-![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YwoXln1g6dyEKoJ2r_!!1797064093.png_.webp)
+![character-held-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN011yMnIz1g6e0rgxAH3_!!1797064093.png_.webp)
 
 :::
 
@@ -50,7 +45,7 @@ data of **all** Genshin Impact players. The data is for reference only.
 
 :::
 
-- Enter Abyss Records page by clicking `Abyss Stats` on the sidebar menu
+- Enter Abyss Records page, and then click `Stastics` on the top function bar
 - Click `Character Usage` tab to view character usage rate statistics
   - Character Usage Rate = Character Appearance in this Floor [^first] / Number of Player who Own this Character
 - Click `Character Appearance` tab to view character appearance rate statistics
@@ -64,11 +59,14 @@ data of **all** Genshin Impact players. The data is for reference only.
 
 ### Use Snap Hutao Client
 
+::: important Snap Hutao Cloud Bonus
+If you have already logged into your Snap Hutao Account in your client, after successfully submitting data for the first time in the current schedule, you will receive Snap Hutao Cloud privileges as our thanks (even if the data has not cleared the 12th floor).
+:::
+
 - Enter Abyss Records page by clicking `Abyss Records` on the sidebar menu
 - Click `Refresh Data` button to make suer Snap Hutao is storing your latest Spiral Abyss record
 - Click `Upload Data` to upload your Spiral Abyss records
-  - This may take a few seconds, you will see the following success message after your data is submitted
-    ![upload-hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Zt7yQp1g6duBDALeX_!!1797064093.png)
+  - This may take a few seconds, you will receive a submission success notification
 
 ### Use Browser
 
