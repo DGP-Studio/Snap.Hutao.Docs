@@ -8,7 +8,22 @@ externalLinkIcon: false
 
 # 更新日志
 
-## 1.9.4 <Badge text="hotfix" type="warning" /><Badge text="最新版" type="tip" />
+## 1.9.5 <Badge text="最新版" type="tip" />
+
+- 新增 ➕
+  - 启动游戏页面新增标识显示器功能 [#1261](https://github.com/DGP-Studio/Snap.Hutao/issues/1261)
+  - 全新的反馈中心已上线 [#1039](https://github.com/DGP-Studio/Snap.Hutao/issues/1039)
+- 修复 🔨
+  - 修复了游戏路径在 `Program Files` 路径下时会导致游戏启动器弹出切换服务器失败的错误 [#1262](https://github.com/DGP-Studio/Snap.Hutao/issues/1262)
+  - 修复了静态资源下载页面下载的静态资源包无法正常全部完成的问题 [#1242](https://github.com/DGP-Studio/Snap.Hutao/issues/1242)
+- 优化 ✨
+  - 支持在程序运行时更改代理设置
+  - 主页启动游戏卡片增加启动状态提示
+  - 设置页面删除转换游戏客户端缓存后重新计算文件夹大小
+  - 优化了是否需要进行游戏客户端转换的逻辑
+  - 完善了英语翻译
+
+## 1.9.4 <Badge text="hotfix" type="warning" />
 
 - 修复 🔨
   - 修复了 Bilibili 服务器用户进入主界面会崩溃的问题

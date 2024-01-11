@@ -9,7 +9,22 @@ externalLinkIcon: false
 
 # Update Logs
 
-## 1.9.4 <Badge text="hotfix" type="warning" /><Badge text="latest" type="tip" />
+## 1.9.5 <Badge text="latest" type="tip" />
+
+- New ➕
+  - Added monitor identification button in game launcher [#1261](https://github.com/DGP-Studio/Snap.Hutao/issues/1261)
+  - Brand new Feedback Center is introduced [#1039](https://github.com/DGP-Studio/Snap.Hutao/issues/1039)
+- Fix 🔨
+  - Fixed the issue that when the game in under `Program Files` path, `server conversion failed` error would be raised [#1262](https://github.com/DGP-Studio/Snap.Hutao/issues/1262)
+  - Fixed the issue that static packages download cannot be completed in the setup wizard [#1242](https://github.com/DGP-Studio/Snap.Hutao/issues/1242)
+- Optimization ✨
+  - Added support of changing proxy settings during Snap Hutao is running
+  - Added game status in Game Launcher Card in the dashboard
+  - Added data folder size auto refresh after server conversion cache is deleted
+  - Optimized the logic to identify whether server conversion is needed when game launch process is requested
+  - Optimized the English translation
+
+## 1.9.4 <Badge text="hotfix" type="warning" />
 
 - Fix 🔨
   - Fixed the crash issue for Bilibili server users when entering the main window
