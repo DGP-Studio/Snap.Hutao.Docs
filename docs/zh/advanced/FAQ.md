@@ -78,6 +78,16 @@ Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://s
 
 你不知道你手中所谓的精简版系统少了多少必要组件。当你装上了一个组件，解决了当前的问题，你还会遇上下一个问题。
 
+### 打开胡桃显示“无法打开此应用”
+
+![unable to run](https://img.alicdn.com/imgextra/i3/388777087/O1CN01WqkqOl22DtpuPYZB6_!!388777087.png)
+
+如果你打开胡桃时显示此窗口，请使用管理员powershell运行以下命令。
+
+```PowerShell :no-line-numbers
+net stop appxsvc; Invoke-WebRequest -Uri https://aka.ms/windowsappsdk/1.4/latest/windowsappruntimeinstall-x64.exe -OutFile $env:temp/windowsappruntimeinstall-x64.exe; Invoke-Expression "$env:temp/windowsappruntimeinstall-x64.exe --repair"
+```
+
 ## 启动篇
 
 ### 如何创建胡桃的桌面快捷方式（非管理员模式）
