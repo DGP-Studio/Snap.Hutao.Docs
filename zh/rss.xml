@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 12 Jan 2024 11:19:35 GMT</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2024 11:19:35 GMT</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2024 13:07:12 GMT</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2024 13:07:12 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -1066,7 +1066,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>你不知道你手中所谓的精简版系统少了多少必要组件。当你装上了一个组件，解决了当前的问题，你还会遇上下一个问题。</p>
 <h3> 打开胡桃显示“无法打开此应用”</h3>
 <p><img src="https://img.alicdn.com/imgextra/i3/388777087/O1CN01WqkqOl22DtpuPYZB6_!!388777087.png" alt="unable to run" loading="lazy"></p>
-<p>如果你打开胡桃时显示此窗口，请使用管理员powershell运行以下命令。</p>
+<p>如果你打开胡桃时显示此窗口，请使用管理员 PowerShell 运行以下命令。</p>
 <div class="language-PowerShell" data-ext="PowerShell"></div><h2> 启动篇</h2>
 <h3> 如何创建胡桃的桌面快捷方式（非管理员模式）</h3>
 <div class="hint-container tip">

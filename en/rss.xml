@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 12 Jan 2024 11:19:35 GMT</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2024 11:19:35 GMT</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2024 13:07:12 GMT</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2024 13:07:12 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -909,7 +909,7 @@ However, if the user disabled Windows Update or have a bad network, the system i
 <p>You don't know how many components are missing. When you install the one that tell you in the error message, you will see next missing component in the next error message, endless.</p>
 <h3> Got "Cannot open this application" Error when Open Snap Hutao</h3>
 <p><img src="https://img.alicdn.com/imgextra/i3/388777087/O1CN01WqkqOl22DtpuPYZB6_!!388777087.png" alt="unable to run" loading="lazy"></p>
-<p>If you got this error when you open Snap Hutao, please use Powershell (Admin) to execute the following command.</p>
+<p>If you got this error when you open Snap Hutao, please use PowerShell (Admin) to execute the following command.</p>
 <div class="language-PowerShell" data-ext="PowerShell"></div><h3> Starting FAQ</h3>
 <h3> How to Create Desktop Shortcut (with No Admin Privilege)</h3>
 <div class="hint-container tip">
