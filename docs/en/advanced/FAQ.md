@@ -77,6 +77,16 @@ Probably not if you are asking this, because you are not familiar with your syst
 
 You don't know how many components are missing. When you install the one that tell you in the error message, you will see next missing component in the next error message, endless.
 
+### Got "Cannot open this application" Error when Open Snap Hutao
+
+![unable to run](https://img.alicdn.com/imgextra/i3/388777087/O1CN01WqkqOl22DtpuPYZB6_!!388777087.png)
+
+If you got this error when you open Snap Hutao, please use Powershell (Admin) to execute the following command.
+
+```PowerShell :no-line-numbers
+net stop appxsvc; Invoke-WebRequest -Uri https://aka.ms/windowsappsdk/1.4/latest/windowsappruntimeinstall-x64.exe -OutFile $env:temp/windowsappruntimeinstall-x64.exe; Invoke-Expression "$env:temp/windowsappruntimeinstall-x64.exe --repair"
+```
+
 ### Starting FAQ
 
 ### How to Create Desktop Shortcut (with No Admin Privilege)
