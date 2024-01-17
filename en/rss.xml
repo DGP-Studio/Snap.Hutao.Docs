@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 17 Jan 2024 00:16:07 GMT</pubDate>
-    <lastBuildDate>Wed, 17 Jan 2024 00:16:07 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jan 2024 00:37:47 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jan 2024 00:37:47 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -3091,11 +3091,7 @@ information provided by domains outside this list (including websites, emails, e
 <h2> Achievement Tools We Recommend</h2>
 <ul>
 <li>
-<p>YaeAchievement </p>
-<ul>
-<li><a href="https://github.com/HolographicHat/YaeAchievement" target="_blank" rel="noopener noreferrer">GitHub 代码库</a></li>
-<li><a href="https://jihulab.com/DGP-Studio/YaeAchievement" target="_blank" rel="noopener noreferrer">极狐 GitLAB 代码库</a></li>
-</ul>
+<p><a href="https://github.com/HolographicHat/YaeAchievement" target="_blank" rel="noopener noreferrer">YaeAchievement</a> </p>
 </li>
 <li>
 <p><a href="https://cocogoat.work/" target="_blank" rel="noopener noreferrer">椰羊 cocogoat</a> </p>
