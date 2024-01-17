@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 12 Jan 2024 13:07:12 GMT</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2024 13:07:12 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jan 2024 00:16:07 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jan 2024 00:16:07 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -3085,13 +3085,17 @@ information provided by domains outside this list (including websites, emails, e
 <li>You can click on <code>Import</code> at top right menu on Achievement Management page, and select file import to load UIAF formatted data</li>
 </ul>
 <h2> Achievement Export </h2>
-<p>You can click on the <code>Export</code> button in the hidden menu at the top right corner of the achievement page. In the pop-up window, select the directory and set the file name, then your data will be exported.</p>
+<p>You can click on the <code>Export</code> button in the hidden menu in the top right corner of the achievement page. In the pop-up window, select the directory and set the file name, then your data will be exported.</p>
 <h2> Delete Archive</h2>
 <p>You can delete the current achievement archive by finding and clicking on <code>Delete Current Archive</code> in the hidden menu in the top right corner.</p>
 <h2> Achievement Tools We Recommend</h2>
 <ul>
 <li>
-<p><a href="https://github.com/HolographicHat/YaeAchievement" target="_blank" rel="noopener noreferrer">YaeAchievement</a> </p>
+<p>YaeAchievement </p>
+<ul>
+<li><a href="https://github.com/HolographicHat/YaeAchievement" target="_blank" rel="noopener noreferrer">GitHub 代码库</a></li>
+<li><a href="https://jihulab.com/DGP-Studio/YaeAchievement" target="_blank" rel="noopener noreferrer">极狐 GitLAB 代码库</a></li>
+</ul>
 </li>
 <li>
 <p><a href="https://cocogoat.work/" target="_blank" rel="noopener noreferrer">椰羊 cocogoat</a> </p>
