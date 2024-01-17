@@ -22,7 +22,7 @@ At first time use, you will follow the instruction to create an archive and name
 
 ## Achievement Export <Badge text="UIAF" type="info" />
 
-You can click on the `Export` button in the hidden menu at the top right corner of the achievement page. In the pop-up window, select the directory and set the file name, then your data will be exported.
+You can click on the `Export` button in the hidden menu in the top right corner of the achievement page. In the pop-up window, select the directory and set the file name, then your data will be exported.
 
 ## Delete Archive
 
@@ -30,6 +30,9 @@ You can delete the current achievement archive by finding and clicking on `Delet
 
 ## Achievement Tools We Recommend
 
-- [YaeAchievement](https://github.com/HolographicHat/YaeAchievement) <Badge text="Achievement Recognition" type="tip" />
+- YaeAchievement <Badge text="Achievement Recognition" type="tip" />
+
+  - [GitHub 代码库](https://github.com/HolographicHat/YaeAchievement)
+  - [极狐 GitLAB 代码库](https://jihulab.com/DGP-Studio/YaeAchievement)
 
 - [椰羊 cocogoat](https://cocogoat.work/) <Badge text="Achievement Guide" type="tip" />
