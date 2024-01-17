@@ -30,9 +30,6 @@ You can delete the current achievement archive by finding and clicking on `Delet
 
 ## Achievement Tools We Recommend
 
-- YaeAchievement <Badge text="Achievement Recognition" type="tip" />
-
-  - [GitHub 代码库](https://github.com/HolographicHat/YaeAchievement)
-  - [极狐 GitLAB 代码库](https://jihulab.com/DGP-Studio/YaeAchievement)
+- [YaeAchievement](https://github.com/HolographicHat/YaeAchievement) <Badge text="Achievement Recognition" type="tip" />
 
 - [椰羊 cocogoat](https://cocogoat.work/) <Badge text="Achievement Guide" type="tip" />

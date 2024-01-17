@@ -30,6 +30,9 @@ comment: false
 
 ## 推荐使用的成就识别工具
 
-- [YaeAchievement](https://github.com/HolographicHat/YaeAchievement) <Badge text="成就识别" type="tip" />
+- YaeAchievement <Badge text="成就识别" type="tip" />
+
+  - [GitHub 代码库](https://github.com/HolographicHat/YaeAchievement)
+  - [极狐 GitLAB 代码库](https://jihulab.com/DGP-Studio/YaeAchievement)
 
 - [椰羊 cocogoat](https://cocogoat.work/) <Badge text="成就攻略" type="tip" />
