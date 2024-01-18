@@ -14,6 +14,10 @@ comment: false
 
 ## 安装篇
 
+::: info Deployment
+遇到任意安装问题时，请先尝试使用[Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download)。大部分 MSIX 安装问题都可以用此方法解决。
+:::
+
 ### 使用 MSIX 安装包安装时进度卡在`正在安装所需框架`
 
 - 当用户系统缺少必要依赖环境时，系统会自动安装所需依赖。若用户禁用了 Windows Update 组件或网络条件差时，系统无法完成该步骤。
@@ -26,10 +30,6 @@ comment: false
   - 可以下载 `Segoe Fluent Icons`字体
   - 安装时选择`为系统所有用户安装`，即可解决问题
 - 您可以从 [微软官方](https://aka.ms/SegoeFluentIcons)下载到该字体文件
-
-### 为什么程序会提示注册计划任务失败
-
-打开 Windows 计划任务程序，找到 `SnapHutaoDailyNoteRefreshTask` 任务并删除
 
 ### 我的计算机无法打开 MSIX 格式的安装包
 
@@ -105,8 +105,6 @@ net stop appxsvc; Invoke-WebRequest -Uri https://aka.ms/windowsappsdk/1.4/latest
 ### 如何创建胡桃的桌面快捷方式 （管理员模式）
 
 你可以在程序设置页面中点击`创建快捷方式`来在桌面上添加一个具有管理员权限的快捷方式
-
-你可以移动这个快捷方式到你想要的地方，包括但不限于任务栏和开始菜单
 
 ### 如何让胡桃工具箱开机自动启动
 
@@ -222,7 +220,7 @@ plugin_7_version=1.0.0
 
 实时便笺的自动刷新依赖于任务计划。为了避免可能的权限问题，胡桃工具箱会强制在非管理员模式设置计划任务。
 
-如果你在旧版本开启了自动刷新，那你可以通过手动在任务计划程序中删除旧的任务计划来解决问题。
+如果你在旧版本开启了自动刷新，那你可以通过手动在任务计划程序中删除旧的任务计划来解决问题。任务计划的名称为 `SnapHutaoDailyNoteRefreshTask`。
 
 如果你没有在旧版本开启自动刷新，那么此问题是由于你目前使用的 Windows 用户账户权限不足导致的。如果你当前的用户账户是管理员账户，那你只能通过重装系统来解决此问题。
 
