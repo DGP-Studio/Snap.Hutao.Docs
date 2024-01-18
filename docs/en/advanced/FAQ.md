@@ -14,6 +14,10 @@ If the following answers can not solve your issue, feel free to [report bug to u
 
 ## Installation FAQ
 
+::: info Tips for Failed Installation
+If you failed installation with MSIX package, please try [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) first, it can solve most of the installation issue.
+:::
+
 ### Stuck at `Installing Required Framework` when Using MSIX Package to Install
 
 - When user's OS missing required dependency framework, Windows will download and install it automatically.
@@ -27,10 +31,6 @@ If the following answers can not solve your issue, feel free to [report bug to u
   - You can download `Segoe Fluent Icons` font
   - You need to install it for all users
 - You can find this font from [Microsoft](https://aka.ms/SegoeFluentIcons)
-
-### Snap Hutao Throws Failed to add Scheduled Task Error
-
-Open Windows Task Scheduler, find and delete `SnapHutaoDailyNoteRefreshTask` task
 
 ### My Computer Cannot Open MSIX Format Installer
 
@@ -105,8 +105,6 @@ Thanks to [CzHUV](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12) for t
 ### How to Create Desktop Shortcut (With Admin Privilege)
 
 Click `Create Desktop Shortcut` in the settings page.
-
-You can move this shortcut to any place you need.
 
 ### How to run Snap Hutao when Windows starts
 
@@ -196,7 +194,7 @@ plugin_7_version=1.0.0
 
 The automatic refresh of real-time notes relies on task scheduling. In order to avoid possible permission issues, Snap Hutao will force scheduled tasks to be set in non-administrator mode.
 
-If you turned on automatic refresh in the old version, you can solve the problem by manually deleting the old task schedule in Task Scheduler.
+If you turned on automatic refresh in the old version, you can solve the problem by manually deleting the old task schedule in Task Scheduler. The name of the scheduled task is `SnapHutaoDailyNoteRefreshTask`.
 
 If you did not turn on automatic refresh in the old version, then this problem is caused by the Windows user account you are currently using having insufficient permissions. If your current user account is an administrator account, you can only solve this problem by reinstalling the system.
 

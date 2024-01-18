@@ -15,7 +15,7 @@ comment: false
 ## 安装篇
 
 ::: info 安装问题提示
-遇到任意安装问题时，请先尝试使用[Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download)。大部分 MSIX 安装问题都可以用此方法解决。
+当你使用MSIX安装包遇到任意安装问题时，请先尝试使用[Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download)安装器，大部分问题都可以用此方法解决。
 :::
 
 ### 使用 MSIX 安装包安装时进度卡在`正在安装所需框架`
