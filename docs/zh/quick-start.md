@@ -37,7 +37,7 @@ order: 5
 
 @tab 使用 Snap.Hutao.Deployment 安装
 
-Snap.Hutao.Deployment 是开发组自制的一键安装器，将同时安装所有需要的组件。适合广泛的普通用户和使用MSIX安装失败的用户。
+Snap.Hutao.Deployment 是开发组自制的一键安装器，**将同时安装所有需要的组件**。适合广泛的普通用户和使用MSIX安装失败的用户。
 
 <div class="vp-card-container">
 
