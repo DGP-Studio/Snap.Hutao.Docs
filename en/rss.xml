@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 17 Jan 2024 00:37:47 GMT</pubDate>
-    <lastBuildDate>Wed, 17 Jan 2024 00:37:47 GMT</lastBuildDate>
+    <pubDate>Thu, 18 Jan 2024 08:27:13 GMT</pubDate>
+    <lastBuildDate>Thu, 18 Jan 2024 08:27:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -831,6 +831,10 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
 </blockquote>
 <p>If the following answers can not solve your issue, feel free to <a href="/en/statements/bug-report.html" target="blank">report bug to us</a>!</p>
 <h2> Installation FAQ</h2>
+<div class="hint-container info">
+<p class="hint-container-title">Tips for Failed Installation</p>
+<p>If you failed installation with MSIX package, please try <a href="https://api.snapgenshin.com/patch/hutao-deployment/download" target="_blank" rel="noopener noreferrer">Snap.Hutao.Deployment</a> first, it can solve most of the installation issue.</p>
+</div>
 <h3> Stuck at <code>Installing Required Framework</code> when Using MSIX Package to Install</h3>
 <ul>
 <li>When user's OS missing required dependency framework, Windows will download and install it automatically.
@@ -851,8 +855,6 @@ However, if the user disabled Windows Update or have a bad network, the system i
 </li>
 <li>You can find this font from <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">Microsoft</a></li>
 </ul>
-<h3> Snap Hutao Throws Failed to add Scheduled Task Error</h3>
-<p>Open Windows Task Scheduler, find and delete <code>SnapHutaoDailyNoteRefreshTask</code> task</p>
 <h3> My Computer Cannot Open MSIX Format Installer</h3>
 <p>Your computer is missing the App Installer, an important component of the Windows system.</p>
 <p>If Microsoft Store is installed on your system, you can restore this component by reinstalling it from the <a href="https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&amp;gl=US" target="_blank" rel="noopener noreferrer">App Installer Store Page</a>.</p>
@@ -924,7 +926,6 @@ However, if the user disabled Windows Update or have a bad network, the system i
 </ul>
 <h3> How to Create Desktop Shortcut (With Admin Privilege)</h3>
 <p>Click <code>Create Desktop Shortcut</code> in the settings page.</p>
-<p>You can move this shortcut to any place you need.</p>
 <h3> How to run Snap Hutao when Windows starts</h3>
 <p><strong>This is a workaround solution</strong></p>
 <ul>
@@ -993,7 +994,7 @@ content. The following are common configurations.</p>
 
 <h3> Why does setting up automatic refresh of real-time notes prompt "Failed to modify Scheduled Task"</h3>
 <p>The automatic refresh of real-time notes relies on task scheduling. In order to avoid possible permission issues, Snap Hutao will force scheduled tasks to be set in non-administrator mode.</p>
-<p>If you turned on automatic refresh in the old version, you can solve the problem by manually deleting the old task schedule in Task Scheduler.</p>
+<p>If you turned on automatic refresh in the old version, you can solve the problem by manually deleting the old task schedule in Task Scheduler. The name of the scheduled task is <code>SnapHutaoDailyNoteRefreshTask</code>.</p>
 <p>If you did not turn on automatic refresh in the old version, then this problem is caused by the Windows user account you are currently using having insufficient permissions. If your current user account is an administrator account, you can only solve this problem by reinstalling the system.</p>
 <h2> Network FAQ</h2>
 <h3> Use Snap Hutao with Network Proxy</h3>

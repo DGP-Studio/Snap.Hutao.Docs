@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 17 Jan 2024 00:37:47 GMT</pubDate>
-    <lastBuildDate>Wed, 17 Jan 2024 00:37:47 GMT</lastBuildDate>
+    <pubDate>Thu, 18 Jan 2024 08:27:13 GMT</pubDate>
+    <lastBuildDate>Thu, 18 Jan 2024 08:27:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -977,7 +977,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/advanced/FAQ.html</link>
       <guid>https://hut.ao/zh/advanced/FAQ.html</guid>
       <source url="https://hut.ao/zh/rss.xml">常见问题</source>
-      <description>请使用网页右上角的搜索框或 浏览器内置的搜索功能（快捷键 ctrl+F） 搜索诸如错误代码之类的关键词来提高你的查询效率 如果下面的解答不能帮你解决问题，欢迎你向我们提交问题报告 (../statements/bug-report.md) 安装篇 使用 MSIX 安装包安装时进度卡在正在安装所需框架 当用户系统缺少必要依赖环境时，系统会自动安装所需依赖...</description>
+      <description>请使用网页右上角的搜索框或 浏览器内置的搜索功能（快捷键 ctrl+F） 搜索诸如错误代码之类的关键词来提高你的查询效率 如果下面的解答不能帮你解决问题，欢迎你向我们提交问题报告 (../statements/bug-report.md) 安装篇 安装问题提示 当你使用MSIX安装包遇到任意安装问题时，请先尝试使用Snap.Hutao.Deployme...</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 常见问题</h1>
@@ -986,6 +986,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </blockquote>
 <p>如果下面的解答不能帮你解决问题，欢迎你向我们<a href="/zh/statements/bug-report.html" target="blank">提交问题报告</a></p>
 <h2> 安装篇</h2>
+<div class="hint-container info">
+<p class="hint-container-title">安装问题提示</p>
+<p>当你使用MSIX安装包遇到任意安装问题时，请先尝试使用<a href="https://api.snapgenshin.com/patch/hutao-deployment/download" target="_blank" rel="noopener noreferrer">Snap.Hutao.Deployment</a>安装器，大部分问题都可以用此方法解决。</p>
+</div>
 <h3> 使用 MSIX 安装包安装时进度卡在<code>正在安装所需框架</code></h3>
 <ul>
 <li>当用户系统缺少必要依赖环境时，系统会自动安装所需依赖。若用户禁用了 Windows Update 组件或网络条件差时，系统无法完成该步骤。
@@ -1005,8 +1009,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 <li>您可以从 <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">微软官方</a>下载到该字体文件</li>
 </ul>
-<h3> 为什么程序会提示注册计划任务失败</h3>
-<p>打开 Windows 计划任务程序，找到 <code>SnapHutaoDailyNoteRefreshTask</code> 任务并删除</p>
 <h3> 我的计算机无法打开 MSIX 格式的安装包</h3>
 <p>你的计算机缺少了 Windows 系统重要组件 App Installer，你可能是盗版软件的受害者。</p>
 <p>如果你的系统中装有 Microsoft Store，可以从 <a href="https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&amp;gl=US" target="_blank" rel="noopener noreferrer">App Installer 商店页</a>重新安装来恢复该组件。</p>
@@ -1082,7 +1084,6 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h3> 如何创建胡桃的桌面快捷方式 （管理员模式）</h3>
 <p>你可以在程序设置页面中点击<code>创建快捷方式</code>来在桌面上添加一个具有管理员权限的快捷方式</p>
-<p>你可以移动这个快捷方式到你想要的地方，包括但不限于任务栏和开始菜单</p>
 <h3> 如何让胡桃工具箱开机自动启动</h3>
 <ul>
 <li>请参考如下思路
@@ -1188,7 +1189,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 
 <h3> 为什么设置实时便笺的自动刷新会提示“修改计划任务失败”</h3>
 <p>实时便笺的自动刷新依赖于任务计划。为了避免可能的权限问题，胡桃工具箱会强制在非管理员模式设置计划任务。</p>
-<p>如果你在旧版本开启了自动刷新，那你可以通过手动在任务计划程序中删除旧的任务计划来解决问题。</p>
+<p>如果你在旧版本开启了自动刷新，那你可以通过手动在任务计划程序中删除旧的任务计划来解决问题。任务计划的名称为 <code>SnapHutaoDailyNoteRefreshTask</code>。</p>
 <p>如果你没有在旧版本开启自动刷新，那么此问题是由于你目前使用的 Windows 用户账户权限不足导致的。如果你当前的用户账户是管理员账户，那你只能通过重装系统来解决此问题。</p>
 <h2> 网络篇</h2>
 <h3> 如何通过网络代理使用胡桃工具箱</h3>
