@@ -14,7 +14,7 @@ comment: false
 
 ## 安装篇
 
-::: info Deployment
+::: info 安装问题提示
 遇到任意安装问题时，请先尝试使用[Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download)。大部分 MSIX 安装问题都可以用此方法解决。
 :::
 
