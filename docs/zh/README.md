@@ -5,7 +5,7 @@ title: 首页
 heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp
 heroAlt: 胡桃工具箱
 heroText: 胡桃工具箱
-tagline: <img src="https://trendshift.io/api/badge/repositories/2009"/><br>实用的开源多功能原神工具箱 🧰
+tagline: <img src="https://trendshift.io/api/badge/repositories/2009" style="cursor:pointer" onclick="window.open('https://trendshift.io/repositories/2009')" alt="trend"/><br>实用的开源多功能原神工具箱 🧰
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
 head:
