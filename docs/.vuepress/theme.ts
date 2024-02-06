@@ -289,6 +289,8 @@ export default hopeTheme({
       },
     },
 
+    // https://ecosystem.vuejs.press/zh/plugins/feed/
+    // https://theme-hope.vuejs.press/zh/config/plugins/feed.html
     feed: {
       rss: true,
     },

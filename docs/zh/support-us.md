@@ -6,13 +6,16 @@ icon: iconfont icon-like
 index: false
 head:
   - style:
-    type: text/css
-    content: |
-      .theme-hope-content{
-        vp-tabs{
-            border: None;
+      type: text/css
+      content: |
+        .theme-hope-content{
+            .vp-tabs{
+              border: None;
+          }
+            .vp-tabs-nav{
+              background: None;
+          }
         }
-      }
 ---
 
 # 支持我们

@@ -1,5 +1,6 @@
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { defineUserConfig } from "vuepress";
+// https://ecosystem.vuejs.press/zh/plugins/redirect.html
 import { redirectPlugin } from "vuepress-plugin-redirect";
 import { addCustomElement, addViteConfig } from "vuepress-shared/node";
 
