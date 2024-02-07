@@ -91,3 +91,20 @@ html[data-theme="dark"] {
     color: #bbbbbb;
   }
 }
+
+.sponsor-diy-card{
+  .vp-tabs{
+    border: None;
+  }
+
+  .vp-tabs-nav{
+    background: None;
+    border-radius: 0 0 0;
+    //display: None;
+  }
+
+  .vp-tab-nav{
+    background: None;
+    border-radius: 0 0 0;
+  }
+}
