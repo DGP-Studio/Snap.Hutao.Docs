@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Fri, 02 Feb 2024 00:19:35 GMT</pubDate>
-    <lastBuildDate>Fri, 02 Feb 2024 00:19:35 GMT</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2024 07:18:01 GMT</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2024 07:18:01 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Dev Logs</category>
@@ -2490,12 +2490,201 @@ will not be removed. You can continue to operate it once you get your privilege 
       <link>https://hut.ao/ru/statements/update-log.html</link>
       <guid>https://hut.ao/ru/statements/update-log.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Журнал обновлений</source>
-      <description>Не вижу смысла переводить все, поэтому переведу последние 2 1.8.4 Исправления; Исправлена проблема, при которой ежедневная проверка показывает окончание активности; Исправлена п...</description>
+      <description>Не вижу смысла переводить все, поэтому переведу последние 2 1.9.6 New ➕; Added customized background image feature, users now can open background image folder and add images the...</description>
       <category>Announcement</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Журнал обновлений</h1>
 <p>Не вижу смысла переводить все, поэтому переведу последние 2</p>
-<h2> 1.8.4 </h2>
+<h2> 1.9.6 </h2>
+<ul>
+<li>New ➕
+<ul>
+<li>Added customized background image feature, users now can open background image folder and add images they like <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/357" target="_blank" rel="noopener noreferrer">#357</a></li>
+<li>Added responsive settings page, layout will be update while window size and shape changes, <a href="https://github.com/Scighost" target="_blank" rel="noopener noreferrer">@Scighost</a> realized this feature <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1337" target="_blank" rel="noopener noreferrer">#1337</a></li>
+<li>Added container loopback status and unlocker feature in Feedback Center</li>
+<li>Added displaying current network proxy status feature in Feedback Center</li>
+</ul>
+</li>
+<li>Fix 🔨
+<ul>
+<li>Fixed <code>653366069</code> error when submit Spiral Abyss data <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1351" target="_blank" rel="noopener noreferrer">#1351</a></li>
+<li>Fixed <code>653366069</code> error when sync character from MiHoYo BBS Battle Chronicle and Development Plan sources</li>
+<li>Adapt new Asia server UID rule</li>
+<li>Fixed the issue that font size in game announcements are too small <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1347" target="_blank" rel="noopener noreferrer">#1347</a></li>
+<li>Fixed MiYouShe QR code login issue, now ZZZ login page is used to handle QR code login method <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1345" target="_blank" rel="noopener noreferrer">#1345</a></li>
+<li>Replace unreadable text in character voice/story with normal text in Character WIKI <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1316" target="_blank" rel="noopener noreferrer">#1316</a></li>
+<li>Fixed the display issue in Home Dashboard when Parametric Transformer is not achieved <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1331" target="_blank" rel="noopener noreferrer">#1331</a></li>
+<li>Fixed the issue that in some cases, swap Home Dashboard to bottom side would cause the client to crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1365" target="_blank" rel="noopener noreferrer">#1365</a></li>
+</ul>
+</li>
+<li>Optimization ✨
+<ul>
+<li>User's MiHoYo BBS accounts in Account Panel can be dragged and reordered now, to allow users to have a better operation experience <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1334" target="_blank" rel="noopener noreferrer">#1334</a></li>
+<li>Game account records in Game Launcher can be dragged and reordered now, to allow users to have a better operation experience</li>
+<li>Optimized title text in Wish Export (<code>Statistics</code> is renamed to <code>Global Wish Stats</code>) <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1344" target="_blank" rel="noopener noreferrer">#1344</a></li>
+<li>Optimized text under Resource Download page in Game Launcher (<code>Client</code> is renamed to <code>Full Package</code>) <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1279" target="_blank" rel="noopener noreferrer">#1279</a></li>
+<li>Optimized image download error hint in wizard <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1333" target="_blank" rel="noopener noreferrer">#1333</a></li>
+<li>Update Spiral Abyss wave information text of Genshin Impact version 4.4</li>
+<li>Added permission error hint in Realtime Notes notification settings</li>
+<li>Limited download thread for client update package</li>
+<li>Added two new resolutions in Game Resolution Quick Settings</li>
+<li>Allow developers using NamedPipe to activate the application </li>
+<li>Make Windows App SDK embedded</li>
+<li>Optimized Win32/COM API calls</li>
+<li>Redesigned client UI to fit background images</li>
+</ul>
+</li>
+<li>Localization 🌏
+<ul>
+<li>Portuguese (PT-BR) is now a new client language, thanks to contribution from <a href="https://github.com/t0piy" target="_blank" rel="noopener noreferrer">@t0piy</a></li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.5</h2>
+<ul>
+<li>New ➕
+<ul>
+<li>Added monitor identification button in game launcher <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1261" target="_blank" rel="noopener noreferrer">#1261</a></li>
+<li>Brand new Feedback Center is introduced <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1039" target="_blank" rel="noopener noreferrer">#1039</a></li>
+</ul>
+</li>
+<li>Fix 🔨
+<ul>
+<li>Fixed the issue that when the game in under <code>Program Files</code> path, <code>server conversion failed</code> error would be raised <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1262" target="_blank" rel="noopener noreferrer">#1262</a></li>
+<li>Fixed the issue that static packages download cannot be completed in the setup wizard <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1242" target="_blank" rel="noopener noreferrer">#1242</a></li>
+</ul>
+</li>
+<li>Optimization ✨
+<ul>
+<li>Added support of changing proxy settings during Snap Hutao is running</li>
+<li>Added game status in Game Launcher Card in the dashboard</li>
+<li>Added data folder size auto refresh after server conversion cache is deleted</li>
+<li>Optimized the logic to identify whether server conversion is needed when game launch process is requested</li>
+<li>Optimized the English translation</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.4 </h2>
+<ul>
+<li>Fix 🔨
+<ul>
+<li>Fixed the crash issue for Bilibili server users when entering the main window</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.3</h2>
+<ul>
+<li>Fix 🔨
+<ul>
+<li>Fixed the crash issue for new users when entering the main window</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.2</h2>
+<ul>
+<li>New ➕
+<ul>
+<li>Added Windows native HDR option in Game Launcher</li>
+<li>Added support of HoYoverse accounts in Game Launcher account switch feature</li>
+<li>Added option of deleting server conversion cache file in Settings page</li>
+<li>Added restart as admin option in Settings page</li>
+<li>Added the function of sharing pictures to the clipboard in WebView</li>
+</ul>
+</li>
+<li>Fix 🔨
+<ul>
+<li>Fixed the issue that some MiHoYo BBS pages operations cannot be done in Webview</li>
+<li>Added conspicuous mark of Admin Mode on windows title to indicate whether if Snap Hutao is running as administrator</li>
+<li>Fixed game path error after server conversion</li>
+<li>Fixed the document link on Spiral Abyss page</li>
+</ul>
+</li>
+<li>Optimization ✨
+<ul>
+<li>Added account identification field in Real-time Note data forwarding webhook</li>
+<li>All options in Danger Zone on Settings page now have double confirmations</li>
+<li>Change to way of game account switch from PowerShell of directly modify regedit to avoid error when Windows Long Path is not enabled</li>
+<li>Optimized UI of auto-click feature shortcut settings card</li>
+<li>Added checks for special paths such as Program Files during server conversion</li>
+<li>Optimized the scrolling performance of WebView on some pages</li>
+<li>Optimized the performance of Discord Activity</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.1 </h2>
+<ul>
+<li><strong>Fix 🔨</strong>
+<ul>
+<li>Fixed crash on Game Launcher page when user text zoom is not set as 100%</li>
+<li>Fixed crash caused by Realtime Notes during the program startup</li>
+<li>Fixed the issue where Realtime Notes may be loaded simultaneously with user account information, result in reentrancy</li>
+</ul>
+</li>
+<li><strong>Optimizations ✨</strong>
+<ul>
+<li>Enhanced prompt to add or select game path in Game Launcher</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.0</h2>
+<div class="hint-container important">
+<p class="hint-container-title">Breaking Changes</p>
+<p>Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new certificate to sign Snap Hutao installation packages.</p>
+<p>Programs with the new signature will be incompatible with old versions. Users updating from versions 1.8.4 and older to 1.9.0 and newer versions need to uninstall the old version first and then perform a fresh installation of the new version of the client. Due to the design of Snap Hutao's data directory, users will not lose any important data.</p>
+<p>You can read the article <a href="/ru/blog/version-1-9-0-breaking-changes.html" target="blank">Explanation of Breaking Changes in Version 1.9.0</a> for a deeper understanding of how the signature changes in this version update affect the Snap Hutao project.</p>
+</div>
+<ul>
+<li>
+<p><strong>New Features ➕</strong></p>
+<ul>
+<li>The game launcher now supports multiple game paths <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/526" target="_blank" rel="noopener noreferrer">#525</a></li>
+<li>Added QR code login method for miHoYo in the user panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/870" target="_blank" rel="noopener noreferrer">#870</a></li>
+<li>The client now automatically detects network status and displays the results in the settings page <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1161" target="_blank" rel="noopener noreferrer">#1116</a></li>
+<li>Added an option in the game launcher to start Genshin Impact in touch mode <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1173" target="_blank" rel="noopener noreferrer">#1173</a></li>
+<li>Add option to change in-game announcement source in the settings page, now you may select oversea severs as the source and display announcements with same lanague of your Snap Hutao <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1112" target="_blank" rel="noopener noreferrer">#1112</a>
+<ul>
+<li>Only available when there is valid regular expression in Crowdin translation (Simplified Chinese, Traditional Chinese and English are supported now)</li>
+</ul>
+</li>
+<li>Added an option in the settings to enable the console. Users can now get more error prompts when troubleshooting by enabling this option.</li>
+<li>Introduced a completely new logic for software updates.</li>
+</ul>
+</li>
+<li>
+<p><strong>Bug Fixes 🔨</strong></p>
+<ul>
+<li>Fixed an issue with miHoYo API returning a <code>5003</code> error when fetching character information <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1060" target="_blank" rel="noopener noreferrer">#1060</a></li>
+<li>Fixed the issue that Game Launcher cannot unlock framerate limit in Genshin Impact 4.3 version <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1190" target="_blank" rel="noopener noreferrer">#1190</a></li>
+<li>Fixed an issue with incorrect countdown data for miHoYo announcements in specific situations.</li>
+<li>Fixed incorrect PowerShell statements.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optimizations ✨</strong></p>
+<ul>
+<li>Improved error prompt statements in development calculations, making error messages more explicit <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1163" target="_blank" rel="noopener noreferrer">#1163</a></li>
+<li>Optimized the interface of development calculations, now showing specific goals for each item <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1016" target="_blank" rel="noopener noreferrer">#1016</a></li>
+<li>Optimized the display of Hutao account information on the main interface, no longer displaying user email addresses <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1160" target="_blank" rel="noopener noreferrer">#1160</a></li>
+<li>Updated error prompts for Hutao API.</li>
+<li>Optimized the settings page interface; users can now view the size of data and cache directories generated by Snap Hutao in the settings.</li>
+<li>Removed Microsoft Store buttons</li>
+</ul>
+</li>
+<li>
+<p><strong>Localization 🌏</strong></p>
+<ul>
+<li>Added Indonesian language option in the client, thanks to contribution by <a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">@NatsumeAoii</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1188" target="_blank" rel="noopener noreferrer">#1188</a></li>
+<li>Added Russian language option in the client, thanks to contribution by <a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">@QweRezOn</a></li>
+<li>Improved client localization string character coverage <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1198" target="_blank" rel="noopener noreferrer">#1198</a></li>
+<li>Updated translations for existing languages.</li>
+</ul>
+</li>
+</ul>
+<h2> 1.8.5 </h2>
+<ul>
+<li>Tested changes caused by certificate change</li>
+</ul>
+<h2> 1.8.4</h2>
 <ul>
 <li>Исправления
 <ul>

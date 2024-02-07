@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 02 Feb 2024 00:19:35 GMT</pubDate>
-    <lastBuildDate>Fri, 02 Feb 2024 00:19:35 GMT</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2024 07:18:01 GMT</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2024 07:18:01 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -2796,11 +2796,56 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.9.5 新增 ➕; 启动游戏页面新增标识显示器功能 #1261 (https://github.com/DGP-Studio/Snap.Hutao/issues/1261); 全新的反馈中心已上线 #1039 (https://github.com/DGP-Studio/Snap.Hutao/issues/1039); 修复 🔨; 修复了游戏路径...</description>
+      <description>1.9.6 新增➕; 新增自定义应用内背景功能，用户可以在设置内打开背景目录并设置想要展示的图片 #357 (https://github.com/DGP-Studio/Snap.Hutao/issues/357); 新增设置页面的响应式布局，现在页面布局会随着窗口大小动态调整，@Scighost (https://github.com/Scighos...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.9.5 </h2>
+<h2> 1.9.6 </h2>
+<ul>
+<li>新增➕
+<ul>
+<li>新增自定义应用内背景功能，用户可以在设置内打开背景目录并设置想要展示的图片 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/357" target="_blank" rel="noopener noreferrer">#357</a></li>
+<li>新增设置页面的响应式布局，现在页面布局会随着窗口大小动态调整，<a href="https://github.com/Scighost" target="_blank" rel="noopener noreferrer">@Scighost</a> 实现了这个功能 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1337" target="_blank" rel="noopener noreferrer">#1337</a></li>
+<li>在反馈中心中新增了容器 loopback 状态显示和解除限制的功能</li>
+<li>在反馈中心中新增了显示当前网络代理状态的功能</li>
+</ul>
+</li>
+<li>修复🔨
+<ul>
+<li>修复了深境螺旋数据上传时提示 <code>653366069</code> 错误的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1351" target="_blank" rel="noopener noreferrer">#1351</a></li>
+<li>修复了我的角色从原神战绩与从养成计算同步时提示 <code>653366069</code> 错误的问题</li>
+<li>适配了亚服新 UID 规则</li>
+<li>修复了游戏公告中部分文本字体过小的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1347" target="_blank" rel="noopener noreferrer">#1347</a></li>
+<li>修复了二维码扫码登录失败的问题，使用绝区零登录入口处理扫码登录 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1345" target="_blank" rel="noopener noreferrer">#1345</a></li>
+<li>替换了角色资料中角色语音/角色故事的部分不可读文本为正常文本 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1316" target="_blank" rel="noopener noreferrer">#1316</a></li>
+<li>修复了参量质变仪未获得时在主页实时便笺卡片中的错误显示问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1331" target="_blank" rel="noopener noreferrer">#1331</a></li>
+<li>修复了在某些情况下首页公告下滑至底部导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1365" target="_blank" rel="noopener noreferrer">#1365</a></li>
+</ul>
+</li>
+<li>优化 ✨
+<ul>
+<li>用户面板中的米游社/HoYoLAB 账号允许被拖动排序以允许用户获得更自然的操作体验 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1334" target="_blank" rel="noopener noreferrer">#1334</a></li>
+<li>启动游戏中保存的游戏账号允许被拖动排序以允许用户获得更自然的操作体验</li>
+<li>优化了祈愿统计页面中功能的标题文本（将<code>统计</code>重命名为<code>全球祈愿统计</code>）<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1344" target="_blank" rel="noopener noreferrer">#1344</a></li>
+<li>优化了启动游戏中资源下载页面的文本（将<code>客户端</code>重命名为<code>完整包</code>） <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1279" target="_blank" rel="noopener noreferrer">#1279</a></li>
+<li>优化了引导界面下载图片资源的错误提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1333" target="_blank" rel="noopener noreferrer">#1333</a></li>
+<li>更新了原神 4.4 版本深渊的波次文本提示</li>
+<li>新增了实时便笺通知设置权限不足的错误提示文本</li>
+<li>限制了下载更新时的线程数</li>
+<li>启动游戏快捷分辨率添加了两个新的分辨率</li>
+<li>允许使用命名管道进行应用激活 </li>
+<li>内置了 Windows App SDK</li>
+<li>优化了 Win32/COM API 调用</li>
+<li>重做了大部分 UI 以适应含有图片背景的客户端</li>
+</ul>
+</li>
+<li>本地化 🌏
+<ul>
+<li>客户端新增葡萄牙语翻译，感谢 <a href="https://github.com/t0piy" target="_blank" rel="noopener noreferrer">@t0piy</a> 提供的翻译</li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.5</h2>
 <ul>
 <li>新增 ➕
 <ul>

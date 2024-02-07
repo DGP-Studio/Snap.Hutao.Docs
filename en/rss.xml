@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 02 Feb 2024 00:19:35 GMT</pubDate>
-    <lastBuildDate>Fri, 02 Feb 2024 00:19:35 GMT</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2024 07:18:01 GMT</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2024 07:18:01 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -1028,11 +1028,56 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.9.5 New ➕; Added monitor identification button in game launcher #1261 (https://github.com/DGP-Studio/Snap.Hutao/issues/1261); Brand new Feedback Center is introduced #1039 (ht...</description>
+      <description>1.9.6 New ➕; Added customized background image feature, users now can open background image folder and add images they like #357 (https://github.com/DGP-Studio/Snap.Hutao/issues...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.9.5 </h2>
+<h2> 1.9.6 </h2>
+<ul>
+<li>New ➕
+<ul>
+<li>Added customized background image feature, users now can open background image folder and add images they like <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/357" target="_blank" rel="noopener noreferrer">#357</a></li>
+<li>Added responsive settings page, layout will be updated while window size and shape changes, <a href="https://github.com/Scighost" target="_blank" rel="noopener noreferrer">@Scighost</a> realized this feature <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1337" target="_blank" rel="noopener noreferrer">#1337</a></li>
+<li>Added container loopback status and unlocker feature in Feedback Center</li>
+<li>Added displaying current network proxy status feature in Feedback Center</li>
+</ul>
+</li>
+<li>Fix 🔨
+<ul>
+<li>Fixed <code>653366069</code> error when submit Spiral Abyss data <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1351" target="_blank" rel="noopener noreferrer">#1351</a></li>
+<li>Fixed <code>653366069</code> error when sync character from MiHoYo BBS Battle Chronicle and Development Plan sources</li>
+<li>Adapt new Asia server UID rule</li>
+<li>Fixed the issue that font size in game announcements is too small <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1347" target="_blank" rel="noopener noreferrer">#1347</a></li>
+<li>Fixed MiYouShe QR code login issue, now ZZZ login page is used to handle QR code login method <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1345" target="_blank" rel="noopener noreferrer">#1345</a></li>
+<li>Replace unreadable text in character voice/story with normal text in Character WIKI <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1316" target="_blank" rel="noopener noreferrer">#1316</a></li>
+<li>Fixed the display issue in Home Dashboard when Parametric Transformer is not achieved <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1331" target="_blank" rel="noopener noreferrer">#1331</a></li>
+<li>Fixed the issue that in some cases, swap Home Dashboard to bottom side would cause the client to crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1365" target="_blank" rel="noopener noreferrer">#1365</a></li>
+</ul>
+</li>
+<li>Optimization ✨
+<ul>
+<li>User's MiHoYo BBS accounts in Account Panel can be dragged and reordered now, to allow users to have a better operation experience <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1334" target="_blank" rel="noopener noreferrer">#1334</a></li>
+<li>Game account records in Game Launcher can be dragged and reordered now, to allow users to have a better operation experience</li>
+<li>Optimized title text in Wish Export (<code>Statistics</code> is renamed to <code>Global Wish Stats</code>) <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1344" target="_blank" rel="noopener noreferrer">#1344</a></li>
+<li>Optimized text under Resource Download page in Game Launcher (<code>Client</code> is renamed to <code>Full Package</code>) <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1279" target="_blank" rel="noopener noreferrer">#1279</a></li>
+<li>Optimized image download error hint in wizard <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1333" target="_blank" rel="noopener noreferrer">#1333</a></li>
+<li>Update Spiral Abyss wave information text of Genshin Impact version 4.4</li>
+<li>Added permission error hint in Realtime Notes notification settings</li>
+<li>Limit active thread count when downloading client update package</li>
+<li>Added two new resolutions in Game Resolution Quick Settings</li>
+<li>Allow developers using NamedPipe to activate the application </li>
+<li>Make Windows App SDK embedded</li>
+<li>Optimized Win32/COM API calls</li>
+<li>Redesigned client UI to fit background images</li>
+</ul>
+</li>
+<li>Localization 🌏
+<ul>
+<li>Portuguese (PT-BR) is now a new client language, thanks to contribution from <a href="https://github.com/t0piy" target="_blank" rel="noopener noreferrer">@t0piy</a></li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.5</h2>
 <ul>
 <li>New ➕
 <ul>
