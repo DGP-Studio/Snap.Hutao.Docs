@@ -19,18 +19,18 @@ order: 8
     background="rgba(88, 101, 242, 0.15)"
   />
   <VPCard
-    title="胡桃 QQ 用户群"
-    desc="910780153"
+    title="QQ频道"
+    desc="9vnlvnqkk"
     logo="/images/202312/tencent.svg"
-    link="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&noverify=0&group_code=910780153"
-    background="rgba(228, 0, 54, 0.15)"
+    link="https://pd.qq.com/s/9vnlvnqkk"
+    background="rgba(66, 148, 255, 0.15)"
   />
   <VPCard
     title="胡桃 QQ 公告群"
-    desc="531960040；全体禁言；仅发布公告"
+    desc="仅用于发布公告，适合习惯潜水而不希望错误重要消息的用户"
     logo="/images/202312/tencent.svg"
     link="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uxqsxPJPB_jOVbMFOzZv5LcDyIF2HAiu&authKey=Deo2c2ZhmqSAQ%2BGUL0ItD7bYtYG5blYxQor25BXoCcaCGllZYtZ4eDNwZ3yZz8gH&noverify=0&group_code=531960040"
-    background="rgba(228, 0, 54, 0.15)"
+    background="rgba(245, 158, 0, 0.15)"
   />
   <VPCard
     title="GitHub Discussion"
