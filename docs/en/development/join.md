@@ -9,7 +9,7 @@ order: 1
 
 If you have one of the following experiences and are interested in joining the Snap Hutao development team to improve this project and get in touch with more Genshin Impact open source projects, welcome to join us!
 
-## Developer
+## <HopeIcon icon="iconfont icon-creative" size="2rem" color="rgb(252, 163, 38)" /> Developer
 
 **DGP-Studio Members can**
 
@@ -61,7 +61,7 @@ Our front-end project includes
 - [Hutao.API.Web](https://github.com/DGP-Studio/Hutao.API.Web)
   - Hutao Abyss Database Website project
 
-## Community Maintenance
+## <HopeIcon icon="iconfont icon-community" size="2rem" color="rgb(66, 148, 255)" /> Community Maintenance
 
 <VPBanner
 title="Document Maintenance"

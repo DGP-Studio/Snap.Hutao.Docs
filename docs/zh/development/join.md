@@ -9,7 +9,7 @@ order: 1
 
 如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！
 
-## 软件开发
+## <HopeIcon icon="iconfont icon-creative" size="2rem" color="rgb(252, 163, 38)" /> 软件开发
 
 **DGP-Studio 的组织成员可以：**
 
@@ -63,9 +63,7 @@ link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg
 - [Hutao.API.Web](https://github.com/DGP-Studio/Hutao.API.Web)
   - 胡桃深渊数据库网页版项目
 
----
-
-## 社区维护
+## <HopeIcon icon="iconfont icon-community" size="2rem" color="rgb(66, 148, 255)" /> 社区维护
 
 <VPBanner
 title="社区管理"
