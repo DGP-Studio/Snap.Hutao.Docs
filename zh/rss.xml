@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 15 Feb 2024 09:28:59 GMT</pubDate>
-    <lastBuildDate>Thu, 15 Feb 2024 09:28:59 GMT</lastBuildDate>
+    <pubDate>Fri, 16 Feb 2024 05:33:36 GMT</pubDate>
+    <lastBuildDate>Fri, 16 Feb 2024 05:33:36 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -84,13 +84,22 @@
       <link>https://hut.ao/zh/development/join.html</link>
       <guid>https://hut.ao/zh/development/join.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入我们</source>
-      <description>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！ 对于 Snap Hutao 桌面端项目，你只需要发起你的 Pull Request，解决当前已有的 issue 或增加你想要实现的功能，我们会邀请多次 PR 的合作者加入 Snap Hutao 开发团队。当你准备修复某一个 issue 中的问题时，请务必留言告知他人你...</description>
+      <description>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！ 软件开发 DGP-Studio 的组织成员可以： [x] 向 Snap Hutao 和关联项目添加自己设计的功能; [x] 接触到其它知名原神社区项目的开发者; [x] 获得免费的 GitHub Copilot; [x] 获得免费的 1password Team 账号...</description>
       <category>开源</category>
       <category>开发</category>
       <pubDate>Fri, 22 Dec 2023 04:12:52 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入我们</h1>
 <p>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
-<p>对于 Snap Hutao 桌面端项目，你只需要发起你的 Pull Request，解决当前已有的 issue 或增加你想要实现的功能，我们会邀请多次 PR 的合作者加入 Snap Hutao 开发团队。当你准备修复某一个 issue 中的问题时，请务必留言告知他人你已认领当前问题，防止重复工作。</p>
+<h2> 软件开发</h2>
+<p><strong>DGP-Studio 的组织成员可以：</strong></p>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 向 Snap Hutao 和关联项目添加自己设计的功能</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 接触到其它知名原神社区项目的开发者</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 获得免费的 GitHub Copilot</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 获得免费的 1password Team 账号</label></li>
+</ul>
+<p>你可以在 <a href="https://github.com/orgs/DGP-Studio/people" target="_blank" rel="noopener noreferrer">GitHub DGP-Studio People</a> 页面查看当前公开的组织成员列表</p>
+<hr>
 ]]></content:encoded>
     </item>
     <item>
