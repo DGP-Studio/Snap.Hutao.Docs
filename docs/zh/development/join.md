@@ -9,6 +9,8 @@ order: 1
 
 如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！
 
+**我们不会为下面需求设置明确的目标门槛。对新领域的探索、对技术的热情以及负责任的态度是活跃在开源社区的重要支撑。**
+
 ## <HopeIcon icon="iconfont icon-creative" size="2rem" color="rgb(252, 163, 38)" /> 软件开发
 
 **DGP-Studio 的组织成员可以：**
@@ -62,6 +64,22 @@ link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg
   - 你可以从项目的[待办事项](https://github.com/DGP-Studio/Snap.Hutao.Passport.Web/issues/5)中选取你愿意接手负责的部分，并通过开发者交流群与我们取得联系以获取帮助
 - [Hutao.API.Web](https://github.com/DGP-Studio/Hutao.API.Web)
   - 胡桃深渊数据库网页版项目
+
+---
+
+<VPBanner
+title="UI 设计"
+content="<b>负责内容</b>：<br>胡桃客户端的界面设计"
+logo="/images/202402/ux-design.svg"
+:actions='[
+{
+text: "加入开发者交流群",
+link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236",
+},
+]'
+/>
+
+> 某知情人士: Snap Hutao 的客户端设计在开发组群聊中被吐槽时有发生
 
 ## <HopeIcon icon="iconfont icon-community" size="2rem" color="rgb(66, 148, 255)" /> 社区维护
 
