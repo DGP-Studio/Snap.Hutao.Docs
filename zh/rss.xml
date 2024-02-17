@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 16 Feb 2024 05:44:07 GMT</pubDate>
-    <lastBuildDate>Fri, 16 Feb 2024 05:44:07 GMT</lastBuildDate>
+    <pubDate>Sat, 17 Feb 2024 06:43:23 GMT</pubDate>
+    <lastBuildDate>Sat, 17 Feb 2024 06:43:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -84,12 +84,13 @@
       <link>https://hut.ao/zh/development/join.html</link>
       <guid>https://hut.ao/zh/development/join.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入我们</source>
-      <description>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！ 软件开发 DGP-Studio 的组织成员可以： [x] 向 Snap Hutao 和关联项目添加自己设计的功能; [x] 接触到其它知名原神社区项目的开发者; [x] 获得免费的 GitHub Copilot; [x] 获得免费的 1password Team 账号...</description>
+      <description>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！ 我们不会为下面需求设置明确的目标门槛。对新领域的探索、对技术的热情以及负责任的态度是活跃在开源社区的重要支撑。 软件开发 DGP-Studio 的组织成员可以： [x] 向 Snap Hutao 和关联项目添加自己设计的功能; [x] 接触到其它知名原神社区项目的开发...</description>
       <category>开源</category>
       <category>开发</category>
       <pubDate>Fri, 22 Dec 2023 04:12:52 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入我们</h1>
 <p>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
+<p><strong>我们不会为下面需求设置明确的目标门槛。对新领域的探索、对技术的热情以及负责任的态度是活跃在开源社区的重要支撑。</strong></p>
 <h2> </h2>
 <p><strong>DGP-Studio 的组织成员可以：</strong></p>
 <ul class="task-list-container">
