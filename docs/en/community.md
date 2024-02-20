@@ -20,9 +20,9 @@ As open-source software, community power is an important part of the ecology of 
   />
   <VPCard
     title="Snap Hutao QQ Group Chat"
-    desc="910780153"
+    desc="567908135"
     logo="/images/202312/tencent.svg"
-    link="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&noverify=0&group_code=910780153"
+    link="https://qm.qq.com/q/WJKykrY9W"
     background="rgba(228, 0, 54, 0.15)"
   />
   <VPCard
