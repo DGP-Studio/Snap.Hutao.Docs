@@ -21,13 +21,13 @@ externalLinkIcon: false
     - Genshin Impact official launcher background
 - Fix 🔨
   - Fixed the issue that when Discord is running with administrator privilege and Snap Hutao is running in normal privilege, Snap Hutao will crash [#1400](https://github.com/DGP-Studio/Snap.Hutao/issues/1400)
-  - Fixed the issue that reorder game account in Advanced Launcher would cause the clint to crash [#1379](https://github.com/DGP-Studio/Snap.Hutao/issues/1379)
-  - Fixed the issue that scroll down the in-game announcement in Dashboard would cause the client to crash [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
-  - Fixed Wanderer WIKI data through metadata source, again [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
-  - Fixed the issue that searching result in Feedback Center was not XML decoded [#1391](https://github.com/DGP-Studio/Snap.Hutao/issues/1391)
+  - Fixed the issue that reorder game account in Advanced Launcher with administrator privilege would cause the clint to crash [#1379](https://github.com/DGP-Studio/Snap.Hutao/issues/1379)
+  - Fixed the issue that scroll down the in-game announcement in Dashboard would cause the announcement disappear [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
+  - Fixed some human unreadable text in character WIKI, again [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
+  - Fixed the issue that searching result in Feedback Center was not HTML decoded [#1391](https://github.com/DGP-Studio/Snap.Hutao/issues/1391)
 - Optimization ✨
-  - Added 4K resolution in quick pick option in Advanced Launcher [#1375](https://github.com/DGP-Studio/Snap.Hutao/issues/1375)
-  - Allow HoYoLAB accounts in User Account Panel to be reordered [#1233](https://github.com/DGP-Studio/Snap.Hutao/issues/1233)
+  - Added two 4K resolution options in Advanced Launcher [#1375](https://github.com/DGP-Studio/Snap.Hutao/issues/1375)
+  - Client will now memorize selected character in each account in MiHoYo BBS account panel [#1233](https://github.com/DGP-Studio/Snap.Hutao/issues/1233)
 
 ## 1.9.6
 
