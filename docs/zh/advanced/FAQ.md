@@ -8,7 +8,7 @@ comment: false
 
 # 常见问题
 
-> 请使用**网页右上角的搜索框**或 **浏览器内置的搜索功能（快捷键 `ctrl+F`）** 搜索诸如错误代码之类的关键词来提高你的查询效率
+> 请使用**网页右上角的搜索框**或 **浏览器内置的搜索功能（快捷键 `Ctrl+F`）** 搜索诸如错误代码之类的关键词来提高你的查询效率
 
 如果下面的解答不能帮你解决问题，欢迎你向我们[提交问题报告](../statements/bug-report.md)
 
@@ -18,7 +18,7 @@ comment: false
 当你使用MSIX安装包遇到任意安装问题时，请先尝试使用[Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download)安装器，大部分问题都可以用此方法解决。
 :::
 
-### 使用 MSIX 安装包安装时进度卡在`正在安装所需框架`
+### 使用 MSIX 安装包安装时进度卡在 `正在安装所需框架`
 
 - 当用户系统缺少必要依赖环境时，系统会自动安装所需依赖。若用户禁用了 Windows Update 组件或网络条件差时，系统无法完成该步骤。
   - 请确保 Windows Update 已启用；胡桃工具箱的安装过程依赖于 Windows Update 组件

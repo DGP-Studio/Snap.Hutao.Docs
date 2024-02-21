@@ -31,7 +31,7 @@ comment: false
 ::: details 环境检测
 
 ![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01T3lLLI1g6dyDspUsf_!!1797064093.png_.webp)
-在环境检测环节，胡桃工具箱将使用两个小型测试来帮助用户确定是否安装了有助于提升使用体验的系统环境：Segoe Fluent Icons 字体 和 WebView2 运行时。
+在环境检测环节，胡桃工具箱将使用两个小型测试来帮助用户确定是否安装了有助于提升使用体验的系统环境：[Segoe Fluent Icons 字体](https://aka.ms/SegoeFluentIcons) 和 [WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701)。
 
 你可以根据提示来判断这两个环境包是否已安装，若未安装则可以点击对应的链接按钮以下载并安装所需要的内容。
 
