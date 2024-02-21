@@ -5,3 +5,4 @@ docs/.vuepress/.temp/
 docs/.vuepress/dist/
 dist/
 .idea/
+.npmrc
