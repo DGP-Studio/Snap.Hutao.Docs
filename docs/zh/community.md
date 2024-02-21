@@ -1,6 +1,6 @@
 ---
 headerDepth: 0
-category: [公告]
+category: 公告
 comment: false
 icon: iconfont icon-community
 order: 8
@@ -19,11 +19,11 @@ order: 8
     background="rgba(88, 101, 242, 0.15)"
   />
   <VPCard
-    title="QQ频道"
-    desc="9vnlvnqkk"
+    title="胡桃 QQ 用户群"
+    desc="567908135"
     logo="/images/202312/tencent.svg"
-    link="https://pd.qq.com/s/9vnlvnqkk"
-    background="rgba(66, 148, 255, 0.15)"
+    link="https://qm.qq.com/q/WJKykrY9W"
+    background="rgba(228, 0, 54, 0.15)"
   />
   <VPCard
     title="胡桃 QQ 公告群"

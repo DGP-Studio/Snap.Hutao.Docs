@@ -39,6 +39,8 @@ You can use **MSIX package** or **Snap.Hutao.Deployment installer** to install S
 
 @tab Use Snap.Hutao.Deployment Installer
 
+Snap.Hutao.Deployment is a quick installer, **it installs required supporting framework**. It's suitable for all users and those who failed installation with MSIX package.
+
 <div class="vp-card-container">
 
 <VPCard
@@ -161,7 +163,7 @@ pop-up panel, click the login button right corresponding to your account.
 If you are using a China server account, you need login within `MiYouShe` category; If you are using an oversea account
 (aka. HoYoLAB/HoYoverse account), you need login within `HoYoLAB` category.
 
-Whatever account type you have, you have both `Web Login` and `Cookie Login` method.
+Whatever account type you have, you have both `Web Login` and `Cookie Login` method. For MiYouShe mobile app users with CN server game account, you can also use `QR Code Login` method.
 
 ::: tabs
 
@@ -178,6 +180,14 @@ Whatever account type you have, you have both `Web Login` and `Cookie Login` met
 If you wish to sign in to your account with MiHoYo Passport cookie that extracted by youself, you can click `Input Manually`
 button in the account panel, and input your cookie with `SToken` field. If the entered cookie is valid, your account will
 be displayed in the account panel once your click the `Confirm` button.
+
+@tab QR Code Login
+
+**QR code login method only supports scanner from MiYouShe mobile app, with bound CN game server account.**
+
+1. Click on `QR Code Login` in the account panel, waiting for QR code be fully loaded
+2. Open MiYouShe mobile app, click `我的` (Me), click QR code scanner icon on the top left
+3. Scan the QR code provided by Snap Hutao, confirm the login request on your phone, and Snap Hutao will process it
 
 :::
 

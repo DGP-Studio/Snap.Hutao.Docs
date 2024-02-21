@@ -9,7 +9,27 @@ externalLinkIcon: false
 
 # Update Logs
 
-## 1.9.6 <Badge text="latest" type="tip" />
+## 1.9.7 <Badge text="latest" type="tip" />
+
+- New ➕
+  - Added [Better Genshin Impact](https://bgi.huiyadan.com/) joint start up option in the advanced launcher, users now can start Genshin Impact and BGI together in Snap Hutao [#1388](https://github.com/DGP-Studio/Snap.Hutao/issues/1388)
+  - Added multiple client background wallpaper sources, including:
+    - No wallpaper (default)
+    - Random images in local background folder
+    - Bing daily wallpaper
+    - Hutao daily wallpaper
+    - Genshin Impact official launcher background
+- Fix 🔨
+  - Fixed the issue that when Discord is running with administrator privilege and Snap Hutao is running in normal privilege, Snap Hutao will crash [#1400](https://github.com/DGP-Studio/Snap.Hutao/issues/1400)
+  - Fixed the issue that reorder game account in Advanced Launcher with administrator privilege would cause the clint to crash [#1379](https://github.com/DGP-Studio/Snap.Hutao/issues/1379)
+  - Fixed the issue that scroll down the in-game announcement in Dashboard would cause the announcement disappear [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
+  - Fixed some human unreadable text in character WIKI, again [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
+  - Fixed the issue that searching result in Feedback Center was not HTML decoded [#1391](https://github.com/DGP-Studio/Snap.Hutao/issues/1391)
+- Optimization ✨
+  - Added two 4K resolution options in Advanced Launcher [#1375](https://github.com/DGP-Studio/Snap.Hutao/issues/1375)
+  - Client will now memorize selected character in each account in MiHoYo BBS account panel [#1233](https://github.com/DGP-Studio/Snap.Hutao/issues/1233)
+
+## 1.9.6
 
 - New ➕
   - Added customized background image feature, users now can open background image folder and add images they like [#357](https://github.com/DGP-Studio/Snap.Hutao/issues/357)
