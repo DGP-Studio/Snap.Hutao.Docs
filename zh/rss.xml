@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 20 Feb 2024 10:53:47 GMT</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2024 10:53:47 GMT</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2024 09:56:58 GMT</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2024 09:56:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -84,13 +84,16 @@
       <link>https://hut.ao/zh/development/join.html</link>
       <guid>https://hut.ao/zh/development/join.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入我们</source>
-      <description>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！ 我们不会为下面需求设置明确的目标门槛。对新领域的探索、对技术的热情以及负责任的态度是活跃在开源社区的重要支撑。 软件开发 DGP-Studio 的组织成员可以： [x] 向 Snap Hutao 和关联项目添加自己设计的功能; [x] 接触到其它知名原神社区项目的开发...</description>
+      <description>如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！ 我们不会为下面需求设置明确的门槛。乐于探索新领域的精神、对技术的热情以及负责任的态度对于开源社区才是更重要的。 太忙？只是想快速解决某个你遇到的问题？阅读开发手册 (contribute.md)并直接发起你的 Pull Request...</description>
       <category>开源</category>
       <category>开发</category>
       <pubDate>Fri, 22 Dec 2023 04:12:52 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 加入我们</h1>
-<p>如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
-<p><strong>我们不会为下面需求设置明确的目标门槛。对新领域的探索、对技术的热情以及负责任的态度是活跃在开源社区的重要支撑。</strong></p>
+<p>如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
+<p><strong>我们不会为下面需求设置明确的门槛。乐于探索新领域的精神、对技术的热情以及负责任的态度对于开源社区才是更重要的。</strong></p>
+<blockquote>
+<p>太忙？只是想快速解决某个你遇到的问题？阅读<a href="/zh/development/contribute.html" target="blank">开发手册</a>并直接发起你的 Pull Request，我们会认真对待有建设性的代码提交。</p>
+</blockquote>
 <h2> </h2>
 <p><strong>DGP-Studio 的组织成员可以：</strong></p>
 <ul class="task-list-container">
@@ -613,7 +616,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 </li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> 国际服/国服客户端转换</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服游戏账号切换</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 国际服游戏账号切换</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> 国际服祈愿记录导出</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> 国际服角色属性统计</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> HoYoLAB 登录支持</label>
@@ -916,8 +919,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2> </h2>
 <p>在进入胡桃工具箱主界面后，点击左下角文档按钮和设置按钮中间的账号面板。在弹出的米游社账号面板中，根据你的账号类型选择对应的登录按钮。</p>
 <p>如果你的原神账号是米哈游的国服账号，需要在<code>米游社</code>类别内登录；如果你的原神账号是 HoYoverse 的国际服账号，需要在 <code>HoYoLAB</code> 类别内登录。</p>
-<p>无论是国服账号还是国际服账号，你都有<code>网页登录</code>和<code>Cookie登录</code>两种登录方式。</p>
-<p>对于使用米游社APP并绑定国服游戏账号的用户，可以选择<code>扫码登录</code>。</p>
+<p>无论是国服账号还是国际服账号，你都有<code>网页登录</code>和<code>Cookie登录</code>两种登录方式。对于使用米游社手机应用并绑定国服游戏账号的用户，可以选择<code>扫码登录</code>。</p>
 
 <hr>
 <p><em><strong>至此，你已经初步设置好了你的胡桃工具箱。你现在可以自由探索这个应用，你也可以在这个这个网站中找到胡桃的全部帮助文档。</strong></em></p>

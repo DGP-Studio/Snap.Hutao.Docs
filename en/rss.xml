@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 20 Feb 2024 10:53:47 GMT</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2024 10:53:47 GMT</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2024 09:56:58 GMT</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2024 09:56:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -95,6 +95,10 @@
       <pubDate>Fri, 22 Dec 2023 05:58:32 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Join the Develop Team</h1>
 <p>If you have one of the following experiences and are interested in joining the Snap Hutao development team to improve this project and get in touch with more Genshin Impact open source projects, welcome to join us!</p>
+<p><strong>We will not set any specific skill requirement. Willingness to explore new areas, passion for technology and responsible attitude are more important to the open source community.</strong></p>
+<blockquote>
+<p>Too busy? Just wanna give a quick fix to issue you faced? Check the <a href="/en/development/contribute.html" target="blank">contribution manual</a> and start your Pull Request directly, we will take constructive code commits seriously.</p>
+</blockquote>
 <h2> </h2>
 <p><strong>DGP-Studio Members can</strong></p>
 <ul class="task-list-container">
@@ -2022,7 +2026,7 @@ community members can contribute Japanese language on <a href="https://translate
 </ul>
 </li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> Oversea/China server conversion</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> Oversea server account switch</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> Oversea server account switch</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> Oversea server wish history export</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> Oversea server character stat</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> HoYoLab login</label>
@@ -3586,7 +3590,7 @@ you can find<code>Evergreen Standalone Installer</code>, choose<code>x64</code>d
 pop-up panel, click the login button right corresponding to your account.</p>
 <p>If you are using a China server account, you need login within <code>MiYouShe</code> category; If you are using an oversea account
 (aka. HoYoLAB/HoYoverse account), you need login within <code>HoYoLAB</code> category.</p>
-<p>Whatever account type you have, you have both <code>Web Login</code> and <code>Cookie Login</code> method.</p>
+<p>Whatever account type you have, you have both <code>Web Login</code> and <code>Cookie Login</code> method. For MiYouShe mobile app users with CN server game account, you can also use <code>QR Code Login</code> method.</p>
 
 <hr>
 <p><em><strong>Now, you have finished your initial set up of Snap Hutao. You are now free to explore this application, you can also
