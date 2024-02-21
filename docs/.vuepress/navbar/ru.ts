@@ -5,7 +5,7 @@ export const ruNavbar = navbar([
   {
     text: "Документация",
     icon: "iconfont icon-article",
-    link: "/ru/menu.html",
+    link: "/ru/menu",
   },
   {
     text: "Скачать",

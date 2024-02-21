@@ -2,7 +2,11 @@ import { navbar } from "vuepress-theme-hope";
 
 export const idNavbar = navbar([
   "/id/",
-  { text: "Document", icon: "iconfont icon-article", link: "/id/menu.html" },
+  {
+    text: "Document",
+    icon: "iconfont icon-article",
+    link: "/id/menu",
+  },
   {
     text: "Unduh",
     icon: "iconfont icon-install",
