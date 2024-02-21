@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 21 Feb 2024 09:56:58 GMT</pubDate>
-    <lastBuildDate>Wed, 21 Feb 2024 09:56:58 GMT</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2024 12:45:59 GMT</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2024 12:45:59 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -2808,11 +2808,43 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>1.9.6 新增➕; 新增自定义应用内背景功能，用户可以在设置内打开背景目录并设置想要展示的图片 #357 (https://github.com/DGP-Studio/Snap.Hutao/issues/357); 新增设置页面的响应式布局，现在页面布局会随着窗口大小动态调整，@Scighost (https://github.com/Scighos...</description>
+      <description>1.9.7 新增 ➕; 在高级启动器中新增与 Better Genshin Impact (https://bgi.huiyadan.com/) 程序的联动启动功能，用户现在可以在通过 Snap Hutao 启动游戏的同时，自动启动 BGI #1388 (https://github.com/DGP-Studio/Snap.Hutao/issues/1...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 更新日志</h1>
-<h2> 1.9.6 </h2>
+<h2> 1.9.7 </h2>
+<ul>
+<li>新增 ➕
+<ul>
+<li>在高级启动器中新增与 <a href="https://bgi.huiyadan.com/" target="_blank" rel="noopener noreferrer">Better Genshin Impact</a> 程序的联动启动功能，用户现在可以在通过 Snap Hutao 启动游戏的同时，自动启动 BGI <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1388" target="_blank" rel="noopener noreferrer">#1388</a></li>
+<li>新增了多个客户端背景图的来源选项，包括：
+<ul>
+<li>无背景图片（默认选项）</li>
+<li>本地随机图片</li>
+<li>Bing 每日图片</li>
+<li>胡桃每日图片</li>
+<li>原神官方启动器背景图</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>修复 🔨
+<ul>
+<li>修复了当 Discord 以管理员权限运行时，用普通权限启动胡桃时，胡桃会闪退的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1400" target="_blank" rel="noopener noreferrer">#1400</a></li>
+<li>修复了管理员模式下拖动排序导致客户端闪退的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1379" target="_blank" rel="noopener noreferrer">#1379</a></li>
+<li>修复了首页游戏公告下滑至底部会使公告消失的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1365" target="_blank" rel="noopener noreferrer">#1365</a></li>
+<li>再次修复了角色资料部分文本显示异常的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1316" target="_blank" rel="noopener noreferrer">#1316</a></li>
+<li>修复了反馈中心中搜索结果未进行 HTML 解码的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1391" target="_blank" rel="noopener noreferrer">#1391</a></li>
+</ul>
+</li>
+<li>优化 ✨
+<ul>
+<li>高级启动器中的快捷分辨率设置新增两个分辨率快捷选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1375" target="_blank" rel="noopener noreferrer">#1375</a></li>
+<li>记忆用户的每个账号下选中的角色 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1233" target="_blank" rel="noopener noreferrer">#1233</a></li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.6</h2>
 <ul>
 <li>新增➕
 <ul>

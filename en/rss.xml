@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 21 Feb 2024 09:56:58 GMT</pubDate>
-    <lastBuildDate>Wed, 21 Feb 2024 09:56:58 GMT</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2024 12:45:59 GMT</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2024 12:45:59 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -1041,11 +1041,43 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>1.9.6 New ➕; Added customized background image feature, users now can open background image folder and add images they like #357 (https://github.com/DGP-Studio/Snap.Hutao/issues...</description>
+      <description>1.9.7 New ➕; Added Better Genshin Impact (https://bgi.huiyadan.com/) joint start up option in the advanced launcher, users now can start Genshin Impact and BGI together in Snap ...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Update Logs</h1>
-<h2> 1.9.6 </h2>
+<h2> 1.9.7 </h2>
+<ul>
+<li>New ➕
+<ul>
+<li>Added <a href="https://bgi.huiyadan.com/" target="_blank" rel="noopener noreferrer">Better Genshin Impact</a> joint start up option in the advanced launcher, users now can start Genshin Impact and BGI together in Snap Hutao <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1388" target="_blank" rel="noopener noreferrer">#1388</a></li>
+<li>Added multiple client background wallpaper sources, including:
+<ul>
+<li>No wallpaper (default)</li>
+<li>Random images in local background folder</li>
+<li>Bing daily wallpaper</li>
+<li>Hutao daily wallpaper</li>
+<li>Genshin Impact official launcher background</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fix 🔨
+<ul>
+<li>Fixed the issue that when Discord is running with administrator privilege and Snap Hutao is running in normal privilege, Snap Hutao will crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1400" target="_blank" rel="noopener noreferrer">#1400</a></li>
+<li>Fixed the issue that reorder game account in Advanced Launcher with administrator privilege would cause the clint to crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1379" target="_blank" rel="noopener noreferrer">#1379</a></li>
+<li>Fixed the issue that scroll down the in-game announcement in Dashboard would cause the announcement disappear <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1365" target="_blank" rel="noopener noreferrer">#1365</a></li>
+<li>Fixed some human unreadable text in character WIKI, again <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1316" target="_blank" rel="noopener noreferrer">#1316</a></li>
+<li>Fixed the issue that searching result in Feedback Center was not HTML decoded <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1391" target="_blank" rel="noopener noreferrer">#1391</a></li>
+</ul>
+</li>
+<li>Optimization ✨
+<ul>
+<li>Added two 4K resolution options in Advanced Launcher <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1375" target="_blank" rel="noopener noreferrer">#1375</a></li>
+<li>Client will now memorize selected character in each account in MiHoYo BBS account panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1233" target="_blank" rel="noopener noreferrer">#1233</a></li>
+</ul>
+</li>
+</ul>
+<h2> 1.9.6</h2>
 <ul>
 <li>New ➕
 <ul>
