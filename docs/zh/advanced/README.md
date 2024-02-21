@@ -9,4 +9,4 @@ dir:
 
 # 高级
 
-<AutoCatalog />
+<Catalog />

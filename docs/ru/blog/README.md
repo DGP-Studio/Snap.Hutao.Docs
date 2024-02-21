@@ -9,4 +9,4 @@ dir:
 
 # Dev Logs
 
-<AutoCatalog />
+<Catalog />

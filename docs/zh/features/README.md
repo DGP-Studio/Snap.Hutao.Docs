@@ -10,4 +10,4 @@ dir:
 
 # 功能指南
 
-<AutoCatalog />
+<Catalog />

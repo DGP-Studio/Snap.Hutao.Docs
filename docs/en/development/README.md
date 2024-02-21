@@ -10,4 +10,4 @@ dir:
 
 # Open Source Development
 
-<AutoCatalog />
+<Catalog />
