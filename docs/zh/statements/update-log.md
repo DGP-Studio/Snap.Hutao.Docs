@@ -20,13 +20,13 @@ externalLinkIcon: false
     - 原神官方启动器背景图
 - 修复 🔨
   - 修复了当 Discord 以管理员权限运行时，用普通权限启动胡桃时，胡桃会闪退的问题 [#1400](https://github.com/DGP-Studio/Snap.Hutao/issues/1400)
-  - 修复了启动器内拖动账号排序导致客户端闪退的问题 [#1379](https://github.com/DGP-Studio/Snap.Hutao/issues/1379)
-  - 修复了首页公告下滑至底部导致客户端闪退的问题 [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
-  - 进一步通过元数据格式修复流浪者角色资料异常问题 [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
-  - 修复了反馈中心中搜索结果未进行 XML 解码的问题 [#1391](https://github.com/DGP-Studio/Snap.Hutao/issues/1391)
+  - 修复了管理员模式下拖动排序导致客户端闪退的问题 [#1379](https://github.com/DGP-Studio/Snap.Hutao/issues/1379)
+  - 修复了首页游戏公告下滑至底部会使公告消失的问题 [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
+  - 再次修复了角色资料部分文本显示异常的问题 [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
+  - 修复了反馈中心中搜索结果未进行 HTML 解码的问题 [#1391](https://github.com/DGP-Studio/Snap.Hutao/issues/1391)
 - 优化 ✨
-  - 高级启动器中的快捷分辨率设置新增4K分辨率的选项 [#1375](https://github.com/DGP-Studio/Snap.Hutao/issues/1375)
-  - 允许用户面板中的 HoYoLAB 账号被设置优先次序 [#1233](https://github.com/DGP-Studio/Snap.Hutao/issues/1233)
+  - 高级启动器中的快捷分辨率设置新增两个分辨率快捷选项 [#1375](https://github.com/DGP-Studio/Snap.Hutao/issues/1375)
+  - 记忆用户的每个账号下选中的角色 [#1233](https://github.com/DGP-Studio/Snap.Hutao/issues/1233)
 
 ## 1.9.6
 
