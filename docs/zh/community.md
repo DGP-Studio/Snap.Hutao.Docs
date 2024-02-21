@@ -1,6 +1,6 @@
 ---
 headerDepth: 0
-category: [公告]
+category: 公告
 comment: false
 icon: iconfont icon-community
 order: 8

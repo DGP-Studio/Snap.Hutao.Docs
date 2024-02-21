@@ -1,6 +1,11 @@
 ---
-category: [open source, development]
-tag: ["develop", "collaborate", "community"]
+category:
+  - open source
+  - development
+tag:
+  - develop
+  - collaborate
+  - community
 icon: iconfont icon-group
 order: 1
 ---
@@ -8,6 +13,10 @@ order: 1
 # Join the Develop Team
 
 If you have one of the following experiences and are interested in joining the Snap Hutao development team to improve this project and get in touch with more Genshin Impact open source projects, welcome to join us!
+
+**We will not set any specific skill requirement. Willingness to explore new areas, passion for technology and responsible attitude are more important to the open source community.**
+
+> Too busy? Just wanna give a quick fix to issue you faced? Check the [contribution manual](contribute.md) and start your Pull Request directly, we will take constructive code commits seriously.
 
 ## <HopeIcon icon="iconfont icon-creative" size="2rem" color="rgb(252, 163, 38)" /> Developer
 
@@ -27,7 +36,7 @@ logo="/images/202312/C_sharp.svg"
 :actions='[
 {
 text: "Join Dev Community",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
+link:"https://discord.gg/Yb8bykaUKp",
 },
 {
 text: "Snap Hutao 2024 Roadmap",
@@ -47,8 +56,9 @@ content="<b>Responsible for:</b><br>Hutao Abyss Database website and Hutao Passp
 logo="/images/202401/javascript.svg"
 :actions='[
 {
-text: "Join Dev Community",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
+text: "Fulfilled",
+link:"",
+type: "default"
 },
 ]'
 />
@@ -61,7 +71,7 @@ Our front-end project includes
 - [Hutao.API.Web](https://github.com/DGP-Studio/Hutao.API.Web)
   - Hutao Abyss Database Website project
 
-## <HopeIcon icon="iconfont icon-community" size="2rem" color="rgb(66, 148, 255)" /> Community Maintenance
+## <HopeIcon icon="iconfont icon-community" size="2rem" color="rgb(66, 148, 255)" /> Community Maintainer
 
 <VPBanner
 title="Document Maintenance"
@@ -70,7 +80,7 @@ logo="/images/202312/documents.svg"
 :actions='[
 {
 text: "Join Dev Community",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
+link:"https://discord.gg/Yb8bykaUKp",
 },
 {
 text: "Snap Hutao Document",
@@ -87,7 +97,7 @@ logo="/images/202312/video-editing.svg"
 :actions='[
 {
 text: "Join Dev Community",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
+link:"https://discord.gg/Yb8bykaUKp",
 },
 ]'
 />

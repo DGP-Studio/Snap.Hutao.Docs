@@ -1,15 +1,22 @@
 ---
-category: [开源, 开发]
-tag: ["开发", "团队协作", "社区"]
+category:
+  - 开源
+  - 开发
+tag:
+  - 开发
+  - 团队协作
+  - 社区
 icon: iconfont icon-group
 order: 1
 ---
 
 # 加入我们
 
-如果你有以下经验之一且有兴趣完善这个项目，并接触到更多的原神开源项目，欢迎加入我们！
+如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！
 
-**我们不会为下面需求设置明确的目标门槛。对新领域的探索、对技术的热情以及负责任的态度是活跃在开源社区的重要支撑。**
+**我们不会为下面需求设置明确的门槛。乐于探索新领域的精神、对技术的热情以及负责任的态度对于开源社区才是更重要的。**
+
+> 太忙？只是想快速解决某个你遇到的问题？阅读[开发手册](contribute.md)并直接发起你的 Pull Request，我们会认真对待有建设性的代码提交。
 
 ## <HopeIcon icon="iconfont icon-creative" size="2rem" color="rgb(252, 163, 38)" /> 软件开发
 
@@ -51,8 +58,9 @@ content="<b>负责内容</b>：<br>胡桃深渊数据库网页版和胡桃通行
 logo="/images/202401/javascript.svg"
 :actions='[
 {
-text: "加入开发者交流群",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
+text: "已满",
+link: "",
+type: "default"
 },
 ]'
 />
