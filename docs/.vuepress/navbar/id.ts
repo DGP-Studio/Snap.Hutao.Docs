@@ -26,7 +26,7 @@ export const idNavbar = navbar([
         text: "Uptime Kuma",
         icon: "/images/202312/uptime-kuma.svg",
         link: "https://status.snapgenshin.cn/status",
-      }
-    ]
+      },
+    ],
   },
 ]);

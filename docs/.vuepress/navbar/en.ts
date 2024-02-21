@@ -20,7 +20,7 @@ export const enNavbar = navbar([
       {
         text: "Update Log",
         icon: "iconfont icon-update",
-        link: "/en/statements/update-log.html"
+        link: "/en/statements/update-log.html",
       },
       {
         text: "Service Availability",
@@ -34,25 +34,24 @@ export const enNavbar = navbar([
             text: "Uptime Kuma",
             icon: "/images/202312/uptime-kuma.svg",
             link: "https://status.snapgenshin.cn/status",
-          }
-        ]
+          },
+        ],
       },
       {
         text: "Question & Feedback",
-        children:[
+        children: [
           {
             text: "FAQ",
             icon: "iconfont icon-ask",
-            link: "/en/advanced/FAQ.html"
+            link: "/en/advanced/FAQ.html",
           },
           {
             text: "Report Bug",
             icon: "iconfont icon-debug",
-            link: "/en/statements/bug-report.html"
+            link: "/en/statements/bug-report.html",
           },
-
-        ]
-      }
-    ]
+        ],
+      },
+    ],
   },
 ]);

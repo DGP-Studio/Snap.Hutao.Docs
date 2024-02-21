@@ -20,7 +20,7 @@ export const zhNavbar = navbar([
       {
         text: "更新日志",
         icon: "iconfont icon-update",
-        link: "/zh/statements/update-log.html"
+        link: "/zh/statements/update-log.html",
       },
       {
         text: "服务可用性",
@@ -34,25 +34,24 @@ export const zhNavbar = navbar([
             text: "Uptime Kuma",
             icon: "/images/202312/uptime-kuma.svg",
             link: "https://status.snapgenshin.cn/status",
-          }
-        ]
+          },
+        ],
       },
       {
         text: "问题与反馈",
-        children:[
+        children: [
           {
             text: "常见问题",
             icon: "iconfont icon-ask",
-            link: "/zh/advanced/FAQ.html"
+            link: "/zh/advanced/FAQ.html",
           },
           {
             text: "反馈问题",
             icon: "iconfont icon-debug",
-            link: "/zh/statements/bug-report.html"
+            link: "/zh/statements/bug-report.html",
           },
-
-        ]
-      }
-    ]
+        ],
+      },
+    ],
   },
 ]);

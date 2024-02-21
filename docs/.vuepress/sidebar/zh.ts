@@ -15,35 +15,27 @@ export const zhSidebar = sidebar({
           icon: "iconfont icon-module",
           text: "游戏工具",
           children: [
-            "dashboard.md",
-            "game-launcher.md",
-            "wish-export.md",
-            "achievements.md",
-            "real-time-notes.md",
-            "character-data.md",
-            "hutao-API.md",
-            "develop-plan.md"
-          ]
+            "dashboard",
+            "game-launcher",
+            "wish-export",
+            "achievements",
+            "real-time-notes",
+            "character-data",
+            "hutao-API",
+            "develop-plan",
+          ],
         },
         {
           icon: "iconfont icon-study",
           text: "游戏 WIKI",
-          children: [
-            "character-wiki.md",
-            "weapon-wiki.md",
-            "monster-wiki.md"
-          ]
+          children: ["character-wiki", "weapon-wiki", "monster-wiki"],
         },
         {
           icon: "iconfont icon-setting",
           text: "软件功能",
-          children: [
-            "feedback-center.md",
-            "hutao-passport.md",
-            "hutao-settings.md"
-          ]
+          children: ["feedback-center", "hutao-passport", "hutao-settings"],
         },
-      ]
+      ],
     },
     {
       icon: "iconfont icon-advance",
@@ -68,6 +60,6 @@ export const zhSidebar = sidebar({
       text: "开发日志",
       prefix: "blog/",
       children: "structure",
-    }
+    },
   ],
 });
