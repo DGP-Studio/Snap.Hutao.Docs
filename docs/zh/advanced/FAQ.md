@@ -22,7 +22,7 @@ comment: false
 
 - 当用户系统缺少必要依赖环境时，系统会自动安装所需依赖。若用户禁用了 Windows Update 组件或网络条件差时，系统无法完成该步骤。
   - 请确保 Windows Update 已启用；胡桃工具箱的安装过程依赖于 Windows Update 组件
-  - 你亦可以手动下载并安装[胡桃的相关依赖](dependency.md)
+  - 你亦可以手动下载并安装[胡桃的相关依赖](dependency.md#手动安装依赖项)
 
 ### 为什么程序中的图标会出现乱码现象
 
@@ -35,15 +35,15 @@ comment: false
 
 你的计算机缺少了 Windows 系统重要组件 App Installer，你可能是盗版软件的受害者。
 
-如果你的系统中装有 Microsoft Store，可以从 [App Installer 商店页](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US)重新安装来恢复该组件。
+如果你的系统中装有 Microsoft Store，可以从[App Installer 商店页](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US)重新安装来恢复该组件。
 
-如果你没有Windows Store，请使用微软官方的最新完整版消费者 [Windows 10](https://www.microsoft.com/zh-cn/software-download/windows10) 或 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11) 镜像。 使用微软官方的提供的 Windows 10 升级助手和 Windows 11 安装助手可以帮助你简单地在保留数据的情况下升级至最新完整版 Windows。**请勿使用来源不明的破解版、精简版系统镜像。**
+如果你没有Windows Store，请使用微软官方的最新完整版消费者 [Windows 10](https://www.microsoft.com/zh-cn/software-download/windows10) 或 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11) 镜像。使用微软官方的提供的 Windows 10 升级助手和 Windows 11 安装助手可以帮助你简单地在保留数据的情况下升级至最新完整版 Windows。**请勿使用来源不明的破解版、精简版系统镜像。**
 
 ### MSIX 安装包提示 `无法验证此应用包的发布者证书` 错误并无法安装
 
 该问题常见于 Windows 家庭版系统。如果你使用的不是家庭版系统，则你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。
 
-Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载[该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt)并添加到你的系统中的可信任的根证书授权机构模块中。
+Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载[该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt)并添加到你的系统中的 `可信任的根证书授权机构` 类别中。
 
 ### MSIX 安装包提示组策略错误或需要 Windows 开发者许可证错误并无法安装
 
@@ -62,13 +62,13 @@ Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://s
 
 如果你在安装失败时收到了上面的错误提示，请尝试下面的步骤来解决问题：
 
-1. 手动下载并安装[胡桃的相关依赖](dependency.md)
+1. 手动下载并安装[胡桃的相关依赖](dependency.md#手动安装依赖项)
 2. 在 Windows 开始菜单按钮上右键，选择 `PowerShell (管理员)`
 3. 在打开的窗口中复制下面的代码并回车执行（在PowerShell中鼠标右键就是粘贴）
    ```PowerShell :no-line-numbers
    cd $env:USERPROFILE\Downloads; $url="https://api.snapgenshin.com/patch/hutao/download"; $targetFileName="Snap.Hutao.latest.msix"; $targetFilePath=Join-Path -Path $PWD -ChildPath $targetFileName; Invoke-WebRequest -Uri $url -OutFile $targetFilePath; Add-AppxPackage -Path $targetFilePath; Remove-Item -Path $targetFilePath
    ```
-4. 如果 PowerShell 没有任何错误输出，意味着安装成功。请在开始菜单中的全部应用列表中寻找 `Snap Hutao`并启动
+4. 如果 PowerShell 没有任何错误输出（通常为红色），意味着安装成功。请在开始菜单中的全部应用列表中寻找 `Snap Hutao` 并启动
 
 ### 能不能通过添加缺少的系统组件来实现胡桃的安装
 
@@ -99,25 +99,26 @@ net stop appxsvc; Invoke-WebRequest -Uri https://aka.ms/windowsappsdk/1.4/latest
 - `Win+R` 呼出运行窗口，在窗口中输入`shell:AppsFolder`
   ![Run](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png_.webp)
 - Windows 会弹出应用程序目录，找到胡桃工具箱
-- 右键，点击`创建快捷方式`
+- 右键，点击 “创建快捷方式”
 - 根据提示操作你就可以获得一个桌面快捷方式了
 
 ### 如何创建胡桃的桌面快捷方式 （管理员模式）
 
-你可以在程序设置页面中点击`创建快捷方式`来在桌面上添加一个具有管理员权限的快捷方式
+你可以在程序设置页面中点击 “创建快捷方式” 来在桌面上添加一个具有管理员权限的快捷方式
 
 ### 如何让胡桃工具箱开机自动启动
 
 - 请参考如下思路
   - 可以自行创建一个批处理文件，内容参考[此 issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184)中，令胡桃以管理员模式直接运行的命令。
   - 设置一个**计划任务程序**令上述批处理文件开机自启，或将上述批处理文件加入**启动项**中
-- 或有其他令胡桃工具箱可开机自启的思路，可自行探索
+  - 使用 `SkipUAC` 等可以使软件以管理员身份静默自启的程序
+- 或其他可以使胡桃工具箱开机自启的思路，敬请自行探索
 
 ### 无法使用管理员模式启动胡桃工具箱
 
 > 该问题仅存在于 Windows 10 低于 22H2 的版本中
 
-- 当用户系统版本低于 `Windows Build 19045`（即 Windows 10 22H2 版本）时，可能无法通过管理员模式启动胡桃工具箱
+- 当用户系统版本低于 `Windows Build 19045`（即 `Windows 10 22H2` 版本）时，可能无法通过管理员模式启动胡桃工具箱
   - 该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本
 
 ## 功能使用篇
@@ -130,7 +131,7 @@ net stop appxsvc; Invoke-WebRequest -Uri https://aka.ms/windowsappsdk/1.4/latest
 
   ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png_.webp)
 
-- 选择`启动游戏`即可
+- 选择 “启动游戏” 即可
 
 ### 为什么米游社账号登录状态经常失效，添加的账号消失
 
@@ -171,7 +172,7 @@ net stop appxsvc; Invoke-WebRequest -Uri https://aka.ms/windowsappsdk/1.4/latest
    1. 国服原神客户端目录下有名为 `YuanShen.exe` 的游戏主程序和名为 `YuanShen_Data` 的游戏程序目录
    2. 国际服原神客户端目录下有名为 `GenshinImpact.exe` 的游戏主程序和名为 `GenshinImpact_Data` 的游戏程序目录
 2. 关于胡桃客户端转换服务器功能下的备份步骤
-   1. 在转换服务器前，胡桃客户端会备份当前游戏客户端的主程序以及国服/国际服客户端专有的一些组件程序，即 `exe` 主程序和 `_Data` 目录
+   1. 在转换服务器前，胡桃客户端会备份当前游戏客户端的主程序以及国服／国际服客户端专有的一些组件程序，即 `exe` 主程序和 `_Data` 目录
    2. 备份文件储存于当前 Windows 用户下的文档库中的 `Hutao/ServerCache` 目录下，即 `%userprofile%/Documents/Hutao/ServerCache`
 
 手动恢复游戏主程序步骤（此处以国际服转国服为例）：
@@ -181,8 +182,7 @@ net stop appxsvc; Invoke-WebRequest -Uri https://aka.ms/windowsappsdk/1.4/latest
 3. 手动将游戏主程序目录下的 `YuanShen_Data` 文件夹更名为 `GenshinImpact_Data`
 4. 手动将 `Hutao/ServerCache` 下的 `GenshinImpact.exe` 和 `GenshinImpact_Data` 复制回游戏主程序目录中并覆盖当前已有文件
 5. 此时你的游戏客户端应已恢复正常
-6. 重新进入胡桃客户端的 `游戏启动器` 界面，`游戏路径不正确` 错误应不再出现，且`服务器`设置一栏为空。此时，你可以选择原本的服务器版本（国际服）
-   并立刻启动游戏，或选择新的服务器目标（国服）并转换客户端版本。
+6. 重新进入胡桃客户端的 “游戏启动器” 界面，“游戏路径不正确” 错误应不再出现，且 “服务器” 设置一栏为空。此时，你可以选择原本的服务器版本（国际服）并立刻启动游戏，或选择新的服务器目标（国服）并转换客户端版本。
 
 ### 如何恢复 `config.ini` 配置文件
 
@@ -216,7 +216,7 @@ plugin_7_version=1.0.0
 
 :::
 
-### 为什么设置实时便笺的自动刷新会提示“修改计划任务失败”
+### 为什么设置实时便笺的自动刷新会提示 “修改计划任务失败”
 
 实时便笺的自动刷新依赖于任务计划。为了避免可能的权限问题，胡桃工具箱会强制在非管理员模式设置计划任务。
 
@@ -230,7 +230,7 @@ plugin_7_version=1.0.0
 
 > Snap Hutao 有着良好的云端网络结构，在全球各地你都能获得良好的网络服务
 
-所有的 Windows Appx 容器应用（包括 Snap Hutao）都被禁用了 Loopback 网络，因此使用一些现代化的网络代理软件时会导致容器化应用无法访问互联网，进而导致程序错误。
+所有的 Windows Appx 容器应用（包括 Snap Hutao）都被禁用了 `Loopback 网络`，因此使用一些现代化的网络代理软件时会导致容器化应用无法访问互联网，进而导致程序错误。
 
 如果你需要通过网络代理使用 Snap Hutao，你有两种方法：
 
@@ -247,7 +247,7 @@ plugin_7_version=1.0.0
 
 ![uninstall-error](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg_.webp)
 
-如在卸载胡桃工具箱后出现如上图所示的`需要使用新应用以打开此 hutao 链接`，说明没有按文档要求在卸载前清除实时便笺定时任务。
+如在卸载胡桃工具箱后出现如上图所示的 “需要使用新应用以打开此 hutao 链接”，说明没有按文档要求在卸载前清除实时便笺定时任务。
 请根据文档在设置中清除定时任务后再卸载胡桃工具箱。
 
 - 如果你在系统定时任务中找不到胡桃的定时任务，但问题仍然出现，请参考[这份文档](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/18)来解决
@@ -258,5 +258,4 @@ plugin_7_version=1.0.0
 `Userdata.db` 包含你的全部客户端数据，包括安全敏感的米哈游论坛 Cookie，请妥善储存该文件，不要将其分享给任何人。
 :::
 
-从在胡桃数据目录（默认路径为 `%userprofile%/Documents/Hutao`）中以复制的方式将 `Userdata.db` 拷贝至你的备份目录即可，该文件包含了全部的
-胡桃客户端数据。
+从在胡桃数据目录（默认路径为 `%userprofile%/Documents/Hutao`）中以复制的方式将 `Userdata.db` 拷贝至你的备份目录即可，该文件包含了全部的胡桃客户端数据。
