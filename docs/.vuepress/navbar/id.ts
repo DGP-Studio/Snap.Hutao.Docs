@@ -2,7 +2,11 @@ import { navbar } from "vuepress-theme-hope";
 
 export const idNavbar = navbar([
   "/id/",
-  { text: "Document", icon: "iconfont icon-article", link: "/id/menu.html" },
+  {
+    text: "Document",
+    icon: "iconfont icon-article",
+    link: "/id/menu",
+  },
   {
     text: "Unduh",
     icon: "iconfont icon-install",
@@ -26,7 +30,7 @@ export const idNavbar = navbar([
         text: "Uptime Kuma",
         icon: "/images/202312/uptime-kuma.svg",
         link: "https://status.snapgenshin.cn/status",
-      }
-    ]
+      },
+    ],
   },
 ]);

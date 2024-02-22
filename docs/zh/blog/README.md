@@ -9,4 +9,4 @@ dir:
 
 # 开发日志
 
-<AutoCatalog />
+<Catalog />

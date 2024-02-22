@@ -35,6 +35,6 @@ export const ruSidebar = sidebar({
       text: "Dev Logs",
       prefix: "blog/",
       children: "structure",
-    }
+    },
   ],
 });
