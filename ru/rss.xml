@@ -6,9 +6,9 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Wed, 21 Feb 2024 12:45:59 GMT</pubDate>
-    <lastBuildDate>Wed, 21 Feb 2024 12:45:59 GMT</lastBuildDate>
-    <generator>vuepress-plugin-feed2</generator>
+    <pubDate>Thu, 22 Feb 2024 08:16:47 GMT</pubDate>
+    <lastBuildDate>Thu, 22 Feb 2024 08:16:47 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Dev Logs</category>
     <category>Объявление</category>
@@ -33,8 +33,9 @@
       <link>https://hut.ao/ru/blog/</link>
       <guid>https://hut.ao/ru/blog/</guid>
       <source url="https://hut.ao/ru/rss.xml">Dev Logs</source>
+      <description>Dev Logs </description>
       <pubDate>Wed, 20 Dec 2023 04:34:39 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Dev Logs</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -42,63 +43,23 @@
       <link>https://hut.ao/ru/blog/version-1-9-0-breaking-changes.html</link>
       <guid>https://hut.ao/ru/blog/version-1-9-0-breaking-changes.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Explanation of Breaking Changes in Version 1.9.0</source>
-      <description>This document is applicable to users upgrading from Snap Hutao versions 1.4.11 to 1.8.4 to version 1.9.0 and higher. Introduction Snap Hutao is a Windows sandbox application in ...</description>
+      <description>Explanation of Breaking Changes in Version 1.9.0 This document is applicable to users upgrading from Snap Hutao versions 1.4.11 to 1.8.4 to version 1.9.0 and higher. Introductio...</description>
       <category>Dev Logs</category>
       <pubDate>Wed, 20 Dec 2023 04:34:39 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Explanation of Breaking Changes in Version 1.9.0</h1>
+      <content:encoded><![CDATA[
 <p>This document is applicable to users upgrading from Snap Hutao versions <strong>1.4.11 to 1.8.4</strong> to version 1.9.0 and higher.</p>
-<h2> Introduction</h2>
+<h2>Introduction</h2>
 <p>Snap Hutao is a Windows sandbox application in MSIX format, providing the convenience of installation and the security of AppX applications. Mandatory code signing in installation packages is a crucial factor in ensuring security. If the installation package is modified, Windows App Installer will raise an error due to the signature being compromised, preventing user installation. We can see this practice everywhere in today's mobile operating systems. On the Windows platform, due to strict identity verification procedure, the prices of code signing certificates have remained high.</p>
 <p>Before version 1.4.11, Snap Hutao used a self-signed certificate. In this mode, users had to manually install DGP-Studio's certificate to allow the installation of applications signed by DGP-Studio's certificate on their computers. Starting from version 1.4.11, Snap Hutao was listed on the Microsoft Store, and Microsoft provided a GUID <code>35C8E923-85DF-49A7-9172-B39DC6312C52</code> for Hutao's developer account. This GUID was used as the publisher name of Snap Hutao, providing a special free signature (only used for Microsoft Store apps). If you are accustomed to updating the Snap Hutao with MSIX packages, you should always see this GUID in the publisher column.</p>
 <p>Listing on the Microsoft Store eliminated the need for Snap Hutao users to manually install the signing certificate and supported the distribution of Snap Hutao installation packages, reducing a significant amount of costs for the development team. However, the cumbersome approval process often disrupted the development plans of the Snap Hutao. Therefore, over the past six months, the development team has been seeking a solution. SignPath is a company based in Vienna, Austria, that provides code signing integration software. In early December 2023, the Snap Hutao development team successfully obtained sponsorship from the SignPath Foundation, allowing us to use their code signing certificates for Snap Hutao free of charge. This greatly assisted the Snap Hutao project by not only allowing the Snap Hutao to get rid of constraints of the Microsoft Store but also avoiding the high annual certificate fees.</p>
 <p><strong>Due to the migration to a new certificate causing package name conflicts, Snap Hutao provides the following detailed explanation to assist all users in updating to version 1.9.0 and future versions.</strong></p>
-<h2> Upgrade to Version 1.9.0</h2>
-<h3> Version Release</h3>
+<h2>Upgrade to Version 1.9.0</h2>
+<h3>Version Release</h3>
 <p>Snap Hutao version 1.9.0 is scheduled to be released on the weekend before Christmas 2023. We will publish the download links for the installation package through GitHub, Jihu GitLab, this official website, and the community.</p>
-<h3> Uninstall Old Versions</h3>
+<h3>Uninstall Old Versions</h3>
 <p>Directly installing this package will cause problems depending on your system version due to package name and signature conflicts.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">System Version</th>
-<th style="text-align:center">Expected Issues</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Windows 10</td>
-<td style="text-align:center">Unable to install; signature and package name conflicts</td>
-</tr>
-<tr>
-<td style="text-align:center">Windows 11</td>
-<td style="text-align:center">Installation successful;<br>Coexistence with old versions of Snap Hutao with the same name causes program runtime errors</td>
-</tr>
-</tbody>
-</table>
-<p>Due to the above issue, you need to uninstall the old version of Snap Hutao first and then install the 1.9.0 version package.</p>
-<blockquote>
-<p><strong>How to uninstall Snap Hutao</strong>: Find Snap Hutao in the Start menu, right-click, and select uninstall; another quick method is to find it in Windows App Settings and choose uninstall.</p>
-</blockquote>
-<p><strong>Your important data (including logged-in miHoYo accounts, wish records, achievement data, Spiral Abyss records, My Character cache data, and development plans) will not be lost, they are still stored in your local Hutao data directory on your computer.</strong> However, the following data will be reset:</p>
-<ol>
-<li>Snap Hutao runtime count</li>
-<li>Data folder path <strong>(if you previously modified the data directory, remember your data directory path)</strong></li>
-<li>Hutao account (Hutao Passport) login status</li>
-<li>Closed Hutao announcement flags</li>
-<li>Development plan preset level information</li>
-<li>Dashboard card status on the homepage</li>
-<li>Auto-click function status</li>
-</ol>
-<h3> Install the New Version</h3>
-<p><img src="/images/202312/1-8-5-installer.png" alt="1.8.5 Version Installer" loading="lazy"></p>
-<p>Run the 1.9.0 version installer you have already downloaded. In the installation interface, you should see the publisher as <code>SignPath Foundation</code>. Click install to install the all-new version of Snap Hutao!</p>
-<p><strong>If you modified the data directory location in the old version, you need to select the data directory path again in the settings after starting to restore the data. If you have never set a data directory, your data will be loaded directly without additional setup.</strong></p>
-<h2> Future Plans</h2>
-<blockquote>
-<p>Microsoft Store, future releases, software security...</p>
-</blockquote>
-<p>In the Microsoft Store, the application publisher name must be a GUID assigned by Microsoft, not a "custom" name like <code>SignPath Foundation</code>. We anticipate that we will not continue to release updates in the Microsoft Store in the future unless we have a better way to handle coexistence issues between different signature packages. Although Snap Hutao will no longer go through Microsoft's certification, under SignPath's restrictions, Snap Hutao will only be able to compile and build release packages directly from the GitHub code repository. This means that the code in the user's installation package is 100% sourced from our GitHub code repository, and anyone has the authority to review and participate in development.</p>
-<p>Starting from version 1.9.0 of the client, we will integrate a software update module to adapt to the new release method. We will minimize the operations required for user updates as much as possible. As this feature is brand new, we are still in the deployment process. Please continue to pay attention to our in-app announcements and community for information!</p>
+<p>| System Version |                                                      Expected Issues                                                      |
+| :</p>
 ]]></content:encoded>
       <enclosure url="https://hut.ao/images/202312/1-8-5-installer.png" type="image/png"/>
     </item>
@@ -107,10 +68,10 @@
       <link>https://hut.ao/ru/community.html</link>
       <guid>https://hut.ao/ru/community.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Присоединяйтесь к Сообществу</source>
-      <description>Как программное обеспечение с открытым исходным кодом, силы сообщества являются важной частью экосистемы Snap Hutao, и вы можете присоединиться к нашему пользовательскому сообще...</description>
+      <description>Присоединяйтесь к Сообществу Как программное обеспечение с открытым исходным кодом, силы сообщества являются важной частью экосистемы Snap Hutao, и вы можете присоединиться к на...</description>
       <category>Объявление</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Присоединяйтесь к Сообществу</h1>
+      <content:encoded><![CDATA[
 <p>Как программное обеспечение с открытым исходным кодом, силы сообщества являются важной частью экосистемы Snap Hutao, и вы можете присоединиться к нашему пользовательскому сообществу следующими способами.</p>
 <p><strong>Если вы считаете, что Snap Hutao - хороший проект и он вам помог, вы можете поддержать нас следующими способами:</strong></p>
 <ul>
@@ -124,9 +85,9 @@
 <li>Рекламируйте наш проект в своей сети</li>
 </ul>
 <p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
-<h2> </h2>
+<h2></h2>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Обсуждение Snap.Hutao</a></p>
-<h2> </h2>
+<h2></h2>
 <ul>
 <li><a href="https://qm.qq.com/q/WJKykrY9W" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
 <li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Группа открытого обсуждения разработчиков Snap</em></a>
@@ -136,7 +97,7 @@
 </ul>
 </li>
 </ul>
-<h2> </h2>
+<h2></h2>
 <p>Ссылка приглашения: <a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">https://discord.gg/Yb8bykUKp</a></p>
 ]]></content:encoded>
     </item>
@@ -145,12 +106,12 @@
       <link>https://hut.ao/ru/i18n.html</link>
       <guid>https://hut.ao/ru/i18n.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Локализация</source>
-      <description>Процесс Локализации Функции проекта Snap Hutao изначально базировались на сервере Китая, но мы также стремимся расширить охват на мировом уровне с поддержкой глобального игровог...</description>
+      <description>Локализация Процесс Локализации Функции проекта Snap Hutao изначально базировались на сервере Китая, но мы также стремимся расширить охват на мировом уровне с поддержкой глобаль...</description>
       <category>Объявление</category>
       <category>i18n</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Локализация</h1>
-<h2> Процесс Локализации</h2>
+      <content:encoded><![CDATA[
+<h2>Процесс Локализации</h2>
 <p>Функции проекта Snap Hutao изначально базировались на сервере Китая, но мы также стремимся расширить охват на мировом уровне с поддержкой глобального игрового сервера MiHoYo и локализации программного обеспечения. В настоящее время наш процесс локализации включает:</p>
 <ul>
 <li>Snap Hutao
@@ -197,7 +158,7 @@
 </ul>
 </li>
 </ul>
-<h2> Участвуйте в нашей Локализации</h2>
+<h2>Участвуйте в нашей Локализации</h2>
 <ul>
 <li>Snap Hutao
 <ul>
@@ -235,8 +196,9 @@
       <link>https://hut.ao/ru/menu.html</link>
       <guid>https://hut.ao/ru/menu.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Меню сайта</source>
+      <description>Меню сайта </description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Меню сайта</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -244,29 +206,29 @@
       <link>https://hut.ao/ru/project.html</link>
       <guid>https://hut.ao/ru/project.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Проект</source>
-      <description>Snap Hutao — это открытый набор инструментов для Genshin Impact под лицензией MIT, разработанный для современной платформы Windows, чтобы улучшить игровой опыт для пользователей...</description>
+      <description>Проект Snap Hutao — это открытый набор инструментов для Genshin Impact под лицензией MIT, разработанный для современной платформы Windows, чтобы улучшить игровой опыт для пользо...</description>
       <category>объявление</category>
       <category>проект</category>
       <category>функции</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Проект</h1>
+      <content:encoded><![CDATA[
 <p>Snap Hutao — это открытый набор инструментов для Genshin Impact под лицензией MIT, разработанный для современной платформы Windows, чтобы улучшить игровой опыт для пользователей настольных компьютеров. Объединяя существующие официальные ресурсы с новыми функциями, разработанными командой разработчиков, он предоставляет полный и полезный набор инструментов без необходимости полагаться на мобильные устройства. Snap Hutao не вносит разрушительных изменений в клиент игры, чтобы обеспечить безопасность набора инструментов.</p>
-<h2> Ресурсы проекта</h2>
+<h2>Ресурсы проекта</h2>
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Хранилище кода на GitHub</a></li>
 <li><a href="https://translate.hut.ao/" target="_blank" rel="noopener noreferrer">Локализация и перевод Crowdin</a></li>
-<li><a href="/ru/community.html" target="blank">Сообщество Snap Hutao</a></li>
+<li><a href="/ru/community.html" target="_blank">Сообщество Snap Hutao</a></li>
 </ul>
-<h2> Обзор функций</h2>
+<h2>Обзор функций</h2>
 <ul>
-<li><a href="/ru/features/dashboard.html" target="blank">Объявления в игре и обратный отсчет событий</a></li>
-<li><a href="/ru/features/mhy-account-switch.html" target="blank">Многопользовательский вход в учетную запись MiHoYo BBS</a>
+<li><a href="/ru/features/dashboard.html" target="_blank">Объявления в игре и обратный отсчет событий</a></li>
+<li><a href="/ru/features/mhy-account-switch.html" target="_blank">Многопользовательский вход в учетную запись MiHoYo BBS</a>
 <ul>
 <li>Поддержка входа через веб или ввод Cookie для входа в MiYouShe и HoYoLAB</li>
 <li>Поддержка ежедневного входа</li>
 </ul>
 </li>
-<li><a href="/ru/features/game-launcher.html" target="blank">Расширенный лаунчер игры</a>
+<li><a href="/ru/features/game-launcher.html" target="_blank">Расширенный лаунчер игры</a>
 <ul>
 <li>Конвертер игрового сервера</li>
 <li>Переключатель учетных записей в игре</li>
@@ -274,34 +236,34 @@
 <li>Загрузка игрового патча</li>
 </ul>
 </li>
-<li><a href="/ru/features/wish-export.html" target="blank">Управление историей желаний</a>
+<li><a href="/ru/features/wish-export.html" target="_blank">Управление историей желаний</a>
 <ul>
 <li>Обновление данных из игры</li>
 <li>Импорт и экспорт данных в формате UIGF</li>
 <li>Глобальная статистика желаний</li>
 </ul>
 </li>
-<li><a href="/ru/features/achievements.html" target="blank">Управление достижениями</a>
+<li><a href="/ru/features/achievements.html" target="_blank">Управление достижениями</a>
 <ul>
 <li>Экспорт данных достижений из игры</li>
 <li>Импорт и экспорт данных в формате UIAF</li>
 </ul>
 </li>
-<li><a href="/ru/features/real-time-notes.html" target="blank">Заметки в реальном времени</a>
+<li><a href="/ru/features/real-time-notes.html" target="_blank">Заметки в реальном времени</a>
 <ul>
 <li>Поддержка заметок в реальном времени для нескольких аккаунтов</li>
 <li>Настраиваемый цикл обновления</li>
 <li>Уведомления в стиле нативного окна Windows</li>
 </ul>
 </li>
-<li><a href="/ru/features/character-data.html" target="blank">Мои персонажи</a>
+<li><a href="/ru/features/character-data.html" target="_blank">Мои персонажи</a>
 <ul>
 <li>Поддержка синхронизации из нескольких источников</li>
 <li>Рейтинг артефактов и рейтинг критических ударов</li>
 <li>Экспорт данных о моем персонаже в изображение в буфер обмена</li>
 </ul>
 </li>
-<li><a href="/ru/features/hutao-API.html" target="blank">Спиральный Абисс</a>
+<li><a href="/ru/features/hutao-API.html" target="_blank">Спиральный Абисс</a>
 <ul>
 <li>Подробности о монстрах и благословении для каждого этапа</li>
 <li>Синхронизация подробных боевых данных для текущего этапа и сохранение данных на локальном устройстве навсегда</li>
@@ -315,7 +277,7 @@
 </li>
 </ul>
 </li>
-<li><a href="/ru/features/develop-plan.html" target="blank">План разработки</a>
+<li><a href="/ru/features/develop-plan.html" target="_blank">План разработки</a>
 <ul>
 <li>Поддержка начального плана разработки на основе данных моих персонажей и данных WIKI</li>
 <li>Поддержка нескольких архивов</li>
@@ -323,12 +285,12 @@
 </li>
 <li>Данные WIKI
 <ul>
-<li><a href="/ru/features/character-wiki.html" target="blank">WIKI персонажей</a></li>
-<li><a href="/ru/features/weapon-wiki.html" target="blank">WIKI оружия</a></li>
-<li><a href="/ru/features/monster-wiki.html" target="blank">WIKI монстров</a></li>
+<li><a href="/ru/features/character-wiki.html" target="_blank">WIKI персонажей</a></li>
+<li><a href="/ru/features/weapon-wiki.html" target="_blank">WIKI оружия</a></li>
+<li><a href="/ru/features/monster-wiki.html" target="_blank">WIKI монстров</a></li>
 </ul>
 </li>
-<li><a href="/ru/features/hutao-settings.html#snap-hutao-account" target="blank">Аккаунт Snap Hutao</a>
+<li><a href="/ru/features/hutao-settings.html#snap-hutao-account" target="_blank">Аккаунт Snap Hutao</a>
 <ul>
 <li>Резервное копирование данных желаний</li>
 <li>Предсказание на основе статистики желаний</li>
@@ -342,80 +304,15 @@
       <link>https://hut.ao/ru/quick-start.html</link>
       <guid>https://hut.ao/ru/quick-start.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Быстрый старт</source>
-      <description>Следуя инструкциям этого документа, вы можете быстро настроить Snap Hutao. Минимальные системные требования Требование Характеристика --------------------------- ---------------...</description>
+      <description>Быстрый старт Следуя инструкциям этого документа, вы можете быстро настроить Snap Hutao. Неподдерживаемые версии ОС: Версии LTSC и LTSB не включают Microsoft Store, поэтому они ...</description>
       <category>Функция</category>
       <category>Руководство</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Быстрый старт</h1>
+      <content:encoded><![CDATA[
 <p>Следуя инструкциям этого документа, вы можете быстро настроить Snap Hutao.</p>
-<h2> </h2>
-<table>
-<thead>
-<tr>
-<th>Требование</th>
-<th>Характеристика</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Минимальная версия ОС</strong></td>
-<td>Windows 10 Build 19045 (22H2)<br> Windows 11 Build 22621 (22H2)</td>
-</tr>
-<tr>
-<td><strong>Рекомендуемая версия ОС</strong></td>
-<td>Windows 11 Build 22621 (22H2) или более новые версии</td>
-</tr>
-<tr>
-<td>Обязательные компоненты</td>
-<td>Windows Update, App Installer</td>
-</tr>
-<tr>
-<td>Дополнительные компоненты</td>
-<td>WebView2 Runtime</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Неподдерживаемые версии ОС</strong>:</p>
-<ol>
-<li>Версии LTSC и LTSB не включают Microsoft Store, поэтому они не поддерживаются.</li>
-<li>Windows 10 Build 19041 поддерживает установку, но некоторые функции могут вызывать неожиданные ошибки из-за проблем с ядром Windows, поэтому Snap Hutao не может их решить.</li>
-<li>Проблемы, возникающие в версиях предварительного просмотра Windows Insider, не будут решены.</li>
-</ol>
-<h2> </h2>
-<h3> Новая установка</h3>
-<p><strong>Независимо от того, каким методом установки вы пользуетесь, исходный источник пакетов и регистрация всегда обрабатываются через Microsoft Store.</strong></p>
-
-<h3> </h3>
-<p>Если вы установили боковую версию Snap Hutao (версия 1.4.10 и старше), вам нужно удалить ее перед новой установкой.</p>
-<ul>
-<li>Деинсталируйте боковую версию согласно нашему <a href="/ru/advanced/uninstall.html" target="blank">документу с инструкцией по деинсталляции</a>.
-<ul>
-<li>Ваши данные не потеряются, если вы не удалите каталог данных вручную.</li>
-</ul>
-</li>
-<li>Следуйте вышеуказанным методам для установки приложения из Microsoft Store.</li>
-</ul>
-<h3> </h3>
-<p><strong>Вы можете использовать любой из методов обновления, какой бы метод установки Snap Hutao вы ни использовали. Они не обязательно должны быть одинаковыми, поскольку Microsoft Store является единственным источником пакетов.</strong></p>
-
-<h2> </h2>
-<p>С дополнительными компонентами Snap Hutao может реализовывать некоторые функции более удобно через среду на уровне системы.
-Они не являются обязательными компонентами, но они могут принести более лучший опыт.</p>
-<h3> <img src="/images/202312/MSEdge.webp" width="20" height="20"> WebView2 Runtime</h3>
-<p>WebView2 Runtime предоставляется Microsoft и позволяет встроенному браузеру работать в программе с низкими затратами ресурсов.
-Как дополнительный компонент, WebView2 не является обязательным компонентом, но он сделает некоторые функции Snap Hutao более удобными.</p>
-<p>В нижней части <a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">официальной страницы Microsoft</a>,
-вы можете найти<code>Evergreen Standalone Installer</code>, выберите<code>x64</code>и загрузите установите по предложенным инструкциям.</p>
-<h2> </h2>
-<p>После входа в Snap Hutao нажмите <code>Панель учетной записи</code> в левом нижнем углу между <code>Настройками</code> и <code>Документом</code>. В
-всплывающей панели нажмите кнопку входа справа, соответствующую вашей учетной записи.</p>
-<p>Если вы используете учетную запись на сервере Китая, вам нужно войти в категорию <code>MiYouShe</code>. Если вы используете зарубежную учетную запись
-(также известную как учетная запись HoYoLAB/HoYoverse), вам нужно войти в категорию <code>HoYoLAB</code>.</p>
-<p>Какой бы ни был тип вашей учетной записи, у вас есть оба метода входа: <code>Вход через веб-страницу</code> и <code>Вход через куки</code>.</p>
-
-<hr>
-<p><em><strong>Теперь вы завершили начальную настройку Snap Hutao. Теперь вы свободны исследовать это приложение, вы также можете
-найти все документы на этом веб-сайте.</strong></em></p>
+<h2></h2>
+<p>| Требование                  | Характеристика                                                   |
+|</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -423,16 +320,16 @@
       <link>https://hut.ao/ru/side-load.html</link>
       <guid>https://hut.ao/ru/side-load.html</guid>
       <source url="https://hut.ao/ru/rss.xml"></source>
-      <description>侧载安装 通用安装方式 在系统设置中打开开发者设置界面，勾选 开发人员模式 和 允许 PowerShell 脚本 （自行百度）; 解压已下载的压缩包，找到Install.ps1文件，右键选择使用PowerShell运行，按照提示允许 PowerShell 执行操作即可; 安装完毕，胡桃将出现在您的开始菜单中; 小白级安装方式 解压已下载的安装包; 运行...</description>
+      <description>侧载安装 通用安装方式 在系统设置中打开开发者设置界面，勾选 开发人员模式 和 允许 PowerShell 脚本 （自行百度） 解压已下载的压缩包，找到Install.ps1文件，右键选择使用PowerShell运行，按照提示允许 PowerShell 执行操作即可 安装完毕，胡桃将出现在您的开始菜单中 小白级安装方式 解压已下载的安装包 运行 Sna...</description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h2> 侧载安装</h2>
-<h3> 通用安装方式</h3>
+      <content:encoded><![CDATA[<h2>侧载安装</h2>
+<h3>通用安装方式</h3>
 <ul>
 <li>在系统设置中打开<code>开发者设置</code>界面，勾选 <code>开发人员模式</code> 和 <code>允许 PowerShell 脚本</code> （自行百度）</li>
 <li>解压已下载的压缩包，找到<code>Install.ps1</code>文件，右键选择<code>使用PowerShell运行</code>，按照提示允许 PowerShell 执行操作即可</li>
 <li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
 </ul>
-<h3> 小白级安装方式</h3>
+<h3>小白级安装方式</h3>
 <ul>
 <li>解压已下载的安装包</li>
 <li>运行 <code>Snap.Hutao.Installer.exe</code>
@@ -442,7 +339,7 @@
 </li>
 <li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
 </ul>
-<h2> 升级胡桃工具箱</h2>
+<h2>升级胡桃工具箱</h2>
 <ul>
 <li>解压你下载的最新版本压缩包</li>
 <li>重复 <code>安装胡桃工具箱</code> 的步骤</li>
@@ -460,7 +357,7 @@
       <link>https://hut.ao/ru/star-request.html</link>
       <guid>https://hut.ao/ru/star-request.html</guid>
       <source url="https://hut.ao/ru/rss.xml"></source>
-      <description>Если вы считаете, что Snap Hutao - хороший проект и он вам помог, вы можете поддержать нас следующими способами: Поставьте звезду нашему проекту на GitHub ⭐; Snap.Hutao (https:/...</description>
+      <description>Если вы считаете, что Snap Hutao - хороший проект и он вам помог, вы можете поддержать нас следующими способами: Поставьте звезду нашему проекту на GitHub ⭐ Snap.Hutao hutao.sta...</description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>Если вы считаете, что Snap Hutao - хороший проект и он вам помог, вы можете поддержать нас следующими способами:</strong></p>
 <ul>
@@ -482,12 +379,12 @@
       <link>https://hut.ao/ru/advanced/FAQ.html</link>
       <guid>https://hut.ao/ru/advanced/FAQ.html</guid>
       <source url="https://hut.ao/ru/rss.xml">FAQ</source>
-      <description>If the following answers can not solve your issue, feel free to report bug to us (../statements/bug-report.md)! How to create desktop shortcut (with no admin privilege) Communit...</description>
+      <description>FAQ If the following answers can not solve your issue, feel free to ! How to create desktop shortcut (with no admin privilege) Community Power Thanks to solution provided by CzH...</description>
       <category>FAQ</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> FAQ</h1>
-<p>If the following answers can not solve your issue, feel free to <a href="/ru/statements/bug-report.html" target="blank">report bug to us</a>!</p>
-<h2> How to create desktop shortcut (with no admin privilege)</h2>
+      <content:encoded><![CDATA[
+<p>If the following answers can not solve your issue, feel free to <a href="/ru/statements/bug-report.html" target="_blank">report bug to us</a>!</p>
+<h2>How to create desktop shortcut (with no admin privilege)</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">Community Power</p>
 <p>Thanks to <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">solution provided by CzHUV</a>。</p>
@@ -498,17 +395,17 @@
 <li>Right lick on it, and click <code>Create shortcut</code></li>
 <li>Confirm the operation and you will get the desktop shortcut</li>
 </ul>
-<h2> How to create desktop shortcut with Administrator privilege</h2>
+<h2>How to create desktop shortcut with Administrator privilege</h2>
 <p>Starting from Snap Hutao 1.7.4, you can create a desktop shortcut with Administrator privilege by click <code>Create Desktop Shortcut</code>
 in the settings page.</p>
 <p>You can move this shortcut to any place you need.</p>
-<h2> How to run Snap Hutao when Windows starts</h2>
+<h2>How to run Snap Hutao when Windows starts</h2>
 <p><strong>This is a workaround solution</strong></p>
 <ul>
 <li>Create a bat file, content refers to <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">this Issue</a>, it allows bat to run Snap Hutao with Administrator privilege</li>
 <li>Create a Scheduled Task, run the bat when Windows startup, or drag it to Windows start folder</li>
 </ul>
-<h2> Use Snap Hutao to quick start the game</h2>
+<h2>Use Snap Hutao to quick start the game</h2>
 <ul>
 <li>
 <p>Config the game launcher in the settings</p>
@@ -524,9 +421,9 @@ in the settings page.</p>
 <p>Select <code>Lauch Game</code>, you will be asked which account to start the game</p>
 </li>
 </ul>
-<h2> Use Snap Hutao with Network Proxy</h2>
-<p>Refer to <a href="/ru/advanced/exceptions.html#_502-bad-gateway" target="blank">HttpRequestException Error (502)</a> document</p>
-<h2> Mojibake in Snap Hutao</h2>
+<h2>Use Snap Hutao with Network Proxy</h2>
+<p>Refer to <a href="/ru/advanced/exceptions.html#_502-bad-gateway" target="_blank">HttpRequestException Error (502)</a> document</p>
+<h2>Mojibake in Snap Hutao</h2>
 <ul>
 <li>If you are using Windows 10 and see some button are not display properly
 <ul>
@@ -536,7 +433,7 @@ in the settings page.</p>
 </li>
 <li>You can find this font from <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">Microsoft</a></li>
 </ul>
-<h2> MiHoYo BBS Account often Lose Login Status</h2>
+<h2>MiHoYo BBS Account often Lose Login Status</h2>
 <p>Snap Hutao use saved MiHoYo BBS cookies to maintain login status. If you <strong>log out</strong> your account in your browser or
 other device, cookie will become invalid, and Snap Hutao will also be forced to log out, account will be automatically
 removed.</p>
@@ -544,7 +441,7 @@ removed.</p>
 you can use <code>Refresh Cookie</code> in the account panel; You can also remove your account manually and add it back again.</p>
 <p>Since October 2022, MiYouShe (Chinese BBS) rapidly increased bot detection and may set users' account as under-risk status,
 this may cause Snap Hutao failed to check validation of the cookie</p>
-<h2> Game Account Lose Login Status in the Launcher</h2>
+<h2>Game Account Lose Login Status in the Launcher</h2>
 <ul>
 <li>There are two factors associated with game account login status: network and device ID</li>
 <li>This issue usually caused by:
@@ -561,12 +458,12 @@ this may cause Snap Hutao failed to check validation of the cookie</p>
 </ul>
 </li>
 </ul>
-<h2> Snap Hutao Throws Failed to add Scheduled Task Error</h2>
+<h2>Snap Hutao Throws Failed to add Scheduled Task Error</h2>
 <p>If you are using Administrator privilege to start real-time notes feature, Snap Hutao's scheduled task will be created
 as Administrator role. When next time edit real-time notes settings without Administrator privilege, the program will
 have a lack of privilege to edit the settings and throw out this error.</p>
 <p>Run Snap Hutao as Administrator to edit your settings to solve this issue.</p>
-<h2> Stuck at <code>Installing Required Framework</code> when Using MSIX Package to Install</h2>
+<h2>Stuck at <code>Installing Required Framework</code> when Using MSIX Package to Install</h2>
 <ul>
 <li>When user's OS missing required dependency framework, Windows will download and install it automatically.
 However, if the user disabled Windows Update or have a bad network, the system is unable to process this installation.
@@ -576,7 +473,7 @@ However, if the user disabled Windows Update or have a bad network, the system i
 </ul>
 </li>
 </ul>
-<h2> Unable to Run Snap Hutao as Administrator</h2>
+<h2>Unable to Run Snap Hutao as Administrator</h2>
 <blockquote>
 <p>This issue only occurs in Windows 10 older than 22H2 version</p>
 </blockquote>
@@ -588,13 +485,13 @@ running as Administrator
 </ul>
 </li>
 </ul>
-<h2> How to Recover <code>config.ini</code> Configuration File</h2>
+<h2>How to Recover <code>config.ini</code> Configuration File</h2>
 <p>In some particular conditions (such as wrong game folder permission), <code>config.ini</code> may lose after server conversion.
 This will cause user not able to get into advanced launcher page and launch the game.</p>
 <p>After identify the server version on your device, you can manually create and fill the configuration file with the right
 content. The following are common configurations.</p>
 
-<h2> How to Fully Backup/Recover Client Data</h2>
+<h2>How to Fully Backup/Recover Client Data</h2>
 <div class="hint-container warning">
 <p class="hint-container-title">Data Security Warning</p>
 <p><code>Userdata.db</code> contains all client data, including MiHoYO BBS Cookie, please save the data file properly and do NOT share it
@@ -610,16 +507,16 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/advanced/Gacha-system-and-export-principal.html</link>
       <guid>https://hut.ao/ru/advanced/Gacha-system-and-export-principal.html</guid>
       <source url="https://hut.ao/ru/rss.xml">祈愿系统与导出原理</source>
-      <description>Gacha System and Principal 胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。 本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。 祈愿的获取 获取祈愿记录需要请求米哈游的 API 关于此 API, 有下列几个注意点 通过米哈游服务器的 API，只能查询到过去 6 个月内的祈愿记录; 这...</description>
+      <description>祈愿系统与导出原理 Gacha System and Principal 胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。 本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。 祈愿的获取 获取祈愿记录需要请求米哈游的 API 关于此 API, 有下列几个注意点 通过米哈游服务器的 API，只能查询到过去 6 个...</description>
       <category>FAQ</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 祈愿系统与导出原理</h1>
+      <content:encoded><![CDATA[
 <blockquote>
 <p>Gacha System and Principal</p>
 </blockquote>
 <p>胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。</p>
 <p>本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。</p>
-<h2> 祈愿的获取</h2>
+<h2>祈愿的获取</h2>
 <p>获取祈愿记录需要请求米哈游的 API</p>
 <p>关于此 API, 有下列几个注意点</p>
 <ul>
@@ -643,22 +540,22 @@ file contains entire data of the client.</p>
 </li>
 </ul>
 <p>在请求 API 后可以获取到零散的祈愿记录，在对其进行拼接后即可获得一份完整的祈愿记录列表</p>
-<h2> 祈愿的存储</h2>
+<h2>祈愿的存储</h2>
 <p>获得完整的祈愿记录列表后即可将其简单的序列化入本地数据库内，在需要时可从数据库中反序列化出来呈现给用户。</p>
 <p>后续的对服务器的请求只需要对比数据库中的数据请求新增的部分即可。</p>
 <p>这样，用户即可长期地保存帐号的完整祈愿记录</p>
-<h2> UIGF 格式</h2>
+<h2>UIGF 格式</h2>
 <blockquote>
 <p>统一可交换祈愿记录标准</p>
 <p>Uniformed Interchangeable GachaLog Format standard</p>
 </blockquote>
 <p>UIGF 是由我们联合其他祈愿记录应用倡导、推出并<strong>持久维护</strong>的一个统一的祈愿记录数据交换标准</p>
 <p>标准化的数据格式将允许用户将祈愿记录在不同的转移数据，以使用到不同原神工具中各自的特色功能</p>
-<h3> 祈愿的导入</h3>
+<h3>祈愿的导入</h3>
 <p>在使用 UIGF 数据格式的前提下，可以导入曾在其他应用中储存的数据</p>
 <p>胡桃在处理导入时，会对比本地储存中存在的最早的索引（ID）并仅导入较老的数据</p>
 <p>（因为始终可以从米哈游的服务器获取较新的数据，这种原始数据有更高的精确度）</p>
-<h3> 祈愿的导出</h3>
+<h3>祈愿的导出</h3>
 <p><s>尚未实现，正在设计</s> 已实装</p>
 ]]></content:encoded>
     </item>
@@ -667,8 +564,9 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/advanced/</link>
       <guid>https://hut.ao/ru/advanced/</guid>
       <source url="https://hut.ao/ru/rss.xml">Advanced</source>
+      <description>Advanced </description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Advanced</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -676,12 +574,12 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/advanced/dependency.html</link>
       <guid>https://hut.ao/ru/advanced/dependency.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Ручная установка зависимостей</source>
-      <description>Snap Hutao зависит от Windows App Runtime в качестве необходимой компоненты. Если система пользователя не содержит этого окружения, Windows автоматически установит этот фреймвор...</description>
+      <description>Ручная установка зависимостей Snap Hutao зависит от Windows App Runtime в качестве необходимой компоненты. Если система пользователя не содержит этого окружения, Windows автомат...</description>
       <category>FAQ</category>
       <category>dependency</category>
       <category>installation</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Ручная установка зависимостей</h1>
+      <content:encoded><![CDATA[
 <p>Snap Hutao зависит от Windows App Runtime в качестве необходимой компоненты. Если система пользователя не содержит этого окружения, Windows автоматически установит этот фреймворк перед установкой Snap Hutao.</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01RJFPnY1g6dye2b8Uy_!!1797064093.png_.webp" alt="" loading="lazy"></p>
 <p>Если у вас медленное интернет-соединение или установка фреймворка занимает много времени, вы можете вручную скачать фреймворк с веб-сайта Microsoft и установить его.</p>
@@ -698,12 +596,12 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/advanced/exceptions.html</link>
       <guid>https://hut.ao/ru/advanced/exceptions.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Общие исключения программы</source>
-      <description>Этот документ содержит решения предсказуемых ошибок клиента. Ошибка RuntimeEnvironmentException Исключение: RuntimeEnvironmentException; Подсказка: Unable to set registry key wi...</description>
+      <description>Общие исключения программы Этот документ содержит решения предсказуемых ошибок клиента. Ошибка RuntimeEnvironmentException Исключение: RuntimeEnvironmentException Подсказка: Una...</description>
       <category>FAQ</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Общие исключения программы</h1>
+      <content:encoded><![CDATA[
 <p>Этот документ содержит решения <strong>предсказуемых ошибок клиента</strong>.</p>
-<h2> Ошибка RuntimeEnvironmentException</h2>
+<h2>Ошибка RuntimeEnvironmentException</h2>
 <ul>
 <li>Исключение: <code>RuntimeEnvironmentException</code>
 <ul>
@@ -713,7 +611,7 @@ file contains entire data of the client.</p>
 <li>Источник проблемы: Предел длины пути в Windows по умолчанию установлен на 256 символов.</li>
 <li>Решение: Скачайте <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a>, извлеките его и запустите файл <code>.reg</code>.</li>
 </ul>
-<h2> Код возврата: -10001</h2>
+<h2>Код возврата: -10001</h2>
 <ul>
 <li>Эта ошибка поступает напрямую из MiHoYo BBS, подсказки включают
 <ul>
@@ -736,7 +634,7 @@ file contains entire data of the client.</p>
 </ol>
 </li>
 </ul>
-<h2> Код возврата: 1034 Проверка не удалась</h2>
+<h2>Код возврата: 1034 Проверка не удалась</h2>
 <ul>
 <li>Если Snap Hutao возвращает код состояния <code>1034</code> и указывает, что проверка не удалась (обычно во время операции Realtime Notes), это означает, что операция заблокирована системой MiHoYo BBS для борьбы с ботами</li>
 <li>Решение:
@@ -761,10 +659,10 @@ file contains entire data of the client.</p>
 <li>Если вы используете <strong>несколько учетных записей MiHoYo BBS на своем устройстве</strong>, <strong>частое использование с использованием API MiHoYo BBS</strong> приведет к блокировке вашего IP-адреса на определенное время (обычно не более 24 часов). Это функция безопасности MiHoYo BBS и не может быть обойдена</li>
 </ul>
 </div>
-<h2> HttpRequestException Metadata Download Failed</h2>
-<h3> 403 (Forbidden) / 404 (Not Found)</h3>
+<h2>HttpRequestException Metadata Download Failed</h2>
+<h3>403 (Forbidden) / 404 (Not Found)</h3>
 <p>Решение: Обновите Snap Hutao до последней версии</p>
-<h3> 502 (Bad Gateway)</h3>
+<h3>502 (Bad Gateway)</h3>
 <blockquote>
 <p>Связанная проблема: <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/100</a></p>
 </blockquote>
@@ -772,7 +670,8 @@ file contains entire data of the client.</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg" alt="HttpRequestException" loading="lazy"></p>
 <p>Если вы используете программное обеспечение прокси, вам может потребоваться отключить его или использовать прокси-режим TUN; в противном случае вам нужно использовать <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Windows 8 AppContainer Loopback Utility</a>, чтобы удалить <a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">Ограничения Windows APP Container Loopback</a>.</p>
 <p>Вы также можете выполнить следующий сценарий PowerShell, чтобы удалить все ограничения контейнера loopback</p>
-<div class="language-powershell line-numbers-mode" data-ext="powershell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> Ошибка поиска требуемых модулей</h2>
+<div class="language-powershell" data-ext="powershell" data-title="powershell"><pre class="language-powershell"><code><span class="token keyword">FOR</span> <span class="token operator">/</span>F <span class="token string">"tokens=11 delims=\"</span> <span class="token operator">%</span>p IN <span class="token punctuation">(</span><span class="token string">'REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"'</span><span class="token punctuation">)</span> <span class="token keyword">DO</span> CheckNetIsolation<span class="token punctuation">.</span>exe LoopbackExempt <span class="token operator">-</span>a <span class="token operator">-</span>p=<span class="token operator">%</span>p
+</code></pre></div><h2>Ошибка поиска требуемых модулей</h2>
 <p>Когда пользователь запускает игру с включенной функцией разблокировки частоты кадров, игра может не запускаться, и появится следующая ошибка:</p>
 <ol>
 <li>Ошибка поиска требуемых модулей: не удалось прочитать ни одного модуля, драйвер защиты может быть загружен</li>
@@ -788,11 +687,11 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/advanced/get-stoken-cookie-from-the-third-party.html</link>
       <guid>https://hut.ao/ru/advanced/get-stoken-cookie-from-the-third-party.html</guid>
       <source url="https://hut.ao/ru/rss.xml">使用第三方工具获取有 Stoken 的 cookie</source>
-      <description>以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关; 本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关; Android Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie GetToken 开源项目 GitHub：HolographicHa...</description>
+      <description>使用第三方工具获取有 Stoken 的 cookie Примечание 以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关 本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关 Android Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cooki...</description>
       <category>FAQ</category>
       <category>第三方工具</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 使用第三方工具获取有 Stoken 的 cookie</h1>
+      <content:encoded><![CDATA[
 <div class="hint-container warning">
 <p class="hint-container-title">Примечание</p>
 <ul>
@@ -800,7 +699,7 @@ file contains entire data of the client.</p>
 <li>本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关</li>
 </ul>
 </div>
-<h2> Android</h2>
+<h2>Android</h2>
 <p>Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie</p>
 <div class="hint-container tip">
 <p class="hint-container-title">GetToken 开源项目</p>
@@ -827,7 +726,7 @@ file contains entire data of the client.</p>
 <li>在<code>胡桃工具箱</code>中的账号登录位置，点击<code>手动输入</code></li>
 <li>将之前获取到的 cookie 输入，此时即可完成登录</li>
 </ul>
-<h2> iOS</h2>
+<h2>iOS</h2>
 <p>iOS 用户可以在 App Store 下载抓包软件 Stream 来获取包含 Stoken 字段的 cookie</p>
 <ul>
 <li>从 App Store 下载 <a href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" rel="noopener noreferrer">Stream</a></li>
@@ -848,37 +747,13 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/advanced/known-issue.html</link>
       <guid>https://hut.ao/ru/advanced/known-issue.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Известные проблемы</source>
-      <description>Вы можете просмотреть все проблемы на странице проблем GitHub (https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue) Категория Флаг -------------------------------------...</description>
+      <description>Известные проблемы Вы можете просмотреть все проблемы на странице проблем GitHub </description>
       <category>FAQ</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Известные проблемы</h1>
+      <content:encoded><![CDATA[
 <p>Вы можете просмотреть все проблемы на <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue" target="_blank" rel="noopener noreferrer">странице проблем GitHub</a></p>
-<table>
-<thead>
-<tr>
-<th>Категория</th>
-<th>Флаг</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3ABUG+is%3Aopen" target="_blank" rel="noopener noreferrer">Все открытые проблемы типа BUG</a></td>
-<td>Помечены <code>BUG</code></td>
-</tr>
-<tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aopen+is%3Aissue+label%3A%E5%8A%9F%E8%83%BD" target="_blank" rel="noopener noreferrer">Все открытые запросы на добавление функций</a></td>
-<td>Помечены <code>功能</code> (Feature)</td>
-</tr>
-<tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D" target="_blank" rel="noopener noreferrer">Исправленные и решенные проблемы</a></td>
-<td>Помечены <code>已修复</code> (Fixed)</td>
-</tr>
-<tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E7%AD%89%E5%BE%85%E5%8F%91%E5%B8%83" target="_blank" rel="noopener noreferrer">Проблемы, которые будут исправлены в следующей версии</a></td>
-<td>Помечены <code>等待发布</code> (Ready for Publish)</td>
-</tr>
-</tbody>
-</table>
+<p>| Категория                                                                                                                                                          | Флаг                                    |
+|</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -886,21 +761,22 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/advanced/uninstall.html</link>
       <guid>https://hut.ao/ru/advanced/uninstall.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Удаление Snap Hutao</source>
-      <description>Очистка запланированной задачи Real-time Notes; До версии 1.4.15, если не выполнить этот шаг, запланированная задача для обновления заметок в реальном времени может не быть удал...</description>
+      <description>Удаление Snap Hutao Очистка запланированной задачи Real-time Notes До версии 1.4.15, если не выполнить этот шаг, запланированная задача для обновления заметок в реальном времени...</description>
       <category>FAQ</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Удаление Snap Hutao</h1>
+      <content:encoded><![CDATA[
 <ul>
 <li>Очистка запланированной задачи Real-time Notes
 <ul>
-<li>До версии 1.4.15, если не выполнить этот шаг, запланированная задача для обновления заметок в реальном времени может не быть удалена, и вы можете столкнуться с <a href="/ru/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">этой проблемой</a>
+<li>До версии 1.4.15, если не выполнить этот шаг, запланированная задача для обновления заметок в реальном времени может не быть удалена, и вы можете столкнуться с <a href="/ru/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="_blank">этой проблемой</a>
 <ul>
 <li><strong>Метод 1</strong> </li>
 </ul>
 </li>
 <li><strong>Метод 2</strong>：
 <ul>
-<li>Выполните следующий сценарий PowerShell<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>Выполните следующий сценарий PowerShell<div class="language-PowerShell" data-ext="PowerShell" data-title="PowerShell"><pre class="language-PowerShell"><code>schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
+</code></pre></div></li>
 </ul>
 </li>
 <li><strong>Метод 3</strong>：
@@ -937,8 +813,9 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/development/</link>
       <guid>https://hut.ao/ru/development/</guid>
       <source url="https://hut.ao/ru/rss.xml">Open Source Development</source>
+      <description>Open Source Development </description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Open Source Development</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -946,14 +823,14 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/development/contribute.html</link>
       <guid>https://hut.ao/ru/development/contribute.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Внесение своего вклада в код</source>
-      <description>Snap Hutao использует C# и .NET Framework для разработки клиента и сервера. Если вы хотите внести свой вклад в проект, ознакомьтесь с следующими рекомендациями. Вы можете найти ...</description>
+      <description>Внесение своего вклада в код Snap Hutao использует C# и .NET Framework для разработки клиента и сервера. Если вы хотите внести свой вклад в проект, ознакомьтесь с следующими рек...</description>
       <category>open source</category>
       <category>development</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Внесение своего вклада в код</h1>
+      <content:encoded><![CDATA[
 <p>Snap Hutao использует C# и .NET Framework для разработки клиента и сервера. Если вы хотите внести свой вклад в проект, ознакомьтесь с следующими рекомендациями.</p>
 <p>Вы можете найти все <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D+" target="_blank" rel="noopener noreferrer">нерешенные открытые задачи</a> на GitHub.</p>
-<h2> </h2>
+<h2></h2>
 <ol>
 <li>Скачайте и установите <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer">Visual Studio 2022 Community</a>.</li>
 <li>Откройте установщик Visual Studio, чтобы завершить установку.
@@ -966,19 +843,19 @@ file contains entire data of the client.</p>
 <li>Переключитесь на ветку git <code>develop</code>.</li>
 <li>Откройте решение проекта в Visual Studio, и теперь вы готовы начать.</li>
 </ol>
-<h2> </h2>
+<h2></h2>
 <ol>
 <li>Скачайте и установите <code>Sysinternals Suite</code> из <a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">Microsoft Store</a> или <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">сайта Microsoft</a>.</li>
 <li>Найдите и запустите программу <code>DebugView</code> в установленном списке приложений или распакованной папке.</li>
 <li>Запустите клиент Snap Hutao.</li>
 <li>Проверьте вывод DebugView.</li>
 </ol>
-<h2> </h2>
+<h2></h2>
 <ul>
 <li>Все изменения кода из веток авторов могут быть вливаемы только в ветку <code>develop</code>.</li>
 <li>Пожалуйста, используйте <a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests" target="_blank" rel="noopener noreferrer">ключевые слова</a> для связи ваших запросов на внесение изменений или коммитов с задачами, чтобы задачи автоматически закрывались после вливания коммитов в ветку <code>main</code>.</li>
 </ul>
-<h2> </h2>
+<h2></h2>
 <p>Как только код обновляется в ветках <code>develop</code> и <code>main</code>, скрипт Azure Pipeline CI соберет последний код в пакет <code>Snap Hutao Alpha</code>. После построения пакета он будет выпущен на <a href="https://github.com/DGP-Studio/Snap.Hutao/releases" target="_blank" rel="noopener noreferrer">странице релизов GitHub</a> в качестве предварительно выпущенного пакета.</p>
 <p>Вам нужно установить сертификат <a href="https://github.com/DGP-Studio/Snap.Hutao/releases/download/2023.10.3.1/Snap.Hutao.CI.cer" target="_blank" rel="noopener noreferrer">Snap.Hutao.CI.cer</a> на свое устройство, а затем установить msix-пакет из релиза.</p>
 <p>*Если последний релиз не содержит прикрепленного файла, это означает, что пакет все еще находится в процессе загрузки.</p>
@@ -989,27 +866,27 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/development/platform.html</link>
       <guid>https://hut.ao/ru/development/platform.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Открытая платформа Hutao</source>
-      <description>Проект Snap Hutao получил широкую поддержку от сообщества с момента своего запуска на GitHub 18 апреля 2022 года. С развитием проекта мы создали ряд вспомогательных сервисов в к...</description>
+      <description>Открытая платформа Hutao Проект Snap Hutao получил широкую поддержку от сообщества с момента своего запуска на GitHub 18 апреля 2022 года. С развитием проекта мы создали ряд всп...</description>
       <category>open source</category>
       <category>development</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Открытая платформа Hutao</h1>
+      <content:encoded><![CDATA[
 <p>Проект Snap Hutao получил широкую поддержку от сообщества с момента своего запуска на GitHub 18 апреля 2022 года. С развитием проекта мы создали ряд вспомогательных сервисов в качестве промежуточного программного обеспечения для Snap Hutao.</p>
 <p>Теперь команда разработчиков предоставляет часть этих практических сервисов сообществу с открытым исходным кодом в виде открытых интерфейсов для использования разработчиками, разделяющими наше видение. Мы напишем документацию по использованию этих интерфейсов, поддержим сервисы и предоставим ответы на часто задаваемые вопросы. Независимо от того, являетесь ли вы опытным разработчиком или новичком, мы надеемся, что эти интерфейсы помогут вам создавать приложения.</p>
-<h2> Hutao API &amp; Hutao Cloud Открытая лицензия разработчика</h2>
+<h2>Hutao API &amp; Hutao Cloud Открытая лицензия разработчика</h2>
 <p>Hutao API - это интерфейсный сервис, предоставляющий доступ к базе данных Abyssal Hutao.
 Авторы программного обеспечения с открытым исходным кодом могут использовать Hutao API для извлечения данных из базы данных Hutao или загрузки данных.</p>
 <p>Разработчики, получившие доступ к Hutao API, также получают полные привилегии к функции Hutao Cloud в Snap Hutao в качестве преимущества.</p>
 <p>Разработчики могут подать заявку на доступ, отправив свою информацию через открытую платформу Hutao API
 на <a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">homa.snapgenshin.com</a></p>
-<h2> Enka API с китайским ускорением</h2>
+<h2>Enka API с китайским ускорением</h2>
 <p><a href="https://enka.network/" target="_blank" rel="noopener noreferrer">Enka Network</a> - отличный инструмент для Genshin Impact, предоставляющий подробные данные о персонажах в
 текущем витрине персонажей пользователя. Однако из-за ограниченного доступа к некоторым сетевым службам в Китае
 стабильность функциональности Enka Network в этом регионе подвергается риску.</p>
 <p>Для обеспечения плавного пользовательского опыта для пользователей Snap Hutao в Китае команда разработчиков
-использовала данные Enka Network для разработки функции <a href="/ru/features/character-data.html" target="blank">Мои персонажи</a> и создала прокси-сервер.</p>
+использовала данные Enka Network для разработки функции <a href="/ru/features/character-data.html" target="_blank">Мои персонажи</a> и создала прокси-сервер.</p>
 <p>Разработчики могут запросить доступ в чате разработчиков Snap Hutao или в группе Discord у администратора.</p>
-<h2> UIGF Формат обмена данными игры с возможностью замены</h2>
+<h2>UIGF Формат обмена данными игры с возможностью замены</h2>
 <p>Snap Hutao нацелен на обеспечение свободного потока пользовательских данных между различными инструментами с открытым исходным кодом с разными функциями. Для облегчения этого Snap Hutao создал начальную версию <a href="https://uigf.org/en/standards/UIGF.html" target="_blank" rel="noopener noreferrer">Стандарта обмена данными GachaLog (UIGF)</a>.</p>
 <p>С тех пор этот стандарт получил больше признания среди разработчиков, что привело к продвижению дополнительных стандартов. Теперь многие разработчики собрались под <a href="https://github.com/UIGF-org" target="_blank" rel="noopener noreferrer">организацией UIGF</a>. Наша цель - поддерживать эту организацию, позволяя разработчикам взаимодействовать с большим числом пользователей, получать обратную связь, делать технические усовершенствования и создавать выдающиеся инструменты с открытым исходным кодом для Genshin Impact.</p>
 ]]></content:encoded>
@@ -1019,8 +896,9 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/features/</link>
       <guid>https://hut.ao/ru/features/</guid>
       <source url="https://hut.ao/ru/rss.xml">Features</source>
+      <description>Features </description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Features</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -1028,18 +906,18 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/features/achievements.html</link>
       <guid>https://hut.ao/ru/features/achievements.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Управление достижениями</source>
-      <description>Скриншот достижений Snap Hutao предлагает функцию управления достижениями на локальном уровне, позволяя пользователям просматривать и управлять статусом своих достижений. При пе...</description>
+      <description>Управление достижениями Скриншот достижений Snap Hutao предлагает функцию управления достижениями на локальном уровне, позволяя пользователям просматривать и управлять статусом ...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Управление достижениями</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xJaPGy1g6dyAWV0vm_!!1797064093.png_.webp" alt="Скриншот достижений" loading="lazy"></p>
 <p>Snap Hutao предлагает функцию управления достижениями на локальном уровне, позволяя пользователям просматривать и управлять статусом своих достижений.</p>
 <ul>
 <li>При первом использовании вы будете следовать инструкциям для создания архива и его именования.</li>
 <li>После этого вы всегда можете создать новые архивы, нажав на "Создать новый архив" для других игровых аккаунтов.</li>
 </ul>
-<h2> Импорт достижений</h2>
+<h2>Импорт достижений</h2>
 <ul>
 <li>Snap Hutao использует <a href="https://uigf.org/en/standards/UIAF.html" target="_blank" rel="noopener noreferrer">стандарт формата данных об обмене достижениями (UIAF)</a> для хранения данных о достижениях пользователей.
 <ul>
@@ -1048,7 +926,7 @@ file contains entire data of the client.</p>
 </li>
 <li>Вы можете нажать на "Импорт" в верхнем правом меню на странице управления достижениями и выбрать файл для загрузки данных в формате UIAF.</li>
 </ul>
-<h2> Рекомендуемые инструменты для достижений</h2>
+<h2>Рекомендуемые инструменты для достижений</h2>
 <ul>
 <li>
 <p><a href="https://github.com/HolographicHat/YaeAchievement" target="_blank" rel="noopener noreferrer">YaeAchievement</a> </p>
@@ -1065,19 +943,19 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/features/character-data.html</link>
       <guid>https://hut.ao/ru/features/character-data.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Мои персонажи</source>
-      <description>Для использования этой функции требуется вход в учетную запись MiHoYo BBS. Пожалуйста, обратитесь к документу MiHoYo BBS Account Switch (mhy-account-switch.md) для руководства п...</description>
+      <description>Мои персонажи Инфо Для использования этой функции требуется вход в учетную запись MiHoYo BBS. Пожалуйста, обратитесь к документу для руководства по входу в систему. &amp;quot;My Characte...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Мои персонажи</h1>
+      <content:encoded><![CDATA[
 <div class="hint-container info">
 <p class="hint-container-title">Инфо</p>
-<p>Для использования этой функции требуется вход в учетную запись MiHoYo BBS. Пожалуйста, обратитесь к документу <a href="/ru/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> для руководства по входу в систему.</p>
+<p>Для использования этой функции требуется вход в учетную запись MiHoYo BBS. Пожалуйста, обратитесь к документу <a href="/ru/features/mhy-account-switch.html" target="_blank">MiHoYo BBS Account Switch</a> для руководства по входу в систему.</p>
 </div>
 <p>"My Characters" - это функция статистики персонажей, которая позволяет Snap Hutao читать статистику персонажей в аккаунте, включая уровень, созвездие, оружие, таланты и комплект артефактов; мы также предоставляем рейтинги артефактов и критического урона (CRTI) для каждого персонажа.</p>
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01JOlGqw1g6dyB7NkLu_!!1797064093.png_.webp" alt="My Character Screenshot" loading="lazy"></p>
-<h2> Синхронизация данных персонажей</h2>
-<h3> Синхронизация через Enka API</h3>
+<h2>Синхронизация данных персонажей</h2>
+<h3>Синхронизация через Enka API</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Функция синхронизации</p>
 <ul>
@@ -1104,7 +982,7 @@ file contains entire data of the client.</p>
 <li>Войдите в раздел <code>My Characters</code> в Snap Hutao, нажмите кнопку «Синхронизация данных персонажа» в верхнем правом углу</li>
 <li>Выберите «Синхронизация через Enka API»</li>
 </ul>
-<h3> Синхронизация через MiHoYo BBS - Мои персонажи</h3>
+<h3>Синхронизация через MiHoYo BBS - Мои персонажи</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Функция синхронизации</p>
 <ul>
@@ -1121,7 +999,7 @@ file contains entire data of the client.</p>
 <li>Войдите в раздел <code>My Characters</code> в Snap Hutao, нажмите кнопку «Синхронизация данных персонажа» в верхнем правом углу</li>
 <li>Выберите «Синхронизация через MiHoYo BBS - Мои персонажи»</li>
 </ul>
-<h3> Синхронизация через MiHoYo BBS - План развития</h3>
+<h3>Синхронизация через MiHoYo BBS - План развития</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Функция синхронизации</p>
 <ul>
@@ -1138,7 +1016,7 @@ file contains entire data of the client.</p>
 <li>Войдите в раздел <code>My Characters</code> в Snap Hutao, нажмите кнопку «Синхронизация данных персонажа» в верхнем правом углу</li>
 <li>Выберите «Синхронизация через MiHoYo BBS - План развития»</li>
 </ul>
-<h2> Добавление выбранного персонажа в план развития</h2>
+<h2>Добавление выбранного персонажа в план развития</h2>
 <ul>
 <li>Войдите в раздел <code>My Characters</code> в Snap Hutao, нажмите на персонажа, которого вы хотите добавить в план развития</li>
 <li>Нажмите на «План развития» и введите целевой уровень
@@ -1153,9 +1031,9 @@ file contains entire data of the client.</p>
 </ul>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png" alt="image" loading="lazy"></p>
 <ul>
-<li>Руководство по использованию функции Dev Plan смотрите в документе <a href="/ru/features/develop-plan.html" target="blank">Dev Plan</a></li>
+<li>Руководство по использованию функции Dev Plan смотрите в документе <a href="/ru/features/develop-plan.html" target="_blank">Dev Plan</a></li>
 </ul>
-<h2> Экспорт в виде изображения</h2>
+<h2>Экспорт в виде изображения</h2>
 <ul>
 <li>В разделе <code>My Characters</code> вы можете выбрать персонажа и затем нажать кнопку «Экспорт в виде изображения», чтобы создать изображение с данными вашего персонажа, что поможет вам поделиться данными о своем персонаже.</li>
 <li>Экспортированное изображение хранится в буфере обмена, и вы можете вставить его туда, где вам нужно</li>
@@ -1170,14 +1048,14 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/features/character-wiki.html</link>
       <guid>https://hut.ao/ru/features/character-wiki.html</guid>
       <source url="https://hut.ao/ru/rss.xml">WIKI персонажей</source>
-      <description>characters-wiki WIKI персонажей - это встроенная функция Snap Hutao, предназначенная для запроса информации о каждом персонаже. Включенные данные Список персонажей; Используя зн...</description>
+      <description>WIKI персонажей characters-wiki WIKI персонажей - это встроенная функция Snap Hutao, предназначенная для запроса информации о каждом персонаже. Включенные данные Список персонаж...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> WIKI персонажей</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01BTeWoh1g6dyHbVwkf_!!1797064093.png_.webp" alt="characters-wiki" loading="lazy"></p>
 <p>WIKI персонажей - это встроенная функция Snap Hutao, предназначенная для запроса информации о каждом персонаже.</p>
-<h2> Включенные данные</h2>
+<h2>Включенные данные</h2>
 <ul>
 <li>Список персонажей
 <ul>
@@ -1213,12 +1091,12 @@ file contains entire data of the client.</p>
 </ul>
 </li>
 </ul>
-<h2> Добавление в план разработки</h2>
+<h2>Добавление в план разработки</h2>
 <ul>
 <li>На странице WIKI персонажа вы можете выбрать персонажа и нажать <code>План разработки</code> в правом верхнем углу, чтобы добавить его в свой план разработки.
 <ul>
 <li>Новый план установит базовый уровень как <code>1</code></li>
-<li>Если вы хотите создать новый план разработки на основе персонажа, который у вас уже есть, вы можете воспользоваться функцией <a href="/ru/features/character-data.html" target="blank">Мои персонажи</a></li>
+<li>Если вы хотите создать новый план разработки на основе персонажа, который у вас уже есть, вы можете воспользоваться функцией <a href="/ru/features/character-data.html" target="_blank">Мои персонажи</a></li>
 </ul>
 </li>
 </ul>
@@ -1230,11 +1108,11 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/features/dashboard.html</link>
       <guid>https://hut.ao/ru/features/dashboard.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Домашняя панель</source>
-      <description>dashbord screenshot Snap Hutao по умолчанию входит в домашнюю панель при открытии. В верхней части находятся ваши личные игровые данные, а в нижней - недавние уведомления об игр...</description>
+      <description>Домашняя панель dashbord screenshot Snap Hutao по умолчанию входит в домашнюю панель при открытии. В верхней части находятся ваши личные игровые данные, а в нижней - недавние ув...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Домашняя панель</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01BV3VBz1g6dy4fyYJw_!!1797064093.png_.webp" alt="dashbord screenshot" loading="lazy"></p>
 <p>Snap Hutao по умолчанию входит в домашнюю панель при открытии. В верхней части находятся ваши личные игровые данные, а в нижней - недавние уведомления об игре и обратный отсчет событий в днях и часах.</p>
 <p>На домашней панели игровые данные включают в себя:</p>
@@ -1281,14 +1159,14 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/features/develop-plan.html</link>
       <guid>https://hut.ao/ru/features/develop-plan.html</guid>
       <source url="https://hut.ao/ru/rss.xml">План развития</source>
-      <description>План развития Добавление целей разработки в список материалов Добавление целей из WIKI Кликните по WIKI персонажей или WIKI оружия в левой боковой панели меню; Выберите персонаж...</description>
+      <description>План развития План развития Добавление целей разработки в список материалов Добавление целей из WIKI Кликните по WIKI персонажей или WIKI оружия в левой боковой панели меню Выбе...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> План развития</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01CDsjcb1g6dyB7M0EW_!!1797064093.png_.webp" alt="План развития" loading="lazy"></p>
-<h2> Добавление целей разработки в список материалов</h2>
-<h3> Добавление целей из WIKI</h3>
+<h2>Добавление целей разработки в список материалов</h2>
+<h3>Добавление целей из WIKI</h3>
 <ul>
 <li>Кликните по <code>WIKI персонажей</code> или <code>WIKI оружия</code> в левой боковой панели меню</li>
 <li>Выберите персонажа или оружие, которое вы хотите добавить</li>
@@ -1299,18 +1177,18 @@ file contains entire data of the client.</p>
 </ul>
 </li>
 </ul>
-<h3> Добавление целей из моих данных о персонажах</h3>
+<h3>Добавление целей из моих данных о персонажах</h3>
 <ul>
 <li>Кликните по <code>Мои персонажи</code> в левой боковой панели меню</li>
 <li>Выберите персонажа, которого вы хотите добавить</li>
 <li>Во всплывающем окне введите базовый уровень и целевой уровень
 <ul>
 <li>По умолчанию добавление целей из моих данных устанавливает базовый уровень как текущий уровень игрока</li>
-<li>См. документ <a href="/ru/features/character-data.html#sync-character-data" target="blank">Мои персонажи</a> для получения дополнительных инструкций</li>
+<li>См. документ <a href="/ru/features/character-data.html#sync-character-data" target="_blank">Мои персонажи</a> для получения дополнительных инструкций</li>
 </ul>
 </li>
 </ul>
-<h2> Инвентарь предметов</h2>
+<h2>Инвентарь предметов</h2>
 <div class="hint-container info">
 <p class="hint-container-title">Инфо</p>
 <p>Эта функция находится в стадии разработки для языков, отличных от китайского</p>
@@ -1323,11 +1201,11 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/features/game-launcher.html</link>
       <guid>https://hut.ao/ru/features/game-launcher.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Game Launcher</source>
-      <description>Game Launcher Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings; Click on the Game Launcher on the sidebar to get into g...</description>
+      <description>Game Launcher Game Launcher Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings Click on the Game Launcher on the sidebar ...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Game Launcher</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp" alt="Game Launcher" loading="lazy"></p>
 <ul>
 <li>Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings</li>
@@ -1351,7 +1229,7 @@ file contains entire data of the client.</p>
 </ul>
 </li>
 </ul>
-<h2> Server Switch</h2>
+<h2>Server Switch</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">Privilege Notice</p>
 <ol>
@@ -1364,181 +1242,8 @@ In the <code>General - Server</code> field, select the server you want</p>
 <ul>
 <li>Current available serves options include:</li>
 </ul>
-<table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Server</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>CN Default</td>
-<td>Mainland China server</td>
-</tr>
-<tr>
-<td>CN Official</td>
-<td>Mainland China server, no difference with previous row</td>
-</tr>
-<tr>
-<td>CN NoTapTap</td>
-<td>Mainland China server without TapTap account login method</td>
-</tr>
-<tr>
-<td>BiliBili</td>
-<td>Chinese server with BiliBili account system</td>
-</tr>
-<tr>
-<td>Global Default</td>
-<td>HoYoVerse servers</td>
-</tr>
-<tr>
-<td>Global Epic</td>
-<td>HoYoVerse servers with Epic Store payment gateway</td>
-</tr>
-<tr>
-<td>Global Google</td>
-<td>HoYoVerse servers with Google Pay payment gateway</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>click <code>Launcher</code> button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game</li>
-</ul>
-<h2> Game Account Switch</h2>
-<div class="hint-container tip">
-<p class="hint-container-title">Совет</p>
-<ol>
-<li>The <strong>account</strong> mentioned in this feature is Genshin game login account instead of HoYoLAB account</li>
-<li>Game account switch feature currently only supporting official CN server</li>
-</ol>
-</div>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>CN</th>
-<th>BiliBili</th>
-<th>Global</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Save Login Status</td>
-<td>Supported</td>
-<td>Supported</td>
-<td>Supported</td>
-</tr>
-<tr>
-<td>Switch Account</td>
-<td>Supported</td>
-<td>Not Supported</td>
-<td>Supported</td>
-</tr>
-</tbody>
-</table>
-<ol>
-<li>Enter Game Launcher page</li>
-<li>Click <code>Detect Account</code> field in the <code>General</code> category, Snap Hutao will detect current Genshin Impact's account login status</li>
-<li>In this pop-up window, enter an archive name for this account and click <code>Confirm</code></li>
-<li>Go back to the game, sign out and sign in to your another account. Repeat step 2 and 3 to add all your account to Snap Hutao
-<ul>
-<li>Each saved account are selectable</li>
-<li>On the right side, there are three buttons, they are:
-<ul>
-<li><code>Bind current user account</code>, bind current activated MiHoYo BBS account with this game account, an UID will be display on this archive</li>
-<li><code>Rename</code>, rename current account archive name</li>
-<li><code>Delete</code>, delete current account archive</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<h2> Appearance</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">Примечание</p>
-<ul>
-<li>
-<p>In some reported cases, using Snap Hutao with <code>Exclusive Fullscreen</code> mode will cause the game process no response.</p>
-<ul>
-<li>Suggest to use <code>Borderless</code> or <code>Fullscreen</code> mode if you faced same problem</li>
-<li>The problem is caused by failure of game embedded browser cannot run</li>
-</ul>
-</li>
-</ul>
-</div>
-<ul>
-<li>Enter Game Launcher page</li>
-<li>In the <code>Appearance</code> category, there are 6 available options:
-<ul>
-<li><strong>Exclusive Fullscreen</strong>, the game process will run in exclusive fullscreen mode
-<ul>
-<li><strong>You should only use this option when you are able to independently describe technical principles and effects of exclusive fullscreen</strong></li>
-</ul>
-</li>
-<li><strong>Fullscreen</strong>, the game display mode is set to fullscreen</li>
-<li><strong>Borderless</strong>, the game display mode is set to borderless</li>
-<li><strong>Width</strong>, game window width, such as <code>1920</code></li>
-<li><strong>Height</strong>, game window height, such as <code>1080</code></li>
-<li><strong>Display</strong>, users with multiple displays can use this option to set which display to run the game</li>
-</ul>
-</li>
-</ul>
-<h2> Resource Download</h2>
-<p>Game launcher in Snap Hutao also offers resource download feature, which lists real time Genshin Impact (CN server)
-client package and OTA package. User can click the hyperlink icon on each package's right side to redirect to browser to
-download them by user favored download tools.</p>
-<p>When you are updating the game client, you can do the following steps:</p>
-<ol>
-<li>Update official launcher to the latest</li>
-<li>In <code>Snap Hutao - Game Launcher - Resource Download</code>, find needed client OTA package and installed language OTA package</li>
-<li>Move all package to folder where game client located</li>
-<li>Start official launcher, click on update button. The launcher should skip the download and directly starts to unzip the OTA packages to update client</li>
-</ol>
-<h2> Advanced Features</h2>
-<div class="hint-container caution">
-<p class="hint-container-title">Предупреждение</p>
-<ul>
-<li>Be aware: all advanced features are labeled as <code>Dangeroud Feature</code>; indicating that enabling them means you choose
-to assume any risk on your own.</li>
-<li>You need to enable advanced features in Snap Hutao's settings page</li>
-</ul>
-</div>
-<h3> Unlock Frame Rate Limit</h3>
-<div class="hint-container caution">
-<p class="hint-container-title">Предупреждение</p>
-<ul>
-<li>The <a href="https://github.com/DGP-Studio/Unlocker" target="_blank" rel="noopener noreferrer">Unlocker project</a> only affects the UnityPlayer itself, directly affecting
-the Unity3D engine, and does not have a direct relationship with the game itself. Essentially, it is no different from
-settings like 120 FPS in mobile devices. However, you should still use it with caution and read the <a href="/ru/statements/tos.html" target="blank">user agreement</a>
-on your own.</li>
-</ul>
-</div>
-<ul>
-<li>
-<p>Run Snap Hutao as administrator</p>
-</li>
-<li>
-<p>Enter Game Launcher page</p>
-</li>
-<li>
-<p>At the bottom of the page, you can find <code>Unlock Frame Rate Limit</code> option</p>
-<ul>
-<li>Trigger the switch to enable or disable this feature</li>
-<li>In the <code>Set Frame Rate Limit</code> field, you can adjust the limit freely</li>
-</ul>
-</li>
-<li>
-<p>Fact that may cause <strong>failure in unlocking frame rate limit</strong>:</p>
-<ul>
-<li>Snap Hutao process is not kept in the background</li>
-<li><code>V-Sync</code> is not set to off in the game</li>
-<li><code>Max Framerate</code> limit is not changed in your graphic card settings</li>
-<li><code>Power Saving</code> mode is not disabled in power settings</li>
-<li>Your graphic card is not powerful enough</li>
-</ul>
-</li>
-</ul>
+<p>| Option         | Server                                                    |
+|</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp" type="image/webp"/>
     </item>
@@ -1547,11 +1252,11 @@ on your own.</li>
       <link>https://hut.ao/ru/features/hutao-API.html</link>
       <guid>https://hut.ao/ru/features/hutao-API.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Hutao Database / Abyss Record</source>
-      <description>Snap Hutao offers two major statistic features associated with Spiral Abyss challenge Abyss Stats on the sidebar is a feature designed to help players who are not familiar with ...</description>
+      <description>Hutao Database / Abyss Record Snap Hutao offers two major statistic features associated with Spiral Abyss challenge Abyss Stats on the sidebar is a feature designed to help play...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Hutao Database / Abyss Record</h1>
+      <content:encoded><![CDATA[
 <p>Snap Hutao offers two major statistic features associated with Spiral Abyss challenge</p>
 <ul>
 <li><code>Abyss Stats</code> on the sidebar is a feature designed to help players who are not familiar with Genshin Impact's
@@ -1565,7 +1270,7 @@ personal data collection by saving their challenge data from each period of the 
 </li>
 </ul>
 
-<h2> View Abyss Stats</h2>
+<h2>View Abyss Stats</h2>
 <div class="hint-container warning">
 <p class="hint-container-title">Data Scope Limitation</p>
 <p>All calculated data are based on the player data <strong>uploaded to the Hutao Database</strong> and cannot represent the average
@@ -1606,8 +1311,8 @@ of each month on the gaming server timezone of your account
 </a></ul><a class="footnote-anchor" id="footnote-ref4">
 </a></li><a class="footnote-anchor" id="footnote-ref4">
 </a></ul><a class="footnote-anchor" id="footnote-ref4">
-</a><h2><a class="footnote-anchor" id="footnote-ref4"></a> Upload Abyss Data</h2>
-<h3> Use Snap Hutao Client</h3>
+</a><h2><a class="footnote-anchor" id="footnote-ref4"></a><a class="header-anchor" href="#upload-abyss-data"><span>Upload Abyss Data</span></a></h2>
+<h3>Use Snap Hutao Client</h3>
 <ul>
 <li>Enter Abyss Records page by clicking <code>Abyss Records</code> on the sidebar menu</li>
 <li>Click <code>Refresh Data</code> button to make suer Snap Hutao is storing your latest Spiral Abyss record</li>
@@ -1618,7 +1323,7 @@ of each month on the gaming server timezone of your account
 </ul>
 </li>
 </ul>
-<h3> Use Browser</h3>
+<h3>Use Browser</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Инфо</p>
 <p>This method does not support HoYoLAB</p>
@@ -1637,7 +1342,7 @@ of each month on the gaming server timezone of your account
 <li>After confirm it, the browser will upload your abyss record, do not turn off your browser</li>
 <li>You will receive a notification when your data is submitted</li>
 </ul>
-<h2> Data Sharing</h2>
+<h2>Data Sharing</h2>
 <p>Snap Hutao is contributing data to Hutao Database with other developers. You can view our Abyss Stats, and upload your
 Abyss data in multiple applications other than Snap Hutao.
 Currently, Snap Hutao is sharing Abyss data with following applications:</p>
@@ -1665,21 +1370,21 @@ Abyss stats, all collected characters will be included <a href="#footnote-ref4" 
       <link>https://hut.ao/ru/features/hutao-settings.html</link>
       <guid>https://hut.ao/ru/features/hutao-settings.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Software Settings</source>
-      <description>The following feature tutorials are introduced in-program order.; About Snap Hutao This part has the following information: The icon of Snap Hutao：You can find the original imag...</description>
+      <description>Software Settings Инфо The following feature tutorials are introduced in-program order. About Snap Hutao This part has the following information: The icon of Snap Hutao：You can ...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Software Settings</h1>
+      <content:encoded><![CDATA[
 <div class="hint-container info">
 <p class="hint-container-title">Инфо</p>
 <ul>
 <li>The following feature tutorials are introduced in-program order.</li>
 </ul>
 </div>
-<h2> About Snap Hutao</h2>
+<h2>About Snap Hutao</h2>
 <p>This part has the following information:</p>
 <ul>
-<li>The icon of Snap Hutao：You can find the original image of the icon at the <a href="/" target="blank">home page</a>
+<li>The icon of Snap Hutao：You can find the original image of the icon at the <a href="/" target="_blank">home page</a>
 <ul>
 <li>The artist is <a href="https://space.bilibili.com/274422134" target="_blank" rel="noopener noreferrer">画画的芦苇 (BiliBili)</a><details class="hint-container details"><summary>Drawing Process</summary>
 </details>
@@ -1690,11 +1395,11 @@ Abyss stats, all collected characters will be included <a href="#footnote-ref4" 
 <li>Snap Hutao client version</li>
 <li>Device ID</li>
 </ul>
-<h2> Snap Hutao Account </h2>
+<h2>Snap Hutao Account </h2>
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp" alt="Hutao-account" loading="lazy">
 Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
 Currently, you are already able to register and login to your Snap Hutao account in the settings page.</p>
-<h2> Shell Experience</h2>
+<h2>Shell Experience</h2>
 <ul>
 <li>Create Desktop Shortcut
 <ul>
@@ -1702,7 +1407,7 @@ Currently, you are already able to register and login to your Snap Hutao account
 </ul>
 </li>
 </ul>
-<h2> Appearance</h2>
+<h2>Appearance</h2>
 <ul>
 <li>
 <p>Language</p>
@@ -1725,7 +1430,7 @@ Currently, you are already able to register and login to your Snap Hutao account
 </ul>
 </li>
 </ul>
-<h2> Home</h2>
+<h2>Home</h2>
 <ul>
 <li>Dashboard Card
 <ul>
@@ -1740,7 +1445,7 @@ Currently, you are already able to register and login to your Snap Hutao account
 </ul>
 </li>
 </ul>
-<h2> Game</h2>
+<h2>Game</h2>
 <ul>
 <li>
 <p>Game Path</p>
@@ -1768,18 +1473,18 @@ select PowerShell path to fix issue when PowerShell path is unable to located au
 </ul>
 </li>
 </ul>
-<h2> Wish History</h2>
+<h2>Wish History</h2>
 <ul>
 <li>In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature</li>
 </ul>
-<h2> Geetest Verification</h2>
+<h2>Geetest Verification</h2>
 <p>MiYouShe uses Geetest verification to block requests not from real human operations, so some requests from Snap Hutao,
 such as claim check-in reward and fetch Real-time Notes data may be failed due to marked as robot operation.
 If you have a third party service to bypass Geetest verification, you can config this setting to pass verification
 parameters to service provider you used.</p>
 <p>Successfully config this setting will help Snap Hutao pass verification when fetching data from Real-time Notes and
 claiming check-in rewards, and avoid <code>-1034</code> error from MiYouShe.</p>
-<h2> Storage</h2>
+<h2>Storage</h2>
 <ul>
 <li>Open Data Folder
 <ul>
@@ -1803,14 +1508,14 @@ re-download images resource at next start-up</li>
 </ul>
 </li>
 </ul>
-<h2> Dangerous Features</h2>
+<h2>Dangerous Features</h2>
 <ul>
 <li>Enable Advanced Features
 <ul>
 <li>With Snap Hutao running as administrator, you can enable this field to enable advanced features in the game launcher
 <blockquote>
 <p>For reference：</p>
-<p><a href="/ru/statements/tos.html" target="blank">Snap Hutao Terms of Service</a></p>
+<p><a href="/ru/statements/tos.html" target="_blank">Snap Hutao Terms of Service</a></p>
 <p><a href="https://ys.mihoyo.com/main/company/agreement" target="_blank" rel="noopener noreferrer">Genshin Impact Terms of Service (CN server/Chinese)</a></p>
 <p><a href="https://genshin.hoyoverse.com/en/company/terms" target="_blank" rel="noopener noreferrer">Genshin Impact Terms of Service (Oversea servers/English)</a></p>
 </blockquote>
@@ -1833,11 +1538,11 @@ re-download images resource at next start-up</li>
       <link>https://hut.ao/ru/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/ru/features/mhy-account-switch.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Переключение аккаунта MiHoYo BBS</source>
-      <description>Существуют два типа MiHoYo BBS: MiYouShe и HoYoLAB. MiYouShe относится к версии для Китая, HoYoLAB — к глобальной версии; оба варианта поддерживаются Snap Hutao. В данном докуме...</description>
+      <description>Переключение аккаунта MiHoYo BBS Совет Существуют два типа MiHoYo BBS: MiYouShe и HoYoLAB. MiYouShe относится к версии для Китая, HoYoLAB — к глобальной версии; оба варианта под...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Переключение аккаунта MiHoYo BBS</h1>
+      <content:encoded><![CDATA[
 <div class="hint-container tip">
 <p class="hint-container-title">Совет</p>
 <p>Существуют два типа MiHoYo BBS: MiYouShe и HoYoLAB.
@@ -1865,7 +1570,7 @@ MiYouShe относится к версии для Китая, HoYoLAB — к г
 <li>В качестве альтернативы вы можете ввести свой список cookie MiHoYo BBS, нажав кнопку <code>Ввести вручную</code>
 <ul>
 <li>Если вы это делаете, файл cookie должен содержать поле <code>SToken</code></li>
-<li>Вы можете ознакомиться с документом <a href="/ru/advanced/get-SToken-cookie-from-the-third-party.html" target="blank">Использование сторонних инструментов для получения cookie с SToken</a> для методов захвата cookie с <code>SToken</code></li>
+<li>Вы можете ознакомиться с документом <a href="/ru/advanced/get-SToken-cookie-from-the-third-party.html" target="_blank">Использование сторонних инструментов для получения cookie с SToken</a> для методов захвата cookie с <code>SToken</code></li>
 </ul>
 </li>
 <li>После добавления вашего аккаунта MiHoYo BBS вам нужно переключиться на аккаунт, который вы хотите активировать, в меню аккаунта
@@ -1897,15 +1602,15 @@ MiYouShe относится к версии для Китая, HoYoLAB — к г
       <link>https://hut.ao/ru/features/monster-wiki.html</link>
       <guid>https://hut.ao/ru/features/monster-wiki.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Энциклопедия монстров</source>
-      <description>Энциклопедия монстров Энциклопедия монстров - это встроенная база данных WIKI, предназначенная для поиска информации о каждом монстре: Базовые способности, способности на каждом...</description>
+      <description>Энциклопедия монстров Энциклопедия монстров Энциклопедия монстров - это встроенная база данных WIKI, предназначенная для поиска информации о каждом монстре: Базовые способности,...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Энциклопедия монстров</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01mEozOR1g6dyFXXWcO_!!1797064093.png_.webp" alt="Энциклопедия монстров" loading="lazy"></p>
 <p>Энциклопедия монстров - это встроенная база данных WIKI, предназначенная для поиска информации о каждом монстре:
 <strong>Базовые способности, способности на каждом уровне, Сопротивляемость, предметы для добычи</strong></p>
-<h2> Включенные данные</h2>
+<h2>Включенные данные</h2>
 <ul>
 <li>Список монстров
 <ul>
@@ -1933,18 +1638,18 @@ MiYouShe относится к версии для Китая, HoYoLAB — к г
       <link>https://hut.ao/ru/features/real-time-notes.html</link>
       <guid>https://hut.ao/ru/features/real-time-notes.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Real-time Notes</source>
-      <description>This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao, you can check MiHoYo BBS Account Switch (mhy-account-switch.html) for more information....</description>
+      <description>Real-time Notes Инфо This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao, you can check for more information. live-data-tracking Add Role Cl...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Real-time Notes</h1>
+      <content:encoded><![CDATA[
 <div class="hint-container info">
 <p class="hint-container-title">Инфо</p>
 <p>This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao,
-you can check <a href="/ru/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> for more information.</p>
+you can check <a href="/ru/features/mhy-account-switch.html" target="_blank">MiHoYo BBS Account Switch</a> for more information.</p>
 </div>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp" alt="live-data-tracking" loading="lazy"></p>
-<h2> Add Role</h2>
+<h2>Add Role</h2>
 <ul>
 <li>Click on <code>Add Role</code> button</li>
 <li>In the pop-up menu, find the UID you want to add, and click on the add button to its right</li>
@@ -1960,12 +1665,12 @@ you can check <a href="/ru/features/mhy-account-switch.html" target="blank">MiHo
 </ul>
 </li>
 </ul>
-<h2> Verify Current User and Role</h2>
+<h2>Verify Current User and Role</h2>
 <p>If you are using a MiYouShe account, then you account is very likely to be marked as robot-usage and leads to an anti-bot
 verification. In this status, Real-time Notes data cannot be updated.</p>
 <p>You can click on <code>Verify Current User and Role</code> button, Snap Hutao will pop up verification window. After finishing the
 verification, then your account can be used to refresh data.</p>
-<h2> Global Notification Settings</h2>
+<h2>Global Notification Settings</h2>
 <ul>
 <li>In the <code>Notification Settings</code> on the top right, you can change the global settings of Real-time Notes, including:
 <ul>
@@ -1986,7 +1691,7 @@ verification, then your account can be used to refresh data.</p>
 </ul>
 </li>
 </ul>
-<h2> Independent Settings for Accounts</h2>
+<h2>Independent Settings for Accounts</h2>
 <ul>
 <li>Snap Hutao allows different settings on each Real-time Notes account</li>
 <li>Hover the cursor over the form of Real-time Notes account that needs to set</li>
@@ -2002,7 +1707,7 @@ verification, then your account can be used to refresh data.</p>
 </li>
 <li>Click on <code>Save</code> and you can save the settings</li>
 </ul>
-<h2> Delete Daily-Notes Account</h2>
+<h2>Delete Daily-Notes Account</h2>
 <ul>
 <li>Hover the cursor over the form of Real-time Notes account that needs to delete</li>
 <li>Clock on the remove button on it, and you can remove the corresponding account</li>
@@ -2015,11 +1720,11 @@ verification, then your account can be used to refresh data.</p>
       <link>https://hut.ao/ru/features/setup.html</link>
       <guid>https://hut.ao/ru/features/setup.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Initial Setup Guide</source>
-      <description>When launching the Snap Hutao for the first time, the client will automatically enter an initialization setup guide to assist users in configuring the client correctly. Currentl...</description>
+      <description>Initial Setup Guide When launching the Snap Hutao for the first time, the client will automatically enter an initialization setup guide to assist users in configuring the client...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Initial Setup Guide</h1>
+      <content:encoded><![CDATA[
 <p>When launching the Snap Hutao for the first time, the client will automatically enter an initialization setup guide to assist users in configuring the client correctly.</p>
 <p>Currently, Snap Hutao will guide users through the process of setting the language, confirming user agreements, checking necessary environmental configurations, and downloading static resources.</p>
 <details class="hint-container details"><summary>Language Setting</summary>
@@ -2053,14 +1758,14 @@ Once the download is complete, Snap Hutao will close the initialization setup in
       <link>https://hut.ao/ru/features/weapon-wiki.html</link>
       <guid>https://hut.ao/ru/features/weapon-wiki.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Оружейная энциклопедия</source>
-      <description>Оружейная энциклопедия Оружейная энциклопедия - это встроенная в Snap Hutao функция поиска информации об оружии. Включенные данные Список оружия; Используя значок над списком, в...</description>
+      <description>Оружейная энциклопедия Оружейная энциклопедия Оружейная энциклопедия - это встроенная в Snap Hutao функция поиска информации об оружии. Включенные данные Список оружия Используя...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Оружейная энциклопедия</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01dj5xBC1g6dyEKqaPQ_!!1797064093.png_.webp" alt="Оружейная энциклопедия" loading="lazy"></p>
 <p>Оружейная энциклопедия - это встроенная в Snap Hutao функция поиска информации об оружии.</p>
-<h2> Включенные данные</h2>
+<h2>Включенные данные</h2>
 <ul>
 <li>Список оружия
 <ul>
@@ -2096,11 +1801,11 @@ Once the download is complete, Snap Hutao will close the initialization setup in
       <link>https://hut.ao/ru/features/wish-export.html</link>
       <guid>https://hut.ao/ru/features/wish-export.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Wish History</source>
-      <description>Gacha is one of the core gameplay in Genshin Impact. Whether it&amp;apos;s for commemorative and show-off purposes, or for serious planning for a gacha strategy, it&amp;apos;s very important to p...</description>
+      <description>Wish History Gacha is one of the core gameplay in Genshin Impact. Whether it&amp;apos;s for commemorative and show-off purposes, or for serious planning for a gacha strategy, it&amp;apos;s very i...</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Wish History</h1>
+      <content:encoded><![CDATA[
 <p>Gacha is one of the core gameplay in Genshin Impact. Whether it's for commemorative and show-off purposes,
 or for serious planning for a gacha strategy, it's very important to perform statical analysis on historical gacha record.
 However, Genshin Impact only provides players with six months of gacha records, which is not user-friendly <s>(although they
@@ -2108,7 +1813,7 @@ still keep tracking how many Timmie's pigeons you've killed for the whole year)<
 <p>Therefore, we need to use the gacha records from these six months to retrieve the data and transfer the record to our
 local device. This is the purpose of wish history export feature in Snap Hutao.</p>
 <p>Regarding the technical principles of exporting Genshin Impact gacha records,
-you can refer to our article on <a href="/ru/advanced/Gacha-system-and-export-principal.html" target="blank">Gacha System and Export Principles</a></p>
+you can refer to our article on <a href="/ru/advanced/Gacha-system-and-export-principal.html" target="_blank">Gacha System and Export Principles</a></p>
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp" alt="wish export" loading="lazy"></p>
 <p><strong>As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
 total number of wishes, current pity count, quantity and percentage of obtained items with different rarity, number of
@@ -2120,13 +1825,13 @@ times a 5-star rarity item was not obtained and the current pity status.</strong
 available. When you see the latest batch of gacha records in the game's own history, then you can then obtain the corresponding
 statistics from Snap Hutao.</p>
 </div>
-<h2> Fetch Wish History</h2>
-<h3> Refresh with SToken Cookie </h3>
+<h2>Fetch Wish History</h2>
+<h3>Refresh with SToken Cookie </h3>
 <div class="hint-container info">
 <p class="hint-container-title">Hint</p>
 <ul>
 <li>This method requires user to sign in to MiHoYo BBS account in Snap Hutao, refer to
-<a href="/ru/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> to get to know how to login to your MiHoYo BBS account</li>
+<a href="/ru/features/mhy-account-switch.html" target="_blank">MiHoYo BBS Account Switch</a> to get to know how to login to your MiHoYo BBS account</li>
 <li><strong>SToken Cookie refresh method does not support global server (HoYoLAB)</strong></li>
 </ul>
 </div>
@@ -2136,7 +1841,7 @@ statistics from Snap Hutao.</p>
 <li>Click on <code>Refresh</code> button and select <code>SToken Refresh</code></li>
 <li>Wait for refresh task to complete</li>
 </ul>
-<h3> Refresh with Web Cache </h3>
+<h3>Refresh with Web Cache </h3>
 <ul>
 <li>Switch to <code>Wish History</code> feature page in Snap Hutao</li>
 <li>Start the game, go to in-game wish history page</li>
@@ -2151,18 +1856,18 @@ statistics from Snap Hutao.</p>
 <li>Execute operation <code>Delete game embeeded browser web cache</code></li>
 </ul>
 </div>
-<h3> Refresh with Manually Input URL </h3>
+<h3>Refresh with Manually Input URL </h3>
 <ul>
 <li>If you get your personal wish history URL, you can select <code>Manual Input</code> and submit your wish history URL</li>
 <li>Be aware that the URL is time-sensitive</li>
 </ul>
-<h3> Explanation on Full Refresh Option</h3>
+<h3>Explanation on Full Refresh Option</h3>
 <p>By default, Snap Hutao will stop importing gacha records once it matches a Wish ID that already exists locally.
 However, if you wish to obtain all the historical records from the Genshin Impact servers
 (even if they are already present in your local wish history), you can check the "Full Refresh" option.</p>
 <p>Not selecting <code>Full Refresh</code> will <strong>not</strong> cause you to lose your wishing data,
 and selecting <code>Full Refresh</code> will <strong>not</strong> cause your local records to mistakenly record the same wishing data twice.</p>
-<h3> Import Wish History Data from Other Applications </h3>
+<h3>Import Wish History Data from Other Applications </h3>
 <p>Snap Hutao supports importing wish history data file that in <code>UIGF data format</code><sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></p><a class="footnote-anchor" id="footnote-ref1">
 <p>If you need to import such type of data, you can:</p>
 <ul>
@@ -2171,7 +1876,7 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
 <li>Select your UIGF Json data file</li>
 <li>Check the imported file information and confirm to import</li>
 </ul>
-</a><h2><a class="footnote-anchor" id="footnote-ref1"></a> Export Wish History Data </h2>
+</a><h2><a class="footnote-anchor" id="footnote-ref1"></a><a class="header-anchor" href="#export-wish-history-data"><span>Export Wish History Data </span></a></h2>
 <p>Snap Hutao support exporting wish history data to a Json file written in UIGF data format</p>
 <p>If you need to export the wish history data, you can:</p>
 <ul>
@@ -2183,14 +1888,14 @@ and selecting <code>Full Refresh</code> will <strong>not</strong> cause your loc
 </li>
 <li>Confirm and export data</li>
 </ul>
-<h2> Wish History Cloud Sync </h2>
+<h2>Wish History Cloud Sync </h2>
 <blockquote>
 <p>Wish history cloud sync is designed on Snap Hutao Account.
-You need to <a href="/ru/features/hutao-settings.html#snap-hutao-account" target="blank">register an account in the settings</a> to use this feature</p>
+You need to <a href="/ru/features/hutao-settings.html#snap-hutao-account" target="_blank">register an account in the settings</a> to use this feature</p>
 </blockquote>
 <p>With this feature, you can upload your wish history to Hutao Cloud, to avoid risk of losing data, and make it easier to
 transfer data between devices.</p>
-<h3> Cloud Sync Privilege</h3>
+<h3>Cloud Sync Privilege</h3>
 <p>Cloud synchronization is a service uses Snap Hutao's server resource, so it is a time-limited feature.
 Currently, you have the following ways to enable Cloud Sync:</p>
 <ol>
@@ -2210,18 +1915,18 @@ development of Hutao Cloud</li>
 </ol>
 <p>After your Hutao Cloud privilege expired, you will not be able to upload, download or delete your data, but your data
 will not be removed. You can continue to operate it once you get your privilege again.</p>
-<h3> Upload</h3>
+<h3>Upload</h3>
 <ul>
 <li>In wish export page, select the archive you need to sync data</li>
 <li>Click <code>Snap Hutao Cloud</code> button on the top right</li>
 <li>Click <code>Upload Current Wish Archive</code>, and then your data will be backup to the cloud</li>
 </ul>
-<h3> Download</h3>
+<h3>Download</h3>
 <ul>
 <li>In wish export page, Click <code>Snap Hutao Cloud</code> button on the top right</li>
 <li>Click download button on the right side of UID which data needs to be downloaded</li>
 </ul>
-<h3> Delete</h3>
+<h3>Delete</h3>
 <ul>
 <li>In wish export page, Click <code>Snap Hutao Cloud</code> button on the top right</li>
 <li>Click delete button on the right side of UID which data needs to be deleted</li>
@@ -2241,9 +1946,9 @@ will not be removed. You can continue to operate it once you get your privilege 
       <link>https://hut.ao/ru/statements/</link>
       <guid>https://hut.ao/ru/statements/</guid>
       <source url="https://hut.ao/ru/rss.xml">Statements</source>
-      <description>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program.</description>
+      <description>Statements Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program. </description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Statements</h1>
+      <content:encoded><![CDATA[
 <p><strong>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.</strong></p>
 ]]></content:encoded>
     </item>
@@ -2252,15 +1957,15 @@ will not be removed. You can continue to operate it once you get your privilege 
       <link>https://hut.ao/ru/statements/bug-report.html</link>
       <guid>https://hut.ao/ru/statements/bug-report.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Отправка отчета об ошибке</source>
-      <description>Вы можете отправить отчет об ошибке, если вы обнаружили воспроизводимую проблему, которую не удается исправить самостоятельно. Перед отправкой вашей проблемы выполните следующую...</description>
+      <description>Отправка отчета об ошибке Вы можете отправить отчет об ошибке, если вы обнаружили воспроизводимую проблему, которую не удается исправить самостоятельно. Перед отправкой вашей пр...</description>
       <category>Анонс</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Отправка отчета об ошибке</h1>
+      <content:encoded><![CDATA[
 <p>Вы можете отправить отчет об ошибке, если вы обнаружили воспроизводимую проблему, которую не удается исправить самостоятельно.</p>
 <p>Перед отправкой вашей проблемы выполните следующую проверку:</p>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Убедитесь, что у вас установлена последняя версия Snap Hutao.</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Проверьте <a href="/ru/advanced/FAQ.html" target="blank">документ Часто задаваемых вопросов</a> и <a href="/ru/advanced/known-issue.html" target="blank">документ известных проблем</a>.</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Проверьте <a href="/ru/advanced/FAQ.html" target="_blank">документ Часто задаваемых вопросов</a> и <a href="/ru/advanced/known-issue.html" target="_blank">документ известных проблем</a>.</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> Поищите текущие проблемы в проекте, чтобы увидеть, есть ли аналогичные проблемы.</label></li>
 </ul>
 <p>Если вы не получили решение из вышеуказанной проверки, вы можете создать новую проблему на GitHub.</p>
@@ -2286,7 +1991,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> Запрос на обновление документации</h2>
+<h2>Запрос на обновление документации</h2>
 <p>Если вы считаете, что в документации Snap Hutao отсутствует какая-то информация или содержатся ошибки, вы можете создать проблему в проекте Snap.Hutao.Docs.</p>
 <ul>
 <li>Отправьте свою проблему на GitHub: <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao.Docs</a></li>
@@ -2298,13 +2003,13 @@ will not be removed. You can continue to operate it once you get your privilege 
       <link>https://hut.ao/ru/statements/privacy-notice.html</link>
       <guid>https://hut.ao/ru/statements/privacy-notice.html</guid>
       <source url="https://hut.ao/ru/rss.xml">User Data and Privacy Notice</source>
-      <description>Личная информация Характер проекта Snap Hutao подразумевает, что он не собирает какие-либо данные личной информации. Обычное использование данных Snap Hutao уважает конфиденциал...</description>
+      <description>User Data and Privacy Notice Личная информация Характер проекта Snap Hutao подразумевает, что он не собирает какие-либо данные личной информации. Обычное использование данных Sn...</description>
       <category>Announcement</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> User Data and Privacy Notice</h1>
-<h2> Личная информация</h2>
+      <content:encoded><![CDATA[
+<h2>Личная информация</h2>
 <p>Характер проекта Snap Hutao подразумевает, что он не собирает какие-либо данные личной информации.</p>
-<h2> Обычное использование данных</h2>
+<h2>Обычное использование данных</h2>
 <p>Snap Hutao уважает конфиденциальность пользователей, и в настоящее время мы используем данные, как описано ниже:</p>
 <ul>
 <li>
@@ -2359,7 +2064,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> Доверенные домены</h2>
+<h2>Доверенные домены</h2>
 <p>Проект Snap Hutao владеет следующими доменами, они доверены в рамках данного проекта, будьте осторожны с информацией, предоставленной доменами за пределами этого списка (включая веб-сайты, электронные письма и т. д.)</p>
 <ul>
 <li>hut.ao</li>
@@ -2384,11 +2089,11 @@ will not be removed. You can continue to operate it once you get your privilege 
       <link>https://hut.ao/ru/statements/tos.html</link>
       <guid>https://hut.ao/ru/statements/tos.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Пользовательское соглашение и Юридические уведомления</source>
-      <description>Общие положения Настоящее &amp;quot;Пользовательское соглашение и Юридическое отказоустранение&amp;quot; (далее именуемое &amp;quot;Соглашение&amp;quot; или &amp;quot;Пользовательское соглашение&amp;quot;) применяется ко всем прогр...</description>
+      <description>Пользовательское соглашение и Юридические уведомления Общие положения Настоящее &amp;quot;Пользовательское соглашение и Юридическое отказоустранение&amp;quot; (далее именуемое &amp;quot;Соглашение&amp;quot; или &amp;quot;П...</description>
       <category>Announcement</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Пользовательское соглашение и Юридические уведомления</h1>
-<h2> Общие положения</h2>
+      <content:encoded><![CDATA[
+<h2>Общие положения</h2>
 <ul>
 <li>Настоящее "Пользовательское соглашение и Юридическое отказоустранение" (далее именуемое "Соглашение" или "Пользовательское соглашение") применяется ко всем программным продуктам, разработанным командой разработчиков DGP-Studio (далее именуемой "командой" или "мы"), официальным веб-сайтам каждого проекта разработки и аффилированным самостоятельным медиа-аккаунтам.
 <ul>
@@ -2399,7 +2104,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> Характер проекта, услуги и определение обязанностей</h2>
+<h2>Характер проекта, услуги и определение обязанностей</h2>
 <ol>
 <li>
 <p>Так как все проекты, разработанные командой, являются "открытыми исходниками" и имеют "не коммерческую" природу, команда может принимать полные решения в любое время, включая, но не ограничиваясь, изменение "Пользовательского соглашения" и модификацию любого содержания в любых проектах, разработанных командой. Если произойдут изменения в "Условиях" или содержании произведений, мы опубликуем уведомления на соответствующем веб-сайте проекта. Измененные "Условия" вступят в силу автоматически после их публикации на официальном веб-сайте.</p>
@@ -2427,7 +2132,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ol>
-<h1> Права и обязанности</h1>
+<h1>Права и обязанности</h1>
 <ol start="6">
 <li>
 <p>Наша команда разрешает любому физическому или юридическому лицу проводить вторичную разработку, функциональные модификации и повторное использование нашего кода для других проектов без авторизации нашей команды, для любого проекта, разработанного нашей командой. Тем не менее, мы оставляем за собой право предпринять юридические меры против любого нарушения авторского права на программное обеспечение нашей команды.</p>
@@ -2455,7 +2160,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ol>
-<h2> Другие условия</h2>
+<h2>Другие условия</h2>
 <ol start="9">
 <li>
 <p>Определение "Не бизнес-характера" проектов, разработанных командой.</p>
@@ -2490,12 +2195,12 @@ will not be removed. You can continue to operate it once you get your privilege 
       <link>https://hut.ao/ru/statements/update-log.html</link>
       <guid>https://hut.ao/ru/statements/update-log.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Журнал обновлений</source>
-      <description>Не вижу смысла переводить все, поэтому переведу последние 2 1.9.6 New ➕; Added customized background image feature, users now can open background image folder and add images the...</description>
+      <description>Журнал обновлений Не вижу смысла переводить все, поэтому переведу последние 2 1.9.6 New ➕ Added customized background image feature, users now can open background image folder a...</description>
       <category>Announcement</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Журнал обновлений</h1>
+      <content:encoded><![CDATA[
 <p>Не вижу смысла переводить все, поэтому переведу последние 2</p>
-<h2> 1.9.6 </h2>
+<h2>1.9.6 </h2>
 <ul>
 <li>New ➕
 <ul>
@@ -2540,7 +2245,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.9.5</h2>
+<h2>1.9.5</h2>
 <ul>
 <li>New ➕
 <ul>
@@ -2564,7 +2269,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.9.4 </h2>
+<h2>1.9.4 </h2>
 <ul>
 <li>Fix 🔨
 <ul>
@@ -2572,7 +2277,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.9.3</h2>
+<h2>1.9.3</h2>
 <ul>
 <li>Fix 🔨
 <ul>
@@ -2580,7 +2285,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.9.2</h2>
+<h2>1.9.2</h2>
 <ul>
 <li>New ➕
 <ul>
@@ -2611,7 +2316,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.9.1 </h2>
+<h2>1.9.1 </h2>
 <ul>
 <li><strong>Fix 🔨</strong>
 <ul>
@@ -2626,12 +2331,12 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.9.0</h2>
+<h2>1.9.0</h2>
 <div class="hint-container important">
 <p class="hint-container-title">Breaking Changes</p>
 <p>Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new certificate to sign Snap Hutao installation packages.</p>
 <p>Programs with the new signature will be incompatible with old versions. Users updating from versions 1.8.4 and older to 1.9.0 and newer versions need to uninstall the old version first and then perform a fresh installation of the new version of the client. Due to the design of Snap Hutao's data directory, users will not lose any important data.</p>
-<p>You can read the article <a href="/ru/blog/version-1-9-0-breaking-changes.html" target="blank">Explanation of Breaking Changes in Version 1.9.0</a> for a deeper understanding of how the signature changes in this version update affect the Snap Hutao project.</p>
+<p>You can read the article <a href="/ru/blog/version-1-9-0-breaking-changes.html" target="_blank">Explanation of Breaking Changes in Version 1.9.0</a> for a deeper understanding of how the signature changes in this version update affect the Snap Hutao project.</p>
 </div>
 <ul>
 <li>
@@ -2680,11 +2385,11 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.8.5 </h2>
+<h2>1.8.5 </h2>
 <ul>
 <li>Tested changes caused by certificate change</li>
 </ul>
-<h2> 1.8.4</h2>
+<h2>1.8.4</h2>
 <ul>
 <li>Исправления
 <ul>
@@ -2704,7 +2409,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.8.3 </h2>
+<h2>1.8.3 </h2>
 <ul>
 <li>Исправления
 <ul>
@@ -2718,7 +2423,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.8.1</h2>
+<h2>1.8.1</h2>
 <ul>
 <li>Добавлено
 <ul>
@@ -2743,7 +2448,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.8.0</h2>
+<h2>1.8.0</h2>
 <ul>
 <li><strong>Upgraded .NET version to 8</strong> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1103" target="_blank" rel="noopener noreferrer">#1103</a></li>
 <li>Fixes
@@ -2763,7 +2468,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.7.17</h2>
+<h2>1.7.17</h2>
 <ul>
 <li>Fix
 <ul>
@@ -2788,7 +2493,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.7.16</h2>
+<h2>1.7.16</h2>
 <ul>
 <li>Add
 <ul>
@@ -2812,7 +2517,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.7.15</h2>
+<h2>1.7.15</h2>
 <ul>
 <li>Add
 <ul>
@@ -2832,11 +2537,11 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.7.14 </h2>
+<h2>1.7.14 </h2>
 <ul>
 <li>Fixed an issue causes the program to crash when opening some specific dialog boxes <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1052" target="_blank" rel="noopener noreferrer">#1052</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1054" target="_blank" rel="noopener noreferrer">#1054</a></li>
 </ul>
-<h2> 1.7.13</h2>
+<h2>1.7.13</h2>
 <ul>
 <li>Add
 <ul>
@@ -2864,11 +2569,11 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.7.11 </h2>
+<h2>1.7.11 </h2>
 <ul>
 <li>Fixed the game launching arguments error (hotfix)</li>
 </ul>
-<h2> 1.7.10</h2>
+<h2>1.7.10</h2>
 <ul>
 <li>Fix
 <ul>
@@ -2888,7 +2593,7 @@ will not be removed. You can continue to operate it once you get your privilege 
 </ul>
 </li>
 </ul>
-<h2> 1.7.9</h2>
+<h2>1.7.9</h2>
 <ul>
 <li>Fix
 <ul>
@@ -2901,7 +2606,7 @@ resolution was changed after exiting the program</li>
 </ul>
 </li>
 </ul>
-<h2> 1.7.7</h2>
+<h2>1.7.7</h2>
 <ul>
 <li>Added card shadow in the following elements to optimize visual effect
 <ul>
@@ -2937,7 +2642,7 @@ resolution was changed after exiting the program</li>
 </ul>
 </li>
 </ul>
-<h2> ## 1.7.6</h2>
+<h2>## 1.7.6</h2>
 <ul>
 <li>Add
 <ul>
@@ -2964,7 +2669,7 @@ resolution was changed after exiting the program</li>
 </ul>
 </li>
 </ul>
-<h2> 1.7.5 </h2>
+<h2>1.7.5 </h2>
 <ul>
 <li>Add
 <ul>
@@ -2991,7 +2696,7 @@ resolution was changed after exiting the program</li>
 </ul>
 </li>
 </ul>
-<h2> 1.7.4 </h2>
+<h2>1.7.4 </h2>
 <ul>
 <li>Add
 <ul>
@@ -3022,7 +2727,7 @@ Dev Plan page to need to be entered at least once to add a Dev Plan archive</li>
 </ul>
 </li>
 </ul>
-<h2> 1.7.3</h2>
+<h2>1.7.3</h2>
 <ul>
 <li>Fixed the issue of HoYoverse web login not working</li>
 <li>Upgraded the Windows App SDK version to fix the issue where the top of the title bar could not resize the window</li>
@@ -3030,7 +2735,7 @@ Dev Plan page to need to be entered at least once to add a Dev Plan archive</li>
 <li>Fixed the issue where the user panel would display a successful claim of login rewards even if it failed</li>
 <li>Fixed the problem where launching the game from the taskbar would open both the game window and the main program window simultaneously</li>
 </ul>
-<h2> 1.7.2</h2>
+<h2>1.7.2</h2>
 <ul>
 <li>Wish Export
 <ul>
@@ -3047,7 +2752,7 @@ Dev Plan page to need to be entered at least once to add a Dev Plan archive</li>
 </li>
 <li>Adjusted the UI of the homepage notifications to align them with the right edge</li>
 </ul>
-<h2> 1.7.0</h2>
+<h2>1.7.0</h2>
 <ul>
 <li>Add a startup guide to help user familiarize Snap Hutao on start launch
 <ul>
@@ -3158,7 +2863,7 @@ Dev Plan page to need to be entered at least once to add a Dev Plan archive</li>
 <li>Adjusted text prompts for return codes <code>-100</code> and <code>-10001</code> to help users better understand their meanings</li>
 <li>Other minor changes</li>
 </ul>
-<h2> 1.6.6</h2>
+<h2>1.6.6</h2>
 <ul>
 <li>New
 <ul>
@@ -3173,7 +2878,7 @@ Dev Plan page to need to be entered at least once to add a Dev Plan archive</li>
 </ul>
 </li>
 </ul>
-<h2> 1.6.5</h2>
+<h2>1.6.5</h2>
 <ul>
 <li>New
 <ul>
@@ -3196,7 +2901,7 @@ community members can contribute Japanese language on <a href="https://translate
 </ul>
 </li>
 </ul>
-<h2> 1.6.4</h2>
+<h2>1.6.4</h2>
 <ul>
 <li>New
 <ul>
@@ -3216,7 +2921,7 @@ community members can contribute Japanese language on <a href="https://translate
 </ul>
 </li>
 </ul>
-<h2> 1.6.3</h2>
+<h2>1.6.3</h2>
 <ul>
 <li>New
 <ul>
@@ -3246,7 +2951,7 @@ community members can contribute Japanese language on <a href="https://translate
 </ul>
 </li>
 </ul>
-<h2> 1.6.2 </h2>
+<h2>1.6.2 </h2>
 <ul>
 <li>New Feature
 <ul>
@@ -3270,7 +2975,7 @@ community members can contribute Japanese language on <a href="https://translate
 </ul>
 </li>
 </ul>
-<h2> 1.6.0</h2>
+<h2>1.6.0</h2>
 <ul>
 <li>Add
 <ul>
@@ -3296,7 +3001,7 @@ community members can contribute Japanese language on <a href="https://translate
 </ul>
 </li>
 </ul>
-<h2> 1.5.4</h2>
+<h2>1.5.4</h2>
 <ul>
 <li>Add
 <ul>
@@ -3323,7 +3028,7 @@ community members can contribute Japanese language on <a href="https://translate
 </ul>
 </li>
 </ul>
-<h2> 1.5.1</h2>
+<h2>1.5.1</h2>
 <ul>
 <li>Optimization
 <ul>
@@ -3341,7 +3046,7 @@ community members can contribute Japanese language on <a href="https://translate
 </ul>
 </li>
 </ul>
-<h2> 1.4.15</h2>
+<h2>1.4.15</h2>
 <ul>
 <li>New
 <ul>
@@ -3351,7 +3056,7 @@ community members can contribute Japanese language on <a href="https://translate
 </li>
 <li>Fix
 <ul>
-<li>Fix <a href="/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="blank">#2 31-4302 caused by server switch</a></li>
+<li>Fix <a href="/advanced/known-issue.html#_2-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%87%E6%8D%A2%E5%AF%BC%E8%87%B431-4302%E6%8A%A5%E9%94%99" target="_blank">#2 31-4302 caused by server switch</a></li>
 <li>Fix the failure of clearing scheduled task in some specific situations</li>
 </ul>
 </li>
@@ -3364,13 +3069,13 @@ community members can contribute Japanese language on <a href="https://translate
 </ul>
 </li>
 </ul>
-<h2> 1.4.14</h2>
+<h2>1.4.14</h2>
 <ul>
 <li>Fix issue that new dev plan cannot be added</li>
 <li>Support English UI</li>
 <li>Other minor bug fix</li>
 </ul>
-<h2> 1.4.11</h2>
+<h2>1.4.11</h2>
 <ul>
 <li>First version on Microsoft Store</li>
 </ul>

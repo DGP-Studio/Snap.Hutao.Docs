@@ -6,9 +6,9 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Wed, 21 Feb 2024 12:45:59 GMT</pubDate>
-    <lastBuildDate>Wed, 21 Feb 2024 12:45:59 GMT</lastBuildDate>
-    <generator>vuepress-plugin-feed2</generator>
+    <pubDate>Thu, 22 Feb 2024 08:16:47 GMT</pubDate>
+    <lastBuildDate>Thu, 22 Feb 2024 08:16:47 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
     <category>development</category>
@@ -29,11 +29,11 @@
       <link>https://hut.ao/id/development/join.html</link>
       <guid>https://hut.ao/id/development/join.html</guid>
       <source url="https://hut.ao/id/rss.xml">Bergabung dengan Tim Pengembang</source>
-      <description>Jika Anda memiliki salah satu dari pengalaman berikut dan tertarik untuk bergabung dengan tim pengembangan Snap Hutao untuk meningkatkan proyek ini dan terlibat dengan lebih ban...</description>
+      <description>Bergabung dengan Tim Pengembang Jika Anda memiliki salah satu dari pengalaman berikut dan tertarik untuk bergabung dengan tim pengembangan Snap Hutao untuk meningkatkan proyek i...</description>
       <category>open source</category>
       <category>development</category>
       <pubDate>Mon, 25 Dec 2023 04:58:14 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Bergabung dengan Tim Pengembang</h1>
+      <content:encoded><![CDATA[
 <p>Jika Anda memiliki salah satu dari pengalaman berikut dan tertarik untuk bergabung dengan tim pengembangan Snap Hutao untuk meningkatkan proyek ini dan terlibat dengan lebih banyak proyek open source Genshin Impact, selamat datang untuk bergabung dengan kami!</p>
 ]]></content:encoded>
     </item>
@@ -42,10 +42,10 @@
       <link>https://hut.ao/id/community.html</link>
       <guid>https://hut.ao/id/community.html</guid>
       <source url="https://hut.ao/id/rss.xml">Bergabung dalam Komunitas</source>
-      <description>Sebagai perangkat lunak sumber terbuka, kekuatan komunitas adalah bagian penting dari ekologi Snap Hutao, dan Anda dapat bergabung dalam komunitas pengguna kami dengan cara beri...</description>
+      <description>Bergabung dalam Komunitas Sebagai perangkat lunak sumber terbuka, kekuatan komunitas adalah bagian penting dari ekologi Snap Hutao, dan Anda dapat bergabung dalam komunitas peng...</description>
       <category>Pengumuman</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Bergabung dalam Komunitas</h1>
+      <content:encoded><![CDATA[
 <p>Sebagai perangkat lunak sumber terbuka, kekuatan komunitas adalah bagian penting dari ekologi Snap Hutao, dan Anda dapat bergabung dalam komunitas pengguna kami dengan cara berikut.</p>
 <p><strong>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut:</strong></p>
 <ul>
@@ -59,9 +59,9 @@
 <li>Promosikan proyek kami dalam jaringan Anda</li>
 </ul>
 <p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
-<h2> </h2>
+<h2></h2>
 <p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Diskusi Snap.Hutao</a></p>
-<h2> </h2>
+<h2></h2>
 <ul>
 <li><a href="https://qm.qq.com/q/WJKykrY9W" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
 <li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap Developer Open Discussion Group</em></a>
@@ -71,7 +71,7 @@
 </ul>
 </li>
 </ul>
-<h2> </h2>
+<h2></h2>
 <p>Tautan undangan: <a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">https://discord.gg/Yb8bykaUKp</a></p>
 ]]></content:encoded>
     </item>
@@ -80,12 +80,12 @@
       <link>https://hut.ao/id/i18n.html</link>
       <guid>https://hut.ao/id/i18n.html</guid>
       <source url="https://hut.ao/id/rss.xml">Lokalisasi</source>
-      <description>Proses Lokalisasi Fitur Proyek Snap Hutao awalnya didasarkan pada server China, tetapi kami juga mencoba untuk memperluas cakupan secara global melalui dukungan server permainan...</description>
+      <description>Lokalisasi Proses Lokalisasi Fitur Proyek Snap Hutao awalnya didasarkan pada server China, tetapi kami juga mencoba untuk memperluas cakupan secara global melalui dukungan serve...</description>
       <category>Pengumuman</category>
       <category>i18n</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Lokalisasi</h1>
-<h2> Proses Lokalisasi</h2>
+      <content:encoded><![CDATA[
+<h2>Proses Lokalisasi</h2>
 <p>Fitur Proyek Snap Hutao awalnya didasarkan pada server China, tetapi kami juga mencoba untuk memperluas cakupan secara global melalui dukungan server permainan global MiHoYo &amp; lokalitas perangkat lunak. Saat ini, proses lokalitas kami mencakup:</p>
 <ul>
 <li>Snap Hutao
@@ -132,7 +132,7 @@
 </ul>
 </li>
 </ul>
-<h2> Terlibat dalam Lokalisasi Kami</h2>
+<h2>Terlibat dalam Lokalisasi Kami</h2>
 <ul>
 <li>Snap Hutao
 <ul>
@@ -174,8 +174,9 @@
       <link>https://hut.ao/id/menu.html</link>
       <guid>https://hut.ao/id/menu.html</guid>
       <source url="https://hut.ao/id/rss.xml">Site Menu</source>
+      <description>Site Menu </description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Site Menu</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -183,29 +184,29 @@
       <link>https://hut.ao/id/project.html</link>
       <guid>https://hut.ao/id/project.html</guid>
       <source url="https://hut.ao/id/rss.xml">Proyek</source>
-      <description>Snap Hutao adalah toolkit Genshin Impact sumber terbuka di bawah lisensi MIT, dirancang untuk platform Windows modern untuk meningkatkan pengalaman bermain game bagi pemain desk...</description>
+      <description>Proyek Snap Hutao adalah toolkit Genshin Impact sumber terbuka di bawah lisensi MIT, dirancang untuk platform Windows modern untuk meningkatkan pengalaman bermain game bagi pema...</description>
       <category>pengumuman</category>
       <category>proyek</category>
       <category>fitur</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Proyek</h1>
+      <content:encoded><![CDATA[
 <p>Snap Hutao adalah toolkit Genshin Impact sumber terbuka di bawah lisensi MIT, dirancang untuk platform Windows modern untuk meningkatkan pengalaman bermain game bagi pemain desktop. Dengan menggabungkan sumber daya resmi yang ada dengan fitur-fitur baru yang dirancang oleh tim pengembangan, ini menyediakan seperangkat alat yang lengkap dan berguna tanpa perlu mengandalkan perangkat seluler. Snap Hutao tidak melakukan modifikasi yang merusak pada klien game untuk memastikan keamanan toolkit.</p>
-<h2> Sumber Proyek</h2>
+<h2>Sumber Proyek</h2>
 <ul>
 <li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Repositori kode GitHub</a></li>
 <li><a href="https://translate.hut.ao/" target="_blank" rel="noopener noreferrer">Terjemahan lokal Crowdin</a></li>
-<li><a href="/id/community.html" target="blank">Komunitas Snap Hutao</a></li>
+<li><a href="/id/community.html" target="_blank">Komunitas Snap Hutao</a></li>
 </ul>
-<h2> Ikhtisar Fitur</h2>
+<h2>Ikhtisar Fitur</h2>
 <ul>
-<li><a href="/id/features/dashboard.html" target="blank">Pengumuman &amp; hitungan mundur acara dalam game</a></li>
-<li><a href="/id/features/mhy-account-switch.html" target="blank">Login multi akun MiHoYo BBS</a>
+<li><a href="/id/features/dashboard.html" target="_blank">Pengumuman &amp; hitungan mundur acara dalam game</a></li>
+<li><a href="/id/features/mhy-account-switch.html" target="_blank">Login multi akun MiHoYo BBS</a>
 <ul>
 <li>Dukungan menggunakan login web atau input Cookie untuk masuk ke MiYouShe dan HoYoLAB</li>
 <li>Dukungan checkin harian</li>
 </ul>
 </li>
-<li><a href="/id/features/game-launcher.html" target="blank">Launcher game lanjutan</a>
+<li><a href="/id/features/game-launcher.html" target="_blank">Launcher game lanjutan</a>
 <ul>
 <li>Konverter server game</li>
 <li>Pemilih akun game</li>
@@ -213,34 +214,34 @@
 <li>Unduhan patch game</li>
 </ul>
 </li>
-<li><a href="/id/features/wish-export.html" target="blank">Manajemen riwayat harapan</a>
+<li><a href="/id/features/wish-export.html" target="_blank">Manajemen riwayat harapan</a>
 <ul>
 <li>Segarkan data dari game</li>
 <li>Impor dan ekspor data file format UIGF</li>
 <li>Statistik harapan global</li>
 </ul>
 </li>
-<li><a href="/id/features/achievements.html" target="blank">Manajemen prestasi</a>
+<li><a href="/id/features/achievements.html" target="_blank">Manajemen prestasi</a>
 <ul>
 <li>Ekspor data pencapaian dari game</li>
 <li>Impor dan ekspor data file format UIAF</li>
 </ul>
 </li>
-<li><a href="/id/features/real-time-notes.html" target="blank">Catatan real-time</a>
+<li><a href="/id/features/real-time-notes.html" target="_blank">Catatan real-time</a>
 <ul>
 <li>Dukungan catatan real-time multi akun</li>
 <li>Siklus refresh yang disesuaikan</li>
 <li>Notifikasi push gaya native Windows</li>
 </ul>
 </li>
-<li><a href="/id/features/character-data.html" target="blank">Karakter saya</a>
+<li><a href="/id/features/character-data.html" target="_blank">Karakter saya</a>
 <ul>
 <li>Dukungan sinkronisasi sumber multi</li>
 <li>Penilaian artefak &amp; penilaian CRIT</li>
 <li>Ekspor data karakter saya sebagai gambar ke clipboard</li>
 </ul>
 </li>
-<li><a href="/id/features/hutao-API.html" target="blank">Spiral Abyss</a>
+<li><a href="/id/features/hutao-API.html" target="_blank">Spiral Abyss</a>
 <ul>
 <li>Detail monster dan berkah untuk setiap jadwal</li>
 <li>Sinkronisasi data pertempuran rinci untuk jadwal saat ini dan menyimpan data di perangkat lokal selamanya</li>
@@ -254,7 +255,7 @@
 </li>
 </ul>
 </li>
-<li><a href="/id/features/develop-plan.html" target="blank">Rencana Pengembangan</a>
+<li><a href="/id/features/develop-plan.html" target="_blank">Rencana Pengembangan</a>
 <ul>
 <li>Dukungan rencana awal dari data karakter saya dan data WIKI</li>
 <li>Dukungan arsip multi</li>
@@ -262,12 +263,12 @@
 </li>
 <li>Data WIKI
 <ul>
-<li><a href="/id/features/character-wiki.html" target="blank">WIKI Karakter</a></li>
-<li><a href="/id/features/weapon-wiki.html" target="blank">WIKI Senjata</a></li>
-<li><a href="/id/features/monster-wiki.html" target="blank">WIKI Monster</a></li>
+<li><a href="/id/features/character-wiki.html" target="_blank">WIKI Karakter</a></li>
+<li><a href="/id/features/weapon-wiki.html" target="_blank">WIKI Senjata</a></li>
+<li><a href="/id/features/monster-wiki.html" target="_blank">WIKI Monster</a></li>
 </ul>
 </li>
-<li><a href="/id/features/hutao-settings.html#snap-hutao-account" target="blank">Akun Snap Hutao</a>
+<li><a href="/id/features/hutao-settings.html#snap-hutao-account" target="_blank">Akun Snap Hutao</a>
 <ul>
 <li>Cadangan data harapan</li>
 <li>Prediksi berdasarkan statistik harapan</li>
@@ -281,94 +282,15 @@
       <link>https://hut.ao/id/quick-start.html</link>
       <guid>https://hut.ao/id/quick-start.html</guid>
       <source url="https://hut.ao/id/rss.xml">Panduan Cepat</source>
-      <description>Dengan mengikuti petunjuk dokumen ini, Anda dapat dengan cepat menyiapkan Snap Hutao. Persyaratan Sistem Minimum Persyaratan Attribut ----------------------- -------------------...</description>
+      <description>Panduan Cepat Dengan mengikuti petunjuk dokumen ini, Anda dapat dengan cepat menyiapkan Snap Hutao. Versi OS yang Tidak Didukung： Versi LTSC dan LTSB menggunakan versi lama dari...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Panduan Cepat</h1>
+      <content:encoded><![CDATA[
 <p>Dengan mengikuti petunjuk dokumen ini, Anda dapat dengan cepat menyiapkan Snap Hutao.</p>
-<h2> </h2>
-<table>
-<thead>
-<tr>
-<th>Persyaratan</th>
-<th>Attribut</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Sistem Operasi Min.</strong></td>
-<td>Windows 10 Build 19045 (22H2)<br> Windows 11 Build 22621 (22H2)</td>
-</tr>
-<tr>
-<td><strong>Rekomendasi OS</strong></td>
-<td>Windows 11 Build 22621 (22H2) atau versi lebih baru</td>
-</tr>
-<tr>
-<td>Komponen Wajib</td>
-<td>Windows Update, App Installer</td>
-</tr>
-<tr>
-<td>Komponen Opsional</td>
-<td>WebView2 Runtime</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Versi OS yang Tidak Didukung</strong>：</p>
-<ol>
-<li>Versi LTSC dan LTSB menggunakan versi lama dari MSIX Core, sehingga tidak didukung.</li>
-<li>Windows 10 Build 19041 mendukung instalasi, tetapi beberapa fitur mungkin mengalami kesalahan yang tidak diinginkan karena masalah kernel Windows,
-sehingga Snap Hutao tidak dapat menyelesaikannya.</li>
-<li>Masalah pada versi pratinjau Windows Insider tidak akan diselesaikan.</li>
-</ol>
-<h2> </h2>
-<h3> Instalasi Baru</h3>
-<p>Anda dapat menggunakan paket MSIX untuk menginstal Snap Hutao, Anda dapat menemukan paket dari sumber berikut.</p>
-<div class="vp-card-container">
-  </div>
-<ul>
-<li>Jika Anda menghadapi salah satu dari kesalahan berikut selama instalasi, silakan lihat <a href="/id/advanced/dependency.html" target="blank">Instalasi Dependency secara Manual</a> untuk memecahkannya, ini terjadi ketika Windows Anda tidak dapat mengunduh kerangka kerja yang diperlukan.
-<ol>
-<li><code>App Installer gagal menginstal Dependency paket. Mintalah pengembang untuk paketnya</code></li>
-<li>Terhenti pada <code>Menginstal kerangka kerja</code></li>
-</ol>
-</li>
-</ul>
-<hr>
-<p>Jika Anda tertarik untuk meningkatkan proyek Snap Hutao melalui upaya Anda sendiri, pertimbangkan <a href="/id/development/join.html" target="blank">bergabung bersama kami</a>!</p>
-<h3> </h3>
-<p>Jika Anda telah menginstal versi Microsoft Store dari Snap Hutao (versi 1.4.11 hingga 1.8.4), Anda perlu menghapusnya sebelum instalasi baru</p>
-<blockquote>
-<p>Untuk detail perubahan ini, lihat <a href="/id/blog/version-1-9-0-breaking-changes.html" target="blank">Penjelasan Perubahan Drastis di Versi 1.9.0</a></p>
-</blockquote>
-<ul>
-<li>Hapus versi lama dengan <a href="/id/advanced/uninstall.html" target="blank">petunjuk penghapusan</a>
-<ul>
-<li>Data Anda tidak akan hilang selama Anda tidak menghapus direktori data secara manual</li>
-</ul>
-</li>
-<li>Ikuti metode di atas untuk menginstal aplikasi versi baru</li>
-</ul>
-<h3> </h3>
-<p>Jika tidak ada instruksi khusus, Anda dapat mengunduh dan menginstal paket MSIX terbaru untuk memperbarui Snap Hutao Anda.</p>
-<p>Mulai dari versi 1.9.0, Snap Hutao telah menyematkan modul pembaruan untuk memberi tahu pembaruan.</p>
-<h2> </h2>
-<p>Dengan komponen opsional, Snap Hutao dapat menerapkan beberapa fungsi lebih nyaman melalui lingkungan tingkat sistem.
-Mereka bukan komponen wajib, tetapi mereka dapat memberikan pengalaman yang lebih baik.</p>
-<h3> <img src="/images/202312/MSEdge.webp" width="20" height="20"> WebView2 Runtime</h3>
-<p>WebView2 Runtime disediakan oleh Microsoft, yang memungkinkan adanya browser bawaan dengan biaya sumber daya rendah di dalam program.
-Sebagai komponen opsional, WebView2 bukanlah komponen wajib, tetapi akan membuat beberapa fitur Snap Hutao menjadi lebih mudah.</p>
-<p>Di bagian bawah <a href="https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">halaman resmi Microsoft</a>,
-Anda dapat menemukan <code>Evergreen Standalone Installer</code>, pilih <code>x64</code> unduh dan instal sesuai dengan petunjuk.</p>
-<h2> </h2>
-<p>Setelah masuk ke Snap Hutao, klik <code>Account Panel</code> di sudut kiri bawah antara <code>Settings</code> dan <code>Document</code>. Di panel pop-up, klik tombol masuk yang sesuai dengan akun Anda.</p>
-<p>Jika Anda menggunakan akun server China, Anda perlu masuk di dalam kategori <code>MiYouShe</code>; Jika Anda menggunakan akun luar negeri
-(atau. akun HoYoLAB/HoYoverse), Anda perlu masuk di dalam kategori <code>HoYoLAB</code>.</p>
-<p>Apa pun jenis akun yang Anda miliki, Anda memiliki metode <code>Web Login</code> dan <code>Cookie Login</code>.</p>
-
-<hr>
-<p><em><strong>Sekarang, Anda telah menyelesaikan pengaturan awal Snap Hutao. Anda sekarang bebas untuk menjelajahi aplikasi ini, Anda juga dapat
-menemukan semua dokumen di situs web ini.</strong></em></p>
+<h2></h2>
+<p>| Persyaratan             | Attribut                                                         |
+|</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -378,14 +300,14 @@ menemukan semua dokumen di situs web ini.</strong></em></p>
       <source url="https://hut.ao/id/rss.xml"></source>
       <description>Instalasi Samping Metode Instalasi Umum Buka pengaturan sistem, aktifkan Mode Pengembang, dan beri centang pada Izinkan Skrip PowerShell (Silakan cari di mesin pencarian untuk p...</description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h2> Instalasi Samping</h2>
-<h3> Metode Instalasi Umum</h3>
+      <content:encoded><![CDATA[<h2>Instalasi Samping</h2>
+<h3>Metode Instalasi Umum</h3>
 <ul>
 <li>Buka pengaturan sistem, aktifkan <code>Mode Pengembang</code>, dan beri centang pada <code>Izinkan Skrip PowerShell</code> (Silakan cari di mesin pencarian untuk panduan spesifik)</li>
 <li>Ekstrak arsip yang sudah diunduh, temukan file <code>Install.ps1</code>, klik kanan dan pilih <code>Jalankan dengan PowerShell</code>, ikuti petunjuk untuk mengizinkan PowerShell menjalankan operasi yang diminta</li>
 <li>Setelah selesai, aplikasi <code>Hutao</code> akan muncul di <code>Menu Mulai</code> Anda</li>
 </ul>
-<h3> Metode Instalasi untuk Pemula</h3>
+<h3>Metode Instalasi untuk Pemula</h3>
 <ul>
 <li>Ekstrak paket instalasi yang sudah diunduh</li>
 <li>Jalankan <code>Snap.Hutao.Installer.exe</code>
@@ -395,7 +317,7 @@ menemukan semua dokumen di situs web ini.</strong></em></p>
 </li>
 <li>Setelah selesai, aplikasi <code>Hutao</code> akan muncul di <code>Menu Mulai</code> Anda</li>
 </ul>
-<h2> Memperbarui Toolbox Hutao</h2>
+<h2>Memperbarui Toolbox Hutao</h2>
 <ul>
 <li>Ekstrak arsip kompresi dari versi terbaru yang Anda unduh</li>
 <li>Ulangi langkah-langkah dari <code>Instalasi Hutao</code> di atas</li>
@@ -413,7 +335,7 @@ menemukan semua dokumen di situs web ini.</strong></em></p>
       <link>https://hut.ao/id/star-request.html</link>
       <guid>https://hut.ao/id/star-request.html</guid>
       <source url="https://hut.ao/id/rss.xml"></source>
-      <description>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut: Beri bintang pada proyek kami di GitHub ⭐; Snap...</description>
+      <description>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut: Beri bintang pada proyek kami di GitHub ⭐ Snap....</description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut:</strong></p>
 <ul>
@@ -435,12 +357,12 @@ menemukan semua dokumen di situs web ini.</strong></em></p>
       <link>https://hut.ao/id/advanced/FAQ.html</link>
       <guid>https://hut.ao/id/advanced/FAQ.html</guid>
       <source url="https://hut.ao/id/rss.xml">Pertanyaan Umum</source>
-      <description>If the following answers can not solve your issue, feel free to report bug to us (../statements/bug-report.md)! Cara membuat pintasan desktop (tanpa hak admin) Kekuatan Komunita...</description>
+      <description>Pertanyaan Umum If the following answers can not solve your issue, feel free to ! Cara membuat pintasan desktop (tanpa hak admin) Kekuatan Komunitas Terima kasih kepada solusi d...</description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Pertanyaan Umum</h1>
-<p>If the following answers can not solve your issue, feel free to <a href="/id/statements/bug-report.html" target="blank">report bug to us</a>!</p>
-<h2> Cara membuat pintasan desktop (tanpa hak admin)</h2>
+      <content:encoded><![CDATA[
+<p>If the following answers can not solve your issue, feel free to <a href="/id/statements/bug-report.html" target="_blank">report bug to us</a>!</p>
+<h2>Cara membuat pintasan desktop (tanpa hak admin)</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">Kekuatan Komunitas</p>
 <p>Terima kasih kepada <a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">solusi diberikan oleh CzHUV</a>.</p>
@@ -451,17 +373,17 @@ menemukan semua dokumen di situs web ini.</strong></em></p>
 <li>Klik kanan, lalu klik <code>Buat pintasan</code></li>
 <li>Konfirmasikan operasi dan Anda akan mendapatkan pintasan desktop</li>
 </ul>
-<h2> Cara membuat pintasan desktop dengan hak Admin</h2>
+<h2>Cara membuat pintasan desktop dengan hak Admin</h2>
 <p>Mulai dari Snap Hutao 1.7.4, Anda dapat membuat pintasan desktop dengan hak Admin dengan mengklik <code>Buat Pintasan Desktop</code>
 di halaman pengaturan.</p>
 <p>Anda dapat memindahkan pintasan ini ke tempat yang Anda butuhkan.</p>
-<h2> Cara menjalankan Snap Hutao saat Windows dijalankan</h2>
+<h2>Cara menjalankan Snap Hutao saat Windows dijalankan</h2>
 <p><strong>Ini adalah solusi sementara</strong></p>
 <ul>
 <li>Buat file <code>.bat</code>, kontennya mengacu pada <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">Issue ini</a>, ini memungkinkan <code>.bat</code> untuk menjalankan Snap Hutao dengan hak Admin</li>
 <li>Buat <code>Scheduled Tasj</code>, jalankan <code>.bat</code> saat Windows startup, atau seret ke folder start Windows</li>
 </ul>
-<h2> Menggunakan Snap Hutao untuk memulai game dengan cepat</h2>
+<h2>Menggunakan Snap Hutao untuk memulai game dengan cepat</h2>
 <ul>
 <li>
 <p>Konfigurasi peluncur game di pengaturan</p>
@@ -477,9 +399,9 @@ di halaman pengaturan.</p>
 <p>Pilih <code>Lauch Game</code>, Anda akan diminta memilih akun untuk memulai game</p>
 </li>
 </ul>
-<h2> Menggunakan Snap Hutao dengan Proxy Jaringan</h2>
-<p>Lihat dokumen <a href="/id/advanced/exceptions.html#_502-bad-gateway" target="blank">Kesalahan HttpRequestException (502)</a></p>
-<h2> Mojibake di Snap Hutao</h2>
+<h2>Menggunakan Snap Hutao dengan Proxy Jaringan</h2>
+<p>Lihat dokumen <a href="/id/advanced/exceptions.html#_502-bad-gateway" target="_blank">Kesalahan HttpRequestException (502)</a></p>
+<h2>Mojibake di Snap Hutao</h2>
 <ul>
 <li>Jika Anda menggunakan Windows 10 dan melihat beberapa tombol tidak ditampilkan dengan benar
 <ul>
@@ -489,7 +411,7 @@ di halaman pengaturan.</p>
 </li>
 <li>Anda dapat menemukan font ini dari <a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">Microsoft</a></li>
 </ul>
-<h2> Akun MiHoYo BBS Sering Kehilangan Status Login</h2>
+<h2>Akun MiHoYo BBS Sering Kehilangan Status Login</h2>
 <p>Snap Hutao menggunakan cookie MiHoYo BBS yang disimpan untuk mempertahankan status login. Jika Anda <strong>keluar</strong> dari akun Anda di browser atau
 perangkat lain, cookie akan menjadi tidak valid, dan Snap Hutao juga akan dipaksa keluar, akun akan secara otomatis
 dihapus.</p>
@@ -497,7 +419,7 @@ dihapus.</p>
 Anda dapat menggunakan <code>Refresh Cookie</code> di panel akun; Anda juga dapat menghapus akun Anda secara manual dan menambahkannya kembali.</p>
 <p>Sejak Oktober 2022, MiYouShe (BBS Tiongkok) dengan cepat meningkatkan deteksi bot dan mungkin mengatur status risiko pada akun pengguna,
 ini dapat menyebabkan Snap Hutao gagal memeriksa validasi cookie</p>
-<h2> Akun Game Kehilangan Status Login di Launcher</h2>
+<h2>Akun Game Kehilangan Status Login di Launcher</h2>
 <ul>
 <li>Ada dua faktor yang terkait dengan status login akun game: jaringan dan ID perangkat</li>
 <li>Masalah ini biasanya disebabkan oleh:
@@ -514,12 +436,12 @@ ini dapat menyebabkan Snap Hutao gagal memeriksa validasi cookie</p>
 </ul>
 </li>
 </ul>
-<h2> Snap Hutao Melempar Pesan Gagal menambahkan Scheduled Task</h2>
+<h2>Snap Hutao Melempar Pesan Gagal menambahkan Scheduled Task</h2>
 <p>Jika Anda menggunakan hak Admin untuk memulai fitur catatan real-time, tugas terjadwal Snap Hutao akan dibuat
 sebagai peran Administrator. Saat Anda mengedit pengaturan catatan real-time tanpa hak Admin, program akan
 kekurangan hak untuk mengedit pengaturan dan akan melemparkan galat ini.</p>
 <p>Jalankan Snap Hutao sebagai Administrator untuk mengedit pengaturan Anda untuk memecahkan masalah ini.</p>
-<h2> Terjebak di <code>Menginstal Kerangka yang Diperlukan</code> saat Menggunakan Paket MSIX untuk Menginstal</h2>
+<h2>Terjebak di <code>Menginstal Kerangka yang Diperlukan</code> saat Menggunakan Paket MSIX untuk Menginstal</h2>
 <ul>
 <li>Ketika sistem pengguna kekurangan <code>framework dependency</code> yang diperlukan, Windows akan mengunduh dan menginstalnya secara otomatis.
 Namun, jika pengguna menonaktifkan Windows Update atau memiliki jaringan buruk, sistem tidak dapat memproses instalasi ini.
@@ -529,7 +451,7 @@ Namun, jika pengguna menonaktifkan Windows Update atau memiliki jaringan buruk, 
 </ul>
 </li>
 </ul>
-<h2> Tidak Dapat Menjalankan Snap Hutao sebagai Administrator</h2>
+<h2>Tidak Dapat Menjalankan Snap Hutao sebagai Administrator</h2>
 <blockquote>
 <p>Masalah ini hanya terjadi pada Windows 10 yang lebih lama dari versi 22H2</p>
 </blockquote>
@@ -541,14 +463,14 @@ dijalankan sebagai Administrator
 </ul>
 </li>
 </ul>
-<h2> Cara Memulihkan Berkas Konfigurasi <code>config.ini</code></h2>
+<h2>Cara Memulihkan Berkas Konfigurasi <code>config.ini</code></h2>
 <p>Dalam kondisi tertentu tertentu (seperti izin folder game yang salah), <code>config.ini</code> dapat hilang setelah konversi server.
 Ini akan menyebabkan pengguna tidak dapat masuk ke halaman peluncur lanjutan dan meluncurkan game.</p>
 <p>Setelah mengidentifikasi versi server di perangkat Anda, Anda dapat secara manual membuat dan mengisi file konfigurasi dengan benar.
 Berikut adalah konfigurasi umum</p>
 <p>.</p>
 
-<h2> Cara Cadangan/Pemulihan Data Klien Secara Penuh</h2>
+<h2>Cara Cadangan/Pemulihan Data Klien Secara Penuh</h2>
 <div class="hint-container warning">
 <p class="hint-container-title">Peringatan Keamanan Data</p>
 <p><code>Userdata.db</code> berisi semua data klien, termasuk Cookie MiHoYO BBS, harap simpan file data dengan baik dan JANGAN DIBAGIKAN
@@ -564,13 +486,13 @@ berisi seluruh data klien.</p>
       <link>https://hut.ao/id/advanced/Gacha-system-and-export-principal.html</link>
       <guid>https://hut.ao/id/advanced/Gacha-system-and-export-principal.html</guid>
       <source url="https://hut.ao/id/rss.xml">Sistem Gacha dan Prinsip Expor</source>
-      <description>Sistem Gacha di Hutao mengalami redesain total dalam hal arsitektur dibandingkan dengan Snap Genshin. Dokumen ini akan menjelaskan mekanisme catatan gacha dalam Genshin Impact d...</description>
+      <description>Sistem Gacha dan Prinsip Expor Sistem Gacha di Hutao mengalami redesain total dalam hal arsitektur dibandingkan dengan Snap Genshin. Dokumen ini akan menjelaskan mekanisme catat...</description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Sistem Gacha dan Prinsip Expor</h1>
+      <content:encoded><![CDATA[
 <p>Sistem Gacha di Hutao mengalami redesain total dalam hal arsitektur dibandingkan dengan Snap Genshin.</p>
 <p>Dokumen ini akan menjelaskan mekanisme catatan gacha dalam Genshin Impact dan prinsip teknis fungsi ekspor catatan gacha dalam Toolbox Hutao.</p>
-<h2> Perolehan Catatan Gacha</h2>
+<h2>Perolehan Catatan Gacha</h2>
 <p>Untuk mendapatkan catatan gacha, perlu dilakukan permintaan ke API milik miHoYo.</p>
 <p>Berikut adalah beberapa poin penting mengenai API ini:</p>
 <ul>
@@ -594,21 +516,21 @@ berisi seluruh data klien.</p>
 </li>
 </ul>
 <p>Setelah mendapatkan data dari API, kita mendapatkan catatan gacha yang tersebar, dan dengan menggabungkannya, kita bisa mendapatkan daftar catatan gacha lengkap.</p>
-<h2> Penyimpanan Catatan Gacha</h2>
+<h2>Penyimpanan Catatan Gacha</h2>
 <p>Setelah mendapatkan daftar catatan gacha lengkap, kita dapat menyederhanakannya dengan melakukan serialisasi ke dalam database lokal. Data ini dapat di-deserialisasi dari database saat diperlukan dan ditampilkan kepada pengguna.</p>
 <p>Permintaan selanjutnya ke server hanya perlu membandingkan data di database dengan data baru yang diterima.</p>
 <p>Dengan cara ini, pengguna dapat menyimpan catatan gacha akun mereka dalam jangka panjang.</p>
-<h2> Format UIGF</h2>
+<h2>Format UIGF</h2>
 <blockquote>
 <p>Uniformed Interchangeable GachaLog Format</p>
 </blockquote>
 <p>UIGF adalah standar data pertukaran catatan gacha yang telah kami advokasi, luncurkan, dan <strong>selalu kami pertahankan</strong> bersama aplikasi catatan gacha lainnya.</p>
 <p>Dengan format data yang terstandarisasi, pengguna dapat memindahkan catatan gacha mereka antar berbagai alat Genshin Impact untuk menggunakan fitur khusus masing-masing.</p>
-<h3> Impor Catatan Gacha</h3>
+<h3>Impor Catatan Gacha</h3>
 <p>Dengan menggunakan format data UIGF, pengguna dapat mengimpor data yang pernah disimpan dalam aplikasi lain.</p>
 <p>Saat Hutao memproses impor, ia akan membandingkan indeks (ID) yang paling awal yang ada dalam penyimpanan lokal dan hanya mengimpor data yang lebih lama.</p>
 <p>(Karena data asli yang lebih baru selalu dapat diambil dari server miHoYo, data semacam ini memiliki tingkat akurasi yang lebih tinggi.)</p>
-<h3> Ekspor Catatan Gacha</h3>
+<h3>Ekspor Catatan Gacha</h3>
 <p><s>Belum diimplementasikan, sedang dalam perancangan</s> Sudah diimplementasikan</p>
 ]]></content:encoded>
     </item>
@@ -617,8 +539,9 @@ berisi seluruh data klien.</p>
       <link>https://hut.ao/id/advanced/</link>
       <guid>https://hut.ao/id/advanced/</guid>
       <source url="https://hut.ao/id/rss.xml">Lanjutan</source>
+      <description>Lanjutan </description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Lanjutan</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -626,12 +549,12 @@ berisi seluruh data klien.</p>
       <link>https://hut.ao/id/advanced/dependency.html</link>
       <guid>https://hut.ao/id/advanced/dependency.html</guid>
       <source url="https://hut.ao/id/rss.xml">Menginstal Dependency Secara Manual</source>
-      <description>Snap Hutao bergantung pada Windows App Runtime sebagai Dependency, ketika sistem pengguna tidak memiliki environment ini, Windows akan menginstal framework ini sebelum instalasi...</description>
+      <description>Menginstal Dependency Secara Manual Snap Hutao bergantung pada Windows App Runtime sebagai Dependency, ketika sistem pengguna tidak memiliki environment ini, Windows akan mengin...</description>
       <category>FAQ</category>
       <category>dependency</category>
       <category>installation</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Menginstal Dependency Secara Manual</h1>
+      <content:encoded><![CDATA[
 <p>Snap Hutao bergantung pada Windows App Runtime sebagai Dependency, ketika sistem pengguna tidak memiliki environment ini, Windows akan menginstal framework ini sebelum instalasi Snap Hutao.</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01RJFPnY1g6dye2b8Uy_!!1797064093.png_.webp" alt="" loading="lazy"></p>
 <p>Jika Anda berada dalam jaringan yang buruk, Anda mungkin mengalami kelambatan atau bahkan terhenti pada tahap instalasi framework. Dalam skenario seperti itu, Anda dapat mengunduh framework dari situs web Microsoft dan menginstalnya secara manual.</p>
@@ -648,12 +571,12 @@ berisi seluruh data klien.</p>
       <link>https://hut.ao/id/advanced/exceptions.html</link>
       <guid>https://hut.ao/id/advanced/exceptions.html</guid>
       <source url="https://hut.ao/id/rss.xml">Kesalahan Umum Program</source>
-      <description>Dokumen ini mencakup solusi untuk kesalahan klien yang dapat diprediksi RuntimeEnvironmentException Exception: RuntimeEnvironmentException; Hint: Tidak dapat menyetel kunci regi...</description>
+      <description>Kesalahan Umum Program Dokumen ini mencakup solusi untuk kesalahan klien yang dapat diprediksi RuntimeEnvironmentException Exception: RuntimeEnvironmentException Hint: Tidak dap...</description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Kesalahan Umum Program</h1>
+      <content:encoded><![CDATA[
 <p>Dokumen ini mencakup solusi untuk <strong>kesalahan klien yang dapat diprediksi</strong></p>
-<h2> RuntimeEnvironmentException</h2>
+<h2>RuntimeEnvironmentException</h2>
 <ul>
 <li>Exception: <code>RuntimeEnvironmentException</code>
 <ul>
@@ -663,7 +586,7 @@ berisi seluruh data klien.</p>
 <li>Sumber masalah: Batas jalur panjang Windows diatur secara default menjadi terbatas pada 256 karakter</li>
 <li>Solusi: Unduh <a href="https://d.hut.ao/d/tools/EnableLongPaths.zip" target="_blank" rel="noopener noreferrer">EnableLongPaths.zip</a>, ekstrak, lalu jalankan berkas <code>.reg</code></li>
 </ul>
-<h2> Kode Return: -10001</h2>
+<h2>Kode Return: -10001</h2>
 <ul>
 <li>Kesalahan ini berasal langsung dari MiHoYo BBS, dengan petunjuk:
 <ul>
@@ -686,7 +609,7 @@ berisi seluruh data klien.</p>
 </ol>
 </li>
 </ul>
-<h2> Kode Return: 1034 Verifikasi Gagal</h2>
+<h2>Kode Return: 1034 Verifikasi Gagal</h2>
 <ul>
 <li>Jika Snap Hutao mengembalikan kode status <code>1034</code> dan mengindikasikan kegagalan verifikasi (biasanya selama operasi Catatan Langsung),
 itu berarti operasi diblokir oleh sistem anti-bot MiHoYo BBS</li>
@@ -715,10 +638,10 @@ mengakibatkan alamat IP Anda diblokir untuk jangka waktu tertentu (biasanya tida
 keamanan dari MiHoYo BBS, dan tidak dapat dilewati</li>
 </ul>
 </div>
-<h2> HttpRequestException Metadata Download Failed</h2>
-<h3> 403 (Terlarang) / 404 (Tidak Ditemukan)</h3>
+<h2>HttpRequestException Metadata Download Failed</h2>
+<h3>403 (Terlarang) / 404 (Tidak Ditemukan)</h3>
 <p>Solusi: Perbarui Snap Hutao Anda ke versi terbaru</p>
-<h3> 502 (Gerbang Buruk)</h3>
+<h3>502 (Gerbang Buruk)</h3>
 <blockquote>
 <p>Masalah Terkait: <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/100" target="_blank" rel="noopener noreferrer">https://github.com/DGP-Studio/Snap.Hutao/issues/100</a></p>
 </blockquote>
@@ -727,7 +650,8 @@ keamanan dari MiHoYo BBS, dan tidak dapat dilewati</li>
 <p>Jika Anda menggunakan perangkat lunak proxy, Anda mungkin perlu mematikannya atau menggunakan proxy mode TUN;
 jika tidak, Anda perlu menggunakan <a href="https://www.telerik.com/fiddler/add-ons" target="_blank" rel="noopener noreferrer">Utilitas Batasan Loopback Kontainer APP Windows 8</a> untuk menghapus <a href="https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback" target="_blank" rel="noopener noreferrer">batasan loopback aplikasi Windows APP</a>.</p>
 <p>Anda juga dapat menjalankan skrip PowerShell berikut untuk menghapus semua batasan loopback kontainer</p>
-<div class="language-powershell line-numbers-mode" data-ext="powershell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> Kesalahan Menemukan Modul yang Diperlukan</h2>
+<div class="language-powershell" data-ext="powershell" data-title="powershell"><pre class="language-powershell"><code><span class="token keyword">FOR</span> <span class="token operator">/</span>F <span class="token string">"tokens=11 delims=\"</span> <span class="token operator">%</span>p IN <span class="token punctuation">(</span><span class="token string">'REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"'</span><span class="token punctuation">)</span> <span class="token keyword">DO</span> CheckNetIsolation<span class="token punctuation">.</span>exe LoopbackExempt <span class="token operator">-</span>a <span class="token operator">-</span>p=<span class="token operator">%</span>p
+</code></pre></div><h2>Kesalahan Menemukan Modul yang Diperlukan</h2>
 <p>Ketika pengguna meluncurkan game dengan fitur <code>unlock frame-rate limit</code>, game mungkin akan gagal diluncurkan dengan munculnya kesalahan berikut:</p>
 <ol>
 <li>Kesalahan menemukan modul yang diperlukan: tidak dapat membaca modul apa pun, driver perlindungan mungkin telah dimuat</li>
@@ -743,11 +667,11 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/advanced/get-stoken-cookie-from-the-third-party.html</link>
       <guid>https://hut.ao/id/advanced/get-stoken-cookie-from-the-third-party.html</guid>
       <source url="https://hut.ao/id/rss.xml">Menggunakan Alat Pihak Ketiga untuk Mendapatkan Cookie dengan Stoken</source>
-      <description>Semua sumber daya, perangkat lunak, proyek open-source, dan sejenisnya yang disebutkan dalam langkah-langkah di bawah ini berasal dari internet dan tidak terkait dengan DGP-Stud...</description>
+      <description>Menggunakan Alat Pihak Ketiga untuk Mendapatkan Cookie dengan Stoken Penting Semua sumber daya, perangkat lunak, proyek open-source, dan sejenisnya yang disebutkan dalam langkah...</description>
       <category>FAQ</category>
       <category>Alat Pihak Ketiga</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Menggunakan Alat Pihak Ketiga untuk Mendapatkan Cookie dengan Stoken</h1>
+      <content:encoded><![CDATA[
 <div class="hint-container warning">
 <p class="hint-container-title">Penting</p>
 <ul>
@@ -755,7 +679,7 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
 <li>Dokumen ini hanya menyediakan pendekatan solusi yang relevan, untuk pembelajaran saja. Operasi khusus dan konsekuensi setelahnya tidak berhubungan dengan proyek ini.</li>
 </ul>
 </div>
-<h2> Android</h2>
+<h2>Android</h2>
 <p>Pengguna Android dapat menggunakan proyek open-source GetToken untuk mendapatkan cookie yang memiliki bidang Stoken.</p>
 <div class="hint-container tip">
 <p class="hint-container-title">Proyek Open-Source GetToken</p>
@@ -782,7 +706,7 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
 <li>Di tempat masuk akun Toolbox Hutao, ketuk <code>Manual Input</code></li>
 <li>Masukkan cookie yang Anda peroleh sebelumnya, sekarang Anda bisa masuk.</li>
 </ul>
-<h2> iOS</h2>
+<h2>iOS</h2>
 <p>Pengguna iOS dapat mengunduh aplikasi perekam lalu lintas Stream dari App Store untuk mendapatkan cookie yang memiliki bidang Stoken.</p>
 <ul>
 <li>Unduh <a href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" rel="noopener noreferrer">Stream</a> dari App Store.</li>
@@ -803,37 +727,13 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/advanced/known-issue.html</link>
       <guid>https://hut.ao/id/advanced/known-issue.html</guid>
       <source url="https://hut.ao/id/rss.xml">Masalah yang Diketahui</source>
-      <description>Anda dapat melihat semua masalah di Halaman Issue GitHub (https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue) Kategori Tanda ------------------------------------------...</description>
+      <description>Masalah yang Diketahui Anda dapat melihat semua masalah di Halaman Issue GitHub </description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Masalah yang Diketahui</h1>
+      <content:encoded><![CDATA[
 <p>Anda dapat melihat semua masalah di <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue" target="_blank" rel="noopener noreferrer">Halaman Issue GitHub</a></p>
-<table>
-<thead>
-<tr>
-<th>Kategori</th>
-<th>Tanda</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3ABUG+is%3Aopen" target="_blank" rel="noopener noreferrer">Semua Masalah BUG yang Dibuka</a></td>
-<td>Diberi label <code>BUG</code></td>
-</tr>
-<tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aopen+is%3Aissue+label%3A%E5%8A%9F%E8%83%BD" target="_blank" rel="noopener noreferrer">Semua Masalah Permintaan Fitur yang Dibuka</a></td>
-<td>Diberi label <code>功能</code> (Fitur)</td>
-</tr>
-<tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D" target="_blank" rel="noopener noreferrer">Masalah yang Telah Diperbaiki dan Diselesaikan</a></td>
-<td>Diberi label <code>已修复</code> (Diperbaiki)</td>
-</tr>
-<tr>
-<td><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E7%AD%89%E5%BE%85%E5%8F%91%E5%B8%83" target="_blank" rel="noopener noreferrer">Masalah yang Akan Diperbaiki pada Versi Berikutnya</a></td>
-<td>Diberi label <code>等待发布</code> (Siap untuk Dipublikasikan)</td>
-</tr>
-</tbody>
-</table>
+<p>| Kategori                                                                                                                                                        | Tanda                                               |
+|</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -841,18 +741,19 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/advanced/uninstall.html</link>
       <guid>https://hut.ao/id/advanced/uninstall.html</guid>
       <source url="https://hut.ao/id/rss.xml">Menghapus Snap Hutao</source>
-      <description>Hapus Scheduled Task Catatan Real-time; Sebelum versi 1.4.15, jika langkah ini tidak dijalankan, Scheduled Task yang digunakan untuk menyegarkan catatan real-time mungkin tidak ...</description>
+      <description>Menghapus Snap Hutao Hapus Scheduled Task Catatan Real-time Sebelum versi 1.4.15, jika langkah ini tidak dijalankan, Scheduled Task yang digunakan untuk menyegarkan catatan real...</description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Menghapus Snap Hutao</h1>
+      <content:encoded><![CDATA[
 <ul>
 <li>Hapus <code>Scheduled Task</code> Catatan Real-time
 <ul>
-<li>Sebelum versi 1.4.15, jika langkah ini tidak dijalankan, <code>Scheduled Task</code> yang digunakan untuk menyegarkan catatan real-time mungkin tidak terhapus, dan Anda mungkin menghadapi <a href="/id/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="blank">masalah ini</a></li>
+<li>Sebelum versi 1.4.15, jika langkah ini tidak dijalankan, <code>Scheduled Task</code> yang digunakan untuk menyegarkan catatan real-time mungkin tidak terhapus, dan Anda mungkin menghadapi <a href="/id/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="_blank">masalah ini</a></li>
 <li><strong>Metode 1</strong> </li>
 <li><strong>Metode 2</strong>：
 <ul>
-<li>Jalankan skrip PowerShell berikut<div class="language-PowerShell line-numbers-mode" data-ext="PowerShell"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>Jalankan skrip PowerShell berikut<div class="language-PowerShell" data-ext="PowerShell" data-title="PowerShell"><pre class="language-PowerShell"><code>schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
+</code></pre></div></li>
 </ul>
 </li>
 <li><strong>Metode 3</strong>：
@@ -889,8 +790,9 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/blog/</link>
       <guid>https://hut.ao/id/blog/</guid>
       <source url="https://hut.ao/id/rss.xml">Dev Logs</source>
+      <description>Dev Logs </description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Dev Logs</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -898,66 +800,26 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/blog/version-1-9-0-breaking-changes.html</link>
       <guid>https://hut.ao/id/blog/version-1-9-0-breaking-changes.html</guid>
       <source url="https://hut.ao/id/rss.xml">Penjelasan Perubahan yang Merusak pada Versi 1.9.0</source>
-      <description>Dokumen ini berlaku untuk pengguna yang melakukan upgrade dari Snap Hutao versi 1.4.11 hingga 1.8.4 ke versi 1.9.0 dan yang lebih tinggi. Pengantar Snap Hutao adalah aplikasi sa...</description>
+      <description>Penjelasan Perubahan yang Merusak pada Versi 1.9.0 Dokumen ini berlaku untuk pengguna yang melakukan upgrade dari Snap Hutao versi 1.4.11 hingga 1.8.4 ke versi 1.9.0 dan yang le...</description>
       <category>Dev Logs</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Penjelasan Perubahan yang Merusak pada Versi 1.9.0</h1>
+      <content:encoded><![CDATA[
 <p>Dokumen ini berlaku untuk pengguna yang melakukan upgrade dari Snap Hutao versi <strong>1.4.11 hingga 1.8.4</strong> ke versi 1.9.0 dan yang lebih tinggi.</p>
-<h2> Pengantar</h2>
+<h2>Pengantar</h2>
 <p>Snap Hutao adalah aplikasi sandbox Windows dalam format MSIX, menyediakan kemudahan instalasi dan keamanan aplikasi AppX. Penandatanganan kode yang wajib dalam paket instalasi adalah faktor penting dalam memastikan keamanan. Jika paket instalasi dimodifikasi, Pemasang Aplikasi Windows akan mengeluarkan kesalahan karena tanda tangan terganggu, mencegah instalasi pengguna. Kita bisa melihat praktik ini di mana-mana dalam sistem operasi mobile saat ini. Di platform Windows, karena prosedur verifikasi identitas yang ketat, harga sertifikat penandatanganan kode tetap tinggi.</p>
 <p>Sebelum versi 1.4.11, Snap Hutao menggunakan sertifikat yang ditandatangani sendiri. Dalam mode ini, pengguna harus secara manual menginstal sertifikat DGP-Studio untuk mengizinkan instalasi aplikasi yang ditandatangani oleh sertifikat DGP-Studio di komputer mereka. Mulai dari versi 1.4.11, Snap Hutao terdaftar di Microsoft Store, dan Microsoft memberikan GUID <code>35C8E923-85DF-49A7-9172-B39DC6312C52</code> untuk akun pengembang Hutao. GUID ini digunakan sebagai nama penerbit Snap Hutao, menyediakan tanda tangan gratis khusus (hanya digunakan untuk aplikasi Microsoft Store). Jika Anda terbiasa memperbarui Snap Hutao dengan paket MSIX, Anda harus selalu melihat GUID ini di kolom penerbit.</p>
 <p>Pendaftaran di Microsoft Store menghilangkan kebutuhan pengguna Snap Hutao untuk secara manual menginstal sertifikat penandatanganan dan mendukung distribusi paket instalasi Snap Hutao, mengurangi sejumlah besar biaya untuk tim pengembangan. Namun, proses persetujuan yang merepotkan sering mengganggu rencana pengembangan Snap Hutao. Oleh karena itu, selama enam bulan terakhir, tim pengembangan telah mencari solusi. SignPath adalah perusahaan yang berbasis di Wina, Austria, yang menyediakan perangkat lunak integrasi penandatanganan kode. Pada awal Desember 2023, tim pengembangan Snap Hutao berhasil mendapatkan sponsor dari SignPath Foundation, memungkinkan kami menggunakan sertifikat penandatanganan kode mereka untuk Snap Hutao tanpa biaya. Ini sangat membantu proyek Snap Hutao tidak hanya membebaskan Snap Hutao dari kendala Microsoft Store tetapi juga menghindari biaya sertifikat tahunan yang tinggi.</p>
 <p><strong>Karena migrasi ke sertifikat baru menyebabkan konflik nama paket, Snap Hutao memberikan penjelasan terperinci berikut untuk membantu semua pengguna dalam memperbarui ke versi 1.9.0 dan versi mendatang.</strong></p>
-<h2> Upgrade ke Versi 1.9.0</h2>
-<h3> Rilis Versi</h3>
+<h2>Upgrade ke Versi 1.9.0</h2>
+<h3>Rilis Versi</h3>
 <p>Snap Hutao versi 1.9.0 dijadwalkan akan rilis pada akhir pekan sebelum Natal 2023. Kami akan mempublikasikan tautan unduh untuk paket instalasi melalui GitHub, Jihu GitLab, situs web resmi ini, dan komunitas.</p>
 <blockquote>
-<p>Versi 1.9.0 sudah di rilis, mohon unduh dari <a href="/id/quick-start.html" target="blank">Quick Start</a> page.</p>
+<p>Versi 1.9.0 sudah di rilis, mohon unduh dari <a href="/id/quick-start.html" target="_blank">Quick Start</a> page.</p>
 </blockquote>
-<h3> Hapus Versi Lama</h3>
+<h3>Hapus Versi Lama</h3>
 <p>Langsung menginstal paket ini akan menyebabkan masalah tergantung pada versi sistem Anda karena konflik nama paket dan tanda tangan.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Versi Sistem</th>
-<th style="text-align:center">Masalah yang Diharapkan</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Windows 10</td>
-<td style="text-align:center">Tidak dapat diinstal; konflik tanda tangan dan nama paket</td>
-</tr>
-<tr>
-<td style="text-align:center">Windows 11</td>
-<td style="text-align:center">Instalasi berhasil;<br>Koeksistensi dengan versi Snap Hutao lama dengan nama yang sama menyebabkan kesalahan waktu jalannya program</td>
-</tr>
-</tbody>
-</table>
-<p>Karena masalah di atas, Anda perlu menghapus versi Snap Hutao lama terlebih dahulu dan kemudian menginstal paket versi 1.9.0.</p>
-<blockquote>
-<p><strong>Cara menghapus Snap Hutao</strong>: Temukan Snap Hutao di menu Start, klik kanan, dan pilih uninstall; metode lainnya adalah menemukannya di Pengaturan Aplikasi Windows dan pilih uninstall.</p>
-</blockquote>
-<p><strong>Data penting Anda (termasuk akun miHoYo yang sudah masuk, catatan wish, data achievement, catatan Spiral Abyss, data cache My Character, dan rencana pengembangan) tidak akan hilang, mereka masih disimpan dalam direktori data Hutao lokal di komputer Anda.</strong> Namun, data berikut akan direset:</p>
-<ol>
-<li>Jumlah runtime Snap Hutao</li>
-<li>Jalur folder data <strong>(jika Anda sebelumnya mengubah jalur direktori data, ingat jalur direktori data Anda)</strong></li>
-<li>Status login akun Hutao (Hutao Passport)</li>
-<li>Flag pengumuman Hutao tertutup</li>
-<li>Informasi level preset rencana pengembangan</li>
-<li>Status kartu dashboard di halaman utama</li>
-<li>Status fungsi klik otomatis</li>
-</ol>
-<h3> Instalasi Versi Baru</h3>
-<p><img src="/images/202312/1-8-5-installer.png" alt="Pemasang Versi 1.8.5" loading="lazy"></p>
-<p>Jalankan pemasang versi 1.9.0 yang sudah Anda unduh. Di antarmuka instalasi, Anda seharusnya melihat penerbitnya sebagai <code>SignPath Foundation</code>. Klik instal untuk menginstal versi Snap Hutao yang benar-benar baru!</p>
-<p><strong>Jika Anda mengubah lokasi direktori data dalam versi lama, Anda perlu memilih kembali jalur direktori data dalam pengaturan setelah mulai untuk memulihkan data. Jika Anda belum pernah menetapkan direktori data, data Anda akan dimuat langsung tanpa setup tambahan.</strong></p>
-<h2> Rencana Masa Depan</h2>
-<blockquote>
-<p>Microsoft Store, perilisan mendatang, keamanan perangkat lunak...</p>
-</blockquote>
-<p>Di Microsoft Store, nama penerbit aplikasi harus menjadi GUID yang diberikan oleh Microsoft, bukan nama "kustom" seperti <code>SignPath Foundation</code>. Kami mengantisipasi bahwa kami tidak akan melanjutkan untuk merilis pembaruan di Microsoft Store di masa depan kecuali kami memiliki cara yang lebih baik untuk menangani masalah koeksistensi antara paket tanda tangan yang berbeda. Meskipun Snap Hutao tidak akan lagi melalui sertifikasi Microsoft, di bawah pembatasan SignPath, Snap Hutao hanya akan dapat mengompilasi dan membangun paket rilis langsung dari repositori kode GitHub. Ini berarti kode dalam paket instalasi pengguna 100% bersumber dari repositori kode GitHub kami, dan siapa pun memiliki otoritas untuk meninjau dan berpartisipasi dalam pengembangan.</p>
-<p>Mulai dari versi 1.9.0 dari klien, kami akan mengintegrasikan modul pembaruan perangkat lunak untuk beradaptasi dengan metode rilis baru. Kami akan meminimalkan operasi yang diperlukan untuk pembaruan pengguna sebanyak mungkin. Karena fitur ini benar-benar baru, kami masih dalam proses implementasi. Silakan terus perhatikan pengumuman dalam aplikasi kami dan komunitas untuk informasi lebih lanjut!</p>
+<p>| Versi Sistem |                                                       Masalah yang Diharapkan                                                        |
+| :</p>
 ]]></content:encoded>
       <enclosure url="https://hut.ao/images/202312/1-8-5-installer.png" type="image/png"/>
     </item>
@@ -966,8 +828,9 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/development/</link>
       <guid>https://hut.ao/id/development/</guid>
       <source url="https://hut.ao/id/rss.xml">Open Source Development</source>
+      <description>Open Source Development </description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Open Source Development</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -975,15 +838,15 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/development/contribute.html</link>
       <guid>https://hut.ao/id/development/contribute.html</guid>
       <source url="https://hut.ao/id/rss.xml">Berkontribusi pada Kode Anda</source>
-      <description>Snap Hutao menggunakan C# dan .NET Framework untuk mengembangkan kedua klien dan server. Jika Anda bersedia berkontribusi pada proyek ini, silakan baca panduan berikut. Anda dap...</description>
+      <description>Berkontribusi pada Kode Anda Snap Hutao menggunakan C# dan .NET Framework untuk mengembangkan kedua klien dan server. Jika Anda bersedia berkontribusi pada proyek ini, silakan b...</description>
       <category>open source</category>
       <category>development</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Berkontribusi pada Kode Anda</h1>
+      <content:encoded><![CDATA[
 <p>Snap Hutao menggunakan C# dan .NET Framework untuk mengembangkan kedua klien dan server. Jika Anda bersedia berkontribusi pada proyek ini,
 silakan baca panduan berikut.</p>
 <p>Anda dapat menemukan semua <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D+" target="_blank" rel="noopener noreferrer">issue terbuka yang belum terpecahkan</a> di GitHub</p>
-<h2> </h2>
+<h2></h2>
 <ol>
 <li>Unduh dan instal <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer">Visual Studio 2022 Community</a></li>
 <li>Buka Visual Studio Installer untuk menyelesaikan instalasi Visual Studio
@@ -996,19 +859,19 @@ silakan baca panduan berikut.</p>
 <li>Alihkan cabang git ke <code>develop</code></li>
 <li>Buka solusi proyek dengan Visual Studio Anda dan sekarang Anda siap untuk mulai</li>
 </ol>
-<h2> </h2>
+<h2></h2>
 <ol>
 <li>Unduh dan instal <code>Sysinternals Suite</code> dari <a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">Microsoft Store</a> atau <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">situs web Microsoft</a></li>
 <li>Temukan dan jalankan program <code>DebugView</code> dalam daftar aplikasi yang diinstal atau folder yang di-unzip</li>
 <li>Jalankan klien Snap Hutao</li>
 <li>Periksa keluaran DebugView</li>
 </ol>
-<h2> </h2>
+<h2></h2>
 <ul>
 <li>Semua perubahan terkait kode dari cabang penulis hanya diperbolehkan untuk disatukan ke cabang <code>develop</code></li>
 <li>Harap gunakan <a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests" target="_blank" rel="noopener noreferrer">keywords</a> untuk menghubungkan PR atau komit Anda dengan isu, sehingga isu dapat ditutup secara otomatis begitu komit disatukan ke cabang <code>main</code>.</li>
 </ul>
-<h2> </h2>
+<h2></h2>
 <p>Setelah kode diperbarui di cabang <code>develop</code> dan <code>main</code>, skrip CI Azure Pipeline akan membangun kode terbaru ke paket <code>Snap Hutao Alpha</code>. Begitu paket dibangun, itu akan dirilis di <a href="https://github.com/DGP-Studio/Snap.Hutao/releases" target="_blank" rel="noopener noreferrer">halaman Rilis GitHub</a> sebagai paket pra-rilis.</p>
 <p>Anda perlu menginstal sertifikat <a href="https://github.com/DGP-Studio/Snap.Hutao/releases/download/2023.10.3.1/Snap.Hutao.CI.cer" target="_blank" rel="noopener noreferrer">Snap.Hutao.CI.cer</a> ke mesin lokal Anda, dan kemudian instal paket msix di rilis tersebut.</p>
 <p>*Jika rilis terbaru tidak berisi file terlampir, itu berarti paket masih dalam proses pengunggahan.</p>
@@ -1019,11 +882,11 @@ silakan baca panduan berikut.</p>
       <link>https://hut.ao/id/development/platform.html</link>
       <guid>https://hut.ao/id/development/platform.html</guid>
       <source url="https://hut.ao/id/rss.xml">Platform Terbuka Hutao</source>
-      <description>Proyek Snap Hutao telah mendapatkan dukungan luas dari komunitas open source dan pengguna sejak diluncurkan di GitHub pada 18 April 2022. Seiring dengan perkembangannya, kami te...</description>
+      <description>Platform Terbuka Hutao Proyek Snap Hutao telah mendapatkan dukungan luas dari komunitas open source dan pengguna sejak diluncurkan di GitHub pada 18 April 2022. Seiring dengan p...</description>
       <category>open source</category>
       <category>development</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Platform Terbuka Hutao</h1>
+      <content:encoded><![CDATA[
 <p>Proyek Snap Hutao telah mendapatkan dukungan luas dari komunitas open source dan pengguna sejak diluncurkan
 di GitHub pada 18 April 2022. Seiring dengan perkembangannya, kami telah membuat serangkaian layanan pendukung
 sebagai middleware untuk Snap Hutao.</p>
@@ -1032,22 +895,22 @@ bentuk antarmuka terbuka, digunakan oleh pengembang yang memiliki visi yang sama
 dokumentasi penggunaan untuk antarmuka ini, menjaga layanan-layanan tersebut, dan memberikan jawaban atas
 pertanyaan yang sering diajukan. Baik Anda adalah pengembang berpengalaman atau pemula, kami harap antarmuka ini
 akan membantu Anda dalam membuat aplikasi.</p>
-<h2> Hutao API &amp; Hutao Cloud Open-source Developer's License</h2>
+<h2>Hutao API &amp; Hutao Cloud Open-source Developer's License</h2>
 <p>Hutao API adalah layanan antarmuka yang mengekspos Database Abyssal Hutao.
 Pembuat perangkat lunak open source dapat menggunakan Hutao API untuk mengambil data dari basis data Hutao atau mengunggah data.</p>
 <p>Pengembang yang mendapatkan akses ke Hutao API juga menerima hak penuh ke fitur Hutao Cloud dalam Snap Hutao sebagai
 keuntungan.</p>
 <p>Pengembang dapat mengajukan akses dengan mengirimkan informasi mereka melalui Platform Terbuka Hutao API
 di <a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">homa.snapgenshin.com</a></p>
-<h2> Enka API dengan Akselerasi China</h2>
+<h2>Enka API dengan Akselerasi China</h2>
 <p><a href="https://enka.network/" target="_blank" rel="noopener noreferrer">Enka Network</a> adalah alat Genshin Impact yang sangat baik yang menyediakan data detail tentang
 karakter dalam showcase karakter pengguna saat ini. Namun, karena akses terbatas ke beberapa layanan jaringan tertentu
 di China, stabilitas fungsionalitas Enka Network di wilayah tersebut terganggu.</p>
 <p>Untuk memastikan pengalaman pengguna yang lancar bagi pengguna Snap Hutao di China, tim pengembangan telah
-menggunakan data Enka Network untuk pengembangan fitur <a href="/id/features/character-data.html" target="blank">Karakter Saya</a> dan
+menggunakan data Enka Network untuk pengembangan fitur <a href="/id/features/character-data.html" target="_blank">Karakter Saya</a> dan
 mendirikan server proxy.</p>
 <p>Pengembang dapat meminta akses di grup obrolan pengembangan Snap Hutao atau grup discord dari administrator.</p>
-<h2> Format Data Permainan Interchangeable UIGF</h2>
+<h2>Format Data Permainan Interchangeable UIGF</h2>
 <p>Snap Hutao bertujuan untuk memungkinkan aliran bebas data pengguna di antara berbagai alat open source
 dengan fitur yang berbeda-beda. Untuk memfasilitasi hal ini, Snap Hutao telah menetapkan versi awal dari
 <a href="https://uigf.org/en/standards/UIGF.html" target="_blank" rel="noopener noreferrer">Standar Uniformed Interchangeable GachaLog Format (UIGF)</a>.</p>
@@ -1062,8 +925,9 @@ balik, membuat kemajuan teknis, dan menciptakan alat Genshin Impact open source 
       <link>https://hut.ao/id/features/</link>
       <guid>https://hut.ao/id/features/</guid>
       <source url="https://hut.ao/id/rss.xml">Fitur</source>
+      <description>Fitur </description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Fitur</h1>
+      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -1071,18 +935,18 @@ balik, membuat kemajuan teknis, dan menciptakan alat Genshin Impact open source 
       <link>https://hut.ao/id/features/achievements.html</link>
       <guid>https://hut.ao/id/features/achievements.html</guid>
       <source url="https://hut.ao/id/rss.xml">Manajemen Pencapaian</source>
-      <description>Screenshot Pencapaian Snap Hutao menyediakan fitur manajemen pencapaian lokal, pengguna dapat melihat dan mengelola status pencapaian mereka. Pada penggunaan pertama kali, Anda ...</description>
+      <description>Manajemen Pencapaian Screenshot Pencapaian Snap Hutao menyediakan fitur manajemen pencapaian lokal, pengguna dapat melihat dan mengelola status pencapaian mereka. Pada penggunaa...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Manajemen Pencapaian</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01xJaPGy1g6dyAWV0vm_!!1797064093.png_.webp" alt="Screenshot Pencapaian" loading="lazy"></p>
 <p>Snap Hutao menyediakan fitur manajemen pencapaian lokal, pengguna dapat melihat dan mengelola status pencapaian mereka.</p>
 <ul>
 <li>Pada penggunaan pertama kali, Anda akan mengikuti instruksi untuk membuat arsip dan memberinya nama.</li>
 <li>Setelah itu, Anda tetap dapat membuat arsip baru dengan mengklik <code>Buat Arsip Baru</code> untuk akun game lain.</li>
 </ul>
-<h2> Impor Pencapaian</h2>
+<h2>Impor Pencapaian</h2>
 <ul>
 <li>Snap Hutao menggunakan <a href="https://uigf.org/en/standards/UIAF.html" target="_blank" rel="noopener noreferrer">Uniformed Interchangeable Achievement Format Standar</a> untuk menyimpan data pencapaian pengguna
 <ul>
@@ -1091,7 +955,7 @@ balik, membuat kemajuan teknis, dan menciptakan alat Genshin Impact open source 
 </li>
 <li>Anda dapat klik <code>Impor</code> di menu kanan atas pada halaman Manajemen Pencapaian, dan pilih impor file untuk memuat data berformat UIAF.</li>
 </ul>
-<h2> Alat Pencapaian yang Kami Rekomendasikan</h2>
+<h2>Alat Pencapaian yang Kami Rekomendasikan</h2>
 <ul>
 <li>
 <p><a href="https://github.com/HolographicHat/YaeAchievement" target="_blank" rel="noopener noreferrer">YaeAchievement</a> </p>
@@ -1108,22 +972,22 @@ balik, membuat kemajuan teknis, dan menciptakan alat Genshin Impact open source 
       <link>https://hut.ao/id/features/character-data.html</link>
       <guid>https://hut.ao/id/features/character-data.html</guid>
       <source url="https://hut.ao/id/rss.xml">Karakter Saya</source>
-      <description>Fitur ini memerlukan masuk ke akun MiHoYo BBS, silakan lihat dokumen MiHoYo BBS Account Switch (mhy-account-switch.md) untuk tutorial masuk Karakter saya adalah fitur statistik ...</description>
+      <description>Karakter Saya Pemberitahuan Fitur ini memerlukan masuk ke akun MiHoYo BBS, silakan lihat dokumen untuk tutorial masuk Karakter saya adalah fitur statistik karakter yang memungki...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Karakter Saya</h1>
+      <content:encoded><![CDATA[
 <div class="hint-container info">
 <p class="hint-container-title">Pemberitahuan</p>
-<p>Fitur ini memerlukan masuk ke akun MiHoYo BBS, silakan lihat dokumen <a href="/id/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a>
+<p>Fitur ini memerlukan masuk ke akun MiHoYo BBS, silakan lihat dokumen <a href="/id/features/mhy-account-switch.html" target="_blank">MiHoYo BBS Account Switch</a>
 untuk tutorial masuk</p>
 </div>
 <p>Karakter saya adalah fitur statistik karakter yang memungkinkan Snap Hutao membaca statistik karakter dalam akun,
 termasuk level, konstelasi, senjata, bakat, dan set artefak; kami juga menyediakan peringkat artefak dan peringkat CRTI
 untuk setiap karakter.</p>
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01JOlGqw1g6dyB7NkLu_!!1797064093.png_.webp" alt="Screenshot Karakter Saya" loading="lazy"></p>
-<h2> Sinkronisasi Data Karakter</h2>
-<h3> Sinkronisasi dari Enka API</h3>
+<h2>Sinkronisasi Data Karakter</h2>
+<h3>Sinkronisasi dari Enka API</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Fitur Sinkronisasi</p>
 <ul>
@@ -1151,7 +1015,7 @@ untuk setiap karakter.</p>
 <li>Masuk ke halaman <code>Karakter Saya</code> di Snap Hutao, Klik tombol <code>Sinkronisasi Data Karakter</code> di kanan atas</li>
 <li>Pilih <code>Sinkronisasi dari Enka API</code></li>
 </ul>
-<h3> Sinkronisasi dari MiHoYo BBS - Karakter Saya</h3>
+<h3>Sinkronisasi dari MiHoYo BBS - Karakter Saya</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Fitur Sinkronisasi</p>
 <ul>
@@ -1168,7 +1032,7 @@ untuk setiap karakter.</p>
 <li>Masuk ke halaman <code>Karakter Saya</code> di Snap Hutao, Klik tombol <code>Sinkronisasi Data Karakter</code> di kanan atas</li>
 <li>Pilih <code>Sinkronisasi dari Karakter Saya MiHoYo BBS</code></li>
 </ul>
-<h3> Sinkronisasi dari MiHoYo BBS - Rencana Pengembangan</h3>
+<h3>Sinkronisasi dari MiHoYo BBS - Rencana Pengembangan</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Fitur Sinkronisasi</p>
 <ul>
@@ -1185,7 +1049,7 @@ untuk setiap karakter.</p>
 <li>Masuk ke halaman <code>Karakter Saya</code> di Snap Hutao, Klik tombol <code>Sinkronisasi Data Karakter</code> di kanan atas</li>
 <li>Pilih <code>Sinkronisasi dari Rencana Pengembangan MiHoYo BBS</code></li>
 </ul>
-<h2> Tambahkan Karakter Terpilih ke Rencana Pengembangan</h2>
+<h2>Tambahkan Karakter Terpilih ke Rencana Pengembangan</h2>
 <ul>
 <li>Masuk ke halaman <code>Karakter Saya</code> di Snap Hutao, klik karakter yang ingin Anda tambahkan ke rencana pengembangan</li>
 <li>Klik <code>Rencana Pengembangan</code> dan masukkan level target
@@ -1200,9 +1064,9 @@ untuk setiap karakter.</p>
 </ul>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png" alt="image" loading="lazy"></p>
 <ul>
-<li>Untuk tutorial fitur Rencana Pengembangan, silakan lihat <a href="/id/features/develop-plan.html" target="blank">Rencana Pengembangan</a> dokumen</li>
+<li>Untuk tutorial fitur Rencana Pengembangan, silakan lihat <a href="/id/features/develop-plan.html" target="_blank">Rencana Pengembangan</a> dokumen</li>
 </ul>
-<h2> Ekspor sebagai Gambar</h2>
+<h2>Ekspor sebagai Gambar</h2>
 <ul>
 <li>Di halaman <code>Karakter Saya</code>, Anda dapat memilih karakter dan kemudian klik tombol <code>Ekspor sebagai Gambar</code> untuk membuat
 gambar dengan data karakter Anda, ini akan membantu Anda berbagi data karakter Anda</li>
@@ -1218,14 +1082,14 @@ gambar dengan data karakter Anda, ini akan membantu Anda berbagi data karakter A
       <link>https://hut.ao/id/features/character-wiki.html</link>
       <guid>https://hut.ao/id/features/character-wiki.html</guid>
       <source url="https://hut.ao/id/rss.xml">Karakter WIKI</source>
-      <description>wiki-karakter Karakter WIKI adalah fitur WIKI bawaan Snap Hutao yang digunakan untuk mencari informasi tentang setiap karakter. Data yang Disertakan Daftar karakter; Gunakan iko...</description>
+      <description>Karakter WIKI wiki-karakter Karakter WIKI adalah fitur WIKI bawaan Snap Hutao yang digunakan untuk mencari informasi tentang setiap karakter. Data yang Disertakan Daftar karakte...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Karakter WIKI</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01BTeWoh1g6dyHbVwkf_!!1797064093.png_.webp" alt="wiki-karakter" loading="lazy"></p>
 <p>Karakter WIKI adalah fitur WIKI bawaan Snap Hutao yang digunakan untuk mencari informasi tentang setiap karakter.</p>
-<h2> Data yang Disertakan</h2>
+<h2>Data yang Disertakan</h2>
 <ul>
 <li>Daftar karakter
 <ul>
@@ -1261,12 +1125,12 @@ gambar dengan data karakter Anda, ini akan membantu Anda berbagi data karakter A
 </ul>
 </li>
 </ul>
-<h2> Tambahkan ke Rencana Pengembangan</h2>
+<h2>Tambahkan ke Rencana Pengembangan</h2>
 <ul>
 <li>Di halaman WIKI karakter, Anda dapat memilih karakter dan klik <code>Rencana Pengembangan</code> di kanan atas untuk menambahkannya ke Rencana Pengembangan Anda
 <ul>
 <li>Rencana baru akan menetapkan level dasar sebagai <code>1</code></li>
-<li>Jika Anda ingin membuat Rencana Pengembangan baru berdasarkan karakter yang sudah Anda miliki, Anda dapat mencoba fitur <a href="/id/features/character-data.html" target="blank">Karakter Saya</a></li>
+<li>Jika Anda ingin membuat Rencana Pengembangan baru berdasarkan karakter yang sudah Anda miliki, Anda dapat mencoba fitur <a href="/id/features/character-data.html" target="_blank">Karakter Saya</a></li>
 </ul>
 </li>
 </ul>
@@ -1278,11 +1142,11 @@ gambar dengan data karakter Anda, ini akan membantu Anda berbagi data karakter A
       <link>https://hut.ao/id/features/dashboard.html</link>
       <guid>https://hut.ao/id/features/dashboard.html</guid>
       <source url="https://hut.ao/id/rss.xml">Dashboard Beranda</source>
-      <description>Screenshot dashboard Snap Hutao akan masuk ke dashboard beranda secara default ketika dibuka. Bagian atas merupakan data permainan pribadi Anda; bagian bawah adalah pengumuman p...</description>
+      <description>Dashboard Beranda Screenshot dashboard Snap Hutao akan masuk ke dashboard beranda secara default ketika dibuka. Bagian atas merupakan data permainan pribadi Anda; bagian bawah a...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Dashboard Beranda</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01BV3VBz1g6dy4fyYJw_!!1797064093.png_.webp" alt="Screenshot dashboard" loading="lazy"></p>
 <p>Snap Hutao akan masuk ke dashboard beranda secara default ketika dibuka. Bagian atas merupakan data permainan pribadi Anda; bagian
 bawah adalah pengumuman permainan terbaru dan hitungan mundur acara dalam hari dan jam.</p>
@@ -1330,14 +1194,14 @@ bawah adalah pengumuman permainan terbaru dan hitungan mundur acara dalam hari d
       <link>https://hut.ao/id/features/develop-plan.html</link>
       <guid>https://hut.ao/id/features/develop-plan.html</guid>
       <source url="https://hut.ao/id/rss.xml">Rencana Pengembangan</source>
-      <description>rencana-pengembangan Menambahkan Tujuan Pengembangan ke Daftar Periksa Bahan Menambahkan Tujuan dari WIKI Klik WIKI Karakter atau WIKI Senjata dari bilah menu kiri; Pilih karakt...</description>
+      <description>Rencana Pengembangan rencana-pengembangan Menambahkan Tujuan Pengembangan ke Daftar Periksa Bahan Menambahkan Tujuan dari WIKI Klik WIKI Karakter atau WIKI Senjata dari bilah me...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Rencana Pengembangan</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01CDsjcb1g6dyB7M0EW_!!1797064093.png_.webp" alt="rencana-pengembangan" loading="lazy"></p>
-<h2> Menambahkan Tujuan Pengembangan ke Daftar Periksa Bahan</h2>
-<h3> Menambahkan Tujuan dari WIKI</h3>
+<h2>Menambahkan Tujuan Pengembangan ke Daftar Periksa Bahan</h2>
+<h3>Menambahkan Tujuan dari WIKI</h3>
 <ul>
 <li>Klik <code>WIKI Karakter</code> atau <code>WIKI Senjata</code> dari bilah menu kiri</li>
 <li>Pilih karakter atau senjata yang ingin ditambahkan</li>
@@ -1348,18 +1212,18 @@ bawah adalah pengumuman permainan terbaru dan hitungan mundur acara dalam hari d
 </ul>
 </li>
 </ul>
-<h3> Menambahkan Tujuan dari Data Karakter Saya</h3>
+<h3>Menambahkan Tujuan dari Data Karakter Saya</h3>
 <ul>
 <li>Klik <code>Karakter Saya</code> dari sebelah menu kiri</li>
 <li>Pilih karakter yang ingin ditambahkan</li>
 <li>Pada jendela pop-up, masukkan level dasar dan level target
 <ul>
 <li>Secara default, menambahkan tujuan dari WIKI akan menetapkan level dasar sesuai data karakter pemain'</li>
-<li>Lihat <a href="/id/features/character-data.html#sync-character-data" target="blank">Karakter Saya</a> untuk panduan lebih lanjut</li>
+<li>Lihat <a href="/id/features/character-data.html#sync-character-data" target="_blank">Karakter Saya</a> untuk panduan lebih lanjut</li>
 </ul>
 </li>
 </ul>
-<h2> Item Inventaris</h2>
+<h2>Item Inventaris</h2>
 <div class="hint-container info">
 <p class="hint-container-title">Pemberitahuan</p>
 <p>Fitur ini sedang dalam proses pembangunan untuk bahasa non-Cina</p>
@@ -1372,11 +1236,11 @@ bawah adalah pengumuman permainan terbaru dan hitungan mundur acara dalam hari d
       <link>https://hut.ao/id/features/game-launcher.html</link>
       <guid>https://hut.ao/id/features/game-launcher.html</guid>
       <source url="https://hut.ao/id/rss.xml">Peluncur Game</source>
-      <description>Peluncur Game Snap Hutao menawarkan fitur peluncur game canggih yang memungkinkan pengguna untuk meluncurkan game dengan pengaturan yang ditentukan sendiri; Klik Game Launcher p...</description>
+      <description>Peluncur Game Peluncur Game Snap Hutao menawarkan fitur peluncur game canggih yang memungkinkan pengguna untuk meluncurkan game dengan pengaturan yang ditentukan sendiri Klik Ga...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Peluncur Game</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp" alt="Peluncur Game" loading="lazy"></p>
 <ul>
 <li>Snap Hutao menawarkan fitur peluncur game canggih yang memungkinkan pengguna untuk meluncurkan game dengan pengaturan yang ditentukan sendiri</li>
@@ -1400,7 +1264,7 @@ bawah adalah pengumuman permainan terbaru dan hitungan mundur acara dalam hari d
 </ul>
 </li>
 </ul>
-<h2> Ubah Server</h2>
+<h2>Ubah Server</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">Catatan Privasi</p>
 <ol>
@@ -1413,175 +1277,8 @@ Di bidang <code>General - Sever</code>, pilih server yang Anda inginkan</p>
 <ul>
 <li>Opsi server yang tersedia saat ini termasuk:</li>
 </ul>
-<table>
-<thead>
-<tr>
-<th>Opsi</th>
-<th>Server</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>CN Default</td>
-<td>Server Tiongkok Daratan</td>
-</tr>
-<tr>
-<td>CN Official</td>
-<td>Server Tiongkok Daratan, tanpa perbedaan dengan baris sebelumnya</td>
-</tr>
-<tr>
-<td>CN NoTapTap</td>
-<td>Server Tiongkok Daratan tanpa metode login akun TapTap</td>
-</tr>
-<tr>
-<td>BiliBili</td>
-<td>Server Tiongkok dengan sistem akun BiliBili</td>
-</tr>
-<tr>
-<td>Global Default</td>
-<td>Server HoYoVerse</td>
-</tr>
-<tr>
-<td>Global Epic</td>
-<td>Server HoYoVerse dengan gerbang pembayaran Epic Store</td>
-</tr>
-<tr>
-<td>Global Google</td>
-<td>Server HoYoVerse dengan gerbang pembayaran Google Pay</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>klik tombol <code>Launcher</code> di pojok kanan atas untuk meluncurkan game, Snap Hutao akan mengunduh file yang diperlukan untuk server dan kemudian meluncurkan game</li>
-</ul>
-<h2> Ganti Akun Game</h2>
-<div class="hint-container tip">
-<p class="hint-container-title">Tips</p>
-<ol>
-<li><strong>Akun</strong> yang disebutkan dalam fitur ini adalah akun login game Genshin bukan akun HoYoLAB</li>
-<li>Fitur ganti akun game saat ini hanya mendukung server CN resmi</li>
-</ol>
-</div>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>CN</th>
-<th>BiliBili</th>
-<th>Global</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Simpan Status Login</td>
-<td>Didukung</td>
-<td>Didukung</td>
-<td>Didukung</td>
-</tr>
-<tr>
-<td>Ganti Akun</td>
-<td>Didukung</td>
-<td>Tidak Didukung</td>
-<td>Didukung</td>
-</tr>
-</tbody>
-</table>
-<ol>
-<li>Masuk ke halaman Peluncur Game</li>
-<li>Klik bidang <code>Detect Account</code> di kategori <code>General</code>, Snap Hutao akan mendeteksi status login akun Genshin Impact saat ini</li>
-<li>Pada jendela pop-up ini, masukkan nama arsip untuk akun ini dan klik <code>Konfirmasi</code></li>
-<li>Kembali ke game, keluar dan masuk ke akun Anda yang lain. Ulangi langkah 2 dan 3 untuk menambahkan semua akun Anda ke Snap Hutao
-<ul>
-<li>Setiap akun yang disimpan dapat dipilih</li>
-<li>Di sisi kanan, ada tiga tombol, yaitu:
-<ul>
-<li><code>Mengikat akun pengguna saat ini</code>, mengikat akun MiHoYo BBS yang diaktifkan saat ini dengan akun game ini, sebuah UID akan ditampilkan pada arsip ini</li>
-<li><code>Ganti nama</code>, mengubah nama arsip akun saat ini</li>
-<li><code>Hapus</code>, menghapus arsip akun saat ini</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<h2> Penampilan</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">Penting</p>
-<ul>
-<li>
-<p>Dalam beberapa kasus yang dilaporkan, menggunakan Snap Hutao dengan mode <code>Exclusive Fullscreen</code> akan menyebabkan proses game tidak responsif.</p>
-<ul>
-<li>Saran untuk menggunakan mode <code>Borderless</code> atau <code>Fullscreen</code> jika Anda mengalami masalah yang sama</li>
-<li>Masalah ini disebabkan oleh kegagalan browser tertanam dalam game</li>
-</ul>
-</li>
-</ul>
-</div>
-<ul>
-<li>Masuk ke halaman Peluncur Game</li>
-<li>Di kategori <code>Penampilan</code>, ada 6 opsi yang tersedia:
-<ul>
-<li><strong>Exclusive Fullscreen</strong>, proses game akan berjalan dalam mode layar penuh eksklusif
-<ul>
-<li><strong>Anda hanya boleh menggunakan opsi ini ketika Anda dapat secara independen menjelaskan prinsip teknis dan efek dari layar penuh eksklusif</strong></li>
-</ul>
-</li>
-<li><strong>Fullscreen</strong>, mode tampilan game diatur ke layar penuh</li>
-<li><strong>Borderless</strong>, mode tampilan game diatur ke mode tanpa batas</li>
-<li><strong>Lebar</strong>, lebar jendela game, seperti <code>1920</code></li>
-<li><strong>Tinggi</strong>, tinggi jendela game, seperti <code>1080</code></li>
-<li><strong>Tampilan</strong>, pengguna dengan beberapa tampilan dapat menggunakan opsi ini untuk menetapkan tampilan mana yang akan menjalankan game</li>
-</ul>
-</li>
-</ul>
-<h2> Unduhan Sumber Daya</h2>
-<p>Peluncur game di Snap Hutao juga menawarkan fitur unduhan sumber daya, yang mencantumkan paket klien Genshin Impact (server CN) waktu nyata dan paket OTA. Pengguna dapat mengklik ikon hyperlink di samping kanan setiap paket untuk mengarahkan ke browser untuk mengunduhnya dengan alat unduhan favorit pengguna.</p>
-<p>Ketika Anda memperbarui klien game, Anda dapat melakukan langkah-langkah berikut:</p>
-<ol>
-<li>Perbarui peluncur resmi ke versi terbaru</li>
-<li>Di <code>Snap Hutao - Game Launcher - Unduhan Sumber Daya</code>, cari paket OTA klien yang dibutuhkan dan paket OTA bahasa yang diinstal</li>
-<li>Pindahkan semua paket ke folder tempat klien game berada</li>
-<li>Mulai peluncur resmi, klik tombol pembaruan. Peluncur akan melewati proses pengunduhan dan langsung memulai proses membuka paket OTA untuk memperbarui klien</li>
-</ol>
-<h2> Fitur Lanjutan</h2>
-<div class="hint-container caution">
-<p class="hint-container-title">Peringatan</p>
-<ul>
-<li>Perhatikan: semua fitur lanjutan dilabeli sebagai <code>Fitur Berbahaya</code>; mengindikasikan bahwa mengaktifkannya berarti Anda memilih untuk mengasumsikan segala risiko tersebut.</li>
-<li>Anda perlu mengaktifkan fitur lanjutan di halaman pengaturan Snap Hutao</li>
-</ul>
-</div>
-<h3> Buka Kunci Batas Frame Rate</h3>
-<div class="hint-container caution">
-<p class="hint-container-title">Peringatan</p>
-<ul>
-<li><a href="https://github.com/DGP-Studio/Unlocker" target="_blank" rel="noopener noreferrer">Proyek Unlocker</a> hanya memengaruhi UnityPlayer itu sendiri, secara langsung mempengaruhi mesin Unity3D, dan tidak memiliki hubungan langsung dengan game itu sendiri. Pada dasarnya, tidak ada perbedaan dari pengaturan seperti 120 FPS pada perangkat seluler. Namun, Anda tetap harus menggunakan fitur ini dengan hati-hati dan membaca <a href="/id/statements/tos.html" target="blank">perjanjian pengguna</a> sendiri.</li>
-</ul>
-</div>
-<ul>
-<li>
-<p>Jalankan Snap Hutao sebagai administrator</p>
-</li>
-<li>
-<p>Masuk ke halaman Peluncur Game</p>
-</li>
-<li>
-<p>Di bagian bawah halaman, Anda dapat menemukan opsi <code>Buka Kunci Batas Frame Rate</code></p>
-<ul>
-<li>Aktifkan atau nonaktifkan fitur ini dengan memindahkan sakelar</li>
-<li>Di bidang <code>Set Batas Frame Rate</code>, Anda dapat mengatur batas secara bebas</li>
-</ul>
-</li>
-<li>
-<p>Faktor yang mungkin menyebabkan <strong>kegagalan membuka kunci batas frame rate</strong>:</p>
-<ul>
-<li>Proses Snap Hutao tidak dijaga di latar belakang</li>
-<li><code>V-Sync</code> tidak diatur menjadi off di dalam game</li>
-<li>Batas <code>Framerate maksimum</code> tidak diubah di pengaturan kartu grafis Anda</li>
-<li>Mode <code>Penghematan Daya</code> tidak dinonaktifkan di pengaturan daya</li>
-<li>Kartu grafis Anda tidak cukup kuat</li>
-</ul>
-</li>
-</ul>
+<p>| Opsi           | Server                                                           |
+|</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp" type="image/webp"/>
     </item>
@@ -1590,11 +1287,11 @@ Di bidang <code>General - Sever</code>, pilih server yang Anda inginkan</p>
       <link>https://hut.ao/id/features/hutao-API.html</link>
       <guid>https://hut.ao/id/features/hutao-API.html</guid>
       <source url="https://hut.ao/id/rss.xml">Basis Data Hutao / Catatan Abyss</source>
-      <description>Snap Hutao menawarkan dua fitur statistik utama terkait dengan tantangan Spiral Abyss Statistik Abyss di sidebar adalah fitur yang dirancang untuk membantu pemain yang tidak fam...</description>
+      <description>Basis Data Hutao / Catatan Abyss Snap Hutao menawarkan dua fitur statistik utama terkait dengan tantangan Spiral Abyss Statistik Abyss di sidebar adalah fitur yang dirancang unt...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Basis Data Hutao / Catatan Abyss</h1>
+      <content:encoded><![CDATA[
 <p>Snap Hutao menawarkan dua fitur statistik utama terkait dengan tantangan Spiral Abyss</p>
 <ul>
 <li><code>Statistik Abyss</code> di sidebar adalah fitur yang dirancang untuk membantu pemain yang tidak familiar dengan sistem pertempuran Genshin Impact untuk membangun tim, melewati Abyss, dan mendapatkan hadiah dengan mengumpulkan dan menampilkan data statistik tantangan dari Spiral Abyss dari sejumlah besar pemain.</li>
@@ -1605,7 +1302,7 @@ Di bidang <code>General - Sever</code>, pilih server yang Anda inginkan</p>
 </li>
 </ul>
 
-<h2> Lihat Statistik Abyss</h2>
+<h2>Lihat Statistik Abyss</h2>
 <div class="hint-container warning">
 <p class="hint-container-title">Batasan Lingkup Data</p>
 <p>Semua data yang dihitung didasarkan pada data pemain <strong>yang diunggah ke Database Hutao</strong> dan tidak dapat mewakili rata-rata data dari <strong>semua</strong> pemain Genshin Impact. Data ini hanya untuk referensi.</p>
@@ -1644,8 +1341,8 @@ Di bidang <code>General - Sever</code>, pilih server yang Anda inginkan</p>
 </a></ul><a class="footnote-anchor" id="footnote-ref4">
 </a></li><a class="footnote-anchor" id="footnote-ref4">
 </a></ul><a class="footnote-anchor" id="footnote-ref4">
-</a><h2><a class="footnote-anchor" id="footnote-ref4"></a> Unggah Data Abyss</h2>
-<h3> Gunakan Klien Snap Hutao</h3>
+</a><h2><a class="footnote-anchor" id="footnote-ref4"></a><a class="header-anchor" href="#unggah-data-abyss"><span>Unggah Data Abyss</span></a></h2>
+<h3>Gunakan Klien Snap Hutao</h3>
 <ul>
 <li>Masuk ke halaman Catatan Abyss dengan mengklik <code>Catatan Abyss</code> pada menu sidebar.</li>
 <li>Klik tombol <code>Perbarui Data</code> untuk memastikan Snap Hutao menyimpan catatan Spiral Abyss terbaru Anda.</li>
@@ -1656,7 +1353,7 @@ Di bidang <code>General - Sever</code>, pilih server yang Anda inginkan</p>
 </ul>
 </li>
 </ul>
-<h3> Gunakan Browser</h3>
+<h3>Gunakan Browser</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Pemberitahuan</p>
 <p>Metode ini tidak mendukung HoYoLAB</p>
@@ -1675,7 +1372,7 @@ Di bidang <code>General - Sever</code>, pilih server yang Anda inginkan</p>
 <li>Setelah mengonfirmasikannya, peramban akan mengunggah catatan abyss Anda, jangan mematikan peramban Anda.</li>
 <li>Anda akan menerima notifikasi ketika data Anda dikirim.</li>
 </ul>
-<h2> Berbagi Data</h2>
+<h2>Berbagi Data</h2>
 <p>Snap Hutao berkontribusi data ke Database Hutao dengan pengembang lain. Anda dapat melihat Statistik Abyss kami, dan mengunggah data Abyss Anda dalam beberapa aplikasi selain Snap Hutao.
 Saat ini, Snap Hutao berbagi data Abyss dengan aplikasi berikut:</p>
 <div class="vp-card-container">
@@ -1701,11 +1398,11 @@ Saat ini, Snap Hutao berbagi data Abyss dengan aplikasi berikut:</p>
       <link>https://hut.ao/id/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/id/features/mhy-account-switch.html</guid>
       <source url="https://hut.ao/id/rss.xml">Perpindahan Akun MiHoYo BBS</source>
-      <description>Ada dua jenis MiHoYo BBS, MiYouShe dan HoYoLAB. MiYouShe mengacu pada versi Tiongkok Daratan, HoYoLAB mengacu pada versi global, keduanya diterima oleh Snap Hutao. Dokumen di ha...</description>
+      <description>Perpindahan Akun MiHoYo BBS Tips Ada dua jenis MiHoYo BBS, MiYouShe dan HoYoLAB. MiYouShe mengacu pada versi Tiongkok Daratan, HoYoLAB mengacu pada versi global, keduanya diteri...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Perpindahan Akun MiHoYo BBS</h1>
+      <content:encoded><![CDATA[
 <div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
 <p>Ada dua jenis MiHoYo BBS, MiYouShe dan HoYoLAB.
@@ -1733,7 +1430,7 @@ Anda dapat menemukan entri untuk login ke akun MiYouShe dan HoYoLAB Anda:</p>
 <li>Alternatifnya, Anda dapat memasukkan daftar cookie MiHoYo BBS Anda dengan mengklik tombol <code>Input Manual</code>
 <ul>
 <li>Jika Anda melakukannya, cookie harus memuat bidang <code>SToken</code></li>
-<li>Anda dapat merujuk ke dokumen <a href="/id/advanced/get-SToken-cookie-from-the-third-party.html" target="blank">使用第三方工具获取有 SToken 的 cookie</a> untuk metode menangkap cookie dengan <code>SToken</code></li>
+<li>Anda dapat merujuk ke dokumen <a href="/id/advanced/get-SToken-cookie-from-the-third-party.html" target="_blank">使用第三方工具获取有 SToken 的 cookie</a> untuk metode menangkap cookie dengan <code>SToken</code></li>
 </ul>
 </li>
 <li>Setelah menambahkan akun MiHoYo BBS Anda, Anda perlu beralih ke akun yang diinginkan di menu akun, untuk mengaktifkannya
@@ -1765,14 +1462,14 @@ tidak ada server pihak ketiga (termasuk server Snap Hutao) yang terlibat dalam p
       <link>https://hut.ao/id/features/monster-wiki.html</link>
       <guid>https://hut.ao/id/features/monster-wiki.html</guid>
       <source url="https://hut.ao/id/rss.xml">Monster WIKI</source>
-      <description>monster-wiki Monster WIKI adalah basis data WIKI tersemat yang digunakan untuk mencari tahu setiap kemampuan monster, kemampuan pada setiap tingkat, RES, item yang dijatuhkan Da...</description>
+      <description>Monster WIKI monster-wiki Monster WIKI adalah basis data WIKI tersemat yang digunakan untuk mencari tahu setiap kemampuan monster, kemampuan pada setiap tingkat, RES, item yang ...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Monster WIKI</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01mEozOR1g6dyFXXWcO_!!1797064093.png_.webp" alt="monster-wiki" loading="lazy"></p>
 <p>Monster WIKI adalah basis data WIKI tersemat yang digunakan untuk mencari tahu setiap kemampuan monster, <strong>kemampuan pada setiap tingkat, RES, item yang dijatuhkan</strong></p>
-<h2> Data yang Termasuk</h2>
+<h2>Data yang Termasuk</h2>
 <ul>
 <li>Daftar monster
 <ul>
@@ -1800,18 +1497,18 @@ tidak ada server pihak ketiga (termasuk server Snap Hutao) yang terlibat dalam p
       <link>https://hut.ao/id/features/real-time-notes.html</link>
       <guid>https://hut.ao/id/features/real-time-notes.html</guid>
       <source url="https://hut.ao/id/rss.xml">Catatan Langsung</source>
-      <description>Fitur ini memerlukan Anda untuk masuk ke akun MiYouShe atau HoYoLab Anda di Snap Hutao, Anda dapat memeriksa MiHoYo BBS Account Switch (mhy-account-switch.html) untuk informasi ...</description>
+      <description>Catatan Langsung Pemberitahuan Fitur ini memerlukan Anda untuk masuk ke akun MiYouShe atau HoYoLab Anda di Snap Hutao, Anda dapat memeriksa untuk informasi lebih lanjut. pelacak...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Catatan Langsung</h1>
+      <content:encoded><![CDATA[
 <div class="hint-container info">
 <p class="hint-container-title">Pemberitahuan</p>
 <p>Fitur ini memerlukan Anda untuk masuk ke akun MiYouShe atau HoYoLab Anda di Snap Hutao,
-Anda dapat memeriksa <a href="/id/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> untuk informasi lebih lanjut.</p>
+Anda dapat memeriksa <a href="/id/features/mhy-account-switch.html" target="_blank">MiHoYo BBS Account Switch</a> untuk informasi lebih lanjut.</p>
 </div>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp" alt="pelacakan-data-real-time" loading="lazy"></p>
-<h2> Tambah Peran</h2>
+<h2>Tambah Peran</h2>
 <ul>
 <li>Klik tombol <code>Tambah Peran</code></li>
 <li>Pada menu pop-up, cari UID yang ingin Anda tambahkan, dan klik tombol tambah di sebelah kanannya</li>
@@ -1827,12 +1524,12 @@ Anda dapat memeriksa <a href="/id/features/mhy-account-switch.html" target="blan
 </ul>
 </li>
 </ul>
-<h2> Verifikasi Pengguna dan Peran Saat Ini</h2>
+<h2>Verifikasi Pengguna dan Peran Saat Ini</h2>
 <p>Jika Anda menggunakan akun MiYouShe, kemungkinan besar akun Anda akan ditandai sebagai pengguna robot dan menyebabkan verifikasi anti-bot.
 Dalam status ini, data Catatan Langsung tidak dapat diperbarui.</p>
 <p>Anda dapat mengklik tombol <code>Verifikasi Pengguna dan Peran Saat Ini</code>, Snap Hutao akan menampilkan jendela verifikasi. Setelah menyelesaikan
 verifikasi, maka akun Anda dapat digunakan untuk memperbarui data.</p>
-<h2> Pengaturan Notifikasi Global</h2>
+<h2>Pengaturan Notifikasi Global</h2>
 <ul>
 <li>Pada <code>Pengaturan Notifikasi</code> di kanan atas, Anda dapat mengubah pengaturan global Catatan Langsung, termasuk:
 <ul>
@@ -1853,7 +1550,7 @@ verifikasi, maka akun Anda dapat digunakan untuk memperbarui data.</p>
 </ul>
 </li>
 </ul>
-<h2> Pengaturan Independen untuk Akun</h2>
+<h2>Pengaturan Independen untuk Akun</h2>
 <ul>
 <li>Snap Hutao memungkinkan pengaturan berbeda pada setiap akun Catatan Langsung</li>
 <li>Sorot kursor di atas formulir akun Catatan Langsung yang perlu diatur</li>
@@ -1869,7 +1566,7 @@ verifikasi, maka akun Anda dapat digunakan untuk memperbarui data.</p>
 </li>
 <li>Klik <code>Simpan</code> dan Anda dapat menyimpan pengaturan</li>
 </ul>
-<h2> Hapus Akun Catatan Langsung Harian</h2>
+<h2>Hapus Akun Catatan Langsung Harian</h2>
 <ul>
 <li>Sorot kursor di atas formulir akun Catatan Langsung yang perlu dihapus</li>
 <li>Klik tombol hapus di atasnya, dan Anda dapat menghapus akun yang sesuai</li>
@@ -1882,11 +1579,11 @@ verifikasi, maka akun Anda dapat digunakan untuk memperbarui data.</p>
       <link>https://hut.ao/id/features/setup.html</link>
       <guid>https://hut.ao/id/features/setup.html</guid>
       <source url="https://hut.ao/id/rss.xml">Panduan Pengaturan Awal</source>
-      <description>Saat pertama kali meluncurkan Snap Hutao, klien akan secara otomatis memasuki panduan pengaturan awal untuk membantu pengguna mengonfigurasi klien dengan benar. Saat ini, Snap H...</description>
+      <description>Panduan Pengaturan Awal Saat pertama kali meluncurkan Snap Hutao, klien akan secara otomatis memasuki panduan pengaturan awal untuk membantu pengguna mengonfigurasi klien dengan...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Panduan Pengaturan Awal</h1>
+      <content:encoded><![CDATA[
 <p>Saat pertama kali meluncurkan Snap Hutao, klien akan secara otomatis memasuki panduan pengaturan awal untuk membantu pengguna mengonfigurasi klien dengan benar.</p>
 <p>Saat ini, Snap Hutao akan memandu pengguna melalui proses pengaturan bahasa, mengkonfirmasi perjanjian pengguna, memeriksa konfigurasi lingkungan yang diperlukan, dan mengunduh sumber daya statis.</p>
 <details class="hint-container details"><summary>Pengaturan Bahasa</summary>
@@ -1920,14 +1617,14 @@ Setelah unduhan selesai, Snap Hutao akan menutup antarmuka pengaturan awal dan s
       <link>https://hut.ao/id/features/weapon-wiki.html</link>
       <guid>https://hut.ao/id/features/weapon-wiki.html</guid>
       <source url="https://hut.ao/id/rss.xml">Senjata WIKI</source>
-      <description>senjata-wiki Senjata WIKI adalah fitur WIKI bawaan Snap Hutao yang digunakan untuk mencari informasi tentang setiap senjata. Data yang Termasuk Daftar senjata; Gunakan ikon di a...</description>
+      <description>Senjata WIKI senjata-wiki Senjata WIKI adalah fitur WIKI bawaan Snap Hutao yang digunakan untuk mencari informasi tentang setiap senjata. Data yang Termasuk Daftar senjata Gunak...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Senjata WIKI</h1>
+      <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01dj5xBC1g6dyEKqaPQ_!!1797064093.png_.webp" alt="senjata-wiki" loading="lazy"></p>
 <p>Senjata WIKI adalah fitur WIKI bawaan Snap Hutao yang digunakan untuk mencari informasi tentang setiap senjata.</p>
-<h2> Data yang Termasuk</h2>
+<h2>Data yang Termasuk</h2>
 <ul>
 <li>Daftar senjata
 <ul>
@@ -1963,15 +1660,15 @@ Setelah unduhan selesai, Snap Hutao akan menutup antarmuka pengaturan awal dan s
       <link>https://hut.ao/id/features/wish-export.html</link>
       <guid>https://hut.ao/id/features/wish-export.html</guid>
       <source url="https://hut.ao/id/rss.xml">Riwayat Harapan</source>
-      <description>Gacha adalah salah satu gameplay inti dalam Genshin Impact. Baik itu untuk tujuan perayaan dan pamer, atau untuk perencanaan serius strategi gacha, sangat penting untuk melakuka...</description>
+      <description>Riwayat Harapan Gacha adalah salah satu gameplay inti dalam Genshin Impact. Baik itu untuk tujuan perayaan dan pamer, atau untuk perencanaan serius strategi gacha, sangat pentin...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Riwayat Harapan</h1>
+      <content:encoded><![CDATA[
 <p>Gacha adalah salah satu gameplay inti dalam Genshin Impact. Baik itu untuk tujuan perayaan dan pamer, atau untuk perencanaan serius strategi gacha, sangat penting untuk melakukan analisis statistik pada riwayat gacha historis.
 Namun, Genshin Impact hanya menyediakan pemain dengan enam bulan riwayat gacha, yang tidak ramah pengguna <s>(meskipun mereka masih melacak berapa banyak merpati Timmie yang telah Anda bunuh sepanjang tahun)</s>.</p>
 <p>Oleh karena itu, kita perlu menggunakan catatan gacha dari enam bulan ini untuk mengambil data dan mentransfer rekaman ke perangkat lokal kita. Ini adalah tujuan dari fitur ekspor riwayat harapan di Snap Hutao.</p>
-<p>Mengenai prinsip teknis dari mengekspor catatan gacha Genshin Impact, Anda dapat merujuk ke artikel kami tentang <a href="/id/advanced/Sistem-gacha-dan-prinsip-ekspor.html" target="blank">Sistem Gacha dan Prinsip Ekspor</a></p>
+<p>Mengenai prinsip teknis dari mengekspor catatan gacha Genshin Impact, Anda dapat merujuk ke artikel kami tentang <a href="/id/advanced/Sistem-gacha-dan-prinsip-ekspor.html" target="_blank">Sistem Gacha dan Prinsip Ekspor</a></p>
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp" alt="ekspor harapan" loading="lazy"></p>
 <p><strong>Seperti yang ditunjukkan pada gambar di atas, melalui fitur riwayat harapan di Snap Hutao, Anda dapat dengan jelas mendapatkan informasi berikut:
 jumlah total harapan, jumlah pity saat ini, kuantitas dan persentase item yang diperoleh dengan rarity yang berbeda, jumlah kali item rarity 5 bintang tidak diperoleh, dan status pity saat ini.</strong></p>
@@ -1980,12 +1677,12 @@ jumlah total harapan, jumlah pity saat ini, kuantitas dan persentase item yang d
 <p class="hint-container-title">Keterlambatan dalam Ekspor Data Gacha</p>
 <p>Snap Hutao mengambil catatan gacha dari server MiHoYo, yang berarti bahwa harapan yang baru saja dibuat mungkin tidak segera tersedia. Ketika Anda melihat batch terbaru dari catatan gacha dalam riwayat game sendiri, maka Anda dapat memperoleh statistik yang sesuai dari Snap Hutao.</p>
 </div>
-<h2> Ambil Riwayat Harapan</h2>
-<h3> Refresh dengan SToken Cookie </h3>
+<h2>Ambil Riwayat Harapan</h2>
+<h3>Refresh dengan SToken Cookie </h3>
 <div class="hint-container info">
 <p class="hint-container-title">Petunjuk</p>
 <ul>
-<li>Metode ini memerlukan pengguna untuk masuk ke akun MiHoYo BBS di Snap Hutao, lihat <a href="/id/features/mhy-account-switch.html" target="blank">MiHoYo BBS Account Switch</a> untuk mengetahui cara masuk ke akun MiHoYo BBS Anda</li>
+<li>Metode ini memerlukan pengguna untuk masuk ke akun MiHoYo BBS di Snap Hutao, lihat <a href="/id/features/mhy-account-switch.html" target="_blank">MiHoYo BBS Account Switch</a> untuk mengetahui cara masuk ke akun MiHoYo BBS Anda</li>
 <li><strong>Metode pembaruan SToken Cookie tidak mendukung server global (HoYoLAB)</strong></li>
 </ul>
 </div>
@@ -1995,7 +1692,7 @@ jumlah total harapan, jumlah pity saat ini, kuantitas dan persentase item yang d
 <li>Klik tombol <code>Refresh</code> dan pilih <code>SToken Refresh</code></li>
 <li>Tunggu hingga tugas pembaruan selesai</li>
 </ul>
-<h3> Refresh dengan Web Cache </h3>
+<h3>Refresh dengan Web Cache </h3>
 <ul>
 <li>Beralih ke halaman fitur <code>Riwayat Harapan</code> di Snap Hutao</li>
 <li>Mulai permainan, pergi ke halaman riwayat harapan dalam permainan</li>
@@ -2010,19 +1707,19 @@ jumlah total harapan, jumlah pity saat ini, kuantitas dan persentase item yang d
 <li>Jalankan operasi <code>Hapus cache web browser yang tertanam di permainan</code></li>
 </ul>
 </div>
-<h3> Refresh dengan Input URL Manual </h3>
+<h3>Refresh dengan Input URL Manual </h3>
 <ul>
 <li>Jika Anda memiliki URL riwayat harapan pribadi, Anda dapat memilih <code>Input Manual</code> dan submit URL riwayat harapan Anda</li>
 <li>Harap diketahui bahwa URL ini bersifat waktu-sensitif</li>
 </ul>
-<h3> Penjelasan pada Opsi Full Refresh</h3>
+<h3>Penjelasan pada Opsi Full Refresh</h3>
 <p>Secara default, Snap Hutao akan berhenti mengimpor catatan gacha begitu cocok dengan ID Harapan yang sudah ada secara lokal.
 Namun, jika Anda ingin mendapatkan semua catatan historis dari server Genshin Impact
 (bahkan jika sudah ada dalam riwayat harapan lokal Anda), Anda dapat memeriksa opsi "Full Refresh".</p>
 <p>Tidak memilih <code>Full Refresh</code> <strong>tidak</strong> akan membuat Anda kehilangan data harapan Anda,
 dan memilih <code>Full Refresh</code> <strong>tidak</strong> akan membuat catatan lokal Anda secara keliru menc</p>
 <p>atat data harapan yang sama dua kali.</p>
-<h3> Impor Data Riwayat Harapan dari Aplikasi Lain </h3>
+<h3>Impor Data Riwayat Harapan dari Aplikasi Lain </h3>
 <p>Snap Hutao mendukung impor file data riwayat harapan dalam format data <code>UIGF</code><sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></p><a class="footnote-anchor" id="footnote-ref1">
 <p>Jika Anda perlu mengimpor jenis data seperti itu, Anda bisa:</p>
 <ul>
@@ -2031,7 +1728,7 @@ dan memilih <code>Full Refresh</code> <strong>tidak</strong> akan membuat catata
 <li>Pilih file data Json UIGF Anda</li>
 <li>Periksa informasi file yang diimpor dan konfirmasikan untuk diimpor</li>
 </ul>
-</a><h2><a class="footnote-anchor" id="footnote-ref1"></a> Ekspor Data Riwayat Harapan </h2>
+</a><h2><a class="footnote-anchor" id="footnote-ref1"></a><a class="header-anchor" href="#ekspor-data-riwayat-harapan"><span>Ekspor Data Riwayat Harapan </span></a></h2>
 <p>Snap Hutao mendukung ekspor data riwayat harapan ke file Json yang ditulis dalam format data UIGF</p>
 <p>Jika Anda perlu mengekspor data riwayat harapan, Anda bisa:</p>
 <ul>
@@ -2043,13 +1740,13 @@ dan memilih <code>Full Refresh</code> <strong>tidak</strong> akan membuat catata
 </li>
 <li>Konfirmasikan dan ekspor data</li>
 </ul>
-<h2> Sinkronisasi Awan Riwayat Harapan </h2>
+<h2>Sinkronisasi Awan Riwayat Harapan </h2>
 <blockquote>
 <p>Sinkronisasi awan riwayat harapan dirancang di atas Akun Snap Hutao.
-Anda perlu <a href="/id/features/hutao-settings.html#snap-hutao-account" target="blank">mendaftar akun dalam pengaturan</a> untuk menggunakan fitur ini</p>
+Anda perlu <a href="/id/features/hutao-settings.html#snap-hutao-account" target="_blank">mendaftar akun dalam pengaturan</a> untuk menggunakan fitur ini</p>
 </blockquote>
 <p>Dengan fitur ini, Anda dapat mengunggah riwayat harapan Anda ke Hutao Cloud, untuk menghindari risiko kehilangan data, dan membuatnya lebih mudah untuk mentransfer data antar perangkat.</p>
-<h3> Hak Sinkronisasi Awan</h3>
+<h3>Hak Sinkronisasi Awan</h3>
 <p>Sinkronisasi awan adalah layanan yang menggunakan sumber daya server Snap Hutao, sehingga ini adalah fitur berbatas waktu.
 Saat ini, Anda memiliki beberapa cara untuk mengaktifkan Sinkronisasi Awan:</p>
 <ol>
@@ -2066,18 +1763,18 @@ Saat ini, Anda memiliki beberapa cara untuk mengaktifkan Sinkronisasi Awan:</p>
 </li>
 </ol>
 <p>Setelah hak istimewa Hutao Cloud Anda kedaluwarsa, Anda tidak akan bisa mengunggah, mengunduh, atau menghapus data Anda, tetapi data Anda tidak akan dihapus. Anda dapat terus mengoperasikannya setelah mendapatkan hak istimewa Anda kembali.</p>
-<h3> Unggah</h3>
+<h3>Unggah</h3>
 <ul>
 <li>Dalam halaman ekspor harapan, pilih arsip yang perlu Anda sinkronkan data</li>
 <li>Klik tombol <code>Snap Hutao Cloud</code> di kanan atas</li>
 <li>Klik <code>Unggah Arsip Harapan Saat Ini</code>, dan kemudian data Anda akan disimpan ke cloud</li>
 </ul>
-<h3> Unduh</h3>
+<h3>Unduh</h3>
 <ul>
 <li>Dalam halaman ekspor harapan, klik tombol <code>Snap Hutao Cloud</code> di kanan atas</li>
 <li>Klik tombol unduh di sisi kanan UID yang data perlu diunduh</li>
 </ul>
-<h3> Hapus</h3>
+<h3>Hapus</h3>
 <ul>
 <li>Dalam halaman ekspor harapan, klik tombol <code>Snap Hutao Cloud</code> di kanan atas</li>
 <li>Klik tombol hapus di sisi kanan UID yang data perlu dihapus</li>
@@ -2097,9 +1794,9 @@ Saat ini, Anda memiliki beberapa cara untuk mengaktifkan Sinkronisasi Awan:</p>
       <link>https://hut.ao/id/statements/</link>
       <guid>https://hut.ao/id/statements/</guid>
       <source url="https://hut.ao/id/rss.xml">Statements</source>
-      <description>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program.</description>
+      <description>Statements Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program. </description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Statements</h1>
+      <content:encoded><![CDATA[
 <p><strong>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.</strong></p>
 ]]></content:encoded>
     </item>
@@ -2108,15 +1805,15 @@ Saat ini, Anda memiliki beberapa cara untuk mengaktifkan Sinkronisasi Awan:</p>
       <link>https://hut.ao/id/statements/bug-report.html</link>
       <guid>https://hut.ao/id/statements/bug-report.html</guid>
       <source url="https://hut.ao/id/rss.xml">Laporkan Bug</source>
-      <description>Anda dapat melaporkan bug ketika menemukan isu yang dapat direproduksi dan tidak dapat diperbaiki sendiri Sebelum mengirimkan isu Anda, harap lakukan checklist berikut: [ ] Past...</description>
+      <description>Laporkan Bug Anda dapat melaporkan bug ketika menemukan isu yang dapat direproduksi dan tidak dapat diperbaiki sendiri Sebelum mengirimkan isu Anda, harap lakukan checklist beri...</description>
       <category>Pengumuman</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Laporkan Bug</h1>
+      <content:encoded><![CDATA[
 <p>Anda dapat melaporkan bug ketika menemukan isu yang dapat direproduksi dan tidak dapat diperbaiki sendiri</p>
 <p>Sebelum mengirimkan isu Anda, harap lakukan checklist berikut:</p>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Pastikan Anda menggunakan versi terbaru Snap Hutao</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Periksa dokumen <a href="/id/advanced/FAQ.html" target="blank">FAQ</a> dan <a href="/id/advanced/known-issue.html" target="blank">masalah yang diketahui</a></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Periksa dokumen <a href="/id/advanced/FAQ.html" target="_blank">FAQ</a> dan <a href="/id/advanced/known-issue.html" target="_blank">masalah yang diketahui</a></label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> Cari isu saat ini di proyek untuk melihat apakah ada isu yang sama atau mirip</label></li>
 </ul>
 <p>Jika Anda tidak mendapatkan solusi dari checklist di atas, Anda dapat memulai isu baru di GitHub</p>
@@ -2143,7 +1840,7 @@ dan sertakan dalam isu Anda</label></li>
 </ul>
 </li>
 </ul>
-<h2> Permintaan Pembaruan Dokumen</h2>
+<h2>Permintaan Pembaruan Dokumen</h2>
 <p>Jika Anda merasa dokumen Snap Hutao kekurangan informasi atau mengandung kesalahan, Anda dapat memulai isu di proyek Snap.Hutao.Docs</p>
 <ul>
 <li>Kirim isu Anda di GitHub：<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao.Docs</a></li>
@@ -2155,13 +1852,13 @@ dan sertakan dalam isu Anda</label></li>
       <link>https://hut.ao/id/statements/privacy-notice.html</link>
       <guid>https://hut.ao/id/statements/privacy-notice.html</guid>
       <source url="https://hut.ao/id/rss.xml">Pemberitahuan Data Pengguna dan Privasi</source>
-      <description>Informasi Pribadi Fitur dari proyek Snap Hutao menyatakan bahwa tidak ada pengumpulan data informasi pribadi. Penggunaan Data Reguler Snap Hutao menghormati privasi pengguna, da...</description>
+      <description>Pemberitahuan Data Pengguna dan Privasi Informasi Pribadi Fitur dari proyek Snap Hutao menyatakan bahwa tidak ada pengumpulan data informasi pribadi. Penggunaan Data Reguler Sna...</description>
       <category>Pengumuman</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Pemberitahuan Data Pengguna dan Privasi</h1>
-<h2> Informasi Pribadi</h2>
+      <content:encoded><![CDATA[
+<h2>Informasi Pribadi</h2>
 <p>Fitur dari proyek Snap Hutao menyatakan bahwa tidak ada pengumpulan data informasi pribadi.</p>
-<h2> Penggunaan Data Reguler</h2>
+<h2>Penggunaan Data Reguler</h2>
 <p>Snap Hutao menghormati privasi pengguna, dan saat ini kami menggunakan data sebagai berikut:</p>
 <ul>
 <li>
@@ -2216,7 +1913,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> Domain Terpercaya</h2>
+<h2>Domain Terpercaya</h2>
 <p>Proyek Snap Hutao memiliki domain-domain berikut, mereka dapat dipercaya dalam lingkup proyek ini, harap berhati-hati terhadap informasi yang diberikan oleh domain di luar daftar ini (termasuk situs web, surel, dll.)</p>
 <ul>
 <li>hut.ao</li>
@@ -2241,11 +1938,11 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
       <link>https://hut.ao/id/statements/tos.html</link>
       <guid>https://hut.ao/id/statements/tos.html</guid>
       <source url="https://hut.ao/id/rss.xml">Perjanjian Pengguna dan Pemberitahuan Hukum</source>
-      <description>Ketentuan Umum &amp;quot;Perjanjian Pengguna dan Pernyataan Hukum&amp;quot; (selanjutnya disebut sebagai &amp;quot;Ketentuan&amp;quot; atau &amp;quot;Perjanjian Pengguna&amp;quot;) ini berlaku untuk semua karya perangkat lunak yang...</description>
+      <description>Perjanjian Pengguna dan Pemberitahuan Hukum Ketentuan Umum &amp;quot;Perjanjian Pengguna dan Pernyataan Hukum&amp;quot; (selanjutnya disebut sebagai &amp;quot;Ketentuan&amp;quot; atau &amp;quot;Perjanjian Pengguna&amp;quot;) ini be...</description>
       <category>Pengumuman</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Perjanjian Pengguna dan Pemberitahuan Hukum</h1>
-<h2> Ketentuan Umum</h2>
+      <content:encoded><![CDATA[
+<h2>Ketentuan Umum</h2>
 <ul>
 <li>"Perjanjian Pengguna dan Pernyataan Hukum" (selanjutnya disebut sebagai "Ketentuan" atau "Perjanjian Pengguna") ini berlaku untuk semua karya perangkat lunak yang dikembangkan oleh tim pengembangan DGP-Studio (selanjutnya disebut sebagai "tim" atau "kami"), situs web resmi setiap proyek pengembangan, dan akun media self-hosted yang terafiliasi.
 <ul>
@@ -2256,7 +1953,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> Sifat Proyek, Layanan, dan Definisi Tanggung Jawab dan Kewajiban</h2>
+<h2>Sifat Proyek, Layanan, dan Definisi Tanggung Jawab dan Kewajiban</h2>
 <ol>
 <li>
 <p>Karena semua proyek yang dikembangkan oleh tim bersifat "open-source" dan "non-business", tim dapat membuat keputusan penuh kapan saja, termasuk namun tidak terbatas pada mengubah "Perjanjian Pengguna" dan memodifikasi konten apa pun dalam proyek yang dikembangkan oleh tim. Jika ada perubahan pada "Ketentuan" atau konten karya, kami akan memposting pemberitahuan di situs web proyek terkait. "Ketentuan" yang direvisi akan berlaku secara otomatis setelah diterbitkan di situs web resmi.</p>
@@ -2284,7 +1981,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ol>
-<h1> Hak dan Kewajiban</h1>
+<h1>Hak dan Kewajiban</h1>
 <ol start="6">
 <li>
 <p>Tim kami mengizinkan setiap individu atau organisasi melakukan pengembangan sekunder, modifikasi fungsional, dan penggunaan ulang kode kami untuk proyek lain tanpa otorisasi tim kami, untuk setiap proyek yang dikembangkan oleh tim. Namun, kami mempertahankan hak untuk mengejar tindakan hukum terhadap pelanggaran hak cipta perangkat lunak komputer tim kami.</p>
@@ -2312,7 +2009,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ol>
-<h2> Ketentuan Lainnya</h2>
+<h2>Ketentuan Lainnya</h2>
 <ol start="9">
 <li>
 <p>Penentuan "Non-Business Nature" dari Proyek yang Dikembangkan oleh Tim.</p>
@@ -2347,11 +2044,11 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
       <link>https://hut.ao/id/statements/update-log.html</link>
       <guid>https://hut.ao/id/statements/update-log.html</guid>
       <source url="https://hut.ao/id/rss.xml">Catatan Perubahan</source>
-      <description>1.9.6 New ➕; Added customized background image feature, users now can open background image folder and add images they like #357 (https://github.com/DGP-Studio/Snap.Hutao/issues...</description>
+      <description>Catatan Perubahan 1.9.6 New ➕ Added customized background image feature, users now can open background image folder and add images they like #357 Added responsive settings page,...</description>
       <category>Pengumuman</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Catatan Perubahan</h1>
-<h2> 1.9.6 </h2>
+      <content:encoded><![CDATA[
+<h2>1.9.6 </h2>
 <ul>
 <li>New ➕
 <ul>
@@ -2396,7 +2093,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.9.5</h2>
+<h2>1.9.5</h2>
 <ul>
 <li>New ➕
 <ul>
@@ -2420,7 +2117,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.9.4 </h2>
+<h2>1.9.4 </h2>
 <ul>
 <li>Fix 🔨
 <ul>
@@ -2428,7 +2125,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.9.3</h2>
+<h2>1.9.3</h2>
 <ul>
 <li>Fix 🔨
 <ul>
@@ -2436,7 +2133,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.9.2</h2>
+<h2>1.9.2</h2>
 <ul>
 <li>New ➕
 <ul>
@@ -2467,7 +2164,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.9.1 </h2>
+<h2>1.9.1 </h2>
 <ul>
 <li><strong>Fix 🔨</strong>
 <ul>
@@ -2482,12 +2179,12 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.9.0</h2>
+<h2>1.9.0</h2>
 <div class="hint-container important">
 <p class="hint-container-title">Perubahan Berpotensi Merusak</p>
 <p>Snap Hutao baru-baru ini mendapatkan sponsor dari SignPath Foundation untuk sertifikat tanda tangan kode. Mulai dari versi 1.9.0, kami akan menggunakan sertifikat baru untuk menandatangani paket instalasi Snap Hutao.</p>
 <p>Program dengan tanda tangan baru akan tidak kompatibel dengan versi lama. Pengguna yang memperbarui dari versi 1.8.4 ke versi 1.9.0 dan versi yang lebih baru perlu menghapus versi lama terlebih dahulu dan kemudian melakukan instalasi ulang dari versi baru dari klien. Karena desain direktori data Snap Hutao, pengguna tidak akan kehilangan data penting apa pun.</p>
-<p>Anda dapat membaca artikel <a href="/id/blog/version-1-9-0-breaking-changes.html" target="blank">Penjelasan Perubahan Berpotensi Merusak di Versi 1.9.0</a> untuk pemahaman yang lebih mendalam tentang bagaimana perubahan tanda tangan dalam pembaruan versi ini memengaruhi proyek Snap Hutao.</p>
+<p>Anda dapat membaca artikel <a href="/id/blog/version-1-9-0-breaking-changes.html" target="_blank">Penjelasan Perubahan Berpotensi Merusak di Versi 1.9.0</a> untuk pemahaman yang lebih mendalam tentang bagaimana perubahan tanda tangan dalam pembaruan versi ini memengaruhi proyek Snap Hutao.</p>
 </div>
 <ul>
 <li>
@@ -2527,11 +2224,11 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.8.5 </h2>
+<h2>1.8.5 </h2>
 <ul>
 <li>Menguji perubahan yang disebabkan oleh perubahan sertifikat.</li>
 </ul>
-<h2> 1.8.4 </h2>
+<h2>1.8.4 </h2>
 <ul>
 <li>Perbaikan
 <ul>
@@ -2550,7 +2247,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.8.3 </h2>
+<h2>1.8.3 </h2>
 <ul>
 <li>Perbaikan
 <ul>
@@ -2564,7 +2261,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.8.1</h2>
+<h2>1.8.1</h2>
 <ul>
 <li>Tambah
 <ul>
@@ -2589,7 +2286,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.8.0</h2>
+<h2>1.8.0</h2>
 <ul>
 <li><strong>Meningkatkan versi .NET menjadi 8</strong> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1103" target="_blank" rel="noopener noreferrer">#1103</a></li>
 <li>Perbaikan
@@ -2609,7 +2306,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.17</h2>
+<h2>1.7.17</h2>
 <ul>
 <li>Perbaikan
 <ul>
@@ -2634,7 +2331,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.16</h2>
+<h2>1.7.16</h2>
 <ul>
 <li>Tambah
 <ul>
@@ -2658,7 +2355,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.15</h2>
+<h2>1.7.15</h2>
 <ul>
 <li>Tambah
 <ul>
@@ -2678,11 +2375,11 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.14 </h2>
+<h2>1.7.14 </h2>
 <ul>
 <li>Memperbaiki masalah yang menyebabkan program crash saat membuka dialog tertentu yang spesifik <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1052" target="_blank" rel="noopener noreferrer">#1052</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1054" target="_blank" rel="noopener noreferrer">#1054</a></li>
 </ul>
-<h2> 1.7.13</h2>
+<h2>1.7.13</h2>
 <ul>
 <li>Tambah
 <ul>
@@ -2710,11 +2407,11 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.11 </h2>
+<h2>1.7.11 </h2>
 <ul>
 <li>Memperbaiki kesalahan argumen peluncuran game (hotfix)</li>
 </ul>
-<h2> 1.7.10</h2>
+<h2>1.7.10</h2>
 <ul>
 <li>Perbaikan
 <ul>
@@ -2734,7 +2431,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.7</h2>
+<h2>1.7.7</h2>
 <ul>
 <li>Ditambahkan bayangan kartu pada elemen-elemen berikut untuk mengoptimalkan efek visual:
 <ul>
@@ -2770,7 +2467,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.6</h2>
+<h2>1.7.6</h2>
 <ul>
 <li>Tambah
 <ul>
@@ -2797,7 +2494,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.5 </h2>
+<h2>1.7.5 </h2>
 <ul>
 <li>Tambah
 <ul>
@@ -2824,7 +2521,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.4 </h2>
+<h2>1.7.4 </h2>
 <ul>
 <li>Tambah
 <ul>
@@ -2854,7 +2551,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.7.3</h2>
+<h2>1.7.3</h2>
 <ul>
 <li>Memperbaiki masalah login web HoYoverse yang tidak berfungsi</li>
 <li>Meningkatkan versi Windows App SDK untuk memperbaiki masalah di mana bagian atas bilah judul tidak dapat menyesuaikan ukuran jendela</li>
@@ -2862,7 +2559,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 <li>Memperbaiki masalah di mana panel pengguna akan menampilkan klaim berhasil hadiah login bahkan jika gagal</li>
 <li>Memperbaiki masalah di mana meluncurkan game dari taskbar akan membuka jendela game dan jendela program utama secara bersamaan</li>
 </ul>
-<h2> 1.7.2</h2>
+<h2>1.7.2</h2>
 <ul>
 <li>Ekspor Wish
 <ul>
@@ -2879,7 +2576,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </li>
 <li>Menyesuaikan antarmuka pengguna notifikasi di halaman beranda untuk sejajar dengan tepi kanan</li>
 </ul>
-<h2> 1.7.0</h2>
+<h2>1.7.0</h2>
 <ul>
 <li>Menambahkan panduan awal untuk membantu pengguna mengenal Snap Hutao saat peluncuran awal
 <ul>
@@ -2990,7 +2687,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 <li>Menyesuaikan petunjuk teks untuk kode pengembalian <code>-100</code> dan <code>-10001</code> untuk membantu pengguna memahami maknanya dengan lebih baik</li>
 <li>Perubahan minor lainnya</li>
 </ul>
-<h2> 1.6.6</h2>
+<h2>1.6.6</h2>
 <ul>
 <li>Baru
 <ul>
@@ -3005,7 +2702,7 @@ saat program berhenti secara tak terduga atau melemparkan sebuah error, termasuk
 </ul>
 </li>
 </ul>
-<h2> 1.6.5</h2>
+<h2>1.6.5</h2>
 <ul>
 <li>Baru
 <ul>
@@ -3028,7 +2725,7 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 </ul>
 </li>
 </ul>
-<h2> 1.6.4</h2>
+<h2>1.6.4</h2>
 <ul>
 <li>Baru
 <ul>
@@ -3048,7 +2745,7 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 </ul>
 </li>
 </ul>
-<h2> 1.6.3</h2>
+<h2>1.6.3</h2>
 <ul>
 <li>Baru
 <ul>
@@ -3078,7 +2775,7 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 </ul>
 </li>
 </ul>
-<h2> 1.6.2 </h2>
+<h2>1.6.2 </h2>
 <ul>
 <li>Fitur Baru
 <ul>
@@ -3102,7 +2799,7 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 </ul>
 </li>
 </ul>
-<h2> 1.6.0</h2>
+<h2>1.6.0</h2>
 <ul>
 <li>Tambah
 <ul>
@@ -3128,7 +2825,7 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 </ul>
 </li>
 </ul>
-<h2> 1.5.4</h2>
+<h2>1.5.4</h2>
 <ul>
 <li>Tambah
 <ul>
@@ -3155,7 +2852,7 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 </ul>
 </li>
 </ul>
-<h2> 1.5.1</h2>
+<h2>1.5.1</h2>
 <ul>
 <li>Optimalisasi
 <ul>
@@ -3173,7 +2870,7 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 </ul>
 </li>
 </ul>
-<h2> 1.4.15</h2>
+<h2>1.4.15</h2>
 <ul>
 <li>Baru
 <ul>
@@ -3189,13 +2886,13 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 </ul>
 </li>
 </ul>
-<h2> 1.4.14</h2>
+<h2>1.4.14</h2>
 <ul>
 <li>Memperbaiki masalah bahwa pengguna baru tidak dapat menambahkan rencana dev</li>
 <li>Mendukung UI bahasa Inggris</li>
 <li>Perbaikan bug minor lainnya</li>
 </ul>
-<h2> 1.4.11</h2>
+<h2>1.4.11</h2>
 <ul>
 <li>Versi pertama di Microsoft Store</li>
 </ul>
