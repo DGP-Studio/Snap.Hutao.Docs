@@ -1,13 +1,18 @@
+import { getDirname, path } from "vuepress/utils";
 import { viteBundler } from "@vuepress/bundler-vite";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
 
+const __dirname = getDirname(import.meta.url);
+
 export default defineUserConfig({
   base: "/",
 
   dest: "./dist",
+
+  clientConfigFile: path.resolve(__dirname, "./client.ts"),
 
   head: [
     [
@@ -73,5 +78,5 @@ export default defineUserConfig({
   }),
   theme,
 
-  shouldPrefetch: false,
+  shouldPrefetch: false
 });

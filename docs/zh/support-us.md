@@ -14,35 +14,7 @@ Snap Hutao，作为一个使用 MIT 许可证的开源项目，致力于打造�
 
 我们通过以下方式接受赞助
 
-<div class="sponsor-diy-card">
-
-::: tabs
-
-@tab 微信支付#WehChatPay
-
-<VPBanner
-title="微信支付"
-content="右边塞二维码或微信图标"
-logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
-:actions='[
-{
-text: "查看大图",
-link:"https://mister-hope.com",
-},
-]'
-/>
-
-@tab 爱发电#Aifadian
-
-支付宝表
-
-@tab:active GitHub Sponsor#GitHub
-
-GitHub 赞助
-
-:::
-
-</div>
+<Sponsor />
 
 ## 赞助商
 
