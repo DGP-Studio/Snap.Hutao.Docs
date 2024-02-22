@@ -10,4 +10,4 @@ dir:
 
 # Fitur
 
-<AutoCatalog />
+<Catalog />

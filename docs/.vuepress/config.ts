@@ -1,8 +1,6 @@
+import { viteBundler } from "@vuepress/bundler-vite";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { defineUserConfig } from "vuepress";
-// https://ecosystem.vuejs.press/zh/plugins/redirect.html
-import { redirectPlugin } from "vuepress-plugin-redirect";
-import { addCustomElement, addViteConfig } from "vuepress-shared/node";
 
 import theme from "./theme.js";
 
@@ -57,38 +55,23 @@ export default defineUserConfig({
     googleAnalyticsPlugin({
       id: "G-F3LFJCE3RM",
     }),
-    redirectPlugin({
-      defaultLocale: "/en/",
-      autoLocale: true,
-      switchLocale: "modal",
-      localeConfig: {
-        "/en/": ["en-US", "en-UK", "en"],
-        "/zh/": ["zh-CN", "zh-TW", "zh"],
-        "/ru/": [
-          "ru-RU",
-          "ru-KZ",
-          "ru-BY",
-          "ru-UA",
-          "ru-MD",
-          "ru-LV",
-          "tt-RU",
-          "ru",
-        ],
-        "/id/": ["id-ID", "id"],
-      },
-    }),
   ],
 
-  theme,
-
-  shouldPrefetch: false,
-
-  extendsBundlerOptions: (config, app) => {
-    addViteConfig(config, app, {
+  bundler: viteBundler({
+    viteOptions: {
       build: {
         chunkSizeWarningLimit: 1500,
       },
-    });
-    addCustomElement(config, app, "ms-store-badge");
-  },
+    },
+    vuePluginOptions: {
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => tag === "ms-store-badge",
+        },
+      },
+    },
+  }),
+  theme,
+
+  shouldPrefetch: false,
 });

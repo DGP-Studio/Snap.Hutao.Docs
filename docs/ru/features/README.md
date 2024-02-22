@@ -10,4 +10,4 @@ dir:
 
 # Features
 
-<AutoCatalog />
+<Catalog />

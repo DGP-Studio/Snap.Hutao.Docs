@@ -115,5 +115,4 @@ link: https://yuanshen.xin/
 [^first]: Ketika karakter yang sama muncul di lantai yang sama tetapi berbeda level, waktu penampilan hanya dihitung sekali.
 [^first-2]: Ketika karakter yang sama muncul di lantai yang sama tetapi berbeda level, waktu penampilan hanya dihitung sekali.
 [^second]: Data konstelasi karakter adalah set data terpisah dari database catatan Spiral Abyss
-[^third]:
-    Setelah memiliki karakter ini, karakter akan dihitung ke dalam database bahkan jika tidak muncul di Spiral Abyss; Setelah mengunggah statistik Abyss Anda, semua karakter yang dikumpulkan akan disertakan
+[^third]: Setelah memiliki karakter ini, karakter akan dihitung ke dalam database bahkan jika tidak muncul di Spiral Abyss; Setelah mengunggah statistik Abyss Anda, semua karakter yang dikumpulkan akan disertakan

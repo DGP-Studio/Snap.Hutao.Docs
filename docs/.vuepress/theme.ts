@@ -311,12 +311,14 @@ export default hopeTheme({
     },
 
     pwa: {
+      appendBase: true,
+
       favicon: "/favicon.ico",
       cacheHTML: false,
-      cachePic: true,
-      appendBase: true,
+      cacheImage: true,
       themeColor: "#f26d6d",
       update: "hint",
+
       apple: {
         icon: "/favicon.ico",
         statusBarColor: "black",
@@ -325,6 +327,7 @@ export default hopeTheme({
         image: "/favicon.ico",
         color: "#ffffff",
       },
+
       manifest: {
         icons: [
           {
@@ -358,6 +361,27 @@ export default hopeTheme({
             type: "image/png",
           },
         ],
+      },
+    },
+
+    redirect: {
+      defaultLocale: "/en/",
+      autoLocale: true,
+      switchLocale: "modal",
+      localeConfig: {
+        "/en/": ["en-US", "en-UK", "en"],
+        "/zh/": ["zh-CN", "zh-TW", "zh"],
+        "/ru/": [
+          "ru-RU",
+          "ru-KZ",
+          "ru-BY",
+          "ru-UA",
+          "ru-MD",
+          "ru-LV",
+          "tt-RU",
+          "ru",
+        ],
+        "/id/": ["id-ID", "id"],
       },
     },
   },

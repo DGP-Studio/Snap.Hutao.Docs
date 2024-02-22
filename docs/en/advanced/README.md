@@ -9,4 +9,4 @@ dir:
 
 # Advanced
 
-<AutoCatalog />
+<Catalog />

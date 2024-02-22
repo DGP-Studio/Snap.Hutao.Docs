@@ -35,6 +35,6 @@ export const idSidebar = sidebar({
       text: "Dev Logs",
       prefix: "blog/",
       children: "structure",
-    }
+    },
   ],
 });

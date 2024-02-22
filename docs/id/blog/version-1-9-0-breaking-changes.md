@@ -30,9 +30,9 @@ Snap Hutao versi 1.9.0 dijadwalkan akan rilis pada akhir pekan sebelum Natal 202
 
 Langsung menginstal paket ini akan menyebabkan masalah tergantung pada versi sistem Anda karena konflik nama paket dan tanda tangan.
 
-| Versi Sistem |                                                          Masalah yang Diharapkan                                                          |
-| :----------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
-|  Windows 10  |                               Tidak dapat diinstal; konflik tanda tangan dan nama paket                               |
+| Versi Sistem |                                                       Masalah yang Diharapkan                                                        |
+| :----------: | :----------------------------------------------------------------------------------------------------------------------------------: |
+|  Windows 10  |                                      Tidak dapat diinstal; konflik tanda tangan dan nama paket                                       |
 |  Windows 11  | Instalasi berhasil;<br/>Koeksistensi dengan versi Snap Hutao lama dengan nama yang sama menyebabkan kesalahan waktu jalannya program |
 
 Karena masalah di atas, Anda perlu menghapus versi Snap Hutao lama terlebih dahulu dan kemudian menginstal paket versi 1.9.0.

@@ -2,11 +2,15 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
   "/en/",
-  { text: "Document", icon: "iconfont icon-article", link: "/en/menu.html" },
+  {
+    text: "Document",
+    icon: "iconfont icon-article",
+    link: "/en/menu",
+  },
   {
     text: "Download",
     icon: "iconfont icon-install",
-    link: "/en/quick-start.html",
+    link: "/en/quick-start",
   },
   {
     text: "Community",
@@ -16,11 +20,12 @@ export const enNavbar = navbar([
   {
     text: "Help & Support",
     icon: "iconfont icon-define",
+    prefix: "/en/",
     children: [
       {
         text: "Update Log",
         icon: "iconfont icon-update",
-        link: "/en/statements/update-log.html"
+        link: "statements/update-log",
       },
       {
         text: "Service Availability",
@@ -34,25 +39,24 @@ export const enNavbar = navbar([
             text: "Uptime Kuma",
             icon: "/images/202312/uptime-kuma.svg",
             link: "https://status.snapgenshin.cn/status",
-          }
-        ]
+          },
+        ],
       },
       {
         text: "Question & Feedback",
-        children:[
+        children: [
           {
             text: "FAQ",
             icon: "iconfont icon-ask",
-            link: "/en/advanced/FAQ.html"
+            link: "advanced/FAQ",
           },
           {
             text: "Report Bug",
             icon: "iconfont icon-debug",
-            link: "/en/statements/bug-report.html"
+            link: "statements/bug-report",
           },
-
-        ]
-      }
-    ]
+        ],
+      },
+    ],
   },
 ]);
