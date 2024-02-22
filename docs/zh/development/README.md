@@ -10,4 +10,4 @@ dir:
 
 # 开源开发
 
-<AutoCatalog />
+<Catalog />

@@ -8,4 +8,4 @@ icon: iconfont icon-workingDirectory
 
 # 全站目录
 
-<AutoCatalog base="/zh/" :level="4" />
+<Catalog base="/zh/" :level="4" />

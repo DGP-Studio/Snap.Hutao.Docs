@@ -7,7 +7,7 @@ order: 8
 comment: false
 ---
 
-#  Sistem Gacha dan Prinsip Expor
+# Sistem Gacha dan Prinsip Expor
 
 Sistem Gacha di Hutao mengalami redesain total dalam hal arsitektur dibandingkan dengan Snap Genshin.
 

@@ -9,4 +9,4 @@ dir:
 
 # Lanjutan
 
-<AutoCatalog />
+<Catalog />

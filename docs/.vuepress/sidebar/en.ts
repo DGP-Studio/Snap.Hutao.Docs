@@ -15,33 +15,25 @@ export const enSidebar = sidebar({
           icon: "iconfont icon-module",
           text: "Game Tools",
           children: [
-            "dashboard.md",
-            "game-launcher.md",
-            "wish-export.md",
-            "achievements.md",
-            "real-time-notes.md",
-            "character-data.md",
-            "hutao-API.md",
-            "develop-plan.md"
-          ]
+            "dashboard",
+            "game-launcher",
+            "wish-export",
+            "achievements",
+            "real-time-notes",
+            "character-data",
+            "hutao-API",
+            "develop-plan",
+          ],
         },
         {
           icon: "iconfont icon-study",
           text: "Game WIKI",
-          children: [
-            "character-wiki.md",
-            "weapon-wiki.md",
-            "monster-wiki.md"
-          ]
+          children: ["character-wiki", "weapon-wiki", "monster-wiki"],
         },
         {
           icon: "iconfont icon-setting",
           text: "Snap Hutao Features",
-          children: [
-            "feedback-center.md",
-            "hutao-passport.md",
-            "hutao-settings.md"
-          ]
+          children: ["feedback-center", "hutao-passport", "hutao-settings"],
         },
       ],
     },
@@ -68,6 +60,6 @@ export const enSidebar = sidebar({
       text: "Dev Logs",
       prefix: "blog/",
       children: "structure",
-    }
+    },
   ],
 });

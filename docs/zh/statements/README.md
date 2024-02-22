@@ -12,4 +12,4 @@ dir:
 
 **Snap Hutao 项目不支持、不参与、不合作任何与原神相关的私服和外挂项目**
 
-<AutoCatalog />
+<Catalog />
