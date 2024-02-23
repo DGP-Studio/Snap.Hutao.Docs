@@ -43,23 +43,26 @@ interface SponsorItem {
 const tempIcon = "https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp";
 
 const sponsor = [{
-  icon: tempIcon,
-  name: '微信',
-  type: SponsorType.wechat,
-  qrcode: tempIcon,
-  label: "微信支付链接",
-}, {
-  icon: tempIcon,
-  name: '支付宝',
-  type: SponsorType.alipay,
-  qrcode: tempIcon,
-  label: "支付宝支付链接",
-}, {
-  icon: tempIcon,
+  icon: "/images/202312/github-mark.svg",
   name: 'Github',
   type: SponsorType.github,
-  qrcode: tempIcon,
-  label: "Github Sponsors",
+  qrcode: "/images/202402/github-sponsor.png",
+  label: "使用下方链接以通过 Github Sponsors 捐赠",
+  url: "https://github.com/sponsors/DGP-Studio"
+},{
+  icon: "/svg/afd-official.svg",
+  name: '爱发电',
+  type: SponsorType.wechat,
+  qrcode: "/images/202402/aifadian-qr.png",
+  label: "使用下方链接以通过爱发电捐赠",
+  url: "https://afdian.net/a/DismissedLight"
+}, {
+  icon: "/svg/paypal.svg",
+  name: 'PayPal',
+  type: SponsorType.alipay,
+  qrcode: "/images/202402/paypal-qr.png",
+  label: "使用下方链接以通过 PayPal 捐赠",
+  url: "https://paypal.me/tianyu98"
 }];
 
 const type = ref<SponsorType>();
