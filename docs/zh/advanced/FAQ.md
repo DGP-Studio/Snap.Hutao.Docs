@@ -35,7 +35,7 @@ comment: false
 
 你的计算机缺少了 Windows 系统重要组件 App Installer，你可能是盗版软件的受害者。
 
-如果你的系统中装有 Microsoft Store，可以从[App Installer 商店页](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US)重新安装来恢复该组件。
+如果你的系统中装有 Microsoft Store，可以从 [App Installer 商店页](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US) 重新安装来恢复该组件。
 
 如果你没有Windows Store，请使用微软官方的最新完整版消费者 [Windows 10](https://www.microsoft.com/zh-cn/software-download/windows10) 或 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11) 镜像。使用微软官方的提供的 Windows 10 升级助手和 Windows 11 安装助手可以帮助你简单地在保留数据的情况下升级至最新完整版 Windows。**请勿使用来源不明的破解版、精简版系统镜像。**
 
@@ -43,7 +43,7 @@ comment: false
 
 该问题常见于 Windows 家庭版系统。如果你使用的不是家庭版系统，则你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。
 
-Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载[该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt)并添加到你的系统中的 `可信任的根证书授权机构` 类别中。
+Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载 [该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt) 并添加到你的系统中的 `可信任的根证书授权机构` 类别中。
 
 ### MSIX 安装包提示组策略错误或需要 Windows 开发者许可证错误并无法安装
 

@@ -16,7 +16,7 @@ comment: false
 
 ## 成就导入 <Badge text="UIAF" type="info" />
 
-- 胡桃工具箱使用 [UIAF 统一可交换成就标准](https://uigf.org/zh/standards/UIAF.html) 来储存用户的成就数据
+- 胡桃工具箱使用 [UIAF 统一可交换成就标准](https://uigf.org/zh/standards/UIAF.html) 格式的文件来储存用户的成就数据
   - 该标准允许用户从其它**成就导出工具**中通过 Url 协议和（或）剪贴板将数据导入到胡桃工具箱中
 - 你可以点击成就页面右上角的 “导入” 按钮，并选择 “从 UIAF 文件导入” 以加载以 UIAF 数据格式储存的第三方成就数据
 

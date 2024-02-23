@@ -20,26 +20,16 @@ Snap Hutao 项目使用 MSIX 格式的安装包打包。MSIX 是一种 Windows �
 
 ## 胡桃能解决的原神桌面端缺陷
 
-|         功能         | 移动端                    | 桌面端                   | 胡桃的方案                                                 |
-| :------------------: | ------------------------- | ------------------------ | ---------------------------------------------------------- |
-<<<<<<< HEAD
-|    **游戏高帧率**    | IOS/iPadOS 官方支持120FPS | 最高仅 60FPS             | [高级启动器 - 帧率解锁](features/game-launcher.md#解锁帧率上限)         |
-|   **游戏账号切换**   | 已登录的账号会被记录      | 注销后账号不会被记录     | [高级启动器 - 账号切换](features/game-launcher.md#账号保存)         |
-=======
-|    **游戏高帧率**    | IOS/iPadOS 官方支持120FPS | 最高仅 60FPS             | [高级启动器 - 帧率解锁](features/game-launcher.md)         |
-|   **游戏账号切换**   | 已登录的账号会被记录      | 注销后账号不会被记录     | [高级启动器 - 账号切换](features/game-launcher.md)         |
->>>>>>> 6ac47502bb83ecf92b53b4e92c3a96d92ecf781c
-|     **每日签到**     | 米游社客户端              | 仅国际服用户可在网页签到 | [账号面板 - 签到](features/mhy-account-switch.md)          |
-|     **实时便笺**     | 米游社客户端              | 无                       | [实时便笺](features/real-time-notes.md)                    |
-| **派遣完成通知推送** | 通过移动端游戏推送通知    | 无                       | [实时便笺推送消息](features/real-time-notes.md)            |
-|   **深渊数据查询**   | 米游社客户端              | 仅国际服用户可在网页查询 | [深境螺旋](features/hutao-API.md)                          |
-<<<<<<< HEAD
-|     **养成计划**     | 米游社客户端              | 仅国际服用户可在网页使用 | [养成计划](features/develop-plan.md#养成计划)                       |
+|         功能         | 移动端                    | 桌面端                   | 胡桃的方案                                                            |
+| :------------------: | ------------------------- | ------------------------ | --------------------------------------------------------------------- |
+|    **游戏高帧率**    | IOS/iPadOS 官方支持120FPS | 最高仅 60FPS             | [高级启动器 - 帧率解锁](features/game-launcher.md#解锁帧率上限)       |
+|   **游戏账号切换**   | 已登录的账号会被记录      | 注销后账号不会被记录     | [高级启动器 - 账号切换](features/game-launcher.md#账号保存)           |
+|     **每日签到**     | 米游社客户端              | 仅国际服用户可在网页签到 | [账号面板 - 签到](features/mhy-account-switch.md)                     |
+|     **实时便笺**     | 米游社客户端              | 无                       | [实时便笺](features/real-time-notes.md)                               |
+| **派遣完成通知推送** | 通过移动端游戏推送通知    | 无                       | [实时便笺推送消息](features/real-time-notes.md)                       |
+|   **深渊数据查询**   | 米游社客户端              | 仅国际服用户可在网页查询 | [深境螺旋](features/hutao-API.md)                                     |
+|     **养成计划**     | 米游社客户端              | 仅国际服用户可在网页使用 | [养成计划](features/develop-plan.md#养成计划)                         |
 |   **Discord 状态**   | 无                        | 国际服客户端可用         | [高级启动器 - Discord Activity](features/game-launcher.md#高级启动器) |
-=======
-|     **养成计划**     | 米游社客户端              | 仅国际服用户可在网页使用 | [养成计划](features/develop-plan.md)                       |
-|   **Discord 状态**   | 无                        | 国际服客户端可用         | [高级启动器 - Discord Activity](features/game-launcher.md) |
->>>>>>> 6ac47502bb83ecf92b53b4e92c3a96d92ecf781c
 
 ## 项目资源
 
