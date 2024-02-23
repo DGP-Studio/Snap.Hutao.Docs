@@ -13,6 +13,11 @@ export const enNavbar = navbar([
     link: "/en/quick-start",
   },
   {
+    text: "Support us",
+    icon: "iconfont icon-like",
+    link: "/en/support-us.html",
+  },
+  {
     text: "Community",
     icon: "iconfont icon-community",
     link: "/en/community",

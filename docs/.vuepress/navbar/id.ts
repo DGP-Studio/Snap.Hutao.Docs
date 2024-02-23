@@ -13,6 +13,11 @@ export const idNavbar = navbar([
     link: "https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52",
   },
   {
+    text: "Support us",
+    icon: "iconfont icon-like",
+    link: "/id/support-us.html",
+  },
+  {
     text: "Komunitas",
     icon: "iconfont icon-community",
     link: "/id/community",

@@ -13,6 +13,11 @@ export const ruNavbar = navbar([
     link: "https://api.snapgenshin.com/patch/hutao/download",
   },
   {
+    text: "Support us",
+    icon: "iconfont icon-like",
+    link: "/ru/support-us.html",
+  },
+  {
     text: "Сообщество",
     icon: "iconfont icon-community",
     link: "/ru/community",
