@@ -14,7 +14,7 @@ Snap Hutao, as an open-source project licensed under the MIT License, is dedicat
 
 We accept sponsorship with following methods:
 
-<Sponsor />
+<Sponsor lang="en" />
 
 ## Sponsorship
 

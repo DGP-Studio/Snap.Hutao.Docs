@@ -11,7 +11,7 @@
     <div class="sponsor-detail" v-if="type && currentSponsor">
       <div class="sponsor-detail-left">
         <img :src="currentSponsor.icon" :alt="currentSponsor.name"/>
-        <p>{{ currentSponsor.label }}</p>
+        <p>{{ currentSponsor.label[props.lang ?? 'zh'] }}</p>
         <a v-if="currentSponsor.url" :href="currentSponsor.url" target="_blank"
            rel="noopener noreferrer">{{ currentSponsor.url }}</a>
       </div>
@@ -24,10 +24,16 @@
 <script lang="ts" setup>
 import {onBeforeUnmount, onMounted, ref} from 'vue';
 
+interface SponsorProps {
+  lang: 'zh' | 'en';
+}
+
+const props = defineProps<SponsorProps>();
+
 enum SponsorType {
-  wechat = 'wechat',
-  alipay = 'alipay',
-  github = 'github',
+  afdian = 'afdian',
+  paypal = 'paypal',
+  github = 'github'
 }
 
 interface SponsorItem {
@@ -35,33 +41,42 @@ interface SponsorItem {
   name: string;
   type: SponsorType;
   qrcode: string;
-  label: string;
+  label: {
+    zh: string;
+    en: string;
+  };
   url?: string;
 }
 
-// todo: remove tempIcon and replace with real icon
-const tempIcon = "https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp";
-
-const sponsor = [{
+const sponsor: SponsorItem[] = [{
   icon: "/images/202312/github-mark.svg",
   name: 'Github',
   type: SponsorType.github,
   qrcode: "/images/202402/github-sponsor.png",
-  label: "使用下方链接以通过 Github Sponsors 捐赠",
+  label: {
+    zh: "使用下方链接以通过 Github Sponsors 捐赠",
+    en: "Use the link below to donate through Github Sponsors"
+  },
   url: "https://github.com/sponsors/DGP-Studio"
-},{
+}, {
   icon: "/svg/afd-official.svg",
   name: '爱发电',
-  type: SponsorType.wechat,
+  type: SponsorType.afdian,
   qrcode: "/images/202402/aifadian-qr.png",
-  label: "使用下方链接以通过爱发电捐赠",
+  label: {
+    zh: "使用下方链接以通过爱发电捐赠",
+    en: "Use the link below to donate through Afdian"
+  },
   url: "https://afdian.net/a/DismissedLight"
 }, {
   icon: "/svg/paypal.svg",
   name: 'PayPal',
-  type: SponsorType.alipay,
+  type: SponsorType.paypal,
   qrcode: "/images/202402/paypal-qr.png",
-  label: "使用下方链接以通过 PayPal 捐赠",
+  label: {
+    zh: "使用下方链接以通过 PayPal 捐赠",
+    en: "Use the link below to donate through PayPal"
+  },
   url: "https://paypal.me/tianyu98"
 }];
 
@@ -78,7 +93,6 @@ function updateType() {
 }
 
 onMounted(() => {
-  console.log('mounted');
   updateType();
   window.addEventListener('hashchange', updateType);
 });
