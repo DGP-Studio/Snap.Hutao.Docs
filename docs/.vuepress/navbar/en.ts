@@ -16,6 +16,7 @@ export const enNavbar = navbar([
     text: "Support us",
     icon: "iconfont icon-like",
     link: "/en/support-us.html",
+
   },
   {
     text: "Community",

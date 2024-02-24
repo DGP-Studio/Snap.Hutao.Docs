@@ -10,7 +10,143 @@ comment: false
 
 Не вижу смысла переводить все, поэтому переведу последние 2
 
-## 1.8.4 <Badge text="latest" type="tip" />
+## 1.9.6 <Badge text="latest" type="tip" />
+
+- New ➕
+  - Added customized background image feature, users now can open background image folder and add images they like [#357](https://github.com/DGP-Studio/Snap.Hutao/issues/357)
+  - Added responsive settings page, layout will be update while window size and shape changes, [@Scighost](https://github.com/Scighost) realized this feature [#1337](https://github.com/DGP-Studio/Snap.Hutao/issues/1337)
+  - Added container loopback status and unlocker feature in Feedback Center
+  - Added displaying current network proxy status feature in Feedback Center
+- Fix 🔨
+  - Fixed `653366069` error when submit Spiral Abyss data [#1351](https://github.com/DGP-Studio/Snap.Hutao/issues/1351)
+  - Fixed `653366069` error when sync character from MiHoYo BBS Battle Chronicle and Development Plan sources
+  - Adapt new Asia server UID rule
+  - Fixed the issue that font size in game announcements are too small [#1347](https://github.com/DGP-Studio/Snap.Hutao/issues/1347)
+  - Fixed MiYouShe QR code login issue, now ZZZ login page is used to handle QR code login method [#1345](https://github.com/DGP-Studio/Snap.Hutao/issues/1345)
+  - Replace unreadable text in character voice/story with normal text in Character WIKI [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
+  - Fixed the display issue in Home Dashboard when Parametric Transformer is not achieved [#1331](https://github.com/DGP-Studio/Snap.Hutao/issues/1331)
+  - Fixed the issue that in some cases, swap Home Dashboard to bottom side would cause the client to crash [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
+- Optimization ✨
+  - User's MiHoYo BBS accounts in Account Panel can be dragged and reordered now, to allow users to have a better operation experience [#1334](https://github.com/DGP-Studio/Snap.Hutao/issues/1334)
+  - Game account records in Game Launcher can be dragged and reordered now, to allow users to have a better operation experience
+  - Optimized title text in Wish Export (`Statistics` is renamed to `Global Wish Stats`) [#1344](https://github.com/DGP-Studio/Snap.Hutao/issues/1344)
+  - Optimized text under Resource Download page in Game Launcher (`Client` is renamed to `Full Package`) [#1279](https://github.com/DGP-Studio/Snap.Hutao/issues/1279)
+  - Optimized image download error hint in wizard [#1333](https://github.com/DGP-Studio/Snap.Hutao/issues/1333)
+  - Update Spiral Abyss wave information text of Genshin Impact version 4.4
+  - Added permission error hint in Realtime Notes notification settings
+  - Limited download thread for client update package
+  - Added two new resolutions in Game Resolution Quick Settings
+  - Allow developers using NamedPipe to activate the application <Badge text="Developers Feature" type="tip" />
+  - Make Windows App SDK embedded
+  - Optimized Win32/COM API calls
+  - Redesigned client UI to fit background images
+- Localization 🌏
+  - Portuguese (PT-BR) is now a new client language, thanks to contribution from [@t0piy](https://github.com/t0piy)
+
+## 1.9.5
+
+- New ➕
+  - Added monitor identification button in game launcher [#1261](https://github.com/DGP-Studio/Snap.Hutao/issues/1261)
+  - Brand new Feedback Center is introduced [#1039](https://github.com/DGP-Studio/Snap.Hutao/issues/1039)
+- Fix 🔨
+  - Fixed the issue that when the game in under `Program Files` path, `server conversion failed` error would be raised [#1262](https://github.com/DGP-Studio/Snap.Hutao/issues/1262)
+  - Fixed the issue that static packages download cannot be completed in the setup wizard [#1242](https://github.com/DGP-Studio/Snap.Hutao/issues/1242)
+- Optimization ✨
+  - Added support of changing proxy settings during Snap Hutao is running
+  - Added game status in Game Launcher Card in the dashboard
+  - Added data folder size auto refresh after server conversion cache is deleted
+  - Optimized the logic to identify whether server conversion is needed when game launch process is requested
+  - Optimized the English translation
+
+## 1.9.4 <Badge text="hotfix" type="warning" />
+
+- Fix 🔨
+  - Fixed the crash issue for Bilibili server users when entering the main window
+
+## 1.9.3
+
+- Fix 🔨
+  - Fixed the crash issue for new users when entering the main window
+
+## 1.9.2
+
+- New ➕
+  - Added Windows native HDR option in Game Launcher
+  - Added support of HoYoverse accounts in Game Launcher account switch feature
+  - Added option of deleting server conversion cache file in Settings page
+  - Added restart as admin option in Settings page
+  - Added the function of sharing pictures to the clipboard in WebView
+- Fix 🔨
+  - Fixed the issue that some MiHoYo BBS pages operations cannot be done in Webview
+  - Added conspicuous mark of Admin Mode on windows title to indicate whether if Snap Hutao is running as administrator
+  - Fixed game path error after server conversion
+  - Fixed the document link on Spiral Abyss page
+- Optimization ✨
+  - Added account identification field in Real-time Note data forwarding webhook
+  - All options in Danger Zone on Settings page now have double confirmations
+  - Change to way of game account switch from PowerShell of directly modify regedit to avoid error when Windows Long Path is not enabled
+  - Optimized UI of auto-click feature shortcut settings card
+  - Added checks for special paths such as Program Files during server conversion
+  - Optimized the scrolling performance of WebView on some pages
+  - Optimized the performance of Discord Activity
+
+## 1.9.1 <Badge text="hotfix" type="warning" />
+
+- **Fix 🔨**
+  - Fixed crash on Game Launcher page when user text zoom is not set as 100%
+  - Fixed crash caused by Realtime Notes during the program startup
+  - Fixed the issue where Realtime Notes may be loaded simultaneously with user account information, result in reentrancy
+- **Optimizations ✨**
+  - Enhanced prompt to add or select game path in Game Launcher
+
+## 1.9.0
+
+::: important Breaking Changes
+
+Snap Hutao recently obtained sponsorship from the SignPath Foundation for code signing certificates. Starting from version 1.9.0, we will use a brand-new certificate to sign Snap Hutao installation packages.
+
+Programs with the new signature will be incompatible with old versions. Users updating from versions 1.8.4 and older to 1.9.0 and newer versions need to uninstall the old version first and then perform a fresh installation of the new version of the client. Due to the design of Snap Hutao's data directory, users will not lose any important data.
+
+You can read the article [Explanation of Breaking Changes in Version 1.9.0](../blog/version-1-9-0-breaking-changes.md) for a deeper understanding of how the signature changes in this version update affect the Snap Hutao project.
+
+:::
+
+- **New Features ➕**
+  - The game launcher now supports multiple game paths [#525](https://github.com/DGP-Studio/Snap.Hutao/issues/526)
+  - Added QR code login method for miHoYo in the user panel [#870](https://github.com/DGP-Studio/Snap.Hutao/issues/870)
+  - The client now automatically detects network status and displays the results in the settings page [#1116](https://github.com/DGP-Studio/Snap.Hutao/pull/1161)
+  - Added an option in the game launcher to start Genshin Impact in touch mode [#1173](https://github.com/DGP-Studio/Snap.Hutao/issues/1173)
+  - Add option to change in-game announcement source in the settings page, now you may select oversea severs as the source and display announcements with same lanague of your Snap Hutao [#1112](https://github.com/DGP-Studio/Snap.Hutao/issues/1112)
+    - Only available when there is valid regular expression in Crowdin translation (Simplified Chinese, Traditional Chinese and English are supported now)
+  - Added an option in the settings to enable the console. Users can now get more error prompts when troubleshooting by enabling this option.
+  - Introduced a completely new logic for software updates.
+- **Bug Fixes 🔨**
+
+  - Fixed an issue with miHoYo API returning a `5003` error when fetching character information [#1060](https://github.com/DGP-Studio/Snap.Hutao/issues/1060)
+  - Fixed the issue that Game Launcher cannot unlock framerate limit in Genshin Impact 4.3 version [#1190](https://github.com/DGP-Studio/Snap.Hutao/issues/1190)
+  - Fixed an issue with incorrect countdown data for miHoYo announcements in specific situations.
+  - Fixed incorrect PowerShell statements.
+
+- **Optimizations ✨**
+
+  - Improved error prompt statements in development calculations, making error messages more explicit [#1163](https://github.com/DGP-Studio/Snap.Hutao/issues/1163)
+  - Optimized the interface of development calculations, now showing specific goals for each item [#1016](https://github.com/DGP-Studio/Snap.Hutao/issues/1016)
+  - Optimized the display of Hutao account information on the main interface, no longer displaying user email addresses [#1160](https://github.com/DGP-Studio/Snap.Hutao/issues/1160)
+  - Updated error prompts for Hutao API.
+  - Optimized the settings page interface; users can now view the size of data and cache directories generated by Snap Hutao in the settings.
+  - Removed Microsoft Store buttons
+
+- **Localization 🌏**
+  - Added Indonesian language option in the client, thanks to contribution by [@NatsumeAoii](https://github.com/NatsumeAoii) [#1188](https://github.com/DGP-Studio/Snap.Hutao/issues/1188)
+  - Added Russian language option in the client, thanks to contribution by [@QweRezOn](https://github.com/QweRezOn)
+  - Improved client localization string character coverage [#1198](https://github.com/DGP-Studio/Snap.Hutao/issues/1198)
+  - Updated translations for existing languages.
+
+## 1.8.5 <Badge text="Beta Test" type="info" />
+
+- Tested changes caused by certificate change
+
+## 1.8.4
 
 - Исправления
   - Исправлена проблема, при которой ежедневная проверка показывает окончание активности

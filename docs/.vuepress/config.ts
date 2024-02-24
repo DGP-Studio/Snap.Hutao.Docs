@@ -78,5 +78,5 @@ export default defineUserConfig({
   }),
   theme,
 
-  shouldPrefetch: false
+  shouldPrefetch: false,
 });

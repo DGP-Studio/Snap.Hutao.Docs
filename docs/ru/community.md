@@ -18,7 +18,7 @@ order: 8
 
 ## <HopeIcon icon="iconfont icon-qq" size="1.5rem" color="rgb(0,126,198)" /> QQ Группа (CN)
 
-- [Snap Hutao](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DmW_LDX35YEr1CQZwjZ6x4JYP03soai2&authKey=z3PzXsuYlaPTm%2FW7TyE0o9KNz7H6LA%2BTEZ4mK2BE9%2Fcz0HhH3s1qgbydciAmrGeg&noverify=0&group_code=910780153)
+- [Snap Hutao](https://qm.qq.com/q/WJKykrY9W)
 - [_Группа открытого обсуждения разработчиков Snap_](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236)
   - Общий технический разговор, не группа разработки проекта Snap Hutao
   - Группа разработчиков требует базовых знаний в области технологий

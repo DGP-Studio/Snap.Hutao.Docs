@@ -16,7 +16,7 @@ logo="/images/202312/C_sharp.svg"
 :actions='[
 {
 text: "Bergabung",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236",
+link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
 },
 {
 text: "Snap Hutao",
@@ -38,7 +38,7 @@ logo="/images/202312/Vue.js.svg"
 :actions='[
 {
 text: "Bergabung",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236",
+link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
 },
 {
 text: "Hutao API Web",
@@ -55,7 +55,7 @@ logo="/images/202312/documents.svg"
 :actions='[
 {
 text: "Bergabung",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236",
+link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
 },
 {
 text: "Dokumen Snap Hutao",
@@ -72,7 +72,7 @@ logo="/images/202312/video-editing.svg"
 :actions='[
 {
 text: "Bergabung",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&noverify=0&group_code=982424236",
+link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
 },
 ]'
 />

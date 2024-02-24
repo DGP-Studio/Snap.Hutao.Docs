@@ -9,7 +9,60 @@ externalLinkIcon: false
 
 # Update Logs
 
-## 1.9.5 <Badge text="latest" type="tip" />
+## 1.9.7 <Badge text="latest" type="tip" />
+
+- New ➕
+  - Added [Better Genshin Impact](https://bgi.huiyadan.com/) joint start up option in the advanced launcher, users now can start Genshin Impact and BGI together in Snap Hutao [#1388](https://github.com/DGP-Studio/Snap.Hutao/issues/1388)
+  - Added multiple client background wallpaper sources, including:
+    - No wallpaper (default)
+    - Random images in local background folder
+    - Bing daily wallpaper
+    - Hutao daily wallpaper
+    - Genshin Impact official launcher background
+- Fix 🔨
+  - Fixed the issue that when Discord is running with administrator privilege and Snap Hutao is running in normal privilege, Snap Hutao will crash [#1400](https://github.com/DGP-Studio/Snap.Hutao/issues/1400)
+  - Fixed the issue that reorder game account in Advanced Launcher with administrator privilege would cause the clint to crash [#1379](https://github.com/DGP-Studio/Snap.Hutao/issues/1379)
+  - Fixed the issue that scroll down the in-game announcement in Dashboard would cause the announcement disappear [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
+  - Fixed some human unreadable text in character WIKI, again [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
+  - Fixed the issue that searching result in Feedback Center was not HTML decoded [#1391](https://github.com/DGP-Studio/Snap.Hutao/issues/1391)
+- Optimization ✨
+  - Added two 4K resolution options in Advanced Launcher [#1375](https://github.com/DGP-Studio/Snap.Hutao/issues/1375)
+  - Client will now memorize selected character in each account in MiHoYo BBS account panel [#1233](https://github.com/DGP-Studio/Snap.Hutao/issues/1233)
+
+## 1.9.6
+
+- New ➕
+  - Added customized background image feature, users now can open background image folder and add images they like [#357](https://github.com/DGP-Studio/Snap.Hutao/issues/357)
+  - Added responsive settings page, layout will be updated while window size and shape changes, [@Scighost](https://github.com/Scighost) realized this feature [#1337](https://github.com/DGP-Studio/Snap.Hutao/issues/1337)
+  - Added container loopback status and unlocker feature in Feedback Center
+  - Added displaying current network proxy status feature in Feedback Center
+- Fix 🔨
+  - Fixed `653366069` error when submit Spiral Abyss data [#1351](https://github.com/DGP-Studio/Snap.Hutao/issues/1351)
+  - Fixed `653366069` error when sync character from MiHoYo BBS Battle Chronicle and Development Plan sources
+  - Adapt new Asia server UID rule
+  - Fixed the issue that font size in game announcements is too small [#1347](https://github.com/DGP-Studio/Snap.Hutao/issues/1347)
+  - Fixed MiYouShe QR code login issue, now ZZZ login page is used to handle QR code login method [#1345](https://github.com/DGP-Studio/Snap.Hutao/issues/1345)
+  - Replace unreadable text in character voice/story with normal text in Character WIKI [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
+  - Fixed the display issue in Home Dashboard when Parametric Transformer is not achieved [#1331](https://github.com/DGP-Studio/Snap.Hutao/issues/1331)
+  - Fixed the issue that in some cases, swap Home Dashboard to bottom side would cause the client to crash [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
+- Optimization ✨
+  - User's MiHoYo BBS accounts in Account Panel can be dragged and reordered now, to allow users to have a better operation experience [#1334](https://github.com/DGP-Studio/Snap.Hutao/issues/1334)
+  - Game account records in Game Launcher can be dragged and reordered now, to allow users to have a better operation experience
+  - Optimized title text in Wish Export (`Statistics` is renamed to `Global Wish Stats`) [#1344](https://github.com/DGP-Studio/Snap.Hutao/issues/1344)
+  - Optimized text under Resource Download page in Game Launcher (`Client` is renamed to `Full Package`) [#1279](https://github.com/DGP-Studio/Snap.Hutao/issues/1279)
+  - Optimized image download error hint in wizard [#1333](https://github.com/DGP-Studio/Snap.Hutao/issues/1333)
+  - Update Spiral Abyss wave information text of Genshin Impact version 4.4
+  - Added permission error hint in Realtime Notes notification settings
+  - Limit active thread count when downloading client update package
+  - Added two new resolutions in Game Resolution Quick Settings
+  - Allow developers using NamedPipe to activate the application <Badge text="Developers Feature" type="tip" />
+  - Make Windows App SDK embedded
+  - Optimized Win32/COM API calls
+  - Redesigned client UI to fit background images
+- Localization 🌏
+  - Portuguese (PT-BR) is now a new client language, thanks to contribution from [@t0piy](https://github.com/t0piy)
+
+## 1.9.5
 
 - New ➕
   - Added monitor identification button in game launcher [#1261](https://github.com/DGP-Studio/Snap.Hutao/issues/1261)

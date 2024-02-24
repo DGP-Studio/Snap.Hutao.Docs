@@ -8,7 +8,60 @@ externalLinkIcon: false
 
 # 更新日志
 
-## 1.9.5 <Badge text="最新版" type="tip" />
+## 1.9.7 <Badge text="最新版" type="tip" />
+
+- 新增 ➕
+  - 在高级启动器中新增与 [Better Genshin Impact](https://bgi.huiyadan.com/) 程序的联动启动功能，用户现在可以在通过 Snap Hutao 启动游戏的同时，自动启动 BGI [#1388](https://github.com/DGP-Studio/Snap.Hutao/issues/1388)
+  - 新增了多个客户端背景图的来源选项，包括：
+    - 无背景图片（默认选项）
+    - 本地随机图片
+    - Bing 每日图片
+    - 胡桃每日图片
+    - 原神官方启动器背景图
+- 修复 🔨
+  - 修复了当 Discord 以管理员权限运行时，用普通权限启动胡桃时，胡桃会闪退的问题 [#1400](https://github.com/DGP-Studio/Snap.Hutao/issues/1400)
+  - 修复了管理员模式下拖动排序导致客户端闪退的问题 [#1379](https://github.com/DGP-Studio/Snap.Hutao/issues/1379)
+  - 修复了首页游戏公告下滑至底部会使公告消失的问题 [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
+  - 再次修复了角色资料部分文本显示异常的问题 [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
+  - 修复了反馈中心中搜索结果未进行 HTML 解码的问题 [#1391](https://github.com/DGP-Studio/Snap.Hutao/issues/1391)
+- 优化 ✨
+  - 高级启动器中的快捷分辨率设置新增两个分辨率快捷选项 [#1375](https://github.com/DGP-Studio/Snap.Hutao/issues/1375)
+  - 记忆用户的每个账号下选中的角色 [#1233](https://github.com/DGP-Studio/Snap.Hutao/issues/1233)
+
+## 1.9.6
+
+- 新增➕
+  - 新增自定义应用内背景功能，用户可以在设置内打开背景目录并设置想要展示的图片 [#357](https://github.com/DGP-Studio/Snap.Hutao/issues/357)
+  - 新增设置页面的响应式布局，现在页面布局会随着窗口大小动态调整，[@Scighost](https://github.com/Scighost) 实现了这个功能 [#1337](https://github.com/DGP-Studio/Snap.Hutao/issues/1337)
+  - 在反馈中心中新增了容器 loopback 状态显示和解除限制的功能
+  - 在反馈中心中新增了显示当前网络代理状态的功能
+- 修复🔨
+  - 修复了深境螺旋数据上传时提示 `653366069` 错误的问题 [#1351](https://github.com/DGP-Studio/Snap.Hutao/issues/1351)
+  - 修复了我的角色从原神战绩与从养成计算同步时提示 `653366069` 错误的问题
+  - 适配了亚服新 UID 规则
+  - 修复了游戏公告中部分文本字体过小的问题 [#1347](https://github.com/DGP-Studio/Snap.Hutao/issues/1347)
+  - 修复了二维码扫码登录失败的问题，使用绝区零登录入口处理扫码登录 [#1345](https://github.com/DGP-Studio/Snap.Hutao/issues/1345)
+  - 替换了角色资料中角色语音/角色故事的部分不可读文本为正常文本 [#1316](https://github.com/DGP-Studio/Snap.Hutao/issues/1316)
+  - 修复了参量质变仪未获得时在主页实时便笺卡片中的错误显示问题 [#1331](https://github.com/DGP-Studio/Snap.Hutao/issues/1331)
+  - 修复了在某些情况下首页公告下滑至底部导致崩溃的问题 [#1365](https://github.com/DGP-Studio/Snap.Hutao/issues/1365)
+- 优化 ✨
+  - 用户面板中的米游社/HoYoLAB 账号允许被拖动排序以允许用户获得更自然的操作体验 [#1334](https://github.com/DGP-Studio/Snap.Hutao/issues/1334)
+  - 启动游戏中保存的游戏账号允许被拖动排序以允许用户获得更自然的操作体验
+  - 优化了祈愿统计页面中功能的标题文本（将`统计`重命名为`全球祈愿统计`）[#1344](https://github.com/DGP-Studio/Snap.Hutao/issues/1344)
+  - 优化了启动游戏中资源下载页面的文本（将`客户端`重命名为`完整包`） [#1279](https://github.com/DGP-Studio/Snap.Hutao/issues/1279)
+  - 优化了引导界面下载图片资源的错误提示 [#1333](https://github.com/DGP-Studio/Snap.Hutao/issues/1333)
+  - 更新了原神 4.4 版本深渊的波次文本提示
+  - 新增了实时便笺通知设置权限不足的错误提示文本
+  - 限制了下载更新时的线程数
+  - 启动游戏快捷分辨率添加了两个新的分辨率
+  - 允许使用命名管道进行应用激活 <Badge text="开发者功能" type="tip" />
+  - 内置了 Windows App SDK
+  - 优化了 Win32/COM API 调用
+  - 重做了大部分 UI 以适应含有图片背景的客户端
+- 本地化 🌏
+  - 客户端新增葡萄牙语翻译，感谢 [@t0piy](https://github.com/t0piy) 提供的翻译
+
+## 1.9.5
 
 - 新增 ➕
   - 启动游戏页面新增标识显示器功能 [#1261](https://github.com/DGP-Studio/Snap.Hutao/issues/1261)

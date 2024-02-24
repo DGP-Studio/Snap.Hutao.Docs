@@ -4,6 +4,8 @@ comment: false
 index: false
 ---
 
+**警告：下面的部分内容可能存在过时的信息，请移步[GitHub](https://github.com/DGP-Studio/Snap.Hutao)以获取最新信息。**
+
 # 第一期开发组座谈会
 
 复制自 [GitHub 讨论帖](https://github.com/DGP-Studio/Snap.Hutao/discussions/46)，总结于群讨论
