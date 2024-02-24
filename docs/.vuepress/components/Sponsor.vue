@@ -1,22 +1,22 @@
 <template>
   <div class="sponsor-container">
     <div class="sponsor-items">
-      <div v-for="item in sponsor" :key="item.type" class="sponsor-item" :title="item.name">
-        <a :href="`#${item.type}`" :title="item.name" class="hutao-sponsor-link">
+      <div v-for="item in sponsor" :key="item.type" class="sponsor-item" :title="item.name[props.lang]">
+        <a :href="`#${item.type}`" :title="item.name[props.lang]" class="hutao-sponsor-link">
           <img :src="item.icon" :alt="item.type"/>
-          <span>{{ item.name[props.lang ?? 'zh'] }}</span>
+          <span>{{ item.name[props.lang] }}</span>
         </a>
       </div>
     </div>
     <div class="sponsor-detail" v-if="type && currentSponsor">
       <div class="sponsor-detail-left">
-        <img :src="currentSponsor.icon" :alt="currentSponsor.name"/>
-        <p>{{ currentSponsor.label[props.lang ?? 'zh'] }}</p>
+        <img :src="currentSponsor.icon" :alt="currentSponsor.name[props.lang]"/>
+        <p>{{ currentSponsor.label[props.lang] }}</p>
         <a v-if="currentSponsor.url" :href="currentSponsor.url" target="_blank"
            rel="noopener noreferrer">{{ currentSponsor.url }}</a>
       </div>
       <div class="sponsor-detail-right">
-        <img :src="currentSponsor.qrcode" :alt="currentSponsor.label"/>
+        <img :src="currentSponsor.qrcode" :alt="currentSponsor.label[props.lang]"/>
       </div>
     </div>
   </div>
@@ -28,7 +28,9 @@ interface SponsorProps {
   lang: 'zh' | 'en';
 }
 
-const props = defineProps<SponsorProps>();
+const props = withDefaults(defineProps<SponsorProps>(), {
+  lang: 'zh'
+});
 
 enum SponsorType {
   afdian = 'afdian',
@@ -126,7 +128,7 @@ onBeforeUnmount(() => {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  column-gap: 10px;
+  gap: 1rem;
 }
 
 .sponsor-item {
@@ -180,6 +182,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  max-width: 100%;
 }
 
 .sponsor-detail-left img {
@@ -193,11 +196,14 @@ onBeforeUnmount(() => {
 }
 
 .sponsor-detail-left p {
+  max-width: 100%;
   font-weight: 700;
   word-break: break-all;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+.sponsor-detail-left a {
+  max-width: 100%;
+  word-break: break-all;
 }
 
 .sponsor-detail-right {
@@ -227,8 +233,12 @@ onBeforeUnmount(() => {
     align-items: center;
   }
 
-  .sponsor-detail-left {
-    display: none;
+  .sponsor-detail-left img {
+    margin: auto;
+  }
+
+  .sponsor-detail-right img {
+    margin-top: 1rem;
   }
 }
 </style>
