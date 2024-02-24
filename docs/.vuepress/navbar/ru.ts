@@ -15,7 +15,7 @@ export const ruNavbar = navbar([
   {
     text: "Support us",
     icon: "iconfont icon-like",
-    link: "/ru/support-us.html",
+    link: "/ru/support-us",
   },
   {
     text: "Сообщество",

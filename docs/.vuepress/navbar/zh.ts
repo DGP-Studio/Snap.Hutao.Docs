@@ -15,7 +15,7 @@ export const zhNavbar = navbar([
   {
     text: "支持我们",
     icon: "iconfont icon-like",
-    link: "/zh/support-us.html",
+    link: "/zh/support-us",
   },
   {
     text: "加入社区",

@@ -15,7 +15,7 @@ export const idNavbar = navbar([
   {
     text: "Support us",
     icon: "iconfont icon-like",
-    link: "/id/support-us.html",
+    link: "/id/support-us",
   },
   {
     text: "Komunitas",
