@@ -91,3 +91,8 @@ html[data-theme="dark"] {
     color: #bbbbbb;
   }
 }
+
+// vpbanner 在 dark 模式下边缘不清晰
+html[data-theme="dark"] {
+  --card-shadow: rgba(255, 255, 255, 0.15);
+}

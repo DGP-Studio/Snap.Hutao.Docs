@@ -6,6 +6,7 @@ export const zhSidebar = sidebar({
     "project",
     "i18n",
     "quick-start",
+    "support-us",
     {
       icon: "iconfont icon-read",
       text: "功能指南",

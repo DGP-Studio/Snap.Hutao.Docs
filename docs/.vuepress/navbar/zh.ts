@@ -13,6 +13,11 @@ export const zhNavbar = navbar([
     link: "/zh/quick-start",
   },
   {
+    text: "支持我们",
+    icon: "iconfont icon-like",
+    link: "/zh/support-us",
+  },
+  {
     text: "加入社区",
     icon: "iconfont icon-community",
     link: "/zh/community",

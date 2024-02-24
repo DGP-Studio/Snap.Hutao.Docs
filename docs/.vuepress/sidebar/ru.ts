@@ -6,6 +6,7 @@ export const ruSidebar = sidebar({
     "project",
     "i18n",
     "quick-start",
+    "support-us",
     {
       icon: "iconfont icon-read",
       text: "Features",
