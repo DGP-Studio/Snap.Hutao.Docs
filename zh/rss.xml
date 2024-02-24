@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 22 Feb 2024 10:05:46 GMT</pubDate>
-    <lastBuildDate>Thu, 22 Feb 2024 10:05:46 GMT</lastBuildDate>
+    <pubDate>Sat, 24 Feb 2024 06:03:14 GMT</pubDate>
+    <lastBuildDate>Sat, 24 Feb 2024 06:03:14 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -22,6 +22,19 @@
     <category>i18n</category>
     <category>项目</category>
     <category>第三方工具</category>
+    <item>
+      <title>支持我们</title>
+      <link>https://hut.ao/zh/support-us.html</link>
+      <guid>https://hut.ao/zh/support-us.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">支持我们</source>
+      <description>支持我们 Snap Hutao，作为一个使用 MIT 许可证的开源项目，致力于打造一个完全免费、无广告且注重用户隐私的程序。我们的开发团队成员目前正自行资助项目的运营，主要的支出项目为服务端运行所需的网络系统组件（可以在本页下方找到我们总结的年度支出）。如果您有富余的资金可以支持 Snap Hutao，您的慷慨捐赠将不仅帮助开发团队，还将让每一个 Sn...</description>
+      <pubDate>Mon, 05 Feb 2024 14:07:17 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Snap Hutao，作为一个使用 MIT 许可证的开源项目，致力于打造一个完全免费、无广告且注重用户隐私的程序。我们的开发团队成员目前正自行资助项目的运营，主要的支出项目为服务端运行所需的网络系统组件（可以在本页下方找到我们总结的年度支出）。如果您有富余的资金可以支持 Snap Hutao，您的慷慨捐赠将不仅帮助开发团队，还将让每一个 Snap Hutao 用户受益。目前，您可以通过以下方式捐赠我们：</p>
+<h2>捐赠渠道</h2>
+<p>我们通过以下方式接受捐赠</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>反馈中心</title>
       <link>https://hut.ao/zh/features/feedback-center.html</link>

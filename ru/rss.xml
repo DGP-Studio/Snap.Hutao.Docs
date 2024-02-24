@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Thu, 22 Feb 2024 10:05:46 GMT</pubDate>
-    <lastBuildDate>Thu, 22 Feb 2024 10:05:46 GMT</lastBuildDate>
+    <pubDate>Sat, 24 Feb 2024 06:03:14 GMT</pubDate>
+    <lastBuildDate>Sat, 24 Feb 2024 06:03:14 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Dev Logs</category>
@@ -28,6 +28,19 @@
     <category>Tutorial</category>
     <category>Анонс</category>
     <category>Announcement</category>
+    <item>
+      <title>Support us</title>
+      <link>https://hut.ao/ru/support-us.html</link>
+      <guid>https://hut.ao/ru/support-us.html</guid>
+      <source url="https://hut.ao/ru/rss.xml">Support us</source>
+      <description>Support us Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of...</description>
+      <pubDate>Fri, 23 Feb 2024 22:06:49 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of our development team are currently self-funding the project's operation, with the main expenses being the network system components required by server (you can find our annual expenditure summary below on this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but also benefit every Snap Hutao user. Currently, you can donate us in the following ways:</p>
+<h2>Donation</h2>
+<p>We accept sponsorship with following methods:</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Dev Logs</title>
       <link>https://hut.ao/ru/blog/</link>
