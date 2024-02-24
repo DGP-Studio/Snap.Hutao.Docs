@@ -22,7 +22,7 @@ comment: false
 
 - 当用户系统缺少必要依赖环境时，系统会自动安装所需依赖。若用户禁用了 Windows Update 组件或网络条件差时，系统无法完成该步骤。
   - 请确保 Windows Update 已启用；胡桃工具箱的安装过程依赖于 Windows Update 组件
-  - 你亦可以手动下载并安装[胡桃的相关依赖](dependency.md#手动安装依赖项)
+  - 你亦可以手动下载并安装[胡桃的相关依赖](dependency.md)
 
 ### 为什么程序中的图标会出现乱码现象
 
@@ -62,7 +62,7 @@ Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://s
 
 如果你在安装失败时收到了上面的错误提示，请尝试下面的步骤来解决问题：
 
-1. 手动下载并安装[胡桃的相关依赖](dependency.md#手动安装依赖项)
+1. 手动下载并安装[胡桃的相关依赖](dependency.md)
 2. 在 Windows 开始菜单按钮上右键，选择 `PowerShell (管理员)`
 3. 在打开的窗口中复制下面的代码并回车执行（在PowerShell中鼠标右键就是粘贴）
    ```PowerShell :no-line-numbers
