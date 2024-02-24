@@ -4,7 +4,7 @@
       <div v-for="item in sponsor" :key="item.type" class="sponsor-item" :title="item.name">
         <a :href="`#${item.type}`" :title="item.name" class="hutao-sponsor-link">
           <img :src="item.icon" :alt="item.type"/>
-          <span>{{ item.name }}</span>
+          <span>{{ item.name[props.lang ?? 'zh'] }}</span>
         </a>
       </div>
     </div>
@@ -38,7 +38,10 @@ enum SponsorType {
 
 interface SponsorItem {
   icon: string;
-  name: string;
+  name: {
+    zh: string;
+    en: string;
+  };
   type: SponsorType;
   qrcode: string;
   label: {
@@ -50,7 +53,10 @@ interface SponsorItem {
 
 const sponsor: SponsorItem[] = [{
   icon: "/images/202312/github-mark.svg",
-  name: 'Github',
+  name: {
+    zh: "GitHub",
+    en: "GitHub",
+  },
   type: SponsorType.github,
   qrcode: "/images/202402/github-sponsor.png",
   label: {
@@ -60,7 +66,10 @@ const sponsor: SponsorItem[] = [{
   url: "https://github.com/sponsors/DGP-Studio"
 }, {
   icon: "/svg/afd-official.svg",
-  name: '爱发电',
+  name: {
+    zh: '爱发电',
+    en: "AFDian"
+  },
   type: SponsorType.afdian,
   qrcode: "/images/202402/aifadian-qr.png",
   label: {
@@ -70,7 +79,10 @@ const sponsor: SponsorItem[] = [{
   url: "https://afdian.net/a/DismissedLight"
 }, {
   icon: "/svg/paypal.svg",
-  name: 'PayPal',
+  name: {
+    zh: 'PayPal',
+    en: "PayPal"
+  },
   type: SponsorType.paypal,
   qrcode: "/images/202402/paypal-qr.png",
   label: {
