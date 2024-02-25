@@ -52,7 +52,7 @@ comment: false
 
 连接到胡桃服务器时失败，请检查胡桃客户端的网络连接
 
-如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](../features/lifecycle.md#如何通过网络代理使用胡桃工具箱)
+如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](faq.md#如何通过网络代理使用胡桃工具箱)
 
 ### 403 (Forbidden)/ 404 (NOT FOUND)
 

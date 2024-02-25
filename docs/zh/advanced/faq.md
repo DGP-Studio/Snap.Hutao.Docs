@@ -1,14 +1,12 @@
 ---
-headerDepth: 0
-category: [功能, 教程]
-tag: [生命周期, 运行]
+headerDepth: 3
+icon: iconfont icon-ask
+category: [FAQ]
 order: 1
 comment: false
 ---
 
-# 生命周期
-
-## 常见问题
+# 其他常见问题
 
 ### 如何创建胡桃的桌面快捷方式（非管理员模式）
 
