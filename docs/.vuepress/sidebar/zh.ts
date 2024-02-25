@@ -35,7 +35,7 @@ export const zhSidebar = sidebar({
         {
           icon: "iconfont icon-setting",
           text: "软件功能",
-          children: ["setup", "lifecycle", "feedback-center", "hutao-passport", "hutao-settings"],
+          children: ["setup", "feedback-center", "hutao-passport", "hutao-settings"],
         },
       ],
     },
