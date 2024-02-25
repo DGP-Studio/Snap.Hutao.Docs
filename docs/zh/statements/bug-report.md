@@ -15,9 +15,10 @@ comment: false
 在发起新的 Issue 之前，请先执行以下清单：
 
 - [ ] 当前使用的是最新版本客户端
-- [ ] 阅读[常见问题](../advanced/FAQ.md)文档和[已知问题](../advanced/known-issue.md)文档
+- [ ] 使用搜索功能搜索你的问题并检查[已知问题](../advanced/known-issue.md)文档
 - [ ] 搜索项目 Issue，检查是否已有相同或类似的问题
-- 若执行上述步骤后没有得到问题解决方案，你可以在 GitHub 上发起一个新的 Issue
+
+若执行上述步骤后没有得到问题解决方案，你可以在 GitHub 上发起一个新的 Issue
 
 如果你不清楚怎样是一个好的 Issue 可以阅读 Snap Hutao 过去的一些[优质问题](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98+is%3Aclosed)
 

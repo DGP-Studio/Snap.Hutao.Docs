@@ -86,13 +86,11 @@ background="rgba(244, 125, 63, 0.15)"
 @tab 使用 MSIX 安装包安装
 
 <div class="vp-card-container">
-  <VPCard
-    title="加入用户社区"
-    desc="我们会在用户社区手动分发安装包"
-    logo="/images/202312/community.svg"
-    link="community.html"
-    background="rgba(242, 255, 28, 0.25)"
-  />
+  <div class="hint-container warning">
+    <p class="hint-container-title">注意</p>
+    <p>我们建议使用 Snap.Hutao.Deployment 来安装胡桃，任何使用 MSIX 安装包安装时出现的问题均不会被积极处理。</p>
+  </div>
+
   <VPCard
     title="胡桃自动判断"
     desc="自动判断最佳线路下载"
@@ -116,11 +114,6 @@ background="rgba(244, 125, 63, 0.15)"
   />
 </div>
 
-- 在安装过程中，如果出现任意以下错误之一，请参考文章[手动安装依赖项](advanced/dependency.md)解决，该问题来源是Windows无法自动安装所需要的框架环境
-  1. `应用程序无法安装应用包相关项，请向开发人员索要包`
-  2. 在安装过程中长时间卡在`正在安装框架`
-- 更多在安装时遇上的问题，请阅读 [常见问题-安装篇](advanced/FAQ.md) 文档
-
 :::
 
 ---
@@ -139,7 +132,7 @@ background="rgba(244, 125, 63, 0.15)"
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 
-如没有特殊声明，则你可以通过安装最新版 MSIX 安装包来升级程序。
+如没有特殊声明，你可以通过运行 [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) 或安装最新版 MSIX 安装包来升级程序。
 
 1.9.0版本起，Snap Hutao 将内置升级提示功能以提醒你获取更新包。如果你更新失败，可尝试使用 [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) 覆盖安装来解决问题。
 
@@ -188,6 +181,61 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 :::
 
----
+## <HopeIcon icon="iconfont icon-ask" size="1.7rem" color="var(--theme-color)" /> 安装常见问题
 
-_**至此，你已经初步设置好了你的胡桃工具箱。你现在可以自由探索这个应用，你也可以在这个这个网站中找到胡桃的全部帮助文档。**_
+### 为什么程序中的图标会出现乱码现象
+
+- 当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
+  - 可以下载 `Segoe Fluent Icons`字体
+  - 安装时选择`为系统所有用户安装`，即可解决问题
+- 您可以从 [微软官方](https://aka.ms/SegoeFluentIcons)下载到该字体文件
+
+### 能不能通过添加缺少的系统组件来实现胡桃的安装
+
+> 这就是使用精简版/破解版/优化版/LTSC/LTSB版本的代价，不是不报，时候未到。没有足够的水平就不要用高级的东西。
+
+当你问出这个问题的时候，那答案已经是不可以了，因为你完全不了解你的操作系统。
+
+你不知道你手中所谓的精简版系统少了多少必要组件。当你装上了一个组件，解决了当前的问题，你还会遇上下一个问题。
+  
+::: warning
+以下问题仅适用于 MSIX 安装，请先尝试使用 [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) 来解决你的安装问题
+:::
+
+### 我的计算机无法打开 MSIX 格式的安装包
+
+你的计算机缺少了 Windows 系统重要组件 App Installer，你可能是盗版软件的受害者。
+
+如果你的系统中装有 Microsoft Store，可以从 [App Installer 商店页](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US) 重新安装来恢复该组件。
+
+如果你没有Windows Store，请使用微软官方的最新完整版消费者 [Windows 10](https://www.microsoft.com/zh-cn/software-download/windows10) 或 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11) 镜像。使用微软官方的提供的 Windows 10 升级助手和 Windows 11 安装助手可以帮助你简单地在保留数据的情况下升级至最新完整版 Windows。**请勿使用来源不明的破解版、精简版系统镜像。**
+
+### MSIX 安装包提示 `无法验证此应用包的发布者证书` 错误并无法安装
+
+该问题常见于 Windows 家庭版系统。如果你使用的不是家庭版系统，则你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。
+
+Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载 [该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt) 并添加到你的系统中的 `可信任的根证书授权机构` 类别中。
+
+### MSIX 安装包提示组策略错误或需要 Windows 开发者许可证错误并无法安装
+
+如果你使用的 Windows 家庭版操作系统，请尝试打开系统设置中的开发者模式以解决该问题
+
+### 安装 MSIX 安装包时失败并有错误提示
+
+| 错误信息              | 原因                             |
+| --------------------- | -------------------------------- |
+| `0x80040154` 错误代码 | 错误的Windows用户账户权限        |
+| `应用未启动` 错误提示 | App Installer 权限错误或已被破坏 |
+| `0x80073CF0` 错误代码 | 错误的目录权限                   |
+| `0x80070005` 错误代码 | 错误的Windows用户账户权限        |
+| `0x80070570` 错误代码 | 错误的Windows用户账户权限        |
+| `0x8007065E` 错误代码 | 错误的Windows用户账户权限        |
+
+如果你在安装失败时收到了上面的错误提示，请尝试下面的步骤来解决问题：
+
+1. 在 Windows 开始菜单按钮上右键，选择 `PowerShell (管理员)`
+2. 在打开的窗口中复制下面的代码并回车执行（在PowerShell中鼠标右键就是粘贴）
+   ```PowerShell :no-line-numbers
+   cd $env:USERPROFILE\Downloads; $url="https://api.snapgenshin.com/patch/hutao/download"; $targetFileName="Snap.Hutao.latest.msix"; $targetFilePath=Join-Path -Path $PWD -ChildPath $targetFileName; Invoke-WebRequest -Uri $url -OutFile $targetFilePath; Add-AppxPackage -Path $targetFilePath; Remove-Item -Path $targetFilePath
+   ```
+3. 如果 PowerShell 没有任何错误输出（通常为红色），意味着安装成功。请在开始菜单中的全部应用列表中寻找 `Snap Hutao` 并启动

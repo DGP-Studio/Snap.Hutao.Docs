@@ -10,13 +10,6 @@ comment: false
 
 该文档包含由**用户端错误**造成的问题
 
-## RuntimeEnvironmentException
-
-- 异常：`RuntimeEnvironmentException`
-  - 提示：`未开启长路径功能，无法设置注册表键值`
-- 问题来源：没有解除 Windows 目录长度限制
-- 解决方案：下载 [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip) 后解压，运行解压后的 `.reg` 文件
-
 ## Return Code: -10001
 
 - 该异常实际上来源于米游社的返回信息，包括：
@@ -59,7 +52,7 @@ comment: false
 
 连接到胡桃服务器时失败，请检查胡桃客户端的网络连接
 
-如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md#如何通过网络代理使用胡桃工具箱)
+如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](../features/lifecycle.md#如何通过网络代理使用胡桃工具箱)
 
 ### 403 (Forbidden)/ 404 (NOT FOUND)
 
@@ -90,4 +83,4 @@ comment: false
 安装时出现 `0x80073D05` 错误码的主要原因是先前卸载时没有删除部分本地文件导致的。
 
 - 需要打开 `%appdata%/../Local/Packages`
-- 并在文件夹中找到 `60568DGPStudio.SnapHutao_ebfp3nyc27j86` 文件夹并删除（如果权限不足请考虑使用 `NSudo_LG` 解决，详情请百度）
+- 并在文件夹中找到 `60568DGPStudio.SnapHutao_wbnnev551gwxy` 文件夹并删除（如果权限不足请考虑使用 `NSudo_LG` 解决，详情请百度）
