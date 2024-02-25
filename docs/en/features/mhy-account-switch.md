@@ -44,3 +44,17 @@ you can find the entry to login in to your MiYouShe and HoYoLAB account:
   no third-party server (including any server from Snap Hutao) will involve in this process.**
 
 :::
+
+## FAQ
+
+### MiHoYo BBS Account often Lose Login Status
+
+Snap Hutao use saved MiHoYo BBS cookies to maintain login status. If you **log out** your account in your browser or
+other device, cookie will become invalid, and Snap Hutao will also be forced to log out, account will be automatically
+removed.
+
+This problem may also be caused by network error, you should check this first; If it's not caused by network issue,
+you can use `Refresh Cookie` in the account panel; You can also remove your account manually and add it back again.
+
+Since October 2022, MiYouShe (Chinese BBS) rapidly increased bot detection and may set users' account as under-risk status,
+this may cause Snap Hutao failed to check validation of the cookie

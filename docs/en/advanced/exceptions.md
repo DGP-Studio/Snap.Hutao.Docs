@@ -10,13 +10,6 @@ comment: false
 
 This document covers solutions of **foreseeable client error**
 
-## RuntimeEnvironmentException
-
-- Exception: `RuntimeEnvironmentException`
-  - Hint: `Unable to set registry key without enabling long path`
-- Issue source: Windows long path limit is set to be limited at 256 characters by default
-- Solution: Download [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip), unzip it and run `.reg` file
-
 ## Return Code: -10001
 
 - This error comes directly from MiHoYo BBS, hints include

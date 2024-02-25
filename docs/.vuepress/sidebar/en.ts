@@ -24,6 +24,7 @@ export const enSidebar = sidebar({
             "character-data",
             "hutao-API",
             "develop-plan",
+            "mhy-account-switch"
           ],
         },
         {
@@ -34,7 +35,7 @@ export const enSidebar = sidebar({
         {
           icon: "iconfont icon-setting",
           text: "Snap Hutao Features",
-          children: ["feedback-center", "hutao-passport", "hutao-settings"],
+          children: ["setup", "feedback-center", "hutao-passport", "hutao-settings"],
         },
       ],
     },

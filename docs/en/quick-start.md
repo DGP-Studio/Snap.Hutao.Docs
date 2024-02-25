@@ -88,6 +88,11 @@ background="rgba(244, 125, 63, 0.15)"
 @tab Use MSIX Package
 
 <div class="vp-card-container">
+  <div class="hint-container warning">
+    <p class="hint-container-title">Warning</p>
+    <p>We recommend using Snap.Hutao.Deployment to install Snap Hutao. Any problems that arise when installing using MSIX installation packages will not be actively handled.</p>
+  </div>
+
   <VPCard
     title="Join the Community"
     desc="We will manually upload package in the community after each update"
@@ -117,7 +122,6 @@ background="rgba(244, 125, 63, 0.15)"
     background="rgba(244, 125, 63, 0.15)"
   />
 
-- If you face any of the following errro during the installation, please refer to [Install Dependency Manually](advanced/dependency.md) to solve it，this happens when your Windows cannot download necessary framework 1. `App Installer failed to iunstall package dependencies. Ask the developer for package` 2. Stuck at `Installing framework`
 </div>
 
 :::
@@ -132,13 +136,13 @@ If you installed a Microsoft Store version of Snap Hutao (version 1.4.11 to 1.8.
 
 > For details of this change, please refer to [Explanation of Breaking Changes in Version 1.9.0](blog/version-1-9-0-breaking-changes.md)
 
-- Uninstall the old version with our [uninstallation instruction document](advanced/uninstall.html)
+- Uninstall the old version with our [uninstallation instruction document](advanced/uninstall.md)
   - Your data will not lose as long as you don't delete data directory manually
 - Follow the method above to install the new version application
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao
 
-If no special instruction is given, you can download and install latest MSIX package to update your Snap Hutao.
+If no special instruction is given, You can upgrade the program by running [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) or installing the latest MSIX installation package.
 
 Starting from 1.9.0 version, Snap Hutao has embedded update module to notify the updates. You may try [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) if you failed the update.
 
@@ -195,3 +199,60 @@ be displayed in the account panel once your click the `Confirm` button.
 
 _**Now, you have finished your initial set up of Snap Hutao. You are now free to explore this application, you can also
 find all documents in this website.**_
+
+## <HopeIcon icon="iconfont icon-ask" size="1.7rem" color="var(--theme-color)" /> Installation FAQ
+
+### Mojibake in Snap Hutao Icons
+
+- If you are using Windows 10 and see some button are not display properly
+    - You can download `Segoe Fluent Icons` font
+    - You need to install it for all users
+- You can find this font from [Microsoft](https://aka.ms/SegoeFluentIcons)
+
+### Can I Add Missing System Components to Install Snap Hutao
+
+Probably not if you are asking this, because you are not familiar with your system.
+
+You don't know how many components are missing. When you install the one that tell you in the error message, you will see next missing component in the next error message, endless.
+
+::: warning
+The following FAQs only apply to MSIX installations, please try to use [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) first to resolve your installation issues
+:::
+
+### My Computer Cannot Open MSIX Format Installer
+
+Your computer is missing the App Installer, an important component of the Windows system.
+
+If Microsoft Store is installed on your system, you can restore this component by reinstalling it from the [App Installer Store Page](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US).
+
+If you don’t have Windows Store, please use the latest full version of Microsoft’s official consumer version [Windows 10](https://www.microsoft.com/zh-cn/software-download/windows10) or [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11) mirror. Using the Windows 10 Upgrade Assistant and Windows 11 Installation Assistant provided by Microsoft can help you simply upgrade to the latest full version of Windows while retaining your data.
+
+### Got `This app package’s publisher certificate could not be verified` Error when Install with MSIX Package
+
+This issue is commonly seen in Home Edition of Windows. If you are not using a Home Edition, your Windows Update module may be disabled or cracked, this cause worldwide CA certificates cannot be updated from Microsoft servers.
+
+Snap Hutao's code signing certificate comes from [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates), you can manually download [this CA certificate](https://secure.globalsign.com/cacert/codesigningrootr45.crt) from GlobalSign official website.
+
+### Got `Policy check failed` Error when Install with MSIX Package
+
+If you are using Windows Home Edition, please try to enable developer mode in your system settings and try the installation again.
+
+### Got Error Prompt or Error Code when Install with MSIX Package
+
+| Error                                | Reason                                                   |
+| ------------------------------------ | -------------------------------------------------------- |
+| `0x80040154` Error Code              | Broken Windows account permission                        |
+| `The app did not start` Error Prompt | Cracked App Installer or broken App Installer permission |
+| `0x80073CF0` Error Code              | Broken folder permission                                 |
+| `0x80070005` Error Code              | Broken Windows account permission                        |
+| `0x80070570` Error Code              | Broken Windows account permission                        |
+| `0x8007065E` Error Code              | Broken Windows account permission                        |
+
+If you got any of error showing above, please use the following steps to solve the issue:
+
+1. Right click on Windows Start button, and select `PowerShell (Admin)`
+2. In the PowerShell windows, copy and paste the following command and run it (Right-click is paste feature in PowerShell)
+   ```PowerShell :no-line-numbers
+   cd $env:USERPROFILE\Downloads; $url="https://api.snapgenshin.com/patch/hutao/download"; $targetFileName="Snap.Hutao.latest.msix"; $targetFilePath=Join-Path -Path $PWD -ChildPath $targetFileName; Invoke-WebRequest -Uri $url -OutFile $targetFilePath; Add-AppxPackage -Path $targetFilePath; Remove-Item -Path $targetFilePath
+   ```
+3. If PowerShell does not outcome any error message, then it means installation is successful. Please find `Snap Hutao` in your Start Menu and enjoy it.

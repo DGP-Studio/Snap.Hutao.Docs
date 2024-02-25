@@ -69,8 +69,11 @@ Each account is saved in a field under the `Detect Account` field, they are sele
 
 ## Genshin Impact HDR in Windows Platform
 
-Genshin Impact currently has an HDR feature built in that can only be enabled by setting registry key values. Although this may mean that the feature is a test feature of the game, you can already experience it in advance!
-You can enable the Genshin Impact HDR feature on the Windows platform to enhance the visual experience on monitors that support HDR. In the game launcher, you can enable the Windows HDR option, and Snap Hutao will activate this built-in feature of the game when the game starts.
+~~Genshin Impact currently has an HDR feature built in that can only be enabled by setting registry key values. Although this may mean that the feature is a test feature of the game, you can already experience it in advance!~~
+
+~~You can enable the Genshin Impact HDR feature on the Windows platform to enhance the visual experience on monitors that support HDR. In the game launcher, you can enable the Windows HDR option, and Snap Hutao will activate this built-in feature of the game when the game starts.~~
+
+Genshin Impact has temporarily disabled the HDR feature, so the feature will not work for the time being.
 
 ## Launch Parameters
 
@@ -103,6 +106,9 @@ You can enable the Genshin Impact HDR feature on the Windows platform to enhance
   - `-monitor` parameter
     - **Monitor**, allows users with multiple monitors to choose a specific monitor to run the game
     - If you can't determine which monitor each option represents, you can click `Identify Monitor` to get a hint.
+    ::: warning
+    Please note that modifying the primary monitor may cause the game to appear on a monitor that does not correspond to the numbered monitor.
+    :::
 
 ## Resource Download
 
@@ -153,3 +159,64 @@ Fact that may cause **failure in unlocking frame rate limit**:
 3. `Max Framerate` limit is not changed in your graphic card settings
 4. `Power Saving` mode is not disabled in power settings
 5. Your graphic card is not powerful enough
+
+## FAQ
+
+### Use Snap Hutao to quick start the game
+
+- Config the game launcher in the settings
+- Pin Snap Hutao on taskbar
+- Right click on Snap Hutao and you will see the quick launcher
+
+  ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png)
+
+- Select `Lauch Game`, you will be asked which account to start the game
+
+### Game Account Lose Login Status in the Launcher
+
+- There are two factors associated with game account login status: network and device ID
+- This issue usually caused by:
+  - Change of public IP address
+  - Change of network adapter or network adapter MAC address
+  - Failed saving operation, no real login status been saved (Snap Hutao cannot detect if the status is real valid)
+    - Make sure to enter the game after sign in
+    - Make sure the game process is gone after closing the game
+    - Detect the account again to save your login status
+
+### How to Recover `config.ini` Configuration File
+
+In some particular conditions (such as wrong game folder permission), `config.ini` may lose after server conversion.
+This will cause user not able to get into advanced launcher page and launch the game.
+
+After identify the server version on your device, you can manually create and fill the configuration file with the right
+content. The following are common configurations.
+
+::: info
+Please modify `game_version` to the current game version yourself
+:::
+
+::: tabs#game_config_samples
+
+@tab CN Server Official
+
+```
+[General]
+channel=1
+cps=mihoyo
+game_version=4.1.0
+sub_channel=1
+plugin_7_version=1.0.0
+```
+
+@tab Global Server Official
+
+```
+[General]
+channel=1
+cps=mihoyo
+game_version=4.1.0
+sub_channel=0
+plugin_7_version=1.0.0
+```
+
+:::
