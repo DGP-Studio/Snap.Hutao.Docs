@@ -1,0 +1,19 @@
+// 当站点 url 语言与当前语言不一致时，会弹出提示框
+// 该功能由插件 @vuepress/plugin-redirect 提供
+// 对于组件 class https://github.com/vuepress/ecosystem/blob/main/plugins/plugin-redirect/src/client/styles/language-switch.scss
+// 对于组件 var https://github.com/vuepress/ecosystem/blob/main/plugins/plugin-redirect/src/client/styles/vars.css
+// 由于在 class 文件中定义的变量未在 var 文件中定义，导致确认的第一个按钮不可见
+// 故本文件对 class 文件进行补充定义，并增加了提示框在深色模式下的背景色
+
+// 由于以下两个变量未定义，导致确认的第一个按钮不可见
+:root {
+  --redirect-primary-color: var(--theme-color-light);
+  --redirect-primary-hover-color: var(--theme-color-dark);
+}
+
+// 提示框在深色模式下的背景色
+html[data-theme=dark] {
+  .lang-modal-wrapper {
+    background: var(--bg-color);
+  }
+}
