@@ -42,14 +42,6 @@ Snap.Hutao.Deployment 是开发组自制的一键安装器，**将同时安装�
 <div class="vp-card-container">
 
 <VPCard
-title="加入用户社区"
-desc="我们会在用户社区手动分发安装器"
-logo="/images/202312/community.svg"
-link="community.html"
-background="rgba(242, 255, 28, 0.25)"
-/>
-
-<VPCard
 title="胡桃自动判断"
 desc="自动判断最佳线路下载"
 logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
@@ -91,27 +83,28 @@ background="rgba(244, 125, 63, 0.15)"
     <p>我们建议使用 Snap.Hutao.Deployment 来安装胡桃，任何使用 MSIX 安装包安装时出现的问题均不会被积极处理。</p>
   </div>
 
-  <VPCard
+<VPCard
     title="胡桃自动判断"
     desc="自动判断最佳线路下载"
     logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
     link="https://api.snapgenshin.com/patch/hutao/download"
     background="rgba(253, 233, 233, 0.45)"
   />
-  <VPCard
+<VPCard
     title="GitHub"
     desc="Snap Hutao 所有版本均会发布于主代码库中"
     logo="/images/202312/github-mark.svg"
     link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
     background="rgba(155, 233, 168, 0.15)"
   />
-  <VPCard
+<VPCard
     title="极狐 GitLab"
     desc="Snap Hutao 主代码库的官方中国镜像"
     logo="/images/202312/jihulab.svg"
     link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
     background="rgba(244, 125, 63, 0.15)"
   />
+
 </div>
 
 :::
@@ -197,7 +190,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 当你问出这个问题的时候，那答案已经是不可以了，因为你完全不了解你的操作系统。
 
 你不知道你手中所谓的精简版系统少了多少必要组件。当你装上了一个组件，解决了当前的问题，你还会遇上下一个问题。
-  
+
 ::: warning
 以下问题仅适用于 MSIX 安装，请先尝试使用 [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) 来解决你的安装问题
 :::

@@ -44,14 +44,6 @@ Snap.Hutao.Deployment is a quick installer, **it installs required supporting fr
 <div class="vp-card-container">
 
 <VPCard
-title="Join the Community"
-desc="We will manually upload the installer in the community"
-logo="/images/202312/community.svg"
-link="community.html"
-background="rgba(242, 255, 28, 0.25)"
-/>
-
-<VPCard
 title="Hutao Auto Download"
 desc="Automatically determine the best source for downloading"
 logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
@@ -93,28 +85,21 @@ background="rgba(244, 125, 63, 0.15)"
     <p>We recommend using Snap.Hutao.Deployment to install Snap Hutao. Any problems that arise when installing using MSIX installation packages will not be actively handled.</p>
   </div>
 
-  <VPCard
-    title="Join the Community"
-    desc="We will manually upload package in the community after each update"
-    logo="/images/202312/community.svg"
-    link="community.html"
-    background="rgba(242, 255, 28, 0.25)"
-  />
-  <VPCard
+<VPCard
     title="Hutao Auto Download"
     desc="Automatically determine the best source for downloading"
     logo="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp"
     link="https://api.snapgenshin.com/patch/hutao/download"
     background="rgba(253, 233, 233, 0.45)"
   />
-  <VPCard
+<VPCard
     title="GitHub"
     desc="We always release package first in Snap Hutao repository"
     logo="/images/202312/github-mark.svg"
     link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
     background="rgba(155, 233, 168, 0.15)"
   />
-  <VPCard
+<VPCard
     title="Jihu GitLab"
     desc="Official China mirror of Snap Hutao repository"
     logo="/images/202312/jihulab.svg"
@@ -205,8 +190,8 @@ find all documents in this website.**_
 ### Mojibake in Snap Hutao Icons
 
 - If you are using Windows 10 and see some button are not display properly
-    - You can download `Segoe Fluent Icons` font
-    - You need to install it for all users
+  - You can download `Segoe Fluent Icons` font
+  - You need to install it for all users
 - You can find this font from [Microsoft](https://aka.ms/SegoeFluentIcons)
 
 ### Can I Add Missing System Components to Install Snap Hutao
