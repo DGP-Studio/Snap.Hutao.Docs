@@ -63,3 +63,13 @@ verification, then your account can be used to refresh data.
 
 - Hover the cursor over the form of Real-time Notes account that needs to delete
 - Clock on the remove button on it, and you can remove the corresponding account
+
+## FAQ
+
+### Why does setting up automatic refresh of real-time notes prompt "Failed to modify Scheduled Task"
+
+The automatic refresh of real-time notes relies on task scheduling. In order to avoid possible permission issues, Snap Hutao will force scheduled tasks to be set in non-administrator mode.
+
+If you turned on automatic refresh in the old version, you can solve the problem by manually deleting the old task schedule in Task Scheduler. The name of the scheduled task is `SnapHutaoDailyNoteRefreshTask`.
+
+If you did not turn on automatic refresh in the old version, then this problem is caused by the Windows user account you are currently using having insufficient permissions. If your current user account is an administrator account, you can only solve this problem by reinstalling the system.
