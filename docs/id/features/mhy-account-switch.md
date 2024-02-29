@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [Fitur, Tutorial]
 tag: [MiYouShe, HoYoLAB, Multi Akun, check-in]
 order: 13

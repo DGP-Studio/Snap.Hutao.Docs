@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [Fitur, Tutorial]
 tag: [Spiral Abyss, Basis Data Spiral Abyss, Analisis Spiral Abyss]
 order: 8

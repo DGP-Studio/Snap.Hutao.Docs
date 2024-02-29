@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 comment: statements and Announcements
 index: false
 icon: iconfont icon-blog

@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [Feature, Tutorial]
 order: 16
 tag: [Snap Hutao Account, Snap Hutao Cloud, Hutao Passport]

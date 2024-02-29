@@ -1,6 +1,6 @@
 ```markdown
 ---
-headerDepth: 0
+headerDepth: 2
 category: [Fitur, Tutorial]
 tag:
   [Snap Hutao Cloud, Verifikasi Geetest, Pengaturan Bahasa, Pengaturan Lanjutan]

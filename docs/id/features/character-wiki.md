@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [Fitur, Tutorial]
 tag: [Karakter, WIKI, Data]
 order: 10

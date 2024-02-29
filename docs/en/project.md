@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [announcement, project, features]
 comment: false
 icon: iconfont icon-workingDirectory
