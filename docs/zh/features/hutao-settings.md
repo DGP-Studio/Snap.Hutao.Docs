@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [功能, 教程]
 tag: [胡桃云, 极验验证, 语言设置, 高级功能]
 order: 15

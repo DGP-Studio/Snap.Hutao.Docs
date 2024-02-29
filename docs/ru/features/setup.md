@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [Feature, Tutorial]
 order: 1
 comment: false

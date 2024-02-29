@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [功能, 教程]
 order: 3
 tag: [反馈, 问题]

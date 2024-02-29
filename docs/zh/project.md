@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [公告, 项目, 功能]
 comment: false
 icon: iconfont icon-workingDirectory

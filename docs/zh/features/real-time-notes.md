@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [功能, 教程]
 tag: [实时便笺, 派遣, 树脂]
 order: 7

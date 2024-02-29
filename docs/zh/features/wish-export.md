@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [功能, 教程]
 tag: [祈愿导出, 抽卡, 祈愿]
 order: 5

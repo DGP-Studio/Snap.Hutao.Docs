@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [功能, 教程]
 tag: [角色, WIKI, 数据]
 order: 11

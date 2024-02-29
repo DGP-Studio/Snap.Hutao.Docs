@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [Feature, Tutorial]
 tag: [MiYouShe, HoYoLAB, Multi account, check-in]
 order: 13

@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category:
   - Анонс
 icon: iconfont icon-debug

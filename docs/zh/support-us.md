@@ -4,7 +4,7 @@ externalLinkIcon: false
 comment: false
 icon: iconfont icon-like
 index: false
-headerDepth: 0
+headerDepth: 2
 ---
 
 # 支持我们

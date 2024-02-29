@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [功能, 教程]
 tag: [帧率解锁, 服务器转换, 切换帐号]
 order: 4

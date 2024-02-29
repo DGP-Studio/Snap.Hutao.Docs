@@ -1,5 +1,5 @@
 ---
-headerDepth: 0
+headerDepth: 2
 category: [公告]
 icon: iconfont icon-debug
 order: 2
