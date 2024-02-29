@@ -106,9 +106,9 @@ Genshin Impact has temporarily disabled the HDR feature, so the feature will not
   - `-monitor` parameter
     - **Monitor**, allows users with multiple monitors to choose a specific monitor to run the game
     - If you can't determine which monitor each option represents, you can click `Identify Monitor` to get a hint.
-    ::: warning
-    Please note that modifying the primary monitor may cause the game to appear on a monitor that does not correspond to the numbered monitor.
-    :::
+      ::: warning
+      Please note that modifying the primary monitor may cause the game to appear on a monitor that does not correspond to the numbered monitor.
+      :::
 
 ## Resource Download
 
@@ -159,6 +159,30 @@ Fact that may cause **failure in unlocking frame rate limit**:
 3. `Max Framerate` limit is not changed in your graphic card settings
 4. `Power Saving` mode is not disabled in power settings
 5. Your graphic card is not powerful enough
+
+## InterProcess
+
+> InterProcess is a professional term in the computer field. In this paragraph, it refers to the linkage function between Snap Hutao and other applications.
+
+### Game Hours Record
+
+**To use Game Hours Record feature, you need install and config [Starward](https://github.com/Scighost/Starward) application**
+
+With this feature enabled, Snap Hutao will call the Starward communication interface to start time statistics after Snap Hutao starts Genshin Impact game. You will be able to see your game time statistics in the Starward.
+
+### Better GI
+
+> Better Genshin Impact is not available in languages other than Simplified Chinese
+
+**To use Better GI linkage function, you need install and config [Better Genshin Impact](https://bgi.huiyadan.com/) application**
+
+With this feature enabled, Snap Hutao will call Better Genshin Impact's communication interface, allowing it to activate its automated features based on computer vision technology after Snap Hutao launches the game.
+
+### Discord Activity
+
+**To enable Discord Activity, you need install and config [Discord](https://discord.com/) application**
+
+With this feature enabled, Snap Hutao will generate real-time Discord Activity in your Discord card.
 
 ## FAQ
 
