@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 02 Mar 2024 04:32:42 GMT</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2024 04:32:42 GMT</lastBuildDate>
+    <pubDate>Sat, 02 Mar 2024 09:02:39 GMT</pubDate>
+    <lastBuildDate>Sat, 02 Mar 2024 09:02:39 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -267,7 +267,7 @@
 </details>
 <details class="hint-container details"><summary>资源下载</summary>
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01QILPRh1g6dyHTUpV9_!!1797064093.png_.webp" alt="" loading="lazy"></p>
-<p>在该步骤中，胡桃工具箱将自动下载所需要的静态图片资源。下载完成后，胡桃将关闭初始化设置流程界面并自动加载主程序。</p>
+<p>在该步骤中，胡桃工具箱将自动下载所需要的静态图片资源。下载完成后，胡桃将关闭初始化设置流程界面并自动加载主程序。如果下载时出现错误，您可以通过寻找错误处理章节中<a href="/zh/features/..%5Cadvanced%5Cexceptions.html#%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5" target="_blank">资源下载失败</a>部分以寻找可能的解决方案。</p>
 </details>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN016IMEtP1g6dyEFo5uK_!!1797064093.png_.webp" type="image/webp"/>
@@ -920,7 +920,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2>HttpRequestException 元数据校验文件下载失败</h2>
 <h3>ConnectionError</h3>
 <p>连接到胡桃服务器时失败，请检查胡桃客户端的网络连接</p>
-<p>如果你使用了网络代理，请务必检查是否<a href="/zh/advanced/FAQ.html#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86%E4%BD%BF%E7%94%A8%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1" target="_blank">解除了 Windows 容器 Loopback 限制</a></p>
+<p>如果你使用了网络代理（包括由加速器创建的网络代理），请务必检查是否<a href="/zh/advanced/FAQ.html#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86%E4%BD%BF%E7%94%A8%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1" target="_blank">解除了 Windows 容器 Loopback 限制</a></p>
 <h3>403 (Forbidden)/ 404 (NOT FOUND)</h3>
 <p>解决方案：更新胡桃工具箱至<a href="/zh/quick-start.html#%E5%85%A8%E6%96%B0%E5%AE%89%E8%A3%85" target="_blank">最新版本</a></p>
 <h3>502 (Bad Gateway)</h3>
@@ -935,6 +935,12 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 <p>如果你使用了网络代理，请务必检查是否<a href="/zh/advanced/FAQ.html#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86%E4%BD%BF%E7%94%A8%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1" target="_blank">解除了 Windows 容器 Loopback 限制</a></p>
+<h2>资源下载失败</h2>
+<p>一小部分的静态资源的下载失败不会明显导致 Snap Hutao 的体验变差，客户端会在需要时自动重新下载缺失的图片资源。</p>
+<h3><code>Received an unexpected EOF or 0 bytes from the transport stream.</code></h3>
+<p>可能因触发了下载量限制或网络波动等多因素引发。您可以关闭胡桃后稍等片刻再尝试下载，也可以尝试切换网络（例如将校园网更换为其他网络）</p>
+<h3>响应内容不是有效的文件字节流</h3>
+<p>可能因触发了下载量限制或网络波动等多因素引发。您可以关闭胡桃后稍等片刻再尝试下载，也可以尝试切换网络（例如将校园网更换为其他网络）</p>
 <h2>在查找必要的模块时出现问题</h2>
 <p>当用户在解锁游戏帧数限制的情况下启动游戏时，可能会遇上以下错误提示并启动游戏失败</p>
 <ol>
