@@ -52,7 +52,7 @@ comment: false
 
 连接到胡桃服务器时失败，请检查胡桃客户端的网络连接
 
-如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md#如何通过网络代理使用胡桃工具箱)（注：其他以代理网络方式实现的加速器软件也需要注意此问题）
+如果你使用了网络代理（包括由加速器创建的网络代理），请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md#如何通过网络代理使用胡桃工具箱)
 
 ### 403 (Forbidden)/ 404 (NOT FOUND)
 
@@ -71,6 +71,8 @@ comment: false
 如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md#如何通过网络代理使用胡桃工具箱)
 
 ## 资源下载失败
+
+一小部分的静态资源的下载失败不会明显导致 Snap Hutao 的体验变差，客户端会在需要时自动重新下载缺失的图片资源。
 
 ### `Received an unexpected EOF or 0 bytes from the transport stream.`
 
