@@ -9,7 +9,7 @@ tagline: <a href="https://trendshift.io/repositories/2009"><img src="https://tre
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
 description: Snap Hutao 是一个实用的开源多功能原神工具箱，专为现代化 Windows 平台设计，改善桌面端玩家的游戏体验。
-image: https://img.alicdn.com/imgextra/i3/1797064093/O1CN01sh4tKQ1g6e0nrMGai_!!1797064093.png_.webp
+image: /images/202403/zh-default-social.webp
 head:
   - - meta
     - name: keywords

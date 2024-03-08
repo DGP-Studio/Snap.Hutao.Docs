@@ -9,7 +9,7 @@ tagline: <a href="https://trendshift.io/repositories/2009"><img src="https://tre
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
 description: Snap Hutao is a multifunctional open-source Genshin Toolkit. It is designed for modern Windows platform to improve the gaming experience for desktop players.
-image: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ogJFxz1g6e0yCZjs0_!!1797064093.png_.webp
+image: /images/202403/zh-default-social.webp
 head:
   - - meta
     - name: keywords
