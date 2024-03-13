@@ -9,7 +9,22 @@ externalLinkIcon: false
 
 # Update Logs
 
-## 1.9.7 <Badge text="latest" type="tip" />
+## 1.9.8 <Badge text="latest" type="tip" />
+
+- New ➕
+  - Added support for Chronicled Wish [#1470](https://github.com/DGP-Studio/Snap.Hutao/issues/1470)
+  - Added support for UIGF v3.0 wish data format
+  - Added dark/light mode setting option in the settings page [#1434](https://github.com/DGP-Studio/Snap.Hutao/issues/1434)
+- Fix 🔨
+  - Fixed the card display issue under some particular Windows display settings values [#1429](https://github.com/DGP-Studio/Snap.Hutao/issues/1429)
+  - Fixed the issue that network issue may cause client conversion between CN server and oversea server failed [#1433](https://github.com/DGP-Studio/Snap.Hutao/issues/1433)
+- Optimization ✨
+  - The WIKI search/filtering feature has been greatly enhanced, users will now get prompts when typing [#1120](https://github.com/DGP-Studio/Snap.Hutao/issues/1120)
+  - Optimized the text in some InterProcess features in Advanced Game Launcher [#1432](https://github.com/DGP-Studio/Snap.Hutao/issues/1432)
+  - Optimized the display UI of Wanderlust Invocation in Wish Export page [#1460](https://github.com/DGP-Studio/Snap.Hutao/issues/1460)
+  - Optimized the time range text when the wish data is empty [#1443](https://github.com/DGP-Studio/Snap.Hutao/issues/1443)
+
+## 1.9.7
 
 - New ➕
   - Added [Better Genshin Impact](https://bgi.huiyadan.com/) joint start up option in the advanced launcher, users now can start Genshin Impact and BGI together in Snap Hutao [#1388](https://github.com/DGP-Studio/Snap.Hutao/issues/1388)

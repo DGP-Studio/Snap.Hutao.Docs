@@ -8,10 +8,25 @@ externalLinkIcon: false
 
 # 更新日志
 
-## 1.9.7 <Badge text="最新版" type="tip" />
+## 1.9.8 <Badge text="最新版" type="tip" />
 
 - 新增 ➕
-  - 在高级启动器中新增与 [Better Genshin Impact](https://bgi.huiyadan.com/) 程序的联动启动功能，用户现在可以在通过 Snap Hutao 启动游戏的同时，自动启动 BGI [#1388](https://github.com/DGP-Studio/Snap.Hutao/issues/1388)
+  - 新增对集录祈愿卡池的支持 [#1470](https://github.com/DGP-Studio/Snap.Hutao/issues/1470)
+  - 增加对 UIGF v3.0 祈愿数据格式的支持
+  - 新增程序内切换应用深浅色主题的设置选项 [#1434](https://github.com/DGP-Studio/Snap.Hutao/issues/1434)
+- 修复 🔨
+  - 修复了在特定的 Windows 显示设置下，主页卡片的显示问题 [#1429](https://github.com/DGP-Studio/Snap.Hutao/issues/1429)
+  - 修复了因网络问题，国际服和官服之间有概率转换失败的情况 [#1433](https://github.com/DGP-Studio/Snap.Hutao/issues/1433)
+- 优化 ✨
+  - 大幅增强了 WIKI 搜索筛选功能，现在用户在输入时会获得提示 [#1120](https://github.com/DGP-Studio/Snap.Hutao/issues/1120)
+  - 修正了部分游戏启动器中与进程间相关功能的用词 [#1432](https://github.com/DGP-Studio/Snap.Hutao/issues/1432)
+  - 重新设计了祈愿记录页面中常驻祈愿数据展示的 UI [#1460](https://github.com/DGP-Studio/Snap.Hutao/issues/1460)
+  - 优化了在祈愿卡池数据为空时，祈愿记录时间范围的语句 [#1443](https://github.com/DGP-Studio/Snap.Hutao/issues/1443)
+
+## 1.9.7
+
+- 新增 ➕
+  - 在高级启动器中新增与 [Better Genshin Impact](https://bgi.huiyadan.com/) 程序的联动启动zh功能，用户现在可以在通过 Snap Hutao 启动游戏的同时，自动启动 BGI [#1388](https://github.com/DGP-Studio/Snap.Hutao/issues/1388)
   - 新增了多个客户端背景图的来源选项，包括：
     - 无背景图片（默认选项）
     - 本地随机图片
