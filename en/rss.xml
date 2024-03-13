@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 13 Mar 2024 01:30:23 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2024 01:30:23 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 06:31:32 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 06:31:32 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -819,11 +819,39 @@ running as Administrator
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>Update Logs 1.9.7 New ➕ Added Better Genshin Impact joint start up option in the advanced launcher, users now can start Genshin Impact and BGI together in Snap Hutao #1388 Added...</description>
+      <description>Update Logs 1.9.8 New ➕ Added support for Chronicled Wish #1470 Added support for UIGF v3.0 wish data format Added dark/light mode setting option in the settings page #1434 Fix ...</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.9.7 </h2>
+<h2>1.9.8 </h2>
+<ul>
+<li>New ➕
+<ul>
+<li>Added support for Chronicled Wish <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1470" target="_blank" rel="noopener noreferrer">#1470</a></li>
+<li>Added support for UIGF v3.0 wish data format</li>
+<li>Added dark/light mode setting option in the settings page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1434" target="_blank" rel="noopener noreferrer">#1434</a></li>
+</ul>
+</li>
+<li>Fix 🔨
+<ul>
+<li>Fixed the card display issue under some particular Windows display settings values <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1429" target="_blank" rel="noopener noreferrer">#1429</a></li>
+<li>Fixed the issue that network issue may cause client conversion between CN server and oversea server failed <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1433" target="_blank" rel="noopener noreferrer">#1433</a></li>
+<li>Fixed the wrong OTA package name and link in downloadable resource page in Advanced Game Launcher</li>
+</ul>
+</li>
+<li>Optimization ✨
+<ul>
+<li>The WIKI search/filtering feature has been greatly enhanced, users will now get prompts when typing <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1120" target="_blank" rel="noopener noreferrer">#1120</a></li>
+<li>Optimized the text in some InterProcess features in Advanced Game Launcher <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1432" target="_blank" rel="noopener noreferrer">#1432</a></li>
+<li>Optimized the display UI of Wanderlust Invocation in Wish Export page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1460" target="_blank" rel="noopener noreferrer">#1460</a></li>
+<li>Optimized the time range text when the wish data is empty <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1443" target="_blank" rel="noopener noreferrer">#1443</a></li>
+<li>Re-enabled the background material in main window</li>
+<li>Background image will now be refreshed immediately after changing the background image source setting</li>
+<li>Optimized the Teams UI in Spiral Abyss page</li>
+</ul>
+</li>
+</ul>
+<h2>1.9.7</h2>
 <ul>
 <li>New ➕
 <ul>

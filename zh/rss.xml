@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 13 Mar 2024 01:30:23 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2024 01:30:23 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 06:31:32 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 06:31:32 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -2180,11 +2180,39 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>更新日志 1.9.7 新增 ➕ 在高级启动器中新增与 Better Genshin Impact 程序的联动启动功能，用户现在可以在通过 Snap Hutao 启动游戏的同时，自动启动 BGI #1388 新增了多个客户端背景图的来源选项，包括： 无背景图片（默认选项） 本地随机图片 Bing 每日图片 胡桃每日图片 原神官方启动器背景图 修复 🔨 ...</description>
+      <description>更新日志 1.9.8 新增 ➕ 新增对集录祈愿卡池的支持 #1470 增加对 UIGF v3.0 祈愿数据格式的支持 新增程序内切换应用深浅色主题的设置选项 #1434 修复 🔨 修复了在特定的 Windows 显示设置下，主页卡片的显示问题 #1429 修复了因网络问题，国际服和官服之间有概率转换失败的情况 #1433 修复了启动游戏下载页签预下载...</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.9.7 </h2>
+<h2>1.9.8 </h2>
+<ul>
+<li>新增 ➕
+<ul>
+<li>新增对集录祈愿卡池的支持 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1470" target="_blank" rel="noopener noreferrer">#1470</a></li>
+<li>增加对 UIGF v3.0 祈愿数据格式的支持</li>
+<li>新增程序内切换应用深浅色主题的设置选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1434" target="_blank" rel="noopener noreferrer">#1434</a></li>
+</ul>
+</li>
+<li>修复 🔨
+<ul>
+<li>修复了在特定的 Windows 显示设置下，主页卡片的显示问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1429" target="_blank" rel="noopener noreferrer">#1429</a></li>
+<li>修复了因网络问题，国际服和官服之间有概率转换失败的情况 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1433" target="_blank" rel="noopener noreferrer">#1433</a></li>
+<li>修复了启动游戏下载页签预下载的下载链接与名称不正确的问题</li>
+</ul>
+</li>
+<li>优化 ✨
+<ul>
+<li>大幅增强了 WIKI 搜索筛选功能，现在用户在输入时会获得提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1120" target="_blank" rel="noopener noreferrer">#1120</a></li>
+<li>修正了部分游戏启动器中与进程间相关功能的用词 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1432" target="_blank" rel="noopener noreferrer">#1432</a></li>
+<li>重新设计了祈愿记录页面中常驻祈愿数据展示的 UI <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1460" target="_blank" rel="noopener noreferrer">#1460</a></li>
+<li>优化了在祈愿卡池数据为空时，祈愿记录时间范围的文本 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1443" target="_blank" rel="noopener noreferrer">#1443</a></li>
+<li>主窗体重新启用了背景材料显示</li>
+<li>切换背景选项后立即刷新背景，无需重启生效</li>
+<li>优化了深境螺旋本期统计中队伍上场页签的 UI</li>
+</ul>
+</li>
+</ul>
+<h2>1.9.7</h2>
 <ul>
 <li>新增 ➕
 <ul>
