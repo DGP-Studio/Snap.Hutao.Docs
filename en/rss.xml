@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 02 Mar 2024 09:02:39 GMT</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2024 09:02:39 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 01:30:23 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 01:30:23 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -1813,7 +1813,7 @@ community members can contribute Japanese language on <a href="https://translate
       <link>https://hut.ao/en/i18n.html</link>
       <guid>https://hut.ao/en/i18n.html</guid>
       <source url="https://hut.ao/en/rss.xml">Localization</source>
-      <description>Localization Localization Process Snap Hutao Project features were originally based on the China server, but we are also trying to expand the coverage globally through the suppo...</description>
+      <description>Snap Hutao hopes to help players from all over the world. In addition to maintaining the simplified Chinese and English of the program, we also accept translations from community members.</description>
       <category>Announcement</category>
       <category>i18n</category>
       <pubDate>Sat, 18 Mar 2023 03:05:17 GMT</pubDate>
@@ -1841,14 +1841,14 @@ community members can contribute Japanese language on <a href="https://translate
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> Oversea server character stat</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> HoYoLab login</label>
 <ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> International server Abyss recrod</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> International server Abyss record</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> Daily Notes</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-15" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-15"> Multilingual in-game announcements</label></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>Snao Hutao Docs
+<li>Snap Hutao Docs
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-16" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-16"> Localization framework</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> Web translation process:</label>
@@ -2970,7 +2970,7 @@ and include it in your issue</label></li>
       <link>https://hut.ao/en/project.html</link>
       <guid>https://hut.ao/en/project.html</guid>
       <source url="https://hut.ao/en/rss.xml">Project</source>
-      <description>Project banner DGP-Studio%2FSnap.Hutao | Trendshift Snap Hutao is an open-source Genshin Impact toolkit under MIT license, designed for modern Windows platform to improve the ga...</description>
+      <description>Snap Hutao is a multifunctional open-source Genshin Toolkit. It is designed for modern Windows platform to improve the gaming experience for desktop players.</description>
       <category>announcement</category>
       <category>project</category>
       <category>features</category>

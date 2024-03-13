@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 02 Mar 2024 09:02:39 GMT</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2024 09:02:39 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 01:30:23 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 01:30:23 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -550,7 +550,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/i18n.html</link>
       <guid>https://hut.ao/zh/i18n.html</guid>
       <source url="https://hut.ao/zh/rss.xml">国际化支持</source>
-      <description>国际化支持 国际化进度 Snap Hutao 虽然基于原神国服提供功能，但项目也有意提升国际化支持，包括语言本土化和功能国际化。目前国际化进度如下： Snap Hutao 主项目 语言本土化技术框架 客户端翻译 进度：Crowdin 英语 繁体中文 韩语 日语 （进行中） 印尼语 (进行中 作者：NatsumeAoii) 俄语 （进行中 作者：QweR...</description>
+      <description>Snap Hutao希望能帮助到来自世界各地的玩家，我们在维护程序的简体中文和英文以外还接受来自社区成员提供的翻译。</description>
       <category>公告</category>
       <category>i18n</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -640,7 +640,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/project.html</link>
       <guid>https://hut.ao/zh/project.html</guid>
       <source url="https://hut.ao/zh/rss.xml">项目说明</source>
-      <description>项目说明 banner DGP-Studio%2FSnap.Hutao | Trendshift 胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新 功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏...</description>
+      <description>Snap Hutao 是一个实用的开源多功能原神工具箱，专为现代化 Windows 平台设计，改善桌面端玩家的游戏体验。</description>
       <category>公告</category>
       <category>项目</category>
       <category>功能</category>
