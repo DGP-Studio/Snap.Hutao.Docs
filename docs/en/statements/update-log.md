@@ -18,11 +18,15 @@ externalLinkIcon: false
 - Fix 🔨
   - Fixed the card display issue under some particular Windows display settings values [#1429](https://github.com/DGP-Studio/Snap.Hutao/issues/1429)
   - Fixed the issue that network issue may cause client conversion between CN server and oversea server failed [#1433](https://github.com/DGP-Studio/Snap.Hutao/issues/1433)
+  - Fixed the wrong OTA package name and link in downloadable resource page in Advanced Game Launcher
 - Optimization ✨
   - The WIKI search/filtering feature has been greatly enhanced, users will now get prompts when typing [#1120](https://github.com/DGP-Studio/Snap.Hutao/issues/1120)
   - Optimized the text in some InterProcess features in Advanced Game Launcher [#1432](https://github.com/DGP-Studio/Snap.Hutao/issues/1432)
   - Optimized the display UI of Wanderlust Invocation in Wish Export page [#1460](https://github.com/DGP-Studio/Snap.Hutao/issues/1460)
   - Optimized the time range text when the wish data is empty [#1443](https://github.com/DGP-Studio/Snap.Hutao/issues/1443)
+  - Re-enabled the background material in main window
+  - Background image will now be refreshed immediately after changing the background image source setting
+  - Optimized the Teams UI in Spiral Abyss page
 
 ## 1.9.7
 
