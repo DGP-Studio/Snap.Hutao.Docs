@@ -4,8 +4,8 @@ category: [announcement, project, features]
 comment: false
 icon: iconfont icon-workingDirectory
 order: 6
-description: Snap Hutao is a multifunctional open-source Genshin Toolkit. It is designed for modern Windows platform to improve the gaming experience for desktop players.
-image: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ogJFxz1g6e0yCZjs0_!!1797064093.png_.webp
+description: Snap Hutao is an open-source program project, and we widely accept collaborations from the community to keep the project dynamic.
+banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
 ---
 
 # Project
