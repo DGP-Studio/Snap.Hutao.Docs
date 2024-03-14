@@ -4,6 +4,8 @@ category: [Announcement]
 comment: false
 icon: iconfont icon-community
 order: 8
+description: You can join Snap Hutao's social community here, to chat with others players in various of topics.
+banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
 ---
 
 # Join Community

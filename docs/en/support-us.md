@@ -5,11 +5,13 @@ comment: false
 icon: iconfont icon-like
 index: false
 headerDepth: 2
+description: The Snap Hutao project accepts donations from the community to keep the project operations, and we sincerely thank everyone who has supported this project.
+banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
 ---
 
 # Support us
 
-Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of our development team are currently self-funding the project's operation, with the main expenses being the network system components required by server (you can find our annual expenditure summary below on this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but also benefit every Snap Hutao user. Currently, you can donate us in the following ways:
+Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of our development team are currently self-funding the project's operation. We used modern software to reduce our operation costs, with the main expenses being the network system components required by server (you can find our annual expenditure summary below on this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but also benefit every Snap Hutao user. Currently, you can donate us in the following ways:
 
 ## Donation
 
