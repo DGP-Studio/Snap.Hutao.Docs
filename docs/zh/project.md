@@ -4,8 +4,8 @@ category: [公告, 项目, 功能]
 comment: false
 icon: iconfont icon-workingDirectory
 order: 6
-description: Snap Hutao 是一个实用的开源多功能原神工具箱，专为现代化 Windows 平台设计，改善桌面端玩家的游戏体验。
-image: /images/202403/zh-default-social.webp
+description: Snap Hutao 是一个开源于 GitHub 的程序项目，我们广泛接受来自社区的合作以让这个项目获得更多的活力。
+banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png
 ---
 
 # 项目说明
@@ -15,8 +15,7 @@ image: /images/202403/zh-default-social.webp
 <a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 :::
 
-胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新
-功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。
+胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。
 
 Snap Hutao 项目使用 MSIX 格式的安装包打包。MSIX 是一种 Windows 原生的应用程序包格式，它使得软件的安装、更新和卸载过程更加简洁。其中，它的一个突出特性就是利用沙盒技术。这意味着以 MSIX 打包的应用程序在隔离的环境中运行，防止它们进行系统范围的更改。这种隔离增强了安全性，因为它限制了应用程序对系统资源和用户数据的访问。此外，当卸载 MSIX 打包的应用程序时，它不会留下任何残余文件或注册表条目，保持了系统的整洁和稳定。这是对传统安装方法的重大改进，因为传统方法在卸载应用程序时常常会留下“数字垃圾”。这些特性的结合使 MSIX 成为开发者和终端用户的强大工具，提供了无缝、安全、清洁的软件管理体验。
 
