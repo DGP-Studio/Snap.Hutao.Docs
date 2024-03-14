@@ -4,6 +4,8 @@ category: 公告
 comment: false
 icon: iconfont icon-community
 order: 8
+description: 在这里你可以加入 Snap Hutao 的相关社区，与其它玩家交流方方面面的话题。
+banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png
 ---
 
 # 加入用户社区
