@@ -7,11 +7,13 @@ category:
 comment: false
 icon: iconfont icon-launch
 order: 5
+description: Follow the quick start instruction on this page, you can set up your Snap Hutao quickly.
+banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
 ---
 
 # Quick Start
 
-Follow this document's instruction, you can set up your Snap Hutao quickly.
+Follow the quick start instruction on this page, you can set up your Snap Hutao quickly.
 
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> Minimum System Requirements
 
