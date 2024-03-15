@@ -11,8 +11,6 @@ banner: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01dxghiV1g6e22PI4pe_!!
 
 ![成就管理界面](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01fApvim1g6e0xyGQvS_!!1797064093.png_.webp)
 
-<!-- more -->
-
 胡桃工具箱提供原神成就管理功能，你可以通过它浏览并管理所有的成就状态, 通过强大的筛选系统，你可以从版本号、成就名称、成就描述和所属地区来轻松地搜索指定的成就。
 
 <!-- more -->
