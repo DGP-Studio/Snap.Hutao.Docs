@@ -49,3 +49,9 @@ comment: false
 
 1. 在网络代理软件中启用 TUN 模式
 2. 在反馈中心中解除 Loopback 限制
+
+### 搜索时拼音字母自动上屏
+
+如果你使用的是 `Rime` 输入法，请参考 [GitHub Rime Issues 714](https://github.com/rime/weasel/issues/714#issuecomment-1999132993) 的解决方案
+
+如果你使用的是其他输入法，请检查拼音与拼音间的分隔字符。如果分隔字符是空格，请将其修改为 `'` 等其他字符。示例：原分隔字符为空格，打字时显示为 `hu tao`，修改分隔字符为 `'` 后显示为 `hu'tao`
