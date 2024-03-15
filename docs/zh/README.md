@@ -8,10 +8,12 @@ heroText: 胡桃工具箱
 tagline: <a href="https://trendshift.io/repositories/2009"><img src="https://trendshift.io/api/badge/repositories/2009" alt="trend"/></a><br>实用的开源多功能原神工具箱 🧰
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
+description: Snap Hutao 是一个实用的开源多功能原神工具箱，专为现代化 Windows 平台设计，改善桌面端玩家的游戏体验。
+image: /images/202403/zh-default-social.webp
 head:
   - - meta
-    - name: twitter:image:src
-      content: https://repository-images.githubusercontent.com/482734649/eb0f81d6-29a8-4d3c-8012-d85475cd89ee
+    - name: keywords
+      content: 原神,胡桃工具箱,Snap Hutao,胡桃
 actions:
   - text: 开始使用
     link: quick-start.html
