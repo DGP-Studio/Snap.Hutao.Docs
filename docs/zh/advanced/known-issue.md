@@ -3,6 +3,7 @@ headerDepth: 2
 icon: iconfont icon-tool
 category: [FAQ]
 order: 3
+description: 我们在 GitHub 议题页面使用了多种标签来标记用户提交的问题，你可以通过这些标签来确认问题的状态。
 ---
 
 # 已知问题

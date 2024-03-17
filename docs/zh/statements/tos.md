@@ -5,6 +5,7 @@ comment: false
 editLink: false
 icon: iconfont icon-license
 order: 4
+description: Snap Hutao 的用户使用协议和法律声明。
 ---
 
 # 用户使用协议和法律声明

@@ -6,6 +6,7 @@ icon: iconfont icon-blog
 dir:
   text: 声明和公告
   order: 4
+description: 本页包含 Snap Hutao 全部声明和公告的目录。
 ---
 
 # 声明和公告
