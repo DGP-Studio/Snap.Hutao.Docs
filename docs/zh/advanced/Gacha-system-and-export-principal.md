@@ -4,6 +4,7 @@ category: [FAQ]
 icon: iconfont icon-read
 order: 8
 comment: false
+description: Snap Hutao 使用多种方式获取用户的登录信息并配合原神 API 获取祈愿记录。
 ---
 
 # 祈愿系统与导出原理

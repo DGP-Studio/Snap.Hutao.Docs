@@ -4,6 +4,7 @@ icon: iconfont icon-update
 order: 1
 comment: false
 externalLinkIcon: false
+description: Snap Hutao 通过持续地更新修复已知问题并发布全新功能，以保证用户获得最好的使用体验，我们将始终发布更新日志以追踪程序的变化。
 ---
 
 # 更新日志
