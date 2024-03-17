@@ -4,6 +4,7 @@ category: [功能, 教程]
 order: 3
 tag: [反馈, 问题]
 comment: false
+description: 胡桃工具箱内置的反馈中心，包含了 Snap Hutao 项目的重要链接，并内置了文档的搜索引擎，方便玩家在程序内部解决常见问题并搜索到解决方案。
 ---
 
 # 反馈中心

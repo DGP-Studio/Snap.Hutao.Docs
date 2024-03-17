@@ -6,6 +6,7 @@ category:
 tag: [武器, WIKI, 数据]
 order: 12
 comment: false
+description: 武器 WIKI 是胡桃工具箱中内置的武器资料库，玩家可以使用该功能查询原神内全部武器的具体信息，并为角色选择合适的武器。
 ---
 
 # 武器资料
