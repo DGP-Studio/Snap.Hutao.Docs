@@ -8,6 +8,7 @@ tag:
   - community
 icon: iconfont icon-group
 order: 1
+description: If you possess expertise in any of the technologies mentioned on this page and are interested in joining the Snap Hutao development team to enhance the project and engage with more open-source projects related to Genshin Impact, we welcome you to join us!
 ---
 
 # Join the Develop Team

@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 tag: [Weapon, WIKI, Data]
 order: 12
 comment: false
+description: The Weapons Wiki is an integrated weapon database within the Snap Hutao toolbox. Players can use this feature to access detailed information about all weapons in Genshin Impact and choose suitable weapons for their characters.
 ---
 
 # Weapon WIKI

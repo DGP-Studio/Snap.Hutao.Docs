@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 tag: [Character, WIKI, Data]
 order: 11
 comment: false
+description: The "Character Wiki" feature in Snap Hutao includes comprehensive information about all the characters in Genshin Impact. It provides essential data such as base information, talent values, constellations, and other important details. This feature helps players easily access and gather information about different characters in the game.
 ---
 
 # Character WIKI

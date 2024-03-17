@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 tag: [Achievement]
 order: 6
 comment: false
+description: Snap Hutao provides the functionality to manage Genshin Impact achievements. With it, you can browse and manage the status of all achievements. Using its powerful filtering system, you can easily search for specific achievements based on version number, achievement name, achievement description, and region affiliation.
 ---
 
 # Achievement Management

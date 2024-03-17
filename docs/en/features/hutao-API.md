@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 tag: [Spiral Abyss, Spiral Abyss Database, Spiral Abyss Analytics]
 order: 9
 comment: false
+description: The built-in Hutao Database feature in Snap Hutao is a database that helps players archive and query data for Abyssal Domains challenges. Players can easily obtain and locally archive data for each period of Abyssal Domains challenges with a single click, and submit the data to the Hutao Abyss Database.
 ---
 
 # Hutao Database / Abyss Record

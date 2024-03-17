@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 order: 16
 tag: [Snap Hutao Account, Snap Hutao Cloud, Hutao Passport]
 comment: false
+description: The Hutao Passport is the account system under the Snap Hutao project, which allows players to log in to the Hutao Cloud system and access benefits.
 ---
 
 # Snap Hutao Account

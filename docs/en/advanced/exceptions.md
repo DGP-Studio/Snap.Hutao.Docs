@@ -4,6 +4,7 @@ icon: iconfont icon-warn
 category: [FAQ]
 order: 2
 comment: false
+description: The Snap Hutao toolbox utilizes specific error codes to indicate particular errors. If you encounter a program error during usage and have an error code, you can try searching for it on this page.
 ---
 
 # Common Program Exceptions

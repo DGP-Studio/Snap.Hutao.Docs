@@ -6,6 +6,7 @@ comment: false
 editLink: false
 icon: iconfont icon-license
 order: 4
+description: User agreement and legal notices of Snap Hutao project.
 ---
 
 # User Agreement and Legal Notices

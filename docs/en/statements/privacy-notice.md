@@ -4,6 +4,7 @@ category:
   - Announcement
 icon: iconfont icon-license
 order: 3
+description: Please read this page carefully to understand the user data handling and privacy rights for the Snap Hutao project.
 ---
 
 # User Data and Privacy Notice

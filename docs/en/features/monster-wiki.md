@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 tag: [monster, WIKI, data]
 order: 13
 comment: false
+description: The Monster Wiki is an integrated monster database within Snap Hutao. Players can use this feature to access detailed information on all monsters in Genshin Impact. By analyzing the monsters, players can strategize and reduce the difficulty of the game.
 ---
 
 # Monster WIKI

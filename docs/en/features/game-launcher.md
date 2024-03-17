@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 tag: [unlock framerate, convert server, switch account]
 order: 4
 comment: false
+description: The game launcher within Snap Hutao offers additional features that enhance the gaming experience beyond what the official launcher provides. In addition to allowing users to add custom launch parameters, it also includes features such as server switching and unlocking frame rates. These features significantly improve the overall gaming experience.
 ---
 
 # Game Launcher
