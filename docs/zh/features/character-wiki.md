@@ -4,6 +4,7 @@ category: [功能, 教程]
 tag: [角色, WIKI, 数据]
 order: 11
 comment: false
+description: 胡桃工具箱中的角色 WIKI 功能内置了原神全部角色的基础信息、天赋数值、命之座等全部的重要数据，它帮助玩家方便地获取角色信息。
 ---
 
 # 角色资料

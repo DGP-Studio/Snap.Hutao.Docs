@@ -4,7 +4,7 @@ category: [功能, 教程]
 tag: [成就]
 order: 6
 comment: false
-banner: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01dxghiV1g6e22PI4pe_!!1797064093.png
+description: 胡桃工具箱提供原神成就管理功能，你可以通过它浏览并管理所有的成就状态, 通过强大的筛选系统，你可以从版本号、成就名称、成就描述和所属地区来轻松地搜索指定的成就。
 ---
 
 # 成就管理

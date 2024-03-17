@@ -4,6 +4,7 @@ category: [功能, 教程]
 tag: [怪物, WIKI, 数据]
 order: 13
 comment: false
+description: 怪物 WIKI 是胡桃工具箱中内置的怪物资料库，玩家可以使用该功能查询原神内全部怪物的具体信息，通过分析怪物来降低游戏难度。
 ---
 
 # 怪物资料

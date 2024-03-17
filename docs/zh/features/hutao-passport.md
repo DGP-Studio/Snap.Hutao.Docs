@@ -4,6 +4,7 @@ category: [功能, 教程]
 order: 16
 tag: [胡桃账号, 胡桃云]
 comment: false
+description: 胡桃账号是 Snap Hutao 项目下的账号系统，允许玩家登录到胡桃云系统并获取相关福利。
 ---
 
 # 胡桃账号
