@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 order: 2
 tag: [Dashboard, Announcement]
 comment: false
+description: In the dashboard of Snap Hutao, users can not only quickly view an overview of their current account data but also access real-time in-game announcements.
 ---
 
 # Home Dashboard

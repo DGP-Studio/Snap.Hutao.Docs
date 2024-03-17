@@ -5,6 +5,7 @@ category:
 icon: iconfont icon-read
 order: 7
 comment: false
+description: There are some third-party tools that can help you obtain the cookie from the miHoYo community with the Stoken field value and use it for Snap Hutao.
 ---
 
 # Obtaining Stoken-containing Cookies Using Third-Party Tools

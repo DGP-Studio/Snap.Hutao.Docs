@@ -5,6 +5,7 @@ tag:
   [Snap Hutao Cloud, Geetest verification, Language settings, Advanced settings]
 order: 15
 comment: false
+description: The Settings page of Snap Hutao contains various options to customize different aspects of the program. By modifying the settings on this page, users can personalize Snap Hutao to achieve the desired user experience.
 ---
 
 # Software Settings

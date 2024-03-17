@@ -3,6 +3,7 @@ category: [open source, development]
 tag: ["development", "GitHub"]
 icon: iconfont icon-code
 order: 3
+description: Snap Hutao is developed using C# and the .NET framework for both the desktop client and the server. We greatly appreciate feedback from the open-source community, and if you're willing to contribute your code, please refer to the instructions in the documentation on this page.
 ---
 
 # Contribute Your Code

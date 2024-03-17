@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 tag: [wish export, gacha, wish]
 order: 5
 comment: false
+description: The Wish Export feature allows players to freely export their current wish data from their game accounts and permanently store and backup it locally. This enables long-term data accumulation for tracking and analyzing wish data.
 ---
 
 # Wish History

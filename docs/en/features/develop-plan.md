@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 tag: [develop plan, develop calculator]
 order: 10
 comment: false
+description: The "Development Plan" feature in Snap Hutao assists players in quickly creating cultivation checklists for characters and weapons, allowing them to easily track the obtainable targets they own and plan to cultivate.
 ---
 
 # Development Plan

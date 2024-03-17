@@ -4,6 +4,7 @@ category:
 icon: iconfont icon-delete
 order: 9
 comment: false
+description: Uninstalling Snap Hutao is a simple and fast process. You can follow the instructions on this page to uninstall Snap Hutao according to your level of proficiency.
 ---
 
 # Uninstall Snap Hutao

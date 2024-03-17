@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 tag: [Real-time Notes, Expeditions, Resin]
 order: 7
 comment: false
+description: The Real-time Note feature in Snap Hutao synchronizes dynamic information from Genshin Impact to your local computer by periodically refreshing your miHoYo account data. It allows you to set conditions for message reminders and push notifications based on your preferences. This feature helps you stay updated with the latest in-game events, announcements, and other relevant information in real-time.
 ---
 
 # Real-time Notes

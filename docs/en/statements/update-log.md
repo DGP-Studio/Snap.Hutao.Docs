@@ -5,6 +5,7 @@ icon: iconfont icon-update
 order: 1
 comment: false
 externalLinkIcon: false
+description: Snap Hutao strives to provide users with the best user experience by continuously updating and fixing known issues and releasing new features. We will always publish update logs to track the changes made to the program.
 ---
 
 # Update Logs

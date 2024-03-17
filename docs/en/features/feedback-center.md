@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 order: 3
 tag: [feedback, issue]
 comment: false
+description: The built-in Feedback Center in Snap Hutao includes important links related to the Snap Hutao project and incorporates a document search engine. This enables players to resolve common issues and find solutions within the program itself.
 ---
 
 # Feedback Center

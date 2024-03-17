@@ -4,6 +4,7 @@ icon: iconfont icon-ask
 category:
   - FAQ
 order: 1
+description: This page contains some common issues and solutions related to user networking and program lifecycle problems.
 ---
 
 # Other FAQ

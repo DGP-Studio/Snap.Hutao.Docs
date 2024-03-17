@@ -4,6 +4,7 @@ icon: iconfont icon-tool
 category:
   - FAQ
 order: 3
+description: We use a variety of labels on our GitHub issue page to categorize and track the status of user-submitted issues. You can rely on these labels to determine the status of a problem.
 ---
 
 # Known Issue
