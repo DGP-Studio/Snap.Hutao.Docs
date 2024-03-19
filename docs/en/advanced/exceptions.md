@@ -1,5 +1,4 @@
 ---
-
 headerDepth: 2
 icon: iconfont icon-warn
 category: [FAQ]
@@ -7,6 +6,7 @@ order: 2
 comment: false
 description: Snap Hutao utilizes specific error codes to indicate particular errors. If you encounter a program error during usage and have an error code, you can try searching for it on this page.
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/exceptions.html&has_description=False
+---
 
 # Common Program Exceptions
 
