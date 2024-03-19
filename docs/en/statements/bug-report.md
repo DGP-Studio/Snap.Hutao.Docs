@@ -6,6 +6,7 @@ icon: iconfont icon-debug
 comment: false
 order: 2
 description: Snap Hutao is an open-source program released on GitHub. We also utilize the GitHub Issues feature to collect feedback and address any issues. You can submit problem reports through GitHub Issues.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/bug-report.html
 ---
 
 # Submit Bug Report

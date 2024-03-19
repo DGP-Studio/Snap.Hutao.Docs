@@ -6,6 +6,7 @@ editLink: false
 icon: iconfont icon-license
 order: 4
 description: Snap Hutao 的用户使用协议和法律声明。
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/tos.html
 ---
 
 # 用户使用协议和法律声明

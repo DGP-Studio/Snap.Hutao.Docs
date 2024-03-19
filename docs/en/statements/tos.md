@@ -7,6 +7,7 @@ editLink: false
 icon: iconfont icon-license
 order: 4
 description: User agreement and legal notices of Snap Hutao project.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/tos.html
 ---
 
 # User Agreement and Legal Notices

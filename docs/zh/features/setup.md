@@ -5,6 +5,7 @@ tag: [用户引导, 初始化, 安装]
 order: 1
 comment: false
 description: 胡桃工具箱的新用户引导功能帮助用户快速地检查程序具体功能的可用状态并将其设置为可用状态。
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features/setup.html
 ---
 
 # 初始化引导

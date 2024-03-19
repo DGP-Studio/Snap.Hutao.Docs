@@ -4,6 +4,7 @@ tag: [open source, Hutao Database, Spiral Abyss Database, Enka, UIGF, Open data]
 icon: iconfont icon-vscode
 order: 2
 description: Snap Hutao incorporates ideas from the community, and as our way of giving back, we also make certain services available to the community. If they are helpful to your development, feel free to use them, and we will do our best to maintain these forked projects.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/development/platform.html
 ---
 
 # Hutao Open Platform

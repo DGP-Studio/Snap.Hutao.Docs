@@ -4,7 +4,8 @@ icon: iconfont icon-ask
 category:
   - FAQ
 order: 1
-description: This page contains some common issues and solutions related to user networking and program lifecycle problems.
+description: This page lists common issues and solutions related to user networking and program lifecycle problems.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/faq.html&has_description=False
 ---
 
 # Other FAQ
