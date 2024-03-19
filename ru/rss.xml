@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Wed, 13 Mar 2024 06:31:32 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2024 06:31:32 GMT</lastBuildDate>
+    <pubDate>Tue, 19 Mar 2024 10:18:02 GMT</pubDate>
+    <lastBuildDate>Tue, 19 Mar 2024 10:18:02 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Dev Logs</category>
@@ -46,7 +46,7 @@
       <link>https://hut.ao/ru/blog/</link>
       <guid>https://hut.ao/ru/blog/</guid>
       <source url="https://hut.ao/ru/rss.xml">Dev Logs</source>
-      <description>Dev Logs </description>
+      <description>Dev Logs</description>
       <pubDate>Wed, 20 Dec 2023 04:34:39 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -209,7 +209,7 @@
       <link>https://hut.ao/ru/menu.html</link>
       <guid>https://hut.ao/ru/menu.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Меню сайта</source>
-      <description>Меню сайта </description>
+      <description>Меню сайта</description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -577,7 +577,7 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/advanced/</link>
       <guid>https://hut.ao/ru/advanced/</guid>
       <source url="https://hut.ao/ru/rss.xml">Advanced</source>
-      <description>Advanced </description>
+      <description>Advanced</description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -760,7 +760,7 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/advanced/known-issue.html</link>
       <guid>https://hut.ao/ru/advanced/known-issue.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Известные проблемы</source>
-      <description>Известные проблемы Вы можете просмотреть все проблемы на странице проблем GitHub </description>
+      <description>Известные проблемы Вы можете просмотреть все проблемы на странице проблем GitHub</description>
       <category>FAQ</category>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -826,7 +826,7 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/development/</link>
       <guid>https://hut.ao/ru/development/</guid>
       <source url="https://hut.ao/ru/rss.xml">Open Source Development</source>
-      <description>Open Source Development </description>
+      <description>Open Source Development</description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -909,7 +909,7 @@ file contains entire data of the client.</p>
       <link>https://hut.ao/ru/features/</link>
       <guid>https://hut.ao/ru/features/</guid>
       <source url="https://hut.ao/ru/rss.xml">Features</source>
-      <description>Features </description>
+      <description>Features</description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -1959,7 +1959,7 @@ will not be removed. You can continue to operate it once you get your privilege 
       <link>https://hut.ao/ru/statements/</link>
       <guid>https://hut.ao/ru/statements/</guid>
       <source url="https://hut.ao/ru/rss.xml">Statements</source>
-      <description>Statements Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program. </description>
+      <description>Statements Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program.</description>
       <pubDate>Tue, 19 Dec 2023 17:05:50 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.</strong></p>

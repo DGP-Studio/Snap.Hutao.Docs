@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 13 Mar 2024 06:31:32 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2024 06:31:32 GMT</lastBuildDate>
+    <pubDate>Tue, 19 Mar 2024 10:18:02 GMT</pubDate>
+    <lastBuildDate>Tue, 19 Mar 2024 10:18:02 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -27,20 +27,21 @@
       <link>https://hut.ao/en/support-us.html</link>
       <guid>https://hut.ao/en/support-us.html</guid>
       <source url="https://hut.ao/en/rss.xml">Support us</source>
-      <description>Support us Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of...</description>
+      <description>The Snap Hutao project accepts donations from the community to keep the project operations, and we sincerely thank everyone who has supported this project.</description>
       <pubDate>Fri, 23 Feb 2024 10:13:43 GMT</pubDate>
       <content:encoded><![CDATA[
-<p>Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of our development team are currently self-funding the project's operation, with the main expenses being the network system components required by server (you can find our annual expenditure summary below on this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but also benefit every Snap Hutao user. Currently, you can donate us in the following ways:</p>
+<p>Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of our development team are currently self-funding the project's operation. We used modern software to reduce our operation costs, with the main expenses being the network system components required by server (you can find our annual expenditure summary below on this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but also benefit every Snap Hutao user. Currently, you can donate us in the following ways:</p>
 <h2>Donation</h2>
 <p>We accept sponsorship with following methods:</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/support-us.html" type="image/"/>
     </item>
     <item>
       <title>Feedback Center</title>
       <link>https://hut.ao/en/features/feedback-center.html</link>
       <guid>https://hut.ao/en/features/feedback-center.html</guid>
       <source url="https://hut.ao/en/rss.xml">Feedback Center</source>
-      <description>Feedback Center dashboard The Feedback Center is a feature page provided by the Snap Hutao development team to help users solve common problems. This page is laid out in a left-...</description>
+      <description>The built-in Feedback Center in Snap Hutao includes important links related to the Snap Hutao project and incorporates a document search engine. This enables players to resolve common issues and find solutions within the program itself.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 11 Jan 2024 09:46:53 GMT</pubDate>
@@ -62,7 +63,7 @@
       <link>https://hut.ao/en/features/hutao-passport.html</link>
       <guid>https://hut.ao/en/features/hutao-passport.html</guid>
       <source url="https://hut.ao/en/rss.xml">Snap Hutao Account</source>
-      <description>Snap Hutao Account Hutao Passport is the internal name of Snap Hutao Account, they are the same thing Snap Hutao account is an account system created by the DGP-Studio team to s...</description>
+      <description>The Hutao Passport is the account system under the Snap Hutao project, which allows players to log in to the Hutao Cloud system and access benefits.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 11 Jan 2024 09:46:53 GMT</pubDate>
@@ -100,7 +101,7 @@
       <link>https://hut.ao/en/development/join.html</link>
       <guid>https://hut.ao/en/development/join.html</guid>
       <source url="https://hut.ao/en/rss.xml">Join the Develop Team</source>
-      <description>Join the Develop Team If you have one of the following experiences and are interested in joining the Snap Hutao development team to improve this project and get in touch with mo...</description>
+      <description>If you possess expertise in any of the technologies mentioned on this page and are interested in joining the Snap Hutao development team to enhance the project and engage with more open-source projects related to Genshin Impact, we welcome you to join us!</description>
       <category>open source</category>
       <category>development</category>
       <pubDate>Fri, 22 Dec 2023 05:58:32 GMT</pubDate>
@@ -119,13 +120,14 @@
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> get free 1password Team account</label></li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/development/join.html" type="image/"/>
     </item>
     <item>
       <title>Dev Logs</title>
       <link>https://hut.ao/en/blog/</link>
       <guid>https://hut.ao/en/blog/</guid>
       <source url="https://hut.ao/en/rss.xml">Dev Logs</source>
-      <description>Dev Logs </description>
+      <description>Dev Logs</description>
       <pubDate>Tue, 19 Dec 2023 08:26:24 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -163,7 +165,7 @@
       <link>https://hut.ao/en/development/contribute.html</link>
       <guid>https://hut.ao/en/development/contribute.html</guid>
       <source url="https://hut.ao/en/rss.xml">Contribute Your Code</source>
-      <description>Contribute Your Code Snap Hutao is using C# and .NET Framework to develop both client and server. If you are willing to contribute your code to the project, please read the foll...</description>
+      <description>Snap Hutao is developed using C# and the .NET framework for both the desktop client and the server. We greatly appreciate feedback from the open-source community, and if you&amp;apos;re willing to contribute your code, please refer to the instructions in the documentation on this page.</description>
       <category>open source</category>
       <category>development</category>
       <pubDate>Thu, 12 Oct 2023 07:23:38 GMT</pubDate>
@@ -200,13 +202,14 @@ to the project, please read the following guidelines.</p>
 <p>Once the code in updated in <code>develop</code> and <code>main</code> branches, a GitHub actions script will build the latest code to <code>Snap Hutao Alpha</code> package. You can find all build records in alpha actions pipeline.</p>
 <p>You need to install <a href="https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt" target="_blank" rel="noopener noreferrer">Snap Hutao CA certificate</a> as <code>Trusted Root Certification Authorities</code> to allow Alpha versions be installed.</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/development/contribute.html" type="image/"/>
     </item>
     <item>
       <title>Monster WIKI</title>
       <link>https://hut.ao/en/features/monster-wiki.html</link>
       <guid>https://hut.ao/en/features/monster-wiki.html</guid>
       <source url="https://hut.ao/en/rss.xml">Monster WIKI</source>
-      <description>Monster WIKI monster-wiki Monster WIKI is an embedded WIKI database used to look up each monster&amp;apos;s Base ability, ability in each level, RES, drop items Included Data Monster lis...</description>
+      <description>The Monster Wiki is an integrated monster database within Snap Hutao. Players can use this feature to access detailed information on all monsters in Genshin Impact. By analyzing the monsters, players can strategize and reduce the difficulty of the game.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Fri, 01 Sep 2023 09:35:59 GMT</pubDate>
@@ -242,7 +245,7 @@ to the project, please read the following guidelines.</p>
       <link>https://hut.ao/en/features/setup.html</link>
       <guid>https://hut.ao/en/features/setup.html</guid>
       <source url="https://hut.ao/en/rss.xml">Initial Setup Guide</source>
-      <description>Initial Setup Guide When launching the Snap Hutao for the first time, the client will automatically enter an initialization setup guide to assist users in configuring the client...</description>
+      <description>The new user onboarding feature in Snap Hutao helps users quickly check the availability status of specific program functionalities and set them to an available state.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Tue, 29 Aug 2023 19:09:15 GMT</pubDate>
@@ -273,14 +276,14 @@ These documents can help you understand the nature of the Snap Hutao project and
 Once the download is complete, Snap Hutao will close the initialization setup interface and automatically load the main program.</p>
 </details>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01wBgRV01g6dyC2bc62_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/features/setup.html" type="image/"/>
     </item>
     <item>
       <title>Open Source Development</title>
       <link>https://hut.ao/en/development/</link>
       <guid>https://hut.ao/en/development/</guid>
       <source url="https://hut.ao/en/rss.xml">Open Source Development</source>
-      <description>Open Source Development </description>
+      <description>Open Source Development</description>
       <pubDate>Sat, 03 Jun 2023 00:06:23 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -290,7 +293,7 @@ Once the download is complete, Snap Hutao will close the initialization setup in
       <link>https://hut.ao/en/development/platform.html</link>
       <guid>https://hut.ao/en/development/platform.html</guid>
       <source url="https://hut.ao/en/rss.xml">Hutao Open Platform</source>
-      <description>Hutao Open Platform The Snap Hutao project has received wide supports from the open-source community and users since its inception on GitHub on April 18, 2022. As the project ha...</description>
+      <description>Snap Hutao incorporates ideas from the community, and as our way of giving back, we also make certain services available to the community. If they are helpful to your development, feel free to use them, and we will do our best to maintain these forked projects.</description>
       <category>open source</category>
       <category>development</category>
       <pubDate>Sat, 03 Jun 2023 00:06:23 GMT</pubDate>
@@ -325,13 +328,14 @@ standards. Many developers have now gathered under the <a href="https://github.c
 maintain this organization, allowing developers to connect with more users, receive feedback, make technical advancements,
 and create outstanding open-source Genshin Impact tools.</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/development/platform.html" type="image/"/>
     </item>
     <item>
       <title>Site Menu</title>
       <link>https://hut.ao/en/menu.html</link>
       <guid>https://hut.ao/en/menu.html</guid>
       <source url="https://hut.ao/en/rss.xml">Site Menu</source>
-      <description>Site Menu </description>
+      <description>Site Menu</description>
       <pubDate>Mon, 22 May 2023 05:41:54 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -341,7 +345,7 @@ and create outstanding open-source Genshin Impact tools.</p>
       <link>https://hut.ao/en/features/dashboard.html</link>
       <guid>https://hut.ao/en/features/dashboard.html</guid>
       <source url="https://hut.ao/en/rss.xml">Home Dashboard</source>
-      <description>Home Dashboard dashbord screenshot Snap Hutao will enter home dashboard by default when it&amp;apos;s opened. The top part is your personal gaming data; the bottom part is recent game no...</description>
+      <description>In the dashboard of Snap Hutao, users can not only quickly view an overview of their current account data but also access real-time in-game announcements.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Sat, 13 May 2023 01:37:45 GMT</pubDate>
@@ -394,7 +398,7 @@ chart to switch account</li>
       <link>https://hut.ao/en/features/real-time-notes.html</link>
       <guid>https://hut.ao/en/features/real-time-notes.html</guid>
       <source url="https://hut.ao/en/rss.xml">Real-time Notes</source>
-      <description>Real-time Notes Info This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao, you can check for more information. live-data-tracking Add Role Cl...</description>
+      <description>The Real-time Note feature in Snap Hutao synchronizes dynamic information from Genshin Impact to your local computer by periodically refreshing your miHoYo account data. It allows you to set conditions for message reminders and push notifications based on your preferences. This feature helps you stay updated with the latest in-game events, announcements, and other relevant information in real-time.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Sat, 01 Apr 2023 00:54:18 GMT</pubDate>
@@ -477,7 +481,7 @@ verification, then your account can be used to refresh data.</p>
       <link>https://hut.ao/en/advanced/uninstall.html</link>
       <guid>https://hut.ao/en/advanced/uninstall.html</guid>
       <source url="https://hut.ao/en/rss.xml">Uninstall Snap Hutao</source>
-      <description>Uninstall Snap Hutao Clear Real-time Notes Scheduled Task Before version 1.4.15, if not execute this step, scheduled task used to refresh real-time notes may not be deleted,and ...</description>
+      <description>Uninstalling Snap Hutao is a simple and fast process. You can follow the instructions on this page to uninstall Snap Hutao.</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:41 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -532,13 +536,14 @@ with anyone.</p>
 <p>Copy <code>Userdata.db</code> from Snap Hutao data folder (<code>%userprofile%/Documents/Hutao</code> by default) to your backup location, this
 file contains entire data of the client.</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/uninstall.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>Known Issue</title>
       <link>https://hut.ao/en/advanced/known-issue.html</link>
       <guid>https://hut.ao/en/advanced/known-issue.html</guid>
       <source url="https://hut.ao/en/rss.xml">Known Issue</source>
-      <description>Known Issue You can view all issues on GitHub Issue page </description>
+      <description>We use a variety of labels on our GitHub issue page to categorize and track the status of user-submitted issues. You can rely on these labels to determine the status of issue.</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:40 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -546,13 +551,14 @@ file contains entire data of the client.</p>
 <p>| Category                                                                                                                                          | Flag                                        |
 |</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/known-issue.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>Obtaining Stoken-containing Cookies Using Third-Party Tools</title>
       <link>https://hut.ao/en/advanced/get-stoken-cookie-from-the-third-party.html</link>
       <guid>https://hut.ao/en/advanced/get-stoken-cookie-from-the-third-party.html</guid>
       <source url="https://hut.ao/en/rss.xml">Obtaining Stoken-containing Cookies Using Third-Party Tools</source>
-      <description>Obtaining Stoken-containing Cookies Using Third-Party Tools Warning The software, open-source projects, and resources mentioned in the following steps are sourced from the inter...</description>
+      <description>There are some third-party tools that can help you obtain the cookie from the miHoYo community with the Stoken field value and use it for Snap Hutao.</description>
       <category>FAQ</category>
       <category>Third-Party Tools</category>
       <pubDate>Sat, 18 Mar 2023 03:05:39 GMT</pubDate>
@@ -606,13 +612,14 @@ file contains entire data of the client.</p>
 <li>Enter the previously obtained cookie. You should now complete the login process.</li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/get-stoken-cookie-from-the-third-party.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>Common Program Exceptions</title>
       <link>https://hut.ao/en/advanced/exceptions.html</link>
       <guid>https://hut.ao/en/advanced/exceptions.html</guid>
       <source url="https://hut.ao/en/rss.xml">Common Program Exceptions</source>
-      <description>Common Program Exceptions This document covers solutions of foreseeable client error Return Code: -10001 This error comes directly from MiHoYo BBS, hints include Return Code: -1...</description>
+      <description>Snap Hutao utilizes specific error codes to indicate particular errors. If you encounter a program error during usage and have an error code, you can try searching for it on this page.</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:38 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -697,13 +704,14 @@ designing of MiHoYo BBS, and cannot bypass</li>
 <p>This issue only occurs when Genshin Impact's anti-cheat module starts earlier than frame-rate-unlocker module.
 When these errors happen, Snap Hutao will exit game process, and you can re-launch the game.</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/exceptions.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>Gacha System and Export Principle</title>
       <link>https://hut.ao/en/advanced/Gacha-system-and-export-principal.html</link>
       <guid>https://hut.ao/en/advanced/Gacha-system-and-export-principal.html</guid>
       <source url="https://hut.ao/en/rss.xml">Gacha System and Export Principle</source>
-      <description>Gacha System and Export Principle Snap Hutao&amp;apos;s Gacha system underwent an overhaul compared to Snap Genshin, experiencing a complete architectural redesign. This article will exp...</description>
+      <description>Snap Hutao utilizes various methods to obtain users&amp;apos; login information and combines it with the Genshin Impact API to retrieve gacha records.</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:36 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -750,13 +758,14 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
 <h3>Exporting Wishes</h3>
 <p><s>Not yet implemented; under design</s> Already implemented</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/Gacha-system-and-export-principal.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>Advanced</title>
       <link>https://hut.ao/en/advanced/</link>
       <guid>https://hut.ao/en/advanced/</guid>
       <source url="https://hut.ao/en/rss.xml">Advanced</source>
-      <description>Advanced </description>
+      <description>Advanced</description>
       <pubDate>Sat, 18 Mar 2023 03:05:36 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -766,7 +775,7 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
       <link>https://hut.ao/en/advanced/FAQ.html</link>
       <guid>https://hut.ao/en/advanced/FAQ.html</guid>
       <source url="https://hut.ao/en/rss.xml">Other FAQ</source>
-      <description>Other FAQ How to Create Desktop Shortcut (with No Admin Privilege) Community Power Thanks to CzHUV for the solution. Use Win+R to start run, in the window input shell:AppsFolder...</description>
+      <description>This page lists common issues and solutions related to user networking and program lifecycle problems.</description>
       <category>FAQ</category>
       <pubDate>Sat, 18 Mar 2023 03:05:35 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -812,14 +821,14 @@ running as Administrator
 <li>Unlock Loopback restrictions in Feedback Center</li>
 </ol>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png" type="image/png"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/faq.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>Update Logs</title>
       <link>https://hut.ao/en/statements/update-log.html</link>
       <guid>https://hut.ao/en/statements/update-log.html</guid>
       <source url="https://hut.ao/en/rss.xml">Update Logs</source>
-      <description>Update Logs 1.9.8 New ➕ Added support for Chronicled Wish #1470 Added support for UIGF v3.0 wish data format Added dark/light mode setting option in the settings page #1434 Fix ...</description>
+      <description>Snap Hutao strives to provide users with the best user experience by continuously updating and fixing known issues and releasing new features. We will always publish update logs to track the changes made to the program.</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1763,6 +1772,7 @@ community members can contribute Japanese language on <a href="https://translate
 <li>First version on Microsoft Store</li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
     </item>
     <item>
       <title></title>
@@ -1827,7 +1837,7 @@ community members can contribute Japanese language on <a href="https://translate
       <link>https://hut.ao/en/community.html</link>
       <guid>https://hut.ao/en/community.html</guid>
       <source url="https://hut.ao/en/rss.xml">Join Community</source>
-      <description>Join Community As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways. </description>
+      <description>You can join Snap Hutao&amp;apos;s social community here, to chat with others players in various of topics.</description>
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:17 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1835,6 +1845,7 @@ community members can contribute Japanese language on <a href="https://translate
 <div class="vp-card-container">
   </div>
 ]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>Localization</title>
@@ -1925,14 +1936,14 @@ favorite tools, and make a Pull Request to contribute your work to the main repo
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://badges.crowdin.net/snap-hutao/localized.svg" type="image/svg+xml"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/i18n.html" type="image/"/>
     </item>
     <item>
       <title>My Characters</title>
       <link>https://hut.ao/en/features/character-data.html</link>
       <guid>https://hut.ao/en/features/character-data.html</guid>
       <source url="https://hut.ao/en/rss.xml">My Characters</source>
-      <description>My Characters Info This features required sign in to MiHoYo BBS account, please refer to document for sign in tutorial My characters is a character statistics feature that allow...</description>
+      <description>The &amp;quot;My Characters&amp;quot; feature in Snap Hutao can retrieve and display specific data of the characters owned within a Genshin Impact account. It provides analytical data such as character level, constellations, talents, and artifact ratings.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
@@ -2041,7 +2052,7 @@ character's data, this will help you to share your character's data</li>
       <link>https://hut.ao/en/features/character-wiki.html</link>
       <guid>https://hut.ao/en/features/character-wiki.html</guid>
       <source url="https://hut.ao/en/rss.xml">Character WIKI</source>
-      <description>Character WIKI characters-wiki Character WIKI is a Snap Hutao build-in WIKI feature used to query each character&amp;apos;s information. Included Data Character list Use the icon above t...</description>
+      <description>The &amp;quot;Character Wiki&amp;quot; feature in Snap Hutao includes comprehensive information about all the characters in Genshin Impact. It provides essential data such as base information, talent values, constellations, and other important details. This feature helps players easily access and gather information about different characters in the game.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
@@ -2101,7 +2112,7 @@ character's data, this will help you to share your character's data</li>
       <link>https://hut.ao/en/features/develop-plan.html</link>
       <guid>https://hut.ao/en/features/develop-plan.html</guid>
       <source url="https://hut.ao/en/rss.xml">Development Plan</source>
-      <description>Development Plan dev-plan Add Develop Goals into Material Checklist Add Goals from WIKIs Click Character WIKI or Weapon WIKI from the left menu bar Select on character or weapon...</description>
+      <description>The &amp;quot;Development Plan&amp;quot; feature in Snap Hutao assists players in quickly creating cultivation checklists for characters and weapons, allowing them to easily track the obtainable targets they own and plan to cultivate.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
@@ -2150,7 +2161,7 @@ character's data, this will help you to share your character's data</li>
       <link>https://hut.ao/en/features/game-launcher.html</link>
       <guid>https://hut.ao/en/features/game-launcher.html</guid>
       <source url="https://hut.ao/en/rss.xml">Game Launcher</source>
-      <description>Game Launcher Game Launcher Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings Click on the Game Launcher on the sidebar ...</description>
+      <description>The game launcher within Snap Hutao offers additional features that enhance the gaming experience beyond what the official launcher provides. In addition to allowing users to add custom launch parameters, it also includes features such as server switching and unlocking frame rates. These features significantly improve the overall gaming experience.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
@@ -2194,7 +2205,7 @@ In the <code>Server</code> field, select the server you want</p>
       <link>https://hut.ao/en/features/hutao-API.html</link>
       <guid>https://hut.ao/en/features/hutao-API.html</guid>
       <source url="https://hut.ao/en/rss.xml">Hutao Database / Abyss Record</source>
-      <description>Hutao Database / Abyss Record Snap Hutao offers two major statistic features associated with Spiral Abyss challenge Statistics on the top function bar is a feature designed to h...</description>
+      <description>The built-in Hutao Database feature in Snap Hutao is a database that helps players archive and query data for Abyssal Domains challenges. Players can easily obtain and locally archive data for each period of Abyssal Domains challenges with a single click, and submit the data to the Hutao Abyss Database.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
@@ -2312,7 +2323,7 @@ Abyss stats, all collected characters will be included <a href="#footnote-ref4" 
       <link>https://hut.ao/en/features/hutao-settings.html</link>
       <guid>https://hut.ao/en/features/hutao-settings.html</guid>
       <source url="https://hut.ao/en/rss.xml">Software Settings</source>
-      <description>Software Settings settings The following feature tutorials are introduced in-program order. About Snap Hutao This part has the following information: The icon of Snap Hutao：You ...</description>
+      <description>The Settings page of Snap Hutao contains various options to customize different aspects of the program. By modifying the settings on this page, users can personalize Snap Hutao to achieve the desired user experience.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
@@ -2459,7 +2470,7 @@ The following feature tutorials are introduced in-program order.</p>
       <link>https://hut.ao/en/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/en/features/mhy-account-switch.html</guid>
       <source url="https://hut.ao/en/rss.xml">MiHoYo BBS Account Switch</source>
-      <description>MiHoYo BBS Account Switch Tips There are two types of MiHoYo BBS, MiYouShe and HoYoLAB. MiYouShe refers to Mainland China version, HoYoLAB refers to global version, both of them...</description>
+      <description>The Multi-account Panel feature in Snap Hutao allows users to log in with multiple miHoYo BBS accounts within the toolbox and switch between them freely. This enables users to utilize various functions within Snap Hutao with different accounts for specific purposes.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
@@ -2524,14 +2535,14 @@ you can use <code>Refresh Cookie</code> in the account panel; You can also remov
 <p>Since October 2022, MiYouShe (Chinese BBS) rapidly increased bot detection and may set users' account as under-risk status,
 this may cause Snap Hutao failed to check validation of the cookie</p>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01QN2Nvm1g6e0utHzYa_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/features/mhy-account-switch.html" type="image/"/>
     </item>
     <item>
       <title>Weapon WIKI</title>
       <link>https://hut.ao/en/features/weapon-wiki.html</link>
       <guid>https://hut.ao/en/features/weapon-wiki.html</guid>
       <source url="https://hut.ao/en/rss.xml">Weapon WIKI</source>
-      <description>Weapon WIKI weapon-wiki Weapon WIKI is a Snap Hutao build-in WIKI feature used to look up each weapon&amp;apos;s information Included Data Weapon list Use the icon above the list, you ca...</description>
+      <description>The Weapons Wiki is an integrated weapon database within the Snap Hutao toolbox. Players can use this feature to access detailed information about all weapons in Genshin Impact and choose suitable weapons for their characters.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
@@ -2574,7 +2585,7 @@ this may cause Snap Hutao failed to check validation of the cookie</p>
       <link>https://hut.ao/en/statements/privacy-notice.html</link>
       <guid>https://hut.ao/en/statements/privacy-notice.html</guid>
       <source url="https://hut.ao/en/rss.xml">User Data and Privacy Notice</source>
-      <description>User Data and Privacy Notice Personal Information The nature of Snap Hutao project states it does not collect any personal information data. Regular Data Usage Snap Hutao respec...</description>
+      <description>Please read this page carefully to understand the user data handling and privacy rights for the Snap Hutao project.</description>
       <category>Announcement</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2655,13 +2666,14 @@ information provided by domains outside this list (including websites, emails, e
 <li>snaphutao.com</li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/privacy-notice.html" type="image/"/>
     </item>
     <item>
       <title>User Agreement and Legal Notices</title>
       <link>https://hut.ao/en/statements/tos.html</link>
       <guid>https://hut.ao/en/statements/tos.html</guid>
       <source url="https://hut.ao/en/rss.xml">User Agreement and Legal Notices</source>
-      <description>User Agreement and Legal Notices General Provisions This &amp;quot;User Agreement and Legal Disclaimer&amp;quot; (hereinafter referred to as &amp;quot;Terms&amp;quot; or &amp;quot;User Agreement&amp;quot;) applies to all software w...</description>
+      <description>User agreement and legal notices of Snap Hutao project.</description>
       <category>Announcement</category>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2761,13 +2773,14 @@ information provided by domains outside this list (including websites, emails, e
 </li>
 </ol>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/tos.html" type="image/"/>
     </item>
     <item>
       <title>Features</title>
       <link>https://hut.ao/en/features/</link>
       <guid>https://hut.ao/en/features/</guid>
       <source url="https://hut.ao/en/rss.xml">Features</source>
-      <description>Features </description>
+      <description>In the Feature directory, you can find a comprehensive list of all the features currently available in Snap Hutao. You can refer to this directory to search for the corresponding documentation of each feature based on your specific needs.</description>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -2777,7 +2790,7 @@ information provided by domains outside this list (including websites, emails, e
       <link>https://hut.ao/en/features/achievements.html</link>
       <guid>https://hut.ao/en/features/achievements.html</guid>
       <source url="https://hut.ao/en/rss.xml">Achievement Management</source>
-      <description>Achievement Management Achievement Screenshot Snap Hutao offers local achievement management feature, users can view and manage status of achievement At first time use, you will...</description>
+      <description>Snap Hutao provides the functionality to manage Genshin Impact achievements. With it, you can browse and manage the status of all achievements. Using its powerful filtering system, you can easily search for specific achievements based on version number, achievement name, achievement description, and region affiliation.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
@@ -2815,7 +2828,7 @@ information provided by domains outside this list (including websites, emails, e
       <link>https://hut.ao/en/features/wish-export.html</link>
       <guid>https://hut.ao/en/features/wish-export.html</guid>
       <source url="https://hut.ao/en/rss.xml">Wish History</source>
-      <description>Wish History Gacha is one of the core gameplay in Genshin Impact. Whether it&amp;apos;s for commemorative and show-off purposes, or for serious planning for a gacha strategy, it&amp;apos;s very i...</description>
+      <description>The Wish Export feature allows players to freely export their current wish data from their game accounts and permanently store and backup it locally. This enables long-term data accumulation for tracking and analyzing wish data.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
@@ -2940,7 +2953,7 @@ transfer data between devices.</p>
       <link>https://hut.ao/en/statements/</link>
       <guid>https://hut.ao/en/statements/</guid>
       <source url="https://hut.ao/en/rss.xml">Statements</source>
-      <description>Statements Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program. </description>
+      <description>This page contains the toc of statements and announcements of Snap Hutao project.</description>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.</strong></p>
@@ -2951,7 +2964,7 @@ transfer data between devices.</p>
       <link>https://hut.ao/en/statements/bug-report.html</link>
       <guid>https://hut.ao/en/statements/bug-report.html</guid>
       <source url="https://hut.ao/en/rss.xml">Submit Bug Report</source>
-      <description>Submit Bug Report You can submit bug reports when you find reproducible issue that cannot be fixed by yourself Before submitting your issue, please do the following checklist: M...</description>
+      <description>Snap Hutao is an open-source program released on GitHub. We also utilize the GitHub Issues feature to collect feedback and address any issues. You can submit problem reports through GitHub Issues.</description>
       <category>Announcement</category>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2992,13 +3005,14 @@ and include it in your issue</label></li>
 <li>Submit your issue on GitHub：<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao.Docs</a></li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/bug-report.html" type="image/"/>
     </item>
     <item>
       <title>Project</title>
       <link>https://hut.ao/en/project.html</link>
       <guid>https://hut.ao/en/project.html</guid>
       <source url="https://hut.ao/en/rss.xml">Project</source>
-      <description>Snap Hutao is a multifunctional open-source Genshin Toolkit. It is designed for modern Windows platform to improve the gaming experience for desktop players.</description>
+      <description>Snap Hutao is an open-source program project, and we widely accept collaborations from the community to keep the project dynamic.</description>
       <category>announcement</category>
       <category>project</category>
       <category>features</category>
@@ -3017,23 +3031,24 @@ does not take any destructive modification to the game client to ensure the secu
 <p>|           Feature            | Mobile                                 | Desktop                                         | Snap Hutao Solution                                                      |
 | :</p>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ogJFxz1g6e0yCZjs0_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>Quick Start</title>
       <link>https://hut.ao/en/quick-start.html</link>
       <guid>https://hut.ao/en/quick-start.html</guid>
       <source url="https://hut.ao/en/rss.xml">Quick Start</source>
-      <description>Quick Start Follow this document&amp;apos;s instruction, you can set up your Snap Hutao quickly. Unsupported OS Versions： LTSC and LTSB versions are using legacy version of MSIX Core, so...</description>
+      <description>Follow the quick start instruction on this page, you can set up your Snap Hutao quickly.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
       <content:encoded><![CDATA[
-<p>Follow this document's instruction, you can set up your Snap Hutao quickly.</p>
+<p>Follow the quick start instruction on this page, you can set up your Snap Hutao quickly.</p>
 <h2></h2>
 <p>| Requirement             | Attribute                                                        |
 |</p>
 ]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 13 Mar 2024 06:31:32 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2024 06:31:32 GMT</lastBuildDate>
+    <pubDate>Tue, 19 Mar 2024 10:18:02 GMT</pubDate>
+    <lastBuildDate>Tue, 19 Mar 2024 10:18:02 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -25,20 +25,21 @@
       <link>https://hut.ao/zh/support-us.html</link>
       <guid>https://hut.ao/zh/support-us.html</guid>
       <source url="https://hut.ao/zh/rss.xml">支持我们</source>
-      <description>支持我们 Snap Hutao，作为一个使用 MIT 许可证的开源项目，致力于打造一个完全免费、无广告且注重用户隐私的程序。我们的开发团队成员目前正自行资助项目的运营，主要的支出项目为服务端运行所需的网络系统组件（可以在本页下方找到我们总结的年度支出）。如果您有富余的资金可以支持 Snap Hutao，您的慷慨捐赠将不仅帮助开发团队，还将让每一个 Sn...</description>
+      <description>Snap Hutao 项目接受来自社区的捐赠来维持项目的运营，我们真诚地感谢为该项目提供支持的所有人。</description>
       <pubDate>Mon, 05 Feb 2024 14:07:17 GMT</pubDate>
       <content:encoded><![CDATA[
-<p>Snap Hutao，作为一个使用 MIT 许可证的开源项目，致力于打造一个完全免费、无广告且注重用户隐私的程序。我们的开发团队成员目前正自行资助项目的运营，主要的支出项目为服务端运行所需的网络系统组件（可以在本页下方找到我们总结的年度支出）。如果您有富余的资金可以支持 Snap Hutao，您的慷慨捐赠将不仅帮助开发团队，还将让每一个 Snap Hutao 用户受益。目前，您可以通过以下方式捐赠我们：</p>
+<p>Snap Hutao，作为一个使用 MIT 许可证的开源项目，致力于打造一个完全免费、无广告且注重用户隐私的程序。我们的开发团队成员目前正自行资助项目的运营，并通过现代化的技术尽可能地降低了运营成本，当前主要的支出项目为服务端运行所需的网络系统组件（可以在本页下方找到我们总结的年度支出）。如果您有富余的资金可以支持 Snap Hutao，您的慷慨捐赠将不仅帮助开发团队，还将让每一个 Snap Hutao 用户受益。目前，您可以通过以下方式捐赠我们：</p>
 <h2>捐赠渠道</h2>
 <p>我们通过以下方式接受捐赠</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/support-us.html" type="image/"/>
     </item>
     <item>
       <title>反馈中心</title>
       <link>https://hut.ao/zh/features/feedback-center.html</link>
       <guid>https://hut.ao/zh/features/feedback-center.html</guid>
       <source url="https://hut.ao/zh/rss.xml">反馈中心</source>
-      <description>反馈中心 仪表盘 反馈中心是 Snap Hutao 开发团队为帮助用户解决常见问题所提供的一个功能页面，该页面是左右结构布局的。 在页面左侧，我们提供了一个搜索 Snap Hutao 文档的便捷入口，你可以在搜索框中通过输入关键词来获得相关的页面搜索结果。 在页面右侧，我们提供了多个实用功能。 第一部分显示了胡桃工具箱的关键信息，包括 Snap Hut...</description>
+      <description>胡桃工具箱内置的反馈中心，包含了 Snap Hutao 项目的重要链接，并内置了文档的搜索引擎，方便玩家在程序内部解决常见问题并搜索到解决方案。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Wed, 10 Jan 2024 10:44:30 GMT</pubDate>
@@ -60,7 +61,7 @@
       <link>https://hut.ao/zh/features/hutao-passport.html</link>
       <guid>https://hut.ao/zh/features/hutao-passport.html</guid>
       <source url="https://hut.ao/zh/rss.xml">胡桃账号</source>
-      <description>胡桃账号 胡桃账号是由 DGP-Studio 团队创建的为胡桃工具箱服务的账号系统，以使用在会在未来提供的包括祈愿云同步在内的涉及云端服务的功能。 如果你有胡桃云权限，你将获得如下权限： 祈愿记录页面中的 “预测” 功能 祈愿记录的云端同步功能 当你的胡桃账号云同步权限过期后，你将无法上传、下载和删除数据，但你的数据不会被删除。你可以在恢复权限后重新操...</description>
+      <description>胡桃账号是 Snap Hutao 项目下的账号系统，允许玩家登录到胡桃云系统并获取相关福利。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Wed, 10 Jan 2024 10:44:30 GMT</pubDate>
@@ -95,12 +96,12 @@
       <link>https://hut.ao/zh/development/join.html</link>
       <guid>https://hut.ao/zh/development/join.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入我们</source>
-      <description>加入我们 如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！ 我们不会为下面需求设置明确的门槛。乐于探索新领域的精神、对技术的热情以及负责任的态度对于开源社区才是更重要的。 太忙？只是想快速解决某个你遇到的问题？阅读并直接发起你的 Pull Request，我们会认真对待有建设性的代码...</description>
+      <description>如果你有本页所述技术之一且有兴趣加入 Snap Hutao 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！</description>
       <category>开源</category>
       <category>开发</category>
       <pubDate>Fri, 22 Dec 2023 04:12:52 GMT</pubDate>
       <content:encoded><![CDATA[
-<p>如果你有以下经验之一且有兴趣加入 Snap Hutao 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
+<p>如果你有本页所述技术之一且有兴趣加入 Snap Hutao 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
 <p><strong>我们不会为下面需求设置明确的门槛。乐于探索新领域的精神、对技术的热情以及负责任的态度对于开源社区才是更重要的。</strong></p>
 <blockquote>
 <p>太忙？只是想快速解决某个你遇到的问题？阅读<a href="/zh/development/contribute.html" target="_blank">开发手册</a>并直接发起你的 Pull Request，我们会认真对待有建设性的代码提交。</p>
@@ -115,13 +116,14 @@
 </ul>
 <p>你可以在 <a href="https://github.com/orgs/DGP-Studio/people" target="_blank" rel="noopener noreferrer">GitHub DGP-Studio People</a> 页面查看当前公开的组织成员列表</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/join.html" type="image/"/>
     </item>
     <item>
       <title>开发日志</title>
       <link>https://hut.ao/zh/blog/</link>
       <guid>https://hut.ao/zh/blog/</guid>
       <source url="https://hut.ao/zh/rss.xml">开发日志</source>
-      <description>开发日志 </description>
+      <description>开发日志</description>
       <pubDate>Tue, 19 Dec 2023 08:26:24 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -131,7 +133,7 @@
       <link>https://hut.ao/zh/blog/version-1-9-0-breaking-changes.html</link>
       <guid>https://hut.ao/zh/blog/version-1-9-0-breaking-changes.html</guid>
       <source url="https://hut.ao/zh/rss.xml">1.9.0 版本重大改变详解</source>
-      <description>1.9.0 版本重大改变详解 本文内容适用于Snap Hutao 1.4.11~1.8.4 版本升级至 1.9.0 及更高版本 前言 Snap Hutao 是一个使用 MSIX 格式的 Windows 沙盒应用，它带来了安装的便利性和 AppX 应用的安全性。对安装包强制性的代码签名是保证安全性的重要因素之一：在安装包被篡改时，Windows App ...</description>
+      <description>本文内容适用于Snap Hutao **1.4.11~1.8.4 版本**升级至 1.9.0 及更高版本</description>
       <category>开发日志</category>
       <pubDate>Tue, 19 Dec 2023 08:26:24 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -159,12 +161,12 @@
       <link>https://hut.ao/zh/development/contribute.html</link>
       <guid>https://hut.ao/zh/development/contribute.html</guid>
       <source url="https://hut.ao/zh/rss.xml">贡献你的代码</source>
-      <description>贡献你的代码 胡桃工具箱使用 C# 和 .NET 框架开发桌面客户端和服务端。如果你愿意贡献你的代码，请阅读以下指导文档。 你可以在 GitHub 上查看所有当前仍然未解决的问题 下载并安装 Visual Studio 2022 Community 启动 Visual Studio Installer 以完成 Visual Studio 的安装流程 你...</description>
+      <description>胡桃工具箱使用 C# 和 .NET 框架开发桌面客户端和服务端。我们广泛地接受来自开源社区的反馈，如果你愿意贡献你的代码，请阅读本页的指导文档。</description>
       <category>开源</category>
       <category>开发</category>
       <pubDate>Thu, 12 Oct 2023 07:23:38 GMT</pubDate>
       <content:encoded><![CDATA[
-<p>胡桃工具箱使用 C# 和 .NET 框架开发桌面客户端和服务端。如果你愿意贡献你的代码，请阅读以下指导文档。</p>
+<p>胡桃工具箱使用 C# 和 .NET 框架开发桌面客户端和服务端。我们广泛地接受来自开源社区的反馈，如果你愿意贡献你的代码，请阅读本页的指导文档。</p>
 <p>你可以在 GitHub 上查看所有当前仍然<a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E5%AE%8C%E6%88%90" target="_blank" rel="noopener noreferrer">未解决的问题</a></p>
 <h2></h2>
 <ol>
@@ -197,13 +199,14 @@
 <p>你可以在<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/actions" target="_blank" rel="noopener noreferrer">alpha 流水线</a>中找到全部的编译记录。</p>
 <p><strong>你需要以 <code>受信任的根证书颁发机构</code> 添加<a href="https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt" target="_blank" rel="noopener noreferrer">DGP Studio CA 证书</a>到你的本地设备上以允许操作系统安装测试版安装包。</strong></p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/contribute.html" type="image/"/>
     </item>
     <item>
       <title>怪物资料</title>
       <link>https://hut.ao/zh/features/monster-wiki.html</link>
       <guid>https://hut.ao/zh/features/monster-wiki.html</guid>
       <source url="https://hut.ao/zh/rss.xml">怪物资料</source>
-      <description>怪物资料 monster-wiki 怪物资料是胡桃工具箱中内置的用于查询各个怪物的基础数值、各等级数值、元素抗性、掉落物品数据的 WIKI 已包含的数据 怪物列表 使用列表左上角的按钮，可切换列表显示的方式：即 “缩略图与名称” 或 “仅缩略图” 注：数据来源于原神，部分怪物可能缺少部分信息 单击列表中的缩略图或名称，即可跳转到相应的介绍页面 数据内容...</description>
+      <description>怪物 WIKI 是胡桃工具箱中内置的怪物资料库，玩家可以使用该功能查询原神内全部怪物的具体信息，通过分析怪物来降低游戏难度。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Fri, 01 Sep 2023 09:35:59 GMT</pubDate>
@@ -242,7 +245,7 @@
       <link>https://hut.ao/zh/features/setup.html</link>
       <guid>https://hut.ao/zh/features/setup.html</guid>
       <source url="https://hut.ao/zh/rss.xml">初始化引导</source>
-      <description>初始化引导 在初次启动胡桃工具箱时，胡桃工具箱将自动进入初始化引导流程以帮助用户正确地配置胡桃工具箱。 目前，胡桃工具箱将引导用户设置语言、确认重要的用户协议、检查必要的环境配置并下载静态资源。 语言设置 在语言设置环节，你可以选择当前胡桃已支持的界面语言。若更换了语言，胡桃工具箱将自动重启。 胡桃工具箱以简体中文为基础语言并主动维护英语文本。繁体中文...</description>
+      <description>胡桃工具箱的新用户引导功能帮助用户快速地检查程序具体功能的可用状态并将其设置为可用状态。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 29 Aug 2023 19:09:15 GMT</pubDate>
@@ -270,14 +273,14 @@
 <p>在该步骤中，胡桃工具箱将自动下载所需要的静态图片资源。下载完成后，胡桃将关闭初始化设置流程界面并自动加载主程序。如果下载时出现错误，您可以通过寻找错误处理章节中<a href="/zh/features/..%5Cadvanced%5Cexceptions.html#%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5" target="_blank">资源下载失败</a>部分以寻找可能的解决方案。</p>
 </details>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN016IMEtP1g6dyEFo5uK_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features/setup.html" type="image/"/>
     </item>
     <item>
       <title>开源开发</title>
       <link>https://hut.ao/zh/development/</link>
       <guid>https://hut.ao/zh/development/</guid>
       <source url="https://hut.ao/zh/rss.xml">开源开发</source>
-      <description>开源开发 </description>
+      <description>本页包含与 Snap Hutao 项目开发相关的公开文档目录。</description>
       <pubDate>Fri, 02 Jun 2023 03:35:43 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -287,7 +290,7 @@
       <link>https://hut.ao/zh/development/platform.html</link>
       <guid>https://hut.ao/zh/development/platform.html</guid>
       <source url="https://hut.ao/zh/rss.xml">胡桃开放平台</source>
-      <description>胡桃开放平台 Snap Hutao 项目自 2022 年 4 月 18 日在 GitHub 上创立项目以来获得了开源社区和用户的广泛支持。随着项目的发展，我们创建了一系列的支持服务作为 Snap Hutao 的中间组件。 现在，开发组将其中一些实用的服务以开放接口的形式公开给开源社区，供与我们有共同愿景的开发者使用。我们将为这些接口编写使用文档，维护这...</description>
+      <description>胡桃工具箱中包含了来自社区的创意，作为我们的回馈，我们也将一些服务公开于社区。如果它们对你的开发有帮助，请放心使用，我们会尽力维护这些分支项目。</description>
       <category>开源</category>
       <category>开发</category>
       <pubDate>Fri, 02 Jun 2023 03:35:43 GMT</pubDate>
@@ -308,13 +311,14 @@
 现在这一标准获得了更多开发者的相应，更详细的标准正不断更新。</p>
 <p>众多的开发者现在聚集于 <a href="https://github.com/UIGF-org" target="_blank" rel="noopener noreferrer">UIGF-Org</a>，我们希望通过维护这一组织让更多的开发者通过接触更多的用户，获得更多的反馈并获得技术上的进步，创造更多优秀的原神开源工具。</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/platform.html" type="image/"/>
     </item>
     <item>
       <title>全站目录</title>
       <link>https://hut.ao/zh/menu.html</link>
       <guid>https://hut.ao/zh/menu.html</guid>
       <source url="https://hut.ao/zh/rss.xml">全站目录</source>
-      <description>全站目录 </description>
+      <description>全站目录</description>
       <pubDate>Mon, 22 May 2023 05:41:54 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -405,7 +409,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/dashboard.html</link>
       <guid>https://hut.ao/zh/features/dashboard.html</guid>
       <source url="https://hut.ao/zh/rss.xml">首页仪表盘</source>
-      <description>首页仪表盘 仪表盘 胡桃工具箱启动后会默认进入首页仪表盘，上半部分为你的个人游戏数据，下半部分为近期游戏公告及游戏活动倒计时。 Snap Hutao 公告 若 Snap Hutao 开发组发布了新的公告则会在仪表盘上方显示，你可以手动关闭这些公告 游戏启动器 你可以直接在仪表盘中选择账号并启动游戏 祈愿记录 仪表盘中将显示祈愿档案 UID 并以进度条的...</description>
+      <description>在胡桃工具箱的首页仪表盘中，用户不仅可以快速地查看当前账户的总览数据，还可以查看实时的游戏内公告。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Fri, 12 May 2023 12:14:08 GMT</pubDate>
@@ -456,14 +460,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/real-time-notes.html</link>
       <guid>https://hut.ao/zh/features/real-time-notes.html</guid>
       <source url="https://hut.ao/zh/rss.xml">实时便笺</source>
-      <description>实时便笺 相关信息 该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见文档 live-data-tracking 添加角色 点击 “添加角色” 按钮 在弹出的 “添加角色” 浮窗中，找到你要添加的游戏角色 UID，并单击其右侧的加号按钮 此时您添加的游戏角色即可显示在实时便笺页面中 实时便笺是间隔固定时间自动刷新的，你可以点击窗口右上角的 “通知设...</description>
+      <description>胡桃工具箱中的实时便笺功能通过定时地刷新玩家的米游社数据，将原神内的动态信息同步至本地计算机并根据用户的要求按条件执行消息提醒推送。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Sat, 01 Apr 2023 00:54:18 GMT</pubDate>
       <content:encoded><![CDATA[
 <div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/zh/features/mhy-account-switch.html" target="_blank">米游社多账号切换</a>文档</p>
+<p class="hint-container-title">前置要求</p>
+<p>该功能需要你在胡桃工具箱中登录米游社账号，登录方法可见<a href="/zh/features/mhy-account-switch.html" target="_blank">米游社多账号切换</a>文档</p>
 </div>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp" alt="live-data-tracking" loading="lazy"></p>
 <h2>添加角色</h2>
@@ -479,7 +483,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>如果在数据刷新时出现 <code>1034</code> 错误则意味着触发了米游社反机器人风控，你可以通过在胡桃设置中配置无感验证来解决该问题</li>
 </ul>
 <h2>验证用户与角色</h2>
-<p>若你使用的是米游社帐号，则你的帐号非常容易受到风控机制的影响而触发验证码。在触发风控的情况下，实时便笺数据将无法刷新。
+<p>若你使用的是米游社账号，则你的账号非常容易受到风控机制的影响而触发验证码。在触发风控的情况下，实时便笺数据将无法刷新。
 你可以点击实时便笺页面左上角的 “验证当前用户与角色” 按钮。点击后，胡桃会弹出验证窗口，在你完成验证后即可对受到验证码风控的帐号刷新数据。</p>
 <h2>全局通知设置</h2>
 <ul>
@@ -536,7 +540,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/community.html</link>
       <guid>https://hut.ao/zh/community.html</guid>
       <source url="https://hut.ao/zh/rss.xml">加入用户社区</source>
-      <description>加入用户社区 作为开源软件，社区动力是胡桃工具箱生态的重要组成部分，你可以在通过下面的方式加入到胡桃的用户社区中。 </description>
+      <description>在这里你可以加入 Snap Hutao 的相关社区，与其它玩家交流方方面面的话题。</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -544,6 +548,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <div class="vp-card-container">
   </div>
 ]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>国际化支持</title>
@@ -633,14 +638,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://badges.crowdin.net/snap-hutao/localized.svg" type="image/svg+xml"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/i18n.html" type="image/"/>
     </item>
     <item>
       <title>项目说明</title>
       <link>https://hut.ao/zh/project.html</link>
       <guid>https://hut.ao/zh/project.html</guid>
       <source url="https://hut.ao/zh/rss.xml">项目说明</source>
-      <description>Snap Hutao 是一个实用的开源多功能原神工具箱，专为现代化 Windows 平台设计，改善桌面端玩家的游戏体验。</description>
+      <description>Snap Hutao 是一个开源于 GitHub 的程序项目，我们广泛接受来自社区的合作以让这个项目获得更多的活力。</description>
       <category>公告</category>
       <category>项目</category>
       <category>功能</category>
@@ -650,21 +655,20 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01sh4tKQ1g6e0nrMGai_!!1797064093.png_.webp" alt="banner" loading="lazy">
 <a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"></a></p>
 </div>
-<p>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新
-功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。</p>
+<p>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。</p>
 <p>Snap Hutao 项目使用 MSIX 格式的安装包打包。MSIX 是一种 Windows 原生的应用程序包格式，它使得软件的安装、更新和卸载过程更加简洁。其中，它的一个突出特性就是利用沙盒技术。这意味着以 MSIX 打包的应用程序在隔离的环境中运行，防止它们进行系统范围的更改。这种隔离增强了安全性，因为它限制了应用程序对系统资源和用户数据的访问。此外，当卸载 MSIX 打包的应用程序时，它不会留下任何残余文件或注册表条目，保持了系统的整洁和稳定。这是对传统安装方法的重大改进，因为传统方法在卸载应用程序时常常会留下“数字垃圾”。这些特性的结合使 MSIX 成为开发者和终端用户的强大工具，提供了无缝、安全、清洁的软件管理体验。</p>
 <h2>胡桃能解决的原神桌面端缺陷</h2>
 <p>|         功能         | 移动端                    | 桌面端                   | 胡桃的方案                                                            |
 | :</p>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01sh4tKQ1g6e0nrMGai_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title>快速开始</title>
       <link>https://hut.ao/zh/quick-start.html</link>
       <guid>https://hut.ao/zh/quick-start.html</guid>
       <source url="https://hut.ao/zh/rss.xml">快速开始</source>
-      <description>快速开始 遵循这篇快速开始文档，你将可以快速地将胡桃工具箱设置为可用状态。 不支持的系统版本： LTSC 和 LTSB 版本系统由于不包含足够新版本的 MSIX Core，故不支持安装 不支持企业版和精简版系统，所有来自非微软官方完整版系统的问题均不会积极处理 Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，...</description>
+      <description>遵循这篇快速开始文档，你将可以快速地将 Snap Hutao 胡桃工具箱设置为可用状态。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -674,6 +678,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>| 要求                   | 规格                                                             |
 |</p>
 ]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png" type="image/png"/>
     </item>
     <item>
       <title></title>
@@ -717,7 +722,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/star-request.html</link>
       <guid>https://hut.ao/zh/star-request.html</guid>
       <source url="https://hut.ao/zh/rss.xml"></source>
-      <description>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们 为我们在 GitHub 上的项目加星点赞 ⭐ Snap.Hutao hutao.stars Snap.Hutao.Docs hutao.docs.stars 在更多的地方帮助我们宣传 commit_activity hutao-last-commit </description>
+      <description>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们 为我们在 GitHub 上的项目加星点赞 ⭐ Snap.Hutao hutao.stars Snap.Hutao.Docs hutao.docs.stars 在更多的地方帮助我们宣传 commit_activity hutao-last-commit</description>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>如果你认为胡桃工具箱是一个好的项目或者有帮助到你，你可以通过以下方式支持我们</strong></p>
 <ul>
@@ -739,7 +744,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/advanced/FAQ.html</link>
       <guid>https://hut.ao/zh/advanced/FAQ.html</guid>
       <source url="https://hut.ao/zh/rss.xml">其他常见问题</source>
-      <description>其他常见问题 如何创建胡桃的桌面快捷方式（非管理员模式） 社区力量 感谢 CzHUV 提供的解决方案 Win+R 呼出运行窗口，在窗口中输入shell:AppsFolder Run Windows 会弹出应用程序目录，找到胡桃工具箱 右键，点击 “创建快捷方式” 根据提示操作你就可以获得一个桌面快捷方式了 如何创建胡桃的桌面快捷方式 （管理员模式） 你...</description>
+      <description>本页包含了一些常见的与用户网络和程序生命周期问题相关的问题及解决方案。</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -790,14 +795,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>在反馈中心中解除 Loopback 限制</li>
 </ol>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/faq.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>祈愿系统与导出原理</title>
       <link>https://hut.ao/zh/advanced/Gacha-system-and-export-principal.html</link>
       <guid>https://hut.ao/zh/advanced/Gacha-system-and-export-principal.html</guid>
       <source url="https://hut.ao/zh/rss.xml">祈愿系统与导出原理</source>
-      <description>祈愿系统与导出原理 Gacha System and Principal 胡桃的祈愿系统相较 Snap Genshin 进行了整体架构上的重新设计。 本文将解释原神的祈愿记录机制和胡桃工具箱中祈愿导出功能的技术原理。 祈愿的获取 获取祈愿记录需要请求米哈游的 API 关于此 API, 有下列几个注意点 通过米哈游服务器的 API，只能查询到过去 6 个...</description>
+      <description>Snap Hutao 使用多种方式获取用户的登录信息并配合原神 API 获取祈愿记录。</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -848,13 +853,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h3>祈愿的导出</h3>
 <p>已实装</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/Gacha-system-and-export-principal.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>高级</title>
       <link>https://hut.ao/zh/advanced/</link>
       <guid>https://hut.ao/zh/advanced/</guid>
       <source url="https://hut.ao/zh/rss.xml">高级</source>
-      <description>高级 </description>
+      <description>高级</description>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -864,7 +870,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/advanced/exceptions.html</link>
       <guid>https://hut.ao/zh/advanced/exceptions.html</guid>
       <source url="https://hut.ao/zh/rss.xml">常见的程序异常</source>
-      <description>常见的程序异常 该文档包含由用户端错误造成的问题 Return Code: -10001 该异常实际上来源于米游社的返回信息，包括： Return Code: -10001 Return Code: -100 问题来源： Cookie 过期或网络异常 系统时间错误 解决方案： 在帐号面板中，点击 “刷新 Cookie” 删除帐号后重新添加米游社帐号 在...</description>
+      <description>胡桃工具箱会使用特定的错误代码指示特定的错误，如果你在使用过程中遭遇了程序错误并且有一个错误代码，你可以尝试在该页查询。</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -955,13 +961,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>并在文件夹中找到 <code>60568DGPStudio.SnapHutao_wbnnev551gwxy</code> 文件夹并删除（如果权限不足请考虑使用 <code>NSudo_LG</code> 解决，详情请百度）</li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/exceptions.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>使用第三方工具获取有 Stoken 的 cookie</title>
       <link>https://hut.ao/zh/advanced/get-stoken-cookie-from-the-third-party.html</link>
       <guid>https://hut.ao/zh/advanced/get-stoken-cookie-from-the-third-party.html</guid>
       <source url="https://hut.ao/zh/rss.xml">使用第三方工具获取有 Stoken 的 cookie</source>
-      <description>使用第三方工具获取有 Stoken 的 cookie 注意 以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关 本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关 Android Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie GetTok...</description>
+      <description>一些第三方工具可以帮助你获取到包含 Stoken 字段值的米游社 cookie 并将其用于胡桃工具箱。</description>
       <category>FAQ</category>
       <category>第三方工具</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1015,13 +1022,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>将之前获取到的 Cookie 输入，此时即可完成登录</li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/get-stoken-cookie-from-the-third-party.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>已知问题</title>
       <link>https://hut.ao/zh/advanced/known-issue.html</link>
       <guid>https://hut.ao/zh/advanced/known-issue.html</guid>
       <source url="https://hut.ao/zh/rss.xml">已知问题</source>
-      <description>已知问题 你可以在 GitHub Issue 页面 查看全部的议题 </description>
+      <description>我们在 GitHub 议题页面使用了多种标签来标记用户提交的问题，你可以通过这些标签来确认问题的状态。</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1029,13 +1037,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>| 类别                                                                                                                                | 特征                |
 |</p>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/known-issue.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>卸载胡桃工具箱</title>
       <link>https://hut.ao/zh/advanced/uninstall.html</link>
       <guid>https://hut.ao/zh/advanced/uninstall.html</guid>
       <source url="https://hut.ao/zh/rss.xml">卸载胡桃工具箱</source>
-      <description>卸载胡桃工具箱 清除有关的任务计划 1.4.15 版本前，若不执行该步骤，胡桃用于获取实时便笺数据的计划任务将不会被删除，会出现这个问题 方法 1 方法 2： 执行下方的脚本 方法 3： 打开 Windows 计划任务程序 找到 SnapHutaoDailyNoteRefreshTask 任务并删除 方法 4： 升级至 1.5.1 版本并使用一次实时便...</description>
+      <description>卸载胡桃工具箱是一个简单快速的过程，你可以根据本页教程，以最适合你的程度来卸载胡桃工具箱。</description>
       <category>FAQ</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1092,14 +1101,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </div>
 <p>从在胡桃数据目录（默认路径为 <code>%userprofile%/Documents/Hutao</code>）中以复制的方式将 <code>Userdata.db</code> 拷贝至你的备份目录即可，该文件包含了全部的胡桃客户端数据。</p>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg_.webp" type="image/webp"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/uninstall.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
       <title>功能指南</title>
       <link>https://hut.ao/zh/features/</link>
       <guid>https://hut.ao/zh/features/</guid>
       <source url="https://hut.ao/zh/rss.xml">功能指南</source>
-      <description>功能指南 </description>
+      <description>在功能指南目录，你可以找到当前胡桃工具箱提供的全部功能目录，并根据需要查询对应的功能文档。</description>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -1109,13 +1118,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/achievements.html</link>
       <guid>https://hut.ao/zh/features/achievements.html</guid>
       <source url="https://hut.ao/zh/rss.xml">成就管理</source>
-      <description>成就管理 成就管理界面 胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态 在第一次使用时，你需要根据提示点击 “创建新存档” 按钮以创造一个成就存档并为其命名。创建第一个资料页后，你可以点击右上角的 “创建新存档” 来继续为更多的账号创建成就记录档案 成就导入 胡桃工具箱使用 UIAF 统一可交换成就标准 格式的文件来储存用户的成就数...</description>
+      <description>胡桃工具箱提供原神成就管理功能，你可以通过它浏览并管理所有的成就状态, 通过强大的筛选系统，你可以从版本号、成就名称、成就描述和所属地区来轻松地搜索指定的成就。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
+<p>胡桃工具箱提供原神成就管理功能，你可以通过它浏览并管理所有的成就状态, 通过强大的筛选系统，你可以从版本号、成就名称、成就描述和所属地区来轻松地搜索指定的成就。</p>
+<!-- more -->
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01fApvim1g6e0xyGQvS_!!1797064093.png_.webp" alt="成就管理界面" loading="lazy"></p>
-<p>胡桃工具箱提供成就管理功能，用户可以通过它浏览并管理所有的成就状态</p>
 <p>在第一次使用时，你需要根据提示点击 “创建新存档” 按钮以创造一个成就存档并为其命名。创建第一个资料页后，你可以点击右上角的 “创建新存档” 来继续为更多的账号创建成就记录档案</p>
 <h2>成就导入 </h2>
 <ul>
@@ -1147,20 +1157,20 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01fApvim1g6e0xyGQvS_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>属性统计</title>
+      <title>我的角色</title>
       <link>https://hut.ao/zh/features/character-data.html</link>
       <guid>https://hut.ao/zh/features/character-data.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">属性统计</source>
-      <description>属性统计 相关信息 该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见文档 属性统计，即主程序侧栏中的 “我的角色” 功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分 属性统计示例图 同步角色信息 推荐的使用步骤： 从米游社养成计算同步 从米游社原神战绩同步 设置游戏内橱窗中的6个角色...</description>
+      <source url="https://hut.ao/zh/rss.xml">我的角色</source>
+      <description>胡桃工具箱的我的角色功能可以读取原神账号下所拥有的角色的具体数据进行展示并提供分析数据，包括等级、命之座、天赋和圣遗物评分等数据。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
 <div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>该功能需要你在胡桃工具箱中登录米游社帐号，登录方法可见<a href="/zh/features/mhy-account-switch.html#%E7%B1%B3%E6%B8%B8%E7%A4%BE%E5%A4%9A%E8%B4%A6%E5%8F%B7%E5%88%87%E6%8D%A2" target="_blank">米游社多账号切换</a>文档</p>
+<p class="hint-container-title">前置要求</p>
+<p>该功能需要你在胡桃工具箱中登录米游社账号，登录方法可见<a href="/zh/features/mhy-account-switch.html#%E7%B1%B3%E6%B8%B8%E7%A4%BE%E5%A4%9A%E8%B4%A6%E5%8F%B7%E5%88%87%E6%8D%A2" target="_blank">米游社多账号切换</a>文档</p>
 </div>
-<p>属性统计，即主程序侧栏中的 “我的角色” 功能，可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分</p>
+<p>我的角色功能可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分</p>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hK2R3O1g6e0qblXd2_!!1797064093.png_.webp" alt="属性统计示例图" loading="lazy"></p>
 <h2>同步角色信息</h2>
 <p>推荐的使用步骤：</p>
@@ -1259,7 +1269,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/character-wiki.html</link>
       <guid>https://hut.ao/zh/features/character-wiki.html</guid>
       <source url="https://hut.ao/zh/rss.xml">角色资料</source>
-      <description>角色资料 characters-wiki 角色资料是胡桃工具箱中内置的用于查询各个角色的基础信息、天赋数值、命之座、培养材料等数据的 wiki 已包含的数据 角色列表 使用列表左上角的按钮，可切换列表显示的方式：即&amp;quot;缩略图与名称&amp;quot;或&amp;quot;仅缩略图&amp;quot; 单击列表中的缩略图或名称，即可跳转到相应的介绍页面 数据内容 角色基本信息 介绍 各等级下的数值 属性 天赋...</description>
+      <description>胡桃工具箱中的角色 WIKI 功能内置了原神全部角色的基础信息、天赋数值、命之座等全部的重要数据，它帮助玩家方便地获取角色信息。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1320,7 +1330,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/develop-plan.html</link>
       <guid>https://hut.ao/zh/features/develop-plan.html</guid>
       <source url="https://hut.ao/zh/rss.xml">养成计划</source>
-      <description>养成计划 dev-plan 添加养成目标进入材料清单 基于 WIKI 资料添加 在胡桃工具箱的左侧栏目中，点击 “角色资料” 或 “武器资料” 功能 在胡桃工具箱的整体界面右上部分，点击 “养成计算” 按钮 在弹出的 “添加到当前养成计划” 的窗口中，填写角色需要计算的各项属性的起始等级以及目标等级 基于 WIKI 资料添加的养成目标，默认初始值为 1...</description>
+      <description>胡桃工具箱中的养成计划功能帮助玩家快速地构建角色和武器的培养清单列表，方便玩家追踪他们所拥有并计划培养的可获取目标。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1378,7 +1388,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/game-launcher.html</link>
       <guid>https://hut.ao/zh/features/game-launcher.html</guid>
       <source url="https://hut.ao/zh/rss.xml">高级启动器</source>
-      <description>高级启动器 游戏启动器 胡桃工具箱提供的高级启动器功能中通过多样的设置选项来允许用户以自定义设置启动游戏 你可以通过点击左侧菜单栏中的 “启动游戏” 进入高级启动器功能 第一次使用时你会被跳转到设置页面以设置你的游戏路径 选择游戏路径时，请注意此处选择的应是游戏本身（YuanShen.exe）而不是游戏启动器（launcher.exe） 例如（仅作示范...</description>
+      <description>胡桃工具箱内的游戏启动器相较于官方启动器，不仅允许用户添加自定义的启动参数，还内置了服务器转换和解锁帧率等显著提升游戏体验的功能。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1422,7 +1432,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/hutao-API.html</link>
       <guid>https://hut.ao/zh/features/hutao-API.html</guid>
       <source url="https://hut.ao/zh/rss.xml">胡桃数据库/深渊统计</source>
-      <description>胡桃数据库/深渊统计 胡桃工具箱提供两个主要的深境螺旋挑战统计的功能 顶栏中 “分期详情” 是一个通过保存玩家每一期深境螺旋挑战数据来帮助个人玩家回顾游戏经历及个人数据收集的统计功能 顶栏中的 “本期统计” 是一个旨在通过统计并展示广大玩家深境螺旋挑战数据，来帮助对原神对战系统不熟悉玩家组建队伍、通关深渊、获取奖励的功能 众多的玩家通过上传个人的 “分...</description>
+      <description>胡桃工具箱内置的胡桃数据库功能是一个帮助玩家归档并查询深境螺旋挑战数据的数据库。玩家可以一键获取并在本地归档每一期深境螺旋挑战数据，并将数据提交至胡桃深渊数据库。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1546,7 +1556,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/hutao-settings.html</link>
       <guid>https://hut.ao/zh/features/hutao-settings.html</guid>
       <source url="https://hut.ao/zh/rss.xml">软件设置</source>
-      <description>软件设置 settings 以下内容将以胡桃工具箱内的设置功能的条目排列顺序为介绍顺序 关于 胡桃 该部分包含以下信息： 胡桃工具箱的图标：您可以在胡桃的查看它的原图 该图像作品的作者为画画的芦苇图标的绘制过程 DGP-Studio已被所有者授权使用 胡桃账号 你可以在设置页面中注册并登录你的胡桃账号 请阅读功能文档以获取更详细的信息。 管理员模式工具...</description>
+      <description>胡桃工具箱的设置页包含了程序方方面面的设置选项，用户通过修改该页中的设置可以将胡桃工具箱自定义至想要的使用效果。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1691,7 +1701,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/mhy-account-switch.html</link>
       <guid>https://hut.ao/zh/features/mhy-account-switch.html</guid>
       <source url="https://hut.ao/zh/rss.xml">米游社多账号切换</source>
-      <description>米游社多账号切换 提示 胡桃工具箱支持中国大陆版米哈游论坛米游社和国际版论坛 HoYoLAB 的账号。HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制。 本文档所描述的账号切换指的是用于获取游戏数据的米游社 / HoYoLAB 账号，不是原神游戏内的账号 在使用本功能前，你需要使用官方的米游社 App 登录你...</description>
+      <description>米游社多账号面板功能允许用户在胡桃工具箱中登录多个米哈游论坛账号并自由切换，以实现在工具箱内以不同账号使用各种功能的目的。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1755,14 +1765,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>自 1.4.15 版本起，你可以通过在账号面板中刷新 Cookie 来刷新登录状态</li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ZhnkRl1g6e0tz18y9_!!1797064093.png.png_.webp" type="image/webp"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features/mhy-account-switch.html" type="image/"/>
     </item>
     <item>
       <title>武器资料</title>
       <link>https://hut.ao/zh/features/weapon-wiki.html</link>
       <guid>https://hut.ao/zh/features/weapon-wiki.html</guid>
       <source url="https://hut.ao/zh/rss.xml">武器资料</source>
-      <description>武器资料 weapon-wiki 武器资料是胡桃工具箱中内置的用于查询各个武器的外观、参数、精炼效果、推荐搭配等数据的 WIKI 已包含的数据 武器列表 使用列表左上角的按钮，可切换列表显示的方式：即 “缩略图与名称” 或 “仅缩略图” 单击列表中的缩略图或名称，即可跳转到相应的介绍页面 数据内容 武器基本信息 突破前后的武器图标对比 对应武器的立绘展...</description>
+      <description>武器 WIKI 是胡桃工具箱中内置的武器资料库，玩家可以使用该功能查询原神内全部武器的具体信息，并为角色选择合适的武器。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1805,7 +1815,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/wish-export.html</link>
       <guid>https://hut.ao/zh/features/wish-export.html</guid>
       <source url="https://hut.ao/zh/rss.xml">祈愿记录</source>
-      <description>祈愿记录 抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。 但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（）。 因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。 有关原神祈愿记录导出的技术原理，你可以参阅我...</description>
+      <description>祈愿导出功能允许玩家自由地将游戏账号上当前的祈愿数据导出并永久性在本地储存并备份，通过长久的数据积累进行数据追踪和祈愿数据分析。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
@@ -1917,7 +1927,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/</link>
       <guid>https://hut.ao/zh/statements/</guid>
       <source url="https://hut.ao/zh/rss.xml">声明和公告</source>
-      <description>声明和公告 Snap Hutao 项目不支持、不参与、不合作任何与原神相关的私服和外挂项目 </description>
+      <description>本页包含 Snap Hutao 全部声明和公告的目录。</description>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>Snap Hutao 项目不支持、不参与、不合作任何与原神相关的私服和外挂项目</strong></p>
@@ -1928,7 +1938,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/statements/bug-report.html</link>
       <guid>https://hut.ao/zh/statements/bug-report.html</guid>
       <source url="https://hut.ao/zh/rss.xml">提交 BUG 报告</source>
-      <description>提交 BUG 报告 在你使用 Snap Hutao 时如果发现了可复现或不可自行修复的问题，可以通过提交问题反馈来告知开发者。 suggestion 在发起新的 Issue 之前，请先执行以下清单： 当前使用的是最新版本客户端 使用搜索功能搜索你的问题并检查文档 搜索项目 Issue，检查是否已有相同或类似的问题 若执行上述步骤后没有得到问题解决方案，...</description>
+      <description>胡桃工具箱是一个发布于 GitHub 的开源程序，我们亦使用 GitHub 议题功能来收集问题反馈，你可以通过 GitHub Issues 来提交问题报告。</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1973,14 +1983,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>通过 GitHub 提交问题：<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose" target="_blank" rel="noopener noreferrer">DGP-Studio/Snap.Hutao.Docs</a></li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg_.webp" type="image/webp"/>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/bug-report.html" type="image/"/>
     </item>
     <item>
       <title>用户数据和隐私权益</title>
       <link>https://hut.ao/zh/statements/privacy-notice.html</link>
       <guid>https://hut.ao/zh/statements/privacy-notice.html</guid>
       <source url="https://hut.ao/zh/rss.xml">用户数据和隐私权益</source>
-      <description>用户数据和隐私权益 个人信息数据 Snap Hutao 的项目性质决定了其不会收集任何个人信息数据 常规数据使用 胡桃工具箱充分尊重用户的隐私，目前我们会按下方的说明使用用户的数据： 使用胡桃后，在 数据目录 中以数据库文件的形式 储存 米游社和 HoYoLab Cookie 胡桃的软件设置信息 全部的用户数据 使用胡桃主程序时，胡桃会因开发和统计为目...</description>
+      <description>请详细阅读本页以获取 Snap Hutao 项目的用户数据处理和隐私权益。</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2064,13 +2074,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>hutao.ao</li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/privacy-notice.html" type="image/"/>
     </item>
     <item>
       <title>用户使用协议和法律声明</title>
       <link>https://hut.ao/zh/statements/tos.html</link>
       <guid>https://hut.ao/zh/statements/tos.html</guid>
       <source url="https://hut.ao/zh/rss.xml">用户使用协议和法律声明</source>
-      <description>用户使用协议和法律声明 总则 本“用户使用协议和法律声明”（以下简称“条款”或“使用协议”）适用于DGP-Studio 开发团队（以下简称“本团队”或“我方”）开发的全部软件作品、各开发项目的官方网站、附属的自媒体账号等。 请您仔细阅读本用户使用协议的全部内容，在您阅读“使用协议”后，若对此用户使用协议中的任何条款有异议，请立刻停止使用本团队所开发的任...</description>
+      <description>Snap Hutao 的用户使用协议和法律声明。</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2174,13 +2185,14 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/tos.html" type="image/"/>
     </item>
     <item>
       <title>更新日志</title>
       <link>https://hut.ao/zh/statements/update-log.html</link>
       <guid>https://hut.ao/zh/statements/update-log.html</guid>
       <source url="https://hut.ao/zh/rss.xml">更新日志</source>
-      <description>更新日志 1.9.8 新增 ➕ 新增对集录祈愿卡池的支持 #1470 增加对 UIGF v3.0 祈愿数据格式的支持 新增程序内切换应用深浅色主题的设置选项 #1434 修复 🔨 修复了在特定的 Windows 显示设置下，主页卡片的显示问题 #1429 修复了因网络问题，国际服和官服之间有概率转换失败的情况 #1433 修复了启动游戏下载页签预下载...</description>
+      <description>Snap Hutao 通过持续地更新修复已知问题并发布全新功能，以保证用户获得最好的使用体验，我们将始终发布更新日志以追踪程序的变化。</description>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -3129,6 +3141,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>商店初版</li>
 </ul>
 ]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
     </item>
   </channel>
 </rss>

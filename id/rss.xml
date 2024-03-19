@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Wed, 13 Mar 2024 06:31:32 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2024 06:31:32 GMT</lastBuildDate>
+    <pubDate>Tue, 19 Mar 2024 10:18:02 GMT</pubDate>
+    <lastBuildDate>Tue, 19 Mar 2024 10:18:02 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>open source</category>
@@ -187,7 +187,7 @@
       <link>https://hut.ao/id/menu.html</link>
       <guid>https://hut.ao/id/menu.html</guid>
       <source url="https://hut.ao/id/rss.xml">Site Menu</source>
-      <description>Site Menu </description>
+      <description>Site Menu</description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -552,7 +552,7 @@ berisi seluruh data klien.</p>
       <link>https://hut.ao/id/advanced/</link>
       <guid>https://hut.ao/id/advanced/</guid>
       <source url="https://hut.ao/id/rss.xml">Lanjutan</source>
-      <description>Lanjutan </description>
+      <description>Lanjutan</description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -740,7 +740,7 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/advanced/known-issue.html</link>
       <guid>https://hut.ao/id/advanced/known-issue.html</guid>
       <source url="https://hut.ao/id/rss.xml">Masalah yang Diketahui</source>
-      <description>Masalah yang Diketahui Anda dapat melihat semua masalah di Halaman Issue GitHub </description>
+      <description>Masalah yang Diketahui Anda dapat melihat semua masalah di Halaman Issue GitHub</description>
       <category>FAQ</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -803,7 +803,7 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/blog/</link>
       <guid>https://hut.ao/id/blog/</guid>
       <source url="https://hut.ao/id/rss.xml">Dev Logs</source>
-      <description>Dev Logs </description>
+      <description>Dev Logs</description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -841,7 +841,7 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
       <link>https://hut.ao/id/development/</link>
       <guid>https://hut.ao/id/development/</guid>
       <source url="https://hut.ao/id/rss.xml">Open Source Development</source>
-      <description>Open Source Development </description>
+      <description>Open Source Development</description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -938,7 +938,7 @@ balik, membuat kemajuan teknis, dan menciptakan alat Genshin Impact open source 
       <link>https://hut.ao/id/features/</link>
       <guid>https://hut.ao/id/features/</guid>
       <source url="https://hut.ao/id/rss.xml">Fitur</source>
-      <description>Fitur </description>
+      <description>Fitur</description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -1807,7 +1807,7 @@ Saat ini, Anda memiliki beberapa cara untuk mengaktifkan Sinkronisasi Awan:</p>
       <link>https://hut.ao/id/statements/</link>
       <guid>https://hut.ao/id/statements/</guid>
       <source url="https://hut.ao/id/rss.xml">Statements</source>
-      <description>Statements Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program. </description>
+      <description>Statements Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program.</description>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.</strong></p>
