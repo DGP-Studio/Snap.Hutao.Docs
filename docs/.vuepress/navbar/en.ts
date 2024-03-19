@@ -36,11 +36,6 @@ export const enNavbar = navbar([
         text: "Service Availability",
         children: [
           {
-            text: "UptimeRobot",
-            icon: "/images/202312/uptimerobot-logo.svg",
-            link: "https://status.hut.ao/",
-          },
-          {
             text: "Uptime Kuma",
             icon: "/images/202312/uptime-kuma.svg",
             link: "https://status.snapgenshin.cn/status",

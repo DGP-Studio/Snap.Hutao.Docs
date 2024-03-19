@@ -36,11 +36,6 @@ export const zhNavbar = navbar([
         text: "服务可用性",
         children: [
           {
-            text: "UptimeRobot",
-            icon: "/images/202312/uptimerobot-logo.svg",
-            link: "https://status.hut.ao/",
-          },
-          {
             text: "Uptime Kuma",
             icon: "/images/202312/uptime-kuma.svg",
             link: "https://status.snapgenshin.cn/status",
