@@ -6,7 +6,7 @@ icon: iconfont icon-like
 index: false
 headerDepth: 2
 description: The Snap Hutao project accepts donations from the community to keep the project operations, and we sincerely thank everyone who has supported this project.
-banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/support-us.html
 ---
 
 # Support us

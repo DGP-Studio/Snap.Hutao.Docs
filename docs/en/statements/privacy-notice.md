@@ -5,6 +5,7 @@ category:
 icon: iconfont icon-license
 order: 3
 description: Please read this page carefully to understand the user data handling and privacy rights for the Snap Hutao project.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/privacy-notice.html
 ---
 
 # User Data and Privacy Notice

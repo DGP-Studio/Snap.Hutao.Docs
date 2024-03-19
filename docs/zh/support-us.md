@@ -6,7 +6,7 @@ icon: iconfont icon-like
 index: false
 headerDepth: 2
 description: Snap Hutao 项目接受来自社区的捐赠来维持项目的运营，我们真诚地感谢为该项目提供支持的所有人。
-banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/support-us.html
 ---
 
 # 支持我们

@@ -4,7 +4,8 @@ icon: iconfont icon-tool
 category:
   - FAQ
 order: 3
-description: We use a variety of labels on our GitHub issue page to categorize and track the status of user-submitted issues. You can rely on these labels to determine the status of a problem.
+description: We use a variety of labels on our GitHub issue page to categorize and track the status of user-submitted issues. You can rely on these labels to determine the status of issue.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/known-issue.html&has_description=False
 ---
 
 # Known Issue

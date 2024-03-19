@@ -5,6 +5,7 @@ icon: iconfont icon-debug
 order: 2
 comment: false
 description: 胡桃工具箱是一个发布于 GitHub 的开源程序，我们亦使用 GitHub 议题功能来收集问题反馈，你可以通过 GitHub Issues 来提交问题报告。
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/bug-report.html
 ---
 
 # 提交 BUG 报告

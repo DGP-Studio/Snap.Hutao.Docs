@@ -4,6 +4,7 @@ tag: ["开发", "GitHub"]
 icon: iconfont icon-code
 order: 3
 description: 胡桃工具箱使用 C# 和 .NET 框架开发桌面客户端和服务端。我们广泛地接受来自开源社区的反馈，如果你愿意贡献你的代码，请阅读本页的指导文档。
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/contribute.html
 ---
 
 # 贡献你的代码

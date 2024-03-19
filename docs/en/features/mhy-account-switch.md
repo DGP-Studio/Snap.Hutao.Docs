@@ -4,7 +4,8 @@ category: [Feature, Tutorial]
 tag: [MiYouShe, HoYoLAB, Multi account, check-in]
 order: 14
 comment: false
-description: The Multi-Account Panel feature in Snap Hutao allows users to log in with multiple miHoYo BBS accounts within the toolbox and switch between them freely. This enables users to utilize various functions within the toolbox with different accounts for specific purposes.
+description: The Multi-account Panel feature in Snap Hutao allows users to log in with multiple miHoYo BBS accounts within the toolbox and switch between them freely. This enables users to utilize various functions within Snap Hutao with different accounts for specific purposes.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/features/mhy-account-switch.html
 ---
 
 # MiHoYo BBS Account Switch

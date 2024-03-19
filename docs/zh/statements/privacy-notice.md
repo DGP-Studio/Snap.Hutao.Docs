@@ -5,6 +5,7 @@ icon: iconfont icon-license
 order: 3
 comment: false
 description: 请详细阅读本页以获取 Snap Hutao 项目的用户数据处理和隐私权益。
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/privacy-notice.html
 ---
 
 # 用户数据和隐私权益

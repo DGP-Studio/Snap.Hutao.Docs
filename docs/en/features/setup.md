@@ -4,6 +4,7 @@ category: [Feature, Tutorial]
 order: 1
 comment: false
 description: The new user onboarding feature in Snap Hutao helps users quickly check the availability status of specific program functionalities and set them to an available state.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/features/setup.html
 ---
 
 # Initial Setup Guide

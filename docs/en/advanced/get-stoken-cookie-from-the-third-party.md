@@ -6,6 +6,7 @@ icon: iconfont icon-read
 order: 7
 comment: false
 description: There are some third-party tools that can help you obtain the cookie from the miHoYo community with the Stoken field value and use it for Snap Hutao.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/get-stoken-cookie-from-the-third-party.html&has_description=False
 ---
 
 # Obtaining Stoken-containing Cookies Using Third-Party Tools

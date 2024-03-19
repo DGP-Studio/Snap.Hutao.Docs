@@ -6,6 +6,7 @@ icon: iconfont icon-read
 order: 8
 comment: false
 description: Snap Hutao utilizes various methods to obtain users' login information and combines it with the Genshin Impact API to retrieve gacha records.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/Gacha-system-and-export-principal.html&has_description=False
 ---
 
 # Gacha System and Export Principle
