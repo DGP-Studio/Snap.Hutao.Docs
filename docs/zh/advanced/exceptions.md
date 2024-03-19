@@ -5,6 +5,7 @@ category: [FAQ]
 order: 2
 comment: false
 description: 胡桃工具箱会使用特定的错误代码指示特定的错误，如果你在使用过程中遭遇了程序错误并且有一个错误代码，你可以尝试在该页查询。
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/exceptions.html&has_description=False
 ---
 
 # 常见的程序异常
