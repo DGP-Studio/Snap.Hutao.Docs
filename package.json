@@ -12,18 +12,18 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.8",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.19",
-    "@vuepress/plugin-feed": "2.0.0-rc.19",
-    "@vuepress/plugin-google-analytics": "2.0.0-rc.15",
-    "@vuepress/plugin-pwa": "2.0.0-rc.20",
-    "@vuepress/plugin-redirect": "2.0.0-rc.19",
+    "@vuepress/bundler-vite": "2.0.0-rc.9",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.21",
+    "@vuepress/plugin-feed": "2.0.0-rc.21",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.21",
+    "@vuepress/plugin-pwa": "2.0.0-rc.21",
+    "@vuepress/plugin-redirect": "2.0.0-rc.21",
     "husky": "9.0.11",
     "nano-staged": "0.8.0",
     "prettier": "3.2.5",
     "vue": "^3.4.21",
-    "vuepress": "2.0.0-rc.8",
-    "vuepress-theme-hope": "2.0.0-rc.31"
+    "vuepress": "2.0.0-rc.9",
+    "vuepress-theme-hope": "2.0.0-rc.32"
   },
   "engines": {
     "node": ">=18.18.0"
