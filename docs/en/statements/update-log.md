@@ -11,7 +11,21 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.9.8 <Badge text="latest" type="tip" />
+## 1.9.9 <Badge text="latest" type="tip" />
+
+- Fix 🔨
+  - Fixed the interact launch error with Better Genshin Impact [#1467](https://github.com/DGP-Studio/Snap.Hutao/issues/1467)
+  - Fixed the full package name error in Advanced Game Launcher - Resource Download page [#1476](https://github.com/DGP-Studio/Snap.Hutao/issues/1476)
+  - Fixed the issue that game would be launched when failed to unlock frame rate limit [#1495](https://github.com/DGP-Studio/Snap.Hutao/issues/1495)
+  - Updated outdated links in Settings page [#1503](https://github.com/DGP-Studio/Snap.Hutao/issues/1503)
+  - Fixed the crash issue after adding new MiHoYo account, and optimized UI after sign-in [#1504](https://github.com/DGP-Studio/Snap.Hutao/issues/1504)
+- Optimization ✨
+  - Optimized keyword searching UI in WIKI pages [#1475](https://github.com/DGP-Studio/Snap.Hutao/pull/1475)
+  - Optimized UI in WIKI page when search result is empty [#1479](https://github.com/DGP-Studio/Snap.Hutao/pull/1479)
+  - Optimized collected item display in Dev Plan [#1513](https://github.com/DGP-Studio/Snap.Hutao/pull/1513)
+  - Added security hint in Web Login page
+
+## 1.9.8
 
 - New ➕
   - Added support for Chronicled Wish [#1470](https://github.com/DGP-Studio/Snap.Hutao/issues/1470)
