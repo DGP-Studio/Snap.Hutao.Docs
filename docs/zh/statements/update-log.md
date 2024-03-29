@@ -19,7 +19,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
   - 修复了高级启动器-资源下载中完整包包名显示错误的问题 [#1476](https://github.com/DGP-Studio/Snap.Hutao/issues/1476)
   - 修复了高级启动器在解锁帧率时游戏仍然会启动的问题 [#1495](https://github.com/DGP-Studio/Snap.Hutao/issues/1495)
   - 更换了设置页中过时的链接 [#1503](https://github.com/DGP-Studio/Snap.Hutao/issues/1503)
-  - 修复了在添加账号时闪退，有时无法正确清空选中的用户与角色的问题并优化了登录后的界面显示 [#1504](https://github.com/DGP-Studio/Snap.Hutao/issues/1504)
+  - 修复了在添加账号时闪退；修复了偶发的无法正确清空选中的用户与角色的问题；优化了登录后的界面显示 [#1504](https://github.com/DGP-Studio/Snap.Hutao/issues/1504)
   - 修复了在祈愿记录界面关闭窗口会导致程序崩溃的问题
   - 修复了当程序主题与系统主题不同时，对话框会显示系统主题的问题
 - 优化 ✨
@@ -27,7 +27,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
   - 优化了 WIKI 功能搜索结果为空时的界面 [#1479](https://github.com/DGP-Studio/Snap.Hutao/pull/1479)
   - 优化了养成计划中已收集完成物品的显示 [#1513](https://github.com/DGP-Studio/Snap.Hutao/pull/1513)
   - 优化了养成计划界面瀑布流排版的流畅度与稳定性
-  - 优化了养成计划页面背包材料与材料统计页签的默认排序，现在对于数量足够的物品会显示完成标记
+  - 优化了养成计划页面背包材料与材料统计页签的默认排序，现在对于数量足够的物品会显示完成标记 [#1510](https://github.com/DGP-Studio/Snap.Hutao/pull/1510)
   - 优化了祈愿记录页面统计页签底部滚动条的对齐
   - 优化了祈愿记录页面全球统计页签的物品显示逻辑
   - 优化了成就记录页面网格视图的流畅度与稳定性
