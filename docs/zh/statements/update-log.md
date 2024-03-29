@@ -22,6 +22,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
   - 优化了 WIKI 关键词搜索界面 [#1475](https://github.com/DGP-Studio/Snap.Hutao/pull/1475)
   - 优化了 WIKI 功能搜索结果为空时的界面 [#1479](https://github.com/DGP-Studio/Snap.Hutao/pull/1479)
   - 优化了养成计划中已收集完成物品的显示 [#1513](https://github.com/DGP-Studio/Snap.Hutao/pull/1513)
+  - 在网页登录账号界面增加了安全性提示
 
 ## 1.9.8
 
