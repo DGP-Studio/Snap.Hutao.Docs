@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 19 Mar 2024 10:18:02 GMT</pubDate>
-    <lastBuildDate>Tue, 19 Mar 2024 10:18:02 GMT</lastBuildDate>
+    <pubDate>Fri, 29 Mar 2024 08:20:45 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Mar 2024 08:20:45 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -832,7 +832,37 @@ running as Administrator
       <category>Announcement</category>
       <pubDate>Sat, 18 Mar 2023 03:05:34 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.9.8 </h2>
+<h2>1.9.9 </h2>
+<ul>
+<li>Add ➕
+<ul>
+<li>Added Chronicled Wish in Global Wish Stats tab under Wish Export page</li>
+</ul>
+</li>
+<li>Fix 🔨
+<ul>
+<li>Fixed the interact launch error with Better Genshin Impact <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1467" target="_blank" rel="noopener noreferrer">#1467</a></li>
+<li>Fixed the full package name error in Advanced Game Launcher - Resource Download page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1476" target="_blank" rel="noopener noreferrer">#1476</a></li>
+<li>Fixed the issue that game would be launched when failed to unlock frame rate limit <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1495" target="_blank" rel="noopener noreferrer">#1495</a></li>
+<li>Updated outdated links in Settings page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1503" target="_blank" rel="noopener noreferrer">#1503</a></li>
+<li>Fixed the crash issue when adding accounts; fixed sporadic issue that selected users and characters could not be cleared correctly; optimized the UI display after logging in. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1504" target="_blank" rel="noopener noreferrer">#1504</a></li>
+</ul>
+</li>
+<li>Optimization ✨
+<ul>
+<li>Optimized keyword searching UI in WIKI pages <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1475" target="_blank" rel="noopener noreferrer">#1475</a></li>
+<li>Optimized UI in WIKI page when search result is empty <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1479" target="_blank" rel="noopener noreferrer">#1479</a></li>
+<li>Optimized collected item display in Dev Plan <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1513" target="_blank" rel="noopener noreferrer">#1513</a></li>
+<li>Optimized the smoothness and stability of the waterfall layout in the Dev Plan page</li>
+<li>Optimized the default sorting of backpack materials and material stats tabs on the Dev Plan page, and now displays completion markers for items with sufficient quantities <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1510" target="_blank" rel="noopener noreferrer">#1510</a></li>
+<li>Optimized the alignment of the scroll bar at the bottom of the Statistics tab on the Wish Export page</li>
+<li>Optimized the logic of displaying items in the Global Wish Stats tab on the Wish Export page</li>
+<li>Optimized the smoothness and stability of the grid view on the Achievement Management page</li>
+<li>Added security hint in Web Login page</li>
+</ul>
+</li>
+</ul>
+<h2>1.9.8</h2>
 <ul>
 <li>New ➕
 <ul>

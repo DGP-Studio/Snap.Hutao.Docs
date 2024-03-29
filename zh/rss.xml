@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 19 Mar 2024 10:18:02 GMT</pubDate>
-    <lastBuildDate>Tue, 19 Mar 2024 10:18:02 GMT</lastBuildDate>
+    <pubDate>Fri, 29 Mar 2024 08:20:45 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Mar 2024 08:20:45 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -2196,7 +2196,39 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <category>公告</category>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.9.8 </h2>
+<h2>1.9.9 </h2>
+<ul>
+<li>新增 ➕
+<ul>
+<li>祈愿记录页面全球统计页签新增集录祈愿栏目</li>
+</ul>
+</li>
+<li>修复 🔨
+<ul>
+<li>修复了联动启动 Better Genshin Impact 时的错误 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1467" target="_blank" rel="noopener noreferrer">#1467</a></li>
+<li>修复了高级启动器-资源下载中完整包包名显示错误的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1476" target="_blank" rel="noopener noreferrer">#1476</a></li>
+<li>修复了高级启动器在解锁帧率时游戏仍然会启动的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1495" target="_blank" rel="noopener noreferrer">#1495</a></li>
+<li>更换了设置页中过时的链接 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1503" target="_blank" rel="noopener noreferrer">#1503</a></li>
+<li>修复了在添加账号时闪退；修复了偶发的无法正确清空选中的用户与角色的问题；优化了登录后的界面显示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1504" target="_blank" rel="noopener noreferrer">#1504</a></li>
+<li>修复了在祈愿记录界面关闭窗口会导致程序崩溃的问题</li>
+<li>修复了当程序主题与系统主题不同时，对话框会显示系统主题的问题</li>
+</ul>
+</li>
+<li>优化 ✨
+<ul>
+<li>优化了 WIKI 关键词搜索界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1475" target="_blank" rel="noopener noreferrer">#1475</a></li>
+<li>优化了 WIKI 功能搜索结果为空时的界面 <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1479" target="_blank" rel="noopener noreferrer">#1479</a></li>
+<li>优化了养成计划中已收集完成物品的显示 <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1513" target="_blank" rel="noopener noreferrer">#1513</a></li>
+<li>优化了养成计划界面瀑布流排版的流畅度与稳定性</li>
+<li>优化了养成计划页面背包材料与材料统计页签的默认排序，现在对于数量足够的物品会显示完成标记 <a href="https://github.com/DGP-Studio/Snap.Hutao/pull/1510" target="_blank" rel="noopener noreferrer">#1510</a></li>
+<li>优化了祈愿记录页面统计页签底部滚动条的对齐</li>
+<li>优化了祈愿记录页面全球统计页签的物品显示逻辑</li>
+<li>优化了成就记录页面网格视图的流畅度与稳定性</li>
+<li>在网页登录账号界面增加了安全性提示</li>
+</ul>
+</li>
+</ul>
+<h2>1.9.8</h2>
 <ul>
 <li>新增 ➕
 <ul>
