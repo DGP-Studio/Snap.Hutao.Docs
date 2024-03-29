@@ -11,7 +11,28 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.9.8 <Badge text="latest" type="tip" />
+## 1.9.9 <Badge text="latest" type="tip" />
+
+- Add ➕
+  - Added Chronicled Wish in Global Wish Stats tab under Wish Export page
+- Fix 🔨
+  - Fixed the interact launch error with Better Genshin Impact [#1467](https://github.com/DGP-Studio/Snap.Hutao/issues/1467)
+  - Fixed the full package name error in Advanced Game Launcher - Resource Download page [#1476](https://github.com/DGP-Studio/Snap.Hutao/issues/1476)
+  - Fixed the issue that game would be launched when failed to unlock frame rate limit [#1495](https://github.com/DGP-Studio/Snap.Hutao/issues/1495)
+  - Updated outdated links in Settings page [#1503](https://github.com/DGP-Studio/Snap.Hutao/issues/1503)
+  - Fixed the crash issue when adding accounts; fixed sporadic issue that selected users and characters could not be cleared correctly; optimized the UI display after logging in. [#1504](https://github.com/DGP-Studio/Snap.Hutao/issues/1504)
+- Optimization ✨
+  - Optimized keyword searching UI in WIKI pages [#1475](https://github.com/DGP-Studio/Snap.Hutao/pull/1475)
+  - Optimized UI in WIKI page when search result is empty [#1479](https://github.com/DGP-Studio/Snap.Hutao/pull/1479)
+  - Optimized collected item display in Dev Plan [#1513](https://github.com/DGP-Studio/Snap.Hutao/pull/1513)
+  - Optimized the smoothness and stability of the waterfall layout in the Dev Plan page
+  - Optimized the default sorting of backpack materials and material stats tabs on the Dev Plan page, and now displays completion markers for items with sufficient quantities [#1510](https://github.com/DGP-Studio/Snap.Hutao/pull/1510)
+  - Optimized the alignment of the scroll bar at the bottom of the Statistics tab on the Wish Export page
+  - Optimized the logic of displaying items in the Global Wish Stats tab on the Wish Export page
+  - Optimized the smoothness and stability of the grid view on the Achievement Management page
+  - Added security hint in Web Login page
+
+## 1.9.8
 
 - New ➕
   - Added support for Chronicled Wish [#1470](https://github.com/DGP-Studio/Snap.Hutao/issues/1470)
