@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 29 Mar 2024 08:20:45 GMT</pubDate>
-    <lastBuildDate>Fri, 29 Mar 2024 08:20:45 GMT</lastBuildDate>
+    <pubDate>Sat, 30 Mar 2024 04:29:20 GMT</pubDate>
+    <lastBuildDate>Sat, 30 Mar 2024 04:29:20 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -2148,6 +2148,9 @@ character's data, this will help you to share your character's data</li>
       <pubDate>Thu, 12 Jan 2023 00:51:03 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01zzcpWb1g6e0m2xFYJ_!!1797064093.png_.webp" alt="dev-plan" loading="lazy"></p>
+<blockquote>
+<p>Development Plan is a feature equivalent to <a href="https://act.hoyolab.com/ys/event/calculator-sea/index.html#/" target="_blank" rel="noopener noreferrer">Enhancement Progression Calculator in HoYoLAB</a>, due to limited designing space, we often call it <code>Dev Plan</code> in Snap Hutao</p>
+</blockquote>
 <h2>Add Develop Goals into Material Checklist</h2>
 <h3>Add Goals from WIKIs</h3>
 <ul>
@@ -3049,7 +3052,7 @@ and include it in your issue</label></li>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
       <content:encoded><![CDATA[
 <div style="text-align:center">
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ogJFxz1g6e0yCZjs0_!!1797064093.png_.webp" alt="banner" loading="lazy">
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01eHCaOA1g6e2ZLa3PA_!!1797064093.png_.webp" alt="banner" loading="lazy">
 <a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"></a></p>
 </div>
 <p>Snap Hutao is an open-source Genshin Impact toolkit under MIT license, designed for modern Windows platform to improve

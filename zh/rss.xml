@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 29 Mar 2024 08:20:45 GMT</pubDate>
-    <lastBuildDate>Fri, 29 Mar 2024 08:20:45 GMT</lastBuildDate>
+    <pubDate>Sat, 30 Mar 2024 04:29:20 GMT</pubDate>
+    <lastBuildDate>Sat, 30 Mar 2024 04:29:20 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -652,7 +652,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
 <div style="text-align:center">
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01sh4tKQ1g6e0nrMGai_!!1797064093.png_.webp" alt="banner" loading="lazy">
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01vWmKzl1g6e2VIEODU_!!1797064093.png_.webp" alt="banner" loading="lazy">
 <a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"></a></p>
 </div>
 <p>胡桃工具箱是一款以 MIT 协议开源的原神工具箱，专为现代化 Windows 平台设计，旨在改善桌面端玩家的游戏体验。通过将既有的官方资源与开发团队设计的全新功能相结合，它提供了一套完整且实用的工具集，且无需依赖任何移动设备。它不对游戏客户端进行任何破坏性修改以确保工具箱的安全性。</p>
