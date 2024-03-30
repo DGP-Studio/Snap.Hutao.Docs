@@ -11,7 +11,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!
 # Project
 
 ::: center
-![banner](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ogJFxz1g6e0yCZjs0_!!1797064093.png_.webp)
+![banner](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01eHCaOA1g6e2ZLa3PA_!!1797064093.png_.webp)
 <a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 :::
 

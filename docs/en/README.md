@@ -98,7 +98,7 @@ highlights:
         details: Check weapon values and stories; get the most character matching data among players through the Hutao database
         link: features/weapon-wiki.html
 
-      - title: Development Calculator
+      - title: Enhancement Progression Calculator
         icon: /images/202308/Calculator_Icon.png
         details: Make implementable character development plans based on your actual situation; support multiple accounts, multiple plan lists, and backpack item records
         link: features/develop-plan.html

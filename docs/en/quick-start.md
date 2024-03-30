@@ -82,10 +82,6 @@ background="rgba(244, 125, 63, 0.15)"
 @tab Use MSIX Package
 
 <div class="vp-card-container">
-  <div class="hint-container warning">
-    <p class="hint-container-title">Warning</p>
-    <p>We recommend using Snap.Hutao.Deployment to install Snap Hutao. Any problems that arise when installing using MSIX installation packages will not be actively handled.</p>
-  </div>
 
 <VPCard
     title="Hutao Auto Download"
@@ -119,6 +115,9 @@ If you are interested in making the Snap Hutao project better through your own e
 
 ### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> Upgrade to the Latest Version from MS Store Versions
 
+<details>
+<summary>Click to Expand</summary>
+
 If you installed a Microsoft Store version of Snap Hutao (version 1.4.11 to 1.8.4), you need to uninstall it before the new installation
 
 > For details of this change, please refer to [Explanation of Breaking Changes in Version 1.9.0](blog/version-1-9-0-breaking-changes.md)
@@ -126,6 +125,7 @@ If you installed a Microsoft Store version of Snap Hutao (version 1.4.11 to 1.8.
 - Uninstall the old version with our [uninstallation instruction document](advanced/uninstall.md)
   - Your data will not lose as long as you don't delete data directory manually
 - Follow the method above to install the new version application
+</details>
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao
 
@@ -143,8 +143,8 @@ They are not mandatory components, but they can bring a better experience.
 WebView2 Runtime is provided by Microsoft, which enables a built-in browser at a low resource cost inside the program.
 As an optional component, WebView2 is not a mandatory component, but it will make some Snap Hutao's features easier.
 
-At the bottom of the [Microsoft official page](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/),
-you can find`Evergreen Standalone Installer`, choose`x64`download and install as prompted
+At the bottom of the [Microsoft official page](https://developer.microsoft.com/en-us/microsoft-edge/webview2/),
+you can find `Evergreen Standalone Installer`, choose `x64` to download and install as prompted
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> Add First MiHoYo BBS Account
 

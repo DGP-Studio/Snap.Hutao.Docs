@@ -1,7 +1,7 @@
 ---
 headerDepth: 2
 category: [Feature, Tutorial]
-tag: [develop plan, develop calculator]
+tag: [develop plan, develop calculator, Enhancement Progression Calculator]
 order: 10
 comment: false
 description: The "Development Plan" feature in Snap Hutao assists players in quickly creating cultivation checklists for characters and weapons, allowing them to easily track the obtainable targets they own and plan to cultivate.
@@ -10,6 +10,8 @@ description: The "Development Plan" feature in Snap Hutao assists players in qui
 # Development Plan
 
 ![dev-plan](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01zzcpWb1g6e0m2xFYJ_!!1797064093.png_.webp)
+
+> Development Plan is a feature equivalent to [Enhancement Progression Calculator in HoYoLAB](https://act.hoyolab.com/ys/event/calculator-sea/index.html#/), due to limited designing space, we often call it `Dev Plan` in Snap Hutao
 
 ## Add Develop Goals into Material Checklist
 
