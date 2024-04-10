@@ -12,6 +12,15 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 该文档包含由**用户端错误**造成的问题
 
+## Return Code: 2002
+
+- 该异常实际上来源于米游社的返回信息: `Ruturn Code: 2002`
+- 问题来源：
+  - 米哈游论坛账号未初始化
+- 解决方案：
+  - 米游社账号：使用米游社官方手机应用登录账号并设置社区用户名以初始化账号
+  - HoYoLAB 账号：使用 HoYoLAB 官方手机应用或网页版登录账号并设置社区用户名以初始化账号
+
 ## Return Code: -10001
 
 - 该异常实际上来源于米游社的返回信息，包括：
@@ -21,8 +30,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
   1. Cookie 过期或网络异常
   2. 系统时间错误
 - 解决方案：
-  1. 在帐号面板中，点击 “刷新 Cookie”
-  2. 删除帐号后重新添加米游社帐号
+  1. 在账号面板中，点击 “刷新 Cookie”
+  2. 删除账号后重新添加米游社账号
   3. 在系统设置中启用自动同步时间并立刻同步时间
 
 ## 状态：1034 验证失败

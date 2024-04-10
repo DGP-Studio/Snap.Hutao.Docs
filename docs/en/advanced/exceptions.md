@@ -12,9 +12,18 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced
 
 This document covers solutions of **foreseeable client error**
 
+## Return Code: 2002
+
+- This error comes directly from MiHoYo BBS: `Ruturn Code: 2002`
+- Issue source:
+  - MiHoYo BBS account is not initialed yet
+- Solution：
+  - MiYouShe account: Use official MiYouShe mobile app, login to your account, set the community username to initial account
+  - HoYoLAB account: Use official HoYoLAB mobile app or the web application, login to your account, set the community username to initial account
+
 ## Return Code: -10001
 
-- This error comes directly from MiHoYo BBS, hints include
+- This error comes directly from MiHoYo BBS, prompts include
   - `Return Code: -10001`
   - `Return Code: -100`
 - Issue source
