@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 30 Mar 2024 04:29:20 GMT</pubDate>
-    <lastBuildDate>Sat, 30 Mar 2024 04:29:20 GMT</lastBuildDate>
+    <pubDate>Wed, 10 Apr 2024 23:01:04 GMT</pubDate>
+    <lastBuildDate>Wed, 10 Apr 2024 23:01:04 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -875,6 +875,21 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <pubDate>Tue, 21 Mar 2023 02:33:49 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>该文档包含由<strong>用户端错误</strong>造成的问题</p>
+<h2>Return Code: 2002</h2>
+<ul>
+<li>该异常实际上来源于米游社的返回信息: <code>Ruturn Code: 2002</code></li>
+<li>问题来源：
+<ul>
+<li>米哈游论坛账号未初始化</li>
+</ul>
+</li>
+<li>解决方案：
+<ul>
+<li>米游社账号：使用米游社官方手机应用登录账号并设置社区用户名以初始化账号</li>
+<li>HoYoLAB 账号：使用 HoYoLAB 官方手机应用或网页版登录账号并设置社区用户名以初始化账号</li>
+</ul>
+</li>
+</ul>
 <h2>Return Code: -10001</h2>
 <ul>
 <li>该异常实际上来源于米游社的返回信息，包括：
@@ -891,8 +906,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </li>
 <li>解决方案：
 <ol>
-<li>在帐号面板中，点击 “刷新 Cookie”</li>
-<li>删除帐号后重新添加米游社帐号</li>
+<li>在账号面板中，点击 “刷新 Cookie”</li>
+<li>删除账号后重新添加米游社账号</li>
 <li>在系统设置中启用自动同步时间并立刻同步时间</li>
 </ol>
 </li>

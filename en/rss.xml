@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 30 Mar 2024 04:29:20 GMT</pubDate>
-    <lastBuildDate>Sat, 30 Mar 2024 04:29:20 GMT</lastBuildDate>
+    <pubDate>Wed, 10 Apr 2024 23:01:04 GMT</pubDate>
+    <lastBuildDate>Wed, 10 Apr 2024 23:01:04 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -624,9 +624,24 @@ file contains entire data of the client.</p>
       <pubDate>Sat, 18 Mar 2023 03:05:38 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>This document covers solutions of <strong>foreseeable client error</strong></p>
+<h2>Return Code: 2002</h2>
+<ul>
+<li>This error comes directly from MiHoYo BBS: <code>Ruturn Code: 2002</code></li>
+<li>Issue source:
+<ul>
+<li>MiHoYo BBS account is not initialed yet</li>
+</ul>
+</li>
+<li>Solution：
+<ul>
+<li>MiYouShe account: Use official MiYouShe mobile app, login to your account, set the community username to initial account</li>
+<li>HoYoLAB account: Use official HoYoLAB mobile app or the web application, login to your account, set the community username to initial account</li>
+</ul>
+</li>
+</ul>
 <h2>Return Code: -10001</h2>
 <ul>
-<li>This error comes directly from MiHoYo BBS, hints include
+<li>This error comes directly from MiHoYo BBS, prompts include
 <ul>
 <li><code>Return Code: -10001</code></li>
 <li><code>Return Code: -100</code></li>
