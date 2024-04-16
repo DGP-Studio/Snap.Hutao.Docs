@@ -18,15 +18,18 @@ The nature of Snap Hutao project states it does not collect any personal informa
 
 Snap Hutao respects the privacy of users, and we're currently using data as described below:
 
-- Once using Snap Hutao，the database file in the **data directory**
+- Once using Snap Hutao, the database file in the **data directory**
 
-  - **Store**
+  - **Stores**
     - MiHoYo BBS and HoYoLab cookie
     - Snap Hutao program settings
     - All other user data
 
-- When using Snap Hutao, we collect **anonymously** logs data for development and statistical purposes
-  when program stops unexpectedly or throw an error, including - User device ID - Error or crash log - Active user statistical data
+- When using Snap Hutao, we collect **anonymized** logs data for development and statistical purposes when program stops unexpectedly or throw an error, including
+
+  - User device ID
+  - Error or crash log
+  - Active user statistical data
 
 - When using `Hutao Database` (`Abyss Record`/`Abyss Stats`) feature and select `Upload Data`
 
@@ -55,9 +58,8 @@ information provided by domains outside this list (including websites, emails, e
 
 - hut.ao
 - snapgenshin.com
-  - We only use this domain for system emails
 - dgp-studio.cn
   - We only use this domain for public email contact
 - snapgenshin.cn
-- hutao.ao
+  - We only use this domain for system emails
 - snaphutao.com
