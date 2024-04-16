@@ -45,7 +45,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 > Snap Hutao 有着良好的云端网络结构，在全球各地你都能获得良好的网络服务
 
-所有的 Windows Appx 容器应用（包括 Snap Hutao）都被禁用了 `Loopback 网络`，因此使用一些现代化的网络代理软件时会导致容器化应用无法访问互联网，进而导致程序错误。
+所有的 Windows Appx 容器应用（包括 Snap Hutao）都被禁用了 `Loopback 网络`，因此使用一些现代化的网络代理软件或游戏加速器时会导致容器化应用无法访问互联网，进而导致程序错误。
 
 如果你需要通过网络代理使用 Snap Hutao，你有两种方法：
 
