@@ -6,12 +6,10 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Wed, 10 Apr 2024 23:01:04 GMT</pubDate>
-    <lastBuildDate>Wed, 10 Apr 2024 23:01:04 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2024 00:19:34 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2024 00:19:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>open source</category>
-    <category>development</category>
     <category>Pengumuman</category>
     <category>i18n</category>
     <category>pengumuman</category>
@@ -24,68 +22,19 @@
     <category>installation</category>
     <category>Alat Pihak Ketiga</category>
     <category>Dev Logs</category>
+    <category>open source</category>
+    <category>development</category>
     <item>
       <title>Support us</title>
       <link>https://hut.ao/id/support-us.html</link>
       <guid>https://hut.ao/id/support-us.html</guid>
       <source url="https://hut.ao/id/rss.xml">Support us</source>
       <description>Support us Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of...</description>
-      <pubDate>Fri, 23 Feb 2024 22:06:49 GMT</pubDate>
+      <pubDate>Fri, 23 Feb 2024 10:13:43 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of our development team are currently self-funding the project's operation, with the main expenses being the network system components required by server (you can find our annual expenditure summary below on this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but also benefit every Snap Hutao user. Currently, you can donate us in the following ways:</p>
 <h2>Donation</h2>
 <p>We accept sponsorship with following methods:</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Bergabung dengan Tim Pengembang</title>
-      <link>https://hut.ao/id/development/join.html</link>
-      <guid>https://hut.ao/id/development/join.html</guid>
-      <source url="https://hut.ao/id/rss.xml">Bergabung dengan Tim Pengembang</source>
-      <description>Bergabung dengan Tim Pengembang Jika Anda memiliki salah satu dari pengalaman berikut dan tertarik untuk bergabung dengan tim pengembangan Snap Hutao untuk meningkatkan proyek i...</description>
-      <category>open source</category>
-      <category>development</category>
-      <pubDate>Mon, 25 Dec 2023 04:58:14 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Jika Anda memiliki salah satu dari pengalaman berikut dan tertarik untuk bergabung dengan tim pengembangan Snap Hutao untuk meningkatkan proyek ini dan terlibat dengan lebih banyak proyek open source Genshin Impact, selamat datang untuk bergabung dengan kami!</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Bergabung dalam Komunitas</title>
-      <link>https://hut.ao/id/community.html</link>
-      <guid>https://hut.ao/id/community.html</guid>
-      <source url="https://hut.ao/id/rss.xml">Bergabung dalam Komunitas</source>
-      <description>Bergabung dalam Komunitas Sebagai perangkat lunak sumber terbuka, kekuatan komunitas adalah bagian penting dari ekologi Snap Hutao, dan Anda dapat bergabung dalam komunitas peng...</description>
-      <category>Pengumuman</category>
-      <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Sebagai perangkat lunak sumber terbuka, kekuatan komunitas adalah bagian penting dari ekologi Snap Hutao, dan Anda dapat bergabung dalam komunitas pengguna kami dengan cara berikut.</p>
-<p><strong>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut:</strong></p>
-<ul>
-<li>Beri bintang pada proyek kami di GitHub ⭐
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
-</ul>
-</li>
-<li>Beri peringkat pada Aplikasi kami di <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
-<li>Promosikan proyek kami dalam jaringan Anda</li>
-</ul>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
-<h2></h2>
-<p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Diskusi Snap.Hutao</a></p>
-<h2></h2>
-<ul>
-<li><a href="https://qm.qq.com/q/WJKykrY9W" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
-<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap Developer Open Discussion Group</em></a>
-<ul>
-<li>Pembicaraan teknologi umum, bukan grup pengembangan Proyek Snap Hutao</li>
-<li>Grup Dev memerlukan pengetahuan teknologi dasar</li>
-</ul>
-</li>
-</ul>
-<h2></h2>
-<p>Tautan undangan: <a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">https://discord.gg/Yb8bykaUKp</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -181,16 +130,6 @@
 </ul>
 ]]></content:encoded>
       <enclosure url="https://badges.crowdin.net/snap-hutao/localized.svg" type="image/svg+xml"/>
-    </item>
-    <item>
-      <title>Site Menu</title>
-      <link>https://hut.ao/id/menu.html</link>
-      <guid>https://hut.ao/id/menu.html</guid>
-      <source url="https://hut.ao/id/rss.xml">Site Menu</source>
-      <description>Site Menu</description>
-      <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
     </item>
     <item>
       <title>Proyek</title>
@@ -342,28 +281,6 @@
 </li>
 </ul>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title></title>
-      <link>https://hut.ao/id/star-request.html</link>
-      <guid>https://hut.ao/id/star-request.html</guid>
-      <source url="https://hut.ao/id/rss.xml"></source>
-      <description>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut: Beri bintang pada proyek kami di GitHub ⭐ Snap....</description>
-      <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[<p><strong>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut:</strong></p>
-<ul>
-<li>Beri bintang pada proyek kami di GitHub ⭐
-<ul>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
-<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
-</ul>
-</li>
-<li>Beri peringkat pada Aplikasi kami di <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
-<li>Promosikan proyek kami dalam jaringan Anda</li>
-</ul>
-<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" type="image/"/>
     </item>
     <item>
       <title>Pertanyaan Umum</title>
@@ -545,16 +462,6 @@ berisi seluruh data klien.</p>
 <p>(Karena data asli yang lebih baru selalu dapat diambil dari server miHoYo, data semacam ini memiliki tingkat akurasi yang lebih tinggi.)</p>
 <h3>Ekspor Catatan Gacha</h3>
 <p><s>Belum diimplementasikan, sedang dalam perancangan</s> Sudah diimplementasikan</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Lanjutan</title>
-      <link>https://hut.ao/id/advanced/</link>
-      <guid>https://hut.ao/id/advanced/</guid>
-      <source url="https://hut.ao/id/rss.xml">Lanjutan</source>
-      <description>Lanjutan</description>
-      <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -799,16 +706,6 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
 ]]></content:encoded>
     </item>
     <item>
-      <title>Dev Logs</title>
-      <link>https://hut.ao/id/blog/</link>
-      <guid>https://hut.ao/id/blog/</guid>
-      <source url="https://hut.ao/id/rss.xml">Dev Logs</source>
-      <description>Dev Logs</description>
-      <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
       <title>Penjelasan Perubahan yang Merusak pada Versi 1.9.0</title>
       <link>https://hut.ao/id/blog/version-1-9-0-breaking-changes.html</link>
       <guid>https://hut.ao/id/blog/version-1-9-0-breaking-changes.html</guid>
@@ -835,16 +732,6 @@ Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda 
 | :</p>
 ]]></content:encoded>
       <enclosure url="https://hut.ao/images/202312/1-8-5-installer.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Open Source Development</title>
-      <link>https://hut.ao/id/development/</link>
-      <guid>https://hut.ao/id/development/</guid>
-      <source url="https://hut.ao/id/rss.xml">Open Source Development</source>
-      <description>Open Source Development</description>
-      <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
     </item>
     <item>
       <title>Berkontribusi pada Kode Anda</title>
@@ -931,16 +818,6 @@ dengan fitur yang berbeda-beda. Untuk memfasilitasi hal ini, Snap Hutao telah me
 Banyak pengembang sekarang berkumpul di bawah <a href="https://github.com/UIGF-org" target="_blank" rel="noopener noreferrer">organisasi UIGF</a>. Tujuan kami adalah
 untuk menjaga organisasi ini, memungkinkan pengembang untuk terhubung dengan lebih banyak pengguna, menerima umpan
 balik, membuat kemajuan teknis, dan menciptakan alat Genshin Impact open source yang luar biasa.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Fitur</title>
-      <link>https://hut.ao/id/features/</link>
-      <guid>https://hut.ao/id/features/</guid>
-      <source url="https://hut.ao/id/rss.xml">Fitur</source>
-      <description>Fitur</description>
-      <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
     <item>
@@ -1801,17 +1678,6 @@ Saat ini, Anda memiliki beberapa cara untuk mengaktifkan Sinkronisasi Awan:</p>
 </section>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>Statements</title>
-      <link>https://hut.ao/id/statements/</link>
-      <guid>https://hut.ao/id/statements/</guid>
-      <source url="https://hut.ao/id/rss.xml">Statements</source>
-      <description>Statements Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program.</description>
-      <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p><strong>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.</strong></p>
-]]></content:encoded>
     </item>
     <item>
       <title>Laporkan Bug</title>
@@ -2909,6 +2775,140 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 <ul>
 <li>Versi pertama di Microsoft Store</li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bergabung dengan Tim Pengembang</title>
+      <link>https://hut.ao/id/development/join.html</link>
+      <guid>https://hut.ao/id/development/join.html</guid>
+      <source url="https://hut.ao/id/rss.xml">Bergabung dengan Tim Pengembang</source>
+      <description>Bergabung dengan Tim Pengembang Jika Anda memiliki salah satu dari pengalaman berikut dan tertarik untuk bergabung dengan tim pengembangan Snap Hutao untuk meningkatkan proyek i...</description>
+      <category>open source</category>
+      <category>development</category>
+      <pubDate>Fri, 22 Dec 2023 04:12:52 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Jika Anda memiliki salah satu dari pengalaman berikut dan tertarik untuk bergabung dengan tim pengembangan Snap Hutao untuk meningkatkan proyek ini dan terlibat dengan lebih banyak proyek open source Genshin Impact, selamat datang untuk bergabung dengan kami!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Dev Logs</title>
+      <link>https://hut.ao/id/blog/</link>
+      <guid>https://hut.ao/id/blog/</guid>
+      <source url="https://hut.ao/id/rss.xml">Dev Logs</source>
+      <description>Dev Logs</description>
+      <pubDate>Tue, 19 Dec 2023 08:26:24 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Open Source Development</title>
+      <link>https://hut.ao/id/development/</link>
+      <guid>https://hut.ao/id/development/</guid>
+      <source url="https://hut.ao/id/rss.xml">Open Source Development</source>
+      <description>Open Source Development</description>
+      <pubDate>Fri, 02 Jun 2023 03:35:43 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Site Menu</title>
+      <link>https://hut.ao/id/menu.html</link>
+      <guid>https://hut.ao/id/menu.html</guid>
+      <source url="https://hut.ao/id/rss.xml">Site Menu</source>
+      <description>Site Menu</description>
+      <pubDate>Mon, 22 May 2023 05:41:54 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bergabung dalam Komunitas</title>
+      <link>https://hut.ao/id/community.html</link>
+      <guid>https://hut.ao/id/community.html</guid>
+      <source url="https://hut.ao/id/rss.xml">Bergabung dalam Komunitas</source>
+      <description>Bergabung dalam Komunitas Sebagai perangkat lunak sumber terbuka, kekuatan komunitas adalah bagian penting dari ekologi Snap Hutao, dan Anda dapat bergabung dalam komunitas peng...</description>
+      <category>Pengumuman</category>
+      <pubDate>Sat, 25 Feb 2023 11:59:48 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Sebagai perangkat lunak sumber terbuka, kekuatan komunitas adalah bagian penting dari ekologi Snap Hutao, dan Anda dapat bergabung dalam komunitas pengguna kami dengan cara berikut.</p>
+<p><strong>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut:</strong></p>
+<ul>
+<li>Beri bintang pada proyek kami di GitHub ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>Beri peringkat pada Aplikasi kami di <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
+<li>Promosikan proyek kami dalam jaringan Anda</li>
+</ul>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
+<h2></h2>
+<p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions" target="_blank" rel="noopener noreferrer">Diskusi Snap.Hutao</a></p>
+<h2></h2>
+<ul>
+<li><a href="https://qm.qq.com/q/WJKykrY9W" target="_blank" rel="noopener noreferrer">Snap Hutao</a></li>
+<li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=XJPjE6ffuYPkZmXvujdP1ZDY2BqL8RDg&amp;authKey=YHBYvW4KmPUpPjGwYwGduG7ZELhFIkd9QxLHuwBFmm4UvQH1ThWiv%2FKPgeckiqt4&amp;noverify=0&amp;group_code=982424236" target="_blank" rel="noopener noreferrer"><em>Snap Developer Open Discussion Group</em></a>
+<ul>
+<li>Pembicaraan teknologi umum, bukan grup pengembangan Proyek Snap Hutao</li>
+<li>Grup Dev memerlukan pengetahuan teknologi dasar</li>
+</ul>
+</li>
+</ul>
+<h2></h2>
+<p>Tautan undangan: <a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">https://discord.gg/Yb8bykaUKp</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Lanjutan</title>
+      <link>https://hut.ao/id/advanced/</link>
+      <guid>https://hut.ao/id/advanced/</guid>
+      <source url="https://hut.ao/id/rss.xml">Lanjutan</source>
+      <description>Lanjutan</description>
+      <pubDate>Sat, 25 Feb 2023 05:38:38 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://hut.ao/id/star-request.html</link>
+      <guid>https://hut.ao/id/star-request.html</guid>
+      <source url="https://hut.ao/id/rss.xml"></source>
+      <description>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut: Beri bintang pada proyek kami di GitHub ⭐ Snap....</description>
+      <pubDate>Thu, 12 Jan 2023 11:46:12 GMT</pubDate>
+      <content:encoded><![CDATA[<p><strong>Jika Anda percaya bahwa Snap Hutao adalah proyek yang baik dan membantu Anda, Anda dapat mendukung kami dengan cara-cara berikut:</strong></p>
+<ul>
+<li>Beri bintang pada proyek kami di GitHub ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>Beri peringkat pada Aplikasi kami di <a href="ms-windows-store://review/?ProductId=9PH4NXJ2JN52">Microsoft Store</a></li>
+<li>Promosikan proyek kami dalam jaringan Anda</li>
+</ul>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy"> <img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" type="image/"/>
+    </item>
+    <item>
+      <title>Fitur</title>
+      <link>https://hut.ao/id/features/</link>
+      <guid>https://hut.ao/id/features/</guid>
+      <source url="https://hut.ao/id/rss.xml">Fitur</source>
+      <description>Fitur</description>
+      <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Statements</title>
+      <link>https://hut.ao/id/statements/</link>
+      <guid>https://hut.ao/id/statements/</guid>
+      <source url="https://hut.ao/id/rss.xml">Statements</source>
+      <description>Statements Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact&amp;apos;s private server and cheating program.</description>
+      <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p><strong>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.</strong></p>
 ]]></content:encoded>
     </item>
   </channel>
