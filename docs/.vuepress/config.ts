@@ -18,15 +18,6 @@ export default defineUserConfig({
     [
       "script",
       {
-        src: "https://umami.irain.in/script.js",
-        "data-website-id": "1a7be6c3-a024-47e2-9a42-29e66b997a36",
-        async: "",
-        defer: "",
-      },
-    ],
-    [
-      "script",
-      {
         type: "module",
         src: "https://get.microsoft.com/badge/ms-store-badge.bundled.js",
       },
