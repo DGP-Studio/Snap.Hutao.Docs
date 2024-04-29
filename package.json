@@ -21,9 +21,9 @@
     "husky": "9.0.11",
     "nano-staged": "0.8.0",
     "prettier": "3.2.5",
-    "vue": "^3.4.24",
+    "vue": "^3.4.26",
     "vuepress": "2.0.0-rc.9",
-    "vuepress-theme-hope": "2.0.0-rc.37"
+    "vuepress-theme-hope": "2.0.0-rc.38"
   },
   "engines": {
     "node": ">=18.18.0"
@@ -31,5 +31,5 @@
   "nano-staged": {
     "*.md": "prettier --write"
   },
-  "packageManager": "pnpm@9.0.5+sha256.61bd66913b52012107ec25a6ee4d6a161021ab99e04f6acee3aa50d0e34b4af9"
+  "packageManager": "pnpm@9.0.6+sha256.0624e30eff866cdeb363b15061bdb7fd9425b17bc1bb42c22f5f4efdea21f6b3"
 }
