@@ -80,7 +80,8 @@ description: 祈愿导出功能允许玩家自由地将游戏账号上当前的�
 如下图所示，在导入时，胡桃仅允许“补全”而不允许“通过备份文件更新至最新”。如果你的抽卡记录包含最新数据，请先同步一次抽卡数据再导入。
 
 ![祈愿导入原理](/docs/.vuepress/public/images/202404/wish_import_zh-cn.webp)
-  :::
+
+:::
 
 ## 导出 UIGF 祈愿数据 <Badge text="UIGF" type="info" />
 
