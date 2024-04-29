@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 29 Apr 2024 23:22:43 GMT</pubDate>
-    <lastBuildDate>Mon, 29 Apr 2024 23:22:43 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Apr 2024 23:34:06 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Apr 2024 23:34:06 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -342,7 +342,7 @@
 </details>
 <details class="hint-container details"><summary>资源下载</summary>
 <p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01QILPRh1g6dyHTUpV9_!!1797064093.png_.webp" alt="" loading="lazy"></p>
-<p>在该步骤中，胡桃工具箱将自动下载所需要的静态图片资源。下载完成后，胡桃将关闭初始化设置流程界面并自动加载主程序。如果下载时出现错误，您可以通过寻找错误处理章节中<a href="/zh/features/..%5Cadvanced%5Cexceptions.html#%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5" target="_blank">资源下载失败</a>部分以寻找可能的解决方案。</p>
+<p>在该步骤中，胡桃工具箱将自动下载所需要的静态图片资源。下载完成后，胡桃将关闭初始化设置流程界面并自动加载主程序。如果下载时出现错误，您可以通过寻找错误处理章节中<a href="../advanced/exceptions#%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5">资源下载失败</a>部分以寻找可能的解决方案。</p>
 </details>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features/setup.html" type="image/"/>
@@ -3106,6 +3106,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>点击右上角的 <code>导入</code> 按钮，在弹出的文件选择器中选择你的 <code>UIGF Json</code> 数据文件</li>
 <li>在弹出的窗口中确认你的导入数据</li>
 </ul>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>如下图所示，在导入时，胡桃仅允许“补全”而不允许“通过备份文件更新至最新”。如果你的抽卡记录包含最新数据，请先同步一次抽卡数据再导入。</p>
+<p><img src="/images/202404/wish_import_zh-cn.webp" alt="祈愿导入原理" loading="lazy"></p>
+</div>
 </a><h2><a class="footnote-anchor" id="footnote-ref1"></a><a class="header-anchor" href="#导出-uigf-祈愿数据"><span>导出 UIGF 祈愿数据 </span></a></h2>
 <p>胡桃工具箱支持导出 <code>UIGF数据格式</code> 的 Json 文件格式的祈愿记录数据</p>
 <p>如果你希望导出祈愿数据，可以：</p>
