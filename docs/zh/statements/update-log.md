@@ -13,13 +13,27 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ## 1.10.0 <Badge text="最新版" type="tip" />
 
 - **【🎉新增】** 增加图片画质选项，用户现在可以选择占用储存空间明显更小且接近无损的图片质量 [#1430](https://github.com/DGP-Studio/Snap.Hutao/issues/1430)
-- **【🎉新增】** 在更新提示中增加了更新日志的快接入口 [#1550](https://github.com/DGP-Studio/Snap.Hutao/issues/1550)
+- **【🎉新增】** 调整了检查更新的流程，现在会提示用户是否下载更新，在更新提示中增加了更新日志的快捷入口 [#1550](https://github.com/DGP-Studio/Snap.Hutao/issues/1550)
 - **【🎉新增】** 在祈愿记录的角色和武器标签页中，显示从未抽到过的物品 [#1355](https://github.com/DGP-Studio/Snap.Hutao/issues/1355)
 - **【🎉新增】** 增加了全新的默认以管理员模式启动程序的方法 [#1558](https://github.com/DGP-Studio/Snap.Hutao/issues/1558)
-- **【🔨修复】** 修复了在 Windows 10 下窗口最大化时无法显示隐藏任务栏的问题 [#1571](https://github.com/DGP-Studio/Snap.Hutao/issues/1571)
+- **【🎉新增】** 成就记录页面新增只显示未完成的成就分类功能 [#896](https://github.com/DGP-Studio/Snap.Hutao/issues/896)
+- **【🔨修复】** 修复了在 Windows 10 下窗口最大化时无法显示隐藏的任务栏的问题 [#1571](https://github.com/DGP-Studio/Snap.Hutao/issues/1571)
+- **【🔨修复】** 修复了设置页面顶部卡片边距不正确的问题
+- **【🔨修复】** 修复了热插拔显示器后无法正常启动游戏或程序闪退的问题
+- **【🔨修复】** 修复了祈愿记录页面全球祈愿统计在当前无集录祈愿时无法正常查看的问题
+- **【🔨修复】** 修复了在查找缓存图片时指向错误路径的问题，该问题曾导致需要重复下载图片资源
+- **【🔨修复】** 修复了公告在版本尚未更新时开始与结束时间不正确的问题
+- **【🔨修复】** 修复了在Discord检查更新时启动胡桃可能会导致闪退的问题
 - **【✨优化】** 优化了密码输入框中点击显示按钮前后浮窗的显示效果 [#1485](https://github.com/DGP-Studio/Snap.Hutao/issues/1485)
 - **【✨优化】** 软件更新流程仅在用户确认后开始，不再默认开始 [#1297](https://github.com/DGP-Studio/Snap.Hutao/issues/1297)
 - **【✨优化】** 用户在未登录胡桃云时，上传深渊记录前将会弹窗提示以避免用户措施领取奖励的机会 [#1245](https://github.com/DGP-Studio/Snap.Hutao/issues/1245)
+- **【✨优化】** 优化了启动游戏功能，在无法找到游戏配置文件时将会尝试自动生成配置文件，同时提供了手动生成功能
+- **【✨优化】** 更新 Windows App SDK 到 1.5.2
+- **【✨优化】** 优化了程序整体的内存占用
+- **【✨优化】** 现在重置图片资源时会清空缓存文件夹
+- **【✨优化】** 优化了创建以管理员模式启动的快捷方式功能，现在即使固定到任务栏也可以正常使用
+- **【✨优化】** 优化了胡桃通行证的登录弹窗，现在查看密码明文时不会导致对话框宽度反复变化
+- **【✨优化】** 其他大量底层重构
 
 ## 1.9.9
 
