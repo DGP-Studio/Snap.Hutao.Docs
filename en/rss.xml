@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 30 Apr 2024 03:17:36 GMT</pubDate>
-    <lastBuildDate>Tue, 30 Apr 2024 03:17:36 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Apr 2024 06:21:09 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Apr 2024 06:21:09 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -521,7 +521,11 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.10.0 </h2>
+<h2>1.10.1 </h2>
+<ul>
+<li><strong>【🔨Fix】</strong> Fixed the game server conversion issue</li>
+</ul>
+<h2>1.10.0</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added options for image quality, users can now choose a significant smaller size with nearly lossless image quality. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1430" target="_blank" rel="noopener noreferrer">#1430</a></li>
 <li><strong>[🎉New]</strong> Added display of not obtained items in the Character and Weapon tabs of the Wish Export. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1355" target="_blank" rel="noopener noreferrer">#1355</a></li>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 30 Apr 2024 03:17:36 GMT</pubDate>
-    <lastBuildDate>Tue, 30 Apr 2024 03:17:36 GMT</lastBuildDate>
+    <pubDate>Tue, 30 Apr 2024 06:21:09 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Apr 2024 06:21:09 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -544,7 +544,11 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.10.0 </h2>
+<h2>1.10.1 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了无法切换游戏服务器的问题</li>
+</ul>
+<h2>1.10.0</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 增加图片画质选项，用户现在可以选择占用储存空间明显更小且接近无损的图片质量 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1430" target="_blank" rel="noopener noreferrer">#1430</a></li>
 <li><strong>【🎉新增】</strong> 调整了检查更新的流程，现在会提示用户是否下载更新，在更新提示中增加了更新日志的快捷入口 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1550" target="_blank" rel="noopener noreferrer">#1550</a></li>
