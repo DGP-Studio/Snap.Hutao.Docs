@@ -11,7 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.10.0 <Badge text="latest" type="tip" />
+## 1.10.1 <Badge text="latest" type="tip" /> <Badge text="hotfix" type="warning" />
+
+- **【🔨Fix】** Fixed the game server conversion issue
+
+## 1.10.0
 
 - **[🎉New]** Added options for image quality, users can now choose a significant smaller size with nearly lossless image quality. [#1430](https://github.com/DGP-Studio/Snap.Hutao/issues/1430)
 - **[🎉New]** Added display of not obtained items in the Character and Weapon tabs of the Wish Export. [#1355](https://github.com/DGP-Studio/Snap.Hutao/issues/1355)
