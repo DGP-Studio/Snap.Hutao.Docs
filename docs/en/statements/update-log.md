@@ -11,7 +11,31 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.9.9 <Badge text="latest" type="tip" />
+## 1.10.0 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Added options for image quality, users can now choose a significant smaller size with nearly lossless image quality. [#1430](https://github.com/DGP-Studio/Snap.Hutao/issues/1430)
+- **[🎉New]** Added display of not obtained items in the Character and Weapon tabs of the Wish Export. [#1355](https://github.com/DGP-Studio/Snap.Hutao/issues/1355)
+- **[🎉New]** Added a new method to start the program in administrator mode by default. [#1558](https://github.com/DGP-Studio/Snap.Hutao/issues/1558)
+- **[🎉New]** Added the option to display only unfinished achievement categories on the achievement record page. [#896](https://github.com/DGP-Studio/Snap.Hutao/issues/896)
+- **[🔨Fix]** Fixed the issue where the hidden taskbar couldn't be displayed when maximizing the main window in Windows 10. [#1571](https://github.com/DGP-Studio/Snap.Hutao/issues/1571)
+- **[🔨Fix]** Fixed the incorrect top card margin on the settings page.
+- **[🔨Fix]** Fixed the issue where the game or program would crash when starting after hot-plugging a monitor.
+- **[🔨Fix]** Fixed the issue where the Global Wish Statistics on the Wish Export page couldn't be viewed when there was no wish record.
+- **[🔨Fix]** Fixed the issue where the cache image lookup pointed to the wrong path, which caused the need for repeated image resource downloads.
+- **[🔨Fix]** Fixed the issue where the announcement start and end times were incorrect when the version was not yet updated.
+- **[🔨Fix]** Fixed the issue where launching Hutao in Discord's update check could cause a crash.
+- **[✨Optimization]** Improved the display effect of the floating window before and after clicking the show button in the password input box. [#1485](https://github.com/DGP-Studio/Snap.Hutao/issues/1485)
+- **[✨Optimization]** The software update process now starts only after user confirmation, no longer starting by default. [#1297](https://github.com/DGP-Studio/Snap.Hutao/issues/1297)
+- **[✨Optimization]** When users are not logged in to Hutao Cloud, they will be prompted with a pop-up before uploading Abyss records to avoid missing the opportunity to claim rewards. [#1245](https://github.com/DGP-Studio/Snap.Hutao/issues/1245)
+- **[✨Optimization]** Optimized the game launch feature, it will now attempt to generate the configuration file automatically when it can't be found, and also provides a manual generation function.
+- **[✨Optimization]** Updated Windows App SDK to 1.5.2.
+- **[✨Optimization]** Optimized overall memory usage of the program.
+- **[✨Optimization]** Now clearing the cache folder when resetting image resources.
+- **[✨Optimization]** Optimized the creation of shortcuts to start in administrator mode, now even if pinned to the taskbar, it can be used normally.
+- **[✨Optimization]** Optimized the login pop-up for Hutao Passport, now viewing the password in plain text does not cause the dialog width to change repeatedly.
+- **[✨Optimization]** Other significant underlying refactoring.
+
+## 1.9.9
 
 - Add ➕
   - Added Chronicled Wish in Global Wish Stats tab under Wish Export page
