@@ -26,7 +26,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **【🔨修复】** 修复了在 Discord 检查更新时启动胡桃可能会导致闪退的问题
 - **【✨优化】** 优化了密码输入框中点击显示按钮前后浮窗的显示效果 [#1485](https://github.com/DGP-Studio/Snap.Hutao/issues/1485)
 - **【✨优化】** 软件更新流程仅在用户确认后开始，不再默认开始 [#1297](https://github.com/DGP-Studio/Snap.Hutao/issues/1297)
-- **【✨优化】** 用户在未登录胡桃云时，上传深渊记录前将会弹窗提示以避免用户措施领取奖励的机会 [#1245](https://github.com/DGP-Studio/Snap.Hutao/issues/1245)
+- **【✨优化】** 用户在未登录胡桃云时，上传深渊记录前将会弹窗提示以避免用户错失领取奖励的机会 [#1245](https://github.com/DGP-Studio/Snap.Hutao/issues/1245)
 - **【✨优化】** 优化了启动游戏功能，在无法找到游戏配置文件时将会尝试自动生成配置文件，同时提供了手动生成功能
 - **【✨优化】** 更新 Windows App SDK 到 1.5.2
 - **【✨优化】** 优化了程序整体的内存占用
