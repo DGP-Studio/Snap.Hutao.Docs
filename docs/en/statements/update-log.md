@@ -11,9 +11,36 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.10.1 <Badge text="latest" type="tip" /> <Badge text="hotfix" type="warning" />
+## 1.10.2 <Badge text="latest" type="tip" />
 
-- **【🔨Fix】** Fixed the game server conversion issue
+- **[🎉New]** Introduced retry mechanism for static resource downloads
+- **[🎉New]** Added Real-time Note feature to view Archon Quest progress [#1203](https://github.com/DGP-Studio/Snap.Hutao/issues/1203)
+- **[🎉New]** Highlighted all relevant materials on Sunday in the Dev Plan [#1607](https://github.com/DGP-Studio/Snap.Hutao/issues/1607)
+- **[🎉New]** Added option to display icon in system notification area (system tray)
+  - Added notification area icon switch in settings
+  - Application behavior changes when notification area icon is enabled
+  - **[✨Optimization]** Application will not exit when all windows are closed; only exits when selected from the right-click menu of the system tray icon
+  - **[✨Optimization]** Closing the window triggers a prompt if the icon is in the collapsed area
+  - **[✨Optimization/Break Change]** Real-time Note timed refresh no longer triggers when not running in the background (refresh by Windows Scheduled Task is removed)
+  - **[✨Optimization]** Real-time Note refresh switch/refresh time settings no longer require administrator mode
+- **[🔨Fixed]** Fixed an issue where images might not load when switching to list view if the default view of character data/weapon data/monster data/achievement management interface was not list view
+- **[🔨Fix]** Fixed an issue where occasional inability to exit the program normally was caused by checking system proxy settings
+- **[🔨Fix]** Fixed an issue where the bag items did not switch accordingly when switching the growth plan [#1609](https://github.com/DGP-Studio/Snap.Hutao/issues/1609)
+- **[🔨Fix]** Fixed an issue where modifying the completion status of a single achievement would incorrectly deselect the achievement category [#1631](https://github.com/DGP-Studio/Snap.Hutao/issues/1631)
+- **[🔨Fixed]** Fixed an issue where the shortcut key settings would be obscured by the title bar when opening the auxiliary button panel near the title bar [#1632](https://github.com/DGP-Studio/Snap.Hutao/issues/1632)
+- **[🔨Fixed]** Fixed an issue where the time range of some new announcements did not match correctly [#1613](https://github.com/DGP-Studio/Snap.Hutao/issues/1613)
+- **[🔨Fixed]** Fixed an issue where the statistics tab on the wish record page would show the pool ratio of 0 draws as NaN [#1588](https://github.com/DGP-Studio/Snap.Hutao/issues/1588)
+- **[✨Optimization]** Removed the task list from the right-click menu of the taskbar icon
+- **[✨Optimization]** Added a second confirmation dialog for deleting a growth plan [#1608](https://github.com/DGP-Studio/Snap.Hutao/issues/1608)
+- **[✨Optimization]** Added a prompt for HoYoLAB error code 2001 [#1542](https://github.com/DGP-Studio/Snap.Hutao/issues/1542)
+- **[✨Optimization]** Added quality comparison tab to the quality selection page of the guide interface [#1595](https://github.com/DGP-Studio/Snap.Hutao/issues/1595)
+- **[✨Optimization]** Disabled auto-click shortcut settings in non-administrator mode
+- **[✨Optimization]** Other performance improvements
+- **[🌏Localization]** Added French language support
+
+## 1.10.1 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed the game server conversion issue
 
 ## 1.10.0
 
