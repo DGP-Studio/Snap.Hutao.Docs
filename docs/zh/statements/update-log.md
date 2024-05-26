@@ -10,7 +10,34 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.10.1 <Badge text="最新版" type="tip" /> <Badge text="hotfix" type="warning" />
+## 1.10.2 <Badge text="最新版" type="tip" />
+
+- **【🎉新增】** 为静态资源下载引入了重试机制
+- **【🎉新增】** 实时便笺新增魔神任务进度查看 [#1203](https://github.com/DGP-Studio/Snap.Hutao/issues/1203)
+- **【🎉新增】** 养成计划在周日时将会高亮所有相关材料 [#1607](https://github.com/DGP-Studio/Snap.Hutao/issues/1607)
+- **【🎉新增】** 新增在系统通知区域显示图标的选项 （后台托盘）
+  - 设置页面新增通知区域图标开关
+  - 开启通知区域图标后应用行为将会发生变化
+  - **【✨优化】** 在关闭所有窗口后将不会退出，只有在图标的右键菜单中点击退出才会结束进程
+  - **【✨优化】** 在关闭窗口时如果图标处于折叠区域中会触发提示
+  - **【✨优化/重大变动】** 实时便笺定时刷新现在不再支持无后台运行时触发 （Windows 定时任务刷新方式将被删除）
+  - **【✨优化】** 实时便笺的刷新开关/刷新时间设置不再要求管理员模式
+- **【🔨修复】** 修复了角色资料/武器资料/怪物资料/成就管理界面在默认视图不是列表时，切换到列表界面时图片可能不会加载的问题
+- **【🔨修复】** 修复了由于检查系统代理设置导致的偶发性无法正常退出程序的问题
+- **【🔨修复】** 修复了背包物品在切换养成计划时不会跟随切换的问题 [#1609](https://github.com/DGP-Studio/Snap.Hutao/issues/1609)
+- **【🔨修复】** 修复了修改单个成就的完成状态时会错误的取消选择成就分类的问题 [#1631](https://github.com/DGP-Studio/Snap.Hutao/issues/1631)
+- **【🔨修复】** 修复了快捷键设置在靠近标题栏时打开辅助按钮面板会被标题栏遮挡的问题 [#1632](https://github.com/DGP-Studio/Snap.Hutao/issues/1632)
+- **【🔨修复】** 修复了部分新公告的时间范围未正确匹配的问题 [#1613](https://github.com/DGP-Studio/Snap.Hutao/issues/1613)
+- **【🔨修复】** 修复了祈愿记录页面统计页签会将0抽的卡池比例显示为NaN的问题 [#1588](https://github.com/DGP-Studio/Snap.Hutao/issues/1588)
+- **【✨优化】** 移除了任务栏图标的右键菜单中的任务列表
+- **【✨优化】** 新增养成计划删除的二次确认对话框 [#1608](https://github.com/DGP-Studio/Snap.Hutao/issues/1608)
+- **【✨优化】** 新增对 HoYoLAB 2001 错误代码的提示 [#1542](https://github.com/DGP-Studio/Snap.Hutao/issues/1542)
+- **【✨优化】** 在引导界面的画质选择页签新增了画质对比 [#1595](https://github.com/DGP-Studio/Snap.Hutao/issues/1595)
+- **【✨优化】** 在非管理员模式下禁用了自动连点快捷键设置
+- **【✨优化】** 其他的性能改进
+- **【🌏本地化】** 新增法语
+
+## 1.10.1 <Badge text="hotfix" type="warning" />
 
 - **【🔨修复】** 修复了无法切换游戏服务器的问题
 
