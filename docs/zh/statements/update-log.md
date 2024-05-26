@@ -24,7 +24,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
   - **【✨优化】** 实时便笺的刷新开关/刷新时间设置不再要求管理员模式
 - **【🔨修复】** 修复了角色资料/武器资料/怪物资料/成就管理界面在默认视图不是列表时，切换到列表界面时图片可能不会加载的问题
 - **【🔨修复】** 修复了由于检查系统代理设置导致的偶发性无法正常退出程序的问题
-- **【🔨修复】** 修复背包物品在切换养成计划时不会跟随切换的问题 [#1609](https://github.com/DGP-Studio/Snap.Hutao/issues/1609)
+- **【🔨修复】** 修复了背包物品在切换养成计划时不会跟随切换的问题 [#1609](https://github.com/DGP-Studio/Snap.Hutao/issues/1609)
 - **【🔨修复】** 修复了修改单个成就的完成状态时会错误的取消选择成就分类的问题 [#1631](https://github.com/DGP-Studio/Snap.Hutao/issues/1631)
 - **【🔨修复】** 修复了快捷键设置在靠近标题栏时打开辅助按钮面板会被标题栏遮挡的问题 [#1632](https://github.com/DGP-Studio/Snap.Hutao/issues/1632)
 - **【🔨修复】** 修复了部分新公告的时间范围未正确匹配的问题 [#1613](https://github.com/DGP-Studio/Snap.Hutao/issues/1613)
