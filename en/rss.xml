@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 30 Apr 2024 06:21:09 GMT</pubDate>
-    <lastBuildDate>Tue, 30 Apr 2024 06:21:09 GMT</lastBuildDate>
+    <pubDate>Wed, 05 Jun 2024 14:24:09 GMT</pubDate>
+    <lastBuildDate>Wed, 05 Jun 2024 14:24:09 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -521,9 +521,64 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.10.3 </h2>
+<ul>
+<li><strong>[🎉New]</strong> The notification area icon now supports show the menu with a left click <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1656" target="_blank" rel="noopener noreferrer">#1656</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the frame rate unlock feature in the game launcher failed in version 4.7 of the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1675" target="_blank" rel="noopener noreferrer">#1675</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where closing the main window on Windows 10 system would not correctly pop up the tray icon notification</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the tray icon location could not be correctly obtained on Windows 10 system, causing crashes</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the window would not be remembered when resized to smaller than the initial size <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1657" target="_blank" rel="noopener noreferrer">#1657</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where application redirection failed in some scenarios</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the launch game window data expired in some scenarios</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where all materials in the cultivation plan are highlighted on Sundays</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the guide window can be maximized</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the game screenshot folder cannot be opened when it does not exist</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the dev version and the official version use the same notification identifier, causing repeated activation </li>
+<li><strong>[✨Optimization]</strong> Temporarily disabled the MiYouShe web login entry in the user panel</li>
+<li><strong>[✨Optimization]</strong> Removed the jump list of the right-click menu of Snap Hutao icon in the taskbar and the start menu</li>
+<li><strong>[✨Optimization]</strong> Optimized the style of in-app notifications <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1650" target="_blank" rel="noopener noreferrer">#1650</a></li>
+<li><strong>[✨Optimization]</strong> Optimized the style of the character property panel in My Characters</li>
+<li><strong>[✨Optimization]</strong> Optimized the style of real-time notes settings in Real-time Notes</li>
+<li><strong>[✨Optimization]</strong> Optimized the brightness performance of the game announcement images on the homepage in dark mode</li>
+<li><strong>[✨Optimization]</strong> Optimized the brightness performance of the pool images in the global wish statistics in the wish records in dark mode</li>
+<li><strong>[✨Optimization]</strong> Optimized the display effect of some texts</li>
+<li><strong>[✨Optimization]</strong> Optimized the loading speed of some pages</li>
+<li><strong>[✨Optimization]</strong> Other performance improvements</li>
+<li><strong>[🌏Localization]</strong> Added Vietnamese language support</li>
+</ul>
+<h2>1.10.2</h2>
+<ul>
+<li><strong>[🎉New]</strong> Introduced retry mechanism for static resource downloads</li>
+<li><strong>[🎉New]</strong> Added Real-time Note feature to view Archon Quest progress <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1203" target="_blank" rel="noopener noreferrer">#1203</a></li>
+<li><strong>[🎉New]</strong> Highlighted all relevant materials on Sunday in the Dev Plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1607" target="_blank" rel="noopener noreferrer">#1607</a></li>
+<li><strong>[🎉New]</strong> Added option to display icon in system notification area (system tray)
+<ul>
+<li>Added notification area icon switch in settings</li>
+<li>Application behavior changes when notification area icon is enabled</li>
+<li><strong>[✨Optimization]</strong> Application will not exit when all windows are closed; only exits when selected from the right-click menu of the system tray icon</li>
+<li><strong>[✨Optimization]</strong> Closing the window triggers a prompt if the icon is in the collapsed area</li>
+<li><strong>[✨Optimization/Break Change]</strong> Real-time Note timed refresh no longer triggers when not running in the background (refresh by Windows Scheduled Task is removed)</li>
+<li><strong>[✨Optimization]</strong> Real-time Note refresh switch/refresh time settings no longer require administrator mode</li>
+</ul>
+</li>
+<li><strong>[🔨Fixed]</strong> Fixed an issue where images might not load when switching to list view if the default view of character data/weapon data/monster data/achievement management interface was not list view</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where occasional inability to exit the program normally was caused by checking system proxy settings</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the bag items did not switch accordingly when switching the growth plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1609" target="_blank" rel="noopener noreferrer">#1609</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where modifying the completion status of a single achievement would incorrectly deselect the achievement category <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1631" target="_blank" rel="noopener noreferrer">#1631</a></li>
+<li><strong>[🔨Fixed]</strong> Fixed an issue where the shortcut key settings would be obscured by the title bar when opening the auxiliary button panel near the title bar <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1632" target="_blank" rel="noopener noreferrer">#1632</a></li>
+<li><strong>[🔨Fixed]</strong> Fixed an issue where the time range of some new announcements did not match correctly <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1613" target="_blank" rel="noopener noreferrer">#1613</a></li>
+<li><strong>[🔨Fixed]</strong> Fixed an issue where the statistics tab on the wish record page would show the pool ratio of 0 draws as NaN <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1588" target="_blank" rel="noopener noreferrer">#1588</a></li>
+<li><strong>[✨Optimization]</strong> Removed the task list from the right-click menu of the taskbar icon</li>
+<li><strong>[✨Optimization]</strong> Added a second confirmation dialog for deleting a growth plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1608" target="_blank" rel="noopener noreferrer">#1608</a></li>
+<li><strong>[✨Optimization]</strong> Added a prompt for HoYoLAB error code 2001 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1542" target="_blank" rel="noopener noreferrer">#1542</a></li>
+<li><strong>[✨Optimization]</strong> Added quality comparison tab to the quality selection page of the guide interface <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1595" target="_blank" rel="noopener noreferrer">#1595</a></li>
+<li><strong>[✨Optimization]</strong> Disabled auto-click shortcut settings in non-administrator mode</li>
+<li><strong>[✨Optimization]</strong> Other performance improvements</li>
+<li><strong>[🌏Localization]</strong> Added French language support</li>
+</ul>
 <h2>1.10.1 </h2>
 <ul>
-<li><strong>【🔨Fix】</strong> Fixed the game server conversion issue</li>
+<li><strong>[🔨Fix]</strong> Fixed the game server conversion issue</li>
 </ul>
 <h2>1.10.0</h2>
 <ul>
