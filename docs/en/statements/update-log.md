@@ -11,7 +11,32 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.10.2 <Badge text="latest" type="tip" />
+## 1.10.3 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Now the notification area icon supports calling out the menu with a left click [#1656](https://github.com/DGP-Studio/Snap.Hutao/issues/1656)
+- **[🔨Fix]** Fixed the issue where the frame rate unlock feature in the game launcher failed in version 4.7 of the game [#1675](https://github.com/DGP-Studio/Snap.Hutao/issues/1675)
+- **[🔨Fix]** Fixed the issue where closing the main window on Windows 10 system would not correctly pop up the tray icon notification
+- **[🔨Fix]** Fixed the issue where the tray icon location could not be correctly obtained on Windows 10 system, causing crashes
+- **[🔨Fix]** Fixed the issue where the window would not be remembered when resized to smaller than the initial size [#1657](https://github.com/DGP-Studio/Snap.Hutao/issues/1657)
+- **[🔨Fix]** Fixed the issue where application redirection failed in some scenarios
+- **[🔨Fix]** Fixed the issue where the launch game window data expired in some scenarios
+- **[🔨Fix]** Fixed the issue where all materials in the cultivation plan are highlighted on Sundays
+- **[🔨Fix]** Fixed the issue where the guide window can be maximized
+- **[🔨Fix]** Fixed the issue where it cannot be opened when the game screenshot folder does not exist
+- **[🔨Fix]** Fixed the issue where the dev version and the official version use the same notification identifier, causing repeated activation <Badge text="Developer feature" type="tip" />
+- **[✨Optimization]** Temporarily disabled the MiYouShe web login entry in the user panel
+- **[✨Optimization]** Removed the quick task list of the right-click menu of Snap Hutao icon in the taskbar and the start menu
+- **[✨Optimization]** Optimized the style of in-app notifications [#1650](https://github.com/DGP-Studio/Snap.Hutao/issues/1650)
+- **[✨Optimization]** Optimized the style of the character value panel in My Characters
+- **[✨Optimization]** Optimized the style of real-time notes settings in Real-time Notes
+- **[✨Optimization]** Optimized the brightness performance of the game announcement images on the homepage in dark mode
+- **[✨Optimization]** Optimized the brightness performance of the pool images in the global wish statistics in the wish records in dark mode
+- **[✨Optimization]** Optimized the display effect of some texts
+- **[✨Optimization]** Optimized the loading speed of some pages
+- **[✨Optimization]** Other performance improvements
+- **[🌏Localization]** Added Vietnamese language support
+
+## 1.10.2
 
 - **[🎉New]** Introduced retry mechanism for static resource downloads
 - **[🎉New]** Added Real-time Note feature to view Archon Quest progress [#1203](https://github.com/DGP-Studio/Snap.Hutao/issues/1203)
