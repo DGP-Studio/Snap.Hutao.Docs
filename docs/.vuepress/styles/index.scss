@@ -67,15 +67,39 @@ main.vp-project-home {
 
     th {
       border-color: transparent;
+      background-color: #f8f8f8;
     }
 
     td {
       border-color: transparent;
+      background-color: #f8f8f8;
     }
   }
 
   svg.external-link-icon {
     display: none;
+  }
+}
+
+html[data-theme="dark"] {
+  main.vp-project-home {
+    table {
+      display: inline-block;
+
+      th {
+        border-color: transparent;
+        background-color: #161b22;
+      }
+
+      td {
+        border-color: transparent;
+        background-color: #161b22;
+      }
+    }
+
+    svg.external-link-icon {
+      display: none;
+    }
   }
 }
 

@@ -125,9 +125,10 @@ You can make contribution by the following ways:
 
 Snap Hutao is currently using sponsored software from the following service providers.
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |          [![](/images/202312/gitlab-logo.svg =180x60)](https://gitlab.cn/)           |
-| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
-|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                        [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/)                         | [![](/images/202312/digitalocean-horizontal.svg =180x40)](https://about.signpath.io) |
+| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg#light =180x60)](https://crowdin.com/) |          [![](/images/202312/gitlab-logo.svg =180x60)](https://gitlab.cn/)           |
+| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                           [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/)                            | [![](/images/202312/digitalocean-horizontal.svg =180x35)](https://about.signpath.io) |
+|                       [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)                        |                                 [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)                                 |
 
 Netlify provides document and home page hosting service for Snap Hutao
 
@@ -140,4 +141,8 @@ Free code signing provided by [SignPath.io](https://signpath.io/), certificate b
 1Password provides Snap Hutao development team with their amazing password management software plan
 
 DigitalOcean provides reliable cloud storage for Snap Hutao database backup
+
+[Ducalis.io](https://hi.ducalis.io/) provides Snap Hutao project with a complete decision-making toolkit for project management
+
+JetBrains provides Snap Hutao project with free open-source licenses for their IDEs
 :::
