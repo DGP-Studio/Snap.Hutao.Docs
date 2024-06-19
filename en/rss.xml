@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 12 Jun 2024 03:47:30 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Jun 2024 03:47:30 GMT</lastBuildDate>
+    <pubDate>Wed, 19 Jun 2024 08:06:20 GMT</pubDate>
+    <lastBuildDate>Wed, 19 Jun 2024 08:06:20 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -521,7 +521,27 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.10.3 </h2>
+<h2>1.10.4 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added previous data comparison in Spiral Abyss - Current Statistics/Character Data/Weapon Data section of Snap Hutao Database</li>
+<li><strong>[🎉New]</strong> Added the ability to obtain backpack materials in Dev Plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1651" target="_blank" rel="noopener noreferrer">#1651</a></li>
+<li><strong>[🎉New]</strong> Added right-click copy support to all images</li>
+<li><strong>[🎉New]</strong> Added the functionality to display game character avatars in the user panel</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where unlocking the frame rate would prevent game server conversion due to file occupation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1703" target="_blank" rel="noopener noreferrer">#1703</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where importing achievements from other programs using URL protocol would cause freezing when Snap Hutao is not running <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1704" target="_blank" rel="noopener noreferrer">#1704</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the actual refresh time of real-time notes was magnified by 60 times <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1710" target="_blank" rel="noopener noreferrer">#1710</a></li>
+<li><strong>[🔨Fix]</strong> Boost the maximum resin notification threshold to 200 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1711" target="_blank" rel="noopener noreferrer">#1711</a></li>
+<li><strong>[🔨Fix]</strong> The background image of the launcher now uses the version without text <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1688" target="_blank" rel="noopener noreferrer">#1688</a></li>
+<li><strong>[🔨Fix]</strong> Changed the logic of activation from the Windows notification center, fixing the issue where notifications could not be correctly redirected in administrator mode</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where all materials or all backpack items would be rendered incorrectly on Dev Plan page in certain scenarios</li>
+<li><strong>[✨Optimization]</strong> Improved the display effect of some controls</li>
+<li><strong>[✨Optimization]</strong> Changed the activation/closing logic of windows, now they are directly closed instead of being hidden when already open</li>
+<li><strong>[✨Optimization]</strong> Adjusted the UI for displaying package lists in the Launch Game - Game Resources section</li>
+<li><strong>[✨Optimization]</strong> Weapon data page now uses in-game sorting</li>
+<li><strong>[✨Optimization]</strong> Optimized punctuation and wording of some texts</li>
+<li><strong>[✨Optimization]</strong> Other performance improvements and QA testing issue fixes</li>
+</ul>
+<h2>1.10.3</h2>
 <ul>
 <li><strong>[🎉New]</strong> The notification area icon now supports show the menu with a left click <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1656" target="_blank" rel="noopener noreferrer">#1656</a></li>
 <li><strong>[🔨Fix]</strong> Fixed the issue where the frame rate unlock feature in the game launcher failed in version 4.7 of the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1675" target="_blank" rel="noopener noreferrer">#1675</a></li>

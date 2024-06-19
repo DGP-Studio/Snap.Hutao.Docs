@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 12 Jun 2024 03:47:30 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Jun 2024 03:47:30 GMT</lastBuildDate>
+    <pubDate>Wed, 19 Jun 2024 08:06:20 GMT</pubDate>
+    <lastBuildDate>Wed, 19 Jun 2024 08:06:20 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -544,7 +544,27 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.10.3 </h2>
+<h2>1.10.4 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 深境螺旋-本期统计/角色资料/武器资料中的胡桃数据库部分新增上期数据对比</li>
+<li><strong>【🎉新增】</strong> 养成计划添加了获取背包材料的功能 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1651" target="_blank" rel="noopener noreferrer">#1651</a></li>
+<li><strong>【🎉新增】</strong> 为所有图片添加了右键复制支持</li>
+<li><strong>【🎉新增】</strong> 用户面板新增显示游戏角色头像功能</li>
+<li><strong>【🔨修复】</strong> 修复了解锁帧率后因文件占用导致无法转换游戏服务器的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1703" target="_blank" rel="noopener noreferrer">#1703</a></li>
+<li><strong>【🔨修复】</strong> 修复了在胡桃未启动的情况下从其他程序使用 URL 协议导入成就会导致卡死的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1704" target="_blank" rel="noopener noreferrer">#1704</a></li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺的实际刷新时间错误的放大了 60 倍的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1710" target="_blank" rel="noopener noreferrer">#1710</a></li>
+<li><strong>【🔨修复】</strong> 增加实时便笺设置中树脂提醒阈值的最大值至 200 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1711" target="_blank" rel="noopener noreferrer">#1711</a></li>
+<li><strong>【🔨修复】</strong> 背景图片-启动器背景现在使用无字版本 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1688" target="_blank" rel="noopener noreferrer">#1688</a></li>
+<li><strong>【🔨修复】</strong> 更改了从 Windows 通知中心激活的逻辑，修复了管理员模式下通知无法正常重定向的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分场景下养成计划页面所有材料或所有背包物品会错误渲染的问题</li>
+<li><strong>【✨优化】</strong> 优化了部分控件的显示效果</li>
+<li><strong>【✨优化】</strong> 更改了窗口的激活/关闭逻辑，现在不再隐藏已经打开的窗口而是直接关闭</li>
+<li><strong>【✨优化】</strong> 调整了启动游戏-游戏资源的包列表展示 UI</li>
+<li><strong>【✨优化】</strong> 武器资料页面使用游戏内排序</li>
+<li><strong>【✨优化】</strong> 优化了部分文本的标点符号及表述</li>
+<li><strong>【✨优化】</strong> 其他的性能改进与 QA 测试问题修复</li>
+</ul>
+<h2>1.10.3</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 现在通知区域图标支持左键单击呼出菜单了 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1656" target="_blank" rel="noopener noreferrer">#1656</a></li>
 <li><strong>【🔨修复】</strong> 修复了游戏启动器中帧率解锁功能在游戏 4.7 版本下失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1675" target="_blank" rel="noopener noreferrer">#1675</a></li>
