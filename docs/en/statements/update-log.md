@@ -11,7 +11,25 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.10.3 <Badge text="latest" type="tip" />
+## 1.10.4 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Spiral Abyss statistics page now displays a comparison with the previous period
+- **[🎉New]** Dev Plan now includes the ability to obtain materials from the backpack [#1651](https://github.com/DGP-Studio/Snap.Hutao/issues/1651)
+- **[🎉New]** Added right-click copy support to all images
+- **[🎉New]** All game roles now display in-game avatars
+- **[🔨Fix]** Fixed an issue where unlocking the frame rate in the game launcher would lock UnityPlayer and prevent server switching [#1703](https://github.com/DGP-Studio/Snap.Hutao/issues/1703)
+- **[🔨Fix]** Fixed an unresponsive issue when launching Snap Hutao from a URL [#1704](https://github.com/DGP-Studio/Snap.Hutao/issues/1704)
+- **[🔨Fix]** Fixed an issue where real-time notes would not auto-refresh [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
+- **[🔨Fix]** Fixed an issue where the resin cap in real-time notes was still 160 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
+- **[🔨Fix]** Fixed an issue where the background art image was incorrect when selecting the official launcher [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
+- **[🔨Fix]** Fixed an issue where notifications could not be correctly redirected in administrator mode
+- **[🔨Fix]** Fixed an issue where all materials or all backpack items would render incorrectly in some scenarios in the dev plan page
+- **[✨Optimization]** Improved the display effect of some controls
+- **[✨Optimization]** Improved the display effect of windows
+- **[✨Optimization]** Optimized some text
+- **[✨Optimization]** Other performance improvements
+
+## 1.10.3
 
 - **[🎉New]** The notification area icon now supports show the menu with a left click [#1656](https://github.com/DGP-Studio/Snap.Hutao/issues/1656)
 - **[🔨Fix]** Fixed the issue where the frame rate unlock feature in the game launcher failed in version 4.7 of the game [#1675](https://github.com/DGP-Studio/Snap.Hutao/issues/1675)

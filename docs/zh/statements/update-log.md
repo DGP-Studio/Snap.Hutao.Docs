@@ -10,7 +10,25 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.10.3 <Badge text="最新版" type="tip" />
+## 1.10.4 <Badge text="最新版" type="tip" />
+
+- **【🎉新增】** 深境螺旋统计页面现在会显示与上期的对比
+- **【🎉新增】** 养成计划添加了获取背包材料的功能 [#1651](https://github.com/DGP-Studio/Snap.Hutao/issues/1651)
+- **【🎉新增】** 给所有图片添加了右键复制支持
+- **【🎉新增】** 现在会给所有游戏角色显示游戏内头像了
+- **【🔨修复】** 修复了游戏启动器中帧率解锁会锁定 UnityPlayer 从而导致无法切换服务器的问题 [#1703](https://github.com/DGP-Studio/Snap.Hutao/issues/1703)
+- **【🔨修复】** 修复了从 URL 启动胡桃时无响应的问题 [#1704](https://github.com/DGP-Studio/Snap.Hutao/issues/1704)
+- **【🔨修复】** 修复了实时便笺无法自动刷新的问题 [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
+- **【🔨修复】** 修复了实时便笺树脂上限仍然是 160 的问题 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
+- **【🔨修复】** 修复了背景图片选择官方启动器时背景美术图错误的问题 [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
+- **【🔨修复】** 修复了管理员模式下通知无法正常重定向的问题
+- **【🔨修复】** 修复了部分场景下养成计划页面所有材料或所有背包物品会错误渲染的问题
+- **【✨优化】** 优化了部分控件的显示效果
+- **【✨优化】** 优化了窗口的显示效果
+- **【✨优化】** 优化了部分文本
+- **【✨优化】** 其他的性能改进
+
+## 1.10.3
 
 - **【🎉新增】** 现在通知区域图标支持左键单击呼出菜单了 [#1656](https://github.com/DGP-Studio/Snap.Hutao/issues/1656)
 - **【🔨修复】** 修复了游戏启动器中帧率解锁功能在游戏 4.7 版本下失效的问题 [#1675](https://github.com/DGP-Studio/Snap.Hutao/issues/1675)
