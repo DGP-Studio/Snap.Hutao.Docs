@@ -13,21 +13,23 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 ## 1.10.4 <Badge text="latest" type="tip" />
 
-- **[🎉New]** Spiral Abyss statistics page now displays a comparison with the previous period
-- **[🎉New]** Dev Plan now includes the ability to obtain materials from the backpack [#1651](https://github.com/DGP-Studio/Snap.Hutao/issues/1651)
+- **[🎉New]** Added previous data comparison in Spiral Abyss - Current Statistics/Character Data/Weapon Data section of Snap Hutao Database
+- **[🎉New]** Added the ability to obtain backpack materials in Dev Plan [#1651](https://github.com/DGP-Studio/Snap.Hutao/issues/1651)
 - **[🎉New]** Added right-click copy support to all images
-- **[🎉New]** All game roles now display in-game avatars
-- **[🔨Fix]** Fixed an issue where unlocking the frame rate in the game launcher would lock UnityPlayer and prevent server switching [#1703](https://github.com/DGP-Studio/Snap.Hutao/issues/1703)
-- **[🔨Fix]** Fixed an unresponsive issue when launching Snap Hutao from a URL [#1704](https://github.com/DGP-Studio/Snap.Hutao/issues/1704)
-- **[🔨Fix]** Fixed an issue where real-time notes would not auto-refresh [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
-- **[🔨Fix]** Fixed an issue where the resin cap in real-time notes was still 160 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
-- **[🔨Fix]** Fixed an issue where the background art image was incorrect when selecting the official launcher [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
-- **[🔨Fix]** Fixed an issue where notifications could not be correctly redirected in administrator mode
-- **[🔨Fix]** Fixed an issue where all materials or all backpack items would render incorrectly in some scenarios in the dev plan page
+- **[🎉New]** Added the functionality to display game character avatars in the user panel
+- **[🔨Fix]** Fixed the issue where unlocking the frame rate would prevent game server conversion due to file occupation [#1703](https://github.com/DGP-Studio/Snap.Hutao/issues/1703)
+- **[🔨Fix]** Fixed the issue where importing achievements from other programs using URL protocol would cause freezing when Snap Hutao is not running [#1704](https://github.com/DGP-Studio/Snap.Hutao/issues/1704)
+- **[🔨Fix]** Fixed the issue where the actual refresh time of real-time notes was magnified by 60 times [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
+- **[🔨Fix]** Fixed the issue where the maximum value of the resin reminder threshold in real-time notes settings was not 200 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
+- **[🔨Fix]** The background image of the launcher now uses the version without text [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
+- **[🔨Fix]** Changed the logic of activation from the Windows notification center, fixing the issue where notifications could not be correctly redirected in administrator mode
+- **[🔨Fix]** Fixed the issue where all materials or all backpack items would be rendered incorrectly on Dev Plan page in certain scenarios
 - **[✨Optimization]** Improved the display effect of some controls
-- **[✨Optimization]** Improved the display effect of windows
-- **[✨Optimization]** Optimized some text
-- **[✨Optimization]** Other performance improvements
+- **[✨Optimization]** Changed the activation/closing logic of windows, now they are directly closed instead of being hidden when already open
+- **[✨Optimization]** Adjusted the UI for displaying package lists in the Launch Game - Game Resources section
+- **[✨Optimization]** Weapon data page now uses in-game sorting
+- **[✨Optimization]** Optimized punctuation and wording of some texts
+- **[✨Optimization]** Other performance improvements and QA testing issue fixes
 
 ## 1.10.3
 
