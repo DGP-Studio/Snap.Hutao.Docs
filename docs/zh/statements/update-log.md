@@ -14,12 +14,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 - **【🎉新增】** 深境螺旋-本期统计/角色资料/武器资料中的胡桃数据库部分新增上期数据对比
 - **【🎉新增】** 养成计划添加了获取背包材料的功能 [#1651](https://github.com/DGP-Studio/Snap.Hutao/issues/1651)
-- **【🎉新增】** 给所有图片添加了右键复制支持
+- **【🎉新增】** 为所有图片添加了右键复制支持
 - **【🎉新增】** 用户面板新增显示游戏角色头像功能
 - **【🔨修复】** 修复了解锁帧率后因文件占用导致无法转换游戏服务器的问题 [#1703](https://github.com/DGP-Studio/Snap.Hutao/issues/1703)
 - **【🔨修复】** 修复了在胡桃未启动的情况下从其他程序使用 URL 协议导入成就会导致卡死的问题 [#1704](https://github.com/DGP-Studio/Snap.Hutao/issues/1704)
 - **【🔨修复】** 修复了实时便笺的实际刷新时间错误的放大了 60 倍的问题 [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
-- **【🔨修复】** 修复了实时便笺设置中树脂提醒阈值的最大值不为 200 的问题 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
+- **【🔨修复】** 增加实时便笺设置中树脂提醒阈值的最大值至 200 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
 - **【🔨修复】** 背景图片-启动器背景现在使用无字版本 [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
 - **【🔨修复】** 更改了从 Windows 通知中心激活的逻辑，修复了管理员模式下通知无法正常重定向的问题
 - **【🔨修复】** 修复了部分场景下养成计划页面所有材料或所有背包物品会错误渲染的问题

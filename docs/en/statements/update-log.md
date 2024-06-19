@@ -20,7 +20,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[🔨Fix]** Fixed the issue where unlocking the frame rate would prevent game server conversion due to file occupation [#1703](https://github.com/DGP-Studio/Snap.Hutao/issues/1703)
 - **[🔨Fix]** Fixed the issue where importing achievements from other programs using URL protocol would cause freezing when Snap Hutao is not running [#1704](https://github.com/DGP-Studio/Snap.Hutao/issues/1704)
 - **[🔨Fix]** Fixed the issue where the actual refresh time of real-time notes was magnified by 60 times [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
-- **[🔨Fix]** Fixed the issue where the maximum value of the resin reminder threshold in real-time notes settings was not 200 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
+- **[🔨Fix]** Boost the maximum resin notification threshold to 200 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
 - **[🔨Fix]** The background image of the launcher now uses the version without text [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
 - **[🔨Fix]** Changed the logic of activation from the Windows notification center, fixing the issue where notifications could not be correctly redirected in administrator mode
 - **[🔨Fix]** Fixed the issue where all materials or all backpack items would be rendered incorrectly on Dev Plan page in certain scenarios
