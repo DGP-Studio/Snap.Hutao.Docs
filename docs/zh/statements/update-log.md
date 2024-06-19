@@ -21,7 +21,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **【🔨修复】** 修复了实时便笺的实际刷新时间错误的放大了 60 倍的问题 [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
 - **【🔨修复】** 修复了实时便笺设置中树脂提醒阈值的最大值不为 200 的问题 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
 - **【🔨修复】** 背景图片-启动器背景现在使用无字版本 [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
-- **【🔨修复】** 更改了从Windows通知中心激活的逻辑，修复了管理员模式下通知无法正常重定向的问题
+- **【🔨修复】** 更改了从 Windows 通知中心激活的逻辑，修复了管理员模式下通知无法正常重定向的问题
 - **【🔨修复】** 修复了部分场景下养成计划页面所有材料或所有背包物品会错误渲染的问题
 - **【✨优化】** 优化了部分控件的显示效果
 - **【✨优化】** 更改了窗口的激活/关闭逻辑，现在不再隐藏已经打开的窗口而是直接关闭
