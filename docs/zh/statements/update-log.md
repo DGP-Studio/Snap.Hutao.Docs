@@ -12,21 +12,23 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 ## 1.10.4 <Badge text="最新版" type="tip" />
 
-- **【🎉新增】** 深境螺旋统计页面现在会显示与上期的对比
+- **【🎉新增】** 深境螺旋-本期统计/角色资料/武器资料中的胡桃数据库部分新增上期数据对比
 - **【🎉新增】** 养成计划添加了获取背包材料的功能 [#1651](https://github.com/DGP-Studio/Snap.Hutao/issues/1651)
 - **【🎉新增】** 给所有图片添加了右键复制支持
-- **【🎉新增】** 现在会给所有游戏角色显示游戏内头像了
-- **【🔨修复】** 修复了游戏启动器中帧率解锁会锁定 UnityPlayer 从而导致无法切换服务器的问题 [#1703](https://github.com/DGP-Studio/Snap.Hutao/issues/1703)
-- **【🔨修复】** 修复了从 URL 启动胡桃时无响应的问题 [#1704](https://github.com/DGP-Studio/Snap.Hutao/issues/1704)
-- **【🔨修复】** 修复了实时便笺无法自动刷新的问题 [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
-- **【🔨修复】** 修复了实时便笺树脂上限仍然是 160 的问题 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
-- **【🔨修复】** 修复了背景图片选择官方启动器时背景美术图错误的问题 [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
-- **【🔨修复】** 修复了管理员模式下通知无法正常重定向的问题
+- **【🎉新增】** 用户面板新增显示游戏角色头像功能
+- **【🔨修复】** 修复了解锁帧率后因文件占用导致无法转换游戏服务器的问题 [#1703](https://github.com/DGP-Studio/Snap.Hutao/issues/1703)
+- **【🔨修复】** 修复了在胡桃未启动的情况下从其他程序使用 URL 协议导入成就会导致卡死的问题 [#1704](https://github.com/DGP-Studio/Snap.Hutao/issues/1704)
+- **【🔨修复】** 修复了实时便笺的实际刷新时间错误的放大了 60 倍的问题 [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
+- **【🔨修复】** 修复了实时便笺设置中树脂提醒阈值的最大值不为 200 的问题 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
+- **【🔨修复】** 背景图片-启动器背景现在使用无字版本 [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
+- **【🔨修复】** 更改了从Windows通知中心激活的逻辑，修复了管理员模式下通知无法正常重定向的问题
 - **【🔨修复】** 修复了部分场景下养成计划页面所有材料或所有背包物品会错误渲染的问题
 - **【✨优化】** 优化了部分控件的显示效果
-- **【✨优化】** 优化了窗口的显示效果
-- **【✨优化】** 优化了部分文本
-- **【✨优化】** 其他的性能改进
+- **【✨优化】** 更改了窗口的激活/关闭逻辑，现在不再隐藏已经打开的窗口而是直接关闭
+- **【✨优化】** 调整了启动游戏-游戏资源的包列表展示 UI
+- **【✨优化】** 武器资料页面使用游戏内排序
+- **【✨优化】** 优化了部分文本的标点符号及表述
+- **【✨优化】** 其他的性能改进与 QA 测试问题修复
 
 ## 1.10.3
 
