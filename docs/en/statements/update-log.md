@@ -11,7 +11,27 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.10.3 <Badge text="latest" type="tip" />
+## 1.10.4 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Added previous data comparison in Spiral Abyss - Current Statistics/Character Data/Weapon Data section of Snap Hutao Database
+- **[🎉New]** Added the ability to obtain backpack materials in Dev Plan [#1651](https://github.com/DGP-Studio/Snap.Hutao/issues/1651)
+- **[🎉New]** Added right-click copy support to all images
+- **[🎉New]** Added the functionality to display game character avatars in the user panel
+- **[🔨Fix]** Fixed the issue where unlocking the frame rate would prevent game server conversion due to file occupation [#1703](https://github.com/DGP-Studio/Snap.Hutao/issues/1703)
+- **[🔨Fix]** Fixed the issue where importing achievements from other programs using URL protocol would cause freezing when Snap Hutao is not running [#1704](https://github.com/DGP-Studio/Snap.Hutao/issues/1704)
+- **[🔨Fix]** Fixed the issue where the actual refresh time of real-time notes was magnified by 60 times [#1710](https://github.com/DGP-Studio/Snap.Hutao/issues/1710)
+- **[🔨Fix]** Boost the maximum resin notification threshold to 200 [#1711](https://github.com/DGP-Studio/Snap.Hutao/issues/1711)
+- **[🔨Fix]** The background image of the launcher now uses the version without text [#1688](https://github.com/DGP-Studio/Snap.Hutao/issues/1688)
+- **[🔨Fix]** Changed the logic of activation from the Windows notification center, fixing the issue where notifications could not be correctly redirected in administrator mode
+- **[🔨Fix]** Fixed the issue where all materials or all backpack items would be rendered incorrectly on Dev Plan page in certain scenarios
+- **[✨Optimization]** Improved the display effect of some controls
+- **[✨Optimization]** Changed the activation/closing logic of windows, now they are directly closed instead of being hidden when already open
+- **[✨Optimization]** Adjusted the UI for displaying package lists in the Launch Game - Game Resources section
+- **[✨Optimization]** Weapon data page now uses in-game sorting
+- **[✨Optimization]** Optimized punctuation and wording of some texts
+- **[✨Optimization]** Other performance improvements and QA testing issue fixes
+
+## 1.10.3
 
 - **[🎉New]** The notification area icon now supports show the menu with a left click [#1656](https://github.com/DGP-Studio/Snap.Hutao/issues/1656)
 - **[🔨Fix]** Fixed the issue where the frame rate unlock feature in the game launcher failed in version 4.7 of the game [#1675](https://github.com/DGP-Studio/Snap.Hutao/issues/1675)
