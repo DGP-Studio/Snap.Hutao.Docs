@@ -26,9 +26,11 @@ Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的
   :::
 
 - GetToken 项目的发布会包含两个 apk 文件，两者最终效果相同。根据你的设备情况选择适合你的版本即可。
-  - `app-release.apk` 是一个 LSPosed 插件，其允许用户在官方米游社中使用 GetToken 功能（需要 Root）
+  - `app-release.apk` 是一个 LSPosed 插件，其允许用户在官方米游社中使用 GetToken 功能
+    - 需要 Root 权限
   - `miyoushe-361-lspatched.apk` 是一个已包含 GetToken 功能的修改版米游社程序
     - 注意，你需要先卸载官方版米游社以安装该版本的米游社
+    - 本方法无须 Root
 - 启用插件或安装修改版米游社后打开米游社，在底栏点击“我的”，然后登录
 - 在右上角点击形如 🔑 形状的按钮
 - 勾选 `Stoken` 选项
