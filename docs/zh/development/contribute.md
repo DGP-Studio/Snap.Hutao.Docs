@@ -43,5 +43,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 你可以在 [Alpha 流水线](https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml) 中找到全部的编译记录。
 
 ::: warning
+
 如果你希望试用最新的 Alpha 版本，请先安装 **[DGP_Studio_CA.crt](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt)** 到 **受信任的根证书颁发机构** 以安装测试版安装包
+
 :::
