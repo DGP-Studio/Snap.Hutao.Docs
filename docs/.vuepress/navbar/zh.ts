@@ -13,6 +13,12 @@ export const zhNavbar = navbar([
     link: "/zh/quick-start",
   },
   {
+    text: "更新日志",
+    icon: "iconfont icon-update",
+    ariaLabel: "ducalis-changelog-widget",
+    link: `javascript:void(0);`,
+  },
+  {
     text: "支持我们",
     icon: "iconfont icon-like",
     link: "/zh/support-us",
