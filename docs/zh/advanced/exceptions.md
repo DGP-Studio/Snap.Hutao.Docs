@@ -30,7 +30,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
   1. Cookie 过期或网络异常
   2. 系统时间错误
 - 解决方案：
-  1. 在账号面板中，点击 “刷新 Cookie”
+  1. 在账号面板中，点击“刷新 Cookie”
   2. 删除账号后重新添加米游社账号
   3. 在系统设置中启用自动同步时间并立刻同步时间
 
@@ -38,11 +38,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 - 当胡桃工具箱返回 `1034` 状态码并提示验证失败时（通常是实时便笺功能），代表当前的操作被米游社的验证系统所阻挡
 - 解决方式：
-  - 进入 “实时便笺” 功能
-  - 点击右上角的 “验证当前用户与角色” 按钮
+  - 进入“实时便笺”功能
+  - 点击右上角的“验证当前用户与角色”按钮
   - 根据米游社提示进行验证
-  - 完成验证后点击 “完成”
-  - 此时，风控应当已被解除；若没有，可继续执行上述操作
+  - 完成验证后点击“完成”
+  - 此时，风控应当已被解除；若没有，可重复执行上述操作
 
 ::: tip
 
@@ -75,11 +75,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 ## `653366069` 请求异常
 
-- 连接到 米游社／HoYoLAB 服务器时失败
+- 连接到 米游社 / HoYoLAB 服务器时失败
   - 如果仅是偶尔出现的问题，你可以考虑忽略该错误
   - 如果持续该错误，请检查本地网络到目标服务器的连接是否正常
 
-如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md#如何通过网络代理使用胡桃工具箱)
+如果你使用了网络代理（VPN），请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md#如何通过网络代理使用胡桃工具箱)
 
 ## 资源下载失败
 

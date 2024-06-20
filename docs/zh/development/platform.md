@@ -19,20 +19,20 @@ Snap Hutao 项目自 2022 年 4 月 18 日在 GitHub 上创立项目以来获得
 
 获得胡桃 API 权限的开发者同时也获得胡桃工具箱内胡桃云功能的完整权限作为福利。
 
-开发者可以通过[胡桃 API 开放平台](https://homa.snapgenshin.com/)，提交信息申请权限。
+开发者可以通过 [胡桃 API 开放平台](https://homa.snapgenshin.com/)，提交信息申请权限。
 
 ## Enka API 中国加速服务
 
 [Enka Network](https://enka.network/) 是一个优秀的原神工具，它可以为用户获取当前角色展柜内角色的详细数据。
 由于 Enka Network 使用了中国网络访问受阻的网络服务，其功能在中国地区难以获得稳定性保证。
 
-胡桃工具箱在开发[我的角色](../features/character-data.md)功能时使用了 Enka Network 的数据，并搭建了中转服务器以保证胡桃工具箱中国用户的使用体验。
+胡桃工具箱在开发 [我的角色](../features/character-data.md) 功能时使用了 Enka Network 的数据，并搭建了中转服务器以保证胡桃工具箱中国用户的使用体验。
 
-开发者可以在 Snap Hutao 开发者交流群或者 Discord 频道中向管理员提出申请.
+开发者可以在“Snap Hutao 开发者交流群”或“Discord 频道”中向管理员申请使用中转服务。
 
 ## UIGF 可交换数据记录
 
-胡桃工具箱希望用户的数据能在具有不同特色的开源工具自由流动，并因此设定了最初版本的[统一可交换抽卡记录标准（UIGF）](https://uigf.org/zh/standards/UIGF.html)。
+胡桃工具箱希望用户的数据能在具有不同特色的开源工具自由流动，并因此草拟了最初版本的 [统一可交换抽卡记录标准（UIGF）](https://uigf.org/zh/standards/UIGF.html)。
 现在这一标准获得了更多开发者的相应，更详细的标准正不断更新。
 
-众多的开发者现在聚集于 [UIGF-Org](https://github.com/UIGF-org)，我们希望通过维护这一组织让更多的开发者通过接触更多的用户，获得更多的反馈并获得技术上的进步，创造更多优秀的原神开源工具。
+众多的开发者现在聚集于 [UIGF-Org](https://github.com/UIGF-org)，我们希望通过维护这一组织让更多的开发者通过接触更多的用户，获得更多的反馈与技术上的进步，创造更多优秀的原神开源工具。
