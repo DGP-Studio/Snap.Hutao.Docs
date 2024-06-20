@@ -33,24 +33,24 @@ export default defineUserConfig({
       });
       `,
     ],
-    // 创建自定义func用于触发点击事件
     [
       "script",
       {},
       `!function() {
-      const addDcls = () => {
-        // 查找 aria-label 为“ducalis-changelog-widget”的元素
-        const widget = document.querySelector('[aria-label="ducalis-changelog-widget"]');
-        // 如果找到了元素，且元素没有 ducalis-changelog-widget 的 class，则添加该 class
-        if (widget && !widget.classList.contains('ducalis-changelog-widget')) {
-          widget.classList.add('ducalis-changelog-widget');
-        }
-      }
-      // 监听路由变化
-      const observer = new MutationObserver(addDcls);
-      observer.observe(document.querySelector('body'), { childList: true, subtree: true });
-      // 页面加载完成后执行一次
-      addDcls();
+        var target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
+        var callback = () => {
+          target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
+          if(!target) return;
+          if(!target.classList.contains('ducalis-changelog-widget')) {
+            target.classList.add('ducalis-changelog-widget');
+          }
+        };
+        var observer = new MutationObserver(callback);
+        callback();
+        // 检测定时器
+        var timer = setInterval(callback, 1000);
+        if(target) { clearInterval(timer); }
+        observer.observe(target, { childList: true });
     }();`,
     ],
   ],
