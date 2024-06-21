@@ -13,12 +13,6 @@ export const enNavbar = navbar([
     link: "/en/quick-start",
   },
   {
-    text: "Update Log",
-    icon: "iconfont icon-update",
-    ariaLabel: "ducalis-changelog-widget",
-    link: `javascript:void(0);`,
-  },
-  {
     text: "Support us",
     icon: "iconfont icon-like",
     link: "/en/support-us",
@@ -27,6 +21,12 @@ export const enNavbar = navbar([
     text: "Community",
     icon: "iconfont icon-community",
     link: "/en/community",
+  },
+  {
+    text: "Kanban",
+    icon: "iconfont icon-update",
+    ariaLabel: "ducalis-changelog-widget",
+    link: `javascript:void(0);`,
   },
   {
     text: "Help & Support",
