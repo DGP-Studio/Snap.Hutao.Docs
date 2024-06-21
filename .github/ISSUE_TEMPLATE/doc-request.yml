@@ -26,3 +26,12 @@ body:
       placeholder: https://hut.ao/
     validations:
       required: false
+      
+  - type: checkboxes
+    id: checklist-final
+    attributes:
+      label: 最终检查
+      description: 确认你在正确的地方发起议题
+      options:
+        - label: 我确认这一议题是与**文档**强烈相关的，而不是与 Snap Hutao 客户端或服务端应用程序相关的。
+          required: true
