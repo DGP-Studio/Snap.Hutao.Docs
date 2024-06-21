@@ -15,8 +15,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> 设置 Snap.Hutao 项目
 
-1. 下载 [Visual Studio Installer](https://visualstudio.microsoft.com/downloads/) 以安装 `Visual Studio 2022 Community`
-2. 启动 Visual Studio Installer 以完成 Visual Studio 的安装流程
+1. 下载 [Visual Studio Setup](https://visualstudio.microsoft.com/downloads/) 以安装 `Visual Studio 2022 Community`
+2. 启动该软件以完成 Visual Studio 的安装流程
    - 你需要安装 `.NET desktop development`、`Desktop development with C++` 和 `Windows application development` 组件
    - 它们的中文名分别是 `.NET 桌面开发`、`使用 C++ 的桌面开发` 和 `Windows 应用程序开发`
 3. 安装 Visual Studio 商店中由 Microsoft 提供的 `Single-project MSIX Packaging Tools for VS 2022` 插件
