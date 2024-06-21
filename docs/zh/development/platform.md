@@ -28,7 +28,7 @@ Snap Hutao 项目自 2022 年 4 月 18 日在 GitHub 上创立项目以来获得
 
 胡桃工具箱在开发 [我的角色](../features/character-data.md) 功能时使用了 Enka Network 的数据，并搭建了中转服务器以保证胡桃工具箱中国用户的使用体验。
 
-开发者可以在“Snap Hutao 开发者交流群”或“Discord 频道”中向管理员申请使用中转服务。
+开发者可以在“Snap Hutao 开发者交流群”或“[Discord 频道](https://discord.gg/Yb8bykaUKp)”中向管理员申请使用中转服务。
 
 ## UIGF 可交换数据记录
 
