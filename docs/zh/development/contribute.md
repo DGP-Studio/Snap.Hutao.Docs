@@ -15,7 +15,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> 设置 Snap.Hutao 项目
 
-1. 下载 [Visual Studio Installer](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release) 以安装 `Visual Studio 2022 Community`
+1. 下载 [Visual Studio Installer](https://visualstudio.microsoft.com/downloads/) 以安装 `Visual Studio 2022 Community`
 2. 启动 Visual Studio Installer 以完成 Visual Studio 的安装流程
    - 你需要安装 `.NET desktop development`、`Desktop development with C++` 和 `Windows application development` 组件
    - 它们的中文名分别是 `.NET 桌面开发`、`使用 C++ 的桌面开发` 和 `Windows 应用程序开发`
@@ -38,7 +38,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> 测试打包程序
 
-一旦你的代码被合并进 `develop` 或 `main` 分支，一个 GitHub Actions 脚本将自动运行以构建所在分支的最新解决方案，并以 `Snap Hutao Alpha` 命名并上传，`feat` 类分支仅在 `push` 事件发生时构建 `Alpha` 版本。
+一旦你进行了 `push` 操作，一个 GitHub Actions 脚本将自动运行以构建所在分支的最新解决方案。如果分支名称是 `main`、`develop` 或 `feat` 类分支，脚本还将自动上传其构建的 `Snap Hutao Alpha` 压缩包以供测试；其他分支仅验证可构建性而不提供上传。
 
 你可以在 [Alpha 流水线](https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml) 中找到全部的编译记录。
 
