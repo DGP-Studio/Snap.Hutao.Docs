@@ -41,7 +41,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 - 当用户系统版本低于 `Windows Build 19045`（即 `Windows 10 22H2` 版本）时，可能无法通过管理员模式启动胡桃工具箱
   - 该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本
 
-### 如何通过网络代理（VPN）使用胡桃工具箱
+### 如何通过网络代理使用胡桃工具箱
 
 > Snap Hutao 有着良好的云端网络结构，在全球各地你都能获得良好的网络服务
 
@@ -52,6 +52,5 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 - 在胡桃内进行设置（推荐）
   - 打开胡桃，点击“反馈中心-解除 Loopback 限制”，按指引操作即可
 - 在网络代理软件中进行设置
-  - 如果您使用了以 Clash 为核心的代理软件，请在软件设置中启用 TUN 模式并关闭防火墙
-  - Xray 类代理软件请按“在胡桃内进行设置（推荐）”的办法处理
-  - 因其维护过少，我们不建议您使用以 Shadowsocks 类代理软件，请尽量更换为以 Clash / Xray 为核心的代理软件
+  - 启用 TUN 模式，如果你的网络代理软件有该选项
+  - 联系你的网络代理服务商，获取解决 Windows Appx 容器应用网络代理问题的技术支持，以便他们为你提供解决方案
