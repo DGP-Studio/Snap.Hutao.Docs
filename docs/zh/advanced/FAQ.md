@@ -41,7 +41,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 - 当用户系统版本低于 `Windows Build 19045`（即 `Windows 10 22H2` 版本）时，可能无法通过管理员模式启动胡桃工具箱
   - 该问题属于 Windows 内核级别问题，难以判断具体来源，故建议用户升级至 Windows 10 最新版本
 
-### 如何通过网络代理（VPN）使用胡桃工具箱
+### 如何通过网络代理使用胡桃工具箱
 
 > Snap Hutao 有着良好的云端网络结构，在全球各地你都能获得良好的网络服务
 
