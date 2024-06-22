@@ -15,7 +15,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> 设置 Snap.Hutao 项目
 
-1. 下载 [Visual Studio Setup](https://visualstudio.microsoft.com/downloads/) 以安装 `Visual Studio 2022 Community`
+1. 下载 [Visual Studio](https://visualstudio.microsoft.com/downloads/) 以安装 `Visual Studio 2022 Community`
 2. 启动该软件以完成 Visual Studio 的安装流程
    - 你需要安装 `.NET desktop development`、`Desktop development with C++` 和 `Windows application development` 组件
    - 它们的中文名分别是 `.NET 桌面开发`、`使用 C++ 的桌面开发` 和 `Windows 应用程序开发`
@@ -33,7 +33,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 ## <HopeIcon icon="iconfont icon-pull-request" size="1.5rem" color="rgb(130,80,223)"/> 发起 Pull Request
 
-- 所有不是从本项目其它分支发起的 Pull Request 都只被允许合并进 `develop` 分支
+- 所有不是从项目其它分支发起的 Pull Request 都只被允许合并进 `develop` 分支
 - 如果你提交的代码与已有的 issue 相关，请使用[关键词](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests)将你的 PR 与相关的 issue 关联起来。这样当你的 PR 最终被合并进 `main` 主分支时，这些 issue 将被自动关闭。
 
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> 测试打包程序
