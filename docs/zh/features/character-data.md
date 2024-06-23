@@ -67,7 +67,148 @@ description: 胡桃工具箱的“我的角色”功能可以读取原神账号�
 
 ## 各同步方式对比
 
-
+<table style="border-collapse: collapse; border: medium; border-spacing: 0px;">
+	<tr>
+		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b><font color="#ff0000">对比</font></b>
+		</td>
+		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>游戏内角色橱窗</b>
+		</td>
+		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>米游社-原神战绩</b>
+		</td>
+		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>米游社-养成计算</b>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>角色数量</b>
+		</td>
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			8个
+		</td>
+		<td style="border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			全部
+		</td>
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			全部
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>角色等级</b>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>角色命座</b>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(255, 204, 204); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#cc0000">×</font>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>好感度</b>
+		</td>
+		<td style="background-color: rgb(255, 204, 204); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#cc0000">×</font>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(255, 204, 204); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#cc0000">×</font>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>武器等级</b>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>武器精炼</b>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(255, 204, 204); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#cc0000">×</font>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>天赋等级</b>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(255, 204, 204); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#cc0000">×</font>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>衣装信息</b>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(255, 204, 204); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#cc0000">×</font>
+		</td>
+		<td style="background-color: rgb(255, 204, 204); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#cc0000">×</font>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<b>圣遗物详情</b>
+		</td>
+		<td style="background-color: rgb(204, 255, 204); border-left: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#006600">√</font>
+		</td>
+		<td style="background-color: rgb(255, 204, 204); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#cc0000">×</font>
+		</td>
+		<td style="background-color: rgb(255, 204, 204); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			<font color="#cc0000">×</font>
+		</td>
+	</tr>
+</table>
 
 ## 将当前选定角色加入养成计算
 
