@@ -10,7 +10,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 # 卸载胡桃工具箱
 
-- 卸载软件
+- 卸载 Snap Hutao 应用程序
   - 打开“开始菜单”
   - 搜索 Snap Hutao
   - 右键点击 Snap Hutao，并选择“卸载”

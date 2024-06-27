@@ -37,12 +37,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> 测试打包程序
 
+::: warning
+如果你希望试用最新的 Alpha 版本，请先安装 **[DGP_Studio_CA.crt](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt)** 到 **受信任的根证书颁发机构** 以安装测试版安装包
+:::
+
 一旦你进行了 `push` 操作，一个 GitHub Actions 脚本将自动运行以构建所在分支的最新解决方案。如果分支名称是 `main`、`develop` 或 `feat` 类分支，脚本还将自动上传其构建的 `Snap Hutao Alpha` 压缩包以供测试；其他分支仅验证可构建性而不提供上传。
 
 你可以在 [Alpha 流水线](https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml) 中找到全部的编译记录。
-
-::: warning
-
-如果你希望试用最新的 Alpha 版本，请先安装 **[DGP_Studio_CA.crt](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt)** 到 **受信任的根证书颁发机构** 以安装测试版安装包
-
-:::

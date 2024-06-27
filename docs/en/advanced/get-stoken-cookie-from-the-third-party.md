@@ -33,11 +33,11 @@ Android users can utilize the open-source project GetToken to acquire cookies co
   - APK files ending with `lspatched` are modified versions of the miHoYo community app with GetToken functionality included.
     - You'll need to uninstall the official miHoYo app to install this version.
 - After enabling the plugin or installing the modified miHoYo app, open the miHoYo app, click "Me" at the bottom, and log in to your account.
-- Click the key-shaped icon in the top right corner.
+- Click 🔑 icon in the top right corner.
 - Check the `Stoken` option.
 - Click `Copy Login Information`.
-- Send the copied Stoken to the computer where the Hutao Toolbox is installed.
-- In the Hutao Toolbox's account login section, click `Manual Input`.
+- Send the copied Stoken to the computer where the Snap Hutao is installed.
+- In the Snap Hutao's account login section, click `Manual Input`.
 - Enter the previously obtained cookie. You should now complete the login process.
 
 ## iOS
@@ -48,6 +48,6 @@ iOS Users can download the packet capture software Stream from the App Store to 
 - Perform packet capture analysis on the domain `api-takumi.mihoyo.com`.
 - Locate and copy the data containing `Stoken`.
   - It will be in the form of `stuid=****;stoken=v2****;mid=****;`.
-- Send the copied Stoken to the computer where the Hutao Toolbox is installed.
-- In the Hutao Toolbox's account login section, click `Manual Input`.
-- Enter the previously obtained cookie. You should now complete the login process.
+- Send the copied Stoken to the computer where the Snap Hutao is installed.
+- In the Snap Hutao's account login section, click `Manual Input`.
+- Enter the obtained cookie. You should now complete the login process.

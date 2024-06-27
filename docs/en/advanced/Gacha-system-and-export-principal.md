@@ -13,7 +13,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced
 
 Snap Hutao's Gacha system underwent an overhaul compared to Snap Genshin, experiencing a complete architectural redesign.
 
-This article will explain the Genshin's wish logging mechanism and the technical principles behind the Gacha export feature in the Hutao Toolbox.
+This article will explain the Genshin's wish logging mechanism and the technical principles behind the Gacha export feature in the Snap Hutao.
 
 ## Obtaining Wishes
 
@@ -62,4 +62,4 @@ Hutao, during import handling, compares the earliest index (ID) existing in loca
 
 ### Exporting Wishes
 
-~~Not yet implemented; under design~~ Already implemented
+Snap Hutao exports wish records in the UIGF data format in Json file, allowing users to share their wish records with others or import them into other applications.

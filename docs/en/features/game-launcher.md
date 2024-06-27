@@ -74,7 +74,7 @@ Each account is saved in a field under the `Detect Account` field, they are sele
 
 ~~You can enable the Genshin Impact HDR feature on the Windows platform to enhance the visual experience on monitors that support HDR. In the game launcher, you can enable the Windows HDR option, and Snap Hutao will activate this built-in feature of the game when the game starts.~~
 
-Genshin Impact has temporarily disabled the HDR feature, so the feature will not work for the time being.
+Genshin Impact has temporarily disabled the HDR feature, so the feature will not work for the time being, even if you enable it in Snap Hutao.
 
 ## Launch Parameters
 
@@ -189,9 +189,9 @@ With this feature enabled, Snap Hutao will generate real-time Discord Activity i
 
 ### Use Snap Hutao to quick start the game
 
-- Config the game launcher in the settings
-- Pin Snap Hutao on taskbar
-- Right click on Snap Hutao and you will see the quick launcher
+- Config the advanced game launcher in Snap Hutao
+- If Snap Hutao main window is opened, you can click the `Launch Game` frame in Dashbaord
+- If you have Snap Hutao running in the backstage, you can click the Snap Hutao icon in the system tray to open the quick start menu
 
   ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png)
 
