@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 21 Jun 2024 04:03:19 GMT</pubDate>
-    <lastBuildDate>Fri, 21 Jun 2024 04:03:19 GMT</lastBuildDate>
+    <pubDate>Sat, 29 Jun 2024 07:18:57 GMT</pubDate>
+    <lastBuildDate>Sat, 29 Jun 2024 07:18:57 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -175,10 +175,10 @@ to the project, please read the following guidelines.</p>
 <p>You can find all <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D+" target="_blank" rel="noopener noreferrer">unsolved opened issues</a> on GitHub</p>
 <h2></h2>
 <ol>
-<li>Download and install <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer">Visual Studio 2022 Community</a></li>
+<li>Download and install <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer">Visual Studio 2022</a></li>
 <li>Open Visual Studio Installer to complete Visual Studio installation
 <ul>
-<li>You need to install <code>.NET desktop development</code>, <code>Desktop development with C++</code> and <code>Universal Windows Platform development</code> components</li>
+<li>You need to install <code>.NET desktop development</code>, <code>Desktop development with C++</code> and <code>Windows application development</code> components</li>
 </ul>
 </li>
 <li>Install <code>Single-project MSIX Packaging Tools for VS 2022</code> provided by Microsoft in Visual Studio marketplace</li>
@@ -199,8 +199,12 @@ to the project, please read the following guidelines.</p>
 <li>Please use <a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests" target="_blank" rel="noopener noreferrer">keywords</a> to link your PR or commits with issues, so issues can be automatically closed once commits are merged into <code>main</code> branch.</li>
 </ul>
 <h2></h2>
-<p>Once the code in updated in <code>develop</code> and <code>main</code> branches, a GitHub actions script will build the latest code to <code>Snap Hutao Alpha</code> package. You can find all build records in alpha actions pipeline.</p>
-<p>You need to install <a href="https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt" target="_blank" rel="noopener noreferrer">Snap Hutao CA certificate</a> as <code>Trusted Root Certification Authorities</code> to allow Alpha versions be installed.</p>
+<div class="hint-container warning">
+<p class="hint-container-title">Warning</p>
+<p>You need to install <a href="https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt" target="_blank" rel="noopener noreferrer">DGP-Studio CA certificate</a> as <code>Trusted Root Certification Authorities</code> to allow Alpha versions be installed.</p>
+</div>
+<p>Once you <code>push</code>, a GitHub Actions script will automatically run to build the latest solution for your branch. If the branch name is one of the <code>main</code>, <code>develop</code>, or <code>feat</code> branches, the script will also automatically upload the <code>Snap Hutao Alpha</code> archive of its build for testing; other branches will only validate buildability and will not provide an upload.</p>
+<p>You can find the full build log in the <a href="https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml" target="_blank" rel="noopener noreferrer">Snap Hutao Alpha pipeline</a>.</p>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/development/contribute.html" type="image/"/>
     </item>
@@ -445,34 +449,7 @@ chart to switch account</li>
       <pubDate>Mon, 20 Feb 2023 08:53:13 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
-<li>Clear Real-time Notes Scheduled Task
-<ul>
-<li>Before version 1.4.15, if not execute this step, scheduled task used to refresh real-time notes may not be deleted,and you may face <a href="/en/advanced/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%BC%B9%E5%87%BA%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8%E6%96%B0%E5%BA%94%E7%94%A8%E4%BB%A5%E6%89%93%E5%BC%80%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86" target="_blank">this issue</a>
-<ul>
-<li><strong>Method 1</strong> </li>
-</ul>
-</li>
-<li><strong>Method 2</strong>：
-<ul>
-<li>Execute the following PowerShell script<div class="language-PowerShell" data-ext="PowerShell" data-title="PowerShell"><pre class="language-PowerShell"><code>schtasks /delete /tn SnapHutaoDailyNoteRefreshTask
-</code></pre></div></li>
-</ul>
-</li>
-<li><strong>Method 3</strong>：
-<ul>
-<li>Open Windows Scheduled Task Manager</li>
-<li>Find <code>SnapHutaoDailyNoteRefreshTask</code> task and delete it</li>
-</ul>
-</li>
-<li><strong>Method 4</strong>：
-<ul>
-<li>Upgrade to<code>1.5.1</code> version and open Real-time Notes</li>
-<li>Close software and remove it</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Remove the Software
+<li>Remove the Snap Hutao Application
 <ul>
 <li>Open <code>Start Menu</code></li>
 <li>Find or search <code>Snap Hutao</code></li>
@@ -1684,7 +1661,7 @@ designing of MiHoYo BBS, and cannot bypass</li>
 <p>Failed to connect to Snap Hutao server, please check your connection</p>
 <h2><code>653366069</code> Request Exception</h2>
 <ul>
-<li>Failed to connect to MiYouShe/HoYoLAB server
+<li>Failed to connect to MiYouShe or HoYoLAB server
 <ul>
 <li>if the error occurs not frequently, you may ignore it</li>
 <li>if the error constantly occurs, please check your local network</li>
@@ -1796,43 +1773,6 @@ favorite tools, and make a Pull Request to contribute your work to the main repo
     </item>
     <item>
       <title></title>
-      <link>https://hut.ao/en/side-load.html</link>
-      <guid>https://hut.ao/en/side-load.html</guid>
-      <source url="https://hut.ao/en/rss.xml"></source>
-      <description>侧载安装 通用安装方式 在系统设置中打开开发者设置界面，勾选 开发人员模式 和 允许 PowerShell 脚本 （自行百度） 解压已下载的压缩包，找到Install.ps1文件，右键选择使用PowerShell运行，按照提示允许 PowerShell 执行操作即可 安装完毕，胡桃将出现在您的开始菜单中 小白级安装方式 解压已下载的安装包 运行 Sna...</description>
-      <pubDate>Fri, 03 Feb 2023 02:35:02 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>侧载安装</h2>
-<h3>通用安装方式</h3>
-<ul>
-<li>在系统设置中打开<code>开发者设置</code>界面，勾选 <code>开发人员模式</code> 和 <code>允许 PowerShell 脚本</code> （自行百度）</li>
-<li>解压已下载的压缩包，找到<code>Install.ps1</code>文件，右键选择<code>使用PowerShell运行</code>，按照提示允许 PowerShell 执行操作即可</li>
-<li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
-</ul>
-<h3>小白级安装方式</h3>
-<ul>
-<li>解压已下载的安装包</li>
-<li>运行 <code>Snap.Hutao.Installer.exe</code>
-<ul>
-<li>该程序将执行上述通用安装方式的命令</li>
-</ul>
-</li>
-<li>安装完毕，<code>胡桃</code>将出现在您的<code>开始菜单</code>中</li>
-</ul>
-<h2>升级胡桃工具箱</h2>
-<ul>
-<li>解压你下载的最新版本压缩包</li>
-<li>重复 <code>安装胡桃工具箱</code> 的步骤</li>
-<li>若您安装失败或出现异常情况，可参考如下步骤
-<ul>
-<li>先卸载已经安装的<code>胡桃工具箱</code></li>
-<li>重复 <code>安装胡桃工具箱</code> 的步骤</li>
-</ul>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title></title>
       <link>https://hut.ao/en/star-request.html</link>
       <guid>https://hut.ao/en/star-request.html</guid>
       <source url="https://hut.ao/en/rss.xml"></source>
@@ -1875,7 +1815,10 @@ favorite tools, and make a Pull Request to contribute your work to the main repo
 <h3>How to Create Desktop Shortcut (With Admin Privilege)</h3>
 <p>Click <code>Create Desktop Shortcut</code> in the settings page.</p>
 <h3>How to run Snap Hutao when Windows starts</h3>
-<p><strong>This is a workaround solution</strong></p>
+<div class="hint-container warning">
+<p class="hint-container-title">Warning</p>
+<p><strong>This is a workaround solution.</strong> Approaches may fail in practice due to various problems.</p>
+</div>
 <ul>
 <li>Create a bat file, content refers to <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">this Issue</a>, it allows bat to run Snap Hutao with Administrator privilege</li>
 <li>Create a Scheduled Task, run the bat when Windows startup, or drag it to Windows start folder</li>
@@ -1897,11 +1840,20 @@ running as Administrator
 <p>Snap Hutao has a well-designed cloud network structure, you should be able to get good network service wherever you are located</p>
 </blockquote>
 <p>Loopback network are disabled for all Windows Appx container application (including Snap Hutao), so some modern network proxy software will cause container applications to lose Internet access, and lead to application errors.</p>
-<p>If you need network proxy to use Snap Hutao, you have two ways to fix it:</p>
+<p>If you need network proxy to use Snap Hutao, you can try the following solutions:</p>
+<ul>
+<li>Config in Snap Hutao
+<ul>
+<li>Open <code>Feedback Center</code> and click <code>Config Loopback Exemption</code> and follow the instructions</li>
+</ul>
+</li>
+<li>Config in network proxy software
 <ol>
-<li>Enable <code>TUN Mode</code> in your network proxy software</li>
-<li>Unlock Loopback restrictions in Feedback Center</li>
+<li>Enable <code>TUN Mode</code> in your network proxy software if it supports</li>
+<li>Contact your network proxy software provider for help, ask solution of Windows Appx container application proxy configuration</li>
 </ol>
+</li>
+</ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/faq.html&amp;has_description=False" type="image/"/>
     </item>
@@ -2033,11 +1985,11 @@ information provided by domains outside this list (including websites, emails, e
 </ul>
 </li>
 <li>After enabling the plugin or installing the modified miHoYo app, open the miHoYo app, click "Me" at the bottom, and log in to your account.</li>
-<li>Click the key-shaped icon in the top right corner.</li>
+<li>Click 🔑 icon in the top right corner.</li>
 <li>Check the <code>Stoken</code> option.</li>
 <li>Click <code>Copy Login Information</code>.</li>
-<li>Send the copied Stoken to the computer where the Hutao Toolbox is installed.</li>
-<li>In the Hutao Toolbox's account login section, click <code>Manual Input</code>.</li>
+<li>Send the copied Stoken to the computer where the Snap Hutao is installed.</li>
+<li>In the Snap Hutao's account login section, click <code>Manual Input</code>.</li>
 <li>Enter the previously obtained cookie. You should now complete the login process.</li>
 </ul>
 <h2>iOS</h2>
@@ -2050,9 +2002,9 @@ information provided by domains outside this list (including websites, emails, e
 <li>It will be in the form of <code>stuid=****;stoken=v2****;mid=****;</code>.</li>
 </ul>
 </li>
-<li>Send the copied Stoken to the computer where the Hutao Toolbox is installed.</li>
-<li>In the Hutao Toolbox's account login section, click <code>Manual Input</code>.</li>
-<li>Enter the previously obtained cookie. You should now complete the login process.</li>
+<li>Send the copied Stoken to the computer where the Snap Hutao is installed.</li>
+<li>In the Snap Hutao's account login section, click <code>Manual Input</code>.</li>
+<li>Enter the obtained cookie. You should now complete the login process.</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/get-stoken-cookie-from-the-third-party.html&amp;has_description=False" type="image/"/>
@@ -2404,7 +2356,7 @@ each character.</p>
 <p>Recommended usage:</p>
 <ol>
 <li>Use <code>Sync from MiHoYo BBS - Battle Chronicle</code></li>
-<li>Use <code>Sync from MiHoYo BBS - Development Plan</code></li>
+<li>Use <code>Sync from MiHoYo BBS - Enhancement Progression Calculator</code></li>
 <li>Edit the showcase in the game and then <code>Sync from Enka API</code></li>
 </ol>
 <h3>Sync from Enka API</h3>
@@ -2450,7 +2402,7 @@ each character.</p>
 <li>Enter <code>My Characters</code> page in the Snap Hutao, Click <code>Sync Character Data</code> button on the top-right</li>
 <li>Select <code>Sync from MiHoYo BBS My Characters</code></li>
 </ul>
-<h3>Sync from MiHoYo BBS - Development Plan</h3>
+<h3>Sync from MiHoYo BBS - Enhancement Progression Calculator</h3>
 <div class="hint-container info">
 <p class="hint-container-title">Synchronous Feature</p>
 <ul>
@@ -2466,28 +2418,9 @@ each character.</p>
 <li>Enter <code>My Characters</code> page in the Snap Hutao, Click <code>Sync Character Data</code> button on the top-right</li>
 <li>Select <code>Sync from MiHoYo BBS Developement Plan</code></li>
 </ul>
-<h2>Add Selected Character to Development Plan</h2>
-<ul>
-<li>Enter <code>My Characters</code> page in the Snap Hutao, click on character you need to add to development plan</li>
-<li>Click on <code>Development Plan</code> and enter target level
-<ul>
-<li><strong>Synchronized data of the character</strong> will be pre-filled into current level, and you can change the target level</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Ynvyso1g6e0tMntA3_!!1797064093.png_.webp" alt="rolescal" loading="lazy"></p>
-<ul>
-<li>After adding successfully, you can find added development plan in the <code>Dev Plan</code> page in Snap Hutao</li>
-</ul>
-<p>For tutorial of Dev Plan feature, please refer to <a href="/en/features/develop-plan.html" target="_blank">Dev Plan</a> document</p>
-<h2>Export as Image</h2>
-<ul>
-<li>In <code>My Characters</code> page, you can select a character and then click <code>Export as Image</code> button to create image with your
-character's data, this will help you to share your character's data</li>
-<li>The exported image is stored in your clipboard, and you can paste it wherever you need</li>
-<li>A sample exported image is shown below</li>
-</ul>
-<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01qdWCvd1g6e0zFwB91_!!1797064093.png_.webp" alt="sample-output-image" loading="lazy"></p>
+<h2>Comparison of Synchronization Methods</h2>
+<p>|       <strong>Comparison</strong>        | <strong>In-game Showcase (Enka API)</strong> | <strong>Battle Chronicle</strong> | <strong>Enhancement Progression Calculator</strong> |
+| :</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SpkZag1g6e0sAYQKO_!!1797064093.png_.webp" type="image/webp"/>
     </item>
@@ -2923,7 +2856,7 @@ this may cause Snap Hutao failed to check validation of the cookie</p>
       <pubDate>Thu, 29 Sep 2022 01:02:49 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Snap Hutao's Gacha system underwent an overhaul compared to Snap Genshin, experiencing a complete architectural redesign.</p>
-<p>This article will explain the Genshin's wish logging mechanism and the technical principles behind the Gacha export feature in the Hutao Toolbox.</p>
+<p>This article will explain the Genshin's wish logging mechanism and the technical principles behind the Gacha export feature in the Snap Hutao.</p>
 <h2>Obtaining Wishes</h2>
 <p>Acquiring wish records requires querying miHoYo's API.</p>
 <p>Regarding this API, there are a few key points to note:</p>
@@ -2963,7 +2896,7 @@ this may cause Snap Hutao failed to check validation of the cookie</p>
 <p>Hutao, during import handling, compares the earliest index (ID) existing in local storage and only imports older data.</p>
 <p>(This is because newer data of higher precision is always available from miHoYo's servers.)</p>
 <h3>Exporting Wishes</h3>
-<p><s>Not yet implemented; under design</s> Already implemented</p>
+<p>Snap Hutao exports wish records in the UIGF data format in Json file, allowing users to share their wish records with others or import them into other applications.</p>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/Gacha-system-and-export-principal.html&amp;has_description=False" type="image/"/>
     </item>
