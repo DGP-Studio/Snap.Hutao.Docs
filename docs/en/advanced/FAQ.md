@@ -29,7 +29,11 @@ Click `Create Desktop Shortcut` in the settings page.
 
 ### How to run Snap Hutao when Windows starts
 
-**This is a workaround solution**
+::: warning
+
+**This is a workaround solution.** Approaches may fail in practice due to various problems.
+
+:::
 
 - Create a bat file, content refers to [this Issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184), it allows bat to run Snap Hutao with Administrator privilege
 - Create a Scheduled Task, run the bat when Windows startup, or drag it to Windows start folder
@@ -48,7 +52,10 @@ Click `Create Desktop Shortcut` in the settings page.
 
 Loopback network are disabled for all Windows Appx container application (including Snap Hutao), so some modern network proxy software will cause container applications to lose Internet access, and lead to application errors.
 
-If you need network proxy to use Snap Hutao, you have two ways to fix it:
+If you need network proxy to use Snap Hutao, you can try the following solutions:
 
-1. Enable `TUN Mode` in your network proxy software
-2. Unlock Loopback restrictions in Feedback Center
+- Config in Snap Hutao
+  - Open `Feedback Center` and click `Config Loopback Exemption` and follow the instructions
+- Config in network proxy software
+  1. Enable `TUN Mode` in your network proxy software if it supports
+  2. Contact your network proxy software provider for help, ask solution of Windows Appx container application proxy configuration

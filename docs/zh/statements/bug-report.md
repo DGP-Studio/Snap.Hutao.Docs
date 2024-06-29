@@ -22,7 +22,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statemen
 
 若执行上述步骤后没有得到问题解决方案，你可以在 GitHub 上发起一个新的 Issue
 
-如果你不清楚怎样是一个好的 Issue 可以阅读 Snap Hutao 过去的一些[优质问题](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98+is%3Aclosed)
+如果你不清楚怎样是一个好的 Issue，请阅读 Snap Hutao 过去的一些[优质问题](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98+is%3Aclosed)
 
 - 通过 GitHub 提交问题
   - [github.com/DGP-Studio/Snap.Hutao/issues/new/choose](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)
@@ -37,14 +37,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statemen
 
 ## 远程调试
 
-在一些问题无法被定位时（即开发者无法在自己的设备中复现问题时），开发者可能会向社区成员询问发起远程调试，在有问题的设备上debug寻找问题解决方案。在这种情况下，若你同意，一个指定的管理员将通过 QQ 加你为好友并拉你进入远程协助群以方便交流。
+在一些问题无法被定位时（即开发者无法在自己的设备中复现问题时），开发者可能会向社区成员询问发起远程调试，在有问题的设备上 debug 以寻找问题解决方案。在这种情况下，若你同意，一个指定的管理员将通过 QQ 加你为好友并拉你进入远程协助群以方便交流。
 
-**参与远程调试的计算机需要至少 15GB 的可用硬盘空间。**
+**参与远程调试的计算机需要至少 15GB 的可用硬盘空间以及充足的网络流量。**
 
-在开始调试之前，你需要执行[贡献代码](../development/contribute.md)中`设置 Snap.Hutao项目`一段中的第`1~3`步骤，并下载安装 [ToDesk](https://www.todesk.com/download.html) 远程工具。
-
-## 请求增加或更新文档
-
-如果你认为 Snap Hutao 的文档缺少重要内容或有错误的信息，可以从 Snap.Hutao.Docs 项目中发起 Issue
-
-- 通过 GitHub 提交问题：[DGP-Studio/Snap.Hutao.Docs](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/new/choose)
+在开始调试之前，你需要执行 [贡献代码-设置 Snap Hutao 项目](../development/contribute.md#设置-snaphutao-项目) 中的第 `1～3` 步，并下载安装 [ToDesk](https://www.todesk.com/download.html) 远程工具。

@@ -80,7 +80,7 @@ Failed to connect to Snap Hutao server, please check your connection
 
 ## `653366069` Request Exception
 
-- Failed to connect to MiYouShe/HoYoLAB server
+- Failed to connect to MiYouShe or HoYoLAB server
   - if the error occurs not frequently, you may ignore it
   - if the error constantly occurs, please check your local network
 

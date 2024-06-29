@@ -19,14 +19,14 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features
 
 在语言设置环节，你可以选择当前胡桃已支持的界面语言。若更换了语言，胡桃工具箱将自动重启。
 
-胡桃工具箱以简体中文为基础语言并主动维护英语文本。繁体中文、韩语、日语文本由社区用户提供翻译。
+胡桃工具箱以简体中文为基础语言并主动维护英语文本。繁体中文、日语等其他语言文本由社区用户提供翻译支持。
 如果你有兴趣提供翻译，可以在 [https://translate.hut.ao](https://translate.hut.ao) 贡献你的力量。
 :::
 
 ::: details 用户协议
 
 ![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SzKgb61g6dy2MZH5s_!!1797064093.png_.webp)
-在用户协议文档环节，你需要确认胡桃提供数项文档。这些文档可以帮助你理解 Snap Hutao 项目的性质并有助于你未来的使用。
+在用户协议文档环节，你需要确认并同意胡桃提供的数项文档与服务条款。这些文档可以帮助你理解 Snap Hutao 项目的性质并有助于你未来的使用。
 
 :::
 

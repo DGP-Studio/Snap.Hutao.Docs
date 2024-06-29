@@ -16,9 +16,9 @@ You can find all [unsolved opened issues](https://github.com/DGP-Studio/Snap.Hut
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> Setup Snap.Hutao Project
 
-1. Download and install [Visual Studio 2022 Community](https://visualstudio.microsoft.com/downloads/)
+1. Download and install [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 2. Open Visual Studio Installer to complete Visual Studio installation
-   - You need to install `.NET desktop development`, `Desktop development with C++` and `Universal Windows Platform development` components
+   - You need to install `.NET desktop development`, `Desktop development with C++` and `Windows application development` components
 3. Install `Single-project MSIX Packaging Tools for VS 2022` provided by Microsoft in Visual Studio marketplace
 4. Use git to clone the project `https://github.com/DGP-Studio/Snap.Hutao.git` to your local device
 5. Switch git branch to `develop`
@@ -38,6 +38,10 @@ You can find all [unsolved opened issues](https://github.com/DGP-Studio/Snap.Hut
 
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> Test Binary Package
 
-Once the code in updated in `develop` and `main` branches, a GitHub actions script will build the latest code to `Snap Hutao Alpha` package. You can find all build records in alpha actions pipeline.
+::: warning
+You need to install [DGP-Studio CA certificate](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt) as `Trusted Root Certification Authorities` to allow Alpha versions be installed.
+:::
 
-You need to install [Snap Hutao CA certificate](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt) as `Trusted Root Certification Authorities` to allow Alpha versions be installed.
+Once you `push`, a GitHub Actions script will automatically run to build the latest solution for your branch. If the branch name is one of the `main`, `develop`, or `feat` branches, the script will also automatically upload the `Snap Hutao Alpha` archive of its build for testing; other branches will only validate buildability and will not provide an upload.
+
+You can find the full build log in the [Snap Hutao Alpha pipeline](https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml).

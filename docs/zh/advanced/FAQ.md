@@ -34,6 +34,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
   - 使用 `SkipUAC` 等可以使软件以管理员身份静默自启的程序
 - 或其他可以使胡桃工具箱开机自启的思路，敬请自行探索
 
+::: warning
+
+请注意，上述各种办法均可能在实际使用中因种种问题而失效。我们并不支持尝试使胡桃开机自启的行为。
+
+:::
+
 ### 无法使用管理员模式启动胡桃工具箱
 
 > 该问题仅存在于 Windows 10 低于 22H2 的版本中
@@ -47,7 +53,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 所有的 Windows Appx 容器应用（包括 Snap Hutao）都被禁用了 `Loopback 网络`，因此使用一些现代化的网络代理软件或游戏加速器时会导致容器化应用无法访问互联网，进而导致程序错误。
 
-如果你需要通过网络代理使用 Snap Hutao，你有两种方法：
+如果你需要通过网络代理使用 Snap Hutao，你可以：
 
-1. 在网络代理软件中启用 TUN 模式
-2. 在反馈中心中解除 Loopback 限制
+- 在胡桃内进行设置（推荐）
+  - 打开胡桃，点击“反馈中心-解除 Loopback 限制”，按指引操作即可
+- 在网络代理软件中进行设置
+  - 启用 TUN 模式，如果你的网络代理软件有该选项
+  - 联系你的网络代理服务商，获取解决 Windows Appx 容器应用网络代理问题的技术支持，以便他们为你提供解决方案

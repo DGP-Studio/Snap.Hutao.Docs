@@ -26,7 +26,7 @@ each character.
 Recommended usage:
 
 1. Use `Sync from MiHoYo BBS - Battle Chronicle`
-2. Use `Sync from MiHoYo BBS - Development Plan`
+2. Use `Sync from MiHoYo BBS - Enhancement Progression Calculator`
 3. Edit the showcase in the game and then `Sync from Enka API`
 
 ### Sync from Enka API
@@ -60,7 +60,7 @@ Recommended usage:
 - Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
 - Select `Sync from MiHoYo BBS My Characters`
 
-### Sync from MiHoYo BBS - Development Plan
+### Sync from MiHoYo BBS - Enhancement Progression Calculator
 
 ::: info Synchronous Feature
 
@@ -73,15 +73,30 @@ Recommended usage:
 - Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
 - Select `Sync from MiHoYo BBS Developement Plan`
 
+## Comparison of Synchronization Methods
+
+|       **Comparison**        | **In-game Showcase (Enka API)** | **Battle Chronicle** | **Enhancement Progression Calculator** |
+| :-------------------------: | :-----------------------------: | :------------------: | :------------------------------------: |
+|  **Number of Characters**   |                8                |         All          |                  All                   |
+|     **Character Level**     |               ✅                |          ✅          |                   ❌                   |
+| **Character Constellation** |               ✅                |          ✅          |                   ❌                   |
+|  **Character Friendship**   |               ✅                |          ✅          |                   ❌                   |
+|      **Weapon Level**       |               ✅                |          ✅          |                   ❌                   |
+| **Weapon Refinement Rank**  |               ✅                |          ✅          |                   ❌                   |
+|         **Talents**         |               ✅                |          ❌          |                   ✅                   |
+|         **Costume**         |               ✅                |          ❌          |                   ❌                   |
+|        **artifact**         |               ✅                |          ✅          |                   ❌                   |
+|    **artifact details**     |               ✅                |          ❌          |                   ❌                   |
+
 ## Add Selected Character to Development Plan
 
-- Enter `My Characters` page in the Snap Hutao, click on character you need to add to development plan
+- Enter `My Characters` page in the Snap Hutao, click on character you need to add to Enhancement Progression Calculator
 - Click on `Development Plan` and enter target level
   - **Synchronized data of the character** will be pre-filled into current level, and you can change the target level
 
 ![rolescal](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Ynvyso1g6e0tMntA3_!!1797064093.png_.webp)
 
-- After adding successfully, you can find added development plan in the `Dev Plan` page in Snap Hutao
+- After adding successfully, you can find added Enhancement Progression Calculator in the `Dev Plan` page in Snap Hutao
 
 For tutorial of Dev Plan feature, please refer to [Dev Plan](develop-plan.md) document
 
