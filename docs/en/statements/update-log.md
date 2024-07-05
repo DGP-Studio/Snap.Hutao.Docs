@@ -11,7 +11,23 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.10.4 <Badge text="latest" type="tip" />
+## 1.10.5 <Badge text="latest" type="tip" />
+
+- Added injection unlock mode, which can be tried when classic mode is ineffective
+- WebView now displays in a separate window
+- Fixed an issue where switching from OS server to CN server could cause game data abnormalities [#1750](https://github.com/DGP-Studio/Snap.Hutao/issues/1750)
+- Fixed an issue where certain screen recording software could capture the wrong window [#1771](https://github.com/DGP-Studio/Snap.Hutao/issues/1771)
+- Fixed an issue where adding a HoYoLAB account under specific conditions could cause the program to crash [#1774](https://github.com/DGP-Studio/Snap.Hutao/issues/1774)
+- Fixed an issue where certain controls displayed incorrectly in dark mode [#1633](https://github.com/DGP-Studio/Snap.Hutao/issues/1633)
+- Fixed an issue where importing achievements via URL protocol would not display the interface correctly [#1763](https://github.com/DGP-Studio/Snap.Hutao/issues/1763)
+- Fixed an issue where skill icons would not display correctly in certain scenarios [#1784](https://github.com/DGP-Studio/Snap.Hutao/issues/1784)
+- Fixed an issue where some event announcements had incorrect time
+- Fixed alignment issues with multiple elements
+- Optimized the display effect of some pages
+- Refactored the underlying code
+- Other QA issues
+
+## 1.10.4
 
 - **[🎉New]** Added previous data comparison in Spiral Abyss - Current Statistics/Character Data/Weapon Data section of Snap Hutao Database
 - **[🎉New]** Added the ability to obtain backpack materials in Dev Plan [#1651](https://github.com/DGP-Studio/Snap.Hutao/issues/1651)
