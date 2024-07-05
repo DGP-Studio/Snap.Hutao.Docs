@@ -10,7 +10,23 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.10.4 <Badge text="最新版" type="tip" />
+## 1.10.5 <Badge text="最新版" type="tip" />
+
+- 新增注入解锁模式，经典模式无效时可以尝试此模式
+- 网页现在会显示在单独的窗口中
+- 修复了国际服转国服时可能会导致游戏数据异常的问题 [#1750](https://github.com/DGP-Studio/Snap.Hutao/issues/1750)
+- 修复了部分录屏软件可能采集到错误窗口的问题 [#1771](https://github.com/DGP-Studio/Snap.Hutao/issues/1771)
+- 修复了特定条件下添加 HoYoLAB 账号会导致程序崩溃的问题 [#1774](https://github.com/DGP-Studio/Snap.Hutao/issues/1774)
+- 修复了部分控件在深色模式下显示有误的问题 [#1633](https://github.com/DGP-Studio/Snap.Hutao/issues/1633)
+- 修复了通过 Url 协议导入成就时无法正常显示界面的问题 [#1763](https://github.com/DGP-Studio/Snap.Hutao/issues/1763)
+- 修复了部分情况下无法正常显示技能图标的问题 [#1784](https://github.com/DGP-Studio/Snap.Hutao/issues/1784)
+- 修复了部分活动公告时间错误的问题
+- 修复了多个元素对齐问题
+- 优化了部分页面的显示效果
+- 重构了底层代码
+- 其他的QA问题
+
+## 1.10.4
 
 - **【🎉新增】** 深境螺旋-本期统计/角色资料/武器资料中的胡桃数据库部分新增上期数据对比
 - **【🎉新增】** 养成计划添加了获取背包材料的功能 [#1651](https://github.com/DGP-Studio/Snap.Hutao/issues/1651)
