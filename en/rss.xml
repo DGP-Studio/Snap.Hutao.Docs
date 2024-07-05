@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 29 Jun 2024 07:18:57 GMT</pubDate>
-    <lastBuildDate>Sat, 29 Jun 2024 07:18:57 GMT</lastBuildDate>
+    <pubDate>Fri, 05 Jul 2024 12:14:09 GMT</pubDate>
+    <lastBuildDate>Fri, 05 Jul 2024 12:14:09 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -498,7 +498,23 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.10.4 </h2>
+<h2>1.10.5 </h2>
+<ul>
+<li>Added injection unlock mode, which can be tried when classic mode is ineffective</li>
+<li>WebView now displays in a separate window</li>
+<li>Fixed an issue where switching from OS server to CN server could cause game data abnormalities <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1750" target="_blank" rel="noopener noreferrer">#1750</a></li>
+<li>Fixed an issue where certain screen recording software could capture the wrong window <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1771" target="_blank" rel="noopener noreferrer">#1771</a></li>
+<li>Fixed an issue where adding a HoYoLAB account under specific conditions could cause the program to crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1774" target="_blank" rel="noopener noreferrer">#1774</a></li>
+<li>Fixed an issue where certain controls displayed incorrectly in dark mode <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1633" target="_blank" rel="noopener noreferrer">#1633</a></li>
+<li>Fixed an issue where importing achievements via URL protocol would not display the interface correctly <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1763" target="_blank" rel="noopener noreferrer">#1763</a></li>
+<li>Fixed an issue where skill icons would not display correctly in certain scenarios <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1784" target="_blank" rel="noopener noreferrer">#1784</a></li>
+<li>Fixed an issue where some event announcements had incorrect time</li>
+<li>Fixed alignment issues with multiple elements</li>
+<li>Optimized the display effect of some pages</li>
+<li>Refactored the underlying code</li>
+<li>Other QA issues</li>
+</ul>
+<h2>1.10.4</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added previous data comparison in Spiral Abyss - Current Statistics/Character Data/Weapon Data section of Snap Hutao Database</li>
 <li><strong>[🎉New]</strong> Added the ability to obtain backpack materials in Dev Plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1651" target="_blank" rel="noopener noreferrer">#1651</a></li>
