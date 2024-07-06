@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 05 Jul 2024 12:14:09 GMT</pubDate>
-    <lastBuildDate>Fri, 05 Jul 2024 12:14:09 GMT</lastBuildDate>
+    <pubDate>Sat, 06 Jul 2024 09:10:45 GMT</pubDate>
+    <lastBuildDate>Sat, 06 Jul 2024 09:10:45 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -552,7 +552,16 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.10.5 </h2>
+<h2>1.10.6 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了因游戏路径变化导致无法启动胡桃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1792" target="_blank" rel="noopener noreferrer">#1792</a></li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录刷新后页面内容未更新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1791" target="_blank" rel="noopener noreferrer">#1791</a></li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录刷新后若与当前UID不同会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1794" target="_blank" rel="noopener noreferrer">#1794</a></li>
+<li><strong>【🔨修复】</strong> 修复了在缩放率不为 100% 的显示器上网页窗口大小不正确的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1795" target="_blank" rel="noopener noreferrer">#1795</a></li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏界面绑定实时便笺UID会导致崩溃的问题</li>
+<li><strong>【✨优化】</strong> 调整了实时便笺中探索派遣的时间显示格式 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1796" target="_blank" rel="noopener noreferrer">#1796</a></li>
+</ul>
+<h2>1.10.5</h2>
 <ul>
 <li>新增注入解锁模式，经典模式无效时可以尝试此模式</li>
 <li>网页现在会显示在单独的窗口中</li>

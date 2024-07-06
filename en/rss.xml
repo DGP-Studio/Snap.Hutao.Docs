@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 05 Jul 2024 12:14:09 GMT</pubDate>
-    <lastBuildDate>Fri, 05 Jul 2024 12:14:09 GMT</lastBuildDate>
+    <pubDate>Sat, 06 Jul 2024 09:10:45 GMT</pubDate>
+    <lastBuildDate>Sat, 06 Jul 2024 09:10:45 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -498,7 +498,16 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.10.5 </h2>
+<h2>1.10.6 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the application could not start due to user changing the game path manually <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1792" target="_blank" rel="noopener noreferrer">#1792</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the content of the page was not updated after refreshing the wish records <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1791" target="_blank" rel="noopener noreferrer">#1791</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash that occurred when the refreshed wish records differed from the current UID <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1794" target="_blank" rel="noopener noreferrer">#1794</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the web window size was incorrect on monitors with a scaling rate other than 100% <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1795" target="_blank" rel="noopener noreferrer">#1795</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash that occurred when binding the Real-time Notes UID on the game launcher page</li>
+<li><strong>[✨Optimization]</strong> Adjusted the time display format for expedition dispatches in the Real-time Notes <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1796" target="_blank" rel="noopener noreferrer">#1796</a></li>
+</ul>
+<h2>1.10.5</h2>
 <ul>
 <li>Added injection unlock mode, which can be tried when classic mode is ineffective</li>
 <li>WebView now displays in a separate window</li>
