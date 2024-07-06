@@ -13,11 +13,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 ## 1.10.6 <Badge text="latest" type="tip" />
 
-- **[🔨Fix]** Fixed an issue where the game could not start due to a change in the game path [#1792](https://github.com/DGP-Studio/Snap.Hutao/issues/1792)
+- **[🔨Fix]** Fixed an issue where the application could not start due to user changing the game path manually [#1792](https://github.com/DGP-Studio/Snap.Hutao/issues/1792)
 - **[🔨Fix]** Fixed an issue where the content of the page was not updated after refreshing the wish records [#1791](https://github.com/DGP-Studio/Snap.Hutao/issues/1791)
 - **[🔨Fix]** Fixed a crash that occurred when the refreshed wish records differed from the current UID [#1794](https://github.com/DGP-Studio/Snap.Hutao/issues/1794)
 - **[🔨Fix]** Fixed an issue where the web window size was incorrect on monitors with a scaling rate other than 100% [#1795](https://github.com/DGP-Studio/Snap.Hutao/issues/1795)
-- **[🔨Fix]** Fixed a crash that occurred when binding the Real-time Notes UID on the game launch interface
+- **[🔨Fix]** Fixed a crash that occurred when binding the Real-time Notes UID on the game launcher page
 - **[✨Optimization]** Adjusted the time display format for expedition dispatches in the Real-time Notes [#1796](https://github.com/DGP-Studio/Snap.Hutao/issues/1796)
 
 ## 1.10.5
