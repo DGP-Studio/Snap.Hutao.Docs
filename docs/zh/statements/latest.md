@@ -1,5 +1,4 @@
 ---
-icon: iconfont icon-update
 comment: false
 externalLinkIcon: false
 index: false
