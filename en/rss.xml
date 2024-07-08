@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Jul 2024 02:11:33 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Jul 2024 02:11:33 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Jul 2024 04:13:04 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Jul 2024 04:13:04 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -27,9 +27,10 @@
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
       <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.10.6</source>
-      <description>🎉 Successfully Updated to Version 1.10.6 [🔨Fix] Fixed an issue where the game could not start due to a change in the game path #1792 [🔨Fix] Fixed an issue where the content o...</description>
+      <description>🎉 Successfully Updated to Version 1.10.6 | English [🔨Fix] Fixed an issue where the game could not start due to a change in the game path #1792 [🔨Fix] Fixed an issue where the...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the game could not start due to a change in the game path <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1792" target="_blank" rel="noopener noreferrer">#1792</a></li>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the content of the page was not updated after refreshing the wish records <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1791" target="_blank" rel="noopener noreferrer">#1791</a></li>
