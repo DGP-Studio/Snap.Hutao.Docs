@@ -6,20 +6,40 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 06 Jul 2024 09:10:45 GMT</pubDate>
-    <lastBuildDate>Sat, 06 Jul 2024 09:10:45 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Jul 2024 01:55:24 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Jul 2024 01:55:24 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>公告</category>
     <category>FAQ</category>
     <category>功能</category>
     <category>教程</category>
     <category>开源</category>
     <category>开发</category>
     <category>开发日志</category>
-    <category>公告</category>
     <category>i18n</category>
     <category>第三方工具</category>
     <category>项目</category>
+    <item>
+      <title>你已更新至 1.10.6 版本</title>
+      <link>https://hut.ao/zh/statements/latest.html</link>
+      <guid>https://hut.ao/zh/statements/latest.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">你已更新至 1.10.6 版本</source>
+      <description>你已更新至 1.10.6 版本 【🔨修复】 修复了因游戏路径变化导致无法启动胡桃的问题 #1792 【🔨修复】 修复了祈愿记录刷新后页面内容未更新的问题 #1791 【🔨修复】 修复了祈愿记录刷新后若与当前UID不同会导致崩溃的问题 #1794 【🔨修复】 修复了在缩放率不为 100% 的显示器上网页窗口大小不正确的问题 #1795 【🔨修复...</description>
+      <category>公告</category>
+      <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
+      <content:encoded><![CDATA[
+<ul>
+<li><strong>【🔨修复】</strong> 修复了因游戏路径变化导致无法启动胡桃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1792" target="_blank" rel="noopener noreferrer">#1792</a></li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录刷新后页面内容未更新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1791" target="_blank" rel="noopener noreferrer">#1791</a></li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录刷新后若与当前UID不同会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1794" target="_blank" rel="noopener noreferrer">#1794</a></li>
+<li><strong>【🔨修复】</strong> 修复了在缩放率不为 100% 的显示器上网页窗口大小不正确的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1795" target="_blank" rel="noopener noreferrer">#1795</a></li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏界面绑定实时便笺UID会导致崩溃的问题</li>
+<li><strong>【✨优化】</strong> 调整了实时便笺中探索派遣的时间显示格式 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1796" target="_blank" rel="noopener noreferrer">#1796</a></li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
+    </item>
     <item>
       <title>项目归档</title>
       <link>https://hut.ao/zh/statements/archive.html</link>

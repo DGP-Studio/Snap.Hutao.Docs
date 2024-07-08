@@ -6,22 +6,42 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 06 Jul 2024 09:10:45 GMT</pubDate>
-    <lastBuildDate>Sat, 06 Jul 2024 09:10:45 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Jul 2024 01:55:24 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Jul 2024 01:55:24 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Announcement</category>
     <category>Feature</category>
     <category>Tutorial</category>
     <category>open source</category>
     <category>development</category>
     <category>Dev Logs</category>
-    <category>Announcement</category>
     <category>FAQ</category>
     <category>i18n</category>
     <category>Third-Party Tools</category>
     <category>announcement</category>
     <category>project</category>
     <category>features</category>
+    <item>
+      <title>Successfully Updated to Version 1.10.6</title>
+      <link>https://hut.ao/en/statements/latest.html</link>
+      <guid>https://hut.ao/en/statements/latest.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Successfully Updated to Version 1.10.6</source>
+      <description>Successfully Updated to Version 1.10.6 [🔨Fix] Fixed an issue where the game could not start due to a change in the game path #1792 [🔨Fix] Fixed an issue where the content of t...</description>
+      <category>Announcement</category>
+      <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
+      <content:encoded><![CDATA[
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the game could not start due to a change in the game path <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1792" target="_blank" rel="noopener noreferrer">#1792</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the content of the page was not updated after refreshing the wish records <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1791" target="_blank" rel="noopener noreferrer">#1791</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash that occurred when the refreshed wish records differed from the current UID <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1794" target="_blank" rel="noopener noreferrer">#1794</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the web window size was incorrect on monitors with a scaling rate other than 100% <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1795" target="_blank" rel="noopener noreferrer">#1795</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash that occurred when binding the Real-time Notes UID on the game launch interface</li>
+<li><strong>[✨Optimization]</strong> Adjusted the time display format for expedition dispatches in the Real-time Notes <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1796" target="_blank" rel="noopener noreferrer">#1796</a></li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
+    </item>
     <item>
       <title>Support us</title>
       <link>https://hut.ao/en/support-us.html</link>
