@@ -6,16 +6,16 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Jul 2024 01:55:24 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Jul 2024 01:55:24 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Jul 2024 02:06:28 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Jul 2024 02:06:28 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>Announcement</category>
     <category>Feature</category>
     <category>Tutorial</category>
     <category>open source</category>
     <category>development</category>
     <category>Dev Logs</category>
+    <category>Announcement</category>
     <category>FAQ</category>
     <category>i18n</category>
     <category>Third-Party Tools</category>
@@ -23,12 +23,11 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>Successfully Updated to Version 1.10.6</title>
+      <title>🎉 Successfully Updated to Version 1.10.6</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">Successfully Updated to Version 1.10.6</source>
-      <description>Successfully Updated to Version 1.10.6 [🔨Fix] Fixed an issue where the game could not start due to a change in the game path #1792 [🔨Fix] Fixed an issue where the content of t...</description>
-      <category>Announcement</category>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.10.6</source>
+      <description>🎉 Successfully Updated to Version 1.10.6 [🔨Fix] Fixed an issue where the game could not start due to a change in the game path #1792 [🔨Fix] Fixed an issue where the content o...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <ul>
