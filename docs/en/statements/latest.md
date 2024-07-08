@@ -13,6 +13,7 @@ breadcrumb: false
 lastUpdated: false
 contributors: false
 backToTop: false
+pageInfo: false
 ---
 
 # 🎉 Successfully Updated to Version 1.10.6

@@ -13,6 +13,7 @@ breadcrumb: false
 lastUpdated: false
 contributors: false
 backToTop: false
+pageInfo: false
 ---
 
 # 🎉 你已更新至 1.10.6 版本
