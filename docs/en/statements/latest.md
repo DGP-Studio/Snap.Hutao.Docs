@@ -1,6 +1,4 @@
 ---
-category:
-  - Announcement
 icon: iconfont icon-update
 comment: false
 externalLinkIcon: false
@@ -13,9 +11,12 @@ copyright: false
 editLink: false
 breadcrumbExclude: true
 breadcrumb: false
+lastUpdated: false
+contributors: false
+backToTop: false
 ---
 
-# Successfully Updated to Version 1.10.6
+# 🎉 Successfully Updated to Version 1.10.6
 
 - **[🔨Fix]** Fixed an issue where the game could not start due to a change in the game path [#1792](https://github.com/DGP-Studio/Snap.Hutao/issues/1792)
 - **[🔨Fix]** Fixed an issue where the content of the page was not updated after refreshing the wish records [#1791](https://github.com/DGP-Studio/Snap.Hutao/issues/1791)

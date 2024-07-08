@@ -1,5 +1,4 @@
 ---
-category: [公告]
 icon: iconfont icon-update
 comment: false
 externalLinkIcon: false
@@ -12,9 +11,12 @@ copyright: false
 editLink: false
 breadcrumbExclude: true
 breadcrumb: false
+lastUpdated: false
+contributors: false
+backToTop: false
 ---
 
-# 你已更新至 1.10.6 版本
+# 🎉 你已更新至 1.10.6 版本
 
 - **【🔨修复】** 修复了因游戏路径变化导致无法启动胡桃的问题 [#1792](https://github.com/DGP-Studio/Snap.Hutao/issues/1792)
 - **【🔨修复】** 修复了祈愿记录刷新后页面内容未更新的问题 [#1791](https://github.com/DGP-Studio/Snap.Hutao/issues/1791)
