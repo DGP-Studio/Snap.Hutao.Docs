@@ -18,6 +18,8 @@ pageInfo: false
 
 # 🎉 Successfully Updated to Version 1.10.6
 
+[简体中文](/zh/statements/latest.html) | **English**
+
 - **[🔨Fix]** Fixed an issue where the game could not start due to a change in the game path [#1792](https://github.com/DGP-Studio/Snap.Hutao/issues/1792)
 - **[🔨Fix]** Fixed an issue where the content of the page was not updated after refreshing the wish records [#1791](https://github.com/DGP-Studio/Snap.Hutao/issues/1791)
 - **[🔨Fix]** Fixed a crash that occurred when the refreshed wish records differed from the current UID [#1794](https://github.com/DGP-Studio/Snap.Hutao/issues/1794)
