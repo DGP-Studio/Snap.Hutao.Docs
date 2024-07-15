@@ -67,19 +67,6 @@ const sponsor: SponsorItem[] = [{
   },
   url: "https://github.com/sponsors/DGP-Studio"
 }, {
-  icon: "/svg/afd-official.svg",
-  name: {
-    zh: '爱发电',
-    en: "AFDian"
-  },
-  type: SponsorType.afdian,
-  qrcode: "/images/202402/aifadian-qr.png",
-  label: {
-    zh: "使用下方链接以通过爱发电捐赠",
-    en: "Use the link below to donate through Afdian"
-  },
-  url: "https://afdian.net/a/DismissedLight"
-}, {
   icon: "/svg/paypal.svg",
   name: {
     zh: 'PayPal',
