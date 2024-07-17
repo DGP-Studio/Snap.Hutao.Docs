@@ -16,13 +16,18 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.10.6
+# 🎉 Successfully Updated to Version 1.10.7
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed an issue where the game could not start due to a change in the game path [#1792](https://github.com/DGP-Studio/Snap.Hutao/issues/1792)
-- **[🔨Fix]** Fixed an issue where the content of the page was not updated after refreshing the wish records [#1791](https://github.com/DGP-Studio/Snap.Hutao/issues/1791)
-- **[🔨Fix]** Fixed a crash that occurred when the refreshed wish records differed from the current UID [#1794](https://github.com/DGP-Studio/Snap.Hutao/issues/1794)
-- **[🔨Fix]** Fixed an issue where the web window size was incorrect on monitors with a scaling rate other than 100% [#1795](https://github.com/DGP-Studio/Snap.Hutao/issues/1795)
-- **[🔨Fix]** Fixed a crash that occurred when binding the Real-time Notes UID on the game launch interface
-- **[✨Optimization]** Adjusted the time display format for expedition dispatches in the Real-time Notes [#1796](https://github.com/DGP-Studio/Snap.Hutao/issues/1796)
+- **[🎉New]** Added the feature to export selected character's information in text to the clipboard on the My Character page [#1497](https://github.com/DGP-Studio/Snap.Hutao/issues/1497)
+- **[🎉New]** Added UIGF 4 import and export support in the settings page, removed UIGF 2 and UIGF 3 import and export support in Wish Export feature
+- **[🔨Fixed]** Fixed the issue where the view would not refresh when deleting a save file on the Wish Export page
+- **[🔨Fixed]** Fixed the issue where Real-time Notes auto-refresh was enabled by default
+- **[🔨Fixed]** Fixed the issue where the title would not display correctly when the webview width was too narrow
+- **[🔨Fixed]** Fixed the issue where HoYoLAB accounts could not add characters or weapons in Dev Plan [#1810](https://github.com/DGP-Studio/Snap.Hutao/issues/1810)
+- **[🔨Fixed]** Fixed the issue of failing to unlock the frame rate [#1820](https://github.com/DGP-Studio/Snap.Hutao/issues/1820)
+- **[✨Optimized]** Optimized the navigation interaction of the main window, now navigate to other pages when the page is not fully loaded is disallowed, and the update log window will now be displayed on the first launch after the update
+- **[✨Optimized]** Optimized the display of in-app notifications
+- **[✨Optimized]** Optimized the process of adding items to the Dev Plan, now you can choose the save mode
+- **[✨Optimized]** Optimized the information prompt for HTTP requests [#1720](https://github.com/DGP-Studio/Snap.Hutao/issues/1720)
