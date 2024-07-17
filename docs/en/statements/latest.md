@@ -31,3 +31,9 @@ pageInfo: false
 - **[✨Optimized]** Optimized the display of in-app notifications
 - **[✨Optimized]** Optimized the process of adding items to the Dev Plan, now you can choose the save mode
 - **[✨Optimized]** Optimized the information prompt for HTTP requests [#1720](https://github.com/DGP-Studio/Snap.Hutao/issues/1720)
+
+:::warning Known Issues
+
+Login to miyoushe by scanning QR code is not functioning in current version
+
+:::
