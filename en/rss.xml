@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 15 Jul 2024 16:54:21 GMT</pubDate>
-    <lastBuildDate>Mon, 15 Jul 2024 16:54:21 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jul 2024 06:11:49 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jul 2024 06:11:49 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,22 +23,31 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.10.6</title>
+      <title>🎉 Successfully Updated to Version 1.10.7</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.10.6</source>
-      <description>🎉 Successfully Updated to Version 1.10.6 | English [🔨Fix] Fixed an issue where the game could not start due to a change in the game path #1792 [🔨Fix] Fixed an issue where the...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.10.7</source>
+      <description>🎉 Successfully Updated to Version 1.10.7 | English [🎉New] Added the feature to export selected character&amp;apos;s information in text to the clipboard on the My Character page #1497 ...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the game could not start due to a change in the game path <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1792" target="_blank" rel="noopener noreferrer">#1792</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the content of the page was not updated after refreshing the wish records <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1791" target="_blank" rel="noopener noreferrer">#1791</a></li>
-<li><strong>[🔨Fix]</strong> Fixed a crash that occurred when the refreshed wish records differed from the current UID <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1794" target="_blank" rel="noopener noreferrer">#1794</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the web window size was incorrect on monitors with a scaling rate other than 100% <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1795" target="_blank" rel="noopener noreferrer">#1795</a></li>
-<li><strong>[🔨Fix]</strong> Fixed a crash that occurred when binding the Real-time Notes UID on the game launch interface</li>
-<li><strong>[✨Optimization]</strong> Adjusted the time display format for expedition dispatches in the Real-time Notes <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1796" target="_blank" rel="noopener noreferrer">#1796</a></li>
+<li><strong>[🎉New]</strong> Added the feature to export selected character's information in text to the clipboard on the My Character page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1497" target="_blank" rel="noopener noreferrer">#1497</a></li>
+<li><strong>[🎉New]</strong> Added UIGF 4 import and export support in the settings page, removed UIGF 2 and UIGF 3 import and export support in Wish Export feature</li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue where the view would not refresh when deleting a save file on the Wish Export page</li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue where Real-time Notes auto-refresh was enabled by default</li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue where the title would not display correctly when the webview width was too narrow</li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue where HoYoLAB accounts could not add characters or weapons in Dev Plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1810" target="_blank" rel="noopener noreferrer">#1810</a></li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue of failing to unlock the frame rate <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1820" target="_blank" rel="noopener noreferrer">#1820</a></li>
+<li><strong>[✨Optimized]</strong> Optimized the navigation interaction of the main window, now navigate to other pages when the page is not fully loaded is disallowed, and the update log window will now be displayed on the first launch after the update</li>
+<li><strong>[✨Optimized]</strong> Optimized the display of in-app notifications</li>
+<li><strong>[✨Optimized]</strong> Optimized the process of adding items to the Dev Plan, now you can choose the save mode</li>
+<li><strong>[✨Optimized]</strong> Optimized the information prompt for HTTP requests <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1720" target="_blank" rel="noopener noreferrer">#1720</a></li>
 </ul>
+<div class="hint-container warning">
+<p class="hint-container-title">Known Issues</p>
+<p>Login to miyoushe by scanning QR code is not functioning in current version</p>
+</div>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
     </item>
@@ -518,7 +527,21 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.10.6 </h2>
+<h2>1.10.7 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added the feature to export selected character's information in text to the clipboard on the My Character page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1497" target="_blank" rel="noopener noreferrer">#1497</a></li>
+<li><strong>[🎉New]</strong> Added UIGF 4 import and export support in the settings page, removed UIGF 2 and UIGF 3 import and export support in Wish Export feature</li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue where the view would not refresh when deleting a save file on the Wish Export page</li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue where Real-time Notes auto-refresh was enabled by default</li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue where the title would not display correctly when the webview width was too narrow</li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue where HoYoLAB accounts could not add characters or weapons in Dev Plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1810" target="_blank" rel="noopener noreferrer">#1810</a></li>
+<li><strong>[🔨Fixed]</strong> Fixed the issue of failing to unlock the frame rate <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1820" target="_blank" rel="noopener noreferrer">#1820</a></li>
+<li><strong>[✨Optimized]</strong> Optimized the navigation interaction of the main window, now navigate to other pages when the page is not fully loaded is disallowed, and the update log window will now be displayed on the first launch after the update</li>
+<li><strong>[✨Optimized]</strong> Optimized the display of in-app notifications</li>
+<li><strong>[✨Optimized]</strong> Optimized the process of adding items to the Dev Plan, now you can choose the save mode</li>
+<li><strong>[✨Optimized]</strong> Optimized the information prompt for HTTP requests <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1720" target="_blank" rel="noopener noreferrer">#1720</a></li>
+</ul>
+<h2>1.10.6</h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the application could not start due to user changing the game path manually <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1792" target="_blank" rel="noopener noreferrer">#1792</a></li>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the content of the page was not updated after refreshing the wish records <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1791" target="_blank" rel="noopener noreferrer">#1791</a></li>

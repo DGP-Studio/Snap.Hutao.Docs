@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 15 Jul 2024 16:54:21 GMT</pubDate>
-    <lastBuildDate>Mon, 15 Jul 2024 16:54:21 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Jul 2024 06:11:49 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Jul 2024 06:11:49 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -21,22 +21,31 @@
     <category>第三方工具</category>
     <category>项目</category>
     <item>
-      <title>🎉 已成功更新至 1.10.6 版本</title>
+      <title>🎉 已成功更新至 1.10.7 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.10.6 版本</source>
-      <description>🎉 已成功更新至 1.10.6 版本 简体中文 | 【🔨修复】 修复了因游戏路径变化导致无法启动胡桃的问题 #1792 【🔨修复】 修复了祈愿记录刷新后页面内容未更新的问题 #1791 【🔨修复】 修复了祈愿记录刷新后若与当前UID不同会导致崩溃的问题 #1794 【🔨修复】 修复了在缩放率不为 100% 的显示器上网页窗口大小不正确的问题 ...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.10.7 版本</source>
+      <description>🎉 已成功更新至 1.10.7 版本 简体中文 | 【🎉新增】 我的角色页面新增导出当前角色文本信息到剪贴板的功能 #1497 【🎉新增】 设置界面新增 UIGF 4 导入导出支持，祈愿记录移除了 UIGF 2 与 UIGF 3 导入导出支持 【🔨修复】 修复了祈愿记录页面删除存档时不会刷新视图的问题 【🔨修复】 修复了实时便笺自动刷新默认启...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🔨修复】</strong> 修复了因游戏路径变化导致无法启动胡桃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1792" target="_blank" rel="noopener noreferrer">#1792</a></li>
-<li><strong>【🔨修复】</strong> 修复了祈愿记录刷新后页面内容未更新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1791" target="_blank" rel="noopener noreferrer">#1791</a></li>
-<li><strong>【🔨修复】</strong> 修复了祈愿记录刷新后若与当前UID不同会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1794" target="_blank" rel="noopener noreferrer">#1794</a></li>
-<li><strong>【🔨修复】</strong> 修复了在缩放率不为 100% 的显示器上网页窗口大小不正确的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1795" target="_blank" rel="noopener noreferrer">#1795</a></li>
-<li><strong>【🔨修复】</strong> 修复了启动游戏界面绑定实时便笺UID会导致崩溃的问题</li>
-<li><strong>【✨优化】</strong> 调整了实时便笺中探索派遣的时间显示格式 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1796" target="_blank" rel="noopener noreferrer">#1796</a></li>
+<li><strong>【🎉新增】</strong> 我的角色页面新增导出当前角色文本信息到剪贴板的功能 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1497" target="_blank" rel="noopener noreferrer">#1497</a></li>
+<li><strong>【🎉新增】</strong> 设置界面新增 UIGF 4 导入导出支持，祈愿记录移除了 UIGF 2 与 UIGF 3 导入导出支持</li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录页面删除存档时不会刷新视图的问题</li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺自动刷新默认启用的问题</li>
+<li><strong>【🔨修复】</strong> 修复了当网页视图宽度过窄时，标题不会正常显示的问题</li>
+<li><strong>【🔨修复】</strong> 修复了HoYoLAB账号无法养成角色与武器的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1810" target="_blank" rel="noopener noreferrer">#1810</a></li>
+<li><strong>【🔨修复】</strong> 修复了解锁帧率失败的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1820" target="_blank" rel="noopener noreferrer">#1820</a></li>
+<li><strong>【✨优化】</strong> 优化了主窗口的导航交互，现在页面未加载完成时无法导航到其他页面，现在会在更新后首次启动时展示更新日志窗口</li>
+<li><strong>【✨优化】</strong> 优化了应用内通知的展示方式</li>
+<li><strong>【✨优化】</strong> 优化了添加到养成计划的流程，现在能够选择保存模式了</li>
+<li><strong>【✨优化】</strong> 优化了HTTP请求的信息提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1720" target="_blank" rel="noopener noreferrer">#1720</a></li>
 </ul>
+<div class="hint-container warning">
+<p class="hint-container-title">已知问题</p>
+<p>当前版本无法通过扫码登录米游社</p>
+</div>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
     </item>
@@ -572,7 +581,21 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.10.6 </h2>
+<h2>1.10.7 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 我的角色页面新增导出当前角色文本信息到剪贴板的功能 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1497" target="_blank" rel="noopener noreferrer">#1497</a></li>
+<li><strong>【🎉新增】</strong> 设置界面新增 UIGF 4 导入导出支持，祈愿记录移除了 UIGF 2 与 UIGF 3 导入导出支持</li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录页面删除存档时不会刷新视图的问题</li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺自动刷新默认启用的问题</li>
+<li><strong>【🔨修复】</strong> 修复了当网页视图宽度过窄时，标题不会正常显示的问题</li>
+<li><strong>【🔨修复】</strong> 修复了HoYoLAB账号无法在养成计划中添加角色和武器的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1810" target="_blank" rel="noopener noreferrer">#1810</a></li>
+<li><strong>【🔨修复】</strong> 修复了解锁帧率失败的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1820" target="_blank" rel="noopener noreferrer">#1820</a></li>
+<li><strong>【✨优化】</strong> 优化了主窗口的导航交互，现在页面未加载完成时无法导航到其他页面，现在会在更新后首次启动时展示更新日志窗口</li>
+<li><strong>【✨优化】</strong> 优化了应用内通知的展示方式</li>
+<li><strong>【✨优化】</strong> 优化了添加到养成计划的流程，现在能够选择保存模式了</li>
+<li><strong>【✨优化】</strong> 优化了 HTTP 请求的信息提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1720" target="_blank" rel="noopener noreferrer">#1720</a></li>
+</ul>
+<h2>1.10.6</h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了因游戏路径变化导致无法启动胡桃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1792" target="_blank" rel="noopener noreferrer">#1792</a></li>
 <li><strong>【🔨修复】</strong> 修复了祈愿记录刷新后页面内容未更新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1791" target="_blank" rel="noopener noreferrer">#1791</a></li>
