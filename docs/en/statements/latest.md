@@ -16,24 +16,22 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.10.7
+# 🎉 Successfully Updated to Version 1.11.0
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🎉New]** Added the feature to export selected character's information in text to the clipboard on the My Character page [#1497](https://github.com/DGP-Studio/Snap.Hutao/issues/1497)
-- **[🎉New]** Added UIGF 4 import and export support in the settings page, removed UIGF 2 and UIGF 3 import and export support in Wish Export feature
-- **[🔨Fixed]** Fixed the issue where the view would not refresh when deleting a save file on the Wish Export page
-- **[🔨Fixed]** Fixed the issue where Real-time Notes auto-refresh was enabled by default
-- **[🔨Fixed]** Fixed the issue where the title would not display correctly when the webview width was too narrow
-- **[🔨Fixed]** Fixed the issue where HoYoLAB accounts could not add characters or weapons in Dev Plan [#1810](https://github.com/DGP-Studio/Snap.Hutao/issues/1810)
-- **[🔨Fixed]** Fixed the issue of failing to unlock the frame rate [#1820](https://github.com/DGP-Studio/Snap.Hutao/issues/1820)
-- **[✨Optimized]** Optimized the navigation interaction of the main window, now navigate to other pages when the page is not fully loaded is disallowed, and the update log window will now be displayed on the first launch after the update
-- **[✨Optimized]** Optimized the display of in-app notifications
-- **[✨Optimized]** Optimized the process of adding items to the Dev Plan, now you can choose the save mode
-- **[✨Optimized]** Optimized the information prompt for HTTP requests [#1720](https://github.com/DGP-Studio/Snap.Hutao/issues/1720)
-
-:::warning Known Issues
-
-Login to miyoushe by scanning QR code is not functioning in current version
-
-:::
+- **[🎉New]** Added long-term expedition point display on the Real-time Notes page [#1841](https://github.com/DGP-Studio/Snap.Hutao/issues/1841)
+- **[🎉New]** **[BETA]** Added game download/repair/pre-download/update functionality to the game launcher
+- **[🔨Fix]** Fixed the issue where can't logging in to MiYouShe via QR code, removed QR code login option, added phone verification code login method [#1819](https://github.com/DGP-Studio/Snap.Hutao/issues/1819)
+- **[🔨Fix]** Fixed the issue where character skill levels displayed inconsistently in the My Character page list and grid view due to constellation bonuses [#1838](https://github.com/DGP-Studio/Snap.Hutao/issues/1838)
+- **[🔨Fix]** Fixed the issue where switching to another page while the home page announcement was still loading would cause a crash [#1845](https://github.com/DGP-Studio/Snap.Hutao/issues/1845)
+- **[🔨Fix]** Fixed the issue where reading local package version information failed when switching game servers would cause a crash [#1851](https://github.com/DGP-Studio/Snap.Hutao/issues/1851)
+- **[🔨Fix]** Fixed the issue where obtaining wish records on the international server displayed "AuthKey Expired" [#1873](https://github.com/DGP-Studio/Snap.Hutao/issues/1873)
+- **[🔨Fix]** Fixed the issue where navigating to My Character/Spiral Abyss pages without logging in to MiYouShe or HoYoLAB prevented further operations [#1877](https://github.com/DGP-Studio/Snap.Hutao/issues/1877)
+- **[🔨Fix]** Fixed the issue where refreshing Real-time Notes on certain devices would cause a crash [#1893](https://github.com/DGP-Studio/Snap.Hutao/issues/1893)
+- **[🔨Fix]** Fixed the issue where home page announcements were not displayed correctly and some text colors were rendered incorrect in dark mode
+- **[🔨Fix]** Fixed the issue where the application background did not switch correctly
+- **[✨Optimization]** Adjusted the display position of in-app notifications [#1832](https://github.com/DGP-Studio/Snap.Hutao/issues/1832)
+- **[✨Optimization]** Optimized the in-app error messages for network requests
+- **[✨Optimization]** Improved the experience of downloading updates, now you can choose a mirror for downloading
+- **[✨Optimization]** Optimized the frame rate unlock feature, removed classic mode, added field of view modification/fog removal/compatibility mode in injection mode
