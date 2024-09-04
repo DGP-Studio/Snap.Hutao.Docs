@@ -16,22 +16,20 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.11.0
+# 🎉 Successfully Updated to Version 1.11.1
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🎉New]** Added long-term expedition point display on the Real-time Notes page [#1841](https://github.com/DGP-Studio/Snap.Hutao/issues/1841)
-- **[🎉New]** **[BETA]** Added game download/repair/pre-download/update functionality to the game launcher
-- **[🔨Fix]** Fixed the issue where can't logging in to MiYouShe via QR code, removed QR code login option, added phone verification code login method [#1819](https://github.com/DGP-Studio/Snap.Hutao/issues/1819)
-- **[🔨Fix]** Fixed the issue where character skill levels displayed inconsistently in the My Character page list and grid view due to constellation bonuses [#1838](https://github.com/DGP-Studio/Snap.Hutao/issues/1838)
-- **[🔨Fix]** Fixed the issue where switching to another page while the home page announcement was still loading would cause a crash [#1845](https://github.com/DGP-Studio/Snap.Hutao/issues/1845)
-- **[🔨Fix]** Fixed the issue where reading local package version information failed when switching game servers would cause a crash [#1851](https://github.com/DGP-Studio/Snap.Hutao/issues/1851)
-- **[🔨Fix]** Fixed the issue where obtaining wish records on the international server displayed "AuthKey Expired" [#1873](https://github.com/DGP-Studio/Snap.Hutao/issues/1873)
-- **[🔨Fix]** Fixed the issue where navigating to My Character/Spiral Abyss pages without logging in to MiYouShe or HoYoLAB prevented further operations [#1877](https://github.com/DGP-Studio/Snap.Hutao/issues/1877)
-- **[🔨Fix]** Fixed the issue where refreshing Real-time Notes on certain devices would cause a crash [#1893](https://github.com/DGP-Studio/Snap.Hutao/issues/1893)
-- **[🔨Fix]** Fixed the issue where home page announcements were not displayed correctly and some text colors were rendered incorrect in dark mode
-- **[🔨Fix]** Fixed the issue where the application background did not switch correctly
-- **[✨Optimization]** Adjusted the display position of in-app notifications [#1832](https://github.com/DGP-Studio/Snap.Hutao/issues/1832)
-- **[✨Optimization]** Optimized the in-app error messages for network requests
-- **[✨Optimization]** Improved the experience of downloading updates, now you can choose a mirror for downloading
-- **[✨Optimization]** Optimized the frame rate unlock feature, removed classic mode, added field of view modification/fog removal/compatibility mode in injection mode
+- **[🎉New]** Added a command to execute debug scripts in the right-click menu of the notification icon
+- **[🎉New]** Added a command to restart in administrator mode in the right-click menu of the notification icon [#1825](https://github.com/DGP-Studio/Snap.Hutao/issues/1825)
+- **[🔨Fix]** The update log window on the first launch after an update now correctly recognizes Snap Hutao's language [#1900](https://github.com/DGP-Studio/Snap.Hutao/issues/1900)
+- **[🔨Fix]** Fixed the issue where the download and repair game functions in the game launcher could not be used properly
+- **[🔨Fix]** Fixed the issue where the launcher background option did not work properly [#1908](https://github.com/DGP-Studio/Snap.Hutao/issues/1908)
+- **[🔨Fix]** Fixed the issue where importing UIGF v4.0 files did not select the correct parts for import [#1941](https://github.com/DGP-Studio/Snap.Hutao/issues/1941)
+- **[🔨Fix]** Fixed the issue where the dialog layout was incorrect when importing UIGF v4.0 files
+- **[🔨Fix]** Fixed the issue where checking or unchecking achievements in the achievement management would deselect the achievement category if an achievement category was selected [#1946](https://github.com/DGP-Studio/Snap.Hutao/issues/1946)
+- **[✨Optimization]** Now the HoYoLAB text will be hidden when hovering over the HoYoLAB user in the user panel [#1824](https://github.com/DGP-Studio/Snap.Hutao/issues/1824)
+- **[✨Optimization]** The cultivation plan can now correctly recognize the talent and weapon breakthrough materials of Natash
+- **[✨Optimization]** Adjusted the field of view for unlocking the frame rate
+- **[✨Optimization]** Optimized the multi-threaded download logic when switching servers
+- **[✨Optimization]** Optimized the UI of the pop-up window for the download and repair game functions in the game launcher
