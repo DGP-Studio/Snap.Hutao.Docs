@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 13 Aug 2024 02:29:46 GMT</pubDate>
-    <lastBuildDate>Tue, 13 Aug 2024 02:29:46 GMT</lastBuildDate>
+    <pubDate>Wed, 04 Sep 2024 03:36:53 GMT</pubDate>
+    <lastBuildDate>Wed, 04 Sep 2024 03:36:53 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,30 +23,28 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.11.0</title>
+      <title>🎉 Successfully Updated to Version 1.11.1</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.0</source>
-      <description>🎉 Successfully Updated to Version 1.11.0 | English [🎉New] Added long-term expedition point display on the Real-time Notes page #1841 [🎉New] [BETA] Added game download/repair/...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.1</source>
+      <description>🎉 Successfully Updated to Version 1.11.1 | English [🎉New] Added a command to execute debug scripts in the right-click menu of the notification icon [🎉New] Added a command to ...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Added long-term expedition point display on the Real-time Notes page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1841" target="_blank" rel="noopener noreferrer">#1841</a></li>
-<li><strong>[🎉New]</strong> <strong>[BETA]</strong> Added game download/repair/pre-download/update functionality to the game launcher</li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where can't logging in to MiYouShe via QR code, removed QR code login option, added phone verification code login method <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1819" target="_blank" rel="noopener noreferrer">#1819</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where character skill levels displayed inconsistently in the My Character page list and grid view due to constellation bonuses <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1838" target="_blank" rel="noopener noreferrer">#1838</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where switching to another page while the home page announcement was still loading would cause a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1845" target="_blank" rel="noopener noreferrer">#1845</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where reading local package version information failed when switching game servers would cause a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1851" target="_blank" rel="noopener noreferrer">#1851</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where obtaining wish records on the international server displayed "AuthKey Expired" <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1873" target="_blank" rel="noopener noreferrer">#1873</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where navigating to My Character/Spiral Abyss pages without logging in to MiYouShe or HoYoLAB prevented further operations <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1877" target="_blank" rel="noopener noreferrer">#1877</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where refreshing Real-time Notes on certain devices would cause a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1893" target="_blank" rel="noopener noreferrer">#1893</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where home page announcements were not displayed correctly and some text colors were rendered incorrect in dark mode</li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where the application background did not switch correctly</li>
-<li><strong>[✨Optimization]</strong> Adjusted the display position of in-app notifications <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1832" target="_blank" rel="noopener noreferrer">#1832</a></li>
-<li><strong>[✨Optimization]</strong> Optimized the in-app error messages for network requests</li>
-<li><strong>[✨Optimization]</strong> Improved the experience of downloading updates, now you can choose a mirror for downloading</li>
-<li><strong>[✨Optimization]</strong> Optimized the frame rate unlock feature, removed classic mode, added field of view modification/fog removal/compatibility mode in injection mode</li>
+<li><strong>[🎉New]</strong> Added a command to execute debug scripts in the right-click menu of the notification icon</li>
+<li><strong>[🎉New]</strong> Added a command to restart in administrator mode in the right-click menu of the notification icon <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1825" target="_blank" rel="noopener noreferrer">#1825</a></li>
+<li><strong>[🔨Fix]</strong> The update log window on the first launch after an update now correctly recognizes Snap Hutao's language <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1900" target="_blank" rel="noopener noreferrer">#1900</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the download and repair game functions in the game launcher could not be used properly</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the launcher background option did not work properly <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1908" target="_blank" rel="noopener noreferrer">#1908</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where importing UIGF v4.0 files did not select the correct parts for import <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1941" target="_blank" rel="noopener noreferrer">#1941</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the dialog layout was incorrect when importing UIGF v4.0 files</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where checking or unchecking achievements in the achievement management would deselect the achievement category if an achievement category was selected <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1946" target="_blank" rel="noopener noreferrer">#1946</a></li>
+<li><strong>[✨Optimization]</strong> Now the HoYoLAB text will be hidden when hovering over the HoYoLAB user in the user panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1824" target="_blank" rel="noopener noreferrer">#1824</a></li>
+<li><strong>[✨Optimization]</strong> The cultivation plan can now correctly recognize the talent and weapon breakthrough materials of Natash</li>
+<li><strong>[✨Optimization]</strong> Adjusted the field of view for unlocking the frame rate</li>
+<li><strong>[✨Optimization]</strong> Optimized the multi-threaded download logic when switching servers</li>
+<li><strong>[✨Optimization]</strong> Optimized the UI of the pop-up window for the download and repair game functions in the game launcher</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -527,7 +525,23 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.11.0 </h2>
+<h2>1.11.1 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added a command to execute debug scripts in the right-click menu of the notification icon</li>
+<li><strong>[🎉New]</strong> Added a command to restart in administrator mode in the right-click menu of the notification icon <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1825" target="_blank" rel="noopener noreferrer">#1825</a></li>
+<li><strong>[🔨Fix]</strong> The update log window on the first launch after an update now correctly recognizes Snap Hutao's language <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1900" target="_blank" rel="noopener noreferrer">#1900</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the download and repair game functions in the game launcher could not be used properly</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the launcher background option did not work properly <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1908" target="_blank" rel="noopener noreferrer">#1908</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where importing UIGF v4.0 files did not select the correct parts for import <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1941" target="_blank" rel="noopener noreferrer">#1941</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the dialog layout was incorrect when importing UIGF v4.0 files</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where checking or unchecking achievements in the achievement management would deselect the achievement category if an achievement category was selected <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1946" target="_blank" rel="noopener noreferrer">#1946</a></li>
+<li><strong>[✨Optimization]</strong> Now the HoYoLAB text will be hidden when hovering over the HoYoLAB user in the user panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1824" target="_blank" rel="noopener noreferrer">#1824</a></li>
+<li><strong>[✨Optimization]</strong> The cultivation plan can now correctly recognize the talent and weapon breakthrough materials of Natash</li>
+<li><strong>[✨Optimization]</strong> Adjusted the field of view for unlocking the frame rate</li>
+<li><strong>[✨Optimization]</strong> Optimized the multi-threaded download logic when switching servers</li>
+<li><strong>[✨Optimization]</strong> Optimized the UI of the pop-up window for the download and repair game functions in the game launcher</li>
+</ul>
+<h2>1.11.0</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added long-term expedition point display on the Real-time Notes page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1841" target="_blank" rel="noopener noreferrer">#1841</a></li>
 <li><strong>[🎉New]</strong> <strong>[BETA]</strong> Added game download/repair/pre-download/update functionality to the game launcher</li>

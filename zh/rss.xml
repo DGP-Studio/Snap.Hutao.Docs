@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 13 Aug 2024 02:29:46 GMT</pubDate>
-    <lastBuildDate>Tue, 13 Aug 2024 02:29:46 GMT</lastBuildDate>
+    <pubDate>Wed, 04 Sep 2024 03:36:53 GMT</pubDate>
+    <lastBuildDate>Wed, 04 Sep 2024 03:36:53 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -21,30 +21,28 @@
     <category>第三方工具</category>
     <category>项目</category>
     <item>
-      <title>🎉 已成功更新至 1.11.0 版本</title>
+      <title>🎉 已成功更新至 1.11.1 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.0 版本</source>
-      <description>🎉 已成功更新至 1.11.0 版本 简体中文 | 【🎉新增】 实时便笺页面新增长效历练点显示 #1841 【🎉新增】 【BETA】启动游戏新增游戏下载/修复/预下载/更新的功能 【🔨修复】 修复了无法通过扫码登录米游社的问题，移除了扫码登录入口，新增手机验证码登录方式 #1819 【🔨修复】 修复了我的角色页面列表与网格视图中角色技能等级因...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.1 版本</source>
+      <description>🎉 已成功更新至 1.11.1 版本 简体中文 | 【🎉新增】 通知图标右键菜单新增执行调试脚本的命令 【🎉新增】 通知图标右键菜单新增以管理员模式重启的命令 #1825 【🔨修复】 更新后首次启动的更新日志窗口现在会正确识别胡桃的语言选项 #1900 【🔨修复】 修复了启动游戏中下载与修复游戏功能无法正常使用的问题 【🔨修复】 修复了背景...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🎉新增】</strong> 实时便笺页面新增长效历练点显示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1841" target="_blank" rel="noopener noreferrer">#1841</a></li>
-<li><strong>【🎉新增】</strong> 【BETA】启动游戏新增游戏下载/修复/预下载/更新的功能</li>
-<li><strong>【🔨修复】</strong> 修复了无法通过扫码登录米游社的问题，移除了扫码登录入口，新增手机验证码登录方式 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1819" target="_blank" rel="noopener noreferrer">#1819</a></li>
-<li><strong>【🔨修复】</strong> 修复了我的角色页面列表与网格视图中角色技能等级因命座加成导致显示不一致的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1838" target="_blank" rel="noopener noreferrer">#1838</a></li>
-<li><strong>【🔨修复】</strong> 修复了在主页公告未完成加载时切换到其他页面会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1845" target="_blank" rel="noopener noreferrer">#1845</a></li>
-<li><strong>【🔨修复】</strong> 修复了转换游戏服务器时读取本地包版本信息失败会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1851" target="_blank" rel="noopener noreferrer">#1851</a></li>
-<li><strong>【🔨修复】</strong> 修复了国际服获取祈愿记录显示 验证密钥过期 的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1873" target="_blank" rel="noopener noreferrer">#1873</a></li>
-<li><strong>【🔨修复】</strong> 修复了在未登录米游社或 HoYoLAB 的情况下导航到我的角色/深境螺旋页面后无法继续操作的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1877" target="_blank" rel="noopener noreferrer">#1877</a></li>
-<li><strong>【🔨修复】</strong> 修复了部分设备刷新实时便笺会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1893" target="_blank" rel="noopener noreferrer">#1893</a></li>
-<li><strong>【🔨修复】</strong> 修复了主页公告不显示，主页公告详情在暗黑模式下部分文本颜色不正确的问题</li>
-<li><strong>【🔨修复】</strong> 修复了应用内背景无法正确定时切换的问题</li>
-<li><strong>【✨优化】</strong> 调整了应用内通知的显示位置 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1832" target="_blank" rel="noopener noreferrer">#1832</a></li>
-<li><strong>【✨优化】</strong> 优化了网络请求错误的应用内提示信息</li>
-<li><strong>【✨优化】</strong> 优化了下载更新时体验，现在可以选择镜像进行下载</li>
-<li><strong>【✨优化】</strong> 优化了解锁帧率相关功能，移除了经典模式，注入模式新增视野修改/移除迷雾/兼容模式</li>
+<li><strong>【🎉新增】</strong> 通知图标右键菜单新增执行调试脚本的命令</li>
+<li><strong>【🎉新增】</strong> 通知图标右键菜单新增以管理员模式重启的命令 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1825" target="_blank" rel="noopener noreferrer">#1825</a></li>
+<li><strong>【🔨修复】</strong> 更新后首次启动的更新日志窗口现在会正确识别胡桃的语言选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1900" target="_blank" rel="noopener noreferrer">#1900</a></li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏中下载与修复游戏功能无法正常使用的问题</li>
+<li><strong>【🔨修复】</strong> 修复了背景选项中启动器背景无法正常工作的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1908" target="_blank" rel="noopener noreferrer">#1908</a></li>
+<li><strong>【🔨修复】</strong> 修复了导入 UIGF v4.0 文件时不会选择正确的部分进行导入的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1941" target="_blank" rel="noopener noreferrer">#1941</a></li>
+<li><strong>【🔨修复】</strong> 修复了导入 UIGF v4.0 文件对话框排版不正确的问题</li>
+<li><strong>【🔨修复】</strong> 修复了成就管理在选择了成就分类的情况下勾选或取消勾选成就会导致成就分类取消选中的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1946" target="_blank" rel="noopener noreferrer">#1946</a></li>
+<li><strong>【✨优化】</strong> 现在用户面板鼠标悬浮于HoYoLAB用户时会隐藏HoYoLAB字样 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1824" target="_blank" rel="noopener noreferrer">#1824</a></li>
+<li><strong>【✨优化】</strong> 养成计划现在能够正确识别纳塔的天赋与武器突破材料了</li>
+<li><strong>【✨优化】</strong> 调整了解锁帧率的视野范围</li>
+<li><strong>【✨优化】</strong> 优化了切换服务器时的多线程下载逻辑</li>
+<li><strong>【✨优化】</strong> 优化了启动游戏中下载与修复游戏功能的弹出窗口UI</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -581,7 +579,23 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.11.0 </h2>
+<h2>1.11.1 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 通知图标右键菜单新增执行调试脚本的命令</li>
+<li><strong>【🎉新增】</strong> 通知图标右键菜单新增以管理员模式重启的命令 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1825" target="_blank" rel="noopener noreferrer">#1825</a></li>
+<li><strong>【🔨修复】</strong> 更新后首次启动的更新日志窗口现在会正确识别胡桃的语言选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1900" target="_blank" rel="noopener noreferrer">#1900</a></li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏中下载与修复游戏功能无法正常使用的问题</li>
+<li><strong>【🔨修复】</strong> 修复了背景选项中启动器背景无法正常工作的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1908" target="_blank" rel="noopener noreferrer">#1908</a></li>
+<li><strong>【🔨修复】</strong> 修复了导入 UIGF v4.0 文件时不会选择正确的部分进行导入的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1941" target="_blank" rel="noopener noreferrer">#1941</a></li>
+<li><strong>【🔨修复】</strong> 修复了导入 UIGF v4.0 文件对话框排版不正确的问题</li>
+<li><strong>【🔨修复】</strong> 修复了成就管理在选择了成就分类的情况下勾选或取消勾选成就会导致成就分类取消选中的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1946" target="_blank" rel="noopener noreferrer">#1946</a></li>
+<li><strong>【✨优化】</strong> 现在用户面板鼠标悬浮于HoYoLAB用户时会隐藏HoYoLAB字样 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1824" target="_blank" rel="noopener noreferrer">#1824</a></li>
+<li><strong>【✨优化】</strong> 养成计划现在能够正确识别纳塔的天赋与武器突破材料了</li>
+<li><strong>【✨优化】</strong> 调整了解锁帧率的视野范围</li>
+<li><strong>【✨优化】</strong> 优化了切换服务器时的多线程下载逻辑</li>
+<li><strong>【✨优化】</strong> 优化了启动游戏中下载与修复游戏功能的弹出窗口UI</li>
+</ul>
+<h2>1.11.0</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 实时便笺页面新增长效历练点显示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1841" target="_blank" rel="noopener noreferrer">#1841</a></li>
 <li><strong>【🎉新增】</strong> 【BETA】启动游戏新增游戏下载/修复/预下载/更新的功能</li>
