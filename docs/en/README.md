@@ -125,16 +125,16 @@ You can make contribution by the following ways:
 
 Snap Hutao is currently using sponsored software from the following service providers.
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg#light =180x60)](https://crowdin.com/) |          [![](/images/202312/gitlab-logo.svg =180x60)](https://gitlab.cn/)           |
-| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
-|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                           [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/)                            | [![](/images/202312/digitalocean-horizontal.svg =180x35)](https://about.signpath.io) |
-|                       [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)                        |                                 [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)                                 |
+| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/images/logos/core-logo/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |           [![](/images/202409/navicat.png =180x60)](https://navicat.com/)            |
+| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                        [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/)                         | [![](/images/202312/digitalocean-horizontal.svg =180x35)](https://about.signpath.io) |
+|                       [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)                        |                              [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)                              |
 
 Netlify provides document and home page hosting service for Snap Hutao
 
 Crowdin provides its SaaS platform to help Snap Hutao's localization
 
-Jihu GitLab provides Git repository and CI/CD SaaS service for Snap Hutao in China
+Navicat provides Snap Hutao with advanced database management tools
 
 Free code signing provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/)
 
