@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 12 Sep 2024 03:28:46 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Sep 2024 03:28:46 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Sep 2024 12:59:41 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Sep 2024 12:59:41 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -21,28 +21,36 @@
     <category>第三方工具</category>
     <category>项目</category>
     <item>
-      <title>🎉 已成功更新至 1.11.1 版本</title>
+      <title>🎉 已成功更新至 1.11.2 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.1 版本</source>
-      <description>🎉 已成功更新至 1.11.1 版本 简体中文 | 【🎉新增】 通知图标右键菜单新增执行调试脚本的命令 【🎉新增】 通知图标右键菜单新增以管理员模式重启的命令 #1825 【🔨修复】 更新后首次启动的更新日志窗口现在会正确识别胡桃的语言选项 #1900 【🔨修复】 修复了启动游戏中下载与修复游戏功能无法正常使用的问题 【🔨修复】 修复了背景...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.2 版本</source>
+      <description>🎉 已成功更新至 1.11.2 版本 简体中文 | 【🎉新增】 成就管理页面新增筛选仅委托成就功能 #897 【🎉新增】 在设置页面中新增了启动游戏下载游戏功能限速功能 【🎉新增】 设置界面祈愿记录导入导出新增 UIGF 版本升级网页工具链接 【🔨修复】 修复了部分设备复制应用包内文件提示无法加密指定的文件的问题 该问题曾导致 无法正常创建桌...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🎉新增】</strong> 通知图标右键菜单新增执行调试脚本的命令</li>
-<li><strong>【🎉新增】</strong> 通知图标右键菜单新增以管理员模式重启的命令 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1825" target="_blank" rel="noopener noreferrer">#1825</a></li>
-<li><strong>【🔨修复】</strong> 更新后首次启动的更新日志窗口现在会正确识别胡桃的语言选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1900" target="_blank" rel="noopener noreferrer">#1900</a></li>
-<li><strong>【🔨修复】</strong> 修复了启动游戏中下载与修复游戏功能无法正常使用的问题</li>
-<li><strong>【🔨修复】</strong> 修复了背景选项中启动器背景无法正常工作的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1908" target="_blank" rel="noopener noreferrer">#1908</a></li>
-<li><strong>【🔨修复】</strong> 修复了导入 UIGF v4.0 文件时不会选择正确的部分进行导入的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1941" target="_blank" rel="noopener noreferrer">#1941</a></li>
-<li><strong>【🔨修复】</strong> 修复了导入 UIGF v4.0 文件对话框排版不正确的问题</li>
-<li><strong>【🔨修复】</strong> 修复了成就管理在选择了成就分类的情况下勾选或取消勾选成就会导致成就分类取消选中的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1946" target="_blank" rel="noopener noreferrer">#1946</a></li>
-<li><strong>【✨优化】</strong> 现在用户面板鼠标悬浮于HoYoLAB用户时会隐藏HoYoLAB字样 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1824" target="_blank" rel="noopener noreferrer">#1824</a></li>
-<li><strong>【✨优化】</strong> 养成计划现在能够正确识别纳塔的天赋与武器突破材料了</li>
-<li><strong>【✨优化】</strong> 调整了解锁帧率的视野范围</li>
-<li><strong>【✨优化】</strong> 优化了切换服务器时的多线程下载逻辑</li>
-<li><strong>【✨优化】</strong> 优化了启动游戏中下载与修复游戏功能的弹出窗口UI</li>
+<li><strong>【🎉新增】</strong> 成就管理页面新增筛选仅委托成就功能 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/897" target="_blank" rel="noopener noreferrer">#897</a></li>
+<li><strong>【🎉新增】</strong> 在设置页面中新增了启动游戏下载游戏功能限速功能</li>
+<li><strong>【🎉新增】</strong> 设置界面祈愿记录导入导出新增 UIGF 版本升级网页工具链接</li>
+<li><strong>【🔨修复】</strong> 修复了部分设备复制应用包内文件提示无法加密指定的文件的问题
+<ul>
+<li>该问题曾导致
+<ul>
+<li>无法正常创建桌面快捷方式</li>
+<li>无法正常解锁游戏帧率</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏页面下载游戏时CPU占用异常的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1964" target="_blank" rel="noopener noreferrer">#1964</a></li>
+<li><strong>【🔨修复】</strong> 修复了更新游戏不生效的问题</li>
+<li><strong>【🔨修复】</strong> 修复了我的角色页面中切换到没有圣遗物的角色会导致程序崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1954" target="_blank" rel="noopener noreferrer">#1954</a></li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺请求失败 代码 -1 的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分设备成就管理页面无法正常切换存档的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1987" target="_blank" rel="noopener noreferrer">#1987</a></li>
+<li><strong>【✨优化】</strong> 成就管理页面中成就的标题与提示现在能够选中并复制了 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1726" target="_blank" rel="noopener noreferrer">#1726</a></li>
+<li><strong>【✨优化】</strong> 成就管理搜索成就现在会同时筛选成就分类 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1907" target="_blank" rel="noopener noreferrer">#1907</a></li>
+<li><strong>【✨优化】</strong> 调整了国服公告的接口链接 <a href="https://github.com/Scighost/Starward/issues/1089" target="_blank" rel="noopener noreferrer">Scighost/Starward#1089</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -579,7 +587,31 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.11.1 </h2>
+<h2>1.11.2 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 成就管理页面新增筛选仅委托成就功能 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/897" target="_blank" rel="noopener noreferrer">#897</a></li>
+<li><strong>【🎉新增】</strong> 在设置页面中新增了启动游戏下载游戏功能限速功能</li>
+<li><strong>【🎉新增】</strong> 设置界面祈愿记录导入导出新增 UIGF 版本升级网页工具链接</li>
+<li><strong>【🔨修复】</strong> 修复了部分设备复制应用包内文件提示无法加密指定的文件的问题
+<ul>
+<li>该问题曾导致
+<ul>
+<li>无法正常创建桌面快捷方式</li>
+<li>无法正常解锁游戏帧率</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏页面下载游戏时CPU占用异常的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1964" target="_blank" rel="noopener noreferrer">#1964</a></li>
+<li><strong>【🔨修复】</strong> 修复了更新游戏不生效的问题</li>
+<li><strong>【🔨修复】</strong> 修复了我的角色页面中切换到没有圣遗物的角色会导致程序崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1954" target="_blank" rel="noopener noreferrer">#1954</a></li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺请求失败 代码 -1 的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分设备成就管理页面无法正常切换存档的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1987" target="_blank" rel="noopener noreferrer">#1987</a></li>
+<li><strong>【✨优化】</strong> 成就管理页面中成就的标题与提示现在能够选中并复制了 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1726" target="_blank" rel="noopener noreferrer">#1726</a></li>
+<li><strong>【✨优化】</strong> 成就管理搜索成就现在会同时筛选成就分类 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1907" target="_blank" rel="noopener noreferrer">#1907</a></li>
+<li><strong>【✨优化】</strong> 调整了国服公告的接口链接 <a href="https://github.com/Scighost/Starward/issues/1089" target="_blank" rel="noopener noreferrer">Scighost/Starward#1089</a></li>
+</ul>
+<h2>1.11.1</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 通知图标右键菜单新增执行调试脚本的命令</li>
 <li><strong>【🎉新增】</strong> 通知图标右键菜单新增以管理员模式重启的命令 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1825" target="_blank" rel="noopener noreferrer">#1825</a></li>

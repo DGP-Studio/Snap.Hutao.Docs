@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 12 Sep 2024 03:28:46 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Sep 2024 03:28:46 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Sep 2024 12:59:41 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Sep 2024 12:59:41 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,28 +23,36 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.11.1</title>
+      <title>🎉 Successfully Updated to Version 1.11.2</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.1</source>
-      <description>🎉 Successfully Updated to Version 1.11.1 | English [🎉New] Added a command to execute debug scripts in the right-click menu of the notification icon [🎉New] Added a command to ...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.2</source>
+      <description>🎉 Successfully Updated to Version 1.11.2 | English [🎉New] Added the ability to filter only commission achievements in the achievement management page #897 [🎉New] Added downlo...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Added a command to execute debug scripts in the right-click menu of the notification icon</li>
-<li><strong>[🎉New]</strong> Added a command to restart in administrator mode in the right-click menu of the notification icon <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1825" target="_blank" rel="noopener noreferrer">#1825</a></li>
-<li><strong>[🔨Fix]</strong> The update log window on the first launch after an update now correctly recognizes Snap Hutao's language <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1900" target="_blank" rel="noopener noreferrer">#1900</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where the download and repair game functions in the game launcher could not be used properly</li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where the launcher background option did not work properly <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1908" target="_blank" rel="noopener noreferrer">#1908</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where importing UIGF v4.0 files did not select the correct parts for import <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1941" target="_blank" rel="noopener noreferrer">#1941</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where the dialog layout was incorrect when importing UIGF v4.0 files</li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where checking or unchecking achievements in the achievement management would deselect the achievement category if an achievement category was selected <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1946" target="_blank" rel="noopener noreferrer">#1946</a></li>
-<li><strong>[✨Optimization]</strong> Now the HoYoLAB text will be hidden when hovering over the HoYoLAB user in the user panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1824" target="_blank" rel="noopener noreferrer">#1824</a></li>
-<li><strong>[✨Optimization]</strong> The cultivation plan can now correctly recognize the talent and weapon breakthrough materials of Natash</li>
-<li><strong>[✨Optimization]</strong> Adjusted the field of view for unlocking the frame rate</li>
-<li><strong>[✨Optimization]</strong> Optimized the multi-threaded download logic when switching servers</li>
-<li><strong>[✨Optimization]</strong> Optimized the UI of the pop-up window for the download and repair game functions in the game launcher</li>
+<li><strong>[🎉New]</strong> Added the ability to filter only commission achievements in the achievement management page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/897" target="_blank" rel="noopener noreferrer">#897</a></li>
+<li><strong>[🎉New]</strong> Added download game speed limit feature in the settings page</li>
+<li><strong>[🎉New]</strong> Added web tool link for upgrading UIGF versions in the wish records import/export section of the settings page</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where copying files within the application package on certain devices would prompt that the specified file cannot be encrypted
+<ul>
+<li>This issue previously caused
+<ul>
+<li>Inability to create desktop shortcuts</li>
+<li>Inability to unlock game frame rate</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue of abnormal CPU usage when downloading games on the launch game page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1964" target="_blank" rel="noopener noreferrer">#1964</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where game updates were not taking effect</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where switching to a character without artifacts in the My Characters page would cause the program to crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1954" target="_blank" rel="noopener noreferrer">#1954</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue of real-time note requests failing with error code -1</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where some devices were unable to switch save files in the achievement management page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1987" target="_blank" rel="noopener noreferrer">#1987</a></li>
+<li><strong>[✨Optimization]</strong> Achievements titles and tooltips in the achievement management page can now be selected and copied <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1726" target="_blank" rel="noopener noreferrer">#1726</a></li>
+<li><strong>[✨Optimization]</strong> Searching achievements in the achievement management page now filters by achievement category as well <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1907" target="_blank" rel="noopener noreferrer">#1907</a></li>
+<li><strong>[✨Optimization]</strong> Adjusted the interface link for the CN server announcements <a href="https://github.com/Scighost/Starward/issues/1089" target="_blank" rel="noopener noreferrer">Scighost/Starward#1089</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -525,7 +533,31 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.11.1 </h2>
+<h2>1.11.2 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added the ability to filter only commission achievements in the achievement management page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/897" target="_blank" rel="noopener noreferrer">#897</a></li>
+<li><strong>[🎉New]</strong> Added download game speed limit feature in the settings page</li>
+<li><strong>[🎉New]</strong> Added web tool link for upgrading UIGF versions in the wish records import/export section of the settings page</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where copying files within the application package on certain devices would prompt that the specified file cannot be encrypted
+<ul>
+<li>This issue previously caused
+<ul>
+<li>Inability to create desktop shortcuts</li>
+<li>Inability to unlock game frame rate</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue of abnormal CPU usage when downloading games on the launch game page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1964" target="_blank" rel="noopener noreferrer">#1964</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where game updates were not taking effect</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where switching to a character without artifacts in the My Characters page would cause the program to crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1954" target="_blank" rel="noopener noreferrer">#1954</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue of real-time note requests failing with error code -1</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where some devices were unable to switch save files in the achievement management page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1987" target="_blank" rel="noopener noreferrer">#1987</a></li>
+<li><strong>[✨Optimization]</strong> Achievements titles and tooltips in the achievement management page can now be selected and copied <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1726" target="_blank" rel="noopener noreferrer">#1726</a></li>
+<li><strong>[✨Optimization]</strong> Searching achievements in the achievement management page now filters by achievement category as well <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1907" target="_blank" rel="noopener noreferrer">#1907</a></li>
+<li><strong>[✨Optimization]</strong> Adjusted the interface link for the CN server announcements <a href="https://github.com/Scighost/Starward/issues/1089" target="_blank" rel="noopener noreferrer">Scighost/Starward#1089</a></li>
+</ul>
+<h2>1.11.1</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added a command to execute debug scripts in the right-click menu of the notification icon</li>
 <li><strong>[🎉New]</strong> Added a command to restart in administrator mode in the right-click menu of the notification icon <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1825" target="_blank" rel="noopener noreferrer">#1825</a></li>
