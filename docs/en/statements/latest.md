@@ -16,20 +16,22 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.11.1
+# 🎉 Successfully Updated to Version 1.11.2
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🎉New]** Added a command to execute debug scripts in the right-click menu of the notification icon
-- **[🎉New]** Added a command to restart in administrator mode in the right-click menu of the notification icon [#1825](https://github.com/DGP-Studio/Snap.Hutao/issues/1825)
-- **[🔨Fix]** The update log window on the first launch after an update now correctly recognizes Snap Hutao's language [#1900](https://github.com/DGP-Studio/Snap.Hutao/issues/1900)
-- **[🔨Fix]** Fixed the issue where the download and repair game functions in the game launcher could not be used properly
-- **[🔨Fix]** Fixed the issue where the launcher background option did not work properly [#1908](https://github.com/DGP-Studio/Snap.Hutao/issues/1908)
-- **[🔨Fix]** Fixed the issue where importing UIGF v4.0 files did not select the correct parts for import [#1941](https://github.com/DGP-Studio/Snap.Hutao/issues/1941)
-- **[🔨Fix]** Fixed the issue where the dialog layout was incorrect when importing UIGF v4.0 files
-- **[🔨Fix]** Fixed the issue where checking or unchecking achievements in the achievement management would deselect the achievement category if an achievement category was selected [#1946](https://github.com/DGP-Studio/Snap.Hutao/issues/1946)
-- **[✨Optimization]** Now the HoYoLAB text will be hidden when hovering over the HoYoLAB user in the user panel [#1824](https://github.com/DGP-Studio/Snap.Hutao/issues/1824)
-- **[✨Optimization]** The cultivation plan can now correctly recognize the talent and weapon breakthrough materials of Natash
-- **[✨Optimization]** Adjusted the field of view for unlocking the frame rate
-- **[✨Optimization]** Optimized the multi-threaded download logic when switching servers
-- **[✨Optimization]** Optimized the UI of the pop-up window for the download and repair game functions in the game launcher
+- **[🎉New]** Added the ability to filter only commission achievements in the achievement management page [#897](https://github.com/DGP-Studio/Snap.Hutao/issues/897)
+- **[🎉New]** Added download game speed limit feature in the settings page
+- **[🎉New]** Added web tool link for upgrading UIGF versions in the wish records import/export section of the settings page
+- **[🔨Fix]** Fixed the issue where copying files within the application package on certain devices would prompt that the specified file cannot be encrypted
+  - This issue previously caused
+    - Inability to create desktop shortcuts
+    - Inability to unlock game frame rate
+- **[🔨Fix]** Fixed the issue of abnormal CPU usage when downloading games on the launch game page [#1964](https://github.com/DGP-Studio/Snap.Hutao/issues/1964)
+- **[🔨Fix]** Fixed the issue where game updates were not taking effect
+- **[🔨Fix]** Fixed the issue where switching to a character without artifacts in the My Characters page would cause the program to crash [#1954](https://github.com/DGP-Studio/Snap.Hutao/issues/1954)
+- **[🔨Fix]** Fixed the issue of real-time note requests failing with error code -1
+- **[🔨Fix]** Fixed the issue where some devices were unable to switch save files in the achievement management page [#1987](https://github.com/DGP-Studio/Snap.Hutao/issues/1987)
+- **[✨Optimization]** Achievements titles and tooltips in the achievement management page can now be selected and copied [#1726](https://github.com/DGP-Studio/Snap.Hutao/issues/1726)
+- **[✨Optimization]** Searching achievements in the achievement management page now filters by achievement category as well [#1907](https://github.com/DGP-Studio/Snap.Hutao/issues/1907)
+- **[✨Optimization]** Adjusted the interface link for the CN server announcements [Scighost/Starward#1089](https://github.com/Scighost/Starward/issues/1089)

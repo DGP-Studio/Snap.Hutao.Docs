@@ -16,20 +16,22 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.11.1 版本
+# 🎉 已成功更新至 1.11.2 版本
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉新增】** 通知图标右键菜单新增执行调试脚本的命令
-- **【🎉新增】** 通知图标右键菜单新增以管理员模式重启的命令 [#1825](https://github.com/DGP-Studio/Snap.Hutao/issues/1825)
-- **【🔨修复】** 更新后首次启动的更新日志窗口现在会正确识别胡桃的语言选项 [#1900](https://github.com/DGP-Studio/Snap.Hutao/issues/1900)
-- **【🔨修复】** 修复了启动游戏中下载与修复游戏功能无法正常使用的问题
-- **【🔨修复】** 修复了背景选项中启动器背景无法正常工作的问题 [#1908](https://github.com/DGP-Studio/Snap.Hutao/issues/1908)
-- **【🔨修复】** 修复了导入 UIGF v4.0 文件时不会选择正确的部分进行导入的问题 [#1941](https://github.com/DGP-Studio/Snap.Hutao/issues/1941)
-- **【🔨修复】** 修复了导入 UIGF v4.0 文件对话框排版不正确的问题
-- **【🔨修复】** 修复了成就管理在选择了成就分类的情况下勾选或取消勾选成就会导致成就分类取消选中的问题 [#1946](https://github.com/DGP-Studio/Snap.Hutao/issues/1946)
-- **【✨优化】** 现在用户面板鼠标悬浮于HoYoLAB用户时会隐藏HoYoLAB字样 [#1824](https://github.com/DGP-Studio/Snap.Hutao/issues/1824)
-- **【✨优化】** 养成计划现在能够正确识别纳塔的天赋与武器突破材料了
-- **【✨优化】** 调整了解锁帧率的视野范围
-- **【✨优化】** 优化了切换服务器时的多线程下载逻辑
-- **【✨优化】** 优化了启动游戏中下载与修复游戏功能的弹出窗口UI
+- **【🎉新增】** 成就管理页面新增筛选仅委托成就功能 [#897](https://github.com/DGP-Studio/Snap.Hutao/issues/897)
+- **【🎉新增】** 在设置页面中新增了启动游戏下载游戏功能限速功能
+- **【🎉新增】** 设置界面祈愿记录导入导出新增 UIGF 版本升级网页工具链接
+- **【🔨修复】** 修复了部分设备复制应用包内文件提示无法加密指定的文件的问题
+  - 该问题曾导致
+    - 无法正常创建桌面快捷方式
+    - 无法正常解锁游戏帧率
+- **【🔨修复】** 修复了启动游戏页面下载游戏时CPU占用异常的问题 [#1964](https://github.com/DGP-Studio/Snap.Hutao/issues/1964)
+- **【🔨修复】** 修复了更新游戏不生效的问题
+- **【🔨修复】** 修复了我的角色页面中切换到没有圣遗物的角色会导致程序崩溃的问题 [#1954](https://github.com/DGP-Studio/Snap.Hutao/issues/1954)
+- **【🔨修复】** 修复了实时便笺请求失败 代码 -1 的问题
+- **【🔨修复】** 修复了部分设备成就管理页面无法正常切换存档的问题 [#1987](https://github.com/DGP-Studio/Snap.Hutao/issues/1987)
+- **【✨优化】** 成就管理页面中成就的标题与提示现在能够选中并复制了 [#1726](https://github.com/DGP-Studio/Snap.Hutao/issues/1726)
+- **【✨优化】** 成就管理搜索成就现在会同时筛选成就分类 [#1907](https://github.com/DGP-Studio/Snap.Hutao/issues/1907)
+- **【✨优化】** 调整了国服公告的接口链接 [Scighost/Starward#1089](https://github.com/Scighost/Starward/issues/1089)
