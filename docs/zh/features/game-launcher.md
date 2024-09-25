@@ -16,7 +16,7 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
   - 第一次使用时你将自动跳转到设置页面以设置你的游戏路径
   - 选择游戏路径时，请注意此处选择的**应是游戏本身（`YuanShen.exe`）而非游戏启动器（`launcher.exe`）**
     - 例如（仅作示范，请以实际情况为准）：
-      `C:\Program Files\Genshin Impact\Genshin Impact Game\YuanShen.exe`
+      `D:\miHoYo Launcher\games\Genshin Impact Game\YuanShen.exe`
 - 在设置完毕启动游戏所需的附加选项后，点击右上角的“启动游戏”按钮即可，附加选项请看本页下方的功能文档
 
 ## 切换服务器
@@ -236,7 +236,7 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 
 @tab 国服 Official
 
-```
+```ini
 [General]
 channel=1
 cps=mihoyo
@@ -247,7 +247,7 @@ plugin_7_version=1.0.0
 
 @tab 国际服 Official
 
-```
+```ini
 [General]
 channel=1
 cps=mihoyo
