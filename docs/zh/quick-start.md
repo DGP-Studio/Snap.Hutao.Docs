@@ -143,6 +143,12 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 在[微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/)的底部，你可以找到 `常青独立安装程序`，选择 `x64` 下载并根据提示安装即可
 
+### <img src="/images/202409/Microsoft-logo.svg" width="20" height="20"> Segoe Fluent Icons 字体
+
+该字体由微软提供，可以为胡桃提供更好的图标显示效果，缺少该字体可能导致胡桃的部分图标显示效果不佳。
+
+您可以点击[此链接]([Segoe Fluent Icons](https://aka.ms/SegoeFluentIcons))直接下载字体压缩包。请在解压后右键安装以将字体安装到系统。
+
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> 添加第一个米游社账号
 
 在进入胡桃工具箱主界面后，点击左下角文档按钮和设置按钮中间的账号面板。在弹出的米游社账号面板中，根据你的账号类型选择对应的登录按钮。
