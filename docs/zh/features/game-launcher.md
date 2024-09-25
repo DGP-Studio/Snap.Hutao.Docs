@@ -236,7 +236,7 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 
 @tab 国服 Official
 
-```
+```ini
 [General]
 channel=1
 cps=mihoyo
@@ -247,7 +247,7 @@ plugin_7_version=1.0.0
 
 @tab 国际服 Official
 
-```
+```ini
 [General]
 channel=1
 cps=mihoyo
