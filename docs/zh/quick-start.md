@@ -147,7 +147,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 该字体由微软提供，可以为胡桃提供更好的图标显示效果，缺少该字体可能导致胡桃的部分图标显示效果不佳。
 
-您可以点击[此链接]([Segoe Fluent Icons](https://aka.ms/SegoeFluentIcons))直接下载字体压缩包。请在解压后右键安装以将字体安装到系统。
+您可以点击 [此链接](https://aka.ms/SegoeFluentIcons) 以直接下载字体压缩包。请在解压后右键安装以将字体安装到系统。
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> 添加第一个米游社账号
 
