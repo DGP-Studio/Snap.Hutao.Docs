@@ -95,7 +95,7 @@ export default hopeTheme({
         editLink: "在 GitHub 上编辑此页",
       },
     },
-    "/zhtw/": {
+    "/zh-Hant/": {
       // navbar
       navbar: zhNavbar,
 

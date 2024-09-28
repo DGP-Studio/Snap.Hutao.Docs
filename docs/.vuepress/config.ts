@@ -61,7 +61,7 @@ export default defineUserConfig({
       title: "胡桃工具箱",
       description: "多功能的原神工具箱",
     },
-    "/zhtw/": {
+    "/zh-Hant/": {
       lang: "zh-TW",
       title: "胡桃工具箱",
       description: "多功能的原神工具箱",
