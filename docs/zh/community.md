@@ -29,7 +29,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
   />
   <VPCard
     title="胡桃 QQ 公告群"
-    desc="仅用于发布公告，适合习惯潜水而不希望错误重要消息的用户"
+    desc="仅用于发布公告，适合习惯潜水而不希望错过重要消息的用户"
     logo="/images/202312/tencent.svg"
     link="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uxqsxPJPB_jOVbMFOzZv5LcDyIF2HAiu&authKey=Deo2c2ZhmqSAQ%2BGUL0ItD7bYtYG5blYxQor25BXoCcaCGllZYtZ4eDNwZ3yZz8gH&noverify=0&group_code=531960040"
     background="rgba(245, 158, 0, 0.15)"
