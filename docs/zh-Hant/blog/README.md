@@ -3,10 +3,10 @@ comment: false
 index: false
 icon: iconfont icon-article
 dir:
-  text: 开发日志
+  text: 開發日誌
   order: 10
 ---
 
-# 开发日志
+# 開發日誌
 
 <Catalog />

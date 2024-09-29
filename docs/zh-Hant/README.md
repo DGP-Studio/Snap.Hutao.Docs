@@ -136,7 +136,7 @@ Crowdin 為 Snap Hutao 的在地化翻譯提供了平台
 
 Navicat 為 Snap Hutao 提供了先進的資料庫管理工具
 
-[SignPath 基金會](https://signpath.org/)為 Snap Hutao 使用者端提供了免費的程式碼簽名服務
+[SignPath 基金會](https://signpath.org/)為 Snap Hutao 程式提供了免費的程式碼簽名服務
 
 1Password 為 Snap Hutao 開發團隊提供了優秀的密碼管理工具
 
