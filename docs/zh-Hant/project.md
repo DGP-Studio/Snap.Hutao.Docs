@@ -27,10 +27,10 @@ Snap Hutao 專案使用 MSIX 格式的安裝包打包。 MSIX 是一種 Windows 
 |   **遊戲帳號切換**   | 已登入的帳號會被記錄      | 登出後帳號不會被記錄     | [進階啟動器 - 帳號切換](features/game-launcher.md#帳號儲存)           |
 |     **每日簽到**     | 米遊社/ HoYoLAB 客戶端    | 僅國際服用戶可在網頁簽到 | [帳號面板 - 簽到](features/mhy-account-switch.md)                     |
 |     **即時便箋**     | 米遊社/ HoYoLAB 客戶端    | 無                       | [即時便箋](features/real-time-notes.md)                               |
-| **派遣完成通知推播** | 透過行動端遊戲推播通知   | 無                       | [即時便箋推播訊息](features/real-time-notes.md)                       |
+| **派遣完成通知推播** | 透過行動端遊戲推播通知    | 無                       | [即時便箋推播訊息](features/real-time-notes.md)                       |
 |   **深淵資料查詢**   | 米遊社/ HoYoLAB 客戶端    | 僅國際服用戶可在網頁查詢 | [深境螺旋](features/hutao-API.md)                                     |
-|     **養成計劃**     | 米遊社/ HoYoLAB 客戶端    | 僅國際服用戶可在網頁使用 | [養成計劃](features/develop-plan.md#养成计划)                         |
-|   **Discord 狀態**   | 無                         | 國際服飾客戶端可用         | [進階啟動器 - Discord Activity](features/game-launcher.md#進階啟動器) |
+|     **養成計劃**     | 米遊社/ HoYoLAB 客戶端    | 僅國際服用戶可在網頁使用 | [養成計劃](features/develop-plan.md#養成計畫)                         |
+|   **Discord 狀態**   | 無                        | 國際服飾客戶端可用       | [進階啟動器 - Discord Activity](features/game-launcher.md#進階啟動器) |
 
 ## 專案資源
 

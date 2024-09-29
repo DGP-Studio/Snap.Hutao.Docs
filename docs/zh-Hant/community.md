@@ -21,14 +21,14 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
     background="rgba(88, 101, 242, 0.15)"
   />
   <VPCard
-    title="胡桃 QQ 用戶群"
+    title="胡桃 QQ 用戶交流群"
     desc="567908135"
     logo="/images/202312/tencent.svg"
     link="https://qm.qq.com/q/WJKykrY9W"
     background="rgba(228, 0, 54, 0.15)"
   />
   <VPCard
-    title="胡桃 QQ 用戶群"
+    title="胡桃 QQ 公告消息群"
     desc="僅用於發佈公告，適合習慣潛水而不希望錯過重要訊息的用戶"
     logo="/images/202312/tencent.svg"
     link="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uxqsxPJPB_jOVbMFOzZv5LcDyIF2HAiu&authKey=Deo2c2ZhmqSAQ%2BGUL0ItD7bYtYG5blYxQor25BXoCcaCGllZYtZ4eDNwZ3yZz8gH&noverify=0&group_code=531960040"

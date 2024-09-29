@@ -213,7 +213,7 @@ WebView2 執行階段由Microsoft提供，其允許胡桃在程式內低開銷�
 
 如果您的系統中裝有 Microsoft Store，可以從 [App Installer 商店頁面](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US) 重新安裝來還原這個元件。
 
-如果您沒有Windows Store，請使用 Microsoft 官方的最新完整版消費者[Windows 10](https://www.microsoft.com/zh-tw/software-download/windows10) 或[Windows 11](https://www.microsoft.com/zh-tw/software-download/windows11) 鏡像。使用 Microsoft 官方的提供的 Windows 10 安裝小幫手和 Windows 11 安裝小幫手可以幫助您簡單地在保留資料的情況下升級至最新完整版 Windows。 **請勿使用來源不明的破解版、精簡版系統鏡像。 **
+如果您沒有Windows Store，請使用 Microsoft 官方的最新完整版消費者[Windows 10](https://www.microsoft.com/zh-tw/software-download/windows10) 或 [Windows 11](https://www.microsoft.com/zh-tw/software-download/windows11) 鏡像。使用 Microsoft 官方的提供的 Windows 10 安裝小幫手和 Windows 11 安裝小幫手可以幫助您簡單地在保留資料的情況下升級至最新完整版 Windows。 **請勿使用來源不明的破解版、精簡版系統鏡像。 **
 
 ### MSIX 安裝套件提示 `無法驗證此應用程式套件的發布者憑證` 錯誤並無法安裝
 
