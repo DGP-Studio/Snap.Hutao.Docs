@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 26 Sep 2024 03:35:22 GMT</pubDate>
-    <lastBuildDate>Thu, 26 Sep 2024 03:35:22 GMT</lastBuildDate>
+    <pubDate>Wed, 02 Oct 2024 07:05:19 GMT</pubDate>
+    <lastBuildDate>Wed, 02 Oct 2024 07:05:19 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -3129,7 +3129,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>获取祈愿记录需要请求米哈游的 API</p>
 <p>关于此 API, 有下列几个注意点</p>
 <ul>
-<li>通过米哈游服务器的 API，只能查询到过去 6 个月内的祈愿记录
+<li>通过米哈游服务器的 API，只能查询到过去一年内的祈愿记录
 <ul>
 <li>这也是原神客户端中祈愿记录的来源</li>
 </ul>
