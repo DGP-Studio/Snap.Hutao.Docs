@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 03 Oct 2024 11:49:32 GMT</pubDate>
-    <lastBuildDate>Thu, 03 Oct 2024 11:49:32 GMT</lastBuildDate>
+    <pubDate>Sat, 05 Oct 2024 20:44:06 GMT</pubDate>
+    <lastBuildDate>Sat, 05 Oct 2024 20:44:06 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -1889,7 +1889,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <link>https://hut.ao/zh/i18n.html</link>
       <guid>https://hut.ao/zh/i18n.html</guid>
       <source url="https://hut.ao/zh/rss.xml">国际化支持</source>
-      <description>Snap Hutao希望能帮助到来自世界各地的玩家，我们在维护程序的简体中文和英文以外还接受来自社区成员提供的翻译。</description>
+      <description>Snap Hutao 希望能帮助到来自世界各地的玩家，我们在维护程序的简体中文和英文以外还接受来自社区成员提供的翻译。</description>
       <category>公告</category>
       <category>i18n</category>
       <pubDate>Mon, 06 Feb 2023 06:31:43 GMT</pubDate>
@@ -1930,8 +1930,9 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 网页翻译进度：</label>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 英语</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 印尼语（进行中 作者：<a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">NatsumeAoii</a>）</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 俄语（进行中 作者：<a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">QweRezOn</a>）</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 繁体中文（进行中 作者：<a href="https://github.com/SSB-ARFCN" target="_blank" rel="noopener noreferrer">SSB-ARFCN</a>）</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 印尼语（进行中 作者：<a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">NatsumeAoii</a>）</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> 俄语（进行中 作者：<a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">QweRezOn</a>）</label></li>
 </ul>
 </li>
 </ul>
