@@ -95,6 +95,22 @@ export default hopeTheme({
         editLink: "在 GitHub 上编辑此页",
       },
     },
+    "/zh-Hant/": {
+      // navbar
+      navbar: zhNavbar,
+
+      // sidebar
+      sidebar: zhSidebar,
+
+      footer: "以開源社群力量為原神 PC 端玩家帶來最好的遊戲體驗",
+
+      displayFooter: true,
+
+      // page meta
+      metaLocales: {
+        editLink: "在 GitHub 上編輯此頁",
+      },
+    },
   },
 
   plugins: {
