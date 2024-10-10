@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 05 Oct 2024 20:44:06 GMT</pubDate>
-    <lastBuildDate>Sat, 05 Oct 2024 20:44:06 GMT</lastBuildDate>
+    <pubDate>Thu, 10 Oct 2024 12:45:45 GMT</pubDate>
+    <lastBuildDate>Thu, 10 Oct 2024 12:45:45 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,22 +23,29 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.11.3</title>
+      <title>🎉 Successfully Updated to Version 1.11.4</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.3</source>
-      <description>🎉 Successfully Updated to Version 1.11.3 | English [🎉New] Added a calendar card on the homepage #1923 [🎉New] Added artifact attribute recommendations on the My Characters pag...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.4</source>
+      <description>🎉 Successfully Updated to Version 1.11.4 | English [🎉New] Added an error report window that pops up when the program crashes [🔨Fix] Fixed the issue where the program might cr...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Added a calendar card on the homepage <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1923" target="_blank" rel="noopener noreferrer">#1923</a></li>
-<li><strong>[🎉New]</strong> Added artifact attribute recommendations on the My Characters page</li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where some monsters were not displayed correctly on the Spiral Abyss page</li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where the character/weapon data page could freeze <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1999" target="_blank" rel="noopener noreferrer">#1999</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the crash issue when switching game servers</li>
-<li><strong>[✨Optimization]</strong> Prevented closing the operation window directly when game file operations are not completed <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2002" target="_blank" rel="noopener noreferrer">#2002</a></li>
-<li><strong>[✨Optimization]</strong> Added import/export buttons on the Wish Records page for easier access to the import/export buttons on the settings page</li>
+<li><strong>[🎉New]</strong> Added an error report window that pops up when the program crashes</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the program might crash on the first launch after installing/updating Snap Hutao</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where multiple Discord statuses could be set simultaneously <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2024" target="_blank" rel="noopener noreferrer">#2024</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the first line of the game announcement might not respond to clicks</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where international server announcements could not be retrieved <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2030" target="_blank" rel="noopener noreferrer">#2030</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where unlocking the frame rate might not take effect after the 5.1 version update</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where game updates could not be completed properly</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the installation progress in the game update window might exceed 100%</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the game resource pre-download might get stuck <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2029" target="_blank" rel="noopener noreferrer">#2029</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the completion mark might not display when the game resource pre-download is finished</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the material statistics on the cultivation calculation page might not respond <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2014" target="_blank" rel="noopener noreferrer">#2014</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where MiYouShe phone verification code login might fail</li>
+<li><strong>[✨Optimization]</strong> Added "Priority for incomplete sets" in the material statistics on the cultivation calculation page</li>
+<li><strong>[✨Optimization]</strong> Now displays materials that can be obtained today in the material statistics on the cultivation calculation page</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -519,7 +526,24 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.11.3 </h2>
+<h2>1.11.4 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added an error report window that pops up when the program crashes</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the program might crash on the first launch after installing/updating Snap Hutao</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where multiple Discord statuses could be set simultaneously <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2024" target="_blank" rel="noopener noreferrer">#2024</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the first line of the game announcement might not respond to clicks</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where international server announcements could not be retrieved <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2030" target="_blank" rel="noopener noreferrer">#2030</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where unlocking the frame rate might not take effect after the 5.1 version update</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where game updates could not be completed properly</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the installation progress in the game update window might exceed 100%</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the game resource pre-download might get stuck <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2029" target="_blank" rel="noopener noreferrer">#2029</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the completion mark might not display when the game resource pre-download is finished</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the material statistics on the cultivation calculation page might not respond <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2014" target="_blank" rel="noopener noreferrer">#2014</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where MiYouShe phone verification code login might fail</li>
+<li><strong>[✨Optimization]</strong> Added "Priority for incomplete sets" in the material statistics on the cultivation calculation page</li>
+<li><strong>[✨Optimization]</strong> Now displays materials that can be obtained today in the material statistics on the cultivation calculation page</li>
+</ul>
+<h2>1.11.3</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added a calendar card on the homepage <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1923" target="_blank" rel="noopener noreferrer">#1923</a></li>
 <li><strong>[🎉New]</strong> Added artifact attribute recommendations on the My Characters page</li>
