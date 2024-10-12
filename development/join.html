@@ -10,7 +10,7 @@
     const { languages } = window.navigator;
     const anchor = hash.substring(1);
 
-    const localeConfig = {"/zh/":["zh-CN","zh-TW","zh"],"/en/":["en-US","en-UK","en"],"/id/":["id-ID","id"],"/ru/":["ru-RU","ru-KZ","ru-BY","ru-UA","ru-MD","ru-LV","tt-RU","ru"]};
+    const config = {"/zh/":["zh-CN","zh-TW","zh"],"/en/":["en-US","en-UK","en"],"/id/":["id-ID","id"],"/ru/":["ru-RU","ru-KZ","ru-BY","ru-UA","ru-MD","ru-LV","tt-RU","ru"]};
     const availableLocales = ["/en/","/id/","/zh/"];
     const defaultLocale = "/en/";
     const defaultBehavior = "defaultLocale"
@@ -20,7 +20,7 @@
     // get matched locale
     findLanguage:
       for (const lang of languages)
-        for (const [localePath, langs] of Object.entries(localeConfig))
+        for (const [localePath, langs] of Object.entries(config))
           if (langs.includes(lang)) {
             if (!availableLocales.includes(localePath))
               continue;
