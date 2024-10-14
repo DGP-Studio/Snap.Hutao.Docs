@@ -141,7 +141,7 @@ background="rgba(244, 125, 63, 0.15)"
 
 WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。通过该组件，胡桃允许用户通过 WebView2 内置浏览器登录米游社账号。
 
-在[微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/)的底部，你可以找到 `常青独立安装程序`，选择 `x64` 下载并根据提示安装即可
+在 [微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/) 的底部，你可以找到 `常青独立安装程序`，选择 `x64` 下载并根据提示安装即可
 
 ### <img src="/images/202409/Microsoft-logo.svg" width="20" height="20"> Segoe Fluent Icons 字体
 
