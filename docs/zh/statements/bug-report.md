@@ -17,7 +17,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statemen
 在发起新的 Issue 之前，请先执行以下清单：
 
 - [ ] 当前使用的是最新版本客户端
-- [ ] 使用搜索功能搜索你的问题并检查[已知问题](../advanced/known-issue.md)文档
+- [ ] 使用搜索功能搜索你的问题并检查 [已知问题](../advanced/known-issue.md) 文档
 - [ ] 搜索项目 Issue，检查是否已有相同或类似的问题
 
 若执行上述步骤后没有得到问题解决方案，你可以在 GitHub 上发起一个新的 Issue

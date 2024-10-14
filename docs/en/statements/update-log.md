@@ -776,8 +776,8 @@ You can read the article [Explanation of Breaking Changes in Version 1.9.0](../b
   - CN server option without TapTap account
 - Fix
   - Issue that user cannot get Hutao Cloud bonus after uploading Abyss record
-  - Issue that cannot sign in to HoYoLab with Facebook
-  - HoYoLab check-in issue
+  - Issue that cannot sign in to HoYoLAB with Facebook
+  - HoYoLAB check-in issue
   - Issue when facing empty value during wish history fetch progress
 - Optimize
   - **Project refactoring, brings a 20% performance improvement**
@@ -794,7 +794,7 @@ You can read the article [Explanation of Breaking Changes in Version 1.9.0](../b
     - This feature will be optimized constantly in the following 1.6 versions
 - Fix
   - Issue that BiliBili server account cannot receive data for Real-time Notes
-  - Issue on HoYoLab login
+  - Issue on HoYoLAB login
 - Optimize
   - Static assets download logic
 
@@ -802,7 +802,7 @@ You can read the article [Explanation of Breaking Changes in Version 1.9.0](../b
 
 - Add
   - Hutao account system with registration and login available now
-  - Support of HoYoLab account login, and add its support to the following features:
+  - Support of HoYoLAB account login, and add its support to the following features:
     - Web login and Stoken Cookie login
     - Abyss record
     - Daily check-in reward

@@ -71,7 +71,7 @@ type: "default"
 
 - [Snap.Hutao.Passport.Web](https://github.com/DGP-Studio/Snap.Hutao.Passport.Web)
   - 胡桃通行证的网页项目
-  - 你可以从项目的[待办事项](https://github.com/DGP-Studio/Snap.Hutao.Passport.Web/issues/5)中选取你愿意接手负责的部分，并通过开发者交流群与我们取得联系以获取帮助
+  - 你可以从项目的 [待办事项](https://github.com/DGP-Studio/Snap.Hutao.Passport.Web/issues/5) 中选取你愿意接手负责的部分，并通过开发者交流群与我们取得联系以获取帮助
 - [Hutao.API.Web](https://github.com/DGP-Studio/Hutao.API.Web)
   - 胡桃深渊数据库网页版项目
 

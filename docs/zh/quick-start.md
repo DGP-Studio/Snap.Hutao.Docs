@@ -24,9 +24,9 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 **不支持的系统版本**：
 
-1. **LTSC 和 LTSB 版本系统由于不包含足够新版本的 MSIX Core，故不支持安装**
-2. **不支持企业版和精简版系统，所有来自非微软官方完整版系统的问题均不会积极处理**
-3. Windows 10 Build 19041 亦可以安装， 但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理
+1. **LTSC 和 LTSB 版本**由于不包含足够新版本的 MSIX Core，故不支持直接安装，需要手动处理
+2. **不支持企业版和精简版系统，所有来自非微软官方完整版家庭版（或专业版）系统的问题均不会积极处理**
+3. Windows 10 Build 19041 亦可以安装，但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理
 4. Windows Insider 预览版本的问题不会被处理
 
 ## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> 下载胡桃工具箱
@@ -113,7 +113,7 @@ background="rgba(244, 125, 63, 0.15)"
 
 ---
 
-如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎[加入我们](development/join.md)！
+如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎 [加入我们](development/join.md)！
 
 ### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> 从微软商店版升级至最新版
 
@@ -121,7 +121,7 @@ background="rgba(244, 125, 63, 0.15)"
 
 如果你已经安装了 Snap Hutao 微软商店版（版本号介于1.4.11和1.8.5之间）则需要先卸载旧版本再进行全新安装
 
-- 按照文档提供的[卸载方法](advanced/uninstall.html)卸载旧版应用
+- 按照文档提供的 [卸载方法](advanced/uninstall.html) 卸载旧版应用
   - 只要不手动删除数据目录，你的数据不会受到影响
 - 按照上述方法全新安装新版应用
 
@@ -141,7 +141,7 @@ background="rgba(244, 125, 63, 0.15)"
 
 WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。通过该组件，胡桃允许用户通过 WebView2 内置浏览器登录米游社账号。
 
-在[微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/)的底部，你可以找到 `常青独立安装程序`，选择 `x64` 下载并根据提示安装即可
+在 [微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/) 的底部，你可以找到 `常青独立安装程序`，选择 `x64` 下载并根据提示安装即可
 
 ### <img src="/images/202409/Microsoft-logo.svg" width="20" height="20"> Segoe Fluent Icons 字体
 
@@ -234,12 +234,12 @@ Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://s
 
 | 错误信息              | 原因                             |
 | --------------------- | -------------------------------- |
-| `0x80040154` 错误代码 | 错误的Windows用户账户权限        |
+| `0x80040154` 错误代码 | 错误的 Windows 用户账户权限      |
 | `应用未启动` 错误提示 | App Installer 权限错误或已被破坏 |
 | `0x80073CF0` 错误代码 | 错误的目录权限                   |
-| `0x80070005` 错误代码 | 错误的Windows用户账户权限        |
-| `0x80070570` 错误代码 | 错误的Windows用户账户权限        |
-| `0x8007065E` 错误代码 | 错误的Windows用户账户权限        |
+| `0x80070005` 错误代码 | 错误的 Windows 用户账户权限      |
+| `0x80070570` 错误代码 | 错误的 Windows 用户账户权限      |
+| `0x8007065E` 错误代码 | 错误的 Windows 用户账户权限      |
 
 如果你在安装失败时收到了上面的错误提示，请尝试下面的步骤来解决问题：
 
