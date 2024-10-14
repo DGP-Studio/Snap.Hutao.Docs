@@ -22,7 +22,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 关于此 API, 有下列几个注意点
 
-- 通过米哈游服务器的 API，只能查询到过去 6 个月内的祈愿记录
+- 通过米哈游服务器的 API，只能查询到过去一年内的祈愿记录
   - 这也是原神客户端中祈愿记录的来源
 - API 存在请求速率限制，过快的请求会导致后续的请求失败，无法正常获取数据
 

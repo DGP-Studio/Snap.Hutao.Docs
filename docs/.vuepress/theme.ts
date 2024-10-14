@@ -299,15 +299,21 @@ export default hopeTheme({
       changefreq: "weekly",
     },
 
+    markdownImage: {
+      lazyload: true,
+      size: true,
+    },
+    markdownTab: {
+      tabs: true,
+    },
+
     mdEnhance: {
+      linkify: false,
       align: true,
       footnote: true,
-      imgLazyload: true,
       include: true,
-      tabs: true,
       tasklist: true,
       component: true,
-      imgSize: true,
     },
 
     pwa: {
@@ -384,7 +390,7 @@ export default hopeTheme({
         "/id/": ["id-ID", "id"],
       },
     },
-  },
+  }
 },{
   custom: true,
 });
