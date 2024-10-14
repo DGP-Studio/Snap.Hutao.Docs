@@ -113,7 +113,7 @@ background="rgba(244, 125, 63, 0.15)"
 
 ---
 
-如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎[加入我们](development/join.md)！
+如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎 [加入我们](development/join.md)！
 
 ### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> 从微软商店版升级至最新版
 
@@ -121,7 +121,7 @@ background="rgba(244, 125, 63, 0.15)"
 
 如果你已经安装了 Snap Hutao 微软商店版（版本号介于1.4.11和1.8.5之间）则需要先卸载旧版本再进行全新安装
 
-- 按照文档提供的[卸载方法](advanced/uninstall.html)卸载旧版应用
+- 按照文档提供的 [卸载方法](advanced/uninstall.html) 卸载旧版应用
   - 只要不手动删除数据目录，你的数据不会受到影响
 - 按照上述方法全新安装新版应用
 

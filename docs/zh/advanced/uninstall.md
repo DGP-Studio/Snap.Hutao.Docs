@@ -26,7 +26,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 如在卸载胡桃工具箱后出现如上图所示的 “需要使用新应用以打开此 hutao 链接”，说明没有按文档要求在卸载前清除实时便笺定时任务。
 请根据文档在设置中清除定时任务后再卸载胡桃工具箱。
 
-- 如果你在系统定时任务中找不到胡桃的定时任务，但问题仍然出现，请参考[这份文档](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/18)来解决
+- 如果你在系统定时任务中找不到胡桃的定时任务，但问题仍然出现，请参考 [这份文档](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/18) 来解决
 
 ### 如何完整地备份/恢复客户端数据
 
