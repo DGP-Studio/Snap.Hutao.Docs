@@ -16,21 +16,22 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.11.4
+# 🎉 Successfully Updated to Version 1.11.5
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🎉New]** Added an error report window that pops up when the program crashes
-- **[🔨Fix]** Fixed the issue where the program might crash on the first launch after installing/updating Snap Hutao
-- **[🔨Fix]** Fixed the issue where multiple Discord statuses could be set simultaneously [#2024](https://github.com/DGP-Studio/Snap.Hutao/issues/2024)
-- **[🔨Fix]** Fixed the issue where the first line of the game announcement might not respond to clicks
-- **[🔨Fix]** Fixed the issue where international server announcements could not be retrieved [#2030](https://github.com/DGP-Studio/Snap.Hutao/issues/2030)
-- **[🔨Fix]** Fixed the issue where unlocking the frame rate might not take effect after the 5.1 version update
-- **[🔨Fix]** Fixed the issue where game updates could not be completed properly
-- **[🔨Fix]** Fixed the issue where the installation progress in the game update window might exceed 100%
-- **[🔨Fix]** Fixed the issue where the game resource pre-download might get stuck [#2029](https://github.com/DGP-Studio/Snap.Hutao/issues/2029)
-- **[🔨Fix]** Fixed the issue where the completion mark might not display when the game resource pre-download is finished
-- **[🔨Fix]** Fixed the issue where the material statistics on the cultivation calculation page might not respond [#2014](https://github.com/DGP-Studio/Snap.Hutao/issues/2014)
-- **[🔨Fix]** Fixed the issue where MiYouShe phone verification code login might fail
-- **[✨Optimization]** Added "Priority for incomplete sets" in the material statistics on the cultivation calculation page
-- **[✨Optimization]** Now displays materials that can be obtained today in the material statistics on the cultivation calculation page
+- **[🎉New]** Added MiYouShe / HoYoLAB account login in the game launcher
+- **[🎉New]** Added filters on the My Characters page [#1786](https://github.com/DGP-Studio/Snap.Hutao/issues/1786)
+- **[🎉New]** Added an option to save images from web activities in the settings [#1804](https://github.com/DGP-Studio/Snap.Hutao/issues/1804)
+- **[🎉New]** Added account and third-party login for oversea server [#1966](https://github.com/DGP-Studio/Snap.Hutao/issues/1966)
+- **[🔨Fix]** Fixed a crash issue when refreshing background images
+- **[🔨Fix]** Fixed display issues with multi-monitor scaling
+- **[🔨Fix]** Fixed an issue where the error report window might not display correctly
+- **[🔨Fix]** Fixed incomplete display of real-time note settings in some languages [#2040](https://github.com/DGP-Studio/Snap.Hutao/issues/2040)
+- **[🔨Fix]** Fixed an issue where some lists were not processed correctly when updating the cultivation plan [#2022](https://github.com/DGP-Studio/Snap.Hutao/issues/2022)
+- **[🔨Fix]** Fixed an issue where syncing backpack items in the cultivation plan might not respond [#2044](https://github.com/DGP-Studio/Snap.Hutao/issues/2044)
+- **[🔨Fix]** Fixed an issue where the number of backpack items might be incorrect when syncing the cultivation plan [#2061](https://github.com/DGP-Studio/Snap.Hutao/issues/2061)
+- **[🔨Fix]** Fixed a crash issue when entering the verification code directly without clicking "Get" during MiYouShe phone login [#2058](https://github.com/DGP-Studio/Snap.Hutao/issues/2058)
+- **[✨Optimization]** Optimized the enable logic of the game update button
+- **[✨Optimization]** Increased the monster level cap to 110 [#1988](https://github.com/DGP-Studio/Snap.Hutao/issues/1988)
+- **[✨Optimization]** The verification window will now automatically pop up when encountering a CAPTCHA [#1616](https://github.com/DGP-Studio/Snap.Hutao/issues/1616)
