@@ -16,21 +16,22 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.11.4 版本
+# 🎉 已成功更新至 1.11.5 版本
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉新增】** 现在在程序崩溃时会弹出错误报告窗口
-- **【🔨修复】** 修复了安装/更新胡桃后首次启动可能会崩溃的问题
-- **【🔨修复】** 修复了会同时设置多个 Discord 状态的问题 [#2024](https://github.com/DGP-Studio/Snap.Hutao/issues/2024)
-- **【🔨修复】** 修复了游戏公告第一行可能不会响应点击的问题
-- **【🔨修复】** 修复了国际服公告无法获取的问题 [#2030](https://github.com/DGP-Studio/Snap.Hutao/issues/2030)
-- **【🔨修复】** 修复了 5.1 版本更新后解锁帧率可能无法生效的问题
-- **【🔨修复】** 修复了更新游戏无法正常完成的问题
-- **【🔨修复】** 修复了更新游戏窗口中安装进度可能超过 100% 的问题
-- **【🔨修复】** 修复了游戏资源预下载可能会卡住的问题 [#2029](https://github.com/DGP-Studio/Snap.Hutao/issues/2029)
-- **【🔨修复】** 修复了游戏资源预下载完成时已完成标记可能不会显示的问题
-- **【🔨修复】** 修复了养成计算页面材料统计可能无响应的问题 [#2014](https://github.com/DGP-Studio/Snap.Hutao/issues/2014)
-- **【🔨修复】** 修复了米游社手机验证码登录可能失败的问题
-- **【✨优化】** 在养成计算页面材料统计中新增了未集齐优先
-- **【✨优化】** 在养成计算页面材料统计中现在会显示今日可获取材料
+- **【🎉新增】** 启动游戏新增 米游社 / HoYoLAB 账户登录
+- **【🎉新增】** 我的角色页面新增了筛选 [#1786](https://github.com/DGP-Studio/Snap.Hutao/issues/1786)
+- **【🎉新增】** 在设置中新增了网页活动分享图片保存方式的选项 [#1804](https://github.com/DGP-Studio/Snap.Hutao/issues/1804)
+- **【🎉新增】** 国际服新增了账密登录和三方登录 [#1966](https://github.com/DGP-Studio/Snap.Hutao/issues/1966)
+- **【🔨修复】** 修复了在刷新背景图片时可能会崩溃的问题
+- **【🔨修复】** 修复了多显示器缩放的显示问题
+- **【🔨修复】** 修复了错误报告窗口可能不会正确显示的问题
+- **【🔨修复】** 修复了部分语言下实时便笺设置显示不完整的问题 [#2040](https://github.com/DGP-Studio/Snap.Hutao/issues/2040)
+- **【🔨修复】** 修复了更新养成计划时部分清单不会被正常处理的问题 [#2022](https://github.com/DGP-Studio/Snap.Hutao/issues/2022)
+- **【🔨修复】** 修复了养成计划同步背包物品可能无响应的问题 [#2044](https://github.com/DGP-Studio/Snap.Hutao/issues/2044)
+- **【🔨修复】** 修复了养成计划同步背包物品数量可能不正确的问题 [#2061](https://github.com/DGP-Studio/Snap.Hutao/issues/2061)
+- **【🔨修复】** 修复了米游社手机号登录时，不点击获取直接输入验证码会崩溃的问题 [#2058](https://github.com/DGP-Studio/Snap.Hutao/issues/2058)
+- **【✨优化】** 优化了更新游戏按钮的启用逻辑
+- **【✨优化】** 怪物等级上限提高到了 110 级 [#1988](https://github.com/DGP-Studio/Snap.Hutao/issues/1988)
+- **【✨优化】** 现在遇到验证码会自动弹出验证窗口 [#1616](https://github.com/DGP-Studio/Snap.Hutao/issues/1616)
