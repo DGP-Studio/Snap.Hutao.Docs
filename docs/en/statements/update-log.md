@@ -11,6 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.11.6 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed the issue where features requiring verification would crash after verification [#2074](https://github.com/DGP-Studio/Snap.Hutao/issues/2074)
+- **[🔨Fix]** Fixed the issue where features requiring resource downloads might freeze
+
 ## 1.11.5 <Badge text="latest" type="tip" />
 
 - **[🎉New]** Added MiYouShe / HoYoLAB account login in the game launcher
