@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 20 Oct 2024 11:25:31 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Oct 2024 11:25:31 GMT</lastBuildDate>
+    <pubDate>Mon, 21 Oct 2024 03:36:59 GMT</pubDate>
+    <lastBuildDate>Mon, 21 Oct 2024 03:36:59 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Announcement</category>
@@ -1817,13 +1817,19 @@ and include it in your issue</label></li>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/bug-report.html" type="image/"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.11.5</title>
+      <title>🎉 Successfully Updated to Version 1.11.6</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.5</source>
-      <description>🎉 Successfully Updated to Version 1.11.5 | English [🎉New] Added MiYouShe / HoYoLAB account login in the game launcher [🎉New] Added filters on the My Characters page #1786 [🎉...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.6</source>
+      <description>🎉 Successfully Updated to Version 1.11.6 | English 1.11.6 is a hotfix version of 1.11.5 that addressed several critical issues. [🔨Fix] Fixed the issue where features requiring...</description>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
+<p>1.11.6 is a hotfix version of 1.11.5 that addressed several critical issues.</p>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed the issue where features requiring verification would crash after verification <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2074" target="_blank" rel="noopener noreferrer">#2074</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where features requiring resource downloads might freeze</li>
+</ul>
+<p>1.11.5</p>
 <ul>
 <li><strong>[🎉New]</strong> Added MiYouShe / HoYoLAB account login in the game launcher</li>
 <li><strong>[🎉New]</strong> Added filters on the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1786" target="_blank" rel="noopener noreferrer">#1786</a></li>
@@ -2048,6 +2054,11 @@ information provided by domains outside this list (including websites, emails, e
       <description>Snap Hutao strives to provide users with the best user experience by continuously updating and fixing known issues and releasing new features. We will always publish update logs to track the changes made to the program.</description>
       <category>Announcement</category>
       <content:encoded><![CDATA[
+<h2>1.11.6 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed the issue where features requiring verification would crash after verification <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2074" target="_blank" rel="noopener noreferrer">#2074</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where features requiring resource downloads might freeze</li>
+</ul>
 <h2>1.11.5 </h2>
 <ul>
 <li><strong>[🎉New]</strong> Added MiYouShe / HoYoLAB account login in the game launcher</li>

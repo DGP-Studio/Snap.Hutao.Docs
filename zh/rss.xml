@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 20 Oct 2024 11:25:31 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Oct 2024 11:25:31 GMT</lastBuildDate>
+    <pubDate>Mon, 21 Oct 2024 03:36:59 GMT</pubDate>
+    <lastBuildDate>Mon, 21 Oct 2024 03:36:59 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>公告</category>
@@ -1970,13 +1970,19 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/bug-report.html" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.11.5 版本</title>
+      <title>🎉 已成功更新至 1.11.6 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.5 版本</source>
-      <description>🎉 已成功更新至 1.11.5 版本 简体中文 | 【🎉新增】 启动游戏新增 米游社 / HoYoLAB 账户登录 【🎉新增】 我的角色页面新增了筛选 #1786 【🎉新增】 在设置中新增了网页活动分享图片保存方式的选项 #1804 【🎉新增】 国际服新增了账密登录和三方登录 #1966 【🔨修复】 修复了在刷新背景图片时可能会崩溃的问题 ...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.6 版本</source>
+      <description>🎉 已成功更新至 1.11.6 版本 简体中文 | 1.11.6 版本是 1.11.5 的热修版本，修复了多个严重的问题 【🔨修复】 修复了需要验证的功能在完成验证后会崩溃的问题 #2074 【🔨修复】 修复了需要下载资源的功能可能会卡死的问题 1.11.5 【🎉新增】 启动游戏新增 米游社 / HoYoLAB 账户登录 【🎉新增】 我的角色...</description>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
+<p>1.11.6 版本是 1.11.5 的热修版本，修复了多个严重的问题</p>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了需要验证的功能在完成验证后会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2074" target="_blank" rel="noopener noreferrer">#2074</a></li>
+<li><strong>【🔨修复】</strong> 修复了需要下载资源的功能可能会卡死的问题</li>
+</ul>
+<p>1.11.5</p>
 <ul>
 <li><strong>【🎉新增】</strong> 启动游戏新增 米游社 / HoYoLAB 账户登录</li>
 <li><strong>【🎉新增】</strong> 我的角色页面新增了筛选 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1786" target="_blank" rel="noopener noreferrer">#1786</a></li>
@@ -2204,6 +2210,11 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <description>Snap Hutao 通过持续地更新修复已知问题并发布全新功能，以保证用户获得最好的使用体验，我们将始终发布更新日志以追踪程序的变化。</description>
       <category>公告</category>
       <content:encoded><![CDATA[
+<h2>1.11.6 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了需要验证的功能在完成验证后会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2074" target="_blank" rel="noopener noreferrer">#2074</a></li>
+<li><strong>【🔨修复】</strong> 修复了需要下载资源的功能可能会卡死的问题</li>
+</ul>
 <h2>1.11.5 </h2>
 <ul>
 <li><strong>【🎉新增】</strong> 启动游戏新增 米游社 / HoYoLAB 账户登录</li>
