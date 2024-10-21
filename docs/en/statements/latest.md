@@ -16,9 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.11.5
+# 🎉 Successfully Updated to Version 1.11.6
 
 [简体中文](/zh/statements/latest.html) | **English**
+
+1.11.6 is a hotfix version of 1.11.5 that addressed several critical issues.
+
+- **[🔨Fix]** Fixed the issue where features requiring verification would crash after verification [#2074](https://github.com/DGP-Studio/Snap.Hutao/issues/2074)
+- **[🔨Fix]** Fixed the issue where features requiring resource downloads might freeze
+
+1.11.5
 
 - **[🎉New]** Added MiYouShe / HoYoLAB account login in the game launcher
 - **[🎉New]** Added filters on the My Characters page [#1786](https://github.com/DGP-Studio/Snap.Hutao/issues/1786)

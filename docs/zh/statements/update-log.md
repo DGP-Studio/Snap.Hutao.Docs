@@ -10,6 +10,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
+## 1.11.6 <Badge text="hotfix" type="warning" />
+
+- **【🔨修复】** 修复了需要验证的功能在完成验证后会崩溃的问题 [#2074](https://github.com/DGP-Studio/Snap.Hutao/issues/2074)
+- **【🔨修复】** 修复了需要下载资源的功能可能会卡死的问题
+
 ## 1.11.5 <Badge text="最新版" type="tip" />
 
 - **【🎉新增】** 启动游戏新增 米游社 / HoYoLAB 账户登录

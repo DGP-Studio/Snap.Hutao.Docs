@@ -16,9 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.11.5 版本
+# 🎉 已成功更新至 1.11.6 版本
 
 **简体中文** | [English](/en/statements/latest.html)
+
+1.11.6 版本是 1.11.5 的热修版本，修复了多个严重的问题
+
+- **【🔨修复】** 修复了需要验证的功能在完成验证后会崩溃的问题 [#2074](https://github.com/DGP-Studio/Snap.Hutao/issues/2074)
+- **【🔨修复】** 修复了需要下载资源的功能可能会卡死的问题
+
+1.11.5
 
 - **【🎉新增】** 启动游戏新增 米游社 / HoYoLAB 账户登录
 - **【🎉新增】** 我的角色页面新增了筛选 [#1786](https://github.com/DGP-Studio/Snap.Hutao/issues/1786)
