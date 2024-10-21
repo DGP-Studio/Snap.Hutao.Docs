@@ -19,7 +19,7 @@ Snap Hutao menghormati privasi pengguna, dan saat ini kami menggunakan data seba
 - Saat menggunakan Snap Hutao, file database berada dalam **direktori data**
 
   - **Penyimpanan**
-    - Cookie MiHoYo BBS dan HoYoLab
+    - Cookie MiHoYo BBS dan HoYoLAB
     - Pengaturan program Snap Hutao
     - Seluruh data pengguna lainnya
 
