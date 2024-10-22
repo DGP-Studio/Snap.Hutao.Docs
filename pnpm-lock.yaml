@@ -29,6 +29,9 @@ importers:
       husky:
         specifier: 9.1.6
         version: 9.1.6
+      less:
+        specifier: ^4.2.0
+        version: 4.2.0
       nano-staged:
         specifier: 0.8.0
         version: 0.8.0
@@ -5452,7 +5455,6 @@ snapshots:
   copy-anything@2.0.6:
     dependencies:
       is-what: 3.14.1
-    optional: true
 
   copy-anything@3.0.5:
     dependencies:
@@ -6021,8 +6023,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
 
-  is-what@3.14.1:
-    optional: true
+  is-what@3.14.1: {}
 
   is-what@4.1.16: {}
 
@@ -6079,7 +6080,6 @@ snapshots:
       mime: 1.6.0
       needle: 3.3.1
       source-map: 0.6.1
-    optional: true
 
   leven@3.1.0: {}
 
@@ -6285,8 +6285,7 @@ snapshots:
 
   parse-ms@4.0.0: {}
 
-  parse-node-version@1.0.1:
-    optional: true
+  parse-node-version@1.0.1: {}
 
   parse5-htmlparser2-tree-adapter@7.1.0:
     dependencies:
@@ -6695,8 +6694,7 @@ snapshots:
 
   ts-debounce@4.0.0: {}
 
-  tslib@2.8.0:
-    optional: true
+  tslib@2.8.0: {}
 
   type-fest@0.16.0: {}
 
