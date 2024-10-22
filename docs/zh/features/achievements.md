@@ -34,7 +34,6 @@ description: 胡桃工具箱提供原神成就管理功能，你可以通过它�
 
 ::: tip
 如果安装了多个胡桃工具箱（如 Alpha 版和正式版），希望更改 `URL:hutao` 链接的默认指向应用，请在“Windows 设置-应用-默认应用-按协议指定默认应用”页面，找到 `URL:hutao` 项，点击图标以进行更改。
-
 :::
 
 ## 成就导出 <Badge text="UIAF" type="info" />

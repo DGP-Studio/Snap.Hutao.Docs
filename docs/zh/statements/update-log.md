@@ -406,13 +406,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ## 1.9.0
 
 ::: important 重大改变
-
 Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书。自1.9.0版本起，我们将使用全新的证书为 Snap Hutao 安装包签名。
 
 拥有新签名的程序将与旧版本不兼容，用户在从1.8.4及更旧版本更新至1.9.0及更新版本时，需要首先卸载旧版本再全新安装新版本客户端。由于胡桃数据目录的设计，用户不会丢失任何重要数据。
 
 你可以阅读 [1.9.0 版本重大改变详解](../blog/version-1-9-0-breaking-changes.md) 一文来更深入地了解这次版本更新中签名变化对 Snap Hutao 项目的改变。
-
 :::
 
 - 新增 ➕

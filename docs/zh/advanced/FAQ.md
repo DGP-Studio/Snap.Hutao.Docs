@@ -35,9 +35,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 - 或其他可以使胡桃工具箱开机自启的思路，敬请自行探索
 
 ::: warning
-
 请注意，上述各种办法均可能在实际使用中因种种问题而失效。我们并不支持尝试使胡桃开机自启的行为。
-
 :::
 
 ### 无法使用管理员模式启动胡桃工具箱
