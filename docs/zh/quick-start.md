@@ -209,16 +209,18 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 ### 能不能通过添加缺少的系统组件来实现胡桃的安装
 
-> 这就是使用 `精简版 / 破解版 / 优化版 / LTSB` 版本的代价，不是不报，时候未到。没有足够的水平就不要用高级的东西。
-
 ::: tip
 对于 LTSC（IoT LTSC）官方版，可以尝试通过安装 [XBox](https://www.xbox.com/en-US/xbox-game-pass/pc-game-pass#app) 以解决依赖问题。XBox 提供了比较完善的缺失环境检测与修复功能。
 
 :::
 
+> 这就是使用 `精简版 / 破解版 / 优化版 / LTSB` 版本的代价，不是不报，时候未到。没有足够的水平就不要用高级的东西。
+
 当你问出这个问题的时候，那答案已经是不可以了，因为你完全不了解你的操作系统。
 
 你不知道你手中所谓的精简版系统少了多少必要组件。当你装上了一个组件，解决了当前的问题，你还会遇上下一个问题。
+
+---
 
 ::: warning
 以下问题仅适用于 MSIX 安装，请先尝试使用 [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) 来解决你的安装问题
@@ -237,7 +239,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 该问题常见于 Windows 家庭版系统。如果你使用的不是家庭版系统，则你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。
 
-Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载 [该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt) 并添加到你的系统中的 `可信任的根证书授权机构` 类别中。
+Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载 [该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt) 并添加到你的系统中的 `可信任的根证书授权机构` 类别中（可能需要管理员权限）。
 
 ### MSIX 安装包提示组策略错误或需要 Windows 开发者许可证错误并无法安装
 
