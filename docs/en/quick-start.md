@@ -148,37 +148,46 @@ you can find `Evergreen Standalone Installer`, choose `x64` to download and inst
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> Add First MiHoYo BBS Account
 
-After entering Snap Hutao, click `Account Panel` in the left-bottom corner between `Settings` and `Document`. In the
-pop-up panel, click the login button right corresponding to your account.
+After entering Snap Hutao, click `Account Panel` in the left-bottom corner between `Settings` and `Document`. In the pop-up panel, click the login button right corresponding to your account.
 
-If you are using a China server account, you need login within `MiYouShe` category; If you are using an oversea account
-(aka. HoYoLAB/HoYoverse account), you need login within `HoYoLAB` category.
+If you are using a China server account, you need login within `MiYouShe` category; If you are using an oversea account (aka. HoYoLAB/HoYoverse account), you need login within `HoYoLAB` category.
 
-Whatever account type you have, you have both `Web Login` and `Cookie Login` method. For MiYouShe mobile app users with CN server game account, you can also use `QR Code Login` method.
+Whatever account type you have, you have multiple ways to login. <font color="red">You must use MiHoYo/HoYoverse official app to login and set up your community username in MiHoYo BBS to initialize your account, regardless way you sign in Snap Hutao,otherwise Snap Hutao cannot get your account information.</font>
 
 ::: tabs
 
-@tab Web Login
+@tab MiYouShe SMS OTP Login
 
-**Web Login requires Microsoft WebView2 Runtime component**
+**<font color="red">Make sure your MiYouShe account has bound with Genshin Impact CN server account</font>**
 
-1. Click `Web Login` button in the account panel, Snap Hutao will turn on MiHoYo BBS login page with WebView2
-2. Login to your account in the web page. After successfully login to your account, you will be able to see your account information
-3. Click `I'm Logged in` button on the right-top, Snap Hutao will add this account to the client, and will display it in the account panel
+1. Click `MiYouShe SMS OTP Login` in the account panel, enter your phone number and click `Send`
+2. Enter the OTP code you received, and click `Confirm` to login
+3. **Wait for a moment**, Snap Hutao will automatically add your account
+
+@tab HoYoLAB Password Login
+
+**<font color="red">Make sure your HoYoLAB account has bound with Genshin Impact global server account</font>** HoYoLAB blocks requests from mainland China, Snap Hutao cannot bypass this rule.
+
+1. Click `HoYoLAB Password Login` in the account panel, enter your HoYoLAB account and password, and click `Login`
+2. **Wait for a moment**, Snap Hutao will automatically add your account
+
+@tab HoYoLAB Social Login
+
+If you have bound your HoYoLAB account with social media account, you can use this login method to login at Snap Hutao.
+
+This login method requires [Microsoft Edge WebView2 Runtime](https://go.microsoft.com/fwlink/?linkid=2124701) to be installed, make sure you have installed it. HoYoLAB blocks requests from mainland China, Snap Hutao cannot bypass this rule.
+
+---
+
+1. Click `HoYoLAB Social Login` in the account panel, Snap Hutao will use WebView2 window to open the login page
+2. Login with your social media account
+3. **Wait for a moment**, Snap Hutao will automatically add your account
 
 @tab Cookie Login
 
 If you wish to sign in to your account with MiHoYo Passport cookie that extracted by youself, you can click `Input Manually`
 button in the account panel, and input your cookie with `SToken` field. If the entered cookie is valid, your account will
 be displayed in the account panel once your click the `Confirm` button.
-
-@tab QR Code Login
-
-**QR code login method only supports scanner from MiYouShe mobile app, with bound CN game server account.**
-
-1. Click on `QR Code Login` in the account panel, waiting for QR code be fully loaded
-2. Open MiYouShe mobile app, click `我的` (Me), click QR code scanner icon on the top left
-3. Scan the QR code provided by Snap Hutao, confirm the login request on your phone, and Snap Hutao will process it
 
 :::
 
