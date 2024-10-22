@@ -172,7 +172,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 如果你能希望使用自己提取的米哈游通行证 Cookie 登录到胡桃工具箱，可以在登录面板中点击“手动输入”，并在弹出的窗口中输入包含 SToken 的 `Cookie`。
 若你填入了一个有效的 Cookie，在点击“确认”后你将成功登录你的米游社账号并在账号面板中显示出来。
 
-手动获取含 `SToken` 字段的 Cookie 的方式可参考[使用第三方工具获取有 SToken 的 Cookie](../advanced/get-stoken-cookie-from-the-third-party.md) 文档。**请合理保存你的 Cookie，否则可能账号安全受到威胁！**
+手动获取含 `SToken` 字段的 Cookie 的方式可参考[使用第三方工具获取有 SToken 的 Cookie](./advanced/get-stoken-cookie-from-the-third-party.md) 文档。**请合理保存你的 Cookie，否则可能账号安全受到威胁！**
 
 @tab 网页登录（仅外服）
 
