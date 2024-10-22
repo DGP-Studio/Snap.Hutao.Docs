@@ -159,7 +159,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 ::: tabs
 
-@tab 米游社（手机验证码登陆）：
+@tab 米游社：手机验证码登陆
 
 **<font color="red">请提前确认已在米游社中已经绑定国服账号</font>**
 
@@ -167,7 +167,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 2. 填写接收到的验证码，核对无误后点击“确认”
 3. **稍等片刻**，胡桃将自动添加你的账号
 
-@tab HoYoLAB（帐密登陆）：
+@tab HoYoLAB：帐密登陆
 
 **<font color="red">请提前确认已在 HoYoLAB 中已经绑定外服账号</font>**
 
@@ -175,10 +175,9 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 2. 核对无误后点击“确认”
 3. **稍等片刻**，胡桃将自动添加你的账号
 
-@tab HoYoLAB（三方登陆）：
+@tab HoYoLAB：三方登陆
 
 **<font color="blue">含 Google、Apple、Facebook、X（Twitter）共四种</font>**
-
 
 1. <font color="red">本方式需要使用 [Microsoft WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701) 组件，请先确认你已经安装了该组件再进行登陆</font>
 2. <font color="red">HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制</font>
@@ -192,8 +191,8 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 **<font color="red">请合理保存你的 Cookie，否则账号安全可能受到威胁！</font>**
 
-如果你希望使用自己提取的米哈游通行证 Cookie 登录到胡桃工具箱，可以在登录面板中点击“手动输入”，并在弹出的窗口中输入包含 SToken 的 `Cookie`。
-若你填入了一个有效的 Cookie，在点击“确认”后**稍等片刻**，你将成功登录你的米游社账号并在账号面板中显示出来。
+如果你希望使用自己提取的米哈游通行证 Cookie 登录到胡桃工具箱，可以在登录面板中点击你希望登陆的 App 图标，然后选择“手动输入”，并在弹出的窗口中输入包含 SToken 的 `Cookie`。
+若你填入了一个有效的 Cookie，在点击“确认”后**稍等片刻**，你将成功登录你的论坛账号并在账号面板中显示出来。
 
 手动获取含 `SToken` 字段的 Cookie 的方式可参考[使用第三方工具获取有 SToken 的 Cookie](../advanced/get-stoken-cookie-from-the-third-party.md) 文档。
 
