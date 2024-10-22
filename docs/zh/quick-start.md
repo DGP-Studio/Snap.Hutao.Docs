@@ -197,7 +197,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 手动获取含 `SToken` 字段的 Cookie 的方式可参考[使用第三方工具获取有 SToken 的 Cookie](../advanced/get-stoken-cookie-from-the-third-party.md) 文档。
 
-
+:::
 
 ## <HopeIcon icon="iconfont icon-ask" size="1.7rem" color="var(--theme-color)" /> 安装常见问题
 
