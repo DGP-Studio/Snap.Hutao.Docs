@@ -179,8 +179,8 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 **<font color="blue">含 Google、Apple、Facebook、X（Twitter）共四种</font>**
 
-1. <p style=color:red>本方式需要使用 <a href="https://go.microsoft.com/fwlink/?linkid=2124701" style=color:#336699>Microsoft WebView2 运行时</a> 组件，请先确认你已经安装了该组件再进行登陆</p>
-2. <font color="red">HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制</font>
+1. 本方式需要使用 [Microsoft WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701) 组件，请先确认你已经安装了该组件再进行登陆
+2. HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制
 
 ---
 1. 点击账号面板中的“三方登录”按钮，胡桃将会通过 WebView2 跳转到相应的登录界面
