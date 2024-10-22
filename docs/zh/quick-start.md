@@ -176,7 +176,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 @tab HoYoLAB 社媒账号登录
 
-如果你的 HoYoLAB 账号与你的社交媒体账号绑定，你可以通过社交媒体账号登录 HoYoLAB，这一方法同样适用于 Snap Hutao 登录
+如果你的 HoYoLAB 账号与你的社交媒体账号绑定，那么你可以在胡桃工具箱中通过社交媒体账号登录 HoYoLAB
 
 本方式需要使用 [Microsoft WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701) 组件，请先确认你已经安装了该组件。HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制
 
