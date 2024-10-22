@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 22 Oct 2024 05:28:21 GMT</pubDate>
-    <lastBuildDate>Tue, 22 Oct 2024 05:28:21 GMT</lastBuildDate>
+    <pubDate>Tue, 22 Oct 2024 06:43:30 GMT</pubDate>
+    <lastBuildDate>Tue, 22 Oct 2024 06:43:30 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -1984,9 +1984,8 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-17" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-17"> 网页翻译进度：</label>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-18" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-18"> 英语</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 繁体中文（进行中 作者：<a href="https://github.com/SSB-ARFCN" target="_blank" rel="noopener noreferrer">SSB-ARFCN</a>）</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 印尼语（进行中 作者：<a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">NatsumeAoii</a>）</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-21" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-21"> 俄语（进行中 作者：<a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">QweRezOn</a>）</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-19" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-19"> 印尼语（进行中 作者：<a href="https://github.com/NatsumeAoii" target="_blank" rel="noopener noreferrer">NatsumeAoii</a>）</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-20" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-20"> 俄语（进行中 作者：<a href="https://github.com/QweRezOn" target="_blank" rel="noopener noreferrer">QweRezOn</a>）</label></li>
 </ul>
 </li>
 </ul>
