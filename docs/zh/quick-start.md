@@ -159,58 +159,45 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 ::: tabs
 
-@tab 国服：手机验证码登陆
+@tab 米游社（手机验证码登陆）：
 
-:::: warning
-请提前确认已在米游社中已经绑定国服账号
+**<font color="red">请提前确认已在米游社中已经绑定国服账号</font>**
 
-::::
-
-1. 点击账号面板中的“手机验证码”按钮，填写手机号并点击“发送”
+1. 点击账号面板中的“米游社”，点击“手机验证码”按钮，填写手机号并点击“发送”
 2. 填写接收到的验证码，核对无误后点击“确认”
 3. **稍等片刻**，胡桃将自动添加你的账号
 
-@tab 外服：帐密登陆
+@tab HoYoLAB（帐密登陆）：
 
-:::: warning
-请提前确认已在 HoYoLAB 中已经绑定外服账号
+**<font color="red">请提前确认已在 HoYoLAB 中已经绑定外服账号</font>**
 
-::::
-
-1. 点击“帐密登陆”按钮，填写你的 HoYoLAB 账号（通常为邮箱）与密码
+1. 点击账号面板的“HoYoLAB”按钮，选择“帐密登陆”按钮，填写你的 HoYoLAB 账号（通常为邮箱）与密码
 2. 核对无误后点击“确认”
 3. **稍等片刻**，胡桃将自动添加你的账号
 
-@tab 外服：三方登录
+@tab HoYoLAB（三方登陆）：
 
-:::: info
-含 Google、Apple、Facebook、X（Twitter）共四种
+**<font color="blue">含 Google、Apple、Facebook、X（Twitter）共四种</font>**
 
-::::
 
-:::: warning
-1. 本方式需要使用 [Microsoft WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701) 组件，请先确认你已经安装了该组件再进行登陆
-2. HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制
+1. <font color="red">本方式需要使用 [Microsoft WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701) 组件，请先确认你已经安装了该组件再进行登陆</font>
+2. <font color="red">HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制</font>
 
-::::
-
+---
 1. 点击账号面板中的“三方登录”按钮，胡桃将会通过 WebView2 跳转到相应的登录界面
 2. 在该界面中登录你的账号
 3. **稍等片刻**，胡桃工具箱会将当前账号添加进本地客户端，并在账号面板中显示出来
 
 @tab 通用：手动输入
 
-:::: warning
-请合理保存你的 Cookie，否则账号安全可能受到威胁！
-
-::::
+**<font color="red">请合理保存你的 Cookie，否则账号安全可能受到威胁！</font>**
 
 如果你希望使用自己提取的米哈游通行证 Cookie 登录到胡桃工具箱，可以在登录面板中点击“手动输入”，并在弹出的窗口中输入包含 SToken 的 `Cookie`。
 若你填入了一个有效的 Cookie，在点击“确认”后**稍等片刻**，你将成功登录你的米游社账号并在账号面板中显示出来。
 
 手动获取含 `SToken` 字段的 Cookie 的方式可参考[使用第三方工具获取有 SToken 的 Cookie](../advanced/get-stoken-cookie-from-the-third-party.md) 文档。
 
-:::
+
 
 ## <HopeIcon icon="iconfont icon-ask" size="1.7rem" color="var(--theme-color)" /> 安装常见问题
 
