@@ -144,5 +144,4 @@ DigitalOcean 为 Snap Hutao 提供了可靠的数据备份储存空间
 [Ducalis.io](https://hi.ducalis.io/) 为 Snap Hutao 项目提供了完整的决策工具包用于项目管理
 
 JetBrains 为 Snap Hutao 开发团队提供了优秀的软件开发工具
-
 :::

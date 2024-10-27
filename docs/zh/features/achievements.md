@@ -28,13 +28,12 @@ description: 胡桃工具箱提供原神成就管理功能，你可以通过它�
 
 ## 成就导入 <Badge text="UIAF" type="info" />
 
-- 胡桃工具箱使用 [UIAF 统一可交换成就标准](https://uigf.org/zh/standards/UIAF.html) 格式的文件来储存用户的成就数据
+- 胡桃工具箱使用 [UIAF 统一可交换成就标准](https://uigf.org/zh/standards/uiaf.html) 格式的文件来储存用户的成就数据
   - 该标准允许用户从**其它成就导出工具**中通过 Url 协议和（或）剪贴板将数据导入到胡桃工具箱中
 - 你可以点击成就页面右上角隐藏菜单中的“导入”按钮，并选择“从 UIAF 文件导入”以加载以 UIAF 数据格式储存的第三方成就数据
 
 ::: tip
 如果安装了多个胡桃工具箱（如 Alpha 版和正式版），希望更改 `URL:hutao` 链接的默认指向应用，请在“Windows 设置-应用-默认应用-按协议指定默认应用”页面，找到 `URL:hutao` 项，点击图标以进行更改。
-
 :::
 
 ## 成就导出 <Badge text="UIAF" type="info" />
