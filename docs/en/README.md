@@ -125,54 +125,53 @@ You can make contribution by the following ways:
 
 Snap Hutao is currently using sponsored software from the following service providers.
 
-<table border="1" style="width: 100%;">
-    <tr style="max-width: 33.3%;">
+<table style="width: 60%">
+    <tr style="max-width: 20%">
         <td align="center">
             <a href="https://www.netlify.com" rel="nofollow">
-                <img src="/svg/netlify.svg">
+                <img src="/svg/netlify.svg" />
             </a>
         </td>
         <td align="center">
             <a href="https://crowdin.com" rel="nofollow">
-                <img src="/svg/crowdin-core-logo-cDark.svg">
+                <img src="/svg/crowdin-core-logo-cDark.svg" />
             </a>
         </td>
         <td align="center">
             <a href="https://navicat.com" rel="nofollow">
-                <img src="/svg/navicat.svg">
+                <img src="/svg/navicat.svg" />
             </a>
         </td>
     </tr>
-    <tr style="max-width: 33.3%;">
-        <td align="center" style="max-width: 33.3%;">
+    <tr style="max-width: 20%">
+        <td align="center">
             <a href="https://about.signpath.io" rel="nofollow">
-                <img src="/svg/signpath.svg">
+                <img src="/svg/signpath.svg" />
             </a>
         </td>
-        <td align="center" style="max-width: 33.3%;">
+        <td align="center">
             <a href="https://1password.com" rel="nofollow">
-                <img src="/svg/1Password.svg">
+                <img src="/svg/1Password.svg" />
             </a>
         </td>
-        <td align="center" style="max-width: 33.3%;">
+        <td align="center">
             <a href="https://www.digitalocean.com" rel="nofollow">
-                <img src="/svg/digitalocean.svg">
+                <img src="/svg/digitalocean.svg" />
             </a>
         </td>
     </tr>
-    <tr style="max-width: 33.3%;">
+    <tr style="max-width: 20%">
         <td align="center">
             <a href="https://hi.ducalis.io" rel="nofollow">
-                <img src="/svg/ducalis.svg">
+                <img src="/svg/ducalis.svg" />
             </a>
         </td>
         <td align="center">
             <a href="https://www.jetbrains.com/opensource" rel="nofollow">
-                <img src="/svg/jetbrains.svg">
+                <img src="/svg/jetbrains.svg" />
             </a>
         </td>
-        <td align="center">
-        </td>
+        <td></td>
     </tr>
 </table>
 
