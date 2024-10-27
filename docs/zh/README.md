@@ -124,10 +124,56 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多
 
 Snap Hutao 目前使用了以下软件厂商赞助的服务
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) |  [![](/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/)   |           [![](/images/202409/navicat.png =180x60)](https://navicat.com/)            |
-| :--------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
-|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              | [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/) | [![](/images/202312/digitalocean-horizontal.svg =180x35)](https://about.signpath.io) |
-|                       [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)                        |      [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)       |
+<table border="1" style="width: 100%;">
+    <tr style="max-width: 33.3%;">
+        <td align="center">
+            <a href="https://www.netlify.com" rel="nofollow">
+                <img src="./svg/netlify.svg">
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://crowdin.com" rel="nofollow">
+                <img src="./svg/crowdin-core-logo-cDark.svg">
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://navicat.com" rel="nofollow">
+                <img src="./svg/navicat.svg">
+            </a>
+        </td>
+    </tr>
+    <tr style="max-width: 33.3%;">
+        <td align="center" style="max-width: 33.3%;">
+            <a href="https://about.signpath.io" rel="nofollow">
+                <img src="./svg/signpath.svg">
+            </a>
+        </td>
+        <td align="center" style="max-width: 33.3%;">
+            <a href="https://1password.com" rel="nofollow">
+                <img src="./svg/1Password.svg">
+            </a>
+        </td>
+        <td align="center" style="max-width: 33.3%;">
+            <a href="https://www.digitalocean.com" rel="nofollow">
+                <img src="./svg/digitalocean.svg">
+            </a>
+        </td>
+    </tr>
+    <tr style="max-width: 33.3%;">
+        <td align="center">
+            <a href="https://hi.ducalis.io" rel="nofollow">
+                <img src="./svg/ducalis.svg">
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://www.jetbrains.com/opensource" rel="nofollow">
+                <img src="./svg/jetbrains.svg">
+            </a>
+        </td>
+        <td align="center">
+        </td>
+    </tr>
+</table>
 
 Netlify 为 Snap Hutao 提供了文档和主页的托管服务
 
@@ -144,5 +190,4 @@ DigitalOcean 为 Snap Hutao 提供了可靠的数据备份储存空间
 [Ducalis.io](https://hi.ducalis.io/) 为 Snap Hutao 项目提供了完整的决策工具包用于项目管理
 
 JetBrains 为 Snap Hutao 开发团队提供了优秀的软件开发工具
-
 :::

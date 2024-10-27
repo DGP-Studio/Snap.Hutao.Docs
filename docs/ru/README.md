@@ -124,9 +124,56 @@ Snap Hutao - это бесплатное программное обеспече
 
 Snap Hutao в настоящее время использует спонсорское программное обеспечение от следующих поставщиков услуг.
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) | [![](https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |          [![](/images/202312/gitlab-logo.svg =180x60)](https://gitlab.cn/)           |
-| :--------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
-|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              |                        [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/)                         | [![](/images/202312/digitalocean-horizontal.svg =180x40)](https://about.signpath.io) |
+<table border="1" style="width: 100%;">
+    <tr style="max-width: 33.3%;">
+        <td align="center">
+            <a href="https://www.netlify.com" rel="nofollow">
+                <img src="./svg/netlify.svg">
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://crowdin.com" rel="nofollow">
+                <img src="./svg/crowdin-core-logo-cDark.svg">
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://navicat.com" rel="nofollow">
+                <img src="./svg/navicat.svg">
+            </a>
+        </td>
+    </tr>
+    <tr style="max-width: 33.3%;">
+        <td align="center" style="max-width: 33.3%;">
+            <a href="https://about.signpath.io" rel="nofollow">
+                <img src="./svg/signpath.svg">
+            </a>
+        </td>
+        <td align="center" style="max-width: 33.3%;">
+            <a href="https://1password.com" rel="nofollow">
+                <img src="./svg/1Password.svg">
+            </a>
+        </td>
+        <td align="center" style="max-width: 33.3%;">
+            <a href="https://www.digitalocean.com" rel="nofollow">
+                <img src="./svg/digitalocean.svg">
+            </a>
+        </td>
+    </tr>
+    <tr style="max-width: 33.3%;">
+        <td align="center">
+            <a href="https://hi.ducalis.io" rel="nofollow">
+                <img src="./svg/ducalis.svg">
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://www.jetbrains.com/opensource" rel="nofollow">
+                <img src="./svg/jetbrains.svg">
+            </a>
+        </td>
+        <td align="center">
+        </td>
+    </tr>
+</table>
 
 Netlify предоставляет услуги хостинга документации и домашней страницы для Snap Hutao
 
