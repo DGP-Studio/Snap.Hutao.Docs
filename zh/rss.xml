@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 25 Oct 2024 08:37:11 GMT</pubDate>
-    <lastBuildDate>Fri, 25 Oct 2024 08:37:11 GMT</lastBuildDate>
+    <pubDate>Sun, 27 Oct 2024 10:24:43 GMT</pubDate>
+    <lastBuildDate>Sun, 27 Oct 2024 10:24:43 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -96,7 +96,7 @@
 <ul>
 <li>请参考如下思路
 <ul>
-<li>可以自行创建一个批处理文件，内容参考<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">此 issue</a>中，令胡桃以管理员模式直接运行的命令。</li>
+<li>可以自行创建一个批处理文件，内容参考<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">此 issue</a> 中，令胡桃以管理员模式直接运行的命令。</li>
 <li>设置一个<strong>计划任务程序</strong>令上述批处理文件开机自启，或将上述批处理文件加入<strong>启动项</strong>中</li>
 <li>使用 <code>SkipUAC</code> 等可以使软件以管理员身份静默自启的程序</li>
 </ul>
@@ -181,7 +181,12 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <ul>
 <li>Snap Hutao 版本</li>
 <li>设备 ID（用于反馈 bug、拉取错误日志等）</li>
-<li>设备网络信息（便于快速设置网络及排查问题）</li>
+<li>设备网络信息（便于快速设置网络及排查问题）
+<ul>
+<li>注，因代理软件的实现方式不同，部分软件无法被胡桃检测到；即，在“已启用代理”的情况下软件仍显示“无代理”</li>
+<li>Alpha 版本始终显示归属地为 Oversea 是正常现象</li>
+</ul>
+</li>
 <li>Webview 2 运行时版本信息</li>
 </ul>
 </li>
@@ -249,7 +254,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <p>如果你有本页所述技术之一且有兴趣加入 Snap Hutao 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！</p>
 <p><strong>我们不会为下面需求设置明确的门槛。乐于探索新领域的精神、对技术的热情以及负责任的态度对于开源社区才是更重要的。</strong></p>
 <blockquote>
-<p>太忙？只是想快速解决某个你遇到的问题？阅读 <a href="/zh/development/contribute.html" target="_blank">开发手册</a> 并直接发起你的 Pull Request，我们会认真对待有建设性的代码提交。</p>
+<p>太忙？只是想快速解决某个你遇到的问题？阅读<a href="/zh/development/contribute.html" target="_blank">开发手册</a>并直接发起你的 Pull Request，我们会认真对待有建设性的代码提交。</p>
 </blockquote>
 <h2></h2>
 <p><strong>DGP-Studio 的组织成员可以：</strong></p>
@@ -312,7 +317,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <pubDate>Thu, 12 Oct 2023 07:23:38 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>胡桃工具箱使用 <code>C#</code> 和 <code>.NET 框架</code> 开发桌面客户端和服务端。我们广泛地接受来自开源社区的反馈，如果你愿意贡献你的代码，请阅读本页的指导文档。</p>
-<p>你可以在 GitHub 上查看所有当前仍然<a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E5%AE%8C%E6%88%90" target="_blank" rel="noopener noreferrer">未解决的问题</a>。</p>
+<p>你可以在 GitHub 上查看所有当前仍然<a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%E5%B7%B2%E5%AE%8C%E6%88%90" target="_blank" rel="noopener noreferrer">未解决的问题</a>。</p>
 <h2></h2>
 <ol>
 <li>下载并安装 <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer">Visual Studio</a>
@@ -328,7 +333,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 </ol>
 <h2></h2>
 <ol>
-<li>从 <a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">微软商店</a> 或 <a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">微软官网</a> 下载并安装 <code>Sysinternals Suite</code></li>
+<li>从<a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">微软商店</a>或<a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">微软官网</a>下载并安装 <code>Sysinternals Suite</code></li>
 <li>从开始菜单或解压后的文件中找到 <code>DebugView</code> 并启动</li>
 <li>启动 Snap Hutao 主程序</li>
 <li>观察 <code>DebugView</code> 的输出</li>
@@ -344,7 +349,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <p>如果你希望试用最新的 Alpha 版本，请先安装 <strong><a href="https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt" target="_blank" rel="noopener noreferrer">DGP_Studio_CA.crt</a></strong> 到 <strong>受信任的根证书颁发机构</strong> 以安装测试版安装包</p>
 </div>
 <p>一旦你进行了 <code>push</code> 操作，一个 GitHub Actions 脚本将自动运行以构建所在分支的最新解决方案。如果分支名称是 <code>main</code>、<code>develop</code> 或 <code>feat</code> 类分支，脚本还将自动上传其构建的 <code>Snap Hutao Alpha</code> 压缩包以供测试；其他分支仅验证可构建性而不提供上传。</p>
-<p>你可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml" target="_blank" rel="noopener noreferrer">Alpha 流水线</a> 中找到全部的编译记录。</p>
+<p>你可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml" target="_blank" rel="noopener noreferrer">Alpha 流水线</a>中找到全部的编译记录。</p>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/contribute.html" type="image/"/>
     </item>
@@ -411,7 +416,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 </details>
 <details class="hint-container details"><summary>环境检测</summary>
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01T3lLLI1g6dyDspUsf_!!1797064093.png_.webp" alt="" loading="lazy">
-在环境检测环节，胡桃工具箱将使用两个小型测试来帮助用户确定是否安装了有助于提升使用体验的系统环境：<a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">Segoe Fluent Icons 字体</a> 和 <a href="https://go.microsoft.com/fwlink/?linkid=2124701" target="_blank" rel="noopener noreferrer">WebView2 运行时</a>。</p>
+在环境检测环节，胡桃工具箱将使用两个小型测试来帮助用户确定是否安装了有助于提升使用体验的系统环境：<a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">Segoe Fluent Icons 字体</a>和 <a href="https://go.microsoft.com/fwlink/?linkid=2124701" target="_blank" rel="noopener noreferrer">WebView2 运行时</a>。</p>
 <p>你可以根据提示来判断这两个环境包是否已安装，若未安装则可以点击对应的链接按钮以下载并安装所需要的内容。</p>
 <p>上方的图片是在拥有完整环境下，该步骤中应显示出的效果。</p>
 </details>
@@ -447,14 +452,14 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <h2>胡桃 API &amp; 胡桃云开发者许可证</h2>
 <p>胡桃 API 是一个将胡桃深渊数据库公开的接口服务。开源软件作者可以通过胡桃 API 从胡桃数据库获取数据。</p>
 <p>获得胡桃 API 权限的开发者同时也获得胡桃工具箱内胡桃云功能的完整权限作为福利。</p>
-<p>开发者可以通过 <a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">胡桃 API 开放平台</a>，提交信息申请权限。</p>
+<p>开发者可以通过<a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">胡桃 API 开放平台</a>，提交信息申请权限。</p>
 <h2>Enka API 中国加速服务</h2>
 <p><a href="https://enka.network/" target="_blank" rel="noopener noreferrer">Enka Network</a> 是一个优秀的原神工具，它可以为用户获取当前角色展柜内角色的详细数据。
 由于 Enka Network 使用了中国网络访问受阻的网络服务，其功能在中国地区难以获得稳定性保证。</p>
-<p>胡桃工具箱在开发 <a href="/zh/features/character-data.html" target="_blank">我的角色</a> 功能时使用了 Enka Network 的数据，并搭建了中转服务器以保证胡桃工具箱中国用户的使用体验。</p>
+<p>胡桃工具箱在开发<a href="/zh/features/character-data.html" target="_blank">我的角色</a>功能时使用了 Enka Network 的数据，并搭建了中转服务器以保证胡桃工具箱中国用户的使用体验。</p>
 <p>开发者可以在“Snap Hutao 开发者交流群”或“<a href="https://discord.gg/Yb8bykaUKp" target="_blank" rel="noopener noreferrer">Discord 频道</a>”中向管理员申请使用中转服务。</p>
 <h2>UIGF 可交换数据记录</h2>
-<p>胡桃工具箱希望用户的数据能在具有不同特色的开源工具自由流动，并因此草拟了最初版本的 <a href="https://uigf.org/zh/standards/UIGF.html" target="_blank" rel="noopener noreferrer">统一可交换抽卡记录标准（UIGF）</a>。
+<p>胡桃工具箱希望用户的数据能在具有不同特色的开源工具自由流动，并因此草拟了最初版本的<a href="https://uigf.org/zh/standards/UIGF.html" target="_blank" rel="noopener noreferrer">统一可交换抽卡记录标准（UIGF）</a>。
 现在这一标准获得了更多开发者的相应，更详细的标准正不断更新。</p>
 <p>众多的开发者现在聚集于 <a href="https://github.com/UIGF-org" target="_blank" rel="noopener noreferrer">UIGF-Org</a>，我们希望通过维护这一组织让更多的开发者通过接触更多的用户，获得更多的反馈与技术上的进步，创造更多优秀的原神开源工具。</p>
 ]]></content:encoded>
@@ -580,8 +585,8 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <category>FAQ</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<p>你可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue" target="_blank" rel="noopener noreferrer">GitHub Issue 页面</a> 查看全部的议题</p>
-<p>| 类别                                                                                                                                | 特征                |
+<p>你可以在 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue" target="_blank" rel="noopener noreferrer">GitHub Issue 页面</a>查看全部的议题</p>
+<p>| 类别                                                                                                                                  | 特征                |
 |</p>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/known-issue.html&amp;has_description=False" type="image/"/>
@@ -1074,7 +1079,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <p class="hint-container-title">重大改变</p>
 <p>Snap Hutao 在近期获得了 SignPath 基金会的赞助的代码签名证书。自1.9.0版本起，我们将使用全新的证书为 Snap Hutao 安装包签名。</p>
 <p>拥有新签名的程序将与旧版本不兼容，用户在从1.8.4及更旧版本更新至1.9.0及更新版本时，需要首先卸载旧版本再全新安装新版本客户端。由于胡桃数据目录的设计，用户不会丢失任何重要数据。</p>
-<p>你可以阅读<a href="/zh/blog/version-1-9-0-breaking-changes.html" target="_blank">1.9.0 版本重大改变详解</a>一文来更深入地了解这次版本更新中签名变化对 Snap Hutao 项目的改变。</p>
+<p>你可以阅读 <a href="/zh/blog/version-1-9-0-breaking-changes.html" target="_blank">1.9.0 版本重大改变详解</a> 一文来更深入地了解这次版本更新中签名变化对 Snap Hutao 项目的改变。</p>
 </div>
 <ul>
 <li>新增 ➕
@@ -1676,8 +1681,8 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <li>修复
 <ul>
 <li>上传深境螺旋数据后无法获得胡桃云奖励的问题</li>
-<li>HoYoLab 不支持 Facebook 登录的问题</li>
-<li>HoYoLab 签到问题</li>
+<li>HoYoLAB 不支持 Facebook 登录的问题</li>
+<li>HoYoLAB 签到问题</li>
 <li>获取抽卡记录过程中值为空时会产生的问题</li>
 </ul>
 </li>
@@ -1709,7 +1714,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <li>修复
 <ul>
 <li>渠道服帐号的实时便笺无法获取数据的问题</li>
-<li>HoYoLab 帐号的登录问题</li>
+<li>HoYoLAB 帐号的登录问题</li>
 </ul>
 </li>
 <li>优化
@@ -1723,7 +1728,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <li>新增
 <ul>
 <li>胡桃帐号的注册和登录的基本功能</li>
-<li>HoYoLab 帐号的登录并增加其在以下功能的支持
+<li>HoYoLAB 帐号的登录并增加其在以下功能的支持
 <ul>
 <li>网页登录和 SToken Cookie 登录</li>
 <li>深境螺旋记录</li>
@@ -1911,11 +1916,11 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <li>连接到 米游社 / HoYoLAB 服务器时失败
 <ul>
 <li>如果仅是偶尔出现的问题，你可以考虑忽略该错误</li>
-<li>如果持续该错误，请检查本地网络到目标服务器的连接是否正常</li>
+<li>如果持续该错误，请检查本地网络到目标服务器的连接是否正常，或者向开发者汇报</li>
 </ul>
 </li>
 </ul>
-<p>如果你使用了网络代理，请务必检查是否<a href="/zh/advanced/FAQ.html#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86%E4%BD%BF%E7%94%A8%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1" target="_blank">解除了 Windows 容器 Loopback 限制</a></p>
+<p>如果你使用了网络代理，请务必检查是否<a href="/zh/advanced/FAQ.html#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86%E4%BD%BF%E7%94%A8%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1" target="_blank">解除了 Windows 容器 Loopback 限制</a>（注，因代理软件的实现方式不同，部分软件无法被胡桃检测到；即，在“已启用代理”的情况下软件仍显示“无代理”）</p>
 <h2>资源下载失败</h2>
 <p>一小部分的静态资源的下载失败不会明显导致 Snap Hutao 的体验变差，客户端会在需要时自动重新下载缺失的图片资源。</p>
 <h3><code>Received an unexpected EOF or 0 bytes from the transport stream.</code></h3>
@@ -2070,9 +2075,9 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <link>https://hut.ao/zh/development/symposium1.html</link>
       <guid>https://hut.ao/zh/development/symposium1.html</guid>
       <source url="https://hut.ao/zh/rss.xml">第一期开发组座谈会</source>
-      <description>警告：下面的部分内容可能存在过时的信息，请移步GitHub以获取最新信息。 第一期开发组座谈会 复制自 GitHub 讨论帖，总结于群讨论 为啥胡桃在电脑上要做成类似 uwp 格式的应用？ 开发 MSIX 封装的应用是桌面端的开发趋势，开发体验更佳，用户体验也能提升。 胡桃的作用是啥，和 SG 有什么区别？ 胡桃是 SG 的次世代版本，更新/更快/更强...</description>
+      <description>警告：下面的部分内容可能存在过时的信息，请移步 GitHub 以获取最新信息。 第一期开发组座谈会 复制自 GitHub 讨论帖，总结于群讨论 为啥胡桃在电脑上要做成类似 uwp 格式的应用？ 开发 MSIX 封装的应用是桌面端的开发趋势，开发体验更佳，用户体验也能提升。 胡桃的作用是啥，和 SG 有什么区别？ 胡桃是 SG 的次世代版本，更新/更快/...</description>
       <pubDate>Wed, 11 Jan 2023 09:40:39 GMT</pubDate>
-      <content:encoded><![CDATA[<p><strong>警告：下面的部分内容可能存在过时的信息，请移步<a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub</a>以获取最新信息。</strong></p>
+      <content:encoded><![CDATA[<p><strong>警告：下面的部分内容可能存在过时的信息，请移步 <a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub</a> 以获取最新信息。</strong></p>
 <h1>第一期开发组座谈会</h1>
 <p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/46" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
 <h2>为啥胡桃在电脑上要做成类似 uwp 格式的应用？</h2>
@@ -2117,9 +2122,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/development/symposium2.html</link>
       <guid>https://hut.ao/zh/development/symposium2.html</guid>
       <source url="https://hut.ao/zh/rss.xml">第二期开发组座谈会</source>
-      <description>警告：下面的部分内容可能存在过时的信息，请移步GitHub以获取最新信息。 第二期开发组座谈会 复制自 GitHub 讨论帖，总结于群讨论 现在成就导出的 json 格式也是 UIGF 的嘛 A: UIAF 能否适配祈愿系统数据 UEFI 旧版本的导入，和 SG 一样就可以 A: 首先它叫 UIGF 格式，其次一直是适配的，只是 SG 的导入导出规则较...</description>
+      <description>警告：下面的部分内容可能存在过时的信息，请移步 GitHub 以获取最新信息。 第二期开发组座谈会 复制自 GitHub 讨论帖，总结于群讨论 现在成就导出的 json 格式也是 UIGF 的嘛 A: UIAF 能否适配祈愿系统数据 UEFI 旧版本的导入，和 SG 一样就可以 A: 首先它叫 UIGF 格式，其次一直是适配的，只是 SG 的导入导出规...</description>
       <pubDate>Wed, 11 Jan 2023 09:40:39 GMT</pubDate>
-      <content:encoded><![CDATA[<p><strong>警告：下面的部分内容可能存在过时的信息，请移步<a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub</a>以获取最新信息。</strong></p>
+      <content:encoded><![CDATA[<p><strong>警告：下面的部分内容可能存在过时的信息，请移步 <a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub</a> 以获取最新信息。</strong></p>
 <h1>第二期开发组座谈会</h1>
 <p>复制自 <a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/280" target="_blank" rel="noopener noreferrer">GitHub 讨论帖</a>，总结于群讨论</p>
 <h2>现在成就导出的 json 格式也是 UIGF 的嘛</h2>
@@ -2165,7 +2170,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li><strong>储存</strong>
 <ul>
-<li>米游社和 HoYoLab Cookie</li>
+<li>米游社和 HoYoLAB Cookie</li>
 <li>胡桃的软件设置信息</li>
 <li>全部的用户数据</li>
 </ul>
@@ -2339,7 +2344,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li>在胡桃工具箱的左侧栏目中，点击“养成计划”功能</li>
 <li>点击右上角“新建计划”并命名</li>
-<li>按照 <a href="/zh/features/character-data.html#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97" target="_blank">将当前选定角色加入养成计算</a> 或 <a href="/zh/features/character-wiki.html#%E5%B0%86-wiki-%E4%B8%AD%E8%A7%92%E8%89%B2%E6%B7%BB%E5%8A%A0%E8%87%B3%E5%85%BB%E6%88%90%E8%AE%A1%E5%88%92" target="_blank">将 wiki 中角色添加至养成计划</a> 的指引添加至少一个角色到刚才创建的计划
+<li>按照<a href="/zh/features/character-data.html#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97" target="_blank">将当前选定角色加入养成计算</a>或<a href="/zh/features/character-wiki.html#%E5%B0%86-wiki-%E4%B8%AD%E8%A7%92%E8%89%B2%E6%B7%BB%E5%8A%A0%E8%87%B3%E5%85%BB%E6%88%90%E8%AE%A1%E5%88%92" target="_blank">将 wiki 中角色添加至养成计划</a>的指引添加至少一个角色到刚才创建的计划
 <ul>
 <li>角色的等级或武器等级至少有一项未满级，全满级角色无法添加至培养计划中</li>
 </ul>
@@ -2430,7 +2435,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li>胡桃工具箱的图标：您可以在胡桃的<a href="/" target="_blank">首页</a>查看它的原图
 <ul>
-<li>该图像作品的作者为 <a href="https://space.bilibili.com/274422134" target="_blank" rel="noopener noreferrer">画画的芦苇</a><details class="hint-container details"><summary>图标的绘制过程</summary>
+<li>该图像作品的作者为<a href="https://space.bilibili.com/274422134" target="_blank" rel="noopener noreferrer">画画的芦苇</a><details class="hint-container details"><summary>图标的绘制过程</summary>
 </details>
 </li>
 <li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a> 已被所有者授权使用</li>
@@ -2830,7 +2835,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <content:encoded><![CDATA[
 <h2>总则</h2>
 <ul>
-<li>本“用户使用协议和法律声明”（以下简称“条款”或“使用协议”）适用于<a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio 开发团队</a>（以下简称“本团队”或“我方”）开发的全部软件作品、各开发项目的官方网站、附属的自媒体账号等。
+<li>本“用户使用协议和法律声明”（以下简称“条款”或“使用协议”）适用于 <a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio 开发团队</a>（以下简称“本团队”或“我方”）开发的全部软件作品、各开发项目的官方网站、附属的自媒体账号等。
 <ul>
 <li>请您仔细阅读本用户使用协议的<strong>全部内容</strong>，在您阅读“使用协议”后，若对此用户使用协议中的<strong>任何条款</strong>有异议，请立刻停止使用本团队所开发的任意项目。</li>
 <li>如您未满 18 周岁，请在法定监护人陪同下仔细阅读并充分理解本协议，并征得法定监护人的同意后使用本团队所开发的任意项目。</li>
@@ -2848,7 +2853,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>二、本软件以“学习开发知识”、“积累开发经验”为目的进行开发，所有项目所提供的功能，均“开源”、“非经营性质”，如用户对本团队所开发的任意项目的安全性表示不满，请立即卸载/删除/停用，如您仍在正常使用，则表示您认可本团队所开发的任意项目的安全性。</p>
 </li>
 <li>
-<p>三、一切因使用本团队所开发的任意项目的内容而导致的“任何意外损失（包括但不限于：软件、硬件、财产以及虚拟物品等）”、“合约毁坏”、“诽谤”、“版权或知识产权侵犯”及其所造成的损失与责任，均为使用者自身对于网络公开的开源软件的使用过程中自身发生的使用行为所引致的“损失与责任”，基于全部作品在其开放源代码的位置(即<a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">Github</a>)中所声明的<a href="https://github.com/DGP-Studio/Snap.Hutao/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT license</a>以及本声明所约定的内容，应当认定前述的“损失与责任”与全部项目的有关开发者无责任关联。</p>
+<p>三、一切因使用本团队所开发的任意项目的内容而导致的“任何意外损失（包括但不限于：软件、硬件、财产以及虚拟物品等）”、“合约毁坏”、“诽谤”、“版权或知识产权侵犯”及其所造成的损失与责任，均为使用者自身对于网络公开的开源软件的使用过程中自身发生的使用行为所引致的“损失与责任”，基于全部作品在其开放源代码的位置（即 <a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">Github</a> ）中所声明的 <a href="https://github.com/DGP-Studio/Snap.Hutao/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT license</a> 以及本声明所约定的内容，应当认定前述的“损失与责任”与全部项目的有关开发者无责任关联。</p>
 </li>
 <li>
 <p>四、用户使用本团队所开发的任意项目期间，本团队<strong>不做</strong>任何不发生如下情况的保证：</p>
@@ -2924,7 +2929,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>十四、您和本开发团队均是独立的主体，在任何情况下本协议不构成本开发团队对用户的任何形式的明示或暗示担保或条件，双方之间亦不构成代理、合伙、合营或雇佣关系。</p>
 </li>
 <li>
-<p>十五、本“用户使用协议和法律声明”中，“我方”或称“本开发团队”（区别于“用户”或“您”）的实际主体为<a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio 开发团队</a>的团队整体及每个成员个人，即包含前述网站中，<a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio 开发团队</a>的全部成员。</p>
+<p>十五、本“用户使用协议和法律声明”中，“我方”或称“本开发团队”（区别于“用户”或“您”）的实际主体为 <a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio 开发团队</a>的团队整体及每个成员个人，即包含前述网站中，<a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio 开发团队</a>的全部成员。</p>
 </li>
 </ul>
 ]]></content:encoded>
@@ -3285,7 +3290,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </ul>
 <h2>成就导入 </h2>
 <ul>
-<li>胡桃工具箱使用 <a href="https://uigf.org/zh/standards/UIAF.html" target="_blank" rel="noopener noreferrer">UIAF 统一可交换成就标准</a> 格式的文件来储存用户的成就数据
+<li>胡桃工具箱使用 <a href="https://uigf.org/zh/standards/uiaf.html" target="_blank" rel="noopener noreferrer">UIAF 统一可交换成就标准</a> 格式的文件来储存用户的成就数据
 <ul>
 <li>该标准允许用户从<strong>其它成就导出工具</strong>中通过 Url 协议和（或）剪贴板将数据导入到胡桃工具箱中</li>
 </ul>
@@ -3456,7 +3461,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 搜索项目 Issue，检查是否已有相同或类似的问题</label></li>
 </ul>
 <p>若执行上述步骤后没有得到问题解决方案，你可以在 GitHub 上发起一个新的 Issue</p>
-<p>如果你不清楚怎样是一个好的 Issue，请阅读 Snap Hutao 过去的一些<a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98+is%3Aclosed" target="_blank" rel="noopener noreferrer">优质问题</a></p>
+<p>如果你不清楚怎样是一个好的 Issue，请阅读 Snap Hutao 过去的一些<a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98" target="_blank" rel="noopener noreferrer">优质问题</a></p>
 <ul>
 <li>通过 GitHub 提交问题
 <ul>
@@ -3481,7 +3486,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h2>远程调试</h2>
 <p>在一些问题无法被定位时（即开发者无法在自己的设备中复现问题时），开发者可能会向社区成员询问发起远程调试，在有问题的设备上 debug 以寻找问题解决方案。在这种情况下，若你同意，一个指定的管理员将通过 QQ 加你为好友并拉你进入远程协助群以方便交流。</p>
 <p><strong>参与远程调试的计算机需要至少 15GB 的可用硬盘空间以及充足的网络流量。</strong></p>
-<p>在开始调试之前，你需要执行 <a href="/zh/development/contribute.html#%E8%AE%BE%E7%BD%AE-snaphutao-%E9%A1%B9%E7%9B%AE" target="_blank">贡献代码-设置 Snap Hutao 项目</a> 中的第 <code>1～3</code> 步，并下载安装 <a href="https://www.todesk.com/download.html" target="_blank" rel="noopener noreferrer">ToDesk</a> 远程工具。</p>
+<p>在开始调试之前，你需要执行<a href="/zh/development/contribute.html#%E8%AE%BE%E7%BD%AE-snaphutao-%E9%A1%B9%E7%9B%AE" target="_blank">贡献代码-设置 Snap Hutao 项目</a>中的第 <code>1～3</code> 步，并下载安装 <a href="https://www.todesk.com/download.html" target="_blank" rel="noopener noreferrer">ToDesk</a> 远程工具。</p>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/bug-report.html" type="image/"/>
     </item>

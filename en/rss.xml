@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 25 Oct 2024 08:37:11 GMT</pubDate>
-    <lastBuildDate>Fri, 25 Oct 2024 08:37:11 GMT</lastBuildDate>
+    <pubDate>Sun, 27 Oct 2024 10:24:43 GMT</pubDate>
+    <lastBuildDate>Sun, 27 Oct 2024 10:24:43 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -1606,8 +1606,8 @@ community members can contribute Japanese language on <a href="https://translate
 <li>Fix
 <ul>
 <li>Issue that user cannot get Hutao Cloud bonus after uploading Abyss record</li>
-<li>Issue that cannot sign in to HoYoLab with Facebook</li>
-<li>HoYoLab check-in issue</li>
+<li>Issue that cannot sign in to HoYoLAB with Facebook</li>
+<li>HoYoLAB check-in issue</li>
 <li>Issue when facing empty value during wish history fetch progress</li>
 </ul>
 </li>
@@ -1639,7 +1639,7 @@ community members can contribute Japanese language on <a href="https://translate
 <li>Fix
 <ul>
 <li>Issue that BiliBili server account cannot receive data for Real-time Notes</li>
-<li>Issue on HoYoLab login</li>
+<li>Issue on HoYoLAB login</li>
 </ul>
 </li>
 <li>Optimize
@@ -1653,7 +1653,7 @@ community members can contribute Japanese language on <a href="https://translate
 <li>Add
 <ul>
 <li>Hutao account system with registration and login available now</li>
-<li>Support of HoYoLab account login, and add its support to the following features:
+<li>Support of HoYoLAB account login, and add its support to the following features:
 <ul>
 <li>Web login and Stoken Cookie login</li>
 <li>Abyss record</li>
@@ -1893,7 +1893,7 @@ When these errors happen, Snap Hutao will exit game process, and you can re-laun
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> Oversea server account switch</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> Oversea server wish history export</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> Oversea server character stat</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> HoYoLab login</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> HoYoLAB login</label>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> International server Abyss record</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> Daily Notes</label></li>
@@ -2058,7 +2058,7 @@ running as Administrator
 <ul>
 <li><strong>Stores</strong>
 <ul>
-<li>MiHoYo BBS and HoYoLab cookie</li>
+<li>MiHoYo BBS and HoYoLAB cookie</li>
 <li>Snap Hutao program settings</li>
 <li>All other user data</li>
 </ul>
@@ -2445,7 +2445,7 @@ The following feature tutorials are introduced in-program order.</p>
       <content:encoded><![CDATA[
 <div class="hint-container info">
 <p class="hint-container-title">Info</p>
-<p>This features requires you to login in to your MiYouShe or HoYoLab account in Snap Hutao,
+<p>This features requires you to login in to your MiYouShe or HoYoLAB account in Snap Hutao,
 you can check <a href="/en/features/mhy-account-switch.html" target="_blank">MiHoYo BBS Account Switch</a> for more information.</p>
 </div>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp" alt="live-data-tracking" loading="lazy"></p>

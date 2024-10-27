@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Fri, 25 Oct 2024 08:37:11 GMT</pubDate>
-    <lastBuildDate>Fri, 25 Oct 2024 08:37:11 GMT</lastBuildDate>
+    <pubDate>Sun, 27 Oct 2024 10:24:43 GMT</pubDate>
+    <lastBuildDate>Sun, 27 Oct 2024 10:24:43 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Pengumuman</category>
@@ -68,7 +68,7 @@
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> Beralih akun server Internasional</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-10" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-10"> Ekspor riwayat harapan server Internasional</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-11" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-11"> Statistik karakter server Internasional</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> Login HoYoLab</label>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-12" disabled="disabled"><label class="task-list-item-label" for="task-item-12"> Login HoYoLAB</label>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-13" disabled="disabled"><label class="task-list-item-label" for="task-item-13"> Rekaman Abyss server Internasional</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-14" disabled="disabled"><label class="task-list-item-label" for="task-item-14"> Catatan Harian</label></li>
@@ -1387,14 +1387,14 @@ tidak ada server pihak ketiga (termasuk server Snap Hutao) yang terlibat dalam p
       <link>https://hut.ao/id/features/real-time-notes.html</link>
       <guid>https://hut.ao/id/features/real-time-notes.html</guid>
       <source url="https://hut.ao/id/rss.xml">Catatan Langsung</source>
-      <description>Catatan Langsung Pemberitahuan Fitur ini memerlukan Anda untuk masuk ke akun MiYouShe atau HoYoLab Anda di Snap Hutao, Anda dapat memeriksa untuk informasi lebih lanjut. pelacak...</description>
+      <description>Catatan Langsung Pemberitahuan Fitur ini memerlukan Anda untuk masuk ke akun MiYouShe atau HoYoLAB Anda di Snap Hutao, Anda dapat memeriksa untuk informasi lebih lanjut. pelacak...</description>
       <category>Fitur</category>
       <category>Tutorial</category>
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[
 <div class="hint-container info">
 <p class="hint-container-title">Pemberitahuan</p>
-<p>Fitur ini memerlukan Anda untuk masuk ke akun MiYouShe atau HoYoLab Anda di Snap Hutao,
+<p>Fitur ini memerlukan Anda untuk masuk ke akun MiYouShe atau HoYoLAB Anda di Snap Hutao,
 Anda dapat memeriksa <a href="/id/features/mhy-account-switch.html" target="_blank">MiHoYo BBS Account Switch</a> untuk informasi lebih lanjut.</p>
 </div>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp" alt="pelacakan-data-real-time" loading="lazy"></p>
@@ -1745,7 +1745,7 @@ dan sertakan dalam isu Anda</label></li>
 <ul>
 <li><strong>Penyimpanan</strong>
 <ul>
-<li>Cookie MiHoYo BBS dan HoYoLab</li>
+<li>Cookie MiHoYo BBS dan HoYoLAB</li>
 <li>Pengaturan program Snap Hutao</li>
 <li>Seluruh data pengguna lainnya</li>
 </ul>
@@ -2636,8 +2636,8 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 <li>Perbaikan
 <ul>
 <li>Masalah ketika pengguna tidak bisa mendapatkan bonus Hutao Cloud setelah mengunggah rekaman Abyss</li>
-<li>Masalah tidak dapat masuk ke HoYoLab dengan Facebook</li>
-<li>Masalah check-in HoYoLab</li>
+<li>Masalah tidak dapat masuk ke HoYoLAB dengan Facebook</li>
+<li>Masalah check-in HoYoLAB</li>
 <li>Masalah saat menghadapi nilai kosong saat mengambil riwayat wish</li>
 </ul>
 </li>
@@ -2669,7 +2669,7 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 <li>Perbaikan
 <ul>
 <li>Masalah di mana akun server BiliBili tidak bisa menerima data untuk Real-time Notes</li>
-<li>Masalah pada login HoYoLab</li>
+<li>Masalah pada login HoYoLAB</li>
 </ul>
 </li>
 <li>Optimalisasi
@@ -2683,7 +2683,7 @@ anggota komunitas dapat berkontribusi pada bahasa Jepang di <a href="https://tra
 <li>Tambah
 <ul>
 <li>Sistem akun Hutao dengan registrasi dan login yang tersedia sekarang</li>
-<li>Dukungan login akun HoYoLab, dan menambahkan dukungannya untuk fitur berikut:
+<li>Dukungan login akun HoYoLAB, dan menambahkan dukungannya untuk fitur berikut:
 <ul>
 <li>Login web dan login Stoken Cookie</li>
 <li>Rekaman Abyss</li>
