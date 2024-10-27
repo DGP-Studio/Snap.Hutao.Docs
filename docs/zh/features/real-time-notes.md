@@ -10,7 +10,7 @@ description: 胡桃工具箱中的实时便笺功能通过定时地刷新玩家�
 # 实时便笺
 
 ::: info 前置要求
-该功能需要你在胡桃工具箱中登录米游社账号，登录方法可见 [米游社多账号切换](mhy-account-switch.md) 文档
+该功能需要你在胡桃工具箱中登录米游社账号，登录方法可见[米游社多账号切换](mhy-account-switch.md)文档
 :::
 ![live-data-tracking](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp)
 

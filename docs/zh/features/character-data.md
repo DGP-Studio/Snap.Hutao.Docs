@@ -43,7 +43,7 @@ description: 胡桃工具箱的“我的角色”功能可以读取原神账号�
 ![rolescal](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01n3GYLI1g6e0zAVRM7_!!1797064093.png_.webp)
 
 - 添加完毕后，您可在“养成计划”功能中查看“已添加的养成目标”
-  - 关于养成计划功能的详细说明，请见 [养成计划](./develop-plan.md#养成计划) 文档
+  - 关于养成计划功能的详细说明，请见[养成计划](./develop-plan.md#养成计划)文档
 
 ## 导出角色详情至剪贴板
 

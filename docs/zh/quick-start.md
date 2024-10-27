@@ -113,15 +113,15 @@ background="rgba(244, 125, 63, 0.15)"
 
 ---
 
-如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎 [加入我们](development/join.md)！
+如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎[加入我们](development/join.md)！
 
 ### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> 从微软商店版升级至最新版
 
-> 对于这项改变，你可以阅读 [1.9.0 版本重大改变详解](blog/version-1-9-0-breaking-changes.md) 来获得详细信息
+> 对于这项改变，你可以阅读[1.9.0 版本重大改变详解](blog/version-1-9-0-breaking-changes.md)来获得详细信息
 
 如果你已经安装了 Snap Hutao 微软商店版（版本号介于1.4.11和1.8.5之间）则需要先卸载旧版本再进行全新安装
 
-- 按照文档提供的 [卸载方法](advanced/uninstall.html) 卸载旧版应用
+- 按照文档提供的[卸载方法](advanced/uninstall.html)卸载旧版应用
   - 只要不手动删除数据目录，你的数据不会受到影响
 - 按照上述方法全新安装新版应用
 
@@ -141,13 +141,13 @@ background="rgba(244, 125, 63, 0.15)"
 
 WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。通过该组件，胡桃允许用户通过 WebView2 内置浏览器登录米游社账号。
 
-在 [微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/) 的底部，你可以找到 `常青独立安装程序`，选择 `x64` 下载并根据提示安装即可
+在[微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/)的底部，你可以找到 `常青独立安装程序`，选择 `x64` 下载并根据提示安装即可
 
 ### <img src="/images/202409/Microsoft-logo.svg" width="20" height="20"> Segoe Fluent Icons 字体
 
 该字体由微软提供，可以为胡桃提供更好的图标显示效果，缺少该字体可能导致胡桃的部分图标显示效果不佳。
 
-您可以点击 [此链接](https://aka.ms/SegoeFluentIcons) 以直接下载字体压缩包。请在解压后右键安装以将字体安装到系统。
+您可以点击[此链接](https://aka.ms/SegoeFluentIcons)以直接下载字体压缩包。请在解压后右键安装以将字体安装到系统。
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> 添加第一个米游社账号
 
@@ -183,7 +183,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 如果你的 HoYoLAB 账号与你的社交媒体账号绑定，那么你可以在胡桃工具箱中通过社交媒体账号登录 HoYoLAB
 
 ::: warning
-1. 本方式需要使用 [Microsoft WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701) 组件，请先确认你已经安装了该组件。
+1. 本方式需要使用 [Microsoft WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701)组件，请先确认你已经安装了该组件。
 2. HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制
 :::
 
@@ -200,7 +200,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 如果你希望使用自己提取的米哈游通行证 Cookie 登录到胡桃工具箱，可以在登录面板中点击你希望登录的 App 图标，然后选择“手动输入”，并在弹出的窗口中输入包含 SToken 的 `Cookie`。
 若你填入了一个有效的 Cookie，在点击“确认”后**稍等片刻**，你将成功登录你的论坛账号并在账号面板中显示出来。
 
-手动获取含 `SToken` 字段的 Cookie 的方式可参考 [使用第三方工具获取有 SToken 的 Cookie](../advanced/get-stoken-cookie-from-the-third-party.md) 文档。
+手动获取含 `SToken` 字段的 Cookie 的方式可参考[使用第三方工具获取有 SToken 的 Cookie](../advanced/get-stoken-cookie-from-the-third-party.md) 文档。
 ::::
 
 ## <HopeIcon icon="iconfont icon-ask" size="1.7rem" color="var(--theme-color)" /> 安装常见问题
@@ -210,7 +210,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 - 当用户在 Windows 10 下使用胡桃且发现有乱码情况时：
   - 可以下载 `Segoe Fluent Icons`字体
   - 安装时选择`为系统所有用户安装`，即可解决问题
-- 您可以从 [微软官方](https://aka.ms/SegoeFluentIcons)下载到该字体文件
+- 您可以从[微软官方](https://aka.ms/SegoeFluentIcons)下载到该字体文件
 
 ### 能不能通过添加缺少的系统组件来实现胡桃的安装
 
@@ -234,7 +234,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 你的计算机缺少了 Windows 系统重要组件 App Installer，你可能是盗版软件的受害者。
 
-如果你的系统中装有 Microsoft Store，可以从 [App Installer 商店页](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US) 重新安装来恢复该组件。
+如果你的系统中装有 Microsoft Store，可以从 [App Installer 商店页](https://apps.microsoft.com/detail/9NBLGGH4NNS1?hl=en-us&gl=US)重新安装来恢复该组件。
 
 如果你没有Windows Store，请使用微软官方的最新完整版消费者 [Windows 10](https://www.microsoft.com/zh-cn/software-download/windows10) 或 [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11) 镜像。使用微软官方的提供的 Windows 10 升级助手和 Windows 11 安装助手可以帮助你简单地在保留数据的情况下升级至最新完整版 Windows。**请勿使用来源不明的破解版、精简版系统镜像。**
 
@@ -242,7 +242,7 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 
 该问题常见于 Windows 家庭版系统。如果你使用的不是家庭版系统，则你的 Windows Update 模块可能被禁用或已失效，这导致世界范围内的 CA 根证书无法被更新。
 
-Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载 [该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt) 并添加到你的系统中的 `可信任的根证书授权机构` 类别中（可能需要管理员权限）。
+Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)，你可以手动从 GlobalSign 官网下载[该证书](https://secure.globalsign.com/cacert/codesigningrootr45.crt)并添加到你的系统中的 `可信任的根证书授权机构` 类别中（可能需要管理员权限）。
 
 ### MSIX 安装包提示组策略错误或需要 Windows 开发者许可证错误并无法安装
 

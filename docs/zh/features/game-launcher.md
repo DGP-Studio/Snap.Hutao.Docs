@@ -122,7 +122,7 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 ### 解锁帧率上限
 
 ::: caution
-- [Unlocker 项目](https://github.com/DGP-Studio/Unlocker) 仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中“120帧率”等设置无异，但您仍应谨慎使用并自行阅读 [用户协议](../statements/tos.md#总则)
+- [Unlocker 项目](https://github.com/DGP-Studio/Unlocker)仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中“120帧率”等设置无异，但您仍应谨慎使用并自行阅读[用户协议](../statements/tos.md#总则)
 :::
 
 - 使用“管理员模式”启动胡桃工具箱
@@ -152,7 +152,7 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 
 ### Better GI
 
-**使用 Better GI 联动功能需要安装并配置 [Better Genshin Impact](https://bgi.huiyadan.com/) 应用程序**
+**使用 Better GI 联动功能需要安装并配置 [Better Genshin Impact](https://bgi.huiyadan.com/) 应用程序**，请先启动一次 BGI 程序再使用原神的链式启动功能
 
 启用该功能后，胡桃将会调用 Better Genshin Impact 的通信接口，使其在 Snap Hutao 启动游戏后，启动其基于计算机视觉技术（OCR）的自动化功能。
 

@@ -29,7 +29,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 ### 如何让胡桃工具箱开机自动启动
 
 - 请参考如下思路
-  - 可以自行创建一个批处理文件，内容参考 [此 issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184)中，令胡桃以管理员模式直接运行的命令。
+  - 可以自行创建一个批处理文件，内容参考[此 issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184) 中，令胡桃以管理员模式直接运行的命令。
   - 设置一个**计划任务程序**令上述批处理文件开机自启，或将上述批处理文件加入**启动项**中
   - 使用 `SkipUAC` 等可以使软件以管理员身份静默自启的程序
 - 或其他可以使胡桃工具箱开机自启的思路，敬请自行探索

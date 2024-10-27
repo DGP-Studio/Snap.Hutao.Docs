@@ -17,12 +17,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statemen
 在发起新的 Issue 之前，请先执行以下清单：
 
 - [ ] 当前使用的是最新版本客户端
-- [ ] 使用搜索功能搜索你的问题并检查 [已知问题](../advanced/known-issue.md) 文档
+- [ ] 使用搜索功能搜索你的问题并检查[已知问题](../advanced/known-issue.md)文档
 - [ ] 搜索项目 Issue，检查是否已有相同或类似的问题
 
 若执行上述步骤后没有得到问题解决方案，你可以在 GitHub 上发起一个新的 Issue
 
-如果你不清楚怎样是一个好的 Issue，请阅读 Snap Hutao 过去的一些[优质问题](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98+is%3Aclosed)
+如果你不清楚怎样是一个好的 Issue，请阅读 Snap Hutao 过去的一些[优质问题](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98)
 
 - 通过 GitHub 提交问题
   - [github.com/DGP-Studio/Snap.Hutao/issues/new/choose](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose)
@@ -41,4 +41,4 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statemen
 
 **参与远程调试的计算机需要至少 15GB 的可用硬盘空间以及充足的网络流量。**
 
-在开始调试之前，你需要执行 [贡献代码-设置 Snap Hutao 项目](../development/contribute.md#设置-snaphutao-项目) 中的第 `1～3` 步，并下载安装 [ToDesk](https://www.todesk.com/download.html) 远程工具。
+在开始调试之前，你需要执行[贡献代码-设置 Snap Hutao 项目](../development/contribute.md#设置-snaphutao-项目)中的第 `1～3` 步，并下载安装 [ToDesk](https://www.todesk.com/download.html) 远程工具。

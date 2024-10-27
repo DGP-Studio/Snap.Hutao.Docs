@@ -23,7 +23,7 @@ Snap Hutao，作为一个使用 MIT 许可证的开源项目，致力于打造�
 
 > 我们拒绝任何以获取用户数据为目的赞助
 
-如果您是公司主体并希望通过您的产品帮助到 Snap Hutao，请通过 [support@dgp-studio.cn](mailto://support@dgp-studio.cn) 邮箱与我们取得联系。我们会将全部的赞助商显示在我们的 [首页](README.md#赞助商) 中。
+如果您是公司主体并希望通过您的产品帮助到 Snap Hutao，请通过 [support@dgp-studio.cn](mailto://support@dgp-studio.cn) 邮箱与我们取得联系。我们会将全部的赞助商显示在我们的[首页](README.md#赞助商)中。
 
 ## 年度支出
 
