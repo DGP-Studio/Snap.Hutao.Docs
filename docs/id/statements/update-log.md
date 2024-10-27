@@ -479,8 +479,8 @@ Anda dapat membaca artikel [Penjelasan Perubahan Berpotensi Merusak di Versi 1.9
   - Opsi server CN tanpa akun TapTap
 - Perbaikan
   - Masalah ketika pengguna tidak bisa mendapatkan bonus Hutao Cloud setelah mengunggah rekaman Abyss
-  - Masalah tidak dapat masuk ke HoYoLab dengan Facebook
-  - Masalah check-in HoYoLab
+  - Masalah tidak dapat masuk ke HoYoLAB dengan Facebook
+  - Masalah check-in HoYoLAB
   - Masalah saat menghadapi nilai kosong saat mengambil riwayat wish
 - Optimalisasi
   - **Refaktorisasi proyek, memberikan peningkatan kinerja 20%**
@@ -497,7 +497,7 @@ Anda dapat membaca artikel [Penjelasan Perubahan Berpotensi Merusak di Versi 1.9
     - Fitur ini akan terus dioptimalkan dalam versi 1.6 berikutnya
 - Perbaikan
   - Masalah di mana akun server BiliBili tidak bisa menerima data untuk Real-time Notes
-  - Masalah pada login HoYoLab
+  - Masalah pada login HoYoLAB
 - Optimalisasi
   - Logika unduhan aset statis
 
@@ -505,7 +505,7 @@ Anda dapat membaca artikel [Penjelasan Perubahan Berpotensi Merusak di Versi 1.9
 
 - Tambah
   - Sistem akun Hutao dengan registrasi dan login yang tersedia sekarang
-  - Dukungan login akun HoYoLab, dan menambahkan dukungannya untuk fitur berikut:
+  - Dukungan login akun HoYoLAB, dan menambahkan dukungannya untuk fitur berikut:
     - Login web dan login Stoken Cookie
     - Rekaman Abyss
     - Hadiah check-in harian

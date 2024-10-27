@@ -16,7 +16,6 @@ description: 胡桃工具箱内置的胡桃数据库功能是一个帮助玩家�
   - 众多的玩家通过上传个人的“分期详情”数据来形成胡桃数据库的“本期统计”数据集
 
 ::: tabs
-
 @tab 分期详情
 ![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
 @tab 角色使用率
@@ -27,7 +26,6 @@ description: 胡桃工具箱内置的胡桃数据库功能是一个帮助玩家�
 ![hutaoapi](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01k1W4tw1g6e0wOyjdf_!!1797064093.png_.webp)
 @tab 角色持有率
 ![character-held-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01bQvukt1g6e0uuU2Fh_!!1797064093.png_.webp)
-
 :::
 
 ## 查看深渊数据
@@ -37,11 +35,9 @@ description: 胡桃工具箱内置的胡桃数据库功能是一个帮助玩家�
 :::
 
 ::: info 数据刷新周期
-
 1. 深境螺旋统计数据（角色使用率、角色出场率、队伍出场）在帐号所属游戏服务器时区每月 1 日和 16 日的 4 点自动清理。
    - 点击界面右上角的信息按钮你可以查看当前实时已上传的数据信息汇总
 2. 同时，若用户在 30 天内没有重新上传记录以更新数据，则其角色持有数据将被清理
-
 :::
 
 - 在主界面点击左侧菜单栏进入“深境螺旋”页面，点击顶栏的“本期统计”标签

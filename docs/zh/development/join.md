@@ -18,7 +18,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 **我们不会为下面需求设置明确的门槛。乐于探索新领域的精神、对技术的热情以及负责任的态度对于开源社区才是更重要的。**
 
-> 太忙？只是想快速解决某个你遇到的问题？阅读 [开发手册](contribute.md) 并直接发起你的 Pull Request，我们会认真对待有建设性的代码提交。
+> 太忙？只是想快速解决某个你遇到的问题？阅读[开发手册](contribute.md)并直接发起你的 Pull Request，我们会认真对待有建设性的代码提交。
 
 ## <HopeIcon icon="iconfont icon-creative" size="2rem" color="rgb(252, 163, 38)" /> 软件开发
 
