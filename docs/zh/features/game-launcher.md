@@ -22,11 +22,9 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 ## 切换服务器
 
 ::: tip 权限提示
-
 1. 使用该功能时需要以管理员权限启动胡桃
 2. 胡桃工具箱会在数据目录下创建一个名为 `ServerCache` 的文件夹并储存转换服务器所需要的文件
-   该文件将始终被保留以便您能快速地切换服务器，并将在转服过程中自动检查更新
-
+  该文件将始终被保留以便您能快速地切换服务器，并将在转服过程中自动检查更新
 :::
 
 - 进入“启动游戏”页面
@@ -50,9 +48,7 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 ## 账号保存
 
 ::: tip
-
 本功能所描述的账号，特指当前原神所登录游戏账号的登录状态
-
 :::
 
 |              | 官方服 | 国际服 | 渠道服 |
@@ -119,18 +115,14 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 ## 高级功能
 
 ::: caution
-
 - 请注意：高级功能已明确标注为“**Dangerous Feature**”，即 **危险功能**，选择启用即代表您选择自行承担可能导致的一切风险
 - **你需要首先使用管理员权限启动胡桃，再开启“设置-危险功能-高级功能”选项以启用该功能**
-
 :::
 
 ### 解锁帧率上限
 
 ::: caution
-
-- [Unlocker 项目](https://github.com/DGP-Studio/Unlocker) 仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中“120帧率”等设置无异，但您仍应谨慎使用并自行阅读 [用户协议](../statements/tos.md#总则)
-
+- [Unlocker 项目](https://github.com/DGP-Studio/Unlocker)仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中“120帧率”等设置无异，但您仍应谨慎使用并自行阅读[用户协议](../statements/tos.md#总则)
 :::
 
 - 使用“管理员模式”启动胡桃工具箱
@@ -160,7 +152,7 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 
 ### Better GI
 
-**使用 Better GI 联动功能需要安装并配置 [Better Genshin Impact](https://bgi.huiyadan.com/) 应用程序**
+**使用 Better GI 联动功能需要安装并配置 [Better Genshin Impact](https://bgi.huiyadan.com/) 应用程序**，请先启动一次 BGI 程序再使用原神的链式启动功能
 
 启用该功能后，胡桃将会调用 Better Genshin Impact 的通信接口，使其在 Snap Hutao 启动游戏后，启动其基于计算机视觉技术（OCR）的自动化功能。
 
@@ -233,7 +225,6 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 :::
 
 ::: tabs#game_config_samples
-
 @tab 国服 Official
 
 ```ini
@@ -255,5 +246,4 @@ game_version=4.1.0
 sub_channel=0
 plugin_7_version=1.0.0
 ```
-
 :::

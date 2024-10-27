@@ -21,7 +21,7 @@ Snap Hutao respects the privacy of users, and we're currently using data as desc
 - Once using Snap Hutao, the database file in the **data directory**
 
   - **Stores**
-    - MiHoYo BBS and HoYoLab cookie
+    - MiHoYo BBS and HoYoLAB cookie
     - Snap Hutao program settings
     - All other user data
 

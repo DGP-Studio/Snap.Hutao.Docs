@@ -18,7 +18,7 @@ description: 胡桃工具箱的设置页包含了程序方方面面的设置选�
 该部分包含以下信息：
 
 - 胡桃工具箱的图标：您可以在胡桃的[首页](/)查看它的原图
-  - 该图像作品的作者为 [画画的芦苇](https://space.bilibili.com/274422134)
+  - 该图像作品的作者为[画画的芦苇](https://space.bilibili.com/274422134)
     ::: details 图标的绘制过程
     <BiliBili bvid="BV1UL411d7Py" />
     :::
