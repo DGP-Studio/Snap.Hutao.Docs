@@ -124,56 +124,10 @@ Anda dapat berkontribusi dengan cara berikut:
 
 Snap Hutao saat ini menggunakan perangkat lunak sponsor dari penyedia layanan berikut.
 
-<table border="1" style="width: 100%;">
-    <tr style="max-width: 33.3%;">
-        <td align="center">
-            <a href="https://www.netlify.com" rel="nofollow">
-                <img src="/svg/netlify.svg">
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://crowdin.com" rel="nofollow">
-                <img src="/svg/crowdin-core-logo-cDark.svg">
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://navicat.com" rel="nofollow">
-                <img src="/svg/navicat.svg">
-            </a>
-        </td>
-    </tr>
-    <tr style="max-width: 33.3%;">
-        <td align="center" style="max-width: 33.3%;">
-            <a href="https://about.signpath.io" rel="nofollow">
-                <img src="/svg/signpath.svg">
-            </a>
-        </td>
-        <td align="center" style="max-width: 33.3%;">
-            <a href="https://1password.com" rel="nofollow">
-                <img src="/svg/1Password.svg">
-            </a>
-        </td>
-        <td align="center" style="max-width: 33.3%;">
-            <a href="https://www.digitalocean.com" rel="nofollow">
-                <img src="/svg/digitalocean.svg">
-            </a>
-        </td>
-    </tr>
-    <tr style="max-width: 33.3%;">
-        <td align="center">
-            <a href="https://hi.ducalis.io" rel="nofollow">
-                <img src="/svg/ducalis.svg">
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://www.jetbrains.com/opensource" rel="nofollow">
-                <img src="/svg/jetbrains.svg">
-            </a>
-        </td>
-        <td align="center">
-        </td>
-    </tr>
-</table>
+|  [![](/svg/netlify.svg =180x60)](https://www.netlify.com/)  | [![](/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |       [![](/svg/navicat.svg =180x60)](https://navicat.com/)        |
+| :---------------------------------------------------------: | :-------------------------------------------------------------------: | :----------------------------------------------------------------: |
+| [![](/svg/signpath.svg =180x60)](https://about.signpath.io) |       [![](/svg/1Password.svg =180x35)](https://1password.com/)       | [![](/svg/digitalocean.svg =180x35)](https://www.digitalocean.com) |
+|   [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)   |     [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)     |
 
 Netlify menyediakan layanan hosting dokumen dan beranda untuk Snap Hutao
 
