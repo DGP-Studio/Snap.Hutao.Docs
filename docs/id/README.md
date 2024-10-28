@@ -126,7 +126,7 @@ Snap Hutao saat ini menggunakan perangkat lunak sponsor dari penyedia layanan be
 
 |  [![](/svg/netlify.svg =180x60)](https://www.netlify.com/)  | [![](/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |       [![](/svg/navicat.svg =180x60)](https://navicat.com/)        |
 | :---------------------------------------------------------: | :-------------------------------------------------------------------: | :----------------------------------------------------------------: |
-| [![](/svg/signpath.svg =180x60)](https://about.signpath.io) |       [![](/svg/1Password.svg =180x35)](https://1password.com/)       | [![](/svg/digitalocean.svg =180x35)](https://www.digitalocean.com) |
+| [![](/svg/signpath.svg =180x60)](https://about.signpath.io) |       [![](/svg/1Password.svg =180x60)](https://1password.com/)       | [![](/svg/digitalocean.svg =180x60)](https://www.digitalocean.com) |
 |   [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)   |     [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)     |
 
 Netlify menyediakan layanan hosting dokumen dan beranda untuk Snap Hutao
