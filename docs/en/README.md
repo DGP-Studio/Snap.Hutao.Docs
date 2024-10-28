@@ -125,10 +125,10 @@ You can make contribution by the following ways:
 
 Snap Hutao is currently using sponsored software from the following service providers.
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) |  [![](/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/)   |           [![](/images/202409/navicat.png =180x60)](https://navicat.com/)            |
-| :--------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
-|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              | [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/) | [![](/images/202312/digitalocean-horizontal.svg =180x35)](https://about.signpath.io) |
-|                       [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)                        |      [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)       |
+|  [![](/svg/netlify.svg =180x60)](https://www.netlify.com/)  | [![](/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |       [![](/svg/navicat.svg =180x60)](https://navicat.com/)        |
+| :---------------------------------------------------------: | :-------------------------------------------------------------------: | :----------------------------------------------------------------: |
+| [![](/svg/signpath.svg =180x60)](https://about.signpath.io) |       [![](/svg/1Password.svg =180x60)](https://1password.com/)       | [![](/svg/digitalocean.svg =180x60)](https://www.digitalocean.com) |
+|   [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)   |     [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)     |
 
 Netlify provides document and home page hosting service for Snap Hutao
 
