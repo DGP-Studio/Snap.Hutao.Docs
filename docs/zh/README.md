@@ -124,10 +124,7 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们希望有更多
 
 Snap Hutao 目前使用了以下软件厂商赞助的服务
 
-|  [![](/svg/netlify.svg =180x90)](https://www.netlify.com/)  | [![](/svg/crowdin-core-logo-cDark.svg =180x90)](https://crowdin.com/) |       [![](/svg/navicat.svg =180x90)](https://navicat.com/)        |
-| :---------------------------------------------------------: | :-------------------------------------------------------------------: | :----------------------------------------------------------------: |
-| [![](/svg/signpath.svg =180x90)](https://about.signpath.io) |       [![](/svg/1Password.svg =180x90)](https://1password.com/)       | [![](/svg/digitalocean.svg =180x90)](https://www.digitalocean.com) |
-|   [![](/svg/ducalis.svg =180x90)](https://hi.ducalis.io/)   |     [![](/svg/jetbrains.svg =180x90)](https://www.jetbrains.com)      |     [![](/svg/termius-logo.svg =180x90)](https://termius.com)      |
+<SponsorList />
 
 Netlify 为 Snap Hutao 提供了文档和主页的托管服务
 
