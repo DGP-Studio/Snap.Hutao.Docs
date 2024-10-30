@@ -28,13 +28,17 @@ const sponsors: SponsorListItem[] = [
 <style lang="css" scoped>
 .sl-container {
   margin: auto;
-  max-width: 600px;
+  max-width: 700px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  grid-gap: 15px;
+  grid-gap: 1rem;
   background: #f8f8f8;
   border-radius: 5px;
   padding: 15px;
+
+  a.sl-item::after {
+    display: none !important;
+  }
 }
 
 .sl-item {
@@ -43,10 +47,19 @@ const sponsors: SponsorListItem[] = [
   justify-content: center;
   cursor: pointer;
   transition: transform 0.3s;
+  background: #e1e1e1;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .sl-image {
   aspect-ratio: 3/1;
   max-width: 180px;
+}
+
+html[data-theme="dark"] {
+  .sl-container {
+    background: #8f8f8f;
+  }
 }
 </style>
