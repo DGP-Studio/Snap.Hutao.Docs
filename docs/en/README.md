@@ -125,10 +125,7 @@ You can make contribution by the following ways:
 
 Snap Hutao is currently using sponsored software from the following service providers.
 
-|  [![](/svg/netlify.svg =180x60)](https://www.netlify.com/)  | [![](/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/) |       [![](/svg/navicat.svg =180x60)](https://navicat.com/)        |
-| :---------------------------------------------------------: | :-------------------------------------------------------------------: | :----------------------------------------------------------------: |
-| [![](/svg/signpath.svg =180x60)](https://about.signpath.io) |       [![](/svg/1Password.svg =180x60)](https://1password.com/)       | [![](/svg/digitalocean.svg =180x60)](https://www.digitalocean.com) |
-|   [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)   |     [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)     |
+<SponsorList />
 
 Netlify provides document and home page hosting service for Snap Hutao
 
@@ -145,4 +142,6 @@ DigitalOcean provides reliable cloud storage for Snap Hutao database backup
 [Ducalis.io](https://hi.ducalis.io/) provides Snap Hutao project with a complete decision-making toolkit for project management
 
 JetBrains provides Snap Hutao project with free open-source licenses for their IDEs
+
+Termius provides a secure, reliable, and collaborative SSH client
 :::
