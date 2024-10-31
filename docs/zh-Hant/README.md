@@ -125,10 +125,7 @@ Snap Hutao 是一個由開源社群維護的免費專案，我們希望有更多
 
 Snap Hutao 目前使用了以下由軟體廠商贊助的服務
 
-| [![](https://www.netlify.com/v3/img/components/netlify-light.svg =180x60)](https://www.netlify.com/) |  [![](/svg/crowdin-core-logo-cDark.svg =180x60)](https://crowdin.com/)   |           [![](/images/202409/navicat.png =180x60)](https://navicat.com/)            |
-| :--------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
-|              [![](/images/202312/signpath-logo.png =180x60)](https://about.signpath.io)              | [![](/images/202312/1Password-logo.svg =180x35)](https://1password.com/) | [![](/images/202312/digitalocean-horizontal.svg =180x35)](https://about.signpath.io) |
-|                       [![](/svg/ducalis.svg =180x60)](https://hi.ducalis.io/)                        |      [![](/svg/jetbrains.svg =180x60)](https://www.jetbrains.com/)       |
+<SponsorList />
 
 Netlify 為 Snap Hutao 提供了文件和主頁的託管服務
 
@@ -145,5 +142,7 @@ DigitalOcean 為 Snap Hutao 提供了可靠的資料備份儲存空間
 [Ducalis.io](https://hi.ducalis.io/) 為 Snap Hutao 專案提供了完整的決策工具包用於專案管理
 
 JetBrains 為 Snap Hutao 開發團隊提供了優秀的軟體開發工具
+
+Termius 為 Snap Hutao 提供了安全可靠且可合作的 SSH 用戶端
 
 :::

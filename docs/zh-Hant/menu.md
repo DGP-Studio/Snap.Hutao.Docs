@@ -8,4 +8,4 @@ icon: iconfont icon-workingDirectory
 
 # 全站目錄
 
-<Catalog base="/zh-Hant/" :level="4" />
+<Catalog base="/zh-TW/" :level="4" />

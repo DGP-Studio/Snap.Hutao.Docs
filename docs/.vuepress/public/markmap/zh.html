@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Markmap</title>
-<style>
-* {
-  margin: 0;
-  padding: 0;
-}
-#mindmap {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-}
-</style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Markmap</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #mindmap {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/style.css">
 </head>
+
 <body>
-<svg id="mindmap"></svg>
-<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/index.umd.min.js"></script><script>(()=>{setTimeout(()=>{const{markmap:Fe,mm:ur}=window,Fr=new Fe.Toolbar;Fr.attach(ur);const Dr=Fr.render();Dr.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(Dr)})})()</script><script>((B,S,M,_)=>{const I=B();window.mm=I.Markmap.create("svg#mindmap",(S||I.deriveOptions)(_),M)})(()=>window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"胡桃功能预览","children":[{"type":"heading","depth":1,"payload":{"lines":[2,3]},"content":"米游社功能","children":[{"type":"list_item","depth":2,"payload":{"lines":[4,5]},"content":"活动公告"},{"type":"list_item","depth":2,"payload":{"lines":[5,6]},"content":"<a href=\"/features/mhy-account-switch.html\">帐号登录</a>"},{"type":"list_item","depth":2,"payload":{"lines":[6,7]},"content":"<a href=\"/features/daily-notes.html\">实时便笺</a>"},{"type":"list_item","depth":2,"payload":{"lines":[7,8]},"content":"深境螺旋","children":[{"type":"list_item","depth":3,"payload":{"lines":[8,9]},"content":"<a href=\"/features/hutao-API.html\">我的深渊记录</a>"},{"type":"list_item","depth":3,"payload":{"lines":[9,10]},"content":"<a href=\"/features/hutao-API.html\">胡桃数据库 - 深渊数据</a>"}]}]},{"type":"heading","depth":1,"payload":{"lines":[11,12]},"content":"游戏性增强","children":[{"type":"list_item","depth":2,"payload":{"lines":[13,14]},"content":"<a href=\"/features/game-launcher.html\">高级启动器</a>"},{"type":"list_item","depth":2,"payload":{"lines":[14,15]},"content":"<a href=\"/features/wish-export.html\">祈愿记录</a>"},{"type":"list_item","depth":2,"payload":{"lines":[15,16]},"content":"<a href=\"/features/achievements.html\">成就管理</a>"}]},{"type":"heading","depth":1,"payload":{"lines":[17,18]},"content":"养成计划","children":[{"type":"list_item","depth":2,"payload":{"lines":[19,20]},"content":"<a href=\"/features/develop-plan.html\">养成计算器</a>","children":[{"type":"list_item","depth":3,"payload":{"lines":[20,21]},"content":"属性统计"},{"type":"list_item","depth":3,"payload":{"lines":[21,22]},"content":"角色 Wiki"},{"type":"list_item","depth":3,"payload":{"lines":[22,23]},"content":"武器 Wiki"},{"type":"list_item","depth":3,"payload":{"lines":[23,24]},"content":"胡桃数据库 - 圣遗物数据"},{"type":"list_item","depth":3,"payload":{"lines":[24,25]},"content":"胡桃数据库 - 武器数据"}]}]}]},null)</script>
+  <svg id="mindmap"></svg>
+  <script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/index.umd.min.js"></script>
+  <script>(() => { setTimeout(() => { const { markmap: Fe, mm: ur } = window, Fr = new Fe.Toolbar; Fr.attach(ur); const Dr = Fr.render(); Dr.setAttribute("style", "position:absolute;bottom:20px;right:20px"), document.body.append(Dr) }) })()</script>
+  <script>((B, S, M, _) => { const I = B(); window.mm = I.Markmap.create("svg#mindmap", (S || I.deriveOptions)(_), M) })(() => window.markmap, null, { "type": "heading", "depth": 0, "payload": { "lines": [0, 1] }, "content": "胡桃功能预览", "children": [{ "type": "heading", "depth": 1, "payload": { "lines": [2, 3] }, "content": "米游社功能", "children": [{ "type": "list_item", "depth": 2, "payload": { "lines": [4, 5] }, "content": "活动公告" }, { "type": "list_item", "depth": 2, "payload": { "lines": [5, 6] }, "content": "<a href=\"/features/mhy-account-switch.html\">帐号登录</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [6, 7] }, "content": "<a href=\"/features/daily-notes.html\">实时便笺</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [7, 8] }, "content": "深境螺旋", "children": [{ "type": "list_item", "depth": 3, "payload": { "lines": [8, 9] }, "content": "<a href=\"/features/hutao-API.html\">我的深渊记录</a>" }, { "type": "list_item", "depth": 3, "payload": { "lines": [9, 10] }, "content": "<a href=\"/features/hutao-API.html\">胡桃数据库 - 深渊数据</a>" }] }] }, { "type": "heading", "depth": 1, "payload": { "lines": [11, 12] }, "content": "游戏性增强", "children": [{ "type": "list_item", "depth": 2, "payload": { "lines": [13, 14] }, "content": "<a href=\"/features/game-launcher.html\">高级启动器</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [14, 15] }, "content": "<a href=\"/features/wish-export.html\">祈愿记录</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [15, 16] }, "content": "<a href=\"/features/achievements.html\">成就管理</a>" }] }, { "type": "heading", "depth": 1, "payload": { "lines": [17, 18] }, "content": "养成计划", "children": [{ "type": "list_item", "depth": 2, "payload": { "lines": [19, 20] }, "content": "<a href=\"/features/develop-plan.html\">养成计算器</a>", "children": [{ "type": "list_item", "depth": 3, "payload": { "lines": [20, 21] }, "content": "属性统计" }, { "type": "list_item", "depth": 3, "payload": { "lines": [21, 22] }, "content": "角色 Wiki" }, { "type": "list_item", "depth": 3, "payload": { "lines": [22, 23] }, "content": "武器 Wiki" }, { "type": "list_item", "depth": 3, "payload": { "lines": [23, 24] }, "content": "胡桃数据库 - 圣遗物数据" }, { "type": "list_item", "depth": 3, "payload": { "lines": [24, 25] }, "content": "胡桃数据库 - 武器数据" }] }] }] }, null)</script>
 </body>
+
 </html>
