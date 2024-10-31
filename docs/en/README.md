@@ -142,4 +142,6 @@ DigitalOcean provides reliable cloud storage for Snap Hutao database backup
 [Ducalis.io](https://hi.ducalis.io/) provides Snap Hutao project with a complete decision-making toolkit for project management
 
 JetBrains provides Snap Hutao project with free open-source licenses for their IDEs
+
+Termius provides a secure, reliable, and collaborative SSH client
 :::
