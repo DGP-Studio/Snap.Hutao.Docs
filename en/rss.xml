@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 31 Oct 2024 12:00:34 GMT</pubDate>
-    <lastBuildDate>Thu, 31 Oct 2024 12:00:34 GMT</lastBuildDate>
+    <pubDate>Sun, 03 Nov 2024 11:25:16 GMT</pubDate>
+    <lastBuildDate>Sun, 03 Nov 2024 11:25:16 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,36 +23,32 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.11.6</title>
+      <title>🎉 Successfully Updated to Version 1.11.7</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.6</source>
-      <description>🎉 Successfully Updated to Version 1.11.6 | English 1.11.6 is a hotfix version of 1.11.5 that addressed several critical issues. [🔨Fix] Fixed the issue where features requiring...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.7</source>
+      <description>🎉 Successfully Updated to Version 1.11.7 | English [🎉New] / [✨Optimization] Adjusted the UI of the game launch interface [🎉New] Removed the progress bar from the team configu...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
-<p>1.11.6 is a hotfix version of 1.11.5 that addressed several critical issues.</p>
 <ul>
-<li><strong>[🔨Fix]</strong> Fixed the issue where features requiring verification would crash after verification <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2074" target="_blank" rel="noopener noreferrer">#2074</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where features requiring resource downloads might freeze</li>
+<li><strong>[🎉New]</strong> / <strong>[✨Optimization]</strong> Adjusted the UI of the game launch interface
+<ul>
+<li><strong>[🎉New]</strong> Removed the progress bar from the team configuration interface</li>
+<li><strong>[🎉New]</strong> Added "Let me in! Mickey Mouse Clubhouse" feature (yes, really)</li>
 </ul>
-<p>1.11.5</p>
-<ul>
-<li><strong>[🎉New]</strong> Added MiYouShe / HoYoLAB account login in the game launcher</li>
-<li><strong>[🎉New]</strong> Added filters on the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1786" target="_blank" rel="noopener noreferrer">#1786</a></li>
-<li><strong>[🎉New]</strong> Added an option to save images from web activities in the settings <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1804" target="_blank" rel="noopener noreferrer">#1804</a></li>
-<li><strong>[🎉New]</strong> Added account and third-party login for oversea server <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1966" target="_blank" rel="noopener noreferrer">#1966</a></li>
-<li><strong>[🔨Fix]</strong> Fixed a crash issue when refreshing background images</li>
-<li><strong>[🔨Fix]</strong> Fixed display issues with multi-monitor scaling</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the error report window might not display correctly</li>
-<li><strong>[🔨Fix]</strong> Fixed incomplete display of real-time note settings in some languages <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2040" target="_blank" rel="noopener noreferrer">#2040</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where some lists were not processed correctly when updating the cultivation plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2022" target="_blank" rel="noopener noreferrer">#2022</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where syncing backpack items in the cultivation plan might not respond <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2044" target="_blank" rel="noopener noreferrer">#2044</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the number of backpack items might be incorrect when syncing the cultivation plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2061" target="_blank" rel="noopener noreferrer">#2061</a></li>
-<li><strong>[🔨Fix]</strong> Fixed a crash issue when entering the verification code directly without clicking "Get" during MiYouShe phone login <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2058" target="_blank" rel="noopener noreferrer">#2058</a></li>
-<li><strong>[✨Optimization]</strong> Optimized the enable logic of the game update button</li>
-<li><strong>[✨Optimization]</strong> Increased the monster level cap to 110 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1988" target="_blank" rel="noopener noreferrer">#1988</a></li>
-<li><strong>[✨Optimization]</strong> The verification window will now automatically pop up when encountering a CAPTCHA <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1616" target="_blank" rel="noopener noreferrer">#1616</a></li>
+</li>
+<li><strong>[🎉New]</strong> Added chunk mode for server switching in the game launcher</li>
+<li><strong>[🎉New]</strong> Added character name cards to character WIKI <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1424" target="_blank" rel="noopener noreferrer">#1424</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where Snap Hutao might crash on the first launch of the day <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2101" target="_blank" rel="noopener noreferrer">#2101</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the error report window might not display correctly</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue with incorrect duration of homepage announcements</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where game file management might crash on certain types of disks <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2077" target="_blank" rel="noopener noreferrer">#2077</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where refreshing wish records via web cache might cause a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2083" target="_blank" rel="noopener noreferrer">#2083</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where window size might be incorrect after restarting across monitors</li>
+<li><strong>[✨Optimization]</strong> The calendar card now highlights materials that can be farmed today in the current cultivation plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2045" target="_blank" rel="noopener noreferrer">#2045</a></li>
+<li><strong>[✨Optimization]</strong> The "My Characters" and character WIKI no longer show filters for 1-star to 3-star items <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2110" target="_blank" rel="noopener noreferrer">#2110</a></li>
+<li><strong>[✨Optimization]</strong> Adding MiYouShe/HoYoLAB accounts now displays a dialog to prevent user operations until completion</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -533,12 +529,32 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.11.7 </h2>
+<ul>
+<li><strong>[🎉New]</strong> / <strong>[✨Optimization]</strong> Adjusted the UI of the game launch interface
+<ul>
+<li><strong>[🎉New]</strong> Removed the progress bar from the team configuration interface</li>
+<li><strong>[🎉New]</strong> Added "Let me in! Mickey Mouse Clubhouse" feature (yes, really)</li>
+</ul>
+</li>
+<li><strong>[🎉New]</strong> Added chunk mode for server switching in the game launcher</li>
+<li><strong>[🎉New]</strong> Added character name cards to character WIKI <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1424" target="_blank" rel="noopener noreferrer">#1424</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where Snap Hutao might crash on the first launch of the day <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2101" target="_blank" rel="noopener noreferrer">#2101</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the error report window might not display correctly</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue with incorrect duration of homepage announcements</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where game file management might crash on certain types of disks <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2077" target="_blank" rel="noopener noreferrer">#2077</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where refreshing wish records via web cache might cause a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2083" target="_blank" rel="noopener noreferrer">#2083</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where window size might be incorrect after restarting across monitors</li>
+<li><strong>[✨Optimization]</strong> The calendar card now highlights materials that can be farmed today in the current cultivation plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2045" target="_blank" rel="noopener noreferrer">#2045</a></li>
+<li><strong>[✨Optimization]</strong> The "My Characters" and character WIKI no longer show filters for 1-star to 3-star items <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2110" target="_blank" rel="noopener noreferrer">#2110</a></li>
+<li><strong>[✨Optimization]</strong> Adding MiYouShe/HoYoLAB accounts now displays a dialog to prevent user operations until completion</li>
+</ul>
 <h2>1.11.6 </h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed the issue where features requiring verification would crash after verification <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2074" target="_blank" rel="noopener noreferrer">#2074</a></li>
 <li><strong>[🔨Fix]</strong> Fixed the issue where features requiring resource downloads might freeze</li>
 </ul>
-<h2>1.11.5 </h2>
+<h2>1.11.5</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added MiYouShe / HoYoLAB account login in the game launcher</li>
 <li><strong>[🎉New]</strong> Added filters on the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1786" target="_blank" rel="noopener noreferrer">#1786</a></li>
