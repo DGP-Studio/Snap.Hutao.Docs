@@ -16,29 +16,21 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.11.6
+# 🎉 Successfully Updated to Version 1.11.7
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-1.11.6 is a hotfix version of 1.11.5 that addressed several critical issues.
-
-- **[🔨Fix]** Fixed the issue where features requiring verification would crash after verification [#2074](https://github.com/DGP-Studio/Snap.Hutao/issues/2074)
-- **[🔨Fix]** Fixed the issue where features requiring resource downloads might freeze
-
-1.11.5
-
-- **[🎉New]** Added MiYouShe / HoYoLAB account login in the game launcher
-- **[🎉New]** Added filters on the My Characters page [#1786](https://github.com/DGP-Studio/Snap.Hutao/issues/1786)
-- **[🎉New]** Added an option to save images from web activities in the settings [#1804](https://github.com/DGP-Studio/Snap.Hutao/issues/1804)
-- **[🎉New]** Added account and third-party login for oversea server [#1966](https://github.com/DGP-Studio/Snap.Hutao/issues/1966)
-- **[🔨Fix]** Fixed a crash issue when refreshing background images
-- **[🔨Fix]** Fixed display issues with multi-monitor scaling
-- **[🔨Fix]** Fixed an issue where the error report window might not display correctly
-- **[🔨Fix]** Fixed incomplete display of real-time note settings in some languages [#2040](https://github.com/DGP-Studio/Snap.Hutao/issues/2040)
-- **[🔨Fix]** Fixed an issue where some lists were not processed correctly when updating the cultivation plan [#2022](https://github.com/DGP-Studio/Snap.Hutao/issues/2022)
-- **[🔨Fix]** Fixed an issue where syncing backpack items in the cultivation plan might not respond [#2044](https://github.com/DGP-Studio/Snap.Hutao/issues/2044)
-- **[🔨Fix]** Fixed an issue where the number of backpack items might be incorrect when syncing the cultivation plan [#2061](https://github.com/DGP-Studio/Snap.Hutao/issues/2061)
-- **[🔨Fix]** Fixed a crash issue when entering the verification code directly without clicking "Get" during MiYouShe phone login [#2058](https://github.com/DGP-Studio/Snap.Hutao/issues/2058)
-- **[✨Optimization]** Optimized the enable logic of the game update button
-- **[✨Optimization]** Increased the monster level cap to 110 [#1988](https://github.com/DGP-Studio/Snap.Hutao/issues/1988)
-- **[✨Optimization]** The verification window will now automatically pop up when encountering a CAPTCHA [#1616](https://github.com/DGP-Studio/Snap.Hutao/issues/1616)
+- **[🎉New]** / **[✨Optimization]** Adjusted the UI of the game launch interface
+  - **[🎉New]** Removed the progress bar from the team configuration interface
+  - **[🎉New]** Added "Let me in! Mickey Mouse Clubhouse" feature (yes, really)
+- **[🎉New]** Added chunk mode for server switching in the game launcher
+- **[🎉New]** Added character name cards to character WIKI [#1424](https://github.com/DGP-Studio/Snap.Hutao/issues/1424)
+- **[🔨Fix]** Fixed the issue where Snap Hutao might crash on the first launch of the day [#2101](https://github.com/DGP-Studio/Snap.Hutao/issues/2101)
+- **[🔨Fix]** Fixed the issue where the error report window might not display correctly
+- **[🔨Fix]** Fixed the issue with incorrect duration of homepage announcements
+- **[🔨Fix]** Fixed the issue where game file management might crash on certain types of disks [#2077](https://github.com/DGP-Studio/Snap.Hutao/issues/2077)
+- **[🔨Fix]** Fixed the issue where refreshing wish records via web cache might cause a crash [#2083](https://github.com/DGP-Studio/Snap.Hutao/issues/2083)
+- **[🔨Fix]** Fixed the issue where window size might be incorrect after restarting across monitors
+- **[✨Optimization]** The calendar card now highlights materials that can be farmed today in the current cultivation plan [#2045](https://github.com/DGP-Studio/Snap.Hutao/issues/2045)
+- **[✨Optimization]** The "My Characters" and character WIKI no longer show filters for 1-star to 3-star items [#2110](https://github.com/DGP-Studio/Snap.Hutao/issues/2110)
+- **[✨Optimization]** Adding MiYouShe/HoYoLAB accounts now displays a dialog to prevent user operations until completion
