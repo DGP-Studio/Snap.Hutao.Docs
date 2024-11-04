@@ -16,9 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.11.7 版本
+# 🎉 已成功更新至 1.11.8 版本
 
 **简体中文** | [English](/en/statements/latest.html)
+
+1.11.8 版本是 1.11.7 的热修版本，修复了多个严重的问题
+
+- **【🔨修复】** 修复了国际服注入功能失效的问题 [#2121](https://github.com/DGP-Studio/Snap.Hutao/issues/2121)
+- **【🔨修复】** 修复了通过网页缓存刷新抽卡记录失效的问题 [#2124](https://github.com/DGP-Studio/Snap.Hutao/issues/2124)
+
+1.11.7
 
 - **【🎉新增】** / **【✨优化】** 调整了启动游戏界面的 UI
     - **【🎉新增】** 移除队伍配置界面进度条 功能

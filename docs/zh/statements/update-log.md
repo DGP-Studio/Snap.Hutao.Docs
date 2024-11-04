@@ -10,6 +10,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
+## 1.11.8 <Badge text="hotfix" type="warning" />
+
+- **【🔨修复】** 修复了国际服注入功能失效的问题 [#2121](https://github.com/DGP-Studio/Snap.Hutao/issues/2121)
+- **【🔨修复】** 修复了通过网页缓存刷新抽卡记录失效的问题 [#2124](https://github.com/DGP-Studio/Snap.Hutao/issues/2124)
+
 ## 1.11.7 <Badge text="最新版" type="tip" />
 
 - **【🎉新增】** / **【✨优化】** 调整了启动游戏界面的 UI

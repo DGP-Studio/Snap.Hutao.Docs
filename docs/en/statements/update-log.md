@@ -11,6 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.11.8 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed the issue where the injection feature for the oversea server was not working [#2121](https://github.com/DGP-Studio/Snap.Hutao/issues/2121)
+- **[🔨Fix]** Fixed the issue where refreshing wish records via web cache was not working [#2124](https://github.com/DGP-Studio/Snap.Hutao/issues/2124)
+
 ## 1.11.7 <Badge text="latest" type="tip" />
 
 - **[🎉New]** / **[✨Optimization]** Adjusted the UI of the game launch interface
