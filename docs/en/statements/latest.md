@@ -24,6 +24,7 @@ pageInfo: false
 
 - **[🔨Fix]** Fixed the issue where the injection feature for the oversea server was not working [#2121](https://github.com/DGP-Studio/Snap.Hutao/issues/2121)
 - **[🔨Fix]** Fixed the issue where refreshing wish records via web cache was not working [#2124](https://github.com/DGP-Studio/Snap.Hutao/issues/2124)
+- **[✨Optimization]** Optimized the logic between the game launch injection option switches [#2122](https://github.com/DGP-Studio/Snap.Hutao/issues/2122)
 
 1.11.7
 
