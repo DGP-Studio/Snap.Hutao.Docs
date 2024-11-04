@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 03 Nov 2024 11:25:16 GMT</pubDate>
-    <lastBuildDate>Sun, 03 Nov 2024 11:25:16 GMT</lastBuildDate>
+    <pubDate>Mon, 04 Nov 2024 13:20:58 GMT</pubDate>
+    <lastBuildDate>Mon, 04 Nov 2024 13:20:58 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -21,14 +21,21 @@
     <category>第三方工具</category>
     <category>项目</category>
     <item>
-      <title>🎉 已成功更新至 1.11.7 版本</title>
+      <title>🎉 已成功更新至 1.11.8 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.7 版本</source>
-      <description>🎉 已成功更新至 1.11.7 版本 简体中文 | 【🎉新增】 / 【✨优化】 调整了启动游戏界面的 UI 【🎉新增】 移除队伍配置界面进度条 功能 【🎉新增】 让我进去！米奇妙妙功能（是的没错） 【🎉新增】 启动游戏切换服务器新增分块模式 【🎉新增】 角色资料添加角色名片 #1424 【🔨修复】 修复了每日首次启动胡桃可能会崩溃的问题 ...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.8 版本</source>
+      <description>🎉 已成功更新至 1.11.8 版本 简体中文 | 1.11.8 版本是 1.11.7 的热修版本，修复了多个严重的问题 【🔨修复】 修复了国际服注入功能失效的问题 #2121 【🔨修复】 修复了通过网页缓存刷新抽卡记录失效的问题 #2124 【✨优化】 优化了启动游戏注入选项开关间的逻辑 #2122 1.11.7 【🎉新增】 / 【✨优化】 ...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
+<p>1.11.8 版本是 1.11.7 的热修版本，修复了多个严重的问题</p>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了国际服注入功能失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2121" target="_blank" rel="noopener noreferrer">#2121</a></li>
+<li><strong>【🔨修复】</strong> 修复了通过网页缓存刷新抽卡记录失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2124" target="_blank" rel="noopener noreferrer">#2124</a></li>
+<li><strong>【✨优化】</strong> 优化了启动游戏注入选项开关间的逻辑 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2122" target="_blank" rel="noopener noreferrer">#2122</a></li>
+</ul>
+<p>1.11.7</p>
 <ul>
 <li><strong>【🎉新增】</strong> / <strong>【✨优化】</strong> 调整了启动游戏界面的 UI
 <ul>
@@ -596,6 +603,12 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.11.8 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了国际服注入功能失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2121" target="_blank" rel="noopener noreferrer">#2121</a></li>
+<li><strong>【🔨修复】</strong> 修复了通过网页缓存刷新抽卡记录失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2124" target="_blank" rel="noopener noreferrer">#2124</a></li>
+<li><strong>【✨优化】</strong> 优化了启动游戏注入选项开关间的逻辑 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2122" target="_blank" rel="noopener noreferrer">#2122</a></li>
+</ul>
 <h2>1.11.7 </h2>
 <ul>
 <li><strong>【🎉新增】</strong> / <strong>【✨优化】</strong> 调整了启动游戏界面的 UI

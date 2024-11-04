@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 03 Nov 2024 11:25:16 GMT</pubDate>
-    <lastBuildDate>Sun, 03 Nov 2024 11:25:16 GMT</lastBuildDate>
+    <pubDate>Mon, 04 Nov 2024 13:20:58 GMT</pubDate>
+    <lastBuildDate>Mon, 04 Nov 2024 13:20:58 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,14 +23,21 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.11.7</title>
+      <title>🎉 Successfully Updated to Version 1.11.8</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.7</source>
-      <description>🎉 Successfully Updated to Version 1.11.7 | English [🎉New] / [✨Optimization] Adjusted the UI of the game launch interface [🎉New] Removed the progress bar from the team configu...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.8</source>
+      <description>🎉 Successfully Updated to Version 1.11.8 | English 1.11.8 is a hotfix version of 1.11.7 that addressed several critical issues. [🔨Fix] Fixed the issue where the injection feat...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
+<p>1.11.8 is a hotfix version of 1.11.7 that addressed several critical issues.</p>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the injection feature for the oversea server was not working <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2121" target="_blank" rel="noopener noreferrer">#2121</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where refreshing wish records via web cache was not working <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2124" target="_blank" rel="noopener noreferrer">#2124</a></li>
+<li><strong>[✨Optimization]</strong> Optimized the logic between the game launch injection option switches <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2122" target="_blank" rel="noopener noreferrer">#2122</a></li>
+</ul>
+<p>1.11.7</p>
 <ul>
 <li><strong>[🎉New]</strong> / <strong>[✨Optimization]</strong> Adjusted the UI of the game launch interface
 <ul>
@@ -529,6 +536,12 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.11.8 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the injection feature for the oversea server was not working <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2121" target="_blank" rel="noopener noreferrer">#2121</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where refreshing wish records via web cache was not working <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2124" target="_blank" rel="noopener noreferrer">#2124</a></li>
+<li><strong>[✨Optimization]</strong> Optimized the logic between the game launch injection option switches <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2122" target="_blank" rel="noopener noreferrer">#2122</a></li>
+</ul>
 <h2>1.11.7 </h2>
 <ul>
 <li><strong>[🎉New]</strong> / <strong>[✨Optimization]</strong> Adjusted the UI of the game launch interface
