@@ -16,9 +16,17 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.11.7
+# 🎉 Successfully Updated to Version 1.11.8
 
 [简体中文](/zh/statements/latest.html) | **English**
+
+1.11.8 is a hotfix version of 1.11.7 that addressed several critical issues.
+
+- **[🔨Fix]** Fixed the issue where the injection feature for the oversea server was not working [#2121](https://github.com/DGP-Studio/Snap.Hutao/issues/2121)
+- **[🔨Fix]** Fixed the issue where refreshing wish records via web cache was not working [#2124](https://github.com/DGP-Studio/Snap.Hutao/issues/2124)
+- **[✨Optimization]** Optimized the logic between the game launch injection option switches [#2122](https://github.com/DGP-Studio/Snap.Hutao/issues/2122)
+
+1.11.7
 
 - **[🎉New]** / **[✨Optimization]** Adjusted the UI of the game launch interface
   - **[🎉New]** Removed the progress bar from the team configuration interface
