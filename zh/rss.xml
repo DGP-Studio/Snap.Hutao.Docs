@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 04 Nov 2024 13:20:58 GMT</pubDate>
-    <lastBuildDate>Mon, 04 Nov 2024 13:20:58 GMT</lastBuildDate>
+    <pubDate>Tue, 05 Nov 2024 13:03:53 GMT</pubDate>
+    <lastBuildDate>Tue, 05 Nov 2024 13:03:53 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -21,14 +21,21 @@
     <category>第三方工具</category>
     <category>项目</category>
     <item>
-      <title>🎉 已成功更新至 1.11.8 版本</title>
+      <title>🎉 已成功更新至 1.11.9 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.8 版本</source>
-      <description>🎉 已成功更新至 1.11.8 版本 简体中文 | 1.11.8 版本是 1.11.7 的热修版本，修复了多个严重的问题 【🔨修复】 修复了国际服注入功能失效的问题 #2121 【🔨修复】 修复了通过网页缓存刷新抽卡记录失效的问题 #2124 【✨优化】 优化了启动游戏注入选项开关间的逻辑 #2122 1.11.7 【🎉新增】 / 【✨优化】 ...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.9 版本</source>
+      <description>🎉 已成功更新至 1.11.9 版本 简体中文 | 1.11.9 版本是 1.11.8 的热修版本，修复了多个严重的问题 【🎉新增】 祈愿记录新增卡池计时 #1341 【🔨修复】 修复了启动游戏注入选项与实际情况不匹配的问题 #2134 【🔨修复】 修复了启用调整视野时在队伍和部分角色元素爆发画面可能出现卡顿的问题 #2137 【🔨修复】 修...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
+<p>1.11.9 版本是 1.11.8 的热修版本，修复了多个严重的问题</p>
+<ul>
+<li><strong>【🎉新增】</strong> 祈愿记录新增卡池计时 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1341" target="_blank" rel="noopener noreferrer">#1341</a></li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏注入选项与实际情况不匹配的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2134" target="_blank" rel="noopener noreferrer">#2134</a></li>
+<li><strong>【🔨修复】</strong> 修复了启用调整视野时在队伍和部分角色元素爆发画面可能出现卡顿的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2137" target="_blank" rel="noopener noreferrer">#2137</a></li>
+<li><strong>【🔨修复】</strong> 修复了 WebView 无法正常弹出时可能会崩溃的问题</li>
+</ul>
 <p>1.11.8 版本是 1.11.7 的热修版本，修复了多个严重的问题</p>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了国际服注入功能失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2121" target="_blank" rel="noopener noreferrer">#2121</a></li>
@@ -603,6 +610,13 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.11.9 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 祈愿记录新增卡池计时 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1341" target="_blank" rel="noopener noreferrer">#1341</a></li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏注入选项与实际情况不匹配的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2134" target="_blank" rel="noopener noreferrer">#2134</a></li>
+<li><strong>【🔨修复】</strong> 修复了启用调整视野时在队伍和部分角色元素爆发画面可能出现卡顿的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2137" target="_blank" rel="noopener noreferrer">#2137</a></li>
+<li><strong>【🔨修复】</strong> 修复了 WebView 无法正常弹出时可能会崩溃的问题</li>
+</ul>
 <h2>1.11.8 </h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了国际服注入功能失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2121" target="_blank" rel="noopener noreferrer">#2121</a></li>
