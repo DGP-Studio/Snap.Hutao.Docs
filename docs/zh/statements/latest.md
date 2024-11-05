@@ -16,9 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.11.8 版本
+# 🎉 已成功更新至 1.11.9 版本
 
 **简体中文** | [English](/en/statements/latest.html)
+
+1.11.9 版本是 1.11.8 的热修版本，修复了多个严重的问题
+
+- **【🎉新增】** 祈愿记录新增卡池计时 [#1341](https://github.com/DGP-Studio/Snap.Hutao/issues/1341)
+- **【🔨修复】** 修复了启动游戏注入选项与实际情况不匹配的问题 [#2134](https://github.com/DGP-Studio/Snap.Hutao/issues/2134)
+- **【🔨修复】** 修复了启用调整视野时在队伍和部分角色元素爆发画面可能出现卡顿的问题 [#2137](https://github.com/DGP-Studio/Snap.Hutao/issues/2137)
+- **【🔨修复】** 修复了 WebView 无法正常弹出时可能会崩溃的问题
 
 1.11.8 版本是 1.11.7 的热修版本，修复了多个严重的问题
 

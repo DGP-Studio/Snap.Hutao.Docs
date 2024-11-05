@@ -11,6 +11,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.11.9 <Badge text="hotfix" type="warning" />
+
+- **[🎉New]** Added countdown for wish history pools [#1341](https://github.com/DGP-Studio/Snap.Hutao/issues/1341)
+- **[🔨Fix]** Fixed the issue where the game launch injection option did not match the actual situation [#2134](https://github.com/DGP-Studio/Snap.Hutao/issues/2134)
+- **[🔨Fix]** Fixed the issue where enabling field of view adjustment could cause stuttering in team and some character elemental burst scenes [#2137](https://github.com/DGP-Studio/Snap.Hutao/issues/2137)
+- **[🔨Fix]** Fixed the issue where WebView might crash when it fails to pop up normally
+
 ## 1.11.8 <Badge text="hotfix" type="warning" />
 
 - **[🔨Fix]** Fixed the issue where the injection feature for the oversea server was not working [#2121](https://github.com/DGP-Studio/Snap.Hutao/issues/2121)

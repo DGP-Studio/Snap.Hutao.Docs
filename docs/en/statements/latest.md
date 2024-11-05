@@ -16,9 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.11.8
+# 🎉 Successfully Updated to Version 1.11.9
 
 [简体中文](/zh/statements/latest.html) | **English**
+
+1.11.9 is a hotfix version of 1.11.8 that addressed several critical issues.
+
+- **[🎉New]** Added countdown for wish history pools [#1341](https://github.com/DGP-Studio/Snap.Hutao/issues/1341)
+- **[🔨Fix]** Fixed the issue where the game launch injection option did not match the actual situation [#2134](https://github.com/DGP-Studio/Snap.Hutao/issues/2134)
+- **[🔨Fix]** Fixed the issue where enabling field of view adjustment could cause stuttering in team and some character elemental burst scenes [#2137](https://github.com/DGP-Studio/Snap.Hutao/issues/2137)
+- **[🔨Fix]** Fixed the issue where WebView might crash when it fails to pop up normally
 
 1.11.8 is a hotfix version of 1.11.7 that addressed several critical issues.
 

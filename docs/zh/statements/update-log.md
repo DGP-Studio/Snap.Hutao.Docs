@@ -10,6 +10,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
+## 1.11.9 <Badge text="hotfix" type="warning" />
+
+- **【🎉新增】** 祈愿记录新增卡池计时 [#1341](https://github.com/DGP-Studio/Snap.Hutao/issues/1341)
+- **【🔨修复】** 修复了启动游戏注入选项与实际情况不匹配的问题 [#2134](https://github.com/DGP-Studio/Snap.Hutao/issues/2134)
+- **【🔨修复】** 修复了启用调整视野时在队伍和部分角色元素爆发画面可能出现卡顿的问题 [#2137](https://github.com/DGP-Studio/Snap.Hutao/issues/2137)
+- **【🔨修复】** 修复了 WebView 无法正常弹出时可能会崩溃的问题
+
 ## 1.11.8 <Badge text="hotfix" type="warning" />
 
 - **【🔨修复】** 修复了国际服注入功能失效的问题 [#2121](https://github.com/DGP-Studio/Snap.Hutao/issues/2121)
