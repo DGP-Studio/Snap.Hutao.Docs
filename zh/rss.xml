@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 07 Nov 2024 01:45:36 GMT</pubDate>
-    <lastBuildDate>Thu, 07 Nov 2024 01:45:36 GMT</lastBuildDate>
+    <pubDate>Thu, 07 Nov 2024 14:29:38 GMT</pubDate>
+    <lastBuildDate>Thu, 07 Nov 2024 14:29:38 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -2346,6 +2346,16 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>将复制到的 Stoken 发送到已经安装了胡桃工具箱的电脑</li>
 <li>在“胡桃”中账号登录的位置，点击“手动输入”</li>
 <li>输入之前获取的 <code>Cookie</code> 即可完成登录</li>
+</ul>
+<h2>macOS</h2>
+<p>macOS 用户可以通过 <a href="https://github.com/BTMuli/TeyvatGuide" target="_blank" rel="noopener noreferrer">TeyvatGuide</a> 应用来获取包含 Stoken 字段的 Cookie</p>
+<ul>
+<li>从 <a href="https://github.com/BTMuli/TeyvatGuide/releases/latest" target="_blank" rel="noopener noreferrer">Github Release</a> 下载 TeyvatGuide 对应的 macOS 包</li>
+<li>参考 <a href="https://github.com/BTMuli/TeyvatGuide/blob/master/docs/macos-gatekeeper/README.md" target="_blank" rel="noopener noreferrer">TeyvatGuide 文档</a> 安装</li>
+<li>设置页通过短信验证码登录账户</li>
+<li>在用户 Badge 中选择Cookie复制按钮复制Cookie</li>
+<li>在胡桃中账号登录的位置，点击“手动输入”</li>
+<li>直接粘贴即可完成登录</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/get-stoken-cookie-from-the-third-party.html&amp;has_description=False" type="image/"/>
