@@ -1,5 +1,5 @@
 ---
-category: [FAQ, 第三方工具]
+categories: [FAQ, 第三方工具]
 icon: iconfont icon-read
 order: 7
 comment: false
@@ -10,17 +10,19 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 # 使用第三方工具获取有 Stoken 的 cookie
 
 ::: warning
+
 - 以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关
 - 本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关
-:::
+  :::
 
 ## Android
 
 Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的 cookie
 
 ::: tip GetToken 开源项目
+
 - GitHub：[HolographicHat/GetToken](https://github.com/HolographicHat/GetToken)
-:::
+  :::
 
 - GetToken 项目的发布会包含两个 apk 文件，两者最终效果相同。根据你的设备情况选择适合你的版本即可。
   - `app-release.apk` 是一个 LSPosed 插件，其允许用户在官方米游社中使用 GetToken 功能
@@ -47,3 +49,14 @@ iOS 用户可以在 App Store 下载抓包软件 `Stream` 来获取包含 Stoken
 - 将复制到的 Stoken 发送到已经安装了胡桃工具箱的电脑
 - 在“胡桃”中账号登录的位置，点击“手动输入”
 - 输入之前获取的 `Cookie` 即可完成登录
+
+## macOS
+
+macOS 用户可以通过 [TeyvatGuide](https://github.com/BTMuli/TeyvatGuide) 应用来获取包含 Stoken 字段的 Cookie
+
+- 从 [Github Release](https://github.com/BTMuli/TeyvatGuide/releases/latest) 下载 TeyvatGuide 对应的 macOS 包
+- 参考 [TeyvatGuide 文档](https://github.com/BTMuli/TeyvatGuide/blob/master/docs/macos-gatekeeper/README.md) 安装
+- 设置页通过短信验证码登录账户
+- 在用户 Badge 中选择Cookie复制按钮复制Cookie
+- 在胡桃中账号登录的位置，点击“手动输入”
+- 直接粘贴即可完成登录
