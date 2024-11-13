@@ -269,3 +269,5 @@ Snap Hutao 的軟體憑證來自[GlobalSign Code Signing Root R45](https://suppo
 3. 如果 PowerShell 沒有任何錯誤輸出（通常為紅色），表示安裝成功。請在開始功能表中的全部應用程式清單中尋找 `Snap Hutao` 並啟動
 
 ？？？增加一段msvc
+
+？？？开头的链接都需要改为zh-hant
