@@ -19,7 +19,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 | ---------------------- | ---------------------------------------------------------------- |
 | **最低可运行系统版本** | Windows 10 Build 19045 (22H2)<br/> Windows 11 Build 22621 (22H2) |
 | **推荐系统版本**       | Windows 11 Build 22621 (22H2) 或更高版本                         |
-| **必要组件**           | Windows Update, App Installer                                    |
+| **必要组件**           | Windows Update, App Installer, **MSVC 运行库**                   |
 | 可选组件               | WebView2 Runtime                                                 |
 
 **不支持的系统版本**：
@@ -32,6 +32,11 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 ## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> 下载胡桃工具箱
 
 ### 全新安装
+
+::: warning
+在安装软件前，请务必确认你已安装了最新的 **MSVC 运行库**。
+下载链接：[MSVC 运行库（x64）](https://aka.ms/vs/17/release/vc_redist.x64.exe)｜[MSVC 运行库（x86）](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+:::
 
 使用 **MSIX 安装包** 或 **Snap.Hutao.Deployment 安装器** 即可安装 Snap Hutao，你可以从以下源获取到安装包
 
