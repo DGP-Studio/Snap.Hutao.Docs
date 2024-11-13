@@ -3,5 +3,6 @@ $font-family: 'Georgia, -apple-system, "Nimbus Roman No9 L", "PingFang SC", "Hir
 $vp-c-accent: #f26d6d;
 $vp-c-accent-bg: #f26d6d;
 $vp-c-accent-hover: #f37c7c;
-$vp-c-control: #cccccc;
-$vp-c-control-hover: #f37c7c;
+$vp-c-control: (light:#f8f8f8, dark:#21262c);
+$vp-c-control-hover: #f67f7f;
+$vp-c-text-mute: (light: #3a5169, dark:#a8a8a8);
