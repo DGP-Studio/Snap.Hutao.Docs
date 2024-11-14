@@ -142,5 +142,5 @@ DigitalOcean 为 Snap Hutao 提供了可靠的数据备份储存空间
 
 JetBrains 为 Snap Hutao 开发团队提供了优秀的软件开发工具
 
-Termius 提供了安全可靠且可协作的 SSH 客户端
+Termius 为 Snap Hutao 提供了安全可靠且可协作的 SSH 客户端
 :::

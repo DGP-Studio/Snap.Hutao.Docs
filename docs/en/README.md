@@ -143,5 +143,5 @@ DigitalOcean provides reliable cloud storage for Snap Hutao database backup
 
 JetBrains provides Snap Hutao project with free open-source licenses for their IDEs
 
-Termius provides a secure, reliable, and collaborative SSH client
+Termius provides Snap Hutao project with a secure, reliable, and collaborative SSH client
 :::
