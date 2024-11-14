@@ -91,11 +91,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 ## 在查找必要的模块时出现问题
 
-当用户在解锁游戏帧数限制的情况下启动游戏时，可能会遇上以下错误提示并启动游戏失败
+当用户在设置游戏帧率的情况下启动游戏时，可能会遇上以下错误提示并启动游戏失败
 
 1. 在查找必要的模块时遇到问题：无法读取任何模块，可能是保护驱动已经加载完成
 2. 在查找必要的模块时遇到问题：查找模块超时
-   该问题仅当原神反作弊模块早于解锁帧率模块启动时出现。在出现该错误后，胡桃会主动关闭游戏进程，用户再次尝试启动游戏即可。
+   该问题仅当原神反作弊模块早于帧率设置模块启动时出现。在出现该错误后，胡桃会主动关闭游戏进程，用户再次尝试启动游戏即可。
 
 ## 应用安装失败，错误消息：出现内部错误 0x80073D05
 
@@ -103,3 +103,9 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 - 需要打开 `%appdata%/../Local/Packages`
 - 并在文件夹中找到 `60568DGPStudio.SnapHutao_wbnnev551gwxy` 文件夹并删除（如果权限不足请考虑使用 `NSudo_LG` 解决，详情请百度）
+
+## 提示 0x8007007E 或 找不到指定的文件/找不到指定的模块
+
+缺少 MSVC 运行库所致，请安装最新版 **MSVC 运行库**。
+
+下载链接：[MSVC 运行库（x64）](https://aka.ms/vs/17/release/vc_redist.x64.exe)｜[MSVC 运行库（x86）](https://aka.ms/vs/17/release/vc_redist.x86.exe)

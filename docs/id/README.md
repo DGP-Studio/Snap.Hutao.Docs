@@ -138,5 +138,5 @@ Kode tanda tangan gratis disediakan oleh [SignPath.io](https://signpath.io/), se
 
 DigitalOcean menyediakan penyimpanan cloud yang handal untuk cadangan database Snap Hutao
 
-Termius provides a secure, reliable, and collaborative SSH client
+Termius provides Snap Hutao project with a secure, reliable, and collaborative SSH client
 :::
