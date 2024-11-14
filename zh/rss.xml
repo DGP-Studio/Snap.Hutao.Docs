@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 14 Nov 2024 03:47:22 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Nov 2024 03:47:22 GMT</lastBuildDate>
+    <pubDate>Thu, 14 Nov 2024 03:55:44 GMT</pubDate>
+    <lastBuildDate>Thu, 14 Nov 2024 03:55:44 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -1983,6 +1983,9 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <li>需要打开 <code>%appdata%/../Local/Packages</code></li>
 <li>并在文件夹中找到 <code>60568DGPStudio.SnapHutao_wbnnev551gwxy</code> 文件夹并删除（如果权限不足请考虑使用 <code>NSudo_LG</code> 解决，详情请百度）</li>
 </ul>
+<h2>提示 0x8007007E 或 找不到指定的文件/找不到指定的模块</h2>
+<p>缺少 MSVC 运行库所致，请安装最新版 <strong>MSVC 运行库</strong>。</p>
+<p>下载链接：<a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank" rel="noopener noreferrer">MSVC 运行库（x64）</a>｜<a href="https://aka.ms/vs/17/release/vc_redist.x86.exe" target="_blank" rel="noopener noreferrer">MSVC 运行库（x86）</a></p>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/exceptions.html&amp;has_description=False" type="image/"/>
     </item>
