@@ -121,6 +121,12 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 
 ### 解锁帧率上限
 
+::: warning
+在使用本功能前，请务必确认你**已安装了最新的 MSVC 运行库**，否则解锁帧率功能将无法正常运行。
+
+下载链接：[MSVC 运行库（x64）](https://aka.ms/vs/17/release/vc_redist.x64.exe)｜[MSVC 运行库（x86）](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+:::
+
 ::: caution
 - [Unlocker 项目](https://github.com/DGP-Studio/Unlocker)仅作用于 UnityPlayer 本身，即直接作用于 Unity3D 引擎，与游戏本体不发生直接关系，本质上与移动端中“120帧率”等设置无异，但您仍应谨慎使用并自行阅读[用户协议](../statements/tos.md#总则)
 :::
