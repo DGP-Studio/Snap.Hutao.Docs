@@ -20,7 +20,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 | **最低可运行系统版本** | Windows 10 Build 19045 (22H2)<br/> Windows 11 Build 22621 (22H2) |
 | **推荐系统版本**       | Windows 11 Build 22621 (22H2) 或更高版本                         |
 | **必要组件**           | Windows Update, App Installer                                    |
-| 可选组件               | WebView2 Runtime                                                 |
+| 可选组件               | WebView2 Runtime, **MSVC 运行库**                                |
 
 **不支持的系统版本**：
 
@@ -148,6 +148,12 @@ WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启�
 该字体由微软提供，可以为胡桃提供更好的图标显示效果，缺少该字体可能导致胡桃的部分图标显示效果不佳。
 
 您可以点击[此链接](https://aka.ms/SegoeFluentIcons)以直接下载字体压缩包。请在解压后右键安装以将字体安装到系统。
+
+### <img src="/images/202409/Microsoft-logo.svg" width="20" height="20"> MSVC 运行库（MSVCRT）
+
+MSVC 运行库是解锁帧率功能的必须组件，如遇解锁帧率时提示“缺少 XXX.dll”或“缺少 XXX 组件”，请先尝试安装最新版的 MSVCRT 库。**此项需要您手动安装。**
+
+下载链接：[MSVC 运行库（x64）](https://aka.ms/vs/17/release/vc_redist.x64.exe)｜[MSVC 运行库（x86）](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 ## <HopeIcon icon="iconfont icon-adduser" size="1.7rem" color="rgb(7, 163, 161)" /> 添加第一个米游社账号
 
