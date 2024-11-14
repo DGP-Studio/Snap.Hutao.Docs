@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 07 Nov 2024 14:29:38 GMT</pubDate>
-    <lastBuildDate>Thu, 07 Nov 2024 14:29:38 GMT</lastBuildDate>
+    <pubDate>Thu, 14 Nov 2024 03:41:04 GMT</pubDate>
+    <lastBuildDate>Thu, 14 Nov 2024 03:41:04 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -3385,8 +3385,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <pubDate>Wed, 28 Sep 2022 01:46:44 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>抽卡是原神的核心玩法之一，无论是出于纪念、炫耀的目的还是认真规划抽取计划，对历史抽卡进行统计分析都是非常重要的。
-但是原神官方只为玩家提供了半年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
-<p>因此，我们需要利用这半年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
+但是原神官方只为玩家提供了一年的抽卡记录，这是很不友好的（<s>但是他们还是统计了你一整年杀了多少提米的鸽子</s>）。</p>
+<p>因此，我们需要利用这一年的抽卡记录调取窗口，将抽卡记录转移到我们自己手中，这就是胡桃工具箱中祈愿记录导出功能的目的所在。</p>
 <p>有关原神祈愿记录导出的技术原理，你可以参阅我们的<a href="/zh/advanced/Gacha-system-and-export-principal.html" target="_blank"><strong>祈愿系统与导出原理</strong></a>一文。</p>
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01otuXYg1g6e0wnNwX2_!!1797064093.png_.webp" alt="祈愿导出" loading="lazy"></p>
 <p>如上图所示，从胡桃工具箱的祈愿导出功能，你可以清晰地获取到包括：<strong>抽卡总数、当前已垫抽数、不同稀有度获取的数量和百分比、每次五星稀有度获取的抽数以及保底情况</strong>。</p>
