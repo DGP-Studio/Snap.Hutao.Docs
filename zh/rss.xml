@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 14 Nov 2024 03:41:04 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Nov 2024 03:41:04 GMT</lastBuildDate>
+    <pubDate>Thu, 14 Nov 2024 03:47:22 GMT</pubDate>
+    <lastBuildDate>Thu, 14 Nov 2024 03:47:22 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -1971,11 +1971,11 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <h3>响应内容不是有效的文件字节流</h3>
 <p>可能因触发了下载量限制或网络波动等多因素引发。您可以关闭胡桃后稍等片刻再尝试下载，也可以尝试切换网络（例如将校园网更换为其他网络）</p>
 <h2>在查找必要的模块时出现问题</h2>
-<p>当用户在解锁游戏帧数限制的情况下启动游戏时，可能会遇上以下错误提示并启动游戏失败</p>
+<p>当用户在设置游戏帧率的情况下启动游戏时，可能会遇上以下错误提示并启动游戏失败</p>
 <ol>
 <li>在查找必要的模块时遇到问题：无法读取任何模块，可能是保护驱动已经加载完成</li>
 <li>在查找必要的模块时遇到问题：查找模块超时
-该问题仅当原神反作弊模块早于解锁帧率模块启动时出现。在出现该错误后，胡桃会主动关闭游戏进程，用户再次尝试启动游戏即可。</li>
+该问题仅当原神反作弊模块早于帧率设置模块启动时出现。在出现该错误后，胡桃会主动关闭游戏进程，用户再次尝试启动游戏即可。</li>
 </ol>
 <h2>应用安装失败，错误消息：出现内部错误 0x80073D05</h2>
 <p>安装时出现 <code>0x80073D05</code> 错误码的主要原因是先前卸载时没有删除部分本地文件导致的。</p>
@@ -2836,7 +2836,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/game-launcher.html</link>
       <guid>https://hut.ao/zh/features/game-launcher.html</guid>
       <source url="https://hut.ao/zh/rss.xml">高级启动器</source>
-      <description>胡桃工具箱内的游戏启动器相较于官方启动器，不仅允许用户添加自定义的启动参数，还内置了服务器转换和解锁帧率等显著提升游戏体验的功能。</description>
+      <description>胡桃工具箱内的游戏启动器相较于官方启动器，不仅允许用户添加自定义的启动参数，还内置了服务器转换和帧率解限等显著提升游戏体验的功能。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Sun, 06 Nov 2022 03:12:19 GMT</pubDate>
