@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 16 Nov 2024 13:43:11 GMT</pubDate>
-    <lastBuildDate>Sat, 16 Nov 2024 13:43:11 GMT</lastBuildDate>
+    <pubDate>Sat, 16 Nov 2024 14:40:45 GMT</pubDate>
+    <lastBuildDate>Sat, 16 Nov 2024 14:40:45 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -21,14 +21,19 @@
     <category>第三方工具</category>
     <category>项目</category>
     <item>
-      <title>🎉 已成功更新至 1.12.0 版本</title>
+      <title>🎉 已成功更新至 1.12.1 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.12.0 版本</source>
-      <description>🎉 已成功更新至 1.12.0 版本 简体中文 | 【🎉新增】 升级到 .NET 9 【🎉新增】 通知图标右键菜单新增启动紧凑网页窗口的命令 紧凑网页窗口为一个置于顶层、无交互时可呈现半透明的网页窗口 可在设置页面设置网页中视频播放/暂停的快捷键 使用紧凑网页窗口需以管理员身份启动 【🎉新增】 新增幻想真境剧诗页面 #1671 【🔨修复】 修...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.12.1 版本</source>
+      <description>🎉 已成功更新至 1.12.1 版本 简体中文 | 1.12.1 版本是 1.12.0 的热修版本，修复了多个严重的问题 【🔨修复】 修复了数据库迁移失败导致无法启动的问题 #2159 1.12.0 【🎉新增】 升级到 .NET 9 【🎉新增】 通知图标右键菜单新增启动紧凑网页窗口的命令 紧凑网页窗口为一个置于顶层、无交互时可呈现半透明的网页窗...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
+<p>1.12.1 版本是 1.12.0 的热修版本，修复了多个严重的问题</p>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了数据库迁移失败导致无法启动的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2159" target="_blank" rel="noopener noreferrer">#2159</a></li>
+</ul>
+<p>1.12.0</p>
 <ul>
 <li><strong>【🎉新增】</strong> 升级到 .NET 9</li>
 <li><strong>【🎉新增】</strong> 通知图标右键菜单新增启动紧凑网页窗口的命令
@@ -595,6 +600,10 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.12.1 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了数据库迁移失败导致无法启动的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2159" target="_blank" rel="noopener noreferrer">#2159</a></li>
+</ul>
 <h2>1.12.0 </h2>
 <ul>
 <li><strong>【🎉新增】</strong> 升级到 .NET 9</li>
