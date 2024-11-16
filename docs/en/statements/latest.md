@@ -20,6 +20,12 @@ pageInfo: false
 
 [简体中文](/zh/statements/latest.html) | **English**
 
+1.12.1 is a hotfix version of 1.12.0 that addressed several critical issues.
+
+- **[🔨Fix]** Fixed the issue where the program could not start due to database migration failure [#2159](https://github.com/DGP-Studio/Snap.Hutao/issues/2159)
+
+1.12.0
+
 - **[🎉New]** Upgraded to .NET 9
 - **[🎉New]** Added a command to the right-click menu of the notification icon to launch a compact web window
   - The compact web window is a topmost window that can become semi-transparent when not interacted with

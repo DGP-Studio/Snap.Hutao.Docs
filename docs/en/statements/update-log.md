@@ -11,6 +11,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.12.1 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed the issue where the program could not start due to database migration failure [#2159](https://github.com/DGP-Studio/Snap.Hutao/issues/2159)
+
 ## 1.12.0 <Badge text="latest" type="tip" />
 
 - **[🎉New]** Upgraded to .NET 9

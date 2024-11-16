@@ -10,6 +10,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
+## 1.12.1 <Badge text="hotfix" type="warning" />
+
+- **【🔨修复】** 修复了数据库迁移失败导致无法启动的问题 [#2159](https://github.com/DGP-Studio/Snap.Hutao/issues/2159)
+
 ## 1.12.0 <Badge text="最新版" type="tip" />
 
 - **【🎉新增】** 升级到 .NET 9

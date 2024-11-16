@@ -16,9 +16,15 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.12.0 版本
+# 🎉 已成功更新至 1.12.1 版本
 
 **简体中文** | [English](/en/statements/latest.html)
+
+1.12.1 版本是 1.12.0 的热修版本，修复了多个严重的问题
+
+- **【🔨修复】** 修复了数据库迁移失败导致无法启动的问题 [#2159](https://github.com/DGP-Studio/Snap.Hutao/issues/2159)
+
+1.12.0
 
 - **【🎉新增】** 升级到 .NET 9
 - **【🎉新增】** 通知图标右键菜单新增启动紧凑网页窗口的命令
