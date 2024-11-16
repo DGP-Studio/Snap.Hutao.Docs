@@ -11,6 +11,22 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.12.0 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Upgraded to .NET 9
+- **[🎉New]** Added a command to the right-click menu of the notification icon to launch a compact web window
+  - The compact web window is a topmost window that can become semi-transparent when not interacted with
+  - You can set the shortcut key for playing/pausing videos in the web window on the settings page
+  - Using the compact web window requires running as an administrator
+- **[🎉New]** Added a new page for Role Combat [#1671](https://github.com/DGP-Studio/Snap.Hutao/issues/1671)
+- **[🔨Fix]** Fixed a crash issue when switching game servers using the SophonChunk mode
+- **[🔨Fix]** Fixed a logic error in some specific cases with the game launch injection option
+- **[🔨Fix]** Fixed an issue where some switches in the injection options were not interactive after a forced game termination due to injection failure
+- **[🔨Fix]** Fixed an issue where the international server could not refresh wish records via web cache [#2141](https://github.com/DGP-Studio/Snap.Hutao/issues/2141)
+- **[🔨Fix]** Fixed an issue where the attack wave details on the Spiral Abyss page might not fully expand in non-Chinese languages [#2152](https://github.com/DGP-Studio/Snap.Hutao/issues/2152)
+- **[🔨Fix]** Fixed a crash issue caused by the failure to initialize the auto-click hotkey in special cases
+- **[✨Optimization]** When launching the game from the Real-time Notes notification, the MiYouShe/HoYoLAB user will automatically switch to the corresponding user
+
 ## 1.11.9 <Badge text="hotfix" type="warning" />
 
 - **[🎉New]** Added countdown for wish history pools [#1341](https://github.com/DGP-Studio/Snap.Hutao/issues/1341)
@@ -24,7 +40,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[🔨Fix]** Fixed the issue where refreshing wish records via web cache was not working [#2124](https://github.com/DGP-Studio/Snap.Hutao/issues/2124)
 - **[✨Optimization]** Optimized the logic between the game launch injection option switches [#2122](https://github.com/DGP-Studio/Snap.Hutao/issues/2122)
 
-## 1.11.7 <Badge text="latest" type="tip" />
+## 1.11.7
 
 - **[🎉New]** / **[✨Optimization]** Adjusted the UI of the game launch interface
   - **[🎉New]** Removed the progress bar from the team configuration interface
