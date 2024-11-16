@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 14 Nov 2024 03:57:45 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Nov 2024 03:57:45 GMT</lastBuildDate>
+    <pubDate>Sat, 16 Nov 2024 13:43:11 GMT</pubDate>
+    <lastBuildDate>Sat, 16 Nov 2024 13:43:11 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -21,46 +21,31 @@
     <category>第三方工具</category>
     <category>项目</category>
     <item>
-      <title>🎉 已成功更新至 1.11.9 版本</title>
+      <title>🎉 已成功更新至 1.12.0 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.11.9 版本</source>
-      <description>🎉 已成功更新至 1.11.9 版本 简体中文 | 1.11.9 版本是 1.11.8 的热修版本，修复了多个严重的问题 【🎉新增】 祈愿记录新增卡池计时 #1341 【🔨修复】 修复了启动游戏注入选项与实际情况不匹配的问题 #2134 【🔨修复】 修复了启用调整视野时在队伍和部分角色元素爆发画面可能出现卡顿的问题 #2137 【🔨修复】 修...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.12.0 版本</source>
+      <description>🎉 已成功更新至 1.12.0 版本 简体中文 | 【🎉新增】 升级到 .NET 9 【🎉新增】 通知图标右键菜单新增启动紧凑网页窗口的命令 紧凑网页窗口为一个置于顶层、无交互时可呈现半透明的网页窗口 可在设置页面设置网页中视频播放/暂停的快捷键 使用紧凑网页窗口需以管理员身份启动 【🎉新增】 新增幻想真境剧诗页面 #1671 【🔨修复】 修...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
-<p>1.11.9 版本是 1.11.8 的热修版本，修复了多个严重的问题</p>
 <ul>
-<li><strong>【🎉新增】</strong> 祈愿记录新增卡池计时 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1341" target="_blank" rel="noopener noreferrer">#1341</a></li>
-<li><strong>【🔨修复】</strong> 修复了启动游戏注入选项与实际情况不匹配的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2134" target="_blank" rel="noopener noreferrer">#2134</a></li>
-<li><strong>【🔨修复】</strong> 修复了启用调整视野时在队伍和部分角色元素爆发画面可能出现卡顿的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2137" target="_blank" rel="noopener noreferrer">#2137</a></li>
-<li><strong>【🔨修复】</strong> 修复了 WebView 无法正常弹出时可能会崩溃的问题</li>
-</ul>
-<p>1.11.8 版本是 1.11.7 的热修版本，修复了多个严重的问题</p>
+<li><strong>【🎉新增】</strong> 升级到 .NET 9</li>
+<li><strong>【🎉新增】</strong> 通知图标右键菜单新增启动紧凑网页窗口的命令
 <ul>
-<li><strong>【🔨修复】</strong> 修复了国际服注入功能失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2121" target="_blank" rel="noopener noreferrer">#2121</a></li>
-<li><strong>【🔨修复】</strong> 修复了通过网页缓存刷新抽卡记录失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2124" target="_blank" rel="noopener noreferrer">#2124</a></li>
-<li><strong>【✨优化】</strong> 优化了启动游戏注入选项开关间的逻辑 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2122" target="_blank" rel="noopener noreferrer">#2122</a></li>
-</ul>
-<p>1.11.7</p>
-<ul>
-<li><strong>【🎉新增】</strong> / <strong>【✨优化】</strong> 调整了启动游戏界面的 UI
-<ul>
-<li><strong>【🎉新增】</strong> 移除队伍配置界面进度条 功能</li>
-<li><strong>【🎉新增】</strong> 让我进去！米奇妙妙功能（是的没错）</li>
+<li>紧凑网页窗口为一个置于顶层、无交互时可呈现半透明的网页窗口</li>
+<li>可在设置页面设置网页中视频播放/暂停的快捷键</li>
+<li>使用紧凑网页窗口需以管理员身份启动</li>
 </ul>
 </li>
-<li><strong>【🎉新增】</strong> 启动游戏切换服务器新增分块模式</li>
-<li><strong>【🎉新增】</strong> 角色资料添加角色名片 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1424" target="_blank" rel="noopener noreferrer">#1424</a></li>
-<li><strong>【🔨修复】</strong> 修复了每日首次启动胡桃可能会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2101" target="_blank" rel="noopener noreferrer">#2101</a></li>
-<li><strong>【🔨修复】</strong> 修复了错误报告窗口可能不会正确显示的问题</li>
-<li><strong>【🔨修复】</strong> 修复了主页公告持续时间错误的问题</li>
-<li><strong>【🔨修复】</strong> 修复了游戏文件管理在部分类型磁盘下可能会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2077" target="_blank" rel="noopener noreferrer">#2077</a></li>
-<li><strong>【🔨修复】</strong> 修复了通过网页缓存刷新抽卡记录可能会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2083" target="_blank" rel="noopener noreferrer">#2083</a></li>
-<li><strong>【🔨修复】</strong> 修复了窗口尺寸在跨显示器重启后大小可能不正确的问题</li>
-<li><strong>【✨优化】</strong> 日历卡片现在会高亮当前养成计划中今日可刷的材料 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2045" target="_blank" rel="noopener noreferrer">#2045</a></li>
-<li><strong>【✨优化】</strong> 我的角色和角色资料现在不会显示 1 星 ~ 3 星的筛选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2110" target="_blank" rel="noopener noreferrer">#2110</a></li>
-<li><strong>【✨优化】</strong> 添加米游社/HoYoLAB账号现在会在未添加完成时显示对话框阻止用户操作</li>
+<li><strong>【🎉新增】</strong> 新增幻想真境剧诗页面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1671" target="_blank" rel="noopener noreferrer">#1671</a></li>
+<li><strong>【🔨修复】</strong> 修复了使用 SophonChunk 模式切换游戏服务器时可能会崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏注入选项部分特定情况下逻辑错误的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏注入失败强制结束游戏后，注入选项部分开关不可交互的问题</li>
+<li><strong>【🔨修复】</strong> 修复了国际服无法通过网页缓存刷新抽卡记录的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2141" target="_blank" rel="noopener noreferrer">#2141</a></li>
+<li><strong>【🔨修复】</strong> 修复了深境螺旋页面在非中文的情况下攻击波次详情可能无法完全展开的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2152" target="_blank" rel="noopener noreferrer">#2152</a></li>
+<li><strong>【🔨修复】</strong> 修复了特殊情况下自动连点热键初始化失败导致崩溃的问题</li>
+<li><strong>【✨优化】</strong> 从实时便笺通知启动游戏时，会自动将 米游社 / HoYoLAB 用户切换至便笺对应的用户</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -610,6 +595,25 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.12.0 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 升级到 .NET 9</li>
+<li><strong>【🎉新增】</strong> 通知图标右键菜单新增启动紧凑网页窗口的命令
+<ul>
+<li>紧凑网页窗口为一个置于顶层、无交互时可呈现半透明的网页窗口</li>
+<li>可在设置页面设置网页中视频播放/暂停的快捷键</li>
+<li>使用紧凑网页窗口需以管理员身份启动</li>
+</ul>
+</li>
+<li><strong>【🎉新增】</strong> 新增幻想真境剧诗页面 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1671" target="_blank" rel="noopener noreferrer">#1671</a></li>
+<li><strong>【🔨修复】</strong> 修复了使用 SophonChunk 模式切换游戏服务器时可能会崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏注入选项部分特定情况下逻辑错误的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏注入失败强制结束游戏后，注入选项部分开关不可交互的问题</li>
+<li><strong>【🔨修复】</strong> 修复了国际服无法通过网页缓存刷新抽卡记录的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2141" target="_blank" rel="noopener noreferrer">#2141</a></li>
+<li><strong>【🔨修复】</strong> 修复了深境螺旋页面在非中文的情况下攻击波次详情可能无法完全展开的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2152" target="_blank" rel="noopener noreferrer">#2152</a></li>
+<li><strong>【🔨修复】</strong> 修复了特殊情况下自动连点热键初始化失败导致崩溃的问题</li>
+<li><strong>【✨优化】</strong> 从实时便笺通知启动游戏时，会自动将 米游社 / HoYoLAB 用户切换至便笺对应的用户</li>
+</ul>
 <h2>1.11.9 </h2>
 <ul>
 <li><strong>【🎉新增】</strong> 祈愿记录新增卡池计时 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1341" target="_blank" rel="noopener noreferrer">#1341</a></li>
@@ -623,7 +627,7 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
 <li><strong>【🔨修复】</strong> 修复了通过网页缓存刷新抽卡记录失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2124" target="_blank" rel="noopener noreferrer">#2124</a></li>
 <li><strong>【✨优化】</strong> 优化了启动游戏注入选项开关间的逻辑 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2122" target="_blank" rel="noopener noreferrer">#2122</a></li>
 </ul>
-<h2>1.11.7 </h2>
+<h2>1.11.7</h2>
 <ul>
 <li><strong>【🎉新增】</strong> / <strong>【✨优化】</strong> 调整了启动游戏界面的 UI
 <ul>

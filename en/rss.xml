@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 14 Nov 2024 03:57:45 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Nov 2024 03:57:45 GMT</lastBuildDate>
+    <pubDate>Sat, 16 Nov 2024 13:43:11 GMT</pubDate>
+    <lastBuildDate>Sat, 16 Nov 2024 13:43:11 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,46 +23,31 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.11.9</title>
+      <title>🎉 Successfully Updated to Version 1.12.0</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.11.9</source>
-      <description>🎉 Successfully Updated to Version 1.11.9 | English 1.11.9 is a hotfix version of 1.11.8 that addressed several critical issues. [🎉New] Added countdown for wish history pools #...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.0</source>
+      <description>🎉 Successfully Updated to Version 1.12.0 | English [🎉New] Upgraded to .NET 9 [🎉New] Added a command to the right-click menu of the notification icon to launch a compact web w...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
-<p>1.11.9 is a hotfix version of 1.11.8 that addressed several critical issues.</p>
 <ul>
-<li><strong>[🎉New]</strong> Added countdown for wish history pools <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1341" target="_blank" rel="noopener noreferrer">#1341</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where the game launch injection option did not match the actual situation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2134" target="_blank" rel="noopener noreferrer">#2134</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where enabling field of view adjustment could cause stuttering in team and some character elemental burst scenes <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2137" target="_blank" rel="noopener noreferrer">#2137</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where WebView might crash when it fails to pop up normally</li>
-</ul>
-<p>1.11.8 is a hotfix version of 1.11.7 that addressed several critical issues.</p>
+<li><strong>[🎉New]</strong> Upgraded to .NET 9</li>
+<li><strong>[🎉New]</strong> Added a command to the right-click menu of the notification icon to launch a compact web window
 <ul>
-<li><strong>[🔨Fix]</strong> Fixed the issue where the injection feature for the oversea server was not working <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2121" target="_blank" rel="noopener noreferrer">#2121</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where refreshing wish records via web cache was not working <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2124" target="_blank" rel="noopener noreferrer">#2124</a></li>
-<li><strong>[✨Optimization]</strong> Optimized the logic between the game launch injection option switches <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2122" target="_blank" rel="noopener noreferrer">#2122</a></li>
-</ul>
-<p>1.11.7</p>
-<ul>
-<li><strong>[🎉New]</strong> / <strong>[✨Optimization]</strong> Adjusted the UI of the game launch interface
-<ul>
-<li><strong>[🎉New]</strong> Removed the progress bar from the team configuration interface</li>
-<li><strong>[🎉New]</strong> Added "Let me in! Mickey Mouse Clubhouse" feature (yes, really)</li>
+<li>The compact web window is a topmost window that can become semi-transparent when not interacted with</li>
+<li>You can set the shortcut key for playing/pausing videos in the web window on the settings page</li>
+<li>Using the compact web window requires running as an administrator</li>
 </ul>
 </li>
-<li><strong>[🎉New]</strong> Added chunk mode for server switching in the game launcher</li>
-<li><strong>[🎉New]</strong> Added character name cards to character WIKI <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1424" target="_blank" rel="noopener noreferrer">#1424</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where Snap Hutao might crash on the first launch of the day <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2101" target="_blank" rel="noopener noreferrer">#2101</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where the error report window might not display correctly</li>
-<li><strong>[🔨Fix]</strong> Fixed the issue with incorrect duration of homepage announcements</li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where game file management might crash on certain types of disks <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2077" target="_blank" rel="noopener noreferrer">#2077</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where refreshing wish records via web cache might cause a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2083" target="_blank" rel="noopener noreferrer">#2083</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where window size might be incorrect after restarting across monitors</li>
-<li><strong>[✨Optimization]</strong> The calendar card now highlights materials that can be farmed today in the current cultivation plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2045" target="_blank" rel="noopener noreferrer">#2045</a></li>
-<li><strong>[✨Optimization]</strong> The "My Characters" and character WIKI no longer show filters for 1-star to 3-star items <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2110" target="_blank" rel="noopener noreferrer">#2110</a></li>
-<li><strong>[✨Optimization]</strong> Adding MiYouShe/HoYoLAB accounts now displays a dialog to prevent user operations until completion</li>
+<li><strong>[🎉New]</strong> Added a new page for Role Combat <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1671" target="_blank" rel="noopener noreferrer">#1671</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when switching game servers using the SophonChunk mode</li>
+<li><strong>[🔨Fix]</strong> Fixed a logic error in some specific cases with the game launch injection option</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where some switches in the injection options were not interactive after a forced game termination due to injection failure</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the international server could not refresh wish records via web cache <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2141" target="_blank" rel="noopener noreferrer">#2141</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the attack wave details on the Spiral Abyss page might not fully expand in non-Chinese languages <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2152" target="_blank" rel="noopener noreferrer">#2152</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue caused by the failure to initialize the auto-click hotkey in special cases</li>
+<li><strong>[✨Optimization]</strong> When launching the game from the Real-time Notes notification, the MiYouShe/HoYoLAB user will automatically switch to the corresponding user</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -543,6 +528,25 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.12.0 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Upgraded to .NET 9</li>
+<li><strong>[🎉New]</strong> Added a command to the right-click menu of the notification icon to launch a compact web window
+<ul>
+<li>The compact web window is a topmost window that can become semi-transparent when not interacted with</li>
+<li>You can set the shortcut key for playing/pausing videos in the web window on the settings page</li>
+<li>Using the compact web window requires running as an administrator</li>
+</ul>
+</li>
+<li><strong>[🎉New]</strong> Added a new page for Role Combat <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1671" target="_blank" rel="noopener noreferrer">#1671</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when switching game servers using the SophonChunk mode</li>
+<li><strong>[🔨Fix]</strong> Fixed a logic error in some specific cases with the game launch injection option</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where some switches in the injection options were not interactive after a forced game termination due to injection failure</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the international server could not refresh wish records via web cache <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2141" target="_blank" rel="noopener noreferrer">#2141</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the attack wave details on the Spiral Abyss page might not fully expand in non-Chinese languages <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2152" target="_blank" rel="noopener noreferrer">#2152</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue caused by the failure to initialize the auto-click hotkey in special cases</li>
+<li><strong>[✨Optimization]</strong> When launching the game from the Real-time Notes notification, the MiYouShe/HoYoLAB user will automatically switch to the corresponding user</li>
+</ul>
 <h2>1.11.9 </h2>
 <ul>
 <li><strong>[🎉New]</strong> Added countdown for wish history pools <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1341" target="_blank" rel="noopener noreferrer">#1341</a></li>
@@ -556,7 +560,7 @@ file contains entire data of the client.</p>
 <li><strong>[🔨Fix]</strong> Fixed the issue where refreshing wish records via web cache was not working <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2124" target="_blank" rel="noopener noreferrer">#2124</a></li>
 <li><strong>[✨Optimization]</strong> Optimized the logic between the game launch injection option switches <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2122" target="_blank" rel="noopener noreferrer">#2122</a></li>
 </ul>
-<h2>1.11.7 </h2>
+<h2>1.11.7</h2>
 <ul>
 <li><strong>[🎉New]</strong> / <strong>[✨Optimization]</strong> Adjusted the UI of the game launch interface
 <ul>
