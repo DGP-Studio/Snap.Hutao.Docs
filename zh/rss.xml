@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 16 Nov 2024 14:40:45 GMT</pubDate>
-    <lastBuildDate>Sat, 16 Nov 2024 14:40:45 GMT</lastBuildDate>
+    <pubDate>Sun, 17 Nov 2024 23:27:52 GMT</pubDate>
+    <lastBuildDate>Sun, 17 Nov 2024 23:27:52 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -2884,8 +2884,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 </div>
 <ul>
 <li>进入“启动游戏”页面</li>
-<li>点击“文件-服务器”项</li>
-<li>选择右侧选项中的服务器名称，选择要进入的服务器。</li>
+<li>在“服务器”项中选择对应的服务器</li>
 </ul>
 <p><strong>目前可选的服务器包括：</strong></p>
 <p>| 选项            | 服务器                                            |
