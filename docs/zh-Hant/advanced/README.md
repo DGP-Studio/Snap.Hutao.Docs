@@ -3,10 +3,10 @@ comment: false
 index: false
 icon: iconfont icon-advance
 dir:
-  text: 高级
+  text: 進階
   order: 2
 ---
 
-# 高级
+# 進階
 
 <Catalog />
