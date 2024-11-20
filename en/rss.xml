@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 20 Nov 2024 11:43:06 GMT</pubDate>
-    <lastBuildDate>Wed, 20 Nov 2024 11:43:06 GMT</lastBuildDate>
+    <pubDate>Wed, 20 Nov 2024 14:21:27 GMT</pubDate>
+    <lastBuildDate>Wed, 20 Nov 2024 14:21:27 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,14 +23,20 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.12.2</title>
+      <title>🎉 Successfully Updated to Version 1.12.3</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.2</source>
-      <description>🎉 Successfully Updated to Version 1.12.2 | English [🎉New] Added shortcut keys for fast-forward/rewind in the compact web window [🔨Fix] Fixed an issue where the cultivation pl...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.3</source>
+      <description>🎉 Successfully Updated to Version 1.12.3 | English 1.12.3 is a hotfix version of 1.12.2 that addressed several critical issues. [🔨Fix] Fixed a crash issue caused by the tray i...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
+<p>1.12.3 is a hotfix version of 1.12.2 that addressed several critical issues.</p>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue caused by the tray icon not syncing <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2198" target="_blank" rel="noopener noreferrer">#2198</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the program became unusable due to metadata initialization failure caused by tray icon initialization failure <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2202" target="_blank" rel="noopener noreferrer">#2202</a></li>
+</ul>
+<p>1.12.2</p>
 <ul>
 <li><strong>[🎉New]</strong> Added shortcut keys for fast-forward/rewind in the compact web window</li>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the cultivation plan's abnormal selection state prevented Snap Hutao from starting <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2174" target="_blank" rel="noopener noreferrer">#2174</a></li>
@@ -525,6 +531,11 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.12.3 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue caused by the tray icon not syncing <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2198" target="_blank" rel="noopener noreferrer">#2198</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the program became unusable due to metadata initialization failure caused by tray icon initialization failure <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2202" target="_blank" rel="noopener noreferrer">#2202</a></li>
+</ul>
 <h2>1.12.2 </h2>
 <ul>
 <li><strong>[🎉New]</strong> Added shortcut keys for fast-forward/rewind in the compact web window</li>
