@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 17 Nov 2024 23:27:52 GMT</pubDate>
-    <lastBuildDate>Sun, 17 Nov 2024 23:27:52 GMT</lastBuildDate>
+    <pubDate>Wed, 20 Nov 2024 11:43:06 GMT</pubDate>
+    <lastBuildDate>Wed, 20 Nov 2024 11:43:06 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,36 +23,28 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.12.0</title>
+      <title>🎉 Successfully Updated to Version 1.12.2</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.0</source>
-      <description>🎉 Successfully Updated to Version 1.12.0 | English 1.12.1 is a hotfix version of 1.12.0 that addressed several critical issues. [🔨Fix] Fixed the issue where the program could ...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.2</source>
+      <description>🎉 Successfully Updated to Version 1.12.2 | English [🎉New] Added shortcut keys for fast-forward/rewind in the compact web window [🔨Fix] Fixed an issue where the cultivation pl...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
-<p>1.12.1 is a hotfix version of 1.12.0 that addressed several critical issues.</p>
 <ul>
-<li><strong>[🔨Fix]</strong> Fixed the issue where the program could not start due to database migration failure <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2159" target="_blank" rel="noopener noreferrer">#2159</a></li>
-</ul>
-<p>1.12.0</p>
-<ul>
-<li><strong>[🎉New]</strong> Upgraded to .NET 9</li>
-<li><strong>[🎉New]</strong> Added a command to the right-click menu of the notification icon to launch a compact web window
-<ul>
-<li>The compact web window is a topmost window that can become semi-transparent when not interacted with</li>
-<li>You can set the shortcut key for playing/pausing videos in the web window on the settings page</li>
-<li>Using the compact web window requires running as an administrator</li>
-</ul>
-</li>
-<li><strong>[🎉New]</strong> Added a new page for Role Combat <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1671" target="_blank" rel="noopener noreferrer">#1671</a></li>
-<li><strong>[🔨Fix]</strong> Fixed a crash issue when switching game servers using the SophonChunk mode</li>
-<li><strong>[🔨Fix]</strong> Fixed a logic error in some specific cases with the game launch injection option</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where some switches in the injection options were not interactive after a forced game termination due to injection failure</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the international server could not refresh wish records via web cache <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2141" target="_blank" rel="noopener noreferrer">#2141</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the attack wave details on the Spiral Abyss page might not fully expand in non-Chinese languages <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2152" target="_blank" rel="noopener noreferrer">#2152</a></li>
-<li><strong>[🔨Fix]</strong> Fixed a crash issue caused by the failure to initialize the auto-click hotkey in special cases</li>
-<li><strong>[✨Optimization]</strong> When launching the game from the Real-time Notes notification, the MiYouShe/HoYoLAB user will automatically switch to the corresponding user</li>
+<li><strong>[🎉New]</strong> Added shortcut keys for fast-forward/rewind in the compact web window</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the cultivation plan's abnormal selection state prevented Snap Hutao from starting <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2174" target="_blank" rel="noopener noreferrer">#2174</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the tray icon might not be created correctly after restarting as an administrator from the tray menu</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the announcement time was displayed incorrectly before the game version update <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2175" target="_blank" rel="noopener noreferrer">#2175</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where reselecting the game path when starting the game might cause a crash</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where game file management might get stuck when repairing the game</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the achievement profile could not be switched using the mouse when the window was too small <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2181" target="_blank" rel="noopener noreferrer">#2181</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where uploading Sprial Abyss records without logging into the Hutao Passport caused a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2169" target="_blank" rel="noopener noreferrer">#2169</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the international server could not refresh the Imaginarium Theater properly <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2170" target="_blank" rel="noopener noreferrer">#2170</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where adding weapons to the cultivation plan might cause a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2168" target="_blank" rel="noopener noreferrer">#2168</a></li>
+<li><strong>[✨Optimization]</strong> Optimized the display effect of the pre-download prompt icon in game file management</li>
+<li><strong>[✨Optimization]</strong> Added a launch game button for each game character on the Real-time Notes page, which will jump to the game launch page and automatically switch the MiYouShe/HoYoLAB user to the corresponding user of the note <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1318" target="_blank" rel="noopener noreferrer">#1318</a></li>
+<li><strong>[✨Optimization]</strong> Optimized the loading speed of character and weapon icons</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -533,11 +525,27 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.12.2 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added shortcut keys for fast-forward/rewind in the compact web window</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the cultivation plan's abnormal selection state prevented Snap Hutao from starting <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2174" target="_blank" rel="noopener noreferrer">#2174</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the tray icon might not be created correctly after restarting as an administrator from the tray menu</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the announcement time was displayed incorrectly before the game version update <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2175" target="_blank" rel="noopener noreferrer">#2175</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where reselecting the game path when starting the game might cause a crash</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where game file management might get stuck when repairing the game</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the achievement profile could not be switched using the mouse when the window was too small <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2181" target="_blank" rel="noopener noreferrer">#2181</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where uploading Sprial Abyss records without logging into the Hutao Passport caused a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2169" target="_blank" rel="noopener noreferrer">#2169</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the international server could not refresh the Imaginarium Theater properly <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2170" target="_blank" rel="noopener noreferrer">#2170</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where adding weapons to the cultivation plan might cause a crash <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2168" target="_blank" rel="noopener noreferrer">#2168</a></li>
+<li><strong>[✨Optimization]</strong> Optimized the display effect of the pre-download prompt icon in game file management</li>
+<li><strong>[✨Optimization]</strong> Added a launch game button for each game character on the Real-time Notes page, which will jump to the game launch page and automatically switch the MiYouShe/HoYoLAB user to the corresponding user of the note <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1318" target="_blank" rel="noopener noreferrer">#1318</a></li>
+<li><strong>[✨Optimization]</strong> Optimized the loading speed of character and weapon icons</li>
+</ul>
 <h2>1.12.1 </h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed the issue where the program could not start due to database migration failure <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2159" target="_blank" rel="noopener noreferrer">#2159</a></li>
 </ul>
-<h2>1.12.0 </h2>
+<h2>1.12.0</h2>
 <ul>
 <li><strong>[🎉New]</strong> Upgraded to .NET 9</li>
 <li><strong>[🎉New]</strong> Added a command to the right-click menu of the notification icon to launch a compact web window
