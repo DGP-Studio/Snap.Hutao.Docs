@@ -16,9 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.12.2 版本
+# 🎉 已成功更新至 1.12.3 版本
 
 **简体中文** | [English](/en/statements/latest.html)
+
+1.12.3 版本是 1.12.2 的热修版本，修复了多个严重的问题
+
+- **【🔨修复】** 修复了托盘图标不同步导致的程序崩溃 [#2198](https://github.com/DGP-Studio/Snap.Hutao/issues/2198)
+- **【🔨修复】** 修复了托盘图标初始化失败导致元数据未初始化，从而导致程序不可用的问题 [#2202](https://github.com/DGP-Studio/Snap.Hutao/issues/2202)
+
+1.12.2
 
 - **【🎉新增】** 新增了紧凑网页窗口视频快进/快退的快捷键
 - **【🔨修复】** 修复了养成计划选中状态异常导致无法启动胡桃的问题 [#2174](https://github.com/DGP-Studio/Snap.Hutao/issues/2174)

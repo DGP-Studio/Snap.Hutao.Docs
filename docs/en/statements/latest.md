@@ -16,9 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.12.2
+# 🎉 Successfully Updated to Version 1.12.3
 
 [简体中文](/zh/statements/latest.html) | **English**
+
+1.12.3 is a hotfix version of 1.12.2 that addressed several critical issues.
+
+- **[🔨Fix]** Fixed a crash issue caused by the tray icon not syncing [#2198](https://github.com/DGP-Studio/Snap.Hutao/issues/2198)
+- **[🔨Fix]** Fixed an issue where the program became unusable due to metadata initialization failure caused by tray icon initialization failure [#2202](https://github.com/DGP-Studio/Snap.Hutao/issues/2202)
+
+1.12.2
 
 - **[🎉New]** Added shortcut keys for fast-forward/rewind in the compact web window
 - **[🔨Fix]** Fixed an issue where the cultivation plan's abnormal selection state prevented Snap Hutao from starting [#2174](https://github.com/DGP-Studio/Snap.Hutao/issues/2174)

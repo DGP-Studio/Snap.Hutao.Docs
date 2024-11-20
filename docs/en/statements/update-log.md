@@ -11,6 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.12.3 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed a crash issue caused by the tray icon not syncing [#2198](https://github.com/DGP-Studio/Snap.Hutao/issues/2198)
+- **[🔨Fix]** Fixed an issue where the program became unusable due to metadata initialization failure caused by tray icon initialization failure [#2202](https://github.com/DGP-Studio/Snap.Hutao/issues/2202)
+
 ## 1.12.2 <Badge text="latest" type="tip" />
 
 - **[🎉New]** Added shortcut keys for fast-forward/rewind in the compact web window

@@ -10,6 +10,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
+## 1.12.3 <Badge text="hotfix" type="warning" />
+
+- **【🔨修复】** 修复了托盘图标不同步导致的程序崩溃 [#2198](https://github.com/DGP-Studio/Snap.Hutao/issues/2198)
+- **【🔨修复】** 修复了托盘图标初始化失败导致元数据未初始化，从而导致程序不可用的问题 [#2202](https://github.com/DGP-Studio/Snap.Hutao/issues/2202)
+
 ## 1.12.2 <Badge text="最新版" type="tip" />
 
 - **【🎉新增】** 新增了紧凑网页窗口视频快进/快退的快捷键
