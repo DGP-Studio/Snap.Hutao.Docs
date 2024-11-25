@@ -11,12 +11,23 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.12.4 <Badge text="latest" type="tip" />
+
+- **[🔨Fix]** Fixed an issue where the resolution settings could not be saved after launching the game [#2229](https://github.com/DGP-Studio/Snap.Hutao/issues/2229)
+- **[🔨Fix]** Fixed an issue where the achievement completion time was displayed incorrectly [#2184](https://github.com/DGP-Studio/Snap.Hutao/issues/2184)
+- **[🔨Fix]** Fixed an issue where the cultivation plan's backpack could not be refreshed [#2212](https://github.com/DGP-Studio/Snap.Hutao/issues/2212)
+- **[🔨Fix]** Fixed an issue where the shortcut keys for fast-forward/rewind in the compact web window were not working
+- **[🔨Fix]** Fixed an issue where selecting a file window would cause a crash on some systems
+- **[🔨Fix]** Fixed an issue where selecting a download source when updating Snap Hutao was not effective
+- **[✨Optimization]** Now checks proxy and loopback status at startup and guides users to remove loopback restrictions if unable to connect to the internet
+- **[✨Optimization]** The compact web window now remembers the page from the last close
+
 ## 1.12.3 <Badge text="hotfix" type="warning" />
 
 - **[🔨Fix]** Fixed a crash issue caused by the tray icon not syncing [#2198](https://github.com/DGP-Studio/Snap.Hutao/issues/2198)
 - **[🔨Fix]** Fixed an issue where the program became unusable due to metadata initialization failure caused by tray icon initialization failure [#2202](https://github.com/DGP-Studio/Snap.Hutao/issues/2202)
 
-## 1.12.2 <Badge text="latest" type="tip" />
+## 1.12.2
 
 - **[🎉New]** Added shortcut keys for fast-forward/rewind in the compact web window
 - **[🔨Fix]** Fixed an issue where the cultivation plan's abnormal selection state prevented Snap Hutao from starting [#2174](https://github.com/DGP-Studio/Snap.Hutao/issues/2174)

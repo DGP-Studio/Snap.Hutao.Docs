@@ -10,12 +10,23 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
+## 1.12.4 <Badge text="最新版" type="tip" />
+
+- **【🔨修复】** 修复了启动游戏设置分辨率后无法保存的问题 [#2229](https://github.com/DGP-Studio/Snap.Hutao/issues/2229)
+- **【🔨修复】** 修复了成就完成时间显示错误的问题 [#2184](https://github.com/DGP-Studio/Snap.Hutao/issues/2184)
+- **【🔨修复】** 修复了养成计划背包无法刷新的问题 [#2212](https://github.com/DGP-Studio/Snap.Hutao/issues/2212)
+- **【🔨修复】** 修复了紧凑网页窗口视频快进/快退快捷键无效的问题
+- **【🔨修复】** 修复了部分系统下选择文件窗口会引发崩溃的问题
+- **【🔨修复】** 修复了更新胡桃时选择下载源不生效的问题
+- **【✨优化】** 现在会在启动时检查代理和 Loopback 状态，并在无法正常联网时引导用户解除 Loopback 限制
+- **【✨优化】** 紧凑网页窗口现在会记忆上次关闭时的页面
+
 ## 1.12.3 <Badge text="hotfix" type="warning" />
 
 - **【🔨修复】** 修复了托盘图标不同步导致的程序崩溃 [#2198](https://github.com/DGP-Studio/Snap.Hutao/issues/2198)
 - **【🔨修复】** 修复了托盘图标初始化失败导致元数据未初始化，从而导致程序不可用的问题 [#2202](https://github.com/DGP-Studio/Snap.Hutao/issues/2202)
 
-## 1.12.2 <Badge text="最新版" type="tip" />
+## 1.12.2
 
 - **【🎉新增】** 新增了紧凑网页窗口视频快进/快退的快捷键
 - **【🔨修复】** 修复了养成计划选中状态异常导致无法启动胡桃的问题 [#2174](https://github.com/DGP-Studio/Snap.Hutao/issues/2174)
