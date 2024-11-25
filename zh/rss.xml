@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 20 Nov 2024 14:26:38 GMT</pubDate>
-    <lastBuildDate>Wed, 20 Nov 2024 14:26:38 GMT</lastBuildDate>
+    <pubDate>Mon, 25 Nov 2024 12:30:24 GMT</pubDate>
+    <lastBuildDate>Mon, 25 Nov 2024 12:30:24 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -21,34 +21,23 @@
     <category>第三方工具</category>
     <category>项目</category>
     <item>
-      <title>🎉 已成功更新至 1.12.3 版本</title>
+      <title>🎉 已成功更新至 1.12.4 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.12.3 版本</source>
-      <description>🎉 已成功更新至 1.12.3 版本 简体中文 | 1.12.3 版本是 1.12.2 的热修版本，修复了多个严重的问题 【🔨修复】 修复了托盘图标不同步导致的程序崩溃 #2198 【🔨修复】 修复了托盘图标初始化失败导致元数据未初始化，从而导致程序不可用的问题 #2202 1.12.2 【🎉新增】 新增了紧凑网页窗口视频快进/快退的快捷键 【...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.12.4 版本</source>
+      <description>🎉 已成功更新至 1.12.4 版本 简体中文 | 【🔨修复】 修复了启动游戏设置分辨率后无法保存的问题 #2229 【🔨修复】 修复了成就完成时间显示错误的问题 #2184 【🔨修复】 修复了养成计划背包无法刷新的问题 #2212 【🔨修复】 修复了紧凑网页窗口视频快进/快退快捷键无效的问题 【🔨修复】 修复了部分系统下选择文件窗口会引发...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
-<p>1.12.3 版本是 1.12.2 的热修版本，修复了多个严重的问题</p>
 <ul>
-<li><strong>【🔨修复】</strong> 修复了托盘图标不同步导致的程序崩溃 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2198" target="_blank" rel="noopener noreferrer">#2198</a></li>
-<li><strong>【🔨修复】</strong> 修复了托盘图标初始化失败导致元数据未初始化，从而导致程序不可用的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2202" target="_blank" rel="noopener noreferrer">#2202</a></li>
-</ul>
-<p>1.12.2</p>
-<ul>
-<li><strong>【🎉新增】</strong> 新增了紧凑网页窗口视频快进/快退的快捷键</li>
-<li><strong>【🔨修复】</strong> 修复了养成计划选中状态异常导致无法启动胡桃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2174" target="_blank" rel="noopener noreferrer">#2174</a></li>
-<li><strong>【🔨修复】</strong> 修复了托盘菜单以管理员身份重启后托盘图标可能无法被正确创建的问题</li>
-<li><strong>【🔨修复】</strong> 修复了游戏版本更新前公告时间显示错误的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2175" target="_blank" rel="noopener noreferrer">#2175</a></li>
-<li><strong>【🔨修复】</strong> 修复了启动游戏重新选择游戏路径可能会崩溃的问题</li>
-<li><strong>【🔨修复】</strong> 修复了游戏文件管理在修复游戏时可能会卡住的问题</li>
-<li><strong>【🔨修复】</strong> 修复了窗口过小时，无法使用鼠标切换成就档案的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2181" target="_blank" rel="noopener noreferrer">#2181</a></li>
-<li><strong>【🔨修复】</strong> 修复了未登录胡桃通行证上传深渊记录时，跳转登录崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2169" target="_blank" rel="noopener noreferrer">#2169</a></li>
-<li><strong>【🔨修复】</strong> 修复了国际服无法正常刷新幻想真境剧诗的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2170" target="_blank" rel="noopener noreferrer">#2170</a></li>
-<li><strong>【🔨修复】</strong> 修复了武器在添加至养成计划时可能会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2168" target="_blank" rel="noopener noreferrer">#2168</a></li>
-<li><strong>【✨优化】</strong> 优化了游戏文件管理预下载提示图标的显示效果</li>
-<li><strong>【✨优化】</strong> 实时便笺页面为每个游戏角色添加了启动游戏按钮，会跳转至启动游戏页面并自动将 米游社 / HoYoLAB 用户切换至便笺对应的用户 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1318" target="_blank" rel="noopener noreferrer">#1318</a></li>
-<li><strong>【✨优化】</strong> 优化了角色与武器图标的加载速度</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏设置分辨率后无法保存的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2229" target="_blank" rel="noopener noreferrer">#2229</a></li>
+<li><strong>【🔨修复】</strong> 修复了成就完成时间显示错误的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2184" target="_blank" rel="noopener noreferrer">#2184</a></li>
+<li><strong>【🔨修复】</strong> 修复了养成计划背包无法刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2212" target="_blank" rel="noopener noreferrer">#2212</a></li>
+<li><strong>【🔨修复】</strong> 修复了紧凑网页窗口视频快进/快退快捷键无效的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分系统下选择文件窗口会引发崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了更新胡桃时选择下载源不生效的问题</li>
+<li><strong>【✨优化】</strong> 现在会在启动时检查代理和 Loopback 状态，并在无法正常联网时引导用户解除 Loopback 限制</li>
+<li><strong>【✨优化】</strong> 紧凑网页窗口现在会记忆上次关闭时的页面</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -598,12 +587,23 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.12.4 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了启动游戏设置分辨率后无法保存的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2229" target="_blank" rel="noopener noreferrer">#2229</a></li>
+<li><strong>【🔨修复】</strong> 修复了成就完成时间显示错误的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2184" target="_blank" rel="noopener noreferrer">#2184</a></li>
+<li><strong>【🔨修复】</strong> 修复了养成计划背包无法刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2212" target="_blank" rel="noopener noreferrer">#2212</a></li>
+<li><strong>【🔨修复】</strong> 修复了紧凑网页窗口视频快进/快退快捷键无效的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分系统下选择文件窗口会引发崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了更新胡桃时选择下载源不生效的问题</li>
+<li><strong>【✨优化】</strong> 现在会在启动时检查代理和 Loopback 状态，并在无法正常联网时引导用户解除 Loopback 限制</li>
+<li><strong>【✨优化】</strong> 紧凑网页窗口现在会记忆上次关闭时的页面</li>
+</ul>
 <h2>1.12.3 </h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了托盘图标不同步导致的程序崩溃 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2198" target="_blank" rel="noopener noreferrer">#2198</a></li>
 <li><strong>【🔨修复】</strong> 修复了托盘图标初始化失败导致元数据未初始化，从而导致程序不可用的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2202" target="_blank" rel="noopener noreferrer">#2202</a></li>
 </ul>
-<h2>1.12.2 </h2>
+<h2>1.12.2</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 新增了紧凑网页窗口视频快进/快退的快捷键</li>
 <li><strong>【🔨修复】</strong> 修复了养成计划选中状态异常导致无法启动胡桃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2174" target="_blank" rel="noopener noreferrer">#2174</a></li>
