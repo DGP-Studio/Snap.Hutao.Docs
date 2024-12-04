@@ -16,15 +16,21 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.12.4
+# 🎉 Successfully Updated to Version 1.12.5
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed an issue where the resolution settings could not be saved after launching the game [#2229](https://github.com/DGP-Studio/Snap.Hutao/issues/2229)
-- **[🔨Fix]** Fixed an issue where the achievement completion time was displayed incorrectly [#2184](https://github.com/DGP-Studio/Snap.Hutao/issues/2184)
-- **[🔨Fix]** Fixed an issue where the cultivation plan's backpack could not be refreshed [#2212](https://github.com/DGP-Studio/Snap.Hutao/issues/2212)
-- **[🔨Fix]** Fixed an issue where the shortcut keys for fast-forward/rewind in the compact web window were not working
-- **[🔨Fix]** Fixed an issue where selecting a file window would cause a crash on some systems
-- **[🔨Fix]** Fixed an issue where selecting a download source when updating Snap Hutao was not effective
-- **[✨Optimization]** Now checks proxy and loopback status at startup and guides users to remove loopback restrictions if unable to connect to the internet
-- **[✨Optimization]** The compact web window now remembers the page from the last close
+- **[🎉New]** Added quick resolution switch customization in the game launcher
+- **[🎉New]** Added historical pool records to the wish history countdown
+- **[🎉New]** Added resin estimation to the cultivation plan [#323](https://github.com/DGP-Studio/Snap.Hutao/issues/323) [#1540](https://github.com/DGP-Studio/Snap.Hutao/issues/1540)
+- **[🔨Fix]** Fixed an issue where the background might not change when switching themes
+- **[🔨Fix]** Fixed an issue where some elements might display the wrong color theme in certain situations
+- **[🔨Fix]** Fixed a potential vulnerability through metadata initialization injection [#2240](https://github.com/DGP-Studio/Snap.Hutao/issues/2240)
+- **[🔨Fix]** Fixed an issue where the local game version might not be read in certain situations [#2251](https://github.com/DGP-Studio/Snap.Hutao/issues/2251)
+- **[🔨Fix]** Fixed an issue where the international server could not refresh wish records in certain situations [#2252](https://github.com/DGP-Studio/Snap.Hutao/issues/2252)
+- **[🔨Fix]** Fixed an issue where characters or weapons might appear without materials after overwriting the cultivation plan
+- **[🔨Fix]** Fixed an issue where the transparency settings of the compact web window were not effective [#2258](https://github.com/DGP-Studio/Snap.Hutao/issues/2258)
+- **[🔨Fix]** Fixed a buffer overflow issue when exiting Snap Hutao from the tray menu on some systems
+- **[✨Optimization]** The game launcher page will now replace the account with the same name instead of creating a new one
+- **[✨Optimization]** The cultivation plan will now attempt to obtain more accurate backpack material quantities
+- **[✨Optimization]** Optimized the size of Snap Hutao
