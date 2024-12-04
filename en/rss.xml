@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 28 Nov 2024 09:08:08 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Nov 2024 09:08:08 GMT</lastBuildDate>
+    <pubDate>Wed, 04 Dec 2024 08:16:14 GMT</pubDate>
+    <lastBuildDate>Wed, 04 Dec 2024 08:16:14 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,23 +23,29 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.12.4</title>
+      <title>🎉 Successfully Updated to Version 1.12.5</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.4</source>
-      <description>🎉 Successfully Updated to Version 1.12.4 | English [🔨Fix] Fixed an issue where the resolution settings could not be saved after launching the game #2229 [🔨Fix] Fixed an issue...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.5</source>
+      <description>🎉 Successfully Updated to Version 1.12.5 | English [🎉New] Added quick resolution switch customization in the game launcher [🎉New] Added historical pool records to the wish hi...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the resolution settings could not be saved after launching the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2229" target="_blank" rel="noopener noreferrer">#2229</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the achievement completion time was displayed incorrectly <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2184" target="_blank" rel="noopener noreferrer">#2184</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the cultivation plan's backpack could not be refreshed <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2212" target="_blank" rel="noopener noreferrer">#2212</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the shortcut keys for fast-forward/rewind in the compact web window were not working</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where selecting a file window would cause a crash on some systems</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where selecting a download source when updating Snap Hutao was not effective</li>
-<li><strong>[✨Optimization]</strong> Now checks proxy and loopback status at startup and guides users to remove loopback restrictions if unable to connect to the internet</li>
-<li><strong>[✨Optimization]</strong> The compact web window now remembers the page from the last close</li>
+<li><strong>[🎉New]</strong> Added quick resolution switch customization in the game launcher</li>
+<li><strong>[🎉New]</strong> Added historical pool records to the wish history countdown</li>
+<li><strong>[🎉New]</strong> Added resin estimation to the cultivation plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/323" target="_blank" rel="noopener noreferrer">#323</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1540" target="_blank" rel="noopener noreferrer">#1540</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the background might not change when switching themes</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where some elements might display the wrong color theme in certain situations</li>
+<li><strong>[🔨Fix]</strong> Fixed a potential vulnerability through metadata initialization injection <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2240" target="_blank" rel="noopener noreferrer">#2240</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the local game version might not be read in certain situations <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2251" target="_blank" rel="noopener noreferrer">#2251</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the international server could not refresh wish records in certain situations <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2252" target="_blank" rel="noopener noreferrer">#2252</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where characters or weapons might appear without materials after overwriting the cultivation plan</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the transparency settings of the compact web window were not effective <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2258" target="_blank" rel="noopener noreferrer">#2258</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a buffer overflow issue when exiting Snap Hutao from the tray menu on some systems</li>
+<li><strong>[✨Optimization]</strong> The game launcher page will now replace the account with the same name instead of creating a new one</li>
+<li><strong>[✨Optimization]</strong> The cultivation plan will now attempt to obtain more accurate backpack material quantities</li>
+<li><strong>[✨Optimization]</strong> Optimized the size of Snap Hutao</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -520,7 +526,24 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.12.4 </h2>
+<h2>1.12.5 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added quick resolution switch customization in the game launcher</li>
+<li><strong>[🎉New]</strong> Added historical pool records to the wish history countdown</li>
+<li><strong>[🎉New]</strong> Added resin estimation to the cultivation plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/323" target="_blank" rel="noopener noreferrer">#323</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1540" target="_blank" rel="noopener noreferrer">#1540</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the background might not change when switching themes</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where some elements might display the wrong color theme in certain situations</li>
+<li><strong>[🔨Fix]</strong> Fixed a potential vulnerability through metadata initialization injection <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2240" target="_blank" rel="noopener noreferrer">#2240</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the local game version might not be read in certain situations <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2251" target="_blank" rel="noopener noreferrer">#2251</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the international server could not refresh wish records in certain situations <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2252" target="_blank" rel="noopener noreferrer">#2252</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where characters or weapons might appear without materials after overwriting the cultivation plan</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the transparency settings of the compact web window were not effective <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2258" target="_blank" rel="noopener noreferrer">#2258</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a buffer overflow issue when exiting Snap Hutao from the tray menu on some systems</li>
+<li><strong>[✨Optimization]</strong> The game launcher page will now replace the account with the same name instead of creating a new one</li>
+<li><strong>[✨Optimization]</strong> The cultivation plan will now attempt to obtain more accurate backpack material quantities</li>
+<li><strong>[✨Optimization]</strong> Optimized the size of Snap Hutao</li>
+</ul>
+<h2>1.12.4</h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the resolution settings could not be saved after launching the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2229" target="_blank" rel="noopener noreferrer">#2229</a></li>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the achievement completion time was displayed incorrectly <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2184" target="_blank" rel="noopener noreferrer">#2184</a></li>

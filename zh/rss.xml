@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 28 Nov 2024 09:08:08 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Nov 2024 09:08:08 GMT</lastBuildDate>
+    <pubDate>Wed, 04 Dec 2024 08:16:14 GMT</pubDate>
+    <lastBuildDate>Wed, 04 Dec 2024 08:16:14 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -21,23 +21,29 @@
     <category>第三方工具</category>
     <category>项目</category>
     <item>
-      <title>🎉 已成功更新至 1.12.4 版本</title>
+      <title>🎉 已成功更新至 1.12.5 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.12.4 版本</source>
-      <description>🎉 已成功更新至 1.12.4 版本 简体中文 | 【🔨修复】 修复了启动游戏设置分辨率后无法保存的问题 #2229 【🔨修复】 修复了成就完成时间显示错误的问题 #2184 【🔨修复】 修复了养成计划背包无法刷新的问题 #2212 【🔨修复】 修复了紧凑网页窗口视频快进/快退快捷键无效的问题 【🔨修复】 修复了部分系统下选择文件窗口会引发...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.12.5 版本</source>
+      <description>🎉 已成功更新至 1.12.5 版本 简体中文 | 【🎉新增】 启动游戏中现在可以自定义快速切换分辨率 【🎉新增】 祈愿记录卡池计时新增卡池历史记录 【🎉新增】 养成计划新增树脂预估 #323 #1540 【🔨修复】 修复了切换主题时可能不会触发背景变换的问题 【🔨修复】 修复了部分情况下部分元素的颜色主题显示错误的问题 【🔨修复】 修复...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🔨修复】</strong> 修复了启动游戏设置分辨率后无法保存的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2229" target="_blank" rel="noopener noreferrer">#2229</a></li>
-<li><strong>【🔨修复】</strong> 修复了成就完成时间显示错误的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2184" target="_blank" rel="noopener noreferrer">#2184</a></li>
-<li><strong>【🔨修复】</strong> 修复了养成计划背包无法刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2212" target="_blank" rel="noopener noreferrer">#2212</a></li>
-<li><strong>【🔨修复】</strong> 修复了紧凑网页窗口视频快进/快退快捷键无效的问题</li>
-<li><strong>【🔨修复】</strong> 修复了部分系统下选择文件窗口会引发崩溃的问题</li>
-<li><strong>【🔨修复】</strong> 修复了更新胡桃时选择下载源不生效的问题</li>
-<li><strong>【✨优化】</strong> 现在会在启动时检查代理和 Loopback 状态，并在无法正常联网时引导用户解除 Loopback 限制</li>
-<li><strong>【✨优化】</strong> 紧凑网页窗口现在会记忆上次关闭时的页面</li>
+<li><strong>【🎉新增】</strong> 启动游戏中现在可以自定义快速切换分辨率</li>
+<li><strong>【🎉新增】</strong> 祈愿记录卡池计时新增卡池历史记录</li>
+<li><strong>【🎉新增】</strong> 养成计划新增树脂预估 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/323" target="_blank" rel="noopener noreferrer">#323</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1540" target="_blank" rel="noopener noreferrer">#1540</a></li>
+<li><strong>【🔨修复】</strong> 修复了切换主题时可能不会触发背景变换的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分情况下部分元素的颜色主题显示错误的问题</li>
+<li><strong>【🔨修复】</strong> 修复了可能通过元数据初始化注入的漏洞 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2240" target="_blank" rel="noopener noreferrer">#2240</a></li>
+<li><strong>【🔨修复】</strong> 修复了部分情况下无法读取本地游戏版本的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2251" target="_blank" rel="noopener noreferrer">#2251</a></li>
+<li><strong>【🔨修复】</strong> 修复了部分情况下国际服无法刷新祈愿记录的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2252" target="_blank" rel="noopener noreferrer">#2252</a></li>
+<li><strong>【🔨修复】</strong> 修复了养成计划覆盖保存后可能会出现无材料的角色或武器的问题</li>
+<li><strong>【🔨修复】</strong> 修复了紧凑网页窗口透明度设置不生效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2258" target="_blank" rel="noopener noreferrer">#2258</a></li>
+<li><strong>【🔨修复】</strong> 修复了部分系统下从托盘菜单退出胡桃时可能存在的缓冲区溢出的问题</li>
+<li><strong>【✨优化】</strong> 启动游戏页面尝试保存同名账号时现在将会替换而不是新建</li>
+<li><strong>【✨优化】</strong> 养成计划现在会尝试获取更为准确的背包材料数量</li>
+<li><strong>【✨优化】</strong> 优化了胡桃的体积</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -587,7 +593,24 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.12.4 </h2>
+<h2>1.12.5 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 启动游戏中现在可以自定义快速切换分辨率</li>
+<li><strong>【🎉新增】</strong> 祈愿记录卡池计时新增卡池历史记录</li>
+<li><strong>【🎉新增】</strong> 养成计划新增树脂预估 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/323" target="_blank" rel="noopener noreferrer">#323</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1540" target="_blank" rel="noopener noreferrer">#1540</a></li>
+<li><strong>【🔨修复】</strong> 修复了切换主题时可能不会触发背景变换的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分情况下部分元素的颜色主题显示错误的问题</li>
+<li><strong>【🔨修复】</strong> 修复了可能通过元数据初始化注入的漏洞 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2240" target="_blank" rel="noopener noreferrer">#2240</a></li>
+<li><strong>【🔨修复】</strong> 修复了部分情况下无法读取本地游戏版本的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2251" target="_blank" rel="noopener noreferrer">#2251</a></li>
+<li><strong>【🔨修复】</strong> 修复了部分情况下国际服无法刷新祈愿记录的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2252" target="_blank" rel="noopener noreferrer">#2252</a></li>
+<li><strong>【🔨修复】</strong> 修复了养成计划覆盖保存后可能会出现无材料的角色或武器的问题</li>
+<li><strong>【🔨修复】</strong> 修复了紧凑网页窗口透明度设置不生效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2258" target="_blank" rel="noopener noreferrer">#2258</a></li>
+<li><strong>【🔨修复】</strong> 修复了部分系统下从托盘菜单退出胡桃时可能存在的缓冲区溢出的问题</li>
+<li><strong>【✨优化】</strong> 启动游戏页面尝试保存同名账号时现在将会替换而不是新建</li>
+<li><strong>【✨优化】</strong> 养成计划现在会尝试获取更为准确的背包材料数量</li>
+<li><strong>【✨优化】</strong> 优化了胡桃的体积</li>
+</ul>
+<h2>1.12.4</h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了启动游戏设置分辨率后无法保存的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2229" target="_blank" rel="noopener noreferrer">#2229</a></li>
 <li><strong>【🔨修复】</strong> 修复了成就完成时间显示错误的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2184" target="_blank" rel="noopener noreferrer">#2184</a></li>
