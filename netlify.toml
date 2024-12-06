@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/tasks/:id"
+to = "https://git.snapgenshin.com/DGP-Studio/Feedback/issues/:id"
+status = 301
