@@ -85,7 +85,7 @@ highlights:
 
       - title: 属性统计
         icon: /images/202308/My_Character_Icon.png
-        details: 查看玩家所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；自动计算圣遗物评分和双爆评分
+        details: 查看玩家所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等。
         link: features/character-data.html
 
       - title: 角色资料

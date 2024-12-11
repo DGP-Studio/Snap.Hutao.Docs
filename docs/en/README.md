@@ -85,7 +85,7 @@ highlights:
 
       - title: My Characters
         icon: /images/202308/My_Character_Icon.png
-        details: View detailed data about the player's character, including level, constellations, weapons, talents, artifact set, etc.; automatically calculate artifact set score
+        details: View detailed data about the player's character, including level, constellations, weapons, talents, artifact set, etc.
         link: features/character-data.html
 
       - title: Character Wiki
