@@ -10,6 +10,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
+## 1.12.7 <Badge text="hotfix" type="warning" />
+
+- **【🔨修复】** 修复了未设置游戏路径时进入启动游戏页面会崩溃的问题
+
 ## 1.12.6 <Badge text="最新版" type="tip" />
 
 - **【🎉新增】** 启动游戏现在会自动检测游戏路径
