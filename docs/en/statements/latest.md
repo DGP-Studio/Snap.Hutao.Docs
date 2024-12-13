@@ -16,21 +16,14 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.12.5
+# 🎉 Successfully Updated to Version 1.12.6
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🎉New]** Added quick resolution switch customization in the game launcher
-- **[🎉New]** Added historical pool records to the wish history countdown
-- **[🎉New]** Added resin estimation to the cultivation plan [#323](https://github.com/DGP-Studio/Snap.Hutao/issues/323) [#1540](https://github.com/DGP-Studio/Snap.Hutao/issues/1540)
-- **[🔨Fix]** Fixed an issue where the background might not change when switching themes
-- **[🔨Fix]** Fixed an issue where some elements might display the wrong color theme in certain situations
-- **[🔨Fix]** Fixed a potential vulnerability through metadata initialization injection [#2240](https://github.com/DGP-Studio/Snap.Hutao/issues/2240)
-- **[🔨Fix]** Fixed an issue where the local game version might not be read in certain situations [#2251](https://github.com/DGP-Studio/Snap.Hutao/issues/2251)
-- **[🔨Fix]** Fixed an issue where the international server could not refresh wish records in certain situations [#2252](https://github.com/DGP-Studio/Snap.Hutao/issues/2252)
-- **[🔨Fix]** Fixed an issue where characters or weapons might appear without materials after overwriting the cultivation plan
-- **[🔨Fix]** Fixed an issue where the transparency settings of the compact web window were not effective [#2258](https://github.com/DGP-Studio/Snap.Hutao/issues/2258)
-- **[🔨Fix]** Fixed a buffer overflow issue when exiting Snap Hutao from the tray menu on some systems
-- **[✨Optimization]** The game launcher page will now replace the account with the same name instead of creating a new one
-- **[✨Optimization]** The cultivation plan will now attempt to obtain more accurate backpack material quantities
-- **[✨Optimization]** Optimized the size of Snap Hutao
+- **[🎉New]** The game launcher now automatically detects the game path
+- **[✨Optimization]** The "Remove team configuration progress bar" feature is now only effective when team switching is allowed
+- **[🔨Fix]** Fixed an issue where updates could not be checked without logging into Hutao Passport
+- **[🔨Fix]** Fixed an issue where the background color of the homepage calendar card might be incorrect
+- **[🔨Fix]** Fixed a potential memory leak when modifying the speed limit during game download
+- **[🔨Fix]** Fixed a crash issue that might occur when canceling a game download
+- **[🔨Fix]** Fixed a crash issue when reading Unity logs to get wish records using web cache without setting the game path [#2272](https://github.com/DGP-Studio/Snap.Hutao/issues/2272)
