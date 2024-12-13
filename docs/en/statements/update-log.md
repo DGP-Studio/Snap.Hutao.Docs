@@ -11,7 +11,17 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.12.5 <Badge text="latest" type="tip" />
+## 1.12.6 <Badge text="latest" type="tip" />
+
+- **[🎉New]** The game launcher now automatically detects the game path
+- **[✨Optimization]** The "Remove team configuration progress bar" feature is now only effective when team switching is allowed
+- **[🔨Fix]** Fixed an issue where updates could not be checked without logging into Hutao Passport
+- **[🔨Fix]** Fixed an issue where the background color of the homepage calendar card might be incorrect
+- **[🔨Fix]** Fixed a potential memory leak when modifying the speed limit during game download
+- **[🔨Fix]** Fixed a crash issue that might occur when canceling a game download
+- **[🔨Fix]** Fixed a crash issue when reading Unity logs to get wish records using web cache without setting the game path [#2272](https://github.com/DGP-Studio/Snap.Hutao/issues/2272)
+
+## 1.12.5
 
 - **[🎉New]** Added quick resolution switch customization in the game launcher
 - **[🎉New]** Added historical pool records to the wish history countdown
