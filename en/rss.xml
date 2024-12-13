@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 13 Dec 2024 12:33:15 GMT</pubDate>
-    <lastBuildDate>Fri, 13 Dec 2024 12:33:15 GMT</lastBuildDate>
+    <pubDate>Fri, 13 Dec 2024 12:57:17 GMT</pubDate>
+    <lastBuildDate>Fri, 13 Dec 2024 12:57:17 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,14 +23,19 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.12.6</title>
+      <title>🎉 Successfully Updated to Version 1.12.7</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.6</source>
-      <description>🎉 Successfully Updated to Version 1.12.6 | English [🎉New] The game launcher now automatically detects the game path [✨Optimization] The &amp;quot;Remove team configuration progress bar...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.7</source>
+      <description>🎉 Successfully Updated to Version 1.12.7 | English 1.12.7 is a hotfix version of 1.12.6 that addressed several critical issues. [🔨Fix] Fixed an issue where the program would c...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
+<p>1.12.7 is a hotfix version of 1.12.6 that addressed several critical issues.</p>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the program would crash when entering the game launch page without setting the game path</li>
+</ul>
+<p>1.12.6</p>
 <ul>
 <li><strong>[🎉New]</strong> The game launcher now automatically detects the game path</li>
 <li><strong>[✨Optimization]</strong> The "Remove team configuration progress bar" feature is now only effective when team switching is allowed</li>
@@ -519,6 +524,10 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.12.7 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the program would crash when entering the game launch page without setting the game path</li>
+</ul>
 <h2>1.12.6 </h2>
 <ul>
 <li><strong>[🎉New]</strong> The game launcher now automatically detects the game path</li>
