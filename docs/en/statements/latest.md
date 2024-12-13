@@ -16,9 +16,15 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.12.6
+# 🎉 Successfully Updated to Version 1.12.7
 
 [简体中文](/zh/statements/latest.html) | **English**
+
+1.12.7 is a hotfix version of 1.12.6 that addressed several critical issues.
+
+- **[🔨Fix]** Fixed an issue where the program would crash when entering the game launch page without setting the game path
+
+1.12.6
 
 - **[🎉New]** The game launcher now automatically detects the game path
 - **[✨Optimization]** The "Remove team configuration progress bar" feature is now only effective when team switching is allowed

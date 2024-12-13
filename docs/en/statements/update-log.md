@@ -11,6 +11,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.12.7 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed an issue where the program would crash when entering the game launch page without setting the game path
+
 ## 1.12.6 <Badge text="latest" type="tip" />
 
 - **[🎉New]** The game launcher now automatically detects the game path
