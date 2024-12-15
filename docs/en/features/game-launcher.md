@@ -89,6 +89,7 @@ Genshin Impact has temporarily disabled the HDR feature, so the feature will not
 
 - Enter Game Launcher page
 - In the `Progress` category, enable `Launch Parameters` and expand it to see more detailed options:
+
   - `-window-mode exclusive` parameter
     - **Exclusive Full Screen**, i.e., select the game process to run in exclusive full-screen mode
     - **This feature is incompatible with the in-game browser feature, you should only enable this option if you can independently describe the technical principles and effects of exclusive full screen**
@@ -105,8 +106,10 @@ Genshin Impact has temporarily disabled the HDR feature, so the feature will not
   - `-screen-height` parameter
     - **Height**, i.e., choose the height of the game interface after launching the game, for example, `1080`
   - `-monitor` parameter
+
     - **Monitor**, allows users with multiple monitors to choose a specific monitor to run the game
     - If you can't determine which monitor each option represents, you can click `Identify Monitor` to get a hint.
+
       ::: warning
       Please note that modifying the primary monitor may cause the game to appear on a monitor that does not correspond to the numbered monitor.
       :::

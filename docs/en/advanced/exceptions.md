@@ -45,7 +45,8 @@ This document covers solutions of **foreseeable client error**
   - Follow the instruction in MiHoYo BBS to verify
   - After finishing the verification process, click `Complete` to close the verification window
   - Now, the account should back to normal; If not, process the step above again
-    ::: tip
+
+::: tip
 
 If the risk prompt is too frequent, or the verification cannot be triggered at all, it means that the risk of your
 account is too high, please change the password, so that the simultaneous login status of multiple devices will be reset
