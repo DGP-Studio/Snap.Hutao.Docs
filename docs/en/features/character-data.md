@@ -4,7 +4,7 @@ category: [Feature, Tutorial]
 tag: [Character showcase, Character statistics]
 order: 8
 comment: false
-description: The "My Characters" feature in Snap Hutao can retrieve and display specific data of the characters owned within a Genshin Impact account. It provides analytical data such as character level, constellations, talents, and artifact ratings.
+description: The "My Characters" feature in Snap Hutao can retrieve and display specific data of the characters owned within a Genshin Impact account. It provides analytical data such as character level, constellations, talents, and artifact attributes.
 ---
 
 # My Characters
@@ -16,8 +16,7 @@ This features required sign in to MiHoYo BBS account, please refer to [MiHoYo BB
 :::
 
 My characters is a character statistics feature that allows Snap Hutao to read character's statistics on the account,
-including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for
-each character.
+including level, constellation, weapon, talent and artifact set.
 
 ![My Character Screenshot](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SpkZag1g6e0sAYQKO_!!1797064093.png_.webp)
 

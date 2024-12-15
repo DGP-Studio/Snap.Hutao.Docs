@@ -65,7 +65,6 @@ Snap Hutao is using MSIX format package. MSIX is a native Windows application pa
   - Windows native style notification push
 - [My Characters](features/character-data.md)
   - Support multiple source synchronization
-  - Artifact rating & CRIT rating
   - Export my character data as image to clipboard
 - [Spiral Abyss](features/hutao-API.md)
   - Details of monster and blessing for each schedule
