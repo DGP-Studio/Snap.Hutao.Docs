@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 15 Dec 2024 08:15:56 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Dec 2024 08:15:56 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 08:27:00 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 08:27:00 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -23,11 +23,11 @@
     <category>project</category>
     <category>features</category>
     <item>
-      <title>🎉 Successfully Updated to Version 1.12.7</title>
+      <title>🎉 Successfully Updated to Version 1.12.8</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.7</source>
-      <description>🎉 Successfully Updated to Version 1.12.7 | English [🎉New] Added keyboard F key auto-press feature, which can be enabled and configured in the settings page [🔨Fix] Fixed an is...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.8</source>
+      <description>🎉 Successfully Updated to Version 1.12.8 | English [🎉New] Added keyboard F key auto-press feature, which can be enabled and configured in the settings page [🔨Fix] Fixed an is...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
