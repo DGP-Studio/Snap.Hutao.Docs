@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Sun, 15 Dec 2024 09:19:59 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Dec 2024 09:19:59 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 11:04:37 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 11:04:37 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Объявление</category>
@@ -357,15 +357,14 @@
 <li>Нажмите кнопку <code>Verify Current User and Role</code></li>
 <li>Следуйте инструкциям на сайте MiHoYo BBS для верификации</li>
 <li>По завершении процесса верификации нажмите <code>Complete</code>, чтобы закрыть окно верификации</li>
-<li>Теперь учетная запись должна вернуться к нормальному состоянию; Если нет, выполните шаги выше еще раз<div class="hint-container tip">
+<li>Теперь учетная запись должна вернуться к нормальному состоянию; Если нет, выполните шаги выше еще раз</li>
+</ul>
+</li>
+</ul>
+<div class="hint-container tip">
 <p class="hint-container-title">Совет</p>
-</div>
-</li>
-</ul>
-</li>
-</ul>
 <p>Если риск предупреждения слишком часто возникает, или верификация не может быть запущена вообще, это означает, что риск вашей учетной записи слишком велик; измените пароль, чтобы сбросить статус одновременного входа с нескольких устройств</p>
-<p>:::</p>
+</div>
 <div class="hint-container warning">
 <p class="hint-container-title">Примечание</p>
 <ul>

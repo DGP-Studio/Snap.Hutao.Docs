@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 15 Dec 2024 09:19:59 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Dec 2024 09:19:59 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 11:04:37 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 11:04:37 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -1918,16 +1918,15 @@ it means the operation is blocked by MiHoYo BBS anti-bot system</li>
 <li>Click on <code>Verify Current User and Role</code> button</li>
 <li>Follow the instruction in MiHoYo BBS to verify</li>
 <li>After finishing the verification process, click <code>Complete</code> to close the verification window</li>
-<li>Now, the account should back to normal; If not, process the step above again<div class="hint-container tip">
+<li>Now, the account should back to normal; If not, process the step above again</li>
+</ul>
+</li>
+</ul>
+<div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
-</div>
-</li>
-</ul>
-</li>
-</ul>
 <p>If the risk prompt is too frequent, or the verification cannot be triggered at all, it means that the risk of your
 account is too high, please change the password, so that the simultaneous login status of multiple devices will be reset</p>
-<p>:::</p>
+</div>
 <div class="hint-container warning">
 <p class="hint-container-title">Warning</p>
 <ul>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 15 Dec 2024 09:19:59 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Dec 2024 09:19:59 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 11:04:37 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 11:04:37 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -121,8 +121,8 @@
 <hr class="footnotes-sep">
 </a><section class="footnotes"><a class="footnote-anchor" id="footnote-ref1">
 </a><ol class="footnotes-list"><a class="footnote-anchor" id="footnote-ref1">
-</a><li id="footnote1" class="footnote-item"><a class="footnote-anchor" id="footnote-ref1"></a><p><a class="footnote-anchor" id="footnote-ref1"><strong>什么是“Windows Appx 容器应用”？</strong>
-Windows 使用了一种被称为“AppContainer”的机制，该机制的目的是使应用程序<strong>能够获取、且仅能够获取应用程序运行所需的必要资源</strong>，减少一切非必要的接触其他应用程序与文件的可能。在理想情况下，即便应用程序存在恶意，其也只能作用于“AppContainer”环境，无法对设备的其他文件造成损害。 </a><a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+</a><li id="footnote1" class="footnote-item"><a class="footnote-anchor" id="footnote-ref1"><p><strong>什么是“Windows Appx 容器应用”？</strong></p>
+</a><p><a class="footnote-anchor" id="footnote-ref1">Windows 使用了一种被称为“AppContainer”的机制，该机制的目的是使应用程序<strong>能够获取、且仅能够获取应用程序运行所需的必要资源</strong>，减少一切非必要的接触其他应用程序与文件的可能。在理想情况下，即便应用程序存在恶意，其也只能作用于“AppContainer”环境，无法对设备的其他文件造成损害。 </a><a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>

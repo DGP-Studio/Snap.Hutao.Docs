@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Sun, 15 Dec 2024 09:19:59 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Dec 2024 09:19:59 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 11:04:37 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 11:04:37 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Pengumuman</category>
@@ -539,15 +539,14 @@ itu berarti operasi diblokir oleh sistem anti-bot MiHoYo BBS</li>
 <li>Klik tombol <code>Verify Current User and Role</code></li>
 <li>Ikuti instruksi di MiHoYo BBS untuk melakukan verifikasi</li>
 <li>Setelah menyelesaikan proses verifikasi, klik <code>Selesai</code> untuk menutup jendela verifikasi</li>
-<li>Sekarang, akun seharusnya kembali normal; Jika tidak, ulangi langkah di atas<div class="hint-container tip">
+<li>Sekarang, akun seharusnya kembali normal; Jika tidak, ulangi langkah di atas</li>
+</ul>
+</li>
+</ul>
+<div class="hint-container tip">
 <p class="hint-container-title">Tips</p>
-</div>
-</li>
-</ul>
-</li>
-</ul>
 <p>Jika peringatan risiko terlalu sering, atau verifikasi tidak dapat dipicu sama sekali, ini berarti risiko akun Anda terlalu tinggi, silakan ubah kata sandi, sehingga status login simultan dari beberapa perangkat akan diatur ulang</p>
-<p>:::</p>
+</div>
 <div class="hint-container warning">
 <p class="hint-container-title">Penting</p>
 <ul>
