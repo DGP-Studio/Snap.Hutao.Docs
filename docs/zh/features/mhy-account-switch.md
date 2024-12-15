@@ -16,6 +16,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features
 - 本文档所描述的账号切换指的是用于获取游戏数据的**米游社 / HoYoLAB 账号**，不是原神**游戏内的账号**
 - 在使用本功能前，你需要使用官方的米游社 App 登录你的账号以初始化你的米游社功能
   - 如果在胡桃中登录的账号名称格式为 “user_123456789” 则其有可能没有被初始化
+
 :::
 
 ![多帐号管理样图](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ZhnkRl1g6e0tz18y9_!!1797064093.png.png_.webp)
@@ -31,6 +32,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features
   - 若您选择“手动输入”米游社 Cookie，则该 Cookie **必须包含 `SToken` 字段**
     - 手动获取含 `SToken` 字段的 Cookie 的方式可参考[使用第三方工具获取有 SToken 的 Cookie](../advanced/get-stoken-cookie-from-the-third-party.md) 文档
 - 网页登录（仅外服）
+
   - 在对应的账号类别中点击“网页登录”按钮
   - 在弹出的窗口登录成功后，点击右上角的“我已登录”按钮即可登录
 
@@ -43,9 +45,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features
     - 点击签到按钮来执行米哈游论坛签到。对于米游社账号，需要先解除风控状态才可成功执行签到。
 
 ::: info 安全提示
+
 - `SToken` 是一个安全敏感的 Cookie 字段，你**不应该**在任何云端或其它无法保证数据安全的设备上储存含有 `SToken` 字段的 Cookie。
 - 从胡桃工具箱中复制获得的 Cookie 中包含该字段，请慎重考虑是否为接受 Cookie 的一方提供 `SToken` 字段。
 - **在胡桃工具箱中通过密码或 Cookie 登录米游社的过程中，你的数据只经米游社服务器和本地胡桃工具箱处理，不经过包括胡桃服务器在内的任何第三方服务。**
+
 :::
 
 ## 常见问题

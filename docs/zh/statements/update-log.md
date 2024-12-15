@@ -114,8 +114,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ## 1.11.7
 
 - **【🎉新增】** / **【✨优化】** 调整了启动游戏界面的 UI
-    - **【🎉新增】** 移除队伍配置界面进度条 功能
-    - **【🎉新增】** 让我进去！米奇妙妙功能（是的没错）
+  - **【🎉新增】** 移除队伍配置界面进度条 功能
+  - **【🎉新增】** 让我进去！米奇妙妙功能（是的没错）
 - **【🎉新增】** 启动游戏切换服务器新增分块模式
 - **【🎉新增】** 角色资料添加角色名片 [#1424](https://github.com/DGP-Studio/Snap.Hutao/issues/1424)
 - **【🔨修复】** 修复了每日首次启动胡桃可能会崩溃的问题 [#2101](https://github.com/DGP-Studio/Snap.Hutao/issues/2101)

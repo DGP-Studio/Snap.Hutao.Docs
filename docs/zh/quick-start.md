@@ -184,7 +184,7 @@ MSVC 运行库是解锁帧率功能的必须组件，如遇解锁帧率时提示
 如果你希望使用自己提取的米哈游通行证 Cookie 登录到胡桃工具箱，可以在登录面板中点击你希望登录的 App 图标，然后选择“手动输入”，并在弹出的窗口中输入包含 SToken 的 `Cookie`。
 若你填入了一个有效的 Cookie，在点击“确认”后**稍等片刻**，你将成功登录你的论坛账号并在账号面板中显示出来。
 
-手动获取含 `SToken` 字段的 Cookie 的方式可参考[使用第三方工具获取有 SToken 的 Cookie](../advanced/get-stoken-cookie-from-the-third-party.md) 文档。
+手动获取含 `SToken` 字段的 Cookie 的方式可参考[使用第三方工具获取有 SToken 的 Cookie](./advanced/get-stoken-cookie-from-the-third-party.md) 文档。
 ::::
 
 ## <HopeIcon icon="iconfont icon-ask" size="1.7rem" color="var(--theme-color)" /> 安装常见问题

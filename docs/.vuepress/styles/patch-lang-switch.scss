@@ -12,7 +12,7 @@
 }
 
 // 提示框在深色模式下的背景色
-html[data-theme=dark] {
+html[data-theme="dark"] {
   .lang-modal-wrapper {
     background: var(--bg-color);
   }
