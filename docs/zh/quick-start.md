@@ -59,22 +59,6 @@ link="https://github.com/DGP-Studio/Snap.Hutao.Deployment/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
-<VPCard
-title="Onedrive 镜像"
-desc="由开发团队维护的镜像下载源"
-logo="/images/202401/Microsoft_Office_OneDrive.svg"
-link="https://d.hut.ao/d/tools/Snap.Hutao.Deployment.exe"
-background="rgba(88, 164, 255, 0.15)"
-/>
-
-<VPCard
-title="极狐 GitLab"
-desc="Snap Hutao Deployment 代码库官方中国镜像"
-logo="/images/202312/jihulab.svg"
-link="https://jihulab.com/DGP-Studio/Snap.Hutao.Deployment/-/releases"
-background="rgba(244, 125, 63, 0.15)"
-/>
-
 </div>
 
 @tab 使用 MSIX 安装包安装
@@ -98,13 +82,6 @@ background="rgba(244, 125, 63, 0.15)"
     logo="/images/202312/github-mark.svg"
     link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
     background="rgba(155, 233, 168, 0.15)"
-  />
-<VPCard
-    title="极狐 GitLab"
-    desc="Snap Hutao 主代码库的官方中国镜像"
-    logo="/images/202312/jihulab.svg"
-    link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
-    background="rgba(244, 125, 63, 0.15)"
   />
 
 </div>
@@ -189,17 +166,18 @@ MSVC 运行库是解锁帧率功能的必须组件，如遇解锁帧率时提示
 如果你的 HoYoLAB 账号与你的社交媒体账号绑定，那么你可以在胡桃工具箱中通过社交媒体账号登录 HoYoLAB
 
 ::: warning
+
 1. 本方式需要使用 [Microsoft WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701)组件，请先确认你已经安装了该组件。
 2. HoYoLAB 默认阻拦来自中国大陆的网络连接，Snap Hutao 软件无法自行绕开该限制
-:::
+   :::
 
-1. 点击账号面板中的“三方登录”按钮，胡桃将会通过 WebView2 组件跳转到相应的登录界面
-2. 在该界面中登录你的账号
-3. **稍等片刻**，胡桃工具箱会将当前账号添加进本地客户端，并在账号面板中显示出来
+3. 点击账号面板中的“三方登录”按钮，胡桃将会通过 WebView2 组件跳转到相应的登录界面
+4. 在该界面中登录你的账号
+5. **稍等片刻**，胡桃工具箱会将当前账号添加进本地客户端，并在账号面板中显示出来
 
 @tab Cookies 登录
 
-::: warning 
+::: warning
 请合理保存你的 Cookie，否则账号安全可能受到威胁！
 :::
 

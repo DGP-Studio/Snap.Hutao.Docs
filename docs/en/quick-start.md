@@ -61,22 +61,6 @@ link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
 />
 
-<VPCard
-title="Onedrive Mirror"
-desc="Download mirror maintained by the dev team"
-logo="/images/202401/Microsoft_Office_OneDrive.svg"
-link="https://d.hut.ao/d/tools/Snap.Hutao.Deployment.exe"
-background="rgba(88, 164, 255, 0.15)"
-/>
-
-<VPCard
-title="Jihu GitLab"
-desc="Official China mirror of Snap Hutao Deployment repository"
-logo="/images/202312/jihulab.svg"
-link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
-background="rgba(244, 125, 63, 0.15)"
-/>
-
 </div>
 
 @tab Use MSIX Package
@@ -96,13 +80,6 @@ background="rgba(244, 125, 63, 0.15)"
     logo="/images/202312/github-mark.svg"
     link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
     background="rgba(155, 233, 168, 0.15)"
-  />
-<VPCard
-    title="Jihu GitLab"
-    desc="Official China mirror of Snap Hutao repository"
-    logo="/images/202312/jihulab.svg"
-    link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
-    background="rgba(244, 125, 63, 0.15)"
   />
 
 </div>
