@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 15 Dec 2024 08:27:00 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Dec 2024 08:27:00 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 09:19:59 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 09:19:59 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -2626,7 +2626,7 @@ verification, then your account can be used to refresh data.</p>
       <link>https://hut.ao/en/features/character-data.html</link>
       <guid>https://hut.ao/en/features/character-data.html</guid>
       <source url="https://hut.ao/en/rss.xml">My Characters</source>
-      <description>The &amp;quot;My Characters&amp;quot; feature in Snap Hutao can retrieve and display specific data of the characters owned within a Genshin Impact account. It provides analytical data such as character level, constellations, talents, and artifact ratings.</description>
+      <description>The &amp;quot;My Characters&amp;quot; feature in Snap Hutao can retrieve and display specific data of the characters owned within a Genshin Impact account. It provides analytical data such as character level, constellations, talents, and artifact attributes.</description>
       <category>Feature</category>
       <category>Tutorial</category>
       <pubDate>Thu, 10 Nov 2022 03:38:32 GMT</pubDate>
@@ -2636,8 +2636,7 @@ verification, then your account can be used to refresh data.</p>
 <p>This features required sign in to MiHoYo BBS account, please refer to <a href="/en/features/mhy-account-switch.html" target="_blank">MiHoYo BBS Account Switch</a> document for sign in tutorial</p>
 </div>
 <p>My characters is a character statistics feature that allows Snap Hutao to read character's statistics on the account,
-including level, constellation, weapon, talent and artifact set; we also provide artifacts rating and CRTI rating for
-each character.</p>
+including level, constellation, weapon, talent and artifact set.</p>
 <p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SpkZag1g6e0sAYQKO_!!1797064093.png_.webp" alt="My Character Screenshot" loading="lazy"></p>
 <h2>Sync Character Data</h2>
 <p>Recommended usage:</p>

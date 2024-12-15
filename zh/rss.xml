@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 15 Dec 2024 08:27:00 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Dec 2024 08:27:00 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 09:19:59 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 09:19:59 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -2764,7 +2764,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <link>https://hut.ao/zh/features/character-data.html</link>
       <guid>https://hut.ao/zh/features/character-data.html</guid>
       <source url="https://hut.ao/zh/rss.xml">我的角色</source>
-      <description>胡桃工具箱的“我的角色”功能可以读取原神账号下所拥有的角色的具体数据并提供分析，包括等级、命之座、天赋和圣遗物评分等数据。</description>
+      <description>胡桃工具箱的“我的角色”功能可以读取原神账号下所拥有的角色的具体数据并提供分析，包括等级、命之座、天赋和圣遗物属性等数据。</description>
       <category>功能</category>
       <category>教程</category>
       <pubDate>Thu, 10 Nov 2022 03:38:32 GMT</pubDate>
@@ -2773,7 +2773,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p class="hint-container-title">前置要求</p>
 <p>该功能需要你在胡桃工具箱中登录米游社账号，登录方法参见<a href="/zh/features/mhy-account-switch.html#%E7%B1%B3%E6%B8%B8%E7%A4%BE%E5%A4%9A%E8%B4%A6%E5%8F%B7%E5%88%87%E6%8D%A2" target="_blank">米游社多账号切换</a></p>
 </div>
-<p>“我的角色”功能可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等；并自动计算圣遗物评分和双爆评分</p>
+<p>“我的角色”功能可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等。</p>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hK2R3O1g6e0qblXd2_!!1797064093.png_.webp" alt="属性统计示例图" loading="lazy"></p>
 <h2>同步角色信息</h2>
 <p>直接点击右上角的“同步角色信息”即可</p>
