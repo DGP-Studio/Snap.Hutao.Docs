@@ -57,13 +57,6 @@ Anda dapat menggunakan paket MSIX untuk menginstal Snap Hutao, Anda dapat menemu
     link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
     background="rgba(155, 233, 168, 0.15)"
   />
-  <VPCard
-    title="Jihu GitLab"
-    desc="Salinan resmi Tiongkok dari repositori Snap Hutao"
-    logo="/images/202312/jihulab.svg"
-    link="https://jihulab.com/DGP-Studio/Snap.Hutao/-/releases"
-    background="rgba(244, 125, 63, 0.15)"
-  />
 </div>
 
 - Jika Anda menghadapi salah satu dari kesalahan berikut selama instalasi, silakan lihat [Instalasi Dependency secara Manual](advanced/dependency.md) untuk memecahkannya, ini terjadi ketika Windows Anda tidak dapat mengunduh kerangka kerja yang diperlukan.
