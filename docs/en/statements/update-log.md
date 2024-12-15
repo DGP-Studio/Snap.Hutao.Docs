@@ -11,11 +11,16 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.12.7 <Badge text="hotfix" type="warning" />
+## 1.12.8 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Added keyboard F key auto-press feature, which can be enabled and configured in the settings page
+- **[🔨Fix]** Fixed an issue where the program would crash when entering the game launch page without having any game path
+
+## 1.12.7
 
 - **[🔨Fix]** Fixed an issue where the program would crash when entering the game launch page without setting the game path
 
-## 1.12.6 <Badge text="latest" type="tip" />
+## 1.12.6
 
 - **[🎉New]** The game launcher now automatically detects the game path
 - **[✨Optimization]** The "Remove team configuration progress bar" feature is now only effective when team switching is allowed
