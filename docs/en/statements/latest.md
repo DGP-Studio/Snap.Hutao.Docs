@@ -16,7 +16,7 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.12.7
+# 🎉 Successfully Updated to Version 1.12.8
 
 [简体中文](/zh/statements/latest.html) | **English**
 
