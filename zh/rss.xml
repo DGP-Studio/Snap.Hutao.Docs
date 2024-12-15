@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 14 Dec 2024 07:51:54 GMT</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2024 07:51:54 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 08:15:56 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 08:15:56 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -25,23 +25,13 @@
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
       <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.12.7 版本</source>
-      <description>🎉 已成功更新至 1.12.7 版本 简体中文 | 1.12.7 版本是 1.12.6 的热修版本，修复了多个严重的问题 【🔨修复】 修复了未设置游戏路径时进入启动游戏页面会崩溃的问题 1.12.6 【🎉新增】 启动游戏现在会自动检测游戏路径 【✨优化】 移除队伍配置进度条 功能仅在允许切换队伍的情况下生效 【🔨修复】 修复了未登录胡桃通行证时...</description>
+      <description>🎉 已成功更新至 1.12.7 版本 简体中文 | 【🎉新增】 新增键盘 F 键连按功能，可以在设置页面启用并配置快捷键 【🔨修复】 修复了启动游戏界面加载时无任何游戏路径可能会导致崩溃的问题</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
-<p>1.12.7 版本是 1.12.6 的热修版本，修复了多个严重的问题</p>
 <ul>
-<li><strong>【🔨修复】</strong> 修复了未设置游戏路径时进入启动游戏页面会崩溃的问题</li>
-</ul>
-<p>1.12.6</p>
-<ul>
-<li><strong>【🎉新增】</strong> 启动游戏现在会自动检测游戏路径</li>
-<li><strong>【✨优化】</strong> 移除队伍配置进度条 功能仅在允许切换队伍的情况下生效</li>
-<li><strong>【🔨修复】</strong> 修复了未登录胡桃通行证时无法正常检查更新的问题</li>
-<li><strong>【🔨修复】</strong> 修复了主页日历卡片背景色可能错误的问题</li>
-<li><strong>【🔨修复】</strong> 修复了在下载游戏时修改限速可能导致的内存泄漏</li>
-<li><strong>【🔨修复】</strong> 修复了在下载游戏时取消可能会导致程序崩溃的问题</li>
-<li><strong>【🔨修复】</strong> 修复了祈愿记录未设置游戏路径时使用网页缓存获取抽卡记录时读取 Unity 日志崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2272" target="_blank" rel="noopener noreferrer">#2272</a></li>
+<li><strong>【🎉新增】</strong> 新增键盘 F 键连按功能，可以在设置页面启用并配置快捷键</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏界面加载时无任何游戏路径可能会导致崩溃的问题</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -591,11 +581,16 @@ Windows 使用了一种被称为“AppContainer”的机制，该机制的目的
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.12.7 </h2>
+<h2>1.12.8 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 新增键盘 F 键连按功能，可以在设置页面启用并配置快捷键</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏界面加载时无任何游戏路径可能会导致崩溃的问题</li>
+</ul>
+<h2>1.12.7</h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了未设置游戏路径时进入启动游戏页面会崩溃的问题</li>
 </ul>
-<h2>1.12.6 </h2>
+<h2>1.12.6</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 启动游戏现在会自动检测游戏路径</li>
 <li><strong>【✨优化】</strong> 移除队伍配置进度条 功能仅在允许切换队伍的情况下生效</li>

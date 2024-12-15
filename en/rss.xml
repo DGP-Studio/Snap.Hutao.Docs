@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 14 Dec 2024 07:51:54 GMT</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2024 07:51:54 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 08:15:56 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 08:15:56 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -27,23 +27,13 @@
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
       <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.12.7</source>
-      <description>🎉 Successfully Updated to Version 1.12.7 | English 1.12.7 is a hotfix version of 1.12.6 that addressed several critical issues. [🔨Fix] Fixed an issue where the program would c...</description>
+      <description>🎉 Successfully Updated to Version 1.12.7 | English [🎉New] Added keyboard F key auto-press feature, which can be enabled and configured in the settings page [🔨Fix] Fixed an is...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
-<p>1.12.7 is a hotfix version of 1.12.6 that addressed several critical issues.</p>
 <ul>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the program would crash when entering the game launch page without setting the game path</li>
-</ul>
-<p>1.12.6</p>
-<ul>
-<li><strong>[🎉New]</strong> The game launcher now automatically detects the game path</li>
-<li><strong>[✨Optimization]</strong> The "Remove team configuration progress bar" feature is now only effective when team switching is allowed</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where updates could not be checked without logging into Hutao Passport</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the background color of the homepage calendar card might be incorrect</li>
-<li><strong>[🔨Fix]</strong> Fixed a potential memory leak when modifying the speed limit during game download</li>
-<li><strong>[🔨Fix]</strong> Fixed a crash issue that might occur when canceling a game download</li>
-<li><strong>[🔨Fix]</strong> Fixed a crash issue when reading Unity logs to get wish records using web cache without setting the game path <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2272" target="_blank" rel="noopener noreferrer">#2272</a></li>
+<li><strong>[🎉New]</strong> Added keyboard F key auto-press feature, which can be enabled and configured in the settings page</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the program would crash when entering the game launch page without having any game path</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -524,11 +514,16 @@ file contains entire data of the client.</p>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.12.7 </h2>
+<h2>1.12.8 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added keyboard F key auto-press feature, which can be enabled and configured in the settings page</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the program would crash when entering the game launch page without having any game path</li>
+</ul>
+<h2>1.12.7</h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the program would crash when entering the game launch page without setting the game path</li>
 </ul>
-<h2>1.12.6 </h2>
+<h2>1.12.6</h2>
 <ul>
 <li><strong>[🎉New]</strong> The game launcher now automatically detects the game path</li>
 <li><strong>[✨Optimization]</strong> The "Remove team configuration progress bar" feature is now only effective when team switching is allowed</li>
