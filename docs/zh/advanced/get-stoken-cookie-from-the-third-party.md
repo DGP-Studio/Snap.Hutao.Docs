@@ -13,7 +13,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 - 以下步骤中涉及的软件、开源项目等资源均来源于互联网，与 DGP-Studio 无关
 - 本说明文档仅提供有关的解决思路，仅供学习使用，具体操作与操作后果与本项目无关
-  :::
+
+:::
 
 ## Android
 
@@ -22,7 +23,8 @@ Android 用户可以使用开源项目 GetToken 来获取包含 Stoken 字段的
 ::: tip GetToken 开源项目
 
 - GitHub：[HolographicHat/GetToken](https://github.com/HolographicHat/GetToken)
-  :::
+
+:::
 
 - GetToken 项目的发布会包含两个 apk 文件，两者最终效果相同。根据你的设备情况选择适合你的版本即可。
   - `app-release.apk` 是一个 LSPosed 插件，其允许用户在官方米游社中使用 GetToken 功能

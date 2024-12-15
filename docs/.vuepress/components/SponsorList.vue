@@ -1,7 +1,13 @@
 <template>
   <div class="sl-container">
-    <a v-for="(item, index) in sponsors" :key="index" :href="item.link" target="_blank" :title="item.name"
-      class="sl-item">
+    <a
+      v-for="(item, index) in sponsors"
+      :key="index"
+      :href="item.link"
+      target="_blank"
+      :title="item.name"
+      class="sl-item"
+    >
       <img class="sl-image" :src="item.icon" :alt="item.name" />
     </a>
   </div>
@@ -14,23 +20,47 @@ interface SponsorListItem {
 }
 
 const sponsors: SponsorListItem[] = [
-  { icon: "/svg/netlify.svg", name: "Netlify", link: "https://www.netlify.com" },
+  {
+    icon: "/svg/netlify.svg",
+    name: "Netlify",
+    link: "https://www.netlify.com",
+  },
   {
     icon: "/svg/crowdin-core-logo-cDark.svg",
     name: "Crowdin",
     link: "https://crowdin.com",
   },
-  { icon: "/svg/navicat.svg", name: "Navicat", link: "https://www.navicat.com" },
-  { icon: "/svg/signpath.svg", name: "Signpath", link: "https://about.signpath.io" },
-  { icon: "/svg/1Password.svg", name: "1Password", link: "https://1password.com" },
+  {
+    icon: "/svg/navicat.svg",
+    name: "Navicat",
+    link: "https://www.navicat.com",
+  },
+  {
+    icon: "/svg/signpath.svg",
+    name: "Signpath",
+    link: "https://about.signpath.io",
+  },
+  {
+    icon: "/svg/1Password.svg",
+    name: "1Password",
+    link: "https://1password.com",
+  },
   {
     icon: "/svg/digitalocean.svg",
     name: "Digitalocean",
     link: "https://www.digitalocean.com",
   },
   { icon: "/svg/ducalis.svg", name: "Ducalis", link: "https://hi.ducalis.io" },
-  { icon: "/svg/jetbrains.svg", name: "Jetbrains", link: "https://jetbrains.com" },
-  { icon: "/svg/termius-logo.svg", name: "Termius", link: "https://termius.com" },
+  {
+    icon: "/svg/jetbrains.svg",
+    name: "Jetbrains",
+    link: "https://jetbrains.com",
+  },
+  {
+    icon: "/svg/termius-logo.svg",
+    name: "Termius",
+    link: "https://termius.com",
+  },
 ];
 </script>
 <style lang="css" scoped>

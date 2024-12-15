@@ -1,41 +1,61 @@
 <template>
   <div class="sponsor-container">
     <div class="sponsor-items">
-      <div v-for="item in sponsor" :key="item.type" class="sponsor-item" :title="item.name[props.lang]">
-        <a :href="`#${item.type}`" :title="item.name[props.lang]" class="hutao-sponsor-link">
-          <img :src="item.icon" :alt="item.type"/>
+      <div
+        v-for="item in sponsor"
+        :key="item.type"
+        class="sponsor-item"
+        :title="item.name[props.lang]"
+      >
+        <a
+          :href="`#${item.type}`"
+          :title="item.name[props.lang]"
+          class="hutao-sponsor-link"
+        >
+          <img :src="item.icon" :alt="item.type" />
           <span>{{ item.name[props.lang] }}</span>
         </a>
       </div>
     </div>
     <div class="sponsor-detail" v-if="type && currentSponsor">
       <div class="sponsor-detail-left">
-        <img :src="currentSponsor.icon" :alt="currentSponsor.name[props.lang]"/>
+        <img
+          :src="currentSponsor.icon"
+          :alt="currentSponsor.name[props.lang]"
+        />
         <p>{{ currentSponsor.label[props.lang] }}</p>
-        <a v-if="currentSponsor.url" :href="currentSponsor.url" target="_blank"
-           rel="noopener noreferrer">{{ currentSponsor.url }}</a>
+        <a
+          v-if="currentSponsor.url"
+          :href="currentSponsor.url"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{ currentSponsor.url }}</a
+        >
       </div>
       <div class="sponsor-detail-right">
-        <img :src="currentSponsor.qrcode" :alt="currentSponsor.label[props.lang]"/>
+        <img
+          :src="currentSponsor.qrcode"
+          :alt="currentSponsor.label[props.lang]"
+        />
       </div>
     </div>
   </div>
 </template>
 <script lang="ts" setup>
-import {onBeforeUnmount, onMounted, ref} from 'vue';
+import { onBeforeUnmount, onMounted, ref } from "vue";
 
 interface SponsorProps {
-  lang: 'zh' | 'en';
+  lang: "zh" | "en";
 }
 
 const props = withDefaults(defineProps<SponsorProps>(), {
-  lang: 'zh'
+  lang: "zh",
 });
 
 enum SponsorType {
-  afdian = 'afdian',
-  paypal = 'paypal',
-  github = 'github'
+  AFDian = "afdian",
+  Paypal = "paypal",
+  GitHub = "github",
 }
 
 interface SponsorItem {
@@ -53,33 +73,36 @@ interface SponsorItem {
   url?: string;
 }
 
-const sponsor: SponsorItem[] = [{
-  icon: "/images/202312/github-mark.svg",
-  name: {
-    zh: "GitHub",
-    en: "GitHub",
+const sponsor: SponsorItem[] = [
+  {
+    icon: "/images/202312/github-mark.svg",
+    name: {
+      zh: "GitHub",
+      en: "GitHub",
+    },
+    type: SponsorType.GitHub,
+    qrcode: "/images/202402/github-sponsor.png",
+    label: {
+      zh: "使用下方链接以通过 Github Sponsors 捐赠",
+      en: "Use the link below to donate through Github Sponsors",
+    },
+    url: "https://github.com/sponsors/DGP-Studio",
   },
-  type: SponsorType.github,
-  qrcode: "/images/202402/github-sponsor.png",
-  label: {
-    zh: "使用下方链接以通过 Github Sponsors 捐赠",
-    en: "Use the link below to donate through Github Sponsors"
+  {
+    icon: "/svg/paypal.svg",
+    name: {
+      zh: "PayPal",
+      en: "PayPal",
+    },
+    type: SponsorType.Paypal,
+    qrcode: "/images/202402/paypal-qr.png",
+    label: {
+      zh: "使用下方链接以通过 PayPal 捐赠",
+      en: "Use the link below to donate through PayPal",
+    },
+    url: "https://paypal.me/tianyu98",
   },
-  url: "https://github.com/sponsors/DGP-Studio"
-}, {
-  icon: "/svg/paypal.svg",
-  name: {
-    zh: 'PayPal',
-    en: "PayPal"
-  },
-  type: SponsorType.paypal,
-  qrcode: "/images/202402/paypal-qr.png",
-  label: {
-    zh: "使用下方链接以通过 PayPal 捐赠",
-    en: "Use the link below to donate through PayPal"
-  },
-  url: "https://paypal.me/tianyu98"
-}];
+];
 
 const type = ref<SponsorType>();
 const currentSponsor = ref<SponsorItem>();
@@ -89,17 +112,17 @@ function updateType() {
     type.value = <SponsorType>window.location.hash.slice(1);
   }
   if (type.value) {
-    currentSponsor.value = sponsor.find(item => item.type === type.value);
+    currentSponsor.value = sponsor.find((item) => item.type === type.value);
   }
 }
 
 onMounted(() => {
   updateType();
-  window.addEventListener('hashchange', updateType);
+  window.addEventListener("hashchange", updateType);
 });
 
 onBeforeUnmount(() => {
-  window.removeEventListener('hashchange', updateType);
+  window.removeEventListener("hashchange", updateType);
 });
 </script>
 <style lang="css" scoped>
