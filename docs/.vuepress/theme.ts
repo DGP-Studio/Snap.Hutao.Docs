@@ -97,6 +97,23 @@ export default hopeTheme(
         },
       },
     },
+    "/zh-TW/": {
+        // navbar
+        navbar: zhNavbar,
+
+        // sidebar
+        sidebar: zhSidebar,
+
+        footer: "用开源社区力量为原神 PC 端玩家带来最好的游戏体验",
+
+        displayFooter: true,
+
+        // page meta
+        metaLocales: {
+          editLink: "在 GitHub 上编辑此页",
+        },
+      },
+    },
 
     markdown: {
       linkify: false,
