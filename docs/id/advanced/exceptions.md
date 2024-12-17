@@ -41,7 +41,8 @@ Dokumen ini mencakup solusi untuk **kesalahan klien yang dapat diprediksi**
   - Ikuti instruksi di MiHoYo BBS untuk melakukan verifikasi
   - Setelah menyelesaikan proses verifikasi, klik `Selesai` untuk menutup jendela verifikasi
   - Sekarang, akun seharusnya kembali normal; Jika tidak, ulangi langkah di atas
-    ::: tip
+
+::: tip
 
 Jika peringatan risiko terlalu sering, atau verifikasi tidak dapat dipicu sama sekali, ini berarti risiko akun Anda terlalu tinggi, silakan ubah kata sandi, sehingga status login simultan dari beberapa perangkat akan diatur ulang
 

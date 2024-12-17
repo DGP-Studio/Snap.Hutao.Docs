@@ -11,6 +11,94 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.12.8 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Added keyboard F key auto-press feature, which can be enabled and configured in the settings page
+- **[🔨Fix]** Fixed an issue where the program would crash when entering the game launch page without having any game path
+
+## 1.12.7
+
+- **[🔨Fix]** Fixed an issue where the program would crash when entering the game launch page without setting the game path
+
+## 1.12.6
+
+- **[🎉New]** The game launcher now automatically detects the game path
+- **[✨Optimization]** The "Remove team configuration progress bar" feature is now only effective when team switching is allowed
+- **[🔨Fix]** Fixed an issue where updates could not be checked without logging into Hutao Passport
+- **[🔨Fix]** Fixed an issue where the background color of the homepage calendar card might be incorrect
+- **[🔨Fix]** Fixed a potential memory leak when modifying the speed limit during game download
+- **[🔨Fix]** Fixed a crash issue that might occur when canceling a game download
+- **[🔨Fix]** Fixed a crash issue when reading Unity logs to get wish records using web cache without setting the game path [#2272](https://github.com/DGP-Studio/Snap.Hutao/issues/2272)
+
+## 1.12.5
+
+- **[🎉New]** Added quick resolution switch customization in the game launcher
+- **[🎉New]** Added historical pool records to the wish history countdown
+- **[🎉New]** Added resin estimation to the cultivation plan [#323](https://github.com/DGP-Studio/Snap.Hutao/issues/323) [#1540](https://github.com/DGP-Studio/Snap.Hutao/issues/1540)
+- **[🔨Fix]** Fixed an issue where the background might not change when switching themes
+- **[🔨Fix]** Fixed an issue where some elements might display the wrong color theme in certain situations
+- **[🔨Fix]** Fixed a potential vulnerability through metadata initialization injection [#2240](https://github.com/DGP-Studio/Snap.Hutao/issues/2240)
+- **[🔨Fix]** Fixed an issue where the local game version might not be read in certain situations [#2251](https://github.com/DGP-Studio/Snap.Hutao/issues/2251)
+- **[🔨Fix]** Fixed an issue where the international server could not refresh wish records in certain situations [#2252](https://github.com/DGP-Studio/Snap.Hutao/issues/2252)
+- **[🔨Fix]** Fixed an issue where characters or weapons might appear without materials after overwriting the cultivation plan
+- **[🔨Fix]** Fixed an issue where the transparency settings of the compact web window were not effective [#2258](https://github.com/DGP-Studio/Snap.Hutao/issues/2258)
+- **[🔨Fix]** Fixed a buffer overflow issue when exiting Snap Hutao from the tray menu on some systems
+- **[✨Optimization]** The game launcher page will now replace the account with the same name instead of creating a new one
+- **[✨Optimization]** The cultivation plan will now attempt to obtain more accurate backpack material quantities
+- **[✨Optimization]** Optimized the size of Snap Hutao
+
+## 1.12.4
+
+- **[🔨Fix]** Fixed an issue where the resolution settings could not be saved after launching the game [#2229](https://github.com/DGP-Studio/Snap.Hutao/issues/2229)
+- **[🔨Fix]** Fixed an issue where the achievement completion time was displayed incorrectly [#2184](https://github.com/DGP-Studio/Snap.Hutao/issues/2184)
+- **[🔨Fix]** Fixed an issue where the cultivation plan's backpack could not be refreshed [#2212](https://github.com/DGP-Studio/Snap.Hutao/issues/2212)
+- **[🔨Fix]** Fixed an issue where the shortcut keys for fast-forward/rewind in the compact web window were not working
+- **[🔨Fix]** Fixed an issue where selecting a file window would cause a crash on some systems
+- **[🔨Fix]** Fixed an issue where selecting a download source when updating Snap Hutao was not effective
+- **[✨Optimization]** Now checks proxy and loopback status at startup and guides users to remove loopback restrictions if unable to connect to the internet
+- **[✨Optimization]** The compact web window now remembers the page from the last close
+
+## 1.12.3 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed a crash issue caused by the tray icon not syncing [#2198](https://github.com/DGP-Studio/Snap.Hutao/issues/2198)
+- **[🔨Fix]** Fixed an issue where the program became unusable due to metadata initialization failure caused by tray icon initialization failure [#2202](https://github.com/DGP-Studio/Snap.Hutao/issues/2202)
+
+## 1.12.2
+
+- **[🎉New]** Added shortcut keys for fast-forward/rewind in the compact web window
+- **[🔨Fix]** Fixed an issue where the cultivation plan's abnormal selection state prevented Snap Hutao from starting [#2174](https://github.com/DGP-Studio/Snap.Hutao/issues/2174)
+- **[🔨Fix]** Fixed an issue where the tray icon might not be created correctly after restarting as an administrator from the tray menu
+- **[🔨Fix]** Fixed an issue where the announcement time was displayed incorrectly before the game version update [#2175](https://github.com/DGP-Studio/Snap.Hutao/issues/2175)
+- **[🔨Fix]** Fixed an issue where reselecting the game path when starting the game might cause a crash
+- **[🔨Fix]** Fixed an issue where game file management might get stuck when repairing the game
+- **[🔨Fix]** Fixed an issue where the achievement profile could not be switched using the mouse when the window was too small [#2181](https://github.com/DGP-Studio/Snap.Hutao/issues/2181)
+- **[🔨Fix]** Fixed an issue where uploading Sprial Abyss records without logging into the Hutao Passport caused a crash [#2169](https://github.com/DGP-Studio/Snap.Hutao/issues/2169)
+- **[🔨Fix]** Fixed an issue where the international server could not refresh the Imaginarium Theater properly [#2170](https://github.com/DGP-Studio/Snap.Hutao/issues/2170)
+- **[🔨Fix]** Fixed an issue where adding weapons to the cultivation plan might cause a crash [#2168](https://github.com/DGP-Studio/Snap.Hutao/issues/2168)
+- **[✨Optimization]** Optimized the display effect of the pre-download prompt icon in game file management
+- **[✨Optimization]** Added a launch game button for each game character on the Real-time Notes page, which will jump to the game launch page and automatically switch the MiYouShe/HoYoLAB user to the corresponding user of the note [#1318](https://github.com/DGP-Studio/Snap.Hutao/issues/1318)
+- **[✨Optimization]** Optimized the loading speed of character and weapon icons
+
+## 1.12.1 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed the issue where the program could not start due to database migration failure [#2159](https://github.com/DGP-Studio/Snap.Hutao/issues/2159)
+
+## 1.12.0
+
+- **[🎉New]** Upgraded to .NET 9
+- **[🎉New]** Added a command to the right-click menu of the notification icon to launch a compact web window
+  - The compact web window is a topmost window that can become semi-transparent when not interacted with
+  - You can set the shortcut key for playing/pausing videos in the web window on the settings page
+  - Using the compact web window requires running as an administrator
+- **[🎉New]** Added a new page for Role Combat [#1671](https://github.com/DGP-Studio/Snap.Hutao/issues/1671)
+- **[🔨Fix]** Fixed a crash issue when switching game servers using the SophonChunk mode
+- **[🔨Fix]** Fixed a logic error in some specific cases with the game launch injection option
+- **[🔨Fix]** Fixed an issue where some switches in the injection options were not interactive after a forced game termination due to injection failure
+- **[🔨Fix]** Fixed an issue where the international server could not refresh wish records via web cache [#2141](https://github.com/DGP-Studio/Snap.Hutao/issues/2141)
+- **[🔨Fix]** Fixed an issue where the attack wave details on the Spiral Abyss page might not fully expand in non-Chinese languages [#2152](https://github.com/DGP-Studio/Snap.Hutao/issues/2152)
+- **[🔨Fix]** Fixed a crash issue caused by the failure to initialize the auto-click hotkey in special cases
+- **[✨Optimization]** When launching the game from the Real-time Notes notification, the MiYouShe/HoYoLAB user will automatically switch to the corresponding user
+
 ## 1.11.9 <Badge text="hotfix" type="warning" />
 
 - **[🎉New]** Added countdown for wish history pools [#1341](https://github.com/DGP-Studio/Snap.Hutao/issues/1341)
@@ -24,7 +112,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[🔨Fix]** Fixed the issue where refreshing wish records via web cache was not working [#2124](https://github.com/DGP-Studio/Snap.Hutao/issues/2124)
 - **[✨Optimization]** Optimized the logic between the game launch injection option switches [#2122](https://github.com/DGP-Studio/Snap.Hutao/issues/2122)
 
-## 1.11.7 <Badge text="latest" type="tip" />
+## 1.11.7
 
 - **[🎉New]** / **[✨Optimization]** Adjusted the UI of the game launch interface
   - **[🎉New]** Removed the progress bar from the team configuration interface

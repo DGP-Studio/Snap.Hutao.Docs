@@ -32,20 +32,7 @@ order: 5
 
 ### Новая установка
 
-**Независимо от того, каким методом установки вы пользуетесь, исходный источник пакетов и регистрация всегда обрабатываются через Microsoft Store.**
-
 ::: tabs
-
-@tab Microsoft Store
-
-<ms-store-badge
-productid="9PH4NXJ2JN52"
-theme="auto">
-</ms-store-badge>
-
-Ссылка на Microsoft Store: [Snap Hutao](https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52)
-
-На Windows 10 и Windows 11 вы можете нажать кнопку выше, чтобы скачать Snap Hutao.
 
 @tab winget
 

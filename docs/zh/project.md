@@ -47,7 +47,7 @@ Snap Hutao 项目使用 MSIX 格式的安装包打包。MSIX 是一种 Windows �
 - [高级启动器](features/game-launcher.md)
   - 服务器切换
   - 游戏账号切换
-  - 自定义帧率上限
+  - 自定义游戏帧率
   - 游戏补丁包下载
 - [祈愿记录管理](features/wish-export.md)
   - 从游戏数据中刷新数据
@@ -62,7 +62,6 @@ Snap Hutao 项目使用 MSIX 格式的安装包打包。MSIX 是一种 Windows �
   - Windows 原生通知推送
 - [我的角色](features/character-data.md)
   - 支持多数据源同步数据
-  - 圣遗物评分和双爆评分
   - 导出我的角色数据截图
 - [深境螺旋](features/hutao-API.md)
   - 每期怪物和渊月祝福详情

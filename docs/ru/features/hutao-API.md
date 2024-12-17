@@ -118,8 +118,11 @@ link: https://yuanshen.xin/
 </div>
 
 [^first]: When same character appearances in the same floor but different level, appearance time only count for 1
+
 [^first-2]: When same character appearances in the same floor but different level, appearance time only count for 1
+
 [^second]: Character constellation data is a separate data set from Spiral Abyss records database
+
 [^third]:
     Once owned this character, it's counted into database even it's not appearing in Spiral Abyss; Once upload your
     Abyss stats, all collected characters will be included

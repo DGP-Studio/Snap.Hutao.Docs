@@ -13,21 +13,23 @@ jobs:
           fetch-depth: 0
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          run_install: true
+        uses: pnpm/action-setup@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
           cache: pnpm
 
       - name: Install Deps
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Build Docs
         env:
-          NODE_OPTIONS: --max_old_space_size=8192
+          NODE_OPTIONS: --max_old_space_size=4096
         run: |-
-          pnpm run docs:build
+          pnpm docs:build
+          > dist/.nojekyll
+
+      - name: Linter Test
+        run: pnpm lint

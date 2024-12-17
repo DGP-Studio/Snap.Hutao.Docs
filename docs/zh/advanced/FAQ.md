@@ -59,5 +59,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
   - 启用 TUN 模式，如果你的网络代理软件有该选项
   - 联系你的网络代理服务商，获取解决 Windows Appx 容器应用网络代理问题的技术支持，以便他们为你提供解决方案
 
-[^loopback]: **什么是“Windows Appx 容器应用”？** 
-Windows 使用了一种被称为“AppContainer”的机制，该机制的目的是使应用程序**能够获取、且仅能够获取应用程序运行所需的必要资源**，减少一切非必要的接触其他应用程序与文件的可能。在理想情况下，即便应用程序存在恶意，其也只能作用于“AppContainer”环境，无法对设备的其他文件造成损害。
+[^loopback]: **什么是“Windows Appx 容器应用”？**
+
+    Windows 使用了一种被称为“AppContainer”的机制，该机制的目的是使应用程序**能够获取、且仅能够获取应用程序运行所需的必要资源**，减少一切非必要的接触其他应用程序与文件的可能。在理想情况下，即便应用程序存在恶意，其也只能作用于“AppContainer”环境，无法对设备的其他文件造成损害。
