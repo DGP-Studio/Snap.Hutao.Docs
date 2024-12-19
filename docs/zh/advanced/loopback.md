@@ -7,6 +7,8 @@ description: Loopback网络介绍及网络代理失效的解决方案
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&has_description=False
 ---
 
+# Loopback 网络
+
 ## Loopback 网络是什么
 
 『Appx 容器应用』是微软大力推广的一种应用类型，它具有诸多优点。而微软也使用了种种措施以确保它运行效率高、安全稳定、用户友好，而『Loopback 网络』就是其中的一环。
