@@ -63,7 +63,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 连接到胡桃服务器时失败，请检查胡桃客户端的网络连接
 
-如果你使用了网络代理（包括由加速器创建的网络代理），请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md#如何通过网络代理使用胡桃工具箱)
+如果你使用了网络代理（包括由加速器创建的网络代理），请务必检查是否[解除了 Windows 容器 Loopback 限制](loopback.md)
 
 ### 403 (Forbidden)/ 404 (NOT FOUND)
 
@@ -79,7 +79,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
   - 如果仅是偶尔出现的问题，你可以考虑忽略该错误
   - 如果持续该错误，请检查本地网络到目标服务器的连接是否正常，或者向开发者汇报
 
-如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](FAQ.md#如何通过网络代理使用胡桃工具箱)（注，因代理软件的实现方式不同，部分软件无法被胡桃检测到；即，在“已启用代理”的情况下软件仍显示“无代理”）
+如果你使用了网络代理，请务必检查是否[解除了 Windows 容器 Loopback 限制](loopback.md)（注，因代理软件的实现方式不同，部分软件无法被胡桃检测到；即，在“已启用代理”的情况下软件仍显示“无代理”）
 
 ## 资源下载失败
 
