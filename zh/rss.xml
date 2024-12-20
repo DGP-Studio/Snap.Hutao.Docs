@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 16 Dec 2024 00:50:32 GMT</pubDate>
-    <lastBuildDate>Mon, 16 Dec 2024 00:50:32 GMT</lastBuildDate>
+    <pubDate>Fri, 20 Dec 2024 00:59:45 GMT</pubDate>
+    <lastBuildDate>Fri, 20 Dec 2024 00:59:45 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -20,6 +20,41 @@
     <category>i18n</category>
     <category>第三方工具</category>
     <category>项目</category>
+    <item>
+      <title>Loopback 网络</title>
+      <link>https://hut.ao/zh/advanced/loopback.html</link>
+      <guid>https://hut.ao/zh/advanced/loopback.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">Loopback 网络</source>
+      <description>Loopback网络介绍及网络代理失效的解决方案</description>
+      <category>FAQ</category>
+      <pubDate>Thu, 19 Dec 2024 10:18:58 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>Loopback 网络是什么</h2>
+<p>『Appx 容器应用』是微软大力推广的一种应用类型，它具有诸多优点。而微软也使用了种种措施以确保它运行效率高、安全稳定、用户友好，而『Loopback 网络』就是其中的一环。</p>
+<p>为使应用达到“能够获取且仅能获取其运行所需的必备资源”的目标，Windows 默认所有的 Windows Appx 容器应用（包括 Snap Hutao）<strong>都被禁用了 Loopback 网络</strong>。</p>
+<p>您可以将『Loopback 网络』理解为一个盒子，它把应用装在里面，因此应用的网络环境得以与本机电脑环境隔离；而盒子上有一个小孔和外界相联通，以保证应用可以联网使用。因此，当外界网络环境变化时（比如您使用了网络代理软件或游戏加速器等有类似作用的软件），小孔因环境变化而堵塞，盒子里的软件就无法与外部网络环境交互了。</p>
+<h2>可能造成什么问题</h2>
+<p>开启代理后胡桃无法访问网络</p>
+<h2>解决方案</h2>
+<ul>
+<li><strong>在胡桃内进行设置</strong>（推荐）
+<ol>
+<li>打开“胡桃”</li>
+<li>点击左侧菜单的“反馈中心”</li>
+<li>在右侧栏中点击“解除 Loopback 限制”</li>
+<li>点击“确认”按钮即可</li>
+</ol>
+</li>
+<li>在网络代理软件中进行设置
+<ol>
+<li>启用 TUN 模式，如果你的网络代理软件有该选项</li>
+<li>联系你的网络代理服务商，获取解决 Windows Appx 容器应用网络代理问题的技术支持，以便他们为你提供解决方案</li>
+</ol>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
+    </item>
     <item>
       <title>🎉 已成功更新至 1.12.8 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
@@ -103,29 +138,7 @@
 <blockquote>
 <p>Snap Hutao 有着良好的云端网络结构，在全球各地你都能获得良好的网络服务</p>
 </blockquote>
-<p>所有的 Windows Appx 容器应用<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup><a class="footnote-anchor" id="footnote-ref1">（包括 Snap Hutao）都被禁用了 <code>Loopback 网络</code>，因此使用一些现代化的网络代理软件或游戏加速器时会导致容器化应用无法访问互联网，进而导致程序错误。</a></p><a class="footnote-anchor" id="footnote-ref1">
-<p>如果你需要通过网络代理使用 Snap Hutao，你可以：</p>
-<ul>
-<li>在胡桃内进行设置（推荐）
-<ul>
-<li>打开胡桃，点击“反馈中心-解除 Loopback 限制”，按指引操作即可</li>
-</ul>
-</li>
-<li>在网络代理软件中进行设置
-<ul>
-<li>启用 TUN 模式，如果你的网络代理软件有该选项</li>
-<li>联系你的网络代理服务商，获取解决 Windows Appx 容器应用网络代理问题的技术支持，以便他们为你提供解决方案</li>
-</ul>
-</li>
-</ul>
-<hr class="footnotes-sep">
-</a><section class="footnotes"><a class="footnote-anchor" id="footnote-ref1">
-</a><ol class="footnotes-list"><a class="footnote-anchor" id="footnote-ref1">
-</a><li id="footnote1" class="footnote-item"><a class="footnote-anchor" id="footnote-ref1"><p><strong>什么是“Windows Appx 容器应用”？</strong></p>
-</a><p><a class="footnote-anchor" id="footnote-ref1">Windows 使用了一种被称为“AppContainer”的机制，该机制的目的是使应用程序<strong>能够获取、且仅能够获取应用程序运行所需的必要资源</strong>，减少一切非必要的接触其他应用程序与文件的可能。在理想情况下，即便应用程序存在恶意，其也只能作用于“AppContainer”环境，无法对设备的其他文件造成损害。 </a><a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
+<p>推荐启用 <code>Loopback 网络</code>，详细教程见 <a href="/zh/advanced/loopback.html" target="_blank">此处</a></p>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/faq.html&amp;has_description=False" type="image/"/>
     </item>
@@ -2011,7 +2024,7 @@
 <h2>HttpRequestException 元数据校验文件下载失败</h2>
 <h3>ConnectionError</h3>
 <p>连接到胡桃服务器时失败，请检查胡桃客户端的网络连接</p>
-<p>如果你使用了网络代理（包括由加速器创建的网络代理），请务必检查是否<a href="/zh/advanced/FAQ.html#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86%E4%BD%BF%E7%94%A8%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1" target="_blank">解除了 Windows 容器 Loopback 限制</a></p>
+<p>如果你使用了网络代理（包括由加速器创建的网络代理），请务必检查是否<a href="/zh/advanced/loopback.html" target="_blank">解除了 Windows 容器 Loopback 限制</a></p>
 <h3>403 (Forbidden)/ 404 (NOT FOUND)</h3>
 <p>解决方案：更新胡桃工具箱至<a href="/zh/quick-start.html#%E5%85%A8%E6%96%B0%E5%AE%89%E8%A3%85" target="_blank">最新版本</a></p>
 <h3>502 (Bad Gateway)</h3>
@@ -2025,7 +2038,7 @@
 </ul>
 </li>
 </ul>
-<p>如果你使用了网络代理，请务必检查是否<a href="/zh/advanced/FAQ.html#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86%E4%BD%BF%E7%94%A8%E8%83%A1%E6%A1%83%E5%B7%A5%E5%85%B7%E7%AE%B1" target="_blank">解除了 Windows 容器 Loopback 限制</a>（注，因代理软件的实现方式不同，部分软件无法被胡桃检测到；即，在“已启用代理”的情况下软件仍显示“无代理”）</p>
+<p>如果你使用了网络代理，请务必检查是否<a href="/zh/advanced/loopback.html" target="_blank">解除了 Windows 容器 Loopback 限制</a>（注，因代理软件的实现方式不同，部分软件无法被胡桃检测到；即，在“已启用代理”的情况下软件仍显示“无代理”）</p>
 <h2>资源下载失败</h2>
 <p>一小部分的静态资源的下载失败不会明显导致 Snap Hutao 的体验变差，客户端会在需要时自动重新下载缺失的图片资源。</p>
 <h3><code>Received an unexpected EOF or 0 bytes from the transport stream.</code></h3>
