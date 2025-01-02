@@ -33,7 +33,7 @@ export const enSidebar = sidebar({
           children: ["character-wiki", "weapon-wiki", "monster-wiki"],
         },
         {
-          icon: "iconfont icon-setting",
+          icon: "iconfont icon-set",
           text: "Snap Hutao Features",
           children: [
             "setup",
