@@ -33,7 +33,7 @@ export const zhSidebar = sidebar({
           children: ["character-wiki", "weapon-wiki", "monster-wiki"],
         },
         {
-          icon: "iconfont icon-setting",
+          icon: "iconfont icon-set",
           text: "软件功能",
           children: [
             "setup",
