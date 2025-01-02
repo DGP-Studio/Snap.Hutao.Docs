@@ -15,7 +15,8 @@ description: 胡桃工具箱的“我的角色”功能可以读取原神账号�
 
 “我的角色”功能可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等。
 
-![属性统计示例图](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hK2R3O1g6e0qblXd2_!!1797064093.png_.webp)
+![网格视图示意图](/images/202501/characters-data.webp)
+![详细信息示意图](/)
 
 ## 同步角色信息
 

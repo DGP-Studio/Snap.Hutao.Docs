@@ -9,6 +9,10 @@ description: 怪物 WIKI 是胡桃工具箱中内置的怪物资料库，玩家�
 
 # 怪物资料
 
+::: warning 已知问题
+部分怪物的信息缺失，但因种种原因难以改进。与怪物资料相关的议题暂时不会被采纳。
+:::
+
 ![monster-wiki](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01WdFqdC1g6e0sAREwO_!!1797064093.png_.webp)
 
 怪物资料是胡桃工具箱中内置的用于查询各个怪物的**基础数值、各等级数值、元素抗性、掉落物品**数据的 WIKI
