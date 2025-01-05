@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 20 Dec 2024 00:59:45 GMT</pubDate>
-    <lastBuildDate>Fri, 20 Dec 2024 00:59:45 GMT</lastBuildDate>
+    <pubDate>Sun, 05 Jan 2025 04:45:57 GMT</pubDate>
+    <lastBuildDate>Sun, 05 Jan 2025 04:45:57 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -357,6 +357,10 @@
       <category>教程</category>
       <pubDate>Fri, 01 Sep 2023 09:35:59 GMT</pubDate>
       <content:encoded><![CDATA[
+<div class="hint-container warning">
+<p class="hint-container-title">已知问题</p>
+<p>部分怪物的信息缺失，但因种种原因难以改进。与怪物资料相关的议题暂时不会被采纳。</p>
+</div>
 <p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01WdFqdC1g6e0sAREwO_!!1797064093.png_.webp" alt="monster-wiki" loading="lazy"></p>
 <p>怪物资料是胡桃工具箱中内置的用于查询各个怪物的<strong>基础数值、各等级数值、元素抗性、掉落物品</strong>数据的 WIKI</p>
 <h2>已包含的数据</h2>
@@ -484,12 +488,16 @@
 <ul>
 <li>Snap Hutao 公告
 <ul>
-<li>若 Snap Hutao 开发组发布了新的公告则会在仪表盘上方显示，你可以手动关闭这些公告</li>
+<li>若 Snap Hutao 开发组发布了新的公告则会在仪表盘上方显示，绝大部分公告可以被关闭</li>
 </ul>
 </li>
 <li>游戏启动器
 <ul>
-<li>你可以直接在仪表盘中选择账号并启动游戏</li>
+<li>你可以直接在仪表盘中选择账号并启动游戏
+<ul>
+<li>如果启用了“使用 米游社 / HoYoLAB 登录”的选项，账号选择器将不可用</li>
+</ul>
+</li>
 </ul>
 </li>
 <li>祈愿记录
@@ -508,6 +516,15 @@
 <ul>
 <li>仪表盘中将显示实时便笺数据</li>
 <li>如在胡桃工具箱中有多个激活的实时便笺，你可以使用实时便笺两侧的箭头按钮来切换档案</li>
+</ul>
+</li>
+<li>日历
+<ul>
+<li>仪表盘中将显示当天过生日的角色以及当前可刷取的天赋、角色、武器材料
+<ul>
+<li>若“培养方案”中存在本日可刷取的材料，相关图标将突出显示</li>
+</ul>
+</li>
 </ul>
 </li>
 <li>游戏公告
@@ -2488,7 +2505,9 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>背包物品的具体材料信息，<strong>对应于</strong>其修改时，所切换至的养成计划</li>
 </ul>
 </li>
+<li>你可以在“材料统计”页面查看对应素材刷取时所需的预估天数</li>
 </ul>
+<p><img src="/images/202501/character_develop_predict.webp" alt="体力预估功能" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>如果物品名称与显示的图像不同或出现物品堆叠等显示bugs，请切换到其他页面再切回本页面即可解决本问题，此问题由 微软 导致，因此暂时无法修复。</p>
@@ -2707,10 +2726,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>该功能需要你在胡桃工具箱中登录米游社账号，登录方法可见<a href="/zh/features/mhy-account-switch.html" target="_blank">米游社多账号切换</a>文档</p>
 </div>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp" alt="live-data-tracking" loading="lazy"></p>
-<h2>添加角色</h2>
+<h2>添加实时便笺</h2>
 <ul>
-<li>点击“添加角色”按钮</li>
-<li>在弹出的“添加角色”浮窗中，找到你要添加的游戏角色 UID，并单击其右侧的加号按钮</li>
+<li>点击“添加实时便笺”按钮</li>
+<li>在弹出的“添加实时便笺”浮窗中，找到你要添加的游戏角色 UID，并单击其右侧的加号按钮</li>
 <li>此时您添加的游戏角色即可显示在“实时便笺”页面中
 <ul>
 <li>实时便笺是间隔固定时间自动刷新的，你可以点击窗口右上角的“通知设置”来设置查询的间隔时间</li>
@@ -2787,7 +2806,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <p>该功能需要你在胡桃工具箱中登录米游社账号，登录方法参见<a href="/zh/features/mhy-account-switch.html#%E7%B1%B3%E6%B8%B8%E7%A4%BE%E5%A4%9A%E8%B4%A6%E5%8F%B7%E5%88%87%E6%8D%A2" target="_blank">米游社多账号切换</a></p>
 </div>
 <p>“我的角色”功能可读取当前账号所拥有角色的具体数据，包括等级、命之座、武器、天赋、圣遗物等。</p>
-<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hK2R3O1g6e0qblXd2_!!1797064093.png_.webp" alt="属性统计示例图" loading="lazy"></p>
+<p><img src="/images/202501/characters_data.webp" alt="网格视图示意图" loading="lazy"></p>
 <h2>同步角色信息</h2>
 <p>直接点击右上角的“同步角色信息”即可</p>
 <ul>
@@ -2812,11 +2831,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>点击界面右上方的“养成计算-当前角色与武器”并填入等级信息
 <ul>
 <li><strong>已同步过的角色</strong>的当前角色等级、天赋等级和武器等级会<strong>预填</strong>入其中，目标等级可自由更改。</li>
-<li>如果拉取数据中不包含相关数据则仍将按初始数据处理。</li>
 </ul>
 </li>
 </ol>
-<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01n3GYLI1g6e0zAVRM7_!!1797064093.png_.webp" alt="rolescal" loading="lazy"></p>
+<p><img src="/images/202501/character_develop.webp" alt="培养示例图片" loading="lazy"></p>
 <ul>
 <li>添加完毕后，您可在“养成计划”功能中查看“已添加的养成目标”
 <ul>
@@ -2831,10 +2849,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>导出文字的样式如下所示</li>
 </ul>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>// =====================</span></span>
-<span class="line"><span>// 那维莱特 [Lv.90, ☆5, C2] [Lv.10, Lv.10, Lv.10]</span></span>
+<span class="line"><span>// 刻晴 [Lv.90, ☆5, C4] [Lv.10, Lv.9, Lv.13 (10 +3)]</span></span>
 <span class="line"><span>//</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hK2R3O1g6e0qblXd2_!!1797064093.png_.webp" type="image/webp"/>
+      <enclosure url="https://hut.ao/images/202501/characters_data.webp" type="image/webp"/>
     </item>
     <item>
       <title>角色资料</title>
@@ -2854,18 +2872,18 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <ul>
 <li>使用列表左上角的按钮，可切换列表显示的方式：
 <ul>
-<li>“列表”模式可以同时显示角色头像、等级、刷新时间与详细信息</li>
-<li>“网格”模式仅显示角色头像、等级、天赋</li>
+<li>“列表”模式可以同时显示角色头像、姓名与详细信息</li>
+<li>“网格”模式仅显示角色头像、姓名</li>
 </ul>
 </li>
-<li>单击“列表”模式中的缩略图或名称，即可跳转到相应的介绍页面</li>
+<li>单击“网格”模式中的缩略图或名称，再切换回“列表”视图即可跳转到相应的介绍页面</li>
 </ul>
 </li>
 <li>数据内容
 <ul>
 <li>角色基本信息
 <ul>
-<li>介绍</li>
+<li>角色基本资料与 CV</li>
 <li>属性与培养材料</li>
 <li>各等级下的数值</li>
 </ul>
@@ -2890,6 +2908,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <li>其他信息
 <ul>
 <li>角色立绘</li>
+<li>角色名片、头像</li>
 <li>特色料理</li>
 <li>衣装信息</li>
 <li>角色资料</li>
@@ -2931,6 +2950,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <code>D:\miHoYo Launcher\games\Genshin Impact Game\YuanShen.exe</code></li>
 </ul>
 </li>
+<li>如果胡桃成功检测到了您的游戏路径，请直接点击该项</li>
 </ul>
 </li>
 <li>在设置完毕启动游戏所需的附加选项后，点击右上角的“启动游戏”按钮即可，附加选项请看本页下方的功能文档</li>
@@ -3128,7 +3148,7 @@ Snap.Genshin 已停止更新，项目已归档</p>
 <h3>使用胡桃客户端</h3>
 <div class="hint-container important">
 <p class="hint-container-title">胡桃云权限奖励</p>
-<p>如果你的胡桃客户端中已登录你的胡桃账号，在当期首次成功提交数据后，你将获得为期 3 天的胡桃云权限作为我们的感谢（即使该数据没有通关第12层）</p>
+<p>如果你的胡桃客户端中已登录你的胡桃账号，在当期首次成功提交数据后，你将获得为期 3 天的“胡桃云祈愿记录服务”权限作为我们的感谢（即使该数据没有通关第12层）</p>
 </div>
 <ul>
 <li>在主界面点击左侧菜单栏进入“深境螺旋”功能页面</li>
