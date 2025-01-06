@@ -10,7 +10,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 # 其他常见问题
 
-### 如何创建胡桃的桌面快捷方式（非管理员模式）
+## 如何创建胡桃的桌面快捷方式（非管理员模式）
 
 ::: tip 社区力量
 感谢 [CzHUV 提供的解决方案](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)
@@ -22,11 +22,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 - 右键，点击 “创建快捷方式”
 - 根据提示操作你就可以获得一个桌面快捷方式了
 
-### 如何创建胡桃的桌面快捷方式 （管理员模式）
+## 如何创建胡桃的桌面快捷方式 （管理员模式）
 
 你可以在程序设置页面中点击 “创建快捷方式” 来在桌面上添加一个具有管理员权限的快捷方式
 
-### 如何让胡桃工具箱开机自动启动
+## 如何让胡桃工具箱开机自动启动
 
 - 请参考如下思路
   - 可以自行创建一个批处理文件，内容参考[此 issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184) 中，令胡桃以管理员模式直接运行的命令。
@@ -38,7 +38,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 请注意，上述各种办法均可能在实际使用中因种种问题而失效。我们并不支持尝试使胡桃开机自启的行为。
 :::
 
-### 无法使用管理员模式启动胡桃工具箱
+## 无法使用管理员模式启动胡桃工具箱
 
 > 该问题仅存在于 Windows 10 低于 22H2 的版本中
 

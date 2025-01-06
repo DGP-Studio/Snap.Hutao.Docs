@@ -114,19 +114,19 @@ background="rgba(155, 233, 168, 0.15)"
 
 通过可选组件，胡桃工具箱可以通过系统级的环境来更方便地实现一些功能，它们不是强制要求的组件，但可以带来更好的体验
 
-### <img src="/images/202312/MSEdge.webp" width="20" height="20"> WebView2 运行时
+### <img src="/images/202312/MSEdge.webp" alt="edge" width="20" height="20"> WebView2 运行时
 
 WebView2 运行时由微软提供，其允许胡桃在程序内低开销地启用一个内置的浏览器。通过该组件，胡桃允许用户通过 WebView2 内置浏览器登录米游社账号。
 
 在[微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/)的底部，你可以找到 `常青独立安装程序`，选择 `x64` 下载并根据提示安装即可
 
-### <img src="/images/202409/Microsoft-logo.svg" width="20" height="20"> Segoe Fluent Icons 字体
+### <img src="/images/202409/Microsoft-logo.svg" alt="ms" width="20" height="20"> Segoe Fluent Icons 字体
 
 该字体由微软提供，可以为胡桃提供更好的图标显示效果，缺少该字体可能导致胡桃的部分图标显示效果不佳。
 
 您可以点击[此链接](https://aka.ms/SegoeFluentIcons)以直接下载字体压缩包。请在解压后右键安装以将字体安装到系统。
 
-### <img src="/images/202409/Microsoft-logo.svg" width="20" height="20"> MSVC 运行库（MSVCRT）
+### <img src="/images/202409/Microsoft-logo.svg" alt="ms" width="20" height="20"> MSVC 运行库（MSVCRT）
 
 MSVC 运行库是解锁帧率功能的必须组件，如遇解锁帧率时提示“缺少 XXX.dll”或“缺少 XXX 组件”，请先尝试安装最新版的 MSVCRT 库。**此项需要您手动安装。**
 
@@ -172,9 +172,9 @@ MSVC 运行库是解锁帧率功能的必须组件，如遇解锁帧率时提示
 
 :::
 
-3. 点击账号面板中的“三方登录”按钮，胡桃将会通过 WebView2 组件跳转到相应的登录界面
-4. 在该界面中登录你的账号
-5. **稍等片刻**，胡桃工具箱会将当前账号添加进本地客户端，并在账号面板中显示出来
+1. 点击账号面板中的“三方登录”按钮，胡桃将会通过 WebView2 组件跳转到相应的登录界面
+2. 在该界面中登录你的账号
+3. **稍等片刻**，胡桃工具箱会将当前账号添加进本地客户端，并在账号面板中显示出来
 
 @tab Cookies 登录
 
@@ -248,7 +248,9 @@ Snap Hutao 的软件证书来源于 [GlobalSign Code Signing Root R45](https://s
 
 1. 在 Windows 开始菜单按钮上右键，选择 `PowerShell (管理员)`
 2. 在打开的窗口中复制下面的代码并回车执行（在PowerShell中鼠标右键就是粘贴）
+
    ```PowerShell :no-line-numbers
    cd $env:USERPROFILE\Downloads; $url="https://api.snapgenshin.com/patch/hutao/download"; $targetFileName="Snap.Hutao.latest.msix"; $targetFilePath=Join-Path -Path $PWD -ChildPath $targetFileName; Invoke-WebRequest -Uri $url -OutFile $targetFilePath; Add-AppxPackage -Path $targetFilePath; Remove-Item -Path $targetFilePath
    ```
+
 3. 如果 PowerShell 没有任何错误输出（通常为红色），意味着安装成功。请在开始菜单中的全部应用列表中寻找 `Snap Hutao` 并启动

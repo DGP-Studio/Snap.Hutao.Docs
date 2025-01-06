@@ -15,7 +15,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 为使应用达到“能够获取且仅能获取其运行所需的必备资源”的目标，Windows 默认所有的 Windows Appx 容器应用（包括 Snap Hutao）**都被禁用了 Loopback 网络**。
 
-
 您可以将『Loopback 网络』理解为一个盒子，它把应用装在里面，因此应用的网络环境得以与本机电脑环境隔离；而盒子上有一个小孔和外界相联通，以保证应用可以联网使用。因此，当外界网络环境变化时（比如您使用了网络代理软件或游戏加速器等有类似作用的软件），小孔因环境变化而堵塞，盒子里的软件就无法与外部网络环境交互了。
 
 ## 可能造成什么问题

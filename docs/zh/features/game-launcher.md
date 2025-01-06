@@ -164,6 +164,7 @@ description: 胡桃工具箱内的游戏启动器相较于官方启动器，不�
 可配置队伍进度条可见性
 
 ## 进程联动
+
 ### 时长统计
 
 **使用时长统计功能，需要安装并配置 [Starward](https://github.com/Scighost/Starward) 应用程序**
