@@ -116,7 +116,7 @@ content. The following are common configurations.
 
 @tab CN Server Official
 
-```
+```ini
 [General]
 channel=1
 cps=mihoyo
@@ -127,7 +127,7 @@ plugin_7_version=1.0.0
 
 @tab Global Server Official
 
-```
+```ini
 [General]
 channel=1
 cps=mihoyo
