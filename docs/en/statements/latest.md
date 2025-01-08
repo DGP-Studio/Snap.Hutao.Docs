@@ -18,6 +18,8 @@ pageInfo: false
 
 # 🎉 Successfully Updated to Version 1.13.0
 
+[简体中文](/zh/statements/latest.html) | **English**
+
 - **[🎉New]** Changed the program icon - Su Xue Tao Hong
 - **[🎉New]** Added calendar server time zone settings, allowing adjustment of the time zone used by the homepage calendar card
 - **[🎉New]** Added metadata loading indicator to the title bar
