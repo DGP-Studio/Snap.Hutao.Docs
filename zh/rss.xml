@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 08 Jan 2025 14:19:17 GMT</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2025 14:19:17 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jan 2025 14:30:06 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2025 14:30:06 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -60,9 +60,10 @@
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
       <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.13.0 版本</source>
-      <description>🎉 已成功更新至 1.13.0 版本 【🎉新增】 更换了程序图标 - 宿雪桃红 【🎉新增】 新增日历服务器时区设置，可以调整主页日历卡片使用的时区 【🎉新增】 标题栏新增元数据加载指示器 【🎉新增】 新增胡桃通行证页面，同时移除了设置页面中的胡桃通行证部分 新增重置邮箱功能 新增刷新用户信息功能 集成兑换码兑换功能 【🎉新增】 引导界面新增...</description>
+      <description>🎉 已成功更新至 1.13.0 版本 简体中文 | 【🎉新增】 更换了程序图标 - 宿雪桃红 【🎉新增】 新增日历服务器时区设置，可以调整主页日历卡片使用的时区 【🎉新增】 标题栏新增元数据加载指示器 【🎉新增】 新增胡桃通行证页面，同时移除了设置页面中的胡桃通行证部分 新增重置邮箱功能 新增刷新用户信息功能 集成兑换码兑换功能 【🎉新增】...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
 <li><strong>【🎉新增】</strong> 更换了程序图标 - 宿雪桃红</li>
 <li><strong>【🎉新增】</strong> 新增日历服务器时区设置，可以调整主页日历卡片使用的时区</li>

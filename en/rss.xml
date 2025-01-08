@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 08 Jan 2025 14:19:17 GMT</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2025 14:19:17 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jan 2025 14:30:06 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2025 14:30:06 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Feature</category>
@@ -27,9 +27,10 @@
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
       <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.13.0</source>
-      <description>🎉 Successfully Updated to Version 1.13.0 [🎉New] Changed the program icon - Su Xue Tao Hong [🎉New] Added calendar server time zone settings, allowing adjustment of the time zo...</description>
+      <description>🎉 Successfully Updated to Version 1.13.0 | English [🎉New] Changed the program icon - Su Xue Tao Hong [🎉New] Added calendar server time zone settings, allowing adjustment of t...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
 <li><strong>[🎉New]</strong> Changed the program icon - Su Xue Tao Hong</li>
 <li><strong>[🎉New]</strong> Added calendar server time zone settings, allowing adjustment of the time zone used by the homepage calendar card</li>
