@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 08 Jan 2025 14:30:06 GMT</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2025 14:30:06 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Jan 2025 15:25:04 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2025 15:25:04 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -88,8 +88,9 @@
 <li><strong>【✨优化】</strong> 现在在使用不支持的自定义背景图片时会产生更好的崩溃弹窗 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2335" target="_blank" rel="noopener noreferrer">#2335</a></li>
 <li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理弹出的新窗口现在会保持与主窗口相同的主题风格</li>
 <li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在支持中断后恢复安装</li>
-<li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在会额外计算 1 GB 的分块文件大小</li>
+<li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在会额外计算 1 GB 的安装缓存</li>
 <li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在会在安装时动态清理不需要的文件</li>
+<li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在会正确跳过已完成更新的文件</li>
 <li><strong>【✨优化】</strong> 引导界面现在在选择语言后不再自动前往下一步</li>
 <li><strong>【✨优化】</strong> 应用内错误提示现在可以复制文本了</li>
 <li><strong>【✨优化】</strong> 调整了我的角色页面圣遗物主词条的显示效果，以便与副词条进行区分</li>
@@ -98,17 +99,17 @@
 <li><strong>【✨优化】</strong> 现在自动查找游戏路径时会判断可执行文件是否存在</li>
 <li><strong>【✨优化】</strong> 养成计划页面材料统计页签树脂预估功能现在会记忆选择的世界等级</li>
 <li><strong>【✨优化】</strong> 养成计划页面养成物品现在会分行展示天赋等级</li>
-<li><strong>【🔨修复】</strong> 修复了部分设备在未使用快捷连点功能时也能通过某些按键触发的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分设备在未使用快捷连点功能时也能通过某些按键触发的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2296" target="_blank" rel="noopener noreferrer">#2296</a></li>
 <li><strong>【🔨修复】</strong> 修复了缩放比较高的设备在窗口较小时会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2290" target="_blank" rel="noopener noreferrer">#2349</a></li>
 <li><strong>【🔨修复】</strong> 修复了部分设备删除养成物品可能会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2290" target="_blank" rel="noopener noreferrer">#2290</a></li>
 <li><strong>【🔨修复】</strong> 修复了已经处于成就页面时由其他应用启动导入成就不会显示导入弹窗的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2306" target="_blank" rel="noopener noreferrer">#2306</a></li>
 <li><strong>【🔨修复】</strong> 修复了特定情况下会尝试打开多个对话框的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2307" target="_blank" rel="noopener noreferrer">#2307</a></li>
-<li><strong>【🔨修复】</strong> 修复了预下载游戏后无法更改游戏路径的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2317" target="_blank" rel="noopener noreferrer">#2317</a></li>
+<li><strong>【🔨修复】</strong> 修复了预下载可用时无法更改游戏路径的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2317" target="_blank" rel="noopener noreferrer">#2317</a></li>
 <li><strong>【🔨修复】</strong> 修复了部分设备无法正确枚举容器应用从而导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2339" target="_blank" rel="noopener noreferrer">#2339</a></li>
 <li><strong>【🔨修复】</strong> 修复了我的角色页面中达达利亚的天赋对普通攻击技能等级加成不显示的问题</li>
 <li><strong>【🔨修复】</strong> 修复了在我的角色页面添加到养成计划时，弹出的提示数量不正确的问题</li>
 <li><strong>【🔨修复】</strong> 修复了幻想真境剧诗页面上场率统计没有垂直居中的问题</li>
-<li><strong>【🔨修复】</strong> 修复了Cookie失效后直接重新登录后仍然会显示网络异常的问题</li>
+<li><strong>【🔨修复】</strong> 修复了 Cookie 失效后直接重新登录后仍然会显示网络异常的问题</li>
 <li><strong>【🔨修复】</strong> 修复了连点功能启用时关闭连点功能开关没有停止连点的问题</li>
 <li><strong>【🔨修复】</strong> 修复了我的角色页面网格视图下角色名片背景没有垂直居中的问题</li>
 <li><strong>【🔨修复】</strong> 修复了我的角色/角色资料/武器资料中搜索框的待选提示中部分图标显示不完整的问题</li>
@@ -116,6 +117,7 @@
 <li><strong>【🔨修复】</strong> 修复了祈愿记录页面计时页签中卡池尚未开始也会被计入的问题</li>
 <li><strong>【🔨修复】</strong> 修复了实时便笺不会正确发送通知的问题</li>
 <li><strong>【🔨修复】</strong> 修复了部分缩放率下实时便笺的角色探索部分可能会布局异常的问题</li>
+<li><strong>【🔨修复】</strong> 修复了注销胡桃通行证失败时仍然会退出登录的问题</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -685,8 +687,9 @@
 <li><strong>【✨优化】</strong> 现在在使用不支持的自定义背景图片时会产生更好的崩溃弹窗 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2335" target="_blank" rel="noopener noreferrer">#2335</a></li>
 <li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理弹出的新窗口现在会保持与主窗口相同的主题风格</li>
 <li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在支持中断后恢复安装</li>
-<li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在会额外计算 1 GB 的分块文件大小</li>
+<li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在会额外计算 1 GB 的安装缓存</li>
 <li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在会在安装时动态清理不需要的文件</li>
+<li><strong>【✨优化】</strong> 启动游戏功能游戏文件管理现在会正确跳过已完成更新的文件</li>
 <li><strong>【✨优化】</strong> 引导界面现在在选择语言后不再自动前往下一步</li>
 <li><strong>【✨优化】</strong> 应用内错误提示现在可以复制文本了</li>
 <li><strong>【✨优化】</strong> 调整了我的角色页面圣遗物主词条的显示效果，以便与副词条进行区分</li>
@@ -695,17 +698,17 @@
 <li><strong>【✨优化】</strong> 现在自动查找游戏路径时会判断可执行文件是否存在</li>
 <li><strong>【✨优化】</strong> 养成计划页面材料统计页签树脂预估功能现在会记忆选择的世界等级</li>
 <li><strong>【✨优化】</strong> 养成计划页面养成物品现在会分行展示天赋等级</li>
-<li><strong>【🔨修复】</strong> 修复了部分设备在未使用快捷连点功能时也能通过某些按键触发的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分设备在未使用快捷连点功能时也能通过某些按键触发的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2296" target="_blank" rel="noopener noreferrer">#2296</a></li>
 <li><strong>【🔨修复】</strong> 修复了缩放比较高的设备在窗口较小时会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2290" target="_blank" rel="noopener noreferrer">#2349</a></li>
 <li><strong>【🔨修复】</strong> 修复了部分设备删除养成物品可能会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2290" target="_blank" rel="noopener noreferrer">#2290</a></li>
 <li><strong>【🔨修复】</strong> 修复了已经处于成就页面时由其他应用启动导入成就不会显示导入弹窗的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2306" target="_blank" rel="noopener noreferrer">#2306</a></li>
 <li><strong>【🔨修复】</strong> 修复了特定情况下会尝试打开多个对话框的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2307" target="_blank" rel="noopener noreferrer">#2307</a></li>
-<li><strong>【🔨修复】</strong> 修复了预下载游戏后无法更改游戏路径的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2317" target="_blank" rel="noopener noreferrer">#2317</a></li>
+<li><strong>【🔨修复】</strong> 修复了预下载可用时无法更改游戏路径的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2317" target="_blank" rel="noopener noreferrer">#2317</a></li>
 <li><strong>【🔨修复】</strong> 修复了部分设备无法正确枚举容器应用从而导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2339" target="_blank" rel="noopener noreferrer">#2339</a></li>
 <li><strong>【🔨修复】</strong> 修复了我的角色页面中达达利亚的天赋对普通攻击技能等级加成不显示的问题</li>
 <li><strong>【🔨修复】</strong> 修复了在我的角色页面添加到养成计划时，弹出的提示数量不正确的问题</li>
 <li><strong>【🔨修复】</strong> 修复了幻想真境剧诗页面上场率统计没有垂直居中的问题</li>
-<li><strong>【🔨修复】</strong> 修复了Cookie失效后直接重新登录后仍然会显示网络异常的问题</li>
+<li><strong>【🔨修复】</strong> 修复了 Cookie 失效后直接重新登录后仍然会显示网络异常的问题</li>
 <li><strong>【🔨修复】</strong> 修复了连点功能启用时关闭连点功能开关没有停止连点的问题</li>
 <li><strong>【🔨修复】</strong> 修复了我的角色页面网格视图下角色名片背景没有垂直居中的问题</li>
 <li><strong>【🔨修复】</strong> 修复了我的角色/角色资料/武器资料中搜索框的待选提示中部分图标显示不完整的问题</li>
@@ -713,6 +716,7 @@
 <li><strong>【🔨修复】</strong> 修复了祈愿记录页面计时页签中卡池尚未开始也会被计入的问题</li>
 <li><strong>【🔨修复】</strong> 修复了实时便笺不会正确发送通知的问题</li>
 <li><strong>【🔨修复】</strong> 修复了部分缩放率下实时便笺的角色探索部分可能会布局异常的问题</li>
+<li><strong>【🔨修复】</strong> 修复了注销胡桃通行证失败时仍然会退出登录的问题</li>
 </ul>
 <h2>1.12.8</h2>
 <ul>
