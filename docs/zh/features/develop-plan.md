@@ -9,7 +9,11 @@ description: 胡桃工具箱中的养成计划功能帮助玩家快速地构建�
 
 # 养成计划
 
-![dev-plan](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01hTUFrK1g6e0qblsZV_!!1797064093.png_.webp)
+![dev-plan](/images/202501/character_develop_plan.webp)
+
+::: tip
+绿色图标项代表当天可以刷取
+:::
 
 ## 添加养成目标进入材料清单
 
