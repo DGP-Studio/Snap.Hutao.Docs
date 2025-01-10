@@ -11,7 +11,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 胡桃工具箱使用 `C#` 和 `.NET 框架` 开发桌面客户端和服务端。我们广泛地接受来自开源社区的反馈，如果你愿意贡献你的代码，请阅读本页的指导文档。
 
-你可以在 GitHub 上查看所有当前仍然[未解决的问题](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%E5%B7%B2%E5%AE%8C%E6%88%90)。
+你可以在 GitHub 上查看所有当前仍然[未解决的问题](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is:issue%20is:open%20-label:%E5%B7%B2%E5%AE%8C%E6%88%90)。
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> 设置 Snap.Hutao 项目
 

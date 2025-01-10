@@ -87,6 +87,14 @@ Failed to connect to Snap Hutao server, please check your connection
 
 If you are using a network proxy, please check if you have [unlocked Windows container Loopback limit](FAQ.md)
 
+## Error Downloading PIC Resources
+
+The failure to download a small portion of static image resources will not significantly degrade the experience of Snap Hutao. The client will automatically re-download any missing image resources as needed.
+
+### `Received an unexpected EOF or 0 bytes from the transport stream.` / Response stream does not contain valid content type
+
+This issue may be triggered by many factors such as hitting download limits or network fluctuations. You can close the client and wait for a moment, then, try downloading again, or attempt to switch your network connection.
+
 ## Error Finding Required Modules
 
 When user launching game with unlock frame-rate feature on, the game may be failed to be launched with the following error shows up:
@@ -96,3 +104,16 @@ When user launching game with unlock frame-rate feature on, the game may be fail
 
 This issue only occurs when Genshin Impact's anti-cheat module starts earlier than frame-rate-unlocker module.
 When these errors happen, Snap Hutao will exit game process, and you can re-launch the game.
+
+## Application installation failed. Error message: An internal error occurred 0x80073D05
+
+The primary reason for encountering the error code `0x80073D05` during installation is that some local files were not deleted during a previous uninstallation.
+
+- You need to open `%appdata%/../Local/Packages`.
+- Locate and delete the folder named `60568DGPStudio.SnapHutao_wbnnev551gwxy` (if you are facing privilege issues, consider using `NSudo_LG` to resolve the issue. For detailed usage, please search on Google).
+
+## Error 0x8007007E or "The specified file/module cannot be found"
+
+This issue is caused by missing MSVC runtime libraries. Please install the latest version of the **MSVC Runtime Library**.
+
+Download links: [MSVC Runtime Library (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe) | [MSVC Runtime Library (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)

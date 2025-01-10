@@ -49,4 +49,4 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 > Snap Hutao 有着良好的云端网络结构，在全球各地你都能获得良好的网络服务
 
-推荐启用 `Loopback 网络`，详细教程见 [此处](loopback.md)
+推荐设置 `Loopback 网络`，详细教程见 [此处](loopback.md)

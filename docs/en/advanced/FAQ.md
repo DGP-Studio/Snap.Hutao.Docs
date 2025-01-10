@@ -50,12 +50,4 @@ Click `Create Desktop Shortcut` in the settings page.
 
 > Snap Hutao has a well-designed cloud network structure, you should be able to get good network service wherever you are located
 
-Loopback network are disabled for all Windows Appx container application (including Snap Hutao), so some modern network proxy software will cause container applications to lose Internet access, and lead to application errors.
-
-If you need network proxy to use Snap Hutao, you can try the following solutions:
-
-- Config in Snap Hutao
-  - Open `Feedback Center` and click `Config Loopback Exemption` and follow the instructions
-- Config in network proxy software
-  1. Enable `TUN Mode` in your network proxy software if it supports
-  2. Contact your network proxy software provider for help, ask solution of Windows Appx container application proxy configuration
+We recommend to config `Loopback Network` inside the process. You can see detailed tutorial [HERE](loopback.md)

@@ -21,7 +21,7 @@ Acquiring wish records requires querying miHoYo's API.
 
 Regarding this API, there are a few key points to note:
 
-- Through miHoYo's server API, you can only access wish records from the past 6 months.
+- Through miHoYo's server API, you can only access wish records from the past 1 year.
   - This is also the source of wish records in the original Genshin client.
 - The API has rate limits; too many requests too quickly can lead to subsequent failures, making it impossible to retrieve data.
 

@@ -20,7 +20,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced
 
 ## Android
 
-Android users can utilize the open-source project GetToken to acquire cookies containing the Stoken field.
+Android users can utilize the open-source project `GetToken` to acquire cookies containing the Stoken field.
 
 ::: tip GetToken Open-Source Project
 
@@ -51,3 +51,10 @@ iOS Users can download the packet capture software Stream from the App Store to 
 - Send the copied Stoken to the computer where the Snap Hutao is installed.
 - In the Snap Hutao's account login section, click `Manual Input`.
 - Enter the obtained cookie. You should now complete the login process.
+
+## macOS
+
+macOS users can obtain cookies containing the Stoken field through the [TeyvatGuide](https://github.com/BTMuli/TeyvatGuide) application.
+
+- Download the macOS package for TeyvatGuide from [Github Release](https://github.com/BTMuli/TeyvatGuide/releases/latest).
+- Refer to the [TeyvatGuide documentation](https://github.com/BTMuli/TeyvatGuide/blob/master/docs/macos-gatekeeper/README.md) for installation instructions.

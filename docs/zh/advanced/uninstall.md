@@ -15,7 +15,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
   - 搜索 Snap Hutao
   - 右键点击 Snap Hutao，并选择“卸载”
 - 清除数据文件夹（如需完全卸载）
-  - 打开并删除该文件夹 `%userprofile%/Documents/Hutao`
+  - 打开 `explorer {F42EE2D3-909F-4907-8871-4C22FC0BF756}`
+  - 删除其中的 `Hutao` 文件夹
 
 ## 常见问题
 

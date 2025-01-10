@@ -9,10 +9,9 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/developm
 
 # Contribute Your Code
 
-Snap Hutao is using C# and .NET Framework to develop both client and server. If you are willing to contribute your code
-to the project, please read the following guidelines.
+Snap Hutao is using `C#` and `.NET Framework` to develop both client and server. If you are willing to contribute your code to the project, please read the following guidelines.
 
-You can find all [unsolved opened issues](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D+) on GitHub
+You can find all [unsolved opened issues](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is:issue%20is:open%20-label:%E5%B7%B2%E5%AE%8C%E6%88%90) on GitHub
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> Setup Snap.Hutao Project
 
