@@ -31,7 +31,7 @@ highlights:
     highlights:
       - title: 数据完全掌控
         icon: iconfont icon-computer
-        details: 数据仅存储在本地设备中，无需依赖云服务或第三方平台，保障数据访问的自主性。
+        details: 数据默认存储在本地设备中，无需依赖云服务或第三方平台，保障数据访问的自主性。
       - title: 数据云端保护
         icon: iconfont icon-lock
         details: 支持通过胡桃云备份至专属服务器，确保设备丢失时数据也能安全找回。
@@ -70,7 +70,7 @@ highlights:
 
       - title: 成就记录
         icon: /images/202301/achievement.png
-        details: 支持成就数据导出与统计，提供隐藏成就目标管理功能。
+        details: 支持成就数据导出与统计，提供隐藏成就目标管理功能
         link: features/achievements.html
 
       - title: 高级启动器

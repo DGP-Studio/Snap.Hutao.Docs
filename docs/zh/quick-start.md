@@ -114,19 +114,19 @@ background="rgba(155, 233, 168, 0.15)"
 
 通过可选组件，胡桃工具箱能够更高效地实现一些功能，尽管它们不是强制要求的组件，但可以显著改善用户体验。
 
-### <img src="/images/202312/MSEdge.webp" width="20" height="20"> WebView2 运行时
+### <img src="/images/202312/MSEdge.webp" alt="Edge" width="20" height="20"> WebView2 运行时
 
 WebView2 运行时由微软提供，允许胡桃工具箱内嵌低开销的浏览器组件。此组件用于实现米游社账号的 WebView2 登录功能。
 
 你可以在[微软官网](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/)底部找到 `常青独立安装程序`，选择 `x64` 下载并安装。
 
-### <img src="/images/202409/Microsoft-logo.svg" width="20" height="20"> Segoe Fluent Icons 字体
+### <img src="/images/202409/Microsoft-logo.svg" alt="Microsoft" width="20" height="20"> Segoe Fluent Icons 字体
 
 此字体由微软提供，可优化胡桃工具箱的图标显示效果。缺少该字体可能导致部分图标显示不佳。
 
 点击[此链接](https://aka.ms/SegoeFluentIcons)下载字体压缩包，解压后右键安装字体到系统。
 
-### <img src="/images/202409/Microsoft-logo.svg" width="20" height="20"> MSVC 运行库（MSVCRT）
+### <img src="/images/202409/Microsoft-logo.svg" alt="Microsoft" width="20" height="20"> MSVC 运行库（MSVCRT）
 
 MSVC 运行库是解锁帧率功能的必要组件。如提示“缺少 XXX.dll”或“缺少 XXX 组件”，请安装最新版 MSVCRT。
 
@@ -200,7 +200,7 @@ HoYoLAB 默认阻止中国大陆网络连接。
 
 ### 能否通过修复系统组件解决安装问题
 
-根据错误提示修复缺失组件，但不提供支持。
+根据错误提示修复缺失组件，但 Snap Hutao 开发组不会提供支持。
 
 ---
 
@@ -221,7 +221,9 @@ HoYoLAB 默认阻止中国大陆网络连接。
 
 ### MSIX 安装包提示组策略错误或需要开发者许可证
 
-尝试启用系统设置中的开发者模式。
+1. 打开Windows 设置
+2. 打开“系统-开发者选项”
+3. 开启“开发人员模式”的开关
 
 ---
 
@@ -236,11 +238,13 @@ HoYoLAB 默认阻止中国大陆网络连接。
 | `0x80070570` 错误代码 | 错误的 Windows 用户账户权限      |
 | `0x8007065E` 错误代码 | 错误的 Windows 用户账户权限      |
 
-#### 解决步骤：
+#### 解决步骤
 
 1. 在开始菜单右键选择 `PowerShell (管理员)`。
 2. 执行以下代码完成安装：
+
    ```PowerShell
    cd $env:USERPROFILE\Downloads; $url="https://api.snapgenshin.com/patch/hutao/download"; $targetFileName="Snap.Hutao.latest.msix"; $targetFilePath=Join-Path -Path $PWD -ChildPath $targetFileName; Invoke-WebRequest -Uri $url -OutFile $targetFilePath; Add-AppxPackage -Path $targetFilePath; Remove-Item -Path $targetFilePath
    ```
+
 3. 无红色错误提示即表示安装成功。
