@@ -23,6 +23,7 @@ export const zhSidebar = sidebar({
             "real-time-notes",
             "character-data",
             "hutao-API",
+            "imaginarium-theater",
             "develop-plan",
             "mhy-account-switch",
           ],
