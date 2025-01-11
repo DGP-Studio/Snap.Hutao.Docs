@@ -48,6 +48,11 @@ highlights:
         details: 采用 Windows 原生应用打包技术，支持沙盒隔离，确保系统稳定性与整洁性。
         link: project.html
 
+      - title: 数据仪表盘
+        icon: /images/202501/Announcement.png
+        details: 以最简洁的方式展示祈愿记录、成就进度、游戏日历、活动公告并提供快速启动游戏的入口。
+        link: features/dashboard.html
+
       - title: 实时便笺
         icon: /images/202301/live-stat-tracking-logo.png
         details: 打破移动端限制，在 PC 上实时接收米游社便笺通知，集成 Windows 原生通知功能。
@@ -83,10 +88,25 @@ highlights:
         details: 提供玩家社区配队、武器与圣遗物搭配数据查询与分享功能。
         link: features/hutao-api.html
 
+      - title: 幻想真境剧诗
+        icon: /images/202501/RoleCombat.png
+        details: 归档挑战记录，查询各角色出场率历史数据
+        link: features/imaginarium-theater.html
+
       - title: 属性统计
         icon: /images/202308/My_Character_Icon.png
         details: 查询角色具体属性，包括等级、命之座、武器与天赋等详细数据。
         link: features/character-data.html
+
+      - title: 胡桃通行证
+        icon: /images/202501/Passport.png
+        details: 提供祈愿数据云端备份与同步功能，支持多设备间数据迁移。
+        link: features/hutao-passport.html
+
+      - title: 养成计算器
+        icon: /images/202308/Calculator_Icon.png
+        details: 制定个性化角色养成计划，支持多账号与物品记录功能。
+        link: features/develop-plan.html
 
       - title: 角色资料
         icon: /images/202308/Character_WIKI_Icon.png
@@ -98,10 +118,10 @@ highlights:
         details: 查询武器属性与背景故事，并获取角色搭配推荐数据。
         link: features/weapon-wiki.html
 
-      - title: 养成计算器
-        icon: /images/202308/Calculator_Icon.png
-        details: 制定个性化角色养成计划，支持多账号与物品记录功能。
-        link: features/develop-plan.html
+      - title: 怪物资料
+        icon: /images/202501/WikiMonster.png
+        details: 查询怪物属性与设定，为游戏内战斗做好准备。
+        link: features/monster-wiki.html
 
 footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题构建 | 以开源社区力量为原神 PC 端玩家提供极致的游戏体验
 ---
