@@ -31,7 +31,7 @@ highlights:
     highlights:
       - title: 数据完全掌控
         icon: iconfont icon-computer
-        details: 数据仅存储在本地设备中，无需依赖云服务或第三方平台，保障数据访问的自主性。
+        details: 数据默认存储在本地设备中，无需依赖云服务或第三方平台，保障数据访问的自主性。
       - title: 数据云端保护
         icon: iconfont icon-lock
         details: 支持通过胡桃云备份至专属服务器，确保设备丢失时数据也能安全找回。
@@ -55,7 +55,7 @@ highlights:
 
       - title: 深渊记录
         icon: /images/202301/spiral-abyss-record-logo.png
-        details: 本地化保存玩家的深境螺旋记录，支持历史记录查询与统计分析。
+        details: 本地化保存玩家的深境螺旋记录，支持历史记录查询与基于玩家自主上传数据的统计分析。
         link: features/hutao-API.html
 
       - title: 多账号切换
@@ -70,7 +70,7 @@ highlights:
 
       - title: 成就记录
         icon: /images/202301/achievement.png
-        details: 支持成就数据导出与统计，提供隐藏成就目标管理功能。
+        details: 支持成就数据导入、导出与统计，提供隐藏成就管理功能。
         link: features/achievements.html
 
       - title: 高级启动器

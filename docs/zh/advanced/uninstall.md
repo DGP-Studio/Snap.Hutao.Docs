@@ -21,7 +21,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 ## 清除数据文件夹（如需完全卸载）
 
 1. 打开文件资源管理器。
-2. 前往以下路径：`%userprofile%/Documents/Hutao`。
+2. 前往以下路径：`explorer {F42EE2D3-909F-4907-8871-4C22FC0BF756}`。
 3. 删除 `Hutao` 文件夹。
 
 ## 常见问题
@@ -48,12 +48,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 #### 备份数据
 
-1. 前往胡桃数据目录（默认路径为 `%userprofile%/Documents/Hutao`）。
-2. 复制 `Userdata.db` 文件至您选择的备份位置。
+1. 前往胡桃数据目录（默认路径为 `explorer {F42EE2D3-909F-4907-8871-4C22FC0BF756}` 目录下的 `Hutao` 文件夹）。
+2. 复制文件夹内的 `Userdata.db` 文件至您选择的备份位置。
 
 #### 恢复数据
 
-1. 将备份的 `Userdata.db` 文件复制回 `%userprofile%/Documents/Hutao` 目录中。
+1. 将备份的 `Userdata.db` 文件复制回上述的胡桃数据目录中。
 2. 启动 Snap Hutao，恢复您的数据。
 
 通过以上步骤，您可以安全地备份或恢复胡桃工具箱的全部数据。

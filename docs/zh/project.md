@@ -54,7 +54,7 @@ Snap Hutao 项目采用 MSIX 格式进行打包。MSIX 是一种 Windows 原生�
   - 自定义游戏启动参数
 - [祈愿记录管理](features/wish-export.md)
   - 从游戏数据中一键更新数据
-  - 导入/导出 UIGF 祈愿数据文件
+  - 导入 / 导出 UIGF 祈愿数据文件
   - 祈愿活动计时
   - 祈愿活动历史查询
   - 全局祈愿数据统计

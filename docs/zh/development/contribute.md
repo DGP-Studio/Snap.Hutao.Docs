@@ -40,7 +40,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 ## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> 测试打包程序
 
 ::: warning 注意事项
-如果希望试用最新 Alpha 版本，请先下载并安装 **[DGP_Studio_CA.crt](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt)** 到 **受信任的根证书颁发机构**。
+如果希望试用最新 Alpha 版本，请先下载并安装 [**DGP_Studio_CA.crt**](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt) 到 **受信任的根证书颁发机构**。
 :::
 
 - 每次 `push` 后，GitHub Actions 脚本会自动运行以构建最新解决方案：
