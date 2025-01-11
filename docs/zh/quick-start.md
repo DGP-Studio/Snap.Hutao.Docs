@@ -200,11 +200,7 @@ HoYoLAB 默认阻止中国大陆网络连接。
 
 ### 能否通过修复系统组件解决安装问题
 
-::: tip
-您可以尝试使用 [XBox](https://www.xbox.com/en-US/xbox-game-pass/pc-game-pass#app) 解决相关依赖问题。
-:::
-
-请自行根据错误提示修复缺失组件，**胡桃不会提供官方支持**。
+根据错误提示修复缺失组件，但 Snap Hutao 开发组不会提供支持。
 
 ---
 
