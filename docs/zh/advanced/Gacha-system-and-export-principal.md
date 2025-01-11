@@ -32,6 +32,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 为了请求此 API，我们需要以下四个关键参数：
 
+1. 卡池类型
+2. 抽卡物品
+3. 时间
+4. 抽卡记录 ID
+
 - 当前已知获取这些参数的方法包括：
   1. 遍历 Unity 的日志文件，查找用户打开的祈愿记录 URL。
   2. 代理本机流量，筛选祈愿记录 URL。
