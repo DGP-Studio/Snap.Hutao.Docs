@@ -16,7 +16,7 @@ export default hopeTheme(
       "https://at.alicdn.com/t/c/font_3861247_yn9taeyq2sc.css",
     ],
 
-    logo: "https://img.alicdn.com/imgextra/i4/1797064093/O1CN01vK3m2w1g6duwt8quS_!!1797064093.png",
+    logo: "https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ybZ68o1g6e7nwgiKI_!!1797064093.png_.webp",
 
     repo: "DGP-Studio/Snap.Hutao",
 
