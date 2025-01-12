@@ -4,106 +4,79 @@ category: [Feature, Tutorial]
 tag: [Character showcase, Character statistics]
 order: 8
 comment: false
-description: The "My Characters" feature in Snap Hutao can retrieve and display specific data of the characters owned within a Genshin Impact account. It provides analytical data such as character level, constellations, talents, and artifact attributes.
+description: The "My Characters" feature in Snap Hutao can retrieve and display detailed data of the characters under a Genshin Impact account, including level, constellations, talents, and artifact attributes, and provide analysis.
 ---
 
 # My Characters
 
-::: info
-
-This features required sign in to MiHoYo BBS account, please refer to [MiHoYo BBS Account Switch](mhy-account-switch.md) document for sign in tutorial
-
+::: info Prerequisites
+This feature requires logging in to a MiYouShe or HoYoLAB account. For specific login instructions, please refer to [MiHoYo BBS Account Switching](mhy-account-switch.md#mihoyo-bbs-account-switch).
 :::
 
-My characters is a character statistics feature that allows Snap Hutao to read character's statistics on the account,
-including level, constellation, weapon, talent and artifact set.
+The "My Characters" feature can read the detailed data of all characters in the user's current account, including levels, constellations, weapons, talents, and artifacts, helping players optimize character development and management.
 
-![My Character Screenshot](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SpkZag1g6e0sAYQKO_!!1797064093.png_.webp)
+![Grid View Example](/images/202501/characters_data.webp)
 
-## Sync Character Data
+## Synchronize Character Information
 
-Recommended usage:
+Click the "Synchronize Character Information" button in the upper right corner to update the following data:
 
-1. Use `Sync from MiHoYo BBS - Battle Chronicle`
-2. Use `Sync from MiHoYo BBS - Enhancement Progression Calculator`
-3. Edit the showcase in the game and then `Sync from Enka API`
+- Character level and constellations
+- Friendship level
+- Weapon level and refinement rank
+- Talent levels
+- Outfit information
+- Artifacts and their detailed attributes
 
-### Sync from Enka API
+## Add the Currently Selected Character to the Development Plan
 
-::: info Synchronous Feature
+1. Ensure that the character data has been synchronized.
+2. On the "My Characters" page, select the character you want to add to the Development Plan.
+3. Click the "Development Plan - Current Character and Weapon" button in the upper right corner.
 
-- Enka API sync data from characters displayed in the in-game character showcase
-  - Data includes Artifacts detail data, weapon detail data, talent data
-  - Character costume
-  - This sync method only support 8 characters at a time
+- The system will automatically pre-fill the synchronized character level, talent level, and weapon level. Users can freely modify the target level.
 
-:::
+![Development Example Image](/images/202501/character_develop.webp)
 
-- In the game, put **characters that you need detailed data** into the showcase
-  - The character showcase allows up to 8 characters at the same time
-- You need to wait for data sync to complete after editing the showcase configuration
-  - You may need up to 5 minutes after enable the showcase or re-config the showcase
-- Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
-- Select `Sync from Enka API`
+After adding, you can view the set development goals on the "Development Plan" feature page.
 
-### Sync from MiHoYo BBS - Battle Chronicle
+For a detailed feature description, please refer to the [Development Plan](./develop-plan.md#development-plan) document.
 
-::: info Synchronous Feature
+## Export Character Details to Clipboard
 
-- Data in this sync method comes from My Characters feature in MiHoYo official BSS
-  - This method does not contain any artifacts data
-  - This method can sync all characters data at a time
+The "My Characters" page supports exporting character data as text:
 
-:::
+- After selecting the target character, click the "Export Text to Clipboard" button in the upper right corner.
+- The exported data is stored in the system clipboard and can be directly pasted and shared.
+- An example of the text style is as follows:
 
-- Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
-- Select `Sync from MiHoYo BBS My Characters`
-
-### Sync from MiHoYo BBS - Enhancement Progression Calculator
-
-::: info Synchronous Feature
-
-- Data in this method comes from `Enhancement Progression Calculator` feature in MiHoYo official BBS tool set
-  - This sync method contains talent level data
-  - This sync method can sync all characters data at a time
-
-:::
-
-- Enter `My Characters` page in the Snap Hutao, Click `Sync Character Data` button on the top-right
-- Select `Sync from MiHoYo BBS Developement Plan`
-
-## Comparison of Synchronization Methods
-
-|       **Comparison**        | **In-game Showcase (Enka API)** | **Battle Chronicle** | **Enhancement Progression Calculator** |
-| :-------------------------: | :-----------------------------: | :------------------: | :------------------------------------: |
-|  **Number of Characters**   |                8                |         All          |                  All                   |
-|     **Character Level**     |               ✅                |          ✅          |                   ❌                   |
-| **Character Constellation** |               ✅                |          ✅          |                   ❌                   |
-|  **Character Friendship**   |               ✅                |          ✅          |                   ❌                   |
-|      **Weapon Level**       |               ✅                |          ✅          |                   ❌                   |
-| **Weapon Refinement Rank**  |               ✅                |          ✅          |                   ❌                   |
-|         **Talents**         |               ✅                |          ❌          |                   ✅                   |
-|         **Costume**         |               ✅                |          ❌          |                   ❌                   |
-|        **artifact**         |               ✅                |          ✅          |                   ❌                   |
-|    **artifact details**     |               ✅                |          ❌          |                   ❌                   |
-
-## Add Selected Character to Development Plan
-
-- Enter `My Characters` page in the Snap Hutao, click on character you need to add to Enhancement Progression Calculator
-- Click on `Development Plan` and enter target level
-  - **Synchronized data of the character** will be pre-filled into current level, and you can change the target level
-
-![rolescal](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Ynvyso1g6e0tMntA3_!!1797064093.png_.webp)
-
-- After adding successfully, you can find added Enhancement Progression Calculator in the `Dev Plan` page in Snap Hutao
-
-For tutorial of Dev Plan feature, please refer to [Dev Plan](develop-plan.md) document
-
-## Export as Image
-
-- In `My Characters` page, you can select a character and then click `Export as Image` button to create image with your
-  character's data, this will help you to share your character's data
-- The exported image is stored in your clipboard, and you can paste it wherever you need
-- A sample exported image is shown below
-
-![sample-output-image](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01qdWCvd1g6e0zFwB91_!!1797064093.png_.webp)
+```text
+// =====================
+// Kamisato Ayaka [Lv.90, ☆5, C6] [Lv.10, Lv.13 (10 +3), Lv.13 (10 +3)]
+// ---------------------
+// Mistsplitter Reforged [Lv.90, ☆5, R1]
+// [Base ATK: 674] [CRIT DMG: 44.1%]
+// ---------------------
+// [HP: 12858]
+// [ATK: 1016]
+// [DEF: 784]
+// [Elemental Mastery: 16]
+// [CRIT Rate: 40.4%]
+// [CRIT DMG: 262.3%]
+// [Healing Bonus: 0.0%]
+// [Incoming Healing Bonus: 0.0%]
+// [Energy Recharge: 105.2%]
+// [Cryo DMG Bonus: 61.6%]
+// ---------------------
+// 🌷 HP: 4780 [☆5 +20 Blizzard Strayer]
+// [CRIT Rate: 7.0%][CRIT DMG: 13.2%][ATK: 14.6%][Energy Recharge: 5.2%]
+// 🪶 ATK: 311 [☆5 +20 Blizzard Strayer]
+// [CRIT DMG: 25.6%][CRIT Rate: 6.6%][HP: 269][HP: 5.3%]
+// ⏳ ATK: 46.6% [☆5 +20 Blizzard Strayer]
+// [DEF: 21][CRIT DMG: 15.5%][HP: 11.1%][CRIT Rate: 14.4%]
+// 🍷 Cryo DMG Bonus: 46.6% [☆5 +20 Gilded Dreams]
+// [Elemental Mastery: 16][ATK: 49][ATK: 15.2%][CRIT DMG: 13.2%]
+// 👑 CRIT DMG: 62.2% [☆5 +20 Blizzard Strayer]
+// [ATK: 15.2%][ATK: 33][CRIT Rate: 7.4%][HP: 299]
+// =====================
+```

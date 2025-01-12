@@ -20,8 +20,9 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features
 
 在语言设置环节，你可以选择胡桃工具箱支持的界面语言。若更换语言，程序将自动重启以应用更改。
 
-- 默认语言为简体中文，并主动维护英语翻译。
-- 繁体中文、日语等其他语言由社区用户提供翻译支持。
+- 简体中文是 Snap Hutao 的基础语言，开发团队同时也维护英语翻译
+- Crowdin 社区成员贡献了繁体中文、日语和韩语翻译
+- 剩余语言由 Google Gemini 人工智能模型翻译
 
 如有兴趣贡献翻译，可访问 [https://translate.hut.ao](https://translate.hut.ao) 提供帮助。
 :::
@@ -57,8 +58,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features
 ::: details
 ![resource-download](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01QILPRh1g6dyHTUpV9_!!1797064093.png_.webp)
 
-在资源下载环节，胡桃工具箱将自动获取所需的静态图片资源。  
-资源下载完成后，初始化流程将自动关闭，并加载工具箱主界面。
+在资源下载环节，胡桃工具箱将自动获取所需的静态图片资源。资源下载完成后，初始化流程将自动关闭，并加载工具箱主界面。
 
-如遇下载失败，可参阅 [资源下载失败](../advanced/exceptions#资源下载失败) 部分以排查问题并获取解决方案。
+如果资源下载失败，Snap Hutao 仍然可以正常使用，并在加载图片时自动下载缺失资源。
 :::

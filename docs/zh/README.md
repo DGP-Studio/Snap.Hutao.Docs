@@ -132,7 +132,7 @@ Snap Hutao 是一个由开源社区维护的免费项目，我们欢迎更多开
 
 以下是您可以参与贡献的方式：
 
-1. [提交 Pull Request](https://github.com/DGP-Studio/Snap.Hutao/pulls)，完善代码与功能。
+1. [提交 Pull Request](development/contribute.md)，完善代码与功能。
 2. 参与[本地化翻译](i18n.md)工作，扩展语言支持。
 3. [完善项目文档](https://github.com/DGP-Studio/Snap.Hutao.Docs)，帮助更多用户理解与使用。
 

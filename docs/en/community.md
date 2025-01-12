@@ -1,16 +1,16 @@
 ---
 headerDepth: 2
-category: [Announcement]
+category: Announcement
 comment: false
 icon: iconfont icon-community
 order: 8
-description: You can join Snap Hutao's social community here, to chat with others players in various of topics.
+description: Here you can join the Snap Hutao community and interact with other players on various topics.
 banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
 ---
 
-# Join Community
+# Join the User Community
 
-As open-source software, community power is an important part of the ecology of Snap Hutao, and you can join our user community by following ways.
+As an open-source software, community engagement is a vital part of the Snap Hutao ecosystem. You can join the Snap Hutao user community through the following ways.
 
 <div class="vp-card-container">
   <VPCard
@@ -21,22 +21,22 @@ As open-source software, community power is an important part of the ecology of 
     background="rgba(88, 101, 242, 0.15)"
   />
   <VPCard
-    title="Snap Hutao QQ Group Chat"
-    desc="567908135"
+    title="Snap Hutao QQ User Group"
+    desc="825460590"
     logo="/images/202312/tencent.svg"
-    link="https://qm.qq.com/q/WJKykrY9W"
+    link="https://qm.qq.com/q/Fy8j4Ziiac"
     background="rgba(228, 0, 54, 0.15)"
   />
-  <VPCard
-    title="Snap Hutao QQ Announcement"
-    desc="531960040; announcement only"
+    <VPCard
+    title="Snap Hutao QQ Announcement Group"
+    desc="531960040; For announcements only, suitable for users who prefer to lurk and not miss important messages"
     logo="/images/202312/tencent.svg"
     link="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uxqsxPJPB_jOVbMFOzZv5LcDyIF2HAiu&authKey=Deo2c2ZhmqSAQ%2BGUL0ItD7bYtYG5blYxQor25BXoCcaCGllZYtZ4eDNwZ3yZz8gH&noverify=0&group_code=531960040"
-    background="rgba(228, 0, 54, 0.15)"
+    background="rgba(245, 158, 0, 0.15)"
   />
   <VPCard
     title="GitHub Discussion"
-    desc="Snap Hutao repository discussion is opened for all GitHub users"
+    desc="The Snap Hutao repository discussion forum is always open"
     logo="/images/202312/github-mark.svg"
     link="https://github.com/DGP-Studio/Snap.Hutao/discussions"
     background="rgba(155, 233, 168, 0.15)"

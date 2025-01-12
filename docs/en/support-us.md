@@ -5,33 +5,48 @@ comment: false
 icon: iconfont icon-like
 index: false
 headerDepth: 2
-description: The Snap Hutao project accepts donations from the community to keep the project operations, and we sincerely thank everyone who has supported this project.
+description: The Snap Hutao project accepts donations from the community to sustain its operations, and we sincerely thank everyone who has supported this project.
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/support-us.html
 ---
 
-# Support us
+# Support Us
 
-Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of our development team are currently self-funding the project's operation. We used modern software to reduce our operation costs, with the main expenses being the network system components required by server (you can find our annual expenditure summary below on this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but also benefit every Snap Hutao user. Currently, you can donate us in the following ways:
+Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. Our development team members are currently self-funding the project's operation and, through modern technology, have minimized operating costs as much as possible. The current major expenses are for the network system components required for server operation (you can find our summarized annual expenditures at the bottom of this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but will also benefit every Snap Hutao user. Currently, you can donate to us through the following channels:
 
-## Donation
+## Donation Channels
 
-We accept sponsorship with following methods:
+We accept donations through the following methods:
 
 <Sponsor lang="en" />
 
-## Sponsorship
+## Sponsors
 
-> We refuse any sponsorship aim to achieve user data
+> We refuse any sponsorship aimed at obtaining user data.
 
-If you are a business entity and would like to support Snap Hutao through your product, please contact us at [support@dgp-studio.cn](mailto://support@dgp-studio.cn). We will display all sponsors on our [home page](README.md#sponsorship).
+If you are a corporate entity and wish to support Snap Hutao through your product, please contact us via email at [support@dgp-studio.cn](mailto://support@dgp-studio.cn). We will display all sponsors on our [homepage](README.md#sponsorship).
 
-## Annual Expense
+## Annual Expenses
 
-> The following information is derived from the 2023 project expenditure summary of Snap Hutao. The current specific data may differ from that.
-> All expenditure amounts are in Chinese Yuan (CNY), and if the original expenditure currency is not in Chinese Yuan, it is calculated based on the exchange rate on February 22, 2024.
+### 2023 Total
+
+> The following information is based on the 2023 Snap Hutao project support summary. The specific current data may differ from this.
+> All expenditure amounts are in Chinese Yuan (CNY). If the original expenditure currency was not in CNY, it was calculated based on the exchange rate on February 22, 2024.
 
 |          Item          | Expense (CNY) |
 | :--------------------: | ------------- |
-|         server         | ￥1582.92     |
-|     domain service     | ￥512.7       |
-| other network services | ￥129.3       |
+|         Server         | ￥1582.92     |
+|     Domain Service     | ￥512.7       |
+| Other Network Services | ￥129.3       |
+|         Total          | ￥2224.92     |
+
+### 2024 Total
+
+> The following information is based on the 2024 Snap Hutao project support summary. The specific current data may differ from this.
+> All expenditure amounts are in Chinese Yuan (CNY). If the original expenditure currency was not in CNY, it was calculated based on the exchange rate on January 10, 2025.
+
+|          Item          | Expense (CNY) |
+| :--------------------: | ------------- |
+|         Server         | ￥ 2648.94    |
+|     Domain Service     | ￥ 344.96     |
+| Other Network Services | ￥205.63      |
+|         Total          | ￥ 3199.53    |
