@@ -15,6 +15,18 @@ export default defineUserConfig({
   clientConfigFile: path.resolve(__dirname, "./client.ts"),
 
   head: [
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    [
+      "link",
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
+    ],
+    [
+      "link",
+      {
+        href: "https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Noto+Sans+SC:wght@500&display=swap",
+        rel: "stylesheet",
+      },
+    ],
     [
       "script",
       {
