@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://hut.ao/jp/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://hut.ao/jp/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>スナップ胡桃</title>
+    <link>https://hut.ao/jp/</link>
+    <description>超実用的な原神インパクトツールキット</description>
+    <language>ja-JP</language>
+    <pubDate>Sun, 12 Jan 2025 05:00:10 GMT</pubDate>
+    <lastBuildDate>Sun, 12 Jan 2025 05:00:10 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>公告</category>
+    <category>i18n</category>
+    <category>プロジェクト</category>
+    <category>機能</category>
+    <category>チュートリアル</category>
+    <category>FAQ</category>
+    <category>第三方ツール</category>
+    <category>開発ログ</category>
+    <category>オープンソース</category>
+    <category>開発</category>
+    <item>
+      <title>国際化サポート</title>
+      <link>https://hut.ao/jp/i18n.html</link>
+      <guid>https://hut.ao/jp/i18n.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">国際化サポート</source>
+      <description>Snap Hutaoは世界中のプレイヤーの皆様をサポートしたいと考えており、プログラムの簡体字中国語と英語のメンテナンスに加え、コミュニティメンバーの皆様からの翻訳も受け付けています。</description>
+      <category>公告</category>
+      <category>i18n</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<p>Snap Hutaoは主に Genshin Impact の中国国内サーバーの機能をサポートしており、現在、言語のローカライズと機能の国際化を含む国際サーバーのサポートを徐々に改善しています。
+両方のサーバーには異なるタイプの制限があるため、一部の機能の実装は異なる場合があります。たとえば、国際サーバーの祈願履歴のエクスポートは、より便利なSToken更新方法をサポートしていません。</p>
+<h2>言語サポート</h2>
+<p>Snap Hutaoは現在、以下の言語をサポートしています。</p>
+<table>
+  <thead>
+    <tr>
+      <th>言語</th>
+      <th>進捗状況</th>
+      <th>メンテナンス方法</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>簡体字中国語</td>
+      <td>基本言語</td>
+      <td rowspan="2" style="text-align: center; vertical-align: middle;">DGP Studioがメンテナンス</td>
+    </tr>
+    <tr>
+      <td>英語</td>
+      <td style="text-align: center; vertical-align: middle;">
+        <img alt="en translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=en&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.1.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+    <tr>
+      <td>繁体字中国語</td>
+      <td>
+        <img alt="zh-TW translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=zh-TW&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.13.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+      <td rowspan="2" style="text-align: center; vertical-align: middle;">Crowdinコミュニティメンバーがメンテナンス</td>
+    </tr>
+    <tr>
+      <td>日本語</td>
+      <td>
+        <img alt="ja translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=ja&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.6.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+    <tr>
+      <td>韓国語</td>
+      <td>
+        <img alt="ko translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=ko&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.7.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+      <td rowspan="2" style="text-align: center; vertical-align: middle;">一部Crowdinコミュニティメンバーがメンテナンス；<br>一部Google Geminiで翻訳</td>
+    </tr>
+    <tr>
+      <td>インドネシア語</td>
+      <td>
+        <img alt="id translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=id&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.4.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+    <tr>
+      <td>ドイツ語</td>
+      <td>
+        <img alt="de translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=de&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.0.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+      <td rowspan="10" style="text-align: center; vertical-align: middle;">Google Geminiで翻訳</td>
+    </tr>
+    <tr>
+      <td>スペイン語</td>
+      <td>
+        <img alt="es-ES translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=es-ES&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.2.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+    <tr>
+      <td>フランス語</td>
+      <td>
+        <img alt="fr translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=fr&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.3.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+    <tr>
+      <td>イタリア語</td>
+      <td>
+        <img alt="it translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=it&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.5.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+    <tr>
+      <td>ポルトガル語</td>
+      <td>
+        <img alt="pt-PT translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=pt-PT&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.8.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+    <tr>
+      <td>ロシア語</td>
+      <td>
+        <img alt="ru translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=ru&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.9.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+    <tr>
+      <td>タイ語</td>
+      <td>
+        <img alt="th translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=th&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.10.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+    <tr>
+      <td>トルコ語</td>
+      <td>
+        <img alt="tr translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=tr&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.11.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+        <tr>
+      <td>ベトナム語</td>
+      <td>
+        <img alt="vi translation" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=vi&amp;style=flat&amp;logo=crowdin&amp;query=%24.progress.12.data.translationProgress&amp;url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-15670597-565845.json">
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2>国際化への参加</h2>
+<ul>
+<li>GitHubで<code>[Hoyolab]: Globalization support</code>という名前の<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/638" target="_blank" rel="noopener noreferrer">Issue</a>を作成しました。
+<ul>
+<li>このIssueで、現在のメインプログラムの国際化の進捗状況を更新します。</li>
+<li>ここで、メインプログラムの特定の部分の国際化サポートへの参加を表明することができます。サポートを提供します。
+<ul>
+<li>ブランチを通じて直接プルリクエストを送信することも歓迎します。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><a href="https://translate.hut.ao" target="_blank" rel="noopener noreferrer">translate.hut.ao</a> でクライアントの翻訳作業に参加できます。</strong></li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/i18n.html" type="image/"/>
+    </item>
+    <item>
+      <title>全サイト目次</title>
+      <link>https://hut.ao/jp/menu.html</link>
+      <guid>https://hut.ao/jp/menu.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">全サイト目次</source>
+      <description>全サイト目次 重要 この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</description>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>プロジェクト説明</title>
+      <link>https://hut.ao/jp/project.html</link>
+      <guid>https://hut.ao/jp/project.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">プロジェクト説明</source>
+      <description>Snap Hutao は GitHub でオープンソースのプログラムプロジェクトです。私たちは、このプロジェクトがより活発になるために、コミュニティからの協力を広く受け入れています。</description>
+      <category>公告</category>
+      <category>プロジェクト</category>
+      <category>機能</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div style="text-align:center">
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01vWmKzl1g6e2VIEODU_!!1797064093.png_.webp" alt="banner" loading="lazy">
+<a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"></a></p>
+</div>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<p>Snap Hutao は、MIT ライセンスに基づいてオープンソース化された「原神」ツールボックスであり、モダンな Windows プラットフォーム向けに設計され、デスクトップ版プレイヤーのゲーム体験を向上させることを目的としています。公式リソースとチームが独自に設計した新機能を組み合わせることで、モバイルデバイスに依存することなく、包括的で実用的なツールセットを提供します。同時に、非破壊原則を厳守し、ゲームクライアントには一切変更を加えないため、ツールボックスの安全な使用を保証します。</p>
+<p>Snap Hutao プロジェクトは、MSIX 形式でパッケージ化されています。MSIX は、Windows ネイティブのアプリケーションパッケージ形式であり、ソフトウェアのインストール、更新、アンインストールプロセスを簡素化するなどの特徴があります。サンドボックス技術により、MSIX でパッケージ化されたアプリケーションは隔離された環境で実行され、システムリソースを直接変更することを回避し、システムの安全性と安定性を大幅に向上させます。さらに、MSIX 形式は、アンインストール後に残りのファイルやレジストリエントリを残さないため、システムのクリーンさを保証します。これらの利点により、MSIX は開発者とユーザーがソフトウェアを管理するための強力なツールとなり、スムーズで安全、かつクリーンなソフトウェア体験を提供します。</p>
+<h2>Snap Hutao が解決する「原神」デスクトップ版の欠点</h2>
+<p>|              機能              | モバイル版                         | デスクトップ版                                              | Snap Hutao のソリューション                                                                         |
+| :</p>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png" type="image/png"/>
+    </item>
+    <item>
+      <title>クイックスタート</title>
+      <link>https://hut.ao/jp/quick-start.html</link>
+      <guid>https://hut.ao/jp/quick-start.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">クイックスタート</source>
+      <description>このクイックスタートドキュメントに従うことで、Snap Hutaoを素早く利用可能な状態に設定できます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<p>このクイックスタートドキュメントに従うことで、Snap Hutaoを素早く利用可能な状態に設定できます。</p>
+<h2></h2>
+<p>| 要件                               | 仕様                                                             |
+|</p>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png" type="image/png"/>
+    </item>
+    <item>
+      <title>支援のお願い</title>
+      <link>https://hut.ao/jp/support-us.html</link>
+      <guid>https://hut.ao/jp/support-us.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">支援のお願い</source>
+      <description>Snap Hutaoプロジェクトは、プロジェクトの運営を維持するためにコミュニティからの寄付を受け付けています。このプロジェクトを支援してくださるすべての方々に心から感謝いたします。</description>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<p>Snap Hutaoは、MITライセンスのオープンソースプロジェクトとして、完全無料、広告なし、ユーザーのプライバシーを重視したプログラムの構築を目指しています。私たちの開発チームメンバーは現在、プロジェクトの運営を自己資金で賄っており、最新の技術を用いて運営コストを可能な限り削減しています。現在の主な支出項目は、サーバーの運用に必要なネットワークシステムコンポーネントです（このページの下部で、年間の支出をまとめています）。もし余剰資金があり、Snap Hutaoを支援していただけるのであれば、皆様の寛大なご寄付は、開発チームだけでなく、すべてのSnap Hutaoユーザーの利益となります。現在、以下の方法でご寄付いただけます。</p>
+<h2>寄付方法</h2>
+<p>以下の方法で寄付を受け付けています。</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/support-us.html" type="image/"/>
+    </item>
+    <item>
+      <title>その他のよくある質問</title>
+      <link>https://hut.ao/jp/advanced/FAQ.html</link>
+      <guid>https://hut.ao/jp/advanced/FAQ.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">その他のよくある質問</source>
+      <description>このページでは、ユーザーのネットワークやプログラムのライフサイクルに関する一般的な問題とその解決策について説明します。</description>
+      <category>FAQ</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h2>Snap Hutaoのデスクトップショートカットを作成する方法（管理者権限なし）</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">コミュニティの力</p>
+<p><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12" target="_blank" rel="noopener noreferrer">CzHUV氏による解決策</a> に感謝します。</p>
+</div>
+<ol>
+<li><code>Win+R</code> を使用して「ファイル名を指定して実行」ウィンドウを開き、入力ボックスに <code>shell:AppsFolder</code> と入力します。
+<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png_.webp" alt="Run" loading="lazy"></li>
+<li>Windows がアプリケーションディレクトリを開くので、「Snap Hutao」を見つけます。</li>
+<li>Snap Hutaoアイコンを右クリックし、「ショートカットの作成」を選択します。</li>
+<li>システムの指示に従って操作すると、デスクトップにショートカットが作成されます。</li>
+</ol>
+<h2>Snap Hutaoのデスクトップショートカットを作成する方法（管理者権限あり）</h2>
+<ul>
+<li>Snap Hutaoのプログラム設定ページに移動し、「ショートカットを作成」ボタンをクリックすると、管理者権限を持つショートカットがデスクトップに作成されます。</li>
+</ul>
+<h2>Snap Hutaoを起動時に自動起動させる方法</h2>
+<h3>方法1：バッチファイルを使用する</h3>
+<ol>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao/issues/184" target="_blank" rel="noopener noreferrer">このIssue</a> で提供されているコマンドを参考に、Snap Hutaoを管理者モードで直接実行するバッチファイルを作成します。</li>
+<li>次の方法でバッチファイルの自動起動を設定します。</li>
+</ol>
+<ul>
+<li>スケジュールされたタスクを作成し、システムの起動時にバッチファイルが実行されるようにします。</li>
+<li>バッチファイルをシステムのスタートアップ項目に追加します。</li>
+</ul>
+<h3>方法2：ツールを使用する</h3>
+<ul>
+<li><code>SkipUAC</code>のようなプログラムを使用して、Snap Hutaoを管理者権限でサイレント起動させます。</li>
+</ul>
+<div class="hint-container warning">
+<p class="hint-container-title">注意事項</p>
+<p>上記の方法は、システム構成やその他の問題により機能しない場合があります。Snap Hutaoは、起動時の自動起動機能を直接サポートしていません。関連する操作を試す場合は、自己責任で行ってください。</p>
+</div>
+<h2>管理者モードでSnap Hutaoを起動できない</h2>
+<blockquote>
+<p><strong>問題範囲</strong>: Windows 10 バージョン 22H2 より前のバージョンのみ</p>
+</blockquote>
+<ul>
+<li>ユーザーのシステムバージョンが <code>Windows Build 19045</code>（つまり、Windows 10 22H2バージョン）よりも低い場合、管理者モードでSnap Hutaoを起動できない可能性があります。</li>
+<li><strong>解決策</strong>: このような互換性の問題を避けるために、システムをWindows 10の最新バージョンにアップグレードすることをお勧めします。</li>
+</ul>
+<h2>ネットワークプロキシを使用してSnap Hutaoを使用する方法</h2>
+<blockquote>
+<p>Snap Hutaoは、世界中のユーザーが質の高いサービスを享受できるように、優れたクラウドネットワーク構造を提供しています。</p>
+</blockquote>
+<ol>
+<li>システムまたはソフトウェアのプロキシサービスを設定します。</li>
+<li><code>Loopback ネットワーク</code> を有効にすることをお勧めします。詳細なチュートリアルは<a href="/jp/advanced/loopback.html" target="_blank">こちら</a> を参照してください。</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/faq.html&amp;has_description=False" type="image/"/>
+    </item>
+    <item>
+      <title>祈願システムとエクスポートの原理</title>
+      <link>https://hut.ao/jp/advanced/Gacha-system-and-export-principal.html</link>
+      <guid>https://hut.ao/jp/advanced/Gacha-system-and-export-principal.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">祈願システムとエクスポートの原理</source>
+      <description>Snap Hutaoは、ユーザーのログイン情報を取得し、原神APIと連携して祈願履歴を取得するために、複数の方法を使用します。</description>
+      <category>FAQ</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<blockquote>
+<p>Gacha System and Principal</p>
+</blockquote>
+<p>胡桃の祈願システムは、Snap Genshinと比較して、アーキテクチャ全体が再設計されています。</p>
+<p>この記事では、原神の祈願履歴のメカニズムと、Snap Hutaoの祈願エクスポート機能の技術的な原理について説明します。</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/Gacha-system-and-export-principal.html&amp;has_description=False" type="image/"/>
+    </item>
+    <item>
+      <title>高度な設定</title>
+      <link>https://hut.ao/jp/advanced/</link>
+      <guid>https://hut.ao/jp/advanced/</guid>
+      <source url="https://hut.ao/jp/rss.xml">高度な設定</source>
+      <description>高度な設定 重要 この翻訳は Google Gemini モデルによって作成されたものであり、PRによる修正を歓迎します。</description>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>よくあるプログラム例外</title>
+      <link>https://hut.ao/jp/advanced/exceptions.html</link>
+      <guid>https://hut.ao/jp/advanced/exceptions.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">よくあるプログラム例外</source>
+      <description>Snap Hutao は特定のエラーを示すために特定のエラーコードを使用します。使用中にプログラムエラーが発生し、エラーコードが表示された場合は、このページで検索してみてください。</description>
+      <category>FAQ</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>以下のドキュメントでは、Snap Hutao の使用中に発生する可能性のある一般的な問題と、それに対する解決策を示します。</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/exceptions.html&amp;has_description=False" type="image/"/>
+    </item>
+    <item>
+      <title>サードパーティツールを使用してStoken付きのクッキーを取得する</title>
+      <link>https://hut.ao/jp/advanced/get-stoken-cookie-from-the-third-party.html</link>
+      <guid>https://hut.ao/jp/advanced/get-stoken-cookie-from-the-third-party.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">サードパーティツールを使用してStoken付きのクッキーを取得する</source>
+      <description>いくつかのサードパーティツールを使用すると、Stokenフィールドの値を含むmiHoYoのクッキーを取得し、それをSnap Hutaoで使用できます。</description>
+      <category>FAQ</category>
+      <category>第三方ツール</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<ul>
+<li>以下の手順で言及されているソフトウェア、オープンソースプロジェクトなどのリソースはすべてインターネットから提供されており、DGP-Studioとは関係ありません。</li>
+<li>この説明書は、関連する解決策のアイデアを提供するものであり、学習目的でのみ使用されます。具体的な操作および操作の結果は、本プロジェクトとは関係ありません。</li>
+</ul>
+</div>
+<h2>Android</h2>
+<p>Androidユーザーは、オープンソースプロジェクトのGetTokenを使用して、Stokenフィールドを含むクッキーを取得できます。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">GetToken オープンソースプロジェクト</p>
+<ul>
+<li>GitHub：<a href="https://github.com/HolographicHat/GetToken" target="_blank" rel="noopener noreferrer">HolographicHat/GetToken</a></li>
+</ul>
+</div>
+<ul>
+<li>GetTokenプロジェクトのリリースには、2つのapkファイルが含まれており、どちらも最終的な効果は同じです。デバイスの状況に応じて、適切なバージョンを選択してください。
+<ul>
+<li><code>app-release.apk</code>はLSPosedプラグインであり、ユーザーは公式のmiHoYo BBSでGetToken機能を使用できます。
+<ul>
+<li>Root権限が必要です。</li>
+</ul>
+</li>
+<li><code>miyoushe-361-lspatched.apk</code>はGetToken機能が組み込まれたmiHoYo BBSの改造版プログラムです。
+<ul>
+<li>注意：このバージョンのmiHoYo BBSをインストールするには、公式版のmiHoYo BBSをアンインストールする必要があります。</li>
+<li>この方法ではRootは必要ありません。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>プラグインを有効にするか、改造版miHoYo BBSをインストールした後、miHoYo BBSを開き、下部のバーにある「マイ」をクリックしてログインします。</li>
+<li>右上隅にある🔑のような形状のボタンをクリックします。</li>
+<li><code>Stoken</code>オプションをチェックします。</li>
+<li>「ログイン情報をコピー」をクリックして<code>Cookie</code>を取得します。</li>
+<li>コピーしたStokenを、Snap Hutaoがインストールされているコンピュータに送信します。</li>
+<li>「胡桃（Snap Hutao）」で「アカウントログイン-手動入力」をクリックします。</li>
+<li>先ほど取得した<code>Cookie</code>を入力してログインを完了します。</li>
+</ul>
+<h2>iOS</h2>
+<p>iOSユーザーは、App Storeからパケットキャプチャソフト「Stream」をダウンロードして、Stokenフィールドを含むCookieを取得できます。</p>
+<ul>
+<li>App Storeから<a href="https://apps.apple.com/cn/app/stream/id1312141691" target="_blank" rel="noopener noreferrer">Stream</a>をダウンロードします。</li>
+<li>ドメイン<code>api-takumi.mihoyo.com</code>のパケットキャプチャ分析を実行します。</li>
+<li><code>Stoken</code>を含むデータを見つけてコピーします。
+<ul>
+<li>例：<code>stuid=****;stoken=v2****;mid=****;</code></li>
+</ul>
+</li>
+<li>コピーしたStokenを、Snap Hutaoがインストールされているコンピュータに送信します。</li>
+<li>「胡桃（Snap Hutao）」のアカウントログイン画面で、「手動入力」をクリックします。</li>
+<li>先ほど取得した<code>Cookie</code>を入力してログインを完了します。</li>
+</ul>
+<h2>macOS</h2>
+<p>macOSユーザーは、<a href="https://github.com/BTMuli/TeyvatGuide" target="_blank" rel="noopener noreferrer">TeyvatGuide</a>アプリケーションを使用して、Stokenフィールドを含むCookieを取得できます。</p>
+<ul>
+<li><a href="https://github.com/BTMuli/TeyvatGuide/releases/latest" target="_blank" rel="noopener noreferrer">Github Release</a>から、TeyvatGuideのmacOS版パッケージをダウンロードします。</li>
+<li><a href="https://github.com/BTMuli/TeyvatGuide/blob/master/docs/macos-gatekeeper/README.md" target="_blank" rel="noopener noreferrer">TeyvatGuideドキュメント</a>を参照してインストールします。</li>
+<li>設定ページでSMS認証コードを使用してアカウントにログインします。</li>
+<li>ユーザーバッジでクッキーコピーボタンを選択してクッキーをコピーします。</li>
+<li>Snap Hutaoのアカウントログイン画面で、「手動入力」をクリックします。</li>
+<li>直接貼り付けるとログインが完了します。</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/get-stoken-cookie-from-the-third-party.html&amp;has_description=False" type="image/"/>
+    </item>
+    <item>
+      <title>既知の問題</title>
+      <link>https://hut.ao/jp/advanced/known-issue.html</link>
+      <guid>https://hut.ao/jp/advanced/known-issue.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">既知の問題</source>
+      <description>GitHubのIssueページでは、ユーザーから報告された問題を特定するために様々なラベルを使用しています。これらのラベルで問題の状態を確認できます。</description>
+      <category>FAQ</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>これはGoogle Geminiモデルによって作成された翻訳です。PRによる修正を歓迎します。</p>
+</div>
+<h1>既知の問題</h1>
+<p><a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue" target="_blank" rel="noopener noreferrer">GitHub Issue ページ</a>で、すべてのIssueを確認できます。</p>
+<p>| カテゴリー                                                                                                                                          | 特徴                  |
+|</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/known-issue.html&amp;has_description=False" type="image/"/>
+    </item>
+    <item>
+      <title>Loopbackネットワーク</title>
+      <link>https://hut.ao/jp/advanced/loopback.html</link>
+      <guid>https://hut.ao/jp/advanced/loopback.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">Loopbackネットワーク</source>
+      <description>Loopbackネットワークの概要とネットワークプロキシが機能しない場合の解決策</description>
+      <category>FAQ</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h1>Loopbackネットワーク</h1>
+<h2>Loopbackネットワークとは</h2>
+<p>「Appxコンテナアプリケーション」は、Microsoftが推進するアプリケーションの一種で、多くの利点があります。その高い実行効率、安全性、安定性、およびユーザーフレンドリー性を確保するために、Microsoftはこれらのアプリケーションに一連の制限を設けており、その1つが「Loopbackネットワーク」です。</p>
+<p>Windowsではデフォルトで、<strong>すべてのWindows Appxコンテナアプリケーション（Snap Hutaoを含む）のLoopbackネットワークが</strong>無効になっています。この設計は、アプリケーションのネットワークアクセス範囲を制限し、実行に必要なリソースのみを取得できるようにすることを目的としています。</p>
+<h3>Loopbackネットワークの理解</h3>
+<p>「Loopbackネットワーク」は、アプリケーションを収容する「箱」と考えることができます。この「箱」は、アプリケーションのネットワーク環境をローカルコンピュータ環境から隔離し、小さな穴を通してのみアプリケーションが外部ネットワークと対話できるようにします。</p>
+<p>外部ネットワーク環境が変化する（例えば、ネットワークプロキシやゲームアクセラレータを有効にするなど）と、穴が塞がれ、箱の中のアプリケーションが外部ネットワークと通信できなくなる可能性があります。</p>
+<h2>起こりうる問題</h2>
+<ul>
+<li>プロキシを有効にすると、Snap Hutaoがネットワークにアクセスできなくなる。</li>
+<li>一部のネットワーク関連機能（例えば、祈願履歴のエクスポート、リアルタイムメモのリフレッシュなど）が機能しなくなる。</li>
+</ul>
+<h2>解決策</h2>
+<h3>1. Snap Hutao内で設定する（推奨）</h3>
+<ol>
+<li>Snap Hutaoを開きます。</li>
+<li>左側のメニューから「フィードバックセンター」をクリックします。</li>
+<li>右側のバーで「Loopback制限の解除」を見つけてクリックします。</li>
+<li>ポップアップウィンドウで「確認」ボタンをクリックします。</li>
+</ol>
+<p>この操作により、Loopback制限が解除され、Snap Hutaoがプロキシネットワークを正常に使用できるようになります。</p>
+<h3>2. ネットワークプロキシソフトウェアで設定する</h3>
+<ol>
+<li><strong>TUNモード</strong>を有効にします（ネットワークプロキシソフトウェアにこのオプションがある場合）。</li>
+<li>ネットワークプロキシサービスプロバイダーに連絡し、Windows Appxコンテナアプリケーションのネットワークプロキシに関する技術サポートについて問い合わせ、具体的な解決策を入手してください。</li>
+</ol>
+<p>上記の方法で、Loopback制限によるネットワークプロキシの失敗問題を効果的に解決し、さまざまなネットワーク環境でSnap Hutaoを正常に動作させることができます。</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
+    </item>
+    <item>
+      <title>Snap Hutao のアンインストール</title>
+      <link>https://hut.ao/jp/advanced/uninstall.html</link>
+      <guid>https://hut.ao/jp/advanced/uninstall.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">Snap Hutao のアンインストール</source>
+      <description>Snap Hutaoをアンインストールするのは簡単で迅速なプロセスです。このページのチュートリアルに従って、ご自身に最適な方法でSnap Hutaoをアンインストールできます。</description>
+      <category>FAQ</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>このドキュメントはGoogle Geminiモデルによって翻訳されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h1>Snap Hutao のアンインストール</h1>
+<p>Snap Hutao のアンインストールは簡単なプロセスです。プログラムとその関連データを完全に削除したい場合は、以下の手順に従ってください。</p>
+<h2>Snap Hutao アプリケーションのアンインストール</h2>
+<ol>
+<li><strong>スタートメニュー</strong>を開きます。</li>
+<li><code>Snap Hutao</code> を検索します。</li>
+<li>Snap Hutao を右クリックして <strong>「アンインストール」</strong> を選択します。</li>
+</ol>
+<h2>データフォルダーの削除（完全にアンインストールする場合）</h2>
+<ol>
+<li>エクスプローラーを開きます。</li>
+<li>以下のパスに移動します：<code>%userprofile%/Documents/Hutao</code>。</li>
+<li><code>Hutao</code> フォルダーを削除します。</li>
+</ol>
+<h2>よくある質問</h2>
+<h3>「この hutao リンクを開くには新しいアプリが必要です」というダイアログが表示されるのはなぜですか？</h3>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01b3j0eY1g6duBXLJXg_!!1797064093.jpg_.webp" alt="uninstall-error" loading="lazy"></p>
+<p>Snap Hutao をアンインストールした後、上の図のように「この hutao リンクを開くには新しいアプリが必要です」というメッセージが表示される場合、これはアンインストール前にリアルタイム Notes のスケジュールタスクがクリアされていないことを示しています。この問題は古いバージョンの Snap Hutao でのみ発生します。</p>
+<p>解決策：</p>
+<ol>
+<li>Snap Hutao を再インストールします。</li>
+<li>設定でリアルタイム Notes のスケジュールタスクをクリアします。</li>
+<li>再度 Snap Hutao をアンインストールします。</li>
+</ol>
+<p>システムのスケジュールタスクに関連タスクが見つからないが、問題が解決しない場合は、<a href="https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/18" target="_blank" rel="noopener noreferrer">こちらのドキュメント</a> を参照して、さらに解決策をご確認ください。</p>
+<h3>クライアントデータを完全にバックアップ/復元する方法は？</h3>
+<div class="hint-container warning">
+<p class="hint-container-title">データセキュリティに関する注意</p>
+<p><code>Userdata.db</code> ファイルには、セキュリティ上重要な miHoYo BBS の Cookie を含む、すべてのクライアントデータが含まれています。このファイルを適切に保管し、他人と共有しないでください。</p>
+</div>
+<h4>データのバックアップ</h4>
+<ol>
+<li>Snap Hutao のデータディレクトリに移動します（デフォルトパスは <code>%userprofile%/Documents/Hutao</code> です）。</li>
+<li>フォルダー内の <code>Userdata.db</code> ファイルを、選択したバックアップ場所にコピーします。</li>
+</ol>
+<h4>データの復元</h4>
+<ol>
+<li>バックアップした <code>Userdata.db</code> ファイルを Snap Hutao のデータディレクトリにコピーし直します。</li>
+<li>Snap Hutao を起動して、データを復元します。</li>
+</ol>
+<p>上記の手順により、Snap Hutao のすべてのデータを安全にバックアップまたは復元できます。</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/uninstall.html&amp;has_description=False" type="image/"/>
+    </item>
+    <item>
+      <title>開発ログ</title>
+      <link>https://hut.ao/jp/blog/</link>
+      <guid>https://hut.ao/jp/blog/</guid>
+      <source url="https://hut.ao/jp/rss.xml">開発ログ</source>
+      <description>開発ログ</description>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>1.9.0 バージョンの重大な変更点に関する詳細な解説</title>
+      <link>https://hut.ao/jp/blog/version-1-9-0-breaking-changes.html</link>
+      <guid>https://hut.ao/jp/blog/version-1-9-0-breaking-changes.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">1.9.0 バージョンの重大な変更点に関する詳細な解説</source>
+      <description>この記事の内容は、Snap Hutao **1.4.11〜1.8.4バージョン**から1.9.0以降のバージョンへのアップグレードに適用されます</description>
+      <category>開発ログ</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>この記事の内容は、Snap Hutao <strong>1.4.11〜1.8.4バージョン</strong>から1.9.0以降のバージョンへのアップグレードに適用されます</p>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h2>前書き</h2>
+<p>Snap Hutao は、MSIX形式のWindowsサンドボックスアプリケーションであり、インストールの利便性とAppXアプリケーションの安全性を提供します。インストールパッケージに対する強制的なコード署名は、安全性を保証する重要な要素の一つです。インストールパッケージが改ざんされた場合、Windows App Installerは署名が破損しているためにエラーを表示し、ユーザーがインストールすることを禁止します。これは、主要なモバイルOSではすでに普及しています。Windowsプラットフォームでは、厳格な身元審査制度のため、コード署名証明書の価格は常に高額に維持されています。</p>
+<p>Snap Hutaoは、1.4.11バージョン以前は、自己署名証明書の方法を使用していました。このモードでは、ユーザーは手動でDGP-Studioの証明書をインストールして、オペレーティングシステムがDGP-Studio証明書で署名されたアプリケーションをコンピューターにインストールできるようにする必要がありました。1.4.11バージョン以降、Snap HutaoはMicrosoft Storeに掲載され、Microsoftは胡桃の開発者アカウントにGUID <code>35C8E923-85DF-49A7-9172-B39DC6312C52</code>を提供し、このGUIDをユーザー名としてSnap Hutaoに無料の署名を提供しました。msixインストールパッケージを使用してSnap Hutaoを更新することに慣れている場合は、常に発行者欄にこのGUIDが表示されるはずです。</p>
+<p>Microsoft Storeでの公開により、Snap Hutaoのユーザーは手動で署名証明書をインストールする必要がなくなり、Snap Hutaoインストールパッケージの配布もサポートされ、開発チームのコストを大幅に削減できました。しかし、面倒で冗長な審査プロセスがSnap Hutaoの開発計画を頻繁に妨害するため、開発チームは過去半年間、解決策を探し続けていました。SignPathは、オーストリアのウィーンに拠点を置く、コード署名統合ソフトウェアを提供する企業です。2023年12月初旬、Snap Hutaoの開発チームは、SignPath Foundationの支援をなんとか得て、提供されるコード署名証明書をSnap Hutaoの署名に無料で使用することが許可されました。これはSnap Hutaoプロジェクトを大いに助けました。Snap HutaoがMicrosoft Storeの束縛から解放されることを許可しただけでなく、毎年高額な証明書費用も回避できました。</p>
+<p><strong>新しい証明書への移行により、パッケージ名の競合問題が発生するため、Snap Hutaoはすべてのユーザーが1.9.0以降のバージョンに更新できるように、以下に詳細な説明を提供します。</strong></p>
+<h2>1.9.0 バージョンへのアップグレード</h2>
+<h3>バージョンリリース</h3>
+<p>Snap Hutao 1.9.0バージョンは、2023年クリスマスの前の週末にリリースされる予定です。GitHub、極狐GitLab、公式サイト、およびコミュニティを通じて、インストールパッケージのダウンロードアドレスを公開します。</p>
+<blockquote>
+<p>1.9.0 バージョンはすでにリリースされています。<a href="/jp/quick-start.html#%E5%85%A8%E6%96%B0%E5%AE%89%E8%A3%85" target="_blank">クイックスタート</a>ページで入手してください</p>
+</blockquote>
+<h3>旧バージョンのアンインストール</h3>
+<p>パッケージ名と署名の競合により、このインストールパッケージを直接インストールすると、システムバージョンに応じて問題が発生します。</p>
+<p>| システムバージョン |                                         予想される問題                                          |
+| :</p>
+]]></content:encoded>
+      <enclosure url="https://hut.ao/images/202312/1-8-5-installer.png" type="image/png"/>
+    </item>
+    <item>
+      <title>オープンソース開発</title>
+      <link>https://hut.ao/jp/development/</link>
+      <guid>https://hut.ao/jp/development/</guid>
+      <source url="https://hut.ao/jp/rss.xml">オープンソース開発</source>
+      <description>このページには、Snap Hutaoプロジェクトの開発に関連する公開ドキュメントの目次が含まれています。</description>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>コードの貢献</title>
+      <link>https://hut.ao/jp/development/contribute.html</link>
+      <guid>https://hut.ao/jp/development/contribute.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">コードの貢献</source>
+      <description>Snap Hutaoは、C#と.NETフレームワークを使用してデスクトップクライアントとサーバーサイドを開発しています。オープンソースコミュニティからのフィードバックを広く受け付けています。コードの貢献にご興味がある場合は、本ページのガイドドキュメントをお読みください。</description>
+      <category>オープンソース</category>
+      <category>開発</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<p>Snap Hutaoは、<code>C#</code>と<code>.NET Framework</code>を使用してデスクトップクライアントとサーバーサイドを開発しています。オープンソースコミュニティからのフィードバックを広く受け付けています。コードの貢献にご興味がある場合は、本ページのガイドドキュメントをお読みください。</p>
+<p>現在のすべての<a href="https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%E5%B7%B2%E5%AE%8C%E6%88%90" target="_blank" rel="noopener noreferrer">未解決の問題</a>はGitHubで確認できます。</p>
+<h2></h2>
+<ol>
+<li><a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer">Visual Studio</a>をダウンロードしてインストールします。
+<ul>
+<li>次のコンポーネントをインストールする必要があります。
+<ul>
+<li><code>.NET desktop development</code> (.NET デスクトップ開発)</li>
+<li><code>Desktop development with C++</code> (C++ を使用したデスクトップ開発)</li>
+<li><code>Windows application development</code> (Windows アプリケーション開発)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Visual Studio 拡張機能ストアから、Microsoft が提供する <code>Single-project MSIX Packaging Tools for VS 2022</code> 拡張機能をインストールします。</li>
+<li>Gitを使用してプロジェクトリポジトリをクローンします：<code>https://github.com/DGP-Studio/Snap.Hutao.git</code>。</li>
+<li>ブランチを <code>develop</code> に切り替えます。</li>
+<li>Visual Studio を使用してプロジェクトソリューションを開くと、開発を開始できます。</li>
+</ol>
+<h2></h2>
+<ol>
+<li><a href="https://www.microsoft.com/store/productid/9P7KNL5RWT25" target="_blank" rel="noopener noreferrer">Sysinternals Suite</a>（Microsoft Store）からダウンロードしてインストールするか、<a href="https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite" target="_blank" rel="noopener noreferrer">Microsoft公式サイト</a>からダウンロードします。</li>
+<li><code>DebugView</code> を見つけて起動します (スタートメニューまたは解凍されたファイル内)。</li>
+<li>Snap Hutao メインプログラムを起動します。</li>
+<li><code>DebugView</code> の出力するデバッグ情報を確認します。</li>
+</ol>
+<h2></h2>
+<ul>
+<li>プロジェクトの他のブランチから発行されたものではないプルリクエストは、<code>develop</code> ブランチへのマージのみが許可されます。</li>
+<li>あなたのコードが既存のissueに関連する場合は、<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests" target="_blank" rel="noopener noreferrer">キーワード</a>を使用して、あなたのPRを関連するissueに関連付けてください。これにより、PRが <code>main</code> ブランチにマージされたときに、関連するissueが自動的に閉じられます。</li>
+</ul>
+<h2></h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意事項</p>
+<p>最新のアルファバージョンを試用したい場合は、まず<a href="https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt" target="_blank" rel="noopener noreferrer"><strong>DGP_Studio_CA.crt</strong></a>を <strong>信頼されたルート証明機関</strong> にダウンロードしてインストールしてください。</p>
+</div>
+<ul>
+<li><code>push</code> するたびに、GitHub Actions スクリプトが自動的に実行され、最新のソリューションがビルドされます。
+<ul>
+<li><code>main</code>、<code>develop</code>、および <code>feat</code> ブランチの場合、スクリプトはテスト用にビルドされた <code>Snap Hutao Alpha</code> 圧縮パッケージを自動的にアップロードします。</li>
+<li>他のブランチは、コードのビルド可能性のみを検証し、アップロード機能は提供しません。</li>
+</ul>
+</li>
+<li>すべてのコンパイル記録は、<a href="https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml" target="_blank" rel="noopener noreferrer">Alpha パイプライン</a>で確認できます。</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/contribute.html" type="image/"/>
+    </item>
+    <item>
+      <title>参加しませんか</title>
+      <link>https://hut.ao/jp/development/join.html</link>
+      <guid>https://hut.ao/jp/development/join.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">参加しませんか</source>
+      <description>このページに記載されている技術をお持ちで、Snap Hutaoの開発チームに参加してプロジェクトを改善し、より多くの原神オープンソースプロジェクトに触れたい方は、ぜひご参加ください！</description>
+      <category>オープンソース</category>
+      <category>開発</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>このページに記載されている技術をお持ちで、Snap Hutaoの開発チームに参加してプロジェクトを改善し、より多くの原神オープンソースプロジェクトに触れたい方は、ぜひご参加ください！</p>
+<p><strong>能力に明確な基準は設けていません。新しい分野を探求する精神、技術への情熱、そして責任感こそが、オープンソースコミュニティに最も必要な資質です。</strong></p>
+<blockquote>
+<p>時間が限られている場合や、特定の問題を解決したい場合は、直接<a href="/jp/development/contribute.html" target="_blank">開発マニュアル</a>を読んでPull Requestを発行してください。建設的なコードの提出はすべて真摯に受け止めます。</p>
+</blockquote>
+<h2></h2>
+<p><strong>DGP-Studio メンバー特典:</strong></p>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Snap Hutaoおよび関連プロジェクトの機能を設計・実装</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 他の著名な原神コミュニティプロジェクトの開発者との交流</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 無料のGitHub Copilotの利用</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 無料の1Password Teamアカウントの利用</label></li>
+</ul>
+<p><a href="https://github.com/orgs/DGP-Studio/people" target="_blank" rel="noopener noreferrer">GitHub DGP-Studio People</a>ページで、現在公開されている組織メンバーの一覧を確認できます。</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/join.html" type="image/"/>
+    </item>
+    <item>
+      <title>Snap Hutao オープン プラットフォーム</title>
+      <link>https://hut.ao/jp/development/platform.html</link>
+      <guid>https://hut.ao/jp/development/platform.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">Snap Hutao オープン プラットフォーム</source>
+      <description>Snap Hutaoにはコミュニティからのアイデアが組み込まれており、そのお返しとして、いくつかのサービスをコミュニティに公開しています。もしこれらのサービスがあなたの開発に役立つようでしたら、ご自由にお使いください。私たちはこれらの派生プロジェクトをできる限りメンテナンスしていきます。</description>
+      <category>オープンソース</category>
+      <category>開発</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h1>Snap Hutao オープン プラットフォーム</h1>
+<p>2022年4月18日にGitHubで設立されて以来、Snap Hutaoプロジェクトはオープンソースコミュニティとユーザーから幅広い支持を受けています。プロジェクトの発展に伴い、私たちはSnap Hutaoの中間コンポーネントとして、一連のサポートサービスを構築してきました。</p>
+<p>現在、開発チームはこれらの実用的なサービスの一部をオープンインターフェース形式でオープンソースコミュニティに公開し、志を同じくする開発者が利用できるようにしています。これらのインターフェースについては詳細な使用ドキュメントを作成し、メンテナンスサポートを提供し、よくある質問に回答しています。あなたが経験豊富な開発者であろうと初心者であろうと、これらのインターフェースがあなたのアプリケーション開発に役立つことを願っています。</p>
+<h2>Snap Hutao API &amp; Snap Hutao Cloud 開発者ライセンス</h2>
+<p>Snap Hutao APIは、Snap Hutao深淵データベースを公開するインターフェースサービスであり、オープンソースソフトウェア開発者にデータアクセスサポートを提供することを目的としています。</p>
+<p>Snap Hutao APIの開発者として申請することで、データベースへのアクセス権限に加えて、Snap Hutaoツールボックス内のSnap Hutao Cloud機能の完全な権限が特典として付与されます。</p>
+<p>開発者は、<a href="https://homa.snapgenshin.com/" target="_blank" rel="noopener noreferrer">Snap Hutao APIオープン プラットフォーム</a>から申請を提出し、開発者ライセンスを取得することができます。</p>
+<h2>UIGF 交換可能データ記録</h2>
+<p>Snap Hutaoプロジェクトは、ユーザーデータが異なるオープンソースツール間で自由に流れることを推進しており、そのために初版の<a href="https://uigf.org/zh/standards/UIGF.html" target="_blank" rel="noopener noreferrer">統一交換可能ガチャ記録標準（UIGF）</a>を草案しました。</p>
+<p>この標準は、現在ますます多くの開発者に認められ、採用されており、継続的に改善されています。</p>
+<p>多くの開発者が<a href="https://github.com/UIGF-org" target="_blank" rel="noopener noreferrer">UIGF-Org</a>オープンソース組織に集まっており、このプラットフォームを通じて開発者とユーザーの交流を促進し、より多くのフィードバックと技術的な進歩を得て、さらに優れた原神オープンソースツールを作成したいと考えています。</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/platform.html" type="image/"/>
+    </item>
+    <item>
+      <title>第一回開発チーム座談会</title>
+      <link>https://hut.ao/jp/development/symposium1.html</link>
+      <guid>https://hut.ao/jp/development/symposium1.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">第一回開発チーム座談会</source>
+      <description>警告：下記の内容には古い情報が含まれている可能性があります。GitHub にて最新情報をご確認ください。 第一回開発チーム座談会 GitHub ディスカッション のコピー、グループディスカッションのまとめ 重要 この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。 なぜSnap HutaoはPCでUWPの...</description>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[<p><strong>警告：下記の内容には古い情報が含まれている可能性があります。<a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub</a> にて最新情報をご確認ください。</strong></p>
+<h1>第一回開発チーム座談会</h1>
+<p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/46" target="_blank" rel="noopener noreferrer">GitHub ディスカッション</a> のコピー、グループディスカッションのまとめ</p>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h2>なぜSnap HutaoはPCでUWPのような形式のアプリケーションとして作成する必要があるのですか？</h2>
+<p>MSIXパッケージ化されたアプリケーションの開発は、デスクトップ開発のトレンドであり、開発体験が向上し、ユーザーエクスペリエンスも向上します。</p>
+<h2>Snap Hutaoの役割は何ですか？ Snap Genshin（SG）とはどう違うのですか？</h2>
+<p>Snap HutaoはSnap Genshinの次世代バージョンであり、より高速で強力です。</p>
+<h2>Snap HutaoはSnap Genshinの機能をすべて継承しますか？Snap Genshinの一部の機能はSnap Hutaoで廃止されますか？</h2>
+<p>ほとんどの機能は完全に継承され、アップグレードされます。一部の機能は、統合された機能としてSnap Hutaoに表示されます。</p>
+<h2>なぜSnap HutaoとSnap Genshinを一緒にするのではなく、別々にするのですか？Snap Genshinとの重点の違いは何ですか？</h2>
+<p>Snap GenshinはWPF技術で開発されています。この技術はDirectX 9に基づいていますが、Snap HutaoはWinUI 3で開発されています。この新しい技術はDirectX 12やその他の新しいディスプレイ技術に基づいており、より良い効果を提供し、開発も容易です。Snap HutaoはSnap Genshinに似ていますが、スムーズでシンプルなユーザーエクスペリエンスに重点を置いており、プログラムアーキテクチャの保守性やパフォーマンスにも重点を置いています。</p>
+<h2>Snap Genshinの古い機能の移行に加えて、新しい機能の開発はありますか？</h2>
+<p>原神の発展に伴い、さらに多くの機能をリリースする予定です。</p>
+<h2>Snap Genshinは永遠に更新されないのですか？Snap Genshinはもうすぐ使えなくなるのですか？</h2>
+<p><s>深刻なデータ異常の問題がない限り、更新はされません。メンテナンスが不足しているため、特定の不明な理由により、Snap Genshinの一部の機能（以前のサインイン機能など）が無効になる時期は保証できません。</s>
+Snap.Genshinの更新は停止され、プロジェクトはアーカイブされました。</p>
+<h2>Snap Hutaoの使用ドキュメントはありますか？</h2>
+<p><s>使用ドキュメントは@Masterain98が作成中で、まもなく公開されます。</s> 今見ているものがそれです。</p>
+<h2>Snap Hutaoのアイコンは更新されますか？</h2>
+<p>いいえ、Snap Hutaoのアイコンの著作権を所有しています。</p>
+<h2>いつMicrosoft Storeに登場しますか？Microsoft Storeに登場すると、自分で証明書を信頼する必要はなくなりますか？Snap Hutaoは今後オンラインアップデートされますか？</h2>
+<p>すべての機能が完成した後、公開されます。証明書は不要です。公開後、オンラインアップデートがサポートされます。</p>
+<h2>キャラクターのステータスに基づいてダメージを計算する機能を追加することを検討していますか？Snap Hutaoはいつランチャーになり、フレームレートをアンロックできるようになりますか？このボーダレスフルスクリーン機能は今後サポートされますか？</h2>
+<p>ステータス機能は、ユーザーシステムの再構築後に開発されます。ステータス照会機能の完了後に、ゲーム起動関連機能が実装されます。起動パラメータが含まれます。</p>
+<h2>Snap HutaoデータベースとHutaoに関係はありますか？Snap Hutaoデータベースはいつ公開されますか？</h2>
+<p><s>Snap HutaoデータベースはHutaoAPIの一部であり、深境螺旋関連のデータが含まれています。HutaoAPIはSnap Hutaoで使用されるRESTful APIであり、他のアプリケーション開発者にも公開されており、導入コストが低く、導入メリットが高いです。Snap Hutaoデータベースは今後のバージョンで実装される予定です。</s> すでに実装済み</p>
+<h2>Snap Hutaoを右下のタスクバーに配置しますか？キャラクターに立ち絵を追加することを検討しますか？</h2>
+<p><s>基本的には検討していません。</s> 今後検討する可能性があります。</p>
+<p>クイック起動バーを使用してゲームをすばやく起動できます。具体的な方法については、<a href="/jp/features/game-launcher.html#%E8%83%A1%E6%A1%83%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%81%A7%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%92%E3%81%99%E3%81%B0%E3%82%84%E3%81%8F%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95" target="_blank">こちらのドキュメント</a>をご覧ください。</p>
+<h2>将来的にモバイル版はありますか？Snap Hutaoに基づいてモバイルデスクトップウィジェットを作成することを検討していますか？Snap Hutaoは今後プラグインをサポートしますか？Snap Hutaoのプラグイン開発ドキュメントはありますか？</h2>
+<p>短期間ではモバイル版は検討していません。モバイルデスクトップウィジェットも基本的には検討していません。プラグインのサポートは終了しました。同様に、プラグインのドキュメントもありません。</p>
+<h2>グローバルサーバーアカウントのサポートまであとどれくらいですか？例えば空荧酒馆のような他のプラグインを統合しますか？</h2>
+<p><s>HoYoLABの関連サポートには他の開発者の助けが必要です。技術スタックが異なるため、統合は困難です。</s></p>
+<p>オープンソースコミュニティの力により、現在、高度なランチャー、祈願記録のエクスポート、および実績管理機能はグローバルサーバーをサポートしています。</p>
+<h2>有料機能を追加する予定はありますか？それとも寄付のみですか？</h2>
+<p><s>サーバーには費用がかかるため、サーバーストレージに関連する機能は有料になる可能性があります。</s> Snap.Hutaoなどの関連プロジェクトはすべて公益プロジェクトです。</p>
+<h2>愛情で動いているのですか？Snap Hutaoの開発は、余暇時間に行われていますか？</h2>
+<p>明らかにそうです。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>第2回開発チーム座談会</title>
+      <link>https://hut.ao/jp/development/symposium2.html</link>
+      <guid>https://hut.ao/jp/development/symposium2.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">第2回開発チーム座談会</source>
+      <description>警告：以下の内容は古い情報である可能性があります。最新の情報についてはGitHubをご確認ください。 第2回開発チーム座談会 GitHubディスカッションスレッドからの転載、グループディスカッションからの要約 現在、成果エクスポートのJSON形式もUIGFですか？ A: UIAFです。 祈願システムデータのUEFI旧バージョンのインポートをSGのように...</description>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[<p><strong>警告：以下の内容は古い情報である可能性があります。最新の情報については<a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">GitHub</a>をご確認ください。</strong></p>
+<h1>第2回開発チーム座談会</h1>
+<p><a href="https://github.com/DGP-Studio/Snap.Hutao/discussions/280" target="_blank" rel="noopener noreferrer">GitHubディスカッションスレッド</a>からの転載、グループディスカッションからの要約</p>
+<h2>現在、成果エクスポートのJSON形式もUIGFですか？</h2>
+<p>A: UIAFです。</p>
+<h2>祈願システムデータのUEFI旧バージョンのインポートをSGのように対応できますか？</h2>
+<p>A: まず、それはUIGF形式と呼ばれています。また、ずっと対応していますが、SGのインポートとエクスポートのルールが広いため、最初から最後まで当社の製品のみを使用し、正しく使用していれば、インポートとエクスポートの異常は発生しません。</p>
+<h2>いつになったらSGのような自動更新チェックとダウンロード機能が実装されますか？</h2>
+<p>A: 自動更新はMSIXパッケージでは実装できません。更新チェックは今後のバージョンで導入予定です。</p>
+<h2>同じデバイスでSGとSnap Hutaoに同時にログインすると、1つのデバイスとしてカウントされますか？それとも2つのデバイスとしてカウントされますか？</h2>
+<p>A: 2つのデバイスとしてカウントされます。理論的には、Snap Hutaoを再起動するたびにデバイスを切り替えたことになります。</p>
+<h2>Snap Hutaoの一部のページのロードに時間がかかり、使用感に影響があるように感じます。Snap Hutaoのインターフェースが少しカクついているように感じます。</h2>
+<p>A: 深淵統計ページは1.2.6バージョン以前は確かにロードが遅い問題がありましたが、新バージョンで解決しました。他のページのカクつき問題がある場合は、通常、グラフィックカードの性能が十分ではないか、Snap Hutaoが内蔵グラフィックでレンダリングしていることが原因です。</p>
+<h2>属性統計が頻繁にロードに失敗します。</h2>
+<p>A: 過去からの問題です。データをバックアップした後、<code>userdata.db</code>を削除することで解決できます。</p>
+<h2>カスタムWebページ機能は今後も計画がありますか？</h2>
+<p>A: 慌てないでください。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">マイクロソフト側の問題で、私達には解決できません。</p>
+<ul>
+<li>管理者として起動しても管理者権限を取得できない場合があります。その場合は、一度閉じてから再度起動する必要があります。</li>
+<li>Snap Hutaoのアイコンサイズを他のアイコンのように小さくできますか？</li>
+<li>書き込まれたレジストリファイルは、更新時にインストール問題が発生した場合、すべての修復を試みても解決できず、アンインストールと再インストールによる修復の過程で、アンインストール時の残存問題が再インストールに影響を与える可能性はありますか？</li>
+</ul>
+</div>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>このドキュメントはGoogle Geminiモデルによって翻訳されたものであり、PRによる修正を歓迎します。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>機能ガイド</title>
+      <link>https://hut.ao/jp/features/</link>
+      <guid>https://hut.ao/jp/features/</guid>
+      <source url="https://hut.ao/jp/rss.xml">機能ガイド</source>
+      <description>機能ガイドのディレクトリでは、現在のSnap Hutaoが提供するすべての機能のディレクトリを見つけ、必要に応じて対応する機能ドキュメントを参照できます。</description>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>アチーブメント管理</title>
+      <link>https://hut.ao/jp/features/achievements.html</link>
+      <guid>https://hut.ao/jp/features/achievements.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">アチーブメント管理</source>
+      <description>Snap Hutaoは、原神のアチーブメント管理機能を提供し、すべてのアチーブメントの状態の閲覧と管理をサポートし、強力なフィルターシステムで特定のアチーブメントを簡単に検索できます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<p>Snap Hutaoは、原神の包括的なアチーブメント管理機能を提供し、すべてのアチーブメントの状態の閲覧と管理をサポートします。ユーザーは、さまざまなフィルタリング方法を使用して、アチーブメントをすばやく見つけ、管理エクスペリエンスを最適化できます。</p>
+<!-- more -->
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01fApvim1g6e0xyGQvS_!!1797064093.png_.webp" alt="アチーブメント管理インターフェース" loading="lazy"></p>
+<p>初めて使用するときは、プロンプトに従って「新規アーカイブを作成」ボタンをクリックして、アチーブメントアーカイブを作成し、名前を付けます。最初のアーカイブを作成した後、ユーザーは右上隅の「新規アーカイブを作成」ボタンをクリックして、異なるアカウント用に独立したアチーブメントアーカイブを作成できます。</p>
+<h2>アチーブメントのフィルタリング</h2>
+<p>Snap Hutaoは、さまざまな柔軟なアチーブメントフィルタリング方法をサポートしています。</p>
+<ul>
+<li>右上隅の隠しメニューをクリックし、<code>デイリー依頼のアチーブメントのみ</code> オプションを選択して、デイリー依頼で完了する必要がある隠されたアチーブメントをフィルタリングします。</li>
+<li>検索ボックスにバージョン番号（例：<code>5.3</code>）を入力して、対応するバージョンのアチーブメントを検索します。</li>
+<li>関連するモンスター名（例：<code>無相の炎</code>）を入力して、関連するアチーブメントをすばやく見つけます。</li>
+<li>アチーブメントの一部名（例：<code>四風</code>）を入力して、あいまい検索を実行します。</li>
+<li>完全なアチーブメント番号（例：<code>84575</code>）を入力して、目的のアチーブメントを正確に検索します。</li>
+</ul>
+<h2>アチーブメントのインポート </h2>
+<p>Snap Hutaoは、<a href="https://uigf.org/zh/standards/uiaf.html" target="_blank" rel="noopener noreferrer">UIAF 統一交換可能アチーブメント標準</a>を介したアチーブメントデータのインポートをサポートしています。</p>
+<ul>
+<li>ユーザーは、URLプロトコルまたはクリップボードを介して、<strong>サードパーティのアチーブメントエクスポートツール</strong>からデータをインポートできます。</li>
+<li>アチーブメントページの右上隅にある隠しメニューの「インポート」ボタンをクリックし、「UIAFファイルからインポート」を選択して、UIAFデータ形式に準拠したアチーブメントデータをロードします。</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">ヒント</p>
+<p>複数のバージョンのSnap Hutao（Alpha版や正式版など）をインストールしている場合、<code>URL:hutao</code>リンクのデフォルトのターゲットアプリケーションを変更する必要があります。「Windows設定」-「アプリ」-「デフォルトアプリ」-「プロトコル別のデフォルトアプリを指定」で<code>URL:hutao</code>項目を見つけ、アイコンをクリックして変更できます。</p>
+</div>
+<h2>アチーブメントのエクスポート </h2>
+<p>アチーブメントページの右上隅にある隠しメニューの「エクスポート」ボタンをクリックし、ディレクトリを選択してファイル名を指定すると、アチーブメントデータはUIAF形式でエクスポートされ、指定された場所に保存されます。</p>
+<h2>アーカイブの削除</h2>
+<p>ユーザーは、右上隅の隠しメニューの「現在のアーカイブを削除」オプションを使用して、現在のアチーブメントアーカイブを削除できます。</p>
+<h2>推奨されるアチーブメント認識ツール</h2>
+<ul>
+<li><a href="https://github.com/HolographicHat/YaeAchievement" target="_blank" rel="noopener noreferrer">YaeAchievement</a> </li>
+<li><a href="https://cocogoat.work/" target="_blank" rel="noopener noreferrer">椰羊 cocogoat</a> </li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01fApvim1g6e0xyGQvS_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>私のキャラクター</title>
+      <link>https://hut.ao/jp/features/character-data.html</link>
+      <guid>https://hut.ao/jp/features/character-data.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">私のキャラクター</source>
+      <description>Snap Hutaoの「私のキャラクター」機能は、原神アカウントのキャラクター詳細データを読み取り、レベル、命ノ星座、天賦、聖遺物などの属性を含む分析を提供します。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>このドキュメントはGoogle Geminiモデルによって翻訳されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<div class="hint-container info">
+<p class="hint-container-title">前提条件</p>
+<p>この機能を使用するには、miHoYo BBSまたはHoYoLABアカウントにログインする必要があります。具体的なログイン方法については、<a href="/jp/features/mhy-account-switch.html#miHoYo-BBS%E5%A4%9A%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E5%88%87%E3%82%8A%E6%9B%BF%E3%81%88" target="_blank">miHoYo BBS多アカウント切り替え</a>を参照してください。</p>
+</div>
+<p>「私のキャラクター」機能は、ユーザーの現在のアカウントにあるすべてのキャラクターの詳細データを読み取ることができ、レベル、命ノ星座、武器、天賦、聖遺物などの内容が含まれており、プレイヤーがキャラクターの育成と管理を最適化するのに役立ちます。</p>
+<p><img src="/images/202501/characters_data.webp" alt="グリッドビューの概略図" loading="lazy"></p>
+<h2>キャラクター情報の同期</h2>
+<p>右上にある「キャラクター情報を同期」ボタンをクリックすると、以下のデータが更新されます。</p>
+<ul>
+<li>キャラクターレベルとキャラクター命ノ星座</li>
+<li>好感度</li>
+<li>武器レベルと精錬ランク</li>
+<li>天賦レベル</li>
+<li>衣装情報</li>
+<li>聖遺物とその詳細属性</li>
+</ul>
+<h2>現在選択中のキャラクターを育成計算に追加する</h2>
+<ol>
+<li>キャラクターデータが同期されていることを確認してください。</li>
+<li>「私のキャラクター」機能ページで、育成計算に追加するキャラクターを選択します。</li>
+<li>右上にある「育成計算 - 現在のキャラクターと武器」ボタンをクリックします。</li>
+</ol>
+<ul>
+<li>システムは、同期されたキャラクターレベル、天賦レベル、武器レベルを自動的に事前入力します。ユーザーは目標レベルを自由に修正できます。</li>
+</ul>
+<p><img src="/images/202501/character_develop.webp" alt="育成例の画像" loading="lazy"></p>
+<p>追加が完了すると、「育成計画」機能ページで設定された育成目標を確認できます。</p>
+<p>詳細な機能説明については、<a href="/jp/features/develop-plan.html#%E8%82%B2%E6%88%90%E8%A8%88%E7%94%BB" target="_blank">育成計画</a>ドキュメントを参照してください。</p>
+<h2>キャラクター詳細をクリップボードにエクスポートする</h2>
+<p>「私のキャラクター」ページでは、キャラクターデータをテキスト形式でエクスポートできます。</p>
+<ul>
+<li>対象のキャラクターを選択後、右上にある「テキストをクリップボードにエクスポート」ボタンをクリックします。</li>
+<li>エクスポートされたデータはシステムクリップボードに保存され、直接貼り付けて共有できます。</li>
+<li>テキストスタイルの例は以下のとおりです。</li>
+</ul>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" data-title="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>// =====================</span></span>
+<span class="line"><span>// 神里綾華 [Lv.90, ☆5, C6] [Lv.10, Lv.13 (10 +3), Lv.13 (10 +3)]</span></span>
+<span class="line"><span>//</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+      <enclosure url="https://hut.ao/images/202501/characters_data.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>キャラクター資料</title>
+      <link>https://hut.ao/jp/features/character-wiki.html</link>
+      <guid>https://hut.ao/jp/features/character-wiki.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">キャラクター資料</source>
+      <description>Snap HutaoのキャラクターWIKI機能は、原神のキャラクターの基本情報、天賦の数値、命ノ星座などの重要なデータを統合し、プレイヤーに便利なキャラクター情報検索を提供します。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01OKw2Tc1g6e0qbmLe0_!!1797064093.png_.webp" alt="characters-wiki" loading="lazy"></p>
+<p>キャラクター資料はSnap Hutaoに内蔵された総合検索ツールで、原神のキャラクターの基本情報、天賦の数値、命ノ星座、育成素材などの詳細なデータを網羅し、プレイヤーにワンストップの情報検索サービスを提供します。</p>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h2>含まれるデータ</h2>
+<ul>
+<li><strong>キャラクターリスト</strong>
+<ul>
+<li>リストの左上にあるボタンで表示モードを切り替えます：
+<ul>
+<li>「リスト」モードでは、キャラクターのアイコン、名前、詳細情報が表示されます。</li>
+<li>「グリッド」モードでは、キャラクターのアイコンと名前のみが表示されます。</li>
+</ul>
+</li>
+<li>「グリッド」モードでキャラクターのサムネイルまたは名前をクリックすると、「リスト」ビューに切り替わり、対応するキャラクター紹介ページに移動します。</li>
+</ul>
+</li>
+<li><strong>データ内容</strong>
+<ul>
+<li><strong>キャラクター基本情報</strong>
+<ul>
+<li>キャラクターの基本情報、CV情報、属性と育成素材が含まれます。</li>
+<li>各レベルにおける詳細な属性数値。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>天賦</strong>
+<ul>
+<li>基本紹介と各レベルの詳細な数値：
+<ul>
+<li>通常攻撃</li>
+<li>元素スキル</li>
+<li>元素爆発</li>
+<li>固有天賦</li>
+</ul>
+</li>
+<li>対応するレベルの天賦数値表示に切り替えることをサポートします。</li>
+</ul>
+</li>
+<li><strong>命ノ星座</strong></li>
+<li><strong>おすすめ編成</strong>
+<ul>
+<li>「Snap Hutaoデータベース」の統計情報に基づいて提供される、一般的なキャラクターのチーム編成、武器編成、聖遺物編成のおすすめ。</li>
+</ul>
+</li>
+<li><strong>その他の情報</strong>
+<ul>
+<li>キャラクターの立ち絵、名刺、アイコン、特製料理、衣装情報、キャラクター資料および背景ストーリーが含まれます。</li>
+</ul>
+</li>
+</ul>
+<h2>WIKIからキャラクターを育成計画に追加</h2>
+<ul>
+<li>キャラクター資料ページで、キャラクターを選択した後、右上の「育成計画に追加」ボタンをクリックすると、そのキャラクターを育成計画に追加できます。
+<ul>
+<li>デフォルトでは、育成計画はキャラクターのレベル1から開始します（ユーザーが調整可能）。</li>
+<li>現在のキャラクターに基づいて育成計画を作成する必要がある場合は、「<a href="/jp/features/character-data.html#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97" target="_blank">自分のキャラクター</a>」ページで育成計算機能を使用できます。詳細な操作については、<a href="/jp/features/develop-plan.html#%E5%9F%BA%E4%BA%8E%E7%8E%A9%E5%AE%B6%E6%95%B0%E6%8D%AE%E6%B7%BB%E5%8A%A0" target="_blank">このチュートリアル</a>を参照してください。</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01OKw2Tc1g6e0qbmLe0_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>ホーム画面ダッシュボード</title>
+      <link>https://hut.ao/jp/features/dashboard.html</link>
+      <guid>https://hut.ao/jp/features/dashboard.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">ホーム画面ダッシュボード</source>
+      <description>Snap Hutaoのホーム画面ダッシュボードでは、アカウントの概要、リアルタイムのゲーム内お知らせ、イベントのカウントダウンなどの機能を提供し、ユーザーがゲーム情報を効率的に管理するのに役立ちます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h1>ホーム画面ダッシュボード</h1>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Nlz8ca1g6e0tyxrBa_!!1797064093.png_.webp" alt="ダッシュボード" loading="lazy"></p>
+<p>Snap Hutaoを起動すると、デフォルトでホーム画面ダッシュボードが表示されます。ダッシュボードは上下2つの部分に分かれており、上半分には個人のゲームデータ概要がカード形式で表示され、下半分には最近のゲーム内お知らせやイベントのカウントダウンが表示されます。ホーム画面のカードは設定で非表示にしたり、再度有効にしたりできます。</p>
+<h2>機能概要</h2>
+<ul>
+<li>
+<p><strong>Snap Hutao お知らせ</strong></p>
+<ul>
+<li>開発チームが新しいお知らせを公開した場合、ダッシュボードの上部に表示されます。ほとんどのお知らせは非表示にすることができます。</li>
+</ul>
+</li>
+<li>
+<p><strong>ゲームランチャー</strong></p>
+<ul>
+<li>ユーザーはダッシュボードから直接アカウントを選択してゲームを起動できます。
+<ul>
+<li>「miHoYo / HoYoLABでログイン」オプションを有効にした場合、アカウント選択機能は使用できません。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>祈願記録</strong></p>
+<ul>
+<li>現在の祈願記録のUIDを表示し、天井までのカウントをプログレスバー形式で表示します。</li>
+<li>複数の祈願記録を持つユーザーは、祈願記録エリアの両側にある矢印ボタンで記録を切り替えることができます。</li>
+</ul>
+</li>
+<li>
+<p><strong>アチーブメント統計</strong></p>
+<ul>
+<li>アチーブメント記録の達成したアチーブメントの総数、達成率、および最近獲得したアチーブメントを表示します。</li>
+<li>複数のアチーブメント記録を持つユーザーは、アチーブメント統計エリアの両側にある矢印ボタンで記録を切り替えることができます。</li>
+</ul>
+</li>
+<li>
+<p><strong>リアルタイム便箋</strong></p>
+<ul>
+<li>リアルタイム便箋データへのクイックアクセスを提供します。</li>
+<li>複数のリアルタイム便箋を持つユーザーは、リアルタイム便箋エリアの両側にある矢印ボタンで記録を切り替えることができます。</li>
+</ul>
+</li>
+<li>
+<p><strong>カレンダー機能</strong></p>
+<ul>
+<li>当日誕生日のキャラクター、および現在周回可能な天賦、キャラクター、武器素材を表示します。
+<ul>
+<li>「育成計画」に当日周回可能な素材が含まれている場合、関連するアイコンが強調表示されます。</li>
+</ul>
+</li>
+<li>カレンダーデータは現在のコンピュータ時間に基づいています。ユーザーは設定で特定のサーバーのタイムゾーンのデータに変更できます。</li>
+</ul>
+</li>
+<li>
+<p><strong>ゲーム内お知らせ</strong></p>
+<ul>
+<li>リアルタイムのゲーム内お知らせをすばやく閲覧できます。</li>
+<li>デフォルトのデータソースは中国サーバーの公式お知らせです。ユーザーは設定で他のデータソースに切り替えることができます。</li>
+</ul>
+</li>
+</ul>
+<p>ダッシュボードは、プレイヤーが「原神」に関連するすべての重要な情報を効率的に管理し、便利な機能エントリと豊富なデータ表示を提供するように設計されています。</p>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Nlz8ca1g6e0tyxrBa_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>育成計画</title>
+      <link>https://hut.ao/jp/features/develop-plan.html</link>
+      <guid>https://hut.ao/jp/features/develop-plan.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">育成計画</source>
+      <description>Snap Hutaoの育成計画機能は、キャラクターと武器の育成リストを作成し、育成進捗と必要な素材を追跡するのに役立ちます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p><img src="/images/202501/character_develop_plan.webp" alt="dev-plan" loading="lazy"></p>
+<div class="hint-container tip">
+<p class="hint-container-title">ヒント</p>
+<p>緑色のアイコンは、当日に入手可能な素材を示します。</p>
+</div>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h2>育成目標を素材リストに追加する</h2>
+<h3>Wikiデータに基づいて追加</h3>
+<ol>
+<li>Snap Hutaoの左側のメニューから、「キャラクターデータ」または「武器データ」機能をクリックします。</li>
+<li>画面右上の「育成計算」ボタンをクリックします。</li>
+<li>表示された「現在の育成計画に追加または更新」ウィンドウで、キャラクターまたは武器の開始レベルと目標レベルを入力します。</li>
+</ol>
+<ul>
+<li>Wikiデータに基づいて追加された育成目標の初期レベルは、デフォルトでレベル1です（必要に応じて調整可能）。</li>
+</ul>
+<h3>プレイヤーデータに基づいて追加</h3>
+<ol>
+<li>左側のメニューから、「自分のキャラクター」機能ページをクリックし、育成計画に追加するキャラクターを選択します。</li>
+<li>画面右上の「育成計算-現在のキャラクターと武器」ボタンをクリックします。</li>
+<li>表示された「現在の育成計画に追加または更新」ウィンドウで、キャラクターの開始レベルと目標レベルを入力します。</li>
+</ol>
+<ul>
+<li>プレイヤーデータに基づいて追加された育成目標の初期レベルは、デフォルトでキャラクターの現在のレベルです。</li>
+<li>詳細については、<a href="/jp/features/character-data.html#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97" target="_blank">自分のキャラクター</a>ドキュメントを参照してください。</li>
+</ul>
+<h2>新規計画を作成し、ゲーム内バッグアイテムを同期する</h2>
+<ol>
+<li>左側のメニューから、「育成計画」機能をクリックします。</li>
+<li>右上の「新規計画」をクリックし、名前を付けます。</li>
+<li><a href="/jp/features/character-data.html#%E5%B0%86%E5%BD%93%E5%89%8D%E9%80%89%E5%AE%9A%E8%A7%92%E8%89%B2%E5%8A%A0%E5%85%A5%E5%85%BB%E6%88%90%E8%AE%A1%E7%AE%97" target="_blank">現在の選択されたキャラクターを育成計算に追加</a>または<a href="/jp/features/character-wiki.html#%E5%B0%86-wiki-%E4%B8%AD%E8%A7%92%E8%89%B2%E6%B7%BB%E5%8A%A0%E8%87%B3%E5%85%BB%E6%88%90%E8%AE%A1%E5%88%92" target="_blank">Wikiからキャラクターを育成計画に追加</a>の指示に従って、キャラクターを新しい計画に追加します。
+<ul>
+<li>少なくとも1つ以上のレベルまたは武器レベルが最大でないキャラクターを追加してください。最大レベルのキャラクターは育成計画に追加できません。</li>
+</ul>
+</li>
+<li>「バッグアイテム」タブに切り替え、「バッグアイテムを同期」ボタンをクリックします。
+<ul>
+<li>現在ログインしているアカウントのゲームバッグアイテムが自動的に同期されます。</li>
+<li>「バッグアイテムを同期」ボタンの左側にあるドロップダウンリストボックスを使用して、異なるアカウントの異なる育成計画を選択できます。</li>
+<li>いずれかのアイテムアイコンまたは数字領域をクリックして、材料の数を手動で編集できます。</li>
+<li>変更されたアイテム情報は、選択した育成計画に自動的に関連付けられます。</li>
+</ul>
+</li>
+<li>「素材統計」ページで、素材を入手するための推定日数を表示します。</li>
+</ol>
+<p><img src="/images/202501/character_develop_predict.webp" alt="体力予估功能" loading="lazy"></p>
+<div class="hint-container tip">
+<p class="hint-container-title">ヒント</p>
+<p>アイテム名と画像が一致しない場合や、スタックなどの表示問題が発生した場合は、ページを切り替えてからこのページに戻ると解決します。この問題はMicrosoftが原因であり、現在完全に修正することはできません。</p>
+</div>
+<h2>育成計画を削除する</h2>
+<p>Snap Hutaoの画面右上部分で、「計画を削除」ボタンをクリックして、現在の育成計画を削除します。削除後、その計画のキャラクター情報、バッグアイテム情報などのデータも一緒に削除されます。</p>
+]]></content:encoded>
+      <enclosure url="https://hut.ao/images/202501/character_develop_plan.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>フィードバックセンター</title>
+      <link>https://hut.ao/jp/features/feedback-center.html</link>
+      <guid>https://hut.ao/jp/features/feedback-center.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">フィードバックセンター</source>
+      <description>Snap Hutaoに内蔵されたフィードバックセンターには、Snap Hutaoプロジェクトの重要なリンクが含まれており、ドキュメント内検索エンジンが内蔵されており、ユーザーがよくある問題を迅速に解決するのに役立ちます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01yGGrhz1g6e0u3q5L6_!!1797064093.png_.webp" alt="ダッシュボード" loading="lazy"></p>
+<p>フィードバックセンターは、Snap Hutao開発チームがユーザーのよくある問題解決を支援するために提供する機能ページです。このページは左右構造のレイアウトを採用しています。</p>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h2>左側の機能：ドキュメント検索</h2>
+<p>ページの左側は、内蔵ドキュメントの検索入口です。ユーザーは検索ボックスにキーワードを入力することで、関連ページや解決策を素早く見つけることができます。</p>
+<h2>右側の機能：情報とリンク</h2>
+<p>ページの右側には、以下の機能モジュールが含まれています。</p>
+<ul>
+<li>
+<p><strong>第一部：実用的な重要な情報</strong></p>
+<ul>
+<li><strong>デバイスID</strong>：現在のデバイスを一意に識別するもので、バグのフィードバックやエラーログの取得によく使用されます。</li>
+<li><strong>デバイスのネットワーク情報</strong>：IPアドレスとネットワーク状態が含まれます。
+<ul>
+<li>プロキシソフトの実装方法の違いにより、一部のプロキシは検出されない可能性があり、「プロキシ有効」の状態でも「プロキシなし」と表示されるのは正常です。</li>
+<li>Alphaバージョンは常に所在地が海外と表示されますが、これは意図された動作です。</li>
+</ul>
+</li>
+<li><strong>Webview2ランタイムバージョン</strong>：ツールボックスの実行に必要なWebview2のバージョン番号を表示します。</li>
+</ul>
+</li>
+<li>
+<p><strong>第二部：よく使うリンク</strong></p>
+<ul>
+<li><strong>GitHub Issues</strong>：GitHubのイシュー追跡ページに素早く移動でき、ユーザーが問題を提出したり、既存の解決策を確認したりするのに便利です。</li>
+<li>胡桃(Snap Hutao)サービスの可用性監視ページにアクセスして、サービスの状態を確認できます。</li>
+</ul>
+</li>
+<li>
+<p><strong>第三部：機能ガイド</strong></p>
+<ul>
+<li>Snap Hutaoの主要機能（「ホーム」、「ゲーム起動」、「祈願記録」、「アチーブメント管理」など）のドキュメントリンクを提供し、ユーザーがドキュメントの入口を素早く特定できるようにします。</li>
+</ul>
+</li>
+</ul>
+<h2>インターフェースの最適化と注意事項</h2>
+<ul>
+<li>フィードバックセンターのページでデータが正常に表示または読み込まれない場合は、アプリケーションを再起動するか、ネットワーク接続を確認してください。</li>
+<li>一部の表示問題は、ユーザー環境（プロキシ設定やシステムバージョンなど）に関連している可能性があるため、表示されるヒントに従って具体的な問題の調査をお勧めします。</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01yGGrhz1g6e0u3q5L6_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>高度なランチャー</title>
+      <link>https://hut.ao/jp/features/game-launcher.html</link>
+      <guid>https://hut.ao/jp/features/game-launcher.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">高度なランチャー</source>
+      <description>Snap Hutao の高度なランチャーは、カスタム起動パラメータ、サーバー切り替え、フレームレート制限解除などの機能をサポートし、ユーザーのゲーム体験を大幅に向上させます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<h1>高度なランチャー</h1>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp" alt="ゲームランチャー" loading="lazy"></p>
+<p>Snap Hutao の高度なランチャーは、多様な設定オプションを通じて、より柔軟なゲーム起動体験を提供します。</p>
+<h2>初期設定</h2>
+<ul>
+<li>左側のメニューバーの「ゲーム起動」をクリックして、高度なランチャー機能にアクセスします。
+<ul>
+<li>初めて使用する場合は、設定ページに移動し、ゲームのパスを設定する必要があります。</li>
+<li><strong>ゲームのメインプログラムのパス（<code>YuanShen.exe</code>）を選択してください。ランチャーのパス（<code>launcher.exe</code>）ではありません。</strong>
+<ul>
+<li>パスの例：<code>D:\miHoYo Launcher\games\Genshin Impact Game\YuanShen.exe</code></li>
+</ul>
+</li>
+<li>ゲームのパスが正常に検出されたら、「確認」をクリックします。</li>
+<li>ゲームがインストールされていない場合は、「ゲームをインストール」ボタンをクリックし、プロンプトに従ってインストールディレクトリを設定すると、Snap Hutao が自動的にゲームをダウンロードしてインストールします。</li>
+</ul>
+</li>
+<li>設定が完了したら、右上の「ゲーム起動」ボタンをクリックしてゲームを起動します。</li>
+</ul>
+<h2>サーバーの切り替え</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">権限のヒント</p>
+<p>この機能を使用するには、管理者権限で Snap Hutao を実行する必要があります。
+Snap Hutao は、データディレクトリに <code>ServerCache</code> という名前のフォルダを作成し、サーバーを切り替えるために必要なファイルを保存し、自動的に更新をチェックします。</p>
+</div>
+<ol>
+<li>「ゲーム起動」ページに移動します。</li>
+<li>「サーバー」項目で、目的のサーバーを選択します。</li>
+</ol>
+<p><strong>選択可能なサーバーは次のとおりです。</strong></p>
+<p>| オプション                  | サーバー                                                                 |
+|</p>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>胡桃データベース / 深淵統計</title>
+      <link>https://hut.ao/jp/features/hutao-API.html</link>
+      <guid>https://hut.ao/jp/features/hutao-API.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">胡桃データベース / 深淵統計</source>
+      <description>Snap Hutaoに内蔵されている胡桃データベース機能は、プレイヤーが深境螺旋の挑戦データをアーカイブおよび検索し、包括的な統計分析を提供し、データベースへのデータアップロードをサポートします。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<p>Snap Hutaoは、主に以下の2つの深境螺旋挑戦統計機能を提供します。</p>
+<ul>
+<li><strong>分期詳細</strong>：プレイヤーが各期の深境螺旋挑戦データを保存し、個人のデータレビューや統計を容易にします。</li>
+<li><strong>今期統計</strong>：胡桃データベースにアップロードされたすべてのプレイヤーの深境螺旋データを表示し、プレイヤーにキャラクターとチームの使用に関する参考情報を提供します。
+<ul>
+<li>「今期統計」は、プレイヤーが提出した「分期詳細」データに依存します。</li>
+</ul>
+</li>
+</ul>
+
+<h2>深淵データの表示</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">データ範囲の限界</p>
+<p>すべての計算は<strong>胡桃データベースにアップロードされたプレイヤーデータ</strong>に基づいており、すべての『原神』プレイヤーの平均データを代表するものではない可能性があり、参考としてのみ利用してください。</p>
+</div>
+<div class="hint-container info">
+<p class="hint-container-title">データ更新周期</p>
+<ol>
+<li>深境螺旋統計データ（キャラクター使用率、キャラクター出場率、チーム出場回数）は、アカウントが所属するサーバーのタイムゾーンで毎月1日と16日の4時に自動的に更新されます。</li>
+<li>ユーザーが30日以内にデータを再アップロードしなかった場合、そのキャラクターの所持記録はクリアされます。</li>
+</ol>
+</div>
+<ul>
+<li>左側のメニューバーをクリックして「深境螺旋」ページに進み、「今期統計」タブを選択します。</li>
+<li>データの表示：
+<ul>
+<li><strong>キャラクター使用率</strong>：
+<ul>
+<li>計算式：キャラクター使用率 = キャラクターが現在の層に出場した回数<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup><a class="footnote-anchor" id="footnote-ref1"> / そのキャラクターを所持しているプレイヤーのその層での記録の合計数。</a></li><a class="footnote-anchor" id="footnote-ref1">
+</a></ul><a class="footnote-anchor" id="footnote-ref1">
+</a></li><a class="footnote-anchor" id="footnote-ref1">
+</a><li><a class="footnote-anchor" id="footnote-ref1"><strong>キャラクター出場率</strong>：
+</a><ul><a class="footnote-anchor" id="footnote-ref1">
+</a><li><a class="footnote-anchor" id="footnote-ref1">計算式：キャラクター出場率 = キャラクターが現在の層に出場した回数<sup class="footnote-ref"></sup></a><a href="#footnote2">[2]</a><a class="footnote-anchor" id="footnote-ref2"> / 現在の層の記録の合計数。</a></li><a class="footnote-anchor" id="footnote-ref2">
+</a></ul><a class="footnote-anchor" id="footnote-ref2">
+</a></li><a class="footnote-anchor" id="footnote-ref2">
+</a><li><a class="footnote-anchor" id="footnote-ref2"><strong>キャラクター所持率</strong>：
+</a><ul><a class="footnote-anchor" id="footnote-ref2">
+</a><li><a class="footnote-anchor" id="footnote-ref2">計算式：キャラクター所持率<sup class="footnote-ref"></sup></a><a href="#footnote3">[3]</a><a class="footnote-anchor" id="footnote-ref3"> = そのキャラクターを所持しているプレイヤー数 / 全プレイヤー数。</a></li><a class="footnote-anchor" id="footnote-ref3">
+</a></ul><a class="footnote-anchor" id="footnote-ref3">
+</a></li><a class="footnote-anchor" id="footnote-ref3">
+<li><strong>チーム出場回数</strong>：チーム編成の出場回数ランキングを表示します。</li>
+</a></ul><a class="footnote-anchor" id="footnote-ref3">
+</a></li><a class="footnote-anchor" id="footnote-ref3">
+</a></ul><a class="footnote-anchor" id="footnote-ref3">
+</a><h2><a class="footnote-anchor" id="footnote-ref3"></a><a class="header-anchor" href="#深境螺旋データのアップロード"><span>深境螺旋データのアップロード</span></a></h2>
+<h3>Snap Hutaoクライアントを使用する</h3>
+<div class="hint-container important">
+<p class="hint-container-title">胡桃クラウド権限報酬</p>
+<p>初めてデータの送信に成功すると、報酬として3日間の「胡桃クラウド祈願記録サービス」権限が付与されます（12層をクリアしていなくても）。</p>
+</div>
+<ol>
+<li>左側のメニューバーをクリックして「深境螺旋」ページに進みます。</li>
+<li>右上の「データを更新」をクリックして、ツールボックスが最新の個人深境螺旋データを取得していることを確認します。</li>
+<li>「データをアップロード」ボタンをクリックしてデータを送信します。</li>
+</ol>
+<ul>
+<li>アップロードには数秒かかる場合があり、完了すると成功メッセージが表示されます。</li>
+</ul>
+<h3>ブラウザを使用する</h3>
+<div class="hint-container info">
+<p class="hint-container-title">関連情報</p>
+<p>この方法はHoYoLABには適用されません。</p>
+</div>
+<ol>
+<li><a href="/upload-abyss-data.js">JavaScriptスクリプト</a>のリンクを開き、コードをコピーします。</li>
+<li>ブラウザで新しいブックマークを作成します。
+<ul>
+<li>適切な名前を入力します。</li>
+<li>コピーしたコードをブックマークURLに貼り付けます。
+<img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01p0KOqU1g6dvfDQO6e_!!1797064093.png_.webp" alt="add-bookmark" loading="lazy"></li>
+</ul>
+</li>
+<li>miHoYo BBSを開き、ページの読み込みが完了するのを待ってから、ブックマークをクリックします。</li>
+<li>アップロードプロンプトを確認して、アップロードを完了します。</li>
+</ol>
+<h2>データ共有</h2>
+<p>Snap Hutaoは、他の開発者と共同で胡桃データベースを維持しています。ユーザーは複数のアプリケーションで深淵統計データを表示およびアップロードできます。現在、提携しているアプリケーションは以下のとおりです。</p>
+<div class="vp-card-container">
+</div>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="footnote1" class="footnote-item"><p>現在の層の異なる間で複数回登場する同じキャラクターは、出場回数1回としてカウントされます。 <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="footnote2" class="footnote-item"><p>現在の層の異なる間で複数回登場する同じキャラクターは、出場回数1回としてカウントされます。 <a href="#footnote-ref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="footnote3" class="footnote-item"><p>そのキャラクターを所持していると、深境螺旋に登場しなくても所持状態としてカウントされます。記録をアップロードすると、全プレイヤー統計にカウントされます。 <a href="#footnote-ref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>胡桃アカウント</title>
+      <link>https://hut.ao/jp/features/hutao-passport.html</link>
+      <guid>https://hut.ao/jp/features/hutao-passport.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">胡桃アカウント</source>
+      <description>胡桃アカウントはSnap Hutaoプロジェクトにおけるアカウントシステムで、プレイヤーは胡桃クラウドシステムにログインし、関連する特典を得ることができます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[<p><img src="/images/202501/hutao_account.webp" alt="account_page" loading="lazy"></p>
+<h1>胡桃アカウント</h1>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<p>胡桃アカウントは、DGP-Studioチームが作成したSnap Hutaoのためのアカウントシステムであり、胡桃クラウドの祈願記録サービスなど、クラウドサービスに関連する機能を利用するために使用されます。Snap Hutaoクライアントの左側のメニューバーをクリックして胡桃パスポートページに移動し、胡桃アカウントの確認と管理を行うことができます。</p>
+<h2>クラウドサービスの説明</h2>
+<p>クラウド関連の機能は大量のサービスリソースを消費するため、時間制限があります。現在、胡桃クラウド同期機能を有効にするには、以下の方法があります。</p>
+<ol>
+<li>愛発電で胡桃を支援してくださるユーザーには、愛発電のメールアカウントに対応する胡桃アカウントに、Snap Hutao開発チームからの感謝として自動的に利用時間が追加されます。
+<ul>
+<li>支払い後、メールの領収書が届くはずです。胡桃アカウントの右側にある「更新」ボタンをクリックして、更新ステータスを更新できます。データ同期の遅延により、更新に失敗した場合は、約5分待ってから再度更新を試してください。</li>
+</ul>
+</li>
+<li>すべての登録ユーザーは、<strong>各期</strong>の深境螺旋において、各原神アカウントが<strong>初めて</strong>深境螺旋の挑戦記録を胡桃データベースに正常にアップロードすると、祈願同期機能の3日間の利用時間が付与されます。
+<ul>
+<li>この方法で、胡桃クラウド祈願記録サービスを長期的に無料で利用することができます。</li>
+</ul>
+</li>
+<li><strong>Snap Hutaoオープンソースコミュニティに貢献（コード開発、プログラム設計、ローカライズ翻訳などを含むがこれに限らない）したユーザーは、開発チームに直接連絡して開発者ライセンスまたは交換コードを入手できます。</strong></li>
+</ol>
+<h2>胡桃クラウド祈願記録サービス</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>胡桃アカウントのクラウド同期権限が期限切れになると、データのアップロード、ダウンロード、削除はできなくなりますが、データが削除されることはありません。権限を回復した後、クラウドバックアップデータを再度操作できます。</p>
+</div>
+<p>胡桃クラウド権限をお持ちの場合は、以下の権限が付与されます。</p>
+<ol>
+<li>祈願記録ページの「予測」機能</li>
+<li>祈願記録のクラウド同期機能</li>
+</ol>
+<div class="hint-container info">
+<p class="hint-container-title">胡桃アカウントと原神アカウントの対応関係</p>
+<p>注：原神アカウントのデータと胡桃アカウントは「<strong>多対一</strong>」の関係です。つまり、1つの胡桃アカウントは複数の原神アカウントの祈願データに関連付けることができ、1つの原神アカウントは1つの胡桃アカウントにのみ関連付けることができます。</p>
+<p>中古アカウントの購入などの理由により、祈願記録をアップロードできない場合は、データの安全性を考慮して、前の所有者と協議して解決してください。Snap Hutaoは、関連する祈願の競合問題を解決することはできず、また解決することもしません。</p>
+</div>
+<h2>胡桃クラウドCDNサービス</h2>
+<p>この機能により、ユーザーは中国国内に展開されたサーバーを通じてSnap Hutaoの更新プログラムをダウンロードできます。通常、この方法を使用すると、中国本土のユーザーのダウンロード速度を大幅に向上させることができます。</p>
+<h2>メールアドレスの変更/パスワードの変更/アカウントの削除/アカウントステータスの更新</h2>
+<p>それぞれの必要に応じて、関連するボタンをクリックしてください。パスワードの変更、メールアドレスの変更後、変更後のアカウントに自動的にログインします。</p>
+<p>「愛発電」などのサイトで胡桃を支援しているにもかかわらず、アカウントのステータスが変わらない場合は、アカウントの右側にある「更新」ボタンをクリックして、手動でステータスを更新できます。5分待っても手動更新でステータスが正しく表示されない場合は、開発者にご連絡ください。</p>
+]]></content:encoded>
+      <enclosure url="https://hut.ao/images/202501/hutao_account.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>ソフトウェア設定</title>
+      <link>https://hut.ao/jp/features/hutao-settings.html</link>
+      <guid>https://hut.ao/jp/features/hutao-settings.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">ソフトウェア設定</source>
+      <description>Snap Hutaoの設定ページには、プログラムのあらゆる側面に関する設定オプションが含まれており、ユーザーはこのページの設定を変更することで、Snap Hutaoを望む使用効果にカスタマイズできます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01wDQfRa1g6e0ylR4ov_!!1797064093.png_.webp" alt="settings" loading="lazy"></p>
+<p>以下は、Snap Hutao内の設定機能の項目順に紹介します。</p>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<h2>Snap Hutaoについて</h2>
+<p>この部分には、以下の情報が含まれています。</p>
+<ul>
+<li>Snap Hutaoのアイコン：Snap Hutaoの<a href="/" target="_blank">ホームページ</a>で元の画像を確認できます。</li>
+<li><a href="https://github.com/DGP-Studio" target="_blank" rel="noopener noreferrer">DGP-Studio</a> は、このアイコンの使用に関する関連ライセンスを取得しています。</li>
+</ul>
+<h2>管理者モードツール</h2>
+<p>設定ページの右側には、必要なユーザー向けに管理者モードツールが用意されています。</p>
+<ul>
+<li><strong>ショートカットの作成</strong>：デスクトップに管理者としてSnap Hutaoを起動するショートカットを作成します。</li>
+<li><strong>管理者として再起動</strong>：タスクバー右下のSnap Hutaoアイコンを右クリックし、表示されるメニューから「管理者として再起動」を選択して管理者権限を取得します。</li>
+</ul>
+<h2>無感知認証</h2>
+<ul>
+<li>毎日のサインインとリアルタイム便利機能がmiHoYoの <code>-1034</code> エラーをトリガーする場合、この設定でサードパーティの認証サービスを設定して、Geetest認証を自動的にパスできます。</li>
+<li>設定が成功すると、リアルタイム便利機能とサインインが自動的に認証を完了し、リクエストの失敗を回避します。</li>
+</ul>
+<h2>外観設定</h2>
+<ul>
+<li><strong>言語</strong>：デフォルトではシステム言語に従いますが、ユーザーは表示言語を強制的に設定できます。</li>
+<li><strong>週の開始日</strong>：ゲームカレンダーの最初の列に表示される日付を設定します。</li>
+<li><strong>背景素材</strong>：
+<ul>
+<li>オプションには、なし、アクリル、雲母（Windows 11のみ）、および変種雲母（Windows 11のみ）が含まれます。</li>
+</ul>
+</li>
+<li><strong>カラーテーマ</strong>：ライトテーマとダークテーマを切り替えることができます。デフォルトではシステム設定に従います。</li>
+<li><strong>背景画像</strong>：
+<ul>
+<li>オプションには、背景画像なし、ローカルのランダム画像、Bingの毎日の画像、Snap Hutaoの今日の1枚、公式ランチャーの壁紙が含まれます。</li>
+</ul>
+</li>
+<li><strong>通知領域アイコン</strong>：通知領域にSnap Hutaoアイコンを表示するかどうかを選択します。</li>
+</ul>
+<h2>ストレージ管理</h2>
+<ul>
+<li><strong>データフォルダ</strong>：
+<ul>
+<li><strong>フォルダを開く</strong>：ユーザーデータとメタデータを含むフォルダを開きます。</li>
+<li><strong>データディレクトリの変更</strong>：データフォルダの保存場所を変更します。</li>
+<li><strong>サーバー切り替えキャッシュの削除</strong>：ゲームのサーバー切り替え機能によって生成されたキャッシュをクリアします。</li>
+</ul>
+</li>
+<li><strong>キャッシュフォルダ</strong>：
+<ul>
+<li><strong>フォルダを開く</strong>：画像キャッシュを含むフォルダを開きます。</li>
+<li><strong>画像リソースのリセット</strong>：画像リソースを削除して再ダウンロードします。</li>
+</ul>
+</li>
+</ul>
+<h2>ショートカットキー設定</h2>
+<div class="hint-container info">
+<p class="hint-container-title">管理者権限が必要です</p>
+<p>ショートカットキー設定を変更するには、Snap Hutaoを管理者モードで起動する必要があります。</p>
+</div>
+<ul>
+<li>マウスの自動クリックとキーボードショートカット機能を設定します。</li>
+<li>ショートカットキーの登録に失敗した場合（権限不足または競合）、インターフェースの下部に通知が表示され、ユーザーは再設定する必要があります。</li>
+</ul>
+<h2>ホームページ設定</h2>
+<ul>
+<li><strong>ホームページカード</strong>：特定の機能カード（ゲームの起動、祈願記録など）を表示するかどうかを設定します。</li>
+<li><strong>カレンダーサーバー</strong>：ゲームカレンダーのデータソースを変更します。</li>
+<li><strong>お知らせサーバー</strong>：ゲームお知らせのデータソースを変更します。</li>
+</ul>
+<h2>ゲーム設定</h2>
+<ul>
+<li><strong>ゲームWebページキャッシュの削除</strong>：祈願記録の更新異常を解決するために使用されます。</li>
+<li><strong>ダウンロード速度制限</strong>：ゲームリソースのダウンロード速度を制限します。</li>
+<li><strong>サーバー切り替えモード</strong>：サーバー切り替えの実行モードを設定します。</li>
+</ul>
+<h2>祈願記録設定</h2>
+<ul>
+<li><strong>記録のない過去のイベントを隠す</strong>：記録のない祈願イベントを非表示にします。</li>
+<li><strong>未獲得の祈願アイテムを隠す</strong>：未獲得の祈願アイテムを非表示にします。</li>
+<li><strong>データ移行</strong>：UIGF 4形式のインポートとエクスポートをサポートします。</li>
+</ul>
+<h2>WebView設定</h2>
+<ul>
+<li><strong>共有保存モード</strong>：
+<ul>
+<li>画像を共有する際の保存方法を、クリップボードまたはローカルに保存するかを選択します。</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01wDQfRa1g6e0ylR4ov_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>幻想真境劇詩</title>
+      <link>https://hut.ao/jp/features/imaginarium-theater.html</link>
+      <guid>https://hut.ao/jp/features/imaginarium-theater.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">幻想真境劇詩</source>
+      <description>Snap Hutaoに内蔵された幻想真境劇詩機能は、プレイヤーがゲーム内の新しい挑戦内容を記録および統計することをサポートし、詳細なチーム編成、クリアデータ、および全サーバー統計分析を提供し、プレイヤーが挑戦戦略を最適化するのに役立ちます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<p>Snap Hutaoの「幻想真境劇詩」機能は、プレイヤーにこの挑戦モードのデータ記録と統計サービスを提供することに特化しています。この機能を通じて、プレイヤーは自身の挑戦データをアーカイブし、全サーバーのデータ統計分析に参加できます。</p>
+<p>この機能は主に次の2つの部分に分かれています。</p>
+<ul>
+<li><strong>分期詳細</strong>：プレイヤー個人の幻想真境劇詩の挑戦データを表示します。これには、詳細な層の進捗、チーム編成、クリア記録などが含まれます。</li>
+<li><strong>本期統計</strong>：Snap Hutaoデータベースにアップロードされたすべてのプレイヤーの挑戦時に生成されたキャラクターの出場データを表示します。</li>
+</ul>
+
+<h2>個人の挑戦データを見る（分期詳細）</h2>
+<ul>
+<li>左側のメニューバーをクリックして「幻想真境劇詩」ページに入り、「分期詳細」タブを選択します。</li>
+<li>今期と過去の挑戦記録を表示します。これには以下が含まれます。
+<ul>
+<li>開幕キャラクター編成、特邀キャラクター、全待機キャラクター、最強の一撃、ベスト記録など</li>
+<li>各幕のモンスター編成、出撃キャラクター編成、輝彩の祝福と神秘の収穫</li>
+</ul>
+</li>
+</ul>
+<h3>データアーカイブ</h3>
+<ul>
+<li>Snap Hutaoは各期の挑戦を自動的にアーカイブします。プレイヤーは過去の挑戦データを確認でき、過去のパフォーマンスを振り返り、戦略を調整するのに役立ちます。</li>
+<li>「データを更新」ボタンをクリックして、最新のゲーム記録を取得します。</li>
+</ul>
+<h2>グローバル挑戦データ（本期統計）</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">データ範囲</p>
+<p>すべての統計データは、プレイヤー自身がアップロードした記録に基づいており、すべてのプレイヤーを完全に代表するものではない可能性があります。</p>
+</div>
+<ul>
+<li>左側のメニューバーをクリックして「幻想真境劇詩」ページに入り、「本期統計」タブを選択します。</li>
+<li>今期の挑戦でのキャラクター出場情報を表示します。</li>
+</ul>
+<h3>データのアップロードと共有</h3>
+<ol>
+<li>「幻想真境劇詩」ページで「データをアップロード」ボタンをクリックします。</li>
+<li>システムは最新の挑戦記録を自動的に解析し、Snap Hutaoデータベースに送信します。</li>
+<li>アップロードが完了すると、プレイヤーに確認メッセージが表示されます。</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>米游社（miHoYo BBS）複数アカウント切り替え</title>
+      <link>https://hut.ao/jp/features/mhy-account-switch.html</link>
+      <guid>https://hut.ao/jp/features/mhy-account-switch.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">米游社（miHoYo BBS）複数アカウント切り替え</source>
+      <description>米游社（miHoYo BBS）の複数アカウントパネル機能を使用すると、Snap Hutaoに複数の米哈游フォーラムアカウントをログインして自由に切り替えることができ、ツールボックス内で異なるアカウントを使用してさまざまな機能を利用できます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">ヒント</p>
+<p>Snap Hutaoは、中国大陸版のmiHoYo BBSである<strong>米游社</strong>と、国際版フォーラムである<strong>HoYoLAB</strong>のアカウントをサポートしています。HoYoLABは、中国大陸からのネットワーク接続をデフォルトでブロックするため、Snap Hutaoソフトウェアは、この制限を回避することができません。</p>
+<ul>
+<li>このドキュメントで説明するアカウントの切り替えは、ゲームデータを取得するための<strong>米游社 / HoYoLABアカウント</strong>であり、<strong>原神ゲーム内のアカウント</strong>ではありません。</li>
+<li>この機能を使用する前に、公式の米游社アプリを使用してアカウントにログインし、米游社機能を初期化する必要があります。
+<ul>
+<li>Snap Hutaoにログインしたアカウント名が「user_123456789」のような形式である場合、初期化されていない可能性があります。</li>
+</ul>
+</li>
+</ul>
+</div>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ZhnkRl1g6e0tz18y9_!!1797064093.png.png_.webp" alt="多アカウント管理サンプル" loading="lazy"></p>
+<p>プログラムのメインインターフェースの左下、設定ボタンの上にアカウントメニューがあり、Snap Hutaoにログインした米游社アカウントを管理できます。表示されるパネルでは、米游社またはHoYoLABアカウントを追加できます。ログイン方法は類似しています。</p>
+
+<ul>
+<li>完了すると、アカウント管理パネルでログインした米游社アカウントを切り替えることができます。
+<ul>
+<li>新しく米游社アカウントを追加した後、メインインターフェースの左下にあるアカウント切り替え機能で、新しくログインしたアカウントを手動で1回クリックして、使用状態に設定する必要があります。</li>
+<li>アカウント管理メニューで、対応するアカウントのCookieをコピーしたり、Snap Hutaoからそのアカウントを削除したりできます。</li>
+<li>プログラムが管理者モードで実行されていない場合は、アカウントをドラッグして並べ替えることができます。</li>
+<li>ログインアカウントを選択した後、次のことができます。
+<ul>
+<li>「Cookieを更新」ボタンをクリックして、現在保存されているCookieを更新します。</li>
+<li>「チェックイン」ボタンをクリックして、miHoYo BBSのチェックインを実行します。米游社アカウントの場合、チェックインを正常に実行するには、まずリスクコントロール状態を解除する必要があります。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="hint-container info">
+<p class="hint-container-title">セキュリティに関する注意</p>
+<ul>
+<li><code>SToken</code>はセキュリティ上機密性の高いCookieフィールドであり、<code>SToken</code>フィールドを含むCookieを、クラウド上やその他のデータセキュリティが保証されていないデバイスに保存すべきではありません。</li>
+<li>Snap HutaoからコピーしたCookieにはこのフィールドが含まれているため、Cookieを受け取る側に<code>SToken</code>フィールドを提供するかどうかを慎重に検討してください。</li>
+<li><strong>Snap HutaoでパスワードまたはCookieを使用して米游社にログインする際、あなたのデータは米游社サーバーとローカルのSnap Hutaoのみで処理され、Snap Hutaoサーバーを含む第三者のサービスを経由することはありません。</strong></li>
+</ul>
+</div>
+<h2>よくある質問</h2>
+<h3>米游社アカウントのログイン状態が頻繁に無効になり、追加したアカウントが消えるのはなぜですか？</h3>
+<ul>
+<li>アカウントの米游社Cookieを保存することでログイン状態を維持しています。</li>
+<li>しかし、ユーザーがブラウザやその他のデバイスで<strong>アカウントをログアウト</strong>すると、ログイン状態を維持するCookieが<strong>無効</strong>になります。</li>
+<li>これにより、Snap Hutao上の米游社アカウントが起動後に自動的に削除されます。</li>
+<li>この状況は、ネットワーク接続の問題によりCookieの有効性を確認できないことが原因である可能性もあるため、この状況が発生した場合は、まずSnap Hutaoを再起動してください。</li>
+<li>2022年10月から、米游社はアカウントが危険と判断される確率を大幅に高めており、<a href="/jp/advanced/exceptions.html#%E7%8A%B6%E6%85%8B1034-%E6%A4%9C%E8%A8%BC%E5%A4%B1%E6%95%97" target="_blank">アカウントが危険な状態</a>の場合も、Cookieが有効な状態として認識されなくなります。</li>
+<li>バージョン1.4.15以降では、アカウントパネルでCookieを更新することにより、ログイン状態を更新できます。</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features/mhy-account-switch.html" type="image/"/>
+    </item>
+    <item>
+      <title>モンスターデータ</title>
+      <link>https://hut.ao/jp/features/monster-wiki.html</link>
+      <guid>https://hut.ao/jp/features/monster-wiki.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">モンスターデータ</source>
+      <description>モンスターWIKIは、Snap Hutaoに内蔵されたモンスターデータベースです。プレイヤーはこれを利用して、原神内の全モンスターの詳細情報を検索し、モンスターを分析してゲームの難易度を下げることができます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">既知の問題</p>
+<p>一部のモンスターの情報が欠落していますが、様々な理由により改善が困難です。モンスターデータに関する議題は、当面の間は採用されません。</p>
+</div>
+<p><img src="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01WdFqdC1g6e0sAREwO_!!1797064093.png_.webp" alt="monster-wiki" loading="lazy"></p>
+<p>モンスターデータは、Snap Hutaoに内蔵された、各モンスターの<strong>基礎ステータス、各レベルのステータス、元素耐性、ドロップアイテム</strong>のデータを検索するためのWIKIです。</p>
+<h2>含まれるデータ</h2>
+<ul>
+<li>
+<p><strong>モンスターリスト</strong></p>
+<ul>
+<li>リストの左上にあるボタンを使用すると、リストの表示方法を切り替えることができます。
+<ul>
+<li>「サムネイルと名前」：モンスターのアイコンと対応する名前を表示し、素早く閲覧および検索するのに便利です。</li>
+<li>「サムネイルのみ」：モンスターのアイコンのみを表示し、モンスターの外観をよく知っているプレイヤーに適しています。</li>
+</ul>
+</li>
+<li>データは原神からのものであり、一部のモンスターはデータが不完全なため、一部の情報が欠落している可能性があります。</li>
+<li>リスト内のサムネイルまたは名前をクリックすると、対応するモンスター詳細ページに移動します。</li>
+</ul>
+</li>
+<li>
+<p><strong>データ内容</strong></p>
+<ul>
+<li><strong>モンスターのステータス</strong>
+<ul>
+<li>モンスターの基礎HP、攻撃力、防御力などの重要なデータ。</li>
+<li>インターフェースでモンスターのレベルを切り替えることで、異なるレベルでのステータスの変化を確認できます。</li>
+</ul>
+</li>
+<li><strong>元素耐性</strong>
+<ul>
+<li>各元素ダメージに対するモンスターの耐性率（パーセント）が含まれており、プレイヤーが与えるダメージの選択を最適化するのに役立ちます。</li>
+</ul>
+</li>
+<li><strong>ドロップアイテム</strong>
+<ul>
+<li>モンスターがドロップする可能性のあるすべてのアイテムとそのドロップ確率範囲がリストされ、プレイヤーは素材の入手を計画するのに便利です。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i3/1797064093/O1CN01WdFqdC1g6e0sAREwO_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>リアルタイム便利メモ</title>
+      <link>https://hut.ao/jp/features/real-time-notes.html</link>
+      <guid>https://hut.ao/jp/features/real-time-notes.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">リアルタイム便利メモ</source>
+      <description>Snap Hutaoのリアルタイム便利メモ機能は、プレイヤーのMiYouSheデータを定期的に更新し、原神内の動的情報をローカルコンピューターに同期させ、ユーザーの要求に応じて条件付きで通知をプッシュします。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<div class="hint-container info">
+<p class="hint-container-title">前提条件</p>
+<p>この機能を使用するには、Snap HutaoでMiYouShe / HoYoLABアカウントにログインする必要があります。ログイン方法については、<a href="/jp/features/mhy-account-switch.html" target="_blank">MiYouSheマルチアカウント切り替え</a>ドキュメントを参照してください。</p>
+</div>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp" alt="live-data-tracking" loading="lazy"></p>
+<h2>リアルタイム便利メモの追加</h2>
+<ol>
+<li>「リアルタイム便利メモを追加」ボタンをクリックします。</li>
+<li>ポップアップ表示される「リアルタイム便利メモを追加」ウィンドウで、追加したいゲームキャラクターのUIDを見つけ、右側のプラスボタンをクリックします。</li>
+<li>追加したゲームキャラクターが「リアルタイム便利メモ」ページに表示されます。
+<ul>
+<li>リアルタイム便利メモは、一定の間隔で自動的にデータを更新します。</li>
+<li>ウィンドウ右上の「通知設定」をクリックすると、更新間隔を設定できます。</li>
+</ul>
+</li>
+<li>最新データをすぐに取得するには、「今すぐ更新」ボタンをクリックしてください。</li>
+<li>データ更新時に <code>-1034</code> エラーが発生した場合は、MiYouSheのロボット対策が作動していることを意味します。Snap Hutaoの設定で無感知認証を設定することで解決できます。</li>
+</ol>
+<h2>ユーザーとキャラクターの検証</h2>
+<p>MiYouSheアカウントを使用している場合、セキュリティ対策により検証コードがトリガーされ、リアルタイム便利メモのデータが更新されない場合があります。<br>
+以下の手順で解決できます。</p>
+<ol>
+<li>リアルタイム便利メモページ左上の「現在のユーザーとキャラクターを検証」ボタンをクリックします。</li>
+<li>Snap Hutaoが検証ウィンドウを表示するので、検証を完了すると、セキュリティ対策の影響を受けていたアカウントのデータを更新できます。</li>
+</ol>
+<h2>グローバル通知設定</h2>
+<p>ウィンドウ右上の「通知設定」をクリックすると、リアルタイム便利メモ機能のグローバルな動作を設定できます。内容は以下のとおりです。</p>
+<ul>
+<li><strong>データ自動更新の有効/無効</strong>。</li>
+<li><strong>データ自動更新間隔の設定</strong>。</li>
+<li><strong>通知のおやすみモード</strong>：
+<ul>
+<li>有効にすると、通知はシステム通知センターにのみ表示されます。</li>
+</ul>
+</li>
+<li><strong>優先度の高い通知</strong>：
+<ul>
+<li>通知が自動的にアクションセンターに格納されるのを防ぎますが、日常的な使用を妨げる可能性があります。</li>
+</ul>
+</li>
+<li><strong>カスタムデータ転送Webhook</strong>：
+<ul>
+<li>Snap Hutaoでは、MiHoYo APIへの直接的なリクエストを減らすために、リアルタイム便利メモのデータをサードパーティプログラムに転送できます。</li>
+<li>「リアルタイム便利メモ Webhook URL」にサードパーティプログラムの <code>HTTP API</code> インターフェースアドレスを入力すると、Snap Hutaoが <code>POST</code> リクエストで元のデータをそのインターフェースに転送します。</li>
+</ul>
+</li>
+</ul>
+<h2>アカウント個別設定</h2>
+<ol>
+<li>設定を変更したいキャラクターのリアルタイム便利メモウィンドウにマウスカーソルを合わせます。</li>
+<li>ウィンドウ右上の設定ボタンをクリックして、以下の設定オプションにアクセスします。
+<ul>
+<li><strong>原粹樹脂リマインダー閾値</strong>（範囲：0～200）</li>
+<li><strong>洞天宝銭リマインダー閾値</strong>（範囲：0～2400）</li>
+<li><strong>参量物質変化器リマインダーの有効化</strong>（オン/オフ）</li>
+<li><strong>デイリー依頼上限リマインダーの有効化</strong>（オン/オフ）</li>
+<li><strong>探索派遣完了リマインダーの有効化</strong>（オン/オフ）</li>
+</ul>
+</li>
+<li>変更が完了したら、「保存」ボタンをクリックして現在の設定を保存します。</li>
+</ol>
+<h2>キャラクターの削除</h2>
+<ol>
+<li>削除したいキャラクターのリアルタイム便利メモウィンドウにマウスカーソルを合わせます。</li>
+<li>ウィンドウ右上の削除ボタンをクリックすると、そのキャラクターのリアルタイム便利メモが削除されます。</li>
+</ol>
+<h2>よくある質問</h2>
+<h3>リアルタイム便利メモの自動更新を設定すると「タスクスケジュールの変更に失敗しました」と表示されるのはなぜですか？</h3>
+<ul>
+<li>リアルタイム便利メモの自動更新は、Windowsタスクスケジューラに依存しています。</li>
+<li>権限の問題を避けるため、Snap Hutaoは管理者モード以外でタスクスケジュールを設定します。</li>
+</ul>
+<p><strong>解決策：</strong></p>
+<ol>
+<li>旧バージョンで自動更新を有効にしたことがある場合は、古いタスクスケジュールを手動で削除できます。タスクスケジュールの名前は <code>SnapHutaoDailyNoteRefreshTask</code> です。</li>
+<li>タスクスケジュールを有効にしたことがない場合は、現在のWindowsユーザーアカウントの権限が不足している可能性があります。管理者アカウントで操作してみてください。</li>
+<li>それでも解決しない場合は、システムの再インストールが必要になる場合があります。</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>初期化ガイド</title>
+      <link>https://hut.ao/jp/features/setup.html</link>
+      <guid>https://hut.ao/jp/features/setup.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">初期化ガイド</source>
+      <description>Snap Hutaoの新規ユーザー向けガイド機能は、ユーザーがプログラムの具体的な機能の利用状況を素早く確認し、利用可能な状態に設定するのに役立ちます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<p>Snap Hutaoを初めて起動すると、プログラムは自動的に初期化ガイドプロセスに入り、ツールボックスの各機能を正しく設定するのに役立ちます。
+ガイドプロセスには、言語設定、重要なユーザー規約の確認、必要なシステム環境の検出、および静的リソースのダウンロードが含まれます。</p>
+<h2>言語設定</h2>
+<details class="hint-container details"><summary>詳細</summary>
+<p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN016IMEtP1g6dyEFo5uK_!!1797064093.png_.webp" alt="language-selection" loading="lazy"></p>
+<p>言語設定ステップでは、Snap Hutaoがサポートするインターフェース言語を選択できます。言語を変更すると、プログラムは自動的に再起動して変更が適用されます。</p>
+<ul>
+<li>簡体字中国語はSnap Hutaoの基本言語であり、開発チームは英語翻訳もメンテナンスしています。</li>
+<li>Crowdinコミュニティメンバーが繁体字中国語、日本語、韓国語の翻訳を提供しています。</li>
+<li>残りの言語はGoogle Gemini人工知能モデルによって翻訳されています。</li>
+</ul>
+<p>翻訳にご協力いただける場合は、<a href="https://translate.hut.ao" target="_blank" rel="noopener noreferrer">https://translate.hut.ao</a> にアクセスしてご協力ください。</p>
+</details>
+<h2>ユーザー規約</h2>
+<details class="hint-container details"><summary>詳細</summary>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SzKgb61g6dy2MZH5s_!!1797064093.png_.webp" alt="user-agreement" loading="lazy"></p>
+<p>ユーザー規約ステップでは、Snap Hutaoが提供する関連規約とサービス条項を読んで同意する必要があります。これらのドキュメントは、Snap Hutaoプロジェクトの性質とツールボックスの使用規則を理解するのに役立つことを目的としています。</p>
+<p>規約を確認して同意すると、初期化プロセスを続行できます。</p>
+</details>
+<h2>環境検出</h2>
+<details class="hint-container details"><summary>詳細</summary>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01T3lLLI1g6dyDspUsf_!!1797064093.png_.webp" alt="environment-check" loading="lazy"></p>
+<p>Snap Hutaoは、次の重要な実行環境を自動的に検出し、インストールまたは更新が必要かどうかをユーザーに通知します。</p>
+<ol>
+<li><strong>Segoe Fluent Iconsフォント</strong>：より良いインターフェースアイコン表示効果を提供します。
+ダウンロードアドレス：<a href="https://aka.ms/SegoeFluentIcons" target="_blank" rel="noopener noreferrer">Segoe Fluent Icons</a></li>
+<li><strong>WebView2 ランタイム</strong>：ツールボックスのコア機能をサポートする最新のブラウザコンポーネント。
+ダウンロードアドレス：<a href="https://go.microsoft.com/fwlink/?linkid=2124701" target="_blank" rel="noopener noreferrer">WebView2 ランタイム</a></li>
+</ol>
+<p>不足している環境が検出された場合は、対応するリンクをクリックしてダウンロードとインストールを完了できます。
+上記の図は、完全な環境下でのこのステップの期待される表示効果です。</p>
+</details>
+<h2>リソースダウンロード</h2>
+<details class="hint-container details"><summary>詳細</summary>
+<p><img src="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01QILPRh1g6dyHTUpV9_!!1797064093.png_.webp" alt="resource-download" loading="lazy"></p>
+<p>リソースダウンロードステップでは、Snap Hutaoは必要な静的画像リソースを自動的に取得します。リソースのダウンロードが完了すると、初期化プロセスは自動的に閉じられ、ツールボックスのメインインターフェースがロードされます。</p>
+<p>リソースのダウンロードに失敗した場合でも、Snap Hutaoは正常に使用でき、画像のロード時に不足しているリソースを自動的にダウンロードします。</p>
+</details>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features/setup.html" type="image/"/>
+    </item>
+    <item>
+      <title>武器資料</title>
+      <link>https://hut.ao/jp/features/weapon-wiki.html</link>
+      <guid>https://hut.ao/jp/features/weapon-wiki.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">武器資料</source>
+      <description>武器WIKIはSnap Hutaoに内蔵された武器データベースです。プレイヤーはこの機能を利用して、原神内のすべての武器の詳細情報を検索し、キャラクターに適した武器を選択できます。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN018rs0K91g6e0ylQ4XT_!!1797064093.png_.webp" alt="weapon-wiki" loading="lazy"></p>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたもので、PRによる修正を歓迎します。</p>
+</div>
+<p>武器資料はSnap Hutaoに内蔵されたWIKI機能で、原神に登場するすべての武器の<strong>外観、パラメータ、精錬効果、おすすめの組み合わせ</strong>などの情報を検索するために設計されています。この機能により、プレイヤーはキャラクターに適した武器を効率的に選択し、詳細な武器データを得ることができます。</p>
+<h2>含まれるデータ</h2>
+<ul>
+<li>
+<p><strong>武器リスト</strong></p>
+<ul>
+<li>リストは2つの表示方法をサポートしており、左上のボタンで切り替えることができます。
+<ul>
+<li><strong>リスト表示</strong>：武器のサムネイル、名前、および一部の情報を表示します。</li>
+<li><strong>グリッド表示</strong>：サムネイル形式でより多くの武器項目を表示します。</li>
+</ul>
+</li>
+<li>「リスト表示」では、サムネイルまたは名前をクリックすると、武器の詳細紹介ページに移動します。</li>
+</ul>
+</li>
+<li>
+<p><strong>武器基本情報</strong></p>
+<ul>
+<li>突破前後の武器アイコンの比較により、アップグレード後の見た目の変化を識別しやすくなります。</li>
+<li>イラスト表示により、武器の全体的な外観が表示されます。</li>
+<li>武器の紹介では、武器の背景ストーリーや関連する説明を提供します。</li>
+<li>対応するレベルに切り替えて、武器の各数値（基礎攻撃力、サブステータスなど）を確認できます。</li>
+</ul>
+</li>
+<li>
+<p><strong>武器精錬情報</strong></p>
+<ul>
+<li>各精錬ランクの具体的な属性ボーナスを表示し、プレイヤーが精錬の価値を評価するのに役立ちます。</li>
+</ul>
+</li>
+<li>
+<p><strong>武器育成素材</strong></p>
+<ul>
+<li>レベルアップと突破に必要な素材と数量を一覧表示します。</li>
+</ul>
+</li>
+<li>
+<p><strong>武器使用のおすすめ</strong></p>
+<ul>
+<li>Snap Hutaoデータベースの統計情報に基づいて、おすすめの武器の組み合わせキャラクターと使用シーンを表示し、プレイヤーが武器の選択を最適化するのに役立ちます。</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN018rs0K91g6e0ylQ4XT_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>祈願履歴</title>
+      <link>https://hut.ao/jp/features/wish-export.html</link>
+      <guid>https://hut.ao/jp/features/wish-export.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">祈願履歴</source>
+      <description>祈願エクスポート機能により、プレイヤーはゲームアカウントの現在の祈願データをエクスポートし、ローカルに永続的に保存・バックアップすることができます。長期的なデータ蓄積を通じて、データ追跡や祈願データ分析を行うことが可能です。</description>
+      <category>機能</category>
+      <category>チュートリアル</category>
+      <pubDate>Sun, 12 Jan 2025 04:59:21 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<p>ガチャは原神の中核となる遊び方の一つです。記念や自慢のためであれ、真剣にガチャ計画を立てるためであれ、過去のガチャの統計分析は非常に重要です。しかし、原神公式が提供するガチャ履歴は1年分のみで、長期プレイヤーにとっては不十分です（<s>彼らは1年でどれだけティミーのハトを撃ち落としたかは統計するのに</s>）。</p>
+<p>そこで、Snap Hutaoの祈願履歴エクスポート機能が登場しました。この機能は、プレイヤーが祈願データをローカルに転送して永久保存し、長期的なデータ分析を行うのに役立ちます。</p>
+<p>原神の祈願履歴エクスポートの技術的な原理については、<a href="/jp/advanced/Gacha-system-and-export-principal.html" target="_blank"><strong>祈願システムとエクスポート原理</strong></a>を参照してください。</p>
+<p><img src="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01otuXYg1g6e0wnNwX2_!!1797064093.png_.webp" alt="祈願エクスポート" loading="lazy"></p>
+<p>上の図に示すように、Snap Hutaoの祈願エクスポート機能は、ユーザーがガチャデータを明確に統計・分析するのに役立ちます。これには以下が含まれます。</p>
+<ul>
+<li>ガチャ総数</li>
+<li>現在の天井までの回数</li>
+<li>異なるレア度の武器とキャラクターの獲得数と割合</li>
+<li>各★5獲得までの回数と天井状況</li>
+</ul>
+<p>さらに、<strong>Snap Hutao Cloudユーザーは、クラウドサーバーで計算されたガチャ予測データを追加で取得できます</strong>。</p>
+<div class="hint-container note">
+<p class="hint-container-title">原神のガチャ履歴の遅延性</p>
+<p>Snap HutaoのデータソースはmiHoYoサーバーであるため、短時間で引いたばかりの祈願履歴は取得できない場合があります。
+ゲーム内のガチャ履歴で最新の記録を確認できるようになったら、Snap Hutaoで対応する統計データを取得できます。</p>
+</div>
+<h2>祈願データの取得</h2>
+<h3>SToken更新 </h3>
+<div class="hint-container info">
+<p class="hint-container-title">ヒント</p>
+<ul>
+<li>ログイン済みのHoYoLABアカウントは、SToken更新方法を使用するための前提条件です。<a href="/jp/features/mhy-account-switch.html" target="_blank">HoYoLABの複数アカウント切り替え</a>ドキュメントを参照して、Snap Hutaoにアカウントをログインできます。</li>
+<li>SToken更新方法は、現在のところグローバルサーバーをサポートしていません。</li>
+</ul>
+</div>
+<ol>
+<li>Snap Hutaoで、記録を取得したいHoYoLABアカウントにログインしていることを確認します。</li>
+<li>左側のメニューバーから「祈願記録」ページに移動します。</li>
+<li>右上の「更新」ボタンをクリックし、「SToken更新」を選択します。</li>
+<li>読み込みが完了するのを待つと、最新の祈願履歴を確認できます。</li>
+</ol>
+<h3>ウェブキャッシュ更新 </h3>
+<ol>
+<li>原神を起動してゲームに入り、ゲーム内の祈願履歴を開きます。</li>
+<li>Snap Hutaoの左側のメニューバーから「祈願記録」ページに移動し、右上の「更新」ボタンをクリックして「ウェブキャッシュ更新」を選択します。</li>
+</ol>
+<div class="hint-container tip">
+<p class="hint-container-title">ウェブキャッシュ更新機能が正常に動作しない場合：</p>
+<ul>
+<li>プログラムの左下メニューバーで「設定」-「ストレージ」をクリックします。</li>
+<li>「ゲーム内ウェブキャッシュを削除」操作を実行します。</li>
+<li>ゲーム内の祈願履歴画面を再度開きます。</li>
+<li>もう一度祈願履歴の更新を試してください。</li>
+</ul>
+</div>
+<h3>URLの手動入力 </h3>
+<ol>
+<li>他のツールで祈願履歴のURLを取得した場合、「URLの手動入力」を選択し、表示される指示に従って操作できます。</li>
+<li>URLは<strong>有効期限がある</strong>ため、必ず速やかに操作を完了してください。</li>
+</ol>
+<h3>全量更新モード</h3>
+<ul>
+<li>デフォルトでは、Snap Hutaoはローカルに既存の記録を検出すると、重複記録を避けるためにインポートを停止します。</li>
+<li>原神サーバーのすべての過去の記録を完全に取得したい場合は、「全量更新」をチェックしてから更新タスクを実行してください。</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">ヒント</p>
+<ul>
+<li><strong>全量更新をチェックしない</strong>場合でも祈願データが失われることはありません。</li>
+<li><strong>全量更新をチェックする</strong>場合でもデータが重複してインポートされることはありません。</li>
+</ul>
+</div>
+<h2>UIGF祈願データのインポート </h2>
+<p>Snap Hutaoは、<code>UIGFデータ形式</code>の祈願履歴のインポートをサポートしています<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup><a class="footnote-anchor" id="footnote-ref1">。インポート手順は以下のとおりです。</a></p><a class="footnote-anchor" id="footnote-ref1">
+<ol>
+<li>他のツールからUIGFデータファイルをエクスポートします。</li>
+<li>Snap Hutaoで「設定」-「祈願記録」-「移行」-「インポート」をクリックします。</li>
+<li>表示されたファイル選択ダイアログで、<code>UIGF Json</code>データファイルを選択します。</li>
+<li>データを確認し、インポートを完了します。</li>
+</ol>
+<div class="hint-container warning">
+<p class="hint-container-title">古いバージョンのUIGFファイルのアップグレード</p>
+<p>祈願履歴のバージョンが古い場合は、「設定」-「祈願記録」-「移行」-「古いバージョンのUIGFファイルをアップグレード」をクリックし、アップグレードが完了してからインポートしてください。</p>
+</div>
+</a><h2><a class="footnote-anchor" id="footnote-ref1"></a><a class="header-anchor" href="#uigf祈願データのエクスポート"><span>UIGF祈願データのエクスポート </span></a></h2>
+<p>Snap Hutaoは、祈願履歴を<code>UIGFデータ形式</code>でJsonファイルとしてエクスポートすることをサポートしています。具体的な手順は以下のとおりです。</p>
+<ol>
+<li>左側のメニューバーから「設定」に移動します。</li>
+<li>「祈願記録」-「移行」セクションを見つけ、「エクスポート」ボタンをクリックします。</li>
+<li>データのエクスポートに必要なアカウントを選択します。</li>
+<li>表示される画面でファイルの保存先を選択し、「エクスポート」をクリックして操作を完了します。</li>
+</ol>
+<div class="hint-container tip">
+<p class="hint-container-title">ヒント</p>
+<p>複数のアカウントの祈願履歴を1つのファイルにエクスポートできます。個別に操作する必要はありません。</p>
+</div>
+<h2>祈願記録のクラウド同期</h2>
+<blockquote>
+<p>クラウド同期機能はSnap Hutao Cloudアカウントに基づいており、<a href="/jp/features/hutao-settings.html#%E8%83%A1%E6%A1%83%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88" target="_blank">Snap Hutaoアカウントを登録してログイン</a>した後でのみ使用できます。</p>
+</blockquote>
+<ul>
+<li><strong>アップロード</strong>：「祈願記録」画面で同期するアーカイブを選択し、「Snap Hutao Cloud」ボタンをクリックして「現在のアーカイブをアップロード」を選択します。</li>
+<li><strong>ダウンロード</strong>：「Snap Hutao Cloud」ボタンをクリックし、対応するUIDのアーカイブの右側にあるダウンロードボタンを選択して同期を完了します。</li>
+<li><strong>削除</strong>：「Snap Hutao Cloud」ボタンをクリックし、対応するUIDのアーカイブの右側にある削除ボタンを選択してクラウドデータを削除します。</li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="footnote1" class="footnote-item"><p>UIGF（統一標準化原神データフォーマット）は<a href="https://uigf.org/" target="_blank" rel="noopener noreferrer">UIGF-Org</a>によって提供されています。 <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i2/1797064093/O1CN01otuXYg1g6e0wnNwX2_!!1797064093.png_.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title></title>
+      <link>https://hut.ao/jp/star-request.html</link>
+      <guid>https://hut.ao/jp/star-request.html</guid>
+      <source url="https://hut.ao/jp/rss.xml"></source>
+      <description>もし、Snap Hutao が良いプロジェクトである、またはあなたにとって役立つと思われる場合は、以下の方法で私たちをサポートできます。 GitHub 上のプロジェクトにスターを付ける ⭐ Snap.Hutao hutao.stars Snap.Hutao.Docs hutao.docs.stars より多くの場所で私たちの宣伝にご協力ください。 co...</description>
+      <pubDate>Thu, 12 Jan 2023 11:46:12 GMT</pubDate>
+      <content:encoded><![CDATA[<p><strong>もし、Snap Hutao が良いプロジェクトである、またはあなたにとって役立つと思われる場合は、以下の方法で私たちをサポートできます。</strong></p>
+<ul>
+<li>GitHub 上のプロジェクトにスターを付ける ⭐
+<ul>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao" target="_blank" rel="noopener noreferrer">Snap.Hutao</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" alt="hutao.stars" loading="lazy"></li>
+<li><a href="https://github.com/DGP-Studio/Snap.Hutao.Docs" target="_blank" rel="noopener noreferrer">Snap.Hutao.Docs</a> <img src="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao.Docs?style=plastic&amp;color=red" alt="hutao.docs.stars" loading="lazy"></li>
+</ul>
+</li>
+<li>より多くの場所で私たちの宣伝にご協力ください。</li>
+</ul>
+<p><img src="https://img.shields.io/github/commit-activity/y/DGP-Studio/Snap.Hutao?style=for-the-badge" alt="commit_activity" loading="lazy">
+<img src="https://img.shields.io/github/last-commit/DGP-Studio/Snap.Hutao?label=Hutao Last Commit&amp;style=for-the-badge" alt="hutao-last-commit" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://img.shields.io/github/stars/DGP-Studio/Snap.Hutao?style=plastic&amp;color=red" type="image/"/>
+    </item>
+    <item>
+      <title>ユーザーコミュニティに参加する</title>
+      <link>https://hut.ao/jp/community.html</link>
+      <guid>https://hut.ao/jp/community.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">ユーザーコミュニティに参加する</source>
+      <description>ここでは、Snap Hutaoの関連コミュニティに参加し、他のプレイヤーと様々なトピックについて交流できます。</description>
+      <category>公告</category>
+      <pubDate>Thu, 12 Jan 2023 11:31:30 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>オープンソースソフトウェアとして、コミュニティの力はSnap Hutaoのエコシステムの重要な構成要素です。以下の方法でSnap Hutaoのユーザーコミュニティに参加できます。</p>
+<div class="hint-container important">
+<p class="hint-container-title">重要</p>
+<p>この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。</p>
+</div>
+<div class="vp-card-container">
+  </div>
+]]></content:encoded>
+      <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png" type="image/png"/>
+    </item>
+  </channel>
+</rss>
