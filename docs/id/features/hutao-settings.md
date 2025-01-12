@@ -1,120 +1,90 @@
-```markdown
 ---
 headerDepth: 2
 category: [Fitur, Tutorial]
-tag:
-  [Snap Hutao Cloud, Verifikasi Geetest, Pengaturan Bahasa, Pengaturan Lanjutan]
-order: 14
+tag: [Snap Hutao Cloud, Verifikasi Geetest, Pengaturan Bahasa, Fitur Lanjutan]
+order: 15
 comment: false
+description: Halaman pengaturan Snap Hutao berisi berbagai opsi pengaturan program. Pengguna dapat menyesuaikan Snap Hutao sesuai preferensi mereka dengan mengubah pengaturan di halaman ini.
 ---
 
 # Pengaturan Perangkat Lunak
 
-::: info
+![settings](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01wDQfRa1g6e0ylR4ov_!!1797064093.png_.webp)
 
-- Tutorial fitur berikut disajikan sesuai dengan urutan dalam program.
-
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini. Kami menerima perbaikan melalui Pull Request (PR).
 :::
+
+Berikut adalah penjelasan mengenai fitur pengaturan di Snap Hutao, yang diurutkan sesuai dengan urutan tampilan dalam aplikasi.
 
 ## Tentang Snap Hutao
 
 Bagian ini berisi informasi berikut:
 
-- Ikon Snap Hutao: Anda dapat menemukan gambar asli ikon di [halaman utama](/)
-  - Seniman: [画画的芦苇 (BiliBili)](https://space.bilibili.com/274422134)
-    ::: details Proses Pembuatan
-    <BiliBili bvid="BV1UL411d7Py" />
-    :::
-  - [DGP-Studio](https://github.com/DGP-Studio) memiliki izin dari pemilik untuk menggunakannya untuk Proyek Snap Hutao
-- Versi klien Snap Hutao
-- ID Perangkat
+- Ikon Snap Hutao: Anda dapat melihat gambar aslinya di [halaman utama](/).
+- [DGP-Studio](https://github.com/DGP-Studio) telah mendapatkan izin terkait untuk menggunakan ikon ini.
 
-## Akun Snap Hutao <Badge text="Beta" type="info" />
+## Alat Mode Administrator
 
-![Akun-hutao](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp)
-Sistem akun Snap Hutao dirancang oleh DGP-Studio untuk menyediakan komponen dasar bagi layanan cloud seperti cadangan riwayat wish.
-Saat ini, Anda sudah dapat mendaftar dan masuk ke akun Snap Hutao Anda di halaman pengaturan.
+Di sisi kanan halaman pengaturan, tersedia alat mode administrator untuk pengguna yang membutuhkannya.
 
-## Pengalaman Shell
+- **Buat Pintasan**: Membuat pintasan di desktop untuk meluncurkan Snap Hutao dengan hak administrator.
+- **Mulai Ulang dengan Administrator**: Klik kanan ikon Snap Hutao di pojok kanan bawah taskbar, lalu pilih "Mulai Ulang dengan Administrator" dari menu untuk mendapatkan hak akses administrator.
 
-- Buat Pintasan Desktop
-  - Snap Hutao akan membuat pintasan dengan hak akses Administrator di desktop pengguna
+## Verifikasi Tanpa Kendala
 
-## Penampilan
+- Jika fitur login harian dan Catatan Realtime memicu kesalahan `-1034` dari miHoYo, Anda dapat mengonfigurasi layanan verifikasi pihak ketiga melalui pengaturan ini untuk melewati verifikasi Geetest secara otomatis.
+- Setelah konfigurasi berhasil, Catatan Realtime dan login harian akan menyelesaikan verifikasi secara otomatis, menghindari kegagalan permintaan.
 
-- Bahasa
+## Pengaturan Tampilan
 
-  - Secara default, Snap Hutao akan mengikuti pengaturan bahasa sistem
-  - Anda dapat memaksa untuk mengubah ke bahasa lain di halaman pengaturan
+- **Bahasa**: Secara default, bahasa akan mengikuti bahasa sistem. Pengguna dapat mengubah bahasa tampilan secara paksa.
+- **Hari Pertama Minggu**: Mengatur hari pertama yang ditampilkan di kalender dalam game.
+- **Material Latar Belakang**:
+  - Pilihan meliputi Tidak Ada, Akrilik, Mika (khusus Windows 11), dan Mika Variasi (khusus Windows 11).
+- **Tema Warna**: Dapat beralih antara tema terang dan gelap, secara default mengikuti pengaturan sistem.
+- **Gambar Latar Belakang**:
+  - Pilihan meliputi Tanpa Gambar Latar Belakang, Gambar Acak Lokal, Gambar Harian Bing, Gambar Harian Snap Hutao, dan Wallpaper Launcher Resmi.
+- **Ikon Area Notifikasi**: Memilih apakah ikon Snap Hutao akan ditampilkan di area notifikasi.
 
-- Materi Latar Belakang
-  - Di opsi ini, Anda dapat mengubah materi latar belakang perangkat lunak menjadi
-    - Akrilik
-    - Mika (hanya Windows 11)
-    - MikaAlt (hanya Windows 11)
-  - Pengaturan ini akan langsung berlaku
+## Manajemen Ruang Penyimpanan
 
-## Beranda
+- **Folder Data**:
+  - **Buka Folder**: Membuka folder yang berisi data pengguna dan metadata.
+  - **Ganti Direktori Data**: Mengubah lokasi penyimpanan folder data.
+  - **Hapus Cache Transfer Server**: Menghapus cache yang dihasilkan oleh fitur transfer server game.
+- **Folder Cache**:
+  - **Buka Folder**: Membuka folder yang berisi cache gambar.
+  - **Atur Ulang Sumber Daya Gambar**: Menghapus dan mengunduh ulang sumber daya gambar.
 
-- Kartu Dasbor
-  - Anda dapat mengklik opsi ini untuk beralih tampilan kartu di Beranda Dasbor
-    - Game Launcher
-    - Riwayat Wish
-    - Pencapaian
-    - Catatan Realtime
+## Pengaturan Pintasan
 
-## Game
+::: info Membutuhkan Izin Administrator
+Snap Hutao harus dijalankan dalam mode administrator untuk mengubah pengaturan pintasan.
+:::
 
-- Path Game
+- Mengatur pintasan mouse otomatis dan pintasan keyboard.
+- Jika pendaftaran pintasan gagal (karena kurangnya izin atau konflik), pesan akan muncul di bagian bawah antarmuka. Pengguna perlu mengatur ulang pintasan.
 
-  - Di bidang ini, Anda dapat memodifikasi atau mengatur path game Anda untuk Snap Hutao
-  - Saat mengatur path game, Anda harus memilih program game bukan program peluncur
-    - Seperti `$\Genshin Impact\Genshin Impact Game\YuanShen.exe`
+## Pengaturan Beranda
 
-- Path PowerShell
+- **Kartu Beranda**: Mengatur apakah kartu fitur tertentu (seperti Luncurkan Game, Catatan Wish) akan ditampilkan.
+- **Server Kalender**: Mengubah sumber data kalender game.
+- **Server Pengumuman**: Mengubah sumber data pengumuman game.
 
-  - Snap Hutao menggunakan PowerShell untuk memodifikasi bidang registri Genshin Impact untuk beralih akun game. Opsi ini memungkinkan pengguna memilih path PowerShell untuk memperbaiki masalah ketika path PowerShell tidak dapat ditemukan secara otomatis
+## Pengaturan Game
 
-- Hapus Cache Web Browser Game
-  - Ketika Anda menggunakan metode pembaruan cache web dalam fitur riwayat wish dan menerima kesalahan kedaluwarsa authkey, Anda dapat mencoba operasi ini untuk memperbaiki kesalahan tersebut
-  - Klik bidang ini untuk mengeksekusi operasi
+- **Hapus Cache Web Game**: Digunakan untuk mengatasi masalah penyegaran catatan wish yang tidak normal.
+- **Batasan Kecepatan Unduh**: Membatasi kecepatan unduh sumber daya game.
+- **Mode Transfer Server**: Mengatur mode eksekusi transfer server.
 
-## Riwayat Wish
+## Pengaturan Catatan Wish
 
-- Di bidang ini, Anda dapat memilih untuk menyembunyikan peristiwa wish yang tidak memiliki catatan dalam periode tertentu dalam fitur ekspor wish
+- **Sembunyikan Riwayat Event Tanpa Catatan**: Menyembunyikan event wish yang tidak memiliki catatan.
+- **Sembunyikan Item Wish yang Tidak Didapatkan**: Menyembunyikan item wish yang belum didapatkan.
+- **Migrasi Data**: Mendukung impor dan ekspor format UIGF 4.
 
-## Verifikasi Geetest
+## Pengaturan WebView
 
-MiYouShe menggunakan verifikasi Geetest untuk memblokir permintaan bukan dari operasi manusia nyata, sehingga beberapa permintaan dari Snap Hutao, seperti klaim hadiah check-in dan pengambilan data Catatan Realtime, mungkin gagal karena dianggap sebagai operasi robot.
-Jika Anda memiliki layanan pihak ketiga untuk melewati verifikasi Geetest, Anda dapat mengonfigurasi pengaturan ini untuk melewati parameter verifikasi ke penyedia layanan yang Anda gunakan.
-
-Berhasil mengonfigurasi pengaturan ini akan membantu Snap Hutao melewati verifikasi saat mengambil data dari Catatan Realtime dan mengklaim hadiah check-in, serta menghindari kesalahan `-1034` dari MiYouShe.
-
-## Penyimpanan
-
-- Buka Folder Data
-  - Klik bidang ini untuk membuka folder data yang berisi data pengguna, log, dan metadata
-- Ubah Direktori Data
-  - Bidang ini memungkinkan Anda mengubah direktori data menjadi path yang Anda inginkan
-- Buka Folder Cache
-  - Klik bidang ini akan membuka folder cache yang menyimpan aset gambar yang digunakan oleh Snap Hutao
-- Reset Sumber Daya Gambar
-  - Opsi ini memungkinkan pengguna untuk mereset cache gambar saat terlalu banyak gambar gagal dimuat. Program akan
-    mengunduh ulang sumber daya gambar saat mulai berikutnya
-
-## Fitur Berbahaya
-
-- Aktifkan Fitur Lanjutan
-  - Dengan Snap Hutao berjalan sebagai administrator, Anda dapat mengaktifkan bidang ini untuk mengaktifkan fitur lanjutan di peluncur game
-    > Untuk referensi:
-    >
-    > [Ketentuan Layanan Snap Hutao](../statements/tos.html)
-    >
-    > [Ketentuan Layanan Genshin Impact (server CN/Chinese)](https://ys.mihoyo.com/main/company/agreement)
-    >
-    > [Ketentuan Layanan Genshin Impact (server luar negeri/Inggris)](https://genshin.hoyoverse.com/en/company/terms)
-- Hapus Semua Pengguna
-  - Menjalankan operasi ini akan menghapus semua data pengguna di Snap Hutao
-  - Klik pada bidang ini untuk beroperasi, Anda akan diminta untuk konfirmasi
-  - Dalam sebagian besar skenario, Anda tidak perlu menggunakan bidang ini
-```
+- **Mode Simpan Berbagi**:
+  - Memilih cara menyimpan gambar yang dibagikan, termasuk menyimpannya ke clipboard atau lokal.

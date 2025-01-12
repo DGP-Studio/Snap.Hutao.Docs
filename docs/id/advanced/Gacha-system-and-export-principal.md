@@ -1,63 +1,84 @@
 ---
 headerDepth: 2
-category:
-  - FAQ
+category: [FAQ]
 icon: iconfont icon-read
 order: 8
 comment: false
+description: Snap Hutao menggunakan berbagai cara untuk mendapatkan informasi login pengguna dan berkoordinasi dengan API Genshin Impact untuk mendapatkan catatan Wish.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/Gacha-system-and-export-principal.html&has_description=False
 ---
 
-# Sistem Gacha dan Prinsip Expor
+# Sistem Gacha dan Prinsip Ekspor
 
-Sistem Gacha di Hutao mengalami redesain total dalam hal arsitektur dibandingkan dengan Snap Genshin.
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
+:::
 
-Dokumen ini akan menjelaskan mekanisme catatan gacha dalam Genshin Impact dan prinsip teknis fungsi ekspor catatan gacha dalam Toolbox Hutao.
+Sistem Gacha di Snap Hutao telah mengalami desain ulang arsitektur dibandingkan dengan Snap Genshin.
 
-## Perolehan Catatan Gacha
+Dokumen ini akan menjelaskan mekanisme catatan Wish di Genshin Impact dan prinsip teknis dari fungsi ekspor Wish di Snap Hutao.
 
-Untuk mendapatkan catatan gacha, perlu dilakukan permintaan ke API milik miHoYo.
+---
+
+## Perolehan Wish
+
+Untuk mendapatkan catatan Wish, perlu dilakukan permintaan ke API miHoYo.
 
 Berikut adalah beberapa poin penting mengenai API ini:
 
-- Melalui API server miHoYo, kita hanya dapat mengakses catatan gacha dalam 6 bulan terakhir.
-  - Ini juga merupakan sumber catatan gacha di aplikasi Genshin Impact.
-- API ini memiliki batasan kecepatan permintaan; permintaan terlalu cepat dapat menyebabkan kegagalan permintaan berikutnya dan kegagalan mendapatkan data dengan normal.
+- Melalui API server miHoYo, kita hanya dapat mengakses catatan Wish dalam satu tahun terakhir.
+  - Ini juga merupakan sumber catatan Wish di dalam game Genshin Impact.
+- API ini memiliki batasan kecepatan permintaan; permintaan yang terlalu cepat dapat menyebabkan kegagalan permintaan berikutnya, sehingga data tidak dapat diperoleh dengan normal.
 
-Untuk melakukan permintaan ke API ini, kita memerlukan empat parameter kunci.
+### Parameter Kunci Permintaan API
 
-- Saat ini, ada beberapa metode untuk mendapatkan parameter-parameter ini:
-  - Melalui log file Unity, mencari URL catatan gacha yang dibuka pengguna.
-  - Memantau lalu lintas lokal, menyaring URL catatan gacha.
-  - Mencari cache browser CefBrowser, menemukan URL catatan gacha.
-  - Dengan menggunakan Cookie yang berisi Stoken, memanggil API genAuthKey untuk mendapatkan parameter-parameter ini.
-  - Pengguna lanjutan dapat memasukkan URL terkait secara manual.
+Untuk melakukan permintaan ke API ini, kita memerlukan empat parameter kunci:
 
-Setelah mendapatkan data dari API, kita mendapatkan catatan gacha yang tersebar, dan dengan menggabungkannya, kita bisa mendapatkan daftar catatan gacha lengkap.
+1. Jenis Banner
+2. Item yang Di-wish
+3. Waktu
+4. ID Catatan Wish
 
-## Penyimpanan Catatan Gacha
+- Saat ini, ada beberapa metode yang diketahui untuk mendapatkan parameter-parameter ini:
+  1. Menjelajahi berkas log Unity, mencari URL catatan Wish yang dibuka pengguna.
+  2. Memantau lalu lintas jaringan lokal, menyaring URL catatan Wish.
+  3. Mencari cache peramban `CefBrowser`, menemukan URL catatan Wish.
+  4. Menggunakan Cookie yang berisi `SToken`, memanggil API `genAuthKey` untuk mendapatkan parameter-parameter ini.
+  5. Pengguna tingkat lanjut dapat memasukkan URL terkait secara manual.
 
-Setelah mendapatkan daftar catatan gacha lengkap, kita dapat menyederhanakannya dengan melakukan serialisasi ke dalam database lokal. Data ini dapat di-deserialisasi dari database saat diperlukan dan ditampilkan kepada pengguna.
+### Penggabungan Data dan Pembuatan Catatan Lengkap
 
-Permintaan selanjutnya ke server hanya perlu membandingkan data di database dengan data baru yang diterima.
+Setelah mendapatkan data dari API, kita akan mendapatkan catatan Wish yang tersebar. Dengan menggabungkan catatan-catatan ini, kita bisa mendapatkan daftar catatan Wish yang lengkap.
 
-Dengan cara ini, pengguna dapat menyimpan catatan gacha akun mereka dalam jangka panjang.
+---
+
+## Penyimpanan Wish
+
+Daftar catatan Wish lengkap yang diperoleh akan diserialisasikan dan disimpan dalam database lokal. Data ini akan dideserialisasikan ketika diperlukan untuk ditampilkan kepada pengguna.
+
+- Dalam permintaan selanjutnya, Snap Hutao hanya perlu membandingkan data di database dengan data baru yang diperoleh.
+- Cara ini memastikan pengguna dapat menyimpan catatan Wish akun mereka dalam jangka panjang.
+
+---
 
 ## Format UIGF
 
-> Uniformed Interchangeable GachaLog Format
+> Standar Format Catatan Wish yang Dapat Dipertukarkan secara Seragam  
+> Uniformed Interchangeable GachaLog Format Standard
 
-UIGF adalah standar data pertukaran catatan gacha yang telah kami advokasi, luncurkan, dan **selalu kami pertahankan** bersama aplikasi catatan gacha lainnya.
+`UIGF` adalah standar pertukaran data catatan Wish yang telah kami advokasi, luncurkan, dan **pelihara secara aktif** bersama dengan aplikasi catatan Wish lainnya.
 
-Dengan format data yang terstandarisasi, pengguna dapat memindahkan catatan gacha mereka antar berbagai alat Genshin Impact untuk menggunakan fitur khusus masing-masing.
+Format data yang terstandardisasi memungkinkan pengguna untuk memindahkan data antar berbagai alat secara bebas, sehingga dapat menggunakan fitur khusus dari masing-masing alat.
 
-### Impor Catatan Gacha
+### Impor Wish
 
-Dengan menggunakan format data UIGF, pengguna dapat mengimpor data yang pernah disimpan dalam aplikasi lain.
+Dengan menggunakan format data `UIGF`, pengguna dapat mengimpor data catatan Wish yang disimpan dalam aplikasi lain.
 
-Saat Hutao memproses impor, ia akan membandingkan indeks (ID) yang paling awal yang ada dalam penyimpanan lokal dan hanya mengimpor data yang lebih lama.
+- Saat Snap Hutao mengimpor data, ia akan membandingkan dengan indeks (ID) paling awal yang ada dalam penyimpanan lokal, dan hanya mengimpor catatan yang lebih awal.
+- Data baru selalu dapat diperoleh dari server miHoYo, dan data aslinya memiliki akurasi yang lebih tinggi.
 
-(Karena data asli yang lebih baru selalu dapat diambil dari server miHoYo, data semacam ini memiliki tingkat akurasi yang lebih tinggi.)
+### Ekspor Wish
 
-### Ekspor Catatan Gacha
+Snap Hutao mendukung penyimpanan catatan Wish dalam format data `UIGF` ke dalam berkas, dan menampilkannya ke folder yang ditentukan pengguna.
 
-~~Belum diimplementasikan, sedang dalam perancangan~~ Sudah diimplementasikan
+Pengguna dapat menggunakan berkas ekspor untuk melanjutkan penggunaan catatan Wish di alat lain yang mendukung format `UIGF`.

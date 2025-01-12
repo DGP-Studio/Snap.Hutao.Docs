@@ -2,141 +2,165 @@
 home: true
 icon: iconfont icon-home
 title: Beranda
-heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp
+heroImage: https://img.alicdn.com/imgextra/i2/1797064093/O1CN01FTdSDT1g6e7p1HAv6_!!1797064093.png_.webp
 heroAlt: Snap Hutao
 heroText: Snap Hutao
-tagline: Toolbox Genshin Sumber Terbuka dan Multifungsi 🧰
+tagline: <a href="https://trendshift.io/repositories/2009"><img src="https://trendshift.io/api/badge/repositories/2009" alt="trend"/></a><br>Toolbox Genshin Impact Multifungsi Sumber Terbuka 🧰
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
+description: Snap Hutao adalah toolbox multifungsi sumber terbuka untuk platform Windows, mencakup fitur-fitur seperti peluncur tingkat lanjut, ekspor catatan Wish, Catatan Real-time, dan lainnya, yang secara komprehensif meningkatkan pengalaman bermain game di desktop.
+banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png
 head:
   - - meta
-    - name: twitter:image:src
-      content: https://repository-images.githubusercontent.com/482734649/eb0f81d6-29a8-4d3c-8012-d85475cd89ee
+    - name: keywords
+      content: Genshin Impact, Snap Hutao, 胡桃工具箱, Hutao
 actions:
-  - text: Unduh
-    link: https://apps.microsoft.com/store/detail/snap-hutao/9PH4NXJ2JN52
-    type: primary
-  - text: Panduan Cepat
+  - text: Mulai Menggunakan
     link: quick-start.html
+    type: primary
   - text: Dokumentasi
     link: menu.html
-  - text: Proyek
+  - text: Tentang Proyek
     link: project.html
 
 highlights:
-  - header: Desain Program Aman
+  - header: Desain Program yang Aman
     image: /images/202309/security.png
     bgImage: /images/202309/head-back2.png
     bgImageDark: /images/202309/head-back2.png
     highlights:
-      - title: Anda Mengendalikan Data Anda
+      - title: Kendali Penuh atas Data
         icon: iconfont icon-computer
-        details: Data Anda disimpan di perangkat lokal Anda, tidak bergantung pada layanan cloud atau platform pihak ketiga, Anda memiliki kebebasan mengendalikan data Anda.
-      - title: Kami Melindungi Data Anda
+        details: Data disimpan secara default di perangkat lokal, tanpa bergantung pada layanan cloud atau platform pihak ketiga, memastikan otonomi dalam akses data.
+      - title: Perlindungan Data di Cloud
         icon: iconfont icon-lock
-        details: Data Anda dapat disimpan di Snap Hutao Cloud, Anda tidak akan kehilangan data saat menggunakan perangkat baru.
-      - title: Komunitas Melindungi Program Anda
+        details: Mendukung pencadangan data ke Snap Hutao Cloud untuk server eksklusif, memastikan data tetap aman jika perangkat hilang.
+      - title: Pengembangan yang Didorong oleh Komunitas
         icon: iconfont icon-anonymous
-        details: Snap Hutao bersifat open-source di GitHub dengan lisensi MIT, kami menyambut anggota komunitas untuk meninjau dan berkontribusi pada kode kami.
+        details: Proyek ini bersifat sumber terbuka di GitHub dengan lisensi MIT, menyambut peninjauan dan kontribusi kode dari komunitas. Proses pengemasan dan perilisan sepenuhnya diselesaikan melalui alur otomatis tanpa campur tangan manual, memastikan keamanan dan konsistensi.
 
-  - header: Toolbox All-in-one
-    description: Alat panduan cepat yang Anda butuhkan dan jelajahi lebih banyak kemungkinan
+  - header: Toolbox All-in-One
+    description: Kuasai fitur-fitur inti dengan cepat, jelajahi lebih banyak alat yang berguna.
     image: /images/202308/highlights-head.png
     features:
-      - title: Windows Native MSIX Application
+      - title: Aplikasi MSIX Native Windows
         icon: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01gOw0Nk1g6e0yjfAlD_!!1797064093.png_.webp
-        details: MSIX packages applications in a native Windows format and supports sandbox technology, ensuring system stability and cleanliness
+        details: Mengadopsi teknologi pengemasan aplikasi native Windows, mendukung isolasi sandbox, memastikan stabilitas dan kebersihan sistem.
         link: project.html
+
+      - title: Dasbor Data
+        icon: /images/202501/Announcement.png
+        details: Menampilkan catatan Wish, progres pencapaian, kalender game, pengumuman acara dengan cara yang paling ringkas dan menyediakan akses cepat untuk memulai game.
+        link: features/dashboard.html
 
       - title: Catatan Real-time
         icon: /images/202301/live-stat-tracking-logo.png
-        details: Jangan terjebak oleh Aplikasi Seluler. Dapatkan pemberitahuan catatan real-time Genshin Anda di desktop Anda dengan notifikasi Windows asli.
+        details: Mendobrak batasan perangkat seluler, menerima notifikasi Catatan miHoYo BBS secara real-time di PC, terintegrasi dengan fungsi notifikasi native Windows.
         link: features/real-time-notes.html
 
-      - title: Rekor Spiral Abyss
+      - title: Catatan Spiral Abyss
         icon: /images/202301/spiral-abyss-record-logo.png
-        details: Dapatkan rekaman Spiral Abyss pribadi, termasuk statistik dan data detail, simpan tantangan Spiral Abyss sebelumnya secara permanen di perangkat Anda.
+        details: Menyimpan catatan Spiral Abyss pemain secara lokal, mendukung kueri riwayat dan analisis statistik.
         link: features/hutao-API.html
 
       - title: Peralihan Multi-Akun
         icon: /images/202308/hoyolab-miyoushe-Icon.png
-        details: Snap.Hutao mendukung beberapa akun MiHoYo BBS untuk tetap masuk dan membuat profil terpisah untuk setiap akun dalam setiap fungsi, sehingga pemain dapat dengan mudah mengelola beberapa akun mereka.
+        details: Mendukung pengelolaan independen beberapa akun miHoYo BBS, beralih dengan mudah dan menyimpan profil setiap akun.
         link: features/mhy-account-switch.html
 
-      - title: Rekor Histori Wish
+      - title: Catatan Wish
         icon: /images/202308/UI_BtnIcon_Gacha.png
-        details: Tangkap riwayat wish dari log permainan Anda, ekspor ke perangkat lokal Anda, dengan dukungan arsip data akun tanpa batas.
+        details: Menyediakan fungsi peralihan multi-UID, mendapatkan catatan Wish dari file log atau data ekspor lainnya, disimpan secara permanen.
         link: features/wish-export.html
 
-      - title: Prestasi
+      - title: Catatan Pencapaian
         icon: /images/202301/achievement.png
-        details: Fitur statistik prestasi memungkinkan pemain untuk mengekspor data prestasi dan menjaga statistik di luar game; berdasarkan pemisahan prestasi, pemain dapat mengelola tonggak untuk prestasi tersembunyi.
+        details: Mendukung ekspor dan statistik data pencapaian, menyediakan fungsi manajemen target pencapaian tersembunyi.
         link: features/achievements.html
 
-      - title: Peluncur Game Lanjutan
+      - title: Peluncur Tingkat Lanjut
         icon: /images/202308/Game_Launcher_Icon.png
-        details: Dengan peluncur canggih di Snap.Hutao, pemain dapat dengan mudah beralih antara akun Genshin mereka, beralih server, mengubah pengaturan jendela permainan, dan menjelajahi fitur lebih lanjut.
+        details: Menyediakan fungsi tingkat lanjut seperti peralihan akun, peralihan server, pengaturan jendela, dan lain-lain, mengoptimalkan pengalaman memulai game.
         link: features/game-launcher.html
 
-      - title: Database Hutao
+      - title: Basis Data Hutao
         icon: /images/202308/UI_ChapterIcon_Hutao.png
-        details: Periksa detail tim Spiral Abyss, pencocokan senjata, dan pencocokan set artefak komunitas saat ini; bagikan konfigurasi lineup Spiral Abyss Anda sendiri.
+        details: Menyediakan fungsi kueri dan berbagi data susunan tim, senjata, dan artefak yang direkomendasikan oleh komunitas pemain.
         link: features/hutao-api.html
 
-      - title: Karakter Saya
+      - title: Teater Fantasi
+        icon: /images/202501/RoleCombat.png
+        details: Mengarsipkan catatan tantangan, menanyakan data riwayat tingkat penggunaan setiap karakter.
+        link: features/imaginarium-theater.html
+
+      - title: Statistik Atribut
         icon: /images/202308/My_Character_Icon.png
-        details: Lihat data detail tentang karakter pemain, termasuk level, konstelasi, senjata, bakat, set artefak, dll.; hitung otomatis skor set artefak.
+        details: Menanyakan atribut detail karakter, termasuk level, konstelasi, senjata, dan detail bakat.
         link: features/character-data.html
 
-      - title: Wiki Karakter
-        icon: /images/202308/Character_WIKI_Icon.png
-        details: Periksa informasi numerik karakter; bakat dan konstelasi; bahan pelatihan; cerita latar belakang karakter dan informasi lainnya; dapatkan skema pencocokan senjata dan set artefak terbanyak di antara pemain melalui database Hutao.
-        link: features/character-wiki.html
-
-      - title: Wiki Senjata
-        icon: /images/202308/Weapon_WIKI_Icon.png
-        details: Periksa nilai dan cerita senjata; dapatkan data pencocokan karakter terbanyak di antara pemain melalui database Hutao.
-        link: features/weapon-wiki.html
+      - title: Paspor Hutao
+        icon: /images/202501/Passport.png
+        details: Menyediakan fungsi pencadangan dan sinkronisasi data Wish di cloud, mendukung migrasi data antar perangkat.
+        link: features/hutao-passport.html
 
       - title: Kalkulator Pengembangan
         icon: /images/202308/Calculator_Icon.png
-        details: Buat rencana pengembangan karakter yang dapat diimplementasikan berdasarkan situasi Anda; mendukung beberapa akun, beberapa daftar rencana, dan catatan item backpack.
+        details: Membuat rencana pengembangan karakter yang dipersonalisasi, mendukung multi-akun dan fungsi catatan item.
         link: features/develop-plan.html
 
-footer: Dibangun dengan <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | Menjadi alat Genshin Impact terbaik
+      - title: Info Karakter
+        icon: /images/202308/Character_WIKI_Icon.png
+        details: Menyediakan informasi detail seperti latar belakang cerita karakter, material pelatihan, dan rekomendasi susunan tim pemain.
+        link: features/character-wiki.html
+
+      - title: Info Senjata
+        icon: /images/202308/Weapon_WIKI_Icon.png
+        details: Menanyakan atribut dan latar belakang cerita senjata, serta mendapatkan data rekomendasi susunan tim karakter.
+        link: features/weapon-wiki.html
+
+      - title: Info Monster
+        icon: /images/202501/WikiMonster.png
+        details: Menanyakan atribut dan pengaturan monster, mempersiapkan pertempuran dalam game.
+        link: features/monster-wiki.html
+
+footer: Dibangun dengan tema <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> | Memberikan pengalaman bermain game terbaik untuk pemain Genshin Impact PC dengan kekuatan komunitas sumber terbuka
 ---
 
-## Berkontribusi
+## Kontribusi
 
-Snap Hutao adalah perangkat lunak gratis yang dipelihara oleh komunitas sumber terbuka, dan kami berharap lebih banyak pemain dengan ambisi yang sama dapat bergabung bersama untuk memberikan lebih banyak fitur kepada komunitas.
+Snap Hutao adalah proyek gratis yang dikelola oleh komunitas sumber terbuka, dan kami menyambut lebih banyak pengembang untuk bergabung, bersama-sama meningkatkan fungsi dan kualitas Snap Hutao.
 
-Anda dapat berkontribusi dengan cara berikut:
+Berikut adalah cara Anda dapat berpartisipasi dalam kontribusi:
 
-1. [Membuat Permintaan Tarik ke kode kami](https://github.com/DGP-Studio/Snap.Hutao/pulls)
-2. Menerjemahkan proyek untuk [lokalisasi](i18n.md) yang lebih baik
-3. [Memperbarui dokumen](https://github.com/DGP-Studio/Snap.Hutao.Docs)
+1. [Mengajukan Pull Request](development/contribute.md), untuk menyempurnakan kode dan fungsi.
+2. Berpartisipasi dalam pekerjaan [terjemahan lokal](i18n.md), memperluas dukungan bahasa.
+3. [Menyempurnakan dokumentasi proyek](https://github.com/DGP-Studio/Snap.Hutao.Docs), membantu lebih banyak pengguna untuk memahami dan menggunakan.
 
 <!-- @include: star-request.md -->
 
 ::: center
 
-## Sponsorship
+## Sponsor
 
-Snap Hutao saat ini menggunakan perangkat lunak sponsor dari penyedia layanan berikut.
+Snap Hutao mengucapkan terima kasih atas dukungan sponsor dari vendor perangkat lunak berikut:
 
 <SponsorList />
 
-Netlify menyediakan layanan hosting dokumen dan beranda untuk Snap Hutao
+**Netlify** menyediakan layanan hosting dokumen dan beranda.
 
-Crowdin menyediakan platform SaaS-nya untuk membantu lokalitas Snap Hutao
+**Crowdin** mendukung pengelolaan terjemahan lokal proyek.
 
-Jihu GitLab menyediakan repositori Git dan layanan SaaS CI/CD untuk Snap Hutao di China
+**Navicat** menyediakan alat manajemen basis data tingkat lanjut.
 
-Kode tanda tangan gratis disediakan oleh [SignPath.io](https://signpath.io/), sertifikat oleh [SignPath Foundation](https://signpath.org/)
+[**SignPath Foundation**](https://signpath.org/) menyediakan layanan penandatanganan kode gratis.
 
-1Password menyediakan tim pengembangan Snap Hutao dengan perangkat lunak manajemen kata sandi mereka yang luar biasa
+**1Password** menyediakan alat manajemen kata sandi yang aman untuk tim pengembangan.
 
-DigitalOcean menyediakan penyimpanan cloud yang handal untuk cadangan database Snap Hutao
+**DigitalOcean** menyediakan layanan penyimpanan pencadangan data yang andal.
 
-Termius provides Snap Hutao project with a secure, reliable, and collaborative SSH client
+[**Ducalis.io**](https://hi.ducalis.io/) menyediakan paket alat pengambilan keputusan lengkap untuk manajemen proyek.
+
+**JetBrains** menyediakan alat pengembangan perangkat lunak yang luar biasa untuk tim pengembangan.
+
+**Termius** menyediakan klien SSH yang aman dan andal.
 :::

@@ -1,53 +1,68 @@
 ---
 headerDepth: 2
 category: [Fitur, Tutorial]
+tag: [Panduan Pengguna, Inisialisasi, Instalasi]
 order: 1
 comment: false
+description: Fitur panduan pengguna baru Snap Hutao membantu pengguna dengan cepat memeriksa status ketersediaan fitur program tertentu dan mengaturnya ke status tersedia.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features/setup.html
 ---
 
-# Panduan Pengaturan Awal
+# Panduan Inisialisasi
 
-Saat pertama kali meluncurkan Snap Hutao, klien akan secara otomatis memasuki panduan pengaturan awal untuk membantu pengguna mengonfigurasi klien dengan benar.
-
-Saat ini, Snap Hutao akan memandu pengguna melalui proses pengaturan bahasa, mengkonfirmasi perjanjian pengguna, memeriksa konfigurasi lingkungan yang diperlukan, dan mengunduh sumber daya statis.
-
-::: details Pengaturan Bahasa
-
-![](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01wBgRV01g6dyC2bc62_!!1797064093.png_.webp)
-
-Di bagian pengaturan bahasa, Anda dapat memilih dari bahasa antarmuka yang saat ini didukung oleh Snap Hutao. Jika Anda mengubah bahasa, Snap Hutao akan secara otomatis restart.
-
-Snap Hutao menggunakan Bahasa Tionghoa Sederhana sebagai bahasa dasar dan secara aktif menjaga teks bahasa Inggris.
-Teks Bahasa Tionghoa Tradisional, Korea, dan Jepang diterjemahkan oleh kontributor komunitas.
-Jika Anda tertarik untuk berkontribusi dalam menerjemahkan, Anda dapat memberikan dukungan di [https://translate.hut.ao](https://translate.hut.ao).
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
 :::
 
-::: details Konfirmasi Perjanjian Pengguna
+Saat pertama kali menjalankan Snap Hutao, program akan secara otomatis masuk ke proses panduan inisialisasi untuk membantu pengguna mengonfigurasi berbagai fungsi alat dengan benar.
+Proses panduan meliputi pengaturan bahasa, konfirmasi perjanjian pengguna yang penting, deteksi lingkungan sistem yang diperlukan, dan pengunduhan sumber daya statis.
 
-![](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Zv1EGr1g6dy8E1fpj_!!1797064093.png_.webp)
+## Pengaturan Bahasa
 
-Di bagian konfirmasi dokumen perjanjian pengguna, Anda perlu mengonfirmasi beberapa dokumen yang disediakan oleh Snap Hutao.
-Dokumen-dokumen ini dapat membantu Anda memahami sifat proyek Snap Hutao dan akan bermanfaat untuk penggunaan Anda di masa depan.
+::: details
+![language-selection](https://img.alicdn.com/imgextra/i4/1797064093/O1CN016IMEtP1g6dyEFo5uK_!!1797064093.png_.webp)
 
+Pada bagian pengaturan bahasa, Anda dapat memilih bahasa antarmuka yang didukung oleh Snap Hutao. Jika Anda mengubah bahasa, program akan otomatis dimulai ulang untuk menerapkan perubahan.
+
+- Bahasa Tionghoa Sederhana adalah bahasa dasar Snap Hutao, dan tim pengembangan juga memelihara terjemahan bahasa Inggris.
+- Anggota komunitas Crowdin menyumbangkan terjemahan bahasa Tionghoa Tradisional, Jepang, dan Korea.
+- Sisa bahasa diterjemahkan oleh model kecerdasan buatan Google Gemini.
+
+Jika Anda tertarik untuk menyumbangkan terjemahan, Anda dapat mengunjungi [https://translate.hut.ao](https://translate.hut.ao) untuk memberikan bantuan.
 :::
 
-::: details Pemeriksaan Lingkungan
+## Perjanjian Pengguna
 
-![](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01LYYIB41g6dyDFB6I9_!!1797064093.png_.webp)
+::: details
+![user-agreement](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SzKgb61g6dy2MZH5s_!!1797064093.png_.webp)
 
-Di bagian pemeriksaan lingkungan, Snap Hutao akan menggunakan dua tes kecil untuk membantu pengguna menentukan apakah lingkungan sistem, yang akan meningkatkan pengalaman pengguna, telah terpasang: font Segoe Fluent Icons dan WebView2 Runtime.
+Pada bagian perjanjian pengguna, Anda perlu membaca dan menyetujui perjanjian terkait dan ketentuan layanan yang disediakan oleh Snap Hutao. Dokumen-dokumen ini bertujuan untuk membantu Anda memahami sifat proyek Snap Hutao dan aturan penggunaan alat.
 
-Anda dapat menilai apakah dua paket lingkungan ini terpasang berdasarkan petunjuk. Jika tidak terpasang, Anda dapat mengklik tombol tautan yang sesuai untuk mengunduh dan memasang konten yang diperlukan.
-
-Gambar di atas adalah hasil yang diharapkan dalam langkah ini.
-
+Setelah mengonfirmasi dan menerima perjanjian, Anda dapat melanjutkan untuk menyelesaikan proses inisialisasi.
 :::
 
-::: details Unduhan Sumber Daya
+## Pemeriksaan Lingkungan
 
-![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01XlICiR1g6dyC7Qpy6_!!1797064093.png_.webp)
+::: details
+![environment-check](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01T3lLLI1g6dyDspUsf_!!1797064093.png_.webp)
 
-Pada langkah ini, Snap Hutao akan mengunduh secara otomatis sumber daya gambar statis yang diperlukan.
-Setelah unduhan selesai, Snap Hutao akan menutup antarmuka pengaturan awal dan secara otomatis memuat program utama.
+Snap Hutao akan secara otomatis mendeteksi lingkungan operasi penting berikut, dan mengingatkan pengguna apakah perlu menginstal atau memperbarui:
 
+1.  **Font Segoe Fluent Icons**: Memberikan tampilan ikon antarmuka yang lebih baik.  
+    Alamat unduhan: [Segoe Fluent Icons](https://aka.ms/SegoeFluentIcons)
+2.  **WebView2 Runtime**: Mendukung komponen browser modern untuk fungsi inti alat.  
+    Alamat unduhan: [WebView2 Runtime](https://go.microsoft.com/fwlink/?linkid=2124701)
+
+Jika terdeteksi lingkungan yang hilang, Anda dapat mengklik tautan yang sesuai untuk mengunduh dan menyelesaikan instalasi.  
+Gambar di atas adalah efek tampilan yang diharapkan dari bagian ini di lingkungan yang lengkap.
+:::
+
+## Pengunduhan Sumber Daya
+
+::: details
+![resource-download](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01QILPRh1g6dyHTUpV9_!!1797064093.png_.webp)
+
+Pada bagian pengunduhan sumber daya, Snap Hutao akan secara otomatis mendapatkan sumber daya gambar statis yang diperlukan. Setelah pengunduhan sumber daya selesai, proses inisialisasi akan ditutup secara otomatis, dan antarmuka utama alat akan dimuat.
+
+Jika pengunduhan sumber daya gagal, Snap Hutao masih dapat digunakan secara normal, dan akan otomatis mengunduh sumber daya yang hilang saat memuat gambar.
 :::

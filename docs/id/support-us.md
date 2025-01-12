@@ -5,31 +5,52 @@ comment: false
 icon: iconfont icon-like
 index: false
 headerDepth: 2
+description: Proyek Snap Hutao menerima donasi dari komunitas untuk mempertahankan operasional proyek, dan kami dengan tulus berterima kasih kepada semua yang telah memberikan dukungan untuk proyek ini.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/id/support-us.html
 ---
 
-# Support us
+# Dukung Kami
 
-Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of our development team are currently self-funding the project's operation, with the main expenses being the network system components required by server (you can find our annual expenditure summary below on this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but also benefit every Snap Hutao user. Currently, you can donate us in the following ways:
+Snap Hutao, sebagai proyek sumber terbuka yang dilisensikan di bawah Lisensi MIT, berdedikasi untuk menciptakan program yang sepenuhnya gratis, tanpa iklan, dan berfokus pada privasi pengguna. Anggota tim pengembang kami saat ini mendanai sendiri operasional proyek, dan dengan teknologi modern, kami meminimalkan biaya operasional sebisa mungkin. Item pengeluaran utama saat ini adalah komponen sistem jaringan yang diperlukan untuk menjalankan server (Anda dapat menemukan ringkasan pengeluaran tahunan kami di bagian bawah halaman ini). Jika Anda memiliki dana lebih untuk mendukung Snap Hutao, donasi Anda yang murah hati tidak hanya akan membantu tim pengembang tetapi juga akan menguntungkan setiap pengguna Snap Hutao. Saat ini, Anda dapat berdonasi kepada kami melalui cara berikut:
 
-## Donation
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menyambut perbaikan melalui PR.
+:::
 
-We accept sponsorship with following methods:
+## Saluran Donasi
 
-<Sponsor lang="en" />
+Kami menerima donasi melalui cara berikut
 
-## Sponsorship
+<Sponsor lang="id"/>
 
-> We refuse any sponsorship aim to achieve user data
+## Sponsor
 
-If you are a business entity and would like to support Snap Hutao through your product, please contact us at [support@dgp-studio.cn](mailto://support@dgp-studio.cn). We will display all sponsors on our [home page](README.md#sponsorship).
+> Kami menolak setiap sponsor yang bertujuan untuk memperoleh data pengguna
 
-## Annual Expense
+Jika Anda adalah badan usaha dan ingin mendukung Snap Hutao melalui produk Anda, silakan hubungi kami di email [support@dgp-studio.cn](mailto://support@dgp-studio.cn). Kami akan menampilkan semua sponsor di [halaman beranda](README.md#贊助商) kami.
 
-> The following information is derived from the 2023 project expenditure summary of Snap Hutao. The current specific data may differ from that.
-> All expenditure amounts are in Chinese Yuan (CNY), and if the original expenditure currency is not in Chinese Yuan, it is calculated based on the exchange rate on February 22, 2024.
+## Pengeluaran Tahunan
 
-|          Item          | Expense (CNY) |
-| :--------------------: | ------------- |
-|         server         | ￥1582.92     |
-|     domain service     | ￥512.7       |
-| other network services | ￥129.3       |
+### Total Tahun 2023
+
+> Informasi berikut ini berasal dari ringkasan pengeluaran proyek Snap Hutao tahun 2023. Data spesifik saat ini mungkin berbeda dari data tersebut.
+> Semua jumlah pengeluaran dalam mata uang Yuan Tiongkok (CNY), dan jika mata uang pengeluaran asli bukan dalam Yuan Tiongkok, maka akan dihitung berdasarkan nilai tukar pada tanggal 22 Februari 2024.
+
+|           Item           | Pengeluaran (CNY) |
+| :----------------------: | ----------------- |
+|          Server          | ￥1582.92         |
+|      Layanan Domain      | ￥512.7           |
+| Layanan Jaringan Lainnya | ￥129.3           |
+|          Total           | ￥2224.92         |
+
+### Total Tahun 2024
+
+> Informasi berikut ini berasal dari ringkasan dukungan proyek Snap Hutao tahun 2024. Data spesifik saat ini mungkin berbeda dari data tersebut.
+> Semua jumlah pengeluaran dalam mata uang Yuan Tiongkok (CNY), dan jika mata uang pengeluaran asli bukan dalam Yuan Tiongkok, maka akan dihitung berdasarkan nilai tukar pada tanggal 10 Januari 2025.
+
+|           Item           | Pengeluaran (CNY) |
+| :----------------------: | ----------------- |
+|          Server          | ￥ 2648.94        |
+|      Layanan Domain      | ￥ 344.96         |
+| Layanan Jaringan Lainnya | ￥205.63          |
+|          Total           | ￥ 3199.53        |

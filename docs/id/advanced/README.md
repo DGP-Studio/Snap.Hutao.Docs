@@ -1,3 +1,4 @@
+```markdown
 ---
 comment: false
 index: false
@@ -10,3 +11,8 @@ dir:
 # Lanjutan
 
 <Catalog />
+
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
+:::
+```
