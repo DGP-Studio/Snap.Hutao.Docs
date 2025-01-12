@@ -1,3 +1,4 @@
+---
 pageClass: link-box
 externalLinkIcon: false
 comment: false
@@ -6,7 +7,6 @@ index: false
 headerDepth: 2
 description: Snap Hutaoプロジェクトは、プロジェクトの運営を維持するためにコミュニティからの寄付を受け付けています。このプロジェクトを支援してくださるすべての方々に心から感謝いたします。
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/support-us.html
-
 ---
 
 # 支援のお願い

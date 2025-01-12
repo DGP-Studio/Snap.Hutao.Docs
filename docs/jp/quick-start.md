@@ -1,3 +1,4 @@
+---
 pageClass: link-box
 externalLinkIcon: false
 category: [機能, チュートリアル]
@@ -6,7 +7,6 @@ icon: iconfont icon-launch
 order: 5
 description: このクイックスタートドキュメントに従うことで、Snap Hutaoを素早く利用可能な状態に設定できます。
 banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png
-
 ---
 
 # クイックスタート
