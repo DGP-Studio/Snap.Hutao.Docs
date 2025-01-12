@@ -3,10 +3,14 @@ comment: false
 index: false
 icon: iconfont icon-advance
 dir:
-  text: Advanced
+  text: Продвинутый
   order: 2
 ---
 
-# Advanced
+# Продвинутый
 
 <Catalog />
+
+::: important
+Это перевод, выполненный моделью Google Gemini. Мы приветствуем исправления через PR.
+:::

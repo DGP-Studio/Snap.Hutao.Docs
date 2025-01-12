@@ -10,7 +10,7 @@ export const ruNavbar = navbar([
   {
     text: "Скачать",
     icon: "iconfont icon-install",
-    link: "https://api.snapgenshin.com/patch/hutao/download",
+    link: "/ru/quick-start",
   },
   {
     text: "Support us",

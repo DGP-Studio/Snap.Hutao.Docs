@@ -1,42 +1,53 @@
 ---
-category: [open source, development]
-tag: ["development", "GitHub"]
+category: [open source, разработка]
+tag: ["разработка", "GitHub"]
 icon: iconfont icon-code
-order: 2
+order: 3
+description: Snap Hutao использует C# и .NET Framework для разработки настольного клиента и сервера. Мы приветствуем отзывы от сообщества открытого исходного кода. Если вы хотите внести свой вклад в код, пожалуйста, прочтите это руководство.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/contribute.html
 ---
+
+::: important
+Это перевод, выполненный моделью Google Gemini. Мы приветствуем исправления через PR.
+:::
 
 # Внесение своего вклада в код
 
-Snap Hutao использует C# и .NET Framework для разработки клиента и сервера. Если вы хотите внести свой вклад в проект, ознакомьтесь с следующими рекомендациями.
+Snap Hutao использует `C#` и `.NET Framework` для разработки настольного клиента и сервера. Мы приветствуем отзывы от сообщества открытого исходного кода. Если вы заинтересованы в том, чтобы внести свой вклад в код, пожалуйста, прочтите это руководство.
 
-Вы можете найти все [нерешенные открытые задачи](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue+is%3Aopen+-label%3A%E5%B7%B2%E4%BF%AE%E5%A4%8D+) на GitHub.
+Вы можете просмотреть все текущие [нерешенные проблемы](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%E5%B7%B2%E5%AE%8C%E6%88%90) на GitHub.
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> Настройка проекта Snap.Hutao
 
-1. Скачайте и установите [Visual Studio 2022 Community](https://visualstudio.microsoft.com/downloads/).
-2. Откройте установщик Visual Studio, чтобы завершить установку.
-   - Вам нужно установить компоненты `.NET desktop development`, `Desktop development with C++` и `Universal Windows Platform development`.
-3. Установите `Single-project MSIX Packaging Tools for VS 2022`, предоставленный Microsoft в магазине расширений Visual Studio.
-4. Используйте git, чтобы клонировать проект `https://github.com/DGP-Studio/Snap.Hutao.git` на свое устройство.
-5. Переключитесь на ветку git `develop`.
-6. Откройте решение проекта в Visual Studio, и теперь вы готовы начать.
+1. Скачайте и установите [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+   - Необходимо установить следующие компоненты:
+     - `.NET desktop development` (Разработка классических приложений .NET)
+     - `Desktop development with C++` (Разработка классических приложений на C++)
+     - `Windows application development` (Разработка приложений Windows)
+2. Установите плагин `Single-project MSIX Packaging Tools for VS 2022`, предоставляемый Microsoft, из магазина расширений Visual Studio.
+3. Используйте Git для клонирования репозитория проекта: `https://github.com/DGP-Studio/Snap.Hutao.git`.
+4. Переключитесь на ветку `develop`.
+5. Откройте решение проекта (Solution) в Visual Studio, и можно начинать разработку.
 
 ## <HopeIcon icon="iconfont icon-debug" size="1.5rem" color="rgb(73,156,84)" /> Включение отладки
 
-1. Скачайте и установите `Sysinternals Suite` из [Microsoft Store](https://www.microsoft.com/store/productid/9P7KNL5RWT25) или [сайта Microsoft](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite).
-2. Найдите и запустите программу `DebugView` в установленном списке приложений или распакованной папке.
-3. Запустите клиент Snap Hutao.
-4. Проверьте вывод DebugView.
+1. Скачайте и установите [Sysinternals Suite](https://www.microsoft.com/store/productid/9P7KNL5RWT25) (из Microsoft Store) или с [официального сайта Microsoft](https://learn.microsoft.com/zh-cn/sysinternals/downloads/sysinternals-suite).
+2. Найдите и запустите `DebugView` (в меню «Пуск» или в распакованных файлах).
+3. Запустите основную программу Snap Hutao.
+4. Наблюдайте за отладочной информацией, выводимой `DebugView`.
 
-## <HopeIcon icon="iconfont icon-pull-request" size="1.5rem" color="rgb(130,80,223)"/> Создание запроса на внесение изменений (Pull Request)
+## <HopeIcon icon="iconfont icon-pull-request" size="1.5rem" color="rgb(130,80,223)"/> Отправка Pull Request
 
-- Все изменения кода из веток авторов могут быть вливаемы только в ветку `develop`.
-- Пожалуйста, используйте [ключевые слова](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) для связи ваших запросов на внесение изменений или коммитов с задачами, чтобы задачи автоматически закрывались после вливания коммитов в ветку `main`.
+- Все Pull Request, созданные не из других веток проекта, могут быть объединены только с веткой `develop`.
+- Если ваш код связан с существующей проблемой, используйте [ключевые слова](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests), чтобы связать ваш PR с соответствующей проблемой. Это приведет к автоматическому закрытию связанной проблемы при слиянии PR с веткой `main`.
 
-## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> Тестирование двоичного пакета
+## <HopeIcon icon="iconfont icon-build-package" size="1.5rem" color="rgb(254,189,105)" /> Тестирование сборки пакета
 
-Как только код обновляется в ветках `develop` и `main`, скрипт Azure Pipeline CI соберет последний код в пакет `Snap Hutao Alpha`. После построения пакета он будет выпущен на [странице релизов GitHub](https://github.com/DGP-Studio/Snap.Hutao/releases) в качестве предварительно выпущенного пакета.
+::: warning Внимание
+Если вы хотите протестировать последнюю Alpha-версию, пожалуйста, сначала загрузите и установите [**DGP_Studio_CA.crt**](https://github.com/DGP-Automation/Hutao-Auto-Release/releases/download/certificate-ca/DGP_Studio_CA.crt) в **доверенные корневые центры сертификации**.
+:::
 
-Вам нужно установить сертификат [Snap.Hutao.CI.cer](https://github.com/DGP-Studio/Snap.Hutao/releases/download/2023.10.3.1/Snap.Hutao.CI.cer) на свое устройство, а затем установить msix-пакет из релиза.
-
-\*Если последний релиз не содержит прикрепленного файла, это означает, что пакет все еще находится в процессе загрузки.
+- После каждого `push` скрипты GitHub Actions автоматически запускаются для сборки последнего решения:
+  - Для веток `main`, `develop` и `feat` скрипт автоматически загружает собранный архив `Snap Hutao Alpha` для тестирования.
+  - Другие ветки только проверяют возможность сборки кода и не предоставляют функцию загрузки.
+- Вы можете просмотреть все записи компиляции в [конвейере Alpha](https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml).

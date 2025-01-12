@@ -1,66 +1,81 @@
 ---
 headerDepth: 2
-category: [Feature, Tutorial]
-tag: [Real-time Notes, Expeditions, Resin]
-order: 6
+category: [Функции, Руководство]
+tag: [Заметки в реальном времени, Экспедиции, Смола]
+order: 7
 comment: false
+description: Функция заметок в реальном времени в Snap Hutao синхронизирует динамическую информацию из Genshin Impact на локальный компьютер путем периодического обновления данных из MiYouShe/HoYoLAB и выполняет push-уведомления в соответствии с требованиями пользователя.
 ---
 
-# Real-time Notes
+# Заметки в реальном времени
 
-::: info
-
-This features requires you to login in to your MiYouShe or HoYoLAB account in Snap Hutao,
-you can check [MiHoYo BBS Account Switch](mhy-account-switch.html) for more information.
-
+::: important
+Это перевод, сделанный моделью Google Gemini. Мы приветствуем исправления через PR.
 :::
 
-![live-data-tracking](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp)
+::: info Предварительные требования
+Для этой функции необходимо войти в свою учетную запись MiYouShe/HoYoLAB в Snap Hutao. Способ входа описан в документе [Переключение между несколькими учетными записями MiYouShe](mhy-account-switch.md).
+:::
 
-## Add Role
+![live-data-tracking](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp)
 
-- Click on `Add Role` button
-- In the pop-up menu, find the UID you want to add, and click on the add button to its right
-- Now, the game UID character's Real-time Notes should be displayed in the page
-  - The Real-time Notes is set to refresh timely
-    - You can click on the `Notification Settings` on the top right to manage it
-    - If you want to see the data at this moment, you can click `Refresh` button to refresh data immediately
-  - If you receive any warning similar to `Verification failed`, it may be caused by too many account added, and you can try to fix it youself by refreshing account cookie
+## Добавление заметок в реальном времени
 
-## Verify Current User and Role
+1. Нажмите кнопку "Добавить заметки в реальном времени".
+2. Во всплывающем окне "Добавить заметки в реальном времени" найдите UID нужного игрового персонажа и нажмите кнопку "плюс" справа от него.
+3. Добавленный игровой персонаж появится на странице "Заметки в реальном времени".
+   - Заметки в реальном времени будут автоматически обновлять данные через фиксированные промежутки времени.
+   - Нажмите "Настройки уведомлений" в правом верхнем углу окна, чтобы настроить интервал времени запроса.
+4. Если вам нужно немедленно получить последние данные, нажмите кнопку "Обновить сейчас".
+5. Если при обновлении данных возникает ошибка `-1034`, это означает, что сработал механизм защиты от ботов MiYouShe. Эту проблему можно решить, настроив незаметную проверку в настройках Snap Hutao.
 
-If you are using a MiYouShe account, then you account is very likely to be marked as robot-usage and leads to an anti-bot
-verification. In this status, Real-time Notes data cannot be updated.
+## Подтверждение пользователя и персонажа
 
-You can click on `Verify Current User and Role` button, Snap Hutao will pop up verification window. After finishing the
-verification, then your account can be used to refresh data.
+Если вы используете учетную запись MiYouShe, механизм защиты от ботов может вызвать проверку CAPTCHA, из-за чего данные заметок в реальном времени не смогут обновиться.
+Эту проблему можно решить следующим образом:
 
-## Global Notification Settings
+1. Нажмите кнопку "Подтвердить текущего пользователя и персонажа" в левом верхнем углу страницы заметок в реальном времени.
+2. Snap Hutao отобразит окно проверки. После завершения проверки данные учетной записи, заблокированной защитой от ботов, можно будет обновить.
 
-- In the `Notification Settings` on the top right, you can change the global settings of Real-time Notes, including:
-  - Enable/Disable auto refresh
-  - Refresh rate
-  - Do not disturb setting
-  - Prioritized notification
-    - This prevent Snap Hutao's notification being closed automatically
-  - Customized data forwarding Webhook
-    - Snap Hutao allows user to forward Realtime Notes data to other applications to reduce account's request to MiHoYo API
-    - Input your third party HTTP API endpoint in `Realtime Notes Webhook Url` setting field, and Snap Hutao will forward the raw data through `POST` requests
+## Глобальные настройки уведомлений
 
-## Independent Settings for Accounts
+Нажав "Настройки уведомлений" в правом верхнем углу окна, вы можете настроить глобальное поведение функции заметок в реальном времени, в том числе:
 
-- Snap Hutao allows different settings on each Real-time Notes account
-- Hover the cursor over the form of Real-time Notes account that needs to set
-- Click on the setting button on it, and you can modify these settings:
-  - Original Resin threshold value
-  - Realm Currency threshold value
-  - Parametric Transformer notification
-  - Daily Commission notification
-  - Expeditions notification
-  - Display in the main page (feature coming soon)
-- Click on `Save` and you can save the settings
+- **Включить/отключить автоматическое обновление данных**.
+- **Настроить интервал автоматического обновления данных**.
+- **Режим "Не беспокоить" для уведомлений**:
+  - Если включен, уведомления будут отображаться только в центре уведомлений системы.
+- **Уведомления с высоким приоритетом**:
+  - Позволяют избежать автоматического попадания уведомлений в центр действий, но могут мешать повседневному использованию.
+- **Пользовательский Webhook пересылки данных**:
+  - Snap Hutao позволяет пользователям пересылать данные заметок в реальном времени сторонним программам, чтобы уменьшить количество прямых запросов к API miHoYo.
+  - Введите адрес интерфейса `HTTP API` сторонней программы в поле "URL Webhook заметок в реальном времени". Snap Hutao будет пересылать исходные данные на этот интерфейс с помощью запроса `POST`.
 
-## Delete Daily-Notes Account
+## Независимые настройки учетных записей
 
-- Hover the cursor over the form of Real-time Notes account that needs to delete
-- Clock on the remove button on it, and you can remove the corresponding account
+1. Наведите курсор мыши на форму заметок в реальном времени персонажа, настройки которого нужно изменить.
+2. Нажмите кнопку настроек в правом верхнем углу формы, чтобы перейти к следующим параметрам:
+   - **Порог напоминания о Первородной смоле** (диапазон: 0–200)
+   - **Порог напоминания о Сокровищах обители** (диапазон: 0–2400)
+   - **Включить напоминание о Параметрическом преобразователе** (вкл./выкл.)
+   - **Включить напоминание о достижении лимита ежедневных поручений** (вкл./выкл.)
+   - **Включить напоминание о завершении экспедиций** (вкл./выкл.)
+3. После внесения изменений нажмите кнопку "Сохранить", чтобы сохранить текущие настройки.
+
+## Удаление персонажа
+
+1. Наведите курсор мыши на форму заметок в реальном времени персонажа, которого нужно удалить.
+2. Нажмите кнопку удаления в правом верхнем углу формы, чтобы удалить заметки в реальном времени этого персонажа.
+
+## Часто задаваемые вопросы
+
+### Почему при настройке автоматического обновления заметок в реальном времени появляется сообщение об ошибке "Не удалось изменить запланированную задачу"?
+
+- Автоматическое обновление заметок в реальном времени зависит от планировщика задач Windows.
+- Чтобы избежать проблем с разрешениями, Snap Hutao настраивает запланированную задачу в режиме, отличном от режима администратора.
+
+**Решение:**
+
+1. Если вы использовали старую версию и включили автоматическое обновление, вы можете вручную удалить старую запланированную задачу. Имя запланированной задачи: `SnapHutaoDailyNoteRefreshTask`.
+2. Если вы никогда не включали запланированную задачу, возможно, текущей учетной записи пользователя Windows не хватает разрешений. Попробуйте выполнить операцию с использованием учетной записи администратора.
+3. Если проблема не устранена, может потребоваться переустановка системы.

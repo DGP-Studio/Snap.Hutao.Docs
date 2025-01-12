@@ -1,15 +1,20 @@
 ---
 headerDepth: 2
-comment: statements and Announcements
+comment: false
 index: false
 icon: iconfont icon-blog
 dir:
-  text: Statements
+  text: Заявления и объявления
   order: 4
+description: На этой странице представлен каталог всех заявлений и объявлений Snap Hutao.
 ---
 
-# Statements
+# Заявления и объявления
 
-**Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.**
+::: important
+Это перевод, сделанный моделью Google Gemini, и мы приветствуем исправления посредством PR.
+:::
+
+**Проект Snap Hutao не поддерживает, не участвует и не сотрудничает ни с какими проектами, связанными с частными серверами и программами для взлома Genshin Impact.**
 
 <Catalog />

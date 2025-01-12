@@ -4,10 +4,15 @@ comment: false
 index: false
 icon: iconfont icon-git
 dir:
-  text: Open Source Development
+  text: Разработка с открытым исходным кодом
   order: 3
+description: На этой странице представлен каталог общедоступных документов, связанных с разработкой проекта Snap Hutao.
 ---
 
-# Open Source Development
+# Разработка с открытым исходным кодом
 
 <Catalog />
+
+::: important
+Это перевод, выполненный моделью Google Gemini. Мы приветствуем исправления через PR.
+:::

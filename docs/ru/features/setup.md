@@ -1,53 +1,68 @@
 ---
 headerDepth: 2
-category: [Feature, Tutorial]
+category: [Функции, Обучение]
+tag: [Руководство пользователя, Инициализация, Установка]
 order: 1
 comment: false
+description: Руководство для новых пользователей Snap Hutao поможет им быстро проверить состояние доступности конкретных функций программы и установить их в рабочее состояние.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features/setup.html
 ---
 
-# Initial Setup Guide
+# Руководство по инициализации
 
-When launching the Snap Hutao for the first time, the client will automatically enter an initialization setup guide to assist users in configuring the client correctly.
+При первом запуске Snap Hutao программа автоматически перейдет к процессу руководства по инициализации, помогая пользователям правильно настроить различные функции инструмента.
+Процесс руководства включает в себя настройку языка, подтверждение важных пользовательских соглашений, проверку необходимых системных условий и загрузку статических ресурсов.
 
-Currently, Snap Hutao will guide users through the process of setting the language, confirming user agreements, checking necessary environmental configurations, and downloading static resources.
-
-::: details Language Setting
-
-![](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01wBgRV01g6dyC2bc62_!!1797064093.png_.webp)
-
-In the language settings section, you can choose from the interface languages currently supported by Snap Hutao. If you change the language, the Snap Hutao will automatically restart.
-
-Snap Hutao uses Simplified Chinese as the base language and actively maintains English text.
-Traditional Chinese, Korean, and Japanese texts are translated by community contributors.
-If you're interested in contributing translations, you can lend your support at [https://translate.hut.ao](https://translate.hut.ao).
+::: important
+Это перевод, сделанный моделью Google Gemini. Мы приветствуем исправления через PR.
 :::
 
-::: details User Agreement Confirmation
+## Настройка языка
 
-![](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01Zv1EGr1g6dy8E1fpj_!!1797064093.png_.webp)
+::: details
+![language-selection](https://img.alicdn.com/imgextra/i4/1797064093/O1CN016IMEtP1g6dyEFo5uK_!!1797064093.png_.webp)
 
-In the user agreement documents confirmation section, you will need to confirm several documents provided by Snap Hutao.
-These documents can help you understand the nature of the Snap Hutao project and will be beneficial for your future usage.
+На этапе настройки языка вы можете выбрать язык интерфейса, поддерживаемый Snap Hutao. Если вы измените язык, программа автоматически перезапустится, чтобы применить изменения.
 
+- Упрощенный китайский является базовым языком Snap Hutao, команда разработчиков также поддерживает английский перевод.
+- Участники сообщества Crowdin внесли свой вклад в переводы на традиционный китайский, японский и корейский языки.
+- Остальные языки переведены с помощью модели искусственного интеллекта Google Gemini.
+
+Если вы заинтересованы в том, чтобы помочь с переводом, посетите [https://translate.hut.ao](https://translate.hut.ao).
 :::
 
-::: details Environment Checking
+## Пользовательское соглашение
 
-![](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01LYYIB41g6dyDFB6I9_!!1797064093.png_.webp)
+::: details
+![user-agreement](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SzKgb61g6dy2MZH5s_!!1797064093.png_.webp)
 
-In the environment checking section, Snap Hutao will utilize two small tests to assist users in determining whether the system environment, which will enhance user experience, has been installed: the Segoe Fluent Icons font and the WebView2 Runtime.
+На этапе пользовательского соглашения вам необходимо прочитать и согласиться с соответствующими соглашениями и условиями обслуживания, предоставляемыми Snap Hutao. Эти документы призваны помочь вам понять характер проекта Snap Hutao и правила использования инструмента.
 
-You can assess whether these two environment packages are installed based on the prompts. If they are not installed, you can click the corresponding link buttons to download and install the required content.
-
-The image above is the expected outcome in this step.
-
+Подтверждение и принятие соглашения позволит продолжить процесс инициализации.
 :::
 
-::: details Assets Download
+## Проверка среды
 
-![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01XlICiR1g6dyC7Qpy6_!!1797064093.png_.webp)
+::: details
+![environment-check](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01T3lLLI1g6dyDspUsf_!!1797064093.png_.webp)
 
-In this step, Snap Hutao will automatically download the required static image resources.
-Once the download is complete, Snap Hutao will close the initialization setup interface and automatically load the main program.
+Snap Hutao автоматически проверит следующие ключевые среды выполнения и сообщит пользователю, нужно ли устанавливать или обновлять их:
 
+1. **Шрифт Segoe Fluent Icons**: обеспечивает лучшее отображение значков интерфейса.
+   Ссылка для скачивания: [Segoe Fluent Icons](https://aka.ms/SegoeFluentIcons)
+2. **Среда выполнения WebView2**: поддерживает современный компонент браузера для основных функций инструмента.
+   Ссылка для скачивания: [WebView2 Runtime](https://go.microsoft.com/fwlink/?linkid=2124701)
+
+Если обнаружена недостающая среда, вы можете нажать на соответствующую ссылку, чтобы скачать и завершить установку.
+Изображение выше показывает ожидаемый результат этого этапа в полной среде.
+:::
+
+## Загрузка ресурсов
+
+::: details
+![resource-download](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01QILPRh1g6dyHTUpV9_!!1797064093.png_.webp)
+
+На этапе загрузки ресурсов Snap Hutao автоматически получит необходимые статические графические ресурсы. После завершения загрузки ресурсов процесс инициализации автоматически закроется и загрузится основной интерфейс инструмента.
+
+Если загрузка ресурсов не удалась, Snap Hutao все равно можно будет использовать в обычном режиме, а недостающие ресурсы будут загружены автоматически при загрузке изображений.
 :::

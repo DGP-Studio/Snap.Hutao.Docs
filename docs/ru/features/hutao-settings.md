@@ -1,122 +1,91 @@
 ---
 headerDepth: 2
-category: [Feature, Tutorial]
+category: [Функции, Руководство]
 tag:
-  [Snap Hutao Cloud, Geetest verification, Language settings, Advanced settings]
-order: 14
+  [Snap Hutao Cloud, Проверка Geetest, Настройки языка, Расширенные настройки]
+order: 15
 comment: false
+description: Страница настроек Snap Hutao содержит параметры для всех аспектов программы. Пользователи могут настроить Snap Hutao по своему вкусу, изменяя параметры на этой странице.
 ---
 
-# Software Settings
+# Настройки программы
 
-::: info
+![settings](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01wDQfRa1g6e0ylR4ov_!!1797064093.png_.webp)
 
-- The following feature tutorials are introduced in-program order.
+Следующее описание приведено в порядке расположения пунктов меню настроек в Snap Hutao.
 
+::: important
+Это перевод, выполненный моделью Google Gemini. Мы приветствуем исправления через PR.
 :::
 
-## About Snap Hutao
+## О Snap Hutao
 
-This part has the following information:
+В этом разделе представлена следующая информация:
 
-- The icon of Snap Hutao：You can find the original image of the icon at the [home page](/)
-  - The artist is [画画的芦苇 (BiliBili)](https://space.bilibili.com/274422134)
-    ::: details Drawing Process
-    <BiliBili bvid="BV1UL411d7Py" />
-    :::
-  - [DGP-Studio](https://github.com/DGP-Studio) is authorized by owner to use it for Snap Hutao Project
-- Snap Hutao client version
-- Device ID
+- Значок Snap Hutao: вы можете посмотреть его оригинальное изображение на [главной странице](/).
+- [DGP-Studio](https://github.com/DGP-Studio) получила соответствующее разрешение на использование этого значка.
 
-## Snap Hutao Account <Badge text="Beta" type="info" />
+## Инструменты режима администратора
 
-![Hutao-account](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01LtqGEF1g6dy9LMxCm_!!1797064093.png_.webp)
-Snap Hutao account system is designed by DGP-Studio to provide fundamental component for cloud service such as wish history backup.
-Currently, you are already able to register and login to your Snap Hutao account in the settings page.
+В правой части страницы настроек находятся инструменты режима администратора, которые могут понадобиться пользователям.
 
-## Shell Experience
+- **Создать ярлык:** Создает на рабочем столе ярлык для запуска Snap Hutao от имени администратора.
+- **Перезапустить от имени администратора:** Щелкните правой кнопкой мыши значок Snap Hutao в правом нижнем углу панели задач и выберите в появившемся меню пункт «Перезапустить от имени администратора», чтобы получить права администратора.
 
-- Create Desktop Shortcut
-  - Snap Hutao will create a shortcut with Administrator privilege on user's desktop
+## Бесшовная проверка
 
-## Appearance
+- Если ежедневный вход и функция «Заметки в реальном времени» вызывают ошибку `-1034` от miHoYo, вы можете настроить стороннюю службу проверки для автоматического прохождения проверки Geetest через эту настройку.
+- После успешной настройки «Заметки в реальном времени» и вход будут проходить проверку автоматически, избегая неудачных запросов.
 
-- Language
+## Настройки внешнего вида
 
-  - Snap Hutao will following system language setting by default
-  - You can force to change to another language in the settings page
+- **Язык:** По умолчанию используется системный язык, но пользователи могут принудительно задать язык отображения.
+- **День начала недели:** Устанавливает отображаемую дату для первого столбца в игровом календаре.
+- **Материал фона:**
+  - Варианты включают: нет, акрил, слюда (только для Windows 11) и вариант слюды (только для Windows 11).
+- **Цветовая тема:** Позволяет переключаться между светлой и темной темами, по умолчанию используется системная настройка.
+- **Фоновое изображение:**
+  - Варианты включают: нет фонового изображения, случайное локальное изображение, ежедневное изображение Bing, ежедневное изображение Snap Hutao, официальные обои лаунчера.
+- **Значок в области уведомлений:** Выберите, показывать ли значок Snap Hutao в области уведомлений.
 
-- Backdrop Material
-  - In this option, you can change the backdrop material of the software to
-    - Acrylic
-    - Mica (Windows 11 only)
-    - MicaAlt (Windows 11 only)
-  - The setting will take effect immediately
+## Управление хранилищем
 
-## Home
+- **Папка с данными:**
+  - **Открыть папку:** Открывает папку, содержащую пользовательские данные и метаданные.
+  - **Изменить каталог данных:** Изменяет место хранения папки с данными.
+  - **Удалить кэш переключения серверов:** Удаляет кэш, созданный функцией переключения серверов игры.
+- **Папка с кэшем:**
+  - **Открыть папку:** Открывает папку, содержащую кэш изображений.
+  - **Сбросить ресурсы изображений:** Удаляет и повторно загружает ресурсы изображений.
 
-- Dashboard Card
-  - You can click on this option to switch display of card on Home Dashboard
-    - Game Launcher
-    - Wish History
-    - Achievement
-    - Realtime Notes
+## Настройки горячих клавиш
 
-## Game
+::: info Требуются права администратора
+Для изменения настроек горячих клавиш необходимо запустить Snap Hutao в режиме администратора.
+:::
 
-- Game Path
+- Настройка функции автоматического нажатия мыши и горячих клавиш клавиатуры.
+- Если регистрация горячей клавиши не удалась (недостаточно прав или конфликт), в нижней части интерфейса появится сообщение, и пользователю потребуется перенастроить клавишу.
 
-  - In this field, you can modify or set your game path for Snap Hutao
-  - When setting the game path, you should select game program instead of launcher program
-    - Such as `$\Genshin Impact\Genshin Impact Game\YuanShen.exe`
+## Настройки главной страницы
 
-- PowerShell Path
+- **Карточки на главной:** Установите, отображать ли определенные карточки функций (например, запуск игры, записи о молитвах).
+- **Сервер календаря:** Изменяет источник данных для игрового календаря.
+- **Сервер объявлений:** Изменяет источник данных для игровых объявлений.
 
-  - Snap Hutao uses PowerShell to modify Genshin Impact registry field to switch game account. This option allows user to
-    select PowerShell path to fix issue when PowerShell path is unable to located automatically
+## Настройки игры
 
-- Delete Game Embedded Browser Web Cache
-  - When you are using web cache refresh method in the wish history feature and receiving authkey expiration error, you can try this operation to fix the error
-  - Click on this field to execute the operation
+- **Удалить веб-кэш игры:** Используется для решения проблемы аномального обновления записей о молитвах.
+- **Ограничение скорости загрузки:** Ограничивает скорость загрузки игровых ресурсов.
+- **Режим переключения сервера:** Устанавливает режим выполнения переключения сервера.
 
-## Wish History
+## Настройки записей о молитвах
 
-- In this field, you can choose to hide wish event that you do not have any record in the period in the wish export feature
+- **Скрыть исторические события без записей:** Скрывает события молитв, в которых нет записей.
+- **Скрыть невытянутые предметы молитв:** Скрывает не полученные предметы молитв.
+- **Перенос данных:** Поддерживает импорт и экспорт в формате UIGF 4.
 
-## Geetest Verification
+## Настройки WebView
 
-MiYouShe uses Geetest verification to block requests not from real human operations, so some requests from Snap Hutao,
-such as claim check-in reward and fetch Real-time Notes data may be failed due to marked as robot operation.
-If you have a third party service to bypass Geetest verification, you can config this setting to pass verification
-parameters to service provider you used.
-
-Successfully config this setting will help Snap Hutao pass verification when fetching data from Real-time Notes and
-claiming check-in rewards, and avoid `-1034` error from MiYouShe.
-
-## Storage
-
-- Open Data Folder
-  - Click this field to open data folder that contains user data, log, and metadata
-- Change Data Directory
-  - This field allows you to change the data directory to path you want
-- Open Cache Folder
-  - Click this field will open cache folder that saves image assets used by Snap Hutao
-- Reset Image Resource
-  - This option allows user to reset image cache when there are too many image failed to load. The program will
-    re-download images resource at next start-up
-
-## Dangerous Features
-
-- Enable Advanced Features
-  - With Snap Hutao running as administrator, you can enable this field to enable advanced features in the game launcher
-    > For reference：
-    >
-    > [Snap Hutao Terms of Service](../statements/tos.html)
-    >
-    > [Genshin Impact Terms of Service (CN server/Chinese)](https://ys.mihoyo.com/main/company/agreement)
-    >
-    > [Genshin Impact Terms of Service (Oversea servers/English)](https://genshin.hoyoverse.com/en/company/terms)
-- Delete All Users
-  - Execute this operation will delete all user data in Snap Hutao
-  - Click on the field to operate, you will be asked to confirm
-  - In most scenario, you don't need to use this field
+- **Режим сохранения при публикации:**
+  - Выберите способ сохранения изображения при публикации, включая сохранение в буфер обмена или локально.

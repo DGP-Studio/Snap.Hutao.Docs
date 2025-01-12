@@ -1,128 +1,114 @@
 ---
 headerDepth: 2
-category: [Feature, Tutorial]
-tag: [Spiral Abyss, Spiral Abyss Database, Spiral Abyss Analytics]
-order: 8
+category: [Функции, Обучение]
+tag: [Витая Бездна, База данных Витой Бездны, Статистика Витой Бездны]
+order: 9
 comment: false
+description: Встроенная в Snap Hutao функция базы данных Хутао помогает игрокам архивировать и запрашивать данные о прохождении Витой Бездны, предоставляя всесторонний статистический анализ и позволяя игрокам загружать данные в базу.
 ---
 
-# Hutao Database / Abyss Record
+# База данных Хутао / Статистика Бездны
 
-Snap Hutao offers two major statistic features associated with Spiral Abyss challenge
+Snap Hutao предлагает две основные функции сбора статистики прохождения Витой Бездны:
 
-- `Abyss Stats` on the sidebar is a feature designed to help players who are not familiar with Genshin Impact's
-  battle system to build teams, pass the Abyss and obtain rewards by collecting and displaying challenge stats data from
-  the Spiral Abyss from a large number of players.
-- `Abyss Record` on the sidebar is a statistical feature that helps individuals review their gaming experience and
-  personal data collection by saving their challenge data from each period of the Spiral Abyss.
-  - Many players contribute to the Hutao Database's `Abyss Stats` dataset by uploading their personal `Abyss Records`
+- **Детализация этапов**: помогает игрокам сохранять данные о каждом прохождении Витой Бездны для личного просмотра и анализа.
+- **Статистика текущего периода**: показывает данные о Витой Бездне всех игроков, загрузивших свои данные в базу данных Хутао, предоставляя игрокам справочную информацию об использовании персонажей и отрядов.
+  - «Статистика текущего периода» зависит от данных «Детализации этапов», предоставленных игроками.
 
 ::: tabs
-
-@tab Character Usage
-![character-usage-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01cAHDDi1g6dyEPgDBp_!!1797064093.png_.webp)
-@tab Character Appearance
-![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oGusSy1g6dyD7kKoP_!!1797064093.png_.webp)
-@tab Teams Appearance
-![Teams Appearance](https://img.alicdn.com/imgextra/i2/1797064093/O1CN010K1SE91g6dyGYLnWB_!!1797064093.png_.webp)
-@tab Character Constellation
-![character-held-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01O2jCWZ1g6dy4fzxlw_!!1797064093.png_.webp)
-@tab Personal Statistics
-![personal-record-stat](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YDXi8r1g6dyGBmAt2_!!1797064093.png_.webp)
-@tab Personal Stats Details
-![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YwoXln1g6dyEKoJ2r_!!1797064093.png_.webp)
-
+@tab Детализация этапов
+![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
+@tab Рейтинг использования персонажей
+![character-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
+@tab Рейтинг появления персонажей
+![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Pdv5w01g6e0u1ewov_!!1797064093.png_.webp)
+@tab Количество появлений отрядов
+![hutaoapi](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01k1W4tw1g6e0wOyjdf_!!1797064093.png_.webp)
+@tab Рейтинг владения персонажами
+![character-held-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01bQvukt1g6e0uuU2Fh_!!1797064093.png_.webp)
 :::
 
-## View Abyss Stats
+## Просмотр данных Бездны
 
-::: warning Data Scope Limitation
-All calculated data are based on the player data **uploaded to the Hutao Database** and cannot represent the average
-data of **all** Genshin Impact players. The data is for reference only.
+::: warning Ограничение объема данных
+Все расчеты основаны на **данных игроков, загруженных в базу данных Хутао**, и могут не отражать средние данные всех игроков Genshin Impact, поэтому служат только для справки.
 :::
 
-::: info Stats Data Refresh Cycle
+::: info Период обновления данных
 
-1. Abyss Stats (character usage, character appearance, teams appearance) wil be automatically reset on 1st and 16th day
-   of each month on the gaming server timezone of your account
-   - You can view real-time total uploaded data by clicking `Details` button in the `Abyss Stats` page
-2. If user does not upload its record for 30 days, its character constellation data will be reset in the database
+1. Статистические данные Витой Бездны (рейтинг использования персонажей, рейтинг появления персонажей, появления отрядов) обновляются автоматически 1-го и 16-го числа каждого месяца в 4 часа утра по часовому поясу сервера, к которому привязан аккаунт.
+2. Если пользователь не загружает данные в течение 30 дней, его записи о владении персонажами будут удалены.
+   :::
 
+- Нажмите на пункт «Витая Бездна» в левом меню и выберите вкладку «Статистика текущего периода».
+- Просмотр данных:
+  - **Рейтинг использования персонажей**:
+    - Формула: Рейтинг использования персонажа = Количество появлений персонажа на текущем этаже[^first] / Общее количество записей игроков, владеющих этим персонажем, на этом этаже.
+  - **Рейтинг появления персонажей**:
+    - Формула: Рейтинг появления персонажа = Количество появлений персонажа на текущем этаже[^first-2] / Общее количество записей текущего этажа.
+  - **Рейтинг владения персонажами**:
+    - Формула: Рейтинг владения персонажем[^third] = Количество игроков, владеющих этим персонажем / Общее количество игроков.
+  - **Количество появлений отрядов**: Показывает рейтинг количества появлений комбинаций отрядов.
+
+## Загрузка данных Витой Бездны
+
+### Использование клиента Snap Hutao
+
+::: important Награда за разрешение Хутао Cloud
+После первой успешной отправки данных вы получите в качестве награды 3-дневный доступ к сервису «Записи молитв Хутао Cloud» (даже если вы не прошли 12-й этаж).
 :::
 
-- Enter Abyss Records page by clicking `Abyss Stats` on the sidebar menu
-- Click `Character Usage` tab to view character usage rate statistics
-  - Character Usage Rate = Character Appearance in this Floor [^first] / Number of Player who Own this Character
-- Click `Character Appearance` tab to view character appearance rate statistics
-  - Character Appearance Rate = Character Appearance in this Floor [^first-2] / Total Number of Abyss Record of this Floor
-- Click `Teams` tab to view teams appearance time statistics
-  - Team appearance is the appearance time rank of different characters team combination
-- Click `Character Constellation` tab to view character constellation statistics [^second]
-  - Character Constellation [^third] = Number of Player who Own this Character / Total Number of Player
+1. Нажмите на пункт «Витая Бездна» в левом меню.
+2. Нажмите «Обновить данные» в правом верхнем углу, чтобы убедиться, что инструмент получил последние личные данные Витой Бездны.
+3. Нажмите кнопку «Загрузить данные», чтобы отправить данные.
 
-## Upload Abyss Data
+- Загрузка может занять несколько секунд, по завершении появится сообщение об успехе.
 
-### Use Snap Hutao Client
-
-- Enter Abyss Records page by clicking `Abyss Records` on the sidebar menu
-- Click `Refresh Data` button to make suer Snap Hutao is storing your latest Spiral Abyss record
-- Click `Upload Data` to upload your Spiral Abyss records
-  - This may take a few seconds, you will see the following success message after your data is submitted
-    ![upload-hutaoapi](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Zt7yQp1g6duBDALeX_!!1797064093.png)
-
-### Use Browser
+### Использование браузера
 
 ::: info
-This method does not support HoYoLAB
+Этот метод не подходит для HoYoLAB.
 :::
 
-- Open our [JavaScript file](/upload-abyss-data.js), copy the entire content
-- Create new bookmark in your browser
-  - Fill with a suitable name
-  - in the `URL` field, fill with script you just copied
-    ![add-bookmark](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01p0KOqU1g6dvfDQO6e_!!1797064093.png)
-- Visit MiYouShe, wait the page to be fully loaded, and then click the bookmark
-- Wait for a moment, and you will see data upload request window
-- After confirm it, the browser will upload your abyss record, do not turn off your browser
-- You will receive a notification when your data is submitted
+1. Откройте ссылку на [JavaScript-скрипт](/upload-abyss-data.js) и скопируйте код.
+2. Создайте новую закладку в браузере:
+   - Укажите подходящее название.
+   - Вставьте скопированный код в URL-адрес закладки.
+     ![add-bookmark](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01p0KOqU1g6dvfDQO6e_!!1797064093.png_.webp)
+3. Откройте MiYouShe и дождитесь полной загрузки страницы, затем нажмите на закладку.
+4. Подтвердите загрузку в появившемся окне.
 
-## Data Sharing
+## Обмен данными
 
-Snap Hutao is contributing data to Hutao Database with other developers. You can view our Abyss Stats, and upload your
-Abyss data in multiple applications other than Snap Hutao.
-Currently, Snap Hutao is sharing Abyss data with following applications:
+Snap Hutao и другие разработчики совместно поддерживают базу данных Хутао. Пользователи могут просматривать статистику Бездны и загружать данные в разных приложениях. В настоящее время приложения-партнеры включают:
 
 <div class="vp-card-container">
 
 ```component VPCard
-title: Miao-Plugin for Yunzai-Bot
-desc: QQ robot Miao-Plugin
+title: Miao-Plugin для Yunzai-Bot
+desc: Плагин Miao-Plugin для QQ-бота
 logo: /images/202312/miao-plugin-logo.webp
 link: https://github.com/yoimiya-kokomi/miao-plugin/tree/master
 ```
 
 ```component VPCard
-title: Pizza Helper for Genshin
-desc: Genshin Impact tool on MacOS/iOS platforms
+title: Помощник по пицце для Genshin
+desc: Инструмент Genshin Impact для MacOS/iOS
 logo: /images/202312/genshin-pizza-helper-logo.webp
 link: https://apps.apple.com/cn/app/%E6%8A%AB%E8%90%A8%E5%B0%8F%E5%8A%A9%E6%89%8B/id1635319193
 ```
 
 ```component VPCard
 title: Ysin
-desc: WeChat mini program Ysin
+desc: Мини-программа WeChat Ysin
 logo: /images/202312/ysin-logo.png
 link: https://yuanshen.xin/
 ```
 
 </div>
 
-[^first]: When same character appearances in the same floor but different level, appearance time only count for 1
+[^first]: Если один и тот же персонаж появляется несколько раз на одном этаже, но в разных комнатах, количество появлений засчитывается только 1 раз.
 
-[^first-2]: When same character appearances in the same floor but different level, appearance time only count for 1
+[^first-2]: Если один и тот же персонаж появляется несколько раз на одном этаже, но в разных комнатах, количество появлений засчитывается только 1 раз.
 
-[^second]: Character constellation data is a separate data set from Spiral Abyss records database
-
-[^third]:
-    Once owned this character, it's counted into database even it's not appearing in Spiral Abyss; Once upload your
-    Abyss stats, all collected characters will be included
+[^third]: Владение персонажем учитывается, даже если он не появлялся в Витой Бездне. Если вы загрузили запись, она будет учтена в общей статистике игроков.
