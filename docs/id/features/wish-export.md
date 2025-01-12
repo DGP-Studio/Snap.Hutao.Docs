@@ -1,136 +1,116 @@
 ---
 headerDepth: 2
 category: [Fitur, Tutorial]
-tag: [riwayat harapan, gacha, harapan]
-order: 4
+tag: [ekspor permohonan, gacha, permohonan]
+order: 5
 comment: false
+description: Fitur ekspor catatan permohonan memungkinkan pemain untuk secara bebas mengekspor data permohonan akun game mereka saat ini dan menyimpannya secara permanen di penyimpanan lokal dan mencadangkannya. Melalui akumulasi data jangka panjang, data dapat dilacak dan dianalisis.
 ---
 
-# Riwayat Harapan
+# Catatan Permohonan
 
-Gacha adalah salah satu gameplay inti dalam Genshin Impact. Baik itu untuk tujuan perayaan dan pamer, atau untuk perencanaan serius strategi gacha, sangat penting untuk melakukan analisis statistik pada riwayat gacha historis.
-Namun, Genshin Impact hanya menyediakan pemain dengan enam bulan riwayat gacha, yang tidak ramah pengguna ~~(meskipun mereka masih melacak berapa banyak merpati Timmie yang telah Anda bunuh sepanjang tahun)~~.
+Gacha adalah salah satu gameplay inti dari Genshin Impact. Baik untuk tujuan peringatan, pamer, atau perencanaan serius untuk rencana menarik karakter, analisis statistik pada catatan gacha historis sangatlah penting. Namun, Genshin Impact hanya menyediakan catatan gacha selama satu tahun, yang tidak cukup bagi pemain jangka panjang (~~namun mereka akan menghitung berapa banyak merpati Timmy yang telah Anda bunuh dalam setahun~~).
 
-Oleh karena itu, kita perlu menggunakan catatan gacha dari enam bulan ini untuk mengambil data dan mentransfer rekaman ke perangkat lokal kita. Ini adalah tujuan dari fitur ekspor riwayat harapan di Snap Hutao.
+Oleh karena itu, fitur ekspor catatan permohonan Snap Hutao hadir untuk membantu pemain mentransfer data permohonan ke penyimpanan lokal untuk penyimpanan permanen dan melakukan analisis data jangka panjang.
 
-Mengenai prinsip teknis dari mengekspor catatan gacha Genshin Impact, Anda dapat merujuk ke artikel kami tentang [Sistem Gacha dan Prinsip Ekspor](../advanced/Sistem-gacha-dan-prinsip-ekspor.html)
+Untuk prinsip teknis ekspor catatan permohonan Genshin Impact, silakan merujuk ke [**Sistem Permohonan dan Prinsip Ekspor**](../advanced/Gacha-system-and-export-principal.html).
 
-![ekspor harapan](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp)
+![Ekspor Permohonan](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01otuXYg1g6e0wnNwX2_!!1797064093.png_.webp)
 
-**Seperti yang ditunjukkan pada gambar di atas, melalui fitur riwayat harapan di Snap Hutao, Anda dapat dengan jelas mendapatkan informasi berikut:
-jumlah total harapan, jumlah pity saat ini, kuantitas dan persentase item yang diperoleh dengan rarity yang berbeda, jumlah kali item rarity 5 bintang tidak diperoleh, dan status pity saat ini.**
+Seperti yang ditunjukkan pada gambar di atas, fitur ekspor permohonan Snap Hutao dapat membantu pengguna menghitung dan menganalisis data gacha dengan jelas, termasuk:
 
-**Selain itu, pengguna dengan Hutao Cloud dapat melihat data prediksi yang dihitung oleh server Hutao Cloud**
+- Jumlah total gacha
+- Jumlah pity saat ini
+- Jumlah dan persentase perolehan senjata dan karakter dengan tingkat kelangkaan yang berbeda
+- Jumlah gacha untuk setiap perolehan bintang 5 dan status pity
 
-::: note Keterlambatan dalam Ekspor Data Gacha
+Selain itu, **pengguna Snap Hutao Cloud dapat memperoleh data prediksi gacha tambahan yang dihitung oleh server cloud.**
 
-Snap Hutao mengambil catatan gacha dari server MiHoYo, yang berarti bahwa harapan yang baru saja dibuat mungkin tidak segera tersedia. Ketika Anda melihat batch terbaru dari catatan gacha dalam riwayat game sendiri, maka Anda dapat memperoleh statistik yang sesuai dari Snap Hutao.
-
+::: note Keterlambatan Catatan Permohonan Genshin Impact
+Sumber data Snap Hutao adalah server miHoYo, sehingga catatan permohonan yang baru saja dilakukan mungkin tidak dapat diperoleh dalam waktu singkat.  
+Ketika Anda melihat catatan terbaru di riwayat permohonan dalam game, Anda dapat memperoleh data statistik yang sesuai di Snap Hutao.
 :::
 
-## Ambil Riwayat Harapan
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
+:::
 
-### Refresh dengan SToken Cookie <Badge text="Direkomendasikan" type="tip" />
+## Mendapatkan Data Permohonan
+
+### Refresh SToken <Badge text="Disarankan" type="tip" />
 
 ::: info Petunjuk
 
-- Metode ini memerlukan pengguna untuk masuk ke akun MiHoYo BBS di Snap Hutao, lihat [MiHoYo BBS Account Switch](mhy-account-switch.md) untuk mengetahui cara masuk ke akun MiHoYo BBS Anda
-- **Metode pembaruan SToken Cookie tidak mendukung server global (HoYoLAB)**
+- Akun MiYouShe yang sudah login adalah prasyarat untuk menggunakan metode refresh SToken. Anda dapat merujuk ke dokumen [Pengalihan Akun MiYouShe](mhy-account-switch.md) untuk login ke akun di Snap Hutao.
+- Metode refresh SToken saat ini tidak mendukung server internasional.
+  :::
 
-:::
+1. Pastikan akun MiYouShe yang perlu diambil catatannya telah login di Snap Hutao.
+2. Masuk ke halaman "Catatan Permohonan" di menu sebelah kiri.
+3. Klik tombol "Refresh" di kanan atas, pilih "Refresh SToken".
+4. Tunggu hingga pembacaan selesai, lalu Anda dapat melihat catatan permohonan terbaru.
 
-- Pastikan akun yang ingin Anda perbarui riwayat harapannya sudah masuk ke Snap Hutao
-- Beralih ke halaman fitur `Riwayat Harapan` di Snap Hutao
-- Klik tombol `Refresh` dan pilih `SToken Refresh`
-- Tunggu hingga tugas pembaruan selesai
+### Refresh Cache Web <Badge text="Mendukung Server Internasional" type="tip" />
 
-### Refresh dengan Web Cache <Badge text="Didukung Server Global" type="tip" />
+1. Mulai Genshin Impact dan masuk ke game, buka riwayat permohonan dalam game.
+2. Masuk ke halaman "Catatan Permohonan" di menu sebelah kiri Snap Hutao, klik tombol "Refresh" di kanan atas, pilih "Refresh Cache Web".
 
-- Beralih ke halaman fitur `Riwayat Harapan` di Snap Hutao
-- Mulai permainan, pergi ke halaman riwayat harapan dalam permainan
-- Kembali ke Snap Hutao, klik tombol `Refresh` dan pilih `Refresh dengan Web Cache`
-- Tunggu hingga tugas pembaruan selesai
+::: tip Jika fungsi refresh cache web tidak normal:
+
+- Klik "Pengaturan-Ruang Penyimpanan" di menu kiri bawah aplikasi.
+- Jalankan operasi "Hapus cache web dalam game".
+- Buka kembali antarmuka riwayat permohonan di dalam game.
+- Coba lagi untuk me-refresh catatan permohonan.
+  :::
+
+### Input URL Manual <Badge text="Mendukung Server Internasional" type="tip" />
+
+1. Jika Anda mendapatkan URL riwayat permohonan melalui alat lain, Anda dapat memilih "Input URL Manual" dan ikuti petunjuknya.
+2. Harap perhatikan bahwa URL **memiliki batas waktu**, pastikan untuk menyelesaikan operasi sesegera mungkin.
+
+### Mode Refresh Penuh
+
+- Secara default, Snap Hutao akan berhenti mengimpor setelah menemukan catatan yang sudah ada secara lokal untuk menghindari duplikasi catatan.
+- Jika Anda ingin mendapatkan semua catatan historis dari server Genshin Impact secara lengkap, Anda dapat mencentang "Refresh Penuh", lalu menjalankan tugas refresh.
 
 ::: tip
-Jika kesalahan terus terjadi:
 
-- Pergi ke halaman pengaturan di Snap Hutao
-- Jalankan operasi `Hapus cache web browser yang tertanam di permainan`
+- **Tidak mencentang refresh penuh** tidak akan menyebabkan hilangnya data permohonan.
+- **Mencentang refresh penuh** juga tidak akan menyebabkan duplikasi impor data.
+  :::
 
+## Impor Data Permohonan UIGF <Badge text="UIGF" type="info" />
+
+Snap Hutao mendukung impor catatan permohonan dengan `format data UIGF`[^UIGF-Org]. Langkah-langkah impor adalah sebagai berikut:
+
+1. Ekspor file data UIGF dari alat lain.
+2. Di Snap Hutao, klik "Pengaturan-Catatan Permohonan-Migrasi-Impor".
+3. Di pemilih file yang muncul, pilih file data `UIGF Json`.
+4. Konfirmasi data dan selesaikan impor.
+
+::: warning Peningkatan file UIGF versi lama
+Jika versi catatan permohonan terlalu lama, Anda dapat mengklik "Pengaturan-Catatan Permohonan-Migrasi-Tingkatkan File UIGF Versi Awal", lalu impor setelah peningkatan selesai.
 :::
 
-### Refresh dengan Input URL Manual <Badge text="Didukung Server Global" type="tip" />
+## Ekspor Data Permohonan UIGF <Badge text="UIGF" type="info" />
 
-- Jika Anda memiliki URL riwayat harapan pribadi, Anda dapat memilih `Input Manual` dan submit URL riwayat harapan Anda
-- Harap diketahui bahwa URL ini bersifat waktu-sensitif
+Snap Hutao mendukung ekspor catatan permohonan dalam `format data UIGF` sebagai file Json. Langkah-langkah spesifiknya adalah sebagai berikut:
 
-### Penjelasan pada Opsi Full Refresh
+1. Masuk ke "Pengaturan" di menu sebelah kiri.
+2. Temukan bagian "Catatan Permohonan-Migrasi", klik tombol "Ekspor".
+3. Pilih akun yang datanya ingin Anda ekspor.
+4. Di antarmuka yang muncul, pilih jalur penyimpanan file, klik "Ekspor" untuk menyelesaikan operasi.
 
-Secara default, Snap Hutao akan berhenti mengimpor catatan gacha begitu cocok dengan ID Harapan yang sudah ada secara lokal.
-Namun, jika Anda ingin mendapatkan semua catatan historis dari server Genshin Impact
-(bahkan jika sudah ada dalam riwayat harapan lokal Anda), Anda dapat memeriksa opsi "Full Refresh".
+::: tip
+Mendukung ekspor catatan permohonan beberapa akun ke satu file, tidak perlu mengoperasikannya secara terpisah.
+:::
 
-Tidak memilih `Full Refresh` **tidak** akan membuat Anda kehilangan data harapan Anda,
-dan memilih `Full Refresh` **tidak** akan membuat catatan lokal Anda secara keliru menc
+## Sinkronisasi Cloud Catatan Permohonan
 
-atat data harapan yang sama dua kali.
+> Fungsi sinkronisasi cloud didasarkan pada akun Snap Hutao Cloud, dan harus [mendaftar dan masuk ke akun Snap Hutao](hutao-settings.md#akun-snap-hutao) untuk dapat menggunakannya.
 
-### Impor Data Riwayat Harapan dari Aplikasi Lain <Badge text="UIGF" type="info" />
+- **Unggah**: Pada antarmuka "Catatan Permohonan", pilih arsip yang perlu disinkronkan, klik tombol "Snap Hutao Cloud", lalu pilih "Unggah Arsip Saat Ini".
+- **Unduh**: Klik tombol "Snap Hutao Cloud", pilih tombol unduh di sisi kanan arsip UID yang sesuai untuk menyelesaikan sinkronisasi.
+- **Hapus**: Klik tombol "Snap Hutao Cloud", pilih tombol hapus di sisi kanan arsip UID yang sesuai untuk menghapus data cloud.
 
-Snap Hutao mendukung impor file data riwayat harapan dalam format data `UIGF`[^UIGF-Org]
-
-Jika Anda perlu mengimpor jenis data seperti itu, Anda bisa:
-
-- Mulai Snap Hutao, beralih ke halaman fitur `Riwayat Harapan`
-- Pilih `Impor`
-- Pilih file data Json UIGF Anda
-- Periksa informasi file yang diimpor dan konfirmasikan untuk diimpor
-
-## Ekspor Data Riwayat Harapan <Badge text="UIGF" type="info" />
-
-Snap Hutao mendukung ekspor data riwayat harapan ke file Json yang ditulis dalam format data UIGF
-
-Jika Anda perlu mengekspor data riwayat harapan, Anda bisa:
-
-- Memulai Snap Hutao, beralih ke halaman fitur `Riwayat Harapan`
-- Beralih ke arsip yang ingin Anda ekspor, dan pilih `Ekspor`
-  - Dalam jendela pop-up, konfirmasikan jalur ekspor Anda
-- Konfirmasikan dan ekspor data
-
-## Sinkronisasi Awan Riwayat Harapan <Badge text="Beta" type="info" />
-
-> Sinkronisasi awan riwayat harapan dirancang di atas Akun Snap Hutao.
-> Anda perlu [mendaftar akun dalam pengaturan](hutao-settings.md#snap-hutao-account) untuk menggunakan fitur ini
-
-Dengan fitur ini, Anda dapat mengunggah riwayat harapan Anda ke Hutao Cloud, untuk menghindari risiko kehilangan data, dan membuatnya lebih mudah untuk mentransfer data antar perangkat.
-
-### Hak Sinkronisasi Awan
-
-Sinkronisasi awan adalah layanan yang menggunakan sumber daya server Snap Hutao, sehingga ini adalah fitur berbatas waktu.
-Saat ini, Anda memiliki beberapa cara untuk mengaktifkan Sinkronisasi Awan:
-
-1. Berikan donasi kepada kami di AiFaDian. Hak istimewa akan secara otomatis diberikan ke Akun Snap Hutao dengan alamat email yang sama di AiFaDian
-2. Bagi semua pengguna terdaftar, setelah mengunggah rekaman Abyss dalam setiap jadwal, hak istimewa 3 hari akan secara otomatis diberikan
-   - Ini adalah metode yang dapat Anda gunakan secara terus-menerus untuk keuntungan dari Hutao Cloud
-3. Pengguna yang berkontribusi pada komunitas open-source kami, termasuk pengembangan kode, perancangan program, terjemahan lokal, dapat menghubungi tim pengembang untuk mendapatkan manfaat Anda secara gratis
-   - Kami sedang merancang sistem otomatisasi untuk memberikan lisensi kepada kontributor kami, itu akan aktif dengan lebih banyak pengembangan Hutao Cloud
-
-Setelah hak istimewa Hutao Cloud Anda kedaluwarsa, Anda tidak akan bisa mengunggah, mengunduh, atau menghapus data Anda, tetapi data Anda tidak akan dihapus. Anda dapat terus mengoperasikannya setelah mendapatkan hak istimewa Anda kembali.
-
-### Unggah
-
-- Dalam halaman ekspor harapan, pilih arsip yang perlu Anda sinkronkan data
-- Klik tombol `Snap Hutao Cloud` di kanan atas
-- Klik `Unggah Arsip Harapan Saat Ini`, dan kemudian data Anda akan disimpan ke cloud
-
-### Unduh
-
-- Dalam halaman ekspor harapan, klik tombol `Snap Hutao Cloud` di kanan atas
-- Klik tombol unduh di sisi kanan UID yang data perlu diunduh
-
-### Hapus
-
-- Dalam halaman ekspor harapan, klik tombol `Snap Hutao Cloud` di kanan atas
-- Klik tombol hapus di sisi kanan UID yang data perlu dihapus
-
-[^UIGF-Org]: Format Data Genshin Terstandarisasi Bersatu disediakan oleh [UIGF-Org](https://uigf.org/)
+[^UIGF-Org]: UIGF (Format Data Genshin yang Terstandarisasi) disediakan oleh [UIGF-Org](https://uigf.org/).

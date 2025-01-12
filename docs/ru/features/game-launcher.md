@@ -1,139 +1,237 @@
 ---
 headerDepth: 2
-category: [Feature, Tutorial]
-tag: [unlock framerate, convert server, switch account]
-order: 3
+category: [功能, 教程]
+tag: [帧率解限, 服务器转换, 切换帐号]
+order: 4
 comment: false
+description: Хутао Toolbox's продвинутый лаунчер поддерживает пользовательские параметры запуска, переключение серверов, снятие ограничения частоты кадров и другие функции, значительно улучшая игровой процесс.
 ---
 
-# Game Launcher
+# Продвинутый лаунчер
 
-![Game Launcher](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01a8DIs91g6dyJFyg2X_!!1797064093.png_.webp)
+![Игровой лаунчер](https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp)
 
-- Snap Hutao offers advanced game launcher feature allows user to launch the game with self-defined settings
-- Click on the `Game Launcher` on the sidebar to get into game launcher's page
-  - If you are using it at the first time, you will be redirected to Snap Hutao settings page and asked to set your game path
-    - When choosing the game path, noticed that you should choose game program instead of launcher program
-      - Such as `$\Genshin Impact\Genshin Impact Game\YuanShen.exe` and `$\Genshin Impact\Genshin Impact Game\Genshin Impact.exe`
-      - Official launcher program is usually `$\Genshin Impact\launcher.exe`
-- You can make launcher configuration options in the game launcher's page, and then click `Launcher` button on the top-right to launch the game
-  - Launcher options is explained in the document below
+Продвинутый лаунчер Snap Hutao предлагает более гибкий запуск игры с разнообразными настройками.
 
-## Server Switch
-
-::: tip Privilege Notice
-
-1. You need to run Snap Hutao as administrator to use this feature
-2. Snap Hutao will create `ServerCache` folder in the data directory to save required sever switch files
-
+::: important
+Это перевод, сделанный моделью Google Gemini. Мы приветствуем исправления через PR.
 :::
 
-Enter Game Launcher page
-In the `General - Server` field, select the server you want
+## Начальная настройка
 
-- Current available serves options include:
+- Нажмите «Запустить игру» в левом меню, чтобы перейти к продвинутому лаунчеру.
+  - При первом использовании вы перейдете на страницу настроек, где нужно будет указать путь к игре.
+  - **Выберите путь к основному файлу игры (`YuanShen.exe`), а не к лаунчеру (`launcher.exe`).**
+    - Пример пути: `D:\miHoYo Launcher\games\Genshin Impact Game\YuanShen.exe`
+  - После успешного определения пути нажмите «Подтвердить».
+  - Если игра не установлена, нажмите кнопку «Установить игру» и следуйте инструкциям для установки. Snap Hutao автоматически скачает и установит игру.
+- После завершения настройки нажмите кнопку «Запустить игру» в правом верхнем углу, чтобы запустить игру.
 
-| Option         | Server                                                    |
-| -------------- | --------------------------------------------------------- |
-| CN Default     | Mainland China server                                     |
-| CN Official    | Mainland China server, no difference with previous row    |
-| CN NoTapTap    | Mainland China server without TapTap account login method |
-| BiliBili       | Chinese server with BiliBili account system               |
-| Global Default | HoYoVerse servers                                         |
-| Global Epic    | HoYoVerse servers with Epic Store payment gateway         |
-| Global Google  | HoYoVerse servers with Google Pay payment gateway         |
+## Переключение сервера
 
-- click `Launcher` button on the top-right to launch the game, Snap Hutao will download server required files and then launch the game
+::: tip Уведомление о правах доступа
+Для использования этой функции необходимо запустить Snap Hutao от имени администратора.
+Snap Hutao создаст папку `ServerCache` в каталоге данных для хранения файлов, необходимых для переключения сервера, и автоматически проверит обновления.
+:::
 
-## Game Account Switch
+1. Перейдите на страницу «Запустить игру».
+2. В разделе «Сервер» выберите целевой сервер.
+
+**Доступные серверы:**
+
+| Опция                   | Сервер                                                                  |
+| ----------------------- | ----------------------------------------------------------------------- |
+| Официальный CN Default  | Сервер материкового Китая                                               |
+| Официальный CN Official | Сервер материкового Китая, не имеет существенных отличий от предыдущего |
+| Официальный CN NoTapTap | Сервер материкового Китая с отключенным входом через TapTap             |
+| Глобальный Default      | Сервер HoYoverse                                                        |
+| Глобальный Official     | Сервер HoYoverse, не имеет существенных отличий от предыдущего          |
+| Глобальный Epic         | Сервер HoYoverse с платежным шлюзом Epic                                |
+| Глобальный Google       | Сервер HoYoverse с платежным шлюзом Google Pay                          |
+
+Нажмите кнопку «Запустить игру» в правом верхнем углу. Snap Hutao скачает соответствующие файлы с официального сервера, применит их и запустит игру.
+
+## Сохранение аккаунта
 
 ::: tip
-
-1. The **account** mentioned in this feature is Genshin game login account instead of HoYoLAB account
-2. Game account switch feature currently only supporting official CN server
-
+Эта функция сохраняет состояние входа в аккаунт Genshin Impact.
 :::
 
-|                   | CN        | BiliBili      | Global    |
-| ----------------- | --------- | ------------- | --------- |
-| Save Login Status | Supported | Supported     | Supported |
-| Switch Account    | Supported | Not Supported | Supported |
+1. Перейдите на страницу «Запустить игру».
+2. Нажмите «Обнаружить аккаунт». Snap Hutao сохранит текущее состояние входа в игру.
+3. В появившемся окне «Назовите аккаунт» введите имя и подтвердите.
+4. Выйдите из текущего аккаунта и войдите в новый, повторите указанные действия для сохранения нескольких аккаунтов.
+5. Используйте функцию переключения аккаунтов, чтобы выбрать сохраненный аккаунт.
+6. **Состояния входа для разных серверов независимы**:
+   - Например, для сервера CN вход в аккаунт A, для глобального сервера — в аккаунт B. A будет виден только на сервере CN, B — только на глобальном сервере.
 
-1. Enter Game Launcher page
-2. Click `Detect Account` field in the `General` category, Snap Hutao will detect current Genshin Impact's account login status
-3. In this pop-up window, enter an archive name for this account and click `Confirm`
-4. Go back to the game, sign out and sign in to your another account. Repeat step 2 and 3 to add all your account to Snap Hutao
-   - Each saved account are selectable
-   - On the right side, there are three buttons, they are:
-     - `Bind current user account`, bind current activated MiHoYo BBS account with this game account, an UID will be display on this archive
-     - `Rename`, rename current account archive name
-     - `Delete`, delete current account archive
-
-## Appearance
+## Использование MiYouShe / HoYoLAB для входа
 
 ::: warning
-
-- In some reported cases, using Snap Hutao with `Exclusive Fullscreen` mode will cause the game process no response.
-
-  - Suggest to use `Borderless` or `Fullscreen` mode if you faced same problem
-  - The problem is caused by failure of game embedded browser cannot run
-
+Перед использованием необходимо включить функцию «Параметры запуска».
 :::
 
-- Enter Game Launcher page
-- In the `Appearance` category, there are 6 available options:
-  - **Exclusive Fullscreen**, the game process will run in exclusive fullscreen mode
-    - **You should only use this option when you are able to independently describe technical principles and effects of exclusive fullscreen**
-  - **Fullscreen**, the game display mode is set to fullscreen
-  - **Borderless**, the game display mode is set to borderless
-  - **Width**, game window width, such as `1920`
-  - **Height**, game window height, such as `1080`
-  - **Display**, users with multiple displays can use this option to set which display to run the game
+После включения Snap Hutao будет использовать учетную запись MiYouShe / HoYoLAB для входа в привязанный аккаунт Genshin Impact.
 
-## Resource Download
+## Поддержка HDR на платформе Windows
 
-Game launcher in Snap Hutao also offers resource download feature, which lists real time Genshin Impact (CN server)
-client package and OTA package. User can click the hyperlink icon on each package's right side to redirect to browser to
-download them by user favored download tools.
+Встроенная функция HDR в Genshin Impact включается через значение ключа реестра. Snap Hutao может включить эту функцию для улучшения визуального восприятия.
 
-When you are updating the game client, you can do the following steps:
+## Параметры запуска
 
-1. Update official launcher to the latest
-2. In `Snap Hutao - Game Launcher - Resource Download`, find needed client OTA package and installed language OTA package
-3. Move all package to folder where game client located
-4. Start official launcher, click on update button. The launcher should skip the download and directly starts to unzip the OTA packages to update client
+В функции «Параметры запуска» пользователи могут настроить следующие дополнительные параметры:
 
-## Advanced Features
+- **Эксклюзивный полноэкранный режим**: `-window-mode exclusive`
+  - Игра запускается в эксклюзивном полноэкранном режиме.
+- **Полноэкранный режим**: `-screen-fullscreen`
+  - Игра запускается в полноэкранном режиме.
+- **Безрамочный режим**: `-popupwindow`
+  - Игра запускается в безрамочном оконном режиме.
+- **Сенсорный режим**: `-platform_type CLOUD_THIRD_PARTY_MOBILE`
+  - Включает режим сенсорного управления (ввод с клавиатуры и мыши будет отключен).
+- **Настройка разрешения**:
+  - `-screen-width`: Устанавливает ширину экрана (например, 1920).
+  - `-screen-height`: Устанавливает высоту экрана (например, 1080).
+- **Выбор монитора**: `-monitor`
+  - Указывает целевой монитор для запуска игры.
+  - Если номер монитора неизвестен, нажмите «Идентифицировать монитор» для получения подсказки.
+
+## Загрузка ресурсов
+
+Вкладка «Загрузка ресурсов» в Snap Hutao предоставляет ссылки в реальном времени на установочные пакеты и пакеты обновлений для китайского сервера Genshin Impact. Пользователи могут перейти в браузер для загрузки.
+
+- Пользователи должны поместить загруженные файлы в каталог одного уровня с программой игры и обновить ее через официальный лаунчер.
+
+## Внедрение функций
 
 ::: caution
+Неправильное использование внедрения функций может привести к повреждению устройства или данных игры. Используя эту функцию, пользователь соглашается взять на себя ответственность за связанные с этим риски.
+:::
 
-- Be aware: all advanced features are labeled as `Dangeroud Feature`; indicating that enabling them means you choose
-  to assume any risk on your own.
-- You need to enable advanced features in Snap Hutao's settings page
+### Снятие ограничения частоты кадров
+
+Используя [проект UnlockerIsland](https://github.com/DGP-Studio/UnlockerIsland), снимает ограничение частоты кадров в Genshin Impact.
+
+- **Инструкция:**
+  1. Запустите Snap Hutao от имени администратора.
+  2. В модуле «Внедрение» установите целевую частоту кадров.
+  3. Нажмите кнопку «Запустить игру».
+
+#### Факторы, которые могут привести к **неудаче снятия ограничения частоты кадров**:
+
+1. Snap Hutao не работает в фоновом режиме.
+2. В игре не отключена опция **вертикальной синхронизации**.
+3. В настройках драйвера видеокарты есть настройка «Максимальная частота кадров».
+4. В программном обеспечении драйвера видеокарты есть неотключенная опция, аналогичная «Энергосберегающему режиму».
+5. Недостаточная производительность видеокарты.
+6. Не установлена библиотека MSVCRT.
+
+### Настройка поля зрения
+
+Настройка дальности обзора камеры и видимости тумана для лучшего визуального восприятия.
+
+### Настройка полосы прогресса отряда
+
+Настройка отображения полосы прогресса отряда. Работает только в **нормальных условиях**, когда отряд можно переключать.
+
+## Интеграция процессов
+
+### Статистика продолжительности
+
+Требуется установка и настройка [Starward](https://github.com/Scighost/Starward). После включения Snap Hutao будет использовать API Starward для записи продолжительности игры.
+
+### Интеграция Better GI
+
+Требуется установка и настройка [Better Genshin Impact](https://bgi.huiyadan.com/). После включения Snap Hutao будет использовать его API для активации функций автоматизации на основе технологий компьютерного зрения (OCR).
+
+### Discord Activity
+
+Требуется установка и настройка [Discord](https://discord.com/). После включения Snap Hutao будет генерировать игровой статус в реальном времени для карточки профиля Discord.
+
+## Часто задаваемые вопросы
+
+### Как быстро запустить игру через Snap Hutao
+
+- Правильно настройте функцию продвинутого лаунчера в основной программе.
+- Если главное окно Snap Hutao не закрыто, можно быстро запустить игру, нажав «Главная - Запустить игру».
+- Щелкните значок Snap Hutao в правом нижнем углу панели задач (обычно он автоматически сворачивается системой), выберите «Запустить игру».
+
+  ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png_.webp)
+
+### Почему состояние входа в игру истекает, что приводит к неработоспособности функции переключения учетных записей
+
+- Ключевыми факторами для сохранения состояния входа в игру являются:
+  - **Сетевая среда**: частые изменения общедоступного IP-адреса могут привести к истечению срока действия состояния входа.
+  - **ID устройства**: замена сетевой карты или MAC-адреса может привести к истечению срока действия состояния входа.
+- Распространенные причины и способы решения:
+  1. Убедитесь, что аккаунт правильно вошел в игру.
+  2. Закройте игру и убедитесь, что игровой процесс полностью завершен.
+  3. Повторно выполните обнаружение аккаунта, чтобы убедиться, что состояние входа правильно записано.
+
+### При открытии появляется код ошибки `31-4302`
+
+Если появляется код ошибки `31-4302`, можно решить проблему, включив параметр «Запустить игру - Внедрение - Разрешить мне войти».
+
+### Как восстановить программу игры после сбоя переключения сервера
+
+::: info Описание принципа работы
+Snap Hutao загружает файлы, необходимые для переключения сервера, только с официальных серверов Genshin Impact, что гарантирует безопасность и надежность файлов. Если частые сбои при переключении вызваны проблемами с сетью, возможно, качество подключения к целевому серверу плохое. Рекомендуется проверить подключение к сети или обратиться к поставщику сетевых услуг.
+:::
+
+Во время переключения сервера, если из-за неожиданного выхода или проблем с сетью переключение не удалось, это может привести к повреждению игрового клиента. Snap Hutao сообщит `Неверный путь к игре, перейдите в настройки, чтобы изменить путь к игре`. В этом случае файл основной программы игры может быть утерян. Можно восстановить его вручную, выполнив следующие действия:
+
+#### Ручное восстановление основной программы игры
+
+1. **Найдите резервную копию**:
+   - Snap Hutao хранит резервные копии файлов игры до переключения в каталоге `%userprofile%/Documents/Hutao/ServerCache`.
+   - Резервные файлы включают: `GenshinImpact.exe` и `GenshinImpact_Data` (для глобального сервера) или `YuanShen.exe` и `YuanShen_Data` (для сервера CN).
+2. **Проверьте каталог игры**:
+   - Каталог глобального сервера должен содержать `GenshinImpact.exe` и `GenshinImpact_Data`.
+   - Каталог сервера CN должен содержать `YuanShen.exe` и `YuanShen_Data`.
+3. **Восстановите файлы вручную**:
+   - Скопируйте файлы из каталога резервного копирования в каталог основной программы игры, заменив существующие файлы.
+   - Если нужно переключить версию сервера, переименуйте соответствующие файлы: например, переименуйте `YuanShen_Data` в `GenshinImpact_Data`.
+4. **Запустите игру**:
+   - Снова зайдите в интерфейс «Запустить игру» Snap Hutao и запустите игру.
+   - Если сообщение об ошибке исчезнет, можно продолжить выбор целевого сервера и завершить переключение.
+
+### Как восстановить файл конфигурации `config.ini`
+
+В некоторых случаях (например, из-за ошибок разрешений или сбоя переключения сервера) файл `config.ini` может быть утерян, что приведет к невозможности запуска игры. Можно создать его вручную и ввести следующее содержимое:
+
+::: info
+Измените параметр `game_version` в соответствии с фактической версией игры.
+:::
+
+#### Пример содержимого файла конфигурации
+
+::: tabs#game_config_samples
+@tab Официальный CN
+
+```ini
+[General]
+channel=1
+cps=mihoyo
+game_version=5.3.0
+sub_channel=1
+sdk_version=
+game_biz=hk4e_cn
+uapc={"hk4e_cn":{"uapc":""},"hyp":{"uapc":""}}
+```
+
+@tab Официальный глобальный
+
+```ini
+[General]
+channel=1
+cps=mihoyo
+game_version=5.3.0
+sub_channel=0
+sdk_version=
+game_biz=hk4e_global
+uapc={"hk4e_global":{"uapc":""},"hyp":{"uapc":""}}
+```
 
 :::
 
-### Unlock Frame Rate Limit
-
-::: caution
-
-- The [Unlocker project](https://github.com/DGP-Studio/Unlocker) only affects the UnityPlayer itself, directly affecting
-  the Unity3D engine, and does not have a direct relationship with the game itself. Essentially, it is no different from
-  settings like 120 FPS in mobile devices. However, you should still use it with caution and read the [user agreement](../statements/tos.md)
-  on your own.
-
-:::
-
-- Run Snap Hutao as administrator
-- Enter Game Launcher page
-- At the bottom of the page, you can find `Unlock Frame Rate Limit` option
-
-  - Trigger the switch to enable or disable this feature
-  - In the `Set Frame Rate Limit` field, you can adjust the limit freely
-
-- Fact that may cause **failure in unlocking frame rate limit**:
-  - Snap Hutao process is not kept in the background
-  - `V-Sync` is not set to off in the game
-  - `Max Framerate` limit is not changed in your graphic card settings
-  - `Power Saving` mode is not disabled in power settings
-  - Your graphic card is not powerful enough
+Сохраните файл конфигурации в подкаталоге `/Genshin Impact Game/` каталога установки игры, чтобы восстановить нормальный запуск.

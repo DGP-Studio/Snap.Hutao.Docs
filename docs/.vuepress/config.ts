@@ -76,6 +76,11 @@ export default defineUserConfig({
       title: "Snap Hutao",
       description: "Суперполезный набор инструментов для Genshin Impact",
     },
+    "/jp/": {
+      lang: "ja-JP",
+      title: "スナップ胡桃",
+      description: "超実用的な原神インパクトツールキット",
+    },
   },
 
   plugins: [

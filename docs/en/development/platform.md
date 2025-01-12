@@ -1,52 +1,30 @@
 ---
-category: [open source, development]
-tag: [open source, Hutao Database, Spiral Abyss Database, Enka, UIGF, Open data]
+category: [Open Source, Development]
+tag: [Open Source, Hutao Database, Spiral Abyss Database, Enka, UIGF, Open Data]
 icon: iconfont icon-vscode
 order: 2
 description: Snap Hutao incorporates ideas from the community, and as our way of giving back, we also make certain services available to the community. If they are helpful to your development, feel free to use them, and we will do our best to maintain these forked projects.
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/development/platform.html
 ---
 
-# Hutao Open Platform
+# Snap Hutao Open Platform
 
-The Snap Hutao project has received wide supports from the open-source community and users since its
-inception on GitHub on April 18, 2022. As the project has evolved, we have created a series of supporting services
-as middleware for Snap Hutao.
+Since its establishment on GitHub on April 18, 2022, the Snap Hutao project has received extensive support from the open-source community and users. As the project has developed, we have built a series of supporting services as middleware for Snap Hutao.
 
-Now, the development team is making some of these practical services available to the open-source community in the
-form of open interfaces, for use by developers who share our vision. We will be writing usage documentation for these
-interfaces, maintaining the services, and providing answers to frequently asked questions. Whether you are an
-experienced developer or a beginner, we hope that these interfaces will assist you in creating applications.
+Currently, the development team is making some of these practical services available to the open-source community in the form of open interfaces, for use by developers who share our vision. We have written detailed usage documentation for these interfaces, provide maintenance support, and answer frequently asked questions. Whether you are an experienced developer or a beginner, we hope that these interfaces can assist you in your application development.
 
-## Hutao API & Hutao Cloud Open-source Developer's License
+## Snap Hutao API & Snap Hutao Cloud Developer License
 
-Hutao API is an interface service that exposes the Hutao Abyssal Database.
-Open-source software authors can use the Hutao API to retrieve data from the Hutao database or upload data.
+The Snap Hutao API is an interface service that exposes the Snap Hutao Spiral Abyss Database, designed to provide data access support for open-source software developers.
 
-Developers who gain access to the Hutao API also receive full privileges to the Hutao Cloud feature
-within the Snap Hutao as a benefit.
+By applying for the Snap Hutao API Developer License, developers will not only gain access to the database but also receive full access to the Snap Hutao Cloud features within Snap Hutao as a bonus.
 
-Developers can apply for access by submitting their information through the Hutao API Open Platform
-at [homa.snapgenshin.com](https://homa.snapgenshin.com/)
+Developers can submit applications through the [Snap Hutao API Open Platform](https://homa.snapgenshin.com/) to obtain a developer license.
 
-## Enka API with China Acceleration
+## UIGF Interchangeable Data Record
 
-[Enka Network](https://enka.network/) is an excellent Genshin Impact tool that provides detailed data on characters in
-the user's current character showcase. However, due to restricted access to certain network services in China,
-the stability of Enka Network's functionality in the region is compromised.
+The Snap Hutao project is committed to promoting the free flow of user data among different open-source tools, and to this end, it has drafted the initial version of the [Uniformed Interchangeable Gacha Log Format (UIGF)](https://uigf.org/en/standards/UIGF.html).
 
-To ensure a smooth user experience for Snap Hutao users in China, the development team has utilized Enka Network's data
-for the development of the [My Characters](../features/character-data.md) feature and established a proxy server.
+This standard has now been recognized and adopted by an increasing number of developers and is continuously being improved.
 
-Developers can ask for access in Snap Hutao development group chat or discord group from administrator.
-
-## UIGF Interchangeable Game Data Format
-
-Snap Hutao aims to enable the free flow of user data among various open-source tools with different features.
-To facilitate this, Snap Hutao has established the initial version of the [Uniformed Interchangeable GachaLog Format
-Standard (UIGF)](https://uigf.org/en/standards/UIGF.html).
-
-Since then, this standard has gained more recognition among developers, leading to the promotion of additional
-standards. Many developers have now gathered under the [UIGF organization](https://github.com/UIGF-org). Our goal is to
-maintain this organization, allowing developers to connect with more users, receive feedback, make technical advancements,
-and create outstanding open-source Genshin Impact tools.
+Many developers have gathered at the [UIGF-Org](https://github.com/UIGF-org) open-source organization. We hope to use this platform to promote communication between developers and users, obtain more feedback and technical advancements, and further create excellent open-source Genshin Impact tools.

@@ -1,24 +1,41 @@
 ---
 headerDepth: 2
 category: [Fitur, Tutorial]
-tag: [monster, WIKI, data]
-order: 12
+tag: [Monster, WIKI, Data]
+order: 13
 comment: false
+description: Monster WIKI adalah basis data monster yang terpasang di Snap Hutao, pemain dapat menggunakan fitur ini untuk mencari informasi detail tentang semua monster di Genshin Impact, dan mengurangi kesulitan permainan dengan menganalisis monster.
 ---
 
-# Monster WIKI
+# Data Monster
 
-![monster-wiki](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01mEozOR1g6dyFXXWcO_!!1797064093.png_.webp)
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
+:::
 
-Monster WIKI adalah basis data WIKI tersemat yang digunakan untuk mencari tahu setiap kemampuan monster, **kemampuan pada setiap tingkat, RES, item yang dijatuhkan**
+::: warning Masalah yang Diketahui
+Beberapa informasi monster hilang, tetapi sulit untuk diperbaiki karena berbagai alasan. Topik terkait data monster tidak akan diterima untuk saat ini.
+:::
+
+![monster-wiki](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01WdFqdC1g6e0sAREwO_!!1797064093.png_.webp)
+
+Data Monster adalah WIKI bawaan di Snap Hutao yang digunakan untuk mencari **nilai dasar, nilai setiap level, resistensi elemen, dan item yang dijatuhkan** dari berbagai monster.
 
 ## Data yang Termasuk
 
-- Daftar monster
-  - Gunakan ikon di atas daftar, Anda dapat mengubah tampilan antara `list` dan `grid`
-  - Klik ikon atau judul monster, dan Anda akan diarahkan ke halaman WIKI-nya
-- Data WIKI
-  - Kemampuan monster
-    - HP dasar monster, ATK dasar, DEF dasar
-    - HP, ATK, dan DEF monster pada setiap tingkat **beralih ke**
-  - Item yang dijatuhkan
+- **Daftar Monster**
+
+  - Gunakan tombol di kiri atas daftar untuk mengganti tampilan daftar:
+    - “Gambar Mini dan Nama”: Menampilkan ikon monster dan nama yang sesuai, untuk memudahkan penelusuran dan pencarian cepat.
+    - “Hanya Gambar Mini”: Hanya menampilkan ikon monster, cocok untuk pemain yang sudah familiar dengan tampilan monster.
+  - Data berasal dari Genshin Impact, beberapa monster mungkin kehilangan beberapa informasi karena data yang tidak lengkap.
+  - Klik gambar mini atau nama dalam daftar untuk membuka halaman detail monster yang sesuai.
+
+- **Isi Data**
+  - **Nilai Monster**
+    - Data-data penting monster seperti HP dasar, ATK, dan DEF.
+    - Dapat mengganti level monster melalui antarmuka untuk melihat perubahan nilai pada level yang berbeda.
+  - **Resistensi Elemen**
+    - Mencakup persentase resistensi monster terhadap berbagai jenis kerusakan elemen, yang dapat membantu pemain mengoptimalkan pilihan output.
+  - **Item yang Dijatuhkan**
+    - Mencantumkan semua item yang mungkin dijatuhkan oleh monster dan perkiraan probabilitas jatuhnya, untuk mempermudah pemain dalam merencanakan perolehan material.

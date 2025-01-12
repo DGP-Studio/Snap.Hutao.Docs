@@ -2,146 +2,165 @@
 home: true
 icon: iconfont icon-home
 title: Home
-heroImage: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01oaGvKE1g6dut0pICS_!!1797064093.png_.webp
+heroImage: https://img.alicdn.com/imgextra/i2/1797064093/O1CN01FTdSDT1g6e7p1HAv6_!!1797064093.png_.webp
 heroAlt: Snap Hutao
 heroText: Snap Hutao
-tagline: <a href="https://trendshift.io/repositories/2009"><img src="https://trendshift.io/api/badge/repositories/2009" alt="trend"/></a><br>Multifunctional Open-source Genshin Toolkit 🧰
+tagline: <a href="https://trendshift.io/repositories/2009"><img src="https://trendshift.io/api/badge/repositories/2009" alt="trend"/></a><br>Multifunctional Open-source Genshin Impact Toolkit 🧰
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
-description: Snap Hutao is a multifunctional open-source Genshin Toolkit. It is designed for modern Windows platform, provides features like Advanced Game Launcher, Wish Export, Realtime Notes, to improve the gaming experience for desktop players.
-banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
+description: Snap Hutao is an open-source multifunctional toolkit for the Windows platform, featuring an advanced launcher, wish history export, real-time notes, and more, enhancing the gaming experience for desktop players.
+banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png
 head:
   - - meta
     - name: keywords
-      content: Genshin Impact,Snap Hutao,Hutao
+      content: Genshin Impact, Snap Hutao, Hutao
 actions:
-  - text: Quick Start
+  - text: Get Started
     link: quick-start.html
     type: primary
-  - text: Document
+  - text: Documentation
     link: menu.html
-  - text: Project
+  - text: Project Introduction
     link: project.html
 
 highlights:
-  - header: Secure Program Designing
+  - header: Secure Program Design
     image: /images/202309/security.png
     bgImage: /images/202309/head-back2.png
     bgImageDark: /images/202309/head-back2.png
     highlights:
-      - title: You Control Your Data
+      - title: Full Control of Your Data
         icon: iconfont icon-computer
-        details: Your data is stored in your local device, does not rely on any cloud service or third-party platform, you have freedom control your data
-      - title: We Protect Your Data
+        details: Data is stored locally by default, without relying on cloud services or third-party platforms, ensuring your autonomy in data access.
+      - title: Data Protection in the Cloud
         icon: iconfont icon-lock
-        details: Your data can be backed up to Snap Hutao Cloud, you never lose data when you are on a new device
-      - title: Community Guards your Program
+        details: Supports backups to a dedicated Snap Hutao Cloud server, ensuring data can be safely recovered if a device is lost.
+      - title: Community-Driven Development
         icon: iconfont icon-anonymous
-        details: Snap Hutao is open-sourced on GitHub with MIT license, we welcome community members to review and contribute to our code. The software is packaged and published through fully automated pipeline without any manual change
+        details: The project is open-source on GitHub under the MIT license, welcoming community code review and contributions. Packaging and publishing are fully automated via pipelines, without manual intervention, ensuring security and consistency.
 
-  - header: All-in-one Toolbox
-    description: Quick start tools your need and explore more possibility
+  - header: All-in-One Toolbox
+    description: Quickly master core features and explore more useful tools.
     image: /images/202308/highlights-head.png
     features:
-      - title: Windows Native MSIX Application
+      - title: Native Windows MSIX Application
         icon: https://img.alicdn.com/imgextra/i4/1797064093/O1CN01gOw0Nk1g6e0yjfAlD_!!1797064093.png_.webp
-        details: MSIX packages applications in a native Windows format and supports sandbox technology, ensuring system stability and cleanliness
+        details: Uses native Windows application packaging technology, supports sandbox isolation, ensuring system stability and cleanliness.
         link: project.html
+
+      - title: Dashboard
+        icon: /images/202501/Announcement.png
+        details: Displays wish history, achievement, game calendar, and event announcements in the simplest way, and provides quick access to launch the game.
+        link: features/dashboard.html
 
       - title: Real-time Notes
         icon: /images/202301/live-stat-tracking-logo.png
-        details: Don't be trapped by Mobile Application. Receive your Genshin real-time notes notification on your desktop with native Windows notification
+        details: Breaks free from mobile limitations, receive real-time note notifications on PC, integrated with native Windows notification features.
         link: features/real-time-notes.html
 
       - title: Spiral Abyss Record
         icon: /images/202301/spiral-abyss-record-logo.png
-        details: Get the personal Spiral Abyss records, including statistics and detailed data, permanently save past Spiral Abyss challenges on your device
+        details: Locally save players' Spiral Abyss records, supporting historical record queries and statistical analysis.
         link: features/hutao-API.html
 
-      - title: Multi-Account Switch
+      - title: Multi-Account Switching
         icon: /images/202308/hoyolab-miyoushe-Icon.png
-        details: Snap.Hutao supports multiple MiHoYo BBS accounts to stay logged in and create separate profiles for each account in each function, so players can easily manage their multiple accounts
+        details: Supports independent management of multiple MiHoYo BBS accounts, easily switching and saving profiles for each account.
         link: features/mhy-account-switch.html
 
-      - title: Wish History Record
+      - title: Wish History
         icon: /images/202308/UI_BtnIcon_Gacha.png
-        details: Capture your wish history from your game log, export them to your local device, with the support of unlimited account data archives
+        details: Provides multi-UID switching, retrieves wish history from log files or other exported data, and saves it permanently.
         link: features/wish-export.html
 
-      - title: Achievement
+      - title: Achievements
         icon: /images/202301/achievement.png
-        details: Achievement statistics feature allows players to export achievement data and keep statistics outside the game; based on achievement splitting, players can manage milestones for hidden achievements
+        details: Supports achievement data export and statistics, providing hidden achievement target management.
         link: features/achievements.html
 
-      - title: Advanced Game Launcher
+      - title: Advanced Launcher
         icon: /images/202308/Game_Launcher_Icon.png
-        details: With the advanced launcher in Snap.Hutao, players can easily switch their Genshin accounts, switch servers, modify game window settings and further explore more advanced features
+        details: Provides advanced features such as account switching, server switching, and window settings, optimizing the game launch experience.
         link: features/game-launcher.html
 
       - title: Hutao Database
         icon: /images/202308/UI_ChapterIcon_Hutao.png
-        details: Check out the details of community's current Spiral Abyss teaming, weapon matching, and artifact set matching; share your own Spiral Abyss lineup configuration
+        details: Provides query and sharing of community team compositions, weapon and artifact combinations.
         link: features/hutao-api.html
 
-      - title: My Characters
+      - title: Imaginarium Theater
+        icon: /images/202501/RoleCombat.png
+        details: Archive challenge records, query historical data on the usage rate of each character.
+        link: features/imaginarium-theater.html
+
+      - title: My Character Statistics
         icon: /images/202308/My_Character_Icon.png
-        details: View detailed data about the player's character, including level, constellations, weapons, talents, artifact set, etc.
+        details: Query specific character attributes, including detailed data on levels, constellations, weapons, and talents.
         link: features/character-data.html
 
-      - title: Character Wiki
-        icon: /images/202308/Character_WIKI_Icon.png
-        details: Check the character's numerical information; talent and constellations; training materials; character's background story and other information; get the most weapons and artifact set matching scheme among players through the Hutao database
-        link: features/character-wiki.html
-
-      - title: Weapon Wiki
-        icon: /images/202308/Weapon_WIKI_Icon.png
-        details: Check weapon values and stories; get the most character matching data among players through the Hutao database
-        link: features/weapon-wiki.html
+      - title: Snap Hutao Passport
+        icon: /images/202501/Passport.png
+        details: Provides cloud backup and synchronization of wish data, supporting data migration across multiple devices.
+        link: features/hutao-passport.html
 
       - title: Enhancement Progression Calculator
         icon: /images/202308/Calculator_Icon.png
-        details: Make implementable character development plans based on your actual situation; support multiple accounts, multiple plan lists, and backpack item records
+        details: Create personalized character development plans, supports multiple accounts and item logging.
         link: features/develop-plan.html
 
-footer: Built with <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | Be the best Genshin Impact tool
+      - title: Character Data
+        icon: /images/202308/Character_WIKI_Icon.png
+        details: Provides detailed information on character background stories, training materials, and player recommendations.
+        link: features/character-wiki.html
+
+      - title: Weapon Data
+        icon: /images/202308/Weapon_WIKI_Icon.png
+        details: Query weapon attributes and background stories, and get character matching recommendations.
+        link: features/weapon-wiki.html
+
+      - title: Monster Data
+        icon: /images/202501/WikiMonster.png
+        details: Query monster attributes and settings, prepare for battles in the game.
+        link: features/monster-wiki.html
+
+footer: Built with <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | Delivering the ultimate gaming experience for Genshin Impact PC players through the power of the open-source community.
 ---
 
 ## Contribute
 
-Snap Hutao is a free software maintained by open-source community, and we hope more players with same
-ambitions can join together to provide more features to the community.
+Snap Hutao is a free project maintained by the open-source community, and we welcome more developers to join us to improve the functionality and quality of Snap Hutao.
 
-You can make contribution by the following ways:
+Here are the ways you can contribute:
 
-1. [Make Pull Requests to our code](https://github.com/DGP-Studio/Snap.Hutao/pulls)
-2. Translate the project for a better [localization](i18n.md)
-3. [Update document](https://github.com/DGP-Studio/Snap.Hutao.Docs)
+1. [Submit Pull Requests](development/contribute.md) to improve the code and functionality.
+2. Participate in [localization translation](i18n.md) to expand language support.
+3. [Improve project documentation](https://github.com/DGP-Studio/Snap.Hutao.Docs) to help more users understand and use the tool.
 
 <!-- @include: star-request.md -->
 
 ::: center
 
-## Sponsorship
+## Sponsors
 
-Snap Hutao is currently using sponsored software from the following service providers.
+Snap Hutao thanks the following software companies for their sponsorship:
 
 <SponsorList />
 
-Netlify provides document and home page hosting service for Snap Hutao
+**Netlify** provides document and homepage hosting services.
 
-Crowdin provides its SaaS platform to help Snap Hutao's localization
+**Crowdin** supports the project's localization translation management.
 
-Navicat provides Snap Hutao with advanced database management tools
+**Navicat** provides advanced database management tools.
 
-Free code signing provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/)
+[**SignPath Foundation**](https://signpath.org/) provides free code signing services.
 
-1Password provides Snap Hutao development team with their amazing password management software plan
+**1Password** provides the development team with secure password management tools.
 
-DigitalOcean provides reliable cloud storage for Snap Hutao database backup
+**DigitalOcean** provides reliable data backup storage services.
 
-[Ducalis.io](https://hi.ducalis.io/) provides Snap Hutao project with a complete decision-making toolkit for project management
+[**Ducalis.io**](https://hi.ducalis.io/) provides a complete decision-making toolkit for project management.
 
-JetBrains provides Snap Hutao project with free open-source licenses for their IDEs
+**JetBrains** provides the development team with excellent software development tools.
 
-Termius provides Snap Hutao project with a secure, reliable, and collaborative SSH client
+**Termius** provides a secure and reliable SSH client.
 :::

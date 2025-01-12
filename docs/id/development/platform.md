@@ -3,50 +3,32 @@ category: [open source, development]
 tag: [open source, Hutao Database, Spiral Abyss Database, Enka, UIGF, Open data]
 icon: iconfont icon-vscode
 order: 2
+description: Snap Hutao berisi ide-ide dari komunitas, dan sebagai imbalannya, kami juga mempublikasikan beberapa layanan ke komunitas. Jika layanan ini berguna untuk pengembangan Anda, jangan ragu untuk menggunakannya, kami akan berusaha untuk memelihara proyek-proyek cabang ini.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/id/development/platform.html
 ---
 
-# Platform Terbuka Hutao
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
+:::
 
-Proyek Snap Hutao telah mendapatkan dukungan luas dari komunitas open source dan pengguna sejak diluncurkan
-di GitHub pada 18 April 2022. Seiring dengan perkembangannya, kami telah membuat serangkaian layanan pendukung
-sebagai middleware untuk Snap Hutao.
+# Platform Terbuka Snap Hutao
 
-Sekarang, tim pengembangan membuat beberapa layanan praktis ini tersedia bagi komunitas open source dalam
-bentuk antarmuka terbuka, digunakan oleh pengembang yang memiliki visi yang sama dengan kami. Kami akan menulis
-dokumentasi penggunaan untuk antarmuka ini, menjaga layanan-layanan tersebut, dan memberikan jawaban atas
-pertanyaan yang sering diajukan. Baik Anda adalah pengembang berpengalaman atau pemula, kami harap antarmuka ini
-akan membantu Anda dalam membuat aplikasi.
+Sejak didirikan di GitHub pada tanggal 18 April 2022, proyek Snap Hutao telah menerima dukungan luas dari komunitas open source dan pengguna. Seiring dengan perkembangan proyek, kami telah membangun serangkaian layanan pendukung sebagai komponen perantara Snap Hutao.
 
-## Hutao API & Hutao Cloud Open-source Developer's License
+Saat ini, tim pengembangan akan mempublikasikan beberapa layanan praktis ini dalam bentuk antarmuka terbuka kepada komunitas open source, untuk digunakan oleh para pengembang yang memiliki visi yang sama dengan kami. Kami telah menulis dokumentasi penggunaan yang detail untuk antarmuka ini, menyediakan dukungan pemeliharaan, dan menjawab pertanyaan umum. Baik Anda seorang pengembang berpengalaman maupun pemula, kami berharap antarmuka ini dapat membantu pengembangan aplikasi Anda.
 
-Hutao API adalah layanan antarmuka yang mengekspos Database Abyssal Hutao.
-Pembuat perangkat lunak open source dapat menggunakan Hutao API untuk mengambil data dari basis data Hutao atau mengunggah data.
+## Snap Hutao API & Lisensi Pengembang Snap Hutao Cloud
 
-Pengembang yang mendapatkan akses ke Hutao API juga menerima hak penuh ke fitur Hutao Cloud dalam Snap Hutao sebagai
-keuntungan.
+Snap Hutao API adalah layanan antarmuka yang mempublikasikan basis data Spiral Abyss Snap Hutao, yang bertujuan untuk memberikan dukungan akses data bagi pengembang perangkat lunak open source.
 
-Pengembang dapat mengajukan akses dengan mengirimkan informasi mereka melalui Platform Terbuka Hutao API
-di [homa.snapgenshin.com](https://homa.snapgenshin.com/)
+Dengan mengajukan permohonan Snap Hutao API, pengembang tidak hanya akan mendapatkan izin akses ke basis data, tetapi juga akan mendapatkan hak penuh atas fitur Snap Hutao Cloud di dalam aplikasi Snap Hutao sebagai keuntungan tambahan.
 
-## Enka API dengan Akselerasi China
+Pengembang dapat mengajukan permohonan melalui [Platform Terbuka Snap Hutao API](https://homa.snapgenshin.com/) untuk mendapatkan lisensi pengembang.
 
-[Enka Network](https://enka.network/) adalah alat Genshin Impact yang sangat baik yang menyediakan data detail tentang
-karakter dalam showcase karakter pengguna saat ini. Namun, karena akses terbatas ke beberapa layanan jaringan tertentu
-di China, stabilitas fungsionalitas Enka Network di wilayah tersebut terganggu.
+## Catatan Data yang Dapat Ditukar UIGF
 
-Untuk memastikan pengalaman pengguna yang lancar bagi pengguna Snap Hutao di China, tim pengembangan telah
-menggunakan data Enka Network untuk pengembangan fitur [Karakter Saya](../features/character-data.md) dan
-mendirikan server proxy.
+Proyek Snap Hutao berkomitmen untuk mempromosikan kebebasan aliran data pengguna di antara berbagai alat open source, dan untuk itu, telah merancang versi awal [Standar Catatan Gacha yang Dapat Ditukar Terpadu (UIGF)](https://uigf.org/zh/standards/UIGF.html).
 
-Pengembang dapat meminta akses di grup obrolan pengembangan Snap Hutao atau grup discord dari administrator.
+Standar ini kini telah mendapatkan pengakuan dan adopsi dari semakin banyak pengembang, dan terus disempurnakan.
 
-## Format Data Permainan Interchangeable UIGF
-
-Snap Hutao bertujuan untuk memungkinkan aliran bebas data pengguna di antara berbagai alat open source
-dengan fitur yang berbeda-beda. Untuk memfasilitasi hal ini, Snap Hutao telah menetapkan versi awal dari
-[Standar Uniformed Interchangeable GachaLog Format (UIGF)](https://uigf.org/en/standards/UIGF.html).
-
-Sejak itu, standar ini telah mendapatkan pengakuan lebih dari pengembang, mengarah pada promosi standar tambahan.
-Banyak pengembang sekarang berkumpul di bawah [organisasi UIGF](https://github.com/UIGF-org). Tujuan kami adalah
-untuk menjaga organisasi ini, memungkinkan pengembang untuk terhubung dengan lebih banyak pengguna, menerima umpan
-balik, membuat kemajuan teknis, dan menciptakan alat Genshin Impact open source yang luar biasa.
+Banyak pengembang berkumpul di organisasi open source [UIGF-Org](https://github.com/UIGF-org), kami berharap melalui platform ini dapat mempromosikan komunikasi antara pengembang dan pengguna, mendapatkan lebih banyak umpan balik dan kemajuan teknis, serta lebih jauh menciptakan alat open source _Genshin Impact_ yang luar biasa.

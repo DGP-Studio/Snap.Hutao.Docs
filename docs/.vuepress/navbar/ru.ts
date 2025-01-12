@@ -10,26 +10,58 @@ export const ruNavbar = navbar([
   {
     text: "Скачать",
     icon: "iconfont icon-install",
-    link: "https://api.snapgenshin.com/patch/hutao/download",
+    link: "/ru/quick-start",
   },
   {
-    text: "Support us",
+    text: "Поддержите нас",
     icon: "iconfont icon-like",
     link: "/ru/support-us",
   },
   {
-    text: "Сообщество",
+    text: "Присоединиться к сообществу",
     icon: "iconfont icon-community",
     link: "/ru/community",
   },
   {
-    text: "Доступность сервиса",
+    text: "Доска проекта",
+    icon: "iconfont icon-update",
+    ariaLabel: "ducalis-changelog-widget",
+    link: `javascript:void(0);`,
+  },
+  {
+    text: "Помощь и поддержка",
     icon: "iconfont icon-define",
+    prefix: "/ru/",
     children: [
       {
-        text: "Uptime Kuma",
-        icon: "/images/202312/uptime-kuma.svg",
-        link: "https://status.snapgenshin.cn/status",
+        text: "Журнал обновлений",
+        icon: "iconfont icon-update",
+        link: "statements/update-log",
+      },
+      {
+        text: "Доступность услуг",
+        children: [
+          {
+            text: "Uptime Kuma",
+            icon: "/images/202312/uptime-kuma.svg",
+            link: "https://status.snapgenshin.cn/status",
+          },
+        ],
+      },
+      {
+        text: "Вопросы и отзывы",
+        children: [
+          {
+            text: "Часто задаваемые вопросы",
+            icon: "iconfont icon-ask",
+            link: "advanced/FAQ.html",
+          },
+          {
+            text: "Сообщить о проблеме",
+            icon: "iconfont icon-debug",
+            link: "statements/bug-report.html",
+          },
+        ],
       },
     ],
   },

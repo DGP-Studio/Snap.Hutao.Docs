@@ -9,9 +9,41 @@ export const idSidebar = sidebar({
     "support-us",
     {
       icon: "iconfont icon-read",
-      text: "Fitur",
+      text: "Panduan Fitur",
       prefix: "features/",
-      children: "structure",
+      children: [
+        {
+          icon: "iconfont icon-module",
+          text: "Alat Permainan",
+          children: [
+            "dashboard",
+            "game-launcher",
+            "wish-export",
+            "achievements",
+            "real-time-notes",
+            "character-data",
+            "hutao-API",
+            "imaginarium-theater",
+            "develop-plan",
+            "mhy-account-switch",
+          ],
+        },
+        {
+          icon: "iconfont icon-study",
+          text: "WIKI Permainan",
+          children: ["character-wiki", "weapon-wiki", "monster-wiki"],
+        },
+        {
+          icon: "iconfont icon-set",
+          text: "Fitur Perangkat Lunak",
+          children: [
+            "setup",
+            "feedback-center",
+            "hutao-passport",
+            "hutao-settings",
+          ],
+        },
+      ],
     },
     {
       icon: "iconfont icon-advance",
@@ -27,13 +59,13 @@ export const idSidebar = sidebar({
     },
     {
       icon: "iconfont icon-article",
-      text: "Statement",
+      text: "Pernyataan dan Pengumuman",
       prefix: "statements/",
       children: "structure",
     },
     {
       icon: "iconfont icon-article",
-      text: "Dev Logs",
+      text: "Log Pengembangan",
       prefix: "blog/",
       children: "structure",
     },

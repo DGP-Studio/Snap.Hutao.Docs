@@ -4,73 +4,74 @@ category: [Feature, Tutorial]
 tag: [Real-time Notes, Expeditions, Resin]
 order: 7
 comment: false
-description: The Real-time Note feature in Snap Hutao synchronizes dynamic information from Genshin Impact to your local computer by periodically refreshing your miHoYo account data. It allows you to set conditions for message reminders and push notifications based on your preferences. This feature helps you stay updated with the latest in-game events, announcements, and other relevant information in real-time.
+description: The Real-time Notes feature in Snap Hutao synchronizes dynamic information from Genshin Impact to your local computer by periodically refreshing your MiYouShe data. It allows you to set conditions for message reminders and push notifications based on your preferences.
 ---
 
 # Real-time Notes
 
-::: info
-
-This features requires you to login in to your MiYouShe or HoYoLAB account in Snap Hutao,
-you can check [MiHoYo BBS Account Switch](mhy-account-switch.html) for more information.
-
+::: info Prerequisites
+This feature requires you to log in to your MiYouShe / HoYoLAB account in Snap Hutao. See the [MiHoYo Multi-Account Switching](mhy-account-switch.md) document for login instructions.
 :::
 
-![live-data-tracking](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp)
+![live-data-tracking](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp)
 
-## Add Role
+## Adding Real-time Notes
 
-- Click on `Add Role` button
-- In the pop-up menu, find the UID you want to add, and click on the add button to its right
-- Now, the game UID character's Real-time Notes should be displayed in the page
-  - The Real-time Notes is set to refresh timely. You can click on the `Notification Settings` on the top right to manage it
-- If you want to see the data at this moment, you can click `Refresh` button to refresh data immediately
-- If a `-1034` error occurs during data refresh, it means that miHoYo's anti-bot risk control has been triggered. You can solve this problem by configuring the invisible verification in the Hutao settings.
+1. Click the "Add Real-time Notes" button.
+2. In the "Add Real-time Notes" pop-up window, find the game character UID you want to add and click the plus button to its right.
+3. The added game character will be displayed on the "Real-time Notes" page.
+   - Real-time Notes will automatically refresh data at fixed intervals.
+   - Click "Notification Settings" in the upper-right corner of the window to set the refresh interval.
+4. To get the latest data immediately, click the "Refresh Now" button.
+5. If a `-1034` error occurs when refreshing data, it means that miHoYo's anti-bot risk control mechanism has been triggered. This can be resolved by configuring invisible verification in the Snap Hutao settings.
 
-## Verify Current User and Role
+## Verifying User and Character
 
-If you are using a MiYouShe account, then you account is very likely to be marked as robot-usage and leads to an anti-bot
-verification. In this status, Real-time Notes data cannot be updated.
+If you are using a MiYouShe account, the anti-bot mechanism may trigger a verification code, preventing Real-time Notes data from refreshing.
+The following steps can solve this issue:
 
-You can click on `Verify Current User and Role` button, Snap Hutao will pop up verification window. After finishing the
-verification, then your account can be used to refresh data.
+1. Click the "Verify Current User and Character" button in the upper-left corner of the Real-time Notes page.
+2. Snap Hutao will display a verification window. Complete the verification to refresh the data for the affected account.
 
 ## Global Notification Settings
 
-- In the `Notification Settings` on the top right, you can change the global settings of Real-time Notes, including:
-  - Enable/Disable auto refresh
-  - Refresh rate
-  - Do not disturb setting
-  - Prioritized notification
-    - This prevent Snap Hutao's notification being closed automatically
-  - Customized data forwarding Webhook
-    - Snap Hutao allows user to forward Realtime Notes data to other applications to reduce account's request to MiHoYo API
-    - Input your third party HTTP API endpoint in `Realtime Notes Webhook Url` setting field, and Snap Hutao will forward the raw data through `POST` requests
+Clicking "Notification Settings" in the upper-right corner of the window allows you to configure the global behavior of the Real-time Notes feature, including:
 
-## Independent Settings for Each Accounts
+- **Enable/Disable Automatic Data Refresh**.
+- **Set the Automatic Data Refresh Interval**.
+- **Do Not Disturb Mode**:
+  - When enabled, notifications will only appear in the system notification center.
+- **High Priority Notifications**:
+  - Prevents notifications from being automatically moved to the action center, but may interfere with daily use.
+- **Custom Data Forwarding Webhook**:
+  - Snap Hutao allows users to forward Real-time Notes data to third-party programs to reduce direct requests to the miHoYo API.
+  - Enter the third-party program's `HTTP API` interface address in the "Real-time Notes Webhook URL" field. Snap Hutao will forward the raw data to this interface using a `POST` request.
 
-- Snap Hutao allows different settings on each Real-time Notes account
-- Hover the cursor over the form of Real-time Notes account that needs to set
-- Click on the setting button on it, and you can modify these settings:
-  - Original Resin threshold value
-  - Realm Currency threshold value
-  - Parametric Transformer notification
-  - Daily Commission notification
-  - Expeditions notification
-  - Display in the main page (feature coming soon)
-- Click on `Save` and you can save the settings
+## Account-Specific Settings
 
-## Delete Daily-Notes Account
+1. Hover your mouse over the Real-time Notes window of the character whose settings you want to modify.
+2. Click the settings button in the upper-right corner of the window to access the following settings options:
+   - **Original Resin Reminder Threshold** (range: 0–200)
+   - **Realm Currency Reminder Threshold** (range: 0–2400)
+   - **Enable Parametric Transformer Reminder** (on/off)
+   - **Enable Daily Commission Cap Reminder** (on/off)
+   - **Enable Expedition Completion Reminder** (on/off)
+3. After modifying the settings, click the "Save" button to save the current settings.
 
-- Hover the cursor over the form of Real-time Notes account that needs to delete
-- Clock on the remove button on it, and you can remove the corresponding account
+## Deleting a Character
 
-## FAQ
+1. Hover your mouse over the Real-time Notes window of the character you want to delete.
+2. Click the remove button in the upper-right corner of the window to delete the Real-time Notes for that character.
 
-### Why does setting up automatic refresh of real-time notes prompt "Failed to modify Scheduled Task"
+## Frequently Asked Questions
 
-The automatic refresh of real-time notes relies on task scheduling. In order to avoid possible permission issues, Snap Hutao will force scheduled tasks to be set in non-administrator mode.
+### Why does setting automatic refresh for Real-time Notes display "Failed to modify Scheduled Task"?
 
-If you turned on automatic refresh in the old version, you can solve the problem by manually deleting the old task schedule in Task Scheduler. The name of the scheduled task is `SnapHutaoDailyNoteRefreshTask`.
+- Automatic refresh of Real-time Notes relies on the Windows Task Scheduler.
+- To avoid permission issues, Snap Hutao sets task schedules in non-administrator mode.
 
-If you did not turn on automatic refresh in the old version, then this problem is caused by the Windows user account you are currently using having insufficient permissions. If your current user account is an administrator account, you can only solve this problem by reinstalling the system.
+**Solutions:**
+
+1.  If you have enabled automatic refresh in an older version, you can manually delete the old task schedule in Task Scheduler. The task schedule name is `SnapHutaoDailyNoteRefreshTask`.
+2.  If you have not enabled task schedules before, the current Windows user account may not have sufficient permissions. Try using an administrator account.
+3.  If the problem persists, you may need to reinstall the system.

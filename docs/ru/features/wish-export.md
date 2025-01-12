@@ -1,146 +1,116 @@
 ---
 headerDepth: 2
-category: [Feature, Tutorial]
-tag: [wish export, gacha, wish]
-order: 4
+category: [Функции, Руководство]
+tag: [экспорт молитв, гача, молитва]
+order: 5
 comment: false
+description: Функция экспорта молитв позволяет игрокам свободно экспортировать текущие данные молитв из игрового аккаунта и навсегда сохранять их локально, создавая резервные копии. Благодаря долгосрочному накоплению данных можно отслеживать статистику и анализировать данные молитв.
 ---
 
-# Wish History
+# Записи молитв
 
-Gacha is one of the core gameplay in Genshin Impact. Whether it's for commemorative and show-off purposes,
-or for serious planning for a gacha strategy, it's very important to perform statical analysis on historical gacha record.
-However, Genshin Impact only provides players with six months of gacha records, which is not user-friendly ~~(although they
-still keep tracking how many Timmie's pigeons you've killed for the whole year)~~
+Гача — одна из основных игровых механик Genshin Impact. Независимо от того, делается ли это с целью сохранить воспоминания, похвастаться или же для серьезного планирования стратегии, статистический анализ истории молитв очень важен. Однако официальная версия Genshin Impact предоставляет только годовые записи молитв, чего недостаточно для долгосрочных игроков (~~зато они считают, сколько голубей Тимми вы убили за год~~).
 
-Therefore, we need to use the gacha records from these six months to retrieve the data and transfer the record to our
-local device. This is the purpose of wish history export feature in Snap Hutao.
+Поэтому появилась функция экспорта записей молитв в Snap Hutao, которая может помочь игрокам перенести данные молитв на локальное устройство для постоянного хранения и долгосрочного анализа данных.
 
-Regarding the technical principles of exporting Genshin Impact gacha records,
-you can refer to our article on [Gacha System and Export Principles](../advanced/Gacha-system-and-export-principal.html)
+О технических принципах экспорта записей молитв Genshin Impact можно узнать в разделе [**Система молитв и принципы экспорта**](../advanced/Gacha-system-and-export-principal.html).
 
-![wish export](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01AYR3I41g6dyGBmAw5_!!1797064093.png_.webp)
+![Экспорт молитв](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01otuXYg1g6e0wnNwX2_!!1797064093.png_.webp)
 
-**As shown in the above figure, through the wish history feature in Snap Hutao, you can clearly obtain the following information:
-total number of wishes, current pity count, quantity and percentage of obtained items with different rarity, number of
-times a 5-star rarity item was not obtained and the current pity status.**
+Как показано на рисунке выше, функция экспорта молитв в Snap Hutao помогает пользователям четко подсчитывать и анализировать данные о молитвах, включая:
 
-**Additionally, user with Hutao Cloud can view prediction data calculated by Hutao Cloud server**
+- Общее количество молитв
+- Текущее количество до гаранта
+- Количество и процент полученного оружия и персонажей разной редкости
+- Количество молитв для каждого получения 5-звездочного предмета и ситуацию с гарантом
 
-::: note Delay in Gacha Data Export
+Кроме того, **пользователи Snap Hutao Cloud могут дополнительно получить данные прогнозирования молитв, рассчитанные на облачном сервере**.
 
-Snap Hutao retrieves gacha records from the MiHoYo servers, which means that recently made wishes may not be immediately
-available. When you see the latest batch of gacha records in the game's own history, then you can then obtain the corresponding
-statistics from Snap Hutao.
-
+::: note Задержка данных в записях молитв Genshin Impact
+Источником данных Snap Hutao является сервер miHoYo, поэтому записи молитв, недавно сделанных за короткое время, могут быть недоступны.
+Когда вы увидите последние записи в истории молитв в игре, вы сможете получить соответствующие статистические данные в Snap Hutao.
 :::
 
-## Fetch Wish History
-
-### Refresh with SToken Cookie <Badge text="Recommend" type="tip" />
-
-::: info Hint
-
-- This method requires user to sign in to MiHoYo BBS account in Snap Hutao, refer to
-  [MiHoYo BBS Account Switch](mhy-account-switch.md) to get to know how to login to your MiHoYo BBS account
-- **SToken Cookie refresh method does not support global server (HoYoLAB)**
-
+::: important
+Это перевод, сделанный моделью Google Gemini, и мы приветствуем исправления через PR.
 :::
 
-- Make sure the account you want to refresh wish history has been signed in to Snap Hutao
-- Switch to `Wish History` feature page in Snap Hutao
-- Click on `Refresh` button and select `SToken Refresh`
-- Wait for refresh task to complete
+## Получение данных молитв
 
-### Refresh with Web Cache <Badge text="Global Server Supported" type="tip" />
+### Обновление SToken <Badge text="Рекомендуется" type="tip" />
 
-- Switch to `Wish History` feature page in Snap Hutao
-- Start the game, go to in-game wish history page
-- Go back to Snap Hutao, clock on `Refresh` button and select `Refresh with Web Cache`
-- Wait for refresh task to complete
+::: info Подсказка
+
+- Учетная запись MiYouShe, авторизованная в системе, является предпосылкой для использования метода обновления SToken. См. документ [Переключение нескольких учетных записей MiYouShe](mhy-account-switch.md) для входа в учетную запись в Snap Hutao.
+- Метод обновления SToken временно не поддерживает международные серверы.
+  :::
+
+1. Убедитесь, что в Snap Hutao авторизована учетная запись MiYouShe, для которой нужно получить записи.
+2. В левом меню перейдите на страницу «Записи молитв».
+3. Нажмите кнопку «Обновить» в правом верхнем углу и выберите «Обновление SToken».
+4. Дождитесь завершения чтения, чтобы просмотреть последние записи молитв.
+
+### Обновление веб-кэша <Badge text="Поддержка международных серверов" type="tip" />
+
+1. Запустите Genshin Impact и войдите в игру, откройте историю молитв в игре.
+2. В левом меню Snap Hutao перейдите на страницу «Записи молитв», нажмите кнопку «Обновить» в правом верхнем углу и выберите «Обновление веб-кэша».
+
+::: tip Если функция обновления веб-кэша не работает:
+
+- В меню в левом нижнем углу программы нажмите «Настройки - Место хранения».
+- Выполните операцию «Удалить веб-кэш внутри игры».
+- Снова откройте интерфейс истории молитв в игре.
+- Повторите попытку обновить записи молитв.
+  :::
+
+### Ручной ввод URL <Badge text="Поддержка международных серверов" type="tip" />
+
+1. Если вы получили URL-адрес истории молитв с помощью других инструментов, вы можете выбрать «Ручной ввод URL» и следовать инструкциям.
+2. Обратите внимание, что URL-адрес **имеет ограниченный срок действия**, поэтому обязательно завершите операцию как можно скорее.
+
+### Режим полного обновления
+
+- По умолчанию Snap Hutao прекратит импорт после сопоставления с уже существующей локальной записью, чтобы избежать дублирования записей.
+- Если вы хотите полностью получить все исторические записи с сервера Genshin Impact, установите флажок «Полное обновление» перед выполнением задачи обновления.
 
 ::: tip
-If errors keep occur:
 
-- Go to settings page in Snap Hutao
-- Execute operation `Delete game embeeded browser web cache`
+- **Если не установлен флажок «Полное обновление»**, данные о молитвах не будут потеряны.
+- **Если установлен флажок «Полное обновление»**, данные не будут импортированы повторно.
+  :::
 
+## Импорт данных молитв UIGF <Badge text="UIGF" type="info" />
+
+Snap Hutao поддерживает импорт записей молитв в `формате данных UIGF`[^UIGF-Org]. Шаги импорта следующие:
+
+1. Экспортируйте файл данных UIGF из других инструментов.
+2. В Snap Hutao нажмите «Настройки - Записи молитв - Миграция - Импорт».
+3. Во всплывающем окне выбора файла выберите файл данных `UIGF Json`.
+4. Подтвердите данные и завершите импорт.
+
+::: warning Обновление старой версии файла UIGF
+Если версия записей молитв слишком старая, вы можете нажать «Настройки - Записи молитв - Миграция - Обновить более раннюю версию файла UIGF», завершить обновление, а затем выполнить импорт.
 :::
 
-### Refresh with Manually Input URL <Badge text="Global Server Supported" type="tip" />
+## Экспорт данных молитв UIGF <Badge text="UIGF" type="info" />
 
-- If you get your personal wish history URL, you can select `Manual Input` and submit your wish history URL
-- Be aware that the URL is time-sensitive
+Snap Hutao поддерживает экспорт записей молитв в `формате данных UIGF` в виде файла Json. Подробные шаги следующие:
 
-### Explanation on Full Refresh Option
+1. В левом меню перейдите в «Настройки».
+2. Найдите раздел «Записи молитв - Миграция» и нажмите кнопку «Экспорт».
+3. Выберите учетную запись, данные которой вы хотите экспортировать.
+4. Во всплывающем окне выберите путь сохранения файла и нажмите «Экспорт», чтобы завершить операцию.
 
-By default, Snap Hutao will stop importing gacha records once it matches a Wish ID that already exists locally.
-However, if you wish to obtain all the historical records from the Genshin Impact servers
-(even if they are already present in your local wish history), you can check the "Full Refresh" option.
+::: tip
+Поддерживается экспорт записей молитв нескольких учетных записей в один файл без необходимости выполнять операции по отдельности.
+:::
 
-Not selecting `Full Refresh` will **not** cause you to lose your wishing data,
-and selecting `Full Refresh` will **not** cause your local records to mistakenly record the same wishing data twice.
+## Облачная синхронизация записей молитв
 
-### Import Wish History Data from Other Applications <Badge text="UIGF" type="info" />
+> Функция облачной синхронизации основана на учетной записи Snap Hutao Cloud. Для использования этой функции необходимо [зарегистрироваться и войти в учетную запись Snap Hutao](hutao-settings.md#%D0%A3%D1%87%D0%B5%D1%82%D0%BD%D0%B0%D1%8F-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C-snap-hutao).
 
-Snap Hutao supports importing wish history data file that in `UIGF data format`[^UIGF-Org]
+- **Загрузка**: На странице «Записи молитв» выберите архив, который нужно синхронизировать, нажмите кнопку «Snap Hutao Cloud», а затем выберите «Загрузить текущий архив».
+- **Скачать**: Нажмите кнопку «Snap Hutao Cloud», выберите кнопку загрузки справа от архива с соответствующим UID, чтобы завершить синхронизацию.
+- **Удалить**: Нажмите кнопку «Snap Hutao Cloud», выберите кнопку удаления справа от архива с соответствующим UID, чтобы удалить данные из облака.
 
-If you need to import such type of data, you can:
-
-- Start Snap Hutao, switch to `Wish History` feature page
-- Select `Import`
-- Select your UIGF Json data file
-- Check the imported file information and confirm to import
-
-## Export Wish History Data <Badge text="UIGF" type="info" />
-
-Snap Hutao support exporting wish history data to a Json file written in UIGF data format
-
-If you need to export the wish history data, you can:
-
-- Start Snap Hutao, switch to `Wish History` feature page
-- Switch to the archive you want to export, and select `Export`
-  - In the pop-up window, confirm your export path
-- Confirm and export data
-
-## Wish History Cloud Sync <Badge text="Beta" type="info" />
-
-> Wish history cloud sync is designed on Snap Hutao Account.
-> You need to [register an account in the settings](hutao-settings.md#snap-hutao-account) to use this feature
-
-With this feature, you can upload your wish history to Hutao Cloud, to avoid risk of losing data, and make it easier to
-transfer data between devices.
-
-### Cloud Sync Privilege
-
-Cloud synchronization is a service uses Snap Hutao's server resource, so it is a time-limited feature.
-Currently, you have the following ways to enable Cloud Sync:
-
-1. Donate us on AiFaDian. The privilege will automatically assigned to Snap Hutao Account with same email address on AiFaDian
-2. For all registered user, after upload Abyss record in each schedule, 3-day privilege will be automatically assigned
-   - This is a method you can constantly use benefit of Hutao Cloud
-3. Users who make contributions to our open-source community, including code development, program designing,
-   localization translations, can contact the dev team to get your benefit for free
-   - We are designing an automation system to auto assign license to our contributors, it will be live with more
-     development of Hutao Cloud
-
-After your Hutao Cloud privilege expired, you will not be able to upload, download or delete your data, but your data
-will not be removed. You can continue to operate it once you get your privilege again.
-
-### Upload
-
-- In wish export page, select the archive you need to sync data
-- Click `Snap Hutao Cloud` button on the top right
-- Click `Upload Current Wish Archive`, and then your data will be backup to the cloud
-
-### Download
-
-- In wish export page, Click `Snap Hutao Cloud` button on the top right
-- Click download button on the right side of UID which data needs to be downloaded
-
-### Delete
-
-- In wish export page, Click `Snap Hutao Cloud` button on the top right
-- Click delete button on the right side of UID which data needs to be deleted
-
-[^UIGF-Org]: Unified Standardized GenshinData Format is provided by [UIGF-Org](https://uigf.org/)
+[^UIGF-Org]: UIGF (единый стандартизированный формат данных Genshin Impact) предоставляется [UIGF-Org](https://uigf.org/).

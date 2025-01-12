@@ -10,89 +10,92 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced
 
 # Common Program Exceptions
 
-This document covers solutions of **foreseeable client error**
+This document lists common issues and corresponding solutions that may occur while using Snap Hutao.
 
-## Return Code: 2002
+---
 
-- This error comes directly from MiHoYo BBS: `Ruturn Code: 2002`
-- Issue source:
-  - MiHoYo BBS account is not initialed yet
-- Solution：
-  - MiYouShe account: Use official MiYouShe mobile app, login to your account, set the community username to initial account
-  - HoYoLAB account: Use official HoYoLAB mobile app or the web application, login to your account, set the community username to initial account
+## **Return Code: 2002**
 
-## Return Code: -10001
+- **Source**: Information returned by MiHoYo
+- **Cause**: The miHoYo BBS account is not initialized.
+- **Solution**:
+  - MiYouShe account: Use the official MiYouShe mobile app to log in to your account and set a community username to initialize it.
+  - HoYoLAB account: Use the official HoYoLAB mobile app or the web version to log in to your account and set a community username to initialize it.
 
-- This error comes directly from MiHoYo BBS, prompts include
-  - `Return Code: -10001`
-  - `Return Code: -100`
-- Issue source
-  1. Cookie expired
-  2. Network error
-  3. System time is not accurate
-- Solution
-  1. In the account panel, execute `Refresh Cookies`
-  2. Remove your account and add it again
-  3. Sync your system time
+## **Return Code: -10001**
 
-## Return Code: 1034 Verification Failed
+- **Source**: Information returned by MiHoYo, including `Return Code: -10001` and `Return Code: -100`
+- **Cause**:
+  1. Cookie expired or network error.
+  2. System time error.
+- **Solution**:
+  1. Click "Refresh Cookie" in the account panel.
+  2. Remove the account and add it again.
+  3. Enable automatic time synchronization in system settings and synchronize immediately.
 
-- If Snap Hutao returns `1034` status code and hints verification failed (usually during the operation of Realtime Notes),
-  it means the operation is blocked by MiHoYo BBS anti-bot system
-- Solution:
-  - Enter `Realtime Notes`
-  - Click on `Verify Current User and Role` button
-  - Follow the instruction in MiHoYo BBS to verify
-  - After finishing the verification process, click `Complete` to close the verification window
-  - Now, the account should back to normal; If not, process the step above again
+## **Status: 1034 Verification Failed**
 
-::: tip
+- **Cause**: The Real-time Notes feature is blocked by the MiHoYo anti-bot system.
+- **Solution**:
+  1. Go to the "Real-time Notes" feature.
+  2. Click the "Verify Current User and Role" button in the upper right corner.
+  3. Complete the verification as prompted.
+  4. If the problem persists, repeat the above steps.
 
-If the risk prompt is too frequent, or the verification cannot be triggered at all, it means that the risk of your
-account is too high, please change the password, so that the simultaneous login status of multiple devices will be reset
+::: warning Notes
 
-:::
+1. Changing your password can reset the device login status.
+2. If multiple bots or devices frequently access MiYouShe data, it may trigger MiYouShe's security restrictions, which cannot be avoided temporarily.
+   :::
 
-::: warning
+## **HttpRequestException Metadata Download Failed**
 
-- You hardly cannot pass imperceptible verification when your account is **login at other remote Genshin tools** or
-  **login at multiple devices**. This is a security designing of MiHoYo BBS, and cannot bypass
-- If you are using **multiple MiHoYo BBS account in your device**, **frequent usage with MiHoYo BBS API** will
-  result in your IP address being banned for a period of time (usually no more than 24 hours). This is a security
-  designing of MiHoYo BBS, and cannot bypass
+### **ConnectionError**
 
-:::
+- **Cause**: Failed to connect to the Snap Hutao server.
+- **Solution**: Check your network proxy or if you have [unlocked Windows container Loopback limit](loopback.md).
 
-## HttpRequestException Metadata Download Failed
+### **403 / 404 / 418**
 
-### ConnectionError
+- **Solution**: Update to the [latest version](../quick-start.md#全新安装).
 
-Failed to connect to Snap Hutao server, please check your connection
+### **502**
 
-If you are using a network proxy, please check if you have [unlocked Windows container Loopback limit](FAQ.md)
+- **Cause**: Failed to connect to the Snap Hutao server.
+- **Solution**: Check your network or contact the development team.
 
-### 403 (Forbidden) / 404 (Not Found)
+## **`653366069` Request Exception**
 
-Solution: Update your Snap Hutao to [the latest version](../quick-start.md)
+- **Cause**: Unable to connect to the MiYouShe / HoYoLAB server.
+- **Solution**:
+  - Ignore occasional errors.
+  - If the error persists, check your network connection.
+  - Check if you have [unlocked Windows container Loopback limit](loopback.md).
 
-### 502 (Bad Gateway)
+## **Resource Download Failed**
 
-Failed to connect to Snap Hutao server, please check your connection
+- Failure to download some static resources will not significantly affect usage; the client will automatically retry when needed.
 
-## `653366069` Request Exception
+### **`Received an unexpected EOF or 0 bytes from the transport stream.`**
 
-- Failed to connect to MiYouShe or HoYoLAB server
-  - if the error occurs not frequently, you may ignore it
-  - if the error constantly occurs, please check your local network
+- **Cause**: Download limit or network fluctuations.
+- **Solution**: Close Snap Hutao and try again later, or switch to a different network environment.
 
-If you are using a network proxy, please check if you have [unlocked Windows container Loopback limit](FAQ.md)
+## **Problem Finding Required Modules**
 
-## Error Finding Required Modules
+- **Error Messages**:
+  1. Could not read any module, the protection driver may have been loaded.
+  2. Timeout when finding modules.
+- **Solution**: Snap Hutao will close the game process; the user can try launching the game again.
 
-When user launching game with unlock frame-rate feature on, the game may be failed to be launched with the following error shows up:
+## **Application Installation Failed, Error Message: Internal Error 0x80073D05**
 
-1. Error finding required modules: could not read any module, the protection driver may have been loaded
-2. Error finding required modules: timeout
+- **Cause**: Residual files were not cleaned up after uninstallation.
+- **Solution**:
+  1. Open `%appdata%/../Local/Packages`.
+  2. Delete the `60568DGPStudio.SnapHutao_wbnnev551gwxy` folder (use `NSudo_LG` if permissions are insufficient).
 
-This issue only occurs when Genshin Impact's anti-cheat module starts earlier than frame-rate-unlocker module.
-When these errors happen, Snap Hutao will exit game process, and you can re-launch the game.
+## **Prompt 0x8007007E or Cannot find the specified file/module**
+
+- **Cause**: Missing MSVC runtime library.
+- **Solution**: Install the latest version of [MSVC runtime library (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe).

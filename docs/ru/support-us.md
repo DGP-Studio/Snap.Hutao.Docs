@@ -1,35 +1,56 @@
----
 pageClass: link-box
 externalLinkIcon: false
 comment: false
 icon: iconfont icon-like
 index: false
 headerDepth: 2
+description: Проект Snap Hutao принимает пожертвования от сообщества для поддержания своей работы, и мы искренне благодарим всех, кто поддерживает проект.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/support-us.html
+
 ---
 
-# Support us
+# Поддержите нас
 
-Snap Hutao, as an open-source project licensed under the MIT License, is dedicated to creating a completely free, ad-free, and privacy-focused program. The members of our development team are currently self-funding the project's operation, with the main expenses being the network system components required by server (you can find our annual expenditure summary below on this page). If you have surplus funds to support Snap Hutao, your generous donation will not only assist the development team but also benefit every Snap Hutao user. Currently, you can donate us in the following ways:
+::: important
+Это перевод, сделанный моделью Google Gemini, мы приветствуем исправления через PR.
+:::
 
-## Donation
+Snap Hutao, будучи проектом с открытым исходным кодом, распространяемым под лицензией MIT, стремится создать полностью бесплатную, без рекламы и ориентированную на конфиденциальность программу. В настоящее время члены нашей команды разработчиков самостоятельно финансируют работу проекта, максимально снижая эксплуатационные расходы за счет современных технологий. Основными статьями расходов в настоящее время являются компоненты сетевой системы, необходимые для работы сервера (вы можете найти сводку наших годовых расходов ниже на этой странице). Если у вас есть лишние средства для поддержки Snap Hutao, ваше щедрое пожертвование поможет не только команде разработчиков, но и принесет пользу каждому пользователю Snap Hutao. В настоящее время вы можете поддержать нас следующими способами:
 
-We accept sponsorship with following methods:
+## Каналы пожертвований
 
-<Sponsor lang="en" />
+Мы принимаем пожертвования следующими способами:
 
-## Sponsorship
+<Sponsor lang="ru"/>
 
-> We refuse any sponsorship aim to achieve user data
+## Спонсоры
 
-If you are a business entity and would like to support Snap Hutao through your product, please contact us at [support@dgp-studio.cn](mailto://support@dgp-studio.cn). We will display all sponsors on our [home page](README.md#sponsorship).
+> Мы отказываемся от любого спонсорства, целью которого является получение данных пользователей
 
-## Annual Expense
+Если вы являетесь юридическим лицом и хотите помочь Snap Hutao с помощью своего продукта, свяжитесь с нами по электронной почте [support@dgp-studio.cn](mailto://support@dgp-studio.cn). Мы разместим информацию обо всех спонсорах на нашей [главной странице](README.md#赞助商).
 
-> The following information is derived from the 2023 project expenditure summary of Snap Hutao. The current specific data may differ from that.
-> All expenditure amounts are in Chinese Yuan (CNY), and if the original expenditure currency is not in Chinese Yuan, it is calculated based on the exchange rate on February 22, 2024.
+## Годовые расходы
 
-|          Item          | Expense (CNY) |
-| :--------------------: | ------------- |
-|         server         | ￥1582.92     |
-|     domain service     | ￥512.7       |
-| other network services | ￥129.3       |
+### Итоги за 2023 год
+
+> Следующая информация составлена на основе сводки расходов проекта Snap Hutao за 2023 год, текущие данные могут отличаться.
+> Все суммы расходов указаны в китайских юанях (CNY), если исходная валюта расходов не является китайским юанем, то расчет произведен на основе обменного курса на 22 февраля 2024 года.
+
+|        Статья         | Расходы (CNY) |
+| :-------------------: | :-----------: |
+|        Сервер         |   ￥1582.92   |
+|    Доменные услуги    |    ￥512.7    |
+| Другие сетевые услуги |    ￥129.3    |
+|         Итого         |   ￥2224.92   |
+
+### Итоги за 2024 год
+
+> Следующая информация составлена на основе сводки расходов проекта Snap Hutao за 2024 год, текущие данные могут отличаться.
+> Все суммы расходов указаны в китайских юанях (CNY), если исходная валюта расходов не является китайским юанем, то расчет произведен на основе обменного курса на 10 января 2025 года.
+
+|        Статья         | Расходы (CNY) |
+| :-------------------: | :-----------: |
+|        Сервер         |   ￥2648.94   |
+|    Доменные услуги    |   ￥344.96    |
+| Другие сетевые услуги |   ￥205.63    |
+|         Итого         |   ￥3199.53   |

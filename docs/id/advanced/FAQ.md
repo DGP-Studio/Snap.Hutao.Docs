@@ -1,151 +1,63 @@
 ---
-headerDepth: 2
+headerDepth: 3
 icon: iconfont icon-ask
-category:
-  - FAQ
+category: [FAQ]
 order: 1
+comment: false
+description: Halaman ini berisi beberapa pertanyaan umum dan solusi terkait masalah jaringan pengguna dan siklus hidup program.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/faq.html&has_description=False
 ---
 
-# Pertanyaan Umum
+# Pertanyaan Umum Lainnya
 
-If the following answers can not solve your issue, feel free to [report bug to us](../statements/bug-report.md)!
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
+:::
 
-## Cara membuat pintasan desktop (tanpa hak admin)
+## Cara Membuat Pintasan Desktop Snap Hutao (Mode Non-Administrator)
 
 ::: tip Kekuatan Komunitas
-
-Terima kasih kepada [solusi diberikan oleh CzHUV](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12).
-
+Terima kasih kepada [solusi yang diberikan oleh CzHUV](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)
 :::
 
-- Gunakan `Win+R` untuk membuka `run`, di dalam jendela masukkan `shell:AppsFolder` ![Run](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png)
-- Pada jendela pop-up baru, temukan Snap Hutao
-- Klik kanan, lalu klik `Buat pintasan`
-- Konfirmasikan operasi dan Anda akan mendapatkan pintasan desktop
+1. Gunakan `Win+R` untuk membuka jendela Run, masukkan `shell:AppsFolder` di kotak input.
+   ![Run](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png_.webp)
+2. Windows akan memunculkan direktori aplikasi, cari Snap Hutao.
+3. Klik kanan ikon Snap Hutao, pilih "Buat pintasan".
+4. Ikuti petunjuk sistem, dan pintasan akan dibuat di desktop.
 
-## Cara membuat pintasan desktop dengan hak Admin
+## Cara Membuat Pintasan Desktop Snap Hutao (Mode Administrator)
 
-Mulai dari Snap Hutao 1.7.4, Anda dapat membuat pintasan desktop dengan hak Admin dengan mengklik `Buat Pintasan Desktop`
-di halaman pengaturan.
+- Masuk ke halaman pengaturan program Snap Hutao, klik tombol "Buat Pintasan" untuk membuat pintasan di desktop dengan hak administrator.
 
-Anda dapat memindahkan pintasan ini ke tempat yang Anda butuhkan.
+## Cara Membuat Snap Hutao Otomatis Menyala Saat Komputer Dihidupkan
 
-## Cara menjalankan Snap Hutao saat Windows dijalankan
+### Metode 1: Melalui File Batch
 
-**Ini adalah solusi sementara**
+1. Buat file batch, lihat perintah yang disediakan dalam [Issue ini](https://github.com/DGP-Studio/Snap.Hutao/issues/184), untuk membuat Snap Hutao berjalan langsung dalam mode administrator.
+2. Konfigurasikan file batch untuk memulai otomatis dengan cara berikut:
 
-- Buat file `.bat`, kontennya mengacu pada [Issue ini](https://github.com/DGP-Studio/Snap.Hutao/issues/184), ini memungkinkan `.bat` untuk menjalankan Snap Hutao dengan hak Admin
-- Buat `Scheduled Tasj`, jalankan `.bat` saat Windows startup, atau seret ke folder start Windows
+- Buat program tugas terjadwal untuk menjalankan file batch saat sistem dinyalakan.
+- Tambahkan file batch ke item startup sistem.
 
-## Menggunakan Snap Hutao untuk memulai game dengan cepat
+### Metode 2: Menggunakan Alat
 
-- Konfigurasi peluncur game di pengaturan
-- Pin Snap Hutao di taskbar
-- Klik kanan pada Snap Hutao dan Anda akan melihat `quick launcher`
+- Gunakan program seperti `SkipUAC` untuk membuat Snap Hutao berjalan dalam mode administrator secara diam-diam.
 
-  ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png)
-
-- Pilih `Lauch Game`, Anda akan diminta memilih akun untuk memulai game
-
-## Menggunakan Snap Hutao dengan Proxy Jaringan
-
-Lihat dokumen [Kesalahan HttpRequestException (502)](exceptions.html#_502-bad-gateway)
-
-## Mojibake di Snap Hutao
-
-- Jika Anda menggunakan Windows 10 dan melihat beberapa tombol tidak ditampilkan dengan benar
-  - Anda dapat mengunduh font `Segoe Fluent Icons`
-  - Anda perlu menginstalnya untuk semua pengguna
-- Anda dapat menemukan font ini dari [Microsoft](https://aka.ms/SegoeFluentIcons)
-
-## Akun MiHoYo BBS Sering Kehilangan Status Login
-
-Snap Hutao menggunakan cookie MiHoYo BBS yang disimpan untuk mempertahankan status login. Jika Anda **keluar** dari akun Anda di browser atau
-perangkat lain, cookie akan menjadi tidak valid, dan Snap Hutao juga akan dipaksa keluar, akun akan secara otomatis
-dihapus.
-
-Masalah ini juga dapat disebabkan oleh kesalahan jaringan, Anda harus memeriksa ini terlebih dahulu; Jika bukan karena masalah jaringan,
-Anda dapat menggunakan `Refresh Cookie` di panel akun; Anda juga dapat menghapus akun Anda secara manual dan menambahkannya kembali.
-
-Sejak Oktober 2022, MiYouShe (BBS Tiongkok) dengan cepat meningkatkan deteksi bot dan mungkin mengatur status risiko pada akun pengguna,
-ini dapat menyebabkan Snap Hutao gagal memeriksa validasi cookie
-
-## Akun Game Kehilangan Status Login di Launcher
-
-- Ada dua faktor yang terkait dengan status login akun game: jaringan dan ID perangkat
-- Masalah ini biasanya disebabkan oleh:
-  - Perubahan alamat IP publik
-  - Perubahan adapter jaringan atau alamat MAC adapter jaringan
-  - Operasi penyimpanan gagal, tidak ada status login yang sebenarnya yang disimpan (Snap Hutao tidak dapat mendeteksi jika statusnya benar-benar valid)
-    - Pastikan untuk masuk ke game setelah masuk
-    - Pastikan proses game sudah berhenti setelah menutup game
-    - Deteksi akun lagi untuk menyimpan status login Anda
-
-## Snap Hutao Melempar Pesan Gagal menambahkan Scheduled Task
-
-Jika Anda menggunakan hak Admin untuk memulai fitur catatan real-time, tugas terjadwal Snap Hutao akan dibuat
-sebagai peran Administrator. Saat Anda mengedit pengaturan catatan real-time tanpa hak Admin, program akan
-kekurangan hak untuk mengedit pengaturan dan akan melemparkan galat ini.
-
-Jalankan Snap Hutao sebagai Administrator untuk mengedit pengaturan Anda untuk memecahkan masalah ini.
-
-## Terjebak di `Menginstal Kerangka yang Diperlukan` saat Menggunakan Paket MSIX untuk Menginstal
-
-- Ketika sistem pengguna kekurangan `framework dependency` yang diperlukan, Windows akan mengunduh dan menginstalnya secara otomatis.
-  Namun, jika pengguna menonaktifkan Windows Update atau memiliki jaringan buruk, sistem tidak dapat memproses instalasi ini.
-  - Pastikan Windows Update diaktifkan; pembaruan Snap Hutao juga mengandalkannya
-  - Anda juga dapat mengunduh dan menginstal [dependensi](ttps://d.hut.ao/releases/Dependency) secara manual
-
-## Tidak Dapat Menjalankan Snap Hutao sebagai Administrator
-
-> Masalah ini hanya terjadi pada Windows 10 yang lebih lama dari versi 22H2
-
-- Ketika versi OS pengguna lebih lama dari `Windows Build 19045` (alias Windows 10 22H2), Snap Hutao tidak dapat dijalankan ketika
-  dijalankan sebagai Administrator
-  - Masalah ini berasal dari kernel Windows, dan sulit untuk dilokalisasi, jadi kami menyarankan Anda untuk memperbarui OS Anda ke versi terbaru
-
-## Cara Memulihkan Berkas Konfigurasi `config.ini`
-
-Dalam kondisi tertentu tertentu (seperti izin folder game yang salah), `config.ini` dapat hilang setelah konversi server.
-Ini akan menyebabkan pengguna tidak dapat masuk ke halaman peluncur lanjutan dan meluncurkan game.
-
-Setelah mengidentifikasi versi server di perangkat Anda, Anda dapat secara manual membuat dan mengisi file konfigurasi dengan benar.
-Berikut adalah konfigurasi umum
-
-.
-
-::: tabs#game_config_samples
-
-@tab Server Resmi CN
-
-```
-[General]
-channel=1
-cps=mihoyo
-game_version=4.1.0
-sub_channel=1
-plugin_7_version=1.0.0
-```
-
-@tab Server Resmi Global
-
-```
-[General]
-channel=1
-cps=mihoyo
-game_version=4.1.0
-sub_channel=0
-plugin_7_version=1.0.0
-```
-
+::: warning Perhatian
+Metode di atas mungkin tidak berfungsi karena konfigurasi sistem atau masalah lainnya. Snap Hutao tidak secara langsung mendukung fitur otomatis menyala saat komputer dihidupkan, mencoba operasi terkait merupakan risiko yang Anda tanggung sendiri.
 :::
 
-## Cara Cadangan/Pemulihan Data Klien Secara Penuh
+## Tidak Dapat Menjalankan Snap Hutao dalam Mode Administrator
 
-::: warning Peringatan Keamanan Data
-`Userdata.db` berisi semua data klien, termasuk Cookie MiHoYO BBS, harap simpan file data dengan baik dan JANGAN DIBAGIKAN
-KEPADA SIAPAPUN.
-:::
+> **Cakupan Masalah**: Hanya Terbatas pada Windows 10 Versi di Bawah 22H2
 
-Salin `Userdata.db` dari folder data Snap Hutao (`%userprofile%/Documents/Hutao` secara default) ke lokasi cadangan Anda, file ini
-berisi seluruh data klien.
+- Saat versi sistem pengguna lebih rendah dari `Windows Build 19045` (yaitu, Windows 10 versi 22H2), Snap Hutao mungkin tidak dapat dijalankan dalam mode administrator.
+- **Solusi**: Disarankan untuk meningkatkan sistem ke versi terbaru Windows 10 untuk menghindari masalah kompatibilitas semacam ini.
+
+## Cara Menggunakan Snap Hutao Melalui Proksi Jaringan
+
+> Snap Hutao menyediakan struktur jaringan cloud yang baik untuk memastikan pengguna dapat menikmati layanan berkualitas di seluruh dunia.
+
+1. Konfigurasikan layanan proksi sistem atau perangkat lunak.
+2. Disarankan untuk mengaktifkan `Loopback Network`, tutorial detail dapat dilihat [di sini](loopback.md).

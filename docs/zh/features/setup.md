@@ -10,34 +10,55 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features
 
 # 初始化引导
 
-在初次启动胡桃工具箱时，胡桃工具箱将自动进入初始化引导流程以帮助用户正确地配置胡桃工具箱。
-目前，胡桃工具箱将引导用户设置语言、确认重要的用户协议、检查必要的环境配置并下载静态资源。
+在初次启动胡桃工具箱时，程序将自动进入初始化引导流程，帮助用户正确配置工具箱的各项功能。  
+引导流程包括设置语言、确认重要的用户协议、检测必要的系统环境以及下载静态资源。
 
-::: details 语言设置
-![](https://img.alicdn.com/imgextra/i4/1797064093/O1CN016IMEtP1g6dyEFo5uK_!!1797064093.png_.webp)
+## 语言设置
 
-在语言设置环节，你可以选择当前胡桃已支持的界面语言。若更换了语言，胡桃工具箱将自动重启。
+::: details
+![language-selection](https://img.alicdn.com/imgextra/i4/1797064093/O1CN016IMEtP1g6dyEFo5uK_!!1797064093.png_.webp)
 
-胡桃工具箱以简体中文为基础语言并主动维护英语文本。繁体中文、日语等其他语言文本由社区用户提供翻译支持。
-如果你有兴趣提供翻译，可以在 [https://translate.hut.ao](https://translate.hut.ao) 贡献你的力量。
+在语言设置环节，你可以选择胡桃工具箱支持的界面语言。若更换语言，程序将自动重启以应用更改。
+
+- 简体中文是 Snap Hutao 的基础语言，开发团队同时也维护英语翻译
+- Crowdin 社区成员贡献了繁体中文、日语和韩语翻译
+- 剩余语言由 Google Gemini 人工智能模型翻译
+
+如有兴趣贡献翻译，可访问 [https://translate.hut.ao](https://translate.hut.ao) 提供帮助。
 :::
 
-::: details 用户协议
-![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SzKgb61g6dy2MZH5s_!!1797064093.png_.webp)
-在用户协议文档环节，你需要确认并同意胡桃提供的数项文档与服务条款。这些文档可以帮助你理解 Snap Hutao 项目的性质并有助于你未来的使用。
+## 用户协议
+
+::: details
+![user-agreement](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01SzKgb61g6dy2MZH5s_!!1797064093.png_.webp)
+
+在用户协议环节，您需要阅读并同意胡桃工具箱提供的相关协议与服务条款。这些文档旨在帮助您了解 Snap Hutao 项目的性质以及工具箱的使用规则。
+
+确认并接受协议后可继续完成初始化流程。
 :::
 
-::: details 环境检测
-![](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01T3lLLI1g6dyDspUsf_!!1797064093.png_.webp)
-在环境检测环节，胡桃工具箱将使用两个小型测试来帮助用户确定是否安装了有助于提升使用体验的系统环境：[Segoe Fluent Icons 字体](https://aka.ms/SegoeFluentIcons)和 [WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701)。
+## 环境检测
 
-你可以根据提示来判断这两个环境包是否已安装，若未安装则可以点击对应的链接按钮以下载并安装所需要的内容。
+::: details
+![environment-check](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01T3lLLI1g6dyDspUsf_!!1797064093.png_.webp)
 
-上方的图片是在拥有完整环境下，该步骤中应显示出的效果。
+胡桃工具箱将自动检测以下关键运行环境，并提示用户是否需要安装或更新：
+
+1. **Segoe Fluent Icons 字体**：提供更好的界面图标显示效果。  
+   下载地址：[Segoe Fluent Icons](https://aka.ms/SegoeFluentIcons)
+2. **WebView2 运行时**：支持工具箱核心功能的现代浏览器组件。  
+   下载地址：[WebView2 运行时](https://go.microsoft.com/fwlink/?linkid=2124701)
+
+如果检测到缺失环境，可点击对应链接下载并完成安装。  
+上图为完整环境下该环节的预期显示效果。
 :::
 
-::: details 资源下载
-![](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01QILPRh1g6dyHTUpV9_!!1797064093.png_.webp)
+## 资源下载
 
-在该步骤中，胡桃工具箱将自动下载所需要的静态图片资源。下载完成后，胡桃将关闭初始化设置流程界面并自动加载主程序。如果下载时出现错误，您可以通过寻找错误处理章节中[资源下载失败](../advanced/exceptions#资源下载失败)部分以寻找可能的解决方案。
+::: details
+![resource-download](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01QILPRh1g6dyHTUpV9_!!1797064093.png_.webp)
+
+在资源下载环节，胡桃工具箱将自动获取所需的静态图片资源。资源下载完成后，初始化流程将自动关闭，并加载工具箱主界面。
+
+如果资源下载失败，Snap Hutao 仍然可以正常使用，并在加载图片时自动下载缺失资源。
 :::

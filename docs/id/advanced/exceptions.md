@@ -4,89 +4,102 @@ icon: iconfont icon-warn
 category: [FAQ]
 order: 2
 comment: false
+description: Snap Hutao akan menggunakan kode kesalahan tertentu untuk menunjukkan kesalahan tertentu. Jika Anda mengalami kesalahan program selama penggunaan dan memiliki kode kesalahan, Anda dapat mencoba mencarinya di halaman ini.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/exceptions.html&has_description=False
 ---
 
-# Kesalahan Umum Program
+# Pengecualian Program Umum
 
-Dokumen ini mencakup solusi untuk **kesalahan klien yang dapat diprediksi**
+Dokumen berikut mencantumkan masalah umum yang mungkin terjadi selama penggunaan Snap Hutao dan solusi yang sesuai.
 
-## RuntimeEnvironmentException
-
-- Exception: `RuntimeEnvironmentException`
-  - Hint: `Tidak dapat menyetel kunci registri tanpa mengaktifkan Path panjang`
-- Sumber masalah: Batas jalur panjang Windows diatur secara default menjadi terbatas pada 256 karakter
-- Solusi: Unduh [EnableLongPaths.zip](https://d.hut.ao/d/tools/EnableLongPaths.zip), ekstrak, lalu jalankan berkas `.reg`
-
-## Kode Return: -10001
-
-- Kesalahan ini berasal langsung dari MiHoYo BBS, dengan petunjuk:
-  - `Return Code: -10001`
-  - `Return Code: -100`
-- Sumber masalah
-  1. Cookie kedaluwarsa
-  2. Kesalahan jaringan
-  3. Waktu sistem tidak akurat
-- Solusi
-  1. Di panel akun, jalankan `Refresh Cookies`
-  2. Hapus akun Anda dan tambahkan kembali
-  3. Sinkronkan waktu sistem Anda
-
-## Kode Return: 1034 Verifikasi Gagal
-
-- Jika Snap Hutao mengembalikan kode status `1034` dan mengindikasikan kegagalan verifikasi (biasanya selama operasi Catatan Langsung),
-  itu berarti operasi diblokir oleh sistem anti-bot MiHoYo BBS
-- Solusi:
-  - Masuk ke `Catatan Realtime`
-  - Klik tombol `Verify Current User and Role`
-  - Ikuti instruksi di MiHoYo BBS untuk melakukan verifikasi
-  - Setelah menyelesaikan proses verifikasi, klik `Selesai` untuk menutup jendela verifikasi
-  - Sekarang, akun seharusnya kembali normal; Jika tidak, ulangi langkah di atas
-
-::: tip
-
-Jika peringatan risiko terlalu sering, atau verifikasi tidak dapat dipicu sama sekali, ini berarti risiko akun Anda terlalu tinggi, silakan ubah kata sandi, sehingga status login simultan dari beberapa perangkat akan diatur ulang
-
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
 :::
 
-::: warning
+---
 
-- Anda hampir tidak dapat melewati verifikasi yang tidak terlihat saat akun Anda **login pada alat Genshin lain yang jarak jauh** atau
-  **login di beberapa perangkat**. Ini adalah desain keamanan dari MiHoYo BBS, dan tidak dapat dilewati
-- Jika Anda menggunakan **beberapa akun MiHoYo BBS di perangkat Anda**, **penggunaan sering dengan API MiHoYo BBS** akan
-  mengakibatkan alamat IP Anda diblokir untuk jangka waktu tertentu (biasanya tidak lebih dari 24 jam). Ini adalah desain
-  keamanan dari MiHoYo BBS, dan tidak dapat dilewati
+## **Kode Return: 2002**
 
-:::
+- **Sumber**: Informasi yang dikembalikan oleh MiYouShe
+- **Penyebab Masalah**: Akun MiHoYo BBS belum diinisialisasi
+- **Solusi**:
+  - Akun MiYouShe: Masuk ke akun Anda menggunakan aplikasi seluler resmi MiYouShe dan atur nama pengguna komunitas untuk menginisialisasi.
+  - Akun HoYoLAB: Masuk ke akun Anda menggunakan aplikasi seluler resmi atau versi web HoYoLAB dan atur nama pengguna komunitas untuk menginisialisasi.
 
-## HttpRequestException Metadata Download Failed
+## **Kode Return: -10001**
 
-### 403 (Terlarang) / 404 (Tidak Ditemukan)
+- **Sumber**: Informasi yang dikembalikan oleh MiYouShe, termasuk `Return Code: -10001` dan `Return Code: -100`
+- **Penyebab Masalah**:
+  1. Cookie kedaluwarsa atau jaringan tidak normal
+  2. Waktu sistem salah
+- **Solusi**:
+  1. Di panel akun, klik "Segarkan Cookie".
+  2. Hapus akun lalu tambahkan kembali.
+  3. Di pengaturan sistem, aktifkan sinkronisasi waktu otomatis dan sinkronkan segera.
 
-Solusi: Perbarui Snap Hutao Anda ke versi terbaru
+## **Status: 1034 Verifikasi Gagal**
 
-### 502 (Gerbang Buruk)
+- **Penyebab Masalah**: Fitur Catatan Real-time diblokir oleh sistem verifikasi MiYouShe.
+- **Solusi**:
+  1. Masuk ke fitur "Catatan Real-time".
+  2. Klik tombol "Verifikasi Pengguna dan Karakter Saat Ini" di sudut kanan atas.
+  3. Ikuti petunjuk untuk menyelesaikan verifikasi.
+  4. Jika masalah masih ada, ulangi langkah di atas.
 
-> Masalah Terkait: [https://github.com/DGP-Studio/Snap.Hutao/issues/100](https://github.com/DGP-Studio/Snap.Hutao/issues/100)
+::: warning Perhatian
 
-Exception HTTP ini terjadi ketika Snap Hutao gagal mengambil sumber daya remote (biasanya gambar statis dan konfigurasi)
+1. Mengubah kata sandi dapat mengatur ulang status login perangkat.
+2. Jika beberapa Bot atau perangkat terikat sering mengakses data MiYouShe, batasan keamanan MiYouShe dapat dipicu, yang untuk sementara tidak dapat dihindari.
+   :::
 
-![HttpRequestException](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Tb2RUm1g6du5YeNuy_!!1797064093.jpg)
+## **HttpRequestException Unduhan File Validasi Metadata Gagal**
 
-Jika Anda menggunakan perangkat lunak proxy, Anda mungkin perlu mematikannya atau menggunakan proxy mode TUN;
-jika tidak, Anda perlu menggunakan [Utilitas Batasan Loopback Kontainer APP Windows 8](https://www.telerik.com/fiddler/add-ons) untuk menghapus [batasan loopback aplikasi Windows APP](https://learn.microsoft.com/zh-CN/windows/iot-core/develop-your-app/loopback).
+### **ConnectionError**
 
-Anda juga dapat menjalankan skrip PowerShell berikut untuk menghapus semua batasan loopback kontainer
+- **Penyebab**: Koneksi server Snap Hutao gagal.
+- **Solusi**: Periksa proxy jaringan atau apakah Anda telah menghapus [batasan Loopback Kontainer Windows](loopback.md).
 
-```powershell
-FOR /F "tokens=11 delims=\" %p IN ('REG QUERY "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings"') DO CheckNetIsolation.exe LoopbackExempt -a -p=%p
-```
+### **403 / 404 / 418**
 
-## Kesalahan Menemukan Modul yang Diperlukan
+- **Solusi**: Perbarui ke [versi terbaru](../quick-start.md#全新安装).
 
-Ketika pengguna meluncurkan game dengan fitur `unlock frame-rate limit`, game mungkin akan gagal diluncurkan dengan munculnya kesalahan berikut:
+### **502**
 
-1. Kesalahan menemukan modul yang diperlukan: tidak dapat membaca modul apa pun, driver perlindungan mungkin telah dimuat
-2. Kesalahan menemukan modul yang diperlukan: timeout
+- **Penyebab**: Koneksi server Snap Hutao gagal.
+- **Solusi**: Periksa jaringan atau hubungi tim pengembangan.
 
-Masalah ini hanya terjadi ketika modul anti-cheat Genshin Impact mulai lebih awal daripada modul `frame-rate-unlocker`.
-Ketika kesalahan ini terjadi, Snap Hutao akan keluar dari proses game, dan Anda dapat luncurkan ulang gamenya.
+## **`653366069` Permintaan Pengecualian**
+
+- **Penyebab**: Tidak dapat terhubung ke server MiYouShe / HoYoLAB.
+- **Solusi**:
+  - Abaikan kesalahan sesekali.
+  - Periksa koneksi jaringan jika kesalahan terus berlanjut.
+  - Periksa apakah Anda telah menghapus [batasan Loopback Kontainer Windows](loopback.md).
+
+## **Unduhan Sumber Daya Gagal**
+
+- Kegagalan mengunduh beberapa sumber daya statis tidak akan memengaruhi penggunaan secara signifikan, dan klien akan secara otomatis mencoba lagi jika diperlukan.
+
+### **`Received an unexpected EOF or 0 bytes from the transport stream.`**
+
+- **Penyebab**: Batas unduhan atau fluktuasi jaringan.
+- **Solusi**: Tutup Snap Hutao dan coba lagi nanti, atau ganti lingkungan jaringan.
+
+## **Terjadi Masalah saat Mencari Modul yang Diperlukan**
+
+- **Pesan kesalahan**:
+  1. Tidak dapat membaca modul, mungkin ada masalah pemuatan driver proteksi.
+  2. Pencarian modul habis waktu.
+- **Solusi**: Snap Hutao akan menutup proses game, dan pengguna dapat mencoba memulai lagi.
+
+## **Pemasangan Aplikasi Gagal, Pesan Kesalahan: Kesalahan Internal 0x80073D05**
+
+- **Penyebab**: File sisa tidak dibersihkan setelah pencopotan pemasangan.
+- **Solusi**:
+  1. Buka `%appdata%/../Local/Packages`.
+  2. Hapus folder `60568DGPStudio.SnapHutao_wbnnev551gwxy` (gunakan `NSudo_LG` jika izin tidak mencukupi).
+
+## **Muncul 0x8007007E atau Tidak Dapat Menemukan File/Modul yang Ditentukan**
+
+- **Penyebab**: Pustaka runtime MSVC hilang.
+- **Solusi**: Instal versi terbaru [Pustaka runtime MSVC (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe).

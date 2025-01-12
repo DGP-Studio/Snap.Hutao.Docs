@@ -1,94 +1,86 @@
 ---
 headerDepth: 2
 category: [Fitur, Tutorial]
-tag: [Tampilan Karakter, Statistik Karakter]
-order: 7
+tag: [Statistik Data, Tampilan Karakter]
+order: 8
 comment: false
+description: Fitur "Karakter Saya" di Snap Hutao dapat membaca data detail karakter di akun Genshin Impact dan memberikan analisis, termasuk level, konstelasi, bakat, atribut Artefak, dan lainnya.
 ---
 
 # Karakter Saya
 
-::: info
-
-Fitur ini memerlukan masuk ke akun MiHoYo BBS, silakan lihat dokumen [MiHoYo BBS Account Switch](mhy-account-switch.md)
-untuk tutorial masuk
-
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
 :::
 
-Karakter saya adalah fitur statistik karakter yang memungkinkan Snap Hutao membaca statistik karakter dalam akun,
-termasuk level, konstelasi, senjata, bakat, dan set artefak; kami juga menyediakan peringkat artefak dan peringkat CRTI
-untuk setiap karakter.
-
-![Screenshot Karakter Saya](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01JOlGqw1g6dyB7NkLu_!!1797064093.png_.webp)
-
-## Sinkronisasi Data Karakter
-
-### Sinkronisasi dari Enka API
-
-::: info Fitur Sinkronisasi
-
-- Enka API menyinkronkan data dari karakter yang ditampilkan dalam tampilan karakter dalam game
-
-  - Data termasuk detail Artefak, detail senjata, data bakat
-  - Kostum karakter
-  - Metode sinkronisasi ini hanya mendukung 8 karakter sekaligus
-
+::: info Prasyarat
+Untuk menggunakan fitur ini, Anda perlu masuk ke akun MiYouShe atau HoYoLAB. Untuk metode login, silakan lihat [Penggantian Akun MiYouShe](mhy-account-switch.md#penggantian-akun-miyoushe).
 :::
 
-- Di dalam game, letakkan **karakter yang membutuhkan data detail** ke dalam tampilan
-  - Tampilan karakter memungkinkan hingga 8 karakter sekaligus
-- Anda perlu menunggu sinkronisasi data selesai setelah mengedit konfigurasi tampilan
-  - Anda mungkin perlu waktu hingga 5 menit setelah mengaktifkan tampilan atau mengonfigurasi ulang tampilan
-- Masuk ke halaman `Karakter Saya` di Snap Hutao, Klik tombol `Sinkronisasi Data Karakter` di kanan atas
-- Pilih `Sinkronisasi dari Enka API`
+Fitur "Karakter Saya" dapat membaca data detail semua karakter di akun pengguna saat ini, termasuk level, konstelasi, senjata, bakat, Artefak, dan lainnya, untuk membantu pemain mengoptimalkan pengembangan dan pengelolaan karakter.
 
-### Sinkronisasi dari MiHoYo BBS - Karakter Saya
+![Tampilan Kisi-kisi](/images/202501/characters_data.webp)
 
-::: info Fitur Sinkronisasi
+## Sinkronisasi Informasi Karakter
 
-- Data dalam metode sinkronisasi ini berasal dari fitur Karakter Saya di BBS resmi MiHoYo
+Klik tombol "Sinkronisasi Informasi Karakter" di kanan atas untuk memperbarui data berikut:
 
-  - Metode ini tidak mengandung data artefak apa pun
-  - Metode ini dapat menyinkronkan semua data karakter sekaligus
+- Level Karakter dan Konstelasi Karakter
+- Tingkat Persahabatan
+- Level Senjata dan Tingkat Pemurnian
+- Level Bakat
+- Informasi Kostum
+- Artefak dan atribut detailnya
 
-:::
+## Menambahkan Karakter yang Dipilih Saat Ini ke Perhitungan Pengembangan
 
-- Masuk ke halaman `Karakter Saya` di Snap Hutao, Klik tombol `Sinkronisasi Data Karakter` di kanan atas
-- Pilih `Sinkronisasi dari Karakter Saya MiHoYo BBS`
+1. Pastikan data karakter telah disinkronkan.
+2. Di halaman fitur "Karakter Saya", pilih karakter yang ingin Anda tambahkan ke perhitungan pengembangan.
+3. Klik tombol "Perhitungan Pengembangan - Karakter dan Senjata Saat Ini" di kanan atas.
 
-### Sinkronisasi dari MiHoYo BBS - Rencana Pengembangan
+- Sistem akan secara otomatis mengisi level karakter, level bakat, dan level senjata yang telah disinkronkan. Pengguna dapat dengan bebas mengubah level target.
 
-::: info Fitur Sinkronisasi
+![Contoh Gambar Pengembangan](/images/202501/character_develop.webp)
 
-- Data dalam metode ini berasal dari fitur `Perkembangan Peningkatan` di alat set BBS resmi MiHoYo
+Setelah selesai ditambahkan, Anda dapat melihat target pengembangan yang telah ditetapkan di halaman fitur "Rencana Pengembangan".
 
-  - Metode sinkronisasi ini berisi data level bakat
-  - Metode sinkronisasi ini dapat menyinkronkan semua data karakter sekaligus
+Untuk penjelasan fitur yang lebih detail, silakan lihat dokumen [Rencana Pengembangan](./develop-plan.md#rencana-pengembangan).
 
-:::
+## Ekspor Detail Karakter ke Papan Klip
 
-- Masuk ke halaman `Karakter Saya` di Snap Hutao, Klik tombol `Sinkronisasi Data Karakter` di kanan atas
-- Pilih `Sinkronisasi dari Rencana Pengembangan MiHoYo BBS`
+Halaman "Karakter Saya" mendukung ekspor data karakter dalam bentuk teks:
 
-## Tambahkan Karakter Terpilih ke Rencana Pengembangan
+- Setelah memilih karakter target, klik tombol "Ekspor Teks ke Papan Klip" di kanan atas.
+- Data yang diekspor disimpan di papan klip sistem dan dapat langsung ditempel untuk dibagikan.
+- Contoh gaya teks adalah sebagai berikut:
 
-- Masuk ke halaman `Karakter Saya` di Snap Hutao, klik karakter yang ingin Anda tambahkan ke rencana pengembangan
-- Klik `Rencana Pengembangan` dan masukkan level target
-  - **Data yang disinkronkan dari karakter** akan diisi sebelumnya ke level saat ini, dan Anda dapat mengubah level targetnya
-
-![rolescal](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Ju0wyK1g6du2L9Kw0_!!1797064093.png)
-
-- Setelah berhasil ditambahkan, Anda dapat menemukan rencana pengembangan yang ditambahkan di halaman `Rencana Pengembangan` di Snap Hutao
-
-![image](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01DgRS5n1g6du0Do41z_!!1797064093.png)
-
-- Untuk tutorial fitur Rencana Pengembangan, silakan lihat [Rencana Pengembangan](develop-plan.md) dokumen
-
-## Ekspor sebagai Gambar
-
-- Di halaman `Karakter Saya`, Anda dapat memilih karakter dan kemudian klik tombol `Ekspor sebagai Gambar` untuk membuat
-  gambar dengan data karakter Anda, ini akan membantu Anda berbagi data karakter Anda
-- Gambar yang diekspor disimpan di clipboard Anda, dan Anda dapat menempelkannya di mana pun Anda butuhkan
-- Contoh gambar yang diekspor ditunjukkan di bawah ini
-
-![sample-output-image](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01ah7JlQ1g6du4WrI0A_!!1797064093.png)
+```text
+// =====================
+// Kamisato Ayaka [Lv.90, ☆5, C6] [Lv.10, Lv.13 (10 +3), Lv.13 (10 +3)]
+// ---------------------
+// Mistsplitter Reforged [Lv.90, ☆5, R1]
+// [Base Attack: 674] [CRIT DMG: 44.1%]
+// ---------------------
+// [HP: 12858]
+// [ATK: 1016]
+// [DEF: 784]
+// [Elemental Mastery: 16]
+// [CRIT Rate: 40.4%]
+// [CRIT DMG: 262.3%]
+// [Healing Bonus: 0.0%]
+// [Incoming Healing Bonus: 0.0%]
+// [Energy Recharge: 105.2%]
+// [Cryo DMG Bonus: 61.6%]
+// ---------------------
+// 🌷 HP: 4780 [☆5 +20 Blizzard Strayer]
+// [CRIT Rate: 7.0%][CRIT DMG: 13.2%][ATK: 14.6%][Energy Recharge: 5.2%]
+// 🪶 ATK: 311 [☆5 +20 Blizzard Strayer]
+// [CRIT DMG: 25.6%][CRIT Rate: 6.6%][HP: 269][HP: 5.3%]
+// ⏳ ATK: 46.6% [☆5 +20 Blizzard Strayer]
+// [DEF: 21][CRIT DMG: 15.5%][HP: 11.1%][CRIT Rate: 14.4%]
+// 🍷 Cryo DMG Bonus: 46.6% [☆5 +20 Gilded Dreams]
+// [Elemental Mastery: 16][ATK: 49][ATK: 15.2%][CRIT DMG: 13.2%]
+// 👑 CRIT DMG: 62.2% [☆5 +20 Blizzard Strayer]
+// [ATK: 15.2%][ATK: 33][CRIT Rate: 7.4%][HP: 299]
+// =====================
+```

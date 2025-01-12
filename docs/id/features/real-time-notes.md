@@ -2,65 +2,80 @@
 headerDepth: 2
 category: [Fitur, Tutorial]
 tag: [Catatan Langsung, Ekspedisi, Resin]
-order: 6
+order: 7
 comment: false
+description: Fitur Catatan Langsung di Snap Hutao secara berkala memperbarui data MiYouShe pemain, menyinkronkan informasi dinamis dalam Genshin Impact ke komputer lokal, dan mengirimkan notifikasi pengingat berdasarkan kondisi yang ditetapkan pengguna.
 ---
 
 # Catatan Langsung
 
-::: info
-
-Fitur ini memerlukan Anda untuk masuk ke akun MiYouShe atau HoYoLAB Anda di Snap Hutao,
-Anda dapat memeriksa [MiHoYo BBS Account Switch](mhy-account-switch.html) untuk informasi lebih lanjut.
-
+::: important
+Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
 :::
 
-![pelacakan-data-real-time](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01nh4t1T1g6dyI3Ikcn_!!1797064093.png_.webp)
+::: info Prasyarat
+Fitur ini mengharuskan Anda untuk masuk ke akun MiYouShe / HoYoLAB Anda di Snap Hutao. Untuk metode login, silakan lihat dokumen [Peralihan Banyak Akun MiYouShe](mhy-account-switch.md).
+:::
 
-## Tambah Peran
+![live-data-tracking](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01YUyKil1g6e0x3SpKX_!!1797064093.png_.webp)
 
-- Klik tombol `Tambah Peran`
-- Pada menu pop-up, cari UID yang ingin Anda tambahkan, dan klik tombol tambah di sebelah kanannya
-- Sekarang, Catatan Langsung karakter UID game Anda harus ditampilkan di halaman tersebut
-  - Catatan Langsung ini diatur untuk diperbarui secara berkala
-    - Anda dapat mengklik `Pengaturan Notifikasi` di kanan atas untuk mengelolanya
-    - Jika Anda ingin melihat data pada saat ini, Anda dapat mengklik tombol `Refresh` untuk memperbarui data secara langsung
-  - Jika Anda menerima peringatan seperti `Verifikasi gagal`, hal ini mungkin disebabkan oleh terlalu banyak akun yang ditambahkan, dan Anda dapat mencoba memperbaikinya sendiri dengan memperbarui cookie akun
+## Menambahkan Catatan Langsung
 
-## Verifikasi Pengguna dan Peran Saat Ini
+1. Klik tombol "Tambahkan Catatan Langsung".
+2. Di jendela pop-up "Tambahkan Catatan Langsung", temukan UID karakter game yang ingin Anda tambahkan, dan klik tombol plus di sebelah kanannya.
+3. Karakter game yang ditambahkan akan ditampilkan di halaman "Catatan Langsung".
+   - Catatan Langsung akan secara otomatis memperbarui data pada interval waktu yang tetap.
+   - Klik "Pengaturan Notifikasi" di pojok kanan atas jendela untuk mengatur interval waktu kueri.
+4. Jika Anda ingin segera mendapatkan data terbaru, klik tombol "Segarkan Sekarang".
+5. Jika kesalahan `-1034` muncul saat penyegaran data, ini menunjukkan bahwa mekanisme anti-robot MiYouShe telah terpicu. Anda dapat mengatasinya dengan mengonfigurasi verifikasi tanpa hambatan di pengaturan Snap Hutao.
 
-Jika Anda menggunakan akun MiYouShe, kemungkinan besar akun Anda akan ditandai sebagai pengguna robot dan menyebabkan verifikasi anti-bot.
-Dalam status ini, data Catatan Langsung tidak dapat diperbarui.
+## Memverifikasi Pengguna dan Karakter
 
-Anda dapat mengklik tombol `Verifikasi Pengguna dan Peran Saat Ini`, Snap Hutao akan menampilkan jendela verifikasi. Setelah menyelesaikan
-verifikasi, maka akun Anda dapat digunakan untuk memperbarui data.
+Jika Anda menggunakan akun MiYouShe, kemungkinan kode verifikasi akan terpicu karena mekanisme anti-robot, sehingga data Catatan Langsung tidak dapat diperbarui.
+Anda dapat menyelesaikan masalah ini dengan langkah-langkah berikut:
+
+1. Klik tombol "Verifikasi Pengguna dan Karakter Saat Ini" di kiri atas halaman Catatan Langsung.
+2. Snap Hutao akan menampilkan jendela verifikasi. Setelah menyelesaikan verifikasi, Anda dapat memperbarui data akun yang terpengaruh oleh mekanisme anti-robot.
 
 ## Pengaturan Notifikasi Global
 
-- Pada `Pengaturan Notifikasi` di kanan atas, Anda dapat mengubah pengaturan global Catatan Langsung, termasuk:
-  - Aktifkan/Nonaktifkan pembaruan otomatis
-  - Tingkat pembaruan
-  - Pengaturan jangan ganggu
-  - Notifikasi diprioritaskan
-    - Ini mencegah notifikasi Snap Hutao ditutup secara otomatis
-  - Webhook pengiriman data yang dapat disesuaikan
-    - Snap Hutao memungkinkan pengguna untuk meneruskan data Catatan Langsung ke aplikasi lain untuk mengurangi permintaan akun ke API MiHoYo
-    - Masukkan endpoint API HTTP pihak ketiga Anda di bidang pengaturan `URL Webhook Catatan Langsung`, dan Snap Hutao akan meneruskan data mentah melalui permintaan `POST`
+Klik "Pengaturan Notifikasi" di pojok kanan atas jendela untuk mengonfigurasi perilaku global fitur Catatan Langsung, termasuk:
 
-## Pengaturan Independen untuk Akun
+- **Mengaktifkan/menonaktifkan penyegaran data otomatis**.
+- **Mengatur interval waktu penyegaran data otomatis**.
+- **Mode Jangan Ganggu Notifikasi**:
+  - Jika diaktifkan, notifikasi hanya akan ditampilkan di pusat notifikasi sistem.
+- **Notifikasi Prioritas Tinggi**:
+  - Menghindari notifikasi secara otomatis masuk ke pusat tindakan, tetapi dapat mengganggu penggunaan sehari-hari.
+- **Webhook Penerusan Data Kustom**:
+  - Snap Hutao memungkinkan pengguna untuk meneruskan data Catatan Langsung ke program pihak ketiga untuk mengurangi permintaan langsung ke API miHoYo.
+  - Di "URL Webhook Catatan Langsung", masukkan alamat antarmuka `HTTP API` program pihak ketiga. Snap Hutao akan meneruskan data mentah ke antarmuka ini melalui permintaan `POST`.
 
-- Snap Hutao memungkinkan pengaturan berbeda pada setiap akun Catatan Langsung
-- Sorot kursor di atas formulir akun Catatan Langsung yang perlu diatur
-- Klik tombol pengaturan di atasnya, dan Anda dapat memodifikasi pengaturan ini:
-  - Nilai ambang batas Resin asli
-  - Nilai ambang batas Mata Uang Kerajaan
-  - Notifikasi Pemutar Parametrik
-  - Notifikasi Komisi Harian
-  - Notifikasi Ekspedisi
-  - Tampilkan di halaman utama (fitur segera hadir)
-- Klik `Simpan` dan Anda dapat menyimpan pengaturan
+## Pengaturan Independen Akun
 
-## Hapus Akun Catatan Langsung Harian
+1. Arahkan kursor mouse ke formulir Catatan Langsung karakter yang pengaturannya perlu diubah.
+2. Klik tombol pengaturan di pojok kanan atas formulir untuk masuk ke opsi pengaturan berikut:
+   - **Ambang batas pengingat Resin Asli** (rentang: 0–200)
+   - **Ambang batas pengingat Mata Uang Realm** (rentang: 0–2400)
+   - **Aktifkan pengingat Parametric Transformer** (aktif/nonaktif)
+   - **Aktifkan pengingat batas Komisi Harian** (aktif/nonaktif)
+   - **Aktifkan pengingat Ekspedisi selesai** (aktif/nonaktif)
+3. Setelah selesai mengubah, klik tombol "Simpan" untuk menyimpan pengaturan saat ini.
 
-- Sorot kursor di atas formulir akun Catatan Langsung yang perlu dihapus
-- Klik tombol hapus di atasnya, dan Anda dapat menghapus akun yang sesuai
+## Menghapus Karakter
+
+1. Arahkan kursor mouse ke formulir Catatan Langsung karakter yang perlu dihapus.
+2. Klik tombol hapus di pojok kanan atas formulir untuk menghapus Catatan Langsung karakter tersebut.
+
+## Pertanyaan Umum
+
+### Mengapa pengaturan penyegaran otomatis Catatan Langsung menampilkan pesan "Gagal memodifikasi tugas terjadwal"?
+
+- Penyegaran otomatis Catatan Langsung bergantung pada Penjadwal Tugas Windows.
+- Untuk menghindari masalah izin, Snap Hutao akan mengatur tugas terjadwal dalam mode non-administrator.
+
+**Solusi:**
+
+1. Jika Anda telah mengaktifkan penyegaran otomatis dengan versi lama, Anda dapat menghapus tugas terjadwal lama secara manual. Nama tugas terjadwal adalah `SnapHutaoDailyNoteRefreshTask`.
+2. Jika Anda belum pernah mengaktifkan tugas terjadwal, kemungkinan akun pengguna Windows Anda saat ini tidak memiliki izin yang cukup. Anda dapat mencoba menggunakan akun administrator.
+3. Jika masalah tetap tidak teratasi, Anda mungkin perlu menginstal ulang sistem.
