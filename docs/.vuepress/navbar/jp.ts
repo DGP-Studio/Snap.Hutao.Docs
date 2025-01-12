@@ -1,45 +1,45 @@
 import { navbar } from "vuepress-theme-hope";
 
-export const ruNavbar = navbar([
-  "/ru/",
+export const jpNavbar = navbar([
+  "/jp/",
   {
-    text: "Документация",
+    text: "ドキュメント",
     icon: "iconfont icon-article",
-    link: "/ru/menu",
+    link: "/jp/menu",
   },
   {
-    text: "Скачать",
+    text: "ダウンロード",
     icon: "iconfont icon-install",
-    link: "/ru/quick-start",
+    link: "/jp/quick-start",
   },
   {
-    text: "Поддержите нас",
+    text: "サポートする",
     icon: "iconfont icon-like",
-    link: "/ru/support-us",
+    link: "/jp/support-us",
   },
   {
-    text: "Присоединиться к сообществу",
+    text: "コミュニティに参加",
     icon: "iconfont icon-community",
-    link: "/ru/community",
+    link: "/jp/community",
   },
   {
-    text: "Доска проекта",
+    text: "プロジェクトボード",
     icon: "iconfont icon-update",
     ariaLabel: "ducalis-changelog-widget",
     link: `javascript:void(0);`,
   },
   {
-    text: "Помощь и поддержка",
+    text: "ヘルプとサポート",
     icon: "iconfont icon-define",
-    prefix: "/ru/",
+    prefix: "/jp/",
     children: [
       {
-        text: "Журнал обновлений",
+        text: "更新ログ",
         icon: "iconfont icon-update",
         link: "statements/update-log",
       },
       {
-        text: "Доступность услуг",
+        text: "サービスの利用状況",
         children: [
           {
             text: "Uptime Kuma",
@@ -49,15 +49,15 @@ export const ruNavbar = navbar([
         ],
       },
       {
-        text: "Вопросы и отзывы",
+        text: "問題とフィードバック",
         children: [
           {
-            text: "Часто задаваемые вопросы",
+            text: "よくある質問",
             icon: "iconfont icon-ask",
             link: "advanced/FAQ.html",
           },
           {
-            text: "Сообщить о проблеме",
+            text: "問題を報告",
             icon: "iconfont icon-debug",
             link: "statements/bug-report.html",
           },

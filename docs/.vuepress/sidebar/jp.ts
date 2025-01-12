@@ -1,7 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export const idSidebar = sidebar({
-  "/id/": [
+export const jpSidebar = sidebar({
+  "/jp/": [
     "",
     "project",
     "i18n",
@@ -9,12 +9,12 @@ export const idSidebar = sidebar({
     "support-us",
     {
       icon: "iconfont icon-read",
-      text: "Panduan Fitur",
+      text: "機能ガイド",
       prefix: "features/",
       children: [
         {
           icon: "iconfont icon-module",
-          text: "Alat Permainan",
+          text: "ゲームツール",
           children: [
             "dashboard",
             "game-launcher",
@@ -30,12 +30,12 @@ export const idSidebar = sidebar({
         },
         {
           icon: "iconfont icon-study",
-          text: "WIKI Permainan",
+          text: "ゲーム WIKI",
           children: ["character-wiki", "weapon-wiki", "monster-wiki"],
         },
         {
           icon: "iconfont icon-set",
-          text: "Fitur Perangkat Lunak",
+          text: "ソフトウェア機能",
           children: [
             "setup",
             "feedback-center",
@@ -47,25 +47,25 @@ export const idSidebar = sidebar({
     },
     {
       icon: "iconfont icon-advance",
-      text: "Lanjutan",
+      text: "高度な設定",
       prefix: "advanced/",
       children: "structure",
     },
     {
       icon: "iconfont icon-github",
-      text: "Pengembangan Sumber Terbuka",
+      text: "オープンソース開発",
       prefix: "development/",
       children: "structure",
     },
     {
       icon: "iconfont icon-article",
-      text: "Pernyataan dan Pengumuman",
+      text: "声明とお知らせ",
       prefix: "statements/",
       children: "structure",
     },
     {
       icon: "iconfont icon-article",
-      text: "Log Pengembangan",
+      text: "開発ログ",
       prefix: "blog/",
       children: "structure",
     },
