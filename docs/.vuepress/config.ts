@@ -64,14 +64,6 @@ export default defineUserConfig({
         if(target) { clearInterval(timer); }
         observer.observe(target, { childList: true });
     }();`,
-    ],
-    [
-      "script",
-      {
-        async: true,
-        defer: true,
-        src: "https://ai.gentle.house/api/application/embed?protocol=https&host=ai.gentle.house&token=33a342c4c53e5f75",
-      },
     ]
   ],
 
