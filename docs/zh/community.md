@@ -21,7 +21,14 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
     background="rgba(88, 101, 242, 0.15)"
   />
   <VPCard
-    title="胡桃 QQ 用户群"
+    title="胡桃 QQ 用户群 1"
+    desc="567908135"
+    logo="/images/202312/tencent.svg"
+    link="https://qm.qq.com/q/1dWqXkCFVQ"
+    background="rgba(228, 0, 54, 0.15)"
+  />
+  <VPCard
+    title="胡桃 QQ 用户群 2"
     desc="825460590"
     logo="/images/202312/tencent.svg"
     link="https://qm.qq.com/q/Fy8j4Ziiac"
