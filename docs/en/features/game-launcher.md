@@ -13,6 +13,10 @@ description: Snap Hutao's advanced launcher offers features such as custom launc
 
 Snap Hutao's advanced launcher provides a more flexible game launch experience through various settings options.
 
+::: caution
+Using **any unofficial software** may **potentially** result in **damage to your virtual property**. Continuing to use the related functions of this software will be deemed as you acknowledging and agreeing to our [Terms of Service](/statements/tos.md).
+:::
+
 ## Initial Settings
 
 - Click "Launch Game" on the left sidebar to enter the advanced launcher feature.
@@ -113,14 +117,14 @@ Using the [UnlockerIsland project](https://github.com/DGP-Studio/UnlockerIsland)
   2. In the "Injection" module, set the target frame rate.
   3. Click the "Launch Game" button.
 
-#### Factors that may cause **frame rate limit unlock failure**:
+#### Factors that may cause **frame rate limit unlock failure**
 
-1.  Snap Hutao is not kept running in the background.
-2.  The **Vertical Sync** option is not disabled in the game.
-3.  There is a "Maximum Frame Rate" setting in the graphics card driver.
-4.  There are similar "Power Saving Mode" options not disabled in the graphics card driver software.
-5.  Insufficient graphics card performance.
-6.  MSVCRT library is not installed.
+1. Snap Hutao is not kept running in the background.
+2. The **Vertical Sync** option is not disabled in the game.
+3. There is a "Maximum Frame Rate" setting in the graphics card driver.
+4. There are similar "Power Saving Mode" options not disabled in the graphics card driver software.
+5. Insufficient graphics card performance.
+6. MSVCRT library is not installed.
 
 ### Field of View Adjustment
 
@@ -160,9 +164,9 @@ Requires the installation and configuration of [Discord](https://discord.com/). 
   - **Network Environment**: Frequent changes in the public IP address may cause the login status to expire.
   - **Device ID**: Replacing the network card or MAC address may cause the login status to expire.
 - Common causes and solutions:
-  1.  Ensure that the account is logged in correctly and then enter the game.
-  2.  Close the game and confirm that the game process is completely terminated.
-  3.  Detect the account again to ensure the login status is recorded correctly.
+  1. Ensure that the account is logged in correctly and then enter the game.
+  2. Close the game and confirm that the game process is completely terminated.
+  3. Detect the account again to ensure the login status is recorded correctly.
 
 ### Error Code `31-4302` Appears When Starting the Game
 
@@ -178,16 +182,16 @@ During server switching, if an unexpected exit or network problem causes the swi
 
 #### Manually Recover the Game Main Program
 
-1.  **Locate the Backup Files**:
+1. **Locate the Backup Files**:
     - Snap Hutao stores the backed-up game files before the switch in the `%userprofile%/Documents/Hutao/ServerCache` directory.
     - The backup files include: `GenshinImpact.exe` and `GenshinImpact_Data` (for the global server), or `YuanShen.exe` and `YuanShen_Data` (for the CN server).
-2.  **Check the Game Directory**:
+2. **Check the Game Directory**:
     - The global server directory should contain `GenshinImpact.exe` and `GenshinImpact_Data`.
     - The CN server directory should contain `YuanShen.exe` and `YuanShen_Data`.
-3.  **Manually Recover the Files**:
+3. **Manually Recover the Files**:
     - Copy the files from the backup directory to the game's main program directory, overwriting the existing files.
     - If you need to switch server versions, rename the relevant files: for example, rename `YuanShen_Data` to `GenshinImpact_Data`.
-4.  **Launch the Game**:
+4. **Launch the Game**:
     - Re-enter the "Launch Game" interface in Snap Hutao and launch the game.
     - If the error message disappears, you can continue to select the target server and complete the switch.
 

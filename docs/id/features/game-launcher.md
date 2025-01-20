@@ -17,6 +17,10 @@ Peluncur tingkat lanjut Snap Hutao menawarkan pengalaman peluncuran game yang le
 Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
 :::
 
+::: caution
+Menggunakan **apapun perangkat lunak non-resmi** dapat **berpeluang** menyebabkan hartamu virtual rusak, melanjutkan penggunaan fitur perangkat lunak ini akan dianggap sebagai **Anda sudah mengetahui dan setuju** dengan [syarat penggunaan](/statements/tos.md) kami.
+:::
+
 ## Pengaturan Awal
 
 - Klik "Luncurkan Game" di bilah menu kiri untuk masuk ke fitur peluncur tingkat lanjut.
@@ -117,7 +121,7 @@ Mengandalkan [proyek UnlockerIsland](https://github.com/DGP-Studio/UnlockerIslan
   2. Di modul "Injeksi", atur target frame rate.
   3. Klik tombol "Luncurkan Game".
 
-#### Faktor yang dapat menyebabkan **kegagalan pembukaan kunci batas frame rate**:
+#### Faktor yang dapat menyebabkan **kegagalan pembukaan kunci batas frame rate**
 
 1. Snap Hutao tidak tetap berjalan di latar belakang
 2. Opsi **V-Sync** tidak dimatikan dalam game
