@@ -14,7 +14,7 @@ description: Snap Hutao's advanced launcher offers features such as custom launc
 Snap Hutao's advanced launcher provides a more flexible game launch experience through various settings options.
 
 ::: caution
-Using **any unofficial software** may **potentially** result in **damage to your virtual property**. Continuing to use the related functions of this software will be deemed as you acknowledging and agreeing to our [Terms of Service](/statements/tos.md).
+Using **any unofficial software** may **potentially** result in **damage to your virtual property**. Continuing to use the related functions of this software will be deemed as you acknowledging and agreeing to our [Terms of Service](/en/statements/tos.md).
 :::
 
 ## Initial Settings

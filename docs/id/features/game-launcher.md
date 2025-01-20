@@ -18,7 +18,7 @@ Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima pe
 :::
 
 ::: caution
-Menggunakan **apapun perangkat lunak non-resmi** dapat **berpeluang** menyebabkan hartamu virtual rusak, melanjutkan penggunaan fitur perangkat lunak ini akan dianggap sebagai **Anda sudah mengetahui dan setuju** dengan [syarat penggunaan](/statements/tos.md) kami.
+Menggunakan **apapun perangkat lunak non-resmi** dapat **berpeluang** menyebabkan hartamu virtual rusak, melanjutkan penggunaan fitur perangkat lunak ini akan dianggap sebagai **Anda sudah mengetahui dan setuju** dengan [syarat penggunaan](/id/statements/tos.md) kami.
 :::
 
 ## Pengaturan Awal
