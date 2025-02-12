@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 12 Feb 2025 02:59:43 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2025 02:59:43 GMT</lastBuildDate>
+    <pubDate>Wed, 12 Feb 2025 03:11:05 GMT</pubDate>
+    <lastBuildDate>Wed, 12 Feb 2025 03:11:05 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,11 +112,11 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.13.2</title>
+      <title>🎉 Successfully Updated to Version 1.13.3</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.13.2</source>
-      <description>🎉 Successfully Updated to Version 1.13.2 | English 1.13.3 [🔨Fix] Fixed an issue where using the game management function on the game launch page would cause a crash 1.13.2 [🔨...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.13.3</source>
+      <description>🎉 Successfully Updated to Version 1.13.3 | English 1.13.3 [🔨Fix] Fixed an issue where using the game management function on the game launch page would cause a crash 1.13.2 [🔨...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
