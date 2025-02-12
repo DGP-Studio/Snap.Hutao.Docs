@@ -11,7 +11,21 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.13.1 <Badge text="latest" type="tip" />
+## 1.13.2 <Badge text="latest" type="tip" />
+
+- **[🔨Fix]** Fixed an issue where wish records could not be refreshed via web cache [#2413](https://github.com/DGP-Studio/Snap.Hutao/issues/2413)
+- **[🔨Fix]** Fixed an issue where the homepage could not display correctly when the number of enabled cards was less than one row [#2416](https://github.com/DGP-Studio/Snap.Hutao/issues/2416)
+- **[🔨Fix]** Fixed an issue where high constellation characters could not be added to the Dev Plan after version 5.2 [#2422](https://github.com/DGP-Studio/Snap.Hutao/issues/2422)
+- **[🔨Fix]** Fixed an issue where the data folder could not be changed if the target folder did not exist [#2425](https://github.com/DGP-Studio/Snap.Hutao/issues/2425)
+- **[🔨Fix]** Fixed an issue where some users could not change the data folder due to file encryption [#2433](https://github.com/DGP-Studio/Snap.Hutao/issues/2433)
+- **[🔨Fix]** Fixed an issue where the taskbar icon menu could still be opened when a dialog box was displayed [#2434](https://github.com/DGP-Studio/Snap.Hutao/issues/2434)
+- **[✨Optimization]** Administrator privileges are now required to disable Loopback
+- **[✨Optimization]** Optimized the data import experience for Embedded Yae
+  * Changed the UI of related features, now requires administrator privileges to use
+  * Now requires enabling the injection feature on the game launch page to use related features
+  * Now uses the account configured on the game launch page to log in
+
+## 1.13.1
 
 - **[🎉New]** Added German/Spanish/Italian/Thai/Turkish languages
 - **[🎉New]** Achievements and backpack items can now be obtained from the game via Embedded Yae
