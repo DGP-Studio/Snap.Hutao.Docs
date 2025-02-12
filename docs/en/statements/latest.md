@@ -16,15 +16,21 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.13.3
+# 🎉 Successfully Updated to Version 1.13.4
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-## 1.13.3
+1.13.4 is a hotfix version of 1.13.3 that addressed critical issues affecting normal usage.
+
+- **[🔨Fix]** Fixed an issue where using the game management function on the game launch page would cause a crash again [#2457](https://github.com/DGP-Studio/Snap.Hutao/issues/2457)
+- **[🔨Fix]** Fixed an issue where achievements could not be synchronized via Embedded Yae [#2458](https://github.com/DGP-Studio/Snap.Hutao/issues/2458)
+- **[🔨Fix]** Fixed an issue where backpack items could not be synchronized via Embedded Yae in the Dev Plan [#2461](https://github.com/DGP-Studio/Snap.Hutao/issues/2461)
+
+1.13.3 is a hotfix version of 1.13.2 that addressed critical issues affecting normal usage.
 
 - **[🔨Fix]** Fixed an issue where using the game management function on the game launch page would cause a crash
 
-## 1.13.2
+1.13.2
 
 - **[🔨Fix]** Fixed an issue where wish records could not be refreshed via web cache [#2413](https://github.com/DGP-Studio/Snap.Hutao/issues/2413)
 - **[🔨Fix]** Fixed an issue where the homepage could not display correctly when the number of enabled cards was less than one row [#2416](https://github.com/DGP-Studio/Snap.Hutao/issues/2416)

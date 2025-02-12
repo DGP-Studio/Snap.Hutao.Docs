@@ -11,6 +11,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.13.4 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed an issue where using the game management function on the game launch page would cause a crash again [#2457](https://github.com/DGP-Studio/Snap.Hutao/issues/2457)
+- **[🔨Fix]** Fixed an issue where achievements could not be synchronized via Embedded Yae [#2458](https://github.com/DGP-Studio/Snap.Hutao/issues/2458)
+- **[🔨Fix]** Fixed an issue where backpack items could not be synchronized via Embedded Yae in the Dev Plan [#2461](https://github.com/DGP-Studio/Snap.Hutao/issues/2461)
+
 ## 1.13.3 <Badge text="hotfix" type="warning" />
 
 - **[🔨Fix]** Fixed an issue where using the game management function on the game launch page would cause a crash

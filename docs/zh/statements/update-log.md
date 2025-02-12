@@ -10,6 +10,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
+## 1.13.4 <Badge text="hotfix" type="warning" />
+
+- **【🔨修复】** 再次修复了启动游戏页面使用游戏管理功能会导致崩溃的问题 [#2457](https://github.com/DGP-Studio/Snap.Hutao/issues/2457)
+- **【🔨修复】** 修复了成就管理无法通过 Embedded Yae 同步的问题 [#2458](https://github.com/DGP-Studio/Snap.Hutao/issues/2458)
+- **【🔨修复】** 修复了养成计划无法通过 Embedded Yae 同步背包物品的问题 [#2461](https://github.com/DGP-Studio/Snap.Hutao/issues/2461)
+
 ## 1.13.3 <Badge text="hotfix" type="warning" />
 
 - **【🔨修复】** 修复了启动游戏页面使用游戏管理功能会导致崩溃的问题
