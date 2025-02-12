@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 12 Feb 2025 02:36:22 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2025 02:36:22 GMT</lastBuildDate>
+    <pubDate>Wed, 12 Feb 2025 02:59:43 GMT</pubDate>
+    <lastBuildDate>Wed, 12 Feb 2025 02:59:43 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -116,10 +116,15 @@
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
       <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.13.2</source>
-      <description>🎉 Successfully Updated to Version 1.13.2 | English [🔨Fix] Fixed an issue where wish records could not be refreshed via web cache #2413 [🔨Fix] Fixed an issue where the homepag...</description>
+      <description>🎉 Successfully Updated to Version 1.13.2 | English 1.13.3 [🔨Fix] Fixed an issue where using the game management function on the game launch page would cause a crash 1.13.2 [🔨...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
+<h2>1.13.3</h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed an issue where using the game management function on the game launch page would cause a crash</li>
+</ul>
+<h2>1.13.2</h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where wish records could not be refreshed via web cache <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2413" target="_blank" rel="noopener noreferrer">#2413</a></li>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the homepage could not display correctly when the number of enabled cards was less than one row <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2416" target="_blank" rel="noopener noreferrer">#2416</a></li>
@@ -721,6 +726,10 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.13.3 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed an issue where using the game management function on the game launch page would cause a crash</li>
+</ul>
 <h2>1.13.2 </h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where wish records could not be refreshed via web cache <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2413" target="_blank" rel="noopener noreferrer">#2413</a></li>
