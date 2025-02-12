@@ -11,6 +11,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
+## 1.13.3 <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed an issue where using the game management function on the game launch page would cause a crash
+
 ## 1.13.2 <Badge text="latest" type="tip" />
 
 - **[🔨Fix]** Fixed an issue where wish records could not be refreshed via web cache [#2413](https://github.com/DGP-Studio/Snap.Hutao/issues/2413)

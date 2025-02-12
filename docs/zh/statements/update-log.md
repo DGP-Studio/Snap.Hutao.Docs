@@ -10,6 +10,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
+## 1.13.3 <Badge text="hotfix" type="warning" />
+
+- **【🔨修复】** 修复了启动游戏页面使用游戏管理功能会导致崩溃的问题
+
 ## 1.13.2 <Badge text="最新版" type="tip" />
 
 - **【🔨修复】** 修复了祈愿记录页面无法通过网页缓存刷新祈愿记录的问题 [#2413](https://github.com/DGP-Studio/Snap.Hutao/issues/2413)

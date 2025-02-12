@@ -20,6 +20,12 @@ pageInfo: false
 
 [简体中文](/zh/statements/latest.html) | **English**
 
+## 1.13.3
+
+- **[🔨Fix]** Fixed an issue where using the game management function on the game launch page would cause a crash
+
+## 1.13.2
+
 - **[🔨Fix]** Fixed an issue where wish records could not be refreshed via web cache [#2413](https://github.com/DGP-Studio/Snap.Hutao/issues/2413)
 - **[🔨Fix]** Fixed an issue where the homepage could not display correctly when the number of enabled cards was less than one row [#2416](https://github.com/DGP-Studio/Snap.Hutao/issues/2416)
 - **[🔨Fix]** Fixed an issue where high constellation characters could not be added to the Dev Plan after version 5.2 [#2422](https://github.com/DGP-Studio/Snap.Hutao/issues/2422)
