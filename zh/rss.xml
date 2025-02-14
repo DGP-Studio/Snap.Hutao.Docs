@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 14 Feb 2025 13:32:20 GMT</pubDate>
-    <lastBuildDate>Fri, 14 Feb 2025 13:32:20 GMT</lastBuildDate>
+    <pubDate>Fri, 14 Feb 2025 15:15:14 GMT</pubDate>
+    <lastBuildDate>Fri, 14 Feb 2025 15:15:14 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -81,6 +81,8 @@
       <content:encoded><![CDATA[
 <h2>什么是 Loopback 网络</h2>
 <p>『Appx 容器应用』是微软推广的一种应用类型，具有诸多优点。为确保其运行效率高、安全稳定且用户友好，微软对这些应用采取了一系列限制措施，其中之一便是『Loopback 网络』。</p>
+<p>Loopback 网络是一种虚拟网络接口，通常用于在同一台计算机上的进程之间进行通信。它使用特殊的 IP 地址 <code>127.0.0.1</code>（IPv4）或 <code>::1</code>（IPv6），这些地址指向本地主机。当应用程序尝试通过 Loopback 接口进行通信时，数据包不会离开主机，而是在操作系统内部进行处理。</p>
+<p>目前 Appx 容器应用已经在 Windows 系统中得到广泛应用，除了 Microsoft Store 中的 Appx 应用外，Windows 系统中的一些关键系统组件，包括 Windows 设置、Microsoft Store、Windows Updates 等，也都是容器应用。</p>
 <p>Windows 默认<strong>禁用了所有 Windows Appx 容器应用（包括 Snap Hutao）的 Loopback 网络</strong>。这一设计旨在限制应用的网络访问范围，使其只能获取运行所需的资源。</p>
 <h3>理解 Loopback 网络</h3>
 <p>您可以将『Loopback 网络』理解为一个将应用装入其中的“盒子”。这个“盒子”隔离了应用的网络环境与本机电脑环境，仅通过一个小孔允许应用与外部网络交互。</p>
@@ -92,8 +94,12 @@
 </ul>
 <h2>解决方案</h2>
 <h3>1. 在 Snap Hutao 内进行设置（推荐）</h3>
+<div class="hint-container info">
+<p class="hint-container-title">Snap Hutao 已能检测网络代理环境</p>
+<p>当 Snap Hutao 检测到网络代理且 Loopback 限制未解除时，Snap Hutao 会在程序启动时自动弹出解除 Loopback 限制的提示窗口。在管理员模式下直接点击确定即可解除 Loopback 限制。除此以外，你也可以跟随下方的步骤随时解除 Loopback 限制。</p>
+</div>
 <ol>
-<li>打开 Snap Hutao。</li>
+<li>以<strong>管理员</strong>身份打开 Snap Hutao。</li>
 <li>点击左侧菜单中的“反馈中心”。</li>
 <li>在右侧栏中找到并点击“解除 Loopback 限制”。</li>
 <li>点击弹出窗口中的“确认”按钮。</li>
