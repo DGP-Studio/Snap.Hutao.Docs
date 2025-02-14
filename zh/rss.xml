@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 12 Feb 2025 11:49:00 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2025 11:49:00 GMT</lastBuildDate>
+    <pubDate>Fri, 14 Feb 2025 13:32:20 GMT</pubDate>
+    <lastBuildDate>Fri, 14 Feb 2025 13:32:20 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -3062,6 +3062,10 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp" alt="游戏启动器" loading="lazy"></p>
 <p>胡桃工具箱的高级启动器通过多样的设置选项，提供更灵活的游戏启动体验。</p>
+<div class="hint-container caution">
+<p class="hint-container-title">警告</p>
+<p>使用<strong>任何非官方软件</strong>都<strong>有概率</strong>导致您的虚拟财产受损，继续使用本软件相关功能将视为<strong>您已知晓并同意</strong>我们的<a href="/zh/statements/tos.html" target="_blank">使用条款</a></p>
+</div>
 <h2>初始化设置</h2>
 <ul>
 <li>点击左侧菜单栏的“启动游戏”进入高级启动器功能。

@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 12 Feb 2025 11:49:00 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2025 11:49:00 GMT</lastBuildDate>
+    <pubDate>Fri, 14 Feb 2025 13:32:20 GMT</pubDate>
+    <lastBuildDate>Fri, 14 Feb 2025 13:32:20 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -2977,6 +2977,10 @@ The following steps can solve this issue:</p>
       <content:encoded><![CDATA[
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp" alt="Game Launcher" loading="lazy"></p>
 <p>Snap Hutao's advanced launcher provides a more flexible game launch experience through various settings options.</p>
+<div class="hint-container caution">
+<p class="hint-container-title">Caution</p>
+<p>Using <strong>any unofficial software</strong> may <strong>potentially</strong> result in <strong>damage to your virtual property</strong>. Continuing to use the related functions of this software will be deemed as you acknowledging and agreeing to our <a href="/en/statements/tos.html" target="_blank">Terms of Service</a>.</p>
+</div>
 <h2>Initial Settings</h2>
 <ul>
 <li>Click "Launch Game" on the left sidebar to enter the advanced launcher feature.

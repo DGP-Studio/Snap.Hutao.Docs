@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Wed, 12 Feb 2025 11:49:00 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2025 11:49:00 GMT</lastBuildDate>
+    <pubDate>Fri, 14 Feb 2025 13:32:20 GMT</pubDate>
+    <lastBuildDate>Fri, 14 Feb 2025 13:32:20 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -1184,6 +1184,10 @@ Karena kedua server memiliki berbagai jenis batasan, implementasi beberapa fitur
 <div class="hint-container important">
 <p class="hint-container-title">Penting</p>
 <p>Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.</p>
+</div>
+<div class="hint-container caution">
+<p class="hint-container-title">Peringatan</p>
+<p>Menggunakan <strong>apapun perangkat lunak non-resmi</strong> dapat <strong>berpeluang</strong> menyebabkan hartamu virtual rusak, melanjutkan penggunaan fitur perangkat lunak ini akan dianggap sebagai <strong>Anda sudah mengetahui dan setuju</strong> dengan <a href="/id/statements/tos.html" target="_blank">syarat penggunaan</a> kami.</p>
 </div>
 <h2>Pengaturan Awal</h2>
 <ul>

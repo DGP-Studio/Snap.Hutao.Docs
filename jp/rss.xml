@@ -6,8 +6,8 @@
     <link>https://hut.ao/jp/</link>
     <description>超実用的な原神インパクトツールキット</description>
     <language>ja-JP</language>
-    <pubDate>Wed, 12 Feb 2025 11:49:00 GMT</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2025 11:49:00 GMT</lastBuildDate>
+    <pubDate>Fri, 14 Feb 2025 13:32:20 GMT</pubDate>
+    <lastBuildDate>Fri, 14 Feb 2025 13:32:20 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>公告</category>
@@ -1215,6 +1215,10 @@ Snap.Genshinの更新は停止され、プロジェクトはアーカイブさ�
       <content:encoded><![CDATA[<div class="hint-container important">
 <p class="hint-container-title">重要</p>
 <p>この翻訳は Google Gemini モデルによって作成されたものであり、PR による修正を歓迎します。</p>
+</div>
+<div class="hint-container caution">
+<p class="hint-container-title">警告</p>
+<p><strong>公式ではないソフトウェア</strong>を使用すると、<strong>リスク</strong>があり、仮想財産に損害を与える可能性があります。このソフトウェアの関連機能を使用し続けることは、<strong>あなたが知っていて同意したこと</strong>を意味します<a href="/jp/statements/tos.html" target="_blank">利用規約</a>に同意されます。</p>
 </div>
 <h1>高度なランチャー</h1>
 <p><img src="https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp" alt="ゲームランチャー" loading="lazy"></p>
