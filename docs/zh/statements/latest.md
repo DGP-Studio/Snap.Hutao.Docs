@@ -16,30 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.13.4 版本
+# 🎉 已成功更新至 1.13.5 版本
 
 **简体中文** | [English](/en/statements/latest.html)
 
-1.13.4 版本是 1.13.3 的热修版本，修复了严重影响正常使用的问题
-
-- **【🔨修复】** 再次修复了启动游戏页面使用游戏管理功能会导致崩溃的问题 [#2457](https://github.com/DGP-Studio/Snap.Hutao/issues/2457)
-- **【🔨修复】** 修复了成就管理无法通过 Embedded Yae 同步的问题 [#2458](https://github.com/DGP-Studio/Snap.Hutao/issues/2458)
-- **【🔨修复】** 修复了养成计划无法通过 Embedded Yae 同步背包物品的问题 [#2461](https://github.com/DGP-Studio/Snap.Hutao/issues/2461)
-
-1.13.3 版本是 1.13.2 的热修版本，修复了严重影响正常使用的问题
-
-- **【🔨修复】** 修复了启动游戏页面使用游戏管理功能会导致崩溃的问题
-
-1.13.2
-
-- **【🔨修复】** 修复了祈愿记录页面无法通过网页缓存刷新祈愿记录的问题 [#2413](https://github.com/DGP-Studio/Snap.Hutao/issues/2413)
-- **【🔨修复】** 修复了主页启用卡片数量不满一行时无法正常显示的问题 [#2416](https://github.com/DGP-Studio/Snap.Hutao/issues/2416)
-- **【🔨修复】** 修复了5.2后的高命角色无法正常添加到养成计划的问题 [#2422](https://github.com/DGP-Studio/Snap.Hutao/issues/2422)
-- **【🔨修复】** 修复了因目标文件夹不存在时无法更改数据文件夹的问题 [#2425](https://github.com/DGP-Studio/Snap.Hutao/issues/2425)
-- **【🔨修复】** 修复了部分用户因文件加密无法更改数据文件夹的问题 [#2433](https://github.com/DGP-Studio/Snap.Hutao/issues/2433)
-- **【🔨修复】** 修复了在对话框弹出时仍能打开任务栏图标菜单的问题 [#2434](https://github.com/DGP-Studio/Snap.Hutao/issues/2434)
-- **【✨优化】** 现在需要管理员权限才能解除 Loopback
-- **【✨优化】** 优化了 Embedded Yae 的数据导入体验
-  * 更改了相关功能的UI，需要管理员权限才能使用
-  * 现在需要在启动游戏页面打开注入功能开关才能使用相关功能
-  * 现在会使用启动游戏页面中配置的账号登录
+- **【🎉新增】** 角色资料页面角色攻略增加哔哩哔哩 Wiki （仅简中） [#2435](https://github.com/DGP-Studio/Snap.Hutao/issues/2435)
+- **【🎉新增】** 角色资料页面现在可查看角色皮肤立绘
+- **【🔨修复】** 修复了部分国际服功能失效的问题
+- **【🔨修复】** 修复了从托盘菜单退出胡桃时可能会崩溃的问题
+- **【🔨修复】** 修复了日历卡片时区未生效的问题 [#2467](https://github.com/DGP-Studio/Snap.Hutao/issues/2467)
+- **【🔨修复】** 修复了游戏配置文件缺失时可能会恢复为错误区服的问题
+- **【🔨修复】** 修复了游戏文件管理不支持 USB 固态移动硬盘的问题 [#2469](https://github.com/DGP-Studio/Snap.Hutao/issues/2469)
+- **【🔨修复】** 修复了养成计划页面树脂预估 UI 显示错位的问题 [#2443](https://github.com/DGP-Studio/Snap.Hutao/issues/2443)
+- **【✨优化】** 优化了部分缩放下的 UI 排版
