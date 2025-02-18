@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 14 Feb 2025 15:15:14 GMT</pubDate>
-    <lastBuildDate>Fri, 14 Feb 2025 15:15:14 GMT</lastBuildDate>
+    <pubDate>Tue, 18 Feb 2025 06:07:32 GMT</pubDate>
+    <lastBuildDate>Tue, 18 Feb 2025 06:07:32 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,40 +112,24 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.13.4</title>
+      <title>🎉 Successfully Updated to Version 1.13.5</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.13.4</source>
-      <description>🎉 Successfully Updated to Version 1.13.4 | English 1.13.4 is a hotfix version of 1.13.3 that addressed critical issues affecting normal usage. [🔨Fix] Fixed an issue where usin...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.13.5</source>
+      <description>🎉 Successfully Updated to Version 1.13.5 | English [🎉New] Added Bilibili Wiki to character guides on the character profile page (Simplified Chinese only) #2435 [🎉New] Charact...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
-<p>1.13.4 is a hotfix version of 1.13.3 that addressed critical issues affecting normal usage.</p>
 <ul>
-<li><strong>[🔨Fix]</strong> Fixed an issue where using the game management function on the game launch page would cause a crash again <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2457" target="_blank" rel="noopener noreferrer">#2457</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where achievements could not be synchronized via Embedded Yae <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2458" target="_blank" rel="noopener noreferrer">#2458</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where backpack items could not be synchronized via Embedded Yae in the Dev Plan <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2461" target="_blank" rel="noopener noreferrer">#2461</a></li>
-</ul>
-<p>1.13.3 is a hotfix version of 1.13.2 that addressed critical issues affecting normal usage.</p>
-<ul>
-<li><strong>[🔨Fix]</strong> Fixed an issue where using the game management function on the game launch page would cause a crash</li>
-</ul>
-<p>1.13.2</p>
-<ul>
-<li><strong>[🔨Fix]</strong> Fixed an issue where wish records could not be refreshed via web cache <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2413" target="_blank" rel="noopener noreferrer">#2413</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the homepage could not display correctly when the number of enabled cards was less than one row <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2416" target="_blank" rel="noopener noreferrer">#2416</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where high constellation characters could not be added to the Dev Plan after version 5.2 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2422" target="_blank" rel="noopener noreferrer">#2422</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the data folder could not be changed if the target folder did not exist <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2425" target="_blank" rel="noopener noreferrer">#2425</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where some users could not change the data folder due to file encryption <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2433" target="_blank" rel="noopener noreferrer">#2433</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the taskbar icon menu could still be opened when a dialog box was displayed <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2434" target="_blank" rel="noopener noreferrer">#2434</a></li>
-<li><strong>[✨Optimization]</strong> Administrator privileges are now required to disable Loopback</li>
-<li><strong>[✨Optimization]</strong> Optimized the data import experience for Embedded Yae
-<ul>
-<li>Changed the UI of related features, now requires administrator privileges to use</li>
-<li>Now requires enabling the injection feature on the game launch page to use related features</li>
-<li>Now uses the account configured on the game launch page to log in</li>
-</ul>
-</li>
+<li><strong>[🎉New]</strong> Added Bilibili Wiki to character guides on the character profile page (Simplified Chinese only) <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2435" target="_blank" rel="noopener noreferrer">#2435</a></li>
+<li><strong>[🎉New]</strong> Character profile page now displays character skin illustrations</li>
+<li><strong>[🔨Fix]</strong> Fixed some issues with international server features</li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when exiting Hutao from the tray menu</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the calendar card time zone was not applied <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2467" target="_blank" rel="noopener noreferrer">#2467</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the game configuration file might revert to the wrong server if missing</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where game file management did not support USB solid-state drives <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2469" target="_blank" rel="noopener noreferrer">#2469</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a UI misalignment issue in the resin estimation on the Dev Plan page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2443" target="_blank" rel="noopener noreferrer">#2443</a></li>
+<li><strong>[✨Optimization]</strong> Optimized UI layout for certain scaling settings</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -732,6 +716,18 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.13.5 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added Bilibili Wiki to character guides on the character profile page (Simplified Chinese only) <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2435" target="_blank" rel="noopener noreferrer">#2435</a></li>
+<li><strong>[🎉New]</strong> Character profile page now displays character skin illustrations</li>
+<li><strong>[🔨Fix]</strong> Fixed some issues with international server features</li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when exiting Hutao from the tray menu</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the calendar card time zone was not applied <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2467" target="_blank" rel="noopener noreferrer">#2467</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the game configuration file might revert to the wrong server if missing</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where game file management did not support USB solid-state drives <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2469" target="_blank" rel="noopener noreferrer">#2469</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a UI misalignment issue in the resin estimation on the Dev Plan page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2443" target="_blank" rel="noopener noreferrer">#2443</a></li>
+<li><strong>[✨Optimization]</strong> Optimized UI layout for certain scaling settings</li>
+</ul>
 <h2>1.13.4 </h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where using the game management function on the game launch page would cause a crash again <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2457" target="_blank" rel="noopener noreferrer">#2457</a></li>
@@ -742,7 +738,7 @@ The above image shows the expected display effect of this step under a complete 
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where using the game management function on the game launch page would cause a crash</li>
 </ul>
-<h2>1.13.2 </h2>
+<h2>1.13.2</h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where wish records could not be refreshed via web cache <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2413" target="_blank" rel="noopener noreferrer">#2413</a></li>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the homepage could not display correctly when the number of enabled cards was less than one row <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2416" target="_blank" rel="noopener noreferrer">#2416</a></li>
