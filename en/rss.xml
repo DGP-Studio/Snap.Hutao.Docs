@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 18 Feb 2025 06:07:32 GMT</pubDate>
-    <lastBuildDate>Tue, 18 Feb 2025 06:07:32 GMT</lastBuildDate>
+    <pubDate>Thu, 27 Feb 2025 06:06:53 GMT</pubDate>
+    <lastBuildDate>Thu, 27 Feb 2025 06:06:53 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,24 +112,31 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.13.5</title>
+      <title>🎉 Successfully Updated to Version 1.13.6</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.13.5</source>
-      <description>🎉 Successfully Updated to Version 1.13.5 | English [🎉New] Added Bilibili Wiki to character guides on the character profile page (Simplified Chinese only) #2435 [🎉New] Charact...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.13.6</source>
+      <description>🎉 Successfully Updated to Version 1.13.6 [🎉New] Added time zone settings to the Dev Plan Time zone will be set when creating a plan Time zone cannot be changed after the plan ...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Added Bilibili Wiki to character guides on the character profile page (Simplified Chinese only) <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2435" target="_blank" rel="noopener noreferrer">#2435</a></li>
-<li><strong>[🎉New]</strong> Character profile page now displays character skin illustrations</li>
-<li><strong>[🔨Fix]</strong> Fixed some issues with international server features</li>
-<li><strong>[🔨Fix]</strong> Fixed a crash issue when exiting Hutao from the tray menu</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the calendar card time zone was not applied <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2467" target="_blank" rel="noopener noreferrer">#2467</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the game configuration file might revert to the wrong server if missing</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where game file management did not support USB solid-state drives <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2469" target="_blank" rel="noopener noreferrer">#2469</a></li>
-<li><strong>[🔨Fix]</strong> Fixed a UI misalignment issue in the resin estimation on the Dev Plan page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2443" target="_blank" rel="noopener noreferrer">#2443</a></li>
-<li><strong>[✨Optimization]</strong> Optimized UI layout for certain scaling settings</li>
+<li><strong>[🎉New]</strong> Added time zone settings to the Dev Plan
+<ul>
+<li>Time zone will be set when creating a plan</li>
+<li>Time zone cannot be changed after the plan is created</li>
+<li>Existing Dev Plans will default to the time zone corresponding to the calendar server in Hutao settings</li>
+</ul>
+</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where importing achievements from other applications would not display the import popup</li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when Real-time Notes auto-refreshes in the background <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2491" target="_blank" rel="noopener noreferrer">#2491</a></li>
+<li><strong>[✨Optimization]</strong> Adjusted telemetry method, now using Sentry for better exception information collection and processing</li>
+<li><strong>[✨Optimization]</strong> After logging into the user panel for the first time, the default character configured in MiYouShe will now be selected first <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2391" target="_blank" rel="noopener noreferrer">#2391</a></li>
+<li><strong>[✨Optimization]</strong> Modified the transparency logic of the compact web window
+<ul>
+<li>The window will now be opaque when focused</li>
+<li>The window will be semi-transparent when out of focus</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -716,7 +723,27 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.13.5 </h2>
+<h2>1.13.6 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added time zone settings to the Dev Plan
+<ul>
+<li>Time zone will be set when creating a plan</li>
+<li>Time zone cannot be changed after the plan is created</li>
+<li>Existing Dev Plans will default to the time zone corresponding to the calendar server in Hutao settings</li>
+</ul>
+</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where importing achievements from other applications would not display the import popup</li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when Real-time Notes auto-refreshes in the background <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2491" target="_blank" rel="noopener noreferrer">#2491</a></li>
+<li><strong>[✨Optimization]</strong> Adjusted telemetry method, now using Sentry for better exception information collection and processing</li>
+<li><strong>[✨Optimization]</strong> After logging into the user panel for the first time, the default character configured in MiYouShe will now be selected first <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2391" target="_blank" rel="noopener noreferrer">#2391</a></li>
+<li><strong>[✨Optimization]</strong> Modified the transparency logic of the compact web window
+<ul>
+<li>The window will now be opaque when focused</li>
+<li>The window will be semi-transparent when out of focus</li>
+</ul>
+</li>
+</ul>
+<h2>1.13.5</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added Bilibili Wiki to character guides on the character profile page (Simplified Chinese only) <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2435" target="_blank" rel="noopener noreferrer">#2435</a></li>
 <li><strong>[🎉New]</strong> Character profile page now displays character skin illustrations</li>
