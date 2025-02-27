@@ -18,6 +18,8 @@ pageInfo: false
 
 # 🎉 Successfully Updated to Version 1.13.6
 
+[简体中文](/zh/statements/latest.html) | **English**
+
 - **[🎉New]** Added time zone settings to the Dev Plan
   - Time zone will be set when creating a plan
   - Time zone cannot be changed after the plan is created
