@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 27 Feb 2025 06:13:51 GMT</pubDate>
-    <lastBuildDate>Thu, 27 Feb 2025 06:13:51 GMT</lastBuildDate>
+    <pubDate>Thu, 06 Mar 2025 03:25:25 GMT</pubDate>
+    <lastBuildDate>Thu, 06 Mar 2025 03:25:25 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,32 +115,30 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.13.6 版本</title>
+      <title>🎉 已成功更新至 1.13.7 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.13.6 版本</source>
-      <description>🎉 已成功更新至 1.13.6 版本 简体中文 | 【🎉新增】 养成计划新增时区设置 时区将在创建计划时设置 创建计划后时区将无法修改 现有养成计划将默认设置为胡桃设置中日历服务器对应时区 【🔨修复】 修复了由其他应用启动导入成就不会显示导入弹窗的问题 【🔨修复】 修复了实时便笺后台自动刷新时崩溃的问题 #2491 【✨优化】 调整了遥测的方式...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.13.7 版本</source>
+      <description>🎉 已成功更新至 1.13.7 版本 简体中文 | 【🔨修复】 修复了特定情况下启动游戏时关闭游戏进程可能导致程序崩溃的问题 【🔨修复】 修复了将数据目录选定到磁盘分区根目录后打开设置页面可能导致程序崩溃的问题 【🔨修复】 修复了当壁纸源为非本地壁纸时，下载壁纸失败后可能会导致程序崩溃的问题 【🔨修复】 修复了当获取游戏公告失败后可能会导致程...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🎉新增】</strong> 养成计划新增时区设置
-<ul>
-<li>时区将在创建计划时设置</li>
-<li>创建计划后时区将无法修改</li>
-<li>现有养成计划将默认设置为胡桃设置中日历服务器对应时区</li>
-</ul>
-</li>
-<li><strong>【🔨修复】</strong> 修复了由其他应用启动导入成就不会显示导入弹窗的问题</li>
-<li><strong>【🔨修复】</strong> 修复了实时便笺后台自动刷新时崩溃的问题 <a href="https://github.com/SnapHutao/Snap.Hutao/issues/2491" target="_blank" rel="noopener noreferrer">#2491</a></li>
-<li><strong>【✨优化】</strong> 调整了遥测的方式，现在使用 Sentry 来更好的收集与处理异常信息</li>
-<li><strong>【✨优化】</strong> 首次登录用户面板后，现在会优先选中米游社内配置的默认角色 <a href="https://github.com/SnapHutao/Snap.Hutao/issues/2391" target="_blank" rel="noopener noreferrer">#2391</a></li>
-<li><strong>【✨优化】</strong> 修改了紧凑网页窗口的半透明逻辑
-<ul>
-<li>现在窗口会在具有焦点时呈现不透明效果</li>
-<li>失去焦点时呈现半透明效果</li>
-</ul>
-</li>
+<li><strong>【🔨修复】</strong> 修复了特定情况下启动游戏时关闭游戏进程可能导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了将数据目录选定到磁盘分区根目录后打开设置页面可能导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了当壁纸源为非本地壁纸时，下载壁纸失败后可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了当获取游戏公告失败后可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了 WebView2 未加载完成时关闭网页窗口可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了当壁纸源为本地壁纸时，定时切换壁纸时可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了在提示信息即将显示或消除时关闭主窗口可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了在加载 我的角色 页面信息时切换/删除用户可能导致数据不同步的问题</li>
+<li><strong>【🔨修复】</strong> 修复了自动连点/自动连按在系统权限页面下使用会导致崩溃的问题，现在会自动停止对应的操作</li>
+<li><strong>【🔨修复】</strong> 修复了 WebView2 未加载完成时，刷新/后退操作可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏页面管理游戏功能在选择某些非固定式 SSD 设备时会导致崩溃的问题，现在会默认为 HDD 进行后续操作</li>
+<li><strong>【🔨修复】</strong> 修复了程序退出时尝试再次打开任务区域图标菜单会导致崩溃的问题</li>
+<li><strong>【✨优化】</strong> 为网页窗口增加了 WebView2 加载失败提示</li>
+<li><strong>【✨优化】</strong> 紧凑网页窗口现在可以调整为任意大小</li>
+<li><strong>【✨优化】</strong> 启动游戏现在会检查已启动的游戏进程并尝试接管</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -757,7 +755,25 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.13.6 </h2>
+<h2>1.13.7 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了特定情况下启动游戏时关闭游戏进程可能导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了将数据目录选定到磁盘分区根目录后打开设置页面可能导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了当壁纸源为非本地壁纸时，下载壁纸失败后可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了当获取游戏公告失败后可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了 WebView2 未加载完成时关闭网页窗口可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了当壁纸源为本地壁纸时，定时切换壁纸时可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了在提示信息即将显示或消除时关闭主窗口可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了在加载 我的角色 页面信息时切换/删除用户可能导致数据不同步的问题</li>
+<li><strong>【🔨修复】</strong> 修复了自动连点/自动连按在系统权限页面下使用会导致崩溃的问题，现在会自动停止对应的操作</li>
+<li><strong>【🔨修复】</strong> 修复了 WebView2 未加载完成时，刷新/后退操作可能会导致程序崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏页面管理游戏功能在选择某些非固定式 SSD 设备时会导致崩溃的问题，现在会默认为 HDD 进行后续操作</li>
+<li><strong>【🔨修复】</strong> 修复了程序退出时尝试再次打开任务区域图标菜单会导致崩溃的问题</li>
+<li><strong>【✨优化】</strong> 为网页窗口增加了 WebView2 加载失败提示</li>
+<li><strong>【✨优化】</strong> 紧凑网页窗口现在可以调整为任意大小</li>
+<li><strong>【✨优化】</strong> 启动游戏现在会检查已启动的游戏进程并尝试接管</li>
+</ul>
+<h2>1.13.6</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 养成计划新增时区设置
 <ul>
