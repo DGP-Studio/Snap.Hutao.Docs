@@ -38,6 +38,12 @@ export default hopeTheme(
 
     docsDir: "docs",
 
+    navbarLayout: {
+      start: ["Brand"],
+      center: ["Links"],
+      end: ["Language","Douyin", "Bilibili", "Repo", "Outlook", "Search"],
+    },
+
     locales: {
       "/en/": {
         navbar: enNavbar,
