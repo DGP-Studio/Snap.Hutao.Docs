@@ -10,7 +10,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.14.1 <Badge text="最新版" type="tip" /> <Badge text="hotfix" type="warning" />
+## 1.14.2 <Badge text="最新版" type="tip" /> <Badge text="hotfix" type="warning" />
+
+- **【🎉新增】** 启动游戏页面新增设置自定义快捷键控制悬浮窗显示隐藏 [#2562](https://github.com/DGP-Studio/Snap.Hutao/issues/2562)
+
+## 1.14.1 <Badge text="hotfix" type="warning" />
 
 - **【🎉新增】** 启动游戏页面新增设置自定义快捷键控制悬浮窗显示隐藏 [#2562](https://github.com/DGP-Studio/Snap.Hutao/issues/2562)
 
