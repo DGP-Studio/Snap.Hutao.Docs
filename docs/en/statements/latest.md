@@ -20,15 +20,15 @@ pageInfo: false
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-## 1.14.2
+1.14.2
 
 - **[🔨Fix]** Fixed an issue where the overlay window will resume visible when hidden by hotkey and switch between windows
 
-## 1.14.1 
+1.14.1 
 
 - **[🎉New]** Added a custom shortcut key to control the display and hiding of the overlay window
 
-## 1.14.0
+1.14.0
 
 - **[🎉New]** Added a shortcut key to toggle window display/hide for compact web window [#2382](https://github.com/DGP-Studio/Snap.Hutao/issues/2382)
 - **[🎉New]** Added a sign-in card on the homepage [#1322](https://github.com/DGP-Studio/Snap.Hutao/issues/1322)
