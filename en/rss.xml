@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 30 Mar 2025 13:35:54 GMT</pubDate>
-    <lastBuildDate>Sun, 30 Mar 2025 13:35:54 GMT</lastBuildDate>
+    <pubDate>Sun, 30 Mar 2025 13:48:38 GMT</pubDate>
+    <lastBuildDate>Sun, 30 Mar 2025 13:48:38 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -120,15 +120,15 @@
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
-<h2>1.14.2</h2>
+<p>1.14.2</p>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the overlay window will resume visible when hidden by hotkey and switch between windows</li>
 </ul>
-<h2>1.14.1</h2>
+<p>1.14.1</p>
 <ul>
 <li><strong>[🎉New]</strong> Added a custom shortcut key to control the display and hiding of the overlay window</li>
 </ul>
-<h2>1.14.0</h2>
+<p>1.14.0</p>
 <ul>
 <li><strong>[🎉New]</strong> Added a shortcut key to toggle window display/hide for compact web window <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2382" target="_blank" rel="noopener noreferrer">#2382</a></li>
 <li><strong>[🎉New]</strong> Added a sign-in card on the homepage <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1322" target="_blank" rel="noopener noreferrer">#1322</a></li>

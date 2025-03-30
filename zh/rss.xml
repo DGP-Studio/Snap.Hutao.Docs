@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 30 Mar 2025 13:35:54 GMT</pubDate>
-    <lastBuildDate>Sun, 30 Mar 2025 13:35:54 GMT</lastBuildDate>
+    <pubDate>Sun, 30 Mar 2025 13:48:38 GMT</pubDate>
+    <lastBuildDate>Sun, 30 Mar 2025 13:48:38 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -123,15 +123,15 @@
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
-<h2>1.14.2</h2>
+<p>1.14.2</p>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了悬浮窗窗口在使用快捷键隐藏后会因为切换窗口重新显示的问题</li>
 </ul>
-<h2>1.14.1</h2>
+<p>1.14.1</p>
 <ul>
 <li><strong>【🎉新增】</strong> 启动游戏页面新增设置自定义快捷键控制悬浮窗显示隐藏 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2562" target="_blank" rel="noopener noreferrer">#2562</a></li>
 </ul>
-<h2>1.14.0</h2>
+<p>1.14.0</p>
 <ul>
 <li><strong>【🎉新增】</strong> 紧凑网页窗口新增切换窗口显示 / 隐藏快捷键 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2382" target="_blank" rel="noopener noreferrer">#2382</a></li>
 <li><strong>【🎉新增】</strong> 主页新增签到卡片 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1322" target="_blank" rel="noopener noreferrer">#1322</a></li>
