@@ -11,7 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.14.0 <Badge text="latest" type="tip" />
+## 1.14.1 <Badge text="latest" type="tip" /> <Badge text="hotfix" type="warning" />
+
+- **[🎉New]** Added a custom shortcut key setting on the game launch page to control the display and hiding of the overlay window [#2562](https://github.com/DGP-Studio/Snap.Hutao/issues/2562)
+
+## 1.14.0
 
 - **[🎉New]** Added a shortcut key to toggle window display/hide for compact web window [#2382](https://github.com/DGP-Studio/Snap.Hutao/issues/2382)
 - **[🎉New]** Added a sign-in card on the homepage [#1322](https://github.com/DGP-Studio/Snap.Hutao/issues/1322)
