@@ -16,22 +16,47 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.13.7
+# 🎉 Successfully Updated to Version 1.14.0
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed an issue where closing the game process during game startup under certain conditions could cause the program to crash
-- **[🔨Fix]** Fixed an issue where selecting the data directory to the root of a disk partition and then opening the settings page could cause the program to crash
-- **[🔨Fix]** Fixed an issue where failing to download wallpaper when the wallpaper source is not local could cause the program to crash
-- **[🔨Fix]** Fixed an issue where failing to fetch game announcements could cause the program to crash
-- **[🔨Fix]** Fixed an issue where closing the web window before WebView2 finished loading could cause the program to crash
-- **[🔨Fix]** Fixed an issue where wallpaper switching with local wallpaper sources could cause the program to crash
-- **[🔨Fix]** Fixed an issue where closing the main window while a notification is about to show or hide could cause the program to crash
-- **[🔨Fix]** Fixed an issue where switching/deleting users while loading the My Characters page could cause data synchronization issues
-- **[🔨Fix]** Fixed an issue where using auto-click/auto-press under system permission pages could cause the program to crash, now it will automatically stop the corresponding operation
-- **[🔨Fix]** Fixed an issue where refreshing/backward operations before WebView2 finished loading could cause the program to crash
-- **[🔨Fix]** Fixed an issue where managing game functions on the game launch page with certain non-fixed SSD devices could cause the program to crash, now it defaults to HDD for subsequent operations
-- **[🔨Fix]** Fixed an issue where attempting to reopen the task area icon menu upon program exit could cause the program to crash
-- **[✨Optimization]** Added WebView2 load failure prompts to the web window
-- **[✨Optimization]** The compact web window can now be resized to any size
-- **[✨Optimization]** Game launch now checks for already running game processes and attempts to take over
+- **[🎉New]** Added a shortcut key to toggle window display/hide for compact web window [#2382](https://github.com/DGP-Studio/Snap.Hutao/issues/2382)
+- **[🎉New]** Added a sign-in card on the homepage [#1322](https://github.com/DGP-Studio/Snap.Hutao/issues/1322)
+- **[🎉New]** Added a semi-transparent overlay window in the game [#2506](https://github.com/DGP-Studio/Snap.Hutao/issues/2506)
+  - The overlay window will replace the original hotkey prompt in the title bar
+  - The overlay window will replace the original injection options in the game launch page
+- **[🎉New]** Added an injection option to remove the elemental burst camera close-up
+- **[🎉New]** Added an injection option to remove battle damage numbers
+- **[🎉New]** Added an injection option to apply touch input [#2535](https://github.com/DGP-Studio/Snap.Hutao/issues/2535)
+- **[🎉New]** Added platform type parameter in the game launch page [#2521](https://github.com/DGP-Studio/Snap.Hutao/issues/2521)
+- **[🎉New]** Added sorting options in the My Characters page [#2512](https://github.com/DGP-Studio/Snap.Hutao/issues/2512)
+- **[🎉New]** Added display of character and weapon promotion levels in the My Characters page
+- **[🎉New]** Added filters in the Development Plan
+- **[✨Optimization]** Introduced a new updater [#2456](https://github.com/DGP-Studio/Snap.Hutao/issues/2456)
+- **[✨Optimization]** Resource download progress in the guide page will now inherit existing progress
+- **[✨Optimization]** Correct prompts when no available game characters after community login
+- **[✨Optimization]** Simplified the logic of the injection feature [#2531](https://github.com/DGP-Studio/Snap.Hutao/issues/2531)
+- **[✨Optimization]** The My Characters page will now automatically scroll to the top after switching characters [#1731](https://github.com/DGP-Studio/Snap.Hutao/issues/1731)
+- **[✨Optimization]** Character development will now recognize if the character has ascended [#2403](https://github.com/DGP-Studio/Snap.Hutao/issues/2403)
+- **[✨Optimization]** Added validation before changing the data directory
+- **[✨Optimization]** Added relevant prompt texts in some settings
+- **[✨Optimization]** Optimized the lag issues on some pages
+- **[✨Optimization]** Fixed many memory leak issues
+- **[✨Optimization]** Optimized the display text of hotkey prompts
+- **[🔨Fix]** Fixed an issue where the main window closing could cause a crash during real-time note auto-refresh
+- **[🔨Fix]** Fixed an issue where the tray popup would not reappear after pressing Alt + F4 [#2532](https://github.com/DGP-Studio/Snap.Hutao/issues/2532)
+- **[🔨Fix]** Fixed an issue where clicking to change email/password/logout on Snap Hutao Passport page might not respond
+- **[🔨Fix]** Fixed an error prompt when the game directory is not set
+- **[🔨Fix]** Fixed a crash issue when attempting to take over the game process [#2540](https://github.com/DGP-Studio/Snap.Hutao/issues/2540)
+- **[🔨Fix]** Fixed a freeze issue when updating the game on the channel server [#2327](https://github.com/DGP-Studio/Snap.Hutao/issues/2327)
+- **[🔨Fix]** Fixed an issue where the wish timer incorrectly included some permanent characters
+- **[🔨Fix]** Fixed an issue where removing an achievement archive in the Achievement Management page would not automatically switch to the next archive [#2519](https://github.com/DGP-Studio/Snap.Hutao/issues/2519)
+- **[🔨Fix]** Fixed an issue where some achievement versions were displayed incorrectly in the Achievement Management page
+- **[🔨Fix]** Fixed an issue where Embedded Yae could not be used normally in version 5.5
+- **[🔨Fix]** Fixed an issue where some monsters were displayed incorrectly in the Spiral Abyss
+- **[🔨Fix]** Fixed an issue where resin estimation data in the Development Plan could be incorrect
+- **[🔨Fix]** Fixed a crash issue when drawing UI under certain scaling conditions
+- **[🔨Fix]** Fixed an issue where WebView2 could not load properly in some cases
+- **[🔨Fix]** Fixed a freeze issue when closing the window before WebView2 finished loading [#2544](https://github.com/DGP-Studio/Snap.Hutao/issues/2544)
+- **[🔨Fix]** Fixed an issue where some devices could not set the language correctly
+- **[🔨Fix]** Fixed an issue where some images could not be displayed correctly
