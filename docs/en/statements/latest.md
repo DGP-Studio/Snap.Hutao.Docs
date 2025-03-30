@@ -16,16 +16,25 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.14.1
+# 🎉 Successfully Updated to Version 1.14.2
 
 [简体中文](/zh/statements/latest.html) | **English**
+
+## 1.14.2
+
+- **[🔨Fix]** Fixed an issue where the overlay window will resume visible when hidden by hotkey and switch between windows
+
+## 1.14.1 
+
+- **[🎉New]** Added a custom shortcut key to control the display and hiding of the overlay window
+
+## 1.14.0
 
 - **[🎉New]** Added a shortcut key to toggle window display/hide for compact web window [#2382](https://github.com/DGP-Studio/Snap.Hutao/issues/2382)
 - **[🎉New]** Added a sign-in card on the homepage [#1322](https://github.com/DGP-Studio/Snap.Hutao/issues/1322)
 - **[🎉New]** Added a semi-transparent overlay window in the game [#2506](https://github.com/DGP-Studio/Snap.Hutao/issues/2506)
   - The overlay window will replace the original hotkey prompt in the title bar
   - The overlay window will replace the original injection options in the game launch page
-  - Added a custom shortcut key to control the display and hiding of the overlay window
 - **[🎉New]** Added an injection option to remove the elemental burst camera close-up
 - **[🎉New]** Added an injection option to remove battle damage numbers
 - **[🎉New]** Added an injection option to apply touch input [#2535](https://github.com/DGP-Studio/Snap.Hutao/issues/2535)

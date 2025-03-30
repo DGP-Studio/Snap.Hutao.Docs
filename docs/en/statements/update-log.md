@@ -11,7 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.14.1 <Badge text="latest" type="tip" /> <Badge text="hotfix" type="warning" />
+## 1.14.2 <Badge text="latest" type="tip" /> <Badge text="hotfix" type="warning" />
+
+- **[🔨Fix]** Fixed an issue where the overlay window will resume visible when hidden by hotkey and switch between windows
+
+## 1.14.1 <Badge text="hotfix" type="warning" />
 
 - **[🎉New]** Added a custom shortcut key setting on the game launch page to control the display and hiding of the overlay window [#2562](https://github.com/DGP-Studio/Snap.Hutao/issues/2562)
 

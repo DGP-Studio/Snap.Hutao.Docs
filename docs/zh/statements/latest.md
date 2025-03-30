@@ -16,16 +16,25 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.14.1 版本
+# 🎉 已成功更新至 1.14.2 版本
 
 **简体中文** | [English](/en/statements/latest.html)
+
+## 1.14.2
+
+- **【🔨修复】** 修复了悬浮窗窗口在使用快捷键隐藏后会因为切换窗口重新显示的问题
+
+## 1.14.1
+
+- **【🎉新增】** 启动游戏页面新增设置自定义快捷键控制悬浮窗显示隐藏 [#2562](https://github.com/DGP-Studio/Snap.Hutao/issues/2562)
+
+## 1.14.0
 
 - **【🎉新增】** 紧凑网页窗口新增切换窗口显示 / 隐藏快捷键 [#2382](https://github.com/DGP-Studio/Snap.Hutao/issues/2382)
 - **【🎉新增】** 主页新增签到卡片 [#1322](https://github.com/DGP-Studio/Snap.Hutao/issues/1322)
 - **【🎉新增】** 新增游戏内半透明悬浮窗 [#2506](https://github.com/DGP-Studio/Snap.Hutao/issues/2506)
   - 悬浮窗将替代标题栏中原有的热键提示
   - 悬浮窗将替代原有启动游戏页面内注入相关选项
-  - 设置自定义快捷键控制悬浮窗显示隐藏
 - **【🎉新增】** 注入新增移除元素爆发镜头特写
 - **【🎉新增】** 注入新增移除战斗伤害跳字
 - **【🎉新增】** 注入新增使用触摸输入 [#2535](https://github.com/DGP-Studio/Snap.Hutao/issues/2535)
