@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 31 Mar 2025 06:20:35 GMT</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2025 06:20:35 GMT</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2025 08:08:56 GMT</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2025 08:08:56 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,14 +112,21 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.14.2</title>
+      <title>🎉 Successfully Updated to Version 1.14.3</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.2</source>
-      <description>🎉 Successfully Updated to Version 1.14.2 | English 1.14.2 [🔨Fix] Fixed an issue where the overlay window will resume visible when hidden by hotkey and switch between windows 1...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.3</source>
+      <description>🎉 Successfully Updated to Version 1.14.3 | English 1.14.3 [✨Optimization] Added independent switch for overlay window, rollback injection switch panel #2582 [🔨Fix] Fixed the i...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
+<p>1.14.3</p>
+<ul>
+<li><strong>[✨Optimization]</strong> Added independent switch for overlay window, rollback injection switch panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2582" target="_blank" rel="noopener noreferrer">#2582</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where application redirection failed <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2576" target="_blank" rel="noopener noreferrer">#2576</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where compact web window would crash on non-first launch <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2586" target="_blank" rel="noopener noreferrer">#2586</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where some devices could not bind hotkeys <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2570" target="_blank" rel="noopener noreferrer">#2570</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2585" target="_blank" rel="noopener noreferrer">#2585</a></li>
+</ul>
 <p>1.14.2</p>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the overlay window will resume visible when hidden by hotkey and switch between windows</li>
@@ -759,6 +766,13 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.14.3 </h2>
+<ul>
+<li><strong>[✨Optimization]</strong> Added independent switch for overlay window, rollback injection switch panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2582" target="_blank" rel="noopener noreferrer">#2582</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where application redirection failed <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2576" target="_blank" rel="noopener noreferrer">#2576</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where compact web window would crash on non-first launch <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2586" target="_blank" rel="noopener noreferrer">#2586</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where some devices could not bind hotkeys <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2570" target="_blank" rel="noopener noreferrer">#2570</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2585" target="_blank" rel="noopener noreferrer">#2585</a></li>
+</ul>
 <h2>1.14.2 </h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed an issue where the overlay window will resume visible when hidden by hotkey and switch between windows</li>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 31 Mar 2025 06:20:35 GMT</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2025 06:20:35 GMT</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2025 08:08:56 GMT</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2025 08:08:56 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,14 +115,21 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.14.2 版本</title>
+      <title>🎉 已成功更新至 1.14.3 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.14.2 版本</source>
-      <description>🎉 已成功更新至 1.14.2 版本 简体中文 | 1.14.2 【🔨修复】 修复了悬浮窗窗口在使用快捷键隐藏后会因为切换窗口重新显示的问题 1.14.1 【🎉新增】 启动游戏页面新增设置自定义快捷键控制悬浮窗显示隐藏 #2562 1.14.0 【🎉新增】 紧凑网页窗口新增切换窗口显示 / 隐藏快捷键 #2382 【🎉新增】 主页新增签到卡片...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.14.3 版本</source>
+      <description>🎉 已成功更新至 1.14.3 版本 简体中文 | 1.14.3 【✨优化】 悬浮窗添加独立开关，回调注入开关面板 #2582 【🔨修复】 修复了应用重定向失效的问题 #2576 【🔨修复】 修复了紧凑网页窗口非首次启动会引发崩溃的问题 #2586 【🔨修复】 修复了部分设备无法绑定热键的问题 #2570 #2585 1.14.2 【🔨修复】...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
+<p>1.14.3</p>
+<ul>
+<li><strong>【✨优化】</strong> 悬浮窗添加独立开关，回调注入开关面板 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2582" target="_blank" rel="noopener noreferrer">#2582</a></li>
+<li><strong>【🔨修复】</strong> 修复了应用重定向失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2576" target="_blank" rel="noopener noreferrer">#2576</a></li>
+<li><strong>【🔨修复】</strong> 修复了紧凑网页窗口非首次启动会引发崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2586" target="_blank" rel="noopener noreferrer">#2586</a></li>
+<li><strong>【🔨修复】</strong> 修复了部分设备无法绑定热键的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2570" target="_blank" rel="noopener noreferrer">#2570</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2585" target="_blank" rel="noopener noreferrer">#2585</a></li>
+</ul>
 <p>1.14.2</p>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了悬浮窗窗口在使用快捷键隐藏后会因为切换窗口重新显示的问题</li>
@@ -792,9 +799,16 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.14.3 </h2>
+<ul>
+<li><strong>【✨优化】</strong> 悬浮窗添加独立开关，回调注入开关面板 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2582" target="_blank" rel="noopener noreferrer">#2582</a></li>
+<li><strong>【🔨修复】</strong> 修复了应用重定向失效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2576" target="_blank" rel="noopener noreferrer">#2576</a></li>
+<li><strong>【🔨修复】</strong> 修复了紧凑网页窗口非首次启动会引发崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2586" target="_blank" rel="noopener noreferrer">#2586</a></li>
+<li><strong>【🔨修复】</strong> 修复了部分设备无法绑定热键的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2570" target="_blank" rel="noopener noreferrer">#2570</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2585" target="_blank" rel="noopener noreferrer">#2585</a></li>
+</ul>
 <h2>1.14.2 </h2>
 <ul>
-<li><strong>【🎉新增】</strong> 启动游戏页面新增设置自定义快捷键控制悬浮窗显示隐藏 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2562" target="_blank" rel="noopener noreferrer">#2562</a></li>
+<li><strong>【🔨修复】</strong> 修复了悬浮窗窗口在使用快捷键隐藏后会因为切换窗口重新显示的问题</li>
 </ul>
 <h2>1.14.1 </h2>
 <ul>
