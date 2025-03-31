@@ -11,7 +11,14 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.14.2 <Badge text="latest" type="tip" /> <Badge text="hotfix" type="warning" />
+## 1.14.3 <Badge text="latest" type="tip" /> <Badge text="hotfix" type="warning" />
+
+- **[✨Optimization]** Added independent switch for overlay window, rollback injection switch panel [#2582](https://github.com/DGP-Studio/Snap.Hutao/issues/2582)
+- **[🔨Fix]** Fixed the issue where application redirection failed [#2576](https://github.com/DGP-Studio/Snap.Hutao/issues/2576)
+- **[🔨Fix]** Fixed the issue where compact web window would crash on non-first launch [#2586](https://github.com/DGP-Studio/Snap.Hutao/issues/2586)
+- **[🔨Fix]** Fixed the issue where some devices could not bind hotkeys [#2570](https://github.com/DGP-Studio/Snap.Hutao/issues/2570) [#2585](https://github.com/DGP-Studio/Snap.Hutao/issues/2585)
+
+## 1.14.2 <Badge text="hotfix" type="warning" />
 
 - **[🔨Fix]** Fixed an issue where the overlay window will resume visible when hidden by hotkey and switch between windows
 

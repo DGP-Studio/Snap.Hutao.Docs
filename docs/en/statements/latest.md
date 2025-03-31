@@ -16,9 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.14.2
+# 🎉 Successfully Updated to Version 1.14.3
 
 [简体中文](/zh/statements/latest.html) | **English**
+
+1.14.3
+
+- **[✨Optimization]** Added independent switch for overlay window, rollback injection switch panel [#2582](https://github.com/DGP-Studio/Snap.Hutao/issues/2582)
+- **[🔨Fix]** Fixed the issue where application redirection failed [#2576](https://github.com/DGP-Studio/Snap.Hutao/issues/2576)
+- **[🔨Fix]** Fixed the issue where compact web window would crash on non-first launch [#2586](https://github.com/DGP-Studio/Snap.Hutao/issues/2586)
+- **[🔨Fix]** Fixed the issue where some devices could not bind hotkeys [#2570](https://github.com/DGP-Studio/Snap.Hutao/issues/2570) [#2585](https://github.com/DGP-Studio/Snap.Hutao/issues/2585)
 
 1.14.2
 

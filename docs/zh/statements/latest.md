@@ -16,9 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.14.2 版本
+# 🎉 已成功更新至 1.14.3 版本
 
 **简体中文** | [English](/en/statements/latest.html)
+
+1.14.3
+
+- **【✨优化】** 悬浮窗添加独立开关，回调注入开关面板 [#2582](https://github.com/DGP-Studio/Snap.Hutao/issues/2582)
+- **【🔨修复】** 修复了应用重定向失效的问题 [#2576](https://github.com/DGP-Studio/Snap.Hutao/issues/2576)
+- **【🔨修复】** 修复了紧凑网页窗口非首次启动会引发崩溃的问题 [#2586](https://github.com/DGP-Studio/Snap.Hutao/issues/2586)
+- **【🔨修复】** 修复了部分设备无法绑定热键的问题 [#2570](https://github.com/DGP-Studio/Snap.Hutao/issues/2570) [#2585](https://github.com/DGP-Studio/Snap.Hutao/issues/2585)
 
 1.14.2
 
