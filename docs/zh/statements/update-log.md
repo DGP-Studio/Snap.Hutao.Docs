@@ -10,9 +10,16 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.14.2 <Badge text="最新版" type="tip" /> <Badge text="hotfix" type="warning" />
+## 1.14.3 <Badge text="最新版" type="tip" /> <Badge text="hotfix" type="warning" />
 
-- **【🎉新增】** 启动游戏页面新增设置自定义快捷键控制悬浮窗显示隐藏 [#2562](https://github.com/DGP-Studio/Snap.Hutao/issues/2562)
+- **【✨优化】** 悬浮窗添加独立开关，回调注入开关面板 [#2582](https://github.com/DGP-Studio/Snap.Hutao/issues/2582)
+- **【🔨修复】** 修复了应用重定向失效的问题 [#2576](https://github.com/DGP-Studio/Snap.Hutao/issues/2576)
+- **【🔨修复】** 修复了紧凑网页窗口非首次启动会引发崩溃的问题 [#2586](https://github.com/DGP-Studio/Snap.Hutao/issues/2586)
+- **【🔨修复】** 修复了部分设备无法绑定热键的问题 [#2570](https://github.com/DGP-Studio/Snap.Hutao/issues/2570) [#2585](https://github.com/DGP-Studio/Snap.Hutao/issues/2585)
+
+## 1.14.2 <Badge text="hotfix" type="warning" />
+
+- **【🔨修复】** 修复了悬浮窗窗口在使用快捷键隐藏后会因为切换窗口重新显示的问题
 
 ## 1.14.1 <Badge text="hotfix" type="warning" />
 
