@@ -55,7 +55,7 @@ background="rgba(253, 233, 233, 0.45)"
 title="夸克网盘"
 desc="Snap Hutao Deployment 的夸克网盘镜像"
 logo="https://gw.alicdn.com/imgextra/i3/O1CN018r2tKf28YP7ev0fPF_!!6000000007944-2-tps-48-48.png"
-link="https://pan.quark.cn/s/1c9d124a26f0"
+link="https://pan.quark.cn/s/d73ceb415ad9"
 background="rgba(199, 232, 255, 0.15)"
 />
 
