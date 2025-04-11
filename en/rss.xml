@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 05 Apr 2025 11:40:37 GMT</pubDate>
-    <lastBuildDate>Sat, 05 Apr 2025 11:40:37 GMT</lastBuildDate>
+    <pubDate>Fri, 11 Apr 2025 10:34:38 GMT</pubDate>
+    <lastBuildDate>Fri, 11 Apr 2025 10:34:38 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,74 +112,25 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.14.3</title>
+      <title>🎉 Successfully Updated to Version 1.14.4</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.3</source>
-      <description>🎉 Successfully Updated to Version 1.14.3 | English 1.14.3 [✨Optimization] Added independent switch for overlay window, rollback injection switch panel #2582 [🔨Fix] Fixed the i...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.4</source>
+      <description>🎉 Successfully Updated to Version 1.14.4 | English [🎉New] Resin estimation in the Dev Plan now calculates combinable materials. [🎉New] Added an option for hotkeys to take eff...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
-<p>1.14.3</p>
 <ul>
-<li><strong>[✨Optimization]</strong> Added independent switch for overlay window, rollback injection switch panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2582" target="_blank" rel="noopener noreferrer">#2582</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where application redirection failed <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2576" target="_blank" rel="noopener noreferrer">#2576</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where compact web window would crash on non-first launch <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2586" target="_blank" rel="noopener noreferrer">#2586</a></li>
-<li><strong>[🔨Fix]</strong> Fixed the issue where some devices could not bind hotkeys <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2570" target="_blank" rel="noopener noreferrer">#2570</a> <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2585" target="_blank" rel="noopener noreferrer">#2585</a></li>
-</ul>
-<p>1.14.2</p>
-<ul>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the overlay window will resume visible when hidden by hotkey and switch between windows</li>
-</ul>
-<p>1.14.1</p>
-<ul>
-<li><strong>[🎉New]</strong> Added a custom shortcut key to control the display and hiding of the overlay window</li>
-</ul>
-<p>1.14.0</p>
-<ul>
-<li><strong>[🎉New]</strong> Added a shortcut key to toggle window display/hide for compact web window <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2382" target="_blank" rel="noopener noreferrer">#2382</a></li>
-<li><strong>[🎉New]</strong> Added a sign-in card on the homepage <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1322" target="_blank" rel="noopener noreferrer">#1322</a></li>
-<li><strong>[🎉New]</strong> Added a semi-transparent overlay window in the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2506" target="_blank" rel="noopener noreferrer">#2506</a>
-<ul>
-<li>The overlay window will replace the original hotkey prompt in the title bar</li>
-<li>The overlay window will replace the original injection options in the game launch page</li>
-</ul>
-</li>
-<li><strong>[🎉New]</strong> Added an injection option to remove the elemental burst camera close-up</li>
-<li><strong>[🎉New]</strong> Added an injection option to remove battle damage numbers</li>
-<li><strong>[🎉New]</strong> Added an injection option to apply touch input <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2535" target="_blank" rel="noopener noreferrer">#2535</a></li>
-<li><strong>[🎉New]</strong> Added platform type parameter in the game launch page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2521" target="_blank" rel="noopener noreferrer">#2521</a></li>
-<li><strong>[🎉New]</strong> Added sorting options in the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2512" target="_blank" rel="noopener noreferrer">#2512</a></li>
-<li><strong>[🎉New]</strong> Added display of character and weapon promotion levels in the My Characters page</li>
-<li><strong>[🎉New]</strong> Added filters in the Development Plan</li>
-<li><strong>[✨Optimization]</strong> Introduced a new updater <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2456" target="_blank" rel="noopener noreferrer">#2456</a></li>
-<li><strong>[✨Optimization]</strong> Resource download progress in the guide page will now inherit existing progress</li>
-<li><strong>[✨Optimization]</strong> Correct prompts when no available game characters after community login</li>
-<li><strong>[✨Optimization]</strong> Simplified the logic of the injection feature <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2531" target="_blank" rel="noopener noreferrer">#2531</a></li>
-<li><strong>[✨Optimization]</strong> The My Characters page will now automatically scroll to the top after switching characters <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1731" target="_blank" rel="noopener noreferrer">#1731</a></li>
-<li><strong>[✨Optimization]</strong> Character development will now recognize if the character has ascended <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2403" target="_blank" rel="noopener noreferrer">#2403</a></li>
-<li><strong>[✨Optimization]</strong> Added validation before changing the data directory</li>
-<li><strong>[✨Optimization]</strong> Added relevant prompt texts in some settings</li>
-<li><strong>[✨Optimization]</strong> Optimized the lag issues on some pages</li>
-<li><strong>[✨Optimization]</strong> Fixed many memory leak issues</li>
-<li><strong>[✨Optimization]</strong> Optimized the display text of hotkey prompts</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the main window closing could cause a crash during real-time note auto-refresh</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the tray popup would not reappear after pressing Alt + F4 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2532" target="_blank" rel="noopener noreferrer">#2532</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where clicking to change email/password/logout on Snap Hutao Passport page might not respond</li>
-<li><strong>[🔨Fix]</strong> Fixed an error prompt when the game directory is not set</li>
-<li><strong>[🔨Fix]</strong> Fixed a crash issue when attempting to take over the game process <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2540" target="_blank" rel="noopener noreferrer">#2540</a></li>
-<li><strong>[🔨Fix]</strong> Fixed a freeze issue when updating the game on the channel server <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2327" target="_blank" rel="noopener noreferrer">#2327</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the wish timer incorrectly included some permanent characters</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where removing an achievement archive in the Achievement Management page would not automatically switch to the next archive <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2519" target="_blank" rel="noopener noreferrer">#2519</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where some achievement versions were displayed incorrectly in the Achievement Management page</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where Embedded Yae could not be used normally in version 5.5</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where some monsters were displayed incorrectly in the Spiral Abyss</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where resin estimation data in the Development Plan could be incorrect</li>
-<li><strong>[🔨Fix]</strong> Fixed a crash issue when drawing UI under certain scaling conditions</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where WebView2 could not load properly in some cases</li>
-<li><strong>[🔨Fix]</strong> Fixed a freeze issue when closing the window before WebView2 finished loading <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2544" target="_blank" rel="noopener noreferrer">#2544</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where some devices could not set the language correctly</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where some images could not be displayed correctly</li>
+<li><strong>[🎉New]</strong> Resin estimation in the Dev Plan now calculates combinable materials.</li>
+<li><strong>[🎉New]</strong> Added an option for hotkeys to take effect only after the game starts. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2606" target="_blank" rel="noopener noreferrer">#2606</a></li>
+<li><strong>[✨Optimization]</strong> Game file management now prompts required and available space before starting operations.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the UI might freeze in certain situations. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2617" target="_blank" rel="noopener noreferrer">#2617</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where closing the window might cause a crash in certain situations.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the notification area icon was always created. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2590" target="_blank" rel="noopener noreferrer">#2590</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the updater could not start properly on some systems. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2597" target="_blank" rel="noopener noreferrer">#2597</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where exiting the game might cause a crash in certain situations.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the frame rate setting in the game launch page was incorrectly bound to the field of view toggle. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2596" target="_blank" rel="noopener noreferrer">#2596</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where uploading data on the Spiral Abyss page redirected to an incorrect login page. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2607" target="_blank" rel="noopener noreferrer">#2607</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -766,6 +717,19 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>1.14.4 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Resin estimation in the Dev Plan now calculates combinable materials.</li>
+<li><strong>[🎉New]</strong> Added an option for hotkeys to take effect only after the game starts. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2606" target="_blank" rel="noopener noreferrer">#2606</a></li>
+<li><strong>[✨Optimization]</strong> Game file management now prompts required and available space before starting operations.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the UI might freeze in certain situations. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2617" target="_blank" rel="noopener noreferrer">#2617</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where closing the window might cause a crash in certain situations.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the notification area icon was always created. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2590" target="_blank" rel="noopener noreferrer">#2590</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the updater could not start properly on some systems. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2597" target="_blank" rel="noopener noreferrer">#2597</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where exiting the game might cause a crash in certain situations.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the frame rate setting in the game launch page was incorrectly bound to the field of view toggle. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2596" target="_blank" rel="noopener noreferrer">#2596</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where uploading data on the Spiral Abyss page redirected to an incorrect login page. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2607" target="_blank" rel="noopener noreferrer">#2607</a></li>
+</ul>
 <h2>1.14.3 </h2>
 <ul>
 <li><strong>[✨Optimization]</strong> Added independent switch for overlay window, rollback injection switch panel <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2582" target="_blank" rel="noopener noreferrer">#2582</a></li>
