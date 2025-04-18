@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 11 Apr 2025 10:34:38 GMT</pubDate>
-    <lastBuildDate>Fri, 11 Apr 2025 10:34:38 GMT</lastBuildDate>
+    <pubDate>Fri, 18 Apr 2025 07:12:05 GMT</pubDate>
+    <lastBuildDate>Fri, 18 Apr 2025 07:12:05 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -611,7 +611,7 @@ The above image shows the expected display effect of this step under a complete 
       <content:encoded><![CDATA[
 <p>Follow this quick start guide to quickly set up Snap Hutao.</p>
 <h2></h2>
-<p>| Requirement                | Specification                                                    |
+<p>| Requirement                      | Specification                                                         |
 |</p>
 ]]></content:encoded>
       <enclosure url="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png" type="image/png"/>
