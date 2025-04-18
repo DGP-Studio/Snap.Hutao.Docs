@@ -19,19 +19,22 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> 最低システム要件
 
-| 要件                               | 仕様                                                             |
-| ---------------------------------- | ---------------------------------------------------------------- |
-| **最低実行可能システムバージョン** | Windows 10 Build 19045 (22H2)<br/> Windows 11 Build 22621 (22H2) |
-| **推奨システムバージョン**         | Windows 11 Build 22621 (22H2) 以降                               |
-| **必須コンポーネント**             | Windows Update、App Installer                                    |
-| オプションコンポーネント           | WebView2 Runtime、**MSVC ランタイム**                            |
+| 要件              | 仕様                                                                 |
+|-----------------|--------------------------------------------------------------------|
+| **最小対応OSバージョン** | Windows 10 Build 19045.5371（22H2）<br/>Windows 11 Build 22621（22H2） |
+| **推奨OSバージョン**   | Windows 11 Build 26100（24H2）以降                                     |
+| **必須コンポーネント**   | Windows Update、App Installer                                       |
+| 任意コンポーネント       | WebView2 Runtime、**MSVC ランタイム**                                    |
 
-**サポートされていないシステムバージョン**：
+**非対応のOSバージョン**:
 
-1. **LTSC および LTSB バージョン**は、十分な新しいバージョンの MSIX Core を含んでいないため、直接インストールをサポートしていません。手動で処理する必要があります。
-2. **エンタープライズ版および軽量版システムはサポートされていません。Microsoft 公式のフルバージョンシステム以外に起因する問題は、積極的に処理されません**。
-3. Windows 10 Build 19041 もインストールできますが、カーネルの問題により一部の機能が使用できなくなるため、このバージョンでの Snap Hutao の問題は処理されません。
-4. Windows Insider プレビュー版の問題は処理されません。
+1. Windows Enterprise（**LTSCおよびLTSBブランチ**を含む）
+2. Windows IoT バージョン
+3. **軽量化または非公式なWindowsシステム。Microsoft公式フルバージョン以外で発生した問題には対応しません**
+4. Windows Insider Preview バージョンに関する問題には対応しません
+
+> **2025年1月のWindows更新プログラム [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) は、Windows 10上でSnap Hutaoを実行するための必須条件です。これはBuild 19045.5371以降に含まれています。**
+
 
 ## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> Snap Hutao のダウンロード
 

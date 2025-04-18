@@ -19,19 +19,22 @@ Ikuti dokumen mulai cepat ini, Anda akan dapat dengan cepat mengatur Snap Hutao 
 
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> Persyaratan Sistem Minimum
 
-| Persyaratan                    | Spesifikasi                                                      |
-| ------------------------------ | ---------------------------------------------------------------- |
-| **Versi Sistem Operasi Min.**  | Windows 10 Build 19045 (22H2)<br/> Windows 11 Build 22621 (22H2) |
-| **Rekomendasi Sistem Operasi** | Windows 11 Build 22621 (22H2) atau versi lebih baru              |
-| **Komponen Wajib**             | Windows Update, App Installer                                    |
-| Komponen Opsional              | WebView2 Runtime, **MSVC Runtime Library**                       |
+| Persyaratan                        | Spesifikasi                                                           |
+|------------------------------------|-----------------------------------------------------------------------|
+| **Versi Minimum OS yang Didukung** | Windows 10 Build 19045.5371 (22H2)<br/> Windows 11 Build 22621 (22H2) |
+| **Versi OS yang Direkomendasikan** | Windows 11 Build 26100 (24H2) atau yang lebih baru                    |
+| **Komponen Wajib**                 | Windows Update, App Installer                                         |
+| Komponen Opsional                  | WebView2 Runtime, **MSVC Runtime**                                    |
 
-**Versi Sistem Operasi yang Tidak Didukung**：
+**Versi OS yang Tidak Didukung**:
 
-1. **Versi LTSC dan LTSB** tidak mendukung instalasi langsung karena tidak menyertakan MSIX Core versi baru yang cukup, dan perlu diproses secara manual.
-2. **Edisi Enterprise dan edisi ringan tidak didukung, semua masalah dari sistem non-Microsoft versi lengkap tidak akan ditangani secara aktif.**
-3. Windows 10 Build 19041 juga dapat diinstal, tetapi beberapa fungsi tidak akan berfungsi karena masalah kernel, oleh karena itu masalah Snap Hutao pada versi ini tidak akan ditangani.
-4. Masalah pada versi pratinjau Windows Insider tidak akan ditangani.
+1. Windows Enterprise, termasuk cabang **LTSC dan LTSB**
+2. Versi Windows IoT
+3. **Sistem yang dimodifikasi atau versi ringan yang bukan rilis resmi dari Microsoft tidak akan didukung secara aktif**
+4. Masalah pada versi Windows Insider Preview tidak akan diproses
+
+> **Pembaruan Windows Januari 2025 [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) adalah syarat wajib untuk menjalankan Snap Hutao di Windows 10. Pembaruan ini sudah termasuk dalam Build 19045.5371 ke atas.**
+
 
 ## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> Unduh Snap Hutao
 

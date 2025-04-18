@@ -15,19 +15,22 @@ Follow this quick start guide to quickly set up Snap Hutao.
 
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> Minimum System Requirements
 
-| Requirement                | Specification                                                    |
-| -------------------------- | ---------------------------------------------------------------- |
-| **Minimum OS Version**     | Windows 10 Build 19045 (22H2)<br/> Windows 11 Build 22621 (22H2) |
-| **Recommended OS Version** | Windows 11 Build 22621 (22H2) or later versions                  |
-| **Required Components**    | Windows Update, App Installer                                    |
-| Optional Components        | WebView2 Runtime, **MSVC Runtime Library**                       |
+| Requirement                      | Specification                                                         |
+|----------------------------------|-----------------------------------------------------------------------|
+| **Minimum Supported OS Version** | Windows 10 Build 19045.5371 (22H2)<br/> Windows 11 Build 22621 (22H2) |
+| **Recommended OS Version**       | Windows 11 Build 26100 (24H2) or later                                |
+| **Required Components**          | Windows Update, App Installer                                         |
+| Optional Components              | WebView2 Runtime, **MSVC Runtime**                                    |
 
 **Unsupported OS Versions**:
 
-1.  **LTSC and LTSB versions** are not supported due to not including a sufficiently new version of MSIX Core, and require manual handling to install.
-2.  **Enterprise and modified versions of Windows are not supported. Issues from any non-Microsoft official full version of system will not be actively addressed.**
-3.  Windows 10 Build 19041 can also be installed, but some functions may not be available due to kernel issues. Therefore, issues with Snap Hutao under this version will not be addressed.
-4.  Issues with Windows Insider preview versions will not be addressed.
+1. Windows Enterprise Edition, including **LTSC and LTSB branches**
+2. Windows IoT editions
+3. **Lightweight or modified versions of Windows; issues on non-official Microsoft full versions will not be handled**
+4. Issues on Windows Insider Preview builds will not be addressed
+
+> **The January 2025 Windows update [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) is a mandatory requirement for running Snap Hutao on Windows 10. It is included in Windows 10 Build 19045.5371 and later.**
+
 
 ## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> Download Snap Hutao
 

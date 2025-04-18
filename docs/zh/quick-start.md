@@ -15,19 +15,21 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> 最低系统要求
 
-| 要求                   | 规格                                                             |
-| ---------------------- | ---------------------------------------------------------------- |
-| **最低可运行系统版本** | Windows 10 Build 19045 (22H2)<br/> Windows 11 Build 22621 (22H2) |
-| **推荐系统版本**       | Windows 11 Build 22621 (22H2) 或更高版本                         |
-| **必要组件**           | Windows Update, App Installer                                    |
-| 可选组件               | WebView2 Runtime, **MSVC 运行库**                                |
+| 要求                  | 规格                                                                                                                                                                                                 |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **最低可运行系统版本**       | Windows 10 Build 19045.5371 (22H2)<br/> Windows 11 Build 22621 (22H2)                                                                                                                              |
+| **推荐系统版本**          | Windows 11 Build 26100 (24H2) 或更高版本                                                                                                                                                                |
+| **必要组件**            | Windows Update, App Installer                                                                                                                                                                      |
+| 可选组件                | WebView2 Runtime, **MSVC 运行库**                                                                                                                                                                     |
 
 **不支持的系统版本**：
 
-1. **LTSC 和 LTSB 版本**由于不包含足够新版本的 MSIX Core，故不支持直接安装，需要手动处理。
-2. **不支持企业版和精简版系统，所有来自非微软官方完整版系统的问题均不会积极处理**。
-3. Windows 10 Build 19041 亦可以安装，但部分功能会因内核问题无法使用，故该版本下的胡桃工具箱问题将不会被处理。
+1. Windows 企业版，包括**LTSC 和 LTSB 分支**
+2. Windows IoT 版本
+3. **精简版系统，所有来自非微软官方完整版系统的问题均不会积极处理**。
 4. Windows Insider 预览版本的问题将不会被处理。
+
+> **2025年1月发布的 Windows [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) 补丁是在 Windows 10 平台运行 Snap Hutao 的必要条件，其已包含在 Windows 10 Build 19045.5371 及更高版本中。**
 
 ## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> 下载胡桃工具箱
 
