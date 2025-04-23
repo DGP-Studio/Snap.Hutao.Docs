@@ -99,16 +99,6 @@ background="rgba(155, 233, 168, 0.15)"
 
 もしあなたの力で Snap Hutao プロジェクトをより良くすることに興味がある場合は、ぜひ[ご参加ください](development/join.md)！
 
-### <HopeIcon icon="iconfont icon-refresh" size="1.5rem" color="rgb(127, 186, 0)" /> Microsoft Store 版から最新版へのアップグレード
-
-> 詳しくは[1.9.0 バージョンの重大な変更点](blog/version-1-9-0-breaking-changes.md)をご覧ください。
-
-Snap Hutao Microsoft Store 版（バージョン 1.4.11 から 1.8.5 の間）をインストール済みの場合は、古いバージョンをアンインストールしてから新規インストールを行う必要があります。
-
-- ドキュメントに記載されている[アンインストール方法](advanced/uninstall.html)に従って、古いバージョンのアプリケーションをアンインストールします。
-  - データを手動で削除しない限り、データは影響を受けません。
-- 上記の方法に従って、新しいバージョンのアプリケーションを新規インストールします。
-
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Snap Hutao のアップデート
 
 特記事項がない限り、[Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) を実行するか、最新版の MSIX インストールパッケージをインストールすることで、アップデートを完了できます。
