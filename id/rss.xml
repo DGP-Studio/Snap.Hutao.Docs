@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Fri, 18 Apr 2025 07:12:05 GMT</pubDate>
-    <lastBuildDate>Fri, 18 Apr 2025 07:12:05 GMT</lastBuildDate>
+    <pubDate>Wed, 23 Apr 2025 05:48:34 GMT</pubDate>
+    <lastBuildDate>Wed, 23 Apr 2025 05:48:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -735,6 +735,10 @@ Karena kedua server memiliki berbagai jenis batasan, implementasi beberapa fitur
       <pubDate>Fri, 22 Dec 2023 18:21:54 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Dokumen ini berlaku untuk pengguna yang melakukan upgrade dari Snap Hutao versi <strong>1.4.11 hingga 1.8.4</strong> ke versi 1.9.0 dan yang lebih tinggi.</p>
+<div class="hint-container important">
+<p class="hint-container-title">Dokumen ini telah diarsipkan</p>
+<p>Halaman ini telah diarsipkan. Untuk menginstal Snap Hutao, silakan kunjungi <a href="/id/quick-start.html" target="_blank">Panduan Cepat</a> untuk informasi lebih lanjut.</p>
+</div>
 <h2>Pengantar</h2>
 <p>Snap Hutao adalah aplikasi sandbox Windows dalam format MSIX, menyediakan kemudahan instalasi dan keamanan aplikasi AppX. Penandatanganan kode yang wajib dalam paket instalasi adalah faktor penting dalam memastikan keamanan. Jika paket instalasi dimodifikasi, Pemasang Aplikasi Windows akan mengeluarkan kesalahan karena tanda tangan terganggu, mencegah instalasi pengguna. Kita bisa melihat praktik ini di mana-mana dalam sistem operasi mobile saat ini. Di platform Windows, karena prosedur verifikasi identitas yang ketat, harga sertifikat penandatanganan kode tetap tinggi.</p>
 <p>Sebelum versi 1.4.11, Snap Hutao menggunakan sertifikat yang ditandatangani sendiri. Dalam mode ini, pengguna harus secara manual menginstal sertifikat DGP-Studio untuk mengizinkan instalasi aplikasi yang ditandatangani oleh sertifikat DGP-Studio di komputer mereka. Mulai dari versi 1.4.11, Snap Hutao terdaftar di Microsoft Store, dan Microsoft memberikan GUID <code>35C8E923-85DF-49A7-9172-B39DC6312C52</code> untuk akun pengembang Hutao. GUID ini digunakan sebagai nama penerbit Snap Hutao, menyediakan tanda tangan gratis khusus (hanya digunakan untuk aplikasi Microsoft Store). Jika Anda terbiasa memperbarui Snap Hutao dengan paket MSIX, Anda harus selalu melihat GUID ini di kolom penerbit.</p>

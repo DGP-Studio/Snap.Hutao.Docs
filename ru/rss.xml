@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Fri, 18 Apr 2025 07:12:05 GMT</pubDate>
-    <lastBuildDate>Fri, 18 Apr 2025 07:12:05 GMT</lastBuildDate>
+    <pubDate>Wed, 23 Apr 2025 05:48:34 GMT</pubDate>
+    <lastBuildDate>Wed, 23 Apr 2025 05:48:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -1547,11 +1547,15 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/support-
       <link>https://hut.ao/ru/blog/version-1-9-0-breaking-changes.html</link>
       <guid>https://hut.ao/ru/blog/version-1-9-0-breaking-changes.html</guid>
       <source url="https://hut.ao/ru/rss.xml">Explanation of Breaking Changes in Version 1.9.0</source>
-      <description>Explanation of Breaking Changes in Version 1.9.0 This document is applicable to users upgrading from Snap Hutao versions 1.4.11 to 1.8.4 to version 1.9.0 and higher. Introductio...</description>
+      <description>Explanation of Breaking Changes in Version 1.9.0 This document is applicable to users upgrading from Snap Hutao versions 1.4.11 to 1.8.4 to version 1.9.0 and higher. Этот докуме...</description>
       <category>Dev Logs</category>
       <pubDate>Tue, 19 Dec 2023 08:26:24 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>This document is applicable to users upgrading from Snap Hutao versions <strong>1.4.11 to 1.8.4</strong> to version 1.9.0 and higher.</p>
+<div class="hint-container important">
+<p class="hint-container-title">Этот документ был заархивирован</p>
+<p>Эта страница была заархивирована. Чтобы установить Snap Hutao, перейдите на <a href="/ru/quick-start.html" target="_blank">Быстрый старт</a> для получения информации.</p>
+</div>
 <h2>Introduction</h2>
 <p>Snap Hutao is a Windows sandbox application in MSIX format, providing the convenience of installation and the security of AppX applications. Mandatory code signing in installation packages is a crucial factor in ensuring security. If the installation package is modified, Windows App Installer will raise an error due to the signature being compromised, preventing user installation. We can see this practice everywhere in today's mobile operating systems. On the Windows platform, due to strict identity verification procedure, the prices of code signing certificates have remained high.</p>
 <p>Before version 1.4.11, Snap Hutao used a self-signed certificate. In this mode, users had to manually install DGP-Studio's certificate to allow the installation of applications signed by DGP-Studio's certificate on their computers. Starting from version 1.4.11, Snap Hutao was listed on the Microsoft Store, and Microsoft provided a GUID <code>35C8E923-85DF-49A7-9172-B39DC6312C52</code> for Hutao's developer account. This GUID was used as the publisher name of Snap Hutao, providing a special free signature (only used for Microsoft Store apps). If you are accustomed to updating the Snap Hutao with MSIX packages, you should always see this GUID in the publisher column.</p>

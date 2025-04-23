@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 18 Apr 2025 07:12:05 GMT</pubDate>
-    <lastBuildDate>Fri, 18 Apr 2025 07:12:05 GMT</lastBuildDate>
+    <pubDate>Wed, 23 Apr 2025 05:48:34 GMT</pubDate>
+    <lastBuildDate>Wed, 23 Apr 2025 05:48:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -363,6 +363,10 @@
       <pubDate>Tue, 19 Dec 2023 08:26:24 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>本文内容适用于Snap Hutao <strong>1.4.11~1.8.4 版本</strong>升级至 1.9.0 及更高版本</p>
+<div class="hint-container important">
+<p class="hint-container-title">本文已归档</p>
+<p>本页面已归档。如需安装 Snap Hutao，请前往<a href="/zh/quick-start.html" target="_blank">快速开始</a>获取信息。</p>
+</div>
 <h2>前言</h2>
 <p>Snap Hutao 是一个使用 MSIX 格式的 Windows 沙盒应用，它带来了安装的便利性和 AppX 应用的安全性。对安装包强制性的代码签名是保证安全性的重要因素之一：在安装包被篡改时，Windows App Installer 会因为签名被破坏而弹出错误，进而禁止用户安装，这在主流移动端操作系统中已经被普及。在 Windows 平台下，由于严格的身份审查制度，代码签名证书价格一直保持在很高的价格上。</p>
 <p>Snap Hutao 在1.4.11版本前，使用了自签名证书的方法。在这种模式下，用户需要手动安装 DGP-Studio 的证书，才能让操作系统允许 DGP-Studio 证书签名的应用安装于计算机上。自1.4.11版本起，Snap Hutao 上架微软商店，微软为胡桃的开发者账号提供了一个 GUID <code>35C8E923-85DF-49A7-9172-B39DC6312C52</code> 并以此为用户名为胡桃工具箱提供了免费的签名。如果你习惯使用 msix 安装包更新胡桃工具箱，那么你应总是能在发布者一栏中看到这个 GUID。</p>
