@@ -8,6 +8,13 @@ comment: false
 
 Dokumen ini berlaku untuk pengguna yang melakukan upgrade dari Snap Hutao versi **1.4.11 hingga 1.8.4** ke versi 1.9.0 dan yang lebih tinggi.
 
+::: important Dokumen ini telah diarsipkan
+
+Halaman ini telah diarsipkan. Untuk menginstal Snap Hutao, silakan kunjungi [Panduan Cepat](../quick-start.md) untuk informasi lebih lanjut.
+
+:::
+
+
 ## Pengantar
 
 Snap Hutao adalah aplikasi sandbox Windows dalam format MSIX, menyediakan kemudahan instalasi dan keamanan aplikasi AppX. Penandatanganan kode yang wajib dalam paket instalasi adalah faktor penting dalam memastikan keamanan. Jika paket instalasi dimodifikasi, Pemasang Aplikasi Windows akan mengeluarkan kesalahan karena tanda tangan terganggu, mencegah instalasi pengguna. Kita bisa melihat praktik ini di mana-mana dalam sistem operasi mobile saat ini. Di platform Windows, karena prosedur verifikasi identitas yang ketat, harga sertifikat penandatanganan kode tetap tinggi.

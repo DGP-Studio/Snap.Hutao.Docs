@@ -8,6 +8,13 @@ comment: false
 
 This document is applicable to users upgrading from Snap Hutao versions **1.4.11 to 1.8.4** to version 1.9.0 and higher.
 
+::: important This document has been archived
+
+This page has been archived. To install Snap Hutao, please visit [Quick Start](../quick-start.md) for more information.
+
+:::
+
+
 ## Introduction
 
 Snap Hutao is a Windows sandbox application in MSIX format, providing the convenience of installation and the security of AppX applications. Mandatory code signing in installation packages is a crucial factor in ensuring security. If the installation package is modified, Windows App Installer will raise an error due to the signature being compromised, preventing user installation. We can see this practice everywhere in today's mobile operating systems. On the Windows platform, due to strict identity verification procedure, the prices of code signing certificates have remained high.
