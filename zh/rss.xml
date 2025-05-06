@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 23 Apr 2025 05:48:34 GMT</pubDate>
-    <lastBuildDate>Wed, 23 Apr 2025 05:48:34 GMT</lastBuildDate>
+    <pubDate>Tue, 06 May 2025 06:22:27 GMT</pubDate>
+    <lastBuildDate>Tue, 06 May 2025 06:22:27 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,25 +115,27 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.14.4 版本</title>
+      <title>🎉 已成功更新至 1.14.5 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.14.4 版本</source>
-      <description>🎉 已成功更新至 1.14.4 版本 简体中文 | 【🎉新增】 养成计划树脂预估现在会计算可合成的材料 【🎉新增】 快捷键新增仅在游戏启动后生效选项 #2606 【✨优化】 游戏文件管理开始操作前会提示所需空间及可用空间 【🔨修复】 修复了部分情况下 UI 可能会异常卡死的问题 #2617 【🔨修复】 修复了部分情况下关闭窗口时可能会导致崩溃...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.14.5 版本</source>
+      <description>🎉 已成功更新至 1.14.5 版本 简体中文 | 【🔨修复】 修复了实时便笺页面启动游戏跳转后不会自动切换米游社账号的问题 #2623 【🔨修复】 修复了游戏启动后尝试使用 Embedded Yae 导入成就不会结束游戏进程的问题 #2630 【🔨修复】 修复了我的角色页面养成计算全部角色与武器时不会判断角色是否突破的问题 #2658 【🔨...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🎉新增】</strong> 养成计划树脂预估现在会计算可合成的材料</li>
-<li><strong>【🎉新增】</strong> 快捷键新增仅在游戏启动后生效选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2606" target="_blank" rel="noopener noreferrer">#2606</a></li>
-<li><strong>【✨优化】</strong> 游戏文件管理开始操作前会提示所需空间及可用空间</li>
-<li><strong>【🔨修复】</strong> 修复了部分情况下 UI 可能会异常卡死的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2617" target="_blank" rel="noopener noreferrer">#2617</a></li>
-<li><strong>【🔨修复】</strong> 修复了部分情况下关闭窗口时可能会导致崩溃的问题</li>
-<li><strong>【🔨修复】</strong> 修复了通知区域图标始终创建的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2590" target="_blank" rel="noopener noreferrer">#2590</a></li>
-<li><strong>【🔨修复】</strong> 修复了部分系统下更新器无法正常启动的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2597" target="_blank" rel="noopener noreferrer">#2597</a></li>
-<li><strong>【🔨修复】</strong> 修复了部分情况下退出游戏会导致崩溃的问题</li>
-<li><strong>【🔨修复】</strong> 修复了启动游戏页面注入选项中帧率设置错误与视野开关绑定的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2596" target="_blank" rel="noopener noreferrer">#2596</a></li>
-<li><strong>【🔨修复】</strong> 修复了深境螺旋页面在上传数据时跳转登录会跳转到错误页面的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2607" target="_blank" rel="noopener noreferrer">#2607</a></li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺页面启动游戏跳转后不会自动切换米游社账号的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2623" target="_blank" rel="noopener noreferrer">#2623</a></li>
+<li><strong>【🔨修复】</strong> 修复了游戏启动后尝试使用 Embedded Yae 导入成就不会结束游戏进程的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2630" target="_blank" rel="noopener noreferrer">#2630</a></li>
+<li><strong>【🔨修复】</strong> 修复了我的角色页面养成计算全部角色与武器时不会判断角色是否突破的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2658" target="_blank" rel="noopener noreferrer">#2658</a></li>
+<li><strong>【🔨修复】</strong> 修复了删除祈愿记录存档后不会尝试重新选择首个存档的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2659" target="_blank" rel="noopener noreferrer">#2659</a></li>
+<li><strong>【🔨修复】</strong> 修复了尝试预下载会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2660" target="_blank" rel="noopener noreferrer">#2660</a></li>
+<li><strong>【🔨修复】</strong> 修复了特定情况下下载图片文件失败后可能导致崩溃的问题</li>
+<li><strong>【✨优化】</strong> 优化了启动时体验
+<ul>
+<li>启动时迁移数据库失败会弹窗提示</li>
+<li>关闭或重启时会等待启动初始化完成</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -754,7 +756,22 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.14.4 </h2>
+<h2>1.14.5 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了实时便笺页面启动游戏跳转后不会自动切换米游社账号的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2623" target="_blank" rel="noopener noreferrer">#2623</a></li>
+<li><strong>【🔨修复】</strong> 修复了游戏启动后尝试使用 Embedded Yae 导入成就不会结束游戏进程的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2630" target="_blank" rel="noopener noreferrer">#2630</a></li>
+<li><strong>【🔨修复】</strong> 修复了我的角色页面养成计算全部角色与武器时不会判断角色是否突破的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2658" target="_blank" rel="noopener noreferrer">#2658</a></li>
+<li><strong>【🔨修复】</strong> 修复了删除祈愿记录存档后不会尝试重新选择首个存档的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2659" target="_blank" rel="noopener noreferrer">#2659</a></li>
+<li><strong>【🔨修复】</strong> 修复了尝试预下载会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2660" target="_blank" rel="noopener noreferrer">#2660</a></li>
+<li><strong>【🔨修复】</strong> 修复了特定情况下下载图片文件失败后可能导致崩溃的问题</li>
+<li><strong>【✨优化】</strong> 优化了启动时体验
+<ul>
+<li>启动时迁移数据库失败会弹窗提示</li>
+<li>关闭或重启时会等待启动初始化完成</li>
+</ul>
+</li>
+</ul>
+<h2>1.14.4</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 养成计划树脂预估现在会计算可合成的材料</li>
 <li><strong>【🎉新增】</strong> 快捷键新增仅在游戏启动后生效选项 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2606" target="_blank" rel="noopener noreferrer">#2606</a></li>

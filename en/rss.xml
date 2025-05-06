@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 23 Apr 2025 05:48:34 GMT</pubDate>
-    <lastBuildDate>Wed, 23 Apr 2025 05:48:34 GMT</lastBuildDate>
+    <pubDate>Tue, 06 May 2025 06:22:27 GMT</pubDate>
+    <lastBuildDate>Tue, 06 May 2025 06:22:27 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,25 +112,27 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.14.4</title>
+      <title>🎉 Successfully Updated to Version 1.14.5</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.4</source>
-      <description>🎉 Successfully Updated to Version 1.14.4 | English [🎉New] Resin estimation in the Dev Plan now calculates combinable materials. [🎉New] Added an option for hotkeys to take eff...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.5</source>
+      <description>🎉 Successfully Updated to Version 1.14.5 | English [🔨Fix] Fixed an issue where the miHoYo account would not automatically switch after launching the game from the Real-time No...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Resin estimation in the Dev Plan now calculates combinable materials.</li>
-<li><strong>[🎉New]</strong> Added an option for hotkeys to take effect only after the game starts. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2606" target="_blank" rel="noopener noreferrer">#2606</a></li>
-<li><strong>[✨Optimization]</strong> Game file management now prompts required and available space before starting operations.</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the UI might freeze in certain situations. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2617" target="_blank" rel="noopener noreferrer">#2617</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where closing the window might cause a crash in certain situations.</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the notification area icon was always created. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2590" target="_blank" rel="noopener noreferrer">#2590</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the updater could not start properly on some systems. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2597" target="_blank" rel="noopener noreferrer">#2597</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where exiting the game might cause a crash in certain situations.</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where the frame rate setting in the game launch page was incorrectly bound to the field of view toggle. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2596" target="_blank" rel="noopener noreferrer">#2596</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where uploading data on the Spiral Abyss page redirected to an incorrect login page. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2607" target="_blank" rel="noopener noreferrer">#2607</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the miHoYo account would not automatically switch after launching the game from the Real-time Notes page. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2623" target="_blank" rel="noopener noreferrer">#2623</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where using Embedded Yae to import achievements after launching the game would not terminate the game process. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2630" target="_blank" rel="noopener noreferrer">#2630</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the Dev Plan on the My Characters page would not check if characters were ascended when calculating all characters and weapons. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2658" target="_blank" rel="noopener noreferrer">#2658</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where deleting a wish record archive would not attempt to reselect the first archive. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2659" target="_blank" rel="noopener noreferrer">#2659</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when attempting to pre-download. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2660" target="_blank" rel="noopener noreferrer">#2660</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue that could occur when failing to download image files under specific conditions.</li>
+<li><strong>[✨Optimization]</strong> Improved the startup experience:
+<ul>
+<li>A popup will now appear if database migration fails during startup.</li>
+<li>The application will wait for initialization to complete before closing or restarting.</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -721,7 +723,22 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.14.4 </h2>
+<h2>1.14.5 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the miHoYo account would not automatically switch after launching the game from the Real-time Notes page. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2623" target="_blank" rel="noopener noreferrer">#2623</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where using Embedded Yae to import achievements after launching the game would not terminate the game process. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2630" target="_blank" rel="noopener noreferrer">#2630</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the Dev Plan on the My Characters page would not check if characters were ascended when calculating all characters and weapons. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2658" target="_blank" rel="noopener noreferrer">#2658</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where deleting a wish record archive would not attempt to reselect the first archive. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2659" target="_blank" rel="noopener noreferrer">#2659</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when attempting to pre-download. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2660" target="_blank" rel="noopener noreferrer">#2660</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue that could occur when failing to download image files under specific conditions.</li>
+<li><strong>[✨Optimization]</strong> Improved the startup experience:
+<ul>
+<li>A popup will now appear if database migration fails during startup.</li>
+<li>The application will wait for initialization to complete before closing or restarting.</li>
+</ul>
+</li>
+</ul>
+<h2>1.14.4</h2>
 <ul>
 <li><strong>[🎉New]</strong> Resin estimation in the Dev Plan now calculates combinable materials.</li>
 <li><strong>[🎉New]</strong> Added an option for hotkeys to take effect only after the game starts. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2606" target="_blank" rel="noopener noreferrer">#2606</a></li>
