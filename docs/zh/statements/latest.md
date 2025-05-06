@@ -16,17 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.14.4 版本
+# 🎉 已成功更新至 1.14.5 版本
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉新增】** 养成计划树脂预估现在会计算可合成的材料
-- **【🎉新增】** 快捷键新增仅在游戏启动后生效选项 [#2606](https://github.com/DGP-Studio/Snap.Hutao/issues/2606)
-- **【✨优化】** 游戏文件管理开始操作前会提示所需空间及可用空间
-- **【🔨修复】** 修复了部分情况下 UI 可能会异常卡死的问题 [#2617](https://github.com/DGP-Studio/Snap.Hutao/issues/2617)
-- **【🔨修复】** 修复了部分情况下关闭窗口时可能会导致崩溃的问题
-- **【🔨修复】** 修复了通知区域图标始终创建的问题 [#2590](https://github.com/DGP-Studio/Snap.Hutao/issues/2590)
-- **【🔨修复】** 修复了部分系统下更新器无法正常启动的问题 [#2597](https://github.com/DGP-Studio/Snap.Hutao/issues/2597)
-- **【🔨修复】** 修复了部分情况下退出游戏会导致崩溃的问题
-- **【🔨修复】** 修复了启动游戏页面注入选项中帧率设置错误与视野开关绑定的问题 [#2596](https://github.com/DGP-Studio/Snap.Hutao/issues/2596)
-- **【🔨修复】** 修复了深境螺旋页面在上传数据时跳转登录会跳转到错误页面的问题 [#2607](https://github.com/DGP-Studio/Snap.Hutao/issues/2607)
+- **【🔨修复】** 修复了实时便笺页面启动游戏跳转后不会自动切换米游社账号的问题 [#2623](https://github.com/DGP-Studio/Snap.Hutao/issues/2623)
+- **【🔨修复】** 修复了游戏启动后尝试使用 Embedded Yae 导入成就不会结束游戏进程的问题 [#2630](https://github.com/DGP-Studio/Snap.Hutao/issues/2630)
+- **【🔨修复】** 修复了我的角色页面养成计算全部角色与武器时不会判断角色是否突破的问题 [#2658](https://github.com/DGP-Studio/Snap.Hutao/issues/2658)
+- **【🔨修复】** 修复了删除祈愿记录存档后不会尝试重新选择首个存档的问题 [#2659](https://github.com/DGP-Studio/Snap.Hutao/issues/2659)
+- **【🔨修复】** 修复了尝试预下载会导致崩溃的问题 [#2660](https://github.com/DGP-Studio/Snap.Hutao/issues/2660)
+- **【🔨修复】** 修复了特定情况下下载图片文件失败后可能导致崩溃的问题
+- **【✨优化】** 优化了启动时体验
+  - 启动时迁移数据库失败会弹窗提示
+  - 关闭或重启时会等待启动初始化完成
