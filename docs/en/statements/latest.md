@@ -16,17 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.14.4
+# 🎉 Successfully Updated to Version 1.14.5
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🎉New]** Resin estimation in the Dev Plan now calculates combinable materials.
-- **[🎉New]** Added an option for hotkeys to take effect only after the game starts. [#2606](https://github.com/DGP-Studio/Snap.Hutao/issues/2606)
-- **[✨Optimization]** Game file management now prompts required and available space before starting operations.
-- **[🔨Fix]** Fixed an issue where the UI might freeze in certain situations. [#2617](https://github.com/DGP-Studio/Snap.Hutao/issues/2617)
-- **[🔨Fix]** Fixed an issue where closing the window might cause a crash in certain situations.
-- **[🔨Fix]** Fixed an issue where the notification area icon was always created. [#2590](https://github.com/DGP-Studio/Snap.Hutao/issues/2590)
-- **[🔨Fix]** Fixed an issue where the updater could not start properly on some systems. [#2597](https://github.com/DGP-Studio/Snap.Hutao/issues/2597)
-- **[🔨Fix]** Fixed an issue where exiting the game might cause a crash in certain situations.
-- **[🔨Fix]** Fixed an issue where the frame rate setting in the game launch page was incorrectly bound to the field of view toggle. [#2596](https://github.com/DGP-Studio/Snap.Hutao/issues/2596)
-- **[🔨Fix]** Fixed an issue where uploading data on the Spiral Abyss page redirected to an incorrect login page. [#2607](https://github.com/DGP-Studio/Snap.Hutao/issues/2607)
+- **[🔨Fix]** Fixed an issue where the miHoYo account would not automatically switch after launching the game from the Real-time Notes page. [#2623](https://github.com/DGP-Studio/Snap.Hutao/issues/2623)
+- **[🔨Fix]** Fixed an issue where using Embedded Yae to import achievements after launching the game would not terminate the game process. [#2630](https://github.com/DGP-Studio/Snap.Hutao/issues/2630)
+- **[🔨Fix]** Fixed an issue where the Dev Plan on the My Characters page would not check if characters were ascended when calculating all characters and weapons. [#2658](https://github.com/DGP-Studio/Snap.Hutao/issues/2658)
+- **[🔨Fix]** Fixed an issue where deleting a wish record archive would not attempt to reselect the first archive. [#2659](https://github.com/DGP-Studio/Snap.Hutao/issues/2659)
+- **[🔨Fix]** Fixed a crash issue when attempting to pre-download. [#2660](https://github.com/DGP-Studio/Snap.Hutao/issues/2660)
+- **[🔨Fix]** Fixed a crash issue that could occur when failing to download image files under specific conditions.
+- **[✨Optimization]** Improved the startup experience:
+  - A popup will now appear if database migration fails during startup.
+  - The application will wait for initialization to complete before closing or restarting.
