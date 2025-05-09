@@ -11,7 +11,15 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.14.5 <Badge text="latest" type="tip" />
+## 1.14.6 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Added double-click operation on the notification icon to directly open the main window.
+- **[✨Optimization]** Removed the ScatteredFiles server conversion mode. [#2682](https://github.com/DGP-Studio/Snap.Hutao/issues/2682)
+- **[🔨Fix]** Fixed an issue where auto-click/auto-press could not restart after being stopped with a hotkey. [#2673](https://github.com/DGP-Studio/Snap.Hutao/issues/2673)
+- **[🔨Fix]** Fixed an issue where Embedded Yae could not be used normally. [#2678](https://github.com/DGP-Studio/Snap.Hutao/issues/2678)
+- **[🔨Fix]** Fixed an issue where metadata might not initialize correctly on the first startup after an update. 
+
+## 1.14.5
 
 - **[🔨Fix]** Fixed an issue where the miHoYo account would not automatically switch after launching the game from the Real-time Notes page. [#2623](https://github.com/DGP-Studio/Snap.Hutao/issues/2623)
 - **[🔨Fix]** Fixed an issue where using Embedded Yae to import achievements after launching the game would not terminate the game process. [#2630](https://github.com/DGP-Studio/Snap.Hutao/issues/2630)
