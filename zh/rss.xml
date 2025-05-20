@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 09 May 2025 08:01:19 GMT</pubDate>
-    <lastBuildDate>Fri, 09 May 2025 08:01:19 GMT</lastBuildDate>
+    <pubDate>Tue, 20 May 2025 12:19:26 GMT</pubDate>
+    <lastBuildDate>Tue, 20 May 2025 12:19:26 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,20 +115,21 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.14.6 版本</title>
+      <title>🎉 已成功更新至 1.14.7 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.14.6 版本</source>
-      <description>🎉 已成功更新至 1.14.6 版本 简体中文 | 【🎉新增】 通知图标新增双击操作直接打开主窗口 【✨优化】 移除了 ScatteredFiles 转换服务器模式 #2682 【🔨修复】 修复了自动连点/连按在使用热键停止后无法再次开始的问题 #2673 【🔨修复】 修复了无法正常使用 Embedded Yae 的问题 #2678 【🔨修复...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.14.7 版本</source>
+      <description>🎉 已成功更新至 1.14.7 版本 简体中文 | 【🎉新增】 启动游戏页面注入功能新增重定向合成功能，在游戏内点击物品详情中的 可合成数量 按钮后会打开 合成页面 而不是 地图追踪 【✨优化】 移除了 启动游戏页面中的资源下载 页签 #2681 【✨优化】 调整了主窗口导航栏的宽度 #2681 【✨优化】 将部分底层从 C# 迁移到了 C++ 以...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🎉新增】</strong> 通知图标新增双击操作直接打开主窗口</li>
-<li><strong>【✨优化】</strong> 移除了 ScatteredFiles 转换服务器模式 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2682" target="_blank" rel="noopener noreferrer">#2682</a></li>
-<li><strong>【🔨修复】</strong> 修复了自动连点/连按在使用热键停止后无法再次开始的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2673" target="_blank" rel="noopener noreferrer">#2673</a></li>
-<li><strong>【🔨修复】</strong> 修复了无法正常使用 Embedded Yae 的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2678" target="_blank" rel="noopener noreferrer">#2678</a></li>
-<li><strong>【🔨修复】</strong> 修复了元数据更新后首次启动可能不会正确初始化的问题</li>
+<li><strong>【🎉新增】</strong> 启动游戏页面注入功能新增重定向合成功能，在游戏内点击物品详情中的 可合成数量 按钮后会打开 合成页面 而不是 地图追踪</li>
+<li><strong>【✨优化】</strong> 移除了 启动游戏页面中的资源下载 页签 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2681" target="_blank" rel="noopener noreferrer">#2681</a></li>
+<li><strong>【✨优化】</strong> 调整了主窗口导航栏的宽度 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2681" target="_blank" rel="noopener noreferrer">#2681</a></li>
+<li><strong>【✨优化】</strong> 将部分底层从 C# 迁移到了 C++ 以提供更好的性能表现与内存占用</li>
+<li><strong>【🔨修复】</strong> 修复了在主页签到卡片未加载完成时切换页面会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2694" target="_blank" rel="noopener noreferrer">#2694</a></li>
+<li><strong>【🔨修复】</strong> 修复了能够导入格式不正确的 UIGF 文件的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2704" target="_blank" rel="noopener noreferrer">#2704</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -749,7 +750,16 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.14.6 </h2>
+<h2>1.14.7 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 启动游戏页面注入功能新增重定向合成功能，在游戏内点击物品详情中的 可合成数量 按钮后会打开 合成页面 而不是 地图追踪</li>
+<li><strong>【✨优化】</strong> 移除了 启动游戏页面中的资源下载 页签 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2681" target="_blank" rel="noopener noreferrer">#2681</a></li>
+<li><strong>【✨优化】</strong> 调整了主窗口导航栏的宽度 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2681" target="_blank" rel="noopener noreferrer">#2681</a></li>
+<li><strong>【✨优化】</strong> 将部分底层从 C# 迁移到了 C++ 以提供更好的性能表现与内存占用</li>
+<li><strong>【🔨修复】</strong> 修复了在主页签到卡片未加载完成时切换页面会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2694" target="_blank" rel="noopener noreferrer">#2694</a></li>
+<li><strong>【🔨修复】</strong> 修复了能够导入格式不正确的 UIGF 文件的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2704" target="_blank" rel="noopener noreferrer">#2704</a></li>
+</ul>
+<h2>1.14.6</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 通知图标新增双击操作直接打开主窗口</li>
 <li><strong>【✨优化】</strong> 移除了 ScatteredFiles 转换服务器模式 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2682" target="_blank" rel="noopener noreferrer">#2682</a></li>

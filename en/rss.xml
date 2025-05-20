@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Fri, 09 May 2025 08:01:19 GMT</pubDate>
-    <lastBuildDate>Fri, 09 May 2025 08:01:19 GMT</lastBuildDate>
+    <pubDate>Tue, 20 May 2025 12:19:26 GMT</pubDate>
+    <lastBuildDate>Tue, 20 May 2025 12:19:26 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,20 +112,21 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.14.6</title>
+      <title>🎉 Successfully Updated to Version 1.14.7</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.6</source>
-      <description>🎉 Successfully Updated to Version 1.14.6 | English [🎉New] Added double-click operation on the notification icon to directly open the main window. [✨Optimization] Removed the S...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.7</source>
+      <description>🎉 Successfully Updated to Version 1.14.7 | English [🎉New] Added a new redirect synthesis function to the injection feature on the game launch page. Clicking the button in item...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Added double-click operation on the notification icon to directly open the main window.</li>
-<li><strong>[✨Optimization]</strong> Removed the ScatteredFiles server conversion mode. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2682" target="_blank" rel="noopener noreferrer">#2682</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where auto-click/auto-press could not restart after being stopped with a hotkey. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2673" target="_blank" rel="noopener noreferrer">#2673</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where Embedded Yae could not be used normally. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2678" target="_blank" rel="noopener noreferrer">#2678</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where metadata might not initialize correctly on the first startup after an update.</li>
+<li><strong>[🎉New]</strong> Added a new redirect synthesis function to the injection feature on the game launch page. Clicking the button in item details in-game will now open the synthesis page instead of map tracking.</li>
+<li><strong>[✨Optimization]</strong> Removed the "Resource Download" tab from the game launch page. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2681" target="_blank" rel="noopener noreferrer">#2681</a></li>
+<li><strong>[✨Optimization]</strong> Adjusted the width of the main window navigation bar. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2681" target="_blank" rel="noopener noreferrer">#2681</a></li>
+<li><strong>[✨Optimization]</strong> Migrated some underlying components from C# to C++ for better performance and memory usage.</li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when switching pages before the homepage sign-in card finishes loading. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2694" target="_blank" rel="noopener noreferrer">#2694</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where improperly formatted UIGF files could be imported. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2704" target="_blank" rel="noopener noreferrer">#2704</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -716,7 +717,16 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.14.6 </h2>
+<h2>1.14.7 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added a new redirect synthesis function to the injection feature on the game launch page. Clicking the button in item details in-game will now open the synthesis page instead of map tracking.</li>
+<li><strong>[✨Optimization]</strong> Removed the "Resource Download" tab from the game launch page. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2681" target="_blank" rel="noopener noreferrer">#2681</a></li>
+<li><strong>[✨Optimization]</strong> Adjusted the width of the main window navigation bar. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2681" target="_blank" rel="noopener noreferrer">#2681</a></li>
+<li><strong>[✨Optimization]</strong> Migrated some underlying components from C# to C++ for better performance and memory usage.</li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when switching pages before the homepage sign-in card finishes loading. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2694" target="_blank" rel="noopener noreferrer">#2694</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where improperly formatted UIGF files could be imported. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2704" target="_blank" rel="noopener noreferrer">#2704</a></li>
+</ul>
+<h2>1.14.6</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added double-click operation on the notification icon to directly open the main window.</li>
 <li><strong>[✨Optimization]</strong> Removed the ScatteredFiles server conversion mode. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2682" target="_blank" rel="noopener noreferrer">#2682</a></li>
