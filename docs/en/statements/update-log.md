@@ -11,7 +11,16 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.14.6 <Badge text="latest" type="tip" />
+## 1.14.7 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Added a new redirect synthesis function to the injection feature on the game launch page. Clicking the button in item details in-game will now open the synthesis page instead of map tracking.
+- **[✨Optimization]** Removed the "Resource Download" tab from the game launch page. [#2681](https://github.com/DGP-Studio/Snap.Hutao/issues/2681)
+- **[✨Optimization]** Adjusted the width of the main window navigation bar. [#2681](https://github.com/DGP-Studio/Snap.Hutao/issues/2681)
+- **[✨Optimization]** Migrated some underlying components from C# to C++ for better performance and memory usage.
+- **[🔨Fix]** Fixed a crash issue when switching pages before the homepage sign-in card finishes loading. [#2694](https://github.com/DGP-Studio/Snap.Hutao/issues/2694)
+- **[🔨Fix]** Fixed an issue where improperly formatted UIGF files could be imported. [#2704](https://github.com/DGP-Studio/Snap.Hutao/issues/2704)
+
+## 1.14.6
 
 - **[🎉New]** Added double-click operation on the notification icon to directly open the main window.
 - **[✨Optimization]** Removed the ScatteredFiles server conversion mode. [#2682](https://github.com/DGP-Studio/Snap.Hutao/issues/2682)

@@ -16,12 +16,13 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.14.6
+# 🎉 Successfully Updated to Version 1.14.7
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🎉New]** Added double-click operation on the notification icon to directly open the main window.
-- **[✨Optimization]** Removed the ScatteredFiles server conversion mode. [#2682](https://github.com/DGP-Studio/Snap.Hutao/issues/2682)
-- **[🔨Fix]** Fixed an issue where auto-click/auto-press could not restart after being stopped with a hotkey. [#2673](https://github.com/DGP-Studio/Snap.Hutao/issues/2673)
-- **[🔨Fix]** Fixed an issue where Embedded Yae could not be used normally. [#2678](https://github.com/DGP-Studio/Snap.Hutao/issues/2678)
-- **[🔨Fix]** Fixed an issue where metadata might not initialize correctly on the first startup after an update. 
+- **[🎉New]** Added a new redirect synthesis function to the injection feature on the game launch page. Clicking the button in item details in-game will now open the synthesis page instead of map tracking.
+- **[✨Optimization]** Removed the "Resource Download" tab from the game launch page. [#2681](https://github.com/DGP-Studio/Snap.Hutao/issues/2681)
+- **[✨Optimization]** Adjusted the width of the main window navigation bar. [#2681](https://github.com/DGP-Studio/Snap.Hutao/issues/2681)
+- **[✨Optimization]** Migrated some underlying components from C# to C++ for better performance and memory usage.
+- **[🔨Fix]** Fixed a crash issue when switching pages before the homepage sign-in card finishes loading. [#2694](https://github.com/DGP-Studio/Snap.Hutao/issues/2694)
+- **[🔨Fix]** Fixed an issue where improperly formatted UIGF files could be imported. [#2704](https://github.com/DGP-Studio/Snap.Hutao/issues/2704)
