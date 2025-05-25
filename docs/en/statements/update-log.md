@@ -11,7 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.14.7 <Badge text="latest" type="tip" />
+## 1.14.8 <Badge text="latest" type="tip" />
+
+- **[🔨Fix]** Fixed multiple issues that could cause the program to crash
+
+## 1.14.7
 
 - **[🎉New]** Added a new redirect synthesis function to the injection feature on the game launch page. Clicking the button in item details in-game will now open the synthesis page instead of map tracking.
 - **[✨Optimization]** Removed the "Resource Download" tab from the game launch page. [#2681](https://github.com/DGP-Studio/Snap.Hutao/issues/2681)

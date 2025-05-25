@@ -10,7 +10,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.14.7 <Badge text="最新版" type="tip" />
+## 1.14.8 <Badge text="最新版" type="tip" />
+
+- **【🔨修复】** 修复了多个会导致程序崩溃的问题
+
+## 1.14.7
 
 - **【🎉新增】** 启动游戏页面注入功能新增重定向合成功能，在游戏内点击物品详情中的 可合成数量 按钮后会打开 合成页面 而不是 地图追踪
 - **【✨优化】** 移除了 启动游戏页面中的资源下载 页签 [#2681](https://github.com/DGP-Studio/Snap.Hutao/issues/2681)
