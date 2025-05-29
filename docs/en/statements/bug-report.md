@@ -65,6 +65,6 @@ When developers cannot reproduce certain issues on their own devices, they may n
 ### Preparation Before Debugging
 
 1.  Perform steps `1~3` in [Contribute Code - Setting Up Snap Hutao Project](../development/contribute.md).
-2.  Download and install the [ToDesk](https://www.todesk.com/download.html) remote tool or [Parsec](https://parsec.app/).
+2.  Download and install the [NetEase UU](https://uuyc.163.com/) remote tool or [Parsec](https://parsec.app/).
 
 Remote debugging will help us solve problems more quickly. Thank you for your support!

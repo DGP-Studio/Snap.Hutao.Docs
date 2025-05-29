@@ -69,6 +69,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statemen
 ### Подготовка к отладке
 
 1. Выполните шаги `1–3` из раздела [Вклад в код - Настройка проекта Snap Hutao](../development/contribute.md#设置-snaphutao-项目).
-2. Загрузите и установите программу удаленного доступа [ToDesk](https://www.todesk.com/download.html).
+2. Загрузите и установите программу удаленного доступа [NetEase UU](https://uuyc.163.com/).
 
 Удаленная отладка поможет нам быстрее решить проблемы, спасибо за вашу поддержку!

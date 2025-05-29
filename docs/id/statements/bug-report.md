@@ -69,6 +69,6 @@ Ketika pengembang tidak dapat mereproduksi masalah tertentu di perangkat mereka 
 ### Persiapan Sebelum Debug
 
 1. Lakukan langkah `1～3` pada [Kontribusi Kode - Pengaturan Proyek Snap Hutao](../development/contribute.md#设置-snaphutao-项目).
-2. Unduh dan instal alat remote [ToDesk](https://www.todesk.com/download.html).
+2. Unduh dan instal alat remote [NetEase UU](https://uuyc.163.com/).
 
 Debug jarak jauh akan membantu kami menyelesaikan masalah dengan lebih cepat, terima kasih atas dukungan Anda!
