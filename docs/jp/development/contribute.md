@@ -23,7 +23,7 @@ Snap Hutaoは、`C#`と`.NET Framework`を使用してデスクトップクラ�
    - 次のコンポーネントをインストールする必要があります。
      - `.NET desktop development` (.NET デスクトップ開発)
      - `Desktop development with C++` (C++ を使用したデスクトップ開発)
-     - `Windows application development` (Windows アプリケーション開発)
+     - `WinUI application development` (WinUI アプリケーション開発)
 2. Visual Studio 拡張機能ストアから、Microsoft が提供する `Single-project MSIX Packaging Tools for VS 2022` 拡張機能をインストールします。
 3. Gitを使用してプロジェクトリポジトリをクローンします：`https://github.com/DGP-Studio/Snap.Hutao.git`。
 4. ブランチを `develop` に切り替えます。

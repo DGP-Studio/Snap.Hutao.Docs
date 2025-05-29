@@ -19,7 +19,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
    - 需要安装以下组件：
      - `.NET desktop development`（.NET 桌面开发）
      - `Desktop development with C++`（使用 C++ 的桌面开发）
-     - `Windows application development`（Windows 应用程序开发）
+     - `WinUI application development`（Windows 应用程序开发）
 2. 从 Visual Studio 插件商店安装 Microsoft 提供的 `Single-project MSIX Packaging Tools for VS 2022` 插件。
 3. 使用 Git 克隆项目仓库：`https://github.com/DGP-Studio/Snap.Hutao.git`。
 4. 将分支切换到 `develop`。

@@ -23,7 +23,7 @@ Snap Hutao использует `C#` и `.NET Framework` для разработ
    - Необходимо установить следующие компоненты:
      - `.NET desktop development` (Разработка классических приложений .NET)
      - `Desktop development with C++` (Разработка классических приложений на C++)
-     - `Windows application development` (Разработка приложений Windows)
+     - `WinUI application development` (Разработка приложений WinUI)
 2. Установите плагин `Single-project MSIX Packaging Tools for VS 2022`, предоставляемый Microsoft, из магазина расширений Visual Studio.
 3. Используйте Git для клонирования репозитория проекта: `https://github.com/DGP-Studio/Snap.Hutao.git`.
 4. Переключитесь на ветку `develop`.

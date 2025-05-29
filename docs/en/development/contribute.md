@@ -19,7 +19,7 @@ You can find all [unsolved opened issues](https://github.com/DGP-Studio/Snap.Hut
     - You need to install the following components:
       - `.NET desktop development`
       - `Desktop development with C++`
-      - `Windows application development`
+      - `WinUI application development`
 2.  Install `Single-project MSIX Packaging Tools for VS 2022` provided by Microsoft from the Visual Studio Marketplace.
 3.  Use Git to clone the project repository: `https://github.com/DGP-Studio/Snap.Hutao.git`.
 4.  Switch the branch to `develop`.

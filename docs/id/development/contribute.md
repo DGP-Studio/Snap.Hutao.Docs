@@ -23,7 +23,7 @@ Anda dapat melihat semua [isu yang belum terpecahkan](https://github.com/DGP-Stu
    - Anda perlu memasang komponen berikut:
      - `.NET desktop development` (pengembangan desktop .NET)
      - `Desktop development with C++` (pengembangan desktop dengan C++)
-     - `Windows application development` (pengembangan aplikasi Windows)
+     - `WinUI application development` (pengembangan aplikasi WinUI)
 2. Pasang plugin `Single-project MSIX Packaging Tools for VS 2022` yang disediakan oleh Microsoft dari Visual Studio Marketplace.
 3. Gunakan Git untuk mengklon repositori proyek: `https://github.com/DGP-Studio/Snap.Hutao.git`.
 4. Pindahkan cabang ke `develop`.
