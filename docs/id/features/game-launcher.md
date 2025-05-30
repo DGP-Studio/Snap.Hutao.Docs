@@ -1,24 +1,24 @@
 ---
 headerDepth: 2
 category: [Fitur, Tutorial]
-tag: [buka kunci frame rate, ubah server, ganti akun]
+tag: [buka kunci frame rate, ganti server, ganti akun]
 order: 4
 comment: false
-description: Peluncur tingkat lanjut Snap Hutao mendukung parameter peluncuran khusus, peralihan server, pembukaan kunci frame rate, dan fitur lainnya, yang secara signifikan meningkatkan pengalaman bermain game pengguna.
+description: Peluncur tingkat lanjut Snap Hutao mendukung parameter peluncuran khusus, penggantian server, pembukaan kunci frame rate, dan fitur lainnya, yang secara signifikan meningkatkan pengalaman bermain game pengguna.
 ---
 
 # Peluncur Tingkat Lanjut
 
 ![Peluncur Game](https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp)
 
-Peluncur tingkat lanjut Snap Hutao menawarkan pengalaman peluncuran game yang lebih fleksibel melalui berbagai opsi pengaturan.
+Peluncur tingkat lanjut Snap Hutao melalui beragam opsi pengaturan, menyediakan pengalaman peluncuran game yang lebih fleksibel.
 
 ::: important
 Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
 :::
 
 ::: caution
-Menggunakan **apapun perangkat lunak non-resmi** dapat **berpeluang** menyebabkan hartamu virtual rusak, melanjutkan penggunaan fitur perangkat lunak ini akan dianggap sebagai **Anda sudah mengetahui dan setuju** dengan [syarat penggunaan](/id/statements/tos.md) kami.
+Penggunaan **perangkat lunak tidak resmi apa pun** **berpotensi** menyebabkan kerusakan pada properti virtual Anda, dan melanjutkan penggunaan fitur perangkat lunak ini akan dianggap bahwa **Anda telah mengetahui dan menyetujui** [Persyaratan Penggunaan](/zh/statements/tos.md) kami.
 :::
 
 ## Pengaturan Awal
@@ -31,11 +31,11 @@ Menggunakan **apapun perangkat lunak non-resmi** dapat **berpeluang** menyebabka
   - Jika game belum terinstal, Anda dapat mengklik tombol "Instal Game" dan mengikuti petunjuk untuk mengatur direktori instalasi. Snap Hutao akan secara otomatis mengunduh dan menginstal game.
 - Setelah konfigurasi selesai, klik tombol "Luncurkan Game" di pojok kanan atas untuk meluncurkan game.
 
-## Mengubah Server
+## Mengganti Server
 
 ::: tip Pemberitahuan Izin
 Penggunaan fitur ini memerlukan Snap Hutao untuk dijalankan dengan izin administrator.
-Snap Hutao akan membuat folder bernama `ServerCache` di direktori data untuk menyimpan file yang diperlukan untuk mengubah server, dan akan secara otomatis memeriksa pembaruan.
+Snap Hutao akan membuat folder bernama `ServerCache` di direktori data untuk menyimpan file yang diperlukan untuk mengganti server, dan akan secara otomatis memeriksa pembaruan.
 :::
 
 1. Masuk ke halaman "Luncurkan Game".
@@ -43,15 +43,15 @@ Snap Hutao akan membuat folder bernama `ServerCache` di direktori data untuk men
 
 **Server yang tersedia meliputi:**
 
-| Opsi            | Server                                                                 |
-| --------------- | ---------------------------------------------------------------------- |
-| Default CN      | Server Tiongkok Daratan                                                |
-| Official CN     | Server Tiongkok Daratan, tidak ada perbedaan dengan opsi sebelumnya    |
-| NoTapTap CN     | Server Tiongkok Daratan yang menonaktifkan login TapTap                |
-| Default Global  | Server global HoYoverse                                                |
-| Official Global | Server global HoYoverse, tidak ada perbedaan dengan opsi sebelumnya    |
-| Epic Global     | Server global HoYoverse yang menggunakan gerbang pembayaran Epic       |
-| Google Global   | Server global HoYoverse yang menggunakan gerbang pembayaran Google Pay |
+| Opsi                       | Server                                                                 |
+|----------------------------|------------------------------------------------------------------------|
+| `官方服 Default`            | Server Tiongkok Daratan Resmi (Default)                                |
+| `官方服 Official`           | Server Tiongkok Daratan Resmi (Official), tidak ada perbedaan substansial dengan opsi sebelumnya |
+| `官方服 NoTapTap`           | Server Tiongkok Daratan Resmi yang menonaktifkan login TapTap          |
+| `国际服 Default`            | Server Global HoYoverse (Default)                                      |
+| `国际服 Official`           | Server Global HoYoverse (Official), tidak ada perbedaan substansial dengan opsi sebelumnya |
+| `国际服 Epic`               | Server Global HoYoverse yang menggunakan gerbang pembayaran Epic       |
+| `国际服 Google`             | Server Global HoYoverse yang menggunakan gerbang pembayaran Google Pay |
 
 Klik tombol "Luncurkan Game" di pojok kanan atas, Snap Hutao akan mengunduh file yang relevan dari server resmi dan menerapkannya, lalu meluncurkan game.
 
@@ -64,18 +64,18 @@ Fitur ini mencatat status login akun game Genshin Impact.
 1. Masuk ke halaman "Luncurkan Game".
 2. Klik "Deteksi Akun", Snap Hutao akan menyimpan status login game saat ini.
 3. Di jendela "Beri Nama Akun" yang muncul, masukkan nama dan konfirmasi.
-4. Keluar dari akun saat ini dan masuk ke akun baru, ulangi langkah di atas untuk menyimpan beberapa akun.
+4. Keluar dari akun saat ini dan tetap pertahankan catatan, lalu gunakan akun dan kata sandi untuk masuk ke akun baru, ulangi langkah-langkah di atas untuk menyimpan beberapa akun.
 5. Gunakan fitur ganti akun untuk memilih akun yang telah disimpan.
 6. **Status login dari server yang berbeda tidak saling memengaruhi**:
-   - Misalnya, jika akun A masuk di server Tiongkok, dan akun B masuk di server global; A hanya akan terlihat di server Tiongkok, dan B hanya akan terlihat di server global.
+   - Misalnya, jika akun A masuk di server Tiongkok Daratan (国服), dan akun B masuk di server luar negeri (外服); A hanya akan terlihat saat di server Tiongkok Daratan, dan B hanya akan terlihat saat di server luar negeri.
 
-## Menggunakan Login miHoYo BBS / HoYoLAB
+## Menggunakan MiYouShe / HoYoLAB Login
 
 ::: warning
 Fitur ini harus diaktifkan setelah mengaktifkan fitur "Parameter Peluncuran".
 :::
 
-Setelah diaktifkan, Snap Hutao akan menggunakan akun miHoYo BBS / HoYoLAB yang sudah masuk untuk langsung masuk ke akun Genshin Impact yang tertaut.
+Setelah diaktifkan, Snap Hutao akan menggunakan akun MiYouShe / HoYoLAB yang sudah masuk untuk langsung masuk ke akun Genshin Impact yang tertaut.
 
 ## Dukungan HDR Platform Windows
 
@@ -150,13 +150,13 @@ Perlu menginstal dan mengonfigurasi [Better Genshin Impact](https://bgi.huiyadan
 
 ### Aktivitas Discord
 
-Perlu menginstal dan mengonfigurasi [Discord](https://discord.com/). Setelah diaktifkan, Snap Hutao akan membuat status game real-time di kartu profil Discord.
+Perlu menginstal dan mengonfigurasi [Discord](https://discord.com/). Setelah diaktifkan, Snap Hutao akan menghasilkan status game real-time di kartu profil Discord.
 
 ## Pertanyaan Umum
 
 ### Bagaimana cara meluncurkan game dengan cepat melalui Snap Hutao
 
-- Atur fitur peluncur tingkat lanjut dengan benar di program utama.
+- Di program utama, atur fitur peluncur tingkat lanjut dengan benar.
 - Saat jendela utama Snap Hutao tidak tertutup, Anda dapat langsung mengklik "Beranda - Luncurkan Game" untuk memulai dengan cepat.
 - Klik ikon Snap Hutao di pojok kanan bawah taskbar (biasanya akan secara otomatis dikumpulkan oleh sistem), lalu pilih "Luncurkan Game".
 
@@ -176,32 +176,32 @@ Perlu menginstal dan mengonfigurasi [Discord](https://discord.com/). Setelah dia
 
 Jika Anda mengalami kode error `31-4302`, Anda dapat menyelesaikannya dengan mengaktifkan opsi "Luncurkan Game - Injeksi - Biarkan Aku Masuk".
 
-### Bagaimana cara memulihkan program game setelah gagal mengubah server?
+### Bagaimana cara memulihkan program game setelah gagal mengganti server?
 
 ::: info Penjelasan Prinsip Fitur
-Snap Hutao hanya mengunduh file yang diperlukan untuk mengubah server dari server resmi Genshin Impact, memastikan bahwa file tersebut aman dan andal. Jika Anda sering mengalami kegagalan konversi karena masalah jaringan, mungkin kualitas koneksi jaringan ke server target buruk. Disarankan untuk memeriksa koneksi jaringan atau menghubungi penyedia layanan jaringan.
+Snap Hutao hanya mengunduh file yang diperlukan untuk mengganti server dari server resmi Genshin Impact, memastikan bahwa file tersebut aman dan Andal. Jika Anda sering mengalami kegagalan konversi karena masalah jaringan, mungkin kualitas koneksi jaringan ke server target buruk. Disarankan untuk memeriksa koneksi jaringan atau menghubungi penyedia layanan jaringan.
 :::
 
-Selama proses perubahan server, jika terjadi kegagalan konversi karena keluar yang tidak terduga atau masalah jaringan, klien game dapat rusak. Snap Hutao akan menampilkan pesan `Jalur game tidak valid, buka pengaturan untuk mengubah jalur game`. Pada saat ini, file program utama game mungkin telah hilang. Anda dapat memulihkannya secara manual dengan mengikuti langkah-langkah berikut:
+Selama proses penggantian server, jika terjadi kegagalan konversi karena keluar yang tidak terduga atau masalah jaringan, klien game dapat rusak. Snap Hutao akan menampilkan pesan `Jalur game tidak valid, buka pengaturan untuk mengubah jalur game`. Pada saat ini, file program utama game mungkin telah hilang. Anda dapat memulihkannya secara manual dengan mengikuti langkah-langkah berikut:
 
 #### Memulihkan Program Utama Game Secara Manual
 
 1. **Temukan File Cadangan**:
-   - Snap Hutao akan menyimpan file cadangan game sebelum perubahan di direktori `%userprofile%/Documents/Hutao/ServerCache`.
-   - File cadangan meliputi: `GenshinImpact.exe` dan `GenshinImpact_Data` (server global), atau `YuanShen.exe` dan `YuanShen_Data` (server Tiongkok).
+   - Snap Hutao akan menyimpan file cadangan game sebelum penggantian di direktori `%userprofile%/Documents/Hutao/ServerCache`.
+   - File cadangan meliputi: `GenshinImpact.exe` dan `GenshinImpact_Data` (server Global), atau `YuanShen.exe` dan `YuanShen_Data` (server Tiongkok Daratan).
 2. **Periksa Direktori Game**:
-   - Direktori server global harus berisi `GenshinImpact.exe` dan `GenshinImpact_Data`.
-   - Direktori server Tiongkok harus berisi `YuanShen.exe` dan `YuanShen_Data`.
+   - Direktori server Global harus berisi `GenshinImpact.exe` dan `GenshinImpact_Data`.
+   - Direktori server Tiongkok Daratan harus berisi `YuanShen.exe` dan `YuanShen_Data`.
 3. **Pulihkan File Secara Manual**:
    - Salin file dari direktori cadangan ke direktori program utama game, timpa file yang ada.
-   - Jika Anda perlu mengubah versi server, ganti nama file yang relevan: misalnya, ganti nama `YuanShen_Data` menjadi `GenshinImpact_Data`.
+   - Jika Anda perlu mengganti versi server, ganti nama file yang relevan: misalnya, ganti nama `YuanShen_Data` menjadi `GenshinImpact_Data`.
 4. **Luncurkan Game**:
    - Masuk kembali ke antarmuka "Luncurkan Game" Snap Hutao dan luncurkan game.
-   - Jika pesan kesalahan hilang, Anda dapat terus memilih server target dan menyelesaikan perubahan.
+   - Jika pesan kesalahan hilang, Anda dapat terus memilih server target dan menyelesaikan penggantian.
 
 ### Bagaimana cara memulihkan file konfigurasi `config.ini`?
 
-Dalam beberapa kasus (seperti kesalahan izin atau kegagalan perubahan server), file `config.ini` mungkin hilang, menyebabkan game tidak dapat diluncurkan. Anda dapat membuatnya secara manual dan mengisi konten berikut:
+Dalam beberapa kasus (seperti kesalahan izin atau kegagalan penggantian server), file `config.ini` mungkin hilang, menyebabkan game tidak dapat diluncurkan. Anda dapat membuatnya secara manual dan mengisi konten berikut:
 
 ::: info
 Ubah parameter `game_version` sesuai dengan versi game yang sebenarnya.
@@ -210,7 +210,7 @@ Ubah parameter `game_version` sesuai dengan versi game yang sebenarnya.
 #### Contoh Konten File Konfigurasi
 
 ::: tabs#game_config_samples
-@tab Official CN
+@tab Server Tiongkok Daratan Official
 
 ```ini
 [General]
@@ -223,7 +223,7 @@ game_biz=hk4e_cn
 uapc={"hk4e_cn":{"uapc":""},"hyp":{"uapc":""}}
 ```
 
-@tab Official Global
+@tab Server Global Official
 
 ```ini
 [General]

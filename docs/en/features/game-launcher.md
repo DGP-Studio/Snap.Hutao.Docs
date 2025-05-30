@@ -49,7 +49,7 @@ Snap Hutao will create a folder named `ServerCache` in the data directory to sto
 | Global Epic     | HoYoverse global servers using the Epic payment gateway                    |
 | Global Google   | HoYoverse global servers using the Google Pay payment gateway              |
 
-Click the "Launch" button in the upper right corner. Snap Hutao will download the relevant files from the official server, apply them, and then launch the game.
+Click the "Launch Game" button in the upper right corner. Snap Hutao will download the relevant files from the official server, apply them, and then launch the game.
 
 ## Account Saving
 
@@ -60,7 +60,7 @@ This feature records the login status of Genshin Impact accounts.
 1. Go to the "Launch Game" page.
 2. Click "Detect Account." Snap Hutao will save the current game's login status.
 3. Enter a name in the "Name Account" window that appears and click "Confirm."
-4. Log out of the current account and log in to a new account. Repeat the above steps to save multiple accounts.
+4. Log out of the current account with session kept, and then log in to a new account. Repeat the above steps to save multiple accounts.
 5. Use the account switching feature to select a saved account.
 6. **The login statuses of different servers do not affect each other:**
    - For example, if account A is logged in on the CN server and account B is logged in on the global server, A will only be visible on the CN server, and B will only be visible on the global server.
@@ -183,21 +183,19 @@ During server switching, if an unexpected exit or network problem causes the swi
 #### Manually Recover the Game Main Program
 
 1. **Locate the Backup Files**:
-    - Snap Hutao stores the backed-up game files before the switch in the `%userprofile%/Documents/Hutao/ServerCache` directory.
-    - The backup files include: `GenshinImpact.exe` and `GenshinImpact_Data` (for the global server), or `YuanShen.exe` and `YuanShen_Data` (for the CN server).
+   - Snap Hutao stores the backed-up game files before the switch in the `%userprofile%/Documents/Hutao/ServerCache` directory.
+   - The backup files include: `GenshinImpact.exe` and `GenshinImpact_Data` (for the global server), or `YuanShen.exe` and `YuanShen_Data` (for the CN server).
 2. **Check the Game Directory**:
-    - The global server directory should contain `GenshinImpact.exe` and `GenshinImpact_Data`.
-    - The CN server directory should contain `YuanShen.exe` and `YuanShen_Data`.
+   - The global server directory should contain `GenshinImpact.exe` and `GenshinImpact_Data`.
+   - The CN server directory should contain `YuanShen.exe` and `YuanShen_Data`.
 3. **Manually Recover the Files**:
-    - Copy the files from the backup directory to the game's main program directory, overwriting the existing files.
-    - If you need to switch server versions, rename the relevant files: for example, rename `YuanShen_Data` to `GenshinImpact_Data`.
+   - Copy the files from the backup directory to the game's main program directory, overwriting the existing files.
+   - If you need to switch server versions, rename the relevant files: for example, rename `YuanShen_Data` to `GenshinImpact_Data`.
 4. **Launch the Game**:
-    - Re-enter the "Launch Game" interface in Snap Hutao and launch the game.
-    - If the error message disappears, you can continue to select the target server and complete the switch.
+   - Re-enter the "Launch Game" interface in Snap Hutao and launch the game.
+   - If the error message disappears, you can continue to select the target server and complete the switch.
 
 ### How to Restore the `config.ini` Configuration File
-
-In some cases (such as permission errors or failed server switches), the `config.ini` file may be lost, causing the game to fail to launch. You can manually create it and fill in the following content:
 
 ::: info
 Modify the `game_version` parameter according to the actual game version.
