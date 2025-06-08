@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 25 May 2025 12:59:00 GMT</pubDate>
-    <lastBuildDate>Sun, 25 May 2025 12:59:00 GMT</lastBuildDate>
+    <pubDate>Sun, 08 Jun 2025 08:21:15 GMT</pubDate>
+    <lastBuildDate>Sun, 08 Jun 2025 08:21:15 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,16 +112,19 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.14.8</title>
+      <title>🎉 Successfully Updated to Version 1.14.9</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.8</source>
-      <description>🎉 Successfully Updated to Version 1.14.8 | English [🔨Fix] Fixed multiple issues that could cause the program to crash</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.9</source>
+      <description>🎉 Successfully Updated to Version 1.14.9 | English [🎉New] The character profile page now correctly displays hyperlinks in some character skills/talents. [✨Optimization] The gu...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🔨Fix]</strong> Fixed multiple issues that could cause the program to crash</li>
+<li><strong>[🎉New]</strong> The character profile page now correctly displays hyperlinks in some character skills/talents.</li>
+<li><strong>[✨Optimization]</strong> The guide window can now display in-app notifications.</li>
+<li><strong>[🎉New]</strong> Homepage cards can now be reordered by dragging in the settings page.</li>
+<li><strong>[🔨Fix]</strong> Fixed multiple issues that could cause the program to crash.</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -712,7 +715,14 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.14.8 </h2>
+<h2>1.14.9 </h2>
+<ul>
+<li><strong>[🎉New]</strong> The character profile page now correctly displays hyperlinks in some character skills/talents.</li>
+<li><strong>[✨Optimization]</strong> The guide window can now display in-app notifications.</li>
+<li><strong>[🎉New]</strong> Homepage cards can now be reordered by dragging in the settings page.</li>
+<li><strong>[🔨Fix]</strong> Fixed multiple issues that could cause the program to crash.</li>
+</ul>
+<h2>1.14.8</h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed multiple issues that could cause the program to crash</li>
 </ul>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 25 May 2025 12:59:00 GMT</pubDate>
-    <lastBuildDate>Sun, 25 May 2025 12:59:00 GMT</lastBuildDate>
+    <pubDate>Sun, 08 Jun 2025 08:21:15 GMT</pubDate>
+    <lastBuildDate>Sun, 08 Jun 2025 08:21:15 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,15 +115,18 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.14.8 版本</title>
+      <title>🎉 已成功更新至 1.14.9 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.14.8 版本</source>
-      <description>🎉 已成功更新至 1.14.8 版本 简体中文 | 【🔨修复】 修复了多个会导致程序崩溃的问题</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.14.9 版本</source>
+      <description>🎉 已成功更新至 1.14.9 版本 简体中文 | 【🎉新增】 角色资料页面现在会正确显示部分角色的技能/天赋中的超链接信息 【✨优化】 引导窗口现在能显示应用内通知 【🎉新增】 主页卡片现在可以在设置页面中拖动进行排序 【🔨修复】 修复了多个会导致程序崩溃的问题</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
+<li><strong>【🎉新增】</strong> 角色资料页面现在会正确显示部分角色的技能/天赋中的超链接信息</li>
+<li><strong>【✨优化】</strong> 引导窗口现在能显示应用内通知</li>
+<li><strong>【🎉新增】</strong> 主页卡片现在可以在设置页面中拖动进行排序</li>
 <li><strong>【🔨修复】</strong> 修复了多个会导致程序崩溃的问题</li>
 </ul>
 ]]></content:encoded>
@@ -745,7 +748,14 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.14.8 </h2>
+<h2>1.14.9 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 角色资料页面现在会正确显示部分角色的技能/天赋中的超链接信息</li>
+<li><strong>【✨优化】</strong> 引导窗口现在能显示应用内通知</li>
+<li><strong>【🎉新增】</strong> 主页卡片现在可以在设置页面中拖动进行排序</li>
+<li><strong>【🔨修复】</strong> 修复了多个会导致程序崩溃的问题</li>
+</ul>
+<h2>1.14.8</h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了多个会导致程序崩溃的问题</li>
 </ul>
