@@ -1,4 +1,3 @@
-```markdown
 ---
 comment: false
 index: false
@@ -8,11 +7,6 @@ dir:
   order: 2
 ---
 
-# Lanjutan
+# Informasi Lainnya
 
 <Catalog />
-
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
-:::
-```

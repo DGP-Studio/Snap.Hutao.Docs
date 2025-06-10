@@ -1,20 +1,16 @@
 ---
 headerDepth: 2
-comment: false
+comment: statements and Announcements
 index: false
 icon: iconfont icon-blog
 dir:
-  text: Pernyataan dan Pengumuman
+  text: Statements
   order: 4
-description: Halaman ini berisi daftar semua pernyataan dan pengumuman Snap Hutao.
+description: This page contains the toc of statements and announcements of Snap Hutao project.
 ---
 
-# Pernyataan dan Pengumuman
+# Statements
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR (Pull Request).
-:::
-
-**Proyek Snap Hutao TIDAK mendukung, berpartisipasi, atau bekerja sama dengan proyek apa pun yang terkait dengan server pribadi dan program cheat Genshin Impact.**
+**Proyek Snap Hutao TIDAK mendukung, berpartisipasi dalam, atau bekerja sama dengan proyek apa pun yang terkait dengan server pribadi dan program CHEAT Genshin Impact.**
 
 <Catalog />

@@ -1,116 +1,109 @@
 ---
 headerDepth: 2
-category: [Fitur, Tutorial]
-tag: [ekspor permohonan, gacha, permohonan]
+category: [Feature, Tutorial]
+tag: [Wish Export, Gacha, Wish]
 order: 5
 comment: false
-description: Fitur ekspor catatan permohonan memungkinkan pemain untuk secara bebas mengekspor data permohonan akun game mereka saat ini dan menyimpannya secara permanen di penyimpanan lokal dan mencadangkannya. Melalui akumulasi data jangka panjang, data dapat dilacak dan dianalisis.
+description: Fitur Riwayat Gacha memungkinkan pemain untuk bebas mengekspor data gacha mereka saat ini dari akun game dan menyimpannya secara permanen serta mencadangkannya secara lokal, untuk melacak dan menganalisis data gacha jangka panjang.
 ---
 
-# Catatan Permohonan
+# Riwayat Gacha
 
-Gacha adalah salah satu gameplay inti dari Genshin Impact. Baik untuk tujuan peringatan, pamer, atau perencanaan serius untuk rencana menarik karakter, analisis statistik pada catatan gacha historis sangatlah penting. Namun, Genshin Impact hanya menyediakan catatan gacha selama satu tahun, yang tidak cukup bagi pemain jangka panjang (~~namun mereka akan menghitung berapa banyak merpati Timmy yang telah Anda bunuh dalam setahun~~).
+Sistem gacha adalah salah satu elemen gameplay inti di Genshin Impact. Baik untuk tujuan kenang-kenangan, pamer, atau merencanakan tarikan secara serius, menganalisis data gacha historis sangatlah penting. Namun, Genshin Impact hanya menyediakan riwayat gacha selama satu tahun, yang tidak cukup untuk pemain jangka panjang.
 
-Oleh karena itu, fitur ekspor catatan permohonan Snap Hutao hadir untuk membantu pemain mentransfer data permohonan ke penyimpanan lokal untuk penyimpanan permanen dan melakukan analisis data jangka panjang.
+Oleh karena itu, fitur Riwayat Gacha dari Snap Hutao dibuat untuk membantu pemain mentransfer data gacha mereka ke penyimpanan lokal untuk disimpan secara permanen dan dianalisis dalam jangka panjang.
 
-Untuk prinsip teknis ekspor catatan permohonan Genshin Impact, silakan merujuk ke [**Sistem Permohonan dan Prinsip Ekspor**](../advanced/Gacha-system-and-export-principal.html).
+Untuk prinsip teknis ekspor catatan gacha Genshin Impact, silakan merujuk ke [**Sistem Gacha dan Prinsip Ekspor**](../advanced/Gacha-system-and-export-principal.html).
 
-![Ekspor Permohonan](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01otuXYg1g6e0wnNwX2_!!1797064093.png_.webp)
+![Riwayat Gacha](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01otuXYg1g6e0wnNwX2_!!1797064093.png_.webp)
 
-Seperti yang ditunjukkan pada gambar di atas, fitur ekspor permohonan Snap Hutao dapat membantu pengguna menghitung dan menganalisis data gacha dengan jelas, termasuk:
+Seperti yang ditunjukkan di atas, fitur Riwayat Gacha Snap Hutao membantu pengguna melacak dan menganalisis data gacha mereka dengan jelas, termasuk:
 
 - Jumlah total gacha
 - Jumlah pity saat ini
-- Jumlah dan persentase perolehan senjata dan karakter dengan tingkat kelangkaan yang berbeda
-- Jumlah gacha untuk setiap perolehan bintang 5 dan status pity
+- Jumlah dan persentase senjata dan karakter yang diperoleh berdasarkan kelangkaan
+- Jumlah gacha per tarikan bintang 5 dan status pity
 
-Selain itu, **pengguna Snap Hutao Cloud dapat memperoleh data prediksi gacha tambahan yang dihitung oleh server cloud.**
+Selain itu, **pengguna Snap Hutao Cloud dapat mengakses data prediksi gacha yang dihitung oleh server cloud**.
 
-::: note Keterlambatan Catatan Permohonan Genshin Impact
-Sumber data Snap Hutao adalah server miHoYo, sehingga catatan permohonan yang baru saja dilakukan mungkin tidak dapat diperoleh dalam waktu singkat.  
-Ketika Anda melihat catatan terbaru di riwayat permohonan dalam game, Anda dapat memperoleh data statistik yang sesuai di Snap Hutao.
+::: note Penundaan dalam Catatan Gacha Genshin Impact
+Sumber data Snap Hutao adalah server miHoYo. Oleh karena itu, gacha yang baru saja dilakukan mungkin tidak langsung tersedia.
+Ketika Anda melihat catatan terbaru di riwayat gacha dalam game, statistik yang sesuai baru bisa didapatkan di Snap Hutao.
 :::
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
-:::
+## Ambil Data Gacha
 
-## Mendapatkan Data Permohonan
-
-### Refresh SToken <Badge text="Disarankan" type="tip" />
+### Penyegaran SToken <Badge text="Direkomendasikan" type="tip" />
 
 ::: info Petunjuk
+- Akun MiYouShe yang sudah login diperlukan untuk menggunakan metode penyegaran SToken. Silakan merujuk ke dokumen [Pergantian Akun MiYouShe](mhy-account-switch.md) untuk login ke akun Anda di Snap Hutao.
+- Metode penyegaran SToken saat ini tidak mendukung server Global (HoYoLAB).
+:::
 
-- Akun MiYouShe yang sudah login adalah prasyarat untuk menggunakan metode refresh SToken. Anda dapat merujuk ke dokumen [Pengalihan Akun MiYouShe](mhy-account-switch.md) untuk login ke akun di Snap Hutao.
-- Metode refresh SToken saat ini tidak mendukung server internasional.
-  :::
+1. Pastikan akun MiYouShe yang ingin Anda ambil catatannya sudah login di Snap Hutao.
+2. Buka halaman "Riwayat Gacha" dari menu di sebelah kiri.
+3. Klik tombol "Segarkan" di pojok kanan atas dan pilih "Penyegaran SToken."
+4. Tunggu hingga proses selesai, dan Anda dapat melihat catatan gacha terbaru.
 
-1. Pastikan akun MiYouShe yang perlu diambil catatannya telah login di Snap Hutao.
-2. Masuk ke halaman "Catatan Permohonan" di menu sebelah kiri.
-3. Klik tombol "Refresh" di kanan atas, pilih "Refresh SToken".
-4. Tunggu hingga pembacaan selesai, lalu Anda dapat melihat catatan permohonan terbaru.
+### Penyegaran Cache Web <Badge text="Server Global Didukung" type="tip" />
 
-### Refresh Cache Web <Badge text="Mendukung Server Internasional" type="tip" />
+1. Jalankan Genshin Impact, masuk ke dalam game, lalu buka halaman riwayat gacha.
+2. Di Snap Hutao, buka halaman "Riwayat Gacha" dari menu di sebelah kiri, klik tombol "Segarkan" di pojok kanan atas, dan pilih "Penyegaran Cache Web."
 
-1. Mulai Genshin Impact dan masuk ke game, buka riwayat permohonan dalam game.
-2. Masuk ke halaman "Catatan Permohonan" di menu sebelah kiri Snap Hutao, klik tombol "Refresh" di kanan atas, pilih "Refresh Cache Web".
+::: tip Jika fungsi penyegaran cache web tidak berfungsi:
+- Klik "Pengaturan" -> "Penyimpanan" di menu kiri bawah program.
+- Lakukan operasi "Hapus Cache Web Dalam Game".
+- Buka kembali riwayat gacha di dalam game.
+- Coba segarkan kembali catatan gacha.
+:::
 
-::: tip Jika fungsi refresh cache web tidak normal:
+### Input URL Manual <Badge text="Server Global Didukung" type="tip" />
 
-- Klik "Pengaturan-Ruang Penyimpanan" di menu kiri bawah aplikasi.
-- Jalankan operasi "Hapus cache web dalam game".
-- Buka kembali antarmuka riwayat permohonan di dalam game.
-- Coba lagi untuk me-refresh catatan permohonan.
-  :::
+1. Jika Anda telah memperoleh URL riwayat gacha dari alat lain, pilih "Input URL Manual" dan ikuti petunjuknya.
+2. Harap dicatat bahwa URL **memiliki batas waktu**, jadi selesaikan operasi sesegera mungkin.
 
-### Input URL Manual <Badge text="Mendukung Server Internasional" type="tip" />
+### Mode Penyegaran Penuh
 
-1. Jika Anda mendapatkan URL riwayat permohonan melalui alat lain, Anda dapat memilih "Input URL Manual" dan ikuti petunjuknya.
-2. Harap perhatikan bahwa URL **memiliki batas waktu**, pastikan untuk menyelesaikan operasi sesegera mungkin.
-
-### Mode Refresh Penuh
-
-- Secara default, Snap Hutao akan berhenti mengimpor setelah menemukan catatan yang sudah ada secara lokal untuk menghindari duplikasi catatan.
-- Jika Anda ingin mendapatkan semua catatan historis dari server Genshin Impact secara lengkap, Anda dapat mencentang "Refresh Penuh", lalu menjalankan tugas refresh.
+- Secara default, Snap Hutao akan berhenti mengimpor setelah menemukan data yang sudah ada di penyimpanan lokal untuk menghindari duplikasi.
+- Jika Anda ingin mengambil semua catatan historis dari server Genshin Impact secara penuh, aktifkan "Penyegaran Penuh" sebelum memulai proses.
 
 ::: tip
+- **Tidak memilih penyegaran penuh** tidak akan menyebabkan hilangnya data gacha.
+- **Memilih penyegaran penuh** tidak akan menyebabkan data ganda.
+:::
 
-- **Tidak mencentang refresh penuh** tidak akan menyebabkan hilangnya data permohonan.
-- **Mencentang refresh penuh** juga tidak akan menyebabkan duplikasi impor data.
-  :::
+## Impor Data Gacha UIGF <Badge text="UIGF" type="info" />
 
-## Impor Data Permohonan UIGF <Badge text="UIGF" type="info" />
-
-Snap Hutao mendukung impor catatan permohonan dengan `format data UIGF`[^UIGF-Org]. Langkah-langkah impor adalah sebagai berikut:
+Snap Hutao mendukung impor catatan gacha dalam `format data UIGF`[^UIGF-Org]. Ikuti langkah-langkah ini untuk mengimpor:
 
 1. Ekspor file data UIGF dari alat lain.
-2. Di Snap Hutao, klik "Pengaturan-Catatan Permohonan-Migrasi-Impor".
-3. Di pemilih file yang muncul, pilih file data `UIGF Json`.
-4. Konfirmasi data dan selesaikan impor.
+2. Di Snap Hutao, klik "Pengaturan" -> "Riwayat Gacha" -> "Migrasi" -> "Impor."
+3. Pilih file data `UIGF Json` di jendela pemilih file.
+4. Konfirmasikan data dan selesaikan impor.
 
-::: warning Peningkatan file UIGF versi lama
-Jika versi catatan permohonan terlalu lama, Anda dapat mengklik "Pengaturan-Catatan Permohonan-Migrasi-Tingkatkan File UIGF Versi Awal", lalu impor setelah peningkatan selesai.
+::: warning Meningkatkan File UIGF Versi Lama
+Jika versi catatan gacha terlalu lama, klik "Pengaturan" -> "Riwayat Gacha" -> "Migrasi" -> "Tingkatkan File UIGF Lama", selesaikan proses peningkatan, lalu impor kembali.
 :::
 
-## Ekspor Data Permohonan UIGF <Badge text="UIGF" type="info" />
+## Ekspor Data Gacha UIGF <Badge text="UIGF" type="info" />
 
-Snap Hutao mendukung ekspor catatan permohonan dalam `format data UIGF` sebagai file Json. Langkah-langkah spesifiknya adalah sebagai berikut:
+Snap Hutao mendukung ekspor catatan gacha ke file Json dalam `format data UIGF`. Ikuti langkah-langkah ini untuk mengekspor:
 
-1. Masuk ke "Pengaturan" di menu sebelah kiri.
-2. Temukan bagian "Catatan Permohonan-Migrasi", klik tombol "Ekspor".
-3. Pilih akun yang datanya ingin Anda ekspor.
-4. Di antarmuka yang muncul, pilih jalur penyimpanan file, klik "Ekspor" untuk menyelesaikan operasi.
+1. Buka "Pengaturan" dari menu di sebelah kiri.
+2. Temukan bagian "Riwayat Gacha-Migrasi" dan klik tombol "Ekspor".
+3. Pilih akun yang datanya perlu Anda ekspor.
+4. Pilih lokasi penyimpanan file di jendela yang muncul, lalu klik "Ekspor" untuk menyelesaikan.
 
 ::: tip
-Mendukung ekspor catatan permohonan beberapa akun ke satu file, tidak perlu mengoperasikannya secara terpisah.
+Anda dapat mengekspor catatan gacha dari beberapa akun ke satu file tanpa perlu melakukannya satu per satu.
 :::
 
-## Sinkronisasi Cloud Catatan Permohonan
+## Sinkronisasi Cloud Catatan Gacha
 
-> Fungsi sinkronisasi cloud didasarkan pada akun Snap Hutao Cloud, dan harus [mendaftar dan masuk ke akun Snap Hutao](hutao-settings.md#akun-snap-hutao) untuk dapat menggunakannya.
+> Sinkronisasi cloud memerlukan akun Snap Hutao Cloud. Anda harus [mendaftar dan login ke akun Snap Hutao](hutao-settings.md#snap-hutao-account) untuk menggunakannya.
 
-- **Unggah**: Pada antarmuka "Catatan Permohonan", pilih arsip yang perlu disinkronkan, klik tombol "Snap Hutao Cloud", lalu pilih "Unggah Arsip Saat Ini".
-- **Unduh**: Klik tombol "Snap Hutao Cloud", pilih tombol unduh di sisi kanan arsip UID yang sesuai untuk menyelesaikan sinkronisasi.
-- **Hapus**: Klik tombol "Snap Hutao Cloud", pilih tombol hapus di sisi kanan arsip UID yang sesuai untuk menghapus data cloud.
+- **Unggah**: Di halaman "Riwayat Gacha", pilih arsip yang akan disinkronkan, klik tombol "Snap Hutao Cloud", lalu pilih "Unggah Arsip Saat Ini".
+- **Unduh**: Klik tombol "Snap Hutao Cloud", lalu klik tombol unduh di sebelah kanan arsip yang sesuai dengan UID untuk menyelesaikan sinkronisasi.
+- **Hapus**: Klik tombol "Snap Hutao Cloud", lalu klik tombol hapus di sebelah kanan arsip yang sesuai dengan UID untuk menghapus data dari cloud.
 
-[^UIGF-Org]: UIGF (Format Data Genshin yang Terstandarisasi) disediakan oleh [UIGF-Org](https://uigf.org/).
+[^UIGF-Org]: UIGF (Unified Interchangeable Genshin Data Format) dikelola oleh [UIGF-Org](https://uigf.org/).

@@ -1,108 +1,104 @@
 ---
 headerDepth: 2
-category: [Fitur, Tutorial]
-tag: [MiYouShe, HoYoLAB, Multi Akun, check-in]
+category: [Feature, Tutorial]
+tag: [MiYouShe, HoYoLAB, Multi account, check-in]
 order: 14
 comment: false
-description: Fitur panel multi-akun MiYouShe memungkinkan pengguna untuk masuk ke beberapa akun forum miHoYo di Snap Hutao dan beralih antar akun dengan bebas, untuk menggunakan berbagai fungsi dengan akun yang berbeda di dalam aplikasi.
-banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/features/mhy-account-switch.html
+description: Fitur Panel Multi-akun di Snap Hutao memungkinkan pengguna untuk login ke beberapa akun MiHoYo BBS dan beralih di antara mereka dengan bebas, memungkinkan penggunaan berbagai fungsi di dalam alat dengan akun yang berbeda.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/features/mhy-account-switch.html
 ---
 
-# Peralihan Multi Akun MiYouShe
-
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
-:::
+# Peralihan Akun MiHoYo BBS
 
 ::: tip
-Snap Hutao mendukung akun forum miHoYo versi Tiongkok Daratan **MiYouShe** dan forum versi internasional **HoYoLAB**. HoYoLAB secara default memblokir koneksi jaringan dari Tiongkok Daratan, dan perangkat lunak Snap Hutao tidak dapat melewati batasan ini dengan sendirinya.
+Snap Hutao mendukung akun dari versi daratan Tiongkok forum MiHoYo, **MiYouShe**, dan versi internasional, **HoYoLAB**. HoYoLAB memblokir koneksi jaringan dari daratan Tiongkok secara default, dan Snap Hutao tidak dapat melewati batasan ini sendiri.
 
-- Peralihan akun yang dijelaskan dalam dokumen ini mengacu pada **akun MiYouShe / HoYoLAB** yang digunakan untuk mendapatkan data game, bukan **akun dalam game** Genshin Impact.
-- Sebelum menggunakan fitur ini, Anda perlu masuk ke akun Anda menggunakan aplikasi resmi MiYouShe untuk menginisialisasi fungsi MiYouShe Anda.
-  - Jika format nama akun yang masuk di Snap Hutao adalah "user_123456789", kemungkinan akun tersebut belum diinisialisasi.
+- Peralihan akun yang dijelaskan dalam dokumen ini merujuk pada **akun MiYouShe / HoYoLAB** yang digunakan untuk memperoleh data game, bukan **akun Genshin Impact dalam game**.
+- Sebelum menggunakan fitur ini, Anda perlu login ke akun Anda menggunakan aplikasi MiYouShe resmi untuk menginisialisasi fungsi MiYouShe Anda.
+  - Jika nama akun yang login ke Snap Hutao dalam format "user_123456789", mungkin belum diinisialisasi.
 
 :::
 
-![Contoh Manajemen Multi Akun](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ZhnkRl1g6e0tz18y9_!!1797064093.png.png_.webp)
+![Contoh Manajemen Multi-Akun](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ZhnkRl1g6e0tz18y9_!!1797064093.png.png_.webp)
 
-Anda dapat menemukan menu akun di pojok kiri bawah antarmuka utama program, di atas tombol pengaturan, untuk mengelola akun MiYouShe yang masuk di Snap Hutao. Di panel yang muncul, Anda dapat menambahkan akun MiYouShe atau HoYoLAB. Metode untuk masuk ke akun tersebut serupa:
+Anda dapat menemukan menu akun di sudut kiri bawah antarmuka program utama, di atas tombol pengaturan, untuk mengelola akun MiYouShe yang telah Anda login di Snap Hutao. Di panel pop-up, Anda dapat menambahkan akun MiYouShe atau HoYoLAB. Metode loginnya serupa:
 
 :::: tabs
 
-@tab Masuk MiYouShe dengan Kode Verifikasi Ponsel
+@tab Login Kode Verifikasi Telepon MiYouShe
 
 ::: warning
-Pastikan akun MiYouShe telah terikat dengan akun server domestik.
+Pastikan akun MiYouShe terikat dengan akun server domestik.
 :::
 
-1. Klik tombol "Kode Verifikasi Ponsel", isi nomor ponsel dan kirim kode verifikasi.
-2. Isi kode verifikasi lalu konfirmasi, tunggu sebentar hingga akun ditambahkan.
+1. Klik tombol "Kode Verifikasi Telepon", masukkan nomor telepon Anda, dan kirim kode verifikasi.
+2. Masukkan kode verifikasi dan konfirmasi. Tunggu sejenak hingga akun ditambahkan.
 
-@tab Masuk MiYouShe dengan Pemindaian Kode QR
+@tab Login Kode QR Pindai MiYouShe
 
 ::: warning
-Pastikan akun MiYouShe telah terikat dengan akun server domestik.
+Pastikan akun MiYouShe terikat dengan akun server domestik.
 :::
 
-1. Klik tombol "Pemindaian Kode QR", tunggu hingga kode QR dimuat.
-2. Pindai kode QR dengan Aplikasi MiYouShe dan konfirmasi login.
-3. Tunggu sebentar, Snap Hutao akan menambahkan akun.
+1. Klik tombol "Pindai Kode QR" dan tunggu hingga kode QR dimuat.
+2. Gunakan aplikasi MiYouShe untuk memindai kode QR dan konfirmasi login.
+3. Tunggu sejenak, dan Snap Hutao akan menambahkan akun tersebut.
 
-@tab Masuk HoYoLAB dengan Kata Sandi
+@tab Login Kata Sandi HoYoLAB
 
 ::: warning
-Pastikan akun HoYoLAB telah terikat dengan akun server internasional.
+Pastikan akun HoYoLAB terikat dengan akun server internasional.
 :::
 
-1. Klik tombol "Masuk dengan Kata Sandi", isi nama akun dan kata sandi lalu konfirmasi.
-2. Tunggu sebentar, akun akan ditambahkan.
+1. Klik tombol "Login Kata Sandi", masukkan kata sandi akun Anda, dan konfirmasi.
+2. Tunggu sejenak, dan akun akan ditambahkan.
 
-@tab Masuk HoYoLAB dengan Akun Media Sosial
+@tab Login Akun Media Sosial HoYoLAB
 
 Metode ini bergantung pada komponen runtime WebView2.
 
 ::: warning
-HoYoLAB secara default memblokir koneksi jaringan dari Tiongkok Daratan.
+HoYoLAB memblokir koneksi jaringan dari daratan Tiongkok secara default.
 :::
 
 1. Klik tombol "Login Pihak Ketiga" dan login melalui WebView2.
-2. Tunggu sebentar, akun akan ditambahkan.
+2. Tunggu sejenak, dan akun akan ditambahkan.
 
-@tab Masuk dengan Cookie
+@tab Login Cookie
 
 ::: warning
-Harap simpan informasi Cookie dengan aman untuk menghindari risiko akun.
+Harap simpan informasi Cookie Anda dengan aman untuk menghindari risiko akun.
 :::
 
-Masuk dengan mengirimkan SToken secara manual.
+Login dengan memasukkan Cookie SToken secara manual.
 
-1. Klik ikon aplikasi target dan pilih "Input Manual".
-2. Masukkan Cookie yang valid dan konfirmasi, tunggu sebentar hingga akun ditambahkan.
+1. Klik ikon aplikasi target dan pilih "Input Manual."
+2. Masukkan Cookie yang valid dan konfirmasi. Tunggu sejenak, dan akun akan ditambahkan.
    ::::
 
-- Setelah selesai, Anda dapat beralih akun MiYouShe yang telah masuk di panel manajemen akun.
-  - Setelah menambahkan akun MiYouShe baru, Anda perlu mengklik akun yang baru masuk secara manual di fungsi peralihan akun di kiri bawah antarmuka utama, untuk mengaturnya sebagai akun yang digunakan.
-  - Anda dapat menyalin Cookie akun yang sesuai atau menghapus akun tersebut dari Snap Hutao di menu manajemen akun.
-  - Saat program tidak berjalan dalam mode administrator, Anda dapat mengurutkan akun dengan cara menarik dan melepas.
-  - Setelah memilih akun yang masuk, Anda dapat
-    - Klik tombol Segarkan Cookie untuk memperbarui Cookie yang tersimpan saat ini.
-    - Klik tombol check-in untuk menjalankan check-in forum miHoYo. Untuk akun MiYouShe, Anda perlu terlebih dahulu mengatasi status risiko kontrol sebelum check-in berhasil dijalankan.
+- Setelah menyelesaikan ini, Anda dapat beralih antara akun MiYouShe yang sudah login di panel manajemen akun.
+  - Setelah menambahkan akun MiYouShe baru, Anda perlu mengklik secara manual pada akun yang baru login di fungsi peralihan akun di sudut kiri bawah antarmuka utama untuk mengaturnya sebagai akun aktif.
+  - Anda dapat menyalin Cookie akun yang sesuai atau menghapus akun dari Snap Hutao di menu manajemen akun.
+  - Saat program tidak berjalan dalam mode administrator, Anda dapat menyeret dan melepaskan untuk mengurutkan akun.
+  - Setelah memilih akun yang sudah login, Anda dapat:
+    - Klik tombol "Segarkan Cookie" untuk memperbarui Cookie yang saat ini disimpan.
+    - Klik tombol "Check-In" untuk melakukan check-in forum MiHoYo. Untuk akun MiYouShe, Anda perlu menyelesaikan status kontrol risiko terlebih dahulu agar berhasil melakukan check-in.
 
 ::: info Tips Keamanan
 
-- `SToken` adalah field Cookie yang sensitif terhadap keamanan, Anda **sebaiknya tidak** menyimpan Cookie yang mengandung field `SToken` di cloud atau perangkat lain yang keamanannya tidak dapat dijamin.
-- Cookie yang disalin dari Snap Hutao berisi field ini, harap pertimbangkan dengan cermat apakah akan memberikan field `SToken` kepada pihak penerima Cookie.
-- **Saat masuk ke MiYouShe dengan kata sandi atau Cookie di Snap Hutao, data Anda hanya diproses oleh server MiYouShe dan Snap Hutao lokal, tidak melalui layanan pihak ketiga mana pun, termasuk server Snap Hutao.**
+- `SToken` adalah bidang Cookie yang sensitif terhadap keamanan, dan Anda **tidak boleh** menyimpan Cookie yang berisi bidang `SToken` di cloud atau perangkat lain di mana keamanan data tidak dapat dijamin.
+- Cookie yang diperoleh dari Snap Hutao berisi bidang ini. Harap pertimbangkan dengan cermat apakah akan memberikan bidang `SToken` kepada pihak penerima.
+- **Saat Anda login ke MiYouShe melalui kata sandi atau Cookie di Snap Hutao, data Anda hanya diproses oleh server MiYouShe dan Snap Hutao lokal, dan tidak melewati layanan pihak ketiga mana pun, termasuk server Snap Hutao.**
 
 :::
 
-## Pertanyaan Umum
+## Masalah Umum
 
-### Mengapa status login akun MiYouShe sering tidak valid, dan akun yang ditambahkan menghilang?
+### Mengapa status login akun MiYouShe sering kedaluwarsa, dan akun yang ditambahkan menghilang?
 
 - Kami mempertahankan status login dengan menyimpan Cookie MiYouShe akun.
-- Namun, ketika pengguna **keluar dari akun** di browser atau perangkat lain, Cookie yang mempertahankan status login akan **menjadi tidak valid**.
-- Ini akan menyebabkan akun MiYouShe di Snap Hutao otomatis dihapus setelah dimulai.
-- Situasi ini juga dapat terjadi karena masalah koneksi jaringan yang menyebabkan kegagalan pengecekan validitas Cookie, oleh karena itu setelah terjadi situasi ini, harap coba mulai ulang Snap Hutao terlebih dahulu.
-- Sejak Oktober 2022, MiYouShe telah meningkatkan probabilitas akun dianggap berisiko, [Akun berisiko](../advanced/exceptions.md#status1034-verifikasi-gagal) juga dapat menyebabkan Cookie tidak dapat dikenali sebagai status yang valid.
+- Namun, saat pengguna **keluar dari akun** di browser atau di perangkat lain, Cookie yang mempertahankan status login akan **kedaluwarsa**.
+- Ini akan menyebabkan akun MiYouShe di Snap Hutao dihapus secara otomatis setelah startup.
+- Situasi ini juga dapat terjadi karena masalah koneksi jaringan yang mencegah validasi Cookie. Oleh karena itu, harap prioritaskan memulai ulang Snap Hutao jika ini terjadi.
+- Sejak Oktober 2022, MiYouShe telah sangat meningkatkan kemungkinan akun ditandai sebagai berisiko. Saat [akun berisiko](../advanced/exceptions.md#status1034-verifikasi-gagal), Cookie mungkin juga tidak dikenali sebagai valid.
 - Sejak versi 1.4.15, Anda dapat menyegarkan status login dengan menyegarkan Cookie di panel akun.

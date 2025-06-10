@@ -1,47 +1,43 @@
 ---
 headerDepth: 2
 category:
-  - Fitur
+  - Feature
   - Tutorial
-tag: [Senjata, WIKI, Data]
+tag: [Weapon, WIKI, Data]
 order: 12
 comment: false
-description: WIKI Senjata adalah database senjata bawaan di Snap Hutao, pemain dapat menggunakan fungsi ini untuk mencari informasi spesifik dari semua senjata di Genshin Impact, dan memilih senjata yang sesuai untuk karakter.
+description: WIKI Senjata adalah database senjata terintegrasi di dalam Snap Hutao. Pemain dapat menggunakan fitur ini untuk menanyakan informasi detail tentang semua senjata di Genshin Impact dan memilih senjata yang sesuai untuk karakter mereka.
 ---
 
-# Data Senjata
+# WIKI Senjata
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
-:::
+![wiki-senjata](https://img.alicdn.com/imgextra/i2/1797064093/O1CN018rs0K91g6e0ylQ4XT_!!1797064093.png_.webp)
 
-![weapon-wiki](https://img.alicdn.com/imgextra/i2/1797064093/O1CN018rs0K91g6e0ylQ4XT_!!1797064093.png_.webp)
+Data Senjata adalah fitur WIKI bawaan di Snap Hutao, yang dirancang khusus untuk menanyakan informasi tentang semua senjata di Genshin Impact, termasuk **penampilan, statistik, efek penyempurnaan, dan pasangan yang direkomendasikan**. Dengan fitur ini, pemain dapat secara efisien memilih senjata yang tepat untuk karakter mereka dan mendapatkan dukungan data senjata yang detail.
 
-Data Senjata adalah fitur WIKI bawaan di Snap Hutao, yang dirancang khusus untuk mencari informasi mengenai **penampilan, parameter, efek pemurnian, dan rekomendasi kombinasi** dari semua senjata di Genshin Impact. Melalui fitur ini, pemain dapat secara efisien memilih senjata yang cocok untuk karakter dan mendapatkan dukungan data senjata yang terperinci.
-
-## Data yang Tercakup
+## Data yang Termasuk
 
 - **Daftar Senjata**
 
-  - Daftar mendukung dua mode tampilan, yang dapat diubah melalui tombol di kiri atas:
-    - **Tampilan Daftar**: Menampilkan gambar mini senjata, nama, dan sebagian informasi.
-    - **Tampilan Grid**: Menampilkan lebih banyak item senjata dalam bentuk gambar mini.
-  - Dalam "Tampilan Daftar", klik gambar mini atau nama untuk langsung menuju halaman detail senjata.
+  - Daftar ini mendukung dua mode tampilan, yang dapat diganti menggunakan tombol di pojok kiri atas:
+    - **Tampilan Daftar**: Menampilkan gambar mini senjata, nama, dan beberapa informasi.
+    - **Tampilan Kisi**: Menampilkan lebih banyak item senjata dalam bentuk gambar mini.
+  - Dalam "Tampilan Daftar", klik pada gambar mini atau nama untuk melompat ke halaman pengenalan detail senjata.
 
 - **Informasi Dasar Senjata**
 
-  - Perbandingan ikon senjata sebelum dan sesudah Ascension, untuk memudahkan identifikasi perubahan visual setelah peningkatan.
-  - Tampilan ilustrasi, menunjukkan penampilan lengkap senjata.
-  - Deskripsi senjata, memberikan latar belakang cerita atau deskripsi terkait senjata.
-  - Mendukung perubahan ke level yang sesuai, untuk melihat berbagai nilai numerik senjata (seperti Base ATK, Substat, dll.).
+  - Perbandingan ikon senjata sebelum dan sesudah kenaikan, memudahkan untuk mengenali perubahan visual setelah ditingkatkan.
+  - Tampilan gambar seluruh badan, menunjukkan penampilan lengkap senjata.
+  - Pengenalan senjata, memberikan cerita latar belakang senjata atau deskripsi terkait.
+  - Mendukung peralihan ke level yang sesuai untuk melihat berbagai statistik senjata (seperti ATK Dasar, atribut sekunder, dll.).
 
-- **Informasi Pemurnian Senjata**
+- **Informasi Penyempurnaan Senjata**
 
-  - Menampilkan peningkatan atribut spesifik untuk setiap tingkatan pemurnian, untuk memudahkan pemain mengevaluasi nilai pemurnian.
+  - Menampilkan bonus atribut spesifik untuk setiap peringkat penyempurnaan, memudahkan pemain untuk mengevaluasi nilai penyempurnaan.
 
-- **Material Peningkatan Senjata**
+- **Material Kenaikan Senjata**
 
-  - Daftar material dan jumlah yang dibutuhkan untuk peningkatan dan Ascension.
+  - Mencantumkan material dan jumlah yang diperlukan untuk meningkatkan dan menaikkan.
 
 - **Rekomendasi Penggunaan Senjata**
-  - Berdasarkan statistik dari database Snap Hutao, menampilkan karakter dan skenario penggunaan yang direkomendasikan untuk kombinasi senjata, membantu pemain mengoptimalkan pilihan senjata.
+  - Berdasarkan statistik database Snap Hutao, menunjukkan pasangan karakter dan skenario penggunaan yang direkomendasikan, membantu pemain mengoptimalkan pilihan senjata mereka.

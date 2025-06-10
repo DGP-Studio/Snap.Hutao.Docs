@@ -1,48 +1,44 @@
 ---
 headerDepth: 2
-category: [Fitur, Tutorial]
-tag: [Karakter, WIKI, Data]
+category: [Feature, Tutorial]
+tag: [Character, WIKI, Data]
 order: 11
 comment: false
-description: Fitur WIKI Karakter di Snap Hutao mengintegrasikan informasi dasar karakter Genshin Impact, nilai bakat, konstelasi, dan data penting lainnya, memberikan pemain kemudahan dalam mencari informasi karakter.
+description: Fitur WIKI Karakter di Snap Hutao mengintegrasikan informasi dasar, nilai talenta, konstelasi, dan data penting lainnya dari karakter Genshin Impact, memberikan pemain cara yang praktis untuk mencari informasi karakter.
 ---
 
-# Data Karakter
+# WIKI Karakter
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
-:::
+![karakter-wiki](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01OKw2Tc1g6e0qbmLe0_!!1797064093.png_.webp)
 
-![characters-wiki](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01OKw2Tc1g6e0qbmLe0_!!1797064093.png_.webp)
-
-Data Karakter adalah alat pencarian terintegrasi bawaan Snap Hutao yang mencakup informasi dasar karakter Genshin Impact, nilai bakat, konstelasi, material pengembangan, dan data detail lainnya, menyediakan layanan pencarian informasi terpadu bagi pemain.
+Data Karakter adalah alat pencarian bawaan yang komprehensif di Snap Hutao. Fitur ini mencakup data detail seperti informasi dasar, nilai talenta, konstelasi, dan material kenaikan karakter Genshin Impact, memberikan pemain layanan pencarian informasi satu atap.
 
 ## Data yang Termasuk
 
 - **Daftar Karakter**
-  - Gunakan tombol di kiri atas daftar untuk mengubah mode tampilan:
-    - Mode “Daftar” menampilkan avatar karakter, nama, dan informasi detail.
-    - Mode “Grid” hanya menampilkan avatar dan nama karakter.
-  - Dalam mode “Grid”, klik thumbnail atau nama karakter untuk beralih kembali ke tampilan “Daftar” dan menuju halaman perkenalan karakter terkait.
-- **Isi Data**
+  - Gunakan tombol di pojok kiri atas daftar untuk mengganti mode tampilan:
+    - Mode "Daftar" menampilkan avatar, nama, dan informasi detail karakter.
+    - Mode "Kisi" hanya menampilkan avatar dan nama karakter.
+  - Dalam mode "Kisi", klik pada gambar mini atau nama karakter untuk beralih kembali ke tampilan "Daftar" dan langsung menuju ke halaman pengenalan karakter tersebut.
+- **Konten Data**
   - **Informasi Dasar Karakter**
-    - Mencakup informasi dasar karakter, informasi pengisi suara, atribut, dan material pengembangan.
+    - Termasuk informasi dasar, informasi pengisi suara (CV), atribut, dan material kenaikan.
     - Nilai atribut detail di setiap level.
-- **Bakat**
+- **Talenta**
   - Pengenalan dasar dan nilai detail di setiap level:
     - Serangan Normal
-    - Elemental Skill
-    - Elemental Burst
+    - Skill Elemental
+    - Burst Elemental
     - Talenta Pasif
-  - Mendukung peralihan ke tampilan nilai bakat sesuai level yang diinginkan.
+  - Mendukung peralihan untuk melihat nilai talenta di level yang diinginkan.
 - **Konstelasi**
-- **Rekomendasi Kombinasi**
-  - Rekomendasi kombinasi tim karakter yang umum, kombinasi senjata, dan kombinasi artefak berdasarkan informasi statistik dari "Hutao Database".
+- **Build yang Direkomendasikan**
+  - Menyediakan komposisi tim, rekomendasi senjata, dan set artefak yang umum digunakan, berdasarkan informasi statistik dari "Database Snap Hutao."
 - **Informasi Lainnya**
-  - Termasuk gambar karakter, namecard, avatar, hidangan khas, informasi kostum, data karakter, dan latar belakang cerita.
+  - Termasuk gambar *splash art*, kartu nama, avatar, hidangan khusus, informasi kostum, dan cerita latar belakang karakter.
 
 ## Menambahkan Karakter dari WIKI ke Rencana Pengembangan
 
-- Di halaman Data Karakter, setelah memilih karakter, klik tombol "Tambahkan ke Rencana Pengembangan" di kanan atas untuk menambahkan karakter tersebut ke rencana pengembangan.
-  - Secara default, rencana pengembangan dimulai dari level 1 karakter (pengguna dapat menyesuaikannya sendiri).
-  - Jika Anda perlu membuat rencana pengembangan berdasarkan karakter yang sudah ada, Anda dapat menggunakan fitur perhitungan pengembangan di halaman "[Karakter Saya](character-data.md#将当前选定角色加入养成计算)", untuk detailnya, lihat [tutorial ini](develop-plan.md#基于玩家数据添加).
+- Di halaman data karakter, setelah memilih karakter, klik tombol "Tambahkan ke Rencana Pengembangan" di pojok kanan atas untuk menambahkan karakter ke rencana.
+  - Secara default, rencana pengembangan dimulai dari karakter level 1 (pengguna dapat menyesuaikannya).
+  - Jika Anda perlu membuat rencana pengembangan berdasarkan karakter yang sudah dimiliki, gunakan fitur "Kalkulator Pengembangan" di halaman "[Karakter Saya](character-data.md#Tambahkan-Karakter-yang-Sedang-Dipilih-ke-Rencana-Pengembangan)". Untuk cara spesifiknya, lihat [tutorial ini](develop-plan.md#Menambahkan-dari-Data-Karakter-Saya).

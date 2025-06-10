@@ -18,23 +18,23 @@ export const idNavbar = navbar([
     link: "/id/support-us",
   },
   {
-    text: "Bergabung dengan Komunitas",
+    text: "Komunitas",
     icon: "iconfont icon-community",
     link: "/id/community",
   },
   {
-    text: "Papan Proyek",
+    text: "Proyek",
     icon: "iconfont icon-update",
     ariaLabel: "ducalis-changelog-widget",
     link: `javascript:void(0);`,
   },
   {
-    text: "Bantuan dan Dukungan",
+    text: "Bantuan & Dukungan",
     icon: "iconfont icon-define",
     prefix: "/id/",
     children: [
       {
-        text: "Catatan Perubahan",
+        text: "Log Pembaruan",
         icon: "iconfont icon-update",
         link: "statements/update-log",
       },
@@ -49,17 +49,17 @@ export const idNavbar = navbar([
         ],
       },
       {
-        text: "Masalah dan Umpan Balik",
+        text: "Pertanyaan & Umpan Balik",
         children: [
           {
             text: "FAQ",
             icon: "iconfont icon-ask",
-            link: "advanced/FAQ.html",
+            link: "advanced/FAQ",
           },
           {
-            text: "Laporkan Masalah",
+            text: "Lapor Bug",
             icon: "iconfont icon-debug",
-            link: "statements/bug-report.html",
+            link: "statements/bug-report",
           },
         ],
       },

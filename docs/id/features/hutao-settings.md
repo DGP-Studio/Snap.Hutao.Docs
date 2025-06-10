@@ -1,90 +1,87 @@
 ---
 headerDepth: 2
-category: [Fitur, Tutorial]
-tag: [Snap Hutao Cloud, Verifikasi Geetest, Pengaturan Bahasa, Fitur Lanjutan]
+category: [Feature, Tutorial]
+tag:
+  [Snap Hutao Cloud, Geetest verification, Language settings, Advanced settings]
 order: 15
 comment: false
-description: Halaman pengaturan Snap Hutao berisi berbagai opsi pengaturan program. Pengguna dapat menyesuaikan Snap Hutao sesuai preferensi mereka dengan mengubah pengaturan di halaman ini.
+description: Halaman Pengaturan Snap Hutao berisi berbagai opsi untuk menyesuaikan berbagai aspek program. Dengan mengubah pengaturan di halaman ini, pengguna dapat mempersonalisasi Snap Hutao untuk mencapai pengalaman pengguna yang diinginkan.
 ---
 
 # Pengaturan Perangkat Lunak
 
-![settings](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01wDQfRa1g6e0ylR4ov_!!1797064093.png_.webp)
+![pengaturan](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01wDQfRa1g6e0ylR4ov_!!1797064093.png_.webp)
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini. Kami menerima perbaikan melalui Pull Request (PR).
-:::
-
-Berikut adalah penjelasan mengenai fitur pengaturan di Snap Hutao, yang diurutkan sesuai dengan urutan tampilan dalam aplikasi.
+Konten berikut disajikan sesuai urutan fitur pengaturan di dalam Snap Hutao.
 
 ## Tentang Snap Hutao
 
 Bagian ini berisi informasi berikut:
 
 - Ikon Snap Hutao: Anda dapat melihat gambar aslinya di [halaman utama](/).
-- [DGP-Studio](https://github.com/DGP-Studio) telah mendapatkan izin terkait untuk menggunakan ikon ini.
+- [DGP-Studio](https://github.com/DGP-Studio) diizinkan untuk menggunakan ikon ini.
 
 ## Alat Mode Administrator
 
-Di sisi kanan halaman pengaturan, tersedia alat mode administrator untuk pengguna yang membutuhkannya.
+Di sisi kanan halaman pengaturan, alat mode administrator disediakan untuk pengguna yang membutuhkannya.
 
-- **Buat Pintasan**: Membuat pintasan di desktop untuk meluncurkan Snap Hutao dengan hak administrator.
-- **Mulai Ulang dengan Administrator**: Klik kanan ikon Snap Hutao di pojok kanan bawah taskbar, lalu pilih "Mulai Ulang dengan Administrator" dari menu untuk mendapatkan hak akses administrator.
+- **Buat pintasan**: Membuat pintasan di desktop untuk meluncurkan Snap Hutao dengan hak administrator.
+- **Mulai ulang sebagai administrator**: Klik kanan ikon Snap Hutao di sudut kanan bawah bilah tugas dan pilih "Mulai ulang sebagai administrator" dari menu pop-up untuk mendapatkan hak administrator.
 
-## Verifikasi Tanpa Kendala
+## CAPTCHA
 
-- Jika fitur login harian dan Catatan Realtime memicu kesalahan `-1034` dari miHoYo, Anda dapat mengonfigurasi layanan verifikasi pihak ketiga melalui pengaturan ini untuk melewati verifikasi Geetest secara otomatis.
-- Setelah konfigurasi berhasil, Catatan Realtime dan login harian akan menyelesaikan verifikasi secara otomatis, menghindari kegagalan permintaan.
+- Jika fitur check-in harian dan Catatan Real-time memicu kesalahan `-1034` dari miHoYo, Anda dapat mengonfigurasi layanan verifikasi pihak ketiga melalui pengaturan ini untuk secara otomatis melewati verifikasi Geetest.
+- Setelah berhasil dikonfigurasi, Catatan Real-time dan check-in akan secara otomatis menyelesaikan verifikasi, menghindari kegagalan permintaan.
 
 ## Pengaturan Tampilan
 
-- **Bahasa**: Secara default, bahasa akan mengikuti bahasa sistem. Pengguna dapat mengubah bahasa tampilan secara paksa.
-- **Hari Pertama Minggu**: Mengatur hari pertama yang ditampilkan di kalender dalam game.
+- **Bahasa**: Secara default menggunakan bahasa sistem; pengguna dapat secara paksa mengatur bahasa tampilan.
+- **Hari Mulai Minggu**: Mengatur tanggal tampilan untuk kolom pertama di kalender game.
 - **Material Latar Belakang**:
-  - Pilihan meliputi Tidak Ada, Akrilik, Mika (khusus Windows 11), dan Mika Variasi (khusus Windows 11).
-- **Tema Warna**: Dapat beralih antara tema terang dan gelap, secara default mengikuti pengaturan sistem.
+  - Opsi meliputi Tidak Ada, Akrilik, Mika (hanya Windows 11), dan Mika Alt (hanya Windows 11).
+- **Tema Warna**: Memungkinkan beralih antara tema Terang dan Gelap; secara default mengikuti pengaturan sistem.
 - **Gambar Latar Belakang**:
-  - Pilihan meliputi Tanpa Gambar Latar Belakang, Gambar Acak Lokal, Gambar Harian Bing, Gambar Harian Snap Hutao, dan Wallpaper Launcher Resmi.
-- **Ikon Area Notifikasi**: Memilih apakah ikon Snap Hutao akan ditampilkan di area notifikasi.
+  - Opsi meliputi Tidak ada gambar latar belakang, Gambar acak lokal, Gambar harian Bing, Gambar harian Snap Hutao, dan wallpaper peluncur Resmi.
+- **Ikon Area Notifikasi**: Pilih apakah akan menampilkan ikon Snap Hutao di area notifikasi.
 
-## Manajemen Ruang Penyimpanan
+## Manajemen Penyimpanan
 
 - **Folder Data**:
   - **Buka Folder**: Membuka folder yang berisi data pengguna dan metadata.
-  - **Ganti Direktori Data**: Mengubah lokasi penyimpanan folder data.
-  - **Hapus Cache Transfer Server**: Menghapus cache yang dihasilkan oleh fitur transfer server game.
+  - **Ubah Direktori Data**: Mengubah lokasi penyimpanan folder data.
+  - **Hapus Cache Konversi Server**: Membersihkan cache yang dihasilkan oleh fitur transfer server game.
 - **Folder Cache**:
   - **Buka Folder**: Membuka folder yang berisi cache gambar.
-  - **Atur Ulang Sumber Daya Gambar**: Menghapus dan mengunduh ulang sumber daya gambar.
+  - **Setel Ulang Sumber Daya Gambar**: Menghapus dan mengunduh ulang sumber daya gambar.
 
-## Pengaturan Pintasan
+## Pengaturan Tombol Pintas
 
-::: info Membutuhkan Izin Administrator
-Snap Hutao harus dijalankan dalam mode administrator untuk mengubah pengaturan pintasan.
+::: info Hak Administrator Diperlukan
+Anda perlu meluncurkan Snap Hutao dengan hak administrator untuk mengubah pengaturan tombol pintas.
 :::
 
-- Mengatur pintasan mouse otomatis dan pintasan keyboard.
-- Jika pendaftaran pintasan gagal (karena kurangnya izin atau konflik), pesan akan muncul di bagian bawah antarmuka. Pengguna perlu mengatur ulang pintasan.
+- Atur fungsi klik mouse otomatis dan tombol pintas keyboard.
+- Jika pendaftaran tombol pintas gagal (karena izin atau konflik yang tidak mencukupi), prompt akan muncul di bagian bawah antarmuka, dan pengguna perlu mengonfigurasi ulang pengaturan.
 
 ## Pengaturan Beranda
 
-- **Kartu Beranda**: Mengatur apakah kartu fitur tertentu (seperti Luncurkan Game, Catatan Wish) akan ditampilkan.
-- **Server Kalender**: Mengubah sumber data kalender game.
-- **Server Pengumuman**: Mengubah sumber data pengumuman game.
+- **Kartu Beranda**: Atur apakah akan menampilkan kartu fitur tertentu (seperti Luncurkan Game, Riwayat Gacha).
+- **Server Kalender**: Ubah sumber data kalender game.
+- **Server Pengumuman**: Ubah sumber data pengumuman game.
 
 ## Pengaturan Game
 
-- **Hapus Cache Web Game**: Digunakan untuk mengatasi masalah penyegaran catatan wish yang tidak normal.
-- **Batasan Kecepatan Unduh**: Membatasi kecepatan unduh sumber daya game.
-- **Mode Transfer Server**: Mengatur mode eksekusi transfer server.
+- **Hapus Cache Halaman Web Game**: Digunakan untuk menyelesaikan masalah dengan penyegaran Riwayat Gacha yang tidak normal.
+- **Batas Kecepatan Unduh**: Membatasi kecepatan unduh sumber daya game.
+- **Mode Konversi Server**: Mengatur mode eksekusi untuk konversi server.
 
-## Pengaturan Catatan Wish
+## Pengaturan Riwayat Gacha
 
-- **Sembunyikan Riwayat Event Tanpa Catatan**: Menyembunyikan event wish yang tidak memiliki catatan.
-- **Sembunyikan Item Wish yang Tidak Didapatkan**: Menyembunyikan item wish yang belum didapatkan.
-- **Migrasi Data**: Mendukung impor dan ekspor format UIGF 4.
+- **Sembunyikan Aktivitas Riwayat Tanpa Catatan**: Menyembunyikan aktivitas gacha tanpa catatan.
+- **Sembunyikan Item Gacha yang Belum Diperoleh**: Menyembunyikan item gacha yang belum diperoleh.
+- **Migrasi Data**: Mendukung impor dan ekspor dalam format UIGF 4.
 
 ## Pengaturan WebView
 
-- **Mode Simpan Berbagi**:
-  - Memilih cara menyimpan gambar yang dibagikan, termasuk menyimpannya ke clipboard atau lokal.
+- **Mode Simpan Bagikan**:
+  - Pilih cara menyimpan gambar yang dibagikan, termasuk menyimpan ke clipboard atau secara lokal.

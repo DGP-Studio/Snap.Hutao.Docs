@@ -7,6 +7,6 @@ dir:
   order: 10
 ---
 
-# Dev Logs
+# Catatan Pengembang
 
 <Catalog />
