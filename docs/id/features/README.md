@@ -4,14 +4,11 @@ comment: false
 index: false
 icon: iconfont icon-module
 dir:
-  text: Fitur
+  text: Features
   order: 1
-description: Di direktori panduan fitur, Anda dapat menemukan semua direktori fitur yang disediakan oleh Snap Hutao saat ini, dan mencari dokumen fitur yang sesuai sesuai kebutuhan.
+description: Di direktori Fitur, Anda dapat menemukan daftar komprehensif dari semua fitur yang saat ini tersedia di Snap Hutao. Anda dapat merujuk ke direktori ini untuk mencari dokumentasi yang sesuai dari setiap fitur berdasarkan kebutuhan spesifik Anda.
 ---
 
-# Panduan Fitur
+# Fitur
 
 <Catalog />
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
-:::

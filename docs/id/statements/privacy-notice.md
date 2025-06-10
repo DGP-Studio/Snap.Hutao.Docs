@@ -1,71 +1,67 @@
 ---
 headerDepth: 2
-category: [Pengumuman]
+category: [Announcement]
 icon: iconfont icon-license
 order: 3
 comment: false
-description: Harap baca halaman ini dengan saksama untuk mendapatkan informasi tentang pemrosesan data pengguna dan hak privasi Proyek Snap Hutao.
-banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/privacy-notice.html
+description: Harap baca halaman ini dengan saksama untuk memahami penanganan data pengguna dan hak privasi untuk proyek Snap Hutao.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/privacy-notice.html
 ---
 
-# Data Pengguna dan Hak Privasi
+# Data Pengguna dan Pemberitahuan Privasi
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui Pull Request (PR).
-:::
-
-Snap Hutao berkomitmen untuk melindungi privasi dan keamanan data pengguna. Berikut adalah penjelasan rinci kami mengenai pemrosesan data pengguna dan hak privasi.
+Snap Hutao berkomitmen untuk melindungi privasi dan keamanan data pengguna. Berikut adalah informasi detail mengenai penanganan data pengguna dan hak privasi kami.
 
 ## Data Informasi Pribadi
 
-Desain awal Snap Hutao adalah untuk menghormati privasi pengguna. Proyek ini sendiri tidak secara aktif mengumpulkan data informasi pribadi apa pun.
+Snap Hutao dirancang dengan prinsip utama menghormati privasi pengguna, dan proyek ini sendiri tidak secara aktif mengumpulkan data informasi pribadi apa pun.
 
-## Penjelasan Penggunaan Data Reguler
+## Penggunaan Data Reguler
 
-Snap Hutao akan memproses dan menggunakan data pengguna sesuai dengan aturan berikut selama pengoperasian:
+Snap Hutao menangani dan menggunakan data pengguna sesuai dengan aturan berikut selama pengoperasiannya:
 
 ### Penyimpanan Lokal
 
-Snap Hutao akan menyimpan informasi berikut dalam bentuk file database di **direktori data** pengguna:
+Snap Hutao akan menyimpan informasi berikut sebagai file database di dalam **direktori data** pengguna:
 
 - **Cookie MiYouShe dan HoYoLAB**
 - **Informasi konfigurasi Snap Hutao**
-- **Seluruh data lokal pengguna**
+- **Semua data lokal pengguna**
 
-### Pengumpulan Informasi Kesalahan dan Statistik
+### Pengumpulan Informasi Galat dan Statistik
 
 Untuk mengoptimalkan kinerja perangkat lunak dan meningkatkan pengalaman pengguna, Snap Hutao dapat mengumpulkan informasi berikut secara anonim:
 
 - **ID Perangkat Pengguna**
-- **Log kesalahan dan crash program**
-- **Informasi statistik data aktivitas pengguna**
+- **Log galat dan *crash* program**
+- **Informasi statistik dari data aktivitas pengguna**
 
 Data ini hanya digunakan untuk tujuan pengembangan dan statistik.
 
 ### Pengunggahan Data
 
-#### Basis Data Hutao (Catatan Spiral Abyss, Statistik Spiral Abyss, Teater Fantasi)
+#### Database Snap Hutao (Catatan Abyss, Statistik Abyss, dan Teater Imaginarium)
 
-Saat pengguna memilih untuk menggunakan fitur `Unggah Data`, data berikut akan diunggah ke Hutao API:
+Saat pengguna memilih untuk menggunakan fitur `Unggah Data`, data berikut akan diunggah ke API Snap Hutao:
 
-- **UID game pengguna**
+- **UID Game pengguna**
 - **Catatan Spiral Abyss pengguna**
-- **Informasi karakter pengguna beserta informasi senjata dan artefak yang digunakan**
+- **Informasi karakter pengguna beserta senjata dan artefak yang mereka kenakan**
 
-#### Peluncur Tingkat Lanjut (Pengalihan Server)
+#### Peluncur Lanjutan (Peralihan Server)
 
-Setelah menggunakan fitur `Pengalihan Server` pada `Peluncur Tingkat Lanjut`, Snap Hutao akan menyimpan file-file yang diperlukan terkait dengan pengalihan server di direktori data lokal.
+Setelah menggunakan fitur `Peralihan Server` di `Peluncur Lanjutan`, Snap Hutao akan menyimpan file-file yang diperlukan terkait konversi server di direktori data lokal.
 
-#### Fitur Akun Hutao
+#### Fungsi Paspor Snap Hutao
 
-Layanan cloud Hutao akan mengenkripsi dan menyimpan informasi berikut:
+Layanan Cloud Snap Hutao akan mengenkripsi dan menyimpan informasi berikut:
 
 - **Alamat email yang digunakan untuk pendaftaran**
 - **Kata sandi yang terenkripsi**
 
-## Domain Tepercaya
+## Domain Terpercaya
 
-Berikut adalah domain tepercaya resmi yang dimiliki oleh Proyek Snap Hutao. Harap waspadai domain di luar daftar ini untuk menghindari informasi dari sumber yang tidak jelas (termasuk situs web, email, dll.).
+Berikut adalah domain terpercaya yang secara resmi dimiliki oleh proyek Snap Hutao. Harap waspada terhadap informasi dari domain di luar daftar ini untuk menghindari sumber yang tidak dikenal (termasuk situs web, email, dll.).
 
 - **hut.ao**
 - **snapgenshin.com**
@@ -73,4 +69,4 @@ Berikut adalah domain tepercaya resmi yang dimiliki oleh Proyek Snap Hutao. Hara
 - **snapgenshin.cn** (Hanya digunakan untuk mengirim email sistem)
 - **snaphutao.com**
 
-Harap selalu pastikan bahwa sumber daya yang Anda akses berasal dari domain di atas untuk memastikan keamanan data.
+Harap selalu pastikan bahwa sumber daya yang Anda akses berasal dari domain di atas untuk menjamin keamanan data.

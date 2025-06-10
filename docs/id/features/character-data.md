@@ -1,57 +1,53 @@
 ---
 headerDepth: 2
-category: [Fitur, Tutorial]
-tag: [Statistik Data, Tampilan Karakter]
+category: [Feature, Tutorial]
+tag: [Character showcase, Character statistics]
 order: 8
 comment: false
-description: Fitur "Karakter Saya" di Snap Hutao dapat membaca data detail karakter di akun Genshin Impact dan memberikan analisis, termasuk level, konstelasi, bakat, atribut Artefak, dan lainnya.
+description: Fitur "Karakter Saya" di Snap Hutao dapat mengambil dan menampilkan data detail karakter di bawah akun Genshin Impact, termasuk level, konstelasi, talenta, dan atribut artefak, serta memberikan analisis.
 ---
 
 # Karakter Saya
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
-:::
-
 ::: info Prasyarat
-Untuk menggunakan fitur ini, Anda perlu masuk ke akun MiYouShe atau HoYoLAB. Untuk metode login, silakan lihat [Penggantian Akun MiYouShe](mhy-account-switch.md#penggantian-akun-miyoushe).
+Fitur ini memerlukan login ke akun MiYouShe atau HoYoLAB. Untuk instruksi login spesifik, silakan merujuk ke [Pergantian Akun MiHoYo BBS](mhy-account-switch.md#mihoyo-bbs-account-switch).
 :::
 
-Fitur "Karakter Saya" dapat membaca data detail semua karakter di akun pengguna saat ini, termasuk level, konstelasi, senjata, bakat, Artefak, dan lainnya, untuk membantu pemain mengoptimalkan pengembangan dan pengelolaan karakter.
+Fitur "Karakter Saya" dapat membaca data detail semua karakter di akun pengguna saat ini, termasuk level, konstelasi, senjata, talenta, dan artefak, membantu pemain mengoptimalkan pengembangan dan manajemen karakter.
 
-![Tampilan Kisi-kisi](/images/202501/characters_data.webp)
+![Contoh Tampilan Kisi](/images/202501/characters_data.webp)
 
 ## Sinkronisasi Informasi Karakter
 
-Klik tombol "Sinkronisasi Informasi Karakter" di kanan atas untuk memperbarui data berikut:
+Klik tombol "Sinkronisasi Informasi Karakter" di pojok kanan atas untuk memperbarui data berikut:
 
-- Level Karakter dan Konstelasi Karakter
-- Tingkat Persahabatan
-- Level Senjata dan Tingkat Pemurnian
-- Level Bakat
-- Informasi Kostum
+- Level dan konstelasi karakter
+- Level persahabatan
+- Level senjata dan peringkat penyempurnaan
+- Level talenta
+- Informasi pakaian
 - Artefak dan atribut detailnya
 
-## Menambahkan Karakter yang Dipilih Saat Ini ke Perhitungan Pengembangan
+## Tambahkan Karakter yang Sedang Dipilih ke Rencana Pengembangan
 
 1. Pastikan data karakter telah disinkronkan.
-2. Di halaman fitur "Karakter Saya", pilih karakter yang ingin Anda tambahkan ke perhitungan pengembangan.
-3. Klik tombol "Perhitungan Pengembangan - Karakter dan Senjata Saat Ini" di kanan atas.
+2. Di halaman "Karakter Saya", pilih karakter yang ingin Anda tambahkan ke Rencana Pengembangan.
+3. Klik tombol "Rencana Pengembangan - Karakter & Senjata Saat Ini" di pojok kanan atas.
 
-- Sistem akan secara otomatis mengisi level karakter, level bakat, dan level senjata yang telah disinkronkan. Pengguna dapat dengan bebas mengubah level target.
+- Sistem akan secara otomatis mengisi level karakter, level talenta, dan level senjata yang telah disinkronkan. Pengguna dapat dengan bebas mengubah level target.
 
 ![Contoh Gambar Pengembangan](/images/202501/character_develop.webp)
 
-Setelah selesai ditambahkan, Anda dapat melihat target pengembangan yang telah ditetapkan di halaman fitur "Rencana Pengembangan".
+Setelah menambahkan, Anda dapat melihat tujuan pengembangan yang ditetapkan di halaman fitur "Rencana Pengembangan".
 
-Untuk penjelasan fitur yang lebih detail, silakan lihat dokumen [Rencana Pengembangan](./develop-plan.md#rencana-pengembangan).
+Untuk deskripsi fitur detail, silakan merujuk ke dokumen [Rencana Pengembangan](./develop-plan.md#development-plan).
 
-## Ekspor Detail Karakter ke Papan Klip
+## Ekspor Detail Karakter ke Clipboard
 
-Halaman "Karakter Saya" mendukung ekspor data karakter dalam bentuk teks:
+Halaman "Karakter Saya" mendukung ekspor data karakter sebagai teks:
 
-- Setelah memilih karakter target, klik tombol "Ekspor Teks ke Papan Klip" di kanan atas.
-- Data yang diekspor disimpan di papan klip sistem dan dapat langsung ditempel untuk dibagikan.
+- Setelah memilih karakter target, klik tombol "Ekspor Teks ke Clipboard" di pojok kanan atas.
+- Data yang diekspor disimpan di clipboard sistem dan dapat langsung ditempel dan dibagikan.
 - Contoh gaya teks adalah sebagai berikut:
 
 ```text
@@ -59,7 +55,7 @@ Halaman "Karakter Saya" mendukung ekspor data karakter dalam bentuk teks:
 // Kamisato Ayaka [Lv.90, ☆5, C6] [Lv.10, Lv.13 (10 +3), Lv.13 (10 +3)]
 // ---------------------
 // Mistsplitter Reforged [Lv.90, ☆5, R1]
-// [Base Attack: 674] [CRIT DMG: 44.1%]
+// [Base ATK: 674] [CRIT DMG: 44.1%]
 // ---------------------
 // [HP: 12858]
 // [ATK: 1016]
@@ -83,4 +79,3 @@ Halaman "Karakter Saya" mendukung ekspor data karakter dalam bentuk teks:
 // 👑 CRIT DMG: 62.2% [☆5 +20 Blizzard Strayer]
 // [ATK: 15.2%][ATK: 33][CRIT Rate: 7.4%][HP: 299]
 // =====================
-```

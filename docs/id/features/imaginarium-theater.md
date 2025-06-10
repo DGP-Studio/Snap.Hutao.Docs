@@ -1,54 +1,51 @@
 ---
 headerDepth: 2
-category: [Fitur, Tutorial]
-tag: [Teater Mimpi Fantasi, Spiral Abyss, Statistik Data]
+category: [Features, Tutorials]
+tag: [Imaginarium Theater, Spiral Abyss, Data Statistics]
 order: 10
 comment: false
-description: Fitur Teater Mimpi Fantasi bawaan Snap Hutao mendukung pemain untuk mencatat dan menghitung konten tantangan baru dalam game, menyediakan konfigurasi tim yang detail, data penyelesaian, dan analisis statistik seluruh server untuk membantu pemain mengoptimalkan strategi tantangan.
+description: Fitur "Teater Imaginarium" di Snap Hutao memungkinkan pemain mencatat dan menganalisis konten tantangan baru di dalam game, menyediakan detail tim, catatan penyelesaian, dan analisis statistik seluruh server untuk membantu mengoptimalkan strategi.
 ---
 
-# Teater Mimpi Fantasi
+# Teater Imaginarium
 
-Fitur "Teater Mimpi Fantasi" di Snap Hutao didedikasikan untuk menyediakan layanan pencatatan dan statistik data untuk mode tantangan ini. Melalui fitur ini, pemain dapat mengarsipkan data tantangan mereka dan berpartisipasi dalam analisis statistik data seluruh server.
+Fitur "Teater Imaginarium" di Snap Hutao didedikasikan untuk menyediakan layanan perekaman data dan statistik untuk mode tantangan ini. Melalui fitur ini, pemain dapat mengarsipkan data tantangan mereka dan berpartisipasi dalam analisis statistik data seluruh server.
 
-Fitur ini terutama dibagi menjadi dua bagian berikut:
+Fitur ini dibagi menjadi dua bagian utama:
 
-- **Detail Periode**：Menampilkan data tantangan Teater Mimpi Fantasi pemain, termasuk detail progres level, konfigurasi tim, catatan penyelesaian, dll.
-- **Statistik Periode Ini**：Menampilkan data penampilan karakter yang dihasilkan saat semua pemain mengunggah tantangan ke database Snap Hutao
+- **Detail Fase**: Menampilkan data tantangan Teater Imaginarium individu pemain, termasuk kemajuan level, konfigurasi tim, catatan penyelesaian, dll.
+- **Statistik Fase Saat Ini**: Menampilkan data penggunaan karakter yang dihasilkan dari tantangan semua pemain yang diunggah ke database Snap Hutao.
 
 ::: tabs
-@tab Detail Periode
-![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
-@tab Statistik Periode Ini
-![fantasy-arena-stats](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
+@tab Detail Jadwal
+![detail-catatan-pribadi](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
+@tab Statistik Jadwal Saat Ini
+![statistik-arena-fantasi](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
 :::
 
-## Melihat Data Tantangan Pribadi (Detail Periode)
+## Melihat Data Tantangan Pribadi (Detail Jadwal)
 
-- Klik menu di sebelah kiri untuk masuk ke halaman "Teater Mimpi Fantasi", lalu pilih tab "Detail Periode".
-- Lihat catatan tantangan untuk periode ini dan periode sebelumnya, termasuk:
-  - Formasi karakter pembuka, karakter undangan, semua karakter yang menunggu, serangan terkuat, rekor terbaik, dll.
-  - Formasi monster di setiap babak, formasi karakter yang digunakan, Berkat Cemerlang dan Panen Misterius.
+- Klik halaman "Teater Imaginarium" dari **menu di sebelah kiri**, dan pilih tab "Detail Jadwal".
+- Lihat catatan tantangan untuk fase saat ini dan yang lalu, termasuk:
+  - Susunan karakter pembuka, karakter undangan, semua karakter siaga, serangan terkuat, rekor terbaik, dll.
+  - Susunan monster setiap babak, karakter dalam tim pertempuran, berkah cemerlang, dan panen misterius.
 
-### Arsip Data
+### Pengarsipan Data
 
-- Snap Hutao akan secara otomatis mengarsipkan setiap periode tantangan. Pemain dapat melihat data tantangan periode sebelumnya untuk meninjau kinerja historis dan menyesuaikan strategi.
+- Snap Hutao secara otomatis mengarsipkan setiap fase tantangan. Pemain dapat melihat data tantangan masa lalu untuk meninjau performa dan menyesuaikan strategi.
 - Klik tombol "Segarkan Data" untuk mendapatkan catatan game terbaru.
 
-## Data Tantangan Global (Statistik Periode Ini)
+## Data Tantangan Global (Statistik Jadwal Saat Ini)
 
-::: warning Jangkauan Data
-Semua data statistik didasarkan pada catatan yang diunggah sendiri oleh pemain, dan mungkin tidak sepenuhnya mewakili semua pemain.
+::: warning Lingkup Data
+Semua data statistik didasarkan pada catatan yang diunggah oleh pemain dan mungkin tidak sepenuhnya mewakili semua pemain.
 :::
 
-- Klik menu di sebelah kiri untuk masuk ke halaman "Teater Mimpi Fantasi", lalu pilih tab "Statistik Periode Ini".
-- Lihat informasi penampilan karakter dalam tantangan periode ini.
+- Klik halaman "Teater Imaginarium" dari **menu di sebelah kiri**, dan pilih tab "Statistik".
+- Lihat informasi kemunculan karakter untuk fase tantangan ini.
 
-### Mengunggah dan Membagikan Data
+### Mengunggah dan Berbagi Data
 
-1. Di halaman "Teater Mimpi Fantasi", klik tombol "Unggah Data".
+1. Klik tombol "Unggah Data" di halaman "Teater Imaginarium".
 2. Sistem akan secara otomatis mengurai catatan tantangan terbaru dan mengirimkannya ke database Snap Hutao.
-3. Setelah pengunggahan selesai, pemain akan menerima konfirmasi.
-   ::: important
-   Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
-   :::
+3. Setelah pengunggahan selesai, pemain akan menerima pesan konfirmasi.

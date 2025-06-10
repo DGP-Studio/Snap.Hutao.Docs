@@ -1,74 +1,70 @@
 ---
 headerDepth: 2
-category: [Pengumuman]
+category: [Announcement]
 icon: iconfont icon-debug
 order: 2
 comment: false
-description: Snap Hutao adalah program sumber terbuka yang dirilis di GitHub, dan kami juga menggunakan fitur GitHub Issues untuk mengumpulkan umpan balik masalah. Anda dapat mengirimkan laporan masalah melalui GitHub Issues.
-banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/bug-report.html
+description: Snap Hutao adalah program open-source yang dirilis di GitHub. Kami juga menggunakan fitur GitHub Issues untuk mengumpulkan umpan balik dan mengatasi masalah apa pun. Anda dapat mengirimkan laporan masalah melalui GitHub Issues.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/bug-report.html
 ---
 
 # Mengirimkan Laporan Bug
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
-:::
-
-Jika Anda menemukan masalah yang dapat direproduksi atau tidak dapat diperbaiki sendiri saat menggunakan Snap Hutao, Anda dapat memberi tahu pengembang dengan mengirimkan umpan balik masalah.
+Jika Anda mengalami masalah yang dapat direproduksi atau yang tidak dapat Anda perbaiki sendiri saat menggunakan Snap Hutao, Anda dapat memberi tahu pengembang dengan mengirimkan laporan bug.
 
 ![suggestion](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01jXBMbe1g6du15k9kx_!!1797064093.jpg_.webp)
 
-## Sebelum Mengirimkan Issue
+## Sebelum Mengirimkan Isu
 
-Sebelum membuat Issue baru, pastikan Anda telah menyelesaikan daftar periksa berikut:
+Sebelum membuat Isu baru, harap lengkapi daftar periksa berikut:
 
-- [ ] Pastikan Anda menggunakan klien Snap Hutao versi terbaru.
-- [ ] Gunakan fungsi pencarian untuk menemukan masalah Anda, dan periksa dokumen [Masalah yang Diketahui](../advanced/known-issue.md).
-- [ ] Cari di halaman Issue proyek apakah ada masalah yang sama atau serupa.
+- [ ] Pastikan Anda menggunakan versi terbaru dari klien Snap Hutao.
+- [ ] Gunakan fungsi pencarian untuk mencari masalah Anda dan periksa dokumen [Masalah yang Diketahui](../advanced/known-issue.md).
+- [ ] Cari di halaman Isu proyek untuk melihat apakah ada isu yang sama atau serupa.
 
-Jika setelah langkah-langkah di atas Anda masih belum menemukan solusi, Anda dapat membuat Issue baru di GitHub.
+Jika Anda masih tidak dapat menemukan solusi setelah menyelesaikan langkah-langkah di atas, Anda dapat membuat Isu baru di GitHub.
 
-## Cara Mengirimkan Issue
+## Cara Mengirimkan Isu
 
-### Persiapan Sebelum Mengirimkan Masalah
+### Persiapan Sebelum Mengirimkan Isu
 
-Saat mengirimkan Issue, pastikan untuk memberikan informasi berikut:
+Saat mengirimkan Isu, harap pastikan untuk memberikan informasi berikut:
 
 1. **Informasi Perangkat**
 
    - [ ] ID perangkat Anda.
    - [ ] Versi sistem operasi Anda.
 
-2. **Deskripsi Masalah**
+2. **Deskripsi Isu**
 
-   - [ ] Jelaskan masalah Anda secara detail, agar pengembang dapat mereproduksi masalah berdasarkan deskripsi Anda.
-     - Bagaimana masalah itu dipicu?
-     - Pesan kesalahan apa yang ditampilkan oleh program atau sistem operasi?
-     - Operasi apa yang telah Anda coba untuk memecahkan masalah, dan bagaimana hasilnya?
+   - [ ] Jelaskan masalah Anda secara detail sehingga pengembang dapat mereproduksi masalah berdasarkan deskripsi Anda.
+     - Bagaimana isu tersebut dipicu?
+     - Pesan kesalahan seperti apa yang ditampilkan oleh program atau sistem operasi?
+     - Langkah-langkah pemecahan masalah apa yang telah Anda coba, dan apa hasilnya?
 
-3. **Terkait Kerusakan Program**
+3. **Informasi Crash Program**
 
-- Jika masalah Anda terkait dengan kerusakan program, cari `Kesalahan .NET` terkait Snap Hutao di Windows Event Viewer, dan lampirkan detailnya di Issue.
+- Jika masalah Anda melibatkan crash program, harap cari `kesalahan .NET` yang terkait dengan Snap Hutao di Windows Event Viewer dan lampirkan konten detailnya di Isu Anda.
 
-### Metode Mengirimkan Issue
+### Cara Mengirimkan Isu
 
-- Buka [Halaman Pengiriman GitHub](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose).
-- Isi konten sesuai dengan templat dan kirimkan.
+- Buka [halaman pengiriman GitHub](https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose).
+- Isi konten sesuai dengan template dan kirim.
 
-Jika Anda tidak yakin seperti apa Issue yang baik, silakan lihat beberapa [masalah berkualitas](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98).
+Jika Anda tidak yakin seperti apa isu yang baik, silakan merujuk ke beberapa [isu berkualitas tinggi](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20label%3A%E4%BC%98%E8%B4%A8%E9%97%AE%E9%A2%98).
 
-## Debug Jarak Jauh
+## Remote Debugging
 
-Ketika pengembang tidak dapat mereproduksi masalah tertentu di perangkat mereka sendiri, mereka mungkin perlu melakukan debug jarak jauh untuk menemukan masalah. Jika Anda setuju untuk berpartisipasi dalam debug jarak jauh, administrator yang ditunjuk akan menambahkan Anda sebagai teman melalui QQ dan memasukkan Anda ke dalam grup bantuan jarak jauh untuk komunikasi.
+Ketika pengembang tidak dapat mereproduksi masalah tertentu di perangkat mereka sendiri, mereka mungkin perlu melakukan remote debugging untuk menemukan masalahnya. Jika Anda setuju untuk berpartisipasi dalam remote debugging, administrator yang ditunjuk akan menambahkan Anda sebagai teman melalui QQ/Discord dan mengundang Anda ke grup bantuan jarak jauh untuk komunikasi.
 
-**Komputer yang berpartisipasi dalam debug jarak jauh harus memenuhi kondisi berikut:**
+**Komputer yang berpartisipasi dalam remote debugging harus memenuhi ketentuan berikut:**
 
-- Setidaknya 15GB ruang hard disk yang tersedia.
-- Cukup lalu lintas jaringan untuk mendukung operasi debugging.
+- Setidaknya 15GB ruang hard drive kosong.
+- Lalu lintas jaringan yang cukup untuk mendukung operasi debugging.
 
-### Persiapan Sebelum Debug
+### Persiapan Sebelum Debugging
 
-1. Lakukan langkah `1～3` pada [Kontribusi Kode - Pengaturan Proyek Snap Hutao](../development/contribute.md#设置-snaphutao-项目).
-2. Unduh dan instal alat remote [ToDesk](https://www.todesk.com/download.html).
+1.  Lakukan langkah `1~3` di [Kontribusi Kode - Menyiapkan Proyek Snap Hutao](../development/contribute.md).
+2.  Unduh dan instal alat jarak jauh [ToDesk](https://www.todesk.com/download.html) atau [Parsec](https://parsec.app/).
 
-Debug jarak jauh akan membantu kami menyelesaikan masalah dengan lebih cepat, terima kasih atas dukungan Anda!
+Remote debugging akan membantu kami menyelesaikan masalah lebih cepat. Terima kasih atas dukungan Anda!

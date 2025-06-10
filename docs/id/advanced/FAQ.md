@@ -4,60 +4,53 @@ icon: iconfont icon-ask
 category: [FAQ]
 order: 1
 comment: false
-description: Halaman ini berisi beberapa pertanyaan umum dan solusi terkait masalah jaringan pengguna dan siklus hidup program.
-banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/faq.html&has_description=False
+description: Halaman ini berisi jawaban untuk pertanyaan umum seputar masalah jaringan dan penggunaan program Snap Hutao.
+banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/faq.html&has_description=False
 ---
 
 # Pertanyaan Umum Lainnya
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR.
+## Bagaimana Cara Membuat Pintasan Desktop (Mode Non-Administrator)?
+
+::: tip Tips dari Komunitas
+Terima kasih kepada [CzHUV yang memberikan solusi ini](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12).
 :::
 
-## Cara Membuat Pintasan Desktop Snap Hutao (Mode Non-Administrator)
-
-::: tip Kekuatan Komunitas
-Terima kasih kepada [solusi yang diberikan oleh CzHUV](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)
-:::
-
-1. Gunakan `Win+R` untuk membuka jendela Run, masukkan `shell:AppsFolder` di kotak input.
+1. Tekan `Win+R` untuk membuka jendela Run, lalu ketik `shell:AppsFolder` dan tekan Enter.
    ![Run](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Jj8c6i1g6du728e5A_!!1797064093.png_.webp)
-2. Windows akan memunculkan direktori aplikasi, cari Snap Hutao.
-3. Klik kanan ikon Snap Hutao, pilih "Buat pintasan".
-4. Ikuti petunjuk sistem, dan pintasan akan dibuat di desktop.
+2. Windows akan membuka folder aplikasi. Cari ikon Snap Hutao.
+3. Klik kanan ikon tersebut, lalu pilih "Create shortcut".
+4. Ikuti petunjuk sistem untuk membuat pintasan di desktop.
 
-## Cara Membuat Pintasan Desktop Snap Hutao (Mode Administrator)
+## Bagaimana Cara Membuat Pintasan Desktop (Mode Administrator)?
 
-- Masuk ke halaman pengaturan program Snap Hutao, klik tombol "Buat Pintasan" untuk membuat pintasan di desktop dengan hak administrator.
+- Buka Snap Hutao, masuk ke halaman Pengaturan, lalu klik tombol "Create shortcut". Ini akan membuat pintasan di desktop yang akan selalu berjalan dengan hak administrator.
 
-## Cara Membuat Snap Hutao Otomatis Menyala Saat Komputer Dihidupkan
+## Bagaimana Cara Membuat Snap Hutao Berjalan Otomatis Saat Komputer Nyala?
 
-### Metode 1: Melalui File Batch
+### Metode 1: Menggunakan File Batch
+1. Buat sebuah file batch. Lihat contoh perintah di [Isu ini](https://github.com/DGP-Studio/Snap.Hutao/issues/184) untuk membuat Snap Hutao berjalan langsung sebagai administrator.
+2. Atur agar file batch tersebut berjalan otomatis, misalnya dengan:
+   - Membuat tugas terjadwal (Task Scheduler) untuk menjalankannya saat startup.
+   - Menambahkan file batch ke folder startup sistem.
 
-1. Buat file batch, lihat perintah yang disediakan dalam [Issue ini](https://github.com/DGP-Studio/Snap.Hutao/issues/184), untuk membuat Snap Hutao berjalan langsung dalam mode administrator.
-2. Konfigurasikan file batch untuk memulai otomatis dengan cara berikut:
+### Metode 2: Menggunakan Alat Bantu
+- Gunakan program seperti `SkipUAC` untuk membuat Snap Hutao berjalan sebagai administrator tanpa memunculkan prompt UAC.
 
-- Buat program tugas terjadwal untuk menjalankan file batch saat sistem dinyalakan.
-- Tambahkan file batch ke item startup sistem.
-
-### Metode 2: Menggunakan Alat
-
-- Gunakan program seperti `SkipUAC` untuk membuat Snap Hutao berjalan dalam mode administrator secara diam-diam.
-
-::: warning Perhatian
-Metode di atas mungkin tidak berfungsi karena konfigurasi sistem atau masalah lainnya. Snap Hutao tidak secara langsung mendukung fitur otomatis menyala saat komputer dihidupkan, mencoba operasi terkait merupakan risiko yang Anda tanggung sendiri.
+::: warning Catatan
+Metode di atas mungkin gagal tergantung konfigurasi sistem. Snap Hutao tidak secara resmi mendukung fitur startup otomatis; risiko dari pengubahan ini ditanggung oleh Anda sendiri.
 :::
 
-## Tidak Dapat Menjalankan Snap Hutao dalam Mode Administrator
+## Tidak Bisa Menjalankan Snap Hutao sebagai Administrator?
 
-> **Cakupan Masalah**: Hanya Terbatas pada Windows 10 Versi di Bawah 22H2
+> **Masalah ini terjadi pada**: Windows 10 versi lama (sebelum versi 22H2).
 
-- Saat versi sistem pengguna lebih rendah dari `Windows Build 19045` (yaitu, Windows 10 versi 22H2), Snap Hutao mungkin tidak dapat dijalankan dalam mode administrator.
-- **Solusi**: Disarankan untuk meningkatkan sistem ke versi terbaru Windows 10 untuk menghindari masalah kompatibilitas semacam ini.
+- Jika versi Windows Anda lebih rendah dari `Windows Build 19045` (Windows 10 22H2), Anda mungkin tidak bisa menjalankan Snap Hutao sebagai administrator.
+- **Solusi**: Disarankan untuk memperbarui sistem Anda ke versi terbaru Windows 10 untuk menghindari masalah kompatibilitas ini.
 
-## Cara Menggunakan Snap Hutao Melalui Proksi Jaringan
+## Bagaimana Cara Menggunakan Snap Hutao dengan Proxy?
 
-> Snap Hutao menyediakan struktur jaringan cloud yang baik untuk memastikan pengguna dapat menikmati layanan berkualitas di seluruh dunia.
+> Snap Hutao memiliki infrastruktur cloud yang baik untuk memastikan pengguna di seluruh dunia bisa menikmati layanan berkualitas.
 
-1. Konfigurasikan layanan proksi sistem atau perangkat lunak.
-2. Disarankan untuk mengaktifkan `Loopback Network`, tutorial detail dapat dilihat [di sini](loopback.md).
+1. Konfigurasikan layanan proxy di sistem atau aplikasi Anda.
+2. Sangat disarankan untuk mengikuti panduan **[Jaringan Loopback](loopback.md)** untuk memberi izin koneksi.

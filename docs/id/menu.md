@@ -6,6 +6,6 @@ index: false
 icon: iconfont icon-workingDirectory
 ---
 
-# Site Menu
+# Daftar Isi
 
 <Catalog base="/id/" :level="3" />

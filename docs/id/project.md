@@ -1,92 +1,88 @@
 ---
 headerDepth: 2
-category: [Pengumuman, Proyek, Fitur]
+category: [Announcement, Project, Features]
 comment: false
 icon: iconfont icon-workingDirectory
 order: 6
-description: Snap Hutao adalah proyek program sumber terbuka di GitHub, kami sangat menerima kolaborasi dari komunitas untuk memberikan lebih banyak vitalitas pada proyek ini.
-banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!1797064093.png
+description: Snap Hutao adalah proyek program open-source di GitHub, dan kami sangat menghargai kolaborasi dari komunitas untuk menjaga agar proyek ini tetap dinamis.
+banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
 ---
 
-# Penjelasan Proyek
+# Deskripsi Proyek
 
 ::: center
-![banner](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01vWmKzl1g6e2VIEODU_!!1797064093.png_.webp)
+![banner](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01eHCaOA1g6e2ZLa3PA_!!1797064093.png_.webp)
 <a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 :::
 
-::: important
-Ini adalah terjemahan yang dibuat oleh model Google Gemini, dan kami menerima perbaikan melalui PR (Pull Request).
-:::
+Snap Hutao adalah toolkit Genshin Impact open-source di bawah lisensi MIT, yang dirancang khusus untuk platform Windows modern guna meningkatkan pengalaman bermain bagi para pemain desktop. Dengan menggabungkan sumber daya resmi dengan fitur-fitur baru yang dikembangkan oleh tim, Snap Hutao menawarkan serangkaian alat yang komprehensif dan praktis tanpa bergantung pada perangkat seluler. Selain itu, Snap Hutao secara ketat memastikan keamanan alat dengan tidak merusak atau memodifikasi file game.
 
-Snap Hutao adalah sebuah tool box Genshin Impact sumber terbuka berdasarkan lisensi MIT, yang dirancang khusus untuk platform Windows modern, dengan tujuan untuk meningkatkan pengalaman bermain game bagi para pemain desktop. Dengan mengombinasikan sumber daya resmi dan fitur baru yang dirancang sendiri oleh tim, program ini menyediakan serangkaian alat yang komprehensif dan praktis, tanpa memerlukan perangkat seluler apa pun. Pada saat yang sama, program ini secara ketat mematuhi prinsip non-destruktif, tidak melakukan modifikasi apa pun pada klien game, untuk memastikan keamanan penggunaan tool box ini.
+Proyek Snap Hutao dikemas menggunakan format MSIX. MSIX adalah format pengemasan aplikasi asli Windows yang menyediakan instalasi, pembaruan, dan penghapusan yang lebih baik. Dengan teknologi *sandboxing*-nya, aplikasi yang dikemas dengan MSIX beroperasi di lingkungan terisolasi, mencegah modifikasi langsung ke sumber daya sistem dan secara signifikan meningkatkan keamanan dan stabilitas sistem. Selain itu, format MSIX memastikan tidak ada file sisa atau entri registri yang tertinggal setelah dihapus, menjaga kebersihan sistem.
 
-Proyek Snap Hutao dikemas dalam format MSIX. MSIX adalah format pengemasan aplikasi asli Windows, yang memiliki fitur penyederhanaan proses instalasi, pembaruan, dan penghapusan perangkat lunak. Melalui teknologi _sandbox_, aplikasi yang dikemas dengan MSIX berjalan di lingkungan yang terisolasi, menghindari modifikasi langsung pada sumber daya sistem, sehingga secara signifikan meningkatkan keamanan dan stabilitas sistem. Selain itu, format MSIX tidak meninggalkan file sisa atau entri registri setelah dihapus, menjamin kebersihan sistem. Keunggulan ini menjadikan MSIX sebagai alat yang ampuh bagi pengembang dan pengguna untuk mengelola perangkat lunak, serta memberikan pengalaman perangkat lunak yang lancar, aman, dan bersih.
+## Masalah Desktop Genshin Impact yang Diselesaikan oleh Snap Hutao
 
-## Kekurangan Genshin Impact di Desktop yang Dapat Diatasi oleh Snap Hutao
-
-|                    Fitur                    | Perangkat Seluler                                 | Desktop                                                                    | Solusi dari Snap Hutao                                                                           |
-| :-----------------------------------------: | ------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-|            **Membuka Batas FPS**            | iOS/iPadOS mendukung 120FPS secara resmi          | Maksimal hanya 60FPS                                                       | [Peluncur Tingkat Lanjut - Modul Injeksi](features/game-launcher.md#pengaturan-fps-game)         |
-|          **Pergantian Akun Game**           | Akun yang sudah masuk akan tersimpan              | Akun tidak tersimpan setelah keluar                                        | [Peluncur Tingkat Lanjut - Pergantian Akun](features/game-launcher.md#penyimpanan-akun)          |
-|            **Pergantian Server**            | Tidak ada                                         | Tidak ada                                                                  | [Peluncur Tingkat Lanjut - Pergantian Server](features/game-launcher.md)                         |
-|           **Ekspor Riwayat Wish**           | Tidak ada                                         | Tidak ada                                                                  | [Ekspor Riwayat Wish](features/wish-export.md)                                                   |
-|              **Login Harian**               | Klien MiYouShe                                    | Hanya pemain server internasional yang bisa melakukan login di halaman web | [Panel Akun - Login](features/mhy-account-switch.md)                                             |
-|            **Catatan Real-time**            | Klien MiYouShe                                    | Tidak ada                                                                  | [Catatan Real-time](features/real-time-notes.md)                                                 |
-| **Notifikasi Push Tugas Ekspedisi Selesai** | Notifikasi push melalui game di perangkat seluler | Tidak ada                                                                  | [Pesan Push Catatan Real-time](features/real-time-notes.md)                                      |
-|       **Pencarian Data Spiral Abyss**       | Klien MiYouShe                                    | Hanya pemain server internasional yang bisa melihat di halaman web         | [Spiral Abyss](features/hutao-API.md)                                                            |
-|          **Rencana Pengembangan**           | Klien MiYouShe                                    | Hanya pemain server internasional yang bisa menggunakan di halaman web     | [Rencana Pengembangan](features/develop-plan.md#rencana-pengembangan)                            |
-|             **Status Discord**              | Tidak ada                                         | Klien server internasional tersedia                                        | [Peluncur Tingkat Lanjut - Aktivitas Discord](features/game-launcher.md#peluncur-tingkat-lanjut) |
+| Fitur | Seluler | Desktop | Solusi Snap Hutao |
+| :---: | :---: | :---: | :---: |
+| **Buka Kunci Frame Rate** | iOS/iPadOS mendukung 120 FPS | Terbatas 60 FPS | [Peluncur Lanjutan - Modul Injeksi](features/game-launcher.md#game-frame-rate-settings) |
+| **Ganti Akun Game** | Akun yang login tersimpan | Akun tidak tersimpan setelah logout | [Peluncur Lanjutan - Ganti Akun](features/game-launcher.md#account-saving) |
+| **Ganti Server** | T/A | T/A | [Peluncur Lanjutan - Ganti Server](features/game-launcher.md) |
+| **Ekspor Riwayat Gacha** | T/A | T/A | [Ekspor Riwayat Gacha](features/wish-export.md) |
+| **Check-in Harian** | Klien MiYouShe | Web check-in hanya untuk pengguna global | [Panel Akun - Check-in](features/mhy-account-switch.md) |
+| **Catatan Real-time** | Klien MiYouShe | T/A | [Catatan Real-time](features/real-time-notes.md) |
+| **Notifikasi Ekspedisi** | Melalui notifikasi game seluler | T/A | [Notifikasi Push Catatan Real-time](features/real-time-notes.md) |
+| **Melihat Data Spiral Abyss** | Klien MiYouShe | Hanya web untuk pengguna global | [Spiral Abyss](features/hutao-API.md) |
+| **Rencana Pengembangan** | Klien MiYouShe | Hanya web untuk pengguna global | [Rencana Pengembangan](features/develop-plan.md#development-plan) |
+| **Status Discord** | T/A | Tersedia di klien global | [Peluncur Lanjutan - Aktivitas Discord](features/game-launcher.md#advanced-launcher) |
 
 ## Sumber Daya Proyek
 
-- [Repositori Kode GitHub](https://github.com/DGP-Studio/Snap.Hutao)
-- [Terjemahan Lokal Crowdin](https://translate.hut.ao/)
+- [Repositori GitHub](https://github.com/DGP-Studio/Snap.Hutao)
+- [Lokalisasi Crowdin](https://translate.hut.ao/)
 - [Komunitas Pengguna Snap Hutao](community.md)
 
 ## Daftar Fitur Lengkap
 
-- [Pengumuman dan Hitung Mundur Dalam Game](features/dashboard.md)
-- [Dukungan Login Multi Akun MiHoYo BBS](features/mhy-account-switch.md)
-  - Mendukung login ke MiYouShe dan HoYoLAB menggunakan login web dan input Cookie
-  - Mendukung hadiah check-in
-- [Peluncur Tingkat Lanjut](features/game-launcher.md)
-  - Pergantian Server
-  - Pergantian Akun Game
-  - Kustomisasi FPS Game
-  - Unduhan Paket Patch Game
-  - Kustomisasi Parameter Peluncuran Game
-- [Manajemen Riwayat Wish](features/wish-export.md)
+- [Pengumuman Dalam Game dan Hitung Mundur Acara](features/dashboard.md)
+- [Dukungan Login Multi-Akun MiHoYo BBS](features/mhy-account-switch.md)
+  - Mendukung login ke MiYouShe dan HoYoLAB melalui web dan Cookie.
+  - Dukungan untuk hadiah check-in
+- [Peluncur Lanjutan](features/game-launcher.md)
+  - Ganti Server
+  - Ganti Akun Game
+  - Frame Rate Game Kustom
+  - Unduh Patch Game
+  - Parameter Peluncuran Game Kustom
+- [Manajemen Riwayat Gacha](features/wish-export.md)
   - Pembaruan data sekali klik dari data game
-  - Impor / Ekspor file data Wish UIGF
-  - Penghitungan Waktu Event Wish
-  - Pencarian Riwayat Event Wish
-  - Statistik Data Wish Global
-- [Manajemen Achievement](features/achievements.md)
+  - Impor/Ekspor file data Gacha UIGF
+  - Pengatur Waktu Acara Gacha
+  - Pencarian Riwayat Acara Gacha
+  - Statistik Data Gacha Global
+- [Manajemen Pencapaian](features/achievements.md)
   - Segarkan data dari data game
   - Impor/Ekspor file data UIAF
-- [Catatan Real-time](features/real-time-notes.md)
-  - Mendukung Catatan Real-time multi akun
-  - Kustomisasi Interval Refresh
-  - Notifikasi Push Native Windows
+- [Catatan Real-Time](features/real-time-notes.md)
+  - Dukungan untuk catatan real-time multi-akun
+  - Interval penyegaran yang dapat disesuaikan
+  - Notifikasi push asli Windows
 - [Karakter Saya](features/character-data.md)
-  - Mendukung sinkronisasi data dari multi sumber
-  - Ekspor data Karakter Saya ke _clipboard_
-- [Spiral Abyss/Teater Fantasi](features/hutao-API.md)
-  - Detail monster dan berkah setiap periode
-  - Sinkronisasi data pertempuran detail Spiral Abyss
-  - Basis Data Abyss Snap Hutao
+  - Mendukung sinkronisasi data dari berbagai sumber
+  - Ekspor data karakter ke clipboard
+- [Spiral Abyss/Teater Imaginarium](features/hutao-API.md)
+  - Detail monster setiap fase dan Berkah Bulan Abyssal
+  - Sinkronisasi data pertempuran detail dari Spiral Abyss saat ini
+  - Database Abyss Snap Hutao
     - Tingkat Penggunaan Karakter
     - Tingkat Kemunculan Karakter
     - Statistik Kemunculan Tim
     - Tingkat Kepemilikan Karakter
 - [Rencana Pengembangan](features/develop-plan.md)
   - Mendukung pembuatan rencana pengembangan karakter dan senjata dari data real-time dan data WIKI
-  - Mendukung arsip multi rencana
+  - Mendukung berbagai rencana
 - Data WIKI
   - [Data Karakter](features/character-wiki.md)
   - [Data Senjata](features/weapon-wiki.md)
   - [Data Monster](features/monster-wiki.md)
-- [Sistem Akun Snap Hutao](features/hutao-settings.md#akun-snap-hutao)
-  - Pencadangan Data Wish
-  - Prediksi Statistik Wish
+- [Sistem Akun Snap Hutao](features/hutao-settings.md#snap-hutao-account)
+  - Cadangan data Gacha
+  - Prediksi statistik Gacha
