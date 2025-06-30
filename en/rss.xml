@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Tue, 10 Jun 2025 04:26:06 GMT</pubDate>
-    <lastBuildDate>Tue, 10 Jun 2025 04:26:06 GMT</lastBuildDate>
+    <pubDate>Mon, 30 Jun 2025 13:04:28 GMT</pubDate>
+    <lastBuildDate>Mon, 30 Jun 2025 13:04:28 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,19 +112,27 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.14.9</title>
+      <title>🎉 Successfully Updated to Version 1.15.0</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.14.9</source>
-      <description>🎉 Successfully Updated to Version 1.14.9 | English [🎉New] The character profile page now correctly displays hyperlinks in some character skills/talents. [✨Optimization] The gu...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.15.0</source>
+      <description>🎉 Successfully Updated to Version 1.15.0 | English [🎉New] Added new navigation animations for homepage cards when jumping to corresponding pages. [🎉New] Added support for Ldi...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> The character profile page now correctly displays hyperlinks in some character skills/talents.</li>
-<li><strong>[✨Optimization]</strong> The guide window can now display in-app notifications.</li>
-<li><strong>[🎉New]</strong> Homepage cards can now be reordered by dragging in the settings page.</li>
-<li><strong>[🔨Fix]</strong> Fixed multiple issues that could cause the program to crash.</li>
+<li><strong>[🎉New]</strong> Added new navigation animations for homepage cards when jumping to corresponding pages.</li>
+<li><strong>[🎉New]</strong> Added support for Ldiff pre-download/update on the game launch page.</li>
+<li><strong>[✨Optimization]</strong> Supported dynamic avatars for MiYouShe/HoYoLAB.</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where there was no prompt when hotkey registration failed.</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where there was no prompt when the notification area icon failed to be created.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the Snap Hutao process would not exit properly in special cases, preventing it from being launched again.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where unlocking to excessively high frame rates via injection could cause the game to crash or display error 10612-4001. Please do not use the injection feature to gain unfair advantages in certain challenges; we reserve the right to disable this feature. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2794" target="_blank" rel="noopener noreferrer">#2794</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the notification area icon would not be recreated after restarting Explorer. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2737" target="_blank" rel="noopener noreferrer">#2737</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when importing achievements using Embedded Yae. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2754" target="_blank" rel="noopener noreferrer">#2754</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where an incorrect notification about Bilibili channel server not supporting account features would appear when first entering the homepage, game launch page, or updating the game. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2754" target="_blank" rel="noopener noreferrer">#2754</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where viewing certain talents or skills of some characters could cause an infinite loop. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2789" target="_blank" rel="noopener noreferrer">#2789</a></li>
+<li><strong>[🔨Fix]</strong> Other known issues fixed.</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -715,7 +723,22 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.14.9 </h2>
+<h2>1.15.0 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added new navigation animations for homepage cards when jumping to corresponding pages.</li>
+<li><strong>[🎉New]</strong> Added support for Ldiff pre-download/update on the game launch page.</li>
+<li><strong>[✨Optimization]</strong> Supported dynamic avatars for MiYouShe/HoYoLAB.</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where there was no prompt when hotkey registration failed.</li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where there was no prompt when the notification area icon failed to be created.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the Snap Hutao process would not exit properly in special cases, preventing it from being launched again.</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where unlocking to excessively high frame rates via injection could cause the game to crash or display error 10612-4001. Please do not use the injection feature to gain unfair advantages in certain challenges; we reserve the right to disable this feature. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2794" target="_blank" rel="noopener noreferrer">#2794</a></li>
+<li><strong>[🔨Fix]</strong> Fixed the issue where the notification area icon would not be recreated after restarting Explorer. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2737" target="_blank" rel="noopener noreferrer">#2737</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash issue when importing achievements using Embedded Yae. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2754" target="_blank" rel="noopener noreferrer">#2754</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where an incorrect notification about Bilibili channel server not supporting account features would appear when first entering the homepage, game launch page, or updating the game. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2754" target="_blank" rel="noopener noreferrer">#2754</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where viewing certain talents or skills of some characters could cause an infinite loop. <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2789" target="_blank" rel="noopener noreferrer">#2789</a></li>
+<li><strong>[🔨Fix]</strong> Other known issues fixed.</li>
+</ul>
+<h2>1.14.9</h2>
 <ul>
 <li><strong>[🎉New]</strong> The character profile page now correctly displays hyperlinks in some character skills/talents.</li>
 <li><strong>[✨Optimization]</strong> The guide window can now display in-app notifications.</li>
