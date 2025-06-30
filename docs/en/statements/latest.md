@@ -21,7 +21,7 @@ pageInfo: false
 [简体中文](/zh/statements/latest.html) | **English**
 
 - **[🎉New]** Added new navigation animations for homepage cards when jumping to corresponding pages.
-- **[🎉New]** Added support for Ldiff pre-download/installation/update on the game launch page.
+- **[🎉New]** Added support for Ldiff pre-download/update on the game launch page.
 - **[✨Optimization]** Supported dynamic avatars for MiYouShe/HoYoLAB.
 - **[🔨Fix]** Fixed the issue where there was no prompt when hotkey registration failed.
 - **[🔨Fix]** Fixed the issue where there was no prompt when the notification area icon failed to be created.

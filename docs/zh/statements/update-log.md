@@ -13,7 +13,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ## 1.15.0 <Badge text="最新版" type="tip" />
 
 - **【🎉新增】** 为主页的卡片跳转到对应页面使用了新的导航动画
-- **【🎉新增】** 启动游戏页面新增 Ldiff 预下载/安装/更新游戏 支持
+- **【🎉新增】** 启动游戏页面新增 Ldiff 预下载/更新游戏 支持
 - **【✨优化】** 支持了 米游社/HoYoLAB 动态头像
 - **【🔨修复】** 修复了热键注册失败时没有提示的问题
 - **【🔨修复】** 修复了通知区域图标创建失败时没有提示的问题

@@ -14,7 +14,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ## 1.15.0 <Badge text="latest" type="tip" />
 
 - **[🎉New]** Added new navigation animations for homepage cards when jumping to corresponding pages.
-- **[🎉New]** Added support for Ldiff pre-download/installation/update on the game launch page.
+- **[🎉New]** Added support for Ldiff pre-download/update on the game launch page.
 - **[✨Optimization]** Supported dynamic avatars for MiYouShe/HoYoLAB.
 - **[🔨Fix]** Fixed the issue where there was no prompt when hotkey registration failed.
 - **[🔨Fix]** Fixed the issue where there was no prompt when the notification area icon failed to be created.
