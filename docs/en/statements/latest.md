@@ -16,19 +16,11 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.15.0
+# 🎉 Successfully Updated to Version 1.15.1
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🎉New]** Added new navigation animations for homepage cards when jumping to corresponding pages.
-- **[🎉New]** Added support for Ldiff pre-download/update on the game launch page.
-- **[✨Optimization]** Supported dynamic avatars for MiYouShe/HoYoLAB.
-- **[🔨Fix]** Fixed the issue where there was no prompt when hotkey registration failed.
-- **[🔨Fix]** Fixed the issue where there was no prompt when the notification area icon failed to be created.
-- **[🔨Fix]** Fixed an issue where the Snap Hutao process would not exit properly in special cases, preventing it from being launched again.
-- **[🔨Fix]** Fixed an issue where unlocking to excessively high frame rates via injection could cause the game to crash or display error 10612-4001. Please do not use the injection feature to gain unfair advantages in certain challenges; we reserve the right to disable this feature. [#2794](https://github.com/DGP-Studio/Snap.Hutao/issues/2794)
-- **[🔨Fix]** Fixed the issue where the notification area icon would not be recreated after restarting Explorer. [#2737](https://github.com/DGP-Studio/Snap.Hutao/issues/2737)
-- **[🔨Fix]** Fixed a crash issue when importing achievements using Embedded Yae. [#2754](https://github.com/DGP-Studio/Snap.Hutao/issues/2754)
-- **[🔨Fix]** Fixed an issue where an incorrect notification about Bilibili channel server not supporting account features would appear when first entering the homepage, game launch page, or updating the game. [#2754](https://github.com/DGP-Studio/Snap.Hutao/issues/2754)
-- **[🔨Fix]** Fixed an issue where viewing certain talents or skills of some characters could cause an infinite loop. [#2789](https://github.com/DGP-Studio/Snap.Hutao/issues/2789)
+- **[🔨Fix]** Fixed a crash issue when switching to the Imaginarium Theater page. [#2799](https://github.com/DGP-Studio/Snap.Hutao/issues/2799)
+- **[🔨Fix]** Fixed the issue where the hotkey enable prompt in the overlay window would not update correctly. [#2809](https://github.com/DGP-Studio/Snap.Hutao/issues/2809)
+- **[🔨Fix]** Fixed the issue where archives/plans would be deselected after closing and reopening the program on the Wish/Achievement/Dev Plan pages. [#2813](https://github.com/DGP-Studio/Snap.Hutao/issues/2813)
 - **[🔨Fix]** Other known issues fixed.
