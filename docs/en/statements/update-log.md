@@ -11,13 +11,17 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.15.2 <Badge text="latest" type="tip" />
+## 1.15.3 <Badge text="latest" type="tip" />
+
+- **[🔨Fix]** Fixed an issue where the filter box on the Dev Plan page would provide incorrect prompts.
+
+## 1.15.2
 
 - **[🔨Fix]** Fixed the issue where switching to the Imaginarium Theater page could still cause a crash. [#2816](https://github.com/DGP-Studio/Snap.Hutao/issues/2816)
 - **[🔨Fix]** Fixed the issue where restarting in administrator mode would not exit the current process.
 - **[🔨Fix]** Other known issues fixed.
 
-## 1.15.1 <Badge text="latest" type="tip" />
+## 1.15.1
 
 - **[🔨Fix]** Fixed a crash issue when switching to the Imaginarium Theater page. [#2799](https://github.com/DGP-Studio/Snap.Hutao/issues/2799)
 - **[🔨Fix]** Fixed the issue where the hotkey enable prompt in the overlay window would not update correctly. [#2809](https://github.com/DGP-Studio/Snap.Hutao/issues/2809)
