@@ -16,8 +16,8 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.15.3
+# 🎉 Successfully Updated to Version 1.15.4
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed an issue where the filter box on the Dev Plan page would provide incorrect prompts.
+- **[🔨Fix]** Fixed a crash issue on the Imaginarium Theater page when incomplete data was present. [#2822](https://github.com/DGP-Studio/Snap.Hutao/issues/2822)

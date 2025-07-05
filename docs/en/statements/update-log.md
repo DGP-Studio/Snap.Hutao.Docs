@@ -11,7 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.15.3 <Badge text="latest" type="tip" />
+## 1.15.4 <Badge text="latest" type="tip" />
+
+- **[🔨Fix]** Fixed a crash issue on the Imaginarium Theater page when incomplete data was present. [#2822](https://github.com/DGP-Studio/Snap.Hutao/issues/2822)
+
+## 1.15.3
 
 - **[🔨Fix]** Fixed an issue where the filter box on the Dev Plan page would provide incorrect prompts.
 
