@@ -16,11 +16,10 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.15.1
+# 🎉 Successfully Updated to Version 1.15.2
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed a crash issue when switching to the Imaginarium Theater page. [#2799](https://github.com/DGP-Studio/Snap.Hutao/issues/2799)
-- **[🔨Fix]** Fixed the issue where the hotkey enable prompt in the overlay window would not update correctly. [#2809](https://github.com/DGP-Studio/Snap.Hutao/issues/2809)
-- **[🔨Fix]** Fixed the issue where archives/plans would be deselected after closing and reopening the program on the Wish/Achievement/Dev Plan pages. [#2813](https://github.com/DGP-Studio/Snap.Hutao/issues/2813)
+- **[🔨Fix]** Fixed the issue where switching to the Imaginarium Theater page could still cause a crash. [#2816](https://github.com/DGP-Studio/Snap.Hutao/issues/2816)
+- **[🔨Fix]** Fixed the issue where restarting in administrator mode would not exit the current process.
 - **[🔨Fix]** Other known issues fixed.
