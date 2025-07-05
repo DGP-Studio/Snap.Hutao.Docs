@@ -16,11 +16,10 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.15.1 版本
+# 🎉 已成功更新至 1.15.2 版本
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🔨修复】** 修复了切换到幻想真境剧诗页面会导致崩溃的问题 [#2799](https://github.com/DGP-Studio/Snap.Hutao/issues/2799)
-- **【🔨修复】** 修复了悬浮窗中的热键启用提示不会正确更新的问题 [#2809](https://github.com/DGP-Studio/Snap.Hutao/issues/2809)
-- **【🔨修复】** 修复了在祈愿/成就/养成页面关闭程序再次启动后会取消选中的存档/计划的问题 [#2813](https://github.com/DGP-Studio/Snap.Hutao/issues/2813)
+- **【🔨修复】** 修复了切换到幻想真境剧诗页面仍会导致崩溃的问题 [#2816](https://github.com/DGP-Studio/Snap.Hutao/issues/2816)
+- **【🔨修复】** 修复了以管理员模式重启不会退出当前进程的问题
 - **【🔨修复】** 其他已知的问题
