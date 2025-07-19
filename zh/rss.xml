@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 11 Jul 2025 02:31:39 GMT</pubDate>
-    <lastBuildDate>Fri, 11 Jul 2025 02:31:39 GMT</lastBuildDate>
+    <pubDate>Sat, 19 Jul 2025 11:29:04 GMT</pubDate>
+    <lastBuildDate>Sat, 19 Jul 2025 11:29:04 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,16 +115,28 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.15.4 版本</title>
+      <title>🎉 已成功更新至 1.15.5 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.4 版本</source>
-      <description>🎉 已成功更新至 1.15.4 版本 简体中文 | 【🔨修复】 修复了幻想真境剧诗页面存在不完整的数据时会导致崩溃的问题 #2822</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.5 版本</source>
+      <description>🎉 已成功更新至 1.15.5 版本 简体中文 | 【🎉新增】 主页启动游戏卡片新增米游社/HoYoLAB账号登陆模式下的用户提示 【🎉新增】 主页新增前瞻兑换码查看功能 【🎉新增】 启动游戏界面新增结束进程按钮，当游戏进程有残留时可以便捷操作 【🎉新增】 启动游戏界面部分注入功能新增教程提示 【🎉新增】 养成计划页面树脂预估新增脆弱树脂消...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🔨修复】</strong> 修复了幻想真境剧诗页面存在不完整的数据时会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2822" target="_blank" rel="noopener noreferrer">#2822</a></li>
+<li><strong>【🎉新增】</strong> 主页启动游戏卡片新增米游社/HoYoLAB账号登陆模式下的用户提示</li>
+<li><strong>【🎉新增】</strong> 主页新增前瞻兑换码查看功能</li>
+<li><strong>【🎉新增】</strong> 启动游戏界面新增结束进程按钮，当游戏进程有残留时可以便捷操作</li>
+<li><strong>【🎉新增】</strong> 启动游戏界面部分注入功能新增教程提示</li>
+<li><strong>【🎉新增】</strong> 养成计划页面树脂预估新增脆弱树脂消耗预估</li>
+<li><strong>【🎉新增】</strong> 新增幽境危战页面, 可以查看与保存相关挑战记录</li>
+<li><strong>【🎉新增】</strong> 设置界面新增检查更新功能</li>
+<li><strong>【🎉新增】</strong> 我的角色页面网格视图新增好感度显示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1283" target="_blank" rel="noopener noreferrer">#1283</a></li>
+<li><strong>【🎉新增】</strong> 我的角色页面养成计算新增自定义范围批量计算 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2831" target="_blank" rel="noopener noreferrer">#2831</a></li>
+<li><strong>【🎉新增】</strong> 成就页面现在允许右键复制成就 ID <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2832" target="_blank" rel="noopener noreferrer">#2832</a></li>
+<li><strong>【✨优化】</strong> UI 界面焕新</li>
+<li><strong>【✨优化】</strong> 胡桃通行证现在会使用更安全的 V2 API</li>
+<li><strong>【🔨修复】</strong> 修复了设置页面中当背景为在线背景时，点击版权信息无法正常跳转到浏览器的问题</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -745,7 +757,23 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.4 </h2>
+<h2>1.15.5 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 主页启动游戏卡片新增米游社/HoYoLAB账号登陆模式下的用户提示</li>
+<li><strong>【🎉新增】</strong> 主页新增前瞻兑换码查看功能</li>
+<li><strong>【🎉新增】</strong> 启动游戏界面新增结束进程按钮，当游戏进程有残留时可以便捷操作</li>
+<li><strong>【🎉新增】</strong> 启动游戏界面部分注入功能新增教程提示</li>
+<li><strong>【🎉新增】</strong> 养成计划页面树脂预估新增脆弱树脂消耗预估</li>
+<li><strong>【🎉新增】</strong> 新增幽境危战页面, 可以查看与保存相关挑战记录</li>
+<li><strong>【🎉新增】</strong> 设置界面新增检查更新功能</li>
+<li><strong>【🎉新增】</strong> 我的角色页面网格视图新增好感度显示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1283" target="_blank" rel="noopener noreferrer">#1283</a></li>
+<li><strong>【🎉新增】</strong> 我的角色页面养成计算新增自定义范围批量计算 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2831" target="_blank" rel="noopener noreferrer">#2831</a></li>
+<li><strong>【🎉新增】</strong> 成就页面现在允许右键复制成就 ID <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2832" target="_blank" rel="noopener noreferrer">#2832</a></li>
+<li><strong>【✨优化】</strong> UI 界面焕新</li>
+<li><strong>【✨优化】</strong> 胡桃通行证现在会使用更安全的 V2 API</li>
+<li><strong>【🔨修复】</strong> 修复了设置页面中当背景为在线背景时，点击版权信息无法正常跳转到浏览器的问题</li>
+</ul>
+<h2>1.15.4</h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了幻想真境剧诗页面存在不完整的数据时会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2822" target="_blank" rel="noopener noreferrer">#2822</a></li>
 </ul>
