@@ -10,7 +10,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.15.5 <Badge text="最新版" type="tip" />
+## 1.15.6 <Badge text="最新版" type="tip" />
+
+- **【🔨修复】** 修复了设备名为非英文时无法正常使用的问题
+
+## 1.15.5
 
 - **【🎉新增】** 主页启动游戏卡片新增米游社/HoYoLAB账号登陆模式下的用户提示
 - **【🎉新增】** 主页新增前瞻兑换码查看功能
