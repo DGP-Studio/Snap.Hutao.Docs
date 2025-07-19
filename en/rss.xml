@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 19 Jul 2025 11:29:04 GMT</pubDate>
-    <lastBuildDate>Sat, 19 Jul 2025 11:29:04 GMT</lastBuildDate>
+    <pubDate>Sat, 19 Jul 2025 13:41:29 GMT</pubDate>
+    <lastBuildDate>Sat, 19 Jul 2025 13:41:29 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,28 +112,16 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.15.5</title>
+      <title>🎉 Successfully Updated to Version 1.15.6</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.15.5</source>
-      <description>🎉 Successfully Updated to Version 1.15.5 | English [🎉New] Added user prompts for MiYouShe/HoYoLAB account login mode in the homepage game launch card [🎉New] Added preview red...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.15.6</source>
+      <description>🎉 Successfully Updated to Version 1.15.6 | English [🔨Fix] Fixed an issue where the program could not be used normally when the device name was not in English</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Added user prompts for MiYouShe/HoYoLAB account login mode in the homepage game launch card</li>
-<li><strong>[🎉New]</strong> Added preview redemption code viewing feature to the homepage</li>
-<li><strong>[🎉New]</strong> Added "End Process" button to the game launch page for convenient handling of leftover game processes</li>
-<li><strong>[🎉New]</strong> Added tutorial hints for some injection features on the game launch page</li>
-<li><strong>[🎉New]</strong> Added fragile resin consumption estimation to resin estimation in the Dev Plan page</li>
-<li><strong>[🎉New]</strong> Added Imaginarium Theater page to view and save related challenge records</li>
-<li><strong>[🎉New]</strong> Added "Check for Updates" feature to the settings page</li>
-<li><strong>[🎉New]</strong> Added friendship level display to grid view on My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/1283" target="_blank" rel="noopener noreferrer">#1283</a></li>
-<li><strong>[🎉New]</strong> Added custom range batch calculation to cultivation calculation on My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2831" target="_blank" rel="noopener noreferrer">#2831</a></li>
-<li><strong>[🎉New]</strong> Achievement page now allows right-click to copy achievement ID <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2832" target="_blank" rel="noopener noreferrer">#2832</a></li>
-<li><strong>[✨Optimization]</strong> Refreshed UI design</li>
-<li><strong>[✨Optimization]</strong> Hutao Passport now uses a more secure V2 API</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where clicking copyright info in the settings page would not open the browser when using online backgrounds</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the program could not be used normally when the device name was not in English</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -724,7 +712,11 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.5 </h2>
+<h2>1.15.6 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the program could not be used normally when the device name was not in English</li>
+</ul>
+<h2>1.15.5</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added user prompts for MiYouShe/HoYoLAB account login mode in the homepage game launch card</li>
 <li><strong>[🎉New]</strong> Added preview redemption code viewing feature to the homepage</li>
