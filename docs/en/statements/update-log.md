@@ -11,7 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.15.5 <Badge text="latest" type="tip" />
+## 1.15.6 <Badge text="latest" type="tip" />
+
+- **[🔨Fix]** Fixed an issue where the program could not be used normally when the device name was not in English
+
+## 1.15.5
 
 - **[🎉New]** Added user prompts for MiYouShe/HoYoLAB account login mode in the homepage game launch card
 - **[🎉New]** Added preview redemption code viewing feature to the homepage
