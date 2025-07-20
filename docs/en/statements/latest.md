@@ -16,8 +16,9 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.15.6
+# 🎉 Successfully Updated to Version 1.15.7
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed an issue where the program could not be used normally when the device name was not in English
+- **[🔨Fix]** Fixed a crash issue when opening the main window as an international server user [#2844](https://github.com/DGP-Studio/Snap.Hutao/issues/2844)
+- **[🔨Fix]** Fixed unexpected crashes in some cases

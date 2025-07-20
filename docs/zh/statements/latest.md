@@ -16,8 +16,9 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.15.6 版本
+# 🎉 已成功更新至 1.15.7 版本
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🔨修复】** 修复了设备名为非英文时无法正常使用的问题
+- **【🔨修复】** 修复了当前用户为国际服用户时打开主窗口会导致崩溃的问题 [#2844](https://github.com/DGP-Studio/Snap.Hutao/issues/2844)
+- **【🔨修复】** 修复了部分情况下会导致意外的崩溃的问题

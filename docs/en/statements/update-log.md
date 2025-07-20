@@ -11,7 +11,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.15.6 <Badge text="latest" type="tip" />
+## 1.15.7 <Badge text="latest" type="tip" />
+
+- **[🔨Fix]** Fixed a crash issue when opening the main window as an international server user [#2844](https://github.com/DGP-Studio/Snap.Hutao/issues/2844)
+- **[🔨Fix]** Fixed unexpected crashes in some cases
+
+## 1.15.6
 
 - **[🔨Fix]** Fixed an issue where the program could not be used normally when the device name was not in English
 
