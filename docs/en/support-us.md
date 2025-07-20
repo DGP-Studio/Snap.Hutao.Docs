@@ -50,3 +50,4 @@ If you are a corporate entity and wish to support Snap Hutao through your produc
 |     Domain Service     | ￥ 344.96     |
 | Other Network Services | ￥205.63      |
 |         Total          | ￥ 3199.53    |
+
