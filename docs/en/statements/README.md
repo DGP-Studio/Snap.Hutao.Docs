@@ -11,6 +11,6 @@ description: This page contains the toc of statements and announcements of Snap 
 
 # Statements
 
-**Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.**
+**The Snap Hutao project does not support, participate in, or cooperate with any Genshin Impact private servers or cheat projects. Snap Hutao was originally designed to provide users with a better gaming experience, and we oppose gaining PvP advantages by exploiting game mechanics through Snap Hutao or any other tools.**
 
 <Catalog />
