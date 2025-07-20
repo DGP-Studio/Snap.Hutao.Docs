@@ -61,3 +61,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 1. Настройте системный или программный прокси-сервис.
 2. Рекомендуется включить `Loopback Network`, подробное руководство можно найти [здесь](loopback.md).
+
+# Не удалось создать значок уведомления
+
+Откройте PowerShell и выполните команду ниже, чтобы исправить проблему
+
+```PowerShell 
+irm hut.ao/install.ps1 | iex
+```
