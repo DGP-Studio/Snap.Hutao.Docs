@@ -6,8 +6,8 @@
     <link>https://hut.ao/jp/</link>
     <description>超実用的な原神インパクトツールキット</description>
     <language>ja-JP</language>
-    <pubDate>Sun, 20 Jul 2025 12:51:10 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Jul 2025 12:51:10 GMT</lastBuildDate>
+    <pubDate>Sun, 20 Jul 2025 20:06:34 GMT</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2025 20:06:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>お知らせ</category>
@@ -29,7 +29,7 @@
       <description>このページには Snap Hutao のすべての声明とお知らせの目次が含まれています。</description>
       <pubDate>Sun, 20 Jul 2025 05:26:07 GMT</pubDate>
       <content:encoded><![CDATA[
-<p><strong>Snap Hutao プロジェクトは、原神に関連する私設サーバーやチートツールを一切サポート・参加・協力しません</strong></p>
+<p><strong>Snap Hutao プロジェクトは、原神に関連する私設サーバーやチートプロジェクトを一切サポート・参加・協力しません。Snap Hutao の設計理念はユーザーにより良いゲーム体験を提供することであり、Snap Hutao やその他のツールでゲームのメカニクスを悪用して PvP で優位に立つ行為には反対します。</strong></p>
 ]]></content:encoded>
     </item>
     <item>

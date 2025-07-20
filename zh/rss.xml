@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 20 Jul 2025 12:51:10 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Jul 2025 12:51:10 GMT</lastBuildDate>
+    <pubDate>Sun, 20 Jul 2025 20:06:34 GMT</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2025 20:06:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -3610,7 +3610,8 @@ Snap.Genshin 已停止更新，项目已归档</p>
       <description>本页包含 Snap Hutao 全部声明和公告的目录。</description>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[
-<p><strong>Snap Hutao 项目不支持、不参与、不合作任何与原神相关的私服和外挂项目</strong></p>
+<p><strong>Snap Hutao 项目不支持、不参与、不合作任何与原神相关的私服和外挂项目。 Snap Hutao 设计的初衷是为用户提供更好的游戏体验，我们抵制通过使用 Snap Hutao
+或任何其它工具，利用游戏技术机制实现在 PvP 中获取优势的行为。</strong></p>
 ]]></content:encoded>
     </item>
     <item>

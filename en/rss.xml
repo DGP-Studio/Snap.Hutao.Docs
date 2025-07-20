@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 20 Jul 2025 12:51:10 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Jul 2025 12:51:10 GMT</lastBuildDate>
+    <pubDate>Sun, 20 Jul 2025 20:06:34 GMT</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2025 20:06:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -3516,7 +3516,7 @@ Snap Hutao will create a folder named <code>ServerCache</code> in the data direc
       <description>This page contains the toc of statements and announcements of Snap Hutao project.</description>
       <pubDate>Thu, 29 Sep 2022 02:37:43 GMT</pubDate>
       <content:encoded><![CDATA[
-<p><strong>Snap Hutao project does NOT support, participate in, or cooperate with any project related to Genshin Impact's private server and cheating program.</strong></p>
+<p><strong>The Snap Hutao project does not support, participate in, or cooperate with any Genshin Impact private servers or cheat projects. Snap Hutao was originally designed to provide users with a better gaming experience, and we oppose gaining PvP advantages by exploiting game mechanics through Snap Hutao or any other tools.</strong></p>
 ]]></content:encoded>
     </item>
     <item>
