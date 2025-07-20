@@ -65,6 +65,6 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statemen
 ### 调试前准备
 
 1. 执行[贡献代码-设置 Snap Hutao 项目](../development/contribute.md#设置-snaphutao-项目)中的第 `1～3` 步。
-2. 下载并安装 [ToDesk](https://www.todesk.com/download.html) 远程工具。
+2. 下载并安装 [网易UU](https://uuyc.163.com/) 远程工具。
 
 远程调试将帮助我们更快速地解决问题，感谢你的支持！
