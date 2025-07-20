@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 20 Jul 2025 05:27:40 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Jul 2025 05:27:40 GMT</lastBuildDate>
+    <pubDate>Sun, 20 Jul 2025 12:51:10 GMT</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2025 12:51:10 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -749,7 +749,7 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.6 </h2>
+<h2>1.15.7 </h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了当前用户为国际服用户时打开主窗口会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2844" target="_blank" rel="noopener noreferrer">#2844</a></li>
 <li><strong>【🔨修复】</strong> 修复了部分情况下会导致意外的崩溃的问题</li>
