@@ -57,3 +57,11 @@ The above methods may fail due to system configurations or other issues. Snap Hu
 
 1. Configure system or software proxy services.
 2. It is recommended to enable `Loopback Network`. For a detailed tutorial, see [here](loopback.md).
+
+# Notification Icon Creation Failed
+
+Open PowerShell and run the following command to fix the issue
+
+```powershell
+irm hut.ao/install.ps1 | iex
+```

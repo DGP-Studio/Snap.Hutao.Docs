@@ -57,3 +57,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 
 1. 配置系统或软件代理服务。
 2. 推荐启用 `Loopback 网络`，详细教程可参见 [此处](loopback.md)。
+
+
+# 添加通知图标创建失败
+
+打开 PowerShell 并执行下方的命令以修复问题
+
+```PowerShell
+irm hut.ao/install.ps1 | iex
+```
