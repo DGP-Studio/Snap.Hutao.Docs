@@ -10,7 +10,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.15.6 <Badge text="最新版" type="tip" />
+## 1.15.7 <Badge text="最新版" type="tip" />
 
 - **【🔨修复】** 修复了当前用户为国际服用户时打开主窗口会导致崩溃的问题 [#2844](https://github.com/DGP-Studio/Snap.Hutao/issues/2844)
 - **【🔨修复】** 修复了部分情况下会导致意外的崩溃的问题
