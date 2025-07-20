@@ -6,8 +6,8 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Sun, 20 Jul 2025 04:35:09 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Jul 2025 04:35:09 GMT</lastBuildDate>
+    <pubDate>Sun, 20 Jul 2025 05:27:40 GMT</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2025 05:27:40 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -496,7 +496,10 @@ Karena adanya jenis batasan yang berbeda pada kedua server, penerapan beberapa f
 <li>Konfigurasikan layanan proxy di sistem atau aplikasi Anda.</li>
 <li>Sangat disarankan untuk mengikuti panduan <strong><a href="/id/advanced/loopback.html" target="_blank">Jaringan Loopback</a></strong> untuk memberi izin koneksi.</li>
 </ol>
-]]></content:encoded>
+<h1>Gagal membuat ikon notifikasi</h1>
+<p>Buka PowerShell dan jalankan perintah di bawah ini untuk memperbaiki masalah</p>
+<div class="language-powershell line-numbers-mode" data-highlighter="shiki" data-ext="powershell" data-title="powershell" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">irm hut.ao</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">install.ps1 | iex</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/faq.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
@@ -1818,7 +1821,7 @@ Ketika Anda melihat catatan terbaru di riwayat gacha dalam game, statistik yang 
 <h3>Persiapan Sebelum Debugging</h3>
 <ol>
 <li>Lakukan langkah <code>1~3</code> di <a href="/id/development/contribute.html" target="_blank">Kontribusi Kode - Menyiapkan Proyek Snap Hutao</a>.</li>
-<li>Unduh dan instal alat jarak jauh <a href="https://www.todesk.com/download.html" target="_blank" rel="noopener noreferrer">ToDesk</a> atau <a href="https://parsec.app/" target="_blank" rel="noopener noreferrer">Parsec</a>.</li>
+<li>Unduh dan instal alat jarak jauh <a href="https://uuyc.163.com/" target="_blank" rel="noopener noreferrer">Netease UU</a> atau <a href="https://parsec.app/" target="_blank" rel="noopener noreferrer">Parsec</a>.</li>
 </ol>
 <p>Remote debugging akan membantu kami menyelesaikan masalah lebih cepat. Terima kasih atas dukungan Anda!</p>
 ]]></content:encoded>

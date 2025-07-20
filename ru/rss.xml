@@ -6,8 +6,8 @@
     <link>https://hut.ao/ru/</link>
     <description>Суперполезный набор инструментов для Genshin Impact</description>
     <language>ru-RU</language>
-    <pubDate>Sun, 20 Jul 2025 04:35:09 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Jul 2025 04:35:09 GMT</lastBuildDate>
+    <pubDate>Sun, 20 Jul 2025 05:27:40 GMT</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2025 05:27:40 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -1358,7 +1358,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/support-
 <h3>Подготовка к отладке</h3>
 <ol>
 <li>Выполните шаги <code>1–3</code> из раздела <a href="/ru/development/contribute.html#%E8%AE%BE%E7%BD%AE-snaphutao-%E9%A1%B9%E7%9B%AE" target="_blank">Вклад в код - Настройка проекта Snap Hutao</a>.</li>
-<li>Загрузите и установите программу удаленного доступа <a href="https://www.todesk.com/download.html" target="_blank" rel="noopener noreferrer">ToDesk</a>.</li>
+<li>Загрузите и установите программу удаленного доступа <a href="https://uuyc.163.com/" target="_blank" rel="noopener noreferrer">Netease UU</a>.</li>
 </ol>
 <p>Удаленная отладка поможет нам быстрее решить проблемы, спасибо за вашу поддержку!</p>
 ]]></content:encoded>
@@ -2048,7 +2048,10 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/support-
 <li>Настройте системный или программный прокси-сервис.</li>
 <li>Рекомендуется включить <code>Loopback Network</code>, подробное руководство можно найти <a href="/ru/advanced/loopback.html" target="_blank">здесь</a>.</li>
 </ol>
-]]></content:encoded>
+<h1>Не удалось создать значок уведомления</h1>
+<p>Откройте PowerShell и выполните команду ниже, чтобы исправить проблему</p>
+<div class="language-powershell line-numbers-mode" data-highlighter="shiki" data-ext="powershell" data-title="powershell" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">irm hut.ao</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">install.ps1 | iex</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/faq.html&amp;has_description=False" type="image/"/>
     </item>
     <item>

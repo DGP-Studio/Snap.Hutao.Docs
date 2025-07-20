@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 20 Jul 2025 04:35:09 GMT</pubDate>
-    <lastBuildDate>Sun, 20 Jul 2025 04:35:09 GMT</lastBuildDate>
+    <pubDate>Sun, 20 Jul 2025 05:27:40 GMT</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2025 05:27:40 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -2617,7 +2617,10 @@ Due to the different types of restrictions on both types of server, the implemen
 <li>Configure system or software proxy services.</li>
 <li>It is recommended to enable <code>Loopback Network</code>. For a detailed tutorial, see <a href="/en/advanced/loopback.html" target="_blank">here</a>.</li>
 </ol>
-]]></content:encoded>
+<h1>Notification Icon Creation Failed</h1>
+<p>Open PowerShell and run the following command to fix the issue</p>
+<div class="language-powershell line-numbers-mode" data-highlighter="shiki" data-ext="powershell" data-title="powershell" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">irm hut.ao</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">install.ps1 | iex</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/faq.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
@@ -3779,7 +3782,7 @@ When you see the latest records in the in-game wish history, the corresponding s
 <h3>Preparation Before Debugging</h3>
 <ol>
 <li>Perform steps <code>1~3</code> in <a href="/en/development/contribute.html" target="_blank">Contribute Code - Setting Up Snap Hutao Project</a>.</li>
-<li>Download and install the <a href="https://www.todesk.com/download.html" target="_blank" rel="noopener noreferrer">ToDesk</a> remote tool or <a href="https://parsec.app/" target="_blank" rel="noopener noreferrer">Parsec</a>.</li>
+<li>Download and install the <a href="https://uuyc.163.com/" target="_blank" rel="noopener noreferrer">Netease UU</a> remote tool or <a href="https://parsec.app/" target="_blank" rel="noopener noreferrer">Parsec</a>.</li>
 </ol>
 <p>Remote debugging will help us solve problems more quickly. Thank you for your support!</p>
 ]]></content:encoded>
