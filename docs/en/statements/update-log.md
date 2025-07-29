@@ -13,6 +13,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 ## 1.15.8 <Badge text="latest" type="tip" />
 
+- **[🔨Fix]** Fixed a crash issue when Hoyolab users triggered CAPTCHA during login [#2880](https://github.com/DGP-Studio/Snap.Hutao/issues/2880)
+- **[🔨Fix]** Fixed a crash issue that could occur when launching the game after using the injection feature [#2881](https://github.com/DGP-Studio/Snap.Hutao/issues/2881)
+
+## 1.15.8
+
 - **[🎉New]** Character/Weapon cultivation calculation now supports unreleased characters
 - **[✨Optimization]** Improved connection stability when downloading game resources in the game management feature on the game launch page
 - **[🔨Fix]** Fixed an issue where the Imaginarium Theater statistics (Lightbearer) could not be displayed correctly [#2845](https://github.com/DGP-Studio/Snap.Hutao/issues/2845)
