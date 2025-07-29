@@ -16,9 +16,13 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.15.7
+# 🎉 Successfully Updated to Version 1.15.8
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed a crash issue when opening the main window as an international server user [#2844](https://github.com/DGP-Studio/Snap.Hutao/issues/2844)
-- **[🔨Fix]** Fixed unexpected crashes in some cases
+- **[🎉New]** Character/Weapon cultivation calculation now supports unreleased characters
+- **[✨Optimization]** Improved connection stability when downloading game resources in the game management feature on the game launch page
+- **[🔨Fix]** Fixed an issue where the Imaginarium Theater statistics (Lightbearer) could not be displayed correctly [#2845](https://github.com/DGP-Studio/Snap.Hutao/issues/2845)
+- **[🔨Fix]** Fixed an issue where Hoyolab users could not log in properly [#2849](https://github.com/DGP-Studio/Snap.Hutao/issues/2845)
+- **[🔨Fix]** Fixed an issue where the game management feature on the game launch page could not correctly update pre-downloads
+- **[🔨Fix]** Other known issues fixed

@@ -10,7 +10,16 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.15.7 <Badge text="最新版" type="tip" />
+## 1.15.8 <Badge text="最新版" type="tip" />
+
+- **【🎉新增】** 角色资料/武器资料养成计算 计算功能支持尚未正式发布的角色
+- **【✨优化】** 优化了启动游戏页面游戏管理功能下载时的连接稳定性
+- **【🔨修复】** 修复了幽境危战页面本期统计（赋光之人）无法正常显示的问题 [#2845](https://github.com/DGP-Studio/Snap.Hutao/issues/2845)
+- **【🔨修复】** 修复了Hoyolab 用户无法正常登录的问题 [#2849](https://github.com/DGP-Studio/Snap.Hutao/issues/2845)
+- **【🔨修复】** 修复了启动游戏页面游戏管理功能无法正确更新预下载的问题
+- **【🔨修复】** 其他已知的问题
+
+## 1.15.7
 
 - **【🔨修复】** 修复了当前用户为国际服用户时打开主窗口会导致崩溃的问题 [#2844](https://github.com/DGP-Studio/Snap.Hutao/issues/2844)
 - **【🔨修复】** 修复了部分情况下会导致意外的崩溃的问题
