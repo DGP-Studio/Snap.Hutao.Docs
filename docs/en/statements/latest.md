@@ -16,9 +16,8 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.15.9
+# 🎉 Successfully Updated to Version 1.15.10
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed a crash issue when Hoyolab users triggered CAPTCHA during login [#2880](https://github.com/DGP-Studio/Snap.Hutao/issues/2880)
-- **[🔨Fix]** Fixed a crash issue that could occur when launching the game after using the injection feature [#2881](https://github.com/DGP-Studio/Snap.Hutao/issues/2881)
+- **[🔨Fix]** Fixed a crash issue when launching the game after using the injection feature in version 5.8 [#2885](https://github.com/DGP-Studio/Snap.Hutao/issues/2885)
