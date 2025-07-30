@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 29 Jul 2025 12:33:31 GMT</pubDate>
-    <lastBuildDate>Tue, 29 Jul 2025 12:33:31 GMT</lastBuildDate>
+    <pubDate>Wed, 30 Jul 2025 12:40:38 GMT</pubDate>
+    <lastBuildDate>Wed, 30 Jul 2025 12:40:38 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,17 +115,16 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.15.9 版本</title>
+      <title>🎉 已成功更新至 1.15.10 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.9 版本</source>
-      <description>🎉 已成功更新至 1.15.9 版本 简体中文 | 【🔨修复】 修复了 Hoyolab 用户登录时触发验证码会导致崩溃的问题 #2880 【🔨修复】 修复了使用注入功能后启动游戏，程序与游戏可能会崩溃的问题 #2881</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.10 版本</source>
+      <description>🎉 已成功更新至 1.15.10 版本 简体中文 | 【🔨修复】 修复了 5.8 使用注入功能后启动游戏，会导致游戏崩溃的问题 #2885</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🔨修复】</strong> 修复了 Hoyolab 用户登录时触发验证码会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2880" target="_blank" rel="noopener noreferrer">#2880</a></li>
-<li><strong>【🔨修复】</strong> 修复了使用注入功能后启动游戏，程序与游戏可能会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2881" target="_blank" rel="noopener noreferrer">#2881</a></li>
+<li><strong>【🔨修复】</strong> 修复了 5.8 使用注入功能后启动游戏，会导致游戏崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2885" target="_blank" rel="noopener noreferrer">#2885</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -749,12 +748,16 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.9 </h2>
+<h2>1.15.10 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了 5.8 使用注入功能后启动游戏，会导致游戏崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2885" target="_blank" rel="noopener noreferrer">#2885</a></li>
+</ul>
+<h2>1.15.9</h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了 Hoyolab 用户登录时触发验证码会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2880" target="_blank" rel="noopener noreferrer">#2880</a></li>
 <li><strong>【🔨修复】</strong> 修复了使用注入功能后启动游戏，程序与游戏可能会崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2881" target="_blank" rel="noopener noreferrer">#2881</a></li>
 </ul>
-<h2>1.15.8 </h2>
+<h2>1.15.8</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 角色资料/武器资料养成计算 计算功能支持尚未正式发布的角色</li>
 <li><strong>【✨优化】</strong> 优化了启动游戏页面游戏管理功能下载时的连接稳定性</li>
