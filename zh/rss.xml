@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 30 Jul 2025 12:40:38 GMT</pubDate>
-    <lastBuildDate>Wed, 30 Jul 2025 12:40:38 GMT</lastBuildDate>
+    <pubDate>Sun, 10 Aug 2025 13:42:28 GMT</pubDate>
+    <lastBuildDate>Sun, 10 Aug 2025 13:42:28 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,16 +115,24 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.15.10 版本</title>
+      <title>🎉 已成功更新至 1.15.11 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.10 版本</source>
-      <description>🎉 已成功更新至 1.15.10 版本 简体中文 | 【🔨修复】 修复了 5.8 使用注入功能后启动游戏，会导致游戏崩溃的问题 #2885</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.11 版本</source>
+      <description>🎉 已成功更新至 1.15.11 版本 简体中文 | 【🎉新增】 支持 UIGF 4.1 【🎉新增】 养成计划现在可以添加角色资料中尚未上线的角色 【🎉新增】 角色资料页面新增游迹显示及神之眼显示 #2875 【✨优化】 优化了养成计划材料计算的性能 【✨优化】 优化了部分功能的性能 【🔨修复】 修复了部分情况下无法正确识别游戏区域的问题 【...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🔨修复】</strong> 修复了 5.8 使用注入功能后启动游戏，会导致游戏崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2885" target="_blank" rel="noopener noreferrer">#2885</a></li>
+<li><strong>【🎉新增】</strong> 支持 UIGF 4.1</li>
+<li><strong>【🎉新增】</strong> 养成计划现在可以添加角色资料中尚未上线的角色</li>
+<li><strong>【🎉新增】</strong> 角色资料页面新增游迹显示及神之眼显示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2875" target="_blank" rel="noopener noreferrer">#2875</a></li>
+<li><strong>【✨优化】</strong> 优化了养成计划材料计算的性能</li>
+<li><strong>【✨优化】</strong> 优化了部分功能的性能</li>
+<li><strong>【🔨修复】</strong> 修复了部分情况下无法正确识别游戏区域的问题</li>
+<li><strong>【🔨修复】</strong> 修复了 Embedded Yae 在 5.8 版本无法正常使用的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2916" target="_blank" rel="noopener noreferrer">#2916</a></li>
+<li><strong>【🔨修复】</strong> 修复了查看部分新角色资料时会导致崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分页面中管理员提示错误显示的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2920" target="_blank" rel="noopener noreferrer">#2920</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -748,7 +756,19 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.10 </h2>
+<h2>1.15.11 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 支持 UIGF 4.1</li>
+<li><strong>【🎉新增】</strong> 养成计划现在可以添加角色资料中尚未上线的角色</li>
+<li><strong>【🎉新增】</strong> 角色资料页面新增游迹显示及神之眼显示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2875" target="_blank" rel="noopener noreferrer">#2875</a></li>
+<li><strong>【✨优化】</strong> 优化了养成计划材料计算的性能</li>
+<li><strong>【✨优化】</strong> 优化了部分功能的性能</li>
+<li><strong>【🔨修复】</strong> 修复了部分情况下无法正确识别游戏区域的问题</li>
+<li><strong>【🔨修复】</strong> 修复了 Embedded Yae 在 5.8 版本无法正常使用的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2916" target="_blank" rel="noopener noreferrer">#2916</a></li>
+<li><strong>【🔨修复】</strong> 修复了查看部分新角色资料时会导致崩溃的问题</li>
+<li><strong>【🔨修复】</strong> 修复了部分页面中管理员提示错误显示的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2920" target="_blank" rel="noopener noreferrer">#2920</a></li>
+</ul>
+<h2>1.15.10</h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了 5.8 使用注入功能后启动游戏，会导致游戏崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2885" target="_blank" rel="noopener noreferrer">#2885</a></li>
 </ul>
