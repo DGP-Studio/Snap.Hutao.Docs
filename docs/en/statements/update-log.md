@@ -11,7 +11,11 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.15.11 <Badge text="latest" type="tip" />
+## 1.15.12 <Badge text="latest" type="tip" />
+
+- **[🔨Fix]** Fixed an issue where the server switch function could not be used properly when launching the game [#2941](https://github.com/DGP-Studio/Snap.Hutao/issues/2941)
+
+## 1.15.11
 
 - **[🎉New]** Support for UIGF 4.1
 - **[🎉New]** Development plan now allows adding unreleased characters from character WIKI
