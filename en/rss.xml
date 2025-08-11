@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 10 Aug 2025 14:17:56 GMT</pubDate>
-    <lastBuildDate>Sun, 10 Aug 2025 14:17:56 GMT</lastBuildDate>
+    <pubDate>Mon, 11 Aug 2025 01:55:33 GMT</pubDate>
+    <lastBuildDate>Mon, 11 Aug 2025 01:55:33 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,24 +112,16 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.15.11</title>
+      <title>🎉 Successfully Updated to Version 1.15.12</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.15.11</source>
-      <description>🎉 Successfully Updated to Version 1.15.11 | English [🎉New] Support for UIGF 4.1 [🎉New] Development plan now allows adding unreleased characters from character WIKI [🎉New] Ch...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.15.12</source>
+      <description>🎉 Successfully Updated to Version 1.15.12 | English [🔨Fix] Fixed an issue where the server switch function could not be used properly when launching the game #2941</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Support for UIGF 4.1</li>
-<li><strong>[🎉New]</strong> Development plan now allows adding unreleased characters from character WIKI</li>
-<li><strong>[🎉New]</strong> Character WIKI page now displays Trace Effects and Visions <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2875" target="_blank" rel="noopener noreferrer">#2875</a></li>
-<li><strong>[✨Optimization]</strong> Improved performance of material calculation in development plan</li>
-<li><strong>[✨Optimization]</strong> Optimized performance of some features</li>
-<li><strong>[🔨Fix]</strong> Fixed issue where game region could not be correctly identified in some cases</li>
-<li><strong>[🔨Fix]</strong> Fixed Embedded Yae not working properly in version 5.8 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2916" target="_blank" rel="noopener noreferrer">#2916</a></li>
-<li><strong>[🔨Fix]</strong> Fixed crash when viewing some new character profiles</li>
-<li><strong>[🔨Fix]</strong> Fixed incorrect admin prompt display on some pages <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2920" target="_blank" rel="noopener noreferrer">#2920</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the server switch function could not be used properly when launching the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2941" target="_blank" rel="noopener noreferrer">#2941</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -720,7 +712,11 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.11 </h2>
+<h2>1.15.12 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the server switch function could not be used properly when launching the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2941" target="_blank" rel="noopener noreferrer">#2941</a></li>
+</ul>
+<h2>1.15.11</h2>
 <ul>
 <li><strong>[🎉New]</strong> Support for UIGF 4.1</li>
 <li><strong>[🎉New]</strong> Development plan now allows adding unreleased characters from character WIKI</li>
