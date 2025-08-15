@@ -46,14 +46,6 @@ Snap.Hutao.Deployment 是开发团队自制的一键安装器，**将同时安�
 <div class="vp-card-container">
 
 <VPCard
-title="胡桃自动判断"
-desc="自动判断最佳线路下载"
-logo="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ybZ68o1g6e7nwgiKI_!!1797064093.png_.webp"
-link="https://api.snapgenshin.com/patch/hutao-deployment/download"
-background="rgba(253, 233, 233, 0.45)"
-/>
-
-<VPCard
 title="夸克网盘"
 desc="Snap Hutao Deployment 的夸克网盘镜像"
 logo="https://gw.alicdn.com/imgextra/i3/O1CN018r2tKf28YP7ev0fPF_!!6000000007944-2-tps-48-48.png"
@@ -79,13 +71,6 @@ background="rgba(155, 233, 168, 0.15)"
     <p>我们建议使用 Snap.Hutao.Deployment 安装胡桃工具箱，任何使用 MSIX 安装包安装时出现的问题均不会被积极处理。</p>
   </div>
 
-<VPCard
-title="胡桃自动判断"
-desc="自动判断最佳线路下载"
-logo="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ybZ68o1g6e7nwgiKI_!!1797064093.png_.webp"
-link="https://api.snapgenshin.com/patch/hutao/download"
-background="rgba(253, 233, 233, 0.45)"
-/>
 <VPCard
 title="GitHub"
 desc="Snap Hutao 所有版本均会发布于主代码库中"
