@@ -30,11 +30,10 @@ export default defineUserConfig({
     [
       "script",
       {
-          "src": "https://hello.snapgenshin.com/api/script.js",
+          src: "https://hello.snapgenshin.com/api/script.js",
+          async: "true",
           "data-site-id": "1",
-          "data-session-replay": "true",
-          "data-track-errors": "true",
-          "defer": "",
+          "data-session-replay": "true"
       }
     ],
     [
