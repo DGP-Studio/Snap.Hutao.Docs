@@ -32,6 +32,8 @@ export default defineUserConfig({
       {
           "src": "https://hello.snapgenshin.com/api/script.js",
           "data-site-id": "1",
+          "data-session-replay": "true",
+          "data-track-errors": "true",
           "defer": "",
       }
     ],
