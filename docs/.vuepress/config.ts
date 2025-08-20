@@ -33,7 +33,8 @@ export default defineUserConfig({
           src: "https://hello.snapgenshin.com/api/script.js",
           async: "true",
           "data-site-id": "1",
-          "data-session-replay": "true"
+          "data-session-replay": "true",
+          "data-skip-patterns": '["/**/latest.html"]'
       }
     ],
     [
