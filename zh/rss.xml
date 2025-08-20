@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 20 Aug 2025 20:43:31 GMT</pubDate>
-    <lastBuildDate>Wed, 20 Aug 2025 20:43:31 GMT</lastBuildDate>
+    <pubDate>Wed, 20 Aug 2025 22:55:45 GMT</pubDate>
+    <lastBuildDate>Wed, 20 Aug 2025 22:55:45 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -330,7 +330,7 @@
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 为 Snap Hutao 和关联项目设计并实现功能</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 与其他知名原神社区项目的开发者建立联系</label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 获取免费的 GitHub Copilot</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 获取免费的 GitHub Copilot Pro 订阅</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 获取免费的 1Password Team 账号</label></li>
 </ul>
 <p>你可以在 <a href="https://github.com/orgs/DGP-Studio/people" target="_blank" rel="noopener noreferrer">GitHub DGP-Studio People</a> 页面查看当前公开的组织成员列表。</p>
