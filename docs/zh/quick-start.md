@@ -35,19 +35,19 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ### 全新安装
 
-使用 **MSIX 安装包** 或 **Snap.Hutao.Deployment 安装器** 即可安装 Snap Hutao，你可以从以下源获取到安装包。
+使用 **MSIX 安装包** 或 **Snap Hutao Deployment 安装器** 即可安装 Snap Hutao，你可以从以下源获取到安装包。
 
 ::: tabs
 
 @tab 使用 Snap.Hutao.Deployment 安装
 
-Snap.Hutao.Deployment 是开发团队自制的一键安装器，**将同时安装所有必要的组件**。适合大多数普通用户以及使用 MSIX 应用包安装失败的用户。
+Snap.Hutao.Deployment 是由开发团队提供的一键安装器，**将同时安装所有必要的组件**。适合大多数普通用户以及使用 MSIX 应用包安装失败的用户。
 
 <div class="vp-card-container">
 
 <VPCard
 title="夸克网盘"
-desc="Snap Hutao Deployment 的夸克网盘镜像"
+desc="Snap Hutao Deployment 夸克网盘镜像"
 logo="https://gw.alicdn.com/imgextra/i3/O1CN018r2tKf28YP7ev0fPF_!!6000000007944-2-tps-48-48.png"
 link="https://pan.quark.cn/s/d73ceb415ad9"
 background="rgba(199, 232, 255, 0.15)"
@@ -55,7 +55,7 @@ background="rgba(199, 232, 255, 0.15)"
 
 <VPCard
 title="百度网盘"
-desc="Snap Hutao Deployment 的百度网盘镜像"
+desc="Snap Hutao Deployment 百度网盘镜像"
 logo="https://nd-static.bdstatic.com/m-static/v20-main/home/img/icon-home-new.b4083345.png"
 link="https://pan.baidu.com/s/1lpjoFinWNvKQfdct1Hb5ig?pwd=s687"
 background="rgba(129, 212, 250, 0.15)"
@@ -63,7 +63,7 @@ background="rgba(129, 212, 250, 0.15)"
 
 <VPCard
 title="GitHub"
-desc="Snap Hutao Deployment 亦是一个开源项目"
+desc="Snap Hutao Deployment 亦是一个开源的安装器"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/DGP-Studio/Snap.Hutao.Deployment/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
@@ -75,8 +75,8 @@ background="rgba(155, 233, 168, 0.15)"
 
 <div class="vp-card-container">
   <div class="hint-container warning">
-    <p class="hint-container-title">注意</p>
-    <p>我们建议使用 Snap.Hutao.Deployment 安装胡桃工具箱，任何使用 MSIX 安装包安装时出现的问题均不会被积极处理。</p>
+    <p class="hint-container-title">注意：MSIX 安装包对 Windows 系统完整性有高要求</p>
+    <p>我们建议使用 Snap Hutao Deployment 安装胡桃工具箱，使用 MSIX 安装包安装时出现的问题不会被积极处理。</p>
   </div>
 
 <VPCard
@@ -97,11 +97,9 @@ background="rgba(155, 233, 168, 0.15)"
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 
-如无特殊声明，你可以通过运行 [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) 或安装最新版 MSIX 安装包来完成更新。
+如无特殊声明，你可以通过运行 [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) 或安装最新版 MSIX 安装包来完成更新。通常，遵循应用内的更新提示即可完成更新。
 
-自 1.9.0 版本起，Snap Hutao 内置升级提示功能以提醒获取更新包。如果更新失败，可尝试使用 [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) 覆盖安装以解决问题。
-
-- 数据不会受到影响，只要不手动删除数据目录。
+只要不手动删除数据目录，你的本地数据不会受到影响。
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> 安装可选组件
 
