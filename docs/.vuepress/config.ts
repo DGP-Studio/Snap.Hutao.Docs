@@ -34,7 +34,7 @@ export default defineUserConfig({
           async: "true",
           "data-site-id": "1",
           "data-session-replay": "true",
-          "data-skip-patterns": '["/**/latest.html"]'
+          "data-skip-patterns": '["**/latest"]'
       }
     ],
     [
