@@ -54,14 +54,6 @@ background="rgba(199, 232, 255, 0.15)"
 />
 
 <VPCard
-title="百度网盘"
-desc="Snap Hutao Deployment 百度网盘镜像"
-logo="https://nd-static.bdstatic.com/m-static/v20-main/home/img/icon-home-new.b4083345.png"
-link="https://pan.baidu.com/s/1lpjoFinWNvKQfdct1Hb5ig?pwd=s687"
-background="rgba(129, 212, 250, 0.15)"
-/>
-
-<VPCard
 title="GitHub"
 desc="Snap Hutao Deployment 亦是一个开源的安装器"
 logo="/images/202312/github-mark.svg"
