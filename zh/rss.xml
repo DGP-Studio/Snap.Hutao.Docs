@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 28 Aug 2025 03:49:56 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Aug 2025 03:49:56 GMT</lastBuildDate>
+    <pubDate>Sun, 31 Aug 2025 09:55:29 GMT</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2025 09:55:29 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,16 +115,23 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.15.12 版本</title>
+      <title>🎉 已成功更新至 1.15.13 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.12 版本</source>
-      <description>🎉 已成功更新至 1.15.12 版本 简体中文 | 【🔨修复】 修复了启动游戏转换服务器功能无法正常使用的问题 #2941</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.13 版本</source>
+      <description>🎉 已成功更新至 1.15.13 版本 简体中文 | 【🎉新增】 启动游戏新增超级神秘功能 【🎉新增】 成就页面成就条目右键新增前往米游社/HoYoLAB 搜索菜单项#2957 【✨优化】 我的角色页面现在会记忆排序规则#2953 【✨优化】 启动游戏结束进程按钮在非管理员模式下禁用#2968 【✨优化】 修改了初始引导窗口中的下一步按钮的颜色 ...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🔨修复】</strong> 修复了启动游戏转换服务器功能无法正常使用的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2941" target="_blank" rel="noopener noreferrer">#2941</a></li>
+<li><strong>【🎉新增】</strong> 启动游戏新增超级神秘功能</li>
+<li><strong>【🎉新增】</strong> 成就页面成就条目右键新增前往米游社/HoYoLAB 搜索菜单项<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2989" target="_blank" rel="noopener noreferrer">#2957</a></li>
+<li><strong>【✨优化】</strong> 我的角色页面现在会记忆排序规则<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2953" target="_blank" rel="noopener noreferrer">#2953</a></li>
+<li><strong>【✨优化】</strong> 启动游戏结束进程按钮在非管理员模式下禁用<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2968" target="_blank" rel="noopener noreferrer">#2968</a></li>
+<li><strong>【✨优化】</strong> 修改了初始引导窗口中的下一步按钮的颜色</li>
+<li><strong>【🔨修复】</strong> 修复了连点/连按功能在重启后会无视保存的状态默认启用的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2941" target="_blank" rel="noopener noreferrer">#2941</a></li>
+<li><strong>【🔨修复】</strong> 修复了使用 Embedded Yae 导入成就/物品数据时游戏可能无法正常退出导致无法导入数据的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2998" target="_blank" rel="noopener noreferrer">#2998</a></li>
+<li><strong>【🔨修复】</strong> 修复了 6.0 前瞻兑换码不能正常显示的问题</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -748,7 +755,18 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.12 </h2>
+<h2>1.15.13 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 启动游戏新增超级神秘功能</li>
+<li><strong>【🎉新增】</strong> 成就页面成就条目右键新增前往米游社/HoYoLAB 搜索菜单项<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2989" target="_blank" rel="noopener noreferrer">#2957</a></li>
+<li><strong>【✨优化】</strong> 我的角色页面现在会记忆排序规则<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2953" target="_blank" rel="noopener noreferrer">#2953</a></li>
+<li><strong>【✨优化】</strong> 启动游戏结束进程按钮在非管理员模式下禁用<a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2968" target="_blank" rel="noopener noreferrer">#2968</a></li>
+<li><strong>【✨优化】</strong> 修改了初始引导窗口中的下一步按钮的颜色</li>
+<li><strong>【🔨修复】</strong> 修复了连点/连按功能在重启后会无视保存的状态默认启用的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2941" target="_blank" rel="noopener noreferrer">#2941</a></li>
+<li><strong>【🔨修复】</strong> 修复了使用 Embedded Yae 导入成就/物品数据时游戏可能无法正常退出导致无法导入数据的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2998" target="_blank" rel="noopener noreferrer">#2998</a></li>
+<li><strong>【🔨修复】</strong> 修复了 6.0 前瞻兑换码不能正常显示的问题</li>
+</ul>
+<h2>1.15.12</h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了启动游戏转换服务器功能无法正常使用的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2941" target="_blank" rel="noopener noreferrer">#2941</a></li>
 </ul>
