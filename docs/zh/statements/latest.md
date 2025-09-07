@@ -16,15 +16,13 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.15.13 版本
+# 🎉 已成功更新至 1.15.14 版本
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉新增】** 启动游戏新增超级神秘功能
-- **【🎉新增】** 成就页面成就条目右键新增前往米游社/HoYoLAB 搜索菜单项[#2957](https://github.com/DGP-Studio/Snap.Hutao/issues/2989)
-- **【✨优化】** 我的角色页面现在会记忆排序规则[#2953](https://github.com/DGP-Studio/Snap.Hutao/issues/2953)
-- **【✨优化】** 启动游戏结束进程按钮在非管理员模式下禁用[#2968](https://github.com/DGP-Studio/Snap.Hutao/issues/2968)
-- **【✨优化】** 修改了初始引导窗口中的下一步按钮的颜色
-- **【🔨修复】** 修复了连点/连按功能在重启后会无视保存的状态默认启用的问题 [#2941](https://github.com/DGP-Studio/Snap.Hutao/issues/2941)
-- **【🔨修复】** 修复了使用 Embedded Yae 导入成就/物品数据时游戏可能无法正常退出导致无法导入数据的问题 [#2998](https://github.com/DGP-Studio/Snap.Hutao/issues/2998)
-- **【🔨修复】** 修复了 6.0 前瞻兑换码不能正常显示的问题
+- **【✨优化】** 角色资料页面中五位使用神之心的角色现在会强制显示神之心为其元素力来源
+- **【🔨修复】** 修复了设置页面中祈愿记录无法导入/导出的问题 [#3014](https://github.com/DGP-Studio/Snap.Hutao/issues/3014)
+- **【🔨修复】** 修复了设置页面中语言选项在重进页面后未选中的问题 [#3016](https://github.com/DGP-Studio/Snap.Hutao/issues/3016)
+- **【🔨修复】** 修复了启动游戏页面注入功能视野热开关无效的问题 [#3017](https://github.com/DGP-Studio/Snap.Hutao/issues/3017)
+- **【🔨修复】** 修复了启动游戏页面进程板块选择显示器功能不能正确显示的问题 [#3017](https://github.com/DGP-Studio/Snap.Hutao/issues/3017)
+- **【🔨修复】** 修复了启动游戏页面快捷调整分辨率无法正常显示待选项的问题 [#3034](https://github.com/DGP-Studio/Snap.Hutao/issues/3034)
