@@ -10,7 +10,17 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.15.14 <Badge text="最新版" type="tip" />
+## 1.15.15 <Badge text="最新版" type="tip" />
+
+- **【✨优化】** 角色资料页面支持查看 91-100 级的角色基础属性值
+- **【✨优化】** 成就页面搜索成就现在会忽略标题与描述中的标点符号 [#3059](https://github.com/DGP-Studio/Snap.Hutao/issues/3059)
+- **【🔨修复】** 修复了在非管理员模式下启动会异常获取注入配置的问题
+- **【🔨修复】** 修复了祈愿记录历史页面的排版错误
+- **【🔨修复】** 修复了祈愿记录计时页面的没有排除 梦见月瑞希 的问题
+- **【🔨修复】** 修复了启动游戏后无法跟随启动 Starward/ BetterGI 的问题 [#3041](https://github.com/DGP-Studio/Snap.Hutao/issues/3041)
+- **【🔨修复】** 修复了实时便笺无法刷新的问题 [#3041](https://github.com/DGP-Studio/Snap.Hutao/issues/3065)
+
+## 1.15.14
 
 - **【✨优化】** 角色资料页面中五位使用神之心的角色现在会强制显示神之心为其元素力来源
 - **【🔨修复】** 修复了设置页面中祈愿记录无法导入/导出的问题 [#3014](https://github.com/DGP-Studio/Snap.Hutao/issues/3014)

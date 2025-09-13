@@ -11,7 +11,17 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.15.14 <Badge text="latest" type="tip" />
+## 1.15.15 <Badge text="latest" type="tip" />
+
+- **[✨Optimization]** Character profile page now supports viewing base stats for characters at levels 91-100
+- **[✨Optimization]** Achievement page search now ignores punctuation in titles and descriptions [#3059](https://github.com/DGP-Studio/Snap.Hutao/issues/3059)
+- **[🔨Fix]** Fixed an issue where injection configuration was incorrectly obtained when launching in non-administrator mode
+- **[🔨Fix]** Fixed layout errors on the wish record history page
+- **[🔨Fix]** Fixed an issue where the wish record countdown page did not exclude "Mengjian Yue Rui Xi"
+- **[🔨Fix]** Fixed an issue where Starward/BetterGI would not launch together after starting the game [#3041](https://github.com/DGP-Studio/Snap.Hutao/issues/3041)
+- **[🔨Fix]** Fixed an issue where Real-time Notes could not be refreshed [#3041](https://github.com/DGP-Studio/Snap.Hutao/issues/3065)
+
+## 1.15.14
 
 - **[✨Optimization]** The character profile page now forcibly displays the Gnosis as the elemental power source for the five characters who use Gnosis.
 - **[🔨Fix]** Fixed an issue where wish records could not be imported/exported in the settings page. [#3014](https://github.com/DGP-Studio/Snap.Hutao/issues/3014)

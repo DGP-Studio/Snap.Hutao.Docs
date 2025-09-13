@@ -16,13 +16,14 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.15.14
+# 🎉 Successfully Updated to Version 1.15.15
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[✨Optimization]** The character profile page now forcibly displays the Gnosis as the elemental power source for the five characters who use Gnosis.
-- **[🔨Fix]** Fixed an issue where wish records could not be imported/exported in the settings page. [#3014](https://github.com/DGP-Studio/Snap.Hutao/issues/3014)
-- **[🔨Fix]** Fixed an issue where the language option in the settings page was not selected after re-entering the page. [#3016](https://github.com/DGP-Studio/Snap.Hutao/issues/3016)
-- **[🔨Fix]** Fixed an issue where the field of view toggle in the injection feature on the game launch page was not working. [#3017](https://github.com/DGP-Studio/Snap.Hutao/issues/3017)
-- **[🔨Fix]** Fixed an issue where the monitor selection feature in the process section of the game launch page was not displaying correctly. [#3017](https://github.com/DGP-Studio/Snap.Hutao/issues/3017)
-- **[🔨Fix]** Fixed an issue where the quick resolution adjustment options on the game launch page were not displaying correctly. [#3034](https://github.com/DGP-Studio/Snap.Hutao/issues/3034)
+- **[✨Optimization]** Character profile page now supports viewing base stats for characters at levels 91-100
+- **[✨Optimization]** Achievement page search now ignores punctuation in titles and descriptions [#3059](https://github.com/DGP-Studio/Snap.Hutao/issues/3059)
+- **[🔨Fix]** Fixed an issue where injection configuration was incorrectly obtained when launching in non-administrator mode
+- **[🔨Fix]** Fixed layout errors on the wish record history page
+- **[🔨Fix]** Fixed an issue where the wish record countdown page did not exclude "Mengjian Yue Rui Xi"
+- **[🔨Fix]** Fixed an issue where Starward/BetterGI would not launch together after starting the game [#3041](https://github.com/DGP-Studio/Snap.Hutao/issues/3041)
+- **[🔨Fix]** Fixed an issue where Real-time Notes could not be refreshed [#3041](https://github.com/DGP-Studio/Snap.Hutao/issues/3065)
