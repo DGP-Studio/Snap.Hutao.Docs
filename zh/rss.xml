@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 07 Sep 2025 10:22:21 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Sep 2025 10:22:21 GMT</lastBuildDate>
+    <pubDate>Sat, 13 Sep 2025 09:42:10 GMT</pubDate>
+    <lastBuildDate>Sat, 13 Sep 2025 09:42:10 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,21 +115,22 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.15.14 版本</title>
+      <title>🎉 已成功更新至 1.15.15 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.14 版本</source>
-      <description>🎉 已成功更新至 1.15.14 版本 简体中文 | 【✨优化】 角色资料页面中五位使用神之心的角色现在会强制显示神之心为其元素力来源 【🔨修复】 修复了设置页面中祈愿记录无法导入/导出的问题 #3014 【🔨修复】 修复了设置页面中语言选项在重进页面后未选中的问题 #3016 【🔨修复】 修复了启动游戏页面注入功能视野热开关无效的问题 #30...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.15 版本</source>
+      <description>🎉 已成功更新至 1.15.15 版本 简体中文 | 【✨优化】 角色资料页面支持查看 91-100 级的角色基础属性值 【✨优化】 成就页面搜索成就现在会忽略标题与描述中的标点符号 #3059 【🔨修复】 修复了在非管理员模式下启动会异常获取注入配置的问题 【🔨修复】 修复了祈愿记录历史页面的排版错误 【🔨修复】 修复了祈愿记录计时页面的没有...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【✨优化】</strong> 角色资料页面中五位使用神之心的角色现在会强制显示神之心为其元素力来源</li>
-<li><strong>【🔨修复】</strong> 修复了设置页面中祈愿记录无法导入/导出的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3014" target="_blank" rel="noopener noreferrer">#3014</a></li>
-<li><strong>【🔨修复】</strong> 修复了设置页面中语言选项在重进页面后未选中的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3016" target="_blank" rel="noopener noreferrer">#3016</a></li>
-<li><strong>【🔨修复】</strong> 修复了启动游戏页面注入功能视野热开关无效的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3017" target="_blank" rel="noopener noreferrer">#3017</a></li>
-<li><strong>【🔨修复】</strong> 修复了启动游戏页面进程板块选择显示器功能不能正确显示的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3017" target="_blank" rel="noopener noreferrer">#3017</a></li>
-<li><strong>【🔨修复】</strong> 修复了启动游戏页面快捷调整分辨率无法正常显示待选项的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3034" target="_blank" rel="noopener noreferrer">#3034</a></li>
+<li><strong>【✨优化】</strong> 角色资料页面支持查看 91-100 级的角色基础属性值</li>
+<li><strong>【✨优化】</strong> 成就页面搜索成就现在会忽略标题与描述中的标点符号 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3059" target="_blank" rel="noopener noreferrer">#3059</a></li>
+<li><strong>【🔨修复】</strong> 修复了在非管理员模式下启动会异常获取注入配置的问题</li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录历史页面的排版错误</li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录计时页面的没有排除 梦见月瑞希 的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏后无法跟随启动 Starward/ BetterGI 的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3041" target="_blank" rel="noopener noreferrer">#3041</a></li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺无法刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3065" target="_blank" rel="noopener noreferrer">#3041</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -753,7 +754,17 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.14 </h2>
+<h2>1.15.15 </h2>
+<ul>
+<li><strong>【✨优化】</strong> 角色资料页面支持查看 91-100 级的角色基础属性值</li>
+<li><strong>【✨优化】</strong> 成就页面搜索成就现在会忽略标题与描述中的标点符号 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3059" target="_blank" rel="noopener noreferrer">#3059</a></li>
+<li><strong>【🔨修复】</strong> 修复了在非管理员模式下启动会异常获取注入配置的问题</li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录历史页面的排版错误</li>
+<li><strong>【🔨修复】</strong> 修复了祈愿记录计时页面的没有排除 梦见月瑞希 的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启动游戏后无法跟随启动 Starward/ BetterGI 的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3041" target="_blank" rel="noopener noreferrer">#3041</a></li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺无法刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3065" target="_blank" rel="noopener noreferrer">#3041</a></li>
+</ul>
+<h2>1.15.14</h2>
 <ul>
 <li><strong>【✨优化】</strong> 角色资料页面中五位使用神之心的角色现在会强制显示神之心为其元素力来源</li>
 <li><strong>【🔨修复】</strong> 修复了设置页面中祈愿记录无法导入/导出的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3014" target="_blank" rel="noopener noreferrer">#3014</a></li>
