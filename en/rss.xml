@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 14 Sep 2025 12:50:51 GMT</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2025 12:50:51 GMT</lastBuildDate>
+    <pubDate>Sun, 14 Sep 2025 13:38:12 GMT</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2025 13:38:12 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -122,7 +122,7 @@
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <p>1.15.17 is the hotfix version for 1.15.16 version.</p>
 <ul>
-<li><strong>[🎉New]</strong> Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to @DSakura207 for the implementation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3093</a></li>
+<li><strong>[🎉New]</strong> Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to @DSakura207 for the implementation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3093" target="_blank" rel="noopener noreferrer">#3093</a></li>
 <li><strong>[✨Optimization]</strong> Fulfill the missing client translations</li>
 </ul>
 <h3>Updates in Version 1.15.16</h3>
@@ -722,7 +722,7 @@ The above image shows the expected display effect of this step under a complete 
       <content:encoded><![CDATA[
 <h2>1.15.17 </h2>
 <ul>
-<li><strong>[🎉New]</strong> Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to <a href="https://github.com/DSakura207" target="_blank" rel="noopener noreferrer">@DSakura207</a> for the implementation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3093</a></li>
+<li><strong>[🎉New]</strong> Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to <a href="https://github.com/DSakura207" target="_blank" rel="noopener noreferrer">@DSakura207</a> for the implementation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3093" target="_blank" rel="noopener noreferrer">#3093</a></li>
 <li><strong>[✨Optimization]</strong> Fulfill the missing client translations</li>
 </ul>
 <h2>1.15.16</h2>
