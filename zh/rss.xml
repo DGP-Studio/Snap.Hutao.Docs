@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 14 Sep 2025 11:20:55 GMT</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2025 11:20:55 GMT</lastBuildDate>
+    <pubDate>Sun, 14 Sep 2025 12:50:51 GMT</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2025 12:50:51 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,14 +115,20 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.15.16 版本</title>
+      <title>🎉 已成功更新至 1.15.17 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.16 版本</source>
-      <description>🎉 已成功更新至 1.15.16 版本 简体中文 | 【🎉新增】 主页日历卡片新增挪德卡莱地区天赋/武器材料 #3090 【✨优化】 移除了养成计划树脂预估中的浓缩树脂预估 #3091 【🔨修复】 修复了多个启动游戏相关的假死问题 #3099</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.17 版本</source>
+      <description>🎉 已成功更新至 1.15.17 版本 简体中文 | 1.15.17 版本是 1.15.16 版本的热更新。 【🎉新增】 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 @DSakura207 的实现 #3093 【✨优化】 补全本地化翻译 1.15.16 版本更新内容 【🎉新增】 主页日历卡片新增挪德卡莱地区天赋/武器材料 #3090 ...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
+<p>1.15.17 版本是 1.15.16 版本的热更新。</p>
+<ul>
+<li><strong>【🎉新增】</strong> 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 <a href="https://github.com/DSakura207" target="_blank" rel="noopener noreferrer">@DSakura207</a> 的实现 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3093</a></li>
+<li><strong>【✨优化】</strong> 补全本地化翻译</li>
+</ul>
+<h3>1.15.16 版本更新内容</h3>
 <ul>
 <li><strong>【🎉新增】</strong> 主页日历卡片新增挪德卡莱地区天赋/武器材料 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3090</a></li>
 <li><strong>【✨优化】</strong> 移除了养成计划树脂预估中的浓缩树脂预估 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3091" target="_blank" rel="noopener noreferrer">#3091</a></li>
@@ -750,7 +756,12 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.16 </h2>
+<h2>1.15.17 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 <a href="https://github.com/DSakura207" target="_blank" rel="noopener noreferrer">@DSakura207</a> 的实现 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3093</a></li>
+<li><strong>【✨优化】</strong> 补全本地化翻译</li>
+</ul>
+<h2>1.15.16</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 主页日历卡片新增挪德卡莱地区天赋/武器材料 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3090</a></li>
 <li><strong>【✨优化】</strong> 移除了养成计划树脂预估中的浓缩树脂预估 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3091" target="_blank" rel="noopener noreferrer">#3091</a></li>

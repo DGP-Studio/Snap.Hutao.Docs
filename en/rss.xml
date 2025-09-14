@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sun, 14 Sep 2025 11:20:55 GMT</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2025 11:20:55 GMT</lastBuildDate>
+    <pubDate>Sun, 14 Sep 2025 12:50:51 GMT</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2025 12:50:51 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,14 +112,20 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.15.16</title>
+      <title>🎉 Successfully Updated to Version 1.15.17</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.15.16</source>
-      <description>🎉 Successfully Updated to Version 1.15.16 | English [🎉New] Added Nod-Karai region talent/weapon materials to the homepage calendar card #3090 [✨Optimization] Removed condensed...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.15.17</source>
+      <description>🎉 Successfully Updated to Version 1.15.17 | English 1.15.17 is the hotfix version for 1.15.16 version. [🎉New] Added support for Stygian Onslaught on the oversea server (HoYoLA...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
+<p>1.15.17 is the hotfix version for 1.15.16 version.</p>
+<ul>
+<li><strong>[🎉New]</strong> Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to @DSakura207 for the implementation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3093</a></li>
+<li><strong>[✨Optimization]</strong> Fulfill the missing client translations</li>
+</ul>
+<h3>Updates in Version 1.15.16</h3>
 <ul>
 <li><strong>[🎉New]</strong> Added Nod-Karai region talent/weapon materials to the homepage calendar card <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3090</a></li>
 <li><strong>[✨Optimization]</strong> Removed condensed resin estimation from Dev Plan resin estimation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3091" target="_blank" rel="noopener noreferrer">#3091</a></li>
@@ -714,7 +720,12 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.16 </h2>
+<h2>1.15.17 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to <a href="https://github.com/DSakura207" target="_blank" rel="noopener noreferrer">@DSakura207</a> for the implementation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3093</a></li>
+<li><strong>[✨Optimization]</strong> Fulfill the missing client translations</li>
+</ul>
+<h2>1.15.16</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added Nod-Karai region talent/weapon materials to the homepage calendar card <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3090</a></li>
 <li><strong>[✨Optimization]</strong> Removed condensed resin estimation from Dev Plan resin estimation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3091" target="_blank" rel="noopener noreferrer">#3091</a></li>
