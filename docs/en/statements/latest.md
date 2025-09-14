@@ -22,7 +22,7 @@ pageInfo: false
 
 1.15.17 is the hotfix version for 1.15.16 version.
 
-- **[🎉New]** Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to @DSakura207 for the implementation [#3093](https://github.com/DGP-Studio/Snap.Hutao/issues/3090)
+- **[🎉New]** Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to @DSakura207 for the implementation [#3093](https://github.com/DGP-Studio/Snap.Hutao/issues/3093)
 - **[✨Optimization]** Fulfill the missing client translations
 
 ### Updates in Version 1.15.16

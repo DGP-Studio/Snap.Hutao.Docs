@@ -22,7 +22,7 @@ pageInfo: false
 
 1.15.17 版本是 1.15.16 版本的热更新。
 
-- **【🎉新增】** 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 [@DSakura207](https://github.com/DSakura207) 的实现 [#3093](https://github.com/DGP-Studio/Snap.Hutao/issues/3090)
+- **【🎉新增】** 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 [@DSakura207](https://github.com/DSakura207) 的实现 [#3093](https://github.com/DGP-Studio/Snap.Hutao/issues/3093)
 - **【✨优化】** 补全本地化翻译
 
 ### 1.15.16 版本更新内容

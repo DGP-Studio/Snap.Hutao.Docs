@@ -12,7 +12,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 ## 1.15.17 <Badge text="hotfix" type="warning" /><Badge text="最新版" type="tip" />
 
-- **【🎉新增】** 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 [@DSakura207](https://github.com/DSakura207) 的实现 [#3093](https://github.com/DGP-Studio/Snap.Hutao/issues/3090)
+- **【🎉新增】** 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 [@DSakura207](https://github.com/DSakura207) 的实现 [#3093](https://github.com/DGP-Studio/Snap.Hutao/issues/3093)
 - **【✨优化】** 补全本地化翻译
 
 ## 1.15.16 
