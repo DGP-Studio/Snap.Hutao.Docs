@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 13 Sep 2025 09:42:10 GMT</pubDate>
-    <lastBuildDate>Sat, 13 Sep 2025 09:42:10 GMT</lastBuildDate>
+    <pubDate>Sun, 14 Sep 2025 11:20:55 GMT</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2025 11:20:55 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,22 +115,18 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.15.15 版本</title>
+      <title>🎉 已成功更新至 1.15.16 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.15 版本</source>
-      <description>🎉 已成功更新至 1.15.15 版本 简体中文 | 【✨优化】 角色资料页面支持查看 91-100 级的角色基础属性值 【✨优化】 成就页面搜索成就现在会忽略标题与描述中的标点符号 #3059 【🔨修复】 修复了在非管理员模式下启动会异常获取注入配置的问题 【🔨修复】 修复了祈愿记录历史页面的排版错误 【🔨修复】 修复了祈愿记录计时页面的没有...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.16 版本</source>
+      <description>🎉 已成功更新至 1.15.16 版本 简体中文 | 【🎉新增】 主页日历卡片新增挪德卡莱地区天赋/武器材料 #3090 【✨优化】 移除了养成计划树脂预估中的浓缩树脂预估 #3091 【🔨修复】 修复了多个启动游戏相关的假死问题 #3099</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【✨优化】</strong> 角色资料页面支持查看 91-100 级的角色基础属性值</li>
-<li><strong>【✨优化】</strong> 成就页面搜索成就现在会忽略标题与描述中的标点符号 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3059" target="_blank" rel="noopener noreferrer">#3059</a></li>
-<li><strong>【🔨修复】</strong> 修复了在非管理员模式下启动会异常获取注入配置的问题</li>
-<li><strong>【🔨修复】</strong> 修复了祈愿记录历史页面的排版错误</li>
-<li><strong>【🔨修复】</strong> 修复了祈愿记录计时页面的没有排除 梦见月瑞希 的问题</li>
-<li><strong>【🔨修复】</strong> 修复了启动游戏后无法跟随启动 Starward/ BetterGI 的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3041" target="_blank" rel="noopener noreferrer">#3041</a></li>
-<li><strong>【🔨修复】</strong> 修复了实时便笺无法刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3065" target="_blank" rel="noopener noreferrer">#3041</a></li>
+<li><strong>【🎉新增】</strong> 主页日历卡片新增挪德卡莱地区天赋/武器材料 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3090</a></li>
+<li><strong>【✨优化】</strong> 移除了养成计划树脂预估中的浓缩树脂预估 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3091" target="_blank" rel="noopener noreferrer">#3091</a></li>
+<li><strong>【🔨修复】</strong> 修复了多个启动游戏相关的假死问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3099" target="_blank" rel="noopener noreferrer">#3099</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -754,7 +750,13 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.15 </h2>
+<h2>1.15.16 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 主页日历卡片新增挪德卡莱地区天赋/武器材料 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3090</a></li>
+<li><strong>【✨优化】</strong> 移除了养成计划树脂预估中的浓缩树脂预估 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3091" target="_blank" rel="noopener noreferrer">#3091</a></li>
+<li><strong>【🔨修复】</strong> 修复了多个启动游戏相关的假死问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3099" target="_blank" rel="noopener noreferrer">#3099</a></li>
+</ul>
+<h2>1.15.15</h2>
 <ul>
 <li><strong>【✨优化】</strong> 角色资料页面支持查看 91-100 级的角色基础属性值</li>
 <li><strong>【✨优化】</strong> 成就页面搜索成就现在会忽略标题与描述中的标点符号 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3059" target="_blank" rel="noopener noreferrer">#3059</a></li>
@@ -762,7 +764,7 @@
 <li><strong>【🔨修复】</strong> 修复了祈愿记录历史页面的排版错误</li>
 <li><strong>【🔨修复】</strong> 修复了祈愿记录计时页面的没有排除 梦见月瑞希 的问题</li>
 <li><strong>【🔨修复】</strong> 修复了启动游戏后无法跟随启动 Starward/ BetterGI 的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3041" target="_blank" rel="noopener noreferrer">#3041</a></li>
-<li><strong>【🔨修复】</strong> 修复了实时便笺无法刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3065" target="_blank" rel="noopener noreferrer">#3041</a></li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺无法刷新的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3065" target="_blank" rel="noopener noreferrer">#3065</a></li>
 </ul>
 <h2>1.15.14</h2>
 <ul>
