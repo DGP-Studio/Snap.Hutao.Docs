@@ -116,7 +116,8 @@ export default hopeTheme(
       },
 
       components: {
-        components: ["Badge", "BiliBili", "VPCard", "VPBanner"],
+        components: ["Badge", "BiliBili", "VPBanner"],
+        // components: ["Badge", "BiliBili", "VPCard", "VPBanner"],
       },
 
       docsearch: {

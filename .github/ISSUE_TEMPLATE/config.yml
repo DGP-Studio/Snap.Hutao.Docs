@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
   - name: 提交 Snap Hutao 客户端问题报告 / Submit Snap Hutao Client Issues
     url: https://github.com/DGP-Studio/Snap.Hutao/issues/new/choose

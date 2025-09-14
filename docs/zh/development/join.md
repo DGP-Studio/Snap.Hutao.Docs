@@ -26,7 +26,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 - [x] 为 Snap Hutao 和关联项目设计并实现功能
 - [x] 与其他知名原神社区项目的开发者建立联系
-- [x] 获取免费的 GitHub Copilot
+- [x] 获取免费的 GitHub Copilot Pro 订阅
 - [x] 获取免费的 1Password Team 账号
 
 你可以在 [GitHub DGP-Studio People](https://github.com/orgs/DGP-Studio/people) 页面查看当前公开的组织成员列表。

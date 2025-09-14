@@ -30,6 +30,16 @@ export default defineUserConfig({
     [
       "script",
       {
+          src: "https://hello.snapgenshin.com/api/script.js",
+          async: "true",
+          "data-site-id": "1",
+          "data-session-replay": "true",
+          "data-skip-patterns": '["**/latest"]'
+      }
+    ],
+    [
+      "script",
+      {
         type: "module",
         src: "https://get.microsoft.com/badge/ms-store-badge.bundled.js",
       },
