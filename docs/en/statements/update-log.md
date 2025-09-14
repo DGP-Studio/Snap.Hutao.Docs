@@ -11,7 +11,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.15.16 <Badge text="latest" type="tip" />
+## 1.15.17 <Badge text="hotfix" type="warning" /><Badge text="latest" type="tip" />
+
+- **[🎉New]** Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to [@DSakura207](https://github.com/DSakura207) for the implementation [#3093](https://github.com/DGP-Studio/Snap.Hutao/issues/3090)
+- **[✨Optimization]** Fulfill the missing client translations
+
+## 1.15.16
 
 - **[🎉New]** Added Nod-Karai region talent/weapon materials to the homepage calendar card [#3090](https://github.com/DGP-Studio/Snap.Hutao/issues/3090)
 - **[✨Optimization]** Removed condensed resin estimation from Dev Plan resin estimation [#3091](https://github.com/DGP-Studio/Snap.Hutao/issues/3091)
