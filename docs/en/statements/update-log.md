@@ -11,7 +11,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.15.15 <Badge text="latest" type="tip" />
+## 1.15.16 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Added Nod-Karai region talent/weapon materials to the homepage calendar card [#3090](https://github.com/DGP-Studio/Snap.Hutao/issues/3090)
+- **[✨Optimization]** Removed condensed resin estimation from Dev Plan resin estimation [#3091](https://github.com/DGP-Studio/Snap.Hutao/issues/3091)
+- **[🔨Fix]** Fixed multiple game launch related unresponsive issues [#3099](https://github.com/DGP-Studio/Snap.Hutao/issues/3099)
+
+## 1.15.15
 
 - **[✨Optimization]** Character profile page now supports viewing base stats for characters at levels 91-100
 - **[✨Optimization]** Achievement page search now ignores punctuation in titles and descriptions [#3059](https://github.com/DGP-Studio/Snap.Hutao/issues/3059)

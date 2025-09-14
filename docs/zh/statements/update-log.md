@@ -10,7 +10,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.15.15 <Badge text="最新版" type="tip" />
+## 1.15.16 <Badge text="最新版" type="tip" />
+
+- **【🎉新增】** 主页日历卡片新增挪德卡莱地区天赋/武器材料 [#3090](https://github.com/DGP-Studio/Snap.Hutao/issues/3090)
+- **【✨优化】** 移除了养成计划树脂预估中的浓缩树脂预估 [#3091](https://github.com/DGP-Studio/Snap.Hutao/issues/3091)
+- **【🔨修复】** 修复了多个启动游戏相关的假死问题 [#3099](https://github.com/DGP-Studio/Snap.Hutao/issues/3099)
+
+## 1.15.15
 
 - **【✨优化】** 角色资料页面支持查看 91-100 级的角色基础属性值
 - **【✨优化】** 成就页面搜索成就现在会忽略标题与描述中的标点符号 [#3059](https://github.com/DGP-Studio/Snap.Hutao/issues/3059)
@@ -18,7 +24,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **【🔨修复】** 修复了祈愿记录历史页面的排版错误
 - **【🔨修复】** 修复了祈愿记录计时页面的没有排除 梦见月瑞希 的问题
 - **【🔨修复】** 修复了启动游戏后无法跟随启动 Starward/ BetterGI 的问题 [#3041](https://github.com/DGP-Studio/Snap.Hutao/issues/3041)
-- **【🔨修复】** 修复了实时便笺无法刷新的问题 [#3041](https://github.com/DGP-Studio/Snap.Hutao/issues/3065)
+- **【🔨修复】** 修复了实时便笺无法刷新的问题 [#3065](https://github.com/DGP-Studio/Snap.Hutao/issues/3065)
 
 ## 1.15.14
 
