@@ -52,9 +52,9 @@ const sponsors: SponsorListItem[] = [
   },
   { icon: "/svg/ducalis.svg", name: "Ducalis", link: "https://hi.ducalis.io" },
   {
-    icon: "/svg/jetbrains.svg",
-    name: "Jetbrains",
-    link: "https://jetbrains.com",
+    icon: "/svg/cloudflare.svg",
+    name: "Cloudflare",
+    link: "https://www.cloudflare.com/",
   },
   {
     icon: "/svg/termius-logo.svg",

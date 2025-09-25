@@ -160,7 +160,7 @@ Snap Hutao 感谢以下软件厂商的赞助支持：
 
 [**Ducalis.io**](https://hi.ducalis.io/) 为项目管理提供完整的决策工具包。
 
-**JetBrains** 为开发团队提供卓越的软件开发工具。
+[**Cloudflare**](https://www.cloudflare.com/) 确保我们的基础设施能够实现安全、快速和可靠的全球连接。
 
 **Termius** 提供安全可靠的 SSH 客户端。
 :::

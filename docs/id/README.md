@@ -160,7 +160,7 @@ Snap Hutao berterima kasih kepada perusahaan perangkat lunak berikut atas sponso
 
 [**Ducalis.io**](https://hi.ducalis.io/) menyediakan toolkit pengambilan keputusan lengkap untuk manajemen proyek.
 
-**JetBrains** menyediakan alat pengembangan perangkat lunak yang luar biasa bagi tim pengembang.
+[**Cloudflare**](https://www.cloudflare.com/) memastikan koneksi global yang aman, cepat, dan andal ke infrastruktur kami.
 
 **Termius** menyediakan klien SSH yang aman dan andal.
 :::

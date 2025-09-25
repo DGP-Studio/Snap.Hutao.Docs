@@ -160,7 +160,7 @@ Snap Hutao thanks the following software companies for their sponsorship:
 
 [**Ducalis.io**](https://hi.ducalis.io/) provides a complete decision-making toolkit for project management.
 
-**JetBrains** provides the development team with excellent software development tools.
+[**Cloudflare**](https://www.cloudflare.com/) ensures secure, fast, and reliable worldwide connection to our infrastructure
 
 **Termius** provides a secure and reliable SSH client.
 :::
