@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Thu, 25 Sep 2025 05:07:20 GMT</pubDate>
-    <lastBuildDate>Thu, 25 Sep 2025 05:07:20 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Sep 2025 13:27:35 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Sep 2025 13:27:35 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,24 +112,33 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.15.17</title>
+      <title>🎉 Successfully Updated to Version 1.16.0</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.15.17</source>
-      <description>🎉 Successfully Updated to Version 1.15.17 | English 1.15.17 is the hotfix version for 1.15.16 version. [🎉New] Added support for Stygian Onslaught on the oversea server (HoYoLA...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.16.0</source>
+      <description>🎉 Successfully Updated to Version 1.16.0 | English [🎉New] Added tooltip on the resin icon in the Real-time Notes card on the homepage #2699 [✨Optimization] Refactored the game...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
-<p>1.15.17 is the hotfix version for 1.15.16 version.</p>
 <ul>
-<li><strong>[🎉New]</strong> Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to @DSakura207 for the implementation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3093" target="_blank" rel="noopener noreferrer">#3093</a></li>
-<li><strong>[✨Optimization]</strong> Fulfill the missing client translations</li>
+<li><strong>[🎉New]</strong> Added tooltip on the resin icon in the Real-time Notes card on the homepage <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2699" target="_blank" rel="noopener noreferrer">#2699</a></li>
+<li><strong>[✨Optimization]</strong> Refactored the game launch module
+<ul>
+<li><strong>[🎉New]</strong> Added reward claim consumable control in game launch, allowing selection of whether to consume Original Resin, Condensed Resin, Fragile Resin, or Primogems when claiming rewards</li>
+<li><strong>[🎉New]</strong> Added server-only conversion feature in game launch, enabling game client file replacement without actually launching the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2177" target="_blank" rel="noopener noreferrer">#2177</a></li>
+<li><strong>[✨Optimization]</strong> Added multiple tooltips to injection options <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2961" target="_blank" rel="noopener noreferrer">#2961</a></li>
+<li><strong>[✨Optimization]</strong> If MiYouShe/HoYoLAB login is enabled, the homepage game launch card will display the current in-game character after launching the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2969" target="_blank" rel="noopener noreferrer">#2969</a></li>
+<li><strong>[✨Optimization]</strong> Added a tooltip in injection options to indicate whether the changes will take effect after connecting to the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3006" target="_blank" rel="noopener noreferrer">#3006</a></li>
+<li><strong>[✨Optimization]</strong> A prompt will appear when attempting to use Embedded Yae to import data after the game has started <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3071" target="_blank" rel="noopener noreferrer">#3071</a></li>
+<li><strong>[✨Optimization]</strong> After switching accounts in the user panel, if MiYouShe/HoYoLAB login is enabled and does not match the currently selected server, game launch will be blocked <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3109" target="_blank" rel="noopener noreferrer">#3109</a></li>
 </ul>
-<h3>Updates in Version 1.15.16</h3>
-<ul>
-<li><strong>[🎉New]</strong> Added Nod-Karai region talent/weapon materials to the homepage calendar card <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3090</a></li>
-<li><strong>[✨Optimization]</strong> Removed condensed resin estimation from Dev Plan resin estimation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3091" target="_blank" rel="noopener noreferrer">#3091</a></li>
-<li><strong>[🔨Fix]</strong> Fixed multiple game launch related unresponsive issues <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3099" target="_blank" rel="noopener noreferrer">#3099</a></li>
+</li>
+<li><strong>[✨Optimization]</strong> Videos played in the compact web window will no longer be muted by default after startup</li>
+<li><strong>[✨Optimization]</strong> Changed the method for determining administrator privileges; now, non-elevated launches by users in the Administrators group will not be considered as elevated</li>
+<li><strong>[✨Optimization]</strong> Removed the refresh time button from the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2984" target="_blank" rel="noopener noreferrer">#2984</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the dot indicator on the Real-time Notes card on the homepage displayed abnormally <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2964" target="_blank" rel="noopener noreferrer">#2964</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where exporting data to the clipboard from the My Characters page was missing bonus attribute values <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2966" target="_blank" rel="noopener noreferrer">#2966</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where Real-time Notes sometimes failed to correctly refresh Archon Quest progress <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2975" target="_blank" rel="noopener noreferrer">#2975</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -720,7 +729,28 @@ The above image shows the expected display effect of this step under a complete 
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.17 </h2>
+<h2>1.16.0 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added tooltip on the resin icon in the Real-time Notes card on the homepage <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2699" target="_blank" rel="noopener noreferrer">#2699</a></li>
+<li><strong>[✨Optimization]</strong> Refactored the game launch module
+<ul>
+<li><strong>[🎉New]</strong> Added reward claim consumable control in game launch, allowing selection of whether to consume Original Resin, Condensed Resin, Fragile Resin, or Primogems when claiming rewards</li>
+<li><strong>[🎉New]</strong> Added server-only conversion feature in game launch, enabling game client file replacement without actually launching the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2177" target="_blank" rel="noopener noreferrer">#2177</a></li>
+<li><strong>[✨Optimization]</strong> Added multiple tooltips to injection options <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2961" target="_blank" rel="noopener noreferrer">#2961</a></li>
+<li><strong>[✨Optimization]</strong> If MiYouShe/HoYoLAB login is enabled, the homepage game launch card will display the current in-game character after launching the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2969" target="_blank" rel="noopener noreferrer">#2969</a></li>
+<li><strong>[✨Optimization]</strong> Added a tooltip in injection options to indicate whether the changes will take effect after connecting to the game <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3006" target="_blank" rel="noopener noreferrer">#3006</a></li>
+<li><strong>[✨Optimization]</strong> A prompt will appear when attempting to use Embedded Yae to import data after the game has started <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3071" target="_blank" rel="noopener noreferrer">#3071</a></li>
+<li><strong>[✨Optimization]</strong> After switching accounts in the user panel, if MiYouShe/HoYoLAB login is enabled and does not match the currently selected server, game launch will be blocked <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3109" target="_blank" rel="noopener noreferrer">#3109</a></li>
+</ul>
+</li>
+<li><strong>[✨Optimization]</strong> Videos played in the compact web window will no longer be muted by default after startup</li>
+<li><strong>[✨Optimization]</strong> Changed the method for determining administrator privileges; now, non-elevated launches by users in the Administrators group will not be considered as elevated</li>
+<li><strong>[✨Optimization]</strong> Removed the refresh time button from the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2984" target="_blank" rel="noopener noreferrer">#2984</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where the dot indicator on the Real-time Notes card on the homepage displayed abnormally <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2964" target="_blank" rel="noopener noreferrer">#2964</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where exporting data to the clipboard from the My Characters page was missing bonus attribute values <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2966" target="_blank" rel="noopener noreferrer">#2966</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where Real-time Notes sometimes failed to correctly refresh Archon Quest progress <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2975" target="_blank" rel="noopener noreferrer">#2975</a></li>
+</ul>
+<h2>1.15.17</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added support for Stygian Onslaught on the oversea server (HoYoLAB). Thanks to <a href="https://github.com/DSakura207" target="_blank" rel="noopener noreferrer">@DSakura207</a> for the implementation <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3093" target="_blank" rel="noopener noreferrer">#3093</a></li>
 <li><strong>[✨Optimization]</strong> Fulfill the missing client translations</li>

@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 25 Sep 2025 05:07:20 GMT</pubDate>
-    <lastBuildDate>Thu, 25 Sep 2025 05:07:20 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Sep 2025 13:27:35 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Sep 2025 13:27:35 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,24 +115,33 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.15.17 版本</title>
+      <title>🎉 已成功更新至 1.16.0 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.15.17 版本</source>
-      <description>🎉 已成功更新至 1.15.17 版本 简体中文 | 1.15.17 版本是 1.15.16 版本的热更新。 【🎉新增】 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 @DSakura207 的实现 #3093 【✨优化】 补全本地化翻译 1.15.16 版本更新内容 【🎉新增】 主页日历卡片新增挪德卡莱地区天赋/武器材料 #3090 ...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.16.0 版本</source>
+      <description>🎉 已成功更新至 1.16.0 版本 简体中文 | 【🎉新增】 主页的实时便笺卡片树脂图标增加了鼠标悬停提示 #2699 【✨优化】 重构了启动游戏模块 【🎉新增】 启动游戏新增奖励领取消耗物品控制，允许选择是否消耗原粹树脂，浓缩树脂，脆弱树脂，原石领取奖励 【🎉新增】 启动游戏新增仅转换服务器功能，无须实际启动游戏也能进行游戏客户端文件替换 ...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
-<p>1.15.17 版本是 1.15.16 版本的热更新。</p>
 <ul>
-<li><strong>【🎉新增】</strong> 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 <a href="https://github.com/DSakura207" target="_blank" rel="noopener noreferrer">@DSakura207</a> 的实现 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3093" target="_blank" rel="noopener noreferrer">#3093</a></li>
-<li><strong>【✨优化】</strong> 补全本地化翻译</li>
+<li><strong>【🎉新增】</strong> 主页的实时便笺卡片树脂图标增加了鼠标悬停提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2699" target="_blank" rel="noopener noreferrer">#2699</a></li>
+<li><strong>【✨优化】</strong> 重构了启动游戏模块
+<ul>
+<li><strong>【🎉新增】</strong> 启动游戏新增奖励领取消耗物品控制，允许选择是否消耗原粹树脂，浓缩树脂，脆弱树脂，原石领取奖励</li>
+<li><strong>【🎉新增】</strong> 启动游戏新增仅转换服务器功能，无须实际启动游戏也能进行游戏客户端文件替换 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2177" target="_blank" rel="noopener noreferrer">#2177</a></li>
+<li><strong>【✨优化】</strong> 注入选项新增了多个提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2961" target="_blank" rel="noopener noreferrer">#2961</a></li>
+<li><strong>【✨优化】</strong> 若启用了 米游社/HoYoLAB 登录，主页启动游戏卡片在启动游戏后将会显示当前游戏内的角色 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2969" target="_blank" rel="noopener noreferrer">#2969</a></li>
+<li><strong>【✨优化】</strong> 注入选项新增了连接到游戏的提示，用于确定改动的设置是否会生效 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3006" target="_blank" rel="noopener noreferrer">#3006</a></li>
+<li><strong>【✨优化】</strong> 游戏已启动后尝试使用 Embedded Yae 导入数据将会提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3071" target="_blank" rel="noopener noreferrer">#3071</a></li>
+<li><strong>【✨优化】</strong> 在用户面板中切换账号后，若启用了 米游社/HoYoLAB 登录且与当前选择的服务器不匹配将会阻止启动 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3109" target="_blank" rel="noopener noreferrer">#3109</a></li>
 </ul>
-<h3>1.15.16 版本更新内容</h3>
-<ul>
-<li><strong>【🎉新增】</strong> 主页日历卡片新增挪德卡莱地区天赋/武器材料 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3090" target="_blank" rel="noopener noreferrer">#3090</a></li>
-<li><strong>【✨优化】</strong> 移除了养成计划树脂预估中的浓缩树脂预估 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3091" target="_blank" rel="noopener noreferrer">#3091</a></li>
-<li><strong>【🔨修复】</strong> 修复了多个启动游戏相关的假死问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3099" target="_blank" rel="noopener noreferrer">#3099</a></li>
+</li>
+<li><strong>【✨优化】</strong> 紧凑网页窗口启动后播放的视频将不再默认静音</li>
+<li><strong>【✨优化】</strong> 修改了判定管理员权限的方式，现在不会认为管理员组用户的非提升启动为提升启动</li>
+<li><strong>【✨优化】</strong> 移除了我的角色页面的刷新时间按钮 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2984" target="_blank" rel="noopener noreferrer">#2984</a></li>
+<li><strong>【🔨修复】</strong> 修复了主页的实时便笺卡片圆点显示异常的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2964" target="_blank" rel="noopener noreferrer">#2964</a></li>
+<li><strong>【🔨修复】</strong> 修复了我的角色页面导出数据到剪贴版时缺少加成属性值的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2966" target="_blank" rel="noopener noreferrer">#2966</a></li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺有时无法正确刷新魔神任务进度的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2975" target="_blank" rel="noopener noreferrer">#2975</a></li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -756,7 +765,28 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.15.17 </h2>
+<h2>1.16.0 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 主页的实时便笺卡片树脂图标增加了鼠标悬停提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2699" target="_blank" rel="noopener noreferrer">#2699</a></li>
+<li><strong>【✨优化】</strong> 重构了启动游戏模块
+<ul>
+<li><strong>【🎉新增】</strong> 启动游戏新增奖励领取消耗物品控制，允许选择是否消耗原粹树脂，浓缩树脂，脆弱树脂，原石领取奖励</li>
+<li><strong>【🎉新增】</strong> 启动游戏新增仅转换服务器功能，无须实际启动游戏也能进行游戏客户端文件替换 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2177" target="_blank" rel="noopener noreferrer">#2177</a></li>
+<li><strong>【✨优化】</strong> 注入选项新增了多个提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2961" target="_blank" rel="noopener noreferrer">#2961</a></li>
+<li><strong>【✨优化】</strong> 若启用了 米游社/HoYoLAB 登录，主页启动游戏卡片在启动游戏后将会显示当前游戏内的角色 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2969" target="_blank" rel="noopener noreferrer">#2969</a></li>
+<li><strong>【✨优化】</strong> 注入选项新增了连接到游戏的提示，用于确定改动的设置是否会生效 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3006" target="_blank" rel="noopener noreferrer">#3006</a></li>
+<li><strong>【✨优化】</strong> 游戏已启动后尝试使用 Embedded Yae 导入数据将会提示 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3071" target="_blank" rel="noopener noreferrer">#3071</a></li>
+<li><strong>【✨优化】</strong> 在用户面板中切换账号后，若启用了 米游社/HoYoLAB 登录且与当前选择的服务器不匹配将会阻止启动 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3109" target="_blank" rel="noopener noreferrer">#3109</a></li>
+</ul>
+</li>
+<li><strong>【✨优化】</strong> 紧凑网页窗口启动后播放的视频将不再默认静音</li>
+<li><strong>【✨优化】</strong> 修改了判定管理员权限的方式，现在不会认为管理员组用户的非提升启动为提升启动</li>
+<li><strong>【✨优化】</strong> 移除了我的角色页面的刷新时间按钮 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2984" target="_blank" rel="noopener noreferrer">#2984</a></li>
+<li><strong>【🔨修复】</strong> 修复了主页的实时便笺卡片圆点显示异常的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2964" target="_blank" rel="noopener noreferrer">#2964</a></li>
+<li><strong>【🔨修复】</strong> 修复了我的角色页面导出数据到剪贴版时缺少加成属性值的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2966" target="_blank" rel="noopener noreferrer">#2966</a></li>
+<li><strong>【🔨修复】</strong> 修复了实时便笺有时无法正确刷新魔神任务进度的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2975" target="_blank" rel="noopener noreferrer">#2975</a></li>
+</ul>
+<h2>1.15.17</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 幽境危战增加对国际服 (HoYoLAB) 的支持，感谢 <a href="https://github.com/DSakura207" target="_blank" rel="noopener noreferrer">@DSakura207</a> 的实现 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3093" target="_blank" rel="noopener noreferrer">#3093</a></li>
 <li><strong>【✨优化】</strong> 补全本地化翻译</li>
