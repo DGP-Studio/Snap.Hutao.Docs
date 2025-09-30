@@ -10,7 +10,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.16.0 <Badge text="最新版" type="tip" />
+## 1.16.1 <Badge text="最新版" type="tip" />
+
+- **【🔨修复】** 修复了本月未进行签到，在切换到主页面时可能会导致崩溃的问题
+- **【🔨修复】** 修复了启动游戏页面注入设置页签中开关列表无法滚动的问题
+- **【🔨修复】** 修复了养成计划养成物品页签在物品较多时加载缓慢甚至崩溃的问题 [#3137](https://github.com/DGP-Studio/Snap.Hutao/issues/3137)
+
+## 1.16.0
 
 - **【🎉新增】** 主页的实时便笺卡片树脂图标增加了鼠标悬停提示 [#2699](https://github.com/DGP-Studio/Snap.Hutao/issues/2699)
 - **【✨优化】** 重构了启动游戏模块
