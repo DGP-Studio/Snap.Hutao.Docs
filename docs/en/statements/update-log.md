@@ -11,7 +11,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.16.0 <Badge text="latest" type="tip" />
+## 1.16.1 <Badge text="latest" type="tip" />
+
+- **[🔨Fix]** Fixed a crash issue that could occur when switching to the homepage without checking in for the current month
+- **[🔨Fix]** Fixed an issue where the toggle list in the injection settings tab on the game launch page could not be scrolled
+- **[🔨Fix]** Fixed an issue where the Cultivation Plan item tab could load slowly or even crash when there were many items [#3137](https://github.com/DGP-Studio/Snap.Hutao/issues/3137)
+
+## 1.16.0
 
 - **[🎉New]** Added tooltip on the resin icon in the Real-time Notes card on the homepage [#2699](https://github.com/DGP-Studio/Snap.Hutao/issues/2699)
 - **[✨Optimization]** Refactored the game launch module
