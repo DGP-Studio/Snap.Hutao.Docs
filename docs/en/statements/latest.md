@@ -16,10 +16,13 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.16.1
+# 🎉 Successfully Updated to Version 1.16.2
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed a crash issue that could occur when switching to the homepage without checking in for the current month
-- **[🔨Fix]** Fixed an issue where the toggle list in the injection settings tab on the game launch page could not be scrolled
-- **[🔨Fix]** Fixed an issue where the Cultivation Plan item tab could load slowly or even crash when there were many items [#3137](https://github.com/DGP-Studio/Snap.Hutao/issues/3137)
+- **[🎉New]** Added a toggle in the game launch injection options to claim Moment Resin rewards [#3147](https://github.com/DGP-Studio/Snap.Hutao/issues/3147)
+- **[✨Optimization]** Imaginarium Theater now supports recognizing Moonlit Mode and its Sigil challenges [#3165](https://github.com/DGP-Studio/Snap.Hutao/issues/3165)
+- **[✨Optimization]** Game launch account detection now shows account information and provides account expiration prompts
+- **[✨Optimization]** Development Plan now supports calculating character level cap ascensions
+- **[✨Optimization]** Restyled the main window title bar [#3167](https://github.com/DGP-Studio/Snap.Hutao/issues/3167)
+- **[🔨Fix]** Fixed an issue where preview live stream redemption codes could show empty code entries when not yet ready
