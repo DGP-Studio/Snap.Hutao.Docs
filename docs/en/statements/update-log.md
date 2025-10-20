@@ -13,6 +13,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 ## 1.16.2 <Badge text="latest" type="tip" />
 
+- **[🔨Fix]** Fixed a crash that could occur when bulk-adding characters to the Development Plan from the My Characters page [#3172](https://github.com/DGP-Studio/Snap.Hutao/issues/3172)
+- **[🔨Fix]** Fixed an issue where changing the background image type on the Settings page would not refresh immediately
+- **[🔨Fix]** [Internal] Fixed an issue where user feedback on crashes was not associated with the corresponding Sentry event
+
+## 1.16.2
+
 - **[🎉New]** Added a toggle in the game launch injection options to claim Moment Resin rewards [#3147](https://github.com/DGP-Studio/Snap.Hutao/issues/3147)
 - **[✨Optimization]** Imaginarium Theater now supports recognizing Moonlit Mode and its Sigil challenges [#3165](https://github.com/DGP-Studio/Snap.Hutao/issues/3165)
 - **[✨Optimization]** Game launch account detection now shows account information and provides account expiration prompts
