@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Sat, 18 Oct 2025 06:16:19 GMT</pubDate>
-    <lastBuildDate>Sat, 18 Oct 2025 06:16:19 GMT</lastBuildDate>
+    <pubDate>Mon, 20 Oct 2025 03:48:05 GMT</pubDate>
+    <lastBuildDate>Mon, 20 Oct 2025 03:48:05 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,21 +112,18 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.16.2</title>
+      <title>🎉 Successfully Updated to Version 1.16.3</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.16.2</source>
-      <description>🎉 Successfully Updated to Version 1.16.2 | English [🎉New] Added a toggle in the game launch injection options to claim Moment Resin rewards #3147 [✨Optimization] Imaginarium T...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.16.3</source>
+      <description>🎉 Successfully Updated to Version 1.16.3 | English [🔨Fix] Fixed a crash that could occur when bulk-adding characters to the Development Plan from the My Characters page #3172 ...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Added a toggle in the game launch injection options to claim Moment Resin rewards <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3147" target="_blank" rel="noopener noreferrer">#3147</a></li>
-<li><strong>[✨Optimization]</strong> Imaginarium Theater now supports recognizing Moonlit Mode and its Sigil challenges <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3165" target="_blank" rel="noopener noreferrer">#3165</a></li>
-<li><strong>[✨Optimization]</strong> Game launch account detection now shows account information and provides account expiration prompts</li>
-<li><strong>[✨Optimization]</strong> Development Plan now supports calculating character level cap ascensions</li>
-<li><strong>[✨Optimization]</strong> Restyled the main window title bar <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3167" target="_blank" rel="noopener noreferrer">#3167</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where preview live stream redemption codes could show empty code entries when not yet ready</li>
+<li><strong>[🔨Fix]</strong> Fixed a crash that could occur when bulk-adding characters to the Development Plan from the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3172" target="_blank" rel="noopener noreferrer">#3172</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where changing the background image type on the Settings page would not refresh immediately</li>
+<li><strong>[🔨Fix]</strong> [Internal] Fixed an issue where user feedback on crashes was not associated with the corresponding Sentry event</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -2343,6 +2340,12 @@ community members can contribute Japanese language on <a href="https://translate
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <h2>1.16.2 </h2>
+<ul>
+<li><strong>[🔨Fix]</strong> Fixed a crash that could occur when bulk-adding characters to the Development Plan from the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3172" target="_blank" rel="noopener noreferrer">#3172</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where changing the background image type on the Settings page would not refresh immediately</li>
+<li><strong>[🔨Fix]</strong> [Internal] Fixed an issue where user feedback on crashes was not associated with the corresponding Sentry event</li>
+</ul>
+<h2>1.16.2</h2>
 <ul>
 <li><strong>[🎉New]</strong> Added a toggle in the game launch injection options to claim Moment Resin rewards <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3147" target="_blank" rel="noopener noreferrer">#3147</a></li>
 <li><strong>[✨Optimization]</strong> Imaginarium Theater now supports recognizing Moonlit Mode and its Sigil challenges <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3165" target="_blank" rel="noopener noreferrer">#3165</a></li>

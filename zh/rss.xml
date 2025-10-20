@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 18 Oct 2025 06:16:19 GMT</pubDate>
-    <lastBuildDate>Sat, 18 Oct 2025 06:16:19 GMT</lastBuildDate>
+    <pubDate>Mon, 20 Oct 2025 03:48:05 GMT</pubDate>
+    <lastBuildDate>Mon, 20 Oct 2025 03:48:05 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,21 +115,18 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.16.2 版本</title>
+      <title>🎉 已成功更新至 1.16.3 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.16.2 版本</source>
-      <description>🎉 已成功更新至 1.16.2 版本 简体中文 | 【🎉新增】 启动游戏注入选项新增须臾树脂领取奖励开关 #3147 【✨优化】 幻想真境剧诗支持识别月谕模式及其圣牌挑战 #3165 【✨优化】 启动游戏检测账号功能新增账号信息提示，账号过期提示 【✨优化】 养成计算支持计算角色等级上限突破 【✨优化】 重制了主窗口的标题栏样式 #3167 【🔨...</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.16.3 版本</source>
+      <description>🎉 已成功更新至 1.16.3 版本 简体中文 | 【🔨修复】 修复了我的角色页面批量添加到养成计划时会导致崩溃的问题 #3172 【🔨修复】 修复了设置页面切换背景图片类型后不会立即刷新的问题 【🔨修复】 [Internal] 修复了崩溃时用户反馈不会与 Sentry 事件关联的问题</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🎉新增】</strong> 启动游戏注入选项新增须臾树脂领取奖励开关 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3147" target="_blank" rel="noopener noreferrer">#3147</a></li>
-<li><strong>【✨优化】</strong> 幻想真境剧诗支持识别月谕模式及其圣牌挑战 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3165" target="_blank" rel="noopener noreferrer">#3165</a></li>
-<li><strong>【✨优化】</strong> 启动游戏检测账号功能新增账号信息提示，账号过期提示</li>
-<li><strong>【✨优化】</strong> 养成计算支持计算角色等级上限突破</li>
-<li><strong>【✨优化】</strong> 重制了主窗口的标题栏样式 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3167" target="_blank" rel="noopener noreferrer">#3167</a></li>
-<li><strong>【🔨修复】</strong> 修复了前瞻直播兑换码尚未准备好时会显示空的兑换码条目的问题</li>
+<li><strong>【🔨修复】</strong> 修复了我的角色页面批量添加到养成计划时会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3172" target="_blank" rel="noopener noreferrer">#3172</a></li>
+<li><strong>【🔨修复】</strong> 修复了设置页面切换背景图片类型后不会立即刷新的问题</li>
+<li><strong>【🔨修复】</strong> [Internal] 修复了崩溃时用户反馈不会与 Sentry 事件关联的问题</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -2386,7 +2383,13 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.16.2 </h2>
+<h2>1.16.3 </h2>
+<ul>
+<li><strong>【🔨修复】</strong> 修复了我的角色页面批量添加到养成计划时会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3172" target="_blank" rel="noopener noreferrer">#3172</a></li>
+<li><strong>【🔨修复】</strong> 修复了设置页面切换背景图片类型后不会立即刷新的问题</li>
+<li><strong>【🔨修复】</strong> [Internal] 修复了崩溃时用户反馈不会与 Sentry 事件关联的问题</li>
+</ul>
+<h2>1.16.2</h2>
 <ul>
 <li><strong>【🎉新增】</strong> 启动游戏注入选项新增须臾树脂领取奖励开关 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3147" target="_blank" rel="noopener noreferrer">#3147</a></li>
 <li><strong>【✨优化】</strong> 幻想真境剧诗支持识别月谕模式及其圣牌挑战 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3165" target="_blank" rel="noopener noreferrer">#3165</a></li>
