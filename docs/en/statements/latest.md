@@ -16,10 +16,10 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.16.3
+# 🎉 Successfully Updated to Version 1.16.4
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🔨Fix]** Fixed a crash that could occur when bulk-adding characters to the Development Plan from the My Characters page [#3172](https://github.com/DGP-Studio/Snap.Hutao/issues/3172)
-- **[🔨Fix]** Fixed an issue where changing the background image type on the Settings page would not refresh immediately
-- **[🔨Fix]** [Internal] Fixed an issue where user feedback on crashes was not associated with the corresponding Sentry event
+- **[🎉New]** Refreshed the language settings page in the initial guide window
+- **[🔨Fix]** Fixed an issue where a download failure prompt could appear after metadata files finished downloading
+- **[🔨Fix]** Fixed an issue where enabling injection options could prevent entering the game's gate

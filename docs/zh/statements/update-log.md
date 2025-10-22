@@ -10,7 +10,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # 更新日志
 
-## 1.16.3 <Badge text="最新版" type="tip" />
+## 1.16.4 <Badge text="最新版" type="tip" />
+
+- **【🎉新增】** 引导窗口语言设置界面焕新
+- **【🔨修复】** 修复了下载元数据文件完成后会意外的提示下载失败的问题
+- **【🔨修复】** 修复了启用注入选项后无法进入游戏的问题
+
+## 1.16.3
 
 - **【🔨修复】** 修复了我的角色页面批量添加到养成计划时会导致崩溃的问题 [#3172](https://github.com/DGP-Studio/Snap.Hutao/issues/3172)
 - **【🔨修复】** 修复了设置页面切换背景图片类型后不会立即刷新的问题
