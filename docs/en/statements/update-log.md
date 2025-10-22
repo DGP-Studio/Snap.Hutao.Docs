@@ -11,7 +11,13 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.16.2 <Badge text="latest" type="tip" />
+## 1.16.4 <Badge text="latest" type="tip" />
+
+- **[🎉New]** Refreshed the language settings page in the initial guide window
+- **[🔨Fix]** Fixed an issue where a download failure prompt could appear after metadata files finished downloading
+- **[🔨Fix]** Fixed an issue where enabling injection options could prevent launching the game
+
+## 1.16.3
 
 - **[🔨Fix]** Fixed a crash that could occur when bulk-adding characters to the Development Plan from the My Characters page [#3172](https://github.com/DGP-Studio/Snap.Hutao/issues/3172)
 - **[🔨Fix]** Fixed an issue where changing the background image type on the Settings page would not refresh immediately
