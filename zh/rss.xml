@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 20 Oct 2025 03:48:05 GMT</pubDate>
-    <lastBuildDate>Mon, 20 Oct 2025 03:48:05 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Oct 2025 09:10:33 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Oct 2025 09:10:33 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -115,18 +115,18 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/loopback.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>🎉 已成功更新至 1.16.3 版本</title>
+      <title>🎉 已成功更新至 1.16.4 版本</title>
       <link>https://hut.ao/zh/statements/latest.html</link>
       <guid>https://hut.ao/zh/statements/latest.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.16.3 版本</source>
-      <description>🎉 已成功更新至 1.16.3 版本 简体中文 | 【🔨修复】 修复了我的角色页面批量添加到养成计划时会导致崩溃的问题 #3172 【🔨修复】 修复了设置页面切换背景图片类型后不会立即刷新的问题 【🔨修复】 [Internal] 修复了崩溃时用户反馈不会与 Sentry 事件关联的问题</description>
+      <source url="https://hut.ao/zh/rss.xml">🎉 已成功更新至 1.16.4 版本</source>
+      <description>🎉 已成功更新至 1.16.4 版本 简体中文 | 【🎉新增】 引导窗口语言设置界面焕新 【🔨修复】 修复了下载元数据文件完成后会意外的提示下载失败的问题 【🔨修复】 修复了启用注入选项后无法进入游戏的问题</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><strong>简体中文</strong> | <a href="/en/statements/latest.html" target="_blank">English</a></p>
 <ul>
-<li><strong>【🔨修复】</strong> 修复了我的角色页面批量添加到养成计划时会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3172" target="_blank" rel="noopener noreferrer">#3172</a></li>
-<li><strong>【🔨修复】</strong> 修复了设置页面切换背景图片类型后不会立即刷新的问题</li>
-<li><strong>【🔨修复】</strong> [Internal] 修复了崩溃时用户反馈不会与 Sentry 事件关联的问题</li>
+<li><strong>【🎉新增】</strong> 引导窗口语言设置界面焕新</li>
+<li><strong>【🔨修复】</strong> 修复了下载元数据文件完成后会意外的提示下载失败的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启用注入选项后无法进入游戏的问题</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -2383,7 +2383,13 @@
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.16.3 </h2>
+<h2>1.16.4 </h2>
+<ul>
+<li><strong>【🎉新增】</strong> 引导窗口语言设置界面焕新</li>
+<li><strong>【🔨修复】</strong> 修复了下载元数据文件完成后会意外的提示下载失败的问题</li>
+<li><strong>【🔨修复】</strong> 修复了启用注入选项后无法进入游戏的问题</li>
+</ul>
+<h2>1.16.3</h2>
 <ul>
 <li><strong>【🔨修复】</strong> 修复了我的角色页面批量添加到养成计划时会导致崩溃的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3172" target="_blank" rel="noopener noreferrer">#3172</a></li>
 <li><strong>【🔨修复】</strong> 修复了设置页面切换背景图片类型后不会立即刷新的问题</li>

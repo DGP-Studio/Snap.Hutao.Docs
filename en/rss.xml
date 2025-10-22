@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 20 Oct 2025 03:48:05 GMT</pubDate>
-    <lastBuildDate>Mon, 20 Oct 2025 03:48:05 GMT</lastBuildDate>
+    <pubDate>Wed, 22 Oct 2025 09:10:33 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Oct 2025 09:10:33 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,18 +112,18 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.16.3</title>
+      <title>🎉 Successfully Updated to Version 1.16.4</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.16.3</source>
-      <description>🎉 Successfully Updated to Version 1.16.3 | English [🔨Fix] Fixed a crash that could occur when bulk-adding characters to the Development Plan from the My Characters page #3172 ...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.16.4</source>
+      <description>🎉 Successfully Updated to Version 1.16.4 | English [🎉New] Refreshed the language settings page in the initial guide window [🔨Fix] Fixed an issue where a download failure prom...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🔨Fix]</strong> Fixed a crash that could occur when bulk-adding characters to the Development Plan from the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3172" target="_blank" rel="noopener noreferrer">#3172</a></li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where changing the background image type on the Settings page would not refresh immediately</li>
-<li><strong>[🔨Fix]</strong> [Internal] Fixed an issue where user feedback on crashes was not associated with the corresponding Sentry event</li>
+<li><strong>[🎉New]</strong> Refreshed the language settings page in the initial guide window</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where a download failure prompt could appear after metadata files finished downloading</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where enabling injection options could prevent entering the game's gate</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -2339,7 +2339,13 @@ community members can contribute Japanese language on <a href="https://translate
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.16.2 </h2>
+<h2>1.16.4 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Refreshed the language settings page in the initial guide window</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where a download failure prompt could appear after metadata files finished downloading</li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where enabling injection options could prevent launching the game</li>
+</ul>
+<h2>1.16.3</h2>
 <ul>
 <li><strong>[🔨Fix]</strong> Fixed a crash that could occur when bulk-adding characters to the Development Plan from the My Characters page <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3172" target="_blank" rel="noopener noreferrer">#3172</a></li>
 <li><strong>[🔨Fix]</strong> Fixed an issue where changing the background image type on the Settings page would not refresh immediately</li>
