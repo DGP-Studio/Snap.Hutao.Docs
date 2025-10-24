@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Wed, 22 Oct 2025 09:10:33 GMT</pubDate>
-    <lastBuildDate>Wed, 22 Oct 2025 09:10:33 GMT</lastBuildDate>
+    <pubDate>Fri, 24 Oct 2025 14:22:04 GMT</pubDate>
+    <lastBuildDate>Fri, 24 Oct 2025 14:22:04 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -112,18 +112,23 @@
       <enclosure url="https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp" type="image/webp"/>
     </item>
     <item>
-      <title>🎉 Successfully Updated to Version 1.16.4</title>
+      <title>🎉 Successfully Updated to Version 1.16.5</title>
       <link>https://hut.ao/en/statements/latest.html</link>
       <guid>https://hut.ao/en/statements/latest.html</guid>
-      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.16.4</source>
-      <description>🎉 Successfully Updated to Version 1.16.4 | English [🎉New] Refreshed the language settings page in the initial guide window [🔨Fix] Fixed an issue where a download failure prom...</description>
+      <source url="https://hut.ao/en/rss.xml">🎉 Successfully Updated to Version 1.16.5</source>
+      <description>🎉 Successfully Updated to Version 1.16.5 | English [🎉New] Added a touch input detection toggle in the Settings page. When enabled, it detects touch input and forces the touch ...</description>
       <pubDate>Mon, 08 Jul 2024 01:54:29 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><a href="/zh/statements/latest.html" target="_blank">简体中文</a> | <strong>English</strong></p>
 <ul>
-<li><strong>[🎉New]</strong> Refreshed the language settings page in the initial guide window</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where a download failure prompt could appear after metadata files finished downloading</li>
-<li><strong>[🔨Fix]</strong> Fixed an issue where enabling injection options could prevent entering the game's gate</li>
+<li><strong>[🎉New]</strong> Added a touch input detection toggle in the Settings page. When enabled, it detects touch input and forces the touch input option in game launch - injection to be enabled/disabled <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3186" target="_blank" rel="noopener noreferrer">#3186</a></li>
+<li><strong>[🎉New]</strong> Merged October's new internationalization translation content</li>
+<li><strong>[✨Optimization]</strong> Real-time Notes now show the absolute time when resources are fully recovered, instead of the remaining time until full <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3216" target="_blank" rel="noopener noreferrer">#3216</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash that could occur when entering the Thousand-Star Encounter challenge after launching the game with injection enabled <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3194" target="_blank" rel="noopener noreferrer">#3194</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where importing via Embedded Yae in Achievement Manager and Development Plan would fail or throw errors <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3196" target="_blank" rel="noopener noreferrer">#3196</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash on the My Characters page that could occur after refreshing the character list <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3199" target="_blank" rel="noopener noreferrer">#3199</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash on the Spiral Abyss page that could occur after refreshing the character list <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3205" target="_blank" rel="noopener noreferrer">#3205</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where installing the game would display an error prompt</li>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
@@ -2339,7 +2344,18 @@ community members can contribute Japanese language on <a href="https://translate
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>1.16.4 </h2>
+<h2>1.16.5 </h2>
+<ul>
+<li><strong>[🎉New]</strong> Added a touch input detection toggle in the Settings page. When enabled, it detects touch input and forces the touch input option in game launch - injection to be enabled/disabled <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3186" target="_blank" rel="noopener noreferrer">#3186</a></li>
+<li><strong>[🎉New]</strong> Merged October's new internationalization translation content</li>
+<li><strong>[✨Optimization]</strong> Real-time Notes now show the absolute time when resources are fully recovered, instead of the remaining time until full <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3216" target="_blank" rel="noopener noreferrer">#3216</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash that could occur when entering the Thousand-Star Encounter challenge after launching the game with injection enabled <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3194" target="_blank" rel="noopener noreferrer">#3194</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where importing via Embedded Yae in Achievement Manager and Development Plan would fail or throw errors <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3196" target="_blank" rel="noopener noreferrer">#3196</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash on the My Characters page that could occur after refreshing the character list <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3199" target="_blank" rel="noopener noreferrer">#3199</a></li>
+<li><strong>[🔨Fix]</strong> Fixed a crash on the Spiral Abyss page that could occur after refreshing the character list <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/3205" target="_blank" rel="noopener noreferrer">#3205</a></li>
+<li><strong>[🔨Fix]</strong> Fixed an issue where installing the game would display an error prompt</li>
+</ul>
+<h2>1.16.4</h2>
 <ul>
 <li><strong>[🎉New]</strong> Refreshed the language settings page in the initial guide window</li>
 <li><strong>[🔨Fix]</strong> Fixed an issue where a download failure prompt could appear after metadata files finished downloading</li>
