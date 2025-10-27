@@ -38,7 +38,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
     title="胡桃 QQ 公告群"
     desc="仅用于发布公告，适合习惯潜水而不希望错过重要消息的用户"
     logo="/images/202312/tencent.svg"
-    link="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uxqsxPJPB_jOVbMFOzZv5LcDyIF2HAiu&authKey=Deo2c2ZhmqSAQ%2BGUL0ItD7bYtYG5blYxQor25BXoCcaCGllZYtZ4eDNwZ3yZz8gH&noverify=0&group_code=531960040"
+    link="https://qun.qq.com/universal-share/share?ac=1&authKey=cMD5dtedhqAh1zwnqYK39BY68wgKDFGGy9NMzP0p%2Fhr7CTiQMrMjGXz3MtqHeC4D&busi_data=eyJncm91cENvZGUiOiI4MDE4ODAyOTAiLCJ0b2tlbiI6IkhMN1haYnA0cjB3V3pUdGI2enpjSXAvdG4zL1pPSXZkWHYzUzdTMDByQ0tUQ3BXMkRBZklxTzZKOW5SckFSYjYiLCJ1aW4iOiI1NjI5NjEwNDgifQ%3D%3D&data=KI14eq9rziPTNyXn3cUiVL6N1BPLB_tHzF-QLBqUMWgk0rIE89ahlllfyPEkdEJ5D0zSLwuyd3DDto14JGvq3g&svctype=4&tempid=h5_group_info"
     background="rgba(245, 158, 0, 0.15)"
   />
   <VPCard
