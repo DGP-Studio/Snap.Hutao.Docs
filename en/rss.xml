@@ -6,8 +6,8 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 27 Oct 2025 07:44:46 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Oct 2025 07:44:46 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Oct 2025 07:55:37 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Oct 2025 07:55:37 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>FAQ</category>
@@ -711,10 +711,10 @@ The above image shows the expected display effect of this step under a complete 
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/known-issue.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>Update Logs</title>
+      <title>Update Logs Older than Version 1.15.0</title>
       <link>https://hut.ao/en/statements/update-log-pre-1.15.0-archive.html</link>
       <guid>https://hut.ao/en/statements/update-log-pre-1.15.0-archive.html</guid>
-      <source url="https://hut.ao/en/rss.xml">Update Logs</source>
+      <source url="https://hut.ao/en/rss.xml">Update Logs Older than Version 1.15.0</source>
       <description>Snap Hutao strives to provide users with the best user experience by continuously updating and fixing known issues and releasing new features. We will always publish update logs to track the changes made to the program.</description>
       <category>Announcement</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>

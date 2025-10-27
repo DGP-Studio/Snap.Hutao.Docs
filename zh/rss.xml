@@ -6,8 +6,8 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 27 Oct 2025 07:44:46 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Oct 2025 07:44:46 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Oct 2025 07:55:37 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Oct 2025 07:55:37 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>功能</category>
@@ -747,10 +747,10 @@
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/known-issue.html&amp;has_description=False" type="image/"/>
     </item>
     <item>
-      <title>更新日志</title>
+      <title>早于 1.15.0 版本的更新日志</title>
       <link>https://hut.ao/zh/statements/update-log-pre-1.15.0-archive.html</link>
       <guid>https://hut.ao/zh/statements/update-log-pre-1.15.0-archive.html</guid>
-      <source url="https://hut.ao/zh/rss.xml">更新日志</source>
+      <source url="https://hut.ao/zh/rss.xml">早于 1.15.0 版本的更新日志</source>
       <description>Snap Hutao 通过持续地更新修复已知问题并发布全新功能，以保证用户获得最好的使用体验，我们将始终发布更新日志以追踪程序的变化。</description>
       <category>公告</category>
       <pubDate>Sat, 11 Feb 2023 08:39:29 GMT</pubDate>
@@ -2583,6 +2583,8 @@
 <li><strong>【🔨修复】</strong> 修复了查看部分角色的部分天赋或技能时会导致死循环的问题 <a href="https://github.com/DGP-Studio/Snap.Hutao/issues/2789" target="_blank" rel="noopener noreferrer">#2789</a></li>
 <li><strong>【🔨修复】</strong> 其他已知的问题</li>
 </ul>
+<h2>1.14.9 及更早版本</h2>
+<p><strong>如需早于 1.15.0 版本的更新日志，请查阅 <a href="/zh/statements/update-log-pre-1.15.0-archive.html" target="_blank"><code>早于 1.15.0 版本的更新日志</code></a> 一文</strong></p>
 ]]></content:encoded>
       <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html" type="image/"/>
     </item>
