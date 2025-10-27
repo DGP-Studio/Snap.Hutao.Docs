@@ -1,6 +1,7 @@
 ---
 category: [公告]
 icon: iconfont icon-update
+index: false
 order: 1
 comment: false
 externalLinkIcon: false
@@ -8,7 +9,7 @@ description: Snap Hutao 通过持续地更新修复已知问题并发布全新�
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html
 ---
 
-# 更新日志
+# 早于 1.15.0 版本的更新日志
 
 ## 1.14.9
 

@@ -3,13 +3,14 @@ category:
   - Announcement
 icon: iconfont icon-update
 order: 1
+index: false
 comment: false
 externalLinkIcon: false
 description: Snap Hutao strives to provide users with the best user experience by continuously updating and fixing known issues and releasing new features. We will always publish update logs to track the changes made to the program.
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/update-log.html
 ---
 
-# Update Logs
+# Update Logs Older than Version 1.15.0
 
 ## 1.14.9
 

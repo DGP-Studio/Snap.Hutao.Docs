@@ -202,3 +202,8 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 - **[🔨Fix]** Fixed an issue where an incorrect notification about Bilibili channel server not supporting account features would appear when first entering the homepage, game launch page, or updating the game. [#2754](https://github.com/DGP-Studio/Snap.Hutao/issues/2754)
 - **[🔨Fix]** Fixed an issue where viewing certain talents or skills of some characters could cause an infinite loop. [#2789](https://github.com/DGP-Studio/Snap.Hutao/issues/2789)
 - **[🔨Fix]** Other known issues fixed.
+
+---
+## 1.14.9 and Older Versions
+
+**For patch notes older than 1.15.0, please check [`Update Logs Older than Version 1.15.0`](update-log-pre-1.15.0-archive.md)**
