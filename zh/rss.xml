@@ -6,20 +6,56 @@
     <link>https://hut.ao/zh/</link>
     <description>多功能的原神工具箱</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 27 Oct 2025 07:55:37 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Oct 2025 07:55:37 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Oct 2025 06:01:54 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Oct 2025 06:01:54 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>公告</category>
     <category>功能</category>
     <category>教程</category>
     <category>FAQ</category>
     <category>开源</category>
     <category>开发</category>
     <category>开发日志</category>
-    <category>公告</category>
     <category>i18n</category>
     <category>第三方工具</category>
     <category>项目</category>
+    <item>
+      <title>滥用举报</title>
+      <link>https://hut.ao/zh/statements/abuse-report.html</link>
+      <guid>https://hut.ao/zh/statements/abuse-report.html</guid>
+      <source url="https://hut.ao/zh/rss.xml">滥用举报</source>
+      <description>通过向我们举报滥用 Snap Hutao 的行为，让这个项目获得更长久的支持。</description>
+      <category>公告</category>
+      <pubDate>Wed, 29 Oct 2025 06:01:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Snap Hutao 致力于为原神桌面端玩家提供更便捷、更丰富的非破坏性增强体验。我们所有的功能均在不篡改、不干预游戏服务器数据的前提下实现，不会对其他玩家的正常游戏造成任何影响。</p>
+<p>然而，我们<strong>坚决反对</strong>并将严肃处理以下行为：<br>
+通过逆向修改、二次打包或注入第三方模块的方式，<strong>将 Snap Hutao 客户端用于任何形式的破坏性、竞争性或作弊用途</strong>。</p>
+<h2>滥用与作弊行为的定义</h2>
+<p>以下行为均被视为违反 Snap Hutao 使用规范的滥用行为，包括但不限于：</p>
+<ul>
+<li><strong>修改 Snap Hutao 客户端</strong> 以协助或加载具有破坏性或侵入性的作弊模块；</li>
+<li>使用 Snap Hutao 的注入功能或其衍生模块，在<strong>任何形式的竞争性、PVP 或争斗性社区活动中</strong>获取不公平优势；</li>
+<li>对游戏内与战斗、判定、视觉相关的参数（如 “视野角度”、“元素爆发镜头” 等）进行修改后，仍参与上述竞争性活动；</li>
+<li>将 Snap Hutao 注入功能用于与原项目目的不符的用途，包括但不限于：破坏他人游戏体验、伪造客户端数据、或欺诈性展示游戏效果。</li>
+</ul>
+<blockquote>
+<p>⚠️ 注意：Snap Hutao 的“注入”功能本质上是通过内存修改实现游戏交互的技术手段。<br>
+我们仅在<strong>单人、非竞争性</strong>场景下提供此功能，以改善用户体验，不构成狭义上的“外挂”或“作弊工具”。一旦用户将此功能用于<strong>多人或竞争性场景</strong>，即被视为滥用，与 Snap Hutao 官方立场无关。</p>
+</blockquote>
+<h2>举报流程</h2>
+<p>当你在公开社区、论坛或视频平台中发现上述行为时，可通过以下方式举报：</p>
+<ol>
+<li>加入 <a href="/zh/community.html" target="_blank">Snap Hutao 社区</a>；</li>
+<li>联系任意非机器人管理员；</li>
+<li>提供清晰的证据（如截图、视频链接或相关记录）。</li>
+</ol>
+<p>在证据充分的情况下，我们将对违规者关联的游戏 UID 执行<strong>功能封禁</strong>。<br>
+被封禁的账户将无法使用 Snap Hutao 高级启动器中的注入功能。</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/abuse-report.html" type="image/"/>
+    </item>
     <item>
       <title>幻想真境剧诗</title>
       <link>https://hut.ao/zh/features/imaginarium-theater.html</link>

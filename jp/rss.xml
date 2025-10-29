@@ -6,8 +6,8 @@
     <link>https://hut.ao/jp/</link>
     <description>超実用的な原神インパクトツールキット</description>
     <language>ja-JP</language>
-    <pubDate>Mon, 27 Oct 2025 07:55:37 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Oct 2025 07:55:37 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Oct 2025 06:01:54 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Oct 2025 06:01:54 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>お知らせ</category>
@@ -21,6 +21,44 @@
     <category>開発ログ</category>
     <category>オープンソース</category>
     <category>開発</category>
+    <item>
+      <title>不正使用の報告</title>
+      <link>https://hut.ao/jp/statements/abuse-report.html</link>
+      <guid>https://hut.ao/jp/statements/abuse-report.html</guid>
+      <source url="https://hut.ao/jp/rss.xml">不正使用の報告</source>
+      <description>Snap Hutao の不正使用を報告し、プロジェクトの長期的な運営を支えましょう。</description>
+      <category>お知らせ</category>
+      <pubDate>Wed, 29 Oct 2025 06:01:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Snap Hutao は、PC版『原神』プレイヤーに対し、より便利で安全かつ非破壊的な拡張体験を提供することを目的としています。<br>
+当ソフトウェアのすべての機能は、ゲームサーバーのデータを改変・干渉することなく実装されており、他のプレイヤーの通常プレイには一切影響を与えません。</p>
+<p>しかし、私たちは以下の行為を<strong>明確に禁止し、厳重に対処します</strong>：<br>
+リバースエンジニアリング、再パッケージ、または第三者モジュールの注入などにより、<strong>Snap Hutao クライアントを破壊的・競技的・不正行為の目的で使用すること</strong>。</p>
+<h2>不正使用およびチート行為の定義</h2>
+<p>以下の行為は、Snap Hutao の利用規約に違反する「不正使用」とみなされます（これに限りません）：</p>
+<ul>
+<li><strong>Snap Hutao クライアントを改変</strong>して破壊的または侵入的なチートモジュールを読み込む行為；</li>
+<li>Snap Hutao の注入機能またはその派生モジュールを利用し、<strong>PvP や競技的コミュニティ活動</strong>で不当な優位を得る行為；</li>
+<li>戦闘・判定・視覚に関するゲーム内パラメータ（例：「視野角」「元素爆発カメラ」など）を改変した状態で競技に参加する行為；</li>
+<li>Snap Hutao の注入機能を本来の目的と異なる用途に使用する行為（他プレイヤーの体験妨害、クライアントデータの偽造、虚偽的なプレイ映像の作成など）。</li>
+</ul>
+<blockquote>
+<p>⚠️ <strong>注意：</strong> Snap Hutao の「注入」機能は、メモリ改変を通じてゲームと連携する技術的手段です。<br>
+この機能は、<strong>シングルプレイ・非競技的環境</strong>での体験向上のためにのみ提供しており、一般的な意味での「チートツール」ではありません。<br>
+<strong>マルチプレイや競技的場面</strong>での使用は「不正使用」と見なされ、Snap Hutao 公式の立場とは<strong>一切関係ありません</strong>。</p>
+</blockquote>
+<h2>報告手順</h2>
+<p>上記のような行為をコミュニティ、フォーラム、動画プラットフォームなどで発見した場合、以下の手順で報告できます：</p>
+<ol>
+<li><a href="/jp/community.html" target="_blank">Snap Hutao コミュニティ</a>に参加；</li>
+<li>ボットではない管理者に連絡；</li>
+<li>明確な証拠（スクリーンショット、動画リンク、記録など）を提供。</li>
+</ol>
+<p>十分な証拠が確認された場合、対象プレイヤーのゲーム UID に対し<strong>機能停止処分</strong>を行います。<br>
+処分されたアカウントは、Snap Hutao 高度ランチャーの注入機能を使用できなくなります。</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/ja/statements/abuse-report.html" type="image/"/>
+    </item>
     <item>
       <title>声明とお知らせ</title>
       <link>https://hut.ao/jp/statements/</link>

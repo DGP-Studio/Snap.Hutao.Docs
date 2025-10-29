@@ -6,10 +6,11 @@
     <link>https://hut.ao/en/</link>
     <description>Super utilitarian Genshin Impact Toolkit</description>
     <language>en-US</language>
-    <pubDate>Mon, 27 Oct 2025 07:55:37 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Oct 2025 07:55:37 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Oct 2025 06:01:54 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Oct 2025 06:01:54 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Announcement</category>
     <category>FAQ</category>
     <category>Features</category>
     <category>Tutorials</category>
@@ -19,10 +20,47 @@
     <category>Development</category>
     <category>Dev Logs</category>
     <category>Functionality</category>
-    <category>Announcement</category>
     <category>i18n</category>
     <category>Third-Party Tools</category>
     <category>Project</category>
+    <item>
+      <title>Abuse Report</title>
+      <link>https://hut.ao/en/statements/abuse-report.html</link>
+      <guid>https://hut.ao/en/statements/abuse-report.html</guid>
+      <source url="https://hut.ao/en/rss.xml">Abuse Report</source>
+      <description>Report any misuse of Snap Hutao to help ensure the long-term sustainability of this project.</description>
+      <category>Announcement</category>
+      <pubDate>Wed, 29 Oct 2025 06:01:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Snap Hutao is committed to providing Genshin Impact desktop players with a more convenient and enhanced non-destructive experience.<br>
+All of our features are implemented without altering or interfering with the game’s server data, ensuring that they do not affect other players’ normal gameplay in any way.</p>
+<p>However, we <strong>strongly oppose</strong> and will take serious action against the following behaviors:<br>
+Any reverse engineering, repackaging, or injection of third-party modules that <strong>use the Snap Hutao client for destructive, competitive, or cheating purposes</strong>.</p>
+<h2>Definition of Abuse and Cheating</h2>
+<p>The following actions are considered violations of Snap Hutao’s usage policy and constitute abuse, including but not limited to:</p>
+<ul>
+<li><strong>Modifying the Snap Hutao client</strong> to assist or load destructive or intrusive cheating modules;</li>
+<li>Using Snap Hutao’s injection feature or any of its derivatives to gain unfair advantages in <strong>any form of competitive, PvP, or confrontational community activity</strong>;</li>
+<li>Modifying in-game parameters related to combat, logic, or visuals (such as “field of view” or “elemental burst camera”) and then participating in the above competitive activities;</li>
+<li>Using the Snap Hutao injection feature for purposes inconsistent with the project’s intent, including but not limited to disrupting other players’ experiences, falsifying client data, or creating deceptive gameplay demonstrations.</li>
+</ul>
+<blockquote>
+<p>⚠️ <strong>Note:</strong> The “injection” feature of Snap Hutao is a technical mechanism that interacts with the game through in-memory modification.<br>
+We only provide this feature for <strong>single-player, non-competitive</strong> use to improve the player experience. It is <strong>not</strong> an “exploit” or “cheat tool” in the conventional sense.<br>
+Any use of this feature in <strong>multiplayer or competitive contexts</strong> will be deemed abuse and bears <strong>no association with the official stance of Snap Hutao</strong>.</p>
+</blockquote>
+<h2>Reporting Procedure</h2>
+<p>If you discover any of the above behaviors in public communities, forums, or video platforms, you may report them through the following steps:</p>
+<ol>
+<li>Join the <a href="/en/community.html" target="_blank">Snap Hutao Community</a>;</li>
+<li>Contact any non-bot administrator;</li>
+<li>Provide clear evidence (such as screenshots, video links, or relevant records).</li>
+</ol>
+<p>If sufficient evidence is provided, we will impose a <strong>feature ban</strong> on the offending game UID.<br>
+Banned accounts will be unable to use the injection feature in the Snap Hutao Advanced Launcher.</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statements/abuse-report.html" type="image/"/>
+    </item>
     <item>
       <title>Loopback Network</title>
       <link>https://hut.ao/en/advanced/loopback.html</link>

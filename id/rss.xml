@@ -6,10 +6,11 @@
     <link>https://hut.ao/id/</link>
     <description>Alat Bantu Genshin Impact yang Sangat Utilitarian</description>
     <language>id-ID</language>
-    <pubDate>Mon, 27 Oct 2025 07:55:37 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Oct 2025 07:55:37 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Oct 2025 06:01:54 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Oct 2025 06:01:54 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Pengumuman</category>
     <category>FAQ</category>
     <category>Feature</category>
     <category>Tutorial</category>
@@ -23,6 +24,44 @@
     <category>Dev Logs</category>
     <category>Open Source</category>
     <category>Development</category>
+    <item>
+      <title>Laporan Penyalahgunaan</title>
+      <link>https://hut.ao/id/statements/abuse-report.html</link>
+      <guid>https://hut.ao/id/statements/abuse-report.html</guid>
+      <source url="https://hut.ao/id/rss.xml">Laporan Penyalahgunaan</source>
+      <description>Laporkan penyalahgunaan Snap Hutao untuk membantu menjaga keberlangsungan proyek ini.</description>
+      <category>Pengumuman</category>
+      <pubDate>Wed, 29 Oct 2025 06:01:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Snap Hutao berkomitmen untuk memberikan pengalaman bermain Genshin Impact di PC yang lebih nyaman dan kaya fitur tanpa modifikasi yang merusak.<br>
+Semua fitur kami dibuat tanpa mengubah atau mengganggu data server game, sehingga tidak memengaruhi permainan normal pemain lain.</p>
+<p>Namun, kami <strong>menentang keras</strong> dan akan menindak tegas perilaku berikut:<br>
+Setiap upaya rekayasa balik, repackaging, atau penyuntikan modul pihak ketiga yang <strong>menggunakan klien Snap Hutao untuk tujuan destruktif, kompetitif, atau curang</strong>.</p>
+<h2>Definisi Penyalahgunaan dan Kecurangan</h2>
+<p>Tindakan berikut dianggap melanggar kebijakan penggunaan Snap Hutao dan termasuk dalam kategori penyalahgunaan, di antaranya:</p>
+<ul>
+<li><strong>Memodifikasi klien Snap Hutao</strong> untuk membantu atau memuat modul curang yang merusak atau mengganggu;</li>
+<li>Menggunakan fitur injeksi Snap Hutao atau turunannya untuk memperoleh keuntungan tidak adil dalam <strong>kegiatan komunitas kompetitif, PvP, atau bersifat konfrontatif</strong>;</li>
+<li>Mengubah parameter dalam game yang berkaitan dengan pertempuran, logika, atau visual (seperti “sudut pandang” atau “kamera ledakan elemen”) dan tetap berpartisipasi dalam aktivitas kompetitif;</li>
+<li>Menggunakan fitur injeksi Snap Hutao untuk tujuan di luar maksud asli proyek, termasuk tetapi tidak terbatas pada: mengganggu pengalaman pemain lain, memalsukan data klien, atau menampilkan gameplay yang menipu.</li>
+</ul>
+<blockquote>
+<p>⚠️ <strong>Catatan:</strong> Fitur “injeksi” Snap Hutao adalah mekanisme teknis yang berinteraksi dengan game melalui modifikasi memori.<br>
+Kami hanya menyediakan fitur ini untuk penggunaan <strong>solo dan non-kompetitif</strong> guna meningkatkan pengalaman bermain. Fitur ini <strong>bukan</strong> “cheat” dalam arti konvensional.<br>
+Penggunaan dalam <strong>mode multipemain atau kompetitif</strong> dianggap sebagai penyalahgunaan dan <strong>tidak berhubungan dengan posisi resmi Snap Hutao</strong>.</p>
+</blockquote>
+<h2>Prosedur Pelaporan</h2>
+<p>Jika Anda menemukan perilaku seperti yang disebutkan di atas di komunitas publik, forum, atau platform video, Anda dapat melaporkannya melalui langkah berikut:</p>
+<ol>
+<li>Bergabung dengan <a href="/id/community.html" target="_blank">Komunitas Snap Hutao</a>;</li>
+<li>Hubungi salah satu administrator non-bot;</li>
+<li>Berikan bukti yang jelas (tangkapan layar, tautan video, atau rekaman terkait).</li>
+</ol>
+<p>Jika bukti yang diberikan cukup, kami akan memberlakukan <strong>pemblokiran fitur</strong> pada UID game pelaku.<br>
+Akun yang diblokir tidak akan dapat menggunakan fitur injeksi di Snap Hutao Advanced Launcher.</p>
+]]></content:encoded>
+      <enclosure url="https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/id/statements/abuse-report.html" type="image/"/>
+    </item>
     <item>
       <title>Jaringan Loopback</title>
       <link>https://hut.ao/id/advanced/loopback.html</link>
