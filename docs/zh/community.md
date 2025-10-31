@@ -35,6 +35,13 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
     background="rgba(228, 0, 54, 0.15)"
   />
   <VPCard
+    title="胡桃 QQ 用户群 3"
+    desc="663880229"
+    logo="/images/202312/tencent.svg"
+    link="https://qm.qq.com/q/uIYmNeEqWc"
+    background="rgba(228, 0, 54, 0.15)"
+  />
+  <VPCard
     title="胡桃 QQ 公告群"
     desc="仅用于发布公告，适合习惯潜水而不希望错过重要消息的用户"
     logo="/images/202312/tencent.svg"
